@@ -60,7 +60,16 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)ì˜ Subgroupì
 
 <p float="left">
   <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_141601.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_141601.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_141612.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_144244.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_145534.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_151459.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154127.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154218.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154240.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154407.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_164627.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_164705.jpg" width="300" />
 </p>
 
 
