@@ -61,17 +61,17 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 * Photos
 
 <p float="left">
-  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_141601.jpg" width="280" />
-  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_141612.jpg" width="280" />
-  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_144244.jpg" width="280" />
-  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_145534.jpg" width="280" />
-  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_151459.jpg" width="280" />
-  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154127.jpg" width="280" />
-  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154218.jpg" width="280" />
-  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154240.jpg" width="280" />
-  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154407.jpg" width="280" />
-  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_164627.jpg" width="280" />
-  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_164705.jpg" width="280" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_141601.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_141612.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_144244.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_145534.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_151459.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154127.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154218.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154240.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154407.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_164627.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_164705.jpg" width="300" />
 </p>
 
 ## 3차 모임
@@ -104,10 +104,10 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 * Photos
 
 <p float="left">
-  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_151150.jpg" width="280" />
-  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_160802.jpg" width="280" />
-  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_160804.jpg" width="280" />
-  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_160805.png" width="280" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_151150.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_160802.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_160804.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_160805.png" width="300" />
 </p>
 
 ## 2차 모임
@@ -137,10 +137,10 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 * Photos
 
 <p float="left">
-  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-06-26.jpeg" width="280" />
-  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-07-27.jpeg" width="280" />
-  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-07-32.jpeg" width="280" />  
-  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-06-08.jpeg" width="280" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-06-26.jpeg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-07-27.jpeg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-07-32.jpeg" width="300" />  
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-06-08.jpeg" width="300" />
   <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-06-14.jpeg" width="600" />
 </p>
 
@@ -169,10 +169,10 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 * Photos
 
 <p float="left">
-  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1410012.jpg" width="280" />
-  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1635591.jpg" width="280" />  
-  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1701106.jpg" width="280" />
-    <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1406369.jpg" width="280" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1410012.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1635591.jpg" width="300" />  
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1701106.jpg" width="300" />
+    <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1406369.jpg" width="300" />
 </p>
 
 * * * 
@@ -196,6 +196,6 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 * Photo
 
 <p float="left">
-  <img src="https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Subgroup/Conformance/2019-11-04/1575426596835.jpg" width="280" />
-  <img src="https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Subgroup/Conformance/2019-11-04/1575426599025.jpg" width="280" />  
+  <img src="https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Subgroup/Conformance/2019-11-04/1575426596835.jpg" width="300" />
+  <img src="https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Subgroup/Conformance/2019-11-04/1575426599025.jpg" width="300" />  
 </p>
