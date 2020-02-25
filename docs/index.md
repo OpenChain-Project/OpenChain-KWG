@@ -105,6 +105,6 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)ì˜ Subgroupì
   <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_151150.jpg" width="300" />
   <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_160802.jpg" width="300" />
   <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_160804.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_160805.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_160805.png" width="300" />
 </p>
 
