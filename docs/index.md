@@ -108,3 +108,36 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
   <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_160805.png" width="300" />
 </p>
 
+## 2차 모임
+ * 주관: 삼성전자
+ * 일정: 2019-06-12 (수) 오후2시 - 5시
+ * 장소: 삼성전자 서울R&D캠퍼스(우면동) E타워 1층 107회의실
+ * Agenda
+
+| No  | Agenda                                        | Speaker                         | Slide   |
+|:----|:----------------------------------------------|:---------------------------------|:------|
+| 1   | OpenChain Today and Tomorrow                              | Shane Coughlan, Linux Foundation  | [openchainthirdkoreanworkshop-190909143700.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-06-12/Slides/openchaintodayandtomorrow-190612090644.pdf) |
+| 2   | 기업 내 Open Source 검증 시스템 구축 현황   | 삼성전자 조재민                 |   |
+| 3   | Open Source 분석 도구 검토 현황                         | 삼성전자 김희성                       |   |
+| 4   | Open Source Compliance Tool based on Open Source                           | LG전자 장학성                       | [FOSSology & SW360](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-06-12/Slides/036_oss_tooling_20190506_fossology_and_sw360_updates_04.pdf), [Open Source Compliance Toolchain](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-06-12/Slides/oss-compliance-toolcahin-2019.pdf), [ClearlyDefined](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-06-12/Slides/ClearlyDefined-Crowdsourcing-Project-Security-and-Licensing-Data-Jeff-McAffer-Microsoft.pdf) |
+| 5   | Free Discussion                                | All                               |            |
+
+* 참여 기업
+  - KT (1)
+  - KTDS (2)
+  - LG전자 (9)
+  - NCSOFT (2)
+  - SK텔레콤 (1)
+  - 삼성전자 (7)
+  - 카카오 (5)
+  - 현대자동차 (3)
+
+* Photos
+
+<p float="left">
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-06-08.jpeg" width="300" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-09-04/Photos/kakaotalk_photo_2019-06-13-23-06-14.jpeg" width="300" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-09-04/Photos/kakaotalk_photo_2019-06-13-23-06-26.jpeg" width="300" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-09-04/Photos/kakaotalk_photo_2019-06-13-23-07-27.jpeg" width="300" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-09-04/Photos/kakaotalk_photo_2019-06-13-23-07-32.jpeg" width="300" />
+</p>
