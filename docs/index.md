@@ -80,10 +80,10 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 
 | No  | Agenda                                        | Speaker                         | Slide   |
 |:----|:----------------------------------------------|:---------------------------------|:------|
-| 1   | State of the Union                              | Shane Coughlan, Linux Foundation  | [a_brief_introduction_to_openchain.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/a_brief_introduction_to_openchain.pdf)  |
-| 2   | SK텔레콤 T-hub 시스템 (전사 개발자 Community) 소개   | SK텔레콤 김상기                 |           |
-| 3   | 오픈소스 소프트웨어 라이선스 검증기                         | 엔씨소프트 한지호                       | [fossology_introduction_openchain_kwg.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/fossology_introduction_openchain_kwg.pdf) |
-| 4   | OpenChain 따라잡기                           | LG전자 장학성                       | [openchain_kwg_update_2019-12-02.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/openchain_kwg_update_2019-12-02.pdf) |
+| 1   | State of the Union                              | Shane Coughlan, Linux Foundation  | [openchainthirdkoreanworkshop-190909143700.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-09-04/slides/openchainthirdkoreanworkshop-190909143700.pdf) |
+| 2   | SK텔레콤 T-hub 시스템 (전사 개발자 Community) 소개   | SK텔레콤 김상기                 |  [t-hub_소개_v1.0_외부배포용.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-09-04/slides/t-hub_소개_v1.0_외부배포용.pdf) |
+| 3   | 오픈소스 소프트웨어 라이선스 검증기                         | 엔씨소프트 한지호                       | [오픈소스_소프트웨어_검증기_wg공유_20190904_공유용.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-09-04/slides/오픈소스_소프트웨어_검증기_wg공유_20190904_공유용.pdf) |
+| 4   | OpenChain 따라잡기                           | LG전자 장학성                       | [openchain따라잡기_2019-09-04.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-09-04/slides/openchain따라잡기_2019-09-04.pdf) |
 | 5   | Free Discussion                                | All                               |            |
 
 * 참여 기업
@@ -102,16 +102,9 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 * Photos
 
 <p float="left">
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_141601.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_141612.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_144244.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_145534.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_151459.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154127.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154218.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154240.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154407.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_164627.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_164705.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_151150.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_160802.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_160804.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_160805.jpg" width="300" />
 </p>
 
