@@ -39,22 +39,22 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 | 5   | Case Study                                     | All                               |          |
 | 6   | Free Discussion                                | All                               |            |
 
-#### Case Study
-* 주제 : Open Source Governance 조직 구성
-  - SK텔레콤 (박철웅) : [openchainkwg_organization_skt_20191202.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/openchainkwg_organization_skt_20191202.pdf)
-  - 엔씨소프트 (한다솜) : [openchain_kwg_case_study_ncsoft_2019-12-02.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/openchain_kwg_case_study_ncsoft_2019-12-02.pdf)
+* Case Study
+  - 주제 : Open Source Governance 조직 구성
+    + SK텔레콤 (박철웅) : [openchainkwg_organization_skt_20191202.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/openchainkwg_organization_skt_20191202.pdf)
+    + 엔씨소프트 (한다솜) : [openchain_kwg_case_study_ncsoft_2019-12-02.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/openchain_kwg_case_study_ncsoft_2019-12-02.pdf)
 
-#### 참여 기업
-  * KTDS
-  * LG전자
-  * SK텔레콤
-  * SK주식회사
-  * 삼성전자
-  * 엔씨소프트
-  * 카카오
-  * 현대모비스
+* 참여 기업
+  - KTDS
+  - LG전자
+  - SK텔레콤
+  - SK주식회사
+  - 삼성전자
+  - 엔씨소프트
+  - 카카오
+  - 현대모비스
 
-#### Photos
+* Photos
 
 <p float="left">
   <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_141601.jpg" width="300" />
