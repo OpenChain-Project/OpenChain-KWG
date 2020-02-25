@@ -36,17 +36,17 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 
 | No  | Agenda                                        | Speaker                         | Slide   |
 |:----|:----------------------------------------------|:---------------------------------|:------|
-| 1   | OpenChain Update                              | Shane Coughlan, Linux Foundation  | [a_brief_introduction_to_openchain.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/a_brief_introduction_to_openchain.pdf)  |
+| 1   | OpenChain Update                              | Shane Coughlan, Linux Foundation  | [a_brief_introduction_to_openchain.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/a_brief_introduction_to_openchain.pdf)  |
 | 2   | 오픈소스 관리포털 및 오픈소스 관리방안                  | Ktds 김상미, 이지현                  |           |
-| 3   | FOSSology 설치와 사용 방법                         | LG전자 박원재                       | [fossology_introduction_openchain_kwg.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/fossology_introduction_openchain_kwg.pdf) |
-| 4   | OpenChain KWG Update                           | LG전자 장학성                       | [openchain_kwg_update_2019-12-02.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/openchain_kwg_update_2019-12-02.pdf) |
+| 3   | FOSSology 설치와 사용 방법                         | LG전자 박원재                       | [fossology_introduction_openchain_kwg.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/fossology_introduction_openchain_kwg.pdf) |`
+| 4   | OpenChain KWG Update                           | LG전자 장학성                       | [openchain_kwg_update_2019-12-02.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/openchain_kwg_update_2019-12-02.pdf) |
 | 5   | Case Study                                     | All                               |          |
 | 6   | Free Discussion                                | All                               |            |
 
 * Case Study
   - 주제 : Open Source Governance 조직 구성
-    + SK텔레콤 (박철웅) : [openchainkwg_organization_skt_20191202.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/openchainkwg_organization_skt_20191202.pdf)
-    + 엔씨소프트 (한다솜) : [openchain_kwg_case_study_ncsoft_2019-12-02.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/openchain_kwg_case_study_ncsoft_2019-12-02.pdf)
+    + SK텔레콤 (박철웅) : [openchainkwg_organization_skt_20191202.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/openchainkwg_organization_skt_20191202.pdf)
+    + 엔씨소프트 (한다솜) : [openchain_kwg_case_study_ncsoft_2019-12-02.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/openchain_kwg_case_study_ncsoft_2019-12-02.pdf)
 
 * 참여 기업
   - KTDS
@@ -82,10 +82,10 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 
 | No  | Agenda                                        | Speaker                         | Slide   |
 |:----|:----------------------------------------------|:---------------------------------|:------|
-| 1   | State of the Union                              | Shane Coughlan, Linux Foundation  | [openchainthirdkoreanworkshop-190909143700.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-09-04/Slides/openchainthirdkoreanworkshop-190909143700.pdf) |
-| 2   | SK텔레콤 T-hub 시스템 (전사 개발자 Community) 소개   | SK텔레콤 김상기                 |  [t-hub_소개_v1.0_외부배포용.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-09-04/Slides/t-hub_v1.0.pdf) |
-| 3   | 오픈소스 소프트웨어 라이선스 검증기                         | 엔씨소프트 한지호                       | [오픈소스_소프트웨어_검증기_wg공유_20190904_공유용.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-09-04/Slides/ncsoft_20190904.pdf) |
-| 4   | OpenChain 따라잡기                           | LG전자 장학성                       | [openchain따라잡기_2019-09-04.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-09-04/Slides/openchain%EB%94%B0%EB%9D%BC%EC%9E%A1%EA%B8%B0_2019-09-04.pdf) |
+| 1   | State of the Union                              | Shane Coughlan, Linux Foundation  | [openchainthirdkoreanworkshop-190909143700.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-09-04/Slides/openchainthirdkoreanworkshop-190909143700.pdf) |
+| 2   | SK텔레콤 T-hub 시스템 (전사 개발자 Community) 소개   | SK텔레콤 김상기                 |  [t-hub_소개_v1.0_외부배포용.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-09-04/Slides/t-hub_v1.0.pdf) |
+| 3   | 오픈소스 소프트웨어 라이선스 검증기                         | 엔씨소프트 한지호                       | [오픈소스_소프트웨어_검증기_wg공유_20190904_공유용.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-09-04/Slides/ncsoft_20190904.pdf) |
+| 4   | OpenChain 따라잡기                           | LG전자 장학성                       | [openchain따라잡기_2019-09-04.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-09-04/Slides/openchain%EB%94%B0%EB%9D%BC%EC%9E%A1%EA%B8%B0_2019-09-04.pdf) |
 | 5   | Free Discussion                                | All                               |            |
 
 * 참여 기업
@@ -118,10 +118,10 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 
 | No  | Agenda                                        | Speaker                         | Slide   |
 |:----|:----------------------------------------------|:---------------------------------|:------|
-| 1   | OpenChain Today and Tomorrow                              | Shane Coughlan, Linux Foundation  | [openchainthirdkoreanworkshop-190909143700.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-06-12/Slides/openchaintodayandtomorrow-190612090644.pdf) |
+| 1   | OpenChain Today and Tomorrow                              | Shane Coughlan, Linux Foundation  | [openchainthirdkoreanworkshop-190909143700.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-06-12/Slides/openchaintodayandtomorrow-190612090644.pdf) |
 | 2   | 기업 내 Open Source 검증 시스템 구축 현황   | 삼성전자 조재민                 |   |
 | 3   | Open Source 분석 도구 검토 현황                         | 삼성전자 김희성                       |   |
-| 4   | Open Source Compliance Tool based on Open Source                           | LG전자 장학성                       | [FOSSology & SW360](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-06-12/Slides/036_oss_tooling_20190506_fossology_and_sw360_updates_04.pdf), [Open Source Compliance Toolchain](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-06-12/Slides/oss-compliance-toolcahin-2019.pdf), [ClearlyDefined](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-06-12/Slides/ClearlyDefined-Crowdsourcing-Project-Security-and-Licensing-Data-Jeff-McAffer-Microsoft.pdf) |
+| 4   | Open Source Compliance Tool based on Open Source                           | LG전자 장학성                       | [FOSSology & SW360](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-06-12/Slides/036_oss_tooling_20190506_fossology_and_sw360_updates_04.pdf), [Open Source Compliance Toolchain](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-06-12/Slides/oss-compliance-toolcahin-2019.pdf), [ClearlyDefined](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-06-12/Slides/ClearlyDefined-Crowdsourcing-Project-Security-and-Licensing-Data-Jeff-McAffer-Microsoft.pdf) |
 | 5   | Free Discussion                                | All                               |            |
 
 * 참여 기업
@@ -154,10 +154,10 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 
 | No  | Agenda                                        | Speaker                         | Slide   |
 |:----|:----------------------------------------------|:---------------------------------|:------|
-| 1   | Intro                              | LG전자 장학성  | [openchain_korea_workshop_intro](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-01-23/Slides/openchain_korea_workshop_intro_2019-01-23.pdf) |
+| 1   | Intro                              | LG전자 장학성  | [openchain_korea_workshop_intro](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-01-23/Slides/openchain_korea_workshop_intro_2019-01-23.pdf) |
 | 2   | Great Open Source Compliance For Everyone       | Shane Coughlan, Linux Foundation  |        |
-| 3   | How do we OpenChain?   | LG전자 장학성                |  [how_do_we_openchain](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-01-23/Slides/openchain_korea_workshop_how_do_we_openchain_2019-01-23.pdf) |
-| 4   | Introduce yourself & Workshop – OpenChain and Korea      | LG전자 김소임                       |  [livepoll_result](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-01-23/Slides/openchainkoreaworkshop_livepoll_result_2019-01-23.pdf)	 |
+| 3   | How do we OpenChain?   | LG전자 장학성                |  [how_do_we_openchain](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-01-23/Slides/openchain_korea_workshop_how_do_we_openchain_2019-01-23.pdf) |
+| 4   | Introduce yourself & Workshop – OpenChain and Korea      | LG전자 김소임                       |  [livepoll_result](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-01-23/Slides/openchainkoreaworkshop_livepoll_result_2019-01-23.pdf)	 |
 
 * 참여 기업
   - LG전자 12명
@@ -196,6 +196,6 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 * Photo
 
 <p float="left">
-  <img src="https://github.com/hakssung/OpenChain-KWG/raw/master/Subgroup/Conformance/2019-11-04/1575426596835.jpg" width="300" />
-  <img src="https://github.com/hakssung/OpenChain-KWG/raw/master/Subgroup/Conformance/2019-11-04/1575426599025.jpg" width="300" />  
+  <img src="https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Subgroup/Conformance/2019-11-04/1575426596835.jpg" width="300" />
+  <img src="https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Subgroup/Conformance/2019-11-04/1575426599025.jpg" width="300" />  
 </p>
