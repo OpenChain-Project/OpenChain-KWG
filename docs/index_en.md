@@ -1,198 +1,199 @@
-[[한국어]](./index.md)
+[[English]](./index.md)
 
-Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup인 OpenChain KWG(Korea Work Group)은 Open Source 정신인 협업과 공유를 통해 모두가 효과적으로 Open Source Compliance를 달성하기 위한 방법을 고민하고 공유하기 위한 모임입니다. Software를 개발하여 배포하는 한국 기업에서 Open Source Compliance 업무를 담당하는 분이라면 참여가 가능합니다. Mailing List에 가입하세요!
-* Mailing List 가입: <https://lists.openchainproject.org/g/korea-wg>
-* 문의: korea-wg+owner@lists.openchainproject.org
+The OpenChain KWG (Korea Work Group), a subgroup of the Linux Foundation [OpenChain Project](https://openchainproject.org), is a working group for collaborating and sharing the open source spirit to share and consider ways to effectively achieve open source compliance. Anyone who is responsible for Open Source Compliance within a Korean company that develops and distributes software can participate. Join the Mailing List!
+* Mailing List: <https://lists.openchainproject.org/g/korea-wg>
+* Contact: korea-wg+owner@lists.openchainproject.org
 
 * * * 
 
-# OpenChain 자료 한국어 번역
-* 한국어 번역 산출물은 다음 사이트에서 배포합니다. : <https://www.openchainproject.org/translations>
-* 한국어 번역은 github에서 공동으로 수행하며 누구나 참여할 수 있습니다. : <https://github.com/OpenChain-Project>
+# OpenChain Localization
+* The Korean translation artifacts are distributed at the following site. : <https://www.openchainproject.org/translations>
+* Korean translations use github to collaborate. Anyone can participate. : <https://github.com/OpenChain-Project>
 
 * * *
 
-# 정기 모임
+# Meetings
 
-## 5차 모임
+## 5th Meeting
 
- * 주관: 카카오
- * 일정: <del>2020-03-19 (목)</del> **코로나19 확산에 따라 잠정 연기합니다.**
- * 장소: 카카오 판교 오피스
+ * Organizer: Kakao
+ * Schedule: <del>March 19, 2020</del> **(Unfortunately, due to the spread of the COVID-19 virus, the meeting was temporarily postponed.)**
+ * Place: Kakao Pangyo Office
  * Agenda
 
 | No| Agenda                                          | Speaker                          | Slide |
 |:--|:------------------------------------------------|:---------------------------------|:------|
 | 1 | OpenChain Update                                | Shane Coughlan, Linux Foundation |       | 
-| 2 | 카카오 오픈소스 검증 시스템 Olive 소개                  | 카카오 황은경                       |        | 
-| 3 | 오픈소스 기여자 만들기, 참 쉽죠?                        | 라인플러스 이서연                    | [download](https://www.soscon.net/content/data/session/Day%201_1630_1.pdf) | 
+| 2 | Intro to Kakao Open Source Verification System, Olive  | Violet, Kakao                       |        | 
+| 3 | Open source contributions, really easy?                | Seo-yeon Lee, Line                    | [download](https://www.soscon.net/content/data/session/Day%201_1630_1.pdf) | 
 | 4 | 업데이트 중                                        |                                 |        |
 
-## 4차 모임
- * 주관: Ktds
- * 일정: 2019-12-02 (월) 2:00~5:00 pm
- * 장소: Ktds 방배사옥 207호 강의실 (<https://www.ktds.com/company/about_location.jsp>)
+## 4th Meeting
+  * Organizer: Ktds
+  * Schedule: 2019-12-02 (Mon) 2:00~5:00 pm
+  * Location: Ktds (<https://www.ktds.com/company/about_location.jsp>)
  * Agenda
 
 | No  | Agenda                                        | Speaker                         | Slide   |
 |:----|:----------------------------------------------|:---------------------------------|:------|
-| 1   | OpenChain Update                              | Shane Coughlan, Linux Foundation  | [a_brief_introduction_to_openchain.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/a_brief_introduction_to_openchain.pdf)  |
-| 2   | 오픈소스 관리포털 및 오픈소스 관리방안                  | Ktds 김상미, 이지현                  |           |
-| 3   | FOSSology 설치와 사용 방법                         | LG전자 박원재                       | [fossology_introduction_openchain_kwg.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/fossology_introduction_openchain_kwg.pdf) |`
-| 4   | OpenChain KWG Update                           | LG전자 장학성                       | [openchain_kwg_update_2019-12-02.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/openchain_kwg_update_2019-12-02.pdf) |
+| 1   | OpenChain Update                              | Shane Coughlan / Linux Foundation  | [a_brief_introduction_to_openchain.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/a_brief_introduction_to_openchain.pdf)  |
+| 2   | Open Source Management Portal and Open Source Management Plan  | Sangmi Kim, Jihyun Lee / Ktds                  |           |
+| 3   | How to Install and Use FOSSology                               | Wonjae Park / LG Electronics                       |  [fossology_introduction_openchain_kwg.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/fossology_introduction_openchain_kwg.pdf) |
+| 4   | OpenChain KWG Update                                           | Haksung Jang / LG Electronics                       | [openchain_kwg_update_2019-12-02.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/openchain_kwg_update_2019-12-02.pdf) |
 | 5   | Case Study                                     | All                               |          |
-| 6   | Free Discussion                                | All                               |            |
+| 6   | Free Discussion                                | All                               |          |
 
 * Case Study
-  - 주제 : Open Source Governance 조직 구성
-    + SK텔레콤 (박철웅) : [openchainkwg_organization_skt_20191202.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/openchainkwg_organization_skt_20191202.pdf)
-    + 엔씨소프트 (한다솜) : [openchain_kwg_case_study_ncsoft_2019-12-02.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/openchain_kwg_case_study_ncsoft_2019-12-02.pdf)
+  - Theme : Open Source Governance Organization
+    + SK Telecom (Woody Park) : [openchainkwg_organization_skt_20191202.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/openchainkwg_organization_skt_20191202.pdf)
+    + NCSoft (Dasom Han) : [openchain_kwg_case_study_ncsoft_2019-12-02.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/openchain_kwg_case_study_ncsoft_2019-12-02.pdf)
 
-* 참여 기업
-  - KTDS
-  - LG전자
-  - SK텔레콤
-  - SK주식회사
-  - 삼성전자
-  - 엔씨소프트
-  - 카카오
-  - 현대모비스
+* Companies to attend
+  - Ktds
+  - LG Electronics
+  - SK Telecom
+  - SK holdings
+  - NCSOFT
+  - Samsung
+  - Kakao
+  - Hyundai Mobis
 
 * Photos
 
 <p float="left">
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_141601.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_141612.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_144244.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_145534.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_151459.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154127.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154218.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154240.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154407.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_164627.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_164705.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_141601.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_141612.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_144244.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_145534.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_151459.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154127.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154218.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154240.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154407.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_164627.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_164705.jpg" width="300" />
 </p>
 
-## 3차 모임
- * 주관: SK텔레콤
- * 일정: 2019-09-04 (수) 3:00-5:00 pm
- * 장소: 삼화타워 3층 Room 4 (<https://goo.gl/maps/gmmFLiTzzsSYnBoGA>)
+## 3rd Meeting
+ * Organizer: SK Telecom
+ * Schedule: 2019-09-04 (Wed) 3:00~5:00 pm
+ * Location: Samhwa Tower 3F Room 4 <https://goo.gl/maps/gmmFLiTzzsSYnBoGA>
+ * Article : <https://www.openchainproject.org/news/2019/08/06/openchain-korea-work-group-announces-third-meeting>
  * Agenda
 
 | No  | Agenda                                        | Speaker                         | Slide   |
 |:----|:----------------------------------------------|:---------------------------------|:------|
 | 1   | State of the Union                              | Shane Coughlan, Linux Foundation  | [openchainthirdkoreanworkshop-190909143700.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-09-04/Slides/openchainthirdkoreanworkshop-190909143700.pdf) |
-| 2   | SK텔레콤 T-hub 시스템 (전사 개발자 Community) 소개   | SK텔레콤 김상기                 |  [t-hub_소개_v1.0_외부배포용.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-09-04/Slides/t-hub_v1.0.pdf) |
-| 3   | 오픈소스 소프트웨어 라이선스 검증기                         | 엔씨소프트 한지호                       | [오픈소스_소프트웨어_검증기_wg공유_20190904_공유용.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-09-04/Slides/ncsoft_20190904.pdf) |
-| 4   | OpenChain 따라잡기                           | LG전자 장학성                       | [openchain따라잡기_2019-09-04.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-09-04/Slides/openchain%EB%94%B0%EB%9D%BC%EC%9E%A1%EA%B8%B0_2019-09-04.pdf) |
+| 2   | Introducing the T-hub System                   | SK Telecom, Sang-gi Kim       |  [t-hub_Intro](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-09-04/Slides/t-hub_v1.0.pdf) |
+| 3   | Open Source Software License Analysis History  | NCsoft, Jiho Han               | [License Analysis History](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-09-04/Slides/ncsoft_20190904.pdf) |
+| 4   | Catch up with OpenChain                        | LG Electronics, Haksung Jang    | [openchain_2019-09-04.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-09-04/Slides/openchain%EB%94%B0%EB%9D%BC%EC%9E%A1%EA%B8%B0_2019-09-04.pdf) |
 | 5   | Free Discussion                                | All                               |            |
 
-* 참여 기업
+* Companies Attended
   - KT
   - KTDS
-  - LG전자
-  - SK텔레콤
-  - 라인플러스
-  - 삼성전자
-  - 엔씨소프트
-  - 카카오
-  - 현대자동차
-  - 현대모비스
-  - 현대엠엔소프트
+  - LG Electronics
+  - SK Telecom
+  - Line
+  - Samsung Electronics
+  - NCsoft
+  - Kakao
+  - Hyundai Motors
+  - Hyundai Mobis
+  - Hyundai MN Soft
 
 * Photos
 
 <p float="left">
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_151150.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_160802.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_160804.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_160805.png" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_151150.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_160802.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_160804.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_160805.png" width="300" />
 </p>
 
-## 2차 모임
- * 주관: 삼성전자
- * 일정: 2019-06-12 (수) 오후2시 - 5시
- * 장소: 삼성전자 서울R&D캠퍼스(우면동) E타워 1층 107회의실
+## 2nd Meeting
+ * Organizer: Samsung Electronics
+ * Schedule: 2019-06-12 (Wed) 2 pm-5pm
+ * Venue: Conference Room 107, E-Tower, Seoul R&D Campus Samsung Electronics (Umyeon-dong)
  * Agenda
 
 | No  | Agenda                                        | Speaker                         | Slide   |
 |:----|:----------------------------------------------|:---------------------------------|:------|
 | 1   | OpenChain Today and Tomorrow                              | Shane Coughlan, Linux Foundation  | [openchainthirdkoreanworkshop-190909143700.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-06-12/Slides/openchaintodayandtomorrow-190612090644.pdf) |
-| 2   | 기업 내 Open Source 검증 시스템 구축 현황   | 삼성전자 조재민                 |   |
-| 3   | Open Source 분석 도구 검토 현황                         | 삼성전자 김희성                       |   |
-| 4   | Open Source Compliance Tool based on Open Source                           | LG전자 장학성                       | [FOSSology & SW360](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-06-12/Slides/036_oss_tooling_20190506_fossology_and_sw360_updates_04.pdf), [Open Source Compliance Toolchain](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-06-12/Slides/oss-compliance-toolcahin-2019.pdf), [ClearlyDefined](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-06-12/Slides/ClearlyDefined-Crowdsourcing-Project-Security-and-Licensing-Data-Jeff-McAffer-Microsoft.pdf) |
+| 2   | Open Source Verification System Construction Status | Samsung, Jaemin Cho               |   |
+| 3   | Open Source Analysis Tool Review | Samsung Electronics, Hee Sung Kim                      |   |
+| 4   | Open Source Compliance Tool based on Open Source                           | LG Electronics, Haksung Jang                      | [FOSSology & SW360](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-06-12/Slides/036_oss_tooling_20190506_fossology_and_sw360_updates_04.pdf), [Open Source Compliance Toolchain](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-06-12/Slides/oss-compliance-toolcahin-2019.pdf), [ClearlyDefined](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-06-12/Slides/ClearlyDefined-Crowdsourcing-Project-Security-and-Licensing-Data-Jeff-McAffer-Microsoft.pdf) |
 | 5   | Free Discussion                                | All                               |            |
 
-* 참여 기업
+* Companies Attended 
   - KT (1)
   - KTDS (2)
-  - LG전자 (9)
+  - LG Electronics (9)
   - NCSOFT (2)
-  - SK텔레콤 (1)
-  - 삼성전자 (7)
-  - 카카오 (5)
-  - 현대자동차 (3)
+  - SK telecom (1)
+  - Samsung Electronics (7)
+  - Kakao (5)
+  - Hyundai Motors (3)
 
 * Photos
 
 <p float="left">
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-06-26.jpeg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-07-27.jpeg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-07-32.jpeg" width="300" />  
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-06-08.jpeg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-06-14.jpeg" width="600" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-06-26.jpeg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-07-27.jpeg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-07-32.jpeg" width="300" />  
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-06-08.jpeg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-06-14.jpeg" width="600" />
 </p>
 
-## 1차 모임
- * 주관: LG전자
- * 목적: Linux Foundation의 OpenChain Project 소개 및 한국 기업 참여와 활용을 위한 교류회
- * 일정: 2019-01-23 (수) 오후2시 - 5시
- * 장소: LG전자 서초R&D캠퍼스 포디움동 1층 회의실1
+## 1st Meeting
+  * Organizer: LG Electronics
+  * Purpose: Introduction of OpenChain Project of Linux Foundation and exchange meeting for participation and utilization of Korean companies
+  * Schedule: 2019-01-23 (Wed) 2 pm-5pm
+  * Venue: Conference Room 1, 1st Floor, Podium Building, Seocho R & D Campus, LG Electronics
  * Article : [openchain-workshop-in-korea-january-23rd-2019](https://www.openchainproject.org/news/2019/01/24/openchain-workshop-in-korea-january-23rd-2019)
  * Agenda
 
 | No  | Agenda                                        | Speaker                         | Slide   |
 |:----|:----------------------------------------------|:---------------------------------|:------|
-| 1   | Intro                              | LG전자 장학성  | [openchain_korea_workshop_intro](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-01-23/Slides/openchain_korea_workshop_intro_2019-01-23.pdf) |
+| 1   | Intro                              | LG Electronics, Haksung Jang  | [openchain_korea_workshop_intro](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-01-23/Slides/openchain_korea_workshop_intro_2019-01-23.pdf) |
 | 2   | Great Open Source Compliance For Everyone       | Shane Coughlan, Linux Foundation  |        |
-| 3   | How do we OpenChain?   | LG전자 장학성                |  [how_do_we_openchain](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-01-23/Slides/openchain_korea_workshop_how_do_we_openchain_2019-01-23.pdf) |
-| 4   | Introduce yourself & Workshop – OpenChain and Korea      | LG전자 김소임                       |  [livepoll_result](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-01-23/Slides/openchainkoreaworkshop_livepoll_result_2019-01-23.pdf)	 |
+| 3   | How do we OpenChain?   | LG Electronics, Haksung Jang      |  [how_do_we_openchain](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-01-23/Slides/openchain_korea_workshop_how_do_we_openchain_2019-01-23.pdf) |
+| 4   | Introduce yourself & Workshop – OpenChain and Korea      | LG Electronics, Soim Kim       |  [livepoll_result](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-01-23/Slides/openchainkoreaworkshop_livepoll_result_2019-01-23.pdf)	 |
 
-* 참여 기업
-  - LG전자 12명
-  - SKT 1명
-  - 카카오 3명
-  - 현대차 4명
-  - 삼성전자 5명
+* Companies Attended
+  - LG Electronics (12)
+  - SK Telecom (1) 
+  - Kakao (3) 
+  - Hyundai Motors (4)
+  - Samsung Electronics (5) 
 
 * Photos
 
 <p float="left">
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1410012.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1635591.jpg" width="300" />  
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1701106.jpg" width="300" />
-    <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1406369.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1410012.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1635591.jpg" width="300" />  
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1701106.jpg" width="300" />
+    <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1406369.jpg" width="300" />
 </p>
 
 * * * 
 
 # Sub Group
 
-## Conformance 모임
+## Conformance Meeting
 
-### 1회 모임
+### 1st Meeting
 
-* 목적 : OpenChain Specification을 준수하고자 하는 기업 간 준수 방법 논의 및 공유
-* 일시 : 2019. 11. 4(월), 오후 4시~6시
-* 장소 : LG전자 서초R&D캠퍼스 고객센터 2층 6회의실
-* 참석
-  - 엔씨소프트 한지호, 강병수, 한다솜
-  - Ktds 김상미
-  - LG전자 장학성
-* 활동
-  - OpenChain Conformance 소개
-  - 엔씨소프트의 OpenChain Self Certificate 검토 자료를 함께 보며, 미흡 부분에 대한 대응 방안 논의
+* Purpose: Discuss and share compliance methods among companies seeking to comply with OpenChain Specification
+* Date: November 4, 2019 (Mon), 4 pm-6pm
+* Place: 6th meeting room, 2nd floor, Customer Center, Seocho R&D Campus, LG Electronics
+* Attendees
+  - NCSoft
+  - Ktds
+  - LG Electronics
+* Activities
+  - Intro of OpenChain Conformance
+  - Review NCSoft's Review of OpenChain Self Certificate and discuss how to respond
 * Photo
 
 <p float="left">
