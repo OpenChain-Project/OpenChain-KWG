@@ -1,4 +1,4 @@
-[[]](./index.md)
+[[한국어]](./index.md)
 
 The OpenChain KWG (Korea Work Group), a subgroup of the Linux Foundation [OpenChain Project](https://openchainproject.org), is a working group for collaborating and sharing the open source spirit to share and consider ways to effectively achieve open source compliance. Anyone who is responsible for Open Source Compliance within a Korean company that develops and distributes software can participate. Join the Mailing List!
 * Mailing List: <https://lists.openchainproject.org/g/korea-wg>
