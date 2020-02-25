@@ -60,12 +60,12 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)Ïùò SubgroupÏù
 #### Photos
 
 <p float="left">
-  <img src="https://github.com/hakssung/OpenChain-KWG/blob/master/Meetings/2019-12-02/Photos/20191202_141601.jpg" width="250" />
-  <img src="https://guides.github.com/activities/hello-world/branching.png" width="250" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_141601.jpg" width="250" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_141601.jpg" width="250" />
   <img src="https://guides.github.com/activities/hello-world/branching.png" width="250" />
 </p>
 
-![Octocat](https://github.com/hakssung/OpenChain-KWG/blob/master/Meetings/2019-12-02/Photos/20191202_141601.jpg)
+![Octocat](https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_141601.jpg)
 
 ![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
