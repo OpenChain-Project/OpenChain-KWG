@@ -12,6 +12,7 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
  * 일정: <del>2020-03-19 (목)</del> **코로나19 확산에 따라 잠정 연기합니다.**
  * 장소: 카카오 판교 오피스
  * Agenda
+ 
 | No| Agenda                                          | Speaker                          | Slide |
 |:--|:------------------------------------------------|:---------------------------------|:------|
 | 1 | OpenChain Update                                | Shane Coughlan, Linux Foundation |       | 
