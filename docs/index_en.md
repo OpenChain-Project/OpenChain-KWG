@@ -26,7 +26,6 @@ The OpenChain KWG (Korea Work Group), a subgroup of the Linux Foundation [OpenCh
 | 1 | OpenChain Update                                | Shane Coughlan, Linux Foundation |       | 
 | 2 | Intro to Kakao Open Source Verification System, Olive  | Violet, Kakao                       |        | 
 | 3 | Open source contributions, really easy?                | Seo-yeon Lee, Line                    | [download](https://www.soscon.net/content/data/session/Day%201_1630_1.pdf) | 
-| 4 | 업데이트 중                                        |                                 |        |
 
 ## 4th Meeting
   * Organizer: Ktds
