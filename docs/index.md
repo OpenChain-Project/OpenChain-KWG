@@ -2,16 +2,23 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 * Mailing List 가입: <https://lists.openchainproject.org/g/korea-wg>
 * 문의: korea-wg+owner@lists.openchainproject.org
 
+* * * 
+
 # OpenChain 자료 한국어 번역
 * 한국어 번역 산출물은 다음 사이트에서 배포합니다. : https://www.openchainproject.org/translations
 * 한국어 번역은 github에서 공동으로 수행하며 누구나 참여할 수 있습니다. : https://github.com/OpenChain-Project
 
+* * *
+
 # 정기 모임
+
 ## 5차 모임
-### 주관: 카카오
+
+#### 주관: 카카오
  * 일정: <del>2020-03-19 (목)</del> **코로나19 확산에 따라 잠정 연기합니다.**
  * 장소: 카카오 판교 오피스
-### Agenda
+
+#### Agenda
 
 | No| Agenda                                          | Speaker                          | Slide |
 |:--|:------------------------------------------------|:---------------------------------|:------|
@@ -21,11 +28,11 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 | 4 | 업데이트 중                                        |                                 |        |
 
 ## 4차 모임
-### 주관: Ktds
+#### 주관: Ktds
  * 일정: 2019-12-02 (월) 2:00~5:00 pm
  * 장소: Ktds 방배사옥 207호 강의실 (<https://www.ktds.com/company/about_location.jsp>)
  
-### Agenda
+#### Agenda
 
 | No  | Agenda                                        | Speaker                         | Slide   |
 |:----|:----------------------------------------------|:---------------------------------|:------|
@@ -35,3 +42,19 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 | 4   | OpenChain KWG Update                           | LG전자 장학성                       |           |
 | 5   | Case Study                                     | All                               |          |
 | 6   | Free Discussion                                | All                               |            |
+
+#### Case Study : Open Source Governance 조직 구성 ==
+  * SK텔레콤 (박철웅) : {{ openchain:openchainkwg_organization_skt_20191202.pdf }} 
+  * 엔씨소프트 (한다솜) : {{openchain:openchain_kwg_case_study_ncsoft_2019-12-02.pdf}} 
+
+#### 참여 기업
+  * KTDS
+  * LG전자
+  * SK텔레콤
+  * SK주식회사
+  * 삼성전자
+  * 엔씨소프트
+  * 카카오
+  * 현대모비스
+
+#### Photos
