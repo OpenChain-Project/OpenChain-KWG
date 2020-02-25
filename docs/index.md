@@ -36,7 +36,7 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 
 | No  | Agenda                                        | Speaker                         | Slide   |
 |:----|:----------------------------------------------|:---------------------------------|:------|
-| 1   | OpenChain Update                              | Shane Coughlan, Linux Foundation  | download  |
+| 1   | OpenChain Update                              | Shane Coughlan, Linux Foundation  | [a_brief_introduction_to_openchain.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/a_brief_introduction_to_openchain.pdf)  |
 | 2   | 오픈소스 관리포털 및 오픈소스 관리방안                  | Ktds 김상미, 이지현                  |           |
 | 3   | FOSSology 설치와 사용 방법                         | LG전자 박원재                       |           |
 | 4   | OpenChain KWG Update                           | LG전자 장학성                       |           |
