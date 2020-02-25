@@ -62,8 +62,10 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)Ïùò SubgroupÏù
  ![Branching](https://guides.github.com/activities/hello-world/branching.png)
  ![Branching](https://guides.github.com/activities/hello-world/branching.png)
 </p>
+
 <p float="center">
  ![Branching](https://guides.github.com/activities/hello-world/branching.png)
  ![Branching](https://guides.github.com/activities/hello-world/branching.png)
 </p>
+
 ![Branching](https://guides.github.com/activities/hello-world/branching.png)
