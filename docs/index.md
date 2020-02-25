@@ -1,3 +1,5 @@
+[[English]](./index-en.md).
+
 Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup인 OpenChain KWG(Korea Work Group)은 Open Source 정신인 협업과 공유를 통해 모두가 효과적으로 Open Source Compliance를 달성하기 위한 방법을 고민하고 공유하기 위한 모임입니다. Software를 개발하여 배포하는 한국 기업에서 Open Source Compliance 업무를 담당하는 분이라면 참여가 가능합니다. Mailing List에 가입하세요!
 * Mailing List 가입: <https://lists.openchainproject.org/g/korea-wg>
 * 문의: korea-wg+owner@lists.openchainproject.org
@@ -5,8 +7,8 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 * * * 
 
 # OpenChain 자료 한국어 번역
-* 한국어 번역 산출물은 다음 사이트에서 배포합니다. : https://www.openchainproject.org/translations
-* 한국어 번역은 github에서 공동으로 수행하며 누구나 참여할 수 있습니다. : https://github.com/OpenChain-Project
+* 한국어 번역 산출물은 다음 사이트에서 배포합니다. : <https://www.openchainproject.org/translations>
+* 한국어 번역은 github에서 공동으로 수행하며 누구나 참여할 수 있습니다. : <https://github.com/OpenChain-Project>
 
 * * *
 
