@@ -17,6 +17,7 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
  * 주관: 카카오
  * 일정: <del>2020-03-19 (목)</del> **코로나19 확산에 따라 잠정 연기합니다.**
  * 장소: 카카오 판교 오피스
+ * Agenda
 
 | No| Agenda                                          | Speaker                          | Slide |
 |:--|:------------------------------------------------|:---------------------------------|:------|
@@ -29,6 +30,7 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
  * 주관: Ktds
  * 일정: 2019-12-02 (월) 2:00~5:00 pm
  * 장소: Ktds 방배사옥 207호 강의실 (<https://www.ktds.com/company/about_location.jsp>)
+ * Agenda
 
 | No  | Agenda                                        | Speaker                         | Slide   |
 |:----|:----------------------------------------------|:---------------------------------|:------|
