@@ -1,2 +1,2 @@
-# OpenChain-KWG
-Various outputs from the OpenChain Korea Work Group
+# OpenChain KWG
+OpenChain Project Korea Work Group
