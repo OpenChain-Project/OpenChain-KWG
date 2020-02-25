@@ -6,7 +6,7 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 
 * * * 
 
-# OpenChain 자료 한국어 번역
+# OpenChain 한국어 번역
 * 한국어 번역 산출물은 다음 사이트에서 배포합니다. : <https://www.openchainproject.org/translations>
 * 한국어 번역은 github에서 공동으로 수행하며 누구나 참여할 수 있습니다. : <https://github.com/OpenChain-Project>
 
