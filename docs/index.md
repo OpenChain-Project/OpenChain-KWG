@@ -38,14 +38,14 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 |:----|:----------------------------------------------|:---------------------------------|:------|
 | 1   | OpenChain Update                              | Shane Coughlan, Linux Foundation  | [a_brief_introduction_to_openchain.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/a_brief_introduction_to_openchain.pdf)  |
 | 2   | 오픈소스 관리포털 및 오픈소스 관리방안                  | Ktds 김상미, 이지현                  |           |
-| 3   | FOSSology 설치와 사용 방법                         | LG전자 박원재                       |           |
-| 4   | OpenChain KWG Update                           | LG전자 장학성                       |           |
+| 3   | FOSSology 설치와 사용 방법                         | LG전자 박원재                       | [fossology_introduction_openchain_kwg.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/fossology_introduction_openchain_kwg.pdf) |
+| 4   | OpenChain KWG Update                           | LG전자 장학성                       | [openchain_kwg_update_2019-12-02.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/openchain_kwg_update_2019-12-02.pdf) |
 | 5   | Case Study                                     | All                               |          |
 | 6   | Free Discussion                                | All                               |            |
 
 #### Case Study : Open Source Governance 조직 구성 ==
-  * SK텔레콤 (박철웅) : {{ openchain:openchainkwg_organization_skt_20191202.pdf }} 
-  * 엔씨소프트 (한다솜) : {{openchain:openchain_kwg_case_study_ncsoft_2019-12-02.pdf}} 
+  * SK텔레콤 (박철웅) : [openchainkwg_organization_skt_20191202.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/openchainkwg_organization_skt_20191202.pdf)
+  * 엔씨소프트 (한다솜) : [openchain_kwg_case_study_ncsoft_2019-12-02.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/openchain_kwg_case_study_ncsoft_2019-12-02.pdf)
 
 #### 참여 기업
   * KTDS
