@@ -38,10 +38,10 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 |:----|:----------------------------------------------|:---------------------------------|:------|
 | 1   | OpenChain Update                              | Shane Coughlan, Linux Foundation  | [a_brief_introduction_to_openchain.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/a_brief_introduction_to_openchain.pdf)  |
 | 2   | 오픈소스 관리포털 및 오픈소스 관리방안                  | Ktds 김상미, 이지현                  |           |
-| 3   | FOSSology 설치와 사용 방법                         | LG전자 박원재                       | [fossology_introduction_openchain_kwg.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/fossology_introduction_openchain_kwg.pdf) |`
+| 3   | FOSSology 설치와 사용 방법                         | LG전자 박원재                       |  [fossology_introduction_openchain_kwg.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/fossology_introduction_openchain_kwg.pdf) |
 | 4   | OpenChain KWG Update                           | LG전자 장학성                       | [openchain_kwg_update_2019-12-02.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/openchain_kwg_update_2019-12-02.pdf) |
 | 5   | Case Study                                     | All                               |          |
-| 6   | Free Discussion                                | All                               |            |
+| 6   | Free Discussion                                | All                               |          |
 
 * Case Study
   - 주제 : Open Source Governance 조직 구성
