@@ -57,8 +57,8 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)ì˜ Subgroupì
 #### Photos
 
 <p float="center">
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_141601.jpg" width="450" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_141601.jpg" width="450" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_141601.jpg" width="400" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_141601.jpg" width="400" />
 </p>
 
 ![](https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_141601.jpg)
