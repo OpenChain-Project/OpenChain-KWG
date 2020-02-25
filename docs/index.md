@@ -58,3 +58,10 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
   * 현대모비스
 
 #### Photos
+
+<p float="left">
+  <img src="/Meetings/2019-12-02/Photos/20191202_141601.jpg" width="100" />
+  <img src="/Meetings/2019-12-02/Photos/20191202_141601.jpg" width="100" />
+  <img src="/Meetings/2019-12-02/Photos/20191202_141601.jpg" width="100" />
+</p>
+
