@@ -39,7 +39,8 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 | 5   | Case Study                                     | All                               |          |
 | 6   | Free Discussion                                | All                               |            |
 
-#### Case Study : Open Source Governance 조직 구성 ==
+#### Case Study
+주제 : Open Source Governance 조직 구성
   * SK텔레콤 (박철웅) : [openchainkwg_organization_skt_20191202.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/openchainkwg_organization_skt_20191202.pdf)
   * 엔씨소프트 (한다솜) : [openchain_kwg_case_study_ncsoft_2019-12-02.pdf](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/openchain_kwg_case_study_ncsoft_2019-12-02.pdf)
 
