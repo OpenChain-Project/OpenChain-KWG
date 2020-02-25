@@ -1,8 +1,6 @@
-OpenChain Korea Work Group
-======================
-# 1. OpenChain KWG 소개
+# OpenChain Korea Work Group
 OpenChain KWG(Korea Work Group)은 Open Source 정신인 협업과 공유를 통해 모두가 효과적으로 Open Source Compliance를 달성하기 위한 방법을 고민하고 공유하기 위한 모임입니다. Software를 개발 / 배포하는 한국 기업에서 Open Source Compliance 업무를 담당하는 분이라면 참여가 가능합니다. Mailing List에 가입하세요!
-## OpenChain KWG Mailing List
+#### OpenChain KWG Mailing List
 Mailing List에 가입하시면 주요 소식을 받아보실 수 있습니다. : https://lists.openchainproject.org/g/korea-wg
 * 문의 : korea-wg+owner@lists.openchainproject.org
 * OpenChain Project : https://openchainproject.org
