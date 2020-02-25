@@ -155,7 +155,7 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 | 1   | Intro                              | LG전자 장학성  | [openchain_korea_workshop_intro](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-01-23/Slides/openchain_korea_workshop_intro_2019-01-23.pdf) |
 | 2   | Great Open Source Compliance For Everyone       | Shane Coughlan, Linux Foundation  |        |
 | 3   | How do we OpenChain?   | LG전자 장학성                |  [how_do_we_openchain](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-01-23/Slides/openchain_korea_workshop_how_do_we_openchain_2019-01-23.pdf) |
-| 4   | Introduce yourself & Workshop – OpenChain and Korea      | LG전자 김소임                       |  [livepoll_result](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-01-23/Slides/openchainkoreaworkshop_livepoll_result_2019-01-23.pdf	 |
+| 4   | Introduce yourself & Workshop – OpenChain and Korea      | LG전자 김소임                       |  [livepoll_result](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-01-23/Slides/openchainkoreaworkshop_livepoll_result_2019-01-23.pdf)	 |
 
 * 참여 기업
   - LG전자 12명
@@ -167,8 +167,8 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 * Photos
 
 <p float="left">
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1406369.jpg" width="300" />
   <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1410012.jpg" width="300" />
   <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1635591.jpg" width="300" />  
   <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1701106.jpg" width="300" />
+    <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1406369.jpg" width="300" />
 </p>
