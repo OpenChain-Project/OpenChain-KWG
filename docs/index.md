@@ -17,7 +17,7 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 ## 5차 모임
 
  * 주관: 카카오
- * 일정: <del>2020-03-19 (목)</del> **코로나19 확산에 따라 잠정 연기합니다.**
+ * 일정: <del>2020-03-19 (목)</del> **(코로나19 확산에 따라 잠정 연기합니다.)**
  * 장소: 카카오 판교 오피스
  * Agenda
 
@@ -26,7 +26,6 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 | 1 | OpenChain Update                                | Shane Coughlan, Linux Foundation |       | 
 | 2 | 카카오 오픈소스 검증 시스템 Olive 소개                  | 카카오 황은경                       |        | 
 | 3 | 오픈소스 기여자 만들기, 참 쉽죠?                        | 라인플러스 이서연                    | [download](https://www.soscon.net/content/data/session/Day%201_1630_1.pdf) | 
-| 4 | 업데이트 중                                        |                                 |        |
 
 ## 4차 모임
  * 주관: Ktds
