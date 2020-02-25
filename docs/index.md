@@ -67,7 +67,7 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)Ïùò SubgroupÏù
  
  ![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+![](https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_141601.jpg)
 
 <img src="https://github.com/favicon.ico" width="48">
 
