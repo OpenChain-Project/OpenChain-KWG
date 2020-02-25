@@ -172,3 +172,28 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
   <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1701106.jpg" width="300" />
     <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1406369.jpg" width="300" />
 </p>
+
+* * * 
+
+# Sub Group
+
+## Conformance 모임
+
+### 1회 모임
+
+* 목적 : OpenChain Specification을 준수하고자 하는 기업 간 준수 방법 논의 및 공유
+* 일시 : 2019. 11. 4(월), 오후 4시~6시
+* 장소 : LG전자 서초R&D캠퍼스 고객센터 2층 6회의실
+* 참석
+  - 엔씨소프트 한지호, 강병수, 한다솜
+  - Ktds 김상미
+  - LG전자 장학성
+* 활동
+  - OpenChain Conformance 소개
+  - 엔씨소프트의 OpenChain Self Certificate 검토 자료를 함께 보며, 미흡 부분에 대한 대응 방안 논의
+* Photo
+
+<p float="left">
+  <img src="https://github.com/hakssung/OpenChain-KWG/raw/master/Subgroup/Conformance/2019-11-04/1575426596835.jpg" width="300" />
+  <img src="https://github.com/hakssung/OpenChain-KWG/raw/master/Subgroup/Conformance/2019-11-04/1575426599025.jpg" width="300" />  
+</p>
