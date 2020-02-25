@@ -135,9 +135,9 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)ì˜ Subgroupì
 * Photos
 
 <p float="left">
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-06-26.jpeg" width="300" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-07-27.jpeg" width="300" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-07-32.jpeg" width="300" />  
   <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-06-08.jpeg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-09-04/Photos/kakaotalk_photo_2019-06-13-23-06-14.jpeg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-09-04/Photos/kakaotalk_photo_2019-06-13-23-06-26.jpeg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-09-04/Photos/kakaotalk_photo_2019-06-13-23-07-27.jpeg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-09-04/Photos/kakaotalk_photo_2019-06-13-23-07-32.jpeg" width="300" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-06-14.jpeg" width="600" />
 </p>
