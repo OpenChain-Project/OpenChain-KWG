@@ -60,8 +60,8 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)ì˜ Subgroupì
 #### Photos
 
 <p float="left">
-  <img src="/Meetings/2019-12-02/Photos/20191202_141601.jpg" width="100" />
-  <img src="/Meetings/2019-12-02/Photos/20191202_141601.jpg" width="100" />
-  <img src="/Meetings/2019-12-02/Photos/20191202_141601.jpg" width="100" />
+  <img src="/Meetings/2019-12-02/Photos/20191202_141601.jpg" width="300" />
+  <img src="/Meetings/2019-12-02/Photos/20191202_141601.jpg" width="300" />
+  <img src="/Meetings/2019-12-02/Photos/20191202_141601.jpg" width="300" />
 </p>
 
