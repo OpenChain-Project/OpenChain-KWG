@@ -141,3 +141,34 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
   <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-06-08.jpeg" width="300" />
   <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-06-14.jpeg" width="600" />
 </p>
+
+## 1차 모임
+ * 주관: LG전자
+ * 목적: Linux Foundation의 OpenChain Project 소개 및 한국 기업 참여와 활용을 위한 교류회
+ * 일정: 2019-01-23 (수) 오후2시 - 5시
+ * 장소: LG전자 서초R&D캠퍼스 포디움동 1층 회의실1
+ * Article : [openchain-workshop-in-korea-january-23rd-2019](https://www.openchainproject.org/news/2019/01/24/openchain-workshop-in-korea-january-23rd-2019)
+ * Agenda
+
+| No  | Agenda                                        | Speaker                         | Slide   |
+|:----|:----------------------------------------------|:---------------------------------|:------|
+| 1   | Intro                              | LG전자 장학성  | [openchain_korea_workshop_intro](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-01-23/Slides/openchain_korea_workshop_intro_2019-01-23.pdf) |
+| 2   | Great Open Source Compliance For Everyone       | Shane Coughlan, Linux Foundation  |        |
+| 3   | How do we OpenChain?   | LG전자 장학성                |  [how_do_we_openchain](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-01-23/Slides/openchain_korea_workshop_how_do_we_openchain_2019-01-23.pdf) |
+| 4   | Introduce yourself & Workshop – OpenChain and Korea      | LG전자 김소임                       |  [livepoll_result](https://github.com/hakssung/OpenChain-KWG/raw/master/Meetings/2019-01-23/Slides/openchainkoreaworkshop_livepoll_result_2019-01-23.pdf	 |
+
+* 참여 기업
+  - LG전자 12명
+  - SKT 1명
+  - 카카오 3명
+  - 현대차 4명
+  - 삼성전자 5명
+
+* Photos
+
+<p float="left">
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1406369.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1410012.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1635591.jpg" width="300" />  
+  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1701106.jpg" width="300" />
+</p>
