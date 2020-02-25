@@ -6,7 +6,7 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 
 * * * 
 
-# OpenChain 자료 한국어 번역
+# OpenChain 한국어 번역
 * 한국어 번역 산출물은 다음 사이트에서 배포합니다. : <https://www.openchainproject.org/translations>
 * 한국어 번역은 github에서 공동으로 수행하며 누구나 참여할 수 있습니다. : <https://github.com/OpenChain-Project>
 
@@ -17,7 +17,7 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 ## 5차 모임
 
  * 주관: 카카오
- * 일정: <del>2020-03-19 (목)</del> **코로나19 확산에 따라 잠정 연기합니다.**
+ * 일정: <del>2020-03-19 (목)</del> **(코로나19 확산에 따라 잠정 연기합니다.)**
  * 장소: 카카오 판교 오피스
  * Agenda
 
@@ -26,7 +26,6 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 | 1 | OpenChain Update                                | Shane Coughlan, Linux Foundation |       | 
 | 2 | 카카오 오픈소스 검증 시스템 Olive 소개                  | 카카오 황은경                       |        | 
 | 3 | 오픈소스 기여자 만들기, 참 쉽죠?                        | 라인플러스 이서연                    | [download](https://www.soscon.net/content/data/session/Day%201_1630_1.pdf) | 
-| 4 | 업데이트 중                                        |                                 |        |
 
 ## 4차 모임
  * 주관: Ktds
@@ -38,10 +37,10 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 |:----|:----------------------------------------------|:---------------------------------|:------|
 | 1   | OpenChain Update                              | Shane Coughlan, Linux Foundation  | [a_brief_introduction_to_openchain.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/a_brief_introduction_to_openchain.pdf)  |
 | 2   | 오픈소스 관리포털 및 오픈소스 관리방안                  | Ktds 김상미, 이지현                  |           |
-| 3   | FOSSology 설치와 사용 방법                         | LG전자 박원재                       | [fossology_introduction_openchain_kwg.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/fossology_introduction_openchain_kwg.pdf) |`
+| 3   | FOSSology 설치와 사용 방법                         | LG전자 박원재                       |  [fossology_introduction_openchain_kwg.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/fossology_introduction_openchain_kwg.pdf) |
 | 4   | OpenChain KWG Update                           | LG전자 장학성                       | [openchain_kwg_update_2019-12-02.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-12-02/Slides/openchain_kwg_update_2019-12-02.pdf) |
 | 5   | Case Study                                     | All                               |          |
-| 6   | Free Discussion                                | All                               |            |
+| 6   | Free Discussion                                | All                               |          |
 
 * Case Study
   - 주제 : Open Source Governance 조직 구성
@@ -61,17 +60,17 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 * Photos
 
 <p float="left">
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_141601.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_141612.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_144244.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_145534.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_151459.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154127.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154218.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154240.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154407.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_164627.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_164705.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_141601.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_141612.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_144244.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_145534.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_151459.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154127.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154218.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154240.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_154407.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_164627.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-12-02/Photos/20191202_164705.jpg" width="300" />
 </p>
 
 ## 3차 모임
@@ -104,10 +103,10 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 * Photos
 
 <p float="left">
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_151150.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_160802.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_160804.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_160805.png" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_151150.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_160802.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_160804.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-09-04/Photos/20190904_160805.png" width="300" />
 </p>
 
 ## 2차 모임
@@ -137,11 +136,11 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 * Photos
 
 <p float="left">
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-06-26.jpeg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-07-27.jpeg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-07-32.jpeg" width="300" />  
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-06-08.jpeg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-06-14.jpeg" width="600" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-06-26.jpeg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-07-27.jpeg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-07-32.jpeg" width="300" />  
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-06-08.jpeg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-06-12/Photos/kakaotalk_photo_2019-06-13-23-06-14.jpeg" width="600" />
 </p>
 
 ## 1차 모임
@@ -169,10 +168,10 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 * Photos
 
 <p float="left">
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1410012.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1635591.jpg" width="300" />  
-  <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1701106.jpg" width="300" />
-    <img src="https://raw.githubusercontent.com/hakssung/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1406369.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1410012.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1635591.jpg" width="300" />  
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1701106.jpg" width="300" />
+    <img src="https://raw.githubusercontent.com/OpenChain-Project/OpenChain-KWG/master/Meetings/2019-01-23/Photos/20190123_1406369.jpg" width="300" />
 </p>
 
 * * * 
