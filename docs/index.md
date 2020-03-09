@@ -14,18 +14,43 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 
 # 정기 모임
 
-## 5차 모임
+## 8차 모임 (예정)
+ * 주관: 라인
+ * 일정: 2020년 4분기
+ 
+## 7차 모임 (예정)
+
+ * 주관: 엔씨소프트
+ * 일정: 2020년 3분기
+ 
+## 6차 모임 (예정)
 
  * 주관: 카카오
- * 일정: <del>2020-03-19 (목)</del> **(코로나19 확산에 따라 잠정 연기합니다.)**
- * 장소: 카카오 판교 오피스
+ * 일정: 2020년 2분기
  * Agenda
-
+ 
 | No| Agenda                                          | Speaker                          | Slide |
 |:--|:------------------------------------------------|:---------------------------------|:------|
 | 1 | OpenChain Update                                | Shane Coughlan, Linux Foundation |       | 
 | 2 | 카카오 오픈소스 검증 시스템 Olive 소개                  | 카카오 황은경                       |        | 
 | 3 | 오픈소스 기여자 만들기, 참 쉽죠?                        | 라인플러스 이서연                    | [download](https://www.soscon.net/content/data/session/Day%201_1630_1.pdf) | 
+ 
+## 5차 모임 (온라인)
+
+ * 일정: 2020-03-19 (목) 오후2시~ 
+ * Join the call
+   - 방법 1: PC에서 https://uberconference.com/openchainproject 접속
+   - 방법 2: 핸드폰에서 02-6022-2388로 전화 > 855 889 3011 #
+ * Agenda
+ 
+ | No| Agenda                                          | Speaker                          | Slide |
+|:--|:------------------------------------------------|:---------------------------------|:------|
+| 1 | OpenChain Update                                |                   |       | 
+| 2 | Open Source Compliance in the Enterprise | 엔씨소프트   |       | 
+| 3 | OpenChain 해설서 발간 (NIPA) 소개                  | SKT 장학성                       |        | 
+| 4 | SW360 설치 및 사용방법과 보안취약점 관리 소개  | SKT 장학성                       |        | 
+
+
 
 ## 4차 모임
  * 주관: Ktds
@@ -82,9 +107,9 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 | No  | Agenda                                        | Speaker                         | Slide   |
 |:----|:----------------------------------------------|:---------------------------------|:------|
 | 1   | State of the Union                              | Shane Coughlan, Linux Foundation  | [openchainthirdkoreanworkshop-190909143700.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-09-04/Slides/openchainthirdkoreanworkshop-190909143700.pdf) |
-| 2   | SK텔레콤 T-hub 시스템 (전사 개발자 Community) 소개   | SK텔레콤 김상기                 |  [t-hub_소개_v1.0_외부배포용.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-09-04/Slides/t-hub_v1.0.pdf) |
-| 3   | 오픈소스 소프트웨어 라이선스 검증기                         | 엔씨소프트 한지호                       | [오픈소스_소프트웨어_검증기_wg공유_20190904_공유용.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-09-04/Slides/ncsoft_20190904.pdf) |
-| 4   | OpenChain 따라잡기                           | LG전자 장학성                       | [openchain따라잡기_2019-09-04.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-09-04/Slides/openchain%EB%94%B0%EB%9D%BC%EC%9E%A1%EA%B8%B0_2019-09-04.pdf) |
+| 2   | SK텔레콤 T-hub 시스템 (전사 개발자 Community) 소개   | SK텔레콤 김상기                 |  [t-hub_소개_v1.0_외부배포용.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-09-04/Slides/t-hub_v1.0.pdf) |
+| 3   | 오픈소스 소프트웨어 라이선스 검증기                         | 엔씨소프트 한지호                       | [오픈소스_소프트웨어_검증기_wg공유_20190904_공유용.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-09-04/Slides/ncsoft_20190904.pdf) |
+| 4   | OpenChain 따라잡기                           | LG전자 장학성                       | [openchain따라잡기_2019-09-04.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/raw/master/Meetings/2019-09-04/Slides/openchain%EB%94%B0%EB%9D%BC%EC%9E%A1%EA%B8%B0_2019-09-04.pdf) |
 | 5   | Free Discussion                                | All                               |            |
 
 * 참여 기업
