@@ -14,10 +14,20 @@ The OpenChain KWG (Korea Work Group), a subgroup of the Linux Foundation [OpenCh
 
 # Meetings
 
-## 5th Meeting
+## 8th Meeting (Scheduled)
+
+ * Organizer: Line
+ * Scheduled for the fourth quarter of 2020
+ 
+## 7th Meeting (Scheduled)
+
+ * Organizer: NCSoft
+ * Scheduled for the third quarter of 2020
+ 
+## 6th Meeting (Scheduled)
 
  * Organizer: Kakao
- * Schedule: <del>March 19, 2020</del> **(Unfortunately, due to the spread of the COVID-19 virus, the meeting was temporarily postponed.)**
+ * Scheduled for the second quarter of 2020
  * Place: Kakao Pangyo Office
  * Agenda
 
@@ -26,6 +36,20 @@ The OpenChain KWG (Korea Work Group), a subgroup of the Linux Foundation [OpenCh
 | 1 | OpenChain Update                                | Shane Coughlan, Linux Foundation |       | 
 | 2 | Intro to Kakao Open Source Verification System, Olive  | Violet, Kakao                       |        | 
 | 3 | Open source contributions, really easy?                | Seo-yeon Lee, Line                    | [download](https://www.soscon.net/content/data/session/Day%201_1630_1.pdf) | 
+ 
+## 5th Meeting (Online)
+ * Schedule: 2020-03-19 (Thu) 2:00~ pm
+ * Join the call
+   - Way 1: Access <https://uberconference.com/openchainproject> on the desktop
+   - Way 2: Dial 02-6022-2388 and enter 855 889 3011 #
+ * Agenda
+ 
+ | No| Agenda                                          | Speaker                          | Slide |
+|:--|:------------------------------------------------|:---------------------------------|:------|
+| 1 | OpenChain Update                                |                   |       | 
+| 2 | Open Source Compliance in the Enterprise | NCSoft   |       | 
+| 3 | Introduction to OpenChain Manual Published by NIPA              | Haksung Jang, SKT     |        | 
+| 4 | Introduction to SW360 Installation and Usage and Security Vulnerabilities Management | Haksung Jang, SKT   |        | 
 
 ## 4th Meeting
   * Organizer: Ktds
