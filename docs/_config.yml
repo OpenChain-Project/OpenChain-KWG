@@ -21,7 +21,6 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Your Name"
 description              : "An amazing website."
-remote_theme : mmistakes/minimal-mistakes
 url                      : "https://hakssung.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -294,3 +293,5 @@ defaults:
       comments: # true
       share: true
       related: true
+
+remote_theme : mmistakes/minimal-mistakes
