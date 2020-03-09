@@ -46,7 +46,7 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
  | No| Agenda                                          | Speaker                          | Slide |
 |:--|:------------------------------------------------|:---------------------------------|:------|
 | 1 | OpenChain Update                                |                   |       | 
-| 2 | Open Source Compliance in the Enterprise | 엔씨소프트   |       | 
+| 2 | Open Source Compliance in the Enterprise | 엔씨소프트    |       | 
 | 3 | OpenChain 해설서 발간 (NIPA) 소개                  | SK텔레콤 장학성                       |        | 
 | 4 | SW360 설치 및 사용방법과 보안취약점 관리 소개  | SK텔레콤 장학성                       |        | 
 
