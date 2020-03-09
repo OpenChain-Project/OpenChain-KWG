@@ -49,6 +49,7 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 | 2 | Open Source Compliance in the Enterprise | 엔씨소프트 한다솜   |       | 
 | 3 | OpenChain 해설서 발간 (NIPA) 소개                  | SK텔레콤 장학성                       |        | 
 | 4 | SW360 설치 및 사용방법과 보안취약점 관리 소개  | SK텔레콤 장학성                       |        | 
+| 5 | Case Study : BOM Tracking 방법  | All                    |        | 
 
 
 
