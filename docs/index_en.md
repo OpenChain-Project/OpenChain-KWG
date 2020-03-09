@@ -47,9 +47,9 @@ The OpenChain KWG (Korea Work Group), a subgroup of the Linux Foundation [OpenCh
  | No| Agenda                                          | Speaker                          | Slide |
 |:--|:------------------------------------------------|:---------------------------------|:------|
 | 1 | OpenChain Update                                |                   |       | 
-| 2 | Open Source Compliance in the Enterprise | NCSoft   |       | 
-| 3 | Introduction to OpenChain Manual Published by NIPA              | Haksung Jang, SKT     |        | 
-| 4 | Introduction to SW360 Installation and Usage and Security Vulnerabilities Management | Haksung Jang, SKT   |        | 
+| 2 | Open Source Compliance in the Enterprise | Dasom Han, NCSoft |       | 
+| 3 | Introduction to OpenChain Manual Published by NIPA              | Haksung Jang, SK Telecom     |        | 
+| 4 | Introduction to SW360 Installation and Usage and Security Vulnerabilities Management | Haksung Jang, SK Telecom   |        | 
 
 ## 4th Meeting
   * Organizer: Ktds
