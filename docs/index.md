@@ -39,7 +39,7 @@ Linux Foundation [OpenChain Project](https://openchainproject.org)의 Subgroup�
 
  * 일정: 2020-03-19 (목) 오후2시~ 
  * Join the call
-   - 방법 1: PC에서 https://uberconference.com/openchainproject 접속
+   - 방법 1: PC에서 <https://uberconference.com/openchainproject> 접속
    - 방법 2: 핸드폰에서 02-6022-2388로 전화 > 855 889 3011 #
  * Agenda
  
