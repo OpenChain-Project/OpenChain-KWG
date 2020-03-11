@@ -24,7 +24,7 @@ phone:              310-318-5555
 email:              info@default.com # change this to your email to receive free emails for your contact submissions via Slapform.com
 
 # Other
-background_image:   ./images/bg.jpg
+background_image:   /images/bg.jpg
 # Tip: The color palette and other styles can be configured in /_sass/lib/_vars.scss
 slapform_thankyou_page: /thank-you
 
@@ -33,13 +33,13 @@ defaults:
     path: ''
     type: posts
   values:
-    permalink: "./meeting/:title/"
+    permalink: "/meeting/:title/"
     layout: post
     author:
 
 
 # Jekyll
-permalink:          ./meeting/:title/
+permalink:          /meeting/:title/
 markdown:           kramdown
 highlighter:        rouge
 kramdown:
@@ -62,7 +62,7 @@ gems:
   - jekyll-paginate
 
 paginate: 6
-paginate_path: "./meeting/page:num/"
+paginate_path: "/meeting/page:num/"
 
 jekyll-mentions:
     base_url: https://github.com
