@@ -1,8 +1,8 @@
 <ul class="links">
   <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Home</a></li>
-  <li class="{% if page.url contains '/resource/' %} active {% endif %}"><a href="{{ "/resource/" | absolute_url }}">Resource</a></li>
-  <li class="{% if page.url contains '/meeting/' %} active {% endif %}"><a href="{{ "/meeting/" | absolute_url }}">Meeting</a></li>
-  <li class="{% if page.url contains '/subgroup/' %} active {% endif %}"><a href="{{ "/subgroup/" | absolute_url }}">Subgroup</a></li>
+  <li class="{% if page.url contains './resource/' %} active {% endif %}"><a href="{{ "/resource/" | absolute_url }}">Resource</a></li>
+  <li class="{% if page.url contains './meeting/' %} active {% endif %}"><a href="{{ "/meeting/" | absolute_url }}">Meeting</a></li>
+  <li class="{% if page.url contains './subgroup/' %} active {% endif %}"><a href="{{ "/subgroup/" | absolute_url }}">Subgroup</a></li>
 </ul>
 
 <ul class="icons">
