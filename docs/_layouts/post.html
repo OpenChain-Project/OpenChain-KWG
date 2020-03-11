@@ -34,7 +34,7 @@
       				<h1>{{page.title}}</h1>
       				<p>{{page.excerpt}}</p>
       			</header>
-      			<div class="image main"><img src="{{site.url}}{{site.baseurl}}{{page.image}}" alt=""></div>
+      			<div class="image main"><img src="{{ page.image | absolute_url }}" alt=""></div>
       			<p>{{content}}</p>
       		</section>
 
