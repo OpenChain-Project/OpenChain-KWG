@@ -3,7 +3,7 @@ layout: post
 title:  "1st Meeting"
 date:   2019-01-23
 excerpt: "LG Electronics Seocho R&D Campus"
-image: "/OpenChain-KWG/images/meeting/2019-01-23/20190123_1406369.jpg"
+image: "/images/meeting/2019-01-23/20190123_1406369.jpg"
 ---
 
 <h3>Organizer : LG Electronics</h3>

@@ -3,7 +3,7 @@ layout: post
 title:  "2nd Meeting"
 date:   2019-06-12
 excerpt: "Samsung Electronics, Seoul R&D Campus"
-image: "{{site.baseurl}}/images/meeting/2019-06-12/kakaotalk_photo_2019-06-13-23-07-27.jpeg"
+image: "/images/meeting/2019-06-12/kakaotalk_photo_2019-06-13-23-07-27.jpeg"
 ---
 
 <h3>Organizer: Samsung Electronics</h3>
