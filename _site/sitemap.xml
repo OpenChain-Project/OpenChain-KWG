@@ -99,11 +99,11 @@
   
     <url>
       <loc>/resource/</loc>
-       <lastmod>2017-11-10T00:20:35+00:00</lastmod>
+       <lastmod>2017-11-02T00:00:00+09:00</lastmod>
       
        <changefreq>weekly</changefreq>
       
-       <priority>0.5</priority>
+       <priority>1.0</priority>
       
      </url>
   
