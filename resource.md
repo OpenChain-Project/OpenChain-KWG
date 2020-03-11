@@ -2,7 +2,8 @@
 layout: page
 title: OpenChain KWG - Resource
 description: 
-    priority: 0.7
+sitemap:
+    priority: 1.0
     lastmod: 2017-11-02
     changefreq: weekly
 ---
