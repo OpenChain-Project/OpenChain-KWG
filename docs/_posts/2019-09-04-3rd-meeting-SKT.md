@@ -2,14 +2,14 @@
 layout: post
 title:  "3rd Meeting"
 date:   2019-09-04
-excerpt: "SK텔레콤 - 삼화타워 3층 Room4"
+excerpt: "SK Telecom - Samhwa Tower 3F Room 4"
 image: "/images/meeting/2019-09-04/20190904_151150.jpg"
 ---
 
-<h3>SK텔레콤 주관</h3>
+<h3>Organizer: SK Telecom</h3>
 <ul>
-<li>일정 : 2019-09-04 (수) 3:00-5:00 pm</li>
-    <li>장소 : 삼화타워 3층 Room 4 </li>
+<li>Schedule: 2019-09-04 (Wed) 3:00~5:00 pm</li>
+    <li>Place : 삼화타워 3층 Room 4 (Samhwa Tower 3F Room 4) </li>
 </ul>
 
 <h3>Agenda</h3>
@@ -32,20 +32,20 @@ image: "/images/meeting/2019-09-04/20190904_151150.jpg"
             </tr>
             <tr>
                 <td>2</td>
-                <td>SK텔레콤 T-hub 시스템 (전사 개발자 Community) 소개</td>
-                <td>SK텔레콤 김상기</td>
+                <td>SK텔레콤 T-hub 시스템 (전사 개발자 Community) 소개 (Introducing the T-hub System)</td>
+                <td>SK텔레콤 김상기 (SK Telecom, Sang-gi Kim)</td>
                 <td><a href="/assets/pdf/2019-09-04/t-hub_v1.0.pdf" download>download</a></td>
             </tr>
             <tr>
                 <td>3</td>
-                <td>오픈소스 소프트웨어 라이선스 검증기</td>
-                <td>엔씨소프트 한지호</td>
+                <td>오픈소스 소프트웨어 라이선스 검증기 (Open Source Software License Analysis History)</td>
+                <td>엔씨소프트 한지호 (NCsoft, Jiho Han)</td>
                 <td><a href="/assets/pdf/2019-09-04/ncsoft_20190904.pdf" download>download</a></td>
             </tr>
             <tr>
                 <td>4</td>
-                <td>OpenChain 따라잡기</td>
-                <td>LG전자 장학성</td>
+                <td>OpenChain 따라잡기 (Catch up with OpenChain)</td>
+                <td>LG전자 장학성 (LG Electronics, Haksung Jang)</td>
                 <td><a href="/assets/pdf/2019-09-04/openchain_update_2019-09-04.pdf" download>download</a></td>
             </tr>
             <tr>
@@ -57,19 +57,19 @@ image: "/images/meeting/2019-09-04/20190904_151150.jpg"
         </tbody>
     </table>    
 </div>
-<h3>참여 기업</h3>
+<h3>Attendees</h3>
 <ul>
     <li>KT</li>
     <li>KTDS</li>
-    <li>LG전자</li>
-    <li>SK텔레콤</li>
-    <li>라인플러스</li>
-    <li>삼성전자</li>
-    <li>엔씨소프트</li>
-    <li>카카오</li>
-    <li>현대자동차</li>
-    <li>현대모비스</li>
-    <li>현대엠엔소프트</li>
+    <li>LG Electronics</li>
+    <li>SK Telecom</li>
+    <li>Line Plus</li>
+    <li>Samsung Electronics</li>
+    <li>NCSoft</li>
+    <li>Kakao</li>
+    <li>Hyundai Motors</li>
+    <li>Hyundai Mobis</li>
+    <li>Hyundai MN Soft</li>
 </ul>
 
 <div class="box alt">
