@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>/meeting/5th-meeting-online/</loc>
+      <loc>https://hakssung.github.io/meeting/5th-meeting-online/</loc>
       
         <lastmod>2020-03-19T00:00:00+09:00</lastmod>
       
@@ -11,7 +11,7 @@
     </url>
   
     <url>
-      <loc>/meeting/4th-meeting-Ktds/</loc>
+      <loc>https://hakssung.github.io/meeting/4th-meeting-Ktds/</loc>
       
         <lastmod>2019-12-02T00:00:00+09:00</lastmod>
       
@@ -20,7 +20,7 @@
     </url>
   
     <url>
-      <loc>/meeting/3rd-meeting-SKT/</loc>
+      <loc>https://hakssung.github.io/meeting/3rd-meeting-SKT/</loc>
       
         <lastmod>2019-09-04T00:00:00+09:00</lastmod>
       
@@ -29,7 +29,7 @@
     </url>
   
     <url>
-      <loc>/meeting/2nd-meeting-Samsung/</loc>
+      <loc>https://hakssung.github.io/meeting/2nd-meeting-Samsung/</loc>
       
         <lastmod>2019-06-12T00:00:00+09:00</lastmod>
       
@@ -38,7 +38,7 @@
     </url>
   
     <url>
-      <loc>/meeting/1st-meeting-LGE/</loc>
+      <loc>https://hakssung.github.io/meeting/1st-meeting-LGE/</loc>
       
         <lastmod>2019-01-23T00:00:00+09:00</lastmod>
       
@@ -48,7 +48,7 @@
   
   
     <url>
-      <loc>/elements/</loc>
+      <loc>https://hakssung.github.io/elements/</loc>
        <lastmod>2017-11-02T00:00:00+09:00</lastmod>
       
        <changefreq>weekly</changefreq>
@@ -58,7 +58,7 @@
      </url>
   
     <url>
-      <loc>/</loc>
+      <loc>https://hakssung.github.io/</loc>
        <lastmod>2017-11-02T00:00:00+09:00</lastmod>
       
        <changefreq>weekly</changefreq>
@@ -68,7 +68,7 @@
      </url>
   
     <url>
-      <loc>/assets/css/main.css</loc>
+      <loc>https://hakssung.github.io/assets/css/main.css</loc>
        <lastmod>2017-11-10T00:20:35+00:00</lastmod>
       
        <changefreq>weekly</changefreq>
@@ -78,7 +78,7 @@
      </url>
   
     <url>
-      <loc>/meeting/</loc>
+      <loc>https://hakssung.github.io/meeting/</loc>
        <lastmod>2017-11-02T00:00:00+09:00</lastmod>
       
        <changefreq>weekly</changefreq>
@@ -88,7 +88,7 @@
      </url>
   
     <url>
-      <loc>/assets/css/noscript.css</loc>
+      <loc>https://hakssung.github.io/assets/css/noscript.css</loc>
        <lastmod>2017-11-10T00:20:35+00:00</lastmod>
       
        <changefreq>weekly</changefreq>
@@ -98,7 +98,7 @@
      </url>
   
     <url>
-      <loc>/resource/</loc>
+      <loc>https://hakssung.github.io/resource/</loc>
        <lastmod>2017-11-02T00:00:00+09:00</lastmod>
       
        <changefreq>weekly</changefreq>
@@ -108,7 +108,7 @@
      </url>
   
     <url>
-      <loc>/sitemap.xml</loc>
+      <loc>https://hakssung.github.io/sitemap.xml</loc>
        <lastmod>2017-11-10T00:20:35+00:00</lastmod>
       
        <changefreq>weekly</changefreq>
@@ -118,7 +118,7 @@
      </url>
   
     <url>
-      <loc>/subgroup/</loc>
+      <loc>https://hakssung.github.io/subgroup/</loc>
        <lastmod>2017-11-02T00:00:00+09:00</lastmod>
       
        <changefreq>weekly</changefreq>
@@ -128,7 +128,7 @@
      </url>
   
     <url>
-      <loc>/thank-you/</loc>
+      <loc>https://hakssung.github.io/thank-you/</loc>
        <lastmod>2017-11-10T00:20:35+00:00</lastmod>
       
        <changefreq>weekly</changefreq>
@@ -138,7 +138,7 @@
      </url>
   
     <url>
-      <loc>/feed.xml</loc>
+      <loc>https://hakssung.github.io/feed.xml</loc>
        <lastmod>2017-11-10T00:20:35+00:00</lastmod>
       
        <changefreq>weekly</changefreq>
@@ -148,7 +148,7 @@
      </url>
   
     <url>
-      <loc>/feed.xslt.xml</loc>
+      <loc>https://hakssung.github.io/feed.xslt.xml</loc>
        <lastmod>2017-11-10T00:20:35+00:00</lastmod>
       
        <changefreq>weekly</changefreq>
