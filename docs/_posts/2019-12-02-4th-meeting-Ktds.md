@@ -2,14 +2,14 @@
 layout: post
 title:  "4th Meeting"
 date:   2019-12-02
-excerpt: "Ktds - 방배사옥 207호 강의실"
+excerpt: "Ktds - Bangbae office, Room 207"
 image: "/images/meeting/2019-12-02/20191202_141601.jpg"
 ---
 
-<h3>Ktds 주관</h3>
+<h3>Organizer: Ktds</h3>
 <ul>
-<li>일정 : 2019-12-02 (월) 2:00~5:00 pm</li>
-    <li>장소: Ktds 방배사옥 207호 강의실</li>
+<li>Schedule: 2019-12-02 (Mon) 2:00~5:00 pm</li>
+    <li>Place: Ktds Bangbae office, Room 207</li>
 </ul>
 
 <h3>Agenda</h3>
@@ -32,20 +32,20 @@ image: "/images/meeting/2019-12-02/20191202_141601.jpg"
             </tr>
             <tr>
                 <td>2</td>
-                <td>오픈소스 관리포털 및 오픈소스 관리방안</td>
-                <td>Ktds 김상미, 이지현</td>
+                <td>오픈소스 관리포털 및 오픈소스 관리방안 (Open Source Management Portal and Open Source Management Plan)</td>
+                <td>Ktds 김상미, 이지현 (Sangmi Kim, Jihyun Lee / Ktds)</td>
                 <td>-</td>
             </tr>
             <tr>
                 <td>3</td>
-                <td>FOSSology 설치와 사용 방법</td>
-                <td>LG전자 박원재</td>
+                <td>FOSSology 설치와 사용 방법 (How to Install and Use FOSSology)</td>
+                <td>LG전자 박원재 (Wonjae Park / LG Electronics)</td>
                 <td><a href="/assets/pdf/2019-12-02/fossology_introduction_openchain_kwg.pdf" download>download</a></td>
             </tr>
             <tr>
                 <td>4</td>
                 <td>OpenChain KWG Update</td>
-                <td>LG전자 장학성</td>
+                <td>LG전자 장학성 (Haksung Jang / LG Electronics)</td>
                 <td>
                   <a href="/assets/pdf/2019-12-02/openchain_kwg_update_2019-12-02.pdf" download>download</a></td>
             </tr>
@@ -65,7 +65,7 @@ image: "/images/meeting/2019-12-02/20191202_141601.jpg"
     </table>    
 </div>
 <h3>Case Study</h3>
-<blockquote>주제 : Open Source Governance 조직 구성</blockquote>
+<blockquote>주제 : Open Source Governance 조직 구성 (Theme : Open Source Governance Organization)</blockquote>
 <div class="table-wrapper">
     <table>
         <thead>
@@ -78,27 +78,27 @@ image: "/images/meeting/2019-12-02/20191202_141601.jpg"
         <tbody>
             <tr>
                 <td>1</td>
-                <td>SK텔레콤 (박철웅)</td>
+                <td>SK텔레콤, 박철웅 (SK Telecom, Woody Park)</td>
                 <td><a href="/assets/pdf/2019-12-02/openchainkwg_organization_skt_20191202.pdf" download>download</a></td>
             </tr>
             <tr>
                 <td>2</td>
-                <td>엔씨소프트 (한다솜)</td>
+                <td>엔씨소프트, 한다솜 (NCSoft, Dasom Han)</td>
                 <td><a href="/assets/pdf/2019-12-02/openchain_kwg_case_study_ncsoft_2019-12-02.pdf" download>download</a></td>
             </tr>
         </tbody>
     </table>    
 </div>
-<h3>참여 기업</h3>
+<h3>Attendees</h3>
 <ul>
     <li>KTDS</li>
-    <li>LG전자</li>
-    <li>SK텔레콤</li>
-    <li>SK주식회사</li>
-    <li>삼성전자</li>
-    <li>엔씨소프트</li>
-    <li>카카오</li>
-    <li>현대모비스</li>
+    <li>LG Electronics</li>
+    <li>SK Telecom</li>
+    <li>SK holdings</li>
+    <li>Samsiung Electronics</li>
+    <li>NCSoft</li>
+    <li>Kakao</li>
+    <li>Hyundai Mobis</li>
 </ul>
 
 <div class="box alt">
