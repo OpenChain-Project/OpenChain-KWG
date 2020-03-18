@@ -38,19 +38,19 @@ image: "/images/uber.png"
             </tr>
             <tr>
                 <td>2</td>
-                <td>Open Source Compliance in the Enterprise</td>
+                <td>Open Source Compliance in the Enterprise 한글 요약본 소개 (Introduction to Korean Summary of Open Source Compliance in the Enterprise )</td>
                 <td>엔씨소프트 한다솜 (Dasom Han, NCSoft)</td>
                 <td>-</td>
             </tr>
             <tr>
                 <td>3</td>
-                <td>OpenChain 해설서 발간 (NIPA) 소개 (Introduction to OpenChain Manual Published by NIPA)</td>
+                <td>OpenChain 해설서 발간 (NIPA) 소개 (Introduction to OpenChain Guide Published by NIPA)</td>
                 <td>SK텔레콤 장학성 (Haksung Jang, SK Telecom)</td>
                 <td>-</td>
             </tr>
             <tr>
                 <td>4</td>
-                <td>SW360 설치 및 사용방법과 보안취약점 관리 소개 (Introduction to SW360 Installation and Usage and Security Vulnerabilities Management)</td>
+                <td>SW360 설치 및 사용방법과 보안취약점 관리 소개 (How to install&use SW360, and Security Vulnerabilities Management)</td>
                 <td>SK텔레콤 장학성 (Haksung Jang, SK Telecom)</td>
                 <td>- </td>
             </tr>
