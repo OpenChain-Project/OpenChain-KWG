@@ -34,25 +34,25 @@ image: "/images/uber.png"
                 <td>1</td>
                 <td>OpenChain Update</td>
                 <td>Shane Coughlan, Linux Foundation</td>
-                <td><a href="/assets/pdf/2020-03-19/OpenChain Korea Meeting #5 – March 2020.pptx" download>download</a></td>
+                <td><a href="{{ "/assets/pdf/2020-03-19/OpenChain Korea Meeting #5 – March 2020.pptx"  | absolute_url }}" download>download</a></td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>Open Source Compliance in the Enterprise 한글 요약본 소개 (Introduction to Korean Summary of Open Source Compliance in the Enterprise )</td>
                 <td>엔씨소프트 한다솜 (Dasom Han, NCSoft)</td>
-                <td><a href="/assets/pdf/2020-03-19/OSC-Enterprise-ko_Openchain KWG_20200317_FN.pdf" download>download</a></td>
+                <td><a href="{{ "/assets/pdf/2020-03-19/OSC-Enterprise-ko_Openchain KWG_20200317_FN.pdf"  | absolute_url }}" download>download</a></td>
             </tr>
             <tr>
                 <td>3</td>
                 <td>OpenChain 해설서 발간 (NIPA) 소개 (Introduction to OpenChain Guide Published by NIPA)</td>
                 <td>SK텔레콤 장학성 (Haksung Jang, SK Telecom)</td>
-                <td><a href="/assets/pdf/2020-03-19/OpenChainKWG-5th-OpenChainGuide.pdf" download>download</a></td>
+                <td>-</td>
             </tr>
             <tr>
                 <td>4</td>
                 <td>SW360 설치 및 사용방법과 보안취약점 관리 소개 (How to install&use SW360, and Security Vulnerabilities Management)</td>
                 <td>SK텔레콤 장학성 (Haksung Jang, SK Telecom)</td>
-                <td><a href="/assets/pdf/2020-03-19/OpenChainKWG-5th-SW360.pdf" download>download</a></td>
+                <td><a href="{{ "/assets/pdf/2020-03-19/OpenChainKWG-5th-SW360.pdf"  | absolute_url }}" download>download</a></td>
             </tr>
             <tr>
                 <td>5</td>
@@ -64,7 +64,7 @@ image: "/images/uber.png"
                 <td>6</td>
                 <td>OpenChain KWG Updates</td>
                 <td>SK텔레콤 장학성 (Haksung Jang, SK Telecom)</td>
-                <td><a href="/assets/pdf/2020-03-19/OpenChainKWG-5th-Updates.pdf" download>download</a></td>
+                <td><a href="{{ "/assets/pdf/2020-03-19/OpenChainKWG-5th-Updates.pdf"  | absolute_url }}" download>download</a></td>
             </tr>
         </tbody>
     </table>    
@@ -84,7 +84,7 @@ image: "/images/uber.png"
 
 
 <h3>Minutes</h3>
-<li>Minutes: <a href="/assets/pdf/2020-03-19/5th-minutes.pdf" download>5th-minutes.pdf</a> </li>
+<li>Minutes: <a href="{{ "/assets/pdf/2020-03-19/5th-minutes.pdf"  | absolute_url }}" download>5th-minutes.pdf</a> </li>
 
 <h3>Next Meetings</h3>
 <ul>

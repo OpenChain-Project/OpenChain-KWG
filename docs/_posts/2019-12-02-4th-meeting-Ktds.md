@@ -28,7 +28,7 @@ image: "/images/meeting/2019-12-02/20191202_141601.jpg"
                 <td>1</td>
                 <td>OpenChain Update</td>
                 <td>Shane Coughlan, Linux Foundation</td>
-                <td><a href="/assets/pdf/2019-12-02/a_brief_introduction_to_openchain.pdf" download>download</a></td>
+                <td><a href="{{ "/assets/pdf/2019-12-02/a_brief_introduction_to_openchain.pdf"  | absolute_url }}" download>download</a></td>
             </tr>
             <tr>
                 <td>2</td>
@@ -40,14 +40,14 @@ image: "/images/meeting/2019-12-02/20191202_141601.jpg"
                 <td>3</td>
                 <td>FOSSology 설치와 사용 방법 (How to Install and Use FOSSology)</td>
                 <td>LG전자 박원재 (Wonjae Park / LG Electronics)</td>
-                <td><a href="/assets/pdf/2019-12-02/fossology_introduction_openchain_kwg.pdf" download>download</a></td>
+                <td><a href="{{ "/assets/pdf/2019-12-02/fossology_introduction_openchain_kwg.pdf"  | absolute_url }}" download>download</a></td>
             </tr>
             <tr>
                 <td>4</td>
                 <td>OpenChain KWG Update</td>
                 <td>LG전자 장학성 (Haksung Jang / LG Electronics)</td>
                 <td>
-                  <a href="/assets/pdf/2019-12-02/openchain_kwg_update_2019-12-02.pdf" download>download</a></td>
+                <a href="{{ "/assets/pdf/2019-12-02/openchain_kwg_update_2019-12-02.pdf"  | absolute_url }}" download>download</a></td>
             </tr>
             <tr>
                 <td>5</td>
@@ -79,12 +79,12 @@ image: "/images/meeting/2019-12-02/20191202_141601.jpg"
             <tr>
                 <td>1</td>
                 <td>SK텔레콤, 박철웅 (SK Telecom, Woody Park)</td>
-                <td><a href="/assets/pdf/2019-12-02/openchainkwg_organization_skt_20191202.pdf" download>download</a></td>
+                <td><a href="{{ "/assets/pdf/2019-12-02/openchainkwg_organization_skt_20191202.pdf"  | absolute_url }}" download>download</a></td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>엔씨소프트, 한다솜 (NCSoft, Dasom Han)</td>
-                <td><a href="/assets/pdf/2019-12-02/openchain_kwg_case_study_ncsoft_2019-12-02.pdf" download>download</a></td>
+                <td><a href="{{ "/assets/pdf/2019-12-02/openchain_kwg_case_study_ncsoft_2019-12-02.pdf"  | absolute_url }}"  download>download</a></td>
             </tr>
         </tbody>
     </table>    
