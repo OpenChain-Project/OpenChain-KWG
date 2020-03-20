@@ -28,25 +28,25 @@ image: "/images/meeting/2019-09-04/20190904_151150.jpg"
                 <td>1</td>
                 <td>State of the Union</td>
                 <td>Shane Coughlan, Linux Foundation</td>
-                <td><a href="/assets/pdf/2019-09-04/openchainthirdkoreanworkshop-190909143700.pdf" download>download</a></td>
+                <td><a href="{{ "/assets/pdf/2019-09-04/openchainthirdkoreanworkshop-190909143700.pdf"  | absolute_url }}" download>download</a></td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>SK텔레콤 T-hub 시스템 (전사 개발자 Community) 소개 (Introducing the T-hub System)</td>
                 <td>SK텔레콤 김상기 (SK Telecom, Sang-gi Kim)</td>
-                <td><a href="/assets/pdf/2019-09-04/t-hub_v1.0.pdf" download>download</a></td>
+                <td><a href="{{ "/assets/pdf/2019-09-04/t-hub_v1.0.pdf"  | absolute_url }}" download>download</a></td>
             </tr>
             <tr>
                 <td>3</td>
                 <td>오픈소스 소프트웨어 라이선스 검증기 (Open Source Software License Analysis History)</td>
                 <td>엔씨소프트 한지호 (NCsoft, Jiho Han)</td>
-                <td><a href="/assets/pdf/2019-09-04/ncsoft_20190904.pdf" download>download</a></td>
+                <td><a href="{{ "/assets/pdf/2019-09-04/ncsoft_20190904.pdf"  | absolute_url }}" download>download</a></td>
             </tr>
             <tr>
                 <td>4</td>
                 <td>OpenChain 따라잡기 (Catch up with OpenChain)</td>
                 <td>LG전자 장학성 (LG Electronics, Haksung Jang)</td>
-                <td><a href="/assets/pdf/2019-09-04/openchain_update_2019-09-04.pdf" download>download</a></td>
+                <td><a href="{{ "/assets/pdf/2019-09-04/openchain_update_2019-09-04.pdf"  | absolute_url }}" download>download</a></td>
             </tr>
             <tr>
                 <td>5</td>
