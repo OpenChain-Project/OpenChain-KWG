@@ -28,7 +28,7 @@ image: "/images/meeting/2019-06-12/kakaotalk_photo_2019-06-13-23-07-27.jpeg"
                 <td>1</td>
                 <td>OpenChain Today and Tomorrow</td>
                 <td>Shane Coughlan, Linux Foundation</td>
-                <td><a href="/assets/pdf/2019-06-12/openchaintodayandtomorrow-190612090644.pdf" download>download</a></td>
+                <td><a href="{{ "/assets/pdf/2019-06-12/openchaintodayandtomorrow-190612090644.pdf" | absolute_url }}" download>download</a></td>
             </tr>
             <tr>
                 <td>2</td>
@@ -47,9 +47,9 @@ image: "/images/meeting/2019-06-12/kakaotalk_photo_2019-06-13-23-07-27.jpeg"
                 <td>Open Source Compliance Tool based on Open Source</td>
                 <td>LG전자 장학성 (Haksung Jang, LG Electronics) </td>
                 <td>
-                  <a href="/assets/pdf/2019-06-12/036_oss_tooling_20190506_fossology_and_sw360_updates_04.pdf" download>FOSSology&SW360</a>, 
-                  <a href="/assets/pdf/2019-06-12/oss-compliance-toolcahin-2019.pdf" download>Toolchain</a>, 
-                  <a href="/assets/pdf/2019-06-12/ClearlyDefined-Crowdsourcing-Project-Security-and-Licensing-Data-Jeff-McAffer-Microsoft.pdf" download>ClearlyDefined</a> 
+                <a href="{{ "/assets/pdf/2019-06-12/036_oss_tooling_20190506_fossology_and_sw360_updates_04.pdf"  | absolute_url }}" download>FOSSology&SW360</a>, 
+                <a href="{{ "/assets/pdf/2019-06-12/oss-compliance-toolcahin-2019.pdf"  | absolute_url }}" download>Toolchain</a>, 
+                <a href="{{ "/assets/pdf/2019-06-12/ClearlyDefined-Crowdsourcing-Project-Security-and-Licensing-Data-Jeff-McAffer-Microsoft.pdf"  | absolute_url }}" download>ClearlyDefined</a> 
                   </td>
             </tr>
             <tr>
