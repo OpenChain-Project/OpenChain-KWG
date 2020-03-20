@@ -34,7 +34,7 @@ image: "/images/uber.png"
                 <td>1</td>
                 <td>OpenChain Update</td>
                 <td>Shane Coughlan, Linux Foundation</td>
-                <td><a href="{{ "/assets/pdf/2020-03-19/OpenChain_Korea_Meeting_#5_March_2020.pptx"  | absolute_url }}" download>download</a></td>
+                <td><a href="{{ "/assets/pdf/2020-03-19/OpenChain_Korea_Meeting_5_March_2020.pptx"  | absolute_url }}" download>download</a></td>
             </tr>
             <tr>
                 <td>2</td>
