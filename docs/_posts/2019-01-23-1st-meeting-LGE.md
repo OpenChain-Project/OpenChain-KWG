@@ -30,7 +30,7 @@ image: "/images/meeting/2019-01-23/20190123_1406369.jpg"
                 <td>1</td>
                 <td>Intro</td>
                 <td>Haksung Jang / LGE</td>
-                <td><a href="/assets/pdf/openchain_korea_workshop_intro_2019-01-23.pdf" download>download</a></td>
+                <td><a href="{{ "/assets/pdf/openchain_korea_workshop_intro_2019-01-23.pdf"  | absolute_url }}" download>download</a></td>
             </tr>
             <tr>
                 <td>2</td>
@@ -42,13 +42,13 @@ image: "/images/meeting/2019-01-23/20190123_1406369.jpg"
                 <td>3</td>
                 <td>How do we OpenChain?</td>
                 <td>Haksung Jang / LGE</td>
-                <td><a href="/assets/pdf/openchain_korea_workshop_how_do_we_openchain_2019-01-23.pdf" download>download</a></td>
+                <td><a href="{{ "/assets/pdf/openchain_korea_workshop_how_do_we_openchain_2019-01-23.pdf"  | absolute_url }}" download>download</a></td>
             </tr>
             <tr>
                 <td>4</td>
                 <td>Introduce yourself & Workshop – OpenChain and Korea</td>
                 <td>Soim Kim / LGE</td>
-                <td><a href="/assets/pdf/openchainkoreaworkshop_livepoll_result_2019-01-23.pdf" download>download</a></td>
+                <td><a href="{{ "/assets/pdf/openchainkoreaworkshop_livepoll_result_2019-01-23.pdf" | absolute_url }}" download>download</a></td>
             </tr>
         </tbody>
     </table>    
