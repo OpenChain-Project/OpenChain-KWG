@@ -28,7 +28,7 @@ image: "/images/meeting/2019-12-02/20191202_141601.jpg"
                 <td>1</td>
                 <td>OpenChain Update</td>
                 <td>Shane Coughlan, Linux Foundation</td>
-                <td><a href="/assets/pdf/2019-12-02/a_brief_introduction_to_openchain.pdf" download>download</a></td>
+                <td><a href="{{ "/assets/pdf/2019-12-02/a_brief_introduction_to_openchain.pdf" | absolute_url}}" download>download_absolute</a></td>
             </tr>
             <tr>
                 <td>2</td>
