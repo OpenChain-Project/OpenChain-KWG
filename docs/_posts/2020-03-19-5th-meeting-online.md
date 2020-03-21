@@ -84,7 +84,9 @@ image: "/images/uber.png"
 
 
 <h3>Minutes</h3>
-<li>Minutes: <a href="{{ "/assets/pdf/2020-03-19/5th-minutes.pdf"  | absolute_url }}" download>5th-minutes.pdf</a> </li>
+<ul>
+  <li>Minutes: <a href="{{ "/assets/pdf/2020-03-19/5th-minutes.pdf"  | absolute_url }}" download>5th-minutes.pdf</a> </li>
+</ul>
 
 <h3>Next Meetings</h3>
 <ul>
