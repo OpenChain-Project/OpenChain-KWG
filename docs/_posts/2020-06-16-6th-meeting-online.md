@@ -38,18 +38,6 @@ image: "/images/uber.png"
                 <td>-</td>
             </tr>
             <tr>
-                <td rowspan="2">2</td>
-                <td>Kakao의 오픈소스 관리시스템 Olive 소개 (Introducing Olive, Kakao's open source management system)</td>
-                <td>Kakao 황민호 (Robin)</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <!--<td></td>-->
-                <td>Olive 의존성 분석 구조 및 스펙 (Structure and Specification of Dependency Analysis in Olive)</td>
-                <td>Kakao 김영환 (Sean)</td>
-                <td>-</td>
-            </tr>
-            <tr>
                 <td>3</td>
                 <td>SK텔레콤, 오픈소스 이렇게 준비합니다 (SK telecom and open source)
                 <td>SK telecom 김상기 (Aaron)</td>
