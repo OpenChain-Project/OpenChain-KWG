@@ -45,12 +45,24 @@ image: "/images/uber.png"
             </tr>
             <tr>
                 <td>3</td>
+                <td>Olive 의존성 분석 구조 및 스펙 (Structure and Specification of Dependency Analysis in Olive)
+                <td>Kakao 김영환 (Sean)</td>
+                <td>-</td>
+            </tr> 
+            <tr>
+                <td>4</td>
+                <td>SK텔레콤, 오픈소스 이렇게 준비합니다 (SK telecom and open source)
+                <td>SK telecom 김상기 (Aaron)</td>
+                <td>-</td>
+            </tr> 
+            <tr>
+                <td>5</td>
                 <td>Case Study : 오픈소스 기여/공개 정책 (Open Source Contribution / Release Policy)</td>
                 <td>All</td>
                 <td>-</td>
             </tr>
             <tr>
-                <td>4</td>
+                <td>6</td>
                 <td>Free Discussion</td>
                 <td>All</td>
                 <td>-</td>
