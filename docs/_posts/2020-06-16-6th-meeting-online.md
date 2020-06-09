@@ -38,12 +38,6 @@ image: "/images/uber.png"
                 <td>-</td>
             </tr>
             <tr>
-                <td>3</td>
-                <td>SK텔레콤, 오픈소스 이렇게 준비합니다 (SK telecom and open source)
-                <td>SK telecom 김상기 (Aaron)</td>
-                <td>-</td>
-            </tr> 
-            <tr>
                 <td>4</td>
                 <td>Case Study : 오픈소스 기여/공개 정책 (Open Source Contribution / Release Policy)</td>
                 <td>All</td>
