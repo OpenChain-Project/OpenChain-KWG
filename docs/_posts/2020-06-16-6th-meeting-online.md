@@ -38,6 +38,24 @@ image: "/images/uber.png"
                 <td>-</td>
             </tr>
             <tr>
+                <td rowspan="2">2</td>
+                <td>Kakao의 오픈소스 관리시스템 Olive 소개 (Introducing Olive, Kakao's open source management system)</td>
+                <td>Kakao 황민호 (Robin)</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <!--<td></td>-->
+                <td>Olive 의존성 분석 구조 및 스펙 (Structure and Specification of Dependency Analysis in Olive)</td>
+                <td>Kakao 김영환 (Sean)</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>SK텔레콤, 오픈소스 이렇게 준비합니다 (SK telecom and open source)</td>
+                <td>SK telecom 김상기 (Aaron)</td>
+                <td>-</td>
+            </tr> 
+            <tr>
                 <td>4</td>
                 <td>Case Study : 오픈소스 기여/공개 정책 (Open Source Contribution / Release Policy)</td>
                 <td>All</td>
@@ -52,3 +70,20 @@ image: "/images/uber.png"
         </tbody>
     </table>    
 </div>
+
+
+<h3>Attendees</h3>
+<ul>
+</ul>
+
+
+<h3>Minutes</h3>
+<ul>
+</ul>
+
+<h3>Next Meetings</h3>
+<ul>
+    <li>7th Meeting : 3rd quarter of 2020 (Organizer : Kakao)</li>
+    <li>8th Meeting : 4th quarter of 2020 (Organizer : NCSoft)</li>
+    <li>9th Meeting : 1st quarter of 2021 (Organizer : Line)</li>
+</ul>
