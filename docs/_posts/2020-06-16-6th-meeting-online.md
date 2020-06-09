@@ -46,7 +46,7 @@ image: "/images/uber.png"
             <tr>
                 <!--<td></td>-->
                 <td>Olive 의존성 분석 구조 및 스펙 (Structure and Specification of Dependency Analysis in Olive)</td>
-                <td>김영환 (Sean)</td>
+                <td>Kakao 김영환 (Sean)</td>
                 <td>-</td>
             </tr>
             <tr>
