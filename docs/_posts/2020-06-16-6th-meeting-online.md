@@ -58,20 +58,3 @@ image: "/images/uber.png"
         </tbody>
     </table>    
 </div>
-
-
-<h3>Attendees</h3>
-<ul>
-</ul>
-
-
-<h3>Minutes</h3>
-<ul>
-</ul>
-
-<h3>Next Meetings</h3>
-<ul>
-    <li>7th Meeting : 3rd quarter of 2020 (Organizer : Kakao)</li>
-    <li>8th Meeting : 4th quarter of 2020 (Organizer : NCSoft)</li>
-    <li>9th Meeting : 1st quarter of 2021 (Organizer : Line)</li>
-</ul>
