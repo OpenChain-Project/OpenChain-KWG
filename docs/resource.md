@@ -11,7 +11,7 @@ sitemap:
     <h1>OpenChain Resources</h1>
 </header>
 OpenChain Project에서는 Compliance Program을 구축하는데 필요한 정책 문서 템플릿, 교육 자료 등 다양한 참고자료를 제공합니다. 이 자료들은 OpenChain Specification 및 일반적인 Open Source Compliance 활동을 지원하기 위해 고안됐으며, 누구나 자유롭게 사용할 수 있도록 <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0</a>로 제공됩니다.
-<a href="https://www.openchainproject.org/resources"><span class="image center"><img src="{{ "/images/openchain-resource.png" | absolute_url }}" alt="" /></span></a>
+<br><a href="https://www.openchainproject.org/resources"><span class="image center"><img src="{{ "/images/openchain-resource.png" | absolute_url }}" alt="" /></span></a>
 
 
 ## Korean Translation
