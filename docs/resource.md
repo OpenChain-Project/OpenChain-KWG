@@ -46,5 +46,5 @@ OpenChain Project는 Specification의 경우 정책적으로 한 개인이 작�
 <div class="row">
 <span class="image left"><img src="{{ "/images/openchain-guide.png" | absolute_url }}" alt="" /></span>
 정보통신산업진흥원(NIPA)이 주관하고 공개SW역량프라자에서 연구를 수행하여 기업이 OpenChain Specification을 준수하기 위해 필요한 사항들을 설명하는 해설서를 가이드 형태로 제작하였습니다. 
-<br> <a href="https://haksung.gitbook.io/openchain-guide" class="button default">Gitbook</a>
+<br><br> <a href="https://haksung.gitbook.io/openchain-guide" class="button default">Gitbook</a>
 </div>
