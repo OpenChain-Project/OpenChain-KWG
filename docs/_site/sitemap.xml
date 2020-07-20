@@ -2,7 +2,16 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>https://OpenChain-Project.github.io/meeting/5th-meeting-online/</loc>
+      <loc>http://localhost:4000/meeting/6th-meeting-online/</loc>
+      
+        <lastmod>2020-06-16T00:00:00+09:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/meeting/5th-meeting-online/</loc>
       
         <lastmod>2020-03-19T00:00:00+09:00</lastmod>
       
@@ -11,7 +20,7 @@
     </url>
   
     <url>
-      <loc>https://OpenChain-Project.github.io/meeting/4th-meeting-Ktds/</loc>
+      <loc>http://localhost:4000/meeting/4th-meeting-Ktds/</loc>
       
         <lastmod>2019-12-02T00:00:00+09:00</lastmod>
       
@@ -20,7 +29,7 @@
     </url>
   
     <url>
-      <loc>https://OpenChain-Project.github.io/meeting/3rd-meeting-SKT/</loc>
+      <loc>http://localhost:4000/meeting/3rd-meeting-SKT/</loc>
       
         <lastmod>2019-09-04T00:00:00+09:00</lastmod>
       
@@ -29,7 +38,7 @@
     </url>
   
     <url>
-      <loc>https://OpenChain-Project.github.io/meeting/2nd-meeting-Samsung/</loc>
+      <loc>http://localhost:4000/meeting/2nd-meeting-Samsung/</loc>
       
         <lastmod>2019-06-12T00:00:00+09:00</lastmod>
       
@@ -38,7 +47,7 @@
     </url>
   
     <url>
-      <loc>https://OpenChain-Project.github.io/meeting/1st-meeting-LGE/</loc>
+      <loc>http://localhost:4000/meeting/1st-meeting-LGE/</loc>
       
         <lastmod>2019-01-23T00:00:00+09:00</lastmod>
       
@@ -48,7 +57,67 @@
   
   
     <url>
-      <loc>https://OpenChain-Project.github.io/elements/</loc>
+      <loc>http://localhost:4000/</loc>
+       <lastmod>2017-11-02T00:00:00+09:00</lastmod>
+      
+       <changefreq>weekly</changefreq>
+      
+       <priority>1.0</priority>
+      
+     </url>
+  
+    <url>
+      <loc>http://localhost:4000/assets/css/main.css</loc>
+       <lastmod>2017-11-10T00:20:35+00:00</lastmod>
+      
+       <changefreq>weekly</changefreq>
+      
+       <priority>0.5</priority>
+      
+     </url>
+  
+    <url>
+      <loc>http://localhost:4000/meeting/</loc>
+       <lastmod>2017-11-02T00:00:00+09:00</lastmod>
+      
+       <changefreq>weekly</changefreq>
+      
+       <priority>1.0</priority>
+      
+     </url>
+  
+    <url>
+      <loc>http://localhost:4000/assets/css/noscript.css</loc>
+       <lastmod>2017-11-10T00:20:35+00:00</lastmod>
+      
+       <changefreq>weekly</changefreq>
+      
+       <priority>0.5</priority>
+      
+     </url>
+  
+    <url>
+      <loc>http://localhost:4000/resource/</loc>
+       <lastmod>2017-11-02T00:00:00+09:00</lastmod>
+      
+       <changefreq>weekly</changefreq>
+      
+       <priority>1.0</priority>
+      
+     </url>
+  
+    <url>
+      <loc>http://localhost:4000/sitemap.xml</loc>
+       <lastmod>2017-11-10T00:20:35+00:00</lastmod>
+      
+       <changefreq>weekly</changefreq>
+      
+       <priority>0.5</priority>
+      
+     </url>
+  
+    <url>
+      <loc>http://localhost:4000/subgroup/</loc>
        <lastmod>2017-11-02T00:00:00+09:00</lastmod>
       
        <changefreq>weekly</changefreq>
@@ -58,17 +127,7 @@
      </url>
   
     <url>
-      <loc>https://OpenChain-Project.github.io/</loc>
-       <lastmod>2017-11-02T00:00:00+09:00</lastmod>
-      
-       <changefreq>weekly</changefreq>
-      
-       <priority>1.0</priority>
-      
-     </url>
-  
-    <url>
-      <loc>https://OpenChain-Project.github.io/assets/css/main.css</loc>
+      <loc>http://localhost:4000/feed.xml</loc>
        <lastmod>2017-11-10T00:20:35+00:00</lastmod>
       
        <changefreq>weekly</changefreq>
@@ -78,77 +137,7 @@
      </url>
   
     <url>
-      <loc>https://OpenChain-Project.github.io/meeting/</loc>
-       <lastmod>2017-11-02T00:00:00+09:00</lastmod>
-      
-       <changefreq>weekly</changefreq>
-      
-       <priority>1.0</priority>
-      
-     </url>
-  
-    <url>
-      <loc>https://OpenChain-Project.github.io/assets/css/noscript.css</loc>
-       <lastmod>2017-11-10T00:20:35+00:00</lastmod>
-      
-       <changefreq>weekly</changefreq>
-      
-       <priority>0.5</priority>
-      
-     </url>
-  
-    <url>
-      <loc>https://OpenChain-Project.github.io/resource/</loc>
-       <lastmod>2017-11-02T00:00:00+09:00</lastmod>
-      
-       <changefreq>weekly</changefreq>
-      
-       <priority>1.0</priority>
-      
-     </url>
-  
-    <url>
-      <loc>https://OpenChain-Project.github.io/sitemap.xml</loc>
-       <lastmod>2017-11-10T00:20:35+00:00</lastmod>
-      
-       <changefreq>weekly</changefreq>
-      
-       <priority>0.5</priority>
-      
-     </url>
-  
-    <url>
-      <loc>https://OpenChain-Project.github.io/subgroup/</loc>
-       <lastmod>2017-11-02T00:00:00+09:00</lastmod>
-      
-       <changefreq>weekly</changefreq>
-      
-       <priority>0.7</priority>
-      
-     </url>
-  
-    <url>
-      <loc>https://OpenChain-Project.github.io/thank-you/</loc>
-       <lastmod>2017-11-10T00:20:35+00:00</lastmod>
-      
-       <changefreq>weekly</changefreq>
-      
-       <priority>0.5</priority>
-      
-     </url>
-  
-    <url>
-      <loc>https://OpenChain-Project.github.io/feed.xml</loc>
-       <lastmod>2017-11-10T00:20:35+00:00</lastmod>
-      
-       <changefreq>weekly</changefreq>
-      
-       <priority>0.5</priority>
-      
-     </url>
-  
-    <url>
-      <loc>https://OpenChain-Project.github.io/feed.xslt.xml</loc>
+      <loc>http://localhost:4000/feed.xslt.xml</loc>
        <lastmod>2017-11-10T00:20:35+00:00</lastmod>
       
        <changefreq>weekly</changefreq>
