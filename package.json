@@ -1,0 +1,24 @@
+{
+  "name": "openchain-kwg",
+  "version": "0.0.1",
+  "description": "OpenChain Korea Work Group.",
+  "main": "none.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenChain-Project/OpenChain-KWG.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OpenChain-Project/OpenChain-KWG/issues"
+  },
+  "homepage": "https://github.com/OpenChain-Project/OpenChain-KWG#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^7.1.1"
+  }
+}
