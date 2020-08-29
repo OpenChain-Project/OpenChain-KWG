@@ -11,12 +11,12 @@ description: >
 
 * Schedule: 2019-09-22 (Thu) 2:00~4:00 pm
 * How to join on PC
-  1. PC에서 https://uberconference.com/openchainproject 접속
-  2. Your Name 입력 후, “Join audio-only” 클릭하여 방에 입장
-  3. Confirm settings 화면에서 마이크와 스피커 설정 확인 후 > Join conference
-* How to join on Phone  
-  1. 핸드폰에서 02-6022-2388로 전화
-  2. 855 889 3011 # 입력
+   1. Access https://uberconference.com/openchainproject from a PC
+   2. After entering Your Name, click “Join audio-only” to enter the room
+   3. After checking the microphone and speaker settings on the Confirm settings screen> Join conference
+* How to join on Phone
+   1.Call 02-6022-2388 from a mobile phone
+   2.Enter 855 889 3011#
 
 ## Agenda
 

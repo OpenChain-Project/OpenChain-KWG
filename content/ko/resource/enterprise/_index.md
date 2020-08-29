@@ -25,11 +25,7 @@ NCSoft에서는 이 책의 주요 내용을 한글로 요약하였고 저자인 
 * License : CC-BY-NC 4.0
 * 발표자료 : [OSC-Enterprise-ko_Openchain_KWG_20200317_FN.pdf](OSC-Enterprise-ko_OpenchainKWG_20200317_FN.pdf)
 
-OpenChain Training Slide의 한국어 번역은 1.2까지 번역이 완료된 상태이며 다음 페이지에서 다운로드 받을 수 있습니다. 
-
 ## 기여자 현황 
-
-OpenChain Training Slide 한국어 번역의 주요 기여자 현황은 다음과 같습니다. 
 
 | Name            | Company           | Email | Role |
 |-------------------|-----------------|------|------|

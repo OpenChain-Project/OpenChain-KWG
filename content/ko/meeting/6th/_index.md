@@ -44,6 +44,10 @@ description: >
 
 * [OpenChainKWG_6th_20200616.pdf](OpenChainKWG_6th_20200616.pdf)
 
+## Video 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gUzfcTOFWdA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Photo Gallery
 
 <div ><span class="image fit">

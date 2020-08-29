@@ -4,35 +4,35 @@ linkTitle: "Specification"
 weight: 1
 type: docs
 description: >
-  OpenChain Specification을 한국어로 번역하여 공개합니다.
+  OpenChain Specification is translated into Korean and released.
 ---
-## OpenChain Specification 이란?
+## What is the OpenChain Specification?
 ![Specification](spec.png) 
 
-OpenChain Specification은 오픈소스 컴플라이언스를 위한 핵심 요구사항을 정의한 12페이지 분량의 표준 규격으로, 기업의 규모나 업종과 관계없이 모든 분야의 회사에 적합하도록 고안되었습니다. 2019년 4월에는 [OpenChain Specification 2.0](https://wiki.linuxfoundation.org/_media/openchain/openchainspec-2.0.pdf)이 배포됐으며, 기업이 오픈소스 컴플라이언스 달성을 위해 꼭 수행해야 할 여섯 가지 요건에 대한 설명과 기업이 이를 수행하고 있음을 입증할 수 있는 검증 자료 목록을 정의하고 있습니다. 
+The OpenChain Specification is a 12-page standard specification that defines key requirements for open source compliance, and is designed to be suitable for companies in all fields regardless of the size or industry of the enterprise. In April 2019, the [OpenChain Specification 2.0](https://wiki.linuxfoundation.org/_media/openchain/openchainspec-2.0.pdf) was released, describing six requirements that companies must perform to achieve open source compliance and defining a list of verification materials that can prove that companies are doing so.
 
-1. 오픈소스 컴플라이언스를 관리하기 위한 프로그램
-2. 효과적인 리소스 제공을 위한 업무 정의 및 지원
-3. 오픈소스 검토 및 승인을 관리하는 프로세스
-4. 컴플라이언스 결과물 생성 및 제공을 위한 프로세스
-5. 오픈소스 커뮤니티 참여를 이해하고 관리하기 위한 정책
-6. OpenChain Specification 요건 준수
+1. Program Foundation
+2. Relevant Tasks Defined and Supported
+3. Open Source Content Review and Approval
+4. Compliance Artifact Creation and Delivery
+5. Understanding Open Source Community Engagements
+6. Adherence to the Specification Requirements
 
-오픈소스 컴플라이언스를 처음 시작하는 기업이라면 이와 같은 OpenChain Specification의 요건을 하나씩 충족해나가면서 수준을 향상시킬 수 있습니다. 
+If you are new to open source compliance, you can improve your level by meeting the requirements of this OpenChain Specification one by one.
 
-## Specification 번역 정책
+## Specification translation policy
 
-OpenChain Project는 Specification의 경우 한 개인이 작업한 번역물은 공식 버전으로 채택하지 않고 있습니다. 최소 2곳 이상의 개인 혹은 단체에서 번역하고 감수해야 한다는 등의 방침을 두어서 올바른 번역물이 배포될 수 있도록 하고 있습니다. 
+In the case of the specification, the OpenChain Project does not adopt the translations made by one individual as an official version. They have a policy that requires translation and supervision by at least two individuals or organizations to ensure that correct translations are released.
 
-OpenChain의 Specification에 대한 자세한 번역 정책은 다음 페이지를 참고하세요. : [https://wiki.linuxfoundation.org/openchain/spec-translations](https://wiki.linuxfoundation.org/openchain/spec-translations)
+For detailed translation policy on OpenChain Specification, refer to the following page. : [https://wiki.linuxfoundation.org/openchain/spec-translations](https://wiki.linuxfoundation.org/openchain/spec-translations)
 
-## Specification 번역 현황
+## Specification translation status
 
-OpenChain Specification의 한국어 번역은 Specification 2.0까지 번역이 완료된 상태이며 다음 페이지에서 다운로드 받을 수 있습니다. : [https://github.com/OpenChain-Project/Specification/tree/master/Community/kr/2.0](https://github.com/OpenChain-Project/Specification/tree/master/Community/kr/2.0)
+The Korean translation of the OpenChain Specification has been translated up to version 2.0 and can be downloaded from the following page. : [https://github.com/OpenChain-Project/Specification/tree/master/Community/kr/2.0](https://github.com/OpenChain-Project/Specification/tree/master/Community/kr/2.0)
 
-## Specification 기여자 현황
+## Specification Contributors
 
-OpenChain Specification 한국어 번역의 주요 기여자 현황은 다음과 같습니다. 
+The main contributors to Korean translation of the OpenChain Specification are as follows.
 
 | Name            | Company           | Email | Role |
 |-------------------|-----------------|------|------|
@@ -42,9 +42,10 @@ OpenChain Specification 한국어 번역의 주요 기여자 현황은 다음과
 | Jongho Hong  | LG Electronics | jjongho.hong@lge.com | Contributor | 
 | Kyoungae Kim  | LG Electronics | kyoungae.kim@lge.com | Contributor | 
 
-## Specification 번역 참여
+## How to join
 
-Specification 한국어 번역은 GitHub에서 공동으로 수행하며 누구나 참여할 수 있습니다. 많은 참여 바랍니다!
+Specification Korean translation is jointly performed on GitHub, and anyone can participate. Please join!
+
 <div class="mx-auto">
 	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://github.com/OpenChain-Project/Specification/tree/master/Community/kr">
 		GitHub <i class="fab fa-github ml-2 "></i>

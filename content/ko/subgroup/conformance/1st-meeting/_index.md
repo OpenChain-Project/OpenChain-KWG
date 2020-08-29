@@ -25,6 +25,6 @@ description: >
 ## Photo Gallery
 
 <div ><span class="image fit">
-  <img src="../1575426596835.jpg" width="45%">
-  <img src="../1575426599025.jpg" width="45%">
+  <img src="1575426596835.jpg" width="45%">
+  <img src="1575426599025.jpg" width="45%">
 </span></div>

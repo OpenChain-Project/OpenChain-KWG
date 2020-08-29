@@ -1,11 +1,17 @@
+---
+date: 2020-08-29
+title: "The sample blog post"
+linkTitle: "Sample blog post"
+description: "The Docsy Hugo theme lets project maintainers and contributors focus on content, not on reinventing a website infrastructure from scratch"
+author: Riona MacNamara ([@rionam](https://twitter.com/bepsays))
+resources:
+- src: "**.{png,jpg}"
+  title: "Image #:counter"
+  params:
+    byline: "Photo: Riona MacNamara / CC-BY-CA"
+---
 
----
-title: "Another Great Release"
-linkTitle: "Release New Features"
-date: 2018-01-04
-description: >
-  A short lead description about this content page. Text here can also be **bold** or _italic_ and can even be split over multiple paragraphs.
----
+
 
 Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.com) should be blue with no underlines (unless hovered over).
 
@@ -243,3 +249,35 @@ Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta ch
 ```
 This is the final element on the page and there should be no margin below this.
 ```
+
+
+## Including images
+
+Here's an image (`featured-sunset-get.png`) that includes a byline and a caption.
+
+{{< imgproc sunset Fill "600x300" >}}
+Fetch and scale an image in the upcoming Hugo 0.43.
+{{< /imgproc >}}
+
+The front matter of this post specifies properties to be assigned to all image resources:
+
+```
+resources:
+- src: "**.{png,jpg}"
+  title: "Image #:counter"
+  params:
+    byline: "Photo: Riona MacNamara / CC-BY-CA"
+```
+
+To include the image in a page, specify its details like this:
+
+```
+{{< imgproc sunset Fill "600x300" >}}
+Fetch and scale an image in the upcoming Hugo 0.43.
+{{< /imgproc >}}
+```
+
+The image will be rendered at the size and byline specified in the front matter.
+
+
+---------

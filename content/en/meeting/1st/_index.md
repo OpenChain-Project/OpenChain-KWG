@@ -14,8 +14,8 @@ description: >
 
 ## Intro
 
-* Purpose: Linux Foundation의 OpenChain Project 소개 및 한국 기업 참여와 활용을 위한 교류회
-* Scheduled : 2019-01-23 (수) 오후2시 - 5시
+* Purpose: Linux Foundation's OpenChain Project introduction and Discussing how Korean companies participate
+* Scheduled : 2019-01-23 (Wed) 2pm-5pm
 * Place : LG Electronics Seocho R&D Campus
 * Article : [openchain-workshop-in-korea-january-23rd-2019](https://www.openchainproject.org/news/2019/01/24/openchain-workshop-in-korea-january-23rd-2019)
 
