@@ -3,7 +3,7 @@
 Open Chain KWG에 오신 것을 환영합니다!
 
 ![kwg-logo.gif](./content/ko/about/kwg-logo.gif)
-_<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
+<p align="center"> < designed by [@soimkim](https://github.com/soimkim) > </p>
 
 
 이곳은 OpenChain Korea Work Group을 위한 Repository입니다. 
