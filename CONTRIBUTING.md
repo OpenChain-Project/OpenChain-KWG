@@ -18,8 +18,8 @@ OpenChain KWG의 모든 활동은 누구나 열람하고 사용할 수 있도록
 
 * [Resource](https://openchain-project.github.io/OpenChain-KWG/resource/) : OpenChain KWG에서 번역/생성한 자료 공개
 * [Meeting](https://openchain-project.github.io/OpenChain-KWG/meeting/) : OpenChain KWG 정기 모임 공지, 발표자료, 참석자, 회의록 등 자료 공개
-* [Subgroup]https://openchain-project.github.io/OpenChain-KWG/subgroup/ : OpenChain KWG Subgroup의 활동 자료 공개
-* [Blog]https://openchain-project.github.io/OpenChain-KWG/blog/ : OpenChain KWG 멤버가 작성하는 뉴스, 기술블로그 공개
+* [Subgroup](https://openchain-project.github.io/OpenChain-KWG/subgroup/) : OpenChain KWG Subgroup의 활동 자료 공개
+* [Blog](https://openchain-project.github.io/OpenChain-KWG/blog/) : OpenChain KWG 멤버가 작성하는 뉴스, 기술블로그 공개
 
 이러한 자료를 추가하는데 기여하실 분을 모십니다. 자료를 추가하는 방법은 다음 페이지를 참고하세요! : 
 
@@ -50,5 +50,6 @@ Open Source Compliance를 효율적으로 수행하기 위해서는 자동화 �
 * 정기 모임 준비
 * 회의록 작성
 * 아이디어 제안 / 이슈 리포트 : https://github.com/OpenChain-Project/OpenChain-KWG/issues/new
+
 
 **여러분의 기여로 우리는 모두 함께 성장합니다!**
