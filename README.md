@@ -17,8 +17,8 @@ Anyone in charge of Open Source Compliance at a Korean company that develops and
 
 ## Contributing
 
-OpenChain KWW은 여러분의 기여를 적극적으로 환영합니다. 한분 한분의 소중한 기여로 발전하고 성장합니다.  기여 방법은 다음 페이지를 참고하세요. :  [CONTRIBUTING](CONTRIBUTING.md)
+OpenChain KWW always welcomes your contributions. We develop and grow with each and every precious contribution. Please refer to the next page for how to contribute. :  [CONTRIBUTING](CONTRIBUTING.md)
 
 ## Contact
 
-OpenChain KWG에 문의/요청이 있을 경우, Mailing List로 연락하시기 바랍니다. : [Contact](https://openchain-project.github.io/OpenChain-KWG/about/contact/)
+If you have any inquiries/requests to OpenChain KWG, please contact us through the Mailing List. : [Contact](https://openchain-project.github.io/OpenChain-KWG/about/contact/)
