@@ -113,7 +113,11 @@ github_project_repo = "https://github.com/OpenChain-Project/OpenChain-KWG"
 # github_subdir = ""
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
+<<<<<<< HEAD
 gcs_engine_id = "011737558837375720776:fsdu1nryfng"
+=======
+gcs_engine_id = "c23070d2b9bc6c2de"
+>>>>>>> ca205c1f17f9378e6c424d8aefd33c059b7ed6da
 
 # Enable Algolia DocSearch
 algolia_docsearch = false
