@@ -20,7 +20,7 @@ Planning Group은 OpenChain KWG의 운영진으로써 다음과 같은 역할을
 * 황민호, 카카오
 * 이서연, 라인
 * 김소임, LG전자
-* 한다솜, NCSoft
+* 한지호, NCSoft
 * 한다솜, NCSoft
 
 ## Contact

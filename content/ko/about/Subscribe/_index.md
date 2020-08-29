@@ -20,7 +20,7 @@ OpenChain KWG의 Mailing List는 아래 링크에서 가입하실 수 있습니�
 
 ## Contact
 
-OpenChain KWG에 문의/요청이 있을 경우 운영진 (Planning Group)으로 연락주시기 바랍니다. 
+OpenChain KWG에 문의/요청이 있을 경우 운영진 ([Planning Group](../../subgroup/planning))으로 연락주시기 바랍니다. 
 
 * korea-sg-planning@lists.openchainproject.org
 
