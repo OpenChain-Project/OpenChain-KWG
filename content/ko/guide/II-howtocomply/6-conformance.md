@@ -34,9 +34,7 @@ In order for a Program to be deemed OpenChain Conformant, the organization must 
 
 기업이 OpenChain을 준수하는 오픈소스 프로그램을 가지고 있다고 선언한다는 것은 OpenChain Specification의 모든 요건을 충족한다는 것이다. 어느 하나의 요건이라도 충족하지 못한다면 OpenChain을 준수한다고 할 수 없다.
 
-OpenChain Specification의 모든 요건을 충족한다면, \[부록 01\] 오픈소스 정책 for OpenChain 2.0\(예시\)의 9장에서와 같이 OpenChain을 충족하고 있음을 문서상에 명시할 수 있다.
-
-{% page-ref page="../../appendix/policy.md" %}
+OpenChain Specification의 모든 요건을 충족한다면, [\[부록 01\] 오픈소스 정책 for OpenChain 2.0\(예시\)의 9장](../../appendix/1-policy-template/#9-openchain-준수)에서와 같이 OpenChain을 충족하고 있음을 문서상에 명시할 수 있다.
 
 ## 6.2 기간 \(Duration\)
 
@@ -67,5 +65,5 @@ A Program that is OpenChain Conformant with this version of the specification wi
 
 오픈소스 프로그램이 OpenChain을 준수한다고 선언한 이후에도 계속해서 준수하는 활동을 유지하는 것이 중요하다. OpenChain Specification 2.0의 6.2.1조에서는 OpenChain을 준수한다고 선언한 이후에도 최소 18개월 이상은 변함없이 OpenChain Specification 2.0의 모든 요건을 준수하고 있어야 함을 요구한다.
 
-기업은 오픈소스 프로그램이 OpenChain을 준수함을 선언한 이후 적어도 18개월 이상 계속해서 준수하는 상태를 유지하여야 하며, 그렇게 하고 있다면, \[부록 01\] 오픈소스 정책 for OpenChain 2.0 \(예시\)의 9장에서와 같이 OpenChain을 18개월 이상 계속하여 충족하고 있음을 문서상에 명시할 수 있다.
+기업은 오픈소스 프로그램이 OpenChain을 준수함을 선언한 이후 적어도 18개월 이상 계속해서 준수하는 상태를 유지하여야 하며, 그렇게 하고 있다면, [\[부록 01\] 오픈소스 정책 for OpenChain 2.0 \(예시\)의 9장](../../appendix/1-policy-template/#9-openchain-준수)에서와 같이 OpenChain을 18개월 이상 계속하여 충족하고 있음을 문서상에 명시할 수 있다.
 

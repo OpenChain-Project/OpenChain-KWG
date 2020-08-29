@@ -18,7 +18,7 @@ menu:
 * [Resources](https://www.openchainproject.org/resources)
 
 ## OpenChain KWG Resources
-**OpenChain KWG**의 주요 활동 중 하나는 OpenChain Project의 문서 자료를 한국어로 번역하여 공개하는 것입니다. 이와 같이 에서는 협업을 통해 문서를 번역하거나 교육자료를 만들어서 공개하고 있습니다. 
+**OpenChain KWG**의 주요 활동 중 하나는 OpenChain Project의 문서 자료를 한국어로 번역하여 공개하는 것입니다. 이와 같이 OpenChain KWG는 협업을 통해 문서를 번역하거나 교육자료를 만들어서 공개하고 있습니다. 
 
 자세한 사항은 다음 페이지를 참고하세요. 
 

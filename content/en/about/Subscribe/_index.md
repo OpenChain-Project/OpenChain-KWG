@@ -4,23 +4,23 @@ linkTitle: "Subscribe"
 weight: 3
 type: docs
 description: >
-  OpenChain KWG은 항상 열려있습니다. 
+  OpenChain KWG is always open.
 ---
 
 
 
-Software를 개발하여 배포하는 한국 기업에서 Open Source Compliance 업무를 담당하는 분이라면 참여가 가능합니다. Mailing List에 가입하세요!
+Anyone in charge of open source compliance at a Korean company that develops and distributes software can participate. Join the Mailing List!
 
 ## MAILING LIST
 
-OpenChain KWG의 Mailing List는 아래 링크에서 가입하실 수 있습니다. 
+You can sign up for OpenChain KWG's Mailing List from the link below.
 
 * [https://lists.openchainproject.org/g/korea-wg](https://lists.openchainproject.org/g/korea-wg)
 
 
 ## Contact
 
-OpenChain KWG에 문의/요청이 있을 경우 운영진 (Planning Group)으로 연락주시기 바랍니다. 
+If you have any inquiries/requests to OpenChain KWG, please contact the [Planning Group](../../subgroup/planning).
 
 * korea-sg-planning@lists.openchainproject.org
 

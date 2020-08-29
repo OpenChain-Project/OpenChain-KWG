@@ -4,6 +4,6 @@ linkTitle: "Member"
 weight: 4
 type: docs
 description: >
-  한국의 주요 ICT 기업의 오픈소스 담당자가 참여하고 있습니다. 
+  Open source people from major Korean ICT companies are participating in OpenChain KWG.
 ---
  ![Member Company](member.png) 
