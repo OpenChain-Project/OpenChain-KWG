@@ -1,9 +1,24 @@
-# OpenChain KWG
-OpenChain Project Korea Work Group
+# OpenChain Korea Work Group
 
-이곳은 OpenChain Korea Work Group을 위한 Repository입니다. 
+Welcome to Open Chain KWG!
 
-- [https://openchain-project.github.io/OpenChain-KWG/](https://openchain-project.github.io/OpenChain-KWG/)을 구성하기 위한 코드가 위치합니다. 
-- 어떤 유형의 기여도 환영합니다. Issue를 생성하거나 Pull Request를 보내주세요. 
-- Contact : <korea-wg+owner@lists.openchainproject.org>
+![kwg-logo.gif](./content/ko/about/kwg-logo.gif)
+<p align="center"> <i>< designed by <a href="https://github.com/soimkim" target="_blank">@soimkim></a></i></p>
 
+## Intro
+
+OpenChain KWG (Korea Work Group), a subgroup of the Linux Foundation [OpenChain Project](https://www.openchainproject.org/), aims to create and share ways to effectively achieve open source compliance for all Korean ICT companies using open source software through collaboration and sharing, which is the spirit of open source! : [About](https://openchain-project.github.io/OpenChain-KWG/about/)
+
+## Subscribe
+
+OpenChain KWG is always open.
+
+Anyone in charge of Open Source Compliance at a Korean company that develops and distributes software can participate. Join the Mailing List! :  [Subscribe](https://openchain-project.github.io/OpenChain-KWG/about/subscribe/)
+
+## Contributing
+
+OpenChain KWW always welcomes your contributions. We develop and grow with each and every precious contribution. Please refer to the next page for how to contribute. :  [CONTRIBUTING](CONTRIBUTING.md)
+
+## Contact
+
+If you have any inquiries/requests to OpenChain KWG, please contact us through the Mailing List. : [Contact](https://openchain-project.github.io/OpenChain-KWG/about/contact/)
