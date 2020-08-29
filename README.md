@@ -1,6 +1,8 @@
 # OpenChain KWG
 OpenChain Project Korea Work Group
 
+![kwg-logo.gif](./content/ko/about/kwg-logo.gif)
+
 이곳은 OpenChain Korea Work Group을 위한 Repository입니다. 
 
 - [https://openchain-project.github.io/OpenChain-KWG/](https://openchain-project.github.io/OpenChain-KWG/)을 구성하기 위한 코드가 위치합니다. 
