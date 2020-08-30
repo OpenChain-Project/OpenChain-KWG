@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/conformance/1st-meeting/</loc>
+    <lastmod>2020-08-30T17:17:18+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://openChain-project.github.io/OpenChain-KWG/subgroup/conformance/1st-meeting/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://openChain-project.github.io/OpenChain-KWG/en/subgroup/conformance/1st-meeting/"
+                />
+  </url>
+  
+  <url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/guide/i-openchainproject/1-openchain-specification/</loc>
     <lastmod>2020-08-29T13:36:50+09:00</lastmod>
     <xhtml:link
@@ -644,21 +659,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/08/29/the-sample-blog-post/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/conformance/1st-meeting/</loc>
-    <lastmod>2020-08-29T13:36:50+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://openChain-project.github.io/OpenChain-KWG/subgroup/conformance/1st-meeting/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://openChain-project.github.io/OpenChain-KWG/en/subgroup/conformance/1st-meeting/"
                 />
   </url>
   
