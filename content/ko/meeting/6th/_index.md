@@ -4,7 +4,7 @@ linkTitle: "6th Meeting"
 weight: 6
 type: docs
 description: >
- Online Meeting
+ Online Meeting, Jun 2020
 ---
 <img src="OpenChain_KWG_6th_2.png" width="90%">
 
