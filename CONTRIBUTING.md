@@ -8,7 +8,11 @@ OpenChain KWG이 바라는 기여 분야와 방법은 다음과 같습니다.
 
 OpenChain KWG는 [Hugo](https://gohugo.io/) static site generator의 Theme인 [Docsy](https://www.docsy.dev/docs/)를 기반으로 제작되었습니다. 
 
-이 웹사이트를 지속적으로 관리하고 개선하는데 기여하실 수 있습니다. 웹사이트 개발은 [GitHub](https://github.com/OpenChain-Project/OpenChain-KWG)에서 하며, 빌드, 배포 및 Pull Request 방법은 다음 페이지를 참고하세요. :  
+이 웹사이트를 지속적으로 관리하고 개선하는데 기여하실 수 있습니다. 웹사이트 개발은 [GitHub](https://github.com/OpenChain-Project/OpenChain-KWG)에서 하며, 빌드, 배포 및 Pull Request 방법은 다음 페이지를 참고하세요. 
+
+* [로컬에서 웹사이트 구동하기](https://github.com/OpenChain-Project/OpenChain-KWG/wiki/%EB%A1%9C%EC%BB%AC%EC%97%90%EC%84%9C-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EA%B5%AC%EB%8F%99%ED%95%98%EA%B8%B0)
+* [Git Workflow](https://github.com/OpenChain-Project/OpenChain-KWG/wiki/Git-Workflow)
+
 
 ## 웹사이트 자료 추가
 
@@ -21,7 +25,9 @@ OpenChain KWG의 모든 활동은 누구나 열람하고 사용할 수 있도록
 * [Subgroup](https://openchain-project.github.io/OpenChain-KWG/subgroup/) : OpenChain KWG Subgroup의 활동 자료 공개
 * [Blog](https://openchain-project.github.io/OpenChain-KWG/blog/) : OpenChain KWG 멤버가 작성하는 뉴스, 기술블로그 공개
 
-이러한 자료를 추가하는데 기여하실 분을 모십니다. 자료를 추가하는 방법은 다음 페이지를 참고하세요! : 
+이러한 자료를 추가하는데 기여하실 분을 모십니다. 자료를 추가하는 방법은 다음 페이지를 참고하세요!
+
+* [Welcome to the OpenChain-KWG wiki!](https://github.com/OpenChain-Project/OpenChain-KWG/wiki)
 
 ## 오픈소스 문서 번역
 
