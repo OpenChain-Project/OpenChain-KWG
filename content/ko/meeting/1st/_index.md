@@ -4,7 +4,7 @@ linkTitle: "1st Meeting"
 weight: 1
 type: docs
 description: >
-  LG Electronics Seocho R&D Campus
+  LG Electronics Seocho R&D Campus, Jan 2019
 ---
 <img src="20190123_1406369.jpg" width="90%">
 
