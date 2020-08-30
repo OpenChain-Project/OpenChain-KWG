@@ -2,7 +2,7 @@
 
 Welcome to Open Chain KWG!
 
-![kwg-logo.gif](./content/ko/about/kwg-logo.gif)
+![kwg-logo.gif](./__document/logo/kwg-logo-ani.gif)
 <p align="center"> <i>< designed by <a href="https://github.com/soimkim" target="_blank">@soimkim></a></i></p>
 
 ## Intro
