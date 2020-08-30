@@ -15,7 +15,7 @@ The Tooling Group is a group that discusses ways to effectively use these open s
 
 ## Member
 
-* Wonjae Par, LG Electronics, Lead
+* LG Electronics (Lead, Wonjae Park)
 * Samsung Electronics
 * NCSoft
 * SK telecom
