@@ -35,7 +35,7 @@ OpenChain KWG의 모든 활동은 누구나 열람하고 사용할 수 있도록
 
 이러한 문서 번역에 기여해주세요. 
 
-문서 번역과 관련한 세부 사핳은 다음 페이지를 참고하세요. : https://openchain-project.github.io/OpenChain-KWG/resource/
+문서 번역과 관련한 세부 사은 다음 페이지를 참고하세요. : https://openchain-project.github.io/OpenChain-KWG/resource/
 
 ## 오픈소스 Tool 조사 및 사용법 공개
 
