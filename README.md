@@ -21,7 +21,7 @@ OpenChain KWW always welcomes your contributions. We develop and grow with each 
 
 ## License
 
-* License for contribution to OpenChain KWG : [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+License for contribution to OpenChain KWG : [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 
 ## Contact
 
