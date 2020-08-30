@@ -27,7 +27,7 @@ OpenChain KWG의 모든 활동은 누구나 열람하고 사용할 수 있도록
 
 이러한 자료를 추가하는데 기여하실 분을 모십니다. 자료를 추가하는 방법은 다음 페이지를 참고하세요!
 
-* [Welcome to the OpenChain-KWG wiki!](https://github.com/OpenChain-Project/OpenChain-KWG/wiki)
+* [OpenChain KWG wiki](https://github.com/OpenChain-Project/OpenChain-KWG/wiki)
 
 ## 오픈소스 문서 번역
 
