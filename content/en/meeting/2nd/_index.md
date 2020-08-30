@@ -4,7 +4,7 @@ linkTitle: "2nd Meeting"
 weight: 2
 type: docs
 description: >
- Samsung Electronics, Seoul R&D Campus
+ Samsung Electronics, Seoul R&D Campus, Jun 2019
 ---
 <img src="openchain-2nd.jpeg" width="90%">
 

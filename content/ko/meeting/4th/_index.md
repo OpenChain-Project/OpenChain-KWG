@@ -4,7 +4,7 @@ linkTitle: "4th Meeting"
 weight: 4
 type: docs
 description: >
- Ktds - Bangbae office, Room 207
+ Ktds - Bangbae office, Room 207, Dec 2019
 ---
 <img src="20191202_141601.jpg" width="90%">
 
