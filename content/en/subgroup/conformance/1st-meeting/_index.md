@@ -1,6 +1,7 @@
 ---
 title: "1st Meeting"
 linkTitle: "1st Meeting"
+weight: 1
 date: 2019-11-04
 type: docs
 description: >
