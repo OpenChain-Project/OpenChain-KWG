@@ -21,7 +21,7 @@ OpenChain KWG의 모든 활동은 누구나 열람하고 사용할 수 있도록
 * [Subgroup](https://openchain-project.github.io/OpenChain-KWG/subgroup/) : OpenChain KWG Subgroup의 활동 자료 공개
 * [Blog](https://openchain-project.github.io/OpenChain-KWG/blog/) : OpenChain KWG 멤버가 작성하는 뉴스, 기술블로그 공개
 
-이러한 자료를 추가하는데 기여하실 분을 모십니다. 자료를 추가하는 방법은 다음 페이지를 참고하세요! : 
+이러한 자료를 추가하는데 기여하실 분을 모십니다. 자료를 추가하는 방법은 다음 페이지를 참고하세요! : [Welcome to the OpenChain-KWG wiki!](https://github.com/OpenChain-Project/OpenChain-KWG/wiki)
 
 ## 오픈소스 문서 번역
 
