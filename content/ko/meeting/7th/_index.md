@@ -4,12 +4,12 @@ linkTitle: "7th Meeting"
 weight: 7
 type: docs
 description: >
- Online Meeting
+ Online Meeting, Sep 2020
 ---
 
 ## Intro
 
-* Schedule: 2019-09-22 (Thu) 2:00~4:00 pm
+* Schedule: 2020-09-22 (Thu) 2:00~4:00 pm
 * How to join on PC
   1. PC에서 https://uberconference.com/openchainproject 접속
   2. Your Name 입력 후, “Join audio-only” 클릭하여 방에 입장

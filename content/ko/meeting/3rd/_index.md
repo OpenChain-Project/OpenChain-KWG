@@ -4,7 +4,7 @@ linkTitle: "3rd Meeting"
 weight: 3
 type: docs
 description: >
- SK telecom - Samhwa Tower 3F Room 4
+ SK telecom - Samhwa Tower 3F Room 4, Sep 2019
 ---
 <img src="20190904_151150.jpg" width="90%">
 
