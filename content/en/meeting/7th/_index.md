@@ -4,7 +4,7 @@ linkTitle: "7th Meeting"
 weight: 7
 type: docs
 description: >
- Online Meeting, Sep 2019
+ Online Meeting, Sep 2020
 ---
 
 ## Intro
