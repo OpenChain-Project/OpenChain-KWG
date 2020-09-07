@@ -21,8 +21,14 @@ rm -rf public/*
 echo "Generating site"
 env HUGO_ENV="production" hugo
 
+echo "Check build success"
+if [ -z "$(ls -A public)" ]; then
+    echo "hugo build failed"
+    exit 1;
+fi
+
 echo "Updating gh-pages branch"
-cd public && git add --all && git commit -m "Publishing to gh-pages"
+#cd public && git add --all && git commit -m "Publishing to gh-pages"
 
 echo "Pushing to github"
-git push --all
+#git push --all
