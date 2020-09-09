@@ -3,7 +3,7 @@
 Welcome to OpenChain KWG!
 
 ![kwg-logo.gif](./__document/logo/kwg-logo-ani.gif)
-<p align="center"> <i>< designed by <a href="https://github.com/soimkim" target="_blank">@soimkim></a></i></p>
+<p align="center"> <i>< designed by <a href="https://github.com/soimkim" target="_blank">@soimkim</a> ></i></p>
 
 ## Intro
 
@@ -17,7 +17,7 @@ Anyone in charge of Open Source Compliance at a Korean company that develops and
 
 ## Contributing
 
-OpenChain KWW always welcomes your contributions. We develop and grow with each and every precious contribution. Please refer to the next page for how to contribute. :  [CONTRIBUTING](CONTRIBUTING.md)
+OpenChain KWG always welcomes your contributions. We develop and grow with each and every precious contribution. Please refer to the next page for how to contribute. :  [CONTRIBUTING](CONTRIBUTING.md)
 
 ## License
 
