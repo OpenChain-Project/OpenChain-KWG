@@ -10,13 +10,10 @@ description: >
 ## Intro
 
 * Schedule: 2020-09-22 (Thu) 2:00~4:00 pm
-* How to join on PC
-   1. Access https://uberconference.com/openchainproject from a PC
-   2. After entering Your Name, click “Join audio-only” to enter the room
-   3. After checking the microphone and speaker settings on the Confirm settings screen> Join conference
-* How to join on Phone
-   1.Call 02-6022-2388 from a mobile phone
-   2.Enter 855 889 3011#
+* How to join
+  - Join Zoom Meeting ( https://us02web.zoom.us/j/9990120120?pwd=NzVCaFE2L1RRRFZaSkk0dm8xdlplUT09 )
+  - Meeting ID: 999 012 0120
+  - Password: 123456
 
 ## Agenda
 
