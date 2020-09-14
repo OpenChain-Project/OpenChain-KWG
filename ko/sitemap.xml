@@ -363,6 +363,21 @@
   </url>
   
   <url>
+    <loc>https://openChain-project.github.io/OpenChain-KWG/resource/basic-training/</loc>
+    <lastmod>2020-09-15T00:14:30+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://openChain-project.github.io/OpenChain-KWG/en/resource/basic-training/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://openChain-project.github.io/OpenChain-KWG/resource/basic-training/"
+                />
+  </url>
+  
+  <url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/about/subscribe/</loc>
     <lastmod>2020-08-29T16:32:30+09:00</lastmod>
     <xhtml:link
