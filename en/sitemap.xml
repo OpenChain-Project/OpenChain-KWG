@@ -213,6 +213,21 @@
   </url>
   
   <url>
+    <loc>https://openChain-project.github.io/OpenChain-KWG/en/resource/curriculum/</loc>
+    <lastmod>2020-09-14T23:45:47+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://openChain-project.github.io/OpenChain-KWG/resource/curriculum/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://openChain-project.github.io/OpenChain-KWG/en/resource/curriculum/"
+                />
+  </url>
+  
+  <url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/guide/ii-howtocomply/</loc>
     <lastmod>2020-08-29T13:36:50+09:00</lastmod>
     <xhtml:link
@@ -254,21 +269,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://openChain-project.github.io/OpenChain-KWG/en/resource/training/</loc>
-    <lastmod>2020-08-29T13:36:50+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://openChain-project.github.io/OpenChain-KWG/resource/training/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://openChain-project.github.io/OpenChain-KWG/en/resource/training/"
                 />
   </url>
   
