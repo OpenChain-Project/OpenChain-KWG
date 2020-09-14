@@ -1,14 +1,14 @@
 ---
-title: "Training Slide"
-linkTitle: "Training Slide"
+title: "Curriculum"
+linkTitle: "Curriculum"
 weight: 2
 type: docs
 description: >
-  OpenChain Training Slide translated into Korean.
+  OpenChain Curriculum translated into Korean.
 ---
 
 
-## What is OpenChain Training Slide?
+## What is OpenChain Curriculum?
 
 The OpenChain Project created and released educational materials necessary for building a compliance program.: [https://github.com/OpenChain-Project/Curriculum](https://github.com/OpenChain-Project/Curriculum)
 
@@ -21,11 +21,11 @@ Since it was released as CC-0, companies can use it to create training materials
 
 ## Translation status
 
-The Korean translation of OpenChain Training Slide has been translated up to version 1.2 and can be downloaded from the following page.
+The Korean translation of OpenChain Curriculum has been translated up to version 1.2 and can be downloaded from the following page.
 
-![Training Slide](curr.png) 
+![Curriculum](curr.png) 
 
-* [OpenChain Training Slide Korean](https://github.com/OpenChain-Project/Curriculum-Translation-KR/tree/master/release/1.2)
+* [OpenChain Curriculum Korean](https://github.com/OpenChain-Project/Curriculum-Translation-KR/tree/master/release/1.2)
 
 ## Contributors
 
@@ -39,7 +39,7 @@ The main contributors to Korean translation are as follows.
 
 ## How to join
 
-Training Slide Korean translation is jointly performed on GitHub, and anyone can participate. Please join!
+Curriculum Korean translation is jointly performed on GitHub, and anyone can participate. Please join!
 
 <div class="mx-auto">
 	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://github.com/OpenChain-Project/Curriculum-Translation-KR">
