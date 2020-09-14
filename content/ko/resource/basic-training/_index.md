@@ -9,7 +9,7 @@ description: >
 
 ## About
 
-[NCSoft](https://global.ncsoft.com/)에서는 오픈소스의 공유 정신에 따라 사내 오픈소스 교육자료를 누구나 사용할 수 있도록 강의 교안(PPT)과 강의 스크립트를 [GitHub](https://github.com/ncsoft/oss-basic-training)에 공개하였습니다. 
+[NCSOFT](https://global.ncsoft.com/)에서는 오픈소스의 공유 정신에 따라 사내 오픈소스 교육자료를 누구나 사용할 수 있도록 강의 교안(PPT)과 강의 스크립트를 [GitHub](https://github.com/ncsoft/oss-basic-training)에 공개하였습니다. 
 
 소프트웨어를 개발/배포하는 기업에서 사내 오픈소스 교육을 준비하면서 이 교안을 직접 사용하거나, 필요한 부분을 발췌/수정하여 사용할 수 있습니다. 
 
@@ -28,8 +28,8 @@ description: >
 
 | Name            | Company           | Email | 
 |-------------------|-----------------|------|
-| Peter Jiho Han  | NCSoft | yulica37@ncsoft.com |
-| Dasom Han   | NCSoft  | 	dasom12@ncsoft.com |
+| Peter Jiho Han  | NCSOFT | yulica37@ncsoft.com |
+| Dasom Han   | NCSOFT  | 	dasom12@ncsoft.com |
 
 
 ## License

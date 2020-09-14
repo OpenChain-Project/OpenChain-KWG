@@ -17,7 +17,7 @@ description: >
 
 ## 한국어 요약
 
-NCSoft에서는 이 책의 주요 내용을 한글로 요약하였고 저자인 Ibrahim으로부터 허가를 받은 후 국내 기업의 오픈소스 담당자들이 참고할 수 있도록 공개하였습니다. 
+NCSOFT에서는 이 책의 주요 내용을 한글로 요약하였고 저자인 Ibrahim으로부터 허가를 받은 후 국내 기업의 오픈소스 담당자들이 참고할 수 있도록 공개하였습니다. 
 
 특히, 이를 GitHub에 공유하여 누구나 참고하고, 개선하여 계속 발전시킬 수 있게 하였습니다. 
 
@@ -29,6 +29,6 @@ NCSoft에서는 이 책의 주요 내용을 한글로 요약하였고 저자인 
 
 | Name            | Company           | Email | Role |
 |-------------------|-----------------|------|------|
-| Dasom Han   | NCSoft  | 	dasom12@ncsoft.com | Maintainer |
-| Peter Jiho Han  | NCSoft | yulica37@ncsoft.com | Contributor | 
+| Dasom Han   | NCSOFT  | 	dasom12@ncsoft.com | Maintainer |
+| Peter Jiho Han  | NCSOFT | yulica37@ncsoft.com | Contributor | 
 

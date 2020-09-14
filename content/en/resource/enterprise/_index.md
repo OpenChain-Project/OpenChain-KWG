@@ -17,9 +17,9 @@ It explains in detail what to consider when building an open source compliance p
 
 ## Korean summary
 
-NCSoft summarized the main contents of this book in Korean, and after getting permission from the author, Ibrahim, they released it so that open source people of Korean companies can refer to it.
+NCSOFT summarized the main contents of this book in Korean, and after getting permission from the author, Ibrahim, they released it so that open source people of Korean companies can refer to it.
 
-In particular, NCsoft shared this on GitHub so that anyone can refer to it, improve it, and continue to develop it.
+In particular, NCSOFT shared this on GitHub so that anyone can refer to it, improve it, and continue to develop it.
 
 * GitHub : https://github.com/ncsoft/osc-enterprise-ko/
 * License : CC-BY-NC 4.0
@@ -29,6 +29,6 @@ In particular, NCsoft shared this on GitHub so that anyone can refer to it, impr
 
 | Name            | Company           | Email | Role |
 |-------------------|-----------------|------|------|
-| Dasom Han   | NCSoft  | 	dasom12@ncsoft.com | Maintainer |
-| Peter Jiho Han  | NCSoft | yulica37@ncsoft.com | Contributor | 
+| Dasom Han   | NCSOFT  | 	dasom12@ncsoft.com | Maintainer |
+| Peter Jiho Han  | NCSOFT | yulica37@ncsoft.com | Contributor | 
 
