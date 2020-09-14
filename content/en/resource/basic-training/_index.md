@@ -9,7 +9,7 @@ description: >
 
 ## About
 
-[NCSoft](https://global.ncsoft.com/) has released lecture slides and scripts, which are open source educational materials in-house, on [GitHub](https://github.com/ncsoft/oss-basic-training) based on the spirit of sharing open source so that anyone can use them.
+[NCSOFT](https://global.ncsoft.com/) has released lecture slides and scripts, which are open source educational materials in-house, on [GitHub](https://github.com/ncsoft/oss-basic-training) based on the spirit of sharing open source so that anyone can use them.
 
 Companies that develop/distribute software can use this slide as it is or extract/modify necessary parts when preparing for in-house open source training.
 
@@ -28,8 +28,8 @@ These materials can be downloaded from the following page.
 
 | Name            | Company           | Email | 
 |-------------------|-----------------|------|
-| Peter Jiho Han  | NCSoft | yulica37@ncsoft.com |
-| Dasom Han   | NCSoft  | 	dasom12@ncsoft.com |
+| Peter Jiho Han  | NCSOFT | yulica37@ncsoft.com |
+| Dasom Han   | NCSOFT  | 	dasom12@ncsoft.com |
 
 
 ## License
