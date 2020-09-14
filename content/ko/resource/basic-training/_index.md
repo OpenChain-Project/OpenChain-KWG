@@ -1,0 +1,37 @@
+---
+title: "OSS Basic Training Slide"
+linkTitle: "OSS Basic Training"
+weight: 3
+type: docs
+description: >
+  오픈소스 라이선스에 대한 개념, 오픈소스 컴플라이언스 절차, 코드 작성 시 주의해야 할 점 등에 대한 교육자료입니다.
+---
+
+## About
+
+[NCSoft](https://global.ncsoft.com/)에서는 오픈소스의 공유 정신에 따라 사내 오픈소스 교육자료를 누구나 사용할 수 있도록 강의 교안(PPT)과 강의 스크립트를 [GitHub](https://github.com/ncsoft/oss-basic-training)에 공개하였습니다. 
+
+소프트웨어를 개발/배포하는 기업에서 사내 오픈소스 교육을 준비하면서 이 교안을 직접 사용하거나, 필요한 부분을 발췌/수정하여 사용할 수 있습니다. 
+
+![cover](cover.png)
+
+교육자료에 대한 수정과 보완은 [GitHub](https://github.com/ncsoft/oss-basic-training)을 통해 누구나 참여할 수 있습니다. 
+
+## Download
+
+교육자료와 강의 스크립트는 다음 페이지에서 다운로드 받을 수 있습니다. 
+
+* https://github.com/ncsoft/oss-basic-training/tree/master/source
+
+
+## Maintainer
+
+| Name            | Company           | Email | 
+|-------------------|-----------------|------|
+| Peter Jiho Han  | NCSoft | yulica37@ncsoft.com |
+| Dasom Han   | NCSoft  | 	dasom12@ncsoft.com |
+
+
+## License
+
+* [CC-BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/)
