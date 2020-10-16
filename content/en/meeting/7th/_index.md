@@ -24,7 +24,7 @@ description: >
 | 2  | Introduction of LG Electronics' Open Source Compliance Management System (OSC System) |LG Electronics, Soim Kim |  - | 
 | 3  | Intro and summary of a book, Forge Your Future with Open Source | Line, Seoyeon Lee | -  | 
 | 4  | Case Study : Open source release practices (GitHub, CLA) | All | - |
-| 5  | OpenChain KWG Update | SK telecom, Haksung Jang | - |
+| 5  | OpenChain KWG Update | SK telecom, Haksung Jang | [Download](openchain-kwg-7th-2020-09-22.pdf) |
 | 6  | Free Discussion | All | - |
 
 ## Attenddes
