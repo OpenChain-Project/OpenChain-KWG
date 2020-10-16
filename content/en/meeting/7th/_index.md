@@ -6,6 +6,7 @@ type: docs
 description: >
  Online Meeting, Sep 2020
 ---
+<img src="OpenChain-KWG-7th-1.png" width="90%">
 
 ## Intro
 
@@ -27,7 +28,15 @@ description: >
 | 6  | Free Discussion | All | - |
 
 ## Attenddes
-* ...
+* Hyundai Mobis
+* Hyundai Motors
+* Kakao
+* ktds
+* LINE Plus
+* LG Electronics
+* NCSOFT
+* SamSung Electronics
+* SK telecom
 
 ## Minutes
 
@@ -40,4 +49,6 @@ description: >
 
 
 ## Photo Gallery
-...
+<div ><span class="image fit">
+  <img src="OpenChain-KWG-7th-2.png" width="90%">
+</span></div>
