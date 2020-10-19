@@ -42,7 +42,7 @@ description: >
 
 ### 1. OpenChain Update (Shane Coughlan / Linux Foundation)
 
-* OpenChain is going to be approved as OSI standard soon
+* OpenChain is going to be approved as ISO standard soon
 	* According to this, we're going to create educational materials. And we'll need translations by multiple languages
 * We're going to make OpenChain T-shirt
 
