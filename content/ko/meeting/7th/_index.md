@@ -6,6 +6,7 @@ type: docs
 description: >
  Online Meeting, Sep 2020
 ---
+<img src="OpenChain-KWG-7th-1.png" width="90%">
 
 ## Intro
 
@@ -23,20 +24,19 @@ description: >
 | 2  | LG전자의 오픈소스 컴플라이언스 관리 시스템 (OSC System) 소개 | LG전자 김소임 |  - | 
 | 3  | 오픈소스 관련 책 요약 및 소개 - '오픈소스로 미래를 연마하라' | 라인 이서연 | [Download](forge-your-future.pdf)  | 
 | 4  | Case Study : 오픈소스 공개 practices (GitHub, CLA 등) | All | - |
-| 5  | OpenChain KWG Update | SK텔레콤 장학성 | - |
+| 5  | OpenChain KWG Update | SK텔레콤 장학성 | [Download](openchain-kwg-7th-2020-09-22.pdf) |
 | 6  | Free Discussion | All | - |
 
 ## Attenddes
-
 * Hyundai Mobis
 * Hyundai Motors
 * Kakao
 * ktds
 * LINE Plus
 * LG Electronics
-* NCSoft
+* NCSOFT
 * SamSung Electronics
-* SK Telecom
+* SK telecom
 
 ## Minutes
 
@@ -116,8 +116,6 @@ OSC System은  오픈소스로 공개 준비 중
 
 
 ## Photo Gallery
-
 <div ><span class="image fit">
-  <img src="OpenChain_7th.png" width="80%">
+  <img src="OpenChain-KWG-7th-2.png" width="90%">
 </span></div>
-
