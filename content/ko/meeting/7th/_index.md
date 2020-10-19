@@ -42,7 +42,7 @@ description: >
 
 ### 1. OpenChain Update (Shane Coughlan / Linux Foundation)
 
-* OpenChain은 곧 OSI 표준 인증 절차가 완료될 예정
+* OpenChain은 곧 ISO 표준 인증 절차가 완료될 예정
 	* 이에따라 다양한 교육 자료를 제작할 예정이며, 국가별로 번역이 필요할 것으로 예상됨
 * OpenChain T-shirt 제작 안내
 
