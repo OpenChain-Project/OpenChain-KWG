@@ -122,9 +122,7 @@ A book that tells readers how to contribute to the FOSS project, regardless of s
 
 
 ## Video
-
-
-## Video
+https://www.openchainproject.org/featured/2020/10/23/openchain-korea-work-group-meeting-7-the-recordings
 
 * Video 1: OpenChain Update (Shane) & LGE’s OSC System (Soim Kim)
 
