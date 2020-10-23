@@ -123,7 +123,21 @@ A book that tells readers how to contribute to the FOSS project, regardless of s
 
 ## Video
 
-* ...
+
+## Video
+
+* Video 1: OpenChain Update (Shane) & LGE’s OSC System (Soim Kim)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bK8S-YZmdxE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+* Video 2: Forge your future with Open Source (Seoyeon Lee)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tx6Vzc4toik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+* Video 3: Video 3: Case Study – Open Source Release Practices & OpenChain KWG Update (Haksung Jang)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aFEilCL_fKw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 ## Photo Gallery

@@ -112,7 +112,20 @@ OSC System은  오픈소스로 공개 준비 중
 * KWG 로고 제작! (Thanks to [@soimkim](https://github.com/soimkim))
 * 새 로고를 넣은 T-Shirt 제작 예정. 신청은 추후 공지
 
+
 ## Video
+
+* Video 1: OpenChain Update (Shane) & LGE’s OSC System (김소임)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bK8S-YZmdxE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+* Video 2: Forge your future with Open Source (이서연)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tx6Vzc4toik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+* Video 3: Video 3: Case Study – Open Source Release Practices & OpenChain KWG Update (장학성)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aFEilCL_fKw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Photo Gallery
