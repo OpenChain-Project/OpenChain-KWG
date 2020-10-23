@@ -114,7 +114,7 @@ OSC System은  오픈소스로 공개 준비 중
 
 
 ## Video
-
+https://www.openchainproject.org/featured/2020/10/23/openchain-korea-work-group-meeting-7-the-recordings
 * Video 1: OpenChain Update (Shane) & LGE’s OSC System (김소임)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bK8S-YZmdxE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
