@@ -34,4 +34,4 @@ These materials can be downloaded from the following page.
 
 ## License
 
-* [CC-BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+* [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
