@@ -22,7 +22,7 @@ NCSOFT summarized the main contents of this book in Korean, and after getting pe
 In particular, NCSOFT shared this on GitHub so that anyone can refer to it, improve it, and continue to develop it.
 
 * GitHub : https://github.com/ncsoft/osc-enterprise-ko/
-* License : CC-BY-NC 4.0
+* License : CC BY 4.0
 * Slide : [OSC-Enterprise-ko_Openchain_KWG_20200317_FN.pdf](OSC-Enterprise-ko_OpenchainKWG_20200317_FN.pdf)
 
 ## Contributors
