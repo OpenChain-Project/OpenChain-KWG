@@ -6,7 +6,7 @@ description: >
   Planning Group is the management team of OpenChain KWG.
 ---
 
-## 목적
+## Purpose
 
 Planning Group, as the management team of OpenChain KWG, performs the following roles.
 
