@@ -21,11 +21,11 @@ description: >
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
-| 2  | How to build open source program in Hyundai Motors | Songha Back |  - | 
+| 2  | How to build open source program in Hyundai Motors | Songha Back, Hyundai Motors |  - | 
 | 3  | ... | ... | ... | 
 | 4  | ... | ... | ... | 
 | 5  | Case Study : ... | All | - |
-| 5  | OpenChain KWG Update | SK텔레콤 장학성 | -|
+| 5  | OpenChain KWG Update | Haksung Jang, SK telecom | -|
 | 6  | Free Discussion | All | - |
 
 ## Attenddes
