@@ -10,7 +10,7 @@ description: >
 
 ## Intro
 
-* Schedule: 2020-12-02 (Wen) 2:00~4:00 pm
+* Schedule: 2020-12-02 (Wed) 2:00~4:00 pm
 * How to join
   - Join Zoom Meeting ( https://us02web.zoom.us/j/9990120120?pwd=NzVCaFE2L1RRRFZaSkk0dm8xdlplUT09 )
   - Meeting ID: 999 012 0120
