@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>OpenChain KWG – II. OpenChain Specification 준수 방법</title>
+    <title>OpenChain KWG – II. OpenChain 규격 준수 방법</title>
     <link>https://openChain-project.github.io/OpenChain-KWG/guide/ii-howtocomply/</link>
-    <description>Recent content in II. OpenChain Specification 준수 방법 on OpenChain KWG</description>
+    <description>Recent content in II. OpenChain 규격 준수 방법 on OpenChain KWG</description>
     <generator>Hugo -- gohugo.io</generator>
     
 	  <atom:link href="https://openChain-project.github.io/OpenChain-KWG/guide/ii-howtocomply/index.xml" rel="self" type="application/rss+xml" />
@@ -14,7 +14,7 @@
     
     
     <item>
-      <title>Guide: 1. 프로그램 성립</title>
+      <title>Guide: 1. 프로그램 설립</title>
       <link>https://openChain-project.github.io/OpenChain-KWG/guide/ii-howtocomply/1-programn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -22,152 +22,155 @@
       <description>
         
         
-        &lt;h2 id=&#34;11-정책-policy&#34;&gt;1.1 정책 (Policy)&lt;/h2&gt;
-&lt;p&gt;오픈소스를 이용하여 소프트웨어를 개발하고 배포하는 기업이라면 오픈소스를 관리하기 위한 정책과 프로세스를 구축하고, 이를 위한 인력과 자원을 할당해야 한다. OpenChain에서는 이러한 일련의 활동을 관리하는 체계를 오픈소스 프로그램이라고 부르고, OpenChain Specification을 준수하기 위한 첫번째 요건은 바로 이 프로그램을 설립해야 하는것이다. 여기서 오픈소스 프로그램이란 정책, 프로세스, 인원 등 기업이 오픈소스 컴플라이언스 활동을 수행하기 위한 일련의 관리 체계를 의미한다.
-OpenChain Specification에서는 이를 입증하기 위한 자료로 우선 문서화된 오픈소스 정책을 요구한다. 이 안내서에서는 참고를 위해 OpenChain Specification의 요건을 충족하는 오픈소스 정책 문서 예시를 “&lt;a href=&#34;../../appendix/1-policy-template&#34;&gt;[부록 01] 오픈소스 정책 for OpenChain 2.0 (template)&lt;/a&gt;”에서 제공한다.&lt;/p&gt;
-&lt;p&gt;OpenChain Specification은 이어지는 장에서 오픈소스 프로그램이 갖춰야할 요건들을 설명하고 있다.&lt;/p&gt;
+        &lt;h2 id=&#34;11-정책&#34;&gt;1.1 정책&lt;/h2&gt;
+&lt;p&gt;오픈소스를 이용하여 소프트웨어를 개발하고 배포하는 기업이라면 오픈소스를 관리하기 위한 정책과 프로세스를 만들고, 이를 위한 인력과 자원을 적절하게 할당해야 한다. OpenChain에서는 이러한 일련의 활동을 관리하는 체계를 &amp;ldquo;오픈소스 프로그램&amp;quot;이라고 부르고, OpenChain 규격을 준수하기 위한 첫번째 요구사항은 바로 이 프로그램을 설립하는것이다. 여기서 오픈소스 프로그램이란 정책, 프로세스, 인원 등 기업이 오픈소스 컴플라이언스 활동을 수행하기 위한 일련의 관리 체계를 의미한다.
+OpenChain 규격에서는 이를 입증하기 위한 자료로 우선 문서화된 오픈소스 정책을 요구한다. 이 안내서에서는 참고를 위해 OpenChain 규격의 요구사항을 충족하는 샘플 오픈소스 정책 문서를 “&lt;a href=&#34;../../appendix/1-policy-template&#34;&gt;[부록 01] 샘플 오픈소스 정책 for OpenChain 2.1&lt;/a&gt;”에서 제공한다.&lt;/p&gt;
+&lt;p&gt;다음은 OpenChain 규격 3.1항의 내용으로 오픈소스 프로그램이 갖춰야할 요구사항을 정의하고 있다.&lt;/p&gt;
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-&lt;h3 id=&#34;openchain-specification-20&#34;&gt;OpenChain Specification 2.0&lt;/h3&gt;
+&lt;h3 id=&#34;openchain-규격-21&#34;&gt;OpenChain 규격 2.1&lt;/h3&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;11-정책&#34;&gt;1.1 정책&lt;/h3&gt;
-&lt;p&gt;공급 대상 소프트웨어의 오픈소스 라이선스 컴플라이언스를 관리하는 문서화 된 오픈소스 정책이 존재한다. 정책은 내부적으로 전달되어야 한다.&lt;/p&gt;
+&lt;h3 id=&#34;31-프로그램-설립&#34;&gt;3.1 프로그램 설립&lt;/h3&gt;
+&lt;h3 id=&#34;311-정책&#34;&gt;3.1.1 정책&lt;/h3&gt;
+&lt;p&gt;배포 대상 소프트웨어에 대해 오픈소스 라이선스 컴플라이언스 관리를 위한 문서화된 오픈소스 정책이 있어야 한다. 이 정책은 조직 내부에 전파되어야 한다.&lt;/p&gt;
 &lt;h4 id=&#34;입증-자료&#34;&gt;입증 자료:&lt;/h4&gt;
-&lt;p&gt;1.1.1 문서화 된 오픈소스 정책&lt;br&gt;
-1.1.2 소프트웨어 공급 담당자가 오픈소스 정책의 존재를 인식하도록 하는 문서화 된 절차 (교육, 내부 위키, 혹은 기타 실질적인 의사소통 방법 등)&lt;/p&gt;
+&lt;p&gt;3.1.1.1 문서화 된 오픈소스 정책&lt;br&gt;
+3.1.1.2 프로그램 참여자가 오픈소스 정책의 존재를 알 수 있게 하는 문서화 된 절차 (교육, 내부 위키, 혹은 기타 실질적인 전달 방법 등)&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;11-policy&#34;&gt;1.1 Policy&lt;/h3&gt;
-&lt;p&gt;A written Open Source policy exists that governs Open Source license compliance of the Supplied Software. The policy must be internally communicated.&lt;/p&gt;
+&lt;h3 id=&#34;31-program-foundation&#34;&gt;3.1 Program foundation&lt;/h3&gt;
+&lt;h3 id=&#34;311-policy&#34;&gt;3.1.1 Policy&lt;/h3&gt;
+&lt;p&gt;A written open source policy shall exist that governs open source license compliance of the supplied software. The policy shall be internally communicated.&lt;/p&gt;
 &lt;h4 id=&#34;verification-materials&#34;&gt;Verification Material(s):&lt;/h4&gt;
-&lt;p&gt;1.1.1 A documented Open Source policy&lt;br&gt;
-1.1.2 A documented procedure that makes Software Staff aware of the existence of the Open Source policy (e.g., via training, internal wiki, or other practical communication method)&lt;/p&gt;
+&lt;p&gt;3.1.1.1 A documented open source policy.
+3.1.1.2 A documented procedure that makes program participants aware of the existence of the open source policy (e.g., via training, internal wiki, or other practical communication method).&lt;/p&gt;
 
 &lt;/div&gt;
 
-&lt;p&gt;오픈소스 프로그램은 소프트웨어 공급담당자가 이 오픈소스 정책 문서의 존재를 알고, 필요한 활동을 할 수 있도록 교육, 내부 위키 등 실질적인 수단을 제공해야 한다. 여기서 소프트웨어 공급담당자(Software Staff)란 기업이 소프트웨어를 개발하고 배포, 기여하는데 관여하는 모든 직원을 의미하며, 소프트웨어 개발자, 배포 엔지니어, 품질 엔지니어 등을 포함한다.&lt;/p&gt;
-&lt;p&gt;많은 기업들은 오픈소스 정책 문서를 사내 위키 사이트를 통해 공개하여 직원 누구나 필요한 사항을 확인할 수 있게 한다. 또한, 신규 채용인원의 입사 연수 시 오픈소스 정책에 대한 교육을 의무화하고, 소프트웨어 공급담당자를 대상으로 매년 혹은 2년에 한번씩 주기적인 교육을 제공함으로 모든 소프트웨어 공급담당자가 오픈소스 정책의 존재를 인식하도록 할 수 있다. 이러한 방법들을 오픈소스 정책 문서에 구체화하여 포함시켜야 한다.&lt;/p&gt;
-&lt;h2 id=&#34;12-역량-competence&#34;&gt;1.2 역량 (Competence)&lt;/h2&gt;
+&lt;p&gt;기업의 오픈소스 프로그램은 프로그램 참여자가 조직 내에 오픈소스 정책이 있다는 것을 인식하고 필요한 활동을 할 수 있도록 교육, 내부 위키 등 실질적인 수단을 제공해야 한다. 여기서 프로그램 참여자란 기업이 소프트웨어를 개발하고 배포, 기여하는데 관여하는 모든 직원을 의미하며, 소프트웨어 개발자, 배포 엔지니어, 품질 엔지니어 등을 포함한다.&lt;/p&gt;
+&lt;p&gt;많은 기업은 오픈소스 정책 문서를 사내 위키 사이트를 통해 공개하여 직원 누구나 필요한 사항을 확인할 수 있게 한다. 또한, 신규 채용 인원의 입사 연수 시 오픈소스 정책에 대한 교육을 의무화하고, 프로그램 참여자를 대상으로 매년 혹은 2년에 한번씩 주기적인 교육을 제공함으로 모든 프로그램 참여자가 오픈소스 정책의 존재를 인식하게 한다. 즉, 기업은 이러한 방법들을 오픈소스 정책 문서에 구체화하여 포함시켜야 한다.&lt;/p&gt;
+&lt;h2 id=&#34;12-역량&#34;&gt;1.2 역량&lt;/h2&gt;
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-&lt;h3 id=&#34;openchain-specification-20&#34;&gt;OpenChain Specification 2.0&lt;/h3&gt;
+&lt;h3 id=&#34;openchain-규격-21&#34;&gt;OpenChain 규격 2.1&lt;/h3&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;12-역량&#34;&gt;1.2 역량&lt;/h3&gt;
-&lt;p&gt;조직은 다음 사항을 수행해야 한다: (The organization shall: )&lt;/p&gt;
+&lt;p&gt;조직은 다음 사항을 수행해야 한다:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;프로그램의 성능 및 효과에 영향을 미치는 역할과 해당 역할에 대한 책임을 확인한다;&lt;/li&gt;
-&lt;li&gt;각 역할을 수행하는 인원의 필요한 역량을 파악한다;&lt;/li&gt;
-&lt;li&gt;해당 인원이 적절한 교육, 훈련 및 경험을 바탕으로 자격을 갖춘 자임을 보장한다;&lt;/li&gt;
-&lt;li&gt;해당되는 경우, 필요한 역량을 확보하기 위한 조치를 취한다;&lt;/li&gt;
-&lt;li&gt;적절히 문서화된 정보를 역량의 증거로 보유한다.&lt;/li&gt;
+&lt;li&gt;프로그램의 성과와 유효성에 영향을 미치는 역할이 무엇인지, 그 역할에 해당하는 책임은 무엇인지 확인한다.&lt;/li&gt;
+&lt;li&gt;각 역할을 수행해야할 프로그램 참가자가 갖춰야 할 필요 역량을 파악한다.&lt;/li&gt;
+&lt;li&gt;프로그램 참가자가 적절한 교육, 훈련 및/또는 경험을 바탕으로 자격을 갖춘 자임을 확인한다.&lt;/li&gt;
+&lt;li&gt;해당되는 경우, 필요 역량 확보를 위해 조치한다.&lt;/li&gt;
+&lt;li&gt;역량 보유를 증명하기 위한 정보를 문서화하여 유지한다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;입증-자료&#34;&gt;입증 자료:&lt;/h4&gt;
-&lt;p&gt;1.2.1 프로그램 내 여러 참여자에 대한 문서화된 책임과 역할 목록&lt;br&gt;
-1.2.2 각 역할에 대한 역량을 확인하는 문서&lt;br&gt;
-1.2.3 각 프로그램 참여자에 대해 역량을 평가한 문서화된 증거&lt;/p&gt;
+&lt;p&gt;3.1.2.1 프로그램 참가자에 대한 역할과 각 역할에 대한 책임을 나열한 문서
+3.1.2.2 각 역할을 위해 필요한 역량을 기술한 문서
+3.1.2.3 각 프로그램 참가자의 역량을 평가한 결과 문서&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;12-competence&#34;&gt;1.2 Competence&lt;/h3&gt;
 &lt;p&gt;The organization shall:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Identify the roles and the corresponding responsibilities of those roles that affects the performance and effectiveness of the Program;&lt;/li&gt;
-&lt;li&gt;Determine the necessary competence of person(s) fulfilling each role&lt;/li&gt;
-&lt;li&gt;Ensure that these persons are competent on the basis of appropriate education, training, and/or experience;&lt;/li&gt;
-&lt;li&gt;Where applicable, take actions to acquire the necessary competence; and - Retain appropriate documented information as evidence of competence.&lt;/li&gt;
+&lt;li&gt;Identify the roles and the corresponding responsibilities of those roles that affects the performance and effectiveness of the program;&lt;/li&gt;
+&lt;li&gt;Determine the necessary competence of program participants fulfilling each role&lt;/li&gt;
+&lt;li&gt;Ensure that program participants are competent on the basis of appropriate education, training, and/or experience;&lt;/li&gt;
+&lt;li&gt;Where applicable, take actions to acquire the necessary competence; and&lt;/li&gt;
+&lt;li&gt;Retain appropriate documented information as evidence of competence.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;verification-materials&#34;&gt;Verification Material(s):&lt;/h4&gt;
-&lt;p&gt;1.2.1 A documented list of roles with corresponding responsibilities for the different participants in the Program.&lt;br&gt;
-1.2.2 A document that identifies the competencies for each role.&lt;br&gt;
-1.2.3 Documented evidence of assessed competence for each Program participant.&lt;/p&gt;
+&lt;p&gt;3.1.2.1 A documented list of roles with corresponding responsibilities for the different participants in the program.
+3.1.2.2 A document that identifies the competencies for each role.
+3.1.2.3 Documented evidence of assessed competence for each program participant.&lt;/p&gt;
 
 &lt;/div&gt;
 
-&lt;p&gt;오픈소스 프로그램이 올바르게 구축되고 운영될 수 있도록 역할과 책임(R&amp;amp;R)을 정의해야 한다. 각 역할을 수행할 담당자가 갖춰야 할 역량을 정의하고, 지정된 담당자가 해당 역할을 수행할 수 있는 역량을 갖추었는지 파악해야 한다. 해당 인원이 교육, 훈련 및 경험을 바탕으로 맡은 역할을 수행할 수 있는 자격을 갖추었음을 보장해야 한다. 이를 위해 각 인원이 필요한 역량을 갖출 수 있도록 교육을 제공한다.&lt;/p&gt;
-&lt;p&gt;이를 입증하기 위해 기업은 프로그램 내 여러 참여자에 대한 책임 및 역할 목록과 각 역할을 수행하는 담당자가 갖춰야할 역량을 정의하여 문서화 한다. 이 안내서에서는 참고를 위해 오픈소스 프로그램의 각 참여자의 역할과 책임 및 필요한 역량을 정의한 샘플 문서를 “[부록 01] 오픈소스 정책 for OpenChain 2.0(예)의 &lt;a href=&#34;../../appendix/1-policy-template/#4-%EC%97%AD%ED%95%A0-%EC%B1%85%EC%9E%84-%EB%B0%8F-%EC%97%AD%EB%9F%89&#34;&gt;4. 역할, 책임 및 역량&lt;/a&gt;”에서 제공한다.&lt;/p&gt;
-&lt;p&gt;그리고, 기업은 각 참여자가 역량을 갖추고 있는지 평가하고, 이를 보관한다. 이를 위해 기업은 각 참여자들이 필요한 역량을 보유할 수 있도록 교육을 제공한다. 교육 내용을 기반으로 평가하고, 그 결과는 기업의 교육 시스템 혹은 HR 부서에서 보관해야 한다. 소프트웨어 공급담당자가 수천명 이상이어서 교육 제공이 쉽지 않을 경우, 기업의 온라인 교육과 평가 시스템을 이용하는 것도 좋은 방법이다.&lt;/p&gt;
-&lt;h2 id=&#34;13-인지도-awareness&#34;&gt;1.3 인지도 (Awareness)&lt;/h2&gt;
+&lt;p&gt;기업은 오픈소스 프로그램이 올바르게 구축되고 운영될 수 있도록 프로그램 참여자의 역할과 책임을 정의해야 한다. 먼저 프로그램이 효율적이고 성과를 내기 위해서 필요한 역할이 무엇인지와, 그 역할이 담당해야 할 책임이 무엇인지 확인한다. 그리고, 각 역할을 수행할 인원이 갖춰야 할 필요 역량을 정의하고, 지정된 담당자가 교육, 훈련 및 경험을 바탕으로 맡은 역할을 수행할 수 있는 자격을 갖추었음을 확인하고, 필요한 인원에 대해서는 충분한 역량을 갖출 수 있도록 교육을 제공해야 한다.&lt;/p&gt;
+&lt;p&gt;이를 입증하기 위해 기업은 프로그램 참여자에 대한 역할 및 책임을 기술하고, 각 역할을 수행하는 담당자가 갖춰야할 필요 역량을 정의하여 문서화 한다. 이 가이드에서는 프로그램 참여자의 역할과 책임 및 필요한 역량을 정의한 샘플 문서를 “[부록 01] 오픈소스 정책 for OpenChain 2.1(예)의 &lt;a href=&#34;../../appendix/1-policy-template/#4-%EC%97%AD%ED%95%A0-%EC%B1%85%EC%9E%84-%EB%B0%8F-%EC%97%AD%EB%9F%89&#34;&gt;4. 역할, 책임 및 역량&lt;/a&gt;”에서 제공한다.&lt;/p&gt;
+&lt;p&gt;기업은 각 참여자가 역량을 갖추고 있는지 평가하고, 이를 보관해야 한다. 이를 위해 기업은 각 참여자들이 필요한 역량을 보유할 수 있도록 교육을 제공한다. 교육 내용을 기반으로 평가를 수행하고, 그 결과는 기업의 교육 시스템 혹은 HR 부서에서 보관해야 한다. 프로그램 참여자가 수천명 이상이어서 교육 제공이 쉽지 않을 경우, 기업의 온라인 교육과 평가 시스템을 이용하는 것도 좋은 방법이다.&lt;/p&gt;
+&lt;h2 id=&#34;13-인식&#34;&gt;1.3 인식&lt;/h2&gt;
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-&lt;h3 id=&#34;openchain-specification-20&#34;&gt;OpenChain Specification 2.0&lt;/h3&gt;
+&lt;h3 id=&#34;openchain-규격-21&#34;&gt;OpenChain 규격 2.1&lt;/h3&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;13-인지도&#34;&gt;1.3 인지도&lt;/h3&gt;
-&lt;p&gt;조직은 프로그램 참여자가 다음 사항을 알고 있음을 보장해야 한다:&lt;br&gt;
-a) 오픈소스 정책;&lt;br&gt;
-b) 오픈소스 관련 목표;&lt;br&gt;
-c) 프로그램의 효과에 대한 기여;&lt;br&gt;
-d) 프로그램의 요건 미준수의 의미.&lt;/p&gt;
+&lt;h3 id=&#34;13-인식&#34;&gt;1.3 인식&lt;/h3&gt;
+&lt;p&gt;조직은 프로그램 참여자가 다음 사항을 숙지하도록 해야 한다:
+a) 오픈소스 정책
+b) 오픈소스 관련 목표
+c) 효과적인 프로그램이 되기 위한 참여자의 기여 방법
+d) 프로그램의 요구사항을 준수하지 않았을 때 발생할 위험&lt;/p&gt;
 &lt;h4 id=&#34;입증-자료&#34;&gt;입증 자료:&lt;/h4&gt;
-&lt;p&gt;1.3.1 각 프로그램 담당자에 대해 프로그램의 목표, 프로그램에 기여, 그리고 프로그램 미준수의 의미를 포함하는 인지도를 평가한 문서화된 증거.&lt;/p&gt;
+&lt;p&gt;3.1.3.1 프로그램 참가자에 대해 다음 사항에 대한 인식을 평가하였음을 나타내는 문서 : 프로그램의 목표, 프로그램 내에서의 참여자 기여 방법, 프로그램을 준수하지 않을 때의 시사점&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;13-awareness&#34;&gt;1.3 Awareness&lt;/h3&gt;
-&lt;p&gt;The organization shall ensure that Program participants are aware of:&lt;br&gt;
-a) The Open Source policy;&lt;br&gt;
-b) Relevant Open Source objectives;&lt;br&gt;
+&lt;p&gt;The organization shall ensure that the program participants are aware of:
+a) The open source policy;
+b) Relevant open source objectives;&lt;br&gt;
 c) Their contribution to the effectiveness of the Program; and&lt;br&gt;
 d) The implications of not following the Program’s requirements.&lt;/p&gt;
 &lt;h4 id=&#34;verification-materials&#34;&gt;Verification Material(s):&lt;/h4&gt;
-&lt;p&gt;1.3.1 Documented evidence of assessed awareness for each Program personnel including the Program’s objectives, ones contribution within the Program, and implications of Program non-conformance.&lt;/p&gt;
+&lt;p&gt;3.1.3.1 Documented evidence of assessed awareness for the program participants - which should include the program’s objectives, one’s contribution within the program, and implications of program non-conformance.&lt;/p&gt;
 
 &lt;/div&gt;
 
-&lt;p&gt;프로그램 참여자가 오픈소스 정책, 기업의 오픈소스 관련 목표, 오픈소스 프로그램이 효과적일 수 있도록 참여자의 기여 방법, 그리고 프로그램 요건을 준수하지 않았을때의 발생할 수 있는 위험에 대해 인식하도록 한다.&lt;/p&gt;
-&lt;p&gt;이를 위해 오픈소스 정책은 프로그램 참여자가 오픈소스 정책 등의 주요 내용을 인식할 수 있도록 다음의 내용을 포함해야 한다.&lt;/p&gt;
+&lt;p&gt;기업은 위의 요구사항과 같이 프로그램 참여자가 오픈소스 정책, 기업의 오픈소스 관련 목표, 오픈소스 프로그램이 효과적이기 위한 참여자의 기여 방법, 그리고 프로그램 요구사항을 준수하지 않았을때 발생할 수 있는 위험에 대해 인식하게 해야 한다. 예를 들면 다음과 같다.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;먼저, 오픈소스를 사용, 배포, 기여하는 일련의 활동을 수행하는 목표를 포함한다. 예를 들어,“오픈소스를 이용하여 제품을 만들때 오픈소스 컴플라이언스 리스크를 최소화하고, 오픈소스 커뮤니티에 참여하고 기여함으로 최고의 가치를 창출한다”와 같은 형태로 목표를 수립할 수 있다.&lt;/li&gt;
-&lt;li&gt;그리고, 프로그램 참여자들이 자신의 역할에 대한 책임을 완수함으로써 오픈소스 프로그램의 효과가 증대될 수 있음을 알린다.&lt;/li&gt;
-&lt;li&gt;또한, 오픈소스 프로그램의 요건들을 준수하지 않았을 때 어떠한 위험이 발생하는지에 대해서도 알린다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;대표적인 위험 요소는 다음과 같다.&lt;/p&gt;
+&lt;li&gt;오픈 소스 관련 목표 : &amp;ldquo;오픈소스를 이용하여 제품을 만들때 오픈소스 컴플라이언스 리스크를 최소화하고, 오픈소스 커뮤니티에 참여하고 기여함으로 최고의 가치를 창출한다.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;오픈소스 프로그램이 효과적이기 위한 참여자의 기여 방법 : &amp;ldquo;프로그램 참여자는 이 정책의 근거와 내용을 이해하고 필요한 활동을 충실히 수행함으로써 정책의 효과 및 회사의 컴플라이언스 수준 향상에 기여할 수 있다.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;프로그램의 요구사항을 준수하지 않았을 때 발생할 위험
 &lt;ul&gt;
-&lt;li&gt;사용한 코드의 저작권자로부터 법적 클레임&lt;/li&gt;
-&lt;li&gt;의도하지 않은 기업 독점 코드의 공개&lt;/li&gt;
-&lt;li&gt;라이선스 의무 위반으로 인한 벌금&lt;/li&gt;
+&lt;li&gt;저작권 또는 기타 지식재산권 보유자의 법적 클레임&lt;/li&gt;
+&lt;li&gt;고객으로부터의 클레임&lt;/li&gt;
+&lt;li&gt;회사 독점 코드의 의도치 않은 공개&lt;/li&gt;
+&lt;li&gt;라이선스 의무 위반으로 인한 벌금 부과&lt;/li&gt;
 &lt;li&gt;평판 손실&lt;/li&gt;
 &lt;li&gt;수익 손실&lt;/li&gt;
 &lt;li&gt;공급업체 및 고객과의 계약 위반&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;각 프로그램 담당자가 프로그램의 목표, 프로그램에 기여 방법, 프로그램 미준수의 의미에 대해 올바르게 인식할 수 있도록 교육을 제공하고, 이를 평가한다. 평가한 결과는 문서화하여 보관한다. 1.2장에서 언급한 교육 및 평가 시 이에 대한 내용을 포함하면 될 것이다.&lt;/p&gt;
-&lt;h2 id=&#34;14-프로그램-적용-범위-program-scope&#34;&gt;1.4 프로그램 적용 범위 (Program Scope)&lt;/h2&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;기업은 이와 같은 내용을 오픈소스 정책에 포함시키거나, 교육을 통해 프로그램 참여자가 오픈소스 프로그램과 주요 내용에 대해 충분히 인식하게 할 수 있다. 또한, 기업은 프로그램 담당자가 위 사항을 올바르게 인식하였는지 평가하고, 평가 결과를 문서화하여 보관해야 한다.&lt;/p&gt;
+&lt;h2 id=&#34;314-프로그램-범위&#34;&gt;3.1.4 프로그램 범위&lt;/h2&gt;
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-&lt;h3 id=&#34;openchain-specification-20&#34;&gt;OpenChain Specification 2.0&lt;/h3&gt;
+&lt;h3 id=&#34;openchain-규격-21&#34;&gt;OpenChain 규격 2.1&lt;/h3&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;14-프로그램-적용-범위&#34;&gt;1.4 프로그램 적용 범위&lt;/h3&gt;
-&lt;p&gt;서로 다른 프로그램들은 서로 다른 수준의 범위까지 적용될 수 있다. 예를 들어, 하나의 프로그램이 하나의 제품 라인, 전체 부서 또는 전체 조직을 관리할 수 있다. 각 프로그램별로 범위 지정이 이루어질 필요가 있다.&lt;/p&gt;
+&lt;h3 id=&#34;314-프로그램-적용-범위&#34;&gt;3.1.4 프로그램 적용 범위&lt;/h3&gt;
+&lt;p&gt;프로그램은 다양하게 적용 범위 별로 분류하여 관리할 수 있다. 예를 들어, 한 프로그램을 단일 제품군에만 적용할 수도 있고, 전체 부서 또는 전체 조직에 적용하여 관리할 수 있다. 따라서 각 프로그램에서는 적용되는 범위를 정확히 명시해야 한다.&lt;/p&gt;
 &lt;h4 id=&#34;입증-자료&#34;&gt;입증 자료:&lt;/h4&gt;
-&lt;p&gt;1.4.1 프로그램의 적용 범위와 한계를 명확하게 정의한 문서화된 진술.&lt;/p&gt;
+&lt;p&gt;3.1.4.1 프로그램의 적용 범위와 한계를 명확하게 정의한 문서화된 표현&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;14-program-scope&#34;&gt;1.4 Program Scope&lt;/h3&gt;
-&lt;p&gt;Different Programs may be governed by different levels of scope. For example, a program could govern a single product line, an entire department or an entire organization. The scope designation needs to be declared for each Program.&lt;/p&gt;
+&lt;h3 id=&#34;314-program-scope&#34;&gt;3.1.4 Program Scope&lt;/h3&gt;
+&lt;p&gt;Different programs may be governed by different levels of scope. For example, a program could govern a single product line, an entire department or an entire organization. The scope designation needs to be declared for each program.&lt;/p&gt;
 &lt;h4 id=&#34;verification-materials&#34;&gt;Verification Material(s):&lt;/h4&gt;
-&lt;p&gt;1.4.1 A written statement that clearly defines the scope and limits of the Program.&lt;/p&gt;
+&lt;p&gt;3.1.4.1 A written statement that clearly defines the scope and limits of the program.&lt;/p&gt;
 
 &lt;/div&gt;
 
-&lt;p&gt;오픈소스 프로그램은 반드시 기업 전체에 적용해야 하는 것은 아니다. 기업 내 각 조직의 특성에 따라 프로그램의 적용 범위를 달리 할 수 있다. 예를 들어, 소프트웨어를 전혀 배포하지 않는 조직이라면 오픈소스 프로그램의 적용 범위에 해당하지 않을 수 있다. 따라서, 기업의 오픈소스 정책은 오픈소스 프로그램의 적용 범위와 한계를 명확히 정의해야 한다.&lt;/p&gt;
+&lt;p&gt;하나의 오픈소스 프로그램을 반드시 기업 전체에 적용해야 하는 것은 아니다. 기업 내 각 조직과 제품의 특성에 따라 적용 범위가 다른 여러 프로그램을 만들 수 있다. 예를 들어, 소프트웨어를 전혀 배포하지 않는 조직이라면 오픈소스 프로그램의 적용 범위에서 제외시킬 수 있다. 따라서, 기업은 오픈소스 정책에 오픈소스 프로그램의 적용 범위와 한계를 명확히 정의해야 한다.&lt;/p&gt;
 &lt;p&gt;예를 들어, “이 오픈소스 정책은 회사가 외부에 배포하는 모든 제품에 적용한다. 향후 배포하는 제품의 형태에 따라 프로그램의 구성과 적용 범위가 달라질 수 있으며, 이에 대해서는 오픈소스 팀이 OSRB와의 협의를 통해 결정한다.”와 같은 형태로 프로그램 적용 범위를 정의할 수 있다.&lt;/p&gt;
-&lt;h2 id=&#34;15-라이선스-의무-license-obligations&#34;&gt;1.5 라이선스 의무 (License Obligations)&lt;/h2&gt;
+&lt;h2 id=&#34;315-라이선스-의무-license-obligations&#34;&gt;3.1.5 라이선스 의무 (License Obligations)&lt;/h2&gt;
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-&lt;h3 id=&#34;openchain-specification-20&#34;&gt;OpenChain Specification 2.0&lt;/h3&gt;
+&lt;h3 id=&#34;openchain-규격-21&#34;&gt;OpenChain 규격 2.1&lt;/h3&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;15-라이선스-의무&#34;&gt;1.5 라이선스 의무&lt;/h3&gt;
-&lt;p&gt;각 라이선스에 의해 부여된 의무, 제한 및 권리를 결정하기 위해 식별된 라이선스를 검토하는 프로세스가 존재한다.&lt;/p&gt;
+&lt;h3 id=&#34;315-라이선스-의무&#34;&gt;3.1.5 라이선스 의무&lt;/h3&gt;
+&lt;p&gt;각 라이선스에 의해 부과된 의무, 제한 및 권리를 알아내기 위해 식별된 라이선스를 검토하는 프로세스가 있어야 한다.&lt;/p&gt;
 &lt;h4 id=&#34;입증-자료&#34;&gt;입증 자료:&lt;/h4&gt;
-&lt;p&gt;1.5.1 각 식별된 라이선스에 의해 부과되는 의무, 제한 및 권리를 검토하고 문서화하기 위한 문서화된 절차.&lt;/p&gt;
+&lt;p&gt;3.1.5.1 각 식별된 라이선스에 의해 부가된 의무, 제한 및 권리를 검토하고 기록하기 위한 문서화된 절차&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;15-license-obligations&#34;&gt;1.5 License Obligations&lt;/h3&gt;
-&lt;p&gt;A process exists for reviewing the Identified Licenses to determine the obligations, restrictions and rights granted by each license.&lt;/p&gt;
+&lt;h3 id=&#34;315-license-obligations&#34;&gt;3.1.5 License Obligations&lt;/h3&gt;
+&lt;p&gt;A process shall exist for reviewing the identified licenses to determine the obligations, restrictions and rights granted by each license.&lt;/p&gt;
 &lt;h4 id=&#34;verification-materials&#34;&gt;Verification Material(s):&lt;/h4&gt;
-&lt;p&gt;1.5.1 A written statement that clearly defines the scope and limits of the Program.&lt;/p&gt;
+&lt;p&gt;3.1.5.1 A documented procedure to review and document the obligations, restrictions and rights granted by each identified license.&lt;/p&gt;
 
 &lt;/div&gt;
 
-&lt;p&gt;오픈소스의 사용 가능 여부를 판단하기 위해서는 먼저 오픈소스의 라이선스가 무엇인지 식별하고, 라이선스가 요구하는 의무사항을 검토하고 확인해야 한다. 오픈소스 프로그램은 소프트웨어 개발팀에서 오픈소스 라이선스가 부여하는 의무, 제한 및 권리를 검토할 수 있도록 오픈소스 라이선스 의무 요약 자료를 제공하는 것이 좋다. 공개SW 라이선스(&lt;a href=&#34;https://www.oss.kr/oss_license&#34;&gt;https://www.oss.kr/oss_license&lt;/a&gt; )에서는 주요 오픈소스 라이선스의 의무, 제한 및 권리를 자세히 설명한다.&lt;/p&gt;
-&lt;p&gt;오픈소스를 사용하기에 앞서 라이선스 검토하고 이를 문서화하는 절차는“[부록 02] 오픈소스 컴플라이언스 프로세스 (예시)”절차의 &lt;a href=&#34;../../appendix/2-process-template/#step-1-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%8B%9D%EB%B3%84-identification-of-open-source&#34;&gt;오픈소스 식별 단계&lt;/a&gt;에 해당한다.&lt;/p&gt;
+&lt;p&gt;오픈소스의 사용 가능 여부를 판단하기 위해서는 먼저 오픈소스의 라이선스가 무엇인지 식별하고, 라이선스가 요구하는 의무사항을 확인해야 한다. 이를 위해 오픈소스 프로그램은 소프트웨어 개발팀에서 오픈소스 라이선스가 부여하는 의무, 제한 및 권리를 검토할 수 있도록 오픈소스 라이선스 의무 요약 자료를 제공하는 것이 좋다. NIPA 산하 오픈소스 소프트웨어 통합지원센터인 오픈업에서 제공하는 &amp;ldquo;공개SW와 라이선스&amp;rdquo;(&lt;a href=&#34;https://www.oss.kr/oss_license&#34;&gt;https://www.oss.kr/oss_license&lt;/a&gt; )에서는 주요 오픈소스 라이선스의 의무, 제한 및 권리를  설명하고 있으므로 기업에서는 이를 참고할 수 이/ㅆ다.&lt;/p&gt;
+&lt;p&gt;위에서 요구하는 &amp;ldquo;각 식별된 라이선스에 의해 부가된 의무, 제한 및 권리를 검토하고 기록하기 위한 문서화하는 절차는“[부록 02] 오픈소스 컴플라이언스 프로세스 (예시)”절차의 &lt;a href=&#34;../../appendix/2-process-template/#step-1-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%8B%9D%EB%B3%84-identification-of-open-source&#34;&gt;오픈소스 식별 단계&lt;/a&gt;에 해당한다.&lt;/p&gt;
 
       </description>
     </item>
@@ -181,29 +184,48 @@ d) The implications of not following the Program’s requirements.&lt;/p&gt;
       <description>
         
         
-        &lt;h2 id=&#34;21-접근성-access&#34;&gt;2.1 접근성 (Access)&lt;/h2&gt;
+        &lt;h2 id=&#34;321-접근성&#34;&gt;3.2.1 접근성&lt;/h2&gt;
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-&lt;h3 id=&#34;openchain-specification-20&#34;&gt;OpenChain Specification 2.0&lt;/h3&gt;
+&lt;h3 id=&#34;openchain-규격-21&#34;&gt;OpenChain 규격 2.1&lt;/h3&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;21-접근성&#34;&gt;2.1 접근성&lt;/h3&gt;
-&lt;p&gt;외부 오픈소스 문의에 효과적으로 대응할 수 있는 프로세스를 유지한다. 제 3자가 오픈소스 컴플라이언스 문의를 할 수 있는 방법을 공개적으로 밝힌다.&lt;/p&gt;
+&lt;p&gt;외부의 오픈소스 문의에 효과적으로 대응하기 위한 프로세스를 유지해야한다. 제3자가 오픈소스 컴플라이언스에 대해 문의 할 수 있는 방법을 공개해야 한다.&lt;/p&gt;
 &lt;h4 id=&#34;입증-자료&#34;&gt;입증 자료:&lt;/h4&gt;
-&lt;p&gt;2.1.1 제 3자가 오픈소스 컴플라이언스 문의를 할 수 있게 공개적으로 알려진 방법 (공개된 연락처 이메일 주소, 또는 Linux Foundation의 Open Compliance Directory 등).&lt;br&gt;
-2.1.2 제 3자의 오픈소스 라이선스 컴플라이언스 문의에 대응하기 위한 내부의 문서화된 절차.&lt;/p&gt;
+&lt;p&gt;3.2.1.1 제3자가 오픈소스 라이선스 컴플라이언스에 대해 문의 할 수 있는 공개된 방법 (담당자 이메일 주소, 또는 Linux Foundation의 Open Compliance Directory 등)
+3.2.1.2 제3자의 오픈소스 라이선스 컴플라이언스 문의에 대응하기 위한 내부의 문서화된 절차&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;21-access&#34;&gt;2.1 Access&lt;/h3&gt;
-&lt;p&gt;Maintain a process to effectively respond to external Open Source inquiries. Publicly identify a means by which a third party can make an Open Source compliance inquiry.&lt;/p&gt;
+&lt;p&gt;Maintain a process to effectively respond to external open source inquiries. Publicly identify a means by which a third party can make an open source compliance inquiry.&lt;/p&gt;
 &lt;h4 id=&#34;verification-materials&#34;&gt;Verification Material(s):&lt;/h4&gt;
-&lt;p&gt;2.1.1 Publicly visible method that allows any third party to make an Open Source license compliance inquiry (e.g., via a published contact email address, or the Linux Foundation&amp;rsquo;s Open Compliance Directory).&lt;br&gt;
-2.1.2 An internal documented procedure for responding to third party Open Source license compliance inquiries.&lt;/p&gt;
+&lt;p&gt;3.2.1.1 Publicly visible method that allows any third party to make an open source license compliance inquiry (e.g., via a published contact email address, or the Linux Foundation&amp;rsquo;s Open Compliance Directory).
+3.2.1.2 An internal documented procedure for responding to third party open source license compliance inquiries.&lt;/p&gt;
 
 &lt;/div&gt;
 
-&lt;p&gt;배포한 제품에 사용된 오픈소스에 대해 고객 및 오픈소스 저작권자가 기업에게 오픈소스 관련 문의, 요청 및 클레임을 제기하는 경우가 있다. 소송까지 당하지 않기 위해서는 이러한 외부 문의에 가능한 빠르고 정확하게 대응하는 것이 중요하다. 따라서 기업은 외부에서 기업에게 오픈소스 관련 문의를 할 수 있는 연락 방법을 공개적으로 밝히고, 외부 오픈소스 문의를 접수하였을 때 빠르고 효과적으로 대응 할 수 있는 프로세스를 갖추고 있어야 한다.&lt;/p&gt;
-&lt;p&gt;외부에서 기업에게 오픈소스 관련 문의를 할 수 있는 연락 방법은 회사의 오픈소스 담당자의 이메일 주소를 공개하거나, Linux Foundation의 Open Compliance Directory를 이용하는 것이다.&lt;/p&gt;
-&lt;p&gt;오픈소스 개발자들이 기업의 오픈소스 컴플라이언스 관련 이슈를 논의하기 위해 기업 담당자에게 연락하고 싶어도 연락 방법을 찾지 못하다가 결국 법적 클레임까지 제기하는 경우가 있다. Linux Foundation은 이러한 경우를 최소화 하기 위해 기업들에게 오픈소스 관련 문의를 받을 수 있는 연락처를 공개할 수 있도록 Open Compliance Directory라는 공간을 마련하였다.&lt;/p&gt;
+&lt;p&gt;배포한 제품에 사용된 오픈소스에 대해 고객 및 오픈소스 저작권자가 기업에게 오픈소스 관련 문의, 요청 및 클레임을 제기하는 경우가 있다. 이때 소송까지 당하지 않기 위해서는 이러한 외부 문의 및 요청에 가능한 빠르고 정확하게 대응하는 것이 중요하다. 이를 위해 기업은 외부 오픈소스 문의를 접수하였을 때 빠르고 효과적으로 대응 할 수 있는 프로세스를 갖추고 있어야 한다.&lt;/p&gt;
+&lt;p&gt;외부 문의 및 요청의 주된 내용은 다음과 같다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;특정 제품 및 서비스에 오픈소스가 사용되었는지 문의&lt;/li&gt;
+&lt;li&gt;Written Offer에 언급된 GPL, LGPL 라이선스 하의 소스 코드 제공 요청&lt;/li&gt;
+&lt;li&gt;오픈소스 고지문에 명시되지 않았지만 제품에서 발견된 오픈소스에 대한 해명 및 소스 코드 공개 요청&lt;/li&gt;
+&lt;li&gt;GPL, LGPL 등의 의무로 공개된 소스 코드에 누락된 파일 및 빌드 방법 제공 요청&lt;/li&gt;
+&lt;li&gt;저작권 표시 요청&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;외부로부터의 이러한 오픈소스 컴플라이언스 문의에 신속하고 정확하게 대응한다면 소송까지 진행되는 위험을 크게 줄일 수 있다. 따라서, 기업은 외부의 오픈소스 컴플라이언스 문의에 대응하기 위한 프로세스를 갖추고 있어야 한다. 오픈소스 컴플라이언스 문의를 대응하기 위한 일반적인 절차는 다음과 같다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../process.png&#34; alt=&#34;process.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;&amp;lt; &lt;a href=&#34;https://www.linuxsources.org/content/open-compliance-directory-add-organization-request&#34;&gt;https://www.linuxsources.org/content/open-compliance-directory-add-organization-request&lt;/a&gt; &amp;gt;&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;접수 확인 (Acknowledge) : 문의를 받으면 즉시 응답하여, 문의가 접수되었음을 알린다. 이때 조치 예정일을 함께 알린다. 요청자의 의도가 무엇인지 정확히 파악하는 것이 중요하기 때문에 문의가 불명확한 경우 추가 설명을 요청한다.&lt;/li&gt;
+&lt;li&gt;요청자에게 알림 (Inform) : 요청자에게 오픈소스 컴플라이언스를 충실히 수행하고 있음과 요청자의 문의에 대해 조사하고 있음을 알린다. 내부 조사 진행사항이 업데이트될 때마다 알리는 것이 좋다.&lt;/li&gt;
+&lt;li&gt;내부 조사 (Investigate) : 문의에 대해 내부 조사를 진행한다. 문제가 된 제품의 버전에 대하여 컴플라이언스 프로세스가 적절하게 수행되었는지 BOM 및 문서화 된 검토 이력을 통해 확인한다.&lt;/li&gt;
+&lt;li&gt;요청자에게 보고 (Report) : 요청자에게 통보했던 조치 예정일 내에 내부 조사를 마치고, 이에 대한 내부 기록을 남긴 후 요청자에게 결과를 알린다.&lt;/li&gt;
+&lt;li&gt;처리 종료 (Close Inquiry) : 요청자의 문의가 오해로 인한 잘못된 지적이나 요청이었다면 추가 조치 없이 요청자에게 이를 알리고 처리를 종료한다.&lt;/li&gt;
+&lt;li&gt;문제 보완 (Rectify) : 내부조사에서 실제 컴플라이언스 문제가 발견되면 해당 조직은 제품 또는 서비스의 컴플라이언스 문제를 해결하기 위해 필요한 모든 절차를 수행한다. 예상되는 완료 일자를 요청자에게 다시 한번 알린다. 즉, 해당 오픈소스 라이선스의 의무를 이행하기 위한 정확한 방법과 시기를 알려야 한다. 문제를 해결한 후에는 즉시 요청자에게 알리고 문제가 해결되었음을 확인할 수 있는 최선의 방법을 제공한다.&lt;/li&gt;
+&lt;li&gt;프로세스 개선 (Improve) : 컴플라이언스 문제가 있었던 경우, OSRB 미팅을 통해 사례를 검토하고, 문제가 발생한 경위를 파악하여, 문제가 재발하지 않을 수 있도록 프로세스를 개선한다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;한편, 외부의 오픈소스 개발자들이 특정 기업의 오픈소스 컴플라이언스 관련 이슈를 논의하기 위해 기업 담당자에게 연락하고 싶어도 연락 방법을 찾지 못하다가 결국 바로 법적 클레임을 제기하는 경우가 있다. 이를 방지하기 위해 기업은 제3자가 기업에게 오픈소스 관련하여 문의 및 요청을 할 수 있는 연락 방법을 항시 공개적으로 밝혀야 한다. 외부에서 기업에게 오픈소스 관련된 문의를 할 수 있는 연락 방법은 (1) 기업 오픈소스 담당자의 이메일 주소를 공개하거나, (2) Linux Foundation의 Open Compliance Directory를 이용하는 것이다. Linux Foundation은 기업이 오픈소스 담당자의 연락처를 공개할 수 있도록 Open Compliance Directory라는 공간을 마련하였다.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../directory.png&#34; alt=&#34;directory.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;center&gt;&amp;lt; &lt;a href=&#34;https://compliance.linuxfoundation.org/references/open-compliance-directory/&#34;&gt;https://compliance.linuxfoundation.org/references/open-compliance-directory/&lt;/a&gt; &amp;gt;&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
  &lt;br&gt;
@@ -211,48 +233,29 @@ d) The implications of not following the Program’s requirements.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../addrequest.png&#34; alt=&#34;addrequest.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;center&gt;&amp;lt; &lt;a href=&#34;https://www.linuxsources.org/content/open-compliance-directory-add-organization-request&#34;&gt;https://www.linuxsources.org/content/open-compliance-directory-add-organization-request&lt;/a&gt; &amp;gt;&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
  &lt;br&gt;
-&lt;p&gt;외부 문의 및 요청의 주된 내용은 다음과 같다.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;특정 오픈소스가 제품 및 서비스에 사용되었는지 확인 요청&lt;/li&gt;
-&lt;li&gt;Written Offer에서 언급된 GPL, LGPL 등의 라이선스 하의 소스 코드 제공 요청&lt;/li&gt;
-&lt;li&gt;오픈소스 고지문에 명시되지 않았지만 제품에서 발견된 오픈소스에 대한 해명 및 소스 코드 공개 요청&lt;/li&gt;
-&lt;li&gt;GPL, LGPL 등의 의무로 공개된 소스 코드에 누락된 파일 제공 요청&lt;/li&gt;
-&lt;li&gt;Copyright 표시 요청&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;외부로부터의 이러한 오픈소스 컴플라이언스 문의에 신속하고 정확하게 대응한다면 소송까지 진행되는 위험을 크게 줄일 수 있다. 따라서, 기업은 외부의 오픈소스 컴플라이언스 문의에 대응하기 위한 절차를 갖고 있어야 한다. 컴플라이언스 문의를 대응하기 위한 일반적인 절차는 다음과 같다.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;../process.png&#34; alt=&#34;process.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;center&gt;&amp;lt; &lt;a href=&#34;https://www.linuxsources.org/content/open-compliance-directory-add-organization-request&#34;&gt;https://www.linuxsources.org/content/open-compliance-directory-add-organization-request&lt;/a&gt; &amp;gt;&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;접수 확인 (Acknowledge) 문의를 받으면 즉시 응답하여, 문의가 제대로 접수되었음을 알린다. 이때 조치 예정일을 함께 알린다. 요청자의 의도가 무엇인지 정확히 파악하는 것이 중요하기 때문에 문의가 불명확한 경우 추가 설명을 요청한다.&lt;/li&gt;
-&lt;li&gt;요청자에게 알림 (Inform) 요청자에게 오픈소스 컴플라이언스를 충실히 수행하고 있음과 요청자의 문의에 대해 조사하고 있음을 알린다. 내부 조사 진행사항이 업데이트되면 알리는 것이 좋다.&lt;/li&gt;
-&lt;li&gt;내부 조사 (Investigate) 문의에 대해 내부 조사를 진행한다. 문제가 된 제품의 버전에 대하여 컴플라이언스 프로세스가 적절하게 수행되었는지 BOM 및 문서화 된 검토 이력을 통해 확인한다.&lt;/li&gt;
-&lt;li&gt;요청자에게 보고 (Report) 요청자에게 통보했던 조치 예정일 내에 내부 조사를 마치고, 이에 대한 내부 기록을 남긴 후 요청자에게 결과를 알린다.&lt;/li&gt;
-&lt;li&gt;처리 종료 (Close Inquiry) 요청자의 문의가 오해로 인한 잘못된 지적이나 요청이었다면 추가 조치 없이 요청자에게 이를 알리고 처리를 종료한다.&lt;/li&gt;
-&lt;li&gt;문제 보완 (Rectify) 내부조사에서 실제 컴플라이언스 문제가 발견되면 해당 조직은 제품 또는 서비스의 컴플라이언스 문제를 해결하기 위해 필요한 모든 절차를 수행한다. 예상되는 완료 일자를 요청자에게 다시 한번 알린다. 즉, 해당 오픈소스 라이선스의 의무를 이행하기 위한 정확한 방법과 시기를 알려야 한다. 문제를 해결한 후에는 즉시 요청자에게 알리고 문제가 해결되었음을 확인할 수 있는 최선의 방법을 제공한다.&lt;/li&gt;
-&lt;li&gt;프로세스 개선 (Improve) 컴플라이언스 문제가 있었던 경우, OSRB 미팅을 통해 사례를 검토하고, 문제가 발생한 경위를 파악하여, 문제가 재발하지 않을 수 있도록 프로세스를 개선한다.&lt;/li&gt;
-&lt;/ol&gt;
 &lt;h2 id=&#34;22-효과적인-리소스-제공-effectively-resourced&#34;&gt;2.2 효과적인 리소스 제공 (Effectively Resourced)&lt;/h2&gt;
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-&lt;h3 id=&#34;openchain-specification-20&#34;&gt;OpenChain Specification 2.0&lt;/h3&gt;
+&lt;h3 id=&#34;openchain-규격-21&#34;&gt;OpenChain 규격 2.1&lt;/h3&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;22-효과적인-리소스-제공&#34;&gt;2.2 효과적인 리소스 제공&lt;/h3&gt;
-&lt;p&gt;프로그램 업무를 확인하고 리소스를 제공하라:&lt;/p&gt;
+&lt;p&gt;프로그램이 효과적일 수 있도록 다음과 같이 업무를 확인하고 리소스를 제공해야 한다:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;프로그램 업무를 성공적으로 수행할 수 있도록 책임을 할당하라.&lt;/li&gt;
-&lt;li&gt;프로그램 업무를 위해 충분한 리소스가 제공된다:&lt;br&gt;
-• 업무를 수행할 시간이 할당되었다;&lt;br&gt;
-• 적절한 자금이 할당되었다.&lt;/li&gt;
-&lt;li&gt;정책 및 지원 업무를 검토하고 업데이트하는 프로세스가 존재한다;&lt;/li&gt;
-&lt;li&gt;오픈소스 라이선스 컴플라이언스와 관련된 법률 가이드를 필요로 하는 인원이 법률 전문 지식을 이용할 수 있다;&lt;/li&gt;
+&lt;li&gt;프로그램을 성공적으로 수행할 수 있도록 각 업무에 대한 책임을 할당한다.&lt;/li&gt;
+&lt;li&gt;프로그램의 업무를 위한 충분한 리소스를 제공한다.
+• 업무 수행 시간을 할당한다.
+• 예산을 적절하게 지원한다.&lt;/li&gt;
+&lt;li&gt;정책 및 지원 업무를 검토하고 개선하는 프로세스가 존재한다.&lt;/li&gt;
+&lt;li&gt;오픈소스 라이선스 컴플라이언스와 관련된 전문 법률 자문을 이용 할 수 있다.&lt;/li&gt;
 &lt;li&gt;오픈소스 라이선스 컴플라이언스 문제를 해결하기 위한 프로세스가 존재한다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;입증-자료&#34;&gt;입증 자료:&lt;/h4&gt;
-&lt;p&gt;2.2.1 확인된 프로그램 역할의 담당자 이름, 그룹 또는 기능이 기재된 문서&lt;br&gt;
-2.2.2 확인된 프로그램 역할이 적절하게 충원되었고 적합하게 자금이 제공되었다&lt;br&gt;
-2.2.3 오픈소스 라이선스 컴플라이언스 문제를 해결하기 위해 내부 또는 외부의 전문 법률 지식을 이용할 수 있는 방법의 확인.&lt;br&gt;
-2.2.4 오픈소스 컴플라이언스에 대한 내부 책임을 할당하는 문서화된 절차 2.2.5 미준수 사례의 검토 및 시정을 규정하는 문서화된 절차&lt;/p&gt;
+&lt;p&gt;3.2.2.1 프로그램 내 각 역할을 담당할 인원, 그룹 또는 직무의 이름을 기재한 문서
+3.2.2.2 프로그램 내 각 역할을 담당할 인원이 적절하게 배치되고, 예산 지원이 적합하게 이루어져야 한다.
+3.2.2.3 오픈소스 라이선스 컴플라이언스 문제 해결을 위해 내부 또는 외부의 전문 법률 자문을 이용할 수 있는 방법
+3.2.2.4 오픈소스 컴플라이언스를 위해 내부에서의 책임을 배정하는 문서화된 절차
+3.2.2.5 미준수 사례를 검토하고 이를 수정하기 위한 문서화된 절차&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;22-effectively-resourced&#34;&gt;2.2 Effectively Resourced&lt;/h3&gt;
 &lt;p&gt;Identify and Resource Program Task(s):&lt;/p&gt;
@@ -274,23 +277,23 @@ d) The implications of not following the Program’s requirements.&lt;/p&gt;
 
 &lt;/div&gt;
 
-&lt;p&gt;기업은 오픈소스 프로그램이 원활하게 기능을 수행할 수 있도록 리소스를 충분하게 제공해야 한다.&lt;/p&gt;
+&lt;p&gt;기업은 오픈소스 프로그램이 원활하게 기능을 수행할 수 있도록 리소스를 충분히 제공해야 한다.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;프로그램 참여자들이 업무를 수행할 수 있는 시간과 자금을 할당하고, 주기적으로 오픈소스 정책을 검토하여 기업의 소프트웨어 전략에 맞추어 업데이트해야 한다.&lt;/li&gt;
-&lt;li&gt;프로그램 참여자들이 컴플라이언스 이슈 해결을 위한 프로세스가 구축되어야 하고, 이슈 해결을 위해 법적인 검토가 필요할 경우 법무 자문을 요청할 수 있는 방법이 제공되어야 한다.&lt;/li&gt;
+&lt;li&gt;프로그램 참여자들이 업무를 수행할 수 있는 시간과 예산을 지원하고, 주기적으로 오픈소스 정책을 검토하여 기업의 소프트웨어 전략에 맞추어 개선해야 한다.&lt;/li&gt;
+&lt;li&gt;프로그램 참여자들이 컴플라이언스 문제 해결을 위한 프로세스가 구축되어야 하고, 문제 해결을 위해 법적인 검토가 필요할 경우 법무 자문을 요청할 수 있는 방법을 제공해야 한다.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;오픈소스 프로그램이 기능을 수행하기 위해서는 각 역할 별 담당자가 지정되어야 한다.&lt;/p&gt;
+&lt;p&gt;오픈소스 프로그램의 기능을 수행하기 위해서는 각 역할 별 담당을 지정해야 한다.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;각 역할 별 담당자 혹은 담당 조직을 지정하고, 누구나 이를 참고할 수 있도록 문서화하여 공유한다.&lt;/li&gt;
-&lt;li&gt;각 조직의 책임자는 프로그램 내의 각 역할별 담당자가 적절히 충원되었는지, 업무를 수행하는데 필요한 자금이 적절하게 제공되었는지를 확인한다.&lt;/li&gt;
+&lt;li&gt;각 조직의 책임자는 프로그램 내의 각 역할별 담당자가 적절히 충원되었는지, 업무를 수행하는데 필요한 예산이 적절하게 제공되었는지를 확인한다.&lt;/li&gt;
+&lt;li&gt;만약, 프로그램 참여자가 자신의 역할을 수행하는데 리소스나 예산 지원이 부족하다고 판단한다면, 반드시 기업의 오픈소스 책임자에게 문제를 제기하여 해결해야 한다. 문제가 효과적으로 해결되지 않을 경우, 오픈소스 이사회에 보고하고, 이사회는 필요한 의사결정을 수행하여 적절한 자원이 할당 될 수 있도록 조치 해야 한다.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;만약, 프로그램 참여자가 자신의 역할을 수행하는데 리소스나 자금 지원이 부족하다고 판단한다면, 반드시 기업의 오픈소스 책임자에게 문제를 제기하여 해결해야 한다. 문제가 효과적으로 해결되지 않을 경우, 오픈소스 이사회에 보고하고, 이사회는 필요한 의사결정을 수행하여 적절한 자원이 할당 될 수 있도록 해야 한다.&lt;/p&gt;
-&lt;p&gt;기업은 프로그램 참여자가 이슈 해결을 위해 법률적인 검토가 필요할 경우, 이에 대해 법률 자문을 요청할 수 있는 방법을 제공해야 한다. 회사 내의 법무팀을 통해 우선 제공하고, 이슈가 첨예한 경우, 오픈소스 전문 변호사를 보유한 외부 법무 법인을 이용할 수 있다. OpenChain Project에서는 파트너 프로그램을 통해 오픈소스 관련 자문을 제공하는 글로벌 법무법인 리스트를 제공한다.&lt;/p&gt;
+&lt;p&gt;기업은 프로그램 참여자가 이슈 해결을 위해 법률적인 검토가 필요할 경우, 이에 대해 법률 자문을 요청할 수 있는 방법을 제공해야 한다. 회사 내의 법무팀을 통해 우선 제공하고, 이슈가 첨예한 경우, 오픈소스 전문 변호사를 보유한 외부 법무 법인을 이용할 수 있다. OpenChain 프로젝트에서는 파트너 프로그램을 통해 오픈소스 관련 자문을 제공하는 글로벌 법무법인 리스트를 제공한다.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../partners.png&#34; alt=&#34;partners.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;center&gt;&amp;lt; &lt;a href=&#34;https://www.openchainproject.org/partners&#34;&gt;https://www.openchainproject.org/partners&lt;/a&gt; &amp;gt;&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;OpenChain 파트너로 등록된 법무법인은 OpenChain Project에서 요구하는 요건을 충족한 곳들이며, 대한민국에서는 법무법인 태평양이 등록되어 있다.&lt;/p&gt;
-&lt;p&gt;오픈소스 책임자는 기업의 오픈소스 컴플라이언스 활동을 위한 기업 내부의 역할과 책임을 할당해야 한다. 오픈소스 정책 문서에는 오픈소스 책임자가 오픈소스 컴플라이언스 이슈 해결을 위해 담당해야 할 역할에 대해 기술한다.&lt;/p&gt;
-&lt;p&gt;컴플라이언스 미준수 이슈가 제기된 경우, 기업은 이를 신속히 검토하고 대응하기 위한 절차를 문서화해야 한다. 이에 대한 자세한 내용은 2.1장에서 외부 문의 대응에 대한 프로세스 설명 부분을 참고할 수 있다.&lt;/p&gt;
+&lt;p&gt;OpenChain 파트너로 등록된 법무법인은 OpenChain 프로젝트에서 요구하는 요건을 충족한 곳들이며, 대한민국에서는 유일하게 법무법인 태평양이 등록되어 있다.&lt;/p&gt;
+&lt;p&gt;기업은 오픈소스 정책 문서에 위의 내용을 기술하여 오픈소스 프로그램에 효과적인 리소스가 제공될 수 있도록 해야 한다.&lt;/p&gt;
+&lt;p&gt;컴플라이언스 미준수 문제가 제기된 경우, 기업은 이를 신속히 검토하고 대응하기 위한 절차를 문서화해야 한다. 이에 대한 자세한 내용은 3.2.1장에서의 외부 문의 대응에 대한 프로세스 설명 부분을 참고할 수 있다.&lt;/p&gt;
 
       </description>
     </item>
@@ -308,13 +311,13 @@ d) The implications of not following the Program’s requirements.&lt;/p&gt;
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-&lt;h3 id=&#34;openchain-specification-20&#34;&gt;OpenChain Specification 2.0&lt;/h3&gt;
+&lt;h3 id=&#34;openchain-규격-21&#34;&gt;OpenChain 규격 2.1&lt;/h3&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;31-bom&#34;&gt;3.1 BOM&lt;/h3&gt;
-&lt;p&gt;공급 대상 소프트웨어를 구성하는 각 오픈소스 컴포넌트(및 식별된 라이선스)를 포함하는 BOM을 작성하고 관리하는 프로세스가 있다.&lt;/p&gt;
+&lt;p&gt;배포 대상 소프트웨어를 구성하는 오픈소스 컴포넌트(및 식별된 라이선스)에 대한 BOM (Bill of Materials)을 생성하고 이를 관리하는 프로세스가 있어야 한다.&lt;/p&gt;
 &lt;h4 id=&#34;입증-자료&#34;&gt;입증 자료:&lt;/h4&gt;
-&lt;p&gt;3.1.1 공급 대상 소프트웨어를 구성하는 오픈소스 컴포넌트 모음에 대한 정보를 식별, 추적, 검토, 승인 및 보관하는 문서화된 절차&lt;br&gt;
-3.1.2 공급 대상 소프트웨어에 대해 문서화된 절차가 적절히 준수되었음을 입증하는 오픈소스 컴포넌트 기록.&lt;/p&gt;
+&lt;p&gt;3.3.1.1 배포 대상 소프트웨어를 구성하는 오픈소스 컴포넌트에 대한 정보를 식별, 추적, 검토, 승인 및 보관하기 위한 문서화된 절차
+3.3.1.2 문서화된 절차가 적절히 준수되었음을 보여주는 배포 대상 소프트웨어에 대한 오픈소스 컴포넌트 기록&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;31-bill-of-materials&#34;&gt;3.1 Bill of Materials&lt;/h3&gt;
 &lt;p&gt;A process exists for creating and managing a bill of materials that includes each Open Source component (and its Identified Licenses) from which the Supplied Software is comprised.&lt;/p&gt;
@@ -324,51 +327,53 @@ d) The implications of not following the Program’s requirements.&lt;/p&gt;
 
 &lt;/div&gt;
 
-&lt;p&gt;오픈소스 컴플라이언스 활동의 가장 기본은 바로 공급 대상 소프트웨어에 포함된 오픈소스 현황을 파악하는 것이다. 공급 대상 소프트웨어에 포함된 오픈소스와 그 라이선스를 식별하여 그 정보를 담고있는 BOM을 작성하고 관리하는 프로세스를 구축해야 한다. 공급 대상 소프트웨어마다 어떤 오픈소스가 포함되어 있는지 알고 있어야 소프트웨어를 배포할 때 각 라이선스가 요구하는 의무 사항을 준수할 수 있기 때문이다. 모든 오픈소스는 배포 대상 소프트웨어에 통합하기 전에 검토 및 승인되어야 한다. 오픈소스의 기능, 품질 뿐만 아니라 출처, 라이선스 요건을 충족하는지 검토가 되야 한다. 이를 위해 검토 요청 → 리뷰 → 승인 과정이 필요하다. &lt;a href=&#34;../../appendix/2-process-template/&#34;&gt;[부록 02]&lt;/a&gt;에서는 기업의 오픈소스 컴플라이언스를 위한 프로세스 전과정에 대해 설명하고 있다. 식별부터 등록까지의 과정을 통해 BOM을 작성하고 관리하게 된다.&lt;/p&gt;
-&lt;p&gt;{% page-ref page=&amp;rdquo;../../appendix/process.md&amp;rdquo; %}&lt;/p&gt;
-&lt;p&gt;공급 대상 소프트웨어에 포함된 오픈소스 목록은 문서화하여 보관해야 한다. Eclipse 재단에서 후원하는 오픈소스 프로젝트인 SW360(https://projects.eclipse.org/proposals/ sw360)은 공급 대상 소프트웨어별로 포함하고 있는 오픈소스 목록을 트래킹할 수 있는 기능을 제공한다. SW360 사용 방법은 &lt;a href=&#34;../..//appendix/3-tools/sw360/&#34;&gt;[부록 03]&lt;/a&gt;을 참고할 수 있다.&lt;/p&gt;
-&lt;p&gt;오픈소스 컴플라이언스 프로세스의 모든 과정과 결과는 문서화가 되어야 한다. 이메일을 사용하는 것 보다는 Jira, Bugzilla 등의 이슈 트래킹 시스템을 이용하는 것이 이러한 과정을 효율적으로 문서화 할 수 있다.&lt;/p&gt;
+&lt;p&gt;오픈소스 컴플라이언스 활동의 가장 기본은 배포 대상 소프트웨어에 포함된 오픈소스 현황을 파악하는 것이다. 배포 대상 소프트웨어에 포함된 오픈소스와 그 라이선스를 식별하여 그 정보를 담고있는 BOM (Bill of Materials)을 작성하고 관리하는 프로세스를 구축해야 한다. 배포 대상 소프트웨어의 버전마다 어떤 오픈소스가 포함되어 있는지 알고 있어야 소프트웨어를 배포할 때 각 오픈소스의 라이선스가 요구하는 의무 사항을 준수할 수 있기 때문이다.&lt;/p&gt;
+&lt;p&gt;모든 오픈소스는 배포 대상 소프트웨어에 통합하기 전에 검토 및 승인되어야 한다. 오픈소스의 기능, 품질 뿐만 아니라 출처, 라이선스 요건을 충족할 수 있는지 사전 검토가 되어야 한다. 이를 위해 검토 요청 → 리뷰 → 승인 과정이 필요하다. &lt;a href=&#34;../../appendix/2-process-template/&#34;&gt;[부록 02] 샘플 오픈소스 컴플라이언스 프로세스&lt;/a&gt;에서는 기업의 오픈소스 컴플라이언스를 위한 프로세스 전과정에 대해 설명하고 있다. 식별부터 등록까지의 과정을 통해 BOM을 작성하고 관리하게 된다.&lt;/p&gt;
+&lt;p&gt;배포 대상 소프트웨어에 포함된 오픈소스 목록은 문서화하여 보관해야 한다. Eclipse 재단에서 후원하는 오픈소스 프로젝트인 SW360(https://projects.eclipse.org/proposals/ sw360)은 배포 대상 소프트웨어별로 포함하고 있는 오픈소스 목록을 트래킹할 수 있는 기능을 제공한다. SW360 사용 방법은 &lt;a href=&#34;../..//appendix/3-tools/sw360/&#34;&gt;[부록 03] 오픈소스 도구 (FOSSology/SW360)&lt;/a&gt;을 참고할 수 있다.&lt;/p&gt;
+&lt;p&gt;이와 같은 오픈소스 컴플라이언스 프로세스의 모든 과정과 결과는 문서화가 되어야 한다. 이메일을 사용하는 것 보다는 Jira, Bugzilla 등의 이슈 트래킹 시스템을 이용하는 것이 이러한 과정을 효율적으로 문서화 할 수 있다.&lt;/p&gt;
 &lt;h2 id=&#34;32-라이선스-컴플라이언스&#34;&gt;3.2 라이선스 컴플라이언스&lt;/h2&gt;
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-&lt;h3 id=&#34;openchain-specification-20&#34;&gt;OpenChain Specification 2.0&lt;/h3&gt;
+&lt;h3 id=&#34;openchain-규격-21&#34;&gt;OpenChain 규격 2.1&lt;/h3&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;32-라이선스-컴플라이언스&#34;&gt;3.2 라이선스 컴플라이언스&lt;/h3&gt;
-&lt;p&gt;프로그램은 공급 대상 소프트웨어에 대해 소프트웨어 공급 담당자가 접하게 되는 일반적인 오픈소스 사용 사례를 관리할 수 있어야 하며, 다음과 같은 사례가 포함될 수 있다(이 목록이 완전한 것은 아니며, 모든 사용 사례가 적용되어야 하는 것은 아니다).:&lt;/p&gt;
+&lt;p&gt;프로그램은 배포 대상 소프트웨어에 대해 프로그램 참여자가 접할 수 있는 일반적인 오픈소스 라이선스의 사용 사례에 대해 어떻게 처리할지를 다뤄야 한다. 여기에는 다음과 같은 사용 사례가 포함될 수 있다(아래 사항이 모든 사례를 다루는 것은 아니며, 또한 이 사례를 모두 다뤄야만 하는 것은 아님) :&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;바이너리 형태로 배포;&lt;/li&gt;
-&lt;li&gt;소스 형태로 배포;&lt;/li&gt;
-&lt;li&gt;Copyleft 의무를 발생시킬 수 있는 다른 오픈소스와 통합;&lt;/li&gt;
-&lt;li&gt;수정한 오픈소스를 포함;&lt;/li&gt;
-&lt;li&gt;공급 대상 소프트웨어 내에서 상호 작용하는 다른 컴포넌트와 호환되지 않는 라이선스 하의 오픈소스 또는 기타 소프트웨어를 포함; - 저작자 표시 요건이 있는 오픈소스를 포함.&lt;/li&gt;
+&lt;li&gt;바이너리 형태로 배포&lt;/li&gt;
+&lt;li&gt;소스 형태로 배포&lt;/li&gt;
+&lt;li&gt;추가 라이선스 의무를 유발하는 다른 오픈소스와 통합&lt;/li&gt;
+&lt;li&gt;수정된 오픈소스를 포함&lt;/li&gt;
+&lt;li&gt;배포 대상 소프트웨어 내의 다른 컴포넌트와 서로 호환되지 않는 라이선스 하의 오픈소스 또는 다른 소프트웨어가 포함&lt;/li&gt;
+&lt;li&gt;저작자 표시 요구사항을 갖는 오픈소스 포함&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;입증-자료&#34;&gt;입증 자료:&lt;/h4&gt;
-&lt;p&gt;3.2.1 공급 대상 소프트웨어의 오픈소스 컴포넌트에 대해 일반적인 오픈소스 라이선스 사용 사례를 처리하기 위한 문서화된 절차.&lt;/p&gt;
+&lt;p&gt;3.2.1 배포 대상 소프트웨어 내의 오픈소스 컴포넌트에 대해 일반적인 오픈소스 라이선스 사용 사례를 다루는 문서화된 절차&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;32-license-compliance&#34;&gt;3.2 License Compliance&lt;/h3&gt;
-&lt;p&gt;The Program must be capable of managing common Open Source license use cases encountered by Software Staff for Supplied Software, which may include the following use cases (note that the list is neither exhaustive, nor may all of the use cases apply):&lt;/p&gt;
+&lt;p&gt;The program shall be capable of managing common open source license use cases encountered by program participants for supplied software, which may include the following use cases (note that the list is neither exhaustive, nor might all of the use cases apply):&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;distributed in binary form;&lt;/li&gt;
-&lt;li&gt;distributed in source form;&lt;/li&gt;
-&lt;li&gt;integrated with other Open Source such that it may trigger copyleft obligations;&lt;/li&gt;
-&lt;li&gt;contains modified Open Source;&lt;/li&gt;
-&lt;li&gt;contains Open Source or other software under an incompatible license interacting with other components within the Supplied Software; and/or - contains Open Source with attribution requirements.&lt;/li&gt;
+&lt;li&gt;Distributed in binary form;&lt;/li&gt;
+&lt;li&gt;Distributed in source form;&lt;/li&gt;
+&lt;li&gt;Integrated with other open source such that it triggers additional licensing obligations;&lt;/li&gt;
+&lt;li&gt;Contains modified open source;&lt;/li&gt;
+&lt;li&gt;Contains open source or other software under an incompatible license interacting with other components within the Supplied Software; and/or&lt;/li&gt;
+&lt;li&gt;Contains open source with attribution requirements.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;verification-materials&#34;&gt;Verification Material(s):&lt;/h4&gt;
-&lt;p&gt;A documented procedure for handling the common Open Source license use cases for the Open Source components of the Supplied Software.&lt;/p&gt;
+&lt;p&gt;3.3.2.1 A documented procedure for handling the common open source license use cases for the open source components of the supplied software.&lt;/p&gt;
 
 &lt;/div&gt;
 
-&lt;p&gt;오픈소스 라이선스를 제대로 준수하기 위해서는 오픈소스 라이선스 별로 요구하는 사항에 대해 정확히 알고 있어야 한다. 개별 소프트웨어 개발자가 이를 일일이 파악하는 것은 어렵기 때문에 오픈소스 책임자는 자주 사용되는 오픈소스 라이선스 들에 대해 일반적인 사용 사례별 요구사항/주의사항을 정리하여 회사 내부에 공유하는 것이 좋다. 오픈소스 책임자는 자주 사용되는 오픈소스 라이선스별로 일반적인 사용 사례에 대한 의무 요약 자료를 제공한다. 오픈소스 라이선스에 대한 일반적인 가이드와 라이선스 의무 요약 자료는 NIPA에서 제공하는“공개SW 라이선스 가이드”를 참고할 수 있다. (&lt;a href=&#34;https://www.oss.kr/oss_license&#34;&gt;https://www.oss.kr/oss_license&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;../../appendix/2-process-template/&#34;&gt;[부록 2] 오픈소스 컴플라이언스 프로세스 (예시)&lt;/a&gt;의 오픈소스 컴플라이언스 프로세스의 식별, 검사, 문제해결, 리뷰, 승인 단계를 통해 공급 대상 소프트웨어의 오픈소스 컴포넌트에 대해 일반적인 오픈소스 라이선스 사용 사례를 처리할 수 있다.&lt;/p&gt;
-&lt;p&gt;식별 및 검사 단계에서는 소스코드 스캔 도구를 사용할 수 있다. 소스코드 스캔 도구는 무료로 사용할 수 있는 오픈소스 기반 도구부터 상용 도구까지 다양하게 있다. 각 도구들은 특장점 들이 있지만 어떤 하나도 모든 문제를 해결할 수 있는 완벽한 기능을 제공하지 않는다. 따라서 기업은 제품의 특성과 요구사항에 맞는 적합한 도구를 선택해야 한다. 많은 기업들이 이러한 자동화된 소스 코드 스캔 도구와 수동 검토를 병행하여 이용한다. Linux Foundation의 FOSSology Project는 오픈소스로 공개된 소스 코드 스캔 도구로서 기업들이 손쉽게 무료로 사용할 수 있다. 사용 방법은 &lt;a href=&#34;../../appendix/3-tools/&#34;&gt;[부록 03] 오픈소스도구 (FOSSology, SW360)&lt;/a&gt;을 참고할 수 있다.&lt;/p&gt;
+&lt;p&gt;오픈소스 라이선스를 제대로 준수하기 위해서는 오픈소스 라이선스 별로 요구하는 사항에 대해 정확히 알고 있어야 한다. 하지만 개별 소프트웨어 개발자가 이를 일일이 파악하는 것은 어렵기 때문에 오픈소스 책임자는 자주 사용되는 오픈소스 라이선스에 대해 일반적인 사용 사례별 요구사항/주의사항을 정리하여 회사 내부에 공유하는 것이 좋다. 오픈소스 라이선스에 대한 일반적인 가이드와 라이선스 의무 요약 자료는 NIPA에서 제공하는“공개SW 라이선스 가이드”를 참고할 수 있다. (&lt;a href=&#34;https://www.oss.kr/oss_license&#34;&gt;https://www.oss.kr/oss_license&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;../../appendix/2-process-template/&#34;&gt;[부록 2] 샘플 오픈소스 컴플라이언스 프로세스&lt;/a&gt;의 오픈소스 컴플라이언스 프로세스의 식별, 검사, 문제해결, 리뷰, 승인 단계를 통해 배포 대상 소프트웨어의 오픈소스 컴포넌트에 대해 일반적인 오픈소스 라이선스 사용 사례를 처리할 수 있다.&lt;/p&gt;
+&lt;p&gt;식별 및 검사 단계에서는 소스코드 스캔 도구를 사용할 수 있다. 소스코드 스캔 도구는 무료로 사용할 수 있는 오픈소스 기반 도구부터 상용 도구까지 다양하게 있는데, 각 도구들은 특장점 들이 있지만 어떤 하나도 모든 문제를 해결할 수 있는 완벽한 기능을 제공하지 않는다. 따라서 기업은 제품의 특성과 요구사항에 맞는 적합한 도구를 선택해야 한다. 많은 기업들이 이러한 자동화된 소스 코드 스캔 도구와 수동 검토를 병행하여 이용한다. Linux Foundation의 FOSSology 프로젝트는 오픈소스로 공개된 소스 코드 스캔 도구로서 기업들이 손쉽게 무료로 사용할 수 있다. 사용 방법은 &lt;a href=&#34;../../appendix/3-tools/&#34;&gt;[부록 03] 오픈소스도구 (FOSSology, SW360)&lt;/a&gt;을 참고할 수 있다.&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
-      <title>Guide: 4. 컴플라이언스 결과물 생성 및 전달</title>
+      <title>Guide: 4. 컴플라이언스 산출물 생성 및 제공</title>
       <link>https://openChain-project.github.io/OpenChain-KWG/guide/ii-howtocomply/4-artifect/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -379,30 +384,34 @@ d) The implications of not following the Program’s requirements.&lt;/p&gt;
         
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-&lt;h3 id=&#34;openchain-specification-20&#34;&gt;OpenChain Specification 2.0&lt;/h3&gt;
+&lt;h3 id=&#34;openchain-규격-21&#34;&gt;OpenChain 규격 2.1&lt;/h3&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;41-컴플라이언스-결과물&#34;&gt;4.1 컴플라이언스 결과물&lt;/h3&gt;
-&lt;p&gt;공급 대상 소프트웨어에 대한 컴플라이언스 결과물 세트를 생성하는 프로세스가존재한다.&lt;/p&gt;
+&lt;h3 id=&#34;341-컴플라이언스-산출물&#34;&gt;3.4.1 컴플라이언스 산출물&lt;/h3&gt;
+&lt;p&gt;배포 대상 소프트웨어에 대한 컴플라이언스 산출물을 생성하는 프로세스가 있어야 한다.&lt;/p&gt;
 &lt;h4 id=&#34;입증-자료&#34;&gt;입증 자료:&lt;/h4&gt;
-&lt;p&gt;4.1.1 식별된 라이선스에서 요구하는 대로 컴플라이언스 결과물을 준비하고 공급 대상 소프트웨어와 함께 배포하기 위한 프로세스를 설명하는 문서화된 절차.&lt;br&gt;
-4.1.2 공급 대상 소프트웨어의 컴플라이언스 결과물 사본을 보관하기 위한 문서화된 절차 - 보관 파일은 공급 대상 소프트웨어의 마지막 제공 이후 적절한 기간(혹은 식별된 라이선스가 요구하는 기간 (둘 중 더 긴 시간)) 동안 보관되어야 한다. 절차가 올바르게 지켜졌음을 입증하는 기록이 존재한다.&lt;/p&gt;
+&lt;p&gt;3.4.1.1 식별된 라이선스가 요구하는 대로 컴플라이언스 산출물 준비하고 이를 배포 대상 소프트웨어와 함께 배포하기 위한 프로세스를 설명하는 문서화된 절차
+3.4.1.2 배포 대상 소프트웨어의 컴플라이언스 산출물 사본을 보관하기 위한 문서화된 절차&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;산출물 사본은 배포 대상 소프트웨어의 마지막 배포 이후 합리적인 기간 동안 혹은 식별된 라이센스가 요구하는 기간 동안 보관해야 한다(둘 중 더 긴 쪽을 따름).&lt;/li&gt;
+&lt;li&gt;이러한 절차가 올바르게 지켜졌음을 입증하는 기록을 남겨야 한다.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;41-compliance-artifacts&#34;&gt;4.1 Compliance Artifacts&lt;/h3&gt;
+&lt;h3 id=&#34;341-compliance-artifacts&#34;&gt;3.4.1 Compliance Artifacts&lt;/h3&gt;
 &lt;p&gt;A process exists for creating the set of Compliance Artifacts for the Supplied Software.&lt;/p&gt;
 &lt;h4 id=&#34;verification-materialss&#34;&gt;Verification Materials(s):&lt;/h4&gt;
-&lt;p&gt;4.1.1 A documented procedure that describes the process under which the Compliance Artifacts are prepared and distributed with the Supplied Software as required by the Identified Licenses.&lt;br&gt;
-4.1.2 A documented procedure for archiving copies of the Compliance Artifacts of the Supplied Software - where the archive is planned to exist for a reasonable period of time since the last offer of the Supplied Software; or as required by the Identified Licenses (whichever is longer). Records exist that demonstrate the procedure has been properly followed.&lt;/p&gt;
+&lt;p&gt;3.4.1.1 A documented procedure that describes the process under which the Compliance Artifacts are prepared and distributed with the Supplied Software as required by the Identified Licenses.&lt;br&gt;
+3.4.1.2 A documented procedure for archiving copies of the Compliance Artifacts of the Supplied Software - where the archive is planned to exist for a reasonable period of time since the last offer of the Supplied Software; or as required by the Identified Licenses (whichever is longer). Records exist that demonstrate the procedure has been properly followed.&lt;/p&gt;
 
 &lt;/div&gt;
 
-&lt;p&gt;3.1장에서 오픈소스 컴플라이언스 활동의 가장 기본은 공급 대상 소프트웨어에 포함된 오픈소스 현황을 파악하는 것이라고 하였다. 이는 바로 오픈소스 컴플라이언스의 핵심인 오픈소스 라이선스의 의무를 파악하여 요건들을 충족하기 위해서이다. 즉, 공급 대상 소프트웨어에 포함된 것으로 식별한 오픈소스에 대한 컴플라이언스 결과물 세트를 생성하는 프로세스가 구축되어야 한다.&lt;/p&gt;
-&lt;p&gt;컴플라이언스 결과물은 크게 두가지로 구분된다.&lt;/p&gt;
+&lt;p&gt;앞 장에서 오픈소스 컴플라이언스 활동의 가장 기본은 배포 대상 소프트웨어에 포함된 오픈소스 현황을 파악하는 것이라고 하였다. 이는 바로 오픈소스 컴플라이언스의 핵심인 오픈소스 라이선스 요구사항을 올바르게 충족하기 위해서이다. 즉, 배포 대상 소프트웨어에 포함된 오픈소스에 대한 컴플라이언스 산출물 세트를 생성하는 프로세스가 구축되어야 한다.&lt;/p&gt;
+&lt;p&gt;컴플라이언스 산출물은 크게 두가지로 구분된다.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;오픈소스 고지문 : 오픈소스 라이선스 전문과 Copyright 정보 제공을 위한 문서&lt;/li&gt;
-&lt;li&gt;공개할 소스코드 패키지 : GPL, LGPL 등 소스 코드 제공을 요구하는 오픈소스 라이선스 의무 이행을 위해 공개할 소스코드를 취합한 패키지&lt;/li&gt;
+&lt;li&gt;오픈소스 고지문 : 오픈소스 라이선스 전문과 저작권 정보 제공을 위한 문서&lt;/li&gt;
+&lt;li&gt;공개할 소스코드 패키지 : GPL, LGPL 등 소스 코드 공개를 요구하는 오픈소스 라이선스 의무 이행을 위해 공개할 소스코드를 취합한 패키지&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;컴플라이언스 결과물은 공급 대상 소프트웨어를 배포할 때 함께 제공해야 한다.“&lt;a href=&#34;../../appendix/2-process-template/&#34;&gt;[부록 02] 오픈소스 컴플라이언스 프로세스(예시)&lt;/a&gt;”의 고지, 확인, 배포 단계를 통해 컴플라이언스 결과물을 생성하여 배포한다.&lt;/p&gt;
-&lt;p&gt;공급 대상 소프트웨어를 배포 시, 공개할 소스코드 패키지를 동봉하는 것이 곤란할 경우, 최소 3년간 소스코드를 제공하겠다는 서면 약정서(Written Offer)를 제공하는 것으로 대신할 수 있다. 일반적으로 서면 약정서는 제품의 사용자 매뉴얼을 통해 제공하며, 예시는 다음과 같다.&lt;/p&gt;
+&lt;p&gt;컴플라이언스 산출물은 배포 대상 소프트웨어를 배포할 때 함께 제공해야 한다.“&lt;a href=&#34;../../appendix/2-process-template/&#34;&gt;[부록 02] 샘플 오픈소스 컴플라이언스 프로세스&lt;/a&gt;”의 고지, 확인, 배포 단계를 통해 컴플라이언스 산출물을 생성하여 배포한다.&lt;/p&gt;
+&lt;p&gt;배포 대상 소프트웨어를 배포 시, 공개할 소스코드 패키지를 동봉하는 것이 곤란할 경우, 최소 3년간 소스코드를 제공하겠다는 서면 약정서(Written Offer)를 제공하는 것으로 대신할 수 있다. 일반적으로 서면 약정서는 제품의 사용자 매뉴얼을 통해 제공하며, 예시는 다음과 같다.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;The software included in this product contains copyrighted software that is licensed under the GPL. A copy of that license is included in this document on page X. You may obtain the complete Corresponding Source code from us for a period of three years after our last shipment of this product, which will be no earlier than 2011-08- 01, by sending a money order or check for $5 to:&lt;/p&gt;
 &lt;p&gt;GPL Compliance Division&lt;br&gt;
@@ -413,7 +422,7 @@ You may also find a copy of the source at &lt;a href=&#34;http://www.example.com
 This offer is valid to anyone in receipt of this information.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;em&gt;&lt;center&gt;&amp;lt; &lt;a href=&#34;https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#appendix-1-offer-of-source-code&#34;&gt;https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html&lt;/a&gt; &amp;gt;&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;따라서, 컴플라이언스 결과물은 3년 이상 보관해야 하며 이를 위한 프로세스가 구축되어야 한다. 기업들은 자체적인 웹사이트(예: &lt;a href=&#34;http://opensource.lge.com/&#34;&gt;http://opensource.lge.com/&lt;/a&gt;) 구축하여 외부 고객들이 공급 대상 소프트웨어에 대한 오픈소스 고지문과 공개할 소스코드 패키지를 언제든지 다운받을 수 있도록 편의를 제공한다.&lt;/p&gt;
+&lt;p&gt;따라서, 컴플라이언스 산출물은 3년 이상 보관해야 하며 이를 위한 프로세스가 구축되어야 한다. 일부 기업은 자체적인 웹사이트(예: &lt;a href=&#34;http://opensource.lge.com/&#34;&gt;http://opensource.lge.com/&lt;/a&gt;) 구축하여 외부 고객들이 배포 대상 소프트웨어에 대한 오픈소스 고지문과 공개할 소스코드 패키지를 언제든지 다운받을 수 있도록 편의를 제공한다.&lt;/p&gt;
 
       </description>
     </item>
@@ -433,20 +442,22 @@ This offer is valid to anyone in receipt of this information.&lt;/p&gt;
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
 &lt;h3 id=&#34;openchain-specification-20&#34;&gt;OpenChain Specification 2.0&lt;/h3&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;51-기여&#34;&gt;5.1 기여&lt;/h3&gt;
-&lt;p&gt;조직이 오픈소스 프로젝트에 기여를 고려한다면&lt;/p&gt;
+&lt;h3 id=&#34;351-기여&#34;&gt;3.5.1 기여&lt;/h3&gt;
+&lt;p&gt;조직이 외부 오픈소스 프로젝트로의 기여를 허용하려고 한다면,&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;오픈소스 프로젝트에 대한 기여를 관리하는 문서화된 정책이 존재한다;&lt;/li&gt;
-&lt;li&gt;이 정책이 내부적으로 전달되어야 한다;&lt;/li&gt;
-&lt;li&gt;정책을 구현하는 프로세스가 존재한다.&lt;/li&gt;
+&lt;li&gt;외부 오픈소스 프로젝트로의 기여를 관리하는 문서화된 정책이 있어야 한다.&lt;/li&gt;
+&lt;li&gt;이 정책이 내부에 전파되어야 한다.&lt;/li&gt;
+&lt;li&gt;정책을 시행하는 프로세스가 있어야 한다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;입증-자료&#34;&gt;입증 자료:&lt;/h4&gt;
-&lt;p&gt;조직이 오픈소스 프로젝트에 대한 기여를 허용한다면 다음이 존재해야 한다:&lt;br&gt;
-5.1.1 문서화된 오픈소스 기여 정책;&lt;br&gt;
-5.1.2 오픈소스 기여를 관리하는 문서화된 절차;&lt;br&gt;
-5.1.3 모든 소프트웨어 공급 담당자가 오픈소스 기여 정책의 존재를 인식하도록 하는 문서화된 절차 (교육, 내부 위키, 또는 기타 실질적인 의사소통 방법 등).&lt;/p&gt;
+&lt;p&gt;조직이 외부 오픈소스 프로젝트로의 기여를 허용하는 경우, 다음 사항이 있어야 한다.:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;3.5.1.1 문서화된 오픈소스 기여 정책&lt;/li&gt;
+&lt;li&gt;3.5.1.2 오픈소스 기여를 관리하는 문서화된 절차&lt;/li&gt;
+&lt;li&gt;3.5.1.3 모든 프로그램 참가자가 오픈소스 기여 정책이 있음을 알게 하는 문서화된 절차 (교육, 내부 위키, 또는 기타 실질적인 전달 방법 등).&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;51-contributions&#34;&gt;5.1 Contributions&lt;/h3&gt;
+&lt;h3 id=&#34;351-contributions&#34;&gt;3.5.1 Contributions&lt;/h3&gt;
 &lt;p&gt;If an organization considers contributions to Open Source projects then&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;a written policy exists that governs contributions to Open Source projects;&lt;/li&gt;
@@ -456,21 +467,22 @@ This offer is valid to anyone in receipt of this information.&lt;/p&gt;
 &lt;h4 id=&#34;verification-materialss&#34;&gt;Verification Materials(s):&lt;/h4&gt;
 &lt;p&gt;If an organization permits contributions to Open Source projects then the following must exist:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;5.1.1 a documented Open Source contribution policy;&lt;/li&gt;
-&lt;li&gt;5.1.2 a documented procedure that governs Open Source contributions; and&lt;/li&gt;
-&lt;li&gt;5.1.3 a documented procedure that makes all Software Staff aware of the existence of the Open Source contribution policy (e.g., via training, internal wiki, or other practical communication method).&lt;/li&gt;
+&lt;li&gt;3.5.1.1 A documented Open Source contribution policy;&lt;/li&gt;
+&lt;li&gt;3.5.1.2 A documented procedure that governs Open Source contributions; and&lt;/li&gt;
+&lt;li&gt;3.5.1.3 A documented procedure that makes all program participants aware of the existence of the
+open source contribution policy (e.g., via training, internal wiki, or other practical communication method).&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;/div&gt;
 
-&lt;p&gt;글로벌 소프트웨어 기업들은 오픈소스를 사용하여 제품을 만들고 서비스를 하는 것 뿐만 아니라 오픈소스 프로젝트에 기여하며 얻을 수 있는 전략적 가치도 중요하게 여긴다. 그러나 오픈소스 프로젝트 생태계와 커뮤니티 운영방식에 대한 충분한 이해와 전략 없이 접근한다면 예기치 않게 회사의 명성이 손상되고 법적 위험이 발생할 수 있다. 따라서 기업은 오픈소스 프로젝트로의 참여 및 기여를 위한 전략과 정책을 만드는 것이 중요하다.&lt;/p&gt;
-&lt;p&gt;[부록 01] 오픈소스 정책 for OpenChain 2.0(예시)의 &lt;a href=&#34;../../appendix/1-policy-template/#8-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B8%B0%EC%97%AC-%EC%A0%95%EC%B1%85&#34;&gt;8장 오픈소스 기여 정책&lt;/a&gt;을 참고할 수 있다.&lt;/p&gt;
+&lt;p&gt;글로벌 소프트웨어 기업들은 제품을 만들고 서비스를 하는데 오픈소스를 사용하는 것 뿐만 아니라 오픈소스 프로젝트에 기여하며 창출할 수 있는 전략적 가치도 중요하게 여긴다. 그러나 오픈소스 프로젝트 생태계와 커뮤니티 운영방식에 대한 충분한 이해와 전략 없이 접근한다면 예기치 않게 회사의 명성이 손상되고 법적 위험이 발생할 수 있다. 따라서 기업은 오픈소스 프로젝트로의 참여 및 기여를 위한 전략과 정책을 만드는 것이 중요하다.&lt;/p&gt;
+&lt;p&gt;[부록 01] 샘플 오픈소스 정책 for OpenChain 2.1의 &lt;a href=&#34;../../appendix/1-policy-template/#8-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B8%B0%EC%97%AC-%EC%A0%95%EC%B1%85&#34;&gt;8장 오픈소스 기여 정책&lt;/a&gt;을 참고할 수 있다.&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
-      <title>Guide: 6. 설명서 요건 준수</title>
+      <title>Guide: 6. 규격 요구사항 준수</title>
       <link>https://openChain-project.github.io/OpenChain-KWG/guide/ii-howtocomply/6-conformance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -478,45 +490,45 @@ This offer is valid to anyone in receipt of this information.&lt;/p&gt;
       <description>
         
         
-        &lt;h2 id=&#34;61-준수-conformance&#34;&gt;6.1 준수 (Conformance)&lt;/h2&gt;
+        &lt;h2 id=&#34;61-적합성&#34;&gt;6.1 적합성&lt;/h2&gt;
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-&lt;h3 id=&#34;openchain-specification-20&#34;&gt;OpenChain Specification 2.0&lt;/h3&gt;
+&lt;h3 id=&#34;openchain-규격-21&#34;&gt;OpenChain 규격 2.1&lt;/h3&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;61-준수&#34;&gt;6.1 준수&lt;/h3&gt;
-&lt;p&gt;프로그램이 OpenChain을 준수한다고 간주되려면 조직은 프로그램이 이 설명서에 제시된 요건을 충족하는지 확인해야 한다.&lt;/p&gt;
+&lt;h3 id=&#34;361-적합성&#34;&gt;3.6.1 적합성&lt;/h3&gt;
+&lt;p&gt;조직은 자신의 프로그램이 OpenChain에 적합하다고 판단하려면 이 문서에서 제시한 모든 요구사항을 충족하는지 확인해야 한다.&lt;/p&gt;
 &lt;h4 id=&#34;입증-자료&#34;&gt;입증 자료:&lt;/h4&gt;
-&lt;h2 id=&#34;611-요건-14에-명시된-프로그램을-확인하는-문서는-이-설명서의-모든-요건을-충족한다&#34;&gt;6.1.1 요건 1.4에 명시된 프로그램을 확인하는 문서는 이 설명서의 모든 요건을 충족한다.&lt;/h2&gt;
-&lt;h3 id=&#34;61-conformance&#34;&gt;6.1 Conformance&lt;/h3&gt;
-&lt;p&gt;In order for a Program to be deemed OpenChain Conformant, the organization must affirm that the program satisfies the requirements presented in this specification.&lt;/p&gt;
+&lt;h2 id=&#34;3611-314조에서-명시한-프로그램이-이-문서의-모든-요구사항을-충족한다고-선언하는-문서&#34;&gt;3.6.1.1 3.1.4조에서 명시한 프로그램이 이 문서의 모든 요구사항을 충족한다고 선언하는 문서&lt;/h2&gt;
+&lt;h3 id=&#34;361-conformance&#34;&gt;3.6.1 Conformance&lt;/h3&gt;
+&lt;p&gt;In order for a program to be deemed OpenChain conformant, the organization shall affirm that the program satisfies the requirements presented in this document.&lt;/p&gt;
 &lt;h4 id=&#34;verification-materialss&#34;&gt;Verification Materials(s):&lt;/h4&gt;
-&lt;p&gt;6.1.1 A document affirming the Program specified in requirement 1.4 satisfies all the requirements of this specification.&lt;/p&gt;
+&lt;p&gt;3.6.1.1 A document affirming the program specified in §3.1.4 satisfies all the requirements of this document.&lt;/p&gt;
 
 &lt;/div&gt;
 
-&lt;p&gt;기업이 OpenChain을 준수하는 오픈소스 프로그램을 가지고 있다고 선언한다는 것은 OpenChain Specification의 모든 요건을 충족한다는 것이다. 어느 하나의 요건이라도 충족하지 못한다면 OpenChain을 준수한다고 할 수 없다.&lt;/p&gt;
-&lt;p&gt;OpenChain Specification의 모든 요건을 충족한다면, &lt;a href=&#34;../../appendix/1-policy-template/#9-openchain-%EC%A4%80%EC%88%98&#34;&gt;[부록 01] 오픈소스 정책 for OpenChain 2.0(예시)의 9장&lt;/a&gt;에서와 같이 OpenChain을 충족하고 있음을 문서상에 명시할 수 있다.&lt;/p&gt;
-&lt;h2 id=&#34;62-기간-duration&#34;&gt;6.2 기간 (Duration)&lt;/h2&gt;
+&lt;p&gt;기업이 OpenChain을 준수하는 오픈소스 프로그램을 가지고 있다고 선언한다는 것은 OpenChain 규격의 모든 요구사항을 충족한다는 것이다. 어느 하나의 요구사항이라도 충족하지 못한다면 OpenChain에 적합하다고 할 수 없다.&lt;/p&gt;
+&lt;p&gt;OpenChain 규격의 모든 요구사항을 충족한다면, &lt;a href=&#34;../../appendix/1-policy-template/#9-openchain-%EC%A4%80%EC%88%98&#34;&gt;[부록 01] 샘플 오픈소스 정책 for OpenChain 2.1의 9장&lt;/a&gt;에서와 같이 OpenChain에 적합하다고 정책 문서상에 명시할 수 있다.&lt;/p&gt;
+&lt;h2 id=&#34;362-지속-기간&#34;&gt;3.6.2 지속 기간&lt;/h2&gt;
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-&lt;h3 id=&#34;openchain-specification-20&#34;&gt;OpenChain Specification 2.0&lt;/h3&gt;
+&lt;h3 id=&#34;openchain-규격-21&#34;&gt;OpenChain 규격 2.1&lt;/h3&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;62-기간&#34;&gt;6.2 기간&lt;/h3&gt;
-&lt;p&gt;이 설명서 버전에 대한 OpenChain 준수 프로그램은 준수한다고 확인이 이루어진 날로부터 18개월동안 지속된다. 준수 확인 등록 절차는 OpenChain 프로젝트의 웹사이트에서 확인할 수 있다.&lt;/p&gt;
+&lt;h3 id=&#34;362-기간&#34;&gt;3.6.2 기간&lt;/h3&gt;
+&lt;p&gt;이 버전의 규격에 대한 OpenChain 적합 프로그램은 적합성 인증을 획득한 날로부터 18개월 동안 지속되어야 한다. 적합성 인증 등록 절차는 OpenChain 프로젝트의 웹사이트에서 확인할 수 있다.&lt;/p&gt;
 &lt;h4 id=&#34;입증-자료&#34;&gt;입증 자료:&lt;/h4&gt;
-&lt;p&gt;6.2.1 준수한다는 확인이 이루어진 후 18개월 이내에 이 설명서 버전(2.0)의 모든 요건을 충족하는 것을 확인하는 문서.&lt;/p&gt;
+&lt;p&gt;3.6.2.1 프로그램이 적합성 인증을 획득한 후 18개월 동안 이 문서의 모든 요구사항을 충족 하고 있음을 확인하는 문서&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;62-duration&#34;&gt;6.2 Duration&lt;/h3&gt;
-&lt;p&gt;A Program that is OpenChain Conformant with this version of the specification will last 18 months from the date conformance validation was obtained. The conformance validation registration procedure can be found on the OpenChain project’s website.&lt;/p&gt;
+&lt;h3 id=&#34;362-duration&#34;&gt;3.6.2 Duration&lt;/h3&gt;
+&lt;p&gt;A program that is OpenChain conformant with this version of the specification shall last 18 months from the date conformance validation was obtained. The conformance validation registration procedure can be found on the OpenChain project’s website.&lt;/p&gt;
 &lt;h4 id=&#34;verification-materialss&#34;&gt;Verification Materials(s):&lt;/h4&gt;
-&lt;p&gt;6.2.1 A document affirming the Program meets all the requirements of this version of the specification (version 2.0), within the past 18 months of obtaining conformance validation.&lt;/p&gt;
+&lt;p&gt;3.6.2.1 A document affirming the program meets all the requirements of this document, within the past 18 months of obtaining conformance validation.&lt;/p&gt;
 
 &lt;/div&gt;
 
-&lt;p&gt;오픈소스 프로그램이 OpenChain을 준수한다고 선언한 이후에도 계속해서 준수하는 활동을 유지하는 것이 중요하다. OpenChain Specification 2.0의 6.2.1조에서는 OpenChain을 준수한다고 선언한 이후에도 최소 18개월 이상은 변함없이 OpenChain Specification 2.0의 모든 요건을 준수하고 있어야 함을 요구한다.&lt;/p&gt;
-&lt;p&gt;기업은 오픈소스 프로그램이 OpenChain을 준수함을 선언한 이후 적어도 18개월 이상 계속해서 준수하는 상태를 유지하여야 하며, 그렇게 하고 있다면, &lt;a href=&#34;../../appendix/1-policy-template/#9-openchain-%EC%A4%80%EC%88%98&#34;&gt;[부록 01] 오픈소스 정책 for OpenChain 2.0 (예시)의 9장&lt;/a&gt;에서와 같이 OpenChain을 18개월 이상 계속하여 충족하고 있음을 문서상에 명시할 수 있다.&lt;/p&gt;
+&lt;p&gt;기업이 자신의 오픈소스 프로그램이 OpenChain에 적합하다고 선언한 이후에도 계속해서 준수하는 활동을 유지하는 것이 중요하다. OpenChain 규격 2.1의 3.6.2.1조에서는 OpenChain을 적합성을 선언한 이후에도 최소 18개월 이상은 변함없이 OpenChain 규격 2.1의 모든 요구사항을 준수하고 있어야 함을 요구한다.&lt;/p&gt;
+&lt;p&gt;기업은 OpenChain 적합성을 선언한 이후 적어도 18개월 이상 계속해서 준수하는 상태를 유지하여야 하며, 그렇게 하고 있다면, &lt;a href=&#34;../../appendix/1-policy-template/#9-openchain-%EC%A4%80%EC%88%98&#34;&gt;[부록 01] 샘플 오픈소스 정책 for OpenChain 2.1의 9장&lt;/a&gt;에서와 같이 OpenChain을 18개월 이상 계속하여 충족하고 있음을 문서상에 명시할 수 있다.&lt;/p&gt;
 
       </description>
     </item>
