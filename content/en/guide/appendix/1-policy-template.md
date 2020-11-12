@@ -1,5 +1,5 @@
 ---
-title: "1. 오픈소스 정책 for OpenChain 2.0 (template)"
+title: "1. 샘플 오픈소스 정책 for OpenChain 2.1"
 weight: 1
 type: docs
 ---
