@@ -29,7 +29,7 @@
 &lt;h2 id=&#34;주요-특징&#34;&gt;주요 특징&lt;/h2&gt;
 &lt;p&gt;FOSSology는 웹기반의 프로그램으로 사용자는 웹사이트에 로그인하여 개별 파일 혹은 소프트웨어 패키지를 업로드할 수 있다. FOSSology는 업로드된 파일 내에 라이선스 텍스트와 Copyright 정보를 검출한다. 개발자는 사용하고자 하는 오픈소스의 라이선스가 무엇인지, Copyright은 어떻게 되는지에 대한 정보를 확인하고자 할때 FOSSology를 이용하는 것이 좋다. FOSSology는 개발자가 업로드한 오픈소스 패키지 내의 모든 파일을 스캔하여 각 파일 내 라이선스 관련 텍스트와 Copyright 정보를 자동으로 검출하고, 이를 리포트로 생성한다. FOSSology 주요 특징에 대한 자세한 내용은 다음 페이지를 참고할 수 있다. : &lt;a href=&#34;https://www.fossology.org/features/&#34;&gt;https://www.fossology.org/features/&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;설치&#34;&gt;설치&lt;/h2&gt;
-&lt;p&gt;기업 내에서 FOSSology를 사용하기 위해서는 사내에 FOSSology 서버를 구축해야 한다. 이를 위해 리눅스 기반의 서버 시스템에 FOSSology를 설치해야 한다. FOSSology는 다음 세가지 방법으로 설치할 수 있다.&lt;/p&gt;
+&lt;p&gt;기업 내에서 FOSSology를 사용하기 위해서는 사내에 FOSSology 서버를 구축해야 한다. 이를 위해 리눅스 기반의 서버 시스템에 FOSSology를 설치해야 한다. FOSSology는 다음 세 가지 방법으로 설치할 수 있다.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Docker 사용&lt;/li&gt;
 &lt;li&gt;Vagrant와 VirtualBox 사용&lt;/li&gt;

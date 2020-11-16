@@ -22,7 +22,7 @@
       <description>
         
         
-        &lt;p&gt;OpenChain 프로젝트는 2016년 OpenChain 규격 1.0을 제작하여 배포했다. OpenChain 규격은 오픈소스 컴플라이언스를 위한 핵심 요구사항을 정의한 12페이지 분량의 규격으로, 기업의 규모나 업종에 관계없이 모든 분야의 회사에 적합하도록 고안되었다. 2019년 4월에는 버전 2.0의 규격이 배포됐으며, 기업이 오픈소스 컴플라이언스 달성을 위해 꼭 수행해야 할 여섯 가지 주요 요구사항과 이를 입증하기 위해 필요한 자료 목록을 정의하고 있다.&lt;/p&gt;
+        &lt;p&gt;OpenChain 프로젝트는 2016년 OpenChain 규격 1.0을 제작하여 배포했다. OpenChain 규격은 오픈소스 컴플라이언스를 위한 핵심 요구사항을 정의한 12페이지 분량의 규격으로, 기업의 규모나 업종과 관계없이 모든 분야의 회사에 적합하도록 고안되었다. 2019년 4월에는 버전 2.0의 규격이 배포됐으며, 기업이 오픈소스 컴플라이언스 달성을 위해 꼭 수행해야 할 여섯 가지 주요 요구사항과 이를 입증하기 위해 필요한 자료 목록을 정의하고 있다.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;프로그램 설립&lt;/li&gt;
 &lt;li&gt;관련 업무 정의 및 지원&lt;/li&gt;
@@ -68,7 +68,7 @@
   &lt;img src=&#34;../organization.png&#34; width=&#34;90%&#34;&gt;
 &lt;/span&gt;&lt;/div&gt;
 &lt;p&gt;&lt;em&gt;&lt;center&gt;&amp;lt; Organizations with a publicly announced OpenChain Conformant Program &amp;gt;&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;OpenChain 적합 기업에게는 OpenChain 로고를 사용할 수 있는 자격이 주어진다. 이렇게 OpenChain 적합 프로그램을 갖췄다고 인정받은 기업은 소프트웨어 공급망 내에서 오픈소스 컴플라이언스를 충실하게 수행하고 있음을 보여줄 수 있게 된다.&lt;/p&gt;
+&lt;p&gt;OpenChain 적합 기업에는 OpenChain 로고를 사용할 수 있는 자격이 주어진다. 이렇게 OpenChain 적합 프로그램을 갖췄다고 인정받은 기업은 소프트웨어 공급망 내에서 오픈소스 컴플라이언스를 충실하게 수행하고 있음을 보여줄 수 있게 된다.&lt;/p&gt;
 &lt;div &gt;&lt;span class=&#34;image fit&#34;&gt;
   &lt;img src=&#34;../certilogo.png&#34; width=&#34;90%&#34;&gt;
 &lt;/span&gt;&lt;/div&gt;
@@ -86,7 +86,7 @@
       <description>
         
         
-        &lt;p&gt;OpenChain 프로젝트에서는 기업이 컴플라이언스 프로그램을 구축하는데 필요한 정책 문서 템플릿, 교육 자료 등 다양한 참조 자료를 제공한다. 이 자료들은 OpenChain 규격 준수와 일반적인 오픈소스 컴플라이언스 활동을 지원하기 위해 고안됐으며, 누구나 자유롭게 사용할 수 있도록 CC-0 라이선스로 제공된다.&lt;/p&gt;
+        &lt;p&gt;OpenChain 프로젝트에서는 기업이 컴플라이언스 프로그램을 구축하는 데 필요한 정책 문서 템플릿, 교육 자료 등 다양한 참조 자료를 제공한다. 이 자료들은 OpenChain 규격 준수와 일반적인 오픈소스 컴플라이언스 활동을 지원하기 위해 고안됐으며, 누구나 자유롭게 사용할 수 있도록 CC-0 라이선스로 제공된다.&lt;/p&gt;
 &lt;div &gt;&lt;span class=&#34;image fit&#34;&gt;
   &lt;img src=&#34;../resource.png&#34; width=&#34;90%&#34;&gt;
 &lt;/span&gt;&lt;/div&gt;
