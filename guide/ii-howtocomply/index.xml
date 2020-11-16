@@ -34,8 +34,8 @@
 &lt;h3 id=&#34;311-정책&#34;&gt;3.1.1 정책&lt;/h3&gt;
 &lt;p&gt;배포 대상 소프트웨어에 대해 오픈소스 라이선스 컴플라이언스 관리를 위한 문서화된 오픈소스 정책이 있어야 한다. 이 정책은 조직 내부에 전파되어야 한다.&lt;/p&gt;
 &lt;h4 id=&#34;입증-자료&#34;&gt;입증 자료:&lt;/h4&gt;
-&lt;p&gt;3.1.1.1 문서화 된 오픈소스 정책&lt;br&gt;
-3.1.1.2 프로그램 참여자가 오픈소스 정책의 존재를 알 수 있게 하는 문서화 된 절차 (교육, 내부 위키, 혹은 기타 실질적인 전달 방법 등)&lt;/p&gt;
+&lt;p&gt;3.1.1.1 문서화된 오픈소스 정책&lt;br&gt;
+3.1.1.2 프로그램 참여자가 오픈소스 정책의 존재를 알 수 있게 하는 문서화된 절차 (교육, 내부 위키, 혹은 기타 실질적인 전달 방법 등)&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;311-policy&#34;&gt;3.1.1 Policy&lt;/h3&gt;
 &lt;p&gt;A written open source policy shall exist that governs open source license compliance of the supplied software. The policy shall be internally communicated.&lt;/p&gt;
