@@ -19,7 +19,7 @@ OpenChain 규격 버전 2.1의 3.2.1항에서는 다음과 같이 접근성에 �
 
 #### 입증 자료:
 
- 3.2.1.1 제3자가 오픈소스 라이선스 컴플라이언스에 대해 문의 할 수 있는 공개된 방법 (담당자 이메일 주소, 또는 Linux Foundation의 Open Compliance Directory 등)
+ 3.2.1.1 제3자가 오픈소스 라이선스 컴플라이언스에 대해 문의 할 수 있는 공개된 방법 (담당자 이메일 주소, 또는 Linux Foundation의 Open Compliance Directory 등)  
  3.2.1.2 제3자의 오픈소스 라이선스 컴플라이언스 문의에 대응하기 위한 내부의 문서화된 절차
 
 ----------------
@@ -30,7 +30,7 @@ Maintain a process to effectively respond to external open source inquiries. Pub
 
 #### Verification Material(s):
 
- 3.2.1.1 Publicly visible method that allows any third party to make an open source license compliance inquiry (e.g., via a published contact email address, or the Linux Foundation's Open Compliance Directory).
+ 3.2.1.1 Publicly visible method that allows any third party to make an open source license compliance inquiry (e.g., via a published contact email address, or the Linux Foundation's Open Compliance Directory).  
  3.2.1.2 An internal documented procedure for responding to third party open source license compliance inquiries.
 
 {{% /pageinfo %}}
@@ -87,10 +87,10 @@ OpenChain 규격 버전 2.1의 3.2.2항에서는 다음과 같이 효과적인 �
 
 #### 입증 자료:
 
- 3.2.2.1 프로그램 내 각 역할을 담당할 인원, 그룹 또는 직무의 이름을 기재한 문서
+ 3.2.2.1 프로그램 내 각 역할을 담당할 인원, 그룹 또는 직무의 이름을 기재한 문서  
  3.2.2.2 프로그램 내 각 역할을 담당할 인원이 적절하게 배치되고, 예산 지원이 적합하게 이루어져야 한다. 
- 3.2.2.3 오픈소스 라이선스 컴플라이언스 문제 해결을 위해 내부 또는 외부의 전문 법률 자문을 이용할 수 있는 방법
- 3.2.2.4 오픈소스 컴플라이언스를 위해 내부에서의 책임을 배정하는 문서화된 절차
+ 3.2.2.3 오픈소스 라이선스 컴플라이언스 문제 해결을 위해 내부 또는 외부의 전문 법률 자문을 이용할 수 있는 방법  
+ 3.2.2.4 오픈소스 컴플라이언스를 위해 내부에서의 책임을 배정하는 문서화된 절차  
  3.2.2.5 미준수 사례를 검토하고 이를 수정하기 위한 문서화된 절차
 
 ----------------

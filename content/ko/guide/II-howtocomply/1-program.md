@@ -34,7 +34,7 @@ A written open source policy shall exist that governs open source license compli
 
 #### Verification Material(s):
 
- 3.1.1.1 A documented open source policy.
+ 3.1.1.1 A documented open source policy.  
  3.1.1.2 A documented procedure that makes program participants aware of the existence of the open source policy (e.g., via training, internal wiki, or other practical communication method).
 
 {{% /pageinfo %}}
@@ -63,9 +63,9 @@ OpenChain 규격 버전 2.1의 3.1.2항에서는 다음과 같이 역량에 대�
 
 #### 입증 자료:
 
- 3.1.2.1 프로그램 참여자에 대한 역할과 각 역할에 대한 책임을 나열한 문서 
- 3.1.2.2 각 역할을 위해 필요한 역량을 기술한 문서 
- 3.1.2.3 각 프로그램 참여자의 역량을 평가한 결과 문서
+ 3.1.2.1 프로그램 참여자에 대한 역할과 각 역할에 대한 책임을 나열한 문서  
+ 3.1.2.2 각 역할을 위해 필요한 역량을 기술한 문서  
+ 3.1.2.3 각 프로그램 참여자의 역량을 평가한 결과 문서  
 
 ----------------
 
@@ -80,9 +80,9 @@ The organization shall:
 
 #### Verification Material(s):
 
- 3.1.2.1 A documented list of roles with corresponding responsibilities for the different participants in the program.
- 3.1.2.2 A document that identifies the competencies for each role.
- 3.1.2.3 Documented evidence of assessed competence for each program participant.
+ 3.1.2.1 A documented list of roles with corresponding responsibilities for the different participants in the program.  
+ 3.1.2.2 A document that identifies the competencies for each role.  
+ 3.1.2.3 Documented evidence of assessed competence for each program participant.  
 
 {{% /pageinfo %}}
 
@@ -103,11 +103,11 @@ OpenChain 규격 버전 2.1의 3.1.3항에서는 다음과 같이 인식에 대�
 
 ### 3.1.3 인식
 
-조직은 프로그램 참여자가 다음 사항을 숙지하도록 해야 한다: 
- a) 오픈소스 정책
- b) 오픈소스 관련 목표
- c) 효과적인 프로그램이 되기 위한 참여자의 기여 방법
- d) 프로그램의 요구사항을 준수하지 않았을 때 발생할 위험
+조직은 프로그램 참여자가 다음 사항을 숙지하도록 해야 한다:   
+ a) 오픈소스 정책  
+ b) 오픈소스 관련 목표  
+ c) 효과적인 프로그램이 되기 위한 참여자의 기여 방법  
+ d) 프로그램의 요구사항을 준수하지 않았을 때 발생할 위험  
 
 #### 입증 자료:
 
@@ -117,8 +117,8 @@ OpenChain 규격 버전 2.1의 3.1.3항에서는 다음과 같이 인식에 대�
 
 ### 3.1.3 Awareness
 
-The organization shall ensure that the program participants are aware of:
- a) The open source policy;
+The organization shall ensure that the program participants are aware of:  
+ a) The open source policy;  
  b) Relevant open source objectives;  
  c) Their contribution to the effectiveness of the Program; and  
  d) The implications of not following the Program’s requirements.
