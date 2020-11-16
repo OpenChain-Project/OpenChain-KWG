@@ -22,21 +22,21 @@
       <description>
         
         
-        &lt;p&gt;OpenChain 프로젝트는 곧 OpenChain 규격 1.0을 제작하여 배포했다. OpenChain 규격은 오픈소스 컴플라이언스를 위한 핵심 요구사항을 정의한 12페이지 분량의 규격으로, 기업의 규모나 업종에 관계없이 모든 분야의 회사에 적합하도록 고안되었다. 2019년 4월에는 버전 2.0의 규격이 배포됐으며, 기업이 오픈소스 컴플라이언스 달성을 위해 꼭 수행해야 할 여섯 가지 주요 요구사항에 대한 설명과 이를 수행하고 있음을 입증하기 위해 필요한 자료 목록을 정의하고 있다.&lt;/p&gt;
+        &lt;p&gt;OpenChain 프로젝트는 2016년 OpenChain 규격 1.0을 제작하여 배포했다. OpenChain 규격은 오픈소스 컴플라이언스를 위한 핵심 요구사항을 정의한 12페이지 분량의 규격으로, 기업의 규모나 업종에 관계없이 모든 분야의 회사에 적합하도록 고안되었다. 2019년 4월에는 버전 2.0의 규격이 배포됐으며, 기업이 오픈소스 컴플라이언스 달성을 위해 꼭 수행해야 할 여섯 가지 주요 요구사항과 이를 입증하기 위해 필요한 자료 목록을 정의하고 있다.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;프로그램 설립&lt;/li&gt;
 &lt;li&gt;관련 업무 정의 및 지원&lt;/li&gt;
 &lt;li&gt;오픈소스 컨텐츠 검토 및 승인&lt;/li&gt;
 &lt;li&gt;컴플라이언스 산출물 생성 및 제공&lt;/li&gt;
 &lt;li&gt;오픈소스 커뮤니티 참여에 대한 이해&lt;/li&gt;
-&lt;li&gt;규격 요구사항 준수&lt;/li&gt;
+&lt;li&gt;규격 요구사항 적합성&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;오픈소스 컴플라이언스를 처음 시작하는 기업이라면 이와 같은 OpenChain 규격의 요구사항을 하나씩 충족해가면서 수준을 향상시키는 것이 좋은 전략이다.&lt;/p&gt;
+&lt;p&gt;오픈소스 컴플라이언스를 처음 시작하는 기업이라면 이러한 OpenChain 규격의 요구사항을 하나씩 충족해가면서 수준을 향상시키는 것이 좋은 전략이다.&lt;/p&gt;
 &lt;div &gt;&lt;span class=&#34;image fit&#34;&gt;
   &lt;img src=&#34;../spec.png&#34; width=&#34;90%&#34;&gt;
 &lt;/span&gt;&lt;/div&gt;
 &lt;p&gt;&lt;em&gt;&lt;center&gt;&amp;lt; &lt;a href=&#34;https://wiki.linuxfoundation.org/_media/openchain/openchainspec-2.0.pdf&#34;&gt;https://wiki.linuxfoundation.org/_media/openchain/openchainspec-2.0.pdf&lt;/a&gt; &amp;gt;&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;OpenChain 규격 내 각 요구사항의 준수 방법은 2장에서 상세히 다룬다.&lt;/p&gt;
+&lt;p&gt;OpenChain 규격 내 각 요구사항의 준수 방법은 &lt;a href=&#34;../II-howtocomply/_index.md&#34;&gt;&amp;ldquo;2장. OpenChain 규격 준수 방법&amp;rdquo;&lt;/a&gt;에서 상세히 다룬다.&lt;/p&gt;
 
       </description>
     </item>
@@ -50,7 +50,8 @@
       <description>
         
         
-        &lt;p&gt;OpenChain 프로젝트는 기업이 OpenChain 규격을 충족하는지 자체적으로 확인할 수 있도록 온라인 자체 인증 웹사이트를 제공한다.&lt;/p&gt;
+        &lt;h2 id=&#34;openchain-자체-인증-웹사이트&#34;&gt;OpenChain 자체 인증 웹사이트&lt;/h2&gt;
+&lt;p&gt;OpenChain 프로젝트는 기업이 자체적으로 OpenChain 규격을 충족하는지 확인할 수 있도록 온라인 자체 인증 웹사이트를 제공한다.&lt;/p&gt;
 &lt;div &gt;&lt;span class=&#34;image fit&#34;&gt;
   &lt;img src=&#34;../certification.png&#34; width=&#34;90%&#34;&gt;
 &lt;/span&gt;&lt;/div&gt;
@@ -61,7 +62,8 @@
 &lt;/span&gt;&lt;/div&gt;
 &lt;p&gt;&lt;em&gt;&lt;center&gt;&amp;lt; &lt;a href=&#34;https://certification.openchainproject.org/&#34;&gt;https://certification.openchainproject.org/&lt;/a&gt; &amp;gt;&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;기업은 자체 인증을 통해 부족한 부분이 무엇인지, 추가로 필요한 활동이 무엇인지 판단할 수 있다.&lt;/p&gt;
-&lt;p&gt;만약, 어떤 기업이 오픈소스 컴플라이언스 체계를 잘 구축하여 OpenChain 자체 인증 질문지의 모든 항목을 Yes로 대답할 수 있다면 이 결과를 웹사이트상에 제출할 수 있다(Conforming Submission). 그러면 OpenChain 적합(Conformant) 기업으로 인정됨과 동시에, OpenChain 프로젝트의 웹사이트에서 OpenChain 적합 프로그램을 갖춘 기업 목록에 기업의 로고를 등록할 수 있게 된다.&lt;/p&gt;
+&lt;h2 id=&#34;openchain-적합성-선언&#34;&gt;OpenChain 적합성 선언&lt;/h2&gt;
+&lt;p&gt;만약, 어떤 기업이 오픈소스 컴플라이언스 체계를 잘 구축하여 OpenChain 자체 인증 질문지의 모든 항목을 Yes로 대답할 수 있다면 이 결과를 웹사이트상에 제출할 수 있다(Conforming Submission). 그렇게 OpenChain 적합성 선언을 하게 되면, OpenChain 적합(Conformant) 프로그램을 가진 기업으로 인정됨과 동시에, OpenChain 프로젝트의 웹사이트에 기업의 로고를 등록할 수 있게 된다.&lt;/p&gt;
 &lt;div &gt;&lt;span class=&#34;image fit&#34;&gt;
   &lt;img src=&#34;../organization.png&#34; width=&#34;90%&#34;&gt;
 &lt;/span&gt;&lt;/div&gt;
