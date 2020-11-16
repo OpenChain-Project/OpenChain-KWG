@@ -223,8 +223,8 @@ d) The implications of not following the Program’s requirements.&lt;/p&gt;
 &lt;p&gt;프로그램이 효과적일 수 있도록 다음과 같이 업무를 확인하고 리소스를 제공해야 한다:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;프로그램을 성공적으로 수행할 수 있도록 각 업무에 대한 책임을 할당한다.&lt;/li&gt;
-&lt;li&gt;프로그램의 업무를 위한 충분한 리소스를 제공한다.
-• 업무 수행 시간을 할당한다.
+&lt;li&gt;프로그램의 업무를 위한 충분한 리소스를 제공한다.&lt;br&gt;
+• 업무 수행 시간을 할당한다.&lt;br&gt;
 • 예산을 적절하게 지원한다.&lt;/li&gt;
 &lt;li&gt;정책 및 지원 업무를 검토하고 개선하는 프로세스가 존재한다.&lt;/li&gt;
 &lt;li&gt;오픈소스 라이선스 컴플라이언스와 관련된 전문 법률 자문을 이용 할 수 있다.&lt;/li&gt;
@@ -487,7 +487,8 @@ open source contribution policy (e.g., via training, internal wiki, or other pra
 &lt;h3 id=&#34;361-적합성&#34;&gt;3.6.1 적합성&lt;/h3&gt;
 &lt;p&gt;조직은 자신의 프로그램이 OpenChain에 적합하다고 판단하려면 이 문서에서 제시한 모든 요구사항을 충족하는지 확인해야 한다.&lt;/p&gt;
 &lt;h4 id=&#34;입증-자료&#34;&gt;입증 자료:&lt;/h4&gt;
-&lt;h2 id=&#34;3611-314조에서-명시한-프로그램이-이-문서의-모든-요구사항을-충족한다고-선언하는-문서&#34;&gt;3.6.1.1 3.1.4조에서 명시한 프로그램이 이 문서의 모든 요구사항을 충족한다고 선언하는 문서&lt;/h2&gt;
+&lt;p&gt;3.6.1.1 3.1.4조에서 명시한 프로그램이 이 문서의 모든 요구사항을 충족한다고 선언하는 문서&lt;/p&gt;
+&lt;hr&gt;
 &lt;h3 id=&#34;361-conformance&#34;&gt;3.6.1 Conformance&lt;/h3&gt;
 &lt;p&gt;In order for a program to be deemed OpenChain conformant, the organization shall affirm that the program satisfies the requirements presented in this document.&lt;/p&gt;
 &lt;h4 id=&#34;verification-materialss&#34;&gt;Verification Materials(s):&lt;/h4&gt;
