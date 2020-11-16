@@ -22,7 +22,7 @@ resources:
 기업 공개SW 거버넌스 Openchain 2.0 해설
 {{< /imgproc >}}
 
-여기서는 공개SW역량프라자의 허락 하에 가이드 내용을 GitHub에 공개하고, 누구나 내용을 참고하고, 수정 / 개선할 수 있게 하였습니다. : [GitHub Repository](https://github.com/OpenChain-Project/OpenChain-KWG/tree/master/content/ko/guide)
+여기서는 NIPA의 허락 하에 가이드 내용을 GitHub에 공개하고, 누구나 내용을 참고하고, 수정 / 개선할 수 있게 하였습니다. : [GitHub Repository](https://github.com/OpenChain-Project/OpenChain-KWG/tree/master/content/ko/guide)
 
 ## References
 
