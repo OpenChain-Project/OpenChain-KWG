@@ -19,7 +19,7 @@ OpenChain 규격 버전 2.1의 3.4.1항에서는 다음과 같이 컴플라이�
 
 #### 입증 자료:
 
- 3.4.1.1 식별된 라이선스가 요구하는 대로 컴플라이언스 산출물 준비하고 이를 배포 대상 소프트웨어와 함께 배포하기 위한 프로세스를 설명하는 문서화된 절차
+ 3.4.1.1 식별된 라이선스가 요구하는 대로 컴플라이언스 산출물 준비하고 이를 배포 대상 소프트웨어와 함께 배포하기 위한 프로세스를 설명하는 문서화된 절차  
  3.4.1.2 배포 대상 소프트웨어의 컴플라이언스 산출물 사본을 보관하기 위한 문서화된 절차 
   - 산출물 사본은 배포 대상 소프트웨어의 마지막 배포 이후 합리적인 기간 동안 혹은 식별된 라이센스가 요구하는 기간 동안 보관해야 한다(둘 중 더 긴 쪽을 따름). 
   - 이러한 절차가 올바르게 지켜졌음을 입증하는 기록을 남겨야 한다.
@@ -32,7 +32,7 @@ A process exists for creating the set of Compliance Artifacts for the Supplied S
 
 #### Verification Materials(s):
 
- 3.4.1.1 A documented procedure that describes the process under which the Compliance Artifacts are prepared and distributed with the Supplied Software as required by the Identified Licenses.  
+ 3.4.1.1 A documented procedure that describes the process under which the Compliance Artifacts are prepared and distributed with the Supplied Software as required by the Identified Licenses.   
  3.4.1.2 A documented procedure for archiving copies of the Compliance Artifacts of the Supplied Software - where the archive is planned to exist for a reasonable period of time since the last offer of the Supplied Software; or as required by the Identified Licenses (whichever is longer). Records exist that demonstrate the procedure has been properly followed.
 
 {{% /pageinfo %}}
