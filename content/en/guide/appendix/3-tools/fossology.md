@@ -17,7 +17,7 @@ FOSSology는 웹기반의 프로그램으로 사용자는 웹사이트에 로그
 
 ## 설치
 
-기업 내에서 FOSSology를 사용하기 위해서는 사내에 FOSSology 서버를 구축해야 한다. 이를 위해 리눅스 기반의 서버 시스템에 FOSSology를 설치해야 한다. FOSSology는 다음 세가지 방법으로 설치할 수 있다.
+기업 내에서 FOSSology를 사용하기 위해서는 사내에 FOSSology 서버를 구축해야 한다. 이를 위해 리눅스 기반의 서버 시스템에 FOSSology를 설치해야 한다. FOSSology는 다음 세 가지 방법으로 설치할 수 있다.
 
 1. Docker 사용
 2. Vagrant와 VirtualBox 사용 
