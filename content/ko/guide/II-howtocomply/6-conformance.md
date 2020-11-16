@@ -1,15 +1,16 @@
 ---
-title: "6. 규격 요구사항 준수"
+title: "6. 규격 요구사항 적합성"
 weight: 6
 type: docs
 ---
 
 ## 6.1 적합성
 
+OpenChain 규격 버전 2.1의 3.6.1항에서는 다음과 같이 적합성에 대한 요구사항과 입증 자료를 정의하고 있다.
 
 {{% pageinfo %}}
 
-### OpenChain 규격 2.1
+### OpenChain 규격 버전 2.1
 -----------
 
 ### 3.6.1 적합성
@@ -25,7 +26,7 @@ type: docs
 
 In order for a program to be deemed OpenChain conformant, the organization shall affirm that the program satisfies the requirements presented in this document.
 
-#### Verification Materials\(s\):
+#### Verification Materials(s):
 
 3.6.1.1 A document affirming the program specified in §3.1.4 satisfies all the requirements of this document.
 
@@ -34,13 +35,15 @@ In order for a program to be deemed OpenChain conformant, the organization shall
 
 기업이 OpenChain을 준수하는 오픈소스 프로그램을 가지고 있다고 선언한다는 것은 OpenChain 규격의 모든 요구사항을 충족한다는 것이다. 어느 하나의 요구사항이라도 충족하지 못한다면 OpenChain에 적합하다고 할 수 없다.
 
-OpenChain 규격의 모든 요구사항을 충족한다면, [\[부록 01\] 샘플 오픈소스 정책 for OpenChain 2.1의 9장](../../appendix/1-policy-template/#9-openchain-준수)에서와 같이 OpenChain에 적합하다고 정책 문서상에 명시할 수 있다.
+OpenChain 규격의 모든 요구사항을 충족한다면, [[부록 01] 샘플 오픈소스 정책의 9장](../../appendix/1-policy-template/#9-openchain-준수)에서와 같이 OpenChain에 적합하다고 정책 문서상에 명시할 수 있다.
 
 ## 3.6.2 지속 기간
 
+OpenChain 규격 버전 2.1의 3.6.2항에서는 다음과 같이 지속 기간에 대한 요구사항과 입증 자료를 정의하고 있다.
+
 {{% pageinfo %}}
 
-### OpenChain 규격 2.1
+### OpenChain 규격 버전 2.1
 -----------
 
 ### 3.6.2 기간
@@ -57,12 +60,12 @@ OpenChain 규격의 모든 요구사항을 충족한다면, [\[부록 01\] 샘�
 
 A program that is OpenChain conformant with this version of the specification shall last 18 months from the date conformance validation was obtained. The conformance validation registration procedure can be found on the OpenChain project’s website.
 
-#### Verification Materials\(s\):
+#### Verification Materials(s):
 
 3.6.2.1 A document affirming the program meets all the requirements of this document, within the past 18 months of obtaining conformance validation.
 
 {{% /pageinfo %}}
 
-기업이 자신의 오픈소스 프로그램이 OpenChain에 적합하다고 선언한 이후에도 계속해서 준수하는 활동을 유지하는 것이 중요하다. OpenChain 규격 2.1의 3.6.2.1조에서는 OpenChain을 적합성을 선언한 이후에도 최소 18개월 이상은 변함없이 OpenChain 규격 2.1의 모든 요구사항을 준수하고 있어야 함을 요구한다.
+기업이 자신의 오픈소스 프로그램이 OpenChain에 적합하다고 선언한 이후에도 계속해서 준수하는 활동을 유지하는 것이 중요하다. OpenChain 규격 버전 2.1의 3.6.2.1조에서는 OpenChain을 적합성을 선언한 이후에도 최소 18개월 이상은 변함없이 OpenChain 규격 버전 2.1의 모든 요구사항을 준수하고 있어야 함을 요구한다.
 
-기업은 OpenChain 적합성을 선언한 이후 적어도 18개월 이상 계속해서 준수하는 상태를 유지하여야 하며, 그렇게 하고 있다면, [\[부록 01\] 샘플 오픈소스 정책 for OpenChain 2.1의 9장](../../appendix/1-policy-template/#9-openchain-준수)에서와 같이 OpenChain을 18개월 이상 계속하여 충족하고 있음을 문서상에 명시할 수 있다.
+기업은 OpenChain 적합성을 선언한 이후 적어도 18개월 이상 계속해서 준수하는 상태를 유지하여야 하며, 그렇게 하고 있다면, [[부록 01] 샘플 오픈소스 정책의 9장](../../appendix/1-policy-template/#9-openchain-준수)에서와 같이 OpenChain을 18개월 이상 계속하여 충족하고 있음을 문서상에 명시할 수 있다.
