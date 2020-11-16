@@ -34,7 +34,7 @@ _<center>< https://certification.openchainproject.org/ ></center>_
 
 _<center>< Organizations with a publicly announced OpenChain Conformant Program ></center>_
 
-OpenChain 적합 기업에게는 OpenChain 로고를 사용할 수 있는 자격이 주어진다. 이렇게 OpenChain 적합 프로그램을 갖췄다고 인정받은 기업은 소프트웨어 공급망 내에서 오픈소스 컴플라이언스를 충실하게 수행하고 있음을 보여줄 수 있게 된다. 
+OpenChain 적합 기업에는 OpenChain 로고를 사용할 수 있는 자격이 주어진다. 이렇게 OpenChain 적합 프로그램을 갖췄다고 인정받은 기업은 소프트웨어 공급망 내에서 오픈소스 컴플라이언스를 충실하게 수행하고 있음을 보여줄 수 있게 된다. 
 
 <div ><span class="image fit">
   <img src="../certilogo.png" width="90%">
