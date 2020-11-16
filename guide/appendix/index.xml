@@ -454,7 +454,7 @@ BOM을 관리하는 도구는 SW360을 사용한다.&lt;/li&gt;
 &lt;/table&gt;
 &lt;h2 id=&#34;2-외부-문의-대응-프로세스&#34;&gt;2. 외부 문의 대응 프로세스&lt;/h2&gt;
 &lt;p&gt;외부로부터의 이러한 오픈소스 컴플라이언스 문의에 신속하고 정확하게 대응한다면 소송까지 진행되는 위험을 크게 줄일 수 있다. 이를 위해 기업은 외부의 오픈소스 컴플라이언스 문의에 대응하기 위해 다음과 같은 프로세스를 준수한다.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./process.png&#34; alt=&#34;process.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../process.png&#34; alt=&#34;process.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;center&gt;&amp;lt; &lt;a href=&#34;https://www.linuxsources.org/content/open-compliance-directory-add-organization-request&#34;&gt;https://www.linuxsources.org/content/open-compliance-directory-add-organization-request&lt;/a&gt; &amp;gt;&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;접수 확인 (Acknowledge) : 문의를 받으면 즉시 응답하여, 문의가 접수되었음을 알린다. 이때 조치 예정일을 함께 알린다. 요청자의 의도가 무엇인지 정확히 파악하는 것이 중요하기 때문에 문의가 불명확한 경우 추가 설명을 요청한다.&lt;/li&gt;
