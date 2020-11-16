@@ -164,7 +164,7 @@ BOM을 관리하는 도구는 SW360을 사용한다.
 
 외부로부터의 이러한 오픈소스 컴플라이언스 문의에 신속하고 정확하게 대응한다면 소송까지 진행되는 위험을 크게 줄일 수 있다. 이를 위해 기업은 외부의 오픈소스 컴플라이언스 문의에 대응하기 위해 다음과 같은 프로세스를 준수한다.
 
- ![process.png](../process.png) 
+ ![process.png](./process.png) 
 
  _<center>< https://www.linuxsources.org/content/open-compliance-directory-add-organization-request ></center>_
 
