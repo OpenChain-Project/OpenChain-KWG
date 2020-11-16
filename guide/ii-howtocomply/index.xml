@@ -40,7 +40,7 @@
 &lt;h3 id=&#34;311-policy&#34;&gt;3.1.1 Policy&lt;/h3&gt;
 &lt;p&gt;A written open source policy shall exist that governs open source license compliance of the supplied software. The policy shall be internally communicated.&lt;/p&gt;
 &lt;h4 id=&#34;verification-materials&#34;&gt;Verification Material(s):&lt;/h4&gt;
-&lt;p&gt;3.1.1.1 A documented open source policy.
+&lt;p&gt;3.1.1.1 A documented open source policy.&lt;br&gt;
 3.1.1.2 A documented procedure that makes program participants aware of the existence of the open source policy (e.g., via training, internal wiki, or other practical communication method).&lt;/p&gt;
 
 &lt;/div&gt;
@@ -64,8 +64,8 @@
 &lt;li&gt;역량 보유를 증명하기 위한 정보를 문서화하여 유지한다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;입증-자료&#34;&gt;입증 자료:&lt;/h4&gt;
-&lt;p&gt;3.1.2.1 프로그램 참여자에 대한 역할과 각 역할에 대한 책임을 나열한 문서
-3.1.2.2 각 역할을 위해 필요한 역량을 기술한 문서
+&lt;p&gt;3.1.2.1 프로그램 참여자에 대한 역할과 각 역할에 대한 책임을 나열한 문서&lt;br&gt;
+3.1.2.2 각 역할을 위해 필요한 역량을 기술한 문서&lt;br&gt;
 3.1.2.3 각 프로그램 참여자의 역량을 평가한 결과 문서&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;312-competence&#34;&gt;3.1.2 Competence&lt;/h3&gt;
@@ -78,8 +78,8 @@
 &lt;li&gt;Retain appropriate documented information as evidence of competence.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;verification-materials&#34;&gt;Verification Material(s):&lt;/h4&gt;
-&lt;p&gt;3.1.2.1 A documented list of roles with corresponding responsibilities for the different participants in the program.
-3.1.2.2 A document that identifies the competencies for each role.
+&lt;p&gt;3.1.2.1 A documented list of roles with corresponding responsibilities for the different participants in the program.&lt;br&gt;
+3.1.2.2 A document that identifies the competencies for each role.&lt;br&gt;
 3.1.2.3 Documented evidence of assessed competence for each program participant.&lt;/p&gt;
 
 &lt;/div&gt;
@@ -95,17 +95,17 @@
 &lt;h3 id=&#34;openchain-규격-버전-21&#34;&gt;OpenChain 규격 버전 2.1&lt;/h3&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;313-인식&#34;&gt;3.1.3 인식&lt;/h3&gt;
-&lt;p&gt;조직은 프로그램 참여자가 다음 사항을 숙지하도록 해야 한다:
-a) 오픈소스 정책
-b) 오픈소스 관련 목표
-c) 효과적인 프로그램이 되기 위한 참여자의 기여 방법
+&lt;p&gt;조직은 프로그램 참여자가 다음 사항을 숙지하도록 해야 한다:&lt;br&gt;
+a) 오픈소스 정책&lt;br&gt;
+b) 오픈소스 관련 목표&lt;br&gt;
+c) 효과적인 프로그램이 되기 위한 참여자의 기여 방법&lt;br&gt;
 d) 프로그램의 요구사항을 준수하지 않았을 때 발생할 위험&lt;/p&gt;
 &lt;h4 id=&#34;입증-자료&#34;&gt;입증 자료:&lt;/h4&gt;
 &lt;p&gt;3.1.3.1 프로그램 참여자에 대해 다음 사항에 대한 인식을 평가하였음을 나타내는 문서 : 프로그램의 목표, 프로그램 내에서의 참여자 기여 방법, 프로그램을 준수하지 않을 때의 위험&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;313-awareness&#34;&gt;3.1.3 Awareness&lt;/h3&gt;
-&lt;p&gt;The organization shall ensure that the program participants are aware of:
-a) The open source policy;
+&lt;p&gt;The organization shall ensure that the program participants are aware of:&lt;br&gt;
+a) The open source policy;&lt;br&gt;
 b) Relevant open source objectives;&lt;br&gt;
 c) Their contribution to the effectiveness of the Program; and&lt;br&gt;
 d) The implications of not following the Program’s requirements.&lt;/p&gt;
@@ -183,13 +183,13 @@ d) The implications of not following the Program’s requirements.&lt;/p&gt;
 &lt;h3 id=&#34;321-접근성&#34;&gt;3.2.1 접근성&lt;/h3&gt;
 &lt;p&gt;외부의 오픈소스 문의에 효과적으로 대응하기 위한 프로세스를 유지해야한다. 제3자가 오픈소스 컴플라이언스에 대해 문의 할 수 있는 방법을 공개해야 한다.&lt;/p&gt;
 &lt;h4 id=&#34;입증-자료&#34;&gt;입증 자료:&lt;/h4&gt;
-&lt;p&gt;3.2.1.1 제3자가 오픈소스 라이선스 컴플라이언스에 대해 문의 할 수 있는 공개된 방법 (담당자 이메일 주소, 또는 Linux Foundation의 Open Compliance Directory 등)
+&lt;p&gt;3.2.1.1 제3자가 오픈소스 라이선스 컴플라이언스에 대해 문의 할 수 있는 공개된 방법 (담당자 이메일 주소, 또는 Linux Foundation의 Open Compliance Directory 등)&lt;br&gt;
 3.2.1.2 제3자의 오픈소스 라이선스 컴플라이언스 문의에 대응하기 위한 내부의 문서화된 절차&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;321-access&#34;&gt;3.2.1 Access&lt;/h3&gt;
 &lt;p&gt;Maintain a process to effectively respond to external open source inquiries. Publicly identify a means by which a third party can make an open source compliance inquiry.&lt;/p&gt;
 &lt;h4 id=&#34;verification-materials&#34;&gt;Verification Material(s):&lt;/h4&gt;
-&lt;p&gt;3.2.1.1 Publicly visible method that allows any third party to make an open source license compliance inquiry (e.g., via a published contact email address, or the Linux Foundation&amp;rsquo;s Open Compliance Directory).
+&lt;p&gt;3.2.1.1 Publicly visible method that allows any third party to make an open source license compliance inquiry (e.g., via a published contact email address, or the Linux Foundation&amp;rsquo;s Open Compliance Directory).&lt;br&gt;
 3.2.1.2 An internal documented procedure for responding to third party open source license compliance inquiries.&lt;/p&gt;
 
 &lt;/div&gt;
@@ -231,10 +231,10 @@ d) The implications of not following the Program’s requirements.&lt;/p&gt;
 &lt;li&gt;오픈소스 라이선스 컴플라이언스 문제를 해결하기 위한 프로세스가 존재한다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;입증-자료&#34;&gt;입증 자료:&lt;/h4&gt;
-&lt;p&gt;3.2.2.1 프로그램 내 각 역할을 담당할 인원, 그룹 또는 직무의 이름을 기재한 문서
+&lt;p&gt;3.2.2.1 프로그램 내 각 역할을 담당할 인원, 그룹 또는 직무의 이름을 기재한 문서&lt;br&gt;
 3.2.2.2 프로그램 내 각 역할을 담당할 인원이 적절하게 배치되고, 예산 지원이 적합하게 이루어져야 한다.
-3.2.2.3 오픈소스 라이선스 컴플라이언스 문제 해결을 위해 내부 또는 외부의 전문 법률 자문을 이용할 수 있는 방법
-3.2.2.4 오픈소스 컴플라이언스를 위해 내부에서의 책임을 배정하는 문서화된 절차
+3.2.2.3 오픈소스 라이선스 컴플라이언스 문제 해결을 위해 내부 또는 외부의 전문 법률 자문을 이용할 수 있는 방법&lt;br&gt;
+3.2.2.4 오픈소스 컴플라이언스를 위해 내부에서의 책임을 배정하는 문서화된 절차&lt;br&gt;
 3.2.2.5 미준수 사례를 검토하고 이를 수정하기 위한 문서화된 절차&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;322-effectively-resourced&#34;&gt;3.2.2 Effectively Resourced&lt;/h3&gt;
@@ -298,7 +298,7 @@ d) The implications of not following the Program’s requirements.&lt;/p&gt;
 &lt;h3 id=&#34;331-bom&#34;&gt;3.3.1 BOM&lt;/h3&gt;
 &lt;p&gt;배포 대상 소프트웨어를 구성하는 오픈소스 컴포넌트(및 식별된 라이선스)에 대한 BOM(Bill of Materials)을 생성하고 이를 관리하는 프로세스가 있어야 한다.&lt;/p&gt;
 &lt;h4 id=&#34;입증-자료&#34;&gt;입증 자료:&lt;/h4&gt;
-&lt;p&gt;3.3.1.1 배포 대상 소프트웨어를 구성하는 오픈소스 컴포넌트에 대한 정보를 식별, 추적, 검토, 승인 및 보관하기 위한 문서화된 절차
+&lt;p&gt;3.3.1.1 배포 대상 소프트웨어를 구성하는 오픈소스 컴포넌트에 대한 정보를 식별, 추적, 검토, 승인 및 보관하기 위한 문서화된 절차&lt;br&gt;
 3.3.1.2 문서화된 절차가 적절히 준수되었음을 보여주는 배포 대상 소프트웨어에 대한 오픈소스 컴포넌트 기록&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;331-bill-of-materials&#34;&gt;3.3.1 Bill of Materials&lt;/h3&gt;
@@ -375,7 +375,7 @@ d) The implications of not following the Program’s requirements.&lt;/p&gt;
 &lt;h3 id=&#34;341-컴플라이언스-산출물&#34;&gt;3.4.1 컴플라이언스 산출물&lt;/h3&gt;
 &lt;p&gt;배포 대상 소프트웨어에 대한 컴플라이언스 산출물을 생성하는 프로세스가 있어야 한다.&lt;/p&gt;
 &lt;h4 id=&#34;입증-자료&#34;&gt;입증 자료:&lt;/h4&gt;
-&lt;p&gt;3.4.1.1 식별된 라이선스가 요구하는 대로 컴플라이언스 산출물 준비하고 이를 배포 대상 소프트웨어와 함께 배포하기 위한 프로세스를 설명하는 문서화된 절차
+&lt;p&gt;3.4.1.1 식별된 라이선스가 요구하는 대로 컴플라이언스 산출물 준비하고 이를 배포 대상 소프트웨어와 함께 배포하기 위한 프로세스를 설명하는 문서화된 절차&lt;br&gt;
 3.4.1.2 배포 대상 소프트웨어의 컴플라이언스 산출물 사본을 보관하기 위한 문서화된 절차&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;산출물 사본은 배포 대상 소프트웨어의 마지막 배포 이후 합리적인 기간 동안 혹은 식별된 라이센스가 요구하는 기간 동안 보관해야 한다(둘 중 더 긴 쪽을 따름).&lt;/li&gt;
@@ -496,7 +496,7 @@ open source contribution policy (e.g., via training, internal wiki, or other pra
 &lt;/div&gt;
 
 &lt;p&gt;기업이 OpenChain을 준수하는 오픈소스 프로그램을 가지고 있다고 선언한다는 것은 OpenChain 규격의 모든 요구사항을 충족한다는 것이다. 어느 하나의 요구사항이라도 충족하지 못한다면 OpenChain에 적합하다고 할 수 없다.&lt;/p&gt;
-&lt;p&gt;OpenChain 규격의 모든 요구사항을 충족한다면, &lt;a href=&#34;../../appendix/1-policy-template/#9-openchain-%EC%A4%80%EC%88%98&#34;&gt;[부록 01] 샘플 오픈소스 정책의 9장&lt;/a&gt;에서와같이 OpenChain에 적합하다고 정책 문서상에 명시할 수 있다.&lt;/p&gt;
+&lt;p&gt;OpenChain 규격의 모든 요구사항을 충족한다면, &lt;a href=&#34;../../appendix/1-policy-template/#9-openchain-%EC%A0%81%ED%95%A9%EC%84%B1&#34;&gt;[부록 01] 샘플 오픈소스 정책의 9장&lt;/a&gt;에서와같이 OpenChain에 적합하다고 정책 문서상에 명시할 수 있다.&lt;/p&gt;
 &lt;h2 id=&#34;362-지속-기간&#34;&gt;3.6.2 지속 기간&lt;/h2&gt;
 &lt;p&gt;OpenChain 규격 버전 2.1의 3.6.2항에서는 다음과 같이 지속 기간에 대한 요구사항과 입증 자료를 정의하고 있다.&lt;/p&gt;
 
@@ -517,7 +517,7 @@ open source contribution policy (e.g., via training, internal wiki, or other pra
 &lt;/div&gt;
 
 &lt;p&gt;기업이 자신의 오픈소스 프로그램이 OpenChain에 적합하다고 선언한 이후에도 계속해서 준수하는 활동을 유지하는 것이 중요하다. OpenChain 규격 버전 2.1의 3.6.2.1조에서는 OpenChain을 적합성을 선언한 이후에도 최소 18개월 이상은 변함없이 OpenChain 규격 버전 2.1의 모든 요구사항을 준수하고 있어야 함을 요구한다.&lt;/p&gt;
-&lt;p&gt;기업은 OpenChain 적합성을 선언한 이후 적어도 18개월 이상 계속해서 준수하는 상태를 유지하여야 하며, 그렇게 하고 있다면, &lt;a href=&#34;../../appendix/1-policy-template/#9-openchain-%EC%A4%80%EC%88%98&#34;&gt;[부록 01] 샘플 오픈소스 정책의 9장&lt;/a&gt;에서와같이 OpenChain을 18개월 이상 계속하여 충족하고 있음을 문서상에 명시할 수 있다.&lt;/p&gt;
+&lt;p&gt;기업은 OpenChain 적합성을 선언한 이후 적어도 18개월 이상 계속해서 준수하는 상태를 유지하여야 하며, 그렇게 하고 있다면, &lt;a href=&#34;../../appendix/1-policy-template/#9-openchain-%EC%A0%81%ED%95%A9%EC%84%B1&#34;&gt;[부록 01] 샘플 오픈소스 정책의 9장&lt;/a&gt;에서와같이 OpenChain을 18개월 이상 계속하여 충족하고 있음을 문서상에 명시할 수 있다.&lt;/p&gt;
 
       </description>
     </item>
