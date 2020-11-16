@@ -7,7 +7,7 @@ type: docs
 ## 1.1 정책 (Policy)
 
 오픈소스를 이용하여 소프트웨어를 개발하고 배포하는 기업이라면 오픈소스를 관리하기 위한 정책과 프로세스를 구축하고, 이를 위한 인력과 자원을 할당해야 한다. OpenChain에서는 이러한 일련의 활동을 관리하는 체계를 오픈소스 프로그램이라고 부르고, OpenChain Specification을 준수하기 위한 첫번째 요건은 바로 이 프로그램을 설립해야 하는것이다. 여기서 오픈소스 프로그램이란 정책, 프로세스, 인원 등 기업이 오픈소스 컴플라이언스 활동을 수행하기 위한 일련의 관리 체계를 의미한다.
-OpenChain Specification에서는 이를 입증하기 위한 자료로 우선 문서화된 오픈소스 정책을 요구한다. 이 안내서에서는 참고를 위해 OpenChain Specification의 요건을 충족하는 오픈소스 정책 문서 예시를 “[[부록 01] 샘플 오픈소스 정책 for OpenChain 2.1](../../appendix/1-policy-template)”에서 제공한다. 
+OpenChain Specification에서는 이를 입증하기 위한 자료로 우선 문서화된 오픈소스 정책을 요구한다. 이 안내서에서는 참고를 위해 OpenChain Specification의 요건을 충족하는 오픈소스 정책 문서 예시를 “[[부록 01] 샘플 오픈소스 정책](../../appendix/1-policy-template)”에서 제공한다. 
 
 OpenChain Specification은 이어지는 장에서 오픈소스 프로그램이 갖춰야할 요건들을 설명하고 있다.
 
