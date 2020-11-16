@@ -10,7 +10,7 @@ description: >
 
 ## OpenChain Curriculum이란?
 
-OpenChain Project에서는 컴플라이언스 프로그램을 구축하는데 필요한 교육 자료를 만들어서 공개하였습니다. : [https://github.com/OpenChain-Project/Curriculum](https://github.com/OpenChain-Project/Curriculum)
+OpenChain Project에서는 컴플라이언스 프로그램을 구축하는 데 필요한 교육 자료를 만들어서 공개하였습니다. : [https://github.com/OpenChain-Project/Curriculum](https://github.com/OpenChain-Project/Curriculum)
 
 CC-0로 공개하였기 때문에 기업에서는 이를 활용하여 기업 내 교육 자료를 만들 수 있으며, 가장 최근 자료는 다음 링크에서 다운로드 받을 수 있습니다. 
 

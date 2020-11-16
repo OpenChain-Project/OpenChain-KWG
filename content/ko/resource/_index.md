@@ -13,7 +13,7 @@ menu:
 
 ## OpenChain Project Resources
 
-[**OpenChain Project**](https://www.openchainproject.org/)에서는 Compliance Program을 구축하는데 필요한 정책 문서 템플릿, 교육 자료 등 다양한 참고자료를 제공합니다. 이 자료들은 OpenChain Specification 및 일반적인 Open Source Compliance 활동을 지원하기 위해 고안됐으며, 누구나 자유롭게 사용할 수 있도록 [**CC0**](https://creativecommons.org/publicdomain/zero/1.0/deed.ko)로 제공됩니다.
+[**OpenChain Project**](https://www.openchainproject.org/)에서는 Compliance Program을 구축하는 데 필요한 정책 문서 템플릿, 교육 자료 등 다양한 참고자료를 제공합니다. 이 자료들은 OpenChain Specification 및 일반적인 Open Source Compliance 활동을 지원하기 위해 고안됐으며, 누구나 자유롭게 사용할 수 있도록 [**CC0**](https://creativecommons.org/publicdomain/zero/1.0/deed.ko)로 제공됩니다.
 
 * [Resources](https://www.openchainproject.org/resources)
 
