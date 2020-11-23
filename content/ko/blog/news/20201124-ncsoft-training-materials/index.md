@@ -3,7 +3,10 @@ date: 2020-08-29
 title: "OSS Basic Training Slide"
 linkTitle: "OSS Basic Training"
 description: "NCSOFT에서 오픈소스 라이선스에 대한 개념, 오픈소스 컴플라이언스 절차, 코드 작성 시 주의해야 할 점 등에 대한 교육자료를 공개하였습니다"
-author: Haksung Jang ([@haksungjang](https://github.com/haksungjang))
+author: Jiho Han ([@yulica37](yulica37@ncsoft.com))
+resources:
+- src: "**.{png,jpg}"
+  title: "Image #:counter"
 ---
 
 
