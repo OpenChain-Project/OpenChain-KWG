@@ -22,11 +22,17 @@ description: >
 |----|-----------------|------|------|
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
 | 2  | How to build open source program in Hyundai Motors | Songha Back, Hyundai Motors |  - | 
-| 3  | ... | ... | ... | 
-| 4  | ... | ... | ... | 
-| 5  | Case Study : ... | All | - |
-| 5  | OpenChain KWG Update | Haksung Jang, SK telecom | -|
-| 6  | Free Discussion | All | - |
+| 3  | SCA(Software Composition Analysis)  Market Trend | Robin Hwang, Kakao | - | 
+| 4  | Olive, Grand Open | Robin Hwang, Kakao | - | 
+| 5  | Case Study | All | - |
+| 6  | OpenChain KWG Update | SK텔레콤 장학성 | -|
+| 7  | Free Discussion | All | - |
+
+## Case Study
+* Are Fonts included in open source compliance activities? (Open Font)
+* Does the company distribute mobile apps (Android, iOS) for in-house employees? So, is this in-house app also the target of open source compliance activities?
+* What is the target of the open source security vulnerability inspection? Isn't it necessary to check not only the software you distribute, but also the software you are using for infrastructure and servers?
+
 
 ## Attenddes
 * ...
