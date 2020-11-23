@@ -7,6 +7,8 @@ author: Jiho Han ([@yulica37](yulica37@ncsoft.com))
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
+  params:
+    byline: "Photo: Riona MacNamara / CC-BY-CA"
 ---
 
 
