@@ -348,6 +348,21 @@
   </url>
   
   <url>
+    <loc>https://openChain-project.github.io/OpenChain-KWG/resource/external/</loc>
+    <lastmod>2020-11-24T08:07:19+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://openChain-project.github.io/OpenChain-KWG/en/resource/external/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://openChain-project.github.io/OpenChain-KWG/resource/external/"
+                />
+  </url>
+  
+  <url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/resource/enterprise/</loc>
     <lastmod>2020-10-26T16:18:44+09:00</lastmod>
     <xhtml:link
@@ -675,6 +690,11 @@
                 hreflang="ko"
                 href="https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/another-sample-post/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/oss-basic-training-slide/</loc>
+    <lastmod>2020-11-24T08:07:19+09:00</lastmod>
   </url>
   
   <url>

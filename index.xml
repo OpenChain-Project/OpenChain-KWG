@@ -308,6 +308,56 @@ This is a warning with a title!
     </item>
     
     <item>
+      <title>Blog: OSS Basic Training Slide</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/oss-basic-training-slide/</link>
+      <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/oss-basic-training-slide/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://global.ncsoft.com/&#34;&gt;NCSOFT&lt;/a&gt;에서는 오픈소스의 공유 정신에 따라 사내 오픈소스 교육자료를 누구나 사용할 수 있도록 강의 교안(PPT)과 강의 스크립트를 &lt;a href=&#34;https://github.com/ncsoft/oss-basic-training&#34;&gt;GitHub&lt;/a&gt;에 공개하였습니다.&lt;/p&gt;
+&lt;p&gt;소프트웨어를 개발/배포하는 기업에서 사내 오픈소스 교육을 준비하면서 이 교안을 직접 사용하거나, 필요한 부분을 발췌/수정하여 사용할 수 있습니다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;cover.png&#34; alt=&#34;cover&#34;&gt;&lt;/p&gt;
+&lt;p&gt;교육자료에 대한 수정과 보완은 &lt;a href=&#34;https://github.com/ncsoft/oss-basic-training&#34;&gt;GitHub&lt;/a&gt;을 통해 누구나 참여할 수 있습니다.&lt;/p&gt;
+&lt;h2 id=&#34;download&#34;&gt;Download&lt;/h2&gt;
+&lt;p&gt;교육자료와 강의 스크립트는 다음 페이지에서 다운로드 받을 수 있습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ncsoft/oss-basic-training/tree/master/source&#34;&gt;https://github.com/ncsoft/oss-basic-training/tree/master/source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;maintainer&#34;&gt;Maintainer&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Company&lt;/th&gt;
+&lt;th&gt;Email&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Peter Jiho Han&lt;/td&gt;
+&lt;td&gt;NCSOFT&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;mailto:yulica37@ncsoft.com&#34;&gt;yulica37@ncsoft.com&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Dasom Han&lt;/td&gt;
+&lt;td&gt;NCSOFT&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;mailto:dasom12@ncsoft.com&#34;&gt;dasom12@ncsoft.com&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;CC-BY 4.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Blog: The sample blog post</title>
       <link>https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/the-sample-blog-post/</link>
       <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>

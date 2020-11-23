@@ -348,6 +348,21 @@
   </url>
   
   <url>
+    <loc>https://openChain-project.github.io/OpenChain-KWG/en/resource/external/</loc>
+    <lastmod>2020-11-24T08:07:19+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://openChain-project.github.io/OpenChain-KWG/resource/external/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://openChain-project.github.io/OpenChain-KWG/en/resource/external/"
+                />
+  </url>
+  
+  <url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/resource/enterprise/</loc>
     <lastmod>2020-10-26T17:43:37+09:00</lastmod>
     <xhtml:link
