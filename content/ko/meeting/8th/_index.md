@@ -22,8 +22,8 @@ description: >
 |----|-----------------|------|------|
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
 | 2  | 현대자동차 오픈소스 거버넌스 체계 구축 | 현대자동차 백송하 |  - | 
-| 3 (논의 중) | SCA(Software Composition Analysis)  Market 동향 | 카카오 황민호(Robin) | - | 
-| 4 (논의 중) | 특종! Olive 공개 | 카카오 황민호(Robin) | - | 
+| 3  | SCA(Software Composition Analysis)  Market 동향 | 카카오 황민호(Robin) | - | 
+| 4  | 특종! Olive 공개 | 카카오 황민호(Robin) | - | 
 | 5  | Case Study | All | - |
 | 5  | OpenChain KWG Update | SK텔레콤 장학성 | -|
 | 6  | Free Discussion | All | - |
