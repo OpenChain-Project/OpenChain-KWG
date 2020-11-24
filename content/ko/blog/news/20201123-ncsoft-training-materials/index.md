@@ -8,7 +8,7 @@ resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
   params:
-    byline: "Photo: Jiho Han  / CC-BY-CA"
+    byline: "Photo: Jiho Han  / CC-BY"
 ---
 
 [NCSOFT](https://global.ncsoft.com/)에서는 오픈소스의 공유 정신에 따라 사내 오픈소스 교육자료를 누구나 사용할 수 있도록 강의 교안(PPT)과 강의 스크립트를 [GitHub](https://github.com/ncsoft/oss-basic-training)에 공개하였습니다. 
