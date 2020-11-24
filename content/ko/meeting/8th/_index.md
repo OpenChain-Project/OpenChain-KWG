@@ -9,6 +9,7 @@ description: >
 <!-- <img src="OpenChain-KWG-7th-1.png" width="90%"> -->
 
 ![kwg-logo.gif](openchain-xmas-2.gif)
+_<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
 
 ## Intro
 
@@ -53,3 +54,4 @@ description: >
 
 
 ![kwg-logo.gif](openchain-xmas.gif)
+_<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
