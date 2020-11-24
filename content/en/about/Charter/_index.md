@@ -10,7 +10,7 @@ description: >
 {{% pageinfo %}}
 This document is still being written.
 
- ![kwg-logo.gif](../kwg-logo.gif) 
+ ![kwg-logo.gif](../openchain-xmas-2.gif) 
 {{% /pageinfo %}}
 
 
