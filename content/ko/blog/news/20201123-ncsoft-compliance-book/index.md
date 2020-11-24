@@ -8,7 +8,7 @@ resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
   params:
-    byline: "Photo: Jiho Han  / CC-BY-CA"
+    byline: "Photo: Jiho Han  / CC-BY"
 ---
 
 ## Open Source Compliance in the Enterprise 책 소개
