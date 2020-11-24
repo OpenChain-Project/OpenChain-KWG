@@ -10,9 +10,8 @@ description: >
 ## Training materials
 
 ### NCSOFT open source training materials
-[NCSOFT](https://global.ncsoft.com/) publishes lecture slides (PPT) script on [GitHub](https://github.com/ncsoft/oss-basic-training) in accordance with the spirit of sharing open source so that anyone can use in-house open source educational materials.
-
-For more information, refer to the following link: [LINK](https://openchain-project.github.io/OpenChain-KWG/en/blog/2020/11/23/oss-basic-training-slide/)
+* NCSOFT training materials : [LINK](https://openchain-project.github.io/OpenChain-KWG/blog/2020/11/23/oss-basic-training-slide/)
+* Kakao training materials : [LINK](https://openchain-project.github.io/OpenChain-KWG/blog/2020/11/24/kakao-training-material/)
 
 ## Study materials
 
