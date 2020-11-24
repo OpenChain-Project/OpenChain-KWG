@@ -8,6 +8,8 @@ description: >
 ---
 <!-- <img src="OpenChain-KWG-7th-1.png" width="90%"> -->
 
+![kwg-logo.gif](openchain-xmas-2.gif)
+
 ## Intro
 
 * Schedule: 2020-12-02 (Wed) 2:00~4:00 pm
@@ -49,3 +51,5 @@ description: >
 
 ## Photo Gallery
 ...
+
+![kwg-logo.gif](openchain-xmas.gif)
