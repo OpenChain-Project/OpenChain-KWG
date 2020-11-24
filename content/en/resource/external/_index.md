@@ -12,14 +12,14 @@ description: >
 ### NCSOFT open source training materials
 [NCSOFT](https://global.ncsoft.com/) publishes lecture slides (PPT) script on [GitHub](https://github.com/ncsoft/oss-basic-training) in accordance with the spirit of sharing open source so that anyone can use in-house open source educational materials.
 
-For more information, refer to the following link: [LINK]
+For more information, refer to the following link: [LINK](https://openchain-project.github.io/OpenChain-KWG/en/blog/2020/11/23/oss-basic-training-slide/)
 
 ## Study materials
 
 ### Open Source Compliance in the Enterprise book summary
 [NCSOFT](https://global.ncsoft.com/) summarizes the main contents of this book in Korean, and after obtaining permission from the author, Ibrahim, published on [GitHub](https://github.com/ncsoft/osc-enterprise-en/).
 
-For more information, refer to the following link: [LINK]
+For more information, refer to the following link: [LINK](https://openchain-project.github.io/OpenChain-KWG/en/blog/2020/11/23/open-source-compliance-in-the-enterprise/)
 
 ## Open source tools
 ...

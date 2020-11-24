@@ -1,19 +1,21 @@
 ---
+date: 2020-11-23
 title: "OSS Basic Training Slide"
 linkTitle: "OSS Basic Training"
-weight: 3
-type: docs
-description: >
-  Basic educational material on the concept of open source licenses, open source compliance procedures (Korean)
+description: "NCSOFT has released lecture slides and scripts, which are open source educational materials in-house, on GitHub based on the spirit of sharing open source so that anyone can use them."
+author: Jiho Han ([@PeterHanJiho](https://github.com/PeterHanJiho))
+resources:
+- src: "**.{png,jpg}"
+  title: "Image #:counter"
+  params:
+    byline: "Photo: Jiho Han  / CC-BY-CA"
 ---
-
-## About
 
 [NCSOFT](https://global.ncsoft.com/) has released lecture slides and scripts, which are open source educational materials in-house, on [GitHub](https://github.com/ncsoft/oss-basic-training) based on the spirit of sharing open source so that anyone can use them.
 
 Companies that develop/distribute software can use this slide as it is or extract/modify necessary parts when preparing for in-house open source training.
 
-![cover](cover.png)
+![cover](featured-cover.png)
 
 Anyone can participate in modifying and supplementing these materials through [GitHub](https://github.com/ncsoft/oss-basic-training).
 
@@ -35,3 +37,5 @@ These materials can be downloaded from the following page.
 ## License
 
 * [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+---------
