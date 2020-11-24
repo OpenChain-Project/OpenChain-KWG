@@ -25,14 +25,14 @@ description: >
 | 3  | SCA(Software Composition Analysis)  Market Trend | Robin Hwang, Kakao | - | 
 | 4  | Olive, Grand Open | Robin Hwang, Kakao | - | 
 | 5  | Case Study | All | - |
-| 6  | OpenChain KWG Update | SK텔레콤 장학성 | -|
+| 6  | OpenChain KWG Update | Haksung Jang, SK telecom | -|
 | 7  | Free Discussion | All | - |
 
 ## Case Study
-* Are Fonts included in open source compliance activities? (Open Font)
-* Does the company distribute mobile apps (Android, iOS) for in-house employees? So, is this in-house app also the target of open source compliance activities?
-* What is the target of the open source security vulnerability inspection? Isn't it necessary to check not only the software you distribute, but also the software you are using for infrastructure and servers?
-
+* Subject: What is the subject of open source compliance and security vulnerability checks?
+  - Do you perform open source compliance activities for fonts? (Example: Open Font)
+  - Does the company distribute mobile apps (Android, iOS) for in-house employees? If so, are you also performing open source compliance activities for them?
+  - How do you classify the open source security vulnerability check targets? Do you include not only the software to be distributed, but also the software that is being used for infrastructure and servers as inspection targets?
 
 ## Attenddes
 * ...
