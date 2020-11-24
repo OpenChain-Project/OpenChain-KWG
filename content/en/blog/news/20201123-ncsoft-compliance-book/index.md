@@ -1,17 +1,21 @@
 ---
+date: 2020-11-23
 title: "Open Source Compliance in the Enterprise"
 linkTitle: "Open Source Compliance in the Enterprise"
-weight: 3
-type: docs
-description: >
-  Open Source Compliance in the Enterprise Korean Summary
+description: "NCSOFT summarized the Open Source Compliance in the Enterprise book and released it on GitHub for anyone to read."
+author: Jiho Han ([@PeterHanJiho](https://github.com/PeterHanJiho))
+resources:
+- src: "**.{png,jpg}"
+  title: "Image #:counter"
+  params:
+    byline: "Photo: Jiho Han  / CC-BY-CA"
 ---
 
 ## Introducing the Open Source Compliance in the Enterprise book
 
 This book was written by [Ibrahim Hadda](https://www.ibrahimatlinux.com/about.html) and [published](https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/) by the Linux Foundation.
 
-<img src="book.png" width="300">
+<img src="featured-book.png" width="300">
 
 It explains in detail what to consider when building an open source compliance program in a business, and anyone can download it from the following link : [Download](https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/)
 
@@ -31,4 +35,4 @@ In particular, NCSOFT shared this on GitHub so that anyone can refer to it, impr
 |-------------------|-----------------|------|------|
 | Dasom Han   | NCSOFT  | 	dasom12@ncsoft.com | Maintainer |
 | Peter Jiho Han  | NCSOFT | yulica37@ncsoft.com | Contributor | 
-
+---------
