@@ -9,10 +9,8 @@ description: >
 
 ## 교육 자료
 
-### NCSOFT 오픈소스 교육 자료
-[NCSOFT](https://global.ncsoft.com/)에서는 오픈소스의 공유 정신에 따라 사내 오픈소스 교육자료를 누구나 사용할 수 있도록 강의 교안(PPT)과 강의 스크립트를 [GitHub](https://github.com/ncsoft/oss-basic-training)에 공개하였습니다. 
-
-자세한 내용은 다음 링크를 참고하세요 : [LINK](https://openchain-project.github.io/OpenChain-KWG/blog/2020/11/23/oss-basic-training-slide/)
+* NCSOFT 오픈소스 교육 자료 : [LINK](https://openchain-project.github.io/OpenChain-KWG/blog/2020/11/23/oss-basic-training-slide/)
+* Kakao 오픈소스 교육 자료 : [LINK](https://openchain-project.github.io/OpenChain-KWG/blog/2020/11/24/kakao-training-material/)
 
 ## 학습 자료
 
