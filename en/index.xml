@@ -13,6 +13,112 @@
     
     
     <item>
+      <title>Blog: Open Source Compliance in the Enterprise</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/11/23/open-source-compliance-in-the-enterprise/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/11/23/open-source-compliance-in-the-enterprise/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/11/23/open-source-compliance-in-the-enterprise/featured-book_hu507ff350081ed18a3212a79b7740fd25_253665_640x0_resize_catmullrom_2.png" width="640" height="471"/>]]>
+        
+        &lt;h2 id=&#34;introducing-the-open-source-compliance-in-the-enterprise-book&#34;&gt;Introducing the Open Source Compliance in the Enterprise book&lt;/h2&gt;
+&lt;p&gt;This book was written by &lt;a href=&#34;https://www.ibrahimatlinux.com/about.html&#34;&gt;Ibrahim Hadda&lt;/a&gt; and &lt;a href=&#34;https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/&#34;&gt;published&lt;/a&gt; by the Linux Foundation.&lt;/p&gt;
+&lt;img src=&#34;featured-book.png&#34; width=&#34;300&#34;&gt;
+&lt;p&gt;It explains in detail what to consider when building an open source compliance program in a business, and anyone can download it from the following link : &lt;a href=&#34;https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/&#34;&gt;Download&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;korean-summary&#34;&gt;Korean summary&lt;/h2&gt;
+&lt;p&gt;NCSOFT summarized the main contents of this book in Korean, and after getting permission from the author, Ibrahim, they released it so that open source people of Korean companies can refer to it.&lt;/p&gt;
+&lt;p&gt;In particular, NCSOFT shared this on GitHub so that anyone can refer to it, improve it, and continue to develop it.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub : &lt;a href=&#34;https://github.com/ncsoft/osc-enterprise-ko/&#34;&gt;https://github.com/ncsoft/osc-enterprise-ko/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;License : CC BY 4.0&lt;/li&gt;
+&lt;li&gt;Slide : &lt;a href=&#34;OSC-Enterprise-ko_OpenchainKWG_20200317_FN.pdf&#34;&gt;OSC-Enterprise-ko_Openchain_KWG_20200317_FN.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;contributors&#34;&gt;Contributors&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Company&lt;/th&gt;
+&lt;th&gt;Email&lt;/th&gt;
+&lt;th&gt;Role&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Dasom Han&lt;/td&gt;
+&lt;td&gt;NCSOFT&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;mailto:dasom12@ncsoft.com&#34;&gt;dasom12@ncsoft.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Maintainer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Peter Jiho Han&lt;/td&gt;
+&lt;td&gt;NCSOFT&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;mailto:yulica37@ncsoft.com&#34;&gt;yulica37@ncsoft.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Contributor&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: OSS Basic Training Slide</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/11/23/oss-basic-training-slide/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/11/23/oss-basic-training-slide/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/11/23/oss-basic-training-slide/featured-cover_hu003f16982aa978f5b0a1755141a97a27_67333_640x0_resize_catmullrom_2.png" width="640" height="344"/>]]>
+        
+        &lt;p&gt;&lt;a href=&#34;https://global.ncsoft.com/&#34;&gt;NCSOFT&lt;/a&gt; has released lecture slides and scripts, which are open source educational materials in-house, on &lt;a href=&#34;https://github.com/ncsoft/oss-basic-training&#34;&gt;GitHub&lt;/a&gt; based on the spirit of sharing open source so that anyone can use them.&lt;/p&gt;
+&lt;p&gt;Companies that develop/distribute software can use this slide as it is or extract/modify necessary parts when preparing for in-house open source training.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;featured-cover.png&#34; alt=&#34;cover&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Anyone can participate in modifying and supplementing these materials through &lt;a href=&#34;https://github.com/ncsoft/oss-basic-training&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;download&#34;&gt;Download&lt;/h2&gt;
+&lt;p&gt;These materials can be downloaded from the following page.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ncsoft/oss-basic-training/tree/master/source&#34;&gt;https://github.com/ncsoft/oss-basic-training/tree/master/source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;maintainer&#34;&gt;Maintainer&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Company&lt;/th&gt;
+&lt;th&gt;Email&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Peter Jiho Han&lt;/td&gt;
+&lt;td&gt;NCSOFT&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;mailto:yulica37@ncsoft.com&#34;&gt;yulica37@ncsoft.com&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Dasom Han&lt;/td&gt;
+&lt;td&gt;NCSOFT&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;mailto:dasom12@ncsoft.com&#34;&gt;dasom12@ncsoft.com&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;CC-BY 4.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Blog: Another Sample post</title>
       <link>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/08/29/another-sample-post/</link>
       <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
