@@ -349,7 +349,7 @@
   
   <url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/resource/external/</loc>
-    <lastmod>2020-11-24T08:07:19+09:00</lastmod>
+    <lastmod>2020-11-24T14:50:47+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -359,36 +359,6 @@
                 rel="alternate"
                 hreflang="ko"
                 href="https://openChain-project.github.io/OpenChain-KWG/resource/external/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://openChain-project.github.io/OpenChain-KWG/resource/enterprise/</loc>
-    <lastmod>2020-10-26T16:18:44+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://openChain-project.github.io/OpenChain-KWG/en/resource/enterprise/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://openChain-project.github.io/OpenChain-KWG/resource/enterprise/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://openChain-project.github.io/OpenChain-KWG/resource/basic-training/</loc>
-    <lastmod>2020-10-24T13:19:12+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://openChain-project.github.io/OpenChain-KWG/en/resource/basic-training/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://openChain-project.github.io/OpenChain-KWG/resource/basic-training/"
                 />
   </url>
   
@@ -678,6 +648,16 @@
   </url>
   
   <url>
+    <loc>https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/23/open-source-compliance-in-the-enterprise/</loc>
+    <lastmod>2020-11-24T14:50:47+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/23/oss-basic-training-slide/</loc>
+    <lastmod>2020-11-24T14:50:47+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/another-sample-post/</loc>
     <lastmod>2020-08-29T13:36:50+09:00</lastmod>
     <xhtml:link
@@ -690,11 +670,6 @@
                 hreflang="ko"
                 href="https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/another-sample-post/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/oss-basic-training-slide/</loc>
-    <lastmod>2020-11-24T09:06:19+09:00</lastmod>
   </url>
   
   <url>

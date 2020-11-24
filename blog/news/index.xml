@@ -14,18 +14,74 @@
     
     
     <item>
-      <title>Blog: OSS Basic Training Slide</title>
-      <link>https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/oss-basic-training-slide/</link>
-      <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
+      <title>Blog: Open Source Compliance in the Enterprise</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/23/open-source-compliance-in-the-enterprise/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/oss-basic-training-slide/</guid>
+      <guid>https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/23/open-source-compliance-in-the-enterprise/</guid>
       <description>
         
         
-        &lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://global.ncsoft.com/&#34;&gt;NCSOFT&lt;/a&gt;에서는 오픈소스의 공유 정신에 따라 사내 오픈소스 교육자료를 누구나 사용할 수 있도록 강의 교안(PPT)과 강의 스크립트를 &lt;a href=&#34;https://github.com/ncsoft/oss-basic-training&#34;&gt;GitHub&lt;/a&gt;에 공개하였습니다.&lt;/p&gt;
+        
+        <![CDATA[<img src="https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/23/open-source-compliance-in-the-enterprise/featured-book_hu507ff350081ed18a3212a79b7740fd25_253665_640x0_resize_catmullrom_2.png" width="640" height="471"/>]]>
+        
+        &lt;h2 id=&#34;open-source-compliance-in-the-enterprise-책-소개&#34;&gt;Open Source Compliance in the Enterprise 책 소개&lt;/h2&gt;
+&lt;p&gt;이 책은 &lt;a href=&#34;https://www.ibrahimatlinux.com/about.html&#34;&gt;Ibrahim Hadda&lt;/a&gt;가 저술하고 &lt;a href=&#34;https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/&#34;&gt;Linux Foundation&lt;/a&gt;에서 발간하였습니다.&lt;/p&gt;
+&lt;img src=&#34;featured-book.png&#34; width=&#34;300&#34;&gt;
+&lt;p&gt;기업에서 오픈소스 컴플라이언스 프로그램을 구축할때 고려해야 사항들을 자세히 설명하며 다음 링크에서 누구나 다운로드 가능합니다. : &lt;a href=&#34;https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/&#34;&gt;Download&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;한국어-요약&#34;&gt;한국어 요약&lt;/h2&gt;
+&lt;p&gt;NCSOFT에서는 이 책의 주요 내용을 한글로 요약하였고 저자인 Ibrahim으로부터 허가를 받은 후 국내 기업의 오픈소스 담당자들이 참고할 수 있도록 공개하였습니다.&lt;/p&gt;
+&lt;p&gt;특히, 이를 GitHub에 공유하여 누구나 참고하고, 개선하여 계속 발전시킬 수 있게 하였습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub : &lt;a href=&#34;https://github.com/ncsoft/osc-enterprise-ko/&#34;&gt;https://github.com/ncsoft/osc-enterprise-ko/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;License : CC BY 4.0&lt;/li&gt;
+&lt;li&gt;발표자료 : &lt;a href=&#34;OSC-Enterprise-ko_OpenchainKWG_20200317_FN.pdf&#34;&gt;OSC-Enterprise-ko_Openchain_KWG_20200317_FN.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;기여자-현황&#34;&gt;기여자 현황&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Company&lt;/th&gt;
+&lt;th&gt;Email&lt;/th&gt;
+&lt;th&gt;Role&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Dasom Han&lt;/td&gt;
+&lt;td&gt;NCSOFT&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;mailto:dasom12@ncsoft.com&#34;&gt;dasom12@ncsoft.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Maintainer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Peter Jiho Han&lt;/td&gt;
+&lt;td&gt;NCSOFT&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;mailto:yulica37@ncsoft.com&#34;&gt;yulica37@ncsoft.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Contributor&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: OSS Basic Training Slide</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/23/oss-basic-training-slide/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/23/oss-basic-training-slide/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/23/oss-basic-training-slide/featured-cover_hu003f16982aa978f5b0a1755141a97a27_67333_640x0_resize_catmullrom_2.png" width="640" height="344"/>]]>
+        
+        &lt;p&gt;&lt;a href=&#34;https://global.ncsoft.com/&#34;&gt;NCSOFT&lt;/a&gt;에서는 오픈소스의 공유 정신에 따라 사내 오픈소스 교육자료를 누구나 사용할 수 있도록 강의 교안(PPT)과 강의 스크립트를 &lt;a href=&#34;https://github.com/ncsoft/oss-basic-training&#34;&gt;GitHub&lt;/a&gt;에 공개하였습니다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;featured-cover.png&#34; alt=&#34;featured-cover&#34;&gt;&lt;/p&gt;
 &lt;p&gt;소프트웨어를 개발/배포하는 기업에서 사내 오픈소스 교육을 준비하면서 이 교안을 직접 사용하거나, 필요한 부분을 발췌/수정하여 사용할 수 있습니다.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;cover.png&#34; alt=&#34;cover&#34;&gt;&lt;/p&gt;
 &lt;p&gt;교육자료에 대한 수정과 보완은 &lt;a href=&#34;https://github.com/ncsoft/oss-basic-training&#34;&gt;GitHub&lt;/a&gt;을 통해 누구나 참여할 수 있습니다.&lt;/p&gt;
 &lt;h2 id=&#34;download&#34;&gt;Download&lt;/h2&gt;
 &lt;p&gt;교육자료와 강의 스크립트는 다음 페이지에서 다운로드 받을 수 있습니다.&lt;/p&gt;
