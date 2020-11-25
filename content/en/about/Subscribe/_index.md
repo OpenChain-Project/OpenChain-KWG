@@ -18,4 +18,5 @@ You can sign up for OpenChain KWG's Mailing List from the link below.
 * [https://lists.openchainproject.org/g/korea-wg](https://lists.openchainproject.org/g/korea-wg)
 
 ## Inquiry
-If you have any inquiries about joining OpenChain KWG, please contact us by email. : korea-sg-planning@lists.openchainproject.org
+If you have any inquiries about joining OpenChain KWG, please contact us by email. 
+* Email : korea-sg-planning@lists.openchainproject.org
