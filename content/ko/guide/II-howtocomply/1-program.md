@@ -136,7 +136,7 @@ The organization shall ensure that the program participants are aware of:
 이 가이드에서는 프로그램 참여자가 오픈소스 정책을 인식하게 하기 위한 교육과 평가 방침에 대한 예시를 “[[부록 01] 샘플 오픈소스 정책의 5. 교육 및 평가](../../appendix/1-policy-template/#5-교육-및-평가)”에서 제공한다.
 
 
-## 3.1.4 프로그램 범위
+## 1.4 프로그램 범위
 
 OpenChain 규격 버전 2.1의 3.1.4항에서는 다음과 같이 프로그램 범위에 대한 요구사항과 입증 자료를 정의하고 있다.
 
@@ -172,7 +172,7 @@ Different programs may be governed by different levels of scope. For example, a 
 이 가이드에서는 프로그램 범위 지정에 대한 예시를 “[[부록 01] 샘플 오픈소스 정책의 2. 적용 범위](../../appendix/1-policy-template/#2-적용-범위)”에서 제공한다.
 
 
-## 3.1.5 라이선스 의무
+## 1.5 라이선스 의무
 
 OpenChain 규격 버전 2.1의 3.1.5항에서는 다음과 같이 라이선스 의무에 대한 요구사항과 입증 자료를 정의하고 있다.
 
