@@ -28,8 +28,8 @@ _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
 | 3  | SCA(Software Composition Analysis)  Market 동향 | 카카오 황민호(Robin) | - | 
 | 4  | Olive 전격 공개 | 카카오 황민호(Robin) | - | 
 | 5  | Case Study | All | - |
-| 5  | OpenChain KWG Update | SK텔레콤 장학성 | -|
-| 6  | Free Discussion | All | - |
+| 6  | OpenChain KWG Update | SK텔레콤 장학성 | -|
+| 7  | Free Discussion | All | - |
 
 ## Case Study
 * 주제 : 오픈소스 컴플라이언스 / 보안취약점 점검 대상 분류
