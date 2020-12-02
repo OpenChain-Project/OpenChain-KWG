@@ -20,8 +20,9 @@ Planning Group, as the management team of OpenChain KWG, performs the following 
 * Robin Hwang, Kakao
 * Seoyeon Lee, Line
 * Soim Kim, LG Electronics
-* Dasom Han, NCSoft
-* Jiho Han, NCSoft
+* Dasom Han, NCSOFT
+* Jiho Han, NCSOFT
+* Tommy Lee, NCSOFT
 
 ## Contact
 
