@@ -6,10 +6,11 @@ type: docs
 description: >
  Online Meeting, Dec 2020
 ---
-<!-- <img src="OpenChain-KWG-7th-1.png" width="90%"> -->
 
 ![kwg-logo.gif](openchain-xmas-2.gif)
 _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
+
+<img src="kwg8-2.png" width="100%">
 
 ## Intro
 
@@ -23,12 +24,13 @@ _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
 
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
+| 0  | Intro & Greetings  | SK텔레콤 장학성 | [Download](./OpenChainKWG-8th-2020-12-02-intro.pdf) |
+| 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | [Download](./OpenChain%20Korea%20#8%20Keynote.pdf) |
 | 2  | 현대자동차 오픈소스 거버넌스 체계 구축 | 현대자동차 백송하 |  - | 
-| 3  | SCA(Software Composition Analysis)  Market 동향 | 카카오 황민호(Robin) | - | 
+| 3  | SCA(Software Composition Analysis)  Market 동향 | 카카오 황민호(Robin) | [Download](./SCA%20Market%20Wave%202020.pdf) | 
 | 4  | Olive 전격 공개 | 카카오 황민호(Robin) | - | 
 | 5  | Case Study | All | - |
-| 6  | OpenChain KWG Update | SK텔레콤 장학성 | -|
+| 6  | OpenChain KWG Update | SK텔레콤 장학성 | [Download](./OpenChainKWG-8th-2020-12-02-update.pdf) |
 | 7  | Free Discussion | All | - |
 
 ## Case Study
@@ -50,8 +52,8 @@ _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
 
 
 ## Photo Gallery
-...
 
+<img src="kwg8-1.png" width="100%">
 
 ![kwg-logo.gif](openchain-xmas.gif)
 _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
