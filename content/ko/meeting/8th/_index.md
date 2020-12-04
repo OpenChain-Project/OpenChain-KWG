@@ -52,8 +52,9 @@ _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
 
 
 ## Photo Gallery
-
-<img src="kwg8-1.png" width="100%">
+<div ><span class="image fit">
+  <img src="kwg8-1.png" width="90%">
+</span></div>
 
 ![kwg-logo.gif](openchain-xmas.gif)
 _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
