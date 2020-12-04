@@ -11,7 +11,7 @@ description: >
 ![kwg-logo.gif](openchain-xmas-2.gif)
 _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
 
-<img src="kwg8-2.png" width="100%">
+<img src="kwg8-2.png" width="90%">
 ## Intro
 
 * Schedule: 2020-12-02 (Wed) 2:00~4:00 pm
