@@ -30,7 +30,7 @@ description: >
 | 5  | Case Study : BOM Tracking 방법 (How to track BOM) | All | -  | 
 | 6  |OpenChain KWG Updates | SK텔레콤 장학성 (Haksung Jang, SK Telecom) |[Download](OpenChainKWG-5th-Updates.pdf)  | 
 
-## Attenddes
+## Attendees
 
 * NCSoft
 * Kakao
