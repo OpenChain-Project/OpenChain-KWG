@@ -30,7 +30,7 @@ description: >
 | 4  | Case Study : 오픈소스 기여/공개 정책 (Open Source Contribution / Release Policy) | All | [Download](OpenChainKWG_6th_20200616.pdf) |
 | 5  | Free Discussion | All | - |
 
-## Attenddes
+## Attendees
 
 * NCSoft
 * Kakao

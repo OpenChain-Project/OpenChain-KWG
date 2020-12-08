@@ -26,7 +26,7 @@ description: >
 | 3  | 오픈소스 소프트웨어 라이선스 검증기 (Open Source Software License Analysis History) | 엔씨소프트 한지호 (NCsoft, Jiho Han) | [Download](ncsoft_20190904.pdf)  | 
 | 4  | OpenChain 따라잡기 (Catch up with OpenChain) | LG전자 장학성 (Haksung Jang, LG Electronics) |[Download](openchainthirdkoreanworkshop-190909143700.pdf)  | 
 
-## Attenddes
+## Attendees
 * KT
 * KTDS
 * LG Electronics
