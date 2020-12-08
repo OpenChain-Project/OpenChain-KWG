@@ -26,7 +26,7 @@ description: >
 | 3  | Open Source 분석 도구 검토 현황 (Open Source Analysis Tool Review) | 삼성전자 김희성 (Hee Sung Kim, Samsung Electronics) | - | 
 | 4  | Open Source Compliance Tool based on Open Source | LG전자 장학성 (Haksung Jang, LG Electronics) | [fossology](036_oss_tooling_20190506_fossology_and_sw360_updates_04.pdf), [oss-toolchain](oss-compliance-toolcahin-2019.pdf), [ClearlyDefined](ClearlyDefined-Crowdsourcing-Project-Security-and-Licensing-Data-Jeff-McAffer-Microsoft.pdf) | 
 
-## Attenddes
+## Attendees
 * KT (1)
 * KTDS (2)
 * LG Electronics (9)
