@@ -37,7 +37,7 @@ description: >
 | 1 | SK텔레콤, 박철웅 (SK telecom, Woody Park)         | [Download](openchainkwg_organization_skt_20191202.pdf) |
 | 1 | 엔씨소프트, 한다솜 (NCSoft, Dasom Han)       | [Download](openchain_kwg_case_study_ncsoft_2019-12-02.pdf) |
 
-## Attenddes
+## Attendees
 * KTDS
 * LG Electronics
 * SK telecom

@@ -27,7 +27,7 @@ description: >
 | 5  | OpenChain KWG Update | SK텔레콤 장학성 | [Download](openchain-kwg-7th-2020-09-22.pdf) |
 | 6  | Free Discussion | All | - |
 
-## Attenddes
+## Attendees
 * Hyundai Mobis
 * Hyundai Motors
 * Kakao
