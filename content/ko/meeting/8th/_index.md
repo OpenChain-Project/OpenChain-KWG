@@ -64,7 +64,7 @@ _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
   - 12월 내에 중국어, 독일어, 프랑스어, 이탈리아어, 스페인어 등 가능해질 것
 - SPDX 2.2도 ISO/IEC Transposition Process 진입
   - 2021년 2분기에 채택될 예정
-### Openchain T-shirt 추가 지원 
+#### Openchain T-shirt 추가 지원 
 - 추가로 티셔츠를 희망하는 분은 예산 지원 가능하다고 합니다! (Planning Group에 문의해 주세요 : korea-sg-planning@lists.openchainproject.org)
 
 ### 2. 현대자동차 오픈소스 거버넌스 체계 구축(백송하, 현대자동차)
@@ -122,7 +122,7 @@ _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
       4. 응답 시간 단축: 취약점을 빠르게 감지하고 우선순위 결정할 수 있는지
       5. 보고서 발급
   - Forrester Wave 연구 결과
-    - 2017년만에도 SCA가 막 시작하는 단계였고, 2019년에는 기존 업체들이 리더 포지션으로 정착하고, 새로운 서비스들이 탄생하였음
+    - 2017년만 해도 SCA가 막 시작하는 단계였고, 2019년에는 기존 업체들이 리더 포지션으로 정착하고, 새로운 서비스들이 탄생하였음
   - G2 소프트웨어 평가 기관에 따르면
     - 1등은 Gitlab, 2등은 WhiteSource라고 함
 
@@ -155,10 +155,10 @@ _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
 - 현재는 베타 버전만 공개한 상태이고, 기능 확장하여 정식 공개 예정
 - 일부 모듈은 오픈소스로 공개 예정
 
-### 4. Case Study
+### 5. Case Study
 메일 참조
 
-### 5. OpenChain KWG Update (장학성, SK텔레콤)
+### 6. OpenChain KWG Update (장학성, SK텔레콤)
 - KWG T-shirt 제작
   - 자체 디자인 제작 (Thanks to 소임)
   - 신청자 전원 무상 지급 완료 (Linux Foundation 지원)
