@@ -50,6 +50,27 @@ _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
 * SamSung Electronics
 * SK telecom
 
+
+## Video
+
+### Introductions and Update
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IzED17cZDmM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Hyundai’s Open Source Governance System
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/me3g6YHdXlA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Trends in Software Component Analysis (SCA)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sn9zxYWsxqQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Kakao’s Olive System
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/whonTsWWtMs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 ## Minutes
 ### 1. OpenChain Update (Shane Coughlan, Linux Foundation) 
 #### OpenChain 2.1 – ISO / IEC International Standard
@@ -187,14 +208,15 @@ _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
   - LG전자에서 Fossology를 개선해서 사용하고 있는 부분을 내부적으로 검토해서 KWG에서 공개하겠음
 
 
-## Video
-...
-
-
 ## Photo Gallery
 <div ><span class="image fit">
   <img src="kwg8-1.png" width="90%">
 </span></div>
+
+
+## OpenChain News
+https://www.openchainproject.org/featured/2020/12/09/openchain-korea-work-group-meeting-8-full-recording
+
 
 ![kwg-logo.gif](openchain-xmas.gif)
 _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
