@@ -172,7 +172,7 @@ _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
 3. Can you provide a list of SCA blogs?
    > To be shared <br> Many SCA companies have blogs, and you can read a lot of high-quality articles.
  
-### 4. Olive blitz released (Hwang Min-ho (Robin), Kakao)
+### 4. Olive released (Hwang Min-ho (Robin), Kakao)
 -Olive URL: https://olive.kakao.com
 -Kakao login-based, Github integration required
 -Currently, only the beta version has been released, and will be officially released by expanding the function.
