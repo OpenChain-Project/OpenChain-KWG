@@ -26,7 +26,7 @@ _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
 |----|-----------------|------|------|
 | 0  | Intro & Greetings  | SK텔레콤 장학성 | [Download](./OpenChainKWG-8th-2020-12-02-intro.pdf) |
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | [Download](./OpenChain%20Korea%20#8%20Keynote.pdf) |
-| 2  | 현대자동차 오픈소스 거버넌스 체계 구축 | 현대자동차 백송하 |  - | 
+| 2  | 현대자동차 오픈소스 거버넌스 체계 구축 | 현대자동차 백송하 |  [Download](./20201202_Hyundai.pdf) | 
 | 3  | SCA(Software Composition Analysis)  Market 동향 | 카카오 황민호(Robin) | [Download](./SCA%20Market%20Wave%202020.pdf) | 
 | 4  | Olive 전격 공개 | 카카오 황민호(Robin) | - | 
 | 5  | Case Study | All | - |
