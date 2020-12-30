@@ -38,7 +38,7 @@ In order for a program to be deemed OpenChain conformant, the organization shall
 
 OpenChain 규격의 모든 요구사항을 충족한다면, [[부록 01] 샘플 오픈소스 정책의 9장](../../appendix/1-policy-template/#9-openchain-적합성)에서와같이 OpenChain에 적합하다고 정책 문서상에 명시할 수 있다.
 
-## 3.6.2 지속 기간
+## 6.2 지속 기간
 
 OpenChain 규격 버전 2.1의 3.6.2항에서는 다음과 같이 지속 기간에 대한 요구사항과 입증 자료를 정의하고 있다.
 
