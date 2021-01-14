@@ -558,21 +558,6 @@
   </url>
   
   <url>
-    <loc>https://openChain-project.github.io/OpenChain-KWG/blog/news/</loc>
-    <lastmod>2020-08-29T13:36:50+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://openChain-project.github.io/OpenChain-KWG/en/blog/news/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://openChain-project.github.io/OpenChain-KWG/blog/news/"
-                />
-  </url>
-  
-  <url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/resource/</loc>
     <lastmod>2020-11-16T11:03:50+09:00</lastmod>
     <xhtml:link
@@ -584,21 +569,6 @@
                 rel="alternate"
                 hreflang="ko"
                 href="https://openChain-project.github.io/OpenChain-KWG/resource/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://openChain-project.github.io/OpenChain-KWG/blog/tech/</loc>
-    <lastmod>2020-08-29T13:36:50+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://openChain-project.github.io/OpenChain-KWG/en/blog/tech/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://openChain-project.github.io/OpenChain-KWG/blog/tech/"
                 />
   </url>
   
@@ -648,38 +618,83 @@
   </url>
   
   <url>
-    <loc>https://openChain-project.github.io/OpenChain-KWG/blog/2020/12/31/opensource-license-used-by-it-companies/</loc>
-    <lastmod>2021-01-14T04:10:03+09:00</lastmod>
+    <loc>https://openChain-project.github.io/OpenChain-KWG/blog/2021/</loc>
+    <lastmod>2021-01-14T20:04:57+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/12/31/opensource-license-used-by-it-companies/"
+                href="https://openChain-project.github.io/OpenChain-KWG/en/blog/2021/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="https://openChain-project.github.io/OpenChain-KWG/blog/2020/12/31/opensource-license-used-by-it-companies/"
+                href="https://openChain-project.github.io/OpenChain-KWG/blog/2021/"
                 />
   </url>
   
   <url>
-    <loc>https://openChain-project.github.io/OpenChain-KWG/blog/2020/12/16/2020-12-16-iso-standard-openchain/</loc>
-    <lastmod>2020-12-24T09:45:45+09:00</lastmod>
+    <loc>https://openChain-project.github.io/OpenChain-KWG/blog/2020/</loc>
+    <lastmod>2021-01-14T20:04:57+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/12/16/2020-12-16-iso-standard-openchain/"
+                href="https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="https://openChain-project.github.io/OpenChain-KWG/blog/2020/12/16/2020-12-16-iso-standard-openchain/"
+                href="https://openChain-project.github.io/OpenChain-KWG/blog/2020/"
                 />
   </url>
   
   <url>
-    <loc>https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/24/kakao-training-material/</loc>
-    <lastmod>2020-11-24T18:43:04+09:00</lastmod>
+    <loc>https://openChain-project.github.io/OpenChain-KWG/blog/sample/</loc>
+    <lastmod>2021-01-14T20:04:57+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://openChain-project.github.io/OpenChain-KWG/en/blog/sample/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://openChain-project.github.io/OpenChain-KWG/blog/sample/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://openChain-project.github.io/OpenChain-KWG/blog/2021/01/14/%EA%B8%B0%EC%97%85%EB%B3%84-github-%ED%99%9C%EB%8F%99-%EC%88%9C%EC%9C%84%EC%99%80-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4-%ED%98%84%ED%99%A9/</loc>
+    <lastmod>2021-01-14T20:04:57+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://openChain-project.github.io/OpenChain-KWG/en/blog/2021/01/14/opensource-license-used-by-it-companies/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://openChain-project.github.io/OpenChain-KWG/blog/2021/01/14/%EA%B8%B0%EC%97%85%EB%B3%84-github-%ED%99%9C%EB%8F%99-%EC%88%9C%EC%9C%84%EC%99%80-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4-%ED%98%84%ED%99%A9/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://openChain-project.github.io/OpenChain-KWG/blog/2020/12/16/openchain-iso-%ED%91%9C%EC%A4%80-%EB%93%B1%EB%A1%9D/</loc>
+    <lastmod>2021-01-14T20:04:57+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/12/16/iso-standard-openchain/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://openChain-project.github.io/OpenChain-KWG/blog/2020/12/16/openchain-iso-%ED%91%9C%EC%A4%80-%EB%93%B1%EB%A1%9D/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/24/%EC%B9%B4%EC%B9%B4%EC%98%A4-%EA%B5%90%EC%9C%A1-%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C/</loc>
+    <lastmod>2021-01-14T20:04:57+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -688,13 +703,28 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/24/kakao-training-material/"
+                href="https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/24/%EC%B9%B4%EC%B9%B4%EC%98%A4-%EA%B5%90%EC%9C%A1-%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C/"
                 />
   </url>
   
   <url>
-    <loc>https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/23/open-source-compliance-in-the-enterprise/</loc>
-    <lastmod>2020-11-24T15:27:48+09:00</lastmod>
+    <loc>https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/23/ncsoft-%EA%B5%90%EC%9C%A1%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C/</loc>
+    <lastmod>2021-01-14T20:04:57+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/11/23/ncsoft-training-material/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/23/ncsoft-%EA%B5%90%EC%9C%A1%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/23/open-source-compliance-in-the-enterprise-%EC%9A%94%EC%95%BD-%EC%9E%90%EB%A3%8C/</loc>
+    <lastmod>2021-01-14T20:04:57+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -703,28 +733,13 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/23/open-source-compliance-in-the-enterprise/"
+                href="https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/23/open-source-compliance-in-the-enterprise-%EC%9A%94%EC%95%BD-%EC%9E%90%EB%A3%8C/"
                 />
   </url>
   
   <url>
-    <loc>https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/23/oss-basic-training-slide/</loc>
-    <lastmod>2020-11-24T15:27:22+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/11/23/oss-basic-training-slide/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/23/oss-basic-training-slide/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/another-sample-post/</loc>
-    <lastmod>2020-08-29T13:36:50+09:00</lastmod>
+    <loc>https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/this-is-a-sample-post-2/</loc>
+    <lastmod>2021-01-14T20:04:57+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -733,22 +748,22 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/another-sample-post/"
+                href="https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/this-is-a-sample-post-2/"
                 />
   </url>
   
   <url>
-    <loc>https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/the-sample-blog-post/</loc>
-    <lastmod>2020-08-29T13:36:50+09:00</lastmod>
+    <loc>https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/this-is-a-sample-blog-post-1/</loc>
+    <lastmod>2021-01-14T20:04:57+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/08/29/the-sample-blog-post/"
+                href="https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/08/29/the-sample-blog-post-with-images/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/the-sample-blog-post/"
+                href="https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/this-is-a-sample-blog-post-1/"
                 />
   </url>
   
