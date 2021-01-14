@@ -1,7 +1,7 @@
 ---
-date: 2020-12-31
-title: "Opensource license used by IT Companies"
-linkTitle: "Opensource license used by IT Companies"
+date: 2021-01-14
+title: "기업별 Github 활동 순위와 라이선스 현황"
+linkTitle: "기업별 Github 활동 순위와 라이선스 현황"
 description: "주요 IT 기업들의 Opensource 사용 현황을 공유합니다."
 author: Robin Hwang ([@revfactory](https://github.com/revfactory))
 resources:

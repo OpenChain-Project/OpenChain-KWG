@@ -1,5 +1,5 @@
 ---
-date: 2020-12-31
+date: 2021-01-14
 title: "Opensource license used by IT Companies"
 linkTitle: "Opensource license used by IT Companies"
 description: "Share the usage of the Opensource by major IT companies"

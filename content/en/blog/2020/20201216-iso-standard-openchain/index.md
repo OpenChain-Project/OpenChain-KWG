@@ -1,7 +1,7 @@
 ---
 date: 2020-12-16
-title: "2020-12-16 ISO Standard, OpenChain"
-linkTitle: "2020-12-16 ISO Standard"
+title: "ISO Standard, OpenChain"
+linkTitle: "ISO Standard"
 description: "The International Standard For Open Source Compliance"
 author: OpenChain Project
 resources:
