@@ -1,7 +1,7 @@
 ---
 date: 2020-11-23
-title: "OSS Basic Training Slide"
-linkTitle: "OSS Basic Training"
+title: "NCSOFT 교육자료 공개"
+linkTitle: "NCSOFT 교육자료"
 description: "NCSOFT에서 오픈소스 라이선스에 대한 개념, 오픈소스 컴플라이언스 절차, 코드 작성 시 주의해야 할 점 등에 대한 교육자료를 공개하였습니다"
 author: Jiho Han ([@PeterHanJiho](https://github.com/PeterHanJiho))
 resources:
