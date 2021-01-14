@@ -93,7 +93,7 @@ _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
 - 2015년, OIN(Open Invention Network) 가입: 오픈소스에 대한 특허권 크로스 라이선싱 단체
   - Toyota, BMW, Honda 등이 참여하는 업계 컨소시엄에서 OIN 홍보를 많이 했음
 - 2016년, Toyota에서 OIN 가입 후 1000만불 기부하여 Gold Member로 승인받음
-- 2017년, 오픈소스SW 라이선스 전문교육을 받고 컴플라이언스에 대한 중요성 인식
+- 2017년, 오픈소스 라이선스 전문교육을 받고 컴플라이언스에 대한 중요성 인식
 - 2018년, TFT 신설
 #### 업계 특성
 - 자동차에 포함되어 있는 소프트웨어 라인수가 1억줄 이상 (타 소프트웨어보다 더 비중이 큼)
