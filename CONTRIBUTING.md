@@ -21,9 +21,9 @@ OpenChain KWG의 모든 활동은 누구나 열람하고 사용할 수 있도록
 이 웹사이트에는 주기적으로 생성되는 다음과 같은 자료를 추가하고 있습니다. 
 
 * [Resource](https://openchain-project.github.io/OpenChain-KWG/resource/) : OpenChain KWG에서 번역/생성한 자료 공개
-* [Meeting](https://openchain-project.github.io/OpenChain-KWG/meeting/) : OpenChain KWG 정기 모임 공지, 발표자료, 참석자, 회의록 등 자료 공개
-* [Subgroup](https://openchain-project.github.io/OpenChain-KWG/subgroup/) : OpenChain KWG Subgroup의 활동 자료 공개
-* [Blog](https://openchain-project.github.io/OpenChain-KWG/blog/) : OpenChain KWG 멤버가 작성하는 뉴스, 기술블로그 공개
+* [Meeting](https://openchain-project.github.io/OpenChain-KWG/meeting/) : OpenChain KWG 정기 모임 공지, 발표자료, 참석자, 회의록 등 자료 공개  (작성 방법 : [Meeting 내용 작성하기](https://github.com/OpenChain-Project/OpenChain-KWG/wiki/Meeting-%EB%82%B4%EC%9A%A9-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0))
+* [Subgroup](https://openchain-project.github.io/OpenChain-KWG/subgroup/) : OpenChain KWG Subgroup의 활동 자료 공개 (작성 방법 : [Subgroup 내용 작성하기](https://github.com/OpenChain-Project/OpenChain-KWG/wiki/Subgroup-%EB%82%B4%EC%9A%A9-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0))
+* [Blog](https://openchain-project.github.io/OpenChain-KWG/blog/) : OpenChain KWG 멤버가 작성하는 뉴스, 기술블로그 공개 (작성 방법 : [Blog 작성하기](https://github.com/OpenChain-Project/OpenChain-KWG/wiki/Blog-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0))
 
 이러한 자료를 추가하는 데 기여하실 분을 모십니다. 자료를 추가하는 방법은 다음 페이지를 참고하세요!
 
