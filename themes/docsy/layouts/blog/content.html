@@ -11,6 +11,13 @@
 		{{ partial "disqus-comment.html" . }}
 		<br />
 	{{ end }}
-
+	<script src="https://utteranc.es/client.js"
+		repo="[ENTER REPO HERE]"
+		issue-term="pathname"
+		label="Comment"
+		theme="github-light"
+		crossorigin="anonymous"
+		async>
+	</script>
 	{{ partial "pager.html" . }}
 </div>
