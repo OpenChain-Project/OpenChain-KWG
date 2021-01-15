@@ -13,7 +13,7 @@ resources:
 
 ## Open Source Compliance in the Enterprise 책 소개
 
-이 책은 [Ibrahim Hadda](https://www.ibrahimatlinux.com/about.html)가 저술하고 [Linux Foundation](https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/)에서 발간하였습니다. 
+이 책은 [Ibrahim Haddad](https://www.ibrahimatlinux.com/about.html)가 저술하고 [Linux Foundation](https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/)에서 발간하였습니다. 
 
 <img src="featured-book.png" width="300">
 

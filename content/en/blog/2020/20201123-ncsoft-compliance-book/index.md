@@ -13,7 +13,7 @@ resources:
 
 ## Introducing the Open Source Compliance in the Enterprise book
 
-This book was written by [Ibrahim Hadda](https://www.ibrahimatlinux.com/about.html) and [published](https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/) by the Linux Foundation.
+This book was written by [Ibrahim Haddad](https://www.ibrahimatlinux.com/about.html) and [published](https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/) by the Linux Foundation.
 
 <img src="featured-book.png" width="300">
 
