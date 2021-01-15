@@ -1,6 +1,6 @@
 
 ---
-title: "This is a sample post 2"
+title: "샘플 블로그입니다."
 linkTitle: "샘플 블로그"
 date: 2020-08-29
 description: >
