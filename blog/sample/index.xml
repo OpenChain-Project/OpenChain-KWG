@@ -14,11 +14,11 @@
     
     
     <item>
-      <title>Blog: This is a sample post 2</title>
-      <link>https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/this-is-a-sample-post-2/</link>
+      <title>Blog: 샘플 블로그입니다.</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/%EC%83%98%ED%94%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9E%85%EB%8B%88%EB%8B%A4./</link>
       <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/this-is-a-sample-post-2/</guid>
+      <guid>https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/%EC%83%98%ED%94%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9E%85%EB%8B%88%EB%8B%A4./</guid>
       <description>
         
         
@@ -309,16 +309,16 @@ This is a warning with a title!
     </item>
     
     <item>
-      <title>Blog: This is a sample blog post 1</title>
-      <link>https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/this-is-a-sample-blog-post-1/</link>
+      <title>Blog: 이미지를 포함한 샘플 블로그입니다.</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A5%BC-%ED%8F%AC%ED%95%A8%ED%95%9C-%EC%83%98%ED%94%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9E%85%EB%8B%88%EB%8B%A4./</link>
       <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/this-is-a-sample-blog-post-1/</guid>
+      <guid>https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A5%BC-%ED%8F%AC%ED%95%A8%ED%95%9C-%EC%83%98%ED%94%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9E%85%EB%8B%88%EB%8B%A4./</guid>
       <description>
         
         
         
-        <![CDATA[<img src="https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/this-is-a-sample-blog-post-1/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_640x0_resize_catmullrom_2.png" width="640" height="253"/>]]>
+        <![CDATA[<img src="https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A5%BC-%ED%8F%AC%ED%95%A8%ED%95%9C-%EC%83%98%ED%94%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9E%85%EB%8B%88%EB%8B%A4./featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_640x0_resize_catmullrom_2.png" width="640" height="253"/>]]>
         
         &lt;p&gt;Text can be &lt;strong&gt;bold&lt;/strong&gt;, &lt;em&gt;italic&lt;/em&gt;, or &lt;del&gt;strikethrough&lt;/del&gt;. &lt;a href=&#34;https://github.com&#34;&gt;Links&lt;/a&gt; should be blue with no underlines (unless hovered over).&lt;/p&gt;
 &lt;p&gt;There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&lt;/p&gt;
@@ -612,7 +612,7 @@ This is a warning with a title!
 
 
 &lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 610px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/2020/08/29/this-is-a-sample-blog-post-1/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_600x300_fill_catmullrom_smart1_2.png&#34; width=&#34;600&#34; height=&#34;300&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/2020/08/29/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A5%BC-%ED%8F%AC%ED%95%A8%ED%95%9C-%EC%83%98%ED%94%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9E%85%EB%8B%88%EB%8B%A4./featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_600x300_fill_catmullrom_smart1_2.png&#34; width=&#34;600&#34; height=&#34;300&#34;&gt;
 	
 	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
@@ -636,7 +636,7 @@ Fetch and scale an image in the upcoming Hugo 0.43.
 
 
 &lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 610px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/2020/08/29/this-is-a-sample-blog-post-1/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_600x300_fill_catmullrom_smart1_2.png&#34; width=&#34;600&#34; height=&#34;300&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/2020/08/29/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A5%BC-%ED%8F%AC%ED%95%A8%ED%95%9C-%EC%83%98%ED%94%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9E%85%EB%8B%88%EB%8B%A4./featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_600x300_fill_catmullrom_smart1_2.png&#34; width=&#34;600&#34; height=&#34;300&#34;&gt;
 	
 	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
