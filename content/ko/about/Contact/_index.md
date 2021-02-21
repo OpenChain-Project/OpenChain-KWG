@@ -7,6 +7,10 @@ description: >
   OpenChain KWG의 메일링 리스트로 연락하세요.
 ---
 
+<div ><span class="image fit">
+  <img src="openchain-kwg-newyear-02.png" width="50%">
+</div>
+
 OpenChain KWG의 기본 소통 채널은 Mailing List입니다. OpenChain KWG에 문의/요청이 있을 경우 아래의 Mailing List 주소로 연락하세요. 
 
 ## MAILING LIST 현황
