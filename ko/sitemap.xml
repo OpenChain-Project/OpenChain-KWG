@@ -528,6 +528,21 @@
   </url>
   
   <url>
+    <loc>https://openChain-project.github.io/OpenChain-KWG/meeting/9th/</loc>
+    <lastmod>2021-02-21T22:42:10+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://openChain-project.github.io/OpenChain-KWG/en/meeting/9th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://openChain-project.github.io/OpenChain-KWG/meeting/9th/"
+                />
+  </url>
+  
+  <url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/2021/1st-meeting/</loc>
     <lastmod>2021-02-19T10:50:52+09:00</lastmod>
     <xhtml:link
@@ -559,7 +574,7 @@
   
   <url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/about/contact/</loc>
-    <lastmod>2020-08-29T16:32:30+09:00</lastmod>
+    <lastmod>2021-02-21T22:42:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -574,7 +589,7 @@
   
   <url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/about/</loc>
-    <lastmod>2020-11-25T00:17:29+09:00</lastmod>
+    <lastmod>2021-02-21T22:42:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -604,7 +619,7 @@
   
   <url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/meeting/</loc>
-    <lastmod>2020-11-16T11:03:50+09:00</lastmod>
+    <lastmod>2021-02-21T22:42:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -809,21 +824,6 @@
                 rel="alternate"
                 hreflang="ko"
                 href="https://openChain-project.github.io/OpenChain-KWG/blog/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://openChain-project.github.io/OpenChain-KWG/community/</loc>
-    <lastmod>2020-08-29T13:36:50+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://openChain-project.github.io/OpenChain-KWG/en/community/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://openChain-project.github.io/OpenChain-KWG/community/"
                 />
   </url>
   
