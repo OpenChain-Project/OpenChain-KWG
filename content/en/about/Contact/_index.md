@@ -7,6 +7,10 @@ description: >
   Contact OpenChain KWG's mailing list.
 ---
 
+<div ><span class="image fit">
+  <img src="openchain-kwg-newyear-02.png" width="50%">
+</div>
+
 The default communication channel of OpenChain KWG is Mailing List. If you have any inquiries/requests to OpenChain KWG, please contact us at the Mailing List address below.
 
 ## MAILING LIST
