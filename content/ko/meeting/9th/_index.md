@@ -20,17 +20,16 @@ description: >
 
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Intro & Greetings  | SK텔레콤 장학성 | - |
+| 0  | Intro & Greetings  | Newcomers | - |
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
-| 2  | (가제) NCSOFT ISO 인증 과정 | NCSOFT 한지호 | - | 
-| 3  | OpenChain KWG Update | SK텔레콤 장학성 | - |
-| 4  | - | - | - |
-| 5  | - | - | - |
+| 2  | FOSSLight Dependency 소개 | LG전자 석지영 | - | 
+| 3  | 오픈소스와 함께한 1,273일간의 기록 (ISO 인증 취득 과정) | NCSOFT 한지호 | - | 
+| 4  | OpenChain KWG Update & ISO 인증 3가지 방법 | SK텔레콤 장학성 | - |
 | 5  | Case Study | All | - |
-| 7  | Free Discussion | All | - |
+| 6  | Free Discussion | All | - |
 
 ## Case Study
-* 주제 : -
+* 주제 : ISO/IEC 5230 인증 취득을 고려하고 있는지? 
 
 ## Attendees
 * ...
