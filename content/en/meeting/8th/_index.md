@@ -26,7 +26,7 @@ _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Intro & Greetings  | Haksung Jang, SK telecom| [Download](./OpenChainKWG-8th-2020-12-02-intro.pdf) |
-| 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | [Download](./OpenChain%20Korea%20#8%20Keynote.pdf) |
+| 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | [Download](./OpenChain_Korea_8_Keynote.pdf) |
 | 2  | How to build open source program in Hyundai Motors | Songha Back, Hyundai Motors |  [Download](./20201202_Hyundai.pdf) | 
 | 3  | SCA(Software Composition Analysis)  Market Trend | Robin Hwang, Kakao | [Download](./SCA%20Market%20Wave%202020.pdf) | 
 | 4  | Olive, Grand Open | Robin Hwang, Kakao | - | 
