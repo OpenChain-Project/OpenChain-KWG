@@ -26,8 +26,8 @@ description: >
 | 0  | Intro & Greetings  | Newcomers | - |
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
 | 2  | FOSSLight Dependency  | Jiyeong Seok, LG Electronics | - | 
-| 3  | 1,273 days with open source (ISO Certification Review) | Jiho Han, NCSOFT | - | 
-| 4  | OpenChain KWG Update & 3 Ways to Get ISO Certification | Haksung Jang, SK telecom | - |
+| 3  | OpenChain KWG Update & 3 Ways to Get ISO Certification | Haksung Jang, SK telecom | - |
+| 4  | 1,273 days with open source (ISO Certification Review) | Jiho Han, NCSOFT | - | 
 | 5  | Case Study | All | - |
 | 6  | Free Discussion | All | - |
 
