@@ -23,8 +23,8 @@ description: >
 | 0  | Intro & Greetings  | Newcomers | - |
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
 | 2  | FOSSLight Dependency 소개 | LG전자 석지영 | - | 
-| 3  | 오픈소스와 함께한 1,273일간의 기록 (ISO 인증 취득 과정) | NCSOFT 한지호 | - | 
-| 4  | OpenChain KWG Update & ISO 인증 3가지 방법 | SK텔레콤 장학성 | - |
+| 3  | OpenChain KWG Update & ISO 인증 3가지 방법 | SK텔레콤 장학성 | - |
+| 4  | 오픈소스와 함께한 1,273일간의 기록 (ISO 인증 취득 과정) | NCSOFT 한지호 | - | 
 | 5  | Case Study | All | - |
 | 6  | Free Discussion | All | - |
 
