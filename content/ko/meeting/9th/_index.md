@@ -20,11 +20,11 @@ description: >
 
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Intro & Greetings  | Newcomers | - |
+| 0  | Intro & Greetings  | Newcomers | [download](./OpenChain_Korea_20210311_intro.pptx) |
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
 | 2  | FOSSLight Dependency 소개 | LG전자 석지영 | - | 
-| 3  | OpenChain KWG Update & ISO 인증 3가지 방법 | SK텔레콤 장학성 | - |
-| 4  | 오픈소스와 함께한 1,273일간의 기록 (ISO 인증 취득 과정) | NCSOFT 한지호 | - | 
+| 3  | OpenChain KWG Update / <br> ISO/IEC 5230 인증 3가지 방법 | SK텔레콤 장학성 | [download](./OpenChain_Korea_20210311_update.pptx)  <br> [download](./OpenChain_Korea_20210311_howto.pptx)|
+| 4  | 오픈소스와 함께한 1,273일간의 기록 (ISO 인증 취득 과정) | NCSOFT 한지호 | [download](./★오픈소스와%20함께한%201273일간의%20기록_20210311_FN.pdf)| 
 | 5  | Case Study | All | - |
 | 6  | Free Discussion | All | - |
 
@@ -44,7 +44,7 @@ description: >
 
 
 ## Photo Gallery
-...
+![photo](./openchain9-2.png)
 
 
 ## OpenChain News
