@@ -23,11 +23,11 @@ description: >
 
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Intro & Greetings  | Newcomers | - |
+| 0  | Intro & Greetings  | Newcomers | [download](./OpenChain_Korea_20210311_intro.pptx) |
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
 | 2  | FOSSLight Dependency  | Jiyeong Seok, LG Electronics | - | 
-| 3  | OpenChain KWG Update & 3 Ways to Get ISO Certification | Haksung Jang, SK telecom | - |
-| 4  | 1,273 days with open source (ISO Certification Review) | Jiho Han, NCSOFT | - | 
+| 3  | OpenChain KWG Update & / <br> 3 Ways to Get ISO Certification | Haksung Jang, SK telecom | [download](./OpenChain_Korea_20210311_update.pptx)  <br> [download](./OpenChain_Korea_20210311_howto.pptx) |
+| 4  | 1,273 days with open source (ISO Certification Review) | Jiho Han, NCSOFT | [download](./★오픈소스와%20함께한%201273일간의%20기록_20210311_FN.pdf) | 
 | 5  | Case Study | All | - |
 | 6  | Free Discussion | All | - |
 
@@ -48,7 +48,7 @@ description: >
 
 
 ## Photo Gallery
-...
+![photo](./openchain9-2.png)
 
 
 ## OpenChain News
