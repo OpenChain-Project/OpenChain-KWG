@@ -21,7 +21,7 @@ description: >
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
-| 2  | LG전자의 오픈소스 컴플라이언스 관리 시스템 (OSC System) 소개 | LG전자 김소임 |  - | 
+| 2  | LG전자의 오픈소스 컴플라이언스 관리 시스템 (OSC System) 소개 | LG전자 김소임 |  [Video](#video1) | 
 | 3  | 오픈소스 관련 책 요약 및 소개 - '오픈소스로 미래를 연마하라' | 라인 이서연 | [Download](forge-your-future.pdf)  | 
 | 4  | Case Study : 오픈소스 공개 practices (GitHub, CLA 등) | All | - |
 | 5  | OpenChain KWG Update | SK텔레콤 장학성 | [Download](openchain-kwg-7th-2020-09-22.pdf) |
@@ -116,7 +116,7 @@ OSC System은  오픈소스로 공개 준비 중
 ## Video
 https://www.openchainproject.org/featured/2020/10/23/openchain-korea-work-group-meeting-7-the-recordings
 
-### Video 1
+### <a name="video1"></a>Video 1
 OpenChain Update (Shane) & LGE’s OSC System (김소임)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bK8S-YZmdxE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
