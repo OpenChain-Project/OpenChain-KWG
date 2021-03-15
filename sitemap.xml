@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>https://openChain-project.github.io/OpenChain-KWG/ko/sitemap.xml</loc>
-		
-	   	<lastmod>2021-03-12T23:37:34+09:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://openChain-project.github.io/OpenChain-KWG/en/sitemap.xml</loc>
-		
-	   	<lastmod>2021-03-12T23:37:34+09:00</lastmod>
-		
-	</sitemap>
-	
+  
+  <sitemap>
+    <loc>https://openChain-project.github.io/OpenChain-KWG/ko/sitemap.xml</loc>
+    
+      <lastmod>2021-03-15T10:35:31+09:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://openChain-project.github.io/OpenChain-KWG/en/sitemap.xml</loc>
+    
+      <lastmod>2021-03-15T10:35:31+09:00</lastmod>
+    
+  </sitemap>
+  
 </sitemapindex>

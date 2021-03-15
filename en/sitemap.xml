@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/conformance/1st-meeting/</loc>
     <lastmod>2020-08-30T17:17:18+09:00</lastmod>
@@ -15,9 +14,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/subgroup/conformance/1st-meeting/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/guide/i-openchainproject/1-openchain-specification/</loc>
     <lastmod>2020-11-16T11:03:50+09:00</lastmod>
     <xhtml:link
@@ -30,9 +27,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/guide/i-openchainproject/1-openchain-specification/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/guide/appendix/1-policy-template/</loc>
     <lastmod>2020-11-12T20:32:27+09:00</lastmod>
     <xhtml:link
@@ -45,9 +40,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/guide/appendix/1-policy-template/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/guide/ii-howtocomply/1-program/</loc>
     <lastmod>2020-11-16T11:03:50+09:00</lastmod>
     <xhtml:link
@@ -60,9 +53,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/guide/ii-howtocomply/1-program/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/meeting/1st/</loc>
     <lastmod>2020-08-30T20:48:01+09:00</lastmod>
     <xhtml:link
@@ -75,9 +66,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/meeting/1st/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/guide/appendix/3-tools/fossology/</loc>
     <lastmod>2020-11-16T11:03:50+09:00</lastmod>
     <xhtml:link
@@ -90,9 +79,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/guide/appendix/3-tools/fossology/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/guide/i-openchainproject/</loc>
     <lastmod>2020-08-29T13:36:50+09:00</lastmod>
     <xhtml:link
@@ -105,9 +92,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/guide/i-openchainproject/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/planning/</loc>
     <lastmod>2021-01-25T18:11:48+09:00</lastmod>
     <xhtml:link
@@ -120,9 +105,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/subgroup/planning/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/resource/specification/</loc>
     <lastmod>2021-03-10T22:57:54+09:00</lastmod>
     <xhtml:link
@@ -135,9 +118,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/resource/specification/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/guide/i-openchainproject/2-openchain-conformance/</loc>
     <lastmod>2020-08-29T13:36:50+09:00</lastmod>
     <xhtml:link
@@ -150,9 +131,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/guide/i-openchainproject/2-openchain-conformance/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/guide/ii-howtocomply/2-related-task/</loc>
     <lastmod>2020-08-29T13:36:50+09:00</lastmod>
     <xhtml:link
@@ -165,9 +144,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/guide/ii-howtocomply/2-related-task/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/guide/appendix/2-process-template/</loc>
     <lastmod>2020-08-29T13:36:50+09:00</lastmod>
     <xhtml:link
@@ -180,9 +157,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/guide/appendix/2-process-template/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/meeting/2nd/</loc>
     <lastmod>2020-08-30T20:48:01+09:00</lastmod>
     <xhtml:link
@@ -195,9 +170,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/meeting/2nd/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/about/charter/</loc>
     <lastmod>2020-11-25T00:17:29+09:00</lastmod>
     <xhtml:link
@@ -210,9 +183,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/about/charter/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/resource/curriculum/</loc>
     <lastmod>2020-09-14T23:45:47+09:00</lastmod>
     <xhtml:link
@@ -225,9 +196,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/resource/curriculum/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/guide/ii-howtocomply/</loc>
     <lastmod>2020-08-29T13:36:50+09:00</lastmod>
     <xhtml:link
@@ -240,9 +209,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/guide/ii-howtocomply/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/guide/appendix/3-tools/sw360/</loc>
     <lastmod>2020-08-29T13:36:50+09:00</lastmod>
     <xhtml:link
@@ -255,9 +222,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/guide/appendix/3-tools/sw360/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/</loc>
     <lastmod>2020-08-31T08:20:48+09:00</lastmod>
     <xhtml:link
@@ -270,9 +235,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/guide/i-openchainproject/3-openchain-curriculum/</loc>
     <lastmod>2020-08-29T13:36:50+09:00</lastmod>
     <xhtml:link
@@ -285,9 +248,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/guide/i-openchainproject/3-openchain-curriculum/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/guide/ii-howtocomply/3-approval/</loc>
     <lastmod>2020-08-29T13:36:50+09:00</lastmod>
     <xhtml:link
@@ -300,9 +261,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/guide/ii-howtocomply/3-approval/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/guide/appendix/3-tools/</loc>
     <lastmod>2020-08-29T13:36:50+09:00</lastmod>
     <xhtml:link
@@ -315,9 +274,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/guide/appendix/3-tools/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/meeting/3rd/</loc>
     <lastmod>2020-08-30T20:48:01+09:00</lastmod>
     <xhtml:link
@@ -330,9 +287,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/meeting/3rd/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/conformance/</loc>
     <lastmod>2020-08-29T13:36:50+09:00</lastmod>
     <xhtml:link
@@ -345,9 +300,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/subgroup/conformance/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/resource/external/</loc>
     <lastmod>2021-03-10T22:57:54+09:00</lastmod>
     <xhtml:link
@@ -360,9 +313,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/resource/external/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/about/subscribe/</loc>
     <lastmod>2020-11-25T13:16:23+09:00</lastmod>
     <xhtml:link
@@ -375,9 +326,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/about/subscribe/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/guide/appendix/</loc>
     <lastmod>2020-08-29T13:36:50+09:00</lastmod>
     <xhtml:link
@@ -390,9 +339,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/guide/appendix/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/guide/ii-howtocomply/4-artifect/</loc>
     <lastmod>2020-08-29T13:36:50+09:00</lastmod>
     <xhtml:link
@@ -405,9 +352,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/guide/ii-howtocomply/4-artifect/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/meeting/4th/</loc>
     <lastmod>2020-08-30T20:48:01+09:00</lastmod>
     <xhtml:link
@@ -420,9 +365,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/meeting/4th/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/about/member/</loc>
     <lastmod>2020-08-29T13:36:50+09:00</lastmod>
     <xhtml:link
@@ -435,9 +378,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/about/member/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/guide/ii-howtocomply/5-contribution/</loc>
     <lastmod>2020-08-29T13:36:50+09:00</lastmod>
     <xhtml:link
@@ -450,9 +391,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/guide/ii-howtocomply/5-contribution/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/meeting/5th/</loc>
     <lastmod>2020-08-30T20:48:01+09:00</lastmod>
     <xhtml:link
@@ -465,9 +404,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/meeting/5th/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/guide/ii-howtocomply/6-conformance/</loc>
     <lastmod>2020-08-29T13:36:50+09:00</lastmod>
     <xhtml:link
@@ -480,9 +417,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/guide/ii-howtocomply/6-conformance/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/meeting/6th/</loc>
     <lastmod>2020-08-30T20:48:01+09:00</lastmod>
     <xhtml:link
@@ -495,11 +430,9 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/meeting/6th/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/meeting/7th/</loc>
-    <lastmod>2020-10-23T22:14:05+09:00</lastmod>
+    <lastmod>2021-03-15T09:33:14+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -510,9 +443,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/meeting/7th/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/meeting/8th/</loc>
     <lastmod>2021-03-09T22:47:08+09:00</lastmod>
     <xhtml:link
@@ -525,11 +456,9 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/meeting/8th/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/meeting/9th/</loc>
-    <lastmod>2021-03-12T23:37:34+09:00</lastmod>
+    <lastmod>2021-03-15T10:35:31+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -540,9 +469,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/meeting/9th/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/planning/2021/1st-meeting/</loc>
     <lastmod>2021-02-19T10:50:52+09:00</lastmod>
     <xhtml:link
@@ -555,9 +482,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/subgroup/planning/2021/1st-meeting/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/planning/2021/</loc>
     <lastmod>2021-02-15T15:19:23+09:00</lastmod>
     <xhtml:link
@@ -570,9 +495,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/subgroup/planning/2021/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/about/contact/</loc>
     <lastmod>2021-02-21T22:42:10+09:00</lastmod>
     <xhtml:link
@@ -585,9 +508,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/about/contact/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/about/</loc>
     <lastmod>2021-02-21T22:42:10+09:00</lastmod>
     <xhtml:link
@@ -600,9 +521,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/about/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/resource/</loc>
     <lastmod>2020-08-29T13:36:50+09:00</lastmod>
     <xhtml:link
@@ -615,9 +534,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/resource/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/meeting/</loc>
     <lastmod>2021-02-21T22:42:10+09:00</lastmod>
     <xhtml:link
@@ -630,9 +547,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/meeting/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/</loc>
     <lastmod>2020-08-29T13:36:50+09:00</lastmod>
     <xhtml:link
@@ -645,9 +560,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/subgroup/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/guide/</loc>
     <lastmod>2020-08-29T13:36:50+09:00</lastmod>
     <xhtml:link
@@ -660,9 +573,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/guide/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/blog/2021/</loc>
     <lastmod>2021-01-14T20:04:57+09:00</lastmod>
     <xhtml:link
@@ -675,9 +586,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/blog/2021/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/</loc>
     <lastmod>2021-01-14T20:04:57+09:00</lastmod>
     <xhtml:link
@@ -690,9 +599,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/blog/sample/</loc>
     <lastmod>2021-01-14T20:04:57+09:00</lastmod>
     <xhtml:link
@@ -705,9 +612,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/blog/sample/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/blog/2021/01/14/opensource-license-used-by-it-companies/</loc>
     <lastmod>2021-01-14T20:04:57+09:00</lastmod>
     <xhtml:link
@@ -720,9 +625,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/blog/2021/01/14/opensource-license-used-by-it-companies/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/12/16/iso-standard-openchain/</loc>
     <lastmod>2021-01-14T20:04:57+09:00</lastmod>
     <xhtml:link
@@ -735,9 +638,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/12/16/iso-standard-openchain/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/11/24/kakao-training-material/</loc>
     <lastmod>2021-01-14T20:04:57+09:00</lastmod>
     <xhtml:link
@@ -750,9 +651,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/11/24/kakao-training-material/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/11/23/ncsoft-training-material/</loc>
     <lastmod>2021-01-14T20:04:57+09:00</lastmod>
     <xhtml:link
@@ -765,9 +664,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/11/23/ncsoft-training-material/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/11/23/open-source-compliance-in-the-enterprise/</loc>
     <lastmod>2021-01-15T21:15:28+09:00</lastmod>
     <xhtml:link
@@ -780,9 +677,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/11/23/open-source-compliance-in-the-enterprise/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/08/29/another-sample-post/</loc>
     <lastmod>2021-01-14T20:04:57+09:00</lastmod>
     <xhtml:link
@@ -795,9 +690,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/08/29/another-sample-post/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/08/29/the-sample-blog-post-with-images/</loc>
     <lastmod>2021-01-14T20:04:57+09:00</lastmod>
     <xhtml:link
@@ -810,9 +703,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/08/29/the-sample-blog-post-with-images/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/blog/</loc>
     <lastmod>2020-08-29T13:36:50+09:00</lastmod>
     <xhtml:link
@@ -825,9 +716,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/blog/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/</loc>
     <lastmod>2020-08-30T20:48:01+09:00</lastmod>
     <xhtml:link
@@ -840,9 +729,7 @@
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/search/</loc>
     <lastmod>2020-08-29T13:36:50+09:00</lastmod>
     <xhtml:link
@@ -856,5 +743,4 @@
                 href="https://openChain-project.github.io/OpenChain-KWG/en/search/"
                 />
   </url>
-  
 </urlset>
