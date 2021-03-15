@@ -1,5 +1,5 @@
 ---
-title: "Subscribe"
+title: "가입 방법"
 linkTitle: "Subscribe"
 weight: 3
 type: docs
@@ -13,10 +13,11 @@ Software를 개발하여 배포하는 한국 기업에서 Open Source Compliance
 
 ## MAILING LIST
 
-OpenChain KWG의 Mailing List는 아래 링크에서 가입하실 수 있습니다. 
+OpenChain KWG의 [MAILING LIST](https://lists.openchainproject.org/g/korea-wg)는 다음 방법으로 가입하실 수 있습니다. 
 
-* [https://lists.openchainproject.org/g/korea-wg](https://lists.openchainproject.org/g/korea-wg)
+* 메일로 소속회사 / 담당업무 / 가입 동기를 작성하여 보내주시기 바랍니다. : korea-sg-planning@lists.openchainproject.org 
+* [Planning Group](/OpenChain-KWG/subgroup/planning/)에서 확인 후 가입 절차를 진행하겠습니다.
 
 ## 가입 문의
-OpenChain KWG 가입 관련 문의가 있으신 분은 메일로 연락 주시기 바랍니다.
+OpenChain KWG 가입 관련 문의가 있으신 분은 [Planning Group](/OpenChain-KWG/subgroup/planning/)으로 연락 주시기 바랍니다.
 * Email : korea-sg-planning@lists.openchainproject.org
