@@ -21,7 +21,7 @@ description: >
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
-| 2  | Introduction of LG Electronics' Open Source Compliance Management System (OSC System) |LG Electronics, Soim Kim |  - | 
+| 2  | Introduction of LG Electronics' Open Source Compliance Management System (OSC System) |LG Electronics, Soim Kim | [Video](#video_en) | 
 | 3  | Intro and summary of a book, Forge Your Future with Open Source | Line, Seoyeon Lee | [Download](forge-your-future.pdf)  | 
 | 4  | Case Study : Open source release practices (GitHub, CLA) | All | - |
 | 5  | OpenChain KWG Update | SK telecom, Haksung Jang | [Download](openchain-kwg-7th-2020-09-22.pdf) |
@@ -124,7 +124,7 @@ A book that tells readers how to contribute to the FOSS project, regardless of s
 ## Video
 https://www.openchainproject.org/featured/2020/10/23/openchain-korea-work-group-meeting-7-the-recordings
 
-### Video 1
+### <a name="video_en"></a>Video 1
 OpenChain Update (Shane) & LGE’s OSC System (Soim Kim)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bK8S-YZmdxE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
