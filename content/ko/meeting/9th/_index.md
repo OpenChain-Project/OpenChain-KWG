@@ -36,7 +36,22 @@ description: >
 
 
 ## Video
-...
+
+### OpenChain Update
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9hudq2KgcDY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### FOSSLight Dependency 소개
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lUZYlkdlH4M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### OpenChain KWG Update / ISO/IEC 5230 인증 3가지 방법
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ifauIfkRLT8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### 오픈소스와 함께한 1,273일간의 기록 (ISO 인증 취득 과정)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bDDYWwVhuGw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Minutes
