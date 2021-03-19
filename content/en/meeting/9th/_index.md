@@ -40,8 +40,22 @@ description: >
 
 
 ## Video
-...
 
+### OpenChain Update
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9hudq2KgcDY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### FOSSLight Dependency
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lUZYlkdlH4M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### OpenChain KWG Update & 3 Ways to Get ISO Certification
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ifauIfkRLT8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### 1,273 days with open source (ISO Certification Review)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bDDYWwVhuGw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Minutes
 
