@@ -30,7 +30,8 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true
-            - name: Setup Node
+
+      - name: Setup Node
         uses: actions/setup-node@v2
         with:
           node-version: '12.x'
@@ -43,6 +44,5 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
       - run: npm ci
-      
       - name: Build
         run: hugo --minify
