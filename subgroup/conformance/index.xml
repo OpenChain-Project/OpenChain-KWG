@@ -1,52 +1,23 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>OpenChain KWG – Conformance Group</title>
-    <link>https://openChain-project.github.io/OpenChain-KWG/subgroup/conformance/</link>
-    <description>Recent content in Conformance Group on OpenChain KWG</description>
-    <generator>Hugo -- gohugo.io</generator>
-    
-	  <atom:link href="https://openChain-project.github.io/OpenChain-KWG/subgroup/conformance/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
-    <item>
-      <title>Subgroup: 1st Meeting</title>
-      <link>https://openChain-project.github.io/OpenChain-KWG/subgroup/conformance/1st-meeting/</link>
-      <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://openChain-project.github.io/OpenChain-KWG/subgroup/conformance/1st-meeting/</guid>
-      <description>
-        
-        
-        &lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;목적 : OpenChain Specification을 준수하고자 하는 기업 간 방법 논의 및 공유&lt;/li&gt;
-&lt;li&gt;일시 : 2019. 11. 4(월), 오후 4시~6시&lt;/li&gt;
-&lt;li&gt;장소 : LG전자 서초R&amp;amp;D캠퍼스 고객센터 2층 6회의실&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;attendees&#34;&gt;Attendees&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;엔씨소프트 한지호, 강병수, 한다솜&lt;/li&gt;
-&lt;li&gt;Ktds 김상미&lt;/li&gt;
-&lt;li&gt;LG전자 장학성&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;main-activities&#34;&gt;Main Activities&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenChain Conformance 소개&lt;/li&gt;
-&lt;li&gt;엔씨소프트의 OpenChain Self Certificate 검토 자료를 함께 보며, 미흡 부분에 대한 대응 방안 논의&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;photo-gallery&#34;&gt;Photo Gallery&lt;/h2&gt;
-&lt;div &gt;&lt;span class=&#34;image fit&#34;&gt;
-  &lt;img src=&#34;1575426596835.jpg&#34; width=&#34;45%&#34;&gt;
-  &lt;img src=&#34;1575426599025.jpg&#34; width=&#34;45%&#34;&gt;
-&lt;/span&gt;&lt;/div&gt;
-
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – Conformance Group</title><link>https://openChain-project.github.io/OpenChain-KWG/subgroup/conformance/</link><description>Recent content in Conformance Group on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/subgroup/conformance/index.xml" rel="self" type="application/rss+xml"/><item><title>Subgroup: 1st Meeting</title><link>https://openChain-project.github.io/OpenChain-KWG/subgroup/conformance/1st-meeting/</link><pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/subgroup/conformance/1st-meeting/</guid><description>
+&lt;h2 id="schedule">Schedule&lt;/h2>
+&lt;ul>
+&lt;li>목적 : OpenChain Specification을 준수하고자 하는 기업 간 방법 논의 및 공유&lt;/li>
+&lt;li>일시 : 2019. 11. 4(월), 오후 4시~6시&lt;/li>
+&lt;li>장소 : LG전자 서초R&amp;amp;D캠퍼스 고객센터 2층 6회의실&lt;/li>
+&lt;/ul>
+&lt;h2 id="attendees">Attendees&lt;/h2>
+&lt;ul>
+&lt;li>엔씨소프트 한지호, 강병수, 한다솜&lt;/li>
+&lt;li>Ktds 김상미&lt;/li>
+&lt;li>LG전자 장학성&lt;/li>
+&lt;/ul>
+&lt;h2 id="main-activities">Main Activities&lt;/h2>
+&lt;ul>
+&lt;li>OpenChain Conformance 소개&lt;/li>
+&lt;li>엔씨소프트의 OpenChain Self Certificate 검토 자료를 함께 보며, 미흡 부분에 대한 대응 방안 논의&lt;/li>
+&lt;/ul>
+&lt;h2 id="photo-gallery">Photo Gallery&lt;/h2>
+&lt;div >&lt;span class="image fit">
+&lt;img src="1575426596835.jpg" width="45%">
+&lt;img src="1575426599025.jpg" width="45%">
+&lt;/span>&lt;/div></description></item></channel></rss>

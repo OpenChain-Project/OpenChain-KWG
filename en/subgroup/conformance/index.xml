@@ -1,52 +1,23 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>OpenChain KWG – Conformance Group</title>
-    <link>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/conformance/</link>
-    <description>Recent content in Conformance Group on OpenChain KWG</description>
-    <generator>Hugo -- gohugo.io</generator>
-    
-	  <atom:link href="https://openChain-project.github.io/OpenChain-KWG/en/subgroup/conformance/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
-    <item>
-      <title>Subgroup: 1st Meeting</title>
-      <link>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/conformance/1st-meeting/</link>
-      <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/conformance/1st-meeting/</guid>
-      <description>
-        
-        
-        &lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Purpose: Discuss and share methods between companies that want to comply with the OpenChain Specification&lt;/li&gt;
-&lt;li&gt;Date and time: November 4 (Mon), 2019, 4pm-6pm&lt;/li&gt;
-&lt;li&gt;Venue: LG Electronics Seocho R&amp;amp;D Campus Customer Center 2F 6 meeting rooms&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;attendees&#34;&gt;Attendees&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;NCSoft&lt;/li&gt;
-&lt;li&gt;Ktds&lt;/li&gt;
-&lt;li&gt;LG Electronics&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;main-activities&#34;&gt;Main Activities&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Introducing OpenChain Conformance&lt;/li&gt;
-&lt;li&gt;Review NCsoft&amp;rsquo;s OpenChain Self Certificate data together and discuss countermeasures for insufficiency&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;photo-gallery&#34;&gt;Photo Gallery&lt;/h2&gt;
-&lt;div &gt;&lt;span class=&#34;image fit&#34;&gt;
-  &lt;img src=&#34;1575426596835.jpg&#34; width=&#34;45%&#34;&gt;
-  &lt;img src=&#34;1575426599025.jpg&#34; width=&#34;45%&#34;&gt;
-&lt;/span&gt;&lt;/div&gt;
-
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – Conformance Group</title><link>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/conformance/</link><description>Recent content in Conformance Group on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/en/subgroup/conformance/index.xml" rel="self" type="application/rss+xml"/><item><title>Subgroup: 1st Meeting</title><link>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/conformance/1st-meeting/</link><pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/conformance/1st-meeting/</guid><description>
+&lt;h2 id="schedule">Schedule&lt;/h2>
+&lt;ul>
+&lt;li>Purpose: Discuss and share methods between companies that want to comply with the OpenChain Specification&lt;/li>
+&lt;li>Date and time: November 4 (Mon), 2019, 4pm-6pm&lt;/li>
+&lt;li>Venue: LG Electronics Seocho R&amp;amp;D Campus Customer Center 2F 6 meeting rooms&lt;/li>
+&lt;/ul>
+&lt;h2 id="attendees">Attendees&lt;/h2>
+&lt;ul>
+&lt;li>NCSoft&lt;/li>
+&lt;li>Ktds&lt;/li>
+&lt;li>LG Electronics&lt;/li>
+&lt;/ul>
+&lt;h2 id="main-activities">Main Activities&lt;/h2>
+&lt;ul>
+&lt;li>Introducing OpenChain Conformance&lt;/li>
+&lt;li>Review NCsoft&amp;rsquo;s OpenChain Self Certificate data together and discuss countermeasures for insufficiency&lt;/li>
+&lt;/ul>
+&lt;h2 id="photo-gallery">Photo Gallery&lt;/h2>
+&lt;div >&lt;span class="image fit">
+&lt;img src="1575426596835.jpg" width="45%">
+&lt;img src="1575426599025.jpg" width="45%">
+&lt;/span>&lt;/div></description></item></channel></rss>
