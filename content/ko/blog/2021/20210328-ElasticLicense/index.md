@@ -15,7 +15,7 @@ resources:
 
 > 안녕하세요. 
 > 
-> 미국의 오픈소스 전문 변호사인 [Heather Meeker](https://heathermeeker.com/about-me/)가 2021년 3월 11일 공개한 Elastic License에 대한 [백서](https://www.coss.community/coss/elastic-license-2-0-and-the-evolution-of-open-source-licensing-3jb3))를 기반으로 아래의 글을 작성하였습니다. 대부분 원글을 번역하는 방식이며, 제 의견은 인용구로 추가하였습니다. 
+> 미국의 오픈소스 전문 변호사인 [Heather Meeker](https://heathermeeker.com/about-me/)가 2021년 3월 11일 공개한 Elastic License에 대한 [백서](https://www.coss.community/coss/elastic-license-2-0-and-the-evolution-of-open-source-licensing-3jb3)를 기반으로 아래의 글을 작성하였습니다. 대부분 원글을 번역하는 방식이며, 제 의견은 인용구로 추가하였습니다. 
 > 
 > 참고로, Heather Meeker는 이 백서를 자신의 개인적인 견해임을 나타내면서도 일부 Elastic의 자금 지원이 있었다고 밝혔습니다. 그래서인지, 원글은 Elastic License에 호의적인 입장을 보입니다. 
 >> (조금 찾아보니, Elastic License 2.0을 [Heather Meeker가 작성](https://www.elastic.co/blog/elastic-license-v2)하였군요.)
