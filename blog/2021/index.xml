@@ -11,7 +11,7 @@
 &lt;p>여하튼 시대가 변하며 소프트웨어 배포 방식이 바뀌는 상황에 따라 상용 오픈소스 기업들이 개발과 사업을 병행하기 위해 어떤 라이선스 모델을 도입해야 할지 고민해야 했고, Elastic License가 나온 배경에 대한 한 측면을 이해하는 데 도움이 되는 글이라 생각합니다.
 글에 오류가 있다면 언제든 &lt;a href="https://haksungjang.github.io/">연락&lt;/a>해주세요. :-)&lt;/p>
 &lt;ul>
-&lt;li>감수에 도움 주신 카카오 &lt;a href="https://www.linkedin.com/in/%EC%98%81%ED%99%98-%EA%B9%80-4069b5135/">Sean&lt;/a>에게 깊은 감사 드립니다.&lt;/li>
+&lt;li>감수에 도움 주신 카카오의 &lt;a href="https://www.linkedin.com/in/%EC%98%81%ED%99%98-%EA%B9%80-4069b5135/">Sean&lt;/a> 그리고 &lt;a href="https://www.linkedin.com/in/hwang-minho/">Robin&lt;/a>에게 깊은 감사 드립니다.&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;hr>
@@ -20,7 +20,7 @@
 &lt;p>&lt;img src="./featured-scale.png" alt="scale">&lt;/p>
 &lt;h2 id="유닉스-리눅스-자유소프트웨어-그리고-오픈소스">유닉스, 리눅스, 자유소프트웨어, 그리고 오픈소스&lt;/h2>
 &lt;p>Elastic License 2.0과 같은 새로운 라이선스의 추세를 이해하려면 오픈소스 라이선스 운동이 어떻게 성장했는지 살펴보는 것이 도움이 된다.&lt;/p>
-&lt;p>오픈소스와 자유소프트웨어&lt;sub>Free Software&lt;/sub> 운동은 소프트웨어가 사유화되는 것에 대한 개발자의 우려에서 시작되었다. 이러한 우려의 불씨는 당시 가장 인기있는 운영체제인 유닉스였다. 수년간 유닉스는 매우 관대한 조건 하의 라이선스가 적용되었다. 이는 1956년 동의령&lt;sub>consent decree&lt;/sub>이 유닉스의 개발사인 AT&amp;amp;T Bell Labs가 유닉스 및 C언어를 포함하는 연구 프로젝트로 이익 얻는 것을 금지했었기 때문이다&lt;sup>1&lt;/sup>. 학계, 연구자, 개발자들은 수정/개선 사항을 공유하기 시작했고, 유닉스는 곧 운영체제 분야의 선두가 되었다. 1983년 동의령이 해제되자 AT&amp;amp;T는 수정 사항의 공유를 허용하지 않는 상용 조항을 적용하기 시작하였다. 이에 따라 유닉스는 많은 호환되지 않는 종류로 쪼개졌고, 라이선스 사용자들은 더 이상 협업할 수 없게 되었다.&lt;/p>
+&lt;p>오픈소스와 자유소프트웨어&lt;sub>Free Software&lt;/sub> 운동은 소프트웨어가 사유화되는 것에 대한 개발자의 우려에서 시작되었다. 이러한 우려의 불씨는 당시 가장 인기있는 운영체제인 유닉스였다. 수년간 유닉스는 매우 관대한 조건 하의 라이선스가 적용되었다. 이는 1956년 동의령&lt;sub>consent decree&lt;/sub>이 유닉스의 개발사인 AT&amp;amp;T Bell Labs가 유닉스 및 C언어를 포함하는 연구 프로젝트로 이익 얻는 것을 금지했었기 때문이다&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. 학계, 연구자, 개발자들은 수정/개선 사항을 공유하기 시작했고, 유닉스는 곧 운영체제 분야의 선두가 되었다. 1983년 동의령이 해제되자 AT&amp;amp;T는 수정 사항의 공유를 허용하지 않는 상용 조항을 적용하기 시작하였다. 이에 따라 유닉스는 많은 호환되지 않는 종류로 쪼개졌고, 라이선스 사용자들은 더 이상 협업할 수 없게 되었다.&lt;/p>
 &lt;p>유닉스가 사유화되면서 자유소프트웨어 운동, 그리고 이어서 오픈소스 운동이 생겨났으며, 이들은 인프라 소프트웨어가 폐쇄되는 상황이 다시 발생하는 것을 방지하려고 하였다. 이 운동은 유닉스를 대체하는 자유소프트웨어인 리눅스를 중심으로 이루어졌으며 곧 모든 소프트웨어는 자유&lt;sub>free&lt;/sub>(무료&lt;sub>free&lt;/sub> 맥주에서의 Free가 아니라 언론의 자유&lt;sub>free&lt;/sub>에서의 Free)로워야 한다는 철학에 기반한 더 큰 운동으로 발전하였다. 이러한 운동의 한 요소는 소스 코드에 대한 접근, 개선 및 변경 사항을 만들고 공유할 수 있는 권리이다. 이러한 원칙들은 &lt;a href="https://en.wikipedia.org/wiki/GNU_General_Public_License">GNU General Public License&lt;/a> (GPL)에서 구현되었으며, 이에 따라 바이너리 배포자들은 해당 소스 코드를 공유해야 한다.&lt;/p>
 &lt;p>시간이 흐르고, 2000년대 초반 인터넷 붐에 힘입어 오픈소스 라이선스는 더욱 인기를 얻게 되었다. GPL과 같은 일부 라이선스는 복잡한 법적 우려를 불러일으키기도 했지만, 기업이 협업할 수 있는 기반을 마련하였다. 2000년 이후 오픈소스와 이를 통해 가능해진 협업은 모든 기술 부문에 채택되었다. 오늘날, 오픈소스는 전자상거래&lt;sub>e-commerce&lt;/sub>의 핵심 기술이며, 기업들은 소프트웨어 인프라를 위한 지속해서 협력한다.&lt;/p>
 &lt;h2 id="클라우드의-출현과-agpl">클라우드의 출현과 AGPL&lt;/h2>
@@ -47,6 +47,7 @@ of software….
 &lt;blockquote>
 &lt;p>주요 오픈소스 라이선스가 작성되었던 시점에는 AWS의 &amp;ldquo;Program as a Service&amp;rdquo; 형태의 프로그램이 없었으니, 이에 대한 조건도 고려하지 않았을 테지요.&lt;/p>
 &lt;p>오픈소스 상용 기업들은 오픈소스 프로그램을 개발해서 듀얼 라이선스 모델 (GPL or 상용)로 사업을 하고 있었는데, 클라우드 제공 업체에서 이 오픈소스 프로그램을 그대로 가져다가 클라우드 서비스로 제공하는 사업을 하고, 자기네한테는 아무런 이윤도 안겨주지 않으니, 사업 또는 개발 측면에서 모두 좋지 않은 영향을 미쳤을 것은 충분히 추측할 수 있습니다.&lt;/p>
+&lt;p>클라우드 공급 업체가 MongoDB를 &lt;a href="https://aws.amazon.com/ko/documentdb/">Amazon DocumentDB&lt;/a>나 &lt;a href="https://docs.microsoft.com/ko-kr/azure/cosmos-db/introduction">Azure Cosmos DB&lt;/a>로 서비스하며 고객을 확보하는게 대표적인 예라고 볼 수 있을 것 같습니다.&lt;/p>
 &lt;/blockquote>
 &lt;p>오픈소스 상용 기업들과 투자자들은 이런 오픈소스 모델의 한계 때문에 고민이 되었다. GPL, AGPL 등 어떤 라이선스도 저작권법을 사용하여 클라우드 공급 업체가 변경 사항을 공유하도록 강제할 수 없었다. 또한 AWS, Azure 또는 Google Cloud와 같은 대규모 고객 기반을 가진 클라우드 공급 업체는 버튼 클릭으로 소프트웨어를 쉽게 추가할 수 있게 하여 고객과 &amp;ldquo;끈끈한&amp;rdquo; 관계를 유지하였다. 일부 오픈소스 개발사는 자체 클라우드 서비스를 제공했지만, 소프트웨어를 무료로 사용하는 대형 클라우드 공급 업체와 경쟁하는 건 너무 어렵다는 걸 알게 되었다. 오픈소스 개발사의 서비스가 더 우수한 경우에도, 기존 클라우드 계정에서는 단지 &amp;ldquo;체크박스를 선택&amp;quot;하여 소프트웨어 제품군을 추가하는 것과는 달리, 새로운 서비스를 사용하기 위한 거래 비용&lt;sub>transaction cost&lt;/sub>이 발생한다는 점이 고객이 등을 돌리게 하였다.&lt;/p>
 &lt;h2 id="sspl과-소스-공개-라이선스">SSPL과 소스 공개 라이선스&lt;/h2>
@@ -83,8 +84,8 @@ using the Service Source Code you make available. [emphasis added].
 &lt;p>MongoDB는 SSPL을 &lt;a href="https://opensource.org/approval">OSI&lt;sub>Open Source Initiative&lt;/sub>&lt;/a>에 승인받기 위해 제출하였다. 수개월 간의 논쟁 끝에 승인을 받지는 못하였지만, MongoDB는 듀얼 라이선스 모델의 오픈소스 선택지로 SSPL을 계속 사용하고 있다. 이 라이선스가 &lt;a href="https://opensource.org/osd">오픈소스 정의&lt;/a>&lt;sub>Open Source Definition&lt;/sub>에 적합하지 않은 이유에 대한 논의는 복잡했으며, 이 정의를 충족하는 것만이 유일한 기준은 아니었다. 요약하자면, 이렇게 광범위한 소스 공유 요구 사항을 가진 라이선스가 &amp;ldquo;&lt;a href="https://opensource.org/approval">소프트웨어 자유를 보장&lt;/a>&amp;ldquo;할지가 분명하지 않았다.&lt;/p>
 &lt;h3 id="제한-조건을-갖는-소스-공개-라이선스">제한 조건을 갖는 소스 공개 라이선스&lt;/h3>
 &lt;p>다른 사람들은 또 다른 경로를 따랐다. 일부 회사는 Salil Deshpande가 주도한 &lt;a href="https://commonsclause.com/">Commons Clause&lt;/a>를 채택했으며, 어떤 회사는 Elastic이 Elastic License 1.0을 만든 것처럼 &lt;a href="https://redislabs.com/legal/licenses/">Redis&lt;/a>, &lt;a href="https://www.confluent.io/confluent-community-license">Confluent&lt;/a>, &lt;a href="https://www.cockroachlabs.com/cockroachdb-community-license/">CockroachDB&lt;/a>와 같은 자체 라이선스를 제작하였다. SSPL과는 달리, 이 라이선스들은 오픈소스 정의를 충족시키기 위한 것이 아니었다. 대신, 이들은 무상 사용을 겨냥한 제한 조건을 갖고 있다.&lt;/p>
-&lt;p>왜 이렇게 두 가지 경로로 갈렸을까? 이는 &lt;a href="https://www.gnu.org/philosophy/free-sw.en.html">Freedom Zero&lt;/a>, &amp;ldquo;어떤 목적으로든 원하는 대로 프로그램을 실행할 수 있는 자유&amp;quot;와 관련이 있다&lt;sup>2&lt;/sup>.&lt;/p>
-&lt;p>오픈소스 또는 자유소프트웨어 라이선스의 주요 특징은 라이선스 제약이나 제한이 없다는 것이다&lt;sup>3&lt;/sup>. 일반적인 상용 소프트웨어 라이선스와 비교해보자. 개인용으로 사용하겠다는 라이선스 조건에 클릭하여 수락하는 형태의 최종 사용자 라이선스&lt;sub>End User license Agreement&lt;/sub>는 소프트웨어를 사용하는 것만 허용하며, 변경하거나 배포할 수 없다. 엔터프라이즈 라이선스는 소프트웨어를 사용할 수 있는 사용자, 서버 또는 물리적 위치의 수에 대한 제한을 설정하고, 기업은 해당 사용을 감시해야 한다. 그러나 오픈소스 라이선스에는 그러한 제한이 없다. 따라서, 소스 코드를 무료로 제공한다고 하더라도 상업적 사용 불가와 같은 제한을 갖고 있다면 정의상 오픈소스가 아니다.&lt;/p>
+&lt;p>왜 이렇게 두 가지 경로로 갈렸을까? 이는 &lt;a href="https://www.gnu.org/philosophy/free-sw.en.html">Freedom Zero&lt;/a>, &amp;ldquo;어떤 목적으로든 원하는 대로 프로그램을 실행할 수 있는 자유&amp;quot;와 관련이 있다&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>오픈소스 또는 자유소프트웨어 라이선스의 주요 특징은 라이선스 제약이나 제한이 없다는 것이다&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>. 일반적인 상용 소프트웨어 라이선스와 비교해보자. 개인용으로 사용하겠다는 라이선스 조건에 클릭하여 수락하는 형태의 최종 사용자 라이선스&lt;sub>End User license Agreement&lt;/sub>는 소프트웨어를 사용하는 것만 허용하며, 변경하거나 배포할 수 없다. 엔터프라이즈 라이선스는 소프트웨어를 사용할 수 있는 사용자, 서버 또는 물리적 위치의 수에 대한 제한을 설정하고, 기업은 해당 사용을 감시해야 한다. 그러나 오픈소스 라이선스에는 그러한 제한이 없다. 따라서, 소스 코드를 무료로 제공한다고 하더라도 상업적 사용 불가와 같은 제한을 갖고 있다면 정의상 오픈소스가 아니다.&lt;/p>
 &lt;p>즉, 모든 라이선스 제한은 오픈소스 범주에서 벗어나게 한다.&lt;/p>
 &lt;p>2018년 이후 발생한 라이선스 변경의 물결 가운데 출시된 모든 라이선스는 거의 비슷한 제한을 갖고 있다. 각각 고유한 조건이 있지만, 이들은 모두 사용자가 소프트웨어를 무료로 사용할 수 있도록 허용하는 동시에 경쟁 호스팅 서비스 제공을 위한 소프트웨어 사용을 금지하는 데 초점을 맞추고 있다.&lt;/p>
 &lt;h2 id="elastic-license-20">Elastic License 2.0&lt;/h2>
@@ -105,7 +106,7 @@ any functionality in the software that is protected by the license key.
 &lt;p>Elastic의 선택은 SSPL과 Elastic License 2.0의 두 가지 무료 라이선스 선택권을 제공하였다는 점에서 더욱 이례적이었다. 듀얼 라이선스는 일반적으로 하나의 무료 옵션만 제공한다. 이러한 이례적인 방법을 통해 Elasticsearch는 거의 모든 사용자가 소프트웨어를 무료로 사용할 수 있도록 하는 유연성을 강조하였다.&lt;/p>
 &lt;blockquote>
 &lt;p>Elastic License 2.0는 오직 클라우드 서비스 공급 업체에서 Elasticsearch를 자기네 클라우드 서비스로 제공하는 것만은 막겠다는 의지인 것 같습니다.&lt;/p>
-&lt;p>결국 AWS는 Elasticsearch 서비스를 계속하기 위해 Elasticsearch를 Fork했고, 이를 &lt;a href="https://aws.amazon.com/ko/blogs/opensource/stepping-up-for-a-truly-open-source-elasticsearch/">오픈소스 Elasticsearch&lt;/a>라고 명명하며 Apache License 2.0을 적용하고, 커뮤니티를 키워가기로 했습니다.&lt;/p>
+&lt;p>결국 AWS는 Elasticsearch 서비스를 계속하기 위해 Elasticsearch를 &lt;a href="https://aws.amazon.com/ko/blogs/opensource/stepping-up-for-a-truly-open-source-elasticsearch/">Fork&lt;/a>했고, 이를 &lt;a href="https://opendistro.github.io/for-elasticsearch/">Open Distro for Elasticsearch&lt;/a>라고 명명하며 Apache License 2.0을 적용하고, 커뮤니티를 키워가기로 했습니다.&lt;/p>
 &lt;p>누가 오픈소스의 지속가능성과 발전에 기여하고 있는 것일까요?&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="elastic-license-20과-최신-라이선스-기술">Elastic License 2.0과 최신 라이선스 기술&lt;/h2>
@@ -129,10 +130,20 @@ It describes a software model where software:
 &lt;p>&lt;strong>&amp;ldquo;The rise of open source IPOs&amp;rdquo;&lt;/strong> &lt;a href="https://coss.media/rise-of-the-open-source-ipo/">https://coss.media/rise-of-the-open-source-ipo/&lt;/a>. This article tracks some of the spectacular business successes of open source companies.&lt;/p>
 &lt;p>&lt;strong>&amp;ldquo;The After Open Source Era Has Started&amp;rdquo;&lt;/strong> &lt;a href="https://monetize.substack.com/p/open-source-eras">https://monetize.substack.com/p/open-source-eras&lt;/a> . This article discusses the sea change represented by companies moving to source available licenses.&lt;/p>
 &lt;p>&lt;strong>US House of Representatives Committee on the Judiciary&amp;rsquo;s report on investigation into competition in digital markets, spearheaded by the Subcommittee on Antitrust, Commercial and Administrative Law.&lt;/strong> &lt;a href="https://www.documentcloud.org/documents/7222836-Investigation-of-Competition-in-Digital-Markets.html">https://www.documentcloud.org/documents/7222836-Investigation-of-Competition-in-Digital-Markets.html&lt;/a>. Note the mention of Elasticsearch on page 326.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
 &lt;hr>
-&lt;p>&lt;sup>1&lt;/sup> &amp;ldquo;Modification of Final Judgment,&amp;rdquo; August 24, 1982, filed in case 82-0192, United States of America v. Western Electric Company, Incorporated, and American Telephone and Telegraph Company, U.S. District Court for the District of Columbia &lt;a href="http://web.archive.org/web/20060827191354/members.cox.net/hwilkerson/documents/AT&amp;amp;T_Consent_Decree.pdf">web.archive.org/web/20060827191354/members.cox&lt;/a>.&lt;/p>
-&lt;p>&lt;sup>2&lt;/sup> The Free Software Definition is similar to the Open Source Definition, but shorter and clearer.&lt;/p>
-&lt;p>&lt;sup>3&lt;/sup> Open source licenses can contain conditions, such as notices or source code sharing. But these are not limitations that tell you what you cannot do with software, they only require that if you elect to do certain things, you also must do others.&lt;/p></description></item><item><title>Blog: 기업별 Github 활동 순위와 라이선스 현황</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/01/14/%EA%B8%B0%EC%97%85%EB%B3%84-github-%ED%99%9C%EB%8F%99-%EC%88%9C%EC%9C%84%EC%99%80-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4-%ED%98%84%ED%99%A9/</link><pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/01/14/%EA%B8%B0%EC%97%85%EB%B3%84-github-%ED%99%9C%EB%8F%99-%EC%88%9C%EC%9C%84%EC%99%80-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4-%ED%98%84%ED%99%A9/</guid><description>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>&amp;ldquo;Modification of Final Judgment,&amp;rdquo; August 24, 1982, filed in case 82-0192, United States of America v. Western Electric Company, Incorporated, and American Telephone and Telegraph Company, U.S. District Court for the District of Columbia &lt;a href="http://web.archive.org/web/20060827191354/members.cox.net/hwilkerson/documents/AT&amp;amp;T_Consent_Decree.pdf">web.archive.org/web/20060827191354/members.cox&lt;/a>. &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>The Free Software Definition is similar to the Open Source Definition, but shorter and clearer. &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3" role="doc-endnote">
+&lt;p>Open source licenses can contain conditions, such as notices or source code sharing. But these are not limitations that tell you what you cannot do with software, they only require that if you elect to do certain things, you also must do others. &lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Blog: 기업별 Github 활동 순위와 라이선스 현황</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/01/14/%EA%B8%B0%EC%97%85%EB%B3%84-github-%ED%99%9C%EB%8F%99-%EC%88%9C%EC%9C%84%EC%99%80-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4-%ED%98%84%ED%99%A9/</link><pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/01/14/%EA%B8%B0%EC%97%85%EB%B3%84-github-%ED%99%9C%EB%8F%99-%EC%88%9C%EC%9C%84%EC%99%80-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4-%ED%98%84%ED%99%A9/</guid><description>
 &lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2021/01/14/%EA%B8%B0%EC%97%85%EB%B3%84-github-%ED%99%9C%EB%8F%99-%EC%88%9C%EC%9C%84%EC%99%80-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4-%ED%98%84%ED%99%A9/featured-github_hu51c175f0bc73f8141f28734af3e5d00b_391177_640x0_resize_catmullrom_2.png" width="640" height="360"/>
 &lt;h2 id="epam-2020년도-기업별-github-활동-순위와-라이선스-현황-osci">EPAM, 2020년도 기업별 Github 활동 순위와 라이선스 현황 (OSCI)&lt;/h2>
 &lt;p>&lt;img src="featured-github.png" alt="featured-github">&lt;/p>
