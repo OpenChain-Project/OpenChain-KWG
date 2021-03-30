@@ -23,7 +23,7 @@ resources:
 > 여하튼 시대가 변하며 소프트웨어 배포 방식이 바뀌는 상황에 따라 상용 오픈소스 기업들이 개발과 사업을 병행하기 위해 어떤 라이선스 모델을 도입해야 할지 고민해야 했고, Elastic License가 나온 배경에 대한 한 측면을 이해하는 데 도움이 되는 글이라 생각합니다. 
 > 글에 오류가 있다면 언제든 [연락](https://haksungjang.github.io/)해주세요. :-)
 > 
-> * 감수에 도움 주신 카카오 [Sean](https://www.linkedin.com/in/%EC%98%81%ED%99%98-%EA%B9%80-4069b5135/)에게 깊은 감사 드립니다. 
+> * 감수에 도움 주신 카카오의 [Sean](https://www.linkedin.com/in/%EC%98%81%ED%99%98-%EA%B9%80-4069b5135/) 그리고 [Robin](https://www.linkedin.com/in/hwang-minho/)에게 깊은 감사 드립니다. 
 
 ---
 
@@ -37,7 +37,9 @@ Elastic License 2.0은 개방형 개발 모델<sub>Open Development Model</sub>�
 
 Elastic License 2.0과 같은 새로운 라이선스의 추세를 이해하려면 오픈소스 라이선스 운동이 어떻게 성장했는지 살펴보는 것이 도움이 된다. 
 
-오픈소스와 자유소프트웨어<sub>Free Software</sub> 운동은 소프트웨어가 사유화되는 것에 대한 개발자의 우려에서 시작되었다. 이러한 우려의 불씨는 당시 가장 인기있는 운영체제인 유닉스였다. 수년간 유닉스는 매우 관대한 조건 하의 라이선스가 적용되었다. 이는 1956년 동의령<sub>consent decree</sub>이 유닉스의 개발사인 AT&T Bell Labs가 유닉스 및 C언어를 포함하는 연구 프로젝트로 이익 얻는 것을 금지했었기 때문이다<sup>1</sup>. 학계, 연구자, 개발자들은 수정/개선 사항을 공유하기 시작했고, 유닉스는 곧 운영체제 분야의 선두가 되었다. 1983년 동의령이 해제되자 AT&T는 수정 사항의 공유를 허용하지 않는 상용 조항을 적용하기 시작하였다. 이에 따라 유닉스는 많은 호환되지 않는 종류로 쪼개졌고, 라이선스 사용자들은 더 이상 협업할 수 없게 되었다. 
+오픈소스와 자유소프트웨어<sub>Free Software</sub> 운동은 소프트웨어가 사유화되는 것에 대한 개발자의 우려에서 시작되었다. 이러한 우려의 불씨는 당시 가장 인기있는 운영체제인 유닉스였다. 수년간 유닉스는 매우 관대한 조건 하의 라이선스가 적용되었다. 이는 1956년 동의령<sub>consent decree</sub>이 유닉스의 개발사인 AT&T Bell Labs가 유닉스 및 C언어를 포함하는 연구 프로젝트로 이익 얻는 것을 금지했었기 때문이다[^decree]. 학계, 연구자, 개발자들은 수정/개선 사항을 공유하기 시작했고, 유닉스는 곧 운영체제 분야의 선두가 되었다. 1983년 동의령이 해제되자 AT&T는 수정 사항의 공유를 허용하지 않는 상용 조항을 적용하기 시작하였다. 이에 따라 유닉스는 많은 호환되지 않는 종류로 쪼개졌고, 라이선스 사용자들은 더 이상 협업할 수 없게 되었다. 
+
+[^decree]: "Modification of Final Judgment," August 24, 1982, filed in case 82-0192, United States of America v. Western Electric Company, Incorporated, and American Telephone and Telegraph Company, U.S. District Court for the District of Columbia [web.archive.org/web/20060827191354/members.cox](http://web.archive.org/web/20060827191354/members.cox.net/hwilkerson/documents/AT&T_Consent_Decree.pdf).
 
 유닉스가 사유화되면서 자유소프트웨어 운동, 그리고 이어서 오픈소스 운동이 생겨났으며, 이들은 인프라 소프트웨어가 폐쇄되는 상황이 다시 발생하는 것을 방지하려고 하였다. 이 운동은 유닉스를 대체하는 자유소프트웨어인 리눅스를 중심으로 이루어졌으며 곧 모든 소프트웨어는 자유<sub>free</sub>(무료<sub>free</sub> 맥주에서의 Free가 아니라 언론의 자유<sub>free</sub>에서의 Free)로워야 한다는 철학에 기반한 더 큰 운동으로 발전하였다. 이러한 운동의 한 요소는 소스 코드에 대한 접근, 개선 및 변경 사항을 만들고 공유할 수 있는 권리이다. 이러한 원칙들은 [GNU General Public License](https://en.wikipedia.org/wiki/GNU_General_Public_License) (GPL)에서 구현되었으며, 이에 따라 바이너리 배포자들은 해당 소스 코드를 공유해야 한다. 
 
@@ -81,6 +83,8 @@ MongoDB는 AGPL을 "[듀얼 라이선스](http://monty-says.blogspot.com/2009/08
 > 주요 오픈소스 라이선스가 작성되었던 시점에는 AWS의 "Program as a Service" 형태의 프로그램이 없었으니, 이에 대한 조건도 고려하지 않았을 테지요. 
 > 
 > 오픈소스 상용 기업들은 오픈소스 프로그램을 개발해서 듀얼 라이선스 모델 (GPL or 상용)로 사업을 하고 있었는데, 클라우드 제공 업체에서 이 오픈소스 프로그램을 그대로 가져다가 클라우드 서비스로 제공하는 사업을 하고, 자기네한테는 아무런 이윤도 안겨주지 않으니, 사업 또는 개발 측면에서 모두 좋지 않은 영향을 미쳤을 것은 충분히 추측할 수 있습니다.  
+> 
+> 클라우드 공급 업체가 MongoDB를 [Amazon DocumentDB](https://aws.amazon.com/ko/documentdb/)나 [Azure Cosmos DB](https://docs.microsoft.com/ko-kr/azure/cosmos-db/introduction)로 서비스하며 고객을 확보하는게 대표적인 예라고 볼 수 있을 것 같습니다.
 
 오픈소스 상용 기업들과 투자자들은 이런 오픈소스 모델의 한계 때문에 고민이 되었다. GPL, AGPL 등 어떤 라이선스도 저작권법을 사용하여 클라우드 공급 업체가 변경 사항을 공유하도록 강제할 수 없었다. 또한 AWS, Azure 또는 Google Cloud와 같은 대규모 고객 기반을 가진 클라우드 공급 업체는 버튼 클릭으로 소프트웨어를 쉽게 추가할 수 있게 하여 고객과 "끈끈한" 관계를 유지하였다. 일부 오픈소스 개발사는 자체 클라우드 서비스를 제공했지만, 소프트웨어를 무료로 사용하는 대형 클라우드 공급 업체와 경쟁하는 건 너무 어렵다는 걸 알게 되었다. 오픈소스 개발사의 서비스가 더 우수한 경우에도, 기존 클라우드 계정에서는 단지 "체크박스를 선택"하여 소프트웨어 제품군을 추가하는 것과는 달리, 새로운 서비스를 사용하기 위한 거래 비용<sub>transaction cost</sub>이 발생한다는 점이 고객이 등을 돌리게 하였다. 
 
@@ -131,9 +135,13 @@ MongoDB는 SSPL을 [OSI<sub>Open Source Initiative</sub>](https://opensource.org
 
 다른 사람들은 또 다른 경로를 따랐다. 일부 회사는 Salil Deshpande가 주도한 [Commons Clause](https://commonsclause.com/)를 채택했으며, 어떤 회사는 Elastic이 Elastic License 1.0을 만든 것처럼 [Redis](https://redislabs.com/legal/licenses/), [Confluent](https://www.confluent.io/confluent-community-license), [CockroachDB](https://www.cockroachlabs.com/cockroachdb-community-license/)와 같은 자체 라이선스를 제작하였다. SSPL과는 달리, 이 라이선스들은 오픈소스 정의를 충족시키기 위한 것이 아니었다. 대신, 이들은 무상 사용을 겨냥한 제한 조건을 갖고 있다. 
 
-왜 이렇게 두 가지 경로로 갈렸을까? 이는 [Freedom Zero](https://www.gnu.org/philosophy/free-sw.en.html), "어떤 목적으로든 원하는 대로 프로그램을 실행할 수 있는 자유"와 관련이 있다<sup>2</sup>.
+왜 이렇게 두 가지 경로로 갈렸을까? 이는 [Freedom Zero](https://www.gnu.org/philosophy/free-sw.en.html), "어떤 목적으로든 원하는 대로 프로그램을 실행할 수 있는 자유"와 관련이 있다[^free].
 
-오픈소스 또는 자유소프트웨어 라이선스의 주요 특징은 라이선스 제약이나 제한이 없다는 것이다<sup>3</sup>. 일반적인 상용 소프트웨어 라이선스와 비교해보자. 개인용으로 사용하겠다는 라이선스 조건에 클릭하여 수락하는 형태의 최종 사용자 라이선스<sub>End User license Agreement</sub>는 소프트웨어를 사용하는 것만 허용하며, 변경하거나 배포할 수 없다. 엔터프라이즈 라이선스는 소프트웨어를 사용할 수 있는 사용자, 서버 또는 물리적 위치의 수에 대한 제한을 설정하고, 기업은 해당 사용을 감시해야 한다. 그러나 오픈소스 라이선스에는 그러한 제한이 없다. 따라서, 소스 코드를 무료로 제공한다고 하더라도 상업적 사용 불가와 같은 제한을 갖고 있다면 정의상 오픈소스가 아니다. 
+[^free]: The Free Software Definition is similar to the Open Source Definition, but shorter and clearer.
+
+오픈소스 또는 자유소프트웨어 라이선스의 주요 특징은 라이선스 제약이나 제한이 없다는 것이다[^limitation]. 일반적인 상용 소프트웨어 라이선스와 비교해보자. 개인용으로 사용하겠다는 라이선스 조건에 클릭하여 수락하는 형태의 최종 사용자 라이선스<sub>End User license Agreement</sub>는 소프트웨어를 사용하는 것만 허용하며, 변경하거나 배포할 수 없다. 엔터프라이즈 라이선스는 소프트웨어를 사용할 수 있는 사용자, 서버 또는 물리적 위치의 수에 대한 제한을 설정하고, 기업은 해당 사용을 감시해야 한다. 그러나 오픈소스 라이선스에는 그러한 제한이 없다. 따라서, 소스 코드를 무료로 제공한다고 하더라도 상업적 사용 불가와 같은 제한을 갖고 있다면 정의상 오픈소스가 아니다. 
+
+[^limitation]: Open source licenses can contain conditions, such as notices or source code sharing. But these are not limitations that tell you what you cannot do with software, they only require that if you elect to do certain things, you also must do others.
 
 즉, 모든 라이선스 제한은 오픈소스 범주에서 벗어나게 한다. 
 
@@ -171,7 +179,7 @@ Elastic의 선택은 SSPL과 Elastic License 2.0의 두 가지 무료 라이선�
 
 > Elastic License 2.0는 오직 클라우드 서비스 공급 업체에서 Elasticsearch를 자기네 클라우드 서비스로 제공하는 것만은 막겠다는 의지인 것 같습니다. 
 > 
-> 결국 AWS는 Elasticsearch 서비스를 계속하기 위해 Elasticsearch를 Fork했고, 이를 [오픈소스 Elasticsearch](https://aws.amazon.com/ko/blogs/opensource/stepping-up-for-a-truly-open-source-elasticsearch/)라고 명명하며 Apache License 2.0을 적용하고, 커뮤니티를 키워가기로 했습니다. 
+> 결국 AWS는 Elasticsearch 서비스를 계속하기 위해 Elasticsearch를 [Fork](https://aws.amazon.com/ko/blogs/opensource/stepping-up-for-a-truly-open-source-elasticsearch/)했고, 이를 [Open Distro for Elasticsearch](https://opendistro.github.io/for-elasticsearch/)라고 명명하며 Apache License 2.0을 적용하고, 커뮤니티를 키워가기로 했습니다. 
 > 
 > 누가 오픈소스의 지속가능성과 발전에 기여하고 있는 것일까요? 
 
@@ -214,11 +222,3 @@ It describes a software model where software:
 **"The After Open Source Era Has Started"** https://monetize.substack.com/p/open-source-eras . This article discusses the sea change represented by companies moving to source available licenses.
 
 **US House of Representatives Committee on the Judiciary's report on investigation into competition in digital markets, spearheaded by the Subcommittee on Antitrust, Commercial and Administrative Law.** https://www.documentcloud.org/documents/7222836-Investigation-of-Competition-in-Digital-Markets.html. Note the mention of Elasticsearch on page 326.
-
----
-
-<sup>1</sup> "Modification of Final Judgment," August 24, 1982, filed in case 82-0192, United States of America v. Western Electric Company, Incorporated, and American Telephone and Telegraph Company, U.S. District Court for the District of Columbia [web.archive.org/web/20060827191354/members.cox](http://web.archive.org/web/20060827191354/members.cox.net/hwilkerson/documents/AT&T_Consent_Decree.pdf).
-
-<sup>2</sup> The Free Software Definition is similar to the Open Source Definition, but shorter and clearer.
-
-<sup>3</sup> Open source licenses can contain conditions, such as notices or source code sharing. But these are not limitations that tell you what you cannot do with software, they only require that if you elect to do certain things, you also must do others.
