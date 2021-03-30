@@ -78,7 +78,7 @@ MongoDB는 AGPL을 "[듀얼 라이선스](http://monty-says.blogspot.com/2009/08
 
 이 때문에 비즈니스 세계에서 클라우드 공급 업체의 오픈소스 사용에 대한 비판이 제기되었다. Bain Capital의 Salil Deshpande는 2018년 "분명히 이것은 불법은 아니다. 그러나 우리는 이것이 잘못되었고, 오픈소스 커뮤니티의 지속 가능성에 도움이 되지 않는다고 생각한다"라고 [하였다](https://techcrunch.com/2018/09/07/commons-clause-stops-open-source-abuse/). 또 다른 전문가는 "AWS는 오픈소스의 아킬레스건을 건드리고 있다. 다른 사람의 저작물을 무료로 가져다가 이에 대한 접근 권한을 임대하는 사업을 하는 것이다."라고 [하였다](https://onezero.medium.com/open-source-betrayed-industry-leaders-accuse-amazon-of-playing-a-rigged-game-with-aws-67177bc748b7). 문제는 모든 주요 오픈소스 라이선스는 이런 방식으로 소프트웨어를 사용하는 것을 제지하지 않는다는 것이다. 
 
-> 주요 오픈소스 라이선스가 작성되었던 시점에는 AWS의 "Program as a Service" 형태의 프로그램이 없었으니, 이에 대한 조건도 고려하지 안았을 테지요. 
+> 주요 오픈소스 라이선스가 작성되었던 시점에는 AWS의 "Program as a Service" 형태의 프로그램이 없었으니, 이에 대한 조건도 고려하지 않았을 테지요. 
 > 
 > 오픈소스 상용 기업들은 오픈소스 프로그램을 개발해서 듀얼 라이선스 모델 (GPL or 상용)로 사업을 하고 있었는데, 클라우드 제공 업체에서 이 오픈소스 프로그램을 그대로 가져다가 클라우드 서비스로 제공하는 사업을 하고, 자기네한테는 아무런 이윤도 안겨주지 않으니, 사업 또는 개발 측면에서 모두 좋지 않은 영향을 미쳤을 것은 충분히 추측할 수 있습니다.  
 
