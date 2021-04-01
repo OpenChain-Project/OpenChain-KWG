@@ -23,7 +23,7 @@ resources:
 > 여하튼 시대가 변하며 소프트웨어 배포 방식이 바뀌는 상황에 따라 상용 오픈소스 기업들이 개발과 사업을 병행하기 위해 어떤 라이선스 모델을 도입해야 할지 고민해야 했고, Elastic License가 나온 배경에 대한 한 측면을 이해하는 데 도움이 되는 글이라 생각합니다. 
 > 글에 오류가 있다면 언제든 [연락](https://haksungjang.github.io/)해주세요. :-)
 > 
-> * 감수에 도움 주신 카카오의 [Sean](https://www.linkedin.com/in/%EC%98%81%ED%99%98-%EA%B9%80-4069b5135/) 그리고 [Robin](https://www.linkedin.com/in/hwang-minho/)에게 깊은 감사 드립니다. 
+> * 감수에 도움 주신 카카오의 [Sean](https://www.linkedin.com/in/%EC%98%81%ED%99%98-%EA%B9%80-4069b5135/), [Robin](https://www.linkedin.com/in/hwang-minho/) 그리고 LG전자의 [김경애](https://www.linkedin.com/in/kyoungae-kim-597a1630)님에게 깊은 감사 드립니다. 
 
 ---
 
@@ -37,7 +37,7 @@ Elastic License 2.0은 개방형 개발 모델<sub>Open Development Model</sub>�
 
 Elastic License 2.0과 같은 새로운 라이선스의 추세를 이해하려면 오픈소스 라이선스 운동이 어떻게 성장했는지 살펴보는 것이 도움이 된다. 
 
-오픈소스와 자유소프트웨어<sub>Free Software</sub> 운동은 소프트웨어가 사유화되는 것에 대한 개발자의 우려에서 시작되었다. 이러한 우려의 불씨는 당시 가장 인기있는 운영체제인 유닉스였다. 수년간 유닉스는 매우 관대한 조건 하의 라이선스가 적용되었다. 이는 1956년 동의령<sub>consent decree</sub>이 유닉스의 개발사인 AT&T Bell Labs가 유닉스 및 C언어를 포함하는 연구 프로젝트로 이익 얻는 것을 금지했었기 때문이다[^decree]. 학계, 연구자, 개발자들은 수정/개선 사항을 공유하기 시작했고, 유닉스는 곧 운영체제 분야의 선두가 되었다. 1983년 동의령이 해제되자 AT&T는 수정 사항의 공유를 허용하지 않는 상용 조항을 적용하기 시작하였다. 이에 따라 유닉스는 많은 호환되지 않는 종류로 쪼개졌고, 라이선스 사용자들은 더 이상 협업할 수 없게 되었다. 
+오픈소스와 자유소프트웨어<sub>Free Software</sub> 운동은 소프트웨어가 사유화되는 것에 대한 개발자의 우려에서 시작되었다. 이러한 우려의 불씨는 당시 가장 인기있는 운영체제인 유닉스였다. 유닉스의 개발사인 AT&T Bell Labs은 1956년의 동의령<sub>consent decree</sub>에 따라 유닉스 및 C언어를 포함하는 연구 프로젝트로 이익 얻는 것을 금지[^decree] 당했으며, 이때문에 수년간 매우 관대한 조건의 라이선스로 유닉스를 배포하였다. 학계, 연구자, 개발자들은 유닉스를 수정/개선하여 공유하기 시작했고, 유닉스는 곧 운영체제 분야의 선두가 되었다. 하지만, 1983년 동의령이 해제되자 AT&T는 유닉스에 수정 사항 공유를 허용하지 않는 조항을 적용하였다. 이에 따라 각 업체별로 각자 수정한 운영체제를 사용하며 유닉스는 많은 호환되지 않는 종류로 쪼개졌고, 사용자들은 더 이상 협업할 수 없게 되었다. 
 
 [^decree]: "Modification of Final Judgment," August 24, 1982, filed in case 82-0192, United States of America v. Western Electric Company, Incorporated, and American Telephone and Telegraph Company, U.S. District Court for the District of Columbia [web.archive.org/web/20060827191354/members.cox](http://web.archive.org/web/20060827191354/members.cox.net/hwilkerson/documents/AT&T_Consent_Decree.pdf).
 
@@ -68,11 +68,11 @@ AGPL은 첫 번째 릴리스부터 논란이 있었다. 2007년, GPL 3.0 초안 
 
 > AGPL 3.0의 Remote Network Interaction 조항은 프로그램을 변경하였을 때에 한하여 변경 사항의 소스 코드를 컴퓨터 네트워크를 통한 원격 사용자에게 제공해야 합니다. 즉, 변경하지 않는다면 소스 코드 공개 의무가 발생하지 않습니다. 
 
-MongoDB는 AGPL을 "[듀얼 라이선스](http://monty-says.blogspot.com/2009/08/thoughts-about-dual-licensing-open.html)" 비즈니스 모델의 한 축으로 사용하였다. 사용자<sub>licensee</sub>에게 AGPL 또는 상용 소프트웨어 라이선스 중 하나를 선택할 수 있게 하였다. AGPL의 요구사항을 준수하고 싶지 않거나 준수할 수 있는지 확인하기 위한 법적 분석에 관여하고 싶지 않은 사람들은 상용 라이선스를 선택하게 하였다. 이 비즈니스 모델은 MySQL이 GPL을 이용하는 방식으로 개발되었으나 시간이 지나면서 GPL 대신 AGPL이 듀얼 라이선스 모델을 위해 주로 사용되는 라이선스가 되었다. MongoDB의 이 라이선스 모델은 상당히 성공적이었다. AGPL은 가장 강력한 카피레프트 라이선스였기 때문에 상업적인 협상을 추진하는 데 유용하였다. 그러나, AGPL의 작성자들은 이 사업모델이 [해로운](http://ebb.org/bkuhn/blog/) 갈취<sub>toxic shakedown</sub>라면서 라이선스의 사용을 비판하였다. 그럼에도 불구하고 AGPL의 소스 코드 공유 조건은 개발자나 사용자 커뮤니티에 아무것도 돌려주지 않는 방식으로 대규모의 상업적 사용을 막기에는 충분하지 않았다. 
+MongoDB는 "[듀얼 라이선스](http://monty-says.blogspot.com/2009/08/thoughts-about-dual-licensing-open.html)" 비즈니스 모델로 AGPL을 사용하였다. 사용자<sub>licensee</sub>에게 AGPL 또는 상용 소프트웨어 라이선스 중 하나를 선택하게 하였다. 사용자는 AGPL의 요구사항을 준수하고 싶지 않거나 준수하기 위한 법적인 검토조차 관여하고 싶지 않다면 상용 라이선스를 선택하였다. 이러한 MongoDB의 듀얼 라이선스 비즈니스 모델은 원래 GPL과 상용 라이선스를 선택하게 하는 방식으로 개발되었으나 시간이 지나면서 GPL 대신 보다 카피레프트 범위를 확장한 AGPL이 사용되었다. MongoDB의 이 라이선스 모델은 상당히 성공적이었다. AGPL은 가장 강력한 카피레프트 라이선스였기 때문에 MongoDB가 상업적인 협상을 추진하는 데 유용하였다. 한편, AGPL을 만든 이들은 AGPL이 MongoDB의 사업 수단으로 사용되는 모습이 [유해한 갈취](http://ebb.org/bkuhn/blog/)<sub>toxic shakedown</sub>라면서 비판하기도 하였다. 여하튼, 그렇게 강력하다고 평가 받던 AGP의 소스 코드 공유 조건도 클라우드 공급 업체가 오픈소스를 대규모로 상업적인 사용을 하면서 개발자나 커뮤니티에 아무것도 되돌려 주지 않는 행위를 막기에는 충분하지 않았다.
 
 ## 무상 사용<sub>Strip-mining</sub>
 
-클라우드 이용이 GPL 모델을 "파괴<sub>broken</sub>"시켰던 것처럼, 2010년대 클라우드 컴퓨팅이 발전하면서 AGPL 듀얼 라이선스 모델도 압박을 받기 시작하였다. 이번에는 문제가 달랐다. GPL 또는 AGPL의 범위는 하나의 단일 실행 가능 프로그램<sub>single program executable</sub>까지만 확장된다. 이 "기능"은 저작권 라이선스가 단일 저작물에 대해서만 사용 조건을 지정할 수 있다는 이론에 따라 GPL에서 의도적으로 설계된 것이었다. 즉, GPL은 파생 저작물<sub>derivative work</sub>에 대한 소스 코드 공유 요건을 갖지만, 집합 저작물<sub>collective work</sub>에 대해서는 아니다. 법적으로 이 둘 간의 경게는 상당히 불분명하지만 GPL이 인기를 얻으면서 단일 프로그램이란 하나의 실행 가능한 프로세스라고 정의하는 것이 일반적인 관행이 되었다. 자유소프트웨어재단<sub>Free Software Foundation</sub>은 [GPL FAQ](https://www.gnu.org/licenses/gpl-faq.en.html#MereAggregation)에서 오랫동안 이런 원칙을 주장해왔다. 
+클라우드 이용이 GPL 모델을 "파괴<sub>broken</sub>"시켰던 것처럼, 2010년대 클라우드 컴퓨팅이 발전하면서 AGPL 듀얼 라이선스 모델도 압박을 받기 시작하였다. 이번에는 문제가 달랐다. GPL 또는 AGPL의 범위는 하나의 단일 실행 가능 프로그램<sub>single program executable</sub>까지만 확장된다. 이 "기능"은 저작권 라이선스가 단일 저작물에 대해서만 사용 조건을 지정할 수 있다는 이론에 따라 GPL에서 의도적으로 설계된 것이었다. 즉, GPL은 파생 저작물<sub>derivative work</sub>에 대한 소스 코드 공유 요건을 갖지만, 집합 저작물<sub>collective work</sub>에 대해서는 아니다. 법적으로 이 둘 간의 경계는 상당히 불분명하지만 GPL이 인기를 얻으면서 단일 프로그램이란 하나의 실행 가능한 프로세스라고 정의하는 것이 일반적인 관행이 되었다. 자유소프트웨어재단<sub>Free Software Foundation</sub>은 [GPL FAQ](https://www.gnu.org/licenses/gpl-faq.en.html#MereAggregation)에서 오랫동안 이런 원칙을 주장해왔다. 
 
 하지만 클라우드 서비스가 발전하면서 두 가지 일이 발생하였다. 첫째, 소프트웨어 엔지니어링을 클라우드 구현에 더욱 집중하게 되었다. 클라우드 공급 업체는 한때 클라우드 환경에서 실행하기 위한 소프트웨어를 개선하거나 수정해야 했던 반면, 소프트웨어 엔지니어링이 발전하면서 클라우드 공급 업체는 기존 오픈소스 소프트웨어를 "플러그 앤드 플레이<sub>plug and play</sub>"형태로 사용할 수 있게 되었다. 그러다 보니 클라우드 공급 업체는 혁신의 주체를 주요 실행 파일이 아닌 곳으로 변화할 수 있었다. 그들은 소프트웨어를 관리, 모니터링 및 배포하기 위한 소프트웨어를 추가로 개발했으며, 이러한 혁신은 클라우드 서비스를 키울 수 있었다. AGPL은 클라우드 공급 업체의 이러한 개선사항에 대해서는 이를 공유하도록 강제하는 데 아무런 도움이 되지 않았다.
 
@@ -129,7 +129,7 @@ using the Service Source Code you make available. [emphasis added].
 
 이 라이선스는 무상 사용 문제에 대응하기 위한 오픈소스 솔루션을 만들기 위해 작성되었다. 소스 코드 공유 요구 사항은 AGPL의 요구 사항보다 훨씬 광범위하다. 이러한 요구 사항의 범위는 분산 소프트웨어에 대해서도 GPL 요구 사항과 유사하게 작동하도록 설계되었다. [MongoDB는 SSPL 또는 상용 라이선스](https://www.mongodb.com/community/licensing)에 따라 소프트웨어를 사용할 수 있는 듀얼 라이선스 모델을 적용하였다. 
 
-MongoDB는 SSPL을 [OSI<sub>Open Source Initiative</sub>](https://opensource.org/approval)에 승인받기 위해 제출하였다. 수개월 간의 논쟁 끝에 승인을 받지는 못하였지만, MongoDB는 듀얼 라이선스 모델의 오픈소스 선택지로 SSPL을 계속 사용하고 있다. 이 라이선스가 [오픈소스 정의](https://opensource.org/osd)<sub>Open Source Definition</sub>에 적합하지 않은 이유에 대한 논의는 복잡했으며, 이 정의를 충족하는 것만이 유일한 기준은 아니었다. 요약하자면, 이렇게 광범위한 소스 공유 요구 사항을 가진 라이선스가 "[소프트웨어 자유를 보장](https://opensource.org/approval)"할지가 분명하지 않았다. 
+MongoDB는 SSPL을 [OSI](https://opensource.org/approval)<sub>Open Source Initiative</sub>에 승인받기 위해 제출하였다. 수개월 간의 논쟁 끝에 승인을 받지는 못하였지만, MongoDB는 듀얼 라이선스 모델의 오픈소스 선택지로 SSPL을 계속 사용하고 있다. 이 라이선스가 [오픈소스 정의](https://opensource.org/osd)<sub>Open Source Definition</sub>에 적합하지 않은 이유에 대한 논의는 복잡했으며, 이 정의를 충족하는 것만이 유일한 기준은 아니었다. 요약하자면, 이렇게 광범위한 소스 공유 요구 사항을 가진 라이선스가 "[소프트웨어 자유를 보장](https://opensource.org/approval)"할지가 분명하지 않았다. 
 
 ### 제한 조건을 갖는 소스 공개 라이선스
 
@@ -167,13 +167,13 @@ any functionality in the software that is protected by the license key.
 
 첫 번째 제한은 무상 사용 문제를 해결하는 데 초점이 맞춰져 있다. 이로써 이 제한을 위반하여 소프트웨어를 사용하면 소프트웨어의 권한을 침해하게 된다. 
 
-두 번째 제한은 소프트웨어 라이선스 키의 해킹을 금지하기 위한 것이다. 이러한 제한은 소프트웨어 라이선스에서는 오랫동안 일반적이었지만 소스 공개 라이선스에서는 이제 막 사용이 시작되었다. 이러한 조항을 통해 개발자는 소프트웨어와 상호 작용하는 유료 서비스를 실행하거나 유료 기능을 위해 소프트웨어 구성 요소 일부를 저장할 수 있게 되었다. 
+두 번째 제한은 소프트웨어 라이선스 키의 해킹을 금지하기 위한 것이다. 이러한 제한은 소프트웨어 라이선스에서는 오래전부터 일반적이었으나, 소스 공개 라이선스에서는 이제 막 사용되기 시작하였다. 이 조항을 통해 개발자는 유료 서비스를 ELv2하의 소프트웨어와 상호 작용하게 하거나, 유료 기능을 위한 소프트웨어 구성 요소 일부를 보호할 수 있게 되었다. 
 
 이 라이선스의 다른 조항들은 매우 간단하며 오픈소스 라이선스를 읽은 사람이라면 누구나 익숙할 것이다.
 
 ## 왜 듀얼 라이선스를 사용하였는가?
 
-Elasticsearch는 사용자에게 SSPL과 Elastic License 중 하나를 선택할 수 있게 하는 특이한 경로를 택하였다. 오늘날 많은 기업이 "오픈 코어<sub>open core</sub>" 모델을 사용하고 있으며, 실제로 Elasticsearch도 전에는 이 모델을 사용하였다. 둘의 차이는 미묘하다고 할 수 있다. 오픈 코어 모델은 (대부분 Apache 2.0과 같은 허용적인<sub>permissive</sub>) 오픈소스 라이선스로 핵심 소프트웨어를 제공한다. 그런 다음 제한된 라이선스로 또는 서비스로만<sub>as a service</sub> 추가 기능(대개 기업이 대규모로 배포하는 데 유묭한 기능)을 제공한다. 그러나 Elasticsearch는 동일한 소프트웨어를 두 개의 다른 라이선스로 사용할 수 있는 듀얼 라이선스 모델을 고수하였다. 이 듀얼 라이선스 모델은 MySQL에 의해 개척되었고, 일반적으로 무료 라이선스 선택지로 GPL, AGPL 또는 SSPL과 같은 카피레프트 라이선스를 사용한다. 그러나 이 모델은 오픈소스 라이선스와 클라우드 서비스 간의 충돌 때문에 최근 몇 년 동안 인기가 시들해졌다. 
+Elasticsearch는 사용자에게 SSPL과 Elastic License 중 하나를 선택할 수 있게 하는 특이한 경로를 택하였다. 오늘날 많은 기업이 "오픈 코어<sub>open core</sub>" 모델을 사용하고 있으며, 실제로 Elasticsearch도 전에는 이 모델을 사용하였다. 둘의 차이는 미묘하다고 할 수 있다. 오픈 코어 모델은 (대부분 Apache 2.0과 같은 허용적인<sub>permissive</sub>) 오픈소스 라이선스로 핵심 소프트웨어를 제공한다. 그런 다음 제한된 라이선스로 또는 서비스로만<sub>as a service</sub> 추가 기능(대개 기업이 대규모로 배포하는 데 유용한 기능)을 제공한다. 그러나 Elasticsearch는 동일한 소프트웨어를 두 개의 다른 라이선스로 사용할 수 있는 듀얼 라이선스 모델을 고수하였다. 이 듀얼 라이선스 모델은 MySQL에 의해 개척되었고, 일반적으로 무료 라이선스 선택지로 GPL, AGPL 또는 SSPL과 같은 카피레프트 라이선스를 사용한다. 그러나 이 모델은 오픈소스 라이선스와 클라우드 서비스 간의 충돌 때문에 최근 몇 년 동안 인기가 시들해졌다. 
 
 Elastic의 선택은 SSPL과 Elastic License 2.0의 두 가지 무료 라이선스 선택권을 제공하였다는 점에서 더욱 이례적이었다. 듀얼 라이선스는 일반적으로 하나의 무료 옵션만 제공한다. 이러한 이례적인 방법을 통해 Elasticsearch는 거의 모든 사용자가 소프트웨어를 무료로 사용할 수 있도록 하는 유연성을 강조하였다. 
 
@@ -185,7 +185,7 @@ Elastic의 선택은 SSPL과 Elastic License 2.0의 두 가지 무료 라이선�
 
 ## Elastic License 2.0과 최신 라이선스 기술
 
-Elasticsearch는 사용자와 개발자 모두에게 공정하고 지속 가능한 비즈니스 모델을 유지하면서 가능한 한 개방성을 유지하기 위해 새로운 라이선스 모델로 전환하였다. 그렇게 함으로써 소스 공개 운동<sub>source-available movement</sub>에 참여한 다른 참여자들의 목표와 추구하는 바를 라이선스 작성 시를 반영하였다. 
+Elasticsearch는 사용자와 개발자 모두에게 공정하고 지속 가능한 비즈니스 모델을 유지하면서 가능한 한 개방성을 유지하기 위해 새로운 라이선스 모델로 전환하였다. 그렇게 함으로써 소스 공개 운동<sub>source-available movement</sub>에 참여한 다른 참여자들의 목표와 추구하는 바를 라이선스 작성 시 반영하였다. 
 
 [라이선스 변경에 대한 FAQ](https://www.elastic.co/licensing/elastic-license/faq)에서 요약한 바와 같이 Elastic의 라이선스 변경은 고객이나 커뮤니티 사용자 수에 영향을 미치지 않을 것으로 예상된다. 대부분의 사용자는 Elastic의 소프트웨어를 기반으로 애플리케이션을 구축한다. 이는 "제3자에게 호스팅 또는 관리 서비스<sub>as a hosted or managed Service</sub>로 제공"하는 비즈니스가 아니기 때문이다.
 
