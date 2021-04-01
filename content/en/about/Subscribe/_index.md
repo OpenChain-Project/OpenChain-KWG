@@ -15,7 +15,7 @@ Anyone in charge of open source compliance at a Korean company that develops and
 
 You can sign up for [MAILING LIST](https://lists.openchainproject.org/g/korea-wg) of OpenChain KWG in the following way.
 
-* Please write your company / work in charge / motivation to join and send it by e-mail. : korea-sg-planning@lists.openchainproject.org
+* Please write your name / email / company / work in charge / motivation to join and send it by e-mail. : korea-sg-planning@lists.openchainproject.org
 * [Planning Group](/OpenChain-KWG/subgroup/planning/) confirms the request and approves the subscription.
 
 ## Inquiry
