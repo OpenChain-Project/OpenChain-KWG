@@ -1,7 +1,7 @@
 ---
 date: 2020-08-29
-title: "이미지를 포함한 샘플 블로그입니다."
-linkTitle: "샘플 블로그 (이미지포함)"
+title: "샘플 블로그입니다."
+linkTitle: "샘플 블로그"
 description: "The Docsy Hugo theme lets project maintainers and contributors focus on content, not on reinventing a website infrastructure from scratch"
 author: Riona MacNamara ([@rionam](https://twitter.com/bepsays))
 resources:
