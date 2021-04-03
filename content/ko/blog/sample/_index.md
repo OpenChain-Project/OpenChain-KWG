@@ -1,7 +1,7 @@
 
 ---
-title: "Sample blog"
-linkTitle: "Sample"
+title: "How to write blog"
+linkTitle: "Howto"
 weight: 100
 ---
 

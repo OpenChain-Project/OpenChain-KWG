@@ -1,7 +1,7 @@
 ---
 date: 2020-08-29
-title: "The sample blog post with images"
-linkTitle: "Sample blog post (w/image)"
+title: "The sample blog post"
+linkTitle: "Sample blog post"
 description: "The Docsy Hugo theme lets project maintainers and contributors focus on content, not on reinventing a website infrastructure from scratch"
 author: Riona MacNamara ([@rionam](https://twitter.com/bepsays))
 resources:
