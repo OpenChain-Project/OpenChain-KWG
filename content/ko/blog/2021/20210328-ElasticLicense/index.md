@@ -11,6 +11,11 @@ resources:
   byline: "Photo: Haksung Jang"
 ---
 
+
+{{% pageinfo %}}
+This paper was translated by Haksung Jang from the English version available at this [white paper](https://www.coss.community/coss/elastic-license-2-0-and-the-evolution-of-open-source-licensing-3jb3).  The original author, [Heather Meeker](https://heathermeeker.com/about-me/), has not reviewed this translation.
+{{% /pageinfo %}}
+
 ---
 
 > 안녕하세요. 
