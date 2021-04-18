@@ -31,6 +31,10 @@ This paper was translated by Haksung Jang from the English version available at 
 
 ---
 
+{{< imgproc todogroup Fit "768x768" >}}
+{{< /imgproc >}}
+
+
 ## OSPO의 정의
 
 OSPO<sub>Open Source Program Office</sub>는 조직의 오픈소스 운영을 위해 조직의 중앙에 역량을 집중하도록 설계되었다. 여기에는 오픈소스의 사용, 배포, 선택, 검사 및 관련 정책 수립뿐만 아니라 개발자 교육, 컴플라이언스 보장과 조직에 이익이 되는 커뮤니티 참여와 구축을 촉진하는 활동이 포함될 수 있다. 
