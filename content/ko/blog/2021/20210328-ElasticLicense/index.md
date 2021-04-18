@@ -8,7 +8,7 @@ resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
   params:
-  byline: "Photo: Haksung Jang"
+    byline: "Photo: Haksung Jang"
 ---
 
 
