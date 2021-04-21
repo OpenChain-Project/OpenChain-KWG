@@ -15,7 +15,8 @@
 {{ if eq (getenv "HUGO_ENV") "production" }}
 <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 {{ else }}
-<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+<!-- <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"> -->
+<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 {{ end }}
 {{ range .AlternativeOutputFormats -}}
 <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
