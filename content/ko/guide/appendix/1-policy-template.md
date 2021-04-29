@@ -6,8 +6,8 @@ type: docs
 {{< alert title="Note:" >}}
 이 샘플 오픈소스 정책은 다음 두 가지 자료를 참고하여 작성하였다.
 
-1. OpenChain Open Source Policy Template : [https://github.com/OpenChain-Project/Reference-Material/blob/master/Policy-Templates/Official/en/2.0/Open-Source-Policy-Template-2.0-en.xlsx](https://github.com/OpenChain-Project/Reference-Material/blob/master/Policy-Templates/Official/en/2.0/Open-Source-Policy-Template-2.0-en.xlsx)
-2. Linux Foundation Generic FOSS Policy : [https://github.com/todogroup/policies/blob/master/linuxfoundation/lf_compliance_generic_policy.pdf](https://github.com/todogroup/policies/blob/master/linuxfoundation/lf_compliance_generic_policy.pdf)
+1. [OpenChain Open Source Policy Template](https://github.com/OpenChain-Project/Reference-Material/blob/master/Policy-Templates/Official/en/2.0/Open-Source-Policy-Template-2.0-en.xlsx))
+2. [Linux Foundation Generic FOSS Policy](https://github.com/todogroup/policies/blob/master/linuxfoundation/lf_compliance_generic_policy.pdf)
 {{< /alert >}}
 
 
