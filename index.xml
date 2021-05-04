@@ -1,5 +1,5 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – OpenChain KWG</title><link>https://openChain-project.github.io/OpenChain-KWG/</link><description>Recent content on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Dockerfile 배포 시 컴플라이언스 책임은 누구에게?</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/05/04/dockerfile-%EB%B0%B0%ED%8F%AC-%EC%8B%9C-%EC%BB%B4%ED%94%8C%EB%9D%BC%EC%9D%B4%EC%96%B8%EC%8A%A4-%EC%B1%85%EC%9E%84%EC%9D%80-%EB%88%84%EA%B5%AC%EC%97%90%EA%B2%8C/</link><pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/05/04/dockerfile-%EB%B0%B0%ED%8F%AC-%EC%8B%9C-%EC%BB%B4%ED%94%8C%EB%9D%BC%EC%9D%B4%EC%96%B8%EC%8A%A4-%EC%B1%85%EC%9E%84%EC%9D%80-%EB%88%84%EA%B5%AC%EC%97%90%EA%B2%8C/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2021/05/04/dockerfile-%EB%B0%B0%ED%8F%AC-%EC%8B%9C-%EC%BB%B4%ED%94%8C%EB%9D%BC%EC%9D%B4%EC%96%B8%EC%8A%A4-%EC%B1%85%EC%9E%84%EC%9D%80-%EB%88%84%EA%B5%AC%EC%97%90%EA%B2%8C/featured-dockerfile-ex_hu144e77f3a0c06d5c2e11835ba0d8ec62_326508_640x0_resize_catmullrom_2.png" width="640" height="368"/>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – OpenChain KWG</title><link>https://openChain-project.github.io/OpenChain-KWG/</link><description>Recent content on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Dockerfile 배포 시 컴플라이언스 책임은 누구에게?</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210504-dockerfiles/</link><pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210504-dockerfiles/</guid><description>
+&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210504-dockerfiles/featured-dockerfile-ex_hu144e77f3a0c06d5c2e11835ba0d8ec62_326508_640x0_resize_catmullrom_2.png" width="640" height="368"/>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This paper was translated by Haksung Jang from the English version available at the &lt;a href="https://jolts.world/index.php/jolts/article/view/147">Distribution of Dockerfiles: Who is responsible for FOSS Licence Compliance?&lt;/a>. The original document is licensed under &lt;a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0&lt;/a>. The original author, Till Jaeger, has not reviewed this translation.&lt;/p>
 &lt;/div>
@@ -32,7 +32,7 @@
 &lt;h3 id="docker-image">Docker image&lt;/h3>
 &lt;p>사전에 구성된 컨테이너는 &amp;ldquo;Docker image&amp;quot;로 배포될 수 있으며, 기본 프로그램 외에 애플리케이션, 프로그램 코드로서의 Dependency, 필요한 경우 유틸리티 및 구성 파일도 포함할 수 있다. Docker image는 개별적으로 배포될 수 있지만 &amp;ldquo;Docker Hub&amp;quot;와 같은 공용 저장소를 통해서도 배포될 수 있다. 이는 C 라이브러리, Package Manager, Shell 및 디렉터리 트리와 같은 필수 시스템 구성 요소를 포함하고 특정 Linux 배포를 참조하는 이른바 &amp;ldquo;Base Image&amp;quot;에도 해당된다. 이 Base image 위에, 추가 기능은 개별 보관 파일로 별도로 배포될 수 있지만 서로 빌드되어 완전한 Docker image를 형성하는 이른바 &amp;ldquo;레이어&amp;quot;로 추가될 수 있다.&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 778px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/2021/05/04/dockerfile-%EB%B0%B0%ED%8F%AC-%EC%8B%9C-%EC%BB%B4%ED%94%8C%EB%9D%BC%EC%9D%B4%EC%96%B8%EC%8A%A4-%EC%B1%85%EC%9E%84%EC%9D%80-%EB%88%84%EA%B5%AC%EC%97%90%EA%B2%8C/image-layer_hu9d57ff001bc659885ebe5d88704277f8_22464_768x768_fit_catmullrom_2.png" width="768" height="304">
+&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/2021/20210504-dockerfiles/image-layer_hu9d57ff001bc659885ebe5d88704277f8_22464_768x768_fit_catmullrom_2.png" width="768" height="304">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 &lt;center>&lt;i>레이어 저장방식 : https://cultivo-hy.github.io/docker/image/usage/2019/03/14/Docker정리/&lt;/i>&lt;/center>
@@ -42,7 +42,7 @@
 &lt;h3 id="dockerfile">Dockerfile&lt;/h3>
 &lt;p>&amp;ldquo;Dockerfile&amp;quot;은 스크립트와 유사하게 Docker image를 만들기 위한 단계별 명령을 포함하는 텍스트 파일이다. Dockerfile은 일반적으로 Dockerfile 자체에만 적용되는 자체 라이선스를 가질 수 있으며, 이 라이선스는 Docker 컨테이너에 포함되는 프로그램에는 적용되지 않는다.&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 778px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/2021/05/04/dockerfile-%EB%B0%B0%ED%8F%AC-%EC%8B%9C-%EC%BB%B4%ED%94%8C%EB%9D%BC%EC%9D%B4%EC%96%B8%EC%8A%A4-%EC%B1%85%EC%9E%84%EC%9D%80-%EB%88%84%EA%B5%AC%EC%97%90%EA%B2%8C/featured-dockerfile-ex_hu144e77f3a0c06d5c2e11835ba0d8ec62_326508_768x768_fit_catmullrom_2.png" width="768" height="441">
+&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/2021/20210504-dockerfiles/featured-dockerfile-ex_hu144e77f3a0c06d5c2e11835ba0d8ec62_326508_768x768_fit_catmullrom_2.png" width="768" height="441">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 &lt;center>&lt;i>Dockerfile : https://www.slideshare.net/vincenzoferme/using-docker-containers-to-improve-reproducibility-in-software-and-web-engineering&lt;/i>&lt;/center>
@@ -52,7 +52,7 @@
 &lt;h3 id="docker-엔진">Docker 엔진&lt;/h3>
 &lt;p>Docker 컨테이너용 관리 소프트웨어인 &amp;ldquo;Docker 엔진&amp;quot;은 Dockerfile의 명령을 순차적으로 처리하여 Docker image를 생성한다. 일반적으로, Base image나 개별 레이어를 위한 각 컴포넌트는 내부 또는 외부 저장소에서 다운로드된다. 이는 제공자가 Dockerfile을 제공하더라도 물리적인 프로그램 코드를 전달하지 않는 것이 가능함을 의미하고, 이런 일은 실제로 관례적이다. 고객은 전달받은 Dockerfile을 가지고 자체적으로 공개 저장소로부터 전체 혹은 일부 프로그램 코드를 받아와서 Docker 컨테이너를 구축할 수 있다.&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 778px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/2021/05/04/dockerfile-%EB%B0%B0%ED%8F%AC-%EC%8B%9C-%EC%BB%B4%ED%94%8C%EB%9D%BC%EC%9D%B4%EC%96%B8%EC%8A%A4-%EC%B1%85%EC%9E%84%EC%9D%80-%EB%88%84%EA%B5%AC%EC%97%90%EA%B2%8C/docker_hufb296f6373118a7f15e41d8376f0e484_183225_768x768_fit_q75_catmullrom.jpg" width="768" height="576">
+&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/2021/20210504-dockerfiles/docker_hufb296f6373118a7f15e41d8376f0e484_183225_768x768_fit_q75_catmullrom.jpg" width="768" height="576">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 &lt;center>&lt;i>https://cultivatehq.com/posts/docker/&lt;/i>&lt;/center>
@@ -212,8 +212,8 @@ Software Interactions (a.k.a linking), Available at: &lt;a href="https://www.ifo
 &lt;p>The definition in section 1 GPL-3.0 reads as follows: ’The “System Libraries’ of an executable work include anything, other than the work as a whole, that (a) is included in the normal form of packaging a Major Component, but which is not part of that Major Component, and (b) serves only to enable use of the work with that Major Component, or to implement a Standard Interface for which an implementation is available to the public in source code form. A ‘Major Component’, in this context, means a major essential component (kernel, window system, and so on) of the specific operating system (if any) on which the executable work runs, or a compiler used to produce the work, or an object code interpreter used to run it.”&amp;#160;&lt;a href="#fnref:15" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Blog: OSPO란?</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/04/18/ospo%EB%9E%80/</link><pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/04/18/ospo%EB%9E%80/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2021/04/18/ospo%EB%9E%80/featured-todogroup_hue4eb93ef039f28113d98d652a131b29e_3378_640x0_resize_catmullrom_2.png" width="640" height="320"/>
+&lt;/section></description></item><item><title>Blog: OSPO란?</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210418-ospo-definition/</link><pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210418-ospo-definition/</guid><description>
+&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210418-ospo-definition/featured-todogroup_hue4eb93ef039f28113d98d652a131b29e_3378_640x0_resize_catmullrom_2.png" width="640" height="320"/>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This paper was translated by Haksung Jang from the English version available at the &lt;a href="https://github.com/todogroup/ospodefinition.org">OSPO Definition&lt;/a>. The original document is licensed under &lt;a href="https://github.com/todogroup/ospodefinition.org/blob/master/LICENSE">CC-BY-SA-4.0&lt;/a>.&lt;/p>
 &lt;/div>
@@ -225,7 +225,7 @@ Software Interactions (a.k.a linking), Available at: &lt;a href="https://www.ifo
 &lt;/blockquote>
 &lt;hr>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 328px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/2021/04/18/ospo%EB%9E%80/featured-todogroup_hue4eb93ef039f28113d98d652a131b29e_3378_768x768_fit_catmullrom_2.png" width="318" height="159">
+&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/2021/20210418-ospo-definition/featured-todogroup_hue4eb93ef039f28113d98d652a131b29e_3378_768x768_fit_catmullrom_2.png" width="318" height="159">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 &lt;small class="text-muted">&lt;br/>Photo: TODO Group&lt;/small>&lt;/p>
@@ -356,8 +356,8 @@ Software Interactions (a.k.a linking), Available at: &lt;a href="https://www.ifo
 &lt;p>SK텔레콤 OSPO : &lt;a href="https://sktelecom.github.io/about/ospo">https://sktelecom.github.io/about/ospo&lt;/a>&amp;#160;&lt;a href="#fnref:19" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Blog: Elastic License 2.0 그리고 진화하는 오픈소스 라이선스</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/03/28/elastic-license-2.0-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%A7%84%ED%99%94%ED%95%98%EB%8A%94-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4/</link><pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/03/28/elastic-license-2.0-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%A7%84%ED%99%94%ED%95%98%EB%8A%94-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2021/03/28/elastic-license-2.0-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%A7%84%ED%99%94%ED%95%98%EB%8A%94-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4/featured-scale_hu0adce3c464c6f6e27493d0d0745cd5d4_35813_640x0_resize_catmullrom_2.png" width="640" height="612"/>
+&lt;/section></description></item><item><title>Blog: Elastic License 2.0 그리고 진화하는 오픈소스 라이선스</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210328-elasticlicense/</link><pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210328-elasticlicense/</guid><description>
+&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210328-elasticlicense/featured-scale_hu0adce3c464c6f6e27493d0d0745cd5d4_35813_640x0_resize_catmullrom_2.png" width="640" height="612"/>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This paper was translated by Haksung Jang from the English version available at this &lt;a href="https://www.coss.community/coss/elastic-license-2-0-and-the-evolution-of-open-source-licensing-3jb3">white paper&lt;/a>. The original author, &lt;a href="https://heathermeeker.com/about-me/">Heather Meeker&lt;/a>, has not reviewed this translation.&lt;/p>
 &lt;/div>
@@ -504,8 +504,8 @@ It describes a software model where software:
 &lt;p>Open source licenses can contain conditions, such as notices or source code sharing. But these are not limitations that tell you what you cannot do with software, they only require that if you elect to do certain things, you also must do others.&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Blog: 기업별 Github 활동 순위와 라이선스 현황</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/01/14/%EA%B8%B0%EC%97%85%EB%B3%84-github-%ED%99%9C%EB%8F%99-%EC%88%9C%EC%9C%84%EC%99%80-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4-%ED%98%84%ED%99%A9/</link><pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/01/14/%EA%B8%B0%EC%97%85%EB%B3%84-github-%ED%99%9C%EB%8F%99-%EC%88%9C%EC%9C%84%EC%99%80-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4-%ED%98%84%ED%99%A9/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2021/01/14/%EA%B8%B0%EC%97%85%EB%B3%84-github-%ED%99%9C%EB%8F%99-%EC%88%9C%EC%9C%84%EC%99%80-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4-%ED%98%84%ED%99%A9/featured-github_hu51c175f0bc73f8141f28734af3e5d00b_391177_640x0_resize_catmullrom_2.png" width="640" height="360"/>
+&lt;/section></description></item><item><title>Blog: 기업별 Github 활동 순위와 라이선스 현황</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210115-opensource-license-used-by-it-companies/</link><pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210115-opensource-license-used-by-it-companies/</guid><description>
+&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210115-opensource-license-used-by-it-companies/featured-github_hu51c175f0bc73f8141f28734af3e5d00b_391177_640x0_resize_catmullrom_2.png" width="640" height="360"/>
 &lt;h2 id="epam-2020년도-기업별-github-활동-순위와-라이선스-현황-osci">EPAM, 2020년도 기업별 Github 활동 순위와 라이선스 현황 (OSCI)&lt;/h2>
 &lt;p>&lt;img src="featured-github.png" alt="featured-github">&lt;/p>
 &lt;p>Enterprise Software 개발 및 컨설팅을 하는 &lt;a href="https://www.epam.com/">EPAM&lt;/a> 에서는 Github 사용량을 측정하여 &lt;a href="https://solutionshub.epam.com/osci">OSCI (Open Source Contributor Index)&lt;/a> 이라는 랭킹 서비스를 제공하고 있습니다.
@@ -549,12 +549,12 @@ It describes a software model where software:
 카피 레프트 라이선스 유형은 약간 사용됩니다.&lt;/li>
 &lt;li>라이선스 없이 생성되는 저장소가 점점 늘어나고 있으며, 이는 특히 개별 개발자가 오픈 소스의 법적 측면을 이해하지 못할 수 있음을 시사합니다.&lt;/li>
 &lt;li>사용자 지정 라이선스 유형은 특히 상업 조직에서 널리 사용됩니다. 대부분의 경우 표준 라이선스 유형을 기반으로하는 것으로 보입니다.&lt;/li>
-&lt;/ul></description></item><item><title>Blog: OpenChain, ISO 표준 등록</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2020/12/16/openchain-iso-%ED%91%9C%EC%A4%80-%EB%93%B1%EB%A1%9D/</link><pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2020/12/16/openchain-iso-%ED%91%9C%EC%A4%80-%EB%93%B1%EB%A1%9D/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2020/12/16/openchain-iso-%ED%91%9C%EC%A4%80-%EB%93%B1%EB%A1%9D/featured-openchain-logo_hu8867dc5e6101eed4d7e5cae707819046_27741_640x0_resize_catmullrom_2.png" width="640" height="356"/>
+&lt;/ul></description></item><item><title>Blog: OpenChain, ISO 표준 등록</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2020/20201216-iso-standard-openchain/</link><pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2020/20201216-iso-standard-openchain/</guid><description>
+&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2020/20201216-iso-standard-openchain/featured-openchain-logo_hu8867dc5e6101eed4d7e5cae707819046_27741_640x0_resize_catmullrom_2.png" width="640" height="356"/>
 &lt;p>&lt;img src="featured-openchain-logo.png" alt="featured-cover">&lt;/p>
 &lt;p>지난 2020년 12월 15일, OpenChain 규격 2.1이 국제 표준인 &lt;a href="https://www.iso.org/standard/81039.html">ISO/IEC 5230:2020&lt;/a>로 공식 Publication 되었습니다.&lt;/p>
-&lt;p>이에 대한 자세한 사항은 다음 기사를 참고하시기 바랍니다. : &lt;a href="https://www.einpresswire.com/article/532735099/iso-iec-5230-2020">https://www.einpresswire.com/article/532735099/iso-iec-5230-2020&lt;/a>&lt;/p></description></item><item><title>Blog: 카카오 교육 자료 공개</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/24/%EC%B9%B4%EC%B9%B4%EC%98%A4-%EA%B5%90%EC%9C%A1-%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C/</link><pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/24/%EC%B9%B4%EC%B9%B4%EC%98%A4-%EA%B5%90%EC%9C%A1-%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/24/%EC%B9%B4%EC%B9%B4%EC%98%A4-%EA%B5%90%EC%9C%A1-%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C/featured-kakao-guide_hue464c17a889a8c1bdee5ff249108a58e_3462491_640x0_resize_catmullrom_2.png" width="640" height="360"/>
+&lt;p>이에 대한 자세한 사항은 다음 기사를 참고하시기 바랍니다. : &lt;a href="https://www.einpresswire.com/article/532735099/iso-iec-5230-2020">https://www.einpresswire.com/article/532735099/iso-iec-5230-2020&lt;/a>&lt;/p></description></item><item><title>Blog: 카카오 교육 자료 공개</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2020/20201124-kakao-training-materials/</link><pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2020/20201124-kakao-training-materials/</guid><description>
+&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2020/20201124-kakao-training-materials/featured-kakao-guide_hue464c17a889a8c1bdee5ff249108a58e_3462491_640x0_resize_catmullrom_2.png" width="640" height="360"/>
 &lt;p>&lt;a href="https://www.kakaocorp.com/">Kakao&lt;/a> 오픈소스 기술파트에서는 사내 개발자를 위한 오픈소스 교육자료를 누구나 열람할 수 있도록 공개하였습니다.&lt;/p>
 &lt;p>&lt;img src="featured-kakao-guide.png" alt="featured-kakao-guide">&lt;/p>
 &lt;h2 id="download">Download&lt;/h2>
@@ -562,8 +562,8 @@ It describes a software model where software:
 &lt;ul>
 &lt;li>&lt;a href="http://t1.kakaocdn.net/olive/assets/opensource_guide_kakao.pdf">http://t1.kakaocdn.net/olive/assets/opensource_guide_kakao.pdf&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;hr></description></item><item><title>Blog: NCSOFT 교육자료 공개</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/23/ncsoft-%EA%B5%90%EC%9C%A1%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C/</link><pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/23/ncsoft-%EA%B5%90%EC%9C%A1%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/23/ncsoft-%EA%B5%90%EC%9C%A1%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C/featured-cover_hu003f16982aa978f5b0a1755141a97a27_67333_640x0_resize_catmullrom_2.png" width="640" height="344"/>
+&lt;hr></description></item><item><title>Blog: NCSOFT 교육자료 공개</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2020/20201123-ncsoft-training-materials/</link><pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2020/20201123-ncsoft-training-materials/</guid><description>
+&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2020/20201123-ncsoft-training-materials/featured-cover_hu003f16982aa978f5b0a1755141a97a27_67333_640x0_resize_catmullrom_2.png" width="640" height="344"/>
 &lt;p>&lt;a href="https://global.ncsoft.com/">NCSOFT&lt;/a>에서는 오픈소스의 공유 정신에 따라 사내 오픈소스 교육자료를 누구나 사용할 수 있도록 강의 교안(PPT)과 강의 스크립트를 &lt;a href="https://github.com/ncsoft/oss-basic-training">GitHub&lt;/a>에 공개하였습니다.&lt;/p>
 &lt;p>&lt;img src="featured-cover.png" alt="featured-cover">&lt;/p>
 &lt;p>소프트웨어를 개발/배포하는 기업에서 사내 오픈소스 교육을 준비하면서 이 교안을 직접 사용하거나, 필요한 부분을 발췌/수정하여 사용할 수 있습니다.&lt;/p>
@@ -599,8 +599,8 @@ It describes a software model where software:
 &lt;ul>
 &lt;li>&lt;a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;hr></description></item><item><title>Blog: Open Source Compliance in the Enterprise 요약 자료</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/23/open-source-compliance-in-the-enterprise-%EC%9A%94%EC%95%BD-%EC%9E%90%EB%A3%8C/</link><pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/23/open-source-compliance-in-the-enterprise-%EC%9A%94%EC%95%BD-%EC%9E%90%EB%A3%8C/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2020/11/23/open-source-compliance-in-the-enterprise-%EC%9A%94%EC%95%BD-%EC%9E%90%EB%A3%8C/featured-book_hu507ff350081ed18a3212a79b7740fd25_253665_640x0_resize_catmullrom_2.png" width="640" height="471"/>
+&lt;hr></description></item><item><title>Blog: Open Source Compliance in the Enterprise 요약 자료</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2020/20201123-ncsoft-compliance-book/</link><pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2020/20201123-ncsoft-compliance-book/</guid><description>
+&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2020/20201123-ncsoft-compliance-book/featured-book_hu507ff350081ed18a3212a79b7740fd25_253665_640x0_resize_catmullrom_2.png" width="640" height="471"/>
 &lt;h2 id="open-source-compliance-in-the-enterprise-책-소개">Open Source Compliance in the Enterprise 책 소개&lt;/h2>
 &lt;p>이 책은 &lt;a href="https://www.ibrahimatlinux.com/about.html">Ibrahim Haddad&lt;/a>가 저술하고 &lt;a href="https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/">Linux Foundation&lt;/a>에서 발간하였습니다.&lt;/p>
 &lt;img src="featured-book.png" width="300">
@@ -638,13 +638,13 @@ It describes a software model where software:
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;hr></description></item><item><title>Blog: 블로그 작성 방법</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9E%91%EC%84%B1-%EB%B0%A9%EB%B2%95/</link><pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9E%91%EC%84%B1-%EB%B0%A9%EB%B2%95/</guid><description>
+&lt;hr></description></item><item><title>Blog: 블로그 작성 방법</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/sample/how-to/</link><pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/sample/how-to/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>OpenChain Korea Work Group 웹사이트의 블로그는 오픈소스에 관한 글을 공유합니다.&lt;/p>
 &lt;p>OpenChain Korea Work Group의 멤버라면 누구나 글을 작성할 수 있습니다.&lt;/p>
 &lt;p>다음 페이지의 가이드를 참고하시기 바랍니다. : &lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/wiki/Blog-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0">블로그 작성 방법&lt;/a>&lt;/p>
-&lt;/div></description></item><item><title>Blog: 샘플 블로그입니다.</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/%EC%83%98%ED%94%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9E%85%EB%8B%88%EB%8B%A4./</link><pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/%EC%83%98%ED%94%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9E%85%EB%8B%88%EB%8B%A4./</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2020/08/29/%EC%83%98%ED%94%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9E%85%EB%8B%88%EB%8B%A4./featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_640x0_resize_catmullrom_2.png" width="640" height="253"/>
+&lt;/div></description></item><item><title>Blog: 샘플 블로그입니다.</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/sample/sample-post/</link><pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/sample/sample-post/</guid><description>
+&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/sample/sample-post/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_640x0_resize_catmullrom_2.png" width="640" height="253"/>
 &lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://github.com">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
 &lt;p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&lt;/p>
 &lt;p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&lt;/p>
@@ -911,7 +911,7 @@ This is a warning with a title!
 &lt;/code>&lt;/pre>&lt;h2 id="including-images">Including images&lt;/h2>
 &lt;p>Here&amp;rsquo;s an image (&lt;code>featured-sunset-get.png&lt;/code>) that includes a byline and a caption.&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 610px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/2020/08/29/%EC%83%98%ED%94%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9E%85%EB%8B%88%EB%8B%A4./featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_600x300_fill_catmullrom_smart1_2.png" width="600" height="300">
+&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/sample/sample-post/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_600x300_fill_catmullrom_smart1_2.png" width="600" height="300">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Fetch and scale an image in the upcoming Hugo 0.43.
@@ -927,7 +927,7 @@ byline: &amp;quot;Photo: Riona MacNamara / CC-BY-CA&amp;quot;
 &lt;/code>&lt;/pre>&lt;p>To include the image in a page, specify its details like this:&lt;/p>
 &lt;pre>&lt;code>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 610px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/2020/08/29/%EC%83%98%ED%94%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9E%85%EB%8B%88%EB%8B%A4./featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_600x300_fill_catmullrom_smart1_2.png" width="600" height="300">
+&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/sample/sample-post/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_600x300_fill_catmullrom_smart1_2.png" width="600" height="300">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Fetch and scale an image in the upcoming Hugo 0.43.

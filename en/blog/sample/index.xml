@@ -1,10 +1,10 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – Sample blog</title><link>https://openChain-project.github.io/OpenChain-KWG/en/blog/sample/</link><description>Recent content in Sample blog on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/en/blog/sample/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: How to blog</title><link>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/08/29/how-to-blog/</link><pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/08/29/how-to-blog/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – Sample blog</title><link>https://openChain-project.github.io/OpenChain-KWG/en/blog/sample/</link><description>Recent content in Sample blog on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/en/blog/sample/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: How to blog</title><link>https://openChain-project.github.io/OpenChain-KWG/en/blog/sample/how-to/</link><pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/sample/how-to/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>The blog on the OpenChain Korea Work Group website shares articles on open source.&lt;/p>
 &lt;p>Any member of the OpenChain Korea Work Group can write.&lt;/p>
 &lt;p>Please refer to the guide on the next page. : &lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/wiki/Blog-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0">How to write a blog&lt;/a>&lt;/p>
-&lt;/div></description></item><item><title>Blog: The sample blog post</title><link>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/08/29/the-sample-blog-post/</link><pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/08/29/the-sample-blog-post/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/08/29/the-sample-blog-post/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_640x0_resize_catmullrom_2.png" width="640" height="253"/>
+&lt;/div></description></item><item><title>Blog: The sample blog post</title><link>https://openChain-project.github.io/OpenChain-KWG/en/blog/sample/sample-post/</link><pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/sample/sample-post/</guid><description>
+&lt;img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/sample/sample-post/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_640x0_resize_catmullrom_2.png" width="640" height="253"/>
 &lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://github.com">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
 &lt;p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&lt;/p>
 &lt;p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&lt;/p>
@@ -271,7 +271,7 @@ This is a warning with a title!
 &lt;/code>&lt;/pre>&lt;h2 id="including-images">Including images&lt;/h2>
 &lt;p>Here&amp;rsquo;s an image (&lt;code>featured-sunset-get.png&lt;/code>) that includes a byline and a caption.&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 610px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/2020/08/29/the-sample-blog-post/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_600x300_fill_catmullrom_smart1_2.png" width="600" height="300">
+&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/sample/sample-post/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_600x300_fill_catmullrom_smart1_2.png" width="600" height="300">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Fetch and scale an image in the upcoming Hugo 0.43.
@@ -287,7 +287,7 @@ byline: &amp;quot;Photo: Riona MacNamara / CC-BY-CA&amp;quot;
 &lt;/code>&lt;/pre>&lt;p>To include the image in a page, specify its details like this:&lt;/p>
 &lt;pre>&lt;code>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 610px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/2020/08/29/the-sample-blog-post/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_600x300_fill_catmullrom_smart1_2.png" width="600" height="300">
+&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/sample/sample-post/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_600x300_fill_catmullrom_smart1_2.png" width="600" height="300">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Fetch and scale an image in the upcoming Hugo 0.43.
