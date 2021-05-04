@@ -71,7 +71,7 @@ Docker는 컨테이너에 프로그램을 설치하고 배포하는 기술이다
 
 "Dockerfile"은 스크립트와 유사하게 Docker image를 만들기 위한 단계별 명령을 포함하는 텍스트 파일이다. Dockerfile은 일반적으로 Dockerfile 자체에만 적용되는 자체 라이선스를 가질 수 있으며, 이 라이선스는 Docker 컨테이너에 포함되는 프로그램에는 적용되지 않는다. 
 
-{{< imgproc dockerfile-ex Fit "768x768" >}}
+{{< imgproc featured-dockerfile-ex Fit "768x768" >}}
 <center><i>Dockerfile : https://www.slideshare.net/vincenzoferme/using-docker-containers-to-improve-reproducibility-in-software-and-web-engineering</i></center>
 {{< /imgproc >}}
 
@@ -79,7 +79,7 @@ Docker는 컨테이너에 프로그램을 설치하고 배포하는 기술이다
 
 Docker 컨테이너용 관리 소프트웨어인 "Docker 엔진"은 Dockerfile의 명령을 순차적으로 처리하여 Docker image를 생성한다. 일반적으로, Base image나 개별 레이어를 위한 각 컴포넌트는 내부 또는 외부 저장소에서 다운로드된다. 이는 제공자가 Dockerfile을 제공하더라도 물리적인 프로그램 코드를 전달하지 않는 것이 가능함을 의미하고, 이런 일은 실제로 관례적이다. 고객은 전달받은 Dockerfile을 가지고 자체적으로 공개 저장소로부터 전체 혹은 일부 프로그램 코드를 받아와서 Docker 컨테이너를 구축할 수 있다. 
 
-{{< imgproc featured-docker Fit "768x768" >}}
+{{< imgproc docker Fit "768x768" >}}
 <center><i>https://cultivatehq.com/posts/docker/</i></center>
 {{< /imgproc >}}
 
