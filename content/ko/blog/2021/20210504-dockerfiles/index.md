@@ -12,14 +12,14 @@ resources:
 ---
 
 {{% pageinfo %}}
-This paper was translated by Haksung Jang from the English version available at the [Distribution of Dockerfiles: Who is responsible for FOSS Licence Compliance?](https://jolts.world/index.php/jolts/article/view/147).  The original document is licensed under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). The original author, Till Jaeger, has not reviewed this translation.
+This paper was translated by Haksung Jang from the English version available at the [Distribution of Dockerfiles: ](https://jolts.world/index.php/jolts/article/view/147).  The original document is licensed under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). The original author, Till Jaeger, has not reviewed this translation.
 {{% /pageinfo %}}
 
 ---
 
 > 안녕하세요!  
 > 
-> 2021년 4월, 독일의 유명한 오픈소스 변호사인 Till Jaeger는 Dockerfile이 생성하는 Docker image내 포함될 오픈소스에 대해 누가 라이선스 책임이 져야하는 가에 대한 글을 [발표](https://jolts.world/index.php/jolts/article/view/147)하였습니다. Till은 독일법과 유럽 연합 사법 제판소<sub>CJEU</sub>의 판례를 근거로 Dockerfile 제공자가 라이선스 의무를 준수해야 한다고 설명하였습니다. 
+> 2021년 4월, 독일의 유명한 오픈소스 변호사인 Till Jaeger는 Dockerfile이 생성하는 Docker image내 포함될 오픈소스에 대한 라이선스 컴플라이언스 책임은 누구에게 있는가에 대한 글을 [발표](https://jolts.world/index.php/jolts/article/view/147)하였습니다. Till은 독일법과 유럽 연합 사법 제판소<sub>CJEU</sub>의 판례를 근거로 Dockerfile 제공자가 라이선스 의무를 준수해야 한다고 설명하였습니다. 
 > 
 > 여기서는 Till의 영어 원본을 국문으로 번역하였으며, 군데군데 개인 의견을 인용구(높임말)로 추가하였습니다. 
 > 
