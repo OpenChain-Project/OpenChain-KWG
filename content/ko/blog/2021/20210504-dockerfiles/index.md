@@ -11,21 +11,20 @@ resources:
 
 ---
 
+> 안녕하세요!  
+> 
+> 2021년 4월, 독일의 유명한 오픈소스 변호사인 Till Jaeger는 Dockerfile이 생성하는 Docker image내 포함될 오픈소스에 대한 라이선스 컴플라이언스 책임은 누구에게 있는가에 대한 글을 [발표](https://jolts.world/index.php/jolts/article/view/147)하였습니다. Till은 독일법과 유럽 연합 사법 재판소<sub>CJEU</sub>의 판례를 근거로 Dockerfile 제공자가 라이선스 의무를 준수해야 한다고 설명하였습니다. 
+> 
+> 여기서는 Till의 영어 원본을 국문으로 번역하였습니다. 이해를 돕기 위해 이미지를 추가하였고, 군데군데 개인 의견을 인용구(높임말)로 작성하였습니다. 
+> 
+> * 번역 오류나 문의는 이메일로 연락주시기 바랍니다. : haksung@sk.com 
+> * 감수에 도움 주신 카카오의 [Sean](https://www.linkedin.com/in/%EC%98%81%ED%99%98-%EA%B9%80-4069b5135/)에게 깊이 감사드립니다. ^^
+
+---
+
 {{% pageinfo %}}
 This paper was translated by Haksung Jang from the English version available at the [Distribution of Dockerfiles: ](https://jolts.world/index.php/jolts/article/view/147).  The original document is licensed under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). The original author, Till Jaeger, has not reviewed this translation.
 {{% /pageinfo %}}
-
----
-
-> 안녕하세요!  
-> 
-> 2021년 4월, 독일의 유명한 오픈소스 변호사인 Till Jaeger는 Dockerfile이 생성하는 Docker image내 포함될 오픈소스에 대한 라이선스 컴플라이언스 책임은 누구에게 있는가에 대한 글을 [발표](https://jolts.world/index.php/jolts/article/view/147)하였습니다. Till은 독일법과 유럽 연합 사법 제판소<sub>CJEU</sub>의 판례를 근거로 Dockerfile 제공자가 라이선스 의무를 준수해야 한다고 설명하였습니다. 
-> 
-> 여기서는 Till의 영어 원본을 국문으로 번역하였으며, 군데군데 개인 의견을 인용구(높임말)로 추가하였습니다. 
-> 
-> * 번역 오류나 문의는 이메일로 연락주시면 감사하겠습니다. : haksung@sk.com 
-
----
 
 
 {{% alert title="개요" color="success" %}}
@@ -48,7 +47,7 @@ Docker 기술과 관련된 FOSS 라이선스 컴플라이언스 문제는 최근
 > 대부분의 오픈소스 라이선스는 오픈소스를 "재배포"하는 시점에 준수해야 할 라이선스 의무 사항을 요구합니다. 즉, 오픈소스를 재배포하지 않는다면 라이선스 의무 준수가 요구되지 않습니다.
 > "배포"의 범위를 어디까지로 판단해야 할지는 해당 지역에 적용되는 저작권법에 따라 해석해야 합니다. 
 
-라이선스 컴플라이언스에 대한 중요성 때문에 "배포"라는 용어는 계속해서 법적인 분석 대상이 되고 있다. Heather Meeker는 미국 저작권 관점에서 [오픈소스 라이선스에서의 배포](http://dx.doi.org/10.5033/ifosslr.v4i1.66)를 주제로 글을 작성하였다[^heather]. 많은 오픈소스 라이선스가 미국 저작권법을 배경으로 작성되었지만, 유럽 법원은 CJEU(유럽 연합 사법 제판소)<sub>Court of Justice of the European Union</sub>에서 정교하게 설명한 "배포"에 대한 정의를 바탕으로 판결할 것으로 예상한다.
+라이선스 컴플라이언스에 대한 중요성 때문에 "배포"라는 용어는 계속해서 법적인 분석 대상이 되고 있다. Heather Meeker는 미국 저작권 관점에서 [오픈소스 라이선스에서의 배포](http://dx.doi.org/10.5033/ifosslr.v4i1.66)를 주제로 글을 작성하였다[^heather]. 많은 오픈소스 라이선스가 미국 저작권법을 배경으로 작성되었지만, 유럽 법원은 CJEU(유럽 연합 사법 재판소)<sub>Court of Justice of the European Union</sub>에서 정교하게 설명한 "배포"에 대한 정의를 바탕으로 판결할 것으로 예상한다.
 
 [^heather]: Meeker, Heather (2012), ‘The Gift that Keeps on Giving – Distribution and Copyleft in Open Source Software Licenses’, JOLTS, 4(1), pp 29 – 40, [DOI: 10.5033/ifosslr.v4i1.66].
 
@@ -95,11 +94,11 @@ Docker 컨테이너용 관리 소프트웨어인 "Docker 엔진"은 Dockerfile�
 “The right of distribution is the right to offer the original or copies of the work to the public or to put it into circulation.”</i>
 {{% /alert %}}
 
-이는 컴퓨터 프로그램의 법적 보호에 관한 유럽 의회 및 이사회의 지침 [2009/24/EG 4조](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32009L0024)<sub>Directive 2009/24/EG of the European Parliament and of the Council</sub>에 비추어 해석되었다[^directive2009]. 독일 및 유럽 최고 법원인 독일 연방 사법 제판소<sub>German Federal Court of Justice, Bundesgerichtshof (BGH)</sub>와 유럽 연합 사법 재판소<sub>Court of Justice of the European Union (CJEU)</sub>는 수많은 법원 판결에서 배포권을 해석하는 데 도움이 되는 기여를 했다. 이에 대해서는 아래에서 자세히 설명한다. 
+이는 컴퓨터 프로그램의 법적 보호에 관한 유럽 의회 및 이사회의 지침 [2009/24/EG 4조](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32009L0024)<sub>Directive 2009/24/EG of the European Parliament and of the Council</sub>에 비추어 해석되었다[^directive2009]. 독일 및 유럽 최고 법원인 독일 연방 사법 재판소<sub>German Federal Court of Justice, Bundesgerichtshof (BGH)</sub>와 유럽 연합 사법 재판소<sub>Court of Justice of the European Union (CJEU)</sub>는 수많은 법원 판결에서 배포권을 해석하는 데 도움이 되는 기여를 했다. 이에 대해서는 아래에서 자세히 설명한다. 
 
 [^directive2009]: Directive 2009/24/EC on the legal protection of computer programs (codified version). Available at: <https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32009L0024> [Accessed 16 February 2021].
 
-## 4. Dockfile의 배포 - 분석
+## 4. Dockerfile의 배포 - 분석
 
 이 섹션에서는 먼저 저작권법에 따른 배포가 프로그램 코드의 물리적인 전송을 반드시 요구하는지 여부에 대해 살펴본다. 이후에는 Docker image의 다양한 구성 요소, 즉, Base image, 프로그램 라이브러리, 패치 및 업데이트에 관해 설명한다. 
 
@@ -109,7 +108,7 @@ Docker 컨테이너용 관리 소프트웨어인 "Docker 엔진"은 Dockerfile�
 - 저작권 법에서 정의된 배포의 개념인 프로그램 복사본의 "물리적" 배포
 - 제삼자로부터 프로그램 복사본을 취득하게 하는 기타 행위
 
-독일과 EU의 최고 법원이 다음의 두가지를 모두 고려되어야야 한다는 판결을 자주 했음을 주목하자. 
+독일과 EU의 최고 법원이 다음의 두가지를 모두 고려되어야 한다는 판결을 자주 했음을 주목하자. 
 - 물리적 행위
 - 복제 또는 배포와 법적으로 관련된 행위를 물리적으로 수행하는 제삼자는 단순히 당사자의 "도구"로 간주됨
 
@@ -167,7 +166,7 @@ Dockerfile의 제공자가 Dockerfile이 참조하는 소프트웨어를 배포�
 
 #### 시스템 요구 사항
 
-이 섹션은 오픈소스 라이선스는 오픈소스 소프트웨어를 사용하는 데 필요하지만 라이선스 범우에 포함되지 않는 독립 프로그램에 대한 사용 권한을 부여하는 데까지는 확장되지 않는다는 점에서 출발한다. 애플리케이션을 실행하는 데 필요한 운영 체제 또는 웹 서버가 대표적인 예입니다. 이와 같이 애플리케이션 실행에 필요한 독립 프로그램을 "시스템 요구 사항"이라고 하겠다. Dockerfile을 배포하는 제공자는 Docker 엔진 또는 Linux 커널과 같은 시스템 요구 사항에 대한 라이선스 의무는 준수할 책임이 없다. 이런 시스템 요구 사항은 Dockerfile에서 참조하지도 않는다.
+이 섹션은 오픈소스 라이선스는 오픈소스 소프트웨어를 사용하는 데 필요하지만 라이선스 범위에 포함되지 않는 독립 프로그램에 대한 사용 권한을 부여하는 데까지는 확장되지 않는다는 점에서 출발한다. 애플리케이션을 실행하는 데 필요한 운영 체제 또는 웹 서버가 대표적인 예입니다. 이와 같이 애플리케이션 실행에 필요한 독립 프로그램을 "시스템 요구 사항"이라고 하겠다. Dockerfile을 배포하는 제공자는 Docker 엔진 또는 Linux 커널과 같은 시스템 요구 사항에 대한 라이선스 의무는 준수할 책임이 없다. 이런 시스템 요구 사항은 Dockerfile에서 참조하지도 않는다.
 
 > 참고로, GPL-2.0 3조에서는 다음과 같이 컴파일러, 커널 등 운영 체제의 주요 컴포넌트는 소스 코드 공개 범위에 포함되지 않는다는 예외를 두고 있습니다. 
 > 
@@ -205,7 +204,7 @@ Docker image를 단순히 조직 내부에만 사용하려는 수신자라면, F
 Software Interactions (a.k.a linking), Available at:  <https://www.ifosslr.org/public/LinkingDocument.odt> [Accessed 16 February 2021].
 
 * 시스템 라이브러리
-* GPL 및 AGPL 애플리케이션와 연결되는 비시스템 라이브러리<sub>non-system library</sub>
+* GPL 및 AGPL 애플리케이션과  연결되는 비시스템 라이브러리<sub>non-system library</sub>
 * GPL 및 AGPL 이외의 다른 라이선스의 애플리케이션과 연결되는 비시스템 라이브러리
 
 
@@ -216,7 +215,7 @@ GPL-2.0 섹션 3 및 GPL-3.0 섹션 1 (3)에는 라이선스 의무 중 소스 �
 
 그러나 Dockerfile이 제삼자 저장소에서 (시스템 라이브러리 이외의) 라이브러리를 다운로드하고 이 라이브러리가 Docker 컨테이너 내에서 GPL-3.0 또는 AGPL-3.0 애플리케이션과 링크하는 레이어를 지정하는 경우라면, 이러한 라이브러리에 대해서는 각각 링크하는 애플리케이션의 라이선스(GPL-3.0 또는 AGPL-3.0) 의무를 준수해야 한다. 예를 들어 라이브러리의 소스 코드를 반드시 제공해야 한다 (cf. section 1 GPL-3.0: “Corresponding Source includes ..., and the source code for shared libraries and dynamically linked subprograms that the work is specifically designed to require, ...”). 이는 GPL-2.0에도 동일하게 적용된다. 라이브러리의 물리적 배포의 경우와 마찬가지로 (라이선스 충돌 문제가 없다면) 해당 라이선스 조건을 준수해야 한다. 즉, 분산형 배포 프로세스<sub>decentralized distribution process</sub>로 카피레프트 요구 사항을 회피할 수 없다.
 
-Dockerfile 제공자는 프로그램 라이브러리를 Dependency로 선택하는 조직적 제어권<sub>organizational control</sub>을 가졌기 때문에 Dockerfile 제공자가 프로그램 라이브러리를 배포한다고 판단할 수 있다. 따라서, 프로그램 라이브러라의 배포 프로세스에서 Dockerfile 제공자가 필수적인 역할<sub>essential role</sub>을 한다. 
+Dockerfile 제공자는 프로그램 라이브러리를 Dependency로 선택하는 조직적 제어권<sub>organizational control</sub>을 가졌기 때문에 Dockerfile 제공자가 프로그램 라이브러리를 배포한다고 판단할 수 있다. 따라서, 프로그램 라이브러리의 배포 프로세스에서 Dockerfile 제공자가 필수적인 역할<sub>essential role</sub>을 한다. 
 
 ### 4.5 업데이트
 
