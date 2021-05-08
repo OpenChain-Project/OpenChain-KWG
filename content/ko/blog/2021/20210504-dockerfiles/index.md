@@ -28,7 +28,7 @@ This paper was translated by Haksung Jang from the English version available at 
 
 
 {{% alert title="개요" color="success" %}}
-컨테이너 기술은 Target 시스템과 관계 없이 통합 소프트웨어 배포를 가능하게 한다. 이런 장점으로 Docker를 이용하는 배포가 점점 더 인기를 얻고 있다. 그런데 이때 FOSS 라이선스 컴플라이언스에 대한 새로운 의문이 제기되었다. Docker 환경에서는 "Docker image" 형태의 전체 소프트웨어를 배포하는 것뿐만 아니라, Dockerfile만을 배포할 수도 있다. Dockerfile은 스크립트 파일과 유사한 형태로 외부 저장소로부터 소프트웨어를 다운로드받게 하는 일종의 명령만을 포함하고 있다. 이러한 분산형 배포<sub>decentralized distribution</sub>의 형태는 라이선스 컴플라이언스를 누가 책임을 져야 하는지에 대한 의문을 제기하였다. 이 글에서는 프리 라이선스를 설명하기 위한 출발점으로 유럽 저작권법에 따른 "배포<sub>distribution</sub>"의 개념을 설명한다. 연구를 통해 저작권법 의미에서의 배포가 항상 물리적인 배포여야 하는 것은 아니라는 점이 밝혀졌다. 
+컨테이너 기술은 Target 시스템과 관계 없이 통합 소프트웨어 배포를 가능하게 한다. 이런 장점으로 Docker를 이용하는 배포가 점점 더 인기를 얻고 있다. 그런데 이때 FOSS 라이선스 컴플라이언스에 대한 새로운 의문이 제기되었다. Docker 환경에서는 "Docker image" 형태의 전체 소프트웨어를 배포하는 것뿐만 아니라, Dockerfile만을 배포할 수도 있다. Dockerfile은 스크립트 파일과 유사한 형태로 외부 Repository로부터 소프트웨어를 다운로드받게 하는 일종의 명령만을 포함하고 있다. 이러한 분산형 배포<sub>decentralized distribution</sub>의 형태는 라이선스 컴플라이언스를 누가 책임을 져야 하는지에 대한 의문을 제기하였다. 이 글에서는 프리 라이선스를 설명하기 위한 출발점으로 유럽 저작권법에 따른 "배포<sub>distribution</sub>"의 개념을 설명한다. 연구를 통해 저작권법 의미에서의 배포가 항상 물리적인 배포여야 하는 것은 아니라는 점이 밝혀졌다. 
 
 이 글은 [OSADL](https://www.osadl.org/)<sub>Open Source Automation Development Lab</sub>로부터 자금 지원을 받고, 공동으로 작성하였다. 
 {{% /alert %}}
@@ -59,7 +59,7 @@ Docker는 컨테이너에 프로그램을 설치하고 배포하는 기술이다
 
 ### Docker image
 
-사전에 구성된 컨테이너는 "Docker image"로 배포될 수 있으며, 기본 프로그램 외에 애플리케이션, 프로그램 코드로서의 Dependency, 필요한 경우 유틸리티 및 구성 파일도 포함할 수 있다. Docker image는 개별적으로 배포될 수 있지만 "Docker Hub"와 같은 공용 저장소를 통해서도 배포될 수 있다. 이는 C 라이브러리, Package Manager, Shell 및 디렉터리 트리와 같은 필수 시스템 구성 요소를 포함하고 특정 Linux 배포를 참조하는 이른바 "Base Image"에도 해당된다. 이 Base image 위에, 추가 기능은 개별 보관 파일로 별도로 배포될 수 있지만 서로 빌드되어 완전한 Docker image를 형성하는 이른바 "레이어"로 추가될 수 있다.
+사전에 구성된 컨테이너는 "Docker image"로 배포될 수 있으며, 기본 프로그램 외에 애플리케이션, 프로그램 코드로서의 Dependency, 필요한 경우 유틸리티 및 구성 파일도 포함할 수 있다. Docker image는 개별적으로 배포될 수 있지만 "Docker Hub"와 같은 공용 Repository를 통해서도 배포될 수 있다. 이는 C 라이브러리, Package Manager, Shell 및 디렉터리 트리와 같은 필수 시스템 구성 요소를 포함하고 특정 Linux 배포를 참조하는 이른바 "Base Image"에도 해당된다. 이 Base image 위에, 추가 기능은 개별 보관 파일로 별도로 배포될 수 있지만 서로 빌드되어 완전한 Docker image를 형성하는 이른바 "레이어"로 추가될 수 있다.
 
 {{< imgproc image-layer Fit "768x768" >}}
 <center><i>레이어 저장방식 : https://cultivo-hy.github.io/docker/image/usage/2019/03/14/Docker정리/</i></center>
@@ -176,7 +176,7 @@ Dockerfile의 제공자가 Dockerfile이 참조하는 소프트웨어를 배포�
 
 #### Base image
 
-Base image도 시스템 요구 사항으로 간주할 수 있을까? 일반적으로 Base image에 포함되는 프로그램은 Docker 컨테이너에서 실행되는 애플리케이션과 독립적이다. Base image에 포함된 프로그램이 수정되지 않은 형태로 사용되는 한, Dockerfile에 다운로드 명령이 포함되어 있다고 해도 Dockerfile 제공자가 Base image의 제공자는 아니기 때문에 Base image는 시스템 요구 사항으로 간주할 수 있다. 또한, 저장소 운영자가 액세스를 거부한다면 더 이상 다운로드가 불가능하다. 이런 사실에 비추어볼때 Base image는 Dockerfile 제공자의 통제를 벗어난다. 패치의 경우에도 비슷하지만 패치와 시스템 요구 사항은 다르게 처리해야 한다. 
+Base image도 시스템 요구 사항으로 간주할 수 있을까? 일반적으로 Base image에 포함되는 프로그램은 Docker 컨테이너에서 실행되는 애플리케이션과 독립적이다. Base image에 포함된 프로그램이 수정되지 않은 형태로 사용되는 한, Dockerfile에 다운로드 명령이 포함되어 있다고 해도 Dockerfile 제공자가 Base image의 제공자는 아니기 때문에 Base image는 시스템 요구 사항으로 간주할 수 있다. 또한, Repository 운영자가 액세스를 거부한다면 더 이상 다운로드가 불가능하다. 이런 사실에 비추어볼때 Base image는 Dockerfile 제공자의 통제를 벗어난다. 패치의 경우에도 비슷하지만 패치와 시스템 요구 사항은 다르게 처리해야 한다. 
 
 컴퓨터 프로그램은 일반적으로 다른 독립 프로그램과 작동한다. 이는 다른 형태의 저작물과 구별되는 특징이다. 예를 들어 대부분의 애플리케이션은 운영 체제 없이 실행되지 않는다. 하지만 이러한 애플리케이션 실행을 위해 시스템 요구 사항을 설치해야 한다고 해서 애플리케이션 제공자가 시스템 요구 사항 배포의 필수적 역할<sub>essential role</sub>을 한다는 것을 의미하지는 않는다.
 
@@ -184,11 +184,11 @@ Base image도 시스템 요구 사항으로 간주할 수 있을까? 일반적�
 
 [^cjeu14]: As the CJEU, judgment of 14 June 2017 in case C-610/15 – Stichting Brein (The Pirate Bay) itself declares: “In order to determine whether a user is making a ‘communication to the public’ within the meaning of Article 3(1) of Directive 2001/29, it is necessary to take into account several complementary criteria, which are not autonomous and are interdependent. Consequently, those criteria must be applied both individually and in their interaction with one another, since they may, in different situations, be present to widely varying degrees.” Available at: <http://curia.europa.eu/juris/liste.jsf?language=en&T,F&num=c-610-15> [Accessed 16 February 2021].
 
-지금까지 제시된 견해에 따르면, Base image의 저장소 운영자와 제공자는 Base image의 배포에 필수적인 역할을 하는 반면, Dockerfile이 단지 참조하는 Base image는 시스템 요구 사항을 쉽게 취득하게 하기 위한 것이다. 그러므로, 저장소의 운영자가 일반 대중에게 전달하는 행위를 수행하는 것이고, 저장소 운영자는, 최소한 이러한 제공이 합법적이라면, 포함된 FOSS의 라이선스 의무를 단독으로 준수해야 한다.
+지금까지 제시된 견해에 따르면, Base image의 Repository 운영자와 제공자는 Base image의 배포에 필수적인 역할을 하는 반면, Dockerfile이 단지 참조하는 Base image는 시스템 요구 사항을 쉽게 취득하게 하기 위한 것이다. 그러므로, Repository의 운영자가 일반 대중에게 전달하는 행위를 수행하는 것이고, Repository 운영자는, 최소한 이러한 제공이 합법적이라면, 포함된 FOSS의 라이선스 의무를 단독으로 준수해야 한다.
 
 위에서 언급한 해석은 본 연구 저자의 법적 의견이다. 일반적으로 컴퓨터 프로그램 및 특히 Dockerfile에 대한 이러한 특정 상황에 관한 판례는 없다. 다른 해석들도 분명 논쟁의 여지가 있다(특히 Base image를 포함하는 모든 참조 레이어가 Dockerfile의 제공자에 의해 배포되는 경우). 
 
-한가지 언급해야 할 사항은 현재 수많은 저장소 운영자들이 FOSS의 라이선스 의무를 올바르게 준수하지 않고 있으며 (예: GPL 및 LGPL 구성 요소의 소스 코드를 적절하게 제공하지 않음), 이는 저작권 침해의 책임이 있다는 점이다. 이 경우, 만약 Dockerfile의 제공자가 라이선스 위반을 알고 있다면 혹은 알고 있어야 한다면, 라이선스를 위반하는 참조를 포함하는 Dockerfile을 제공하는 것은 독립적인 배포 행위로 간주되거나 최소한 기여 저작권 침해(즉, 라이선스 위반에 대한 선동 또는 방조)로 간주될 수 있다. 따라서 Dockerfile 제공자는 지정된 저장소에서 제공하는 Base image가 라이선스를 준수하는지 여부를 검토해야 한다[^redhat]. 
+한가지 언급해야 할 사항은 현재 수많은 Repository 운영자들이 FOSS의 라이선스 의무를 올바르게 준수하지 않고 있으며 (예: GPL 및 LGPL 구성 요소의 소스 코드를 적절하게 제공하지 않음), 이는 저작권 침해의 책임이 있다는 점이다. 이 경우, 만약 Dockerfile의 제공자가 라이선스 위반을 알고 있다면 혹은 알고 있어야 한다면, 라이선스를 위반하는 참조를 포함하는 Dockerfile을 제공하는 것은 독립적인 배포 행위로 간주되거나 최소한 기여 저작권 침해(즉, 라이선스 위반에 대한 선동 또는 방조)로 간주될 수 있다. 따라서 Dockerfile 제공자는 지정된 Repository에서 제공하는 Base image가 라이선스를 준수하는지 여부를 검토해야 한다[^redhat]. 
 
 Docker image를 단순히 조직 내부에만 사용하려는 수신자라면, FOSS 프로그램의 단순한 실행은 제한되지 않기 때문에, 문제없이 사용할 수 있다. 예를 들어, GPL-2.0 4조에서는 이를 명확히 말하고 있다[^gpl-4]. 그러나, 수신자가 Docker image를 재배포하려고 한다면, Dockerfile의 배포가 저작권을 침해하는 경우라면 배포권이 소진되는 것이 아니기 때문에, 재배포하려는 수신자는 라이선스 조건의 컴플라이언스를 보장해야 한다(아래의 4.6절 참조). 
 
@@ -213,27 +213,27 @@ GPL-2.0 섹션 3 및 GPL-3.0 섹션 1 (3)에는 라이선스 의무 중 소스 �
 [^exemption]: The definition in section 1 GPL-3.0 reads as follows: ’The “System Libraries’ of an executable work include anything, other than the work as a whole, that (a) is included in the normal form of packaging a Major Component, but which is not part of that Major Component, and (b) serves only to enable use of the work with that Major Component, or to implement a Standard Interface for which an implementation is available to the public in source code form. A ‘Major Component’, in this context, means a major essential component (kernel, window system, and so on) of the specific operating system (if any) on which the executable work runs, or a compiler used to produce the work, or an object code interpreter used to run it.”
 
 
-그러나 Dockerfile이 제삼자 저장소에서 (시스템 라이브러리 이외의) 라이브러리를 다운로드하고 이 라이브러리가 Docker 컨테이너 내에서 GPL-3.0 또는 AGPL-3.0 애플리케이션과 링크하는 레이어를 지정하는 경우라면, 이러한 라이브러리에 대해서는 각각 링크하는 애플리케이션의 라이선스(GPL-3.0 또는 AGPL-3.0) 의무를 준수해야 한다. 예를 들어 라이브러리의 소스 코드를 반드시 제공해야 한다 (cf. section 1 GPL-3.0: “Corresponding Source includes ..., and the source code for shared libraries and dynamically linked subprograms that the work is specifically designed to require, ...”). 이는 GPL-2.0에도 동일하게 적용된다. 라이브러리의 물리적 배포의 경우와 마찬가지로 (라이선스 충돌 문제가 없다면) 해당 라이선스 조건을 준수해야 한다. 즉, 분산형 배포 프로세스<sub>decentralized distribution process</sub>로 카피레프트 요구 사항을 회피할 수 없다.
+그러나 Dockerfile이 제삼자 Repository에서 (시스템 라이브러리 이외의) 라이브러리를 다운로드하고 이 라이브러리가 Docker 컨테이너 내에서 GPL-3.0 또는 AGPL-3.0 애플리케이션과 링크하는 레이어를 지정하는 경우라면, 이러한 라이브러리에 대해서는 각각 링크하는 애플리케이션의 라이선스(GPL-3.0 또는 AGPL-3.0) 의무를 준수해야 한다. 예를 들어 라이브러리의 소스 코드를 반드시 제공해야 한다 (cf. section 1 GPL-3.0: “Corresponding Source includes ..., and the source code for shared libraries and dynamically linked subprograms that the work is specifically designed to require, ...”). 이는 GPL-2.0에도 동일하게 적용된다. 라이브러리의 물리적 배포의 경우와 마찬가지로 (라이선스 충돌 문제가 없다면) 해당 라이선스 조건을 준수해야 한다. 즉, 분산형 배포 프로세스<sub>decentralized distribution process</sub>로 카피레프트 요구 사항을 회피할 수 없다.
 
 Dockerfile 제공자는 프로그램 라이브러리를 Dependency로 선택하는 조직적 제어권<sub>organizational control</sub>을 가졌기 때문에 Dockerfile 제공자가 프로그램 라이브러리를 배포한다고 판단할 수 있다. 따라서, 프로그램 라이브러리의 배포 프로세스에서 Dockerfile 제공자가 필수적인 역할<sub>essential role</sub>을 한다. 
 
 ### 4.5 업데이트
 
-업데이트 처리는 Dockerfile 제공자가 업데이트를 제어하는지 여부에 따라 달라진다. Dockerfile 제공자(또는 대리인)가 직접 저장소에 업데이트를 업로드하여 Dockerfile의 수신자가 이를 받아올 수 있게 하였다면 Dockerfile 제공자가 업데이트를 배포한다고 볼 수 있다. 반면, 저장소 운영자의 통제하에 업데이트가 제공된다면 (예 : Dockerfile이 "최신 버전"을 참조하는 경우) 이는 Dockerfile 제공자가 배포하는 것이 아니다. 이 경우, Dockerfile 제공자가 프로그램 버전을 선택하고 Dockerfile 내에 명명하는 것과는 대조적으로, Dockerfile 제공자는 업데이트의 내용에 관련해서 영향을 미치지 않는다.
+업데이트 처리는 Dockerfile 제공자가 업데이트를 제어하는지 여부에 따라 달라진다. Dockerfile 제공자(또는 대리인)가 직접 Repository에 업데이트를 업로드하여 Dockerfile의 수신자가 이를 받아올 수 있게 하였다면 Dockerfile 제공자가 업데이트를 배포한다고 볼 수 있다. 반면, Repository 운영자의 통제하에 업데이트가 제공된다면 (예 : Dockerfile이 "최신 버전"을 참조하는 경우) 이는 Dockerfile 제공자가 배포하는 것이 아니다. 이 경우, Dockerfile 제공자가 프로그램 버전을 선택하고 Dockerfile 내에 명명하는 것과는 대조적으로, Dockerfile 제공자는 업데이트의 내용에 관련해서 영향을 미치지 않는다.
 
 ### 4.6 라이선스 조건 준수 시점
 
-라이선스 의무는 배포 (또는 대중에게 전달) 시점에 준수해야 한다. 같은 일련의 배포 단계에서 Dockerfile의 전달과 같은 준비 행위는 이미 배포로 간주 될 수 있으므로, 엄격히 말해서, Dockerfile 전달 시 라이선스 의무를 이행해야 한다. 그러나 저장소에서 다운로드 하는 시점에 라이선스 의무를 준수하는 것도 충분하다는 방식으로 오픈소스 라이선스를 해석할 수 있다. 특히 Dockerfile 배포 시, 다운로드되는 레이어에 어떤 프로그램 코드가 포함되는지 명확하지 않다는 점도 이러한 해석을 뒷받침한다. 예를 들어 프로그램 버전을 "latest"로 지정한 경우가 그렇다.
+라이선스 의무는 배포 (또는 대중에게 전달) 시점에 준수해야 한다. 같은 일련의 배포 단계에서 Dockerfile의 전달과 같은 준비 행위는 이미 배포로 간주 될 수 있으므로, 엄격히 말해서, Dockerfile 전달 시 라이선스 의무를 이행해야 한다. 그러나 Repository에서 다운로드 하는 시점에 라이선스 의무를 준수하는 것도 충분하다는 방식으로 오픈소스 라이선스를 해석할 수 있다. 특히 Dockerfile 배포 시, 다운로드되는 레이어에 어떤 프로그램 코드가 포함되는지 명확하지 않다는 점도 이러한 해석을 뒷받침한다. 예를 들어 프로그램 버전을 "latest"로 지정한 경우가 그렇다.
 
-하지만, 만약 관련 저장소에서 라이선스 의무를 완전히 충족하지 않는다면, Dockerfile 제공자는 독립적으로 라이선스 의무를 준수하고 필요한 필수 정보(예 : 라이선스 텍스트, 저작권 고지, 소스 코드 제공)가 포함된 파일을 함께 제공하는 것이 좋다.
+하지만, 만약 관련 Repository에서 라이선스 의무를 완전히 충족하지 않는다면, Dockerfile 제공자는 독립적으로 라이선스 의무를 준수하고 필요한 필수 정보(예 : 라이선스 텍스트, 저작권 고지, 소스 코드 제공)가 포함된 파일을 함께 제공하는 것이 좋다.
 
 ## 5. 결론
 
-* Dockerfile을 배포하여 수신자가 공개적으로 접근할 수 있는 저장소로부터 소프트웨어를 다운로드하게 한다고 해서 Docker 컨테이너에 포함된 FOSS의 라이선스 조건 컴플라이언스에 대한 책임을 회피할 수는 없다. 
-* 유럽 연합 사법 재판소<sub>Court of Justice of the European Union</sub>의 판례를 분석한 결과, Dockerfile 배포와 같은 준비 행위<sub>preparatory acts</sub>는 “배포”의 의미에 해당 할 수도 있다는 사실이 드러났다.
-* 그럼에도 불구하고, 컴퓨터 프로그램 상호 작용의 특수성을 고려해야 한다. 예를 들어 시스템 요구 사항은 Dockerfile 제공자의 책임에 해당하지 않는다는 것을 볼 수 있다.
-* 그러나 FOSS를 준수하지 않는 방식으로 Docker 레이어 자체를 제공하는 저장소는 이러한 저장소를 참조하는 Dockerfile 제공자에게도 위험을 초래한다.
-* 따라서 FOSS 라이선스 컴플라이언스는 Dockerfile 제공자와 Docker 레이어에 대한 공개 저장소 간의 공동 책임이 된다.
+* Dockerfile 제공자는 Dockerfile을 build/run 하는 과정에서 Docker 컨테이너에 포함되는 FOSS의 라이선스 조건에 대한 컴플라이언스 책임이 있다. Dockerfile 수신자가 외부 공개 Repository로부터 소프트웨어를 다운로드 받는 방식이라고 해도 Dockerfile 제공자의 책임을 회피할 수는 없다. 
+* Dockerfile을 제공하는 건 준비 행위<sub>preparatory acts</sub>에 해당하고, 이는 "배포"에 포함된다는 사실이 유럽 연합 사법 재판소<sub>Court of Justice of the European Union</sub>의 판례에서 드러났다. 
+* 하지만, 컴퓨터 프로그램 상호 작용의 특수성을 고려하여 운영 체제, 웹서버 등 "시스템 요구 사항"에 대한 라이선스 컴플라이언스는 Dockerfile 제공자가 책임지지 않는다. 
+* 단, Docker 레이어가 FOSS 라이선스를 준수하지 않는 상태로 Repository에서 제공된다면. 이를 참조하는 Dockerfile 제공자에게도 위험을 초래한다. 
+* 따라서, FOSS 라이선스 컴플라이언스는 Dockerfile 제공자와 Docker 레이어를 공개 Repository에 공개한 배포자가 공동으로 책임져야할 사항이다.
 
 {{% alert title="About the author" color="success" %}}
 <i><b>Till Jaeger</b> has been a partner at JBB Rechtsanwälte since 2001 (www.jbb.de). He is a Certified Copyright and Media Law Attorney and advises large and medium-sized IT businesses as well as government authorities and software developers on matters involving contracts, licensing and IP rights.
