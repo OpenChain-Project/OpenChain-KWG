@@ -12,6 +12,11 @@ description: >
 * Schedule: 2021-05-24 (Mon) 16:00~17:00
 * How to join : https://meet.google.com/cky-svof-mfe
 * Attendees
+  * 라인플러스 이서연
+  * 엔씨소프트 한지호, 한다솜, 김다은
+  * 카카오 황민호(Robin)
+  * LG전자 김소임
+  * SK텔레콤 장학성
 
 ## Agenda
 
@@ -26,4 +31,9 @@ description: >
    * Case Study
      * Elastic License를 어떻게 보냐? + 최근 이슈로 논의하고자 하는 주제
      * 4-5명 소그룹으로. 7분. 
-     * 저녁에는 클럽하우스로 보다 informal한 논의
+     * 밤에는 클럽하우스에서 informal talk
+
+
+
+## Photo Gallery
+![photo](./pg-20210524.png)
