@@ -145,7 +145,7 @@ description: >
 - 인증전문 기관에 의한 평가
 - 인증서 발행
 - 주요 업체1 - TUV SUD (글로벌 시험 인증 기관)
-- 주요 업체2 -  PwC (세계 4대 회계법인 중 하나, 다국적 회계 감사 기업)
+- 주요 업체2 - PwC (세계 4대 회계법인 중 하나, 다국적 회계 감사 기업)
 #### 국내 인증 현황 및 시사점
 - 국내에 아직 ISO/IEC 5230 교육 및 인증을 제공하는 업체는 없음
 - 대기업 그룹사의 경우 한 기업이 전문 지식 및 경험을 획득하고, 계열사 및 관계사 대상으로 Independent Assessment 형태의 서비스를 제공할 수 있을 것 (예: 자동차 업계)
@@ -154,7 +154,7 @@ description: >
 - ISO/IEC 5230에 맞게 개정 예정 
 #### Q&A
 - ISO/IEC 5230 표준 문서는 깃허브에 공개되어 있는지? 자세한 문서는 없는지?
-  - 한글 번역 작업 진행 중: https://github.com/OpenChain-KWG/Specification-Translation-K
+  - 한글 번역 작업 진행 중: https://github.com/OpenChain-KWG/Specification-Translation-KR
 
 ### 5. 오픈소스와 함께한 1,273일간의 기록 (한지호, 엔씨소프트)
 #### 엔씨소프트의 오픈소스 컴플라이언스 활동은 2017년 6월부터 시작
