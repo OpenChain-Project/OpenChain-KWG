@@ -24,7 +24,7 @@ description: >
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | [Download](OpenChain_Korea_Meeting_5_March_2020.pptx) |
-| 2  | Open Source Compliance in the Enterprise 한글 요약본 소개 (Introduction to Korean Summary of Open Source Compliance in the Enterprise ) | 엔씨소프트 한다솜 (Dasom Han, NCSoft) |  [Download](OSC-Enterprise-ko_Openchain KWG_20200317_FN.pdf) | 
+| 2  | Open Source Compliance in the Enterprise 한글 요약본 소개 (Introduction to Korean Summary of Open Source Compliance in the Enterprise ) | 엔씨소프트 한다솜 (Dasom Han, NCSoft) |  [Download](OSC-Enterprise-ko_Openchain_KWG_20200317_FN.pdf) | 
 | 3  | OpenChain 해설서 발간 (NIPA) 소개 (Introduction to OpenChain Guide Published by NIPA) | SK텔레콤 장학성 (Haksung Jang, SK Telecom) | [Link](https://www.oss.kr/oss_guide/show/7050bff0-d06b-43f0-99a6-9975afcd486f)  | 
 | 4  | SW360 설치 및 사용방법과 보안취약점 관리 소개 (How to install&use SW360, and Security Vulnerabilities Management) | SK텔레콤 장학성 (Haksung Jang, SK Telecom) |[Download](OpenChainKWG-5th-SW360.pdf)  | 
 | 5  | Case Study : BOM Tracking 방법 (How to track BOM) | All | -  | 
