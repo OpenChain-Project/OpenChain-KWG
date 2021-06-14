@@ -12,7 +12,7 @@ description: >
 
 ## Schedule
 
-* Schedule: 2021-06-22 (The) 3:00~5:00 PM
+* Schedule: 2021-06-22 (Tue) 3:00~5:00 PM
 * How to join
   - Zoom (Please refer to the e-mail for the access address)
 
@@ -22,7 +22,7 @@ description: >
 | 0  | Intro & Greetings  | Newcomers | - |
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
 | 2  | OpenChain KWG Update | Haksung Jang, SK telecom | -  |
-| 3  | FOSSLight | LG Electronics | - | 
+| 3  | FOSSLight Open Source Project | Kyoungae Kim, LG Electronics | - | 
 | 4  | 소그룹 모임 | All | - |
 | 5  | Free Discussion | All | - |
 
