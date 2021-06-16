@@ -21,15 +21,16 @@ description: >
 |----|-----------------|------|------|
 | 0  | Intro & Greetings  | Newcomers | - |
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
-| 2  | OpenChain KWG Update | Haksung Jang, SK telecom | -  |
-| 3  | FOSSLight | LG Electronics | - | 
-| 4  | 소그룹 모임 | All | - |
-| 5  | Free Discussion | All | - |
+| 2  | OpenChain KWG Update | 장학성, SK텔레콤 | -  |
+| 3  | FOSSLight Open Source Project | 김경애, LG전자 | - | 
+| 4  | Latest Trends <br>- Google OSV (Open Source Vulnerability) & Google Insight (Open Source BOM)<br>- NIPA Open Source Governance Guide | <br>Robin (Minho Hwang), Kakao <br> Seoyeon Lee, Line Plus| - | 
+| 5  | Group Meeting | | All | - |
+| 6  | Free Discussion | All | - |
 
-## 소그룹 모임 주제
-1. 자기 소개
-2. 하는 일, 최근 주요 관심사
-3. 다른 회사의 담당자에게 궁금한 것이 있다면? 
+## Group meeting topics
+1. Who are you?
+2. What you do? What's your main interest lately?
+3. Do you have any questions to other companies?
 
 ## Attendees
 * ...
