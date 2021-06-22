@@ -19,12 +19,12 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Intro & Greetings  | Newcomers | - |
+| 0  | Intro & Greetings  | Newcomers | [OpenChain_Korea_20210622_intro.pptx](../../../ko/meeting/10th/OpenChain_Korea_20210622_intro.pptx) |
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
-| 2  | OpenChain KWG Update | 장학성, SK텔레콤 | -  |
-| 3  | FOSSLight Open Source Project | 김경애, LG전자 | - | 
-| 4  | Latest Trends <br>- Google OSV (Open Source Vulnerability) & Google Insight (Open Source BOM)<br>- NIPA Open Source Governance Guide | <br>Robin (Minho Hwang), Kakao <br> Seoyeon Lee, Line Plus| - | 
-| 5  | Group Meeting | | All | - |
+| 2  | OpenChain KWG Update | Haksung Jang, SK telecom  | [OpenChain_Korea_20210622_update.pptx](../../../ko/meeting/10th/OpenChain_Korea_20210622_update.pptx)  |
+| 3  | FOSSLight Open Source Project | Kyoungae Kim, LG Electronics | - | 
+| 4  | Latest Trends <br>- Google OSV (Open Source Vulnerability) & Google Insight (Open Source BOM)<br>- NIPA Open Source Governance Guide | <br>Robin (Minho Hwang), Kakao <br> Seoyeon Lee, Line Plus| <br>[Google_OSV_and_Insight_황민호.pdf](../../../ko/meeting/10th/Google_OSV_and_Insight_황민호.pdf)<br>[NIPAGuide_Intro.pdf](../../../ko/meeting/10th/NIPAGuide_Intro.pdf) | 
+| 5  | 소그룹 모임 | All | - |
 | 6  | Free Discussion | All | - |
 
 ## Group meeting topics
