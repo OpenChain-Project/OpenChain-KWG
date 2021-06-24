@@ -22,7 +22,7 @@ description: >
 | 0  | Intro & Greetings  | Newcomers | [OpenChain_Korea_20210622_intro.pptx](./OpenChain_Korea_20210622_intro.pptx) |
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
 | 2  | OpenChain KWG Update | 장학성, SK텔레콤 | [OpenChain_Korea_20210622_update.pptx](./OpenChain_Korea_20210622_update.pptx)  |
-| 3  | FOSSLight Open Source Project | 김경애, LG전자 | - | 
+| 3  | FOSSLight Open Source Project | 김경애, LG전자 | [210622_OpenChain_FOSSLight_LGE.pdf](./210622_OpenChain_FOSSLight_LGE.pdf) | 
 | 4  | 최근 주요 동향 <br>- Google OSV (오픈소스 취약성) & Google Insight (오픈소스 BOM)<br>- NIPA 오픈소스 거버넌스 가이드 | <br>Robin (황민호), 카카오 <br> 이서연, 라인플러스| <br>[Google_OSV_and_Insight_황민호.pdf](./Google_OSV_and_Insight_황민호.pdf)<br>[NIPAGuide_Intro.pdf](./NIPAGuide_Intro.pdf) | 
 | 5  | 소그룹 모임 | All | - |
 | 6  | Free Discussion | All | - |
