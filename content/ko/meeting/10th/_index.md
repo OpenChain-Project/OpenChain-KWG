@@ -36,8 +36,31 @@ description: >
 * ...
 
 ## Video
-...
+ 
+### Intro
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gkDHc1QcieY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### OpenChain Update
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mu0OQUZagoQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### OpenChain KWG Update
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Szxdcjkmvfs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### FOSSLight Open Source Project
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AF84HtQFIRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### 최근 주요 동향
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yQjn-imIh78" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### NIPA 오픈소스 거버넌스 가이드 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lE3SDadQXR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
 ## Minutes
 ...
 
