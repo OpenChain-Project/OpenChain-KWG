@@ -1,4 +1,45 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – Blog</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/</link><description>Recent content in Blog on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Dockerfile 배포 시 컴플라이언스 책임은 누구에게?</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210504-dockerfiles/</link><pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210504-dockerfiles/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – Blog</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/</link><description>Recent content in Blog on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: 오픈소스SW 관리 툴 ‘포스라이트’ 공개한 LG전자, “글로벌 표준 거듭나겠다”</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/news/20210628-fosslight/</link><pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/news/20210628-fosslight/</guid><description>
+&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/news/20210628-fosslight/featured-fosslight_hu2c94f93077316e74175207ca4deae911_89690_640x0_resize_q75_catmullrom.jpeg" width="640" height="481"/>
+&lt;p>최근 LG전자가 자체 개발해 2014년부터 운영해오고 있는 오픈소스 SW관리 도구인 ‘포스라이트(FOSSLight ; Free and Open Source Software Light)’를 공개해 주목을 받고 있다.
+&lt;a href="https://fosslight.org/">포스라이트&lt;/a>는 개발자의 SW를 분석해 오픈소스를 사용했는지, 오픈소스 사용 조건이나 의무사항을 준수했는지 등을 검증해 주는 툴이다.&lt;/p>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 440px">
+&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/news/20210628-fosslight/featured-fosslight_hu2c94f93077316e74175207ca4deae911_89690_900x600_fit_q75_catmullrom.jpeg" width="430" height="323">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+LG전자 오픈소스 태스크. 사진 왼쪽부터 방재권 선임, 김소임 선임, 최혜성 책임, 김경애 리더, 석지영 선임, 박원재 선임
+&lt;small class="text-muted">&lt;br/>백지영 기자&lt;/small>&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;p>‘포스라이트’라는 이름으로 외부에 공개하면서 안정성과 기능을 확대하는 한편 글로벌 인지도를 높일 수 있게 할 계획이다. 포스라이트에는 ‘세상에 빛을 밝혀줄 오픈소스’라는 의미가 담겼다.&lt;/p>
+&lt;hr>
+&lt;p>자세한 내용은 기사 원문에서 확인하세요. : &lt;a href="https://n.news.naver.com/article/138/0002105818">https://n.news.naver.com/article/138/0002105818&lt;/a>&lt;/p></description></item><item><title>Blog: 한 달 걸리던 카카오톡 오픈소스 관리, 이틀이면 충분</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/news/20210628-olive/</link><pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/news/20210628-olive/</guid><description>
+&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/news/20210628-olive/featured-olive_hue5579ffc1af7d7a3463298b978caa6cc_25759_640x0_resize_q75_catmullrom.jpeg" width="640" height="434"/>
+&lt;p>“한 달이 걸리던 카카오톡 오픈소스 관리 작업을 올리브를 사용하면 하루 이틀이면 충분할 것이다.”&lt;/p>
+&lt;p>카카오의 황은경 오픈소스기술파트장은 오픈소스 관리 서비스 &amp;lsquo;올리브&amp;rsquo;의 정식 버전에 대해 소개하며 위와 같이 말했다.&lt;/p>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 643px">
+&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/news/20210628-olive/featured-olive_hue5579ffc1af7d7a3463298b978caa6cc_25759_900x600_fit_q75_catmullrom.jpeg" width="633" height="429">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+카카오가 오픈소스 관리플랫폼 '올리브'를 29일 정식 출시한다(이미지=카카오)
+&lt;small class="text-muted">&lt;br/>카카오&lt;/small>&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;a href="https://olive.kakao.com/intro">올리브&lt;/a>는 복잡한 오픈소스 라이선스 관리를 자동화하는 개발 지원 도구다. 자동으로 소프트웨어를 분석해 오픈소스를 사용했는지, 오픈소스 사용 조건이나 의무사항 등을 목록별로 정리해 제공한다.&lt;/p>
+&lt;hr>
+&lt;p>자세한 내용은 기사 원문에서 확인하세요. : &lt;a href="https://zdnet.co.kr/view/?no=20210628143239">https://zdnet.co.kr/view/?no=20210628143239&lt;/a>&lt;/p></description></item><item><title>Blog: SK텔레콤, 개발자와 소통하는 커뮤니티 ‘DEVOCEAN’ 론칭</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/news/20210614-devocean/</link><pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/news/20210614-devocean/</guid><description>
+&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/news/20210614-devocean/featured-devocean_hu14eeb2e9bb7ca8a2f7495fccba6aca57_92060_640x0_resize_q75_catmullrom.jpeg" width="640" height="398"/>
+&lt;p>SK텔레콤이 스타트업·대학 등 외부 개발자들과 소통하는 오픈 커뮤니티를 론칭하며 SK의 ICT 역량을 적극 공유에 나선다.&lt;/p>
+&lt;p>‘&lt;a href="https://devocean.sk.com/">데보션&lt;/a>’은 개발자들을 위한 영감의 바다(Developer’s Ocean)라는 뜻으로, 개발자들이 지식과 경허을 공유하는 커뮤니티를 ‘바다’에 비유했다.&lt;/p>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 810px">
+&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/news/20210614-devocean/featured-devocean_hu14eeb2e9bb7ca8a2f7495fccba6aca57_92060_900x600_fit_q75_catmullrom.jpeg" width="800" height="498">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+SK텔레콤은 SK하이닉스, SK㈜C&amp;C, SK브로드밴드, SK플래닛 등 SK ICT패밀리사 개발전문가들과 외부 개발인재간 소통과 기술 공유를 위한 디벨로퍼 릴레이션 채널인 ‘데보션’을 론칭했다. 사진=SK텔레콤
+&lt;small class="text-muted">&lt;br/>SK텔레콤&lt;/small>&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;hr>
+&lt;p>자세한 내용은 기사 원문에서 확인하세요. : &lt;a href="https://www.fntimes.com/html/view.php?ud=202106140855478693645ffc9771_18">https://www.fntimes.com/html/view.php?ud=202106140855478693645ffc9771_18&lt;/a>&lt;/p></description></item><item><title>Blog: Dockerfile 배포 시 컴플라이언스 책임은 누구에게?</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210504-dockerfiles/</link><pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210504-dockerfiles/</guid><description>
 &lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210504-dockerfiles/featured-dockerfile-ex_hu144e77f3a0c06d5c2e11835ba0d8ec62_326508_640x0_resize_catmullrom_2.png" width="640" height="368"/>
 &lt;blockquote>
 &lt;p>안녕하세요!&lt;/p>
