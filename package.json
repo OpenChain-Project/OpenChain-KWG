@@ -16,7 +16,6 @@
     "url": "https://github.com/OpenChain-Project/OpenChain-KWG/issues"
   },
   "homepage": "https://github.com/OpenChain-Project/OpenChain-KWG#readme",
-  "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^9.8.6",
     "postcss-cli": "^7.1.2"
