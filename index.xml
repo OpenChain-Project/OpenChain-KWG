@@ -1,9 +1,5 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – OpenChain KWG</title><link>https://openChain-project.github.io/OpenChain-KWG/</link><description>Recent content on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: GPLv2도 설치정보를 요구한다고?</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210728-gplv2installationinformation/</link><pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210728-gplv2installationinformation/</guid><description>
 &lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210728-gplv2installationinformation/featured_gplv3_hu006d62b08de1c17950f31195c01df16f_37653_640x0_resize_catmullrom_3.png" width="640" height="318"/>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;p>This paper was translated by Haksung Jang from the English version available at this &lt;a href="https://jolts.world/index.php/jolts/article/view/149/270">article&lt;/a>. The original author, &lt;a href="https://www.linkedin.com/in/mccoysmith">P. McCoy Smith&lt;/a>, has not reviewed this translation.&lt;/p>
-&lt;/div>
-&lt;hr>
 &lt;blockquote>
 &lt;p>&lt;i>안녕하세요.&lt;/p>
 &lt;p>미국의 저명한 오픈소스 라이선스 전문 변호사인 P. McCoy Smith는 최근 &lt;a href="https://jolts.world/">JOLTS&lt;/a>&lt;sub>Journal of Open Law, Technology &amp;amp; Society&lt;/sub>에 &lt;a href="https://jolts.world/index.php/jolts/article/view/149">GPLv2가 &amp;lsquo;설치정보&amp;rsquo;를 요구하는가&lt;/a>를 주제로 글을 게재하였습니다.&lt;/p>
@@ -12,7 +8,9 @@
 &lt;p>혹시, 오류를 발견하였거나 추가 의견이 있으신 분들은 언제든 연락해주세요. &lt;a href="mailto:haksung@sk.com">haksung@sk.com&lt;/a>&lt;/p>
 &lt;p>감사합니다. :) &lt;/i>&lt;/p>
 &lt;/blockquote>
-&lt;hr>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This paper was translated by Haksung Jang from the English version available at this &lt;a href="https://jolts.world/index.php/jolts/article/view/149/270">article&lt;/a>. The original author, &lt;a href="https://www.linkedin.com/in/mccoysmith">P. McCoy Smith&lt;/a>, has not reviewed this translation.&lt;/p>
+&lt;/div>
 &lt;h3 id="abstract">Abstract&lt;/h3>
 &lt;p>GPLv3&lt;sub>GNU General Public License version 3&lt;/sub> 에서 추가된 주요 특징 중 하나는 소프트웨어 배포 시 소스 코드뿐만 아니라 &amp;lsquo;설치 정보&amp;rsquo;를 제공해야 한다는 요구사항이다. 이는 GPLv2에 존재하는 loophole (&lt;a href="https://opensource.stackexchange.com/questions/7020/what-exactly-is-tivoization-and-why-did-linus-torvalds-not-like-it-in-gplv3">Tivoization&lt;/a>)을 해결하기 위해 GPLv3에 새롭게 추가되었다. 그런데 최근에 이 설치 정보 요구 사항이 GPLv2에서도 요구한다고 봐야한다는 주장이 제기되었다.&lt;/p>
 &lt;p>이 글에서는 GPLv3에 &amp;lsquo;설치 정보&amp;rsquo; 요구 사항을 포함하게 된 역사적 근거를 검토하고, 이 요구 사항은 GPLv2가 아닌, GPLv3에서 새롭게 적용된 것임을 설명한다. 또한, GPLv2 텍스트 분석을 통해서도 같은 결과를 도출한다.&lt;/p>
