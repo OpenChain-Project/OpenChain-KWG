@@ -12,12 +12,6 @@ resources:
 ---
 
 
-{{% pageinfo %}}
-This paper was translated by Haksung Jang from the English version available at this [article](https://jolts.world/index.php/jolts/article/view/149/270).  The original author, [P. McCoy Smith](https://www.linkedin.com/in/mccoysmith), has not reviewed this translation.
-{{% /pageinfo %}}
-
----
-
 > <i>안녕하세요. 
 > 
 > 미국의 저명한 오픈소스 라이선스 전문 변호사인 P. McCoy Smith는 최근 [JOLTS](https://jolts.world/)<sub>Journal of Open Law, Technology & Society</sub>에 [GPLv2가 '설치정보'를 요구하는가](https://jolts.world/index.php/jolts/article/view/149)를 주제로 글을 게재하였습니다. 
@@ -30,7 +24,10 @@ This paper was translated by Haksung Jang from the English version available at 
 > 
 > 감사합니다. :) </i>
 
----
+
+{{% pageinfo %}}
+This paper was translated by Haksung Jang from the English version available at this [article](https://jolts.world/index.php/jolts/article/view/149/270).  The original author, [P. McCoy Smith](https://www.linkedin.com/in/mccoysmith), has not reviewed this translation.
+{{% /pageinfo %}}
 
 ### Abstract
 
