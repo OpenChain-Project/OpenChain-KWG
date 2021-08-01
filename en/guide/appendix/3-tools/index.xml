@@ -15,7 +15,7 @@
 &lt;p>여기서는 가장 간편한 방법인 Docker를 사용하는 방법에 대해 설명한다.&lt;/p>
 &lt;p>FOSSology는 컨테이너화 된 Docker 이미지를 Docker Hub (https://hub.docker.com/)를 통해 공개하고 있다. : &lt;a href="https://hub.docker.com/r/fossology/fossology">https://hub.docker.com/r/fossology/fossology&lt;/a>&lt;/p>
 &lt;p>Pre-built 된 Docker 이미지는 다음 명령어를 사용하여 실행할 수 있다.&lt;/p>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">$ docker run -p 8081:80 fossology/fossology
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">$ docker run -p 8081:80 fossology/fossology
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>Docker 이미지는 다음 URL과 계정 정보로 사용할 수 있다. : http://[IP_OF_DOCKER_HOST]:8081/repo&lt;/p>
 &lt;ul>
 &lt;li>Username : fossy&lt;/li>
@@ -91,16 +91,16 @@
 &lt;p>여기서는 CentOS 7.6 시스템에 Vagrant 기반으로 설치하여 Deploy하는 방법을 소개한다. 자세한 사항은 README를 참고한다. : &lt;a href="https://github.com/sw360/sw360vagrant/blob/master/README.md">https://github.com/sw360/sw360vagrant/blob/master/README.md&lt;/a>&lt;/p>
 &lt;h3 id="1-사전-설치">1) 사전 설치&lt;/h3>
 &lt;p>vagrant box에 SW360을 설치하기 위해서는 openjdk, VirtualBox 및 Vagrant를 설치해야 다. 먼저 openjdk 1.8.0을 설치한다.&lt;/p>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">$ yum install java-1.8.0-openjdk
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">$ yum install java-1.8.0-openjdk
 $ java -version
 openjdk version &amp;#34;1.8.0_191&amp;#34;
 OpenJDK Runtime Environment (build 1.8.0_191-b12)”
 OpenJDK 64-Bit Server VM (build 25.191-b12, mixed mode)
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>VirtualBox를 설치한다.&lt;/p>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">$ sudo wget https://download.virtualbox.org/virtualbox/rpm/el/virtualbox.repo -P /etc/yum.repos.d
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">$ sudo wget https://download.virtualbox.org/virtualbox/rpm/el/virtualbox.repo -P /etc/yum.repos.d
 $ sudo yum install VirtualBox-5.2
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>CentOS 7에서 VirtualBox 설치 시, “kernel module is not loaded’ 에러가 발생할 경우, kernel-devel을 설치하여 해결한 후 VirtualBox를 재설치한다.&lt;/p>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">$ sudo yum install https://centos7.iuscommunity.org/ius-release.rpm
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">$ sudo yum install https://centos7.iuscommunity.org/ius-release.rpm
 $ sudo yum install dkms
 $ sudo yum install kernel-devel
 # reboot
@@ -110,14 +110,14 @@ $ systemctl status vboxdrv
 Loaded: loaded (/usr/lib/virtualbox/vboxdrv.sh; enabled; vendor preset: disabled)
 Active: active (exited) since Wed 2020-02-19 09:06:02 KST; 20min ago
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>Vagrant와 vagrant-aws plugin을 설치한다.&lt;/p>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">$ sudo yum install https://releases.hashicorp.com/vagrant/2.2.6/vagrant_2.2.6_x86_64.rpm
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">$ sudo yum install https://releases.hashicorp.com/vagrant/2.2.6/vagrant_2.2.6_x86_64.rpm
 # vagrant-aws plugin 설치
 $ vagrant plugin install vagrant-aws
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>그리고, sw360vagrant 코드를 Clone 한다.&lt;/p>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">$ git clone https://github.com/sw360/sw360vagrant.git
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">$ git clone https://github.com/sw360/sw360vagrant.git
 &lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="2-dependency-다운로드">2) Dependency 다운로드&lt;/h3>
 &lt;p>Vagrant box를 빌드하는 시간을 줄이기 위해 Dependency Package들을 미리 다운로드 받는다.&lt;/p>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">$ cd sw360vagrant
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">$ cd sw360vagrant
 $ ./download-packages.sh
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>그러면 다음의 package들이 ./shared/package 폴더 안에 다운로드 된다.&lt;/p>
 &lt;ul>
@@ -129,12 +129,12 @@ $ ./download-packages.sh
 &lt;/ul>
 &lt;h3 id="3-base-box-생성">3) Base box 생성&lt;/h3>
 &lt;p>이제 다음 명령어로 Base box를 생성한다.&lt;/p>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">$ cd generate-box
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">$ cd generate-box
 $ ./generate_box.sh
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>이 작업은 수십 분 소요될 수 있다.&lt;/p>
 &lt;h3 id="4-box-실행">4) Box 실행&lt;/h3>
 &lt;p>다음 명령어로 Box를 실행한다.&lt;/p>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text"># If you have built a vagrant box from this directory earlier, you will have to destroy it first via
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text"># If you have built a vagrant box from this directory earlier, you will have to destroy it first via
 $ vagrant destroy
 $ cd ../sw360-single
 $ vagrant up

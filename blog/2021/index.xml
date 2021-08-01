@@ -1,5 +1,380 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – 2021</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/</link><description>Recent content in 2021 on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/blog/2021/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Dockerfile 배포 시 컴플라이언스 책임은 누구에게?</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210504-dockerfiles/</link><pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210504-dockerfiles/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210504-dockerfiles/featured-dockerfile-ex_hu144e77f3a0c06d5c2e11835ba0d8ec62_326508_640x0_resize_catmullrom_2.png" width="640" height="368"/>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – 2021</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/</link><description>Recent content in 2021 on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/blog/2021/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: GPLv2도 설치정보를 요구한다고?</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210728-gplv2installationinformation/</link><pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210728-gplv2installationinformation/</guid><description>
+&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210728-gplv2installationinformation/featured_gplv3_hu006d62b08de1c17950f31195c01df16f_37653_640x0_resize_catmullrom_3.png" width="640" height="318"/>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This paper was translated by Haksung Jang from the English version available at this &lt;a href="https://jolts.world/index.php/jolts/article/view/149/270">article&lt;/a>. The original author, &lt;a href="https://www.linkedin.com/in/mccoysmith">P. McCoy Smith&lt;/a>, has not reviewed this translation.&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;blockquote>
+&lt;p>&lt;i>안녕하세요.&lt;/p>
+&lt;p>미국의 저명한 오픈소스 라이선스 전문 변호사인 P. McCoy Smith는 최근 &lt;a href="https://jolts.world/">JOLTS&lt;/a>&lt;sub>Journal of Open Law, Technology &amp;amp; Society&lt;/sub>에 &lt;a href="https://jolts.world/index.php/jolts/article/view/149">GPLv2가 &amp;lsquo;설치정보&amp;rsquo;를 요구하는가&lt;/a>를 주제로 글을 게재하였습니다.&lt;/p>
+&lt;p>지난 2021년 3월, &lt;a href="https://sfconservancy.org/">SFC&lt;/a>&lt;sub>Software Freedom Convervancy&lt;/sub>의 &lt;a href="https://sfconservancy.org/blog/">블로그&lt;/a>에 &amp;ldquo;&lt;a href="https://sfconservancy.org/blog/2021/mar/25/install-gplv2/">Understanding Installation Requirements in GPLv2&lt;/a>&amp;ldquo;라는 주제로 GPLv2에서도 설치 정보 제공을 요구한다는 글이 올라왔었는데, 이에 대한 분석과 &lt;b>GPLv3의 &amp;lsquo;설치 정보&amp;rsquo; 요구 사항은 GPLv2에서는 해당하지 않는다는 의견&lt;/b>을 자세한 근거를 들어 설명하였습니다.&lt;/p>
+&lt;p>여기서는 원문을 번역하되 Readability를 고려하고 독자의 이해를 돕기 위해 가능한 배경 설명을 추가하여 작성하였습니다.&lt;/p>
+&lt;p>혹시, 오류를 발견하였거나 추가 의견이 있으신 분들은 언제든 연락해주세요. &lt;a href="mailto:haksung@sk.com">haksung@sk.com&lt;/a>&lt;/p>
+&lt;p>감사합니다. :) &lt;/i>&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h3 id="abstract">Abstract&lt;/h3>
+&lt;p>GPLv3&lt;sub>GNU General Public License version 3&lt;/sub> 에서 추가된 주요 특징 중 하나는 소프트웨어 배포 시 소스 코드뿐만 아니라 &amp;lsquo;설치 정보&amp;rsquo;를 제공해야 한다는 요구사항이다. 이는 GPLv2에 존재하는 loophole (&lt;a href="https://opensource.stackexchange.com/questions/7020/what-exactly-is-tivoization-and-why-did-linus-torvalds-not-like-it-in-gplv3">Tivoization&lt;/a>)을 해결하기 위해 GPLv3에 새롭게 추가되었다. 그런데 최근에 이 설치 정보 요구 사항이 GPLv2에서도 요구한다고 봐야한다는 주장이 제기되었다.&lt;/p>
+&lt;p>이 글에서는 GPLv3에 &amp;lsquo;설치 정보&amp;rsquo; 요구 사항을 포함하게 된 역사적 근거를 검토하고, 이 요구 사항은 GPLv2가 아닌, GPLv3에서 새롭게 적용된 것임을 설명한다. 또한, GPLv2 텍스트 분석을 통해서도 같은 결과를 도출한다.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>1991년 FSF&lt;sub>Free Software Foundation&lt;/sub>에서 공개한 GPLv2&lt;sub>GNU General Public License, version 2&lt;/sub>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>은 Copyleft (혹은 Reciprocal) 라이선싱 방식을 채택하였다. Copyleft 방식은 정해진 시기에 지정된 방식대로 소스 코드를 공개하고, 소프트웨어를 재배포할 때에는 동일한 라이선스 적용을 요구한다. 이는 소프트웨어가 &amp;ldquo;free&amp;quot;로 유지되도록 보장하는 최고의 수단이며, 이는 오늘날에도 여전히 많은 사람에게 인정되고 있다&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. 여기서 &amp;ldquo;free&amp;quot;는 다음과 같다&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>.&lt;/p>
+&lt;ul>
+&lt;li>수정 사항을 공유할 수 있는 자유&lt;/li>
+&lt;li>사용자가 코드로 수행할 수 있는 작업에 대한 자유&lt;/li>
+&lt;li>사용자가 원하는대로 코드를 수정할 수 있는 자유&lt;/li>
+&lt;/ul>
+&lt;p>그럼에도 불구하고 2005년, FSF는 GPLv2를 출시할 당시 고려하지 못한&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup> 법률적&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup> 그리고 기술적&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup> 문제를 해결하기 위해 라이선스 변경의 필요성을 인식하였다. 이에 따라 FSF는 2006년&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>부터 2007년까지 GPL의 신규 버전을 만들기 위해 대규모의 협업과 다국적 노력을 시작하였으며, 2007년 6월 29일 GPLv3를 공개하였다&lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>.&lt;/p>
+&lt;!-- ![gplv3](./featured_gplv3.png) -->
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 310px">
+&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/2021/20210728-gplv2installationinformation/featured_gplv3_hu006d62b08de1c17950f31195c01df16f_37653_300x0_resize_catmullrom_3.png" width="300" height="149">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="2-gplv3의-설치-정보-요구-사항">2. GPLv3의 &amp;lsquo;설치 정보&amp;rsquo; 요구 사항&lt;/h2>
+&lt;p>GPLv2가 광범위하게 사용되던 15년 동안 제기된 문제와 우려를 해결하기 위해 GPLv3에는 수많은 기능이 추가되었다. 그중에서도 가장 주목할만한 (그러면서도 가장 논란이 되는&lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup>) 부분은 (1) &amp;lsquo;설치 정보&amp;rsquo;를 정의한 조항과 (2) GPLv3에 따라 라이센스가 부여된 소프트웨어를 &amp;lsquo;전달&lt;sub>convey&lt;/sub>&lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup>&amp;lsquo;할 때 어떤 상황에서 설치 정보를 제공해야 하는지를 명시한 조항이다. GPLv3에서의 &amp;lsquo;설치 정보&amp;rsquo; 요구 사항이 GPLv2에서 요구하는 요소를 어느 정도 포함하는지, 어느 것은 포함하지 않는지를 이해하려면 두 라이선스에서의 표현과 역사에 대한 자세한 검토가 필요하다.&lt;/p>
+&lt;p>GPLv3, Section 6&lt;sup id="fnref:11">&lt;a href="#fn:11" class="footnote-ref" role="doc-noteref">11&lt;/a>&lt;/sup>(GPLv3 코드를 &amp;ldquo;Non-Source Form으로 Convey&amp;quot;시 의무 사항 명시)에서는 &amp;lsquo;설치 정보&amp;rsquo;를 위해 특별히 공개해야 할 의무를 정의한다.&lt;/p>
+&lt;pre>&lt;code>“‘Installation Information’ ... means any methods, procedures, authorization keys, or other
+information required to install and execute modified versions of a covered work ... from a
+modified version of its Corresponding Source. The information must suffice to ensure that the
+continued functioning of the modified object code is in no case prevented or interfered with
+solely because modification has been made.”
+&lt;/code>&lt;/pre>&lt;!-- ![installationinformation](./installationinformation.jpg) -->
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 610px">
+&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/2021/20210728-gplv2installationinformation/installationinformation_huf81259ed580503fa4c4b1153203cb7a9_287695_600x0_resize_q75_catmullrom.jpg" width="600" height="493">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;p>GPLv3의 &amp;lsquo;설치 정보&amp;rsquo; 정의에서 주목할만한 것은 &amp;lsquo;인증키&lt;sub>authorization key&lt;/sub>&amp;rsquo; 및 &amp;lsquo;기타 정보&amp;rsquo;를 구체적으로 언급한 점이다. 이는 GPLv3를 만드는 프로세스가 시작될 당시 FSF가 우려했던 GPLv2 소프트웨어의 특정 남용 사례를 해결하기 위하여 포함된 것이다&lt;sup id="fnref:12">&lt;a href="#fn:12" class="footnote-ref" role="doc-noteref">12&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>GPLv3의 &amp;lsquo;설치 정보&amp;rsquo; 의무에 대한 자세한 요구 사항이나 GPLv3에서 설치 정보 제공을 요구하는 방법과 시기는 이 글의 주제를 벗어난다&lt;sup id="fnref:13">&lt;a href="#fn:13" class="footnote-ref" role="doc-noteref">13&lt;/a>&lt;/sup>. 그럼에도 불구하고 설치 정보 의무가 GPLv2에서도 해당한다고 주장할 수 있는 유사 부분은 무엇인지, 설치 정보 의무가 GPLv3에만 있는 고유한 부분임을 입증하는 근거는 무엇인지, 또 이런 내용이 어떤 과정을 통해 채택되었는지에 대한 일반적인 이해가 필요하다. 따라서 GPLv3에 &amp;lsquo;설치 정보&amp;rsquo; 의무가 추가되었던 역사적 배경과 GPLv3에 추가된 특정 표현이 무엇인지, 해당 표현이 GPLv2에 언급된 의무들과 어떻게 다른지 이해하는 것이 중요하다.&lt;/p>
+&lt;h2 id="3-설치-정보-요구사항의-역사적-배경-tivoization">3. &amp;lsquo;설치 정보&amp;rsquo; 요구사항의 역사적 배경: &amp;lsquo;Tivoization&amp;rsquo;&lt;/h2>
+&lt;p>2006년경 GPL의 새로운 버전인 GPLv3가 제안되었을 무렵, FSF는 &amp;lsquo;software freedom&amp;rsquo; 개념을 잠재적으로 훼손할 수 있는 관행에 대한 우려를 나타냈었다. FSF는 이 관행을 &amp;lsquo;Tivoization&lt;sup id="fnref:14">&lt;a href="#fn:14" class="footnote-ref" role="doc-noteref">14&lt;/a>&lt;/sup>&amp;lsquo;이라고 명명하였으며, 당시 FSF는 DVR&lt;sub>digital video recorder&lt;/sub> 회사인 TiVo가 사용자의 자유를 침해한다고 보았다.&lt;/p>
+&lt;!-- ![tivo](./tivo.jpeg) -->
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 460px">
+&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/2021/20210728-gplv2installationinformation/tivo_hueddc2488570257d678625df7b7772d8c_17430_450x0_resize_q75_catmullrom.jpeg" width="450" height="392">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+https://blog.codinghorror.com/tivoization-and-the-gpl/
+&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;p>2000년대 중반, TiVo의 특정 DVR 하드웨어 디바이스에는 GPLv2 라이선스인 Linux 커널이 설치되어 있었다. 이 디바이스에는 TiVo 하드웨어 장치에 설치할 Linux 커널 버전을 확인하는 메커니즘이 포함되어 있었다. 이 유효성 검사 메커니즘은 체크섬 또는 암호화 해시 함수를 사용하여 장치에 설치된 커널 버전과 비교하였고, 설치하려는 버전이 특정 체크섬 또는 암호화 해시&lt;sup id="fnref:15">&lt;a href="#fn:15" class="footnote-ref" role="doc-noteref">15&lt;/a>&lt;/sup>와 일치하지 않으면 해당 버전의 Linux 커널 설치를 거부하였다. 이러한 방식으로 TiVo 디바이스는 (하드웨어 제조업체로써 내장된 체크섬 또는 해시값에 대한 필요한 정보를 가진 유일한 주체인) TiVo만 디바이스에 Linux 커널의 인증된 버전을 설치할 수 있도록 허용하였다. TiVo 디바이스 사용자(예: 디바이스를 구입한 고객)가 디바이스에 설치된 커널의 소스 코드를 가져와서 해당 커널을 수정한 후 재설치하려면 수정된 커널로는 체크섬 또는 해시가 달라지게 되므로 수정된 커널이 다시 설치 또는 실행되지 않게 되었다&lt;sup id="fnref:16">&lt;a href="#fn:16" class="footnote-ref" role="doc-noteref">16&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>이에 따라 FSF는 2006년, GPLv2 소프트웨어의 수정 버전을 기존 장치에 재설치할 수 없다는 것은 사용자가 소프트웨어에 대해 가져야 하는 자유를 침해하는 것으로 여겼고, 이 관행을 매우 경멸적인 용어로 설명하는 것을 주저하지 않았다.&lt;/p>
+&lt;blockquote>
+&lt;p>      &lt;i>“A &lt;b>tyrant&lt;/b> is a malicious device that refuses to allow users to install a different operating system or a modified operating system. These devices have measures to block execution of anything other than the ‘approved’ system versions.”&lt;/i>&lt;sup id="fnref:17">&lt;a href="#fn:17" class="footnote-ref" role="doc-noteref">17&lt;/a>&lt;/sup>&lt;/p>
+&lt;/blockquote>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 310px">
+&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/2021/20210728-gplv2installationinformation/rms_huf831f910aefa83e90dd8649124866f37_35249_300x0_resize_q75_catmullrom.jpeg" width="300" height="333">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+https://fsfe.org/activities/gplv3/brussels-rms-transcript.en.html
+&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="4-역사적-분석-gplv3의-설치-정보-의무와-gplv2와의-관계">4. 역사적 분석: GPLv3의 &amp;lsquo;설치 정보&amp;rsquo; 의무와 GPLv2와의 관계&lt;/h2>
+&lt;p>FSF는 &amp;lsquo;Tivoization&amp;rsquo;의 (수정한 바이너리를 재설치할 수 없게 하는) 관행에 대해 오랫동안 반대해 왔지만, GPLv3 초안 작성 중, FSF의 회장, 수석 변호사 및 Executive Director의 성명을 통해 이러한 관행이 GPLv2에서는 허용될 수 있다는 점도 분명히 했다.&lt;/p>
+&lt;blockquote>
+&lt;p>      &lt;i>“[T]he Tivo itself is the prototype of [T]ivoisation. The Tivo contains a small GNU/Linux operating system, thus, several programs under the GNU GPL[v2]. And, as far as I know, &lt;b>the Tivo company does obey GPL version 2&lt;/b>. … [T]he trouble begins because the Tivo will not run modified versions, the Tivo contains hardware designed to detect that the software has been changed and shuts down.”&lt;/i>&lt;sup id="fnref:18">&lt;a href="#fn:18" class="footnote-ref" role="doc-noteref">18&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>      &lt;i>“TiVo is a provider of hardware and software …. Our concern with them is that they have rights as users, but they should respect the rights of the users to whom they sell. Having a personal video recorder … which won&amp;rsquo;t run software if you modify the box … is not user-respecting conduct. &lt;b>(TiVo) complied with GPL 2 by the skin of its teeth.”&lt;/b>&lt;/i>&lt;sup id="fnref:19">&lt;a href="#fn:19" class="footnote-ref" role="doc-noteref">19&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>      &lt;i>“TiVoization is described by Peter Brown [Executive Director of FSF in 2006-07 during drafting of GPLv3] as circumventing GPL2 ‘in spirit, &lt;b>not technically.&lt;/b>’”&lt;/i>&lt;sup id="fnref:20">&lt;a href="#fn:20" class="footnote-ref" role="doc-noteref">20&lt;/a>&lt;/sup>&lt;/p>
+&lt;/blockquote>
+&lt;p>이러한 차이(&amp;lsquo;Tivoization&amp;rsquo;을 금지하는 GPLv3와 허용하는 GPLv2간의 차이)는 Linux Kernel의 저작자인 Linus Torvalds가 GPLv3으로 라이선스를 변경하지 않고 &amp;lsquo;GPLv2 only&amp;rsquo;로 유지하게 된 결정적인 이유였다.&lt;/p>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 460px">
+&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/2021/20210728-gplv2installationinformation/torvalds_hu10fd96dd93c89372fc893c30d5cce225_10792_450x0_resize_q75_catmullrom.jpeg" width="450" height="338">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+https://www.youtube.com/watch?v=bV3cKq26nKQ
+&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;blockquote>
+&lt;p>      &lt;i>“’The FSF is trying to make some things &lt;b>no longer permissible under the GPLv3 that the GPLv2 left open&lt;/b>, and I just happen to think that those things were better off being left open.’”&lt;/i>&lt;sup id="fnref:21">&lt;a href="#fn:21" class="footnote-ref" role="doc-noteref">21&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>      &lt;i>“‘I don&amp;rsquo;t think the GPL v3 conversion is going to happen for the kernel, since I personally don&amp;rsquo;t want to convert any of my code.’ … ‘&lt;b>I think it&amp;rsquo;s insane to require people to make their private signing keys available&lt;/b>, for example. I wouldn&amp;rsquo;t do it,’ [Torvalds] said.”&lt;/i>&lt;sup id="fnref:22">&lt;a href="#fn:22" class="footnote-ref" role="doc-noteref">22&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>      &lt;i>“[If] you can not &lt;b>install&lt;/b> or &lt;b>run&lt;/b> your changes on somebody else’s hardware … it in no way changes the fact that you got all the source code, and you can make changes (and use their changes) to it. &lt;b>That requirement has always been there, even with plain GPLv2&lt;/b>. You have the source. The difference? The hardware may only run signed kernels. The fact that the hardware is closed is a &lt;b>hardware&lt;/b> license issue. Not a software license issue. I’d suggest you take it up with your hardware vendor, and quite possibly just decide to not buy the hardware. Vote with your feet. … &lt;b>[I]t’s important to realize that signed kernels that you can’t run in modified form under certain circumstances is not at all a bad idea in many cases.&lt;/b>”&lt;/i>&lt;sup id="fnref:23">&lt;a href="#fn:23" class="footnote-ref" role="doc-noteref">23&lt;/a>&lt;/sup>&lt;/p>
+&lt;/blockquote>
+&lt;p>GPLv3의 &amp;lsquo;설치 정보&amp;rsquo; 요구사항에 대해 Torvalds의 의견은 여러 주요 커널 개발자들에 의해 아래와 같이 공유되었다&lt;sup id="fnref:24">&lt;a href="#fn:24" class="footnote-ref" role="doc-noteref">24&lt;/a>&lt;/sup>. Torvalds는 10년이 지난 후에도 일관된 입장을 유지했으며, 이는 오늘날까지 Linux Kernel이 &amp;lsquo;GPLv2 only&amp;rsquo; 라이선스를 유지하고 있는 이유 중 하나이다&lt;sup id="fnref:25">&lt;a href="#fn:25" class="footnote-ref" role="doc-noteref">25&lt;/a>&lt;/sup>.&lt;/p>
+&lt;blockquote>
+&lt;p>      &lt;i>“I give you source code, you give me your changes back; we’re even. … That’s my take on GPL version 2 and it’s that simple. … &lt;b>Version 3 extended that in ways that I personally am really uncomfortable with.&lt;/b> Namely I give you source code, that means if you use that source code, you can’t use it on your device unless you follow my rules. And to me that’s a violation of everything version 2 stood for. And I understand why the FSF did it, because I know what the FSF wants, &lt;b>but to me it’s not the same license at all&lt;/b>. So I was very upset, and made it very clear, and this was months before version 3 was actually published.”&lt;/i>&lt;sup id="fnref:26">&lt;a href="#fn:26" class="footnote-ref" role="doc-noteref">26&lt;/a>&lt;/sup>&lt;/p>
+&lt;/blockquote>
+&lt;p>FSF는 GPLv3를 만들고 공개하는 과정에서 GPLv2와는 달리 GPLv3에서는 &amp;lsquo;Tivoization&amp;rsquo;을 막을 수 있는 내용을 추가하고 있음을 분명히 하였다.&lt;/p>
+&lt;blockquote>
+&lt;p>      &lt;i>“There are several primary areas &lt;b>where version 3 is different from version 2. One is in regard to [T]ivoisation.&lt;/b>&amp;quot;&lt;sup id="fnref:27">&lt;a href="#fn:27" class="footnote-ref" role="doc-noteref">27&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>      “The Tivo includes some GPL-covered software. …[Y]ou can get the source code for that, as required by the GPL … and once you get the source code, you can modify it, and there are ways to install the modified software in your Tivo and if you do that, it won&amp;rsquo;t run, period. Because, it does a check sum of the software and it verifies that it&amp;rsquo;s a version from them and if it&amp;rsquo;s your version, it won&amp;rsquo;t run at all. &lt;b>So this is what we are forbidding, with the text we have written for GPL version three&lt;/b>. It says that the &lt;b>source code they must give you includes whatever signature keys, or codes that are necessary to make your modified version run.&lt;/b>”&lt;/i>&lt;sup id="fnref:28">&lt;a href="#fn:28" class="footnote-ref" role="doc-noteref">28&lt;/a>&lt;/sup>&lt;/p>
+&lt;/blockquote>
+&lt;p>FSF는 (GPLv3이 처음 제안되었을 때부터 이 글이 발표되는 날까지 계속해서) 실제로 GPLv3에는 GPLv2에 포함된 어떤 요구 사항보다 광범위한 &amp;lsquo;설치 정보&amp;rsquo; 요구 사항에 대한 정의가 있음을 분명히 하였다.&lt;/p>
+&lt;blockquote>
+&lt;p>      &lt;i>“&lt;b>GPLv2 did not address the use of technical measures to take back the rights that &amp;hellip; GPL[v2] granted&lt;/b>, because such measures did not exist in 1991 [when GPLv2 was written], and would have been irrelevant to the forms in which software was then delivered to users. … &lt;b>GPLv3 must address these issues: free software is ever more widely embedded in devices that impose technical limitations on the user&amp;rsquo;s freedom to change it.&lt;/b>”&lt;/i>&lt;sup id="fnref:29">&lt;a href="#fn:29" class="footnote-ref" role="doc-noteref">29&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>      &lt;i>“Does GPLv2 have a requirement about delivering installation information?&amp;hellip;&lt;/i>&lt;/p>
+&lt;p>      &lt;i>“GPLv3 explicitly requires redistribution to include the full necessary ‘Installation Information.’ GPLv2 doesn&amp;rsquo;t use that term, but it does require redistribution to include scripts used to control compilation and installation of the executable with the complete and corresponding source code. &lt;b>This covers part, but not all, of what GPLv3 calls ‘Installation Information.’ Thus, GPLv3&amp;rsquo;s requirement about installation information is stronger.&lt;/b>”&lt;/i>&lt;sup id="fnref:30">&lt;a href="#fn:30" class="footnote-ref" role="doc-noteref">30&lt;/a>&lt;/sup>&lt;/p>
+&lt;/blockquote>
+&lt;p>Richard Stallman은 소프트웨어 개발자에게 GPLv2의 기존 문제를 해결하기 위해 라이선싱 정책을 GPLv3으로 &amp;ldquo;upgrade&amp;quot;할 것을 호소하였고, 개발자가 GPLv3으로 전환해야 하는 첫 번째 이유로 설치 정보 요구 사항이 새롭게 도입되었음을 언급하였다.&lt;/p>
+&lt;blockquote>
+&lt;p>      &lt;i>““Keeping a program under GPLv2 won&amp;rsquo;t create problems. &lt;b>The reason to migrate is because of the existing problems which GPLv3 will address.&lt;/b>&lt;/i>&lt;/p>
+&lt;p>      &lt;i>“One major danger that GPLv3 will block is tivoization. Tivoization means computers (called “appliances”) contain GPL-covered software that you can&amp;rsquo;t change, because the appliance shuts down if it detects modified software. The usual motive for tivoization is that the software has features the manufacturer thinks lots of people won&amp;rsquo;t like. The manufacturers of these computers take advantage of the freedom that free software provides, but they don&amp;rsquo;t let you do likewise.&lt;/i>&lt;sup id="fnref:31">&lt;a href="#fn:31" class="footnote-ref" role="doc-noteref">31&lt;/a>&lt;/sup>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="5-gplv2의-소스-코드-공개-의무">5. GPLv2의 소스 코드 공개 의무&lt;/h2>
+&lt;p>1991년 공개된 GPLv2와 같은 Copyleft 라이선스의 가장 주목할만한 특징 중 하나는 GPLv2의 조건에 따라 라이선스가 부여된 코드를 배포&lt;sub>distribute[s]&lt;/sub>&lt;sup id="fnref:32">&lt;a href="#fn:32" class="footnote-ref" role="doc-noteref">32&lt;/a>&lt;/sup>하는 모든 개인이나 단체는 &amp;lsquo;소스 코드&amp;rsquo;&lt;sup id="fnref:33">&lt;a href="#fn:33" class="footnote-ref" role="doc-noteref">33&lt;/a>&lt;/sup>를 제공해야 하는 의무가 있다는 것이다. GPLv2의 Section 3은 GPLv2하의 코드가 object 혹은 executable code form으로 배포되는 경우 반드시 제공해야 하는 &amp;lsquo;소스 코드&amp;rsquo;의 구성 요소를 구체적으로 정의한다&lt;sup id="fnref:34">&lt;a href="#fn:34" class="footnote-ref" role="doc-noteref">34&lt;/a>&lt;/sup>.&lt;/p>
+&lt;pre>&lt;code>“The source code for a work means the preferred form of the work for making modifications to it.
+For an executable work, complete source code means all the source code for all modules it
+contains, plus any associated interface definition files, plus the scripts used to control
+compilation and installation of the executable.”
+&lt;/code>&lt;/pre>&lt;p>소스 코드를 제공해야 하는 의무에 대한 설명은 주로 컴퓨터 프로그래밍에서의 &amp;lsquo;소스 코드&amp;rsquo;가 무엇인지에 대한 일반적인 상식과 연결해서 이해할 수 있다.&lt;/p>
+&lt;blockquote>
+&lt;p>      &lt;i>“Source Code: … The form in which a computer program (software) is written by the programmer. Source code is written in some formal programming language which can be compiled automatically into object code or machine code or executed by an interpreter.”&lt;/i>&lt;sup id="fnref:35">&lt;a href="#fn:35" class="footnote-ref" role="doc-noteref">35&lt;/a>&lt;/sup>&lt;/p>
+&lt;/blockquote>
+&lt;p>GPLv2에는 또한 라이선스의 &amp;lsquo;소스 코드&amp;rsquo; 정의에 해당하는 다른 두 항목도 포함하고 있다.&lt;/p>
+&lt;ul>
+&lt;li>‘associated interface definition files’&lt;/li>
+&lt;li>‘scripts used to control compilation and installation of the executable&amp;rsquo;&lt;/li>
+&lt;/ul>
+&lt;p>GPLv2의 공개 의무가 GPLv3의 공개 의무와 어떻게 다른지 이해하기 위해서는 이러한 조항의 의미를 검토하는 것이 필요하다.&lt;/p>
+&lt;h2 id="6-텍스트-분석-gplv3의-설치-정보-의무와-gplv2-의-소스-코드-의무">6. 텍스트 분석: GPLv3의 &amp;lsquo;설치 정보&amp;rsquo; 의무와 GPLv2 의 소스 코드 의무&lt;/h2>
+&lt;p>위에서 논의한 바와 같이, executable code 배포에 대한 GPLv3의 공개 의무에는 &amp;lsquo;Corresponding Source&amp;rsquo;&lt;sup id="fnref:36">&lt;a href="#fn:36" class="footnote-ref" role="doc-noteref">36&lt;/a>&lt;/sup>와 &amp;lsquo;설치 정보&amp;rsquo;&lt;sup id="fnref:37">&lt;a href="#fn:37" class="footnote-ref" role="doc-noteref">37&lt;/a>&lt;/sup>가 모두 포함된다.&lt;/p>
+&lt;pre>&lt;code>“[A]ll the source code needed to generate, install, and (for an executable work) run the object
+code and to modify the work, including scripts to control those activities.”
+&lt;/code>&lt;/pre>&lt;pre>&lt;code>“[A]ny methods, procedures, authorization keys, or other information required to install and
+execute modified versions of a covered work ... from a modified version of its Corresponding
+Source.”
+&lt;/code>&lt;/pre>&lt;p>GPLv3의 원래 초안에서는 &amp;ldquo;Corresponding Source&amp;quot;의 정의 내에 인증키를 제공해야 하는 의무가 포함되어 있었다&lt;sup id="fnref:38">&lt;a href="#fn:38" class="footnote-ref" role="doc-noteref">38&lt;/a>&lt;/sup>. 그러나 인증키와 같은 데이터를 소스 코드와 혼용하여 정의하는 것에 대한 반대 의견이 있었고, 이에 따라 FSF는 인증키 요구 사항을 다른 section으로 옮겼다.&lt;/p>
+&lt;blockquote>
+&lt;p>      &lt;i>“We have moved the technical restrictions provisions from section 1, where they formed part of the definition of Corresponding Source, to section 6, &lt;b>where they are presented as a condition on the right to convey object code works&lt;/b>. Some critics of the provisions in our earlier drafts focused on what they regarded as &lt;b>an inappropriate equation of cryptographic keys with source code&lt;/b>. Placing the requirements in section 6 should make their purpose and reasonableness more evident.”&lt;/i>&lt;sup id="fnref:39">&lt;a href="#fn:39" class="footnote-ref" role="doc-noteref">39&lt;/a>&lt;/sup>&lt;/p>
+&lt;/blockquote>
+&lt;p>따라서, GPLv3의 초안 변경 단계에서 FSF는 &amp;lsquo;설치 정보&amp;rsquo; 요구 사항이 GPLv2에 존재하다가 GPLv3에도 포함된 &amp;lsquo;Corresponding Source Code&amp;rsquo; 의무를 넘어서는 별도의 의무임을 인식하고 인정한 것이다.&lt;/p>
+&lt;p>GPLv2의 소스 코드 공개 의무는 다음과 같다&lt;sup id="fnref:40">&lt;a href="#fn:40" class="footnote-ref" role="doc-noteref">40&lt;/a>&lt;/sup>.&lt;/p>
+&lt;pre>&lt;code>“For an executable work, complete source code means all the source code for all modules it
+contains, plus any associated interface definition files, plus the scripts used to control
+compilation and installation of the executable.”
+&lt;/code>&lt;/pre>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 610px">
+&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/2021/20210728-gplv2installationinformation/sourcecode_hud661b00a8c430186e9180a8af92b3a08_237586_600x0_resize_q75_catmullrom.jpeg" width="600" height="422">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;p>GPLv2의 &amp;lsquo;corresponding source code&amp;rsquo; 요구 사항 내에서 GPLv3의 &amp;lsquo;설치 정보&amp;rsquo; 요구 사항과 유사한 부분이 있다면, 이는 별도로 명시된 아래의 두 가지 항목에 대한 것이다.&lt;/p>
+&lt;ul>
+&lt;li>‘any associated interface definition files’&lt;/li>
+&lt;li>‘scripts used to control compilation and installation of the executables.’&lt;/li>
+&lt;/ul>
+&lt;p>&amp;lsquo;interface definition file&amp;rsquo;은 컴퓨터 프로그래밍에서 흔하게 사용되는 용어이다(GPLv2에서는 이 용어에 대한 더 자세한 정의가 없다). 특정 소프트웨어의 프로그래밍 인터페이스에 대한 attribute와 definition을 포함하는 별도의 파일로 해석할 수 있다&lt;sup id="fnref:41">&lt;a href="#fn:41" class="footnote-ref" role="doc-noteref">41&lt;/a>&lt;/sup>. GPLv2의 이러한 요구 사항이 수정된 바이너리의 설치 또는 실행을 허용하는데 필요한 인증키나 체크섬 또는 기타 정보를 제공해야 하는 의무를 부과하는 것으로 보이지는 않는다. 대신, 배포한 바이너리에 대한 인터페이스를 이해하는데 필요한 정보를 공개할 것을 요구하는 것이다(이는 공개된 소스 코드만으로는 알아내기 어렵기 때문).&lt;/p>
+&lt;p>반면에, 두 번째 항목인 executable을 컴파일하고 설치하는데 사용되는 script는 분명 GPLv2 대상 executable의 설치와 관련된 자료이다. 다만, 이 요구 사항은 컴퓨팅에서 일반적으로 의미하는 &amp;lsquo;script&amp;rsquo; 자체에 대한 것이다.&lt;/p>
+&lt;blockquote>
+&lt;p>      &lt;i>“A computer script is a list of commands that are executed by a certain program or scripting engine. Scripts may be used to automate processes on a local computer …. Script files are usually just text documents that contain instructions written in a certain scripting language. … [W]hen opened by the appropriate scripting engine, the commands within the script are executed.”&lt;/i>&lt;sup id="fnref:42">&lt;a href="#fn:42" class="footnote-ref" role="doc-noteref">42&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>      &lt;i>“Script[:] … a sequence of instructions or commands for a computer to execute … especially … one that automates a small task (such as assembling or sorting a set of data).”&lt;/i>&lt;sup id="fnref:43">&lt;a href="#fn:43" class="footnote-ref" role="doc-noteref">43&lt;/a>&lt;/sup>&lt;/p>
+&lt;/blockquote>
+&lt;p>Installation script&lt;sup id="fnref:44">&lt;a href="#fn:44" class="footnote-ref" role="doc-noteref">44&lt;/a>&lt;/sup>는 일반적으로 특정 장치에 특정 프로그램을 설치하는 프로세스를 자동화하는데 사용하는 작고 간단한 프로그램이다&lt;sup id="fnref:45">&lt;a href="#fn:45" class="footnote-ref" role="doc-noteref">45&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>따라서, 텍스트 해석의 관점에서, GPLv2의 ‘scripts used to control … installation of the executable’ 제공 의무가 GPLv2 executable code를 설치하는데 필요한 체크섬, 해시, 승인/서명키, 또는 기타 숫자 데이터를 포함하여 제공하는 것으로 해석될 수 없다는 것은 의심의 여지가 없어 보인다. 이러한 데이터는 &amp;lsquo;script&amp;rsquo;에 대한 일반적인 범위에 속하지 않는다.&lt;/p>
+&lt;p>차라리 이보다 흥미로운 해석상의 문제라고 한다면, 어떤 형태로든 executable의 유효성 검증을 위한 설치 프로그램을 실행하는 펌웨어가 하드웨어 디바이스 자체에 포함된 경우이다(예를 들어, executable에 수정을 가했을 경우, 유효하지 않은 것으로 판단하여 설치를 제한시키는 기능). 하지만 이런 경우라고 하더라도 GPLv3의 초안 작성 및 공개 과정 동안 FSF와 Linux Kernel 개발자 모두가 오랜 기간 동안 일관되게 GPLv2하에서는 (TiVo와 같이 PROM-loaded information을 사용한 경우 등) 어떠한 설치 유효성 검사도 허용된다는 입장을 고수했음을 고려하면, 펌웨어에서 즉시 검사하는 기능이 있더라도 이것이 GPLv2의 &amp;lsquo;scripts used to … installation of the executable&amp;rsquo; 요건에 의해 설치 정보를 제공해야 한다고 주장하기는 어려울 것이다.&lt;/p>
+&lt;h2 id="7-설치-정보-요구-사항을-gplv2로-backporting">7. 설치 정보 요구 사항을 GPLv2로 Backporting&lt;/h2>
+&lt;p>어떤이는 GPLv3의 전체 &amp;lsquo;설치 정보&amp;rsquo; 정의 부분을 GPLv2의 소스 코드 의무 부분 내에 backporting하려고 하기도 하는데, 이런 노력은 역사적, 텍스트 해석적으로 잘못된 결과를 초래한다. 완전한 전체 &amp;lsquo;설치 정보&amp;rsquo; 정의를 GPLv2의 Section 3에 포함했다고 가정해보자. 그런데 그렇게 하는 순간 딜레마에 빠지게 된다. GPLv3의 &amp;lsquo;설치 정보&amp;rsquo; 요구 사항은 의무가 적용되는 대상이 특정 제품으로 한정되어 있다. 바로 &amp;lsquo;User Product&amp;rsquo;&lt;sup id="fnref:46">&lt;a href="#fn:46" class="footnote-ref" role="doc-noteref">46&lt;/a>&lt;/sup>이다. GPLv3에서의 &amp;lsquo;설치 정보&amp;rsquo; 제공 요구 사항은 오직 &amp;lsquo;User Product&amp;rsquo;에만 적용되며 다른 제품에는 적용되지 않는다&lt;sup id="fnref:47">&lt;a href="#fn:47" class="footnote-ref" role="doc-noteref">47&lt;/a>&lt;/sup>.&lt;/p>
+&lt;pre>&lt;code>“If you convey an object code work under this section in, or with, or specifically for use in,
+a User Product ... the Corresponding Source conveyed under this section must be accompanied by the
+Installation Information.”
+&lt;/code>&lt;/pre>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 610px">
+&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/2021/20210728-gplv2installationinformation/userproduct_hu8060ef0c1af02219b726a431e92773ee_374463_600x0_resize_q75_catmullrom.jpeg" width="600" height="591">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;p>반면에 GPLv2에는 소스 코드 의무가 적용되는 제품 유형에 대한 정의나 제한이 없다. &amp;lsquo;User Product&amp;rsquo;이든지 아니든지 모두 GPLv2의 의무에 따라 소스 코드를 제공해야 한다. 따라서, GPLv3의 완전한 &amp;lsquo;설치 정보&amp;rsquo; 의무 정의가 GPLv2의 기존 공개 의무를 되풀이하거나 명확히 하는 것에 불과했다면 GPLv3은 이러한 공개 의무가 존재할 수 있는 상황을 줄여버리게 된 것이다. 그렇다면 결과적으로 GPLv3은 GPLv2에 비해 더 적은 범위의 일부 소프트웨어만 적용되는 것이 때문에 &amp;lsquo;software freedom&amp;rsquo; 측면에서 범위가 축소된 것이 된다. 이러한 해석은 최초 GPLv3을 만들고자 했던 목표와 정반대가 되는 것이다.&lt;/p>
+&lt;blockquote>
+&lt;p>      &lt;i> “As a free software license &amp;hellip; this license [GPLv3] intrinsically disfavours technical attempts to restrict users freedom to copy, modify, and share copyrighted works. Each of [the licenses] provisions shall be interpreted in light of this specific declaration of the licensor&amp;rsquo;s intent. We wish courts all over the world to understand that our intent [in creating GPLv3] &lt;b>is to maximise freedom&lt;/b>, not to restrict it, and that everything should be so understood when effect is given to its terms”&lt;/i>&lt;sup id="fnref:48">&lt;a href="#fn:48" class="footnote-ref" role="doc-noteref">48&lt;/a>&lt;/sup>&lt;/p>
+&lt;/blockquote>
+&lt;p>다시 말하지만, GPLv3는 &amp;lsquo;설치 정보&amp;rsquo; 의무 자체가 GPLv2의 공개 의무를 넘어 &amp;lsquo;freedom&amp;rsquo;을 확장하는 경우여야 원래의 취지대로 freedom을 극대화할 수 있다. 그렇지 않다면, GPLv2 의무가 오히려 특정 제품 유형에 국한되지 않기 때문에, User Product에 대해서만 의무를 부과하는 GPLv3는 &amp;lsquo;freedom&amp;rsquo; 범위를 축소한 것이 된다는 해석의 딜레마에 빠지게 된다.&lt;/p>
+&lt;h2 id="8-gplv2의-텍스트-및-역사적-수정주의subrevisionismsub">8. GPLv2의 텍스트 및 역사적 수정주의&lt;sub>Revisionism&lt;/sub>&lt;/h2>
+&lt;p>위에서 상세히 설명한 바와 같이, 텍스트 분석과 과거 기록을 검토한 결과, GPLv3의 &amp;lsquo;설치 정보&amp;rsquo; 의무는 GPLv2의 소스 코드 의무에는 존재하지 않는 것이며, 어떤 방식으로도 이를 GPLv2에 backport할 수 없음은 명확하다. 이러한 사실에도 불구하고, 최근 과거 기록을 변경하고, GPLv2의 요구 사항을 재해석하여, GPLv2의 소스 코드 의무를 GPLv3의 &amp;lsquo;설치 정보&amp;rsquo; 요구 사항과 동일시하려는 노력이 있다.&lt;/p>
+&lt;blockquote>
+&lt;p>      &lt;i> “GPLv2 §3 requires that the source code include ‘meta-material’ like scripts, interface definitions, &lt;b>and other material that is used to ‘control compilation and installation’&lt;/b> of the binaries.”&lt;/i>&lt;sup id="fnref:49">&lt;a href="#fn:49" class="footnote-ref" role="doc-noteref">49&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>      &lt;i> “GPLv2 included a clear obligation to provide ‘the scripts used to control … installation’ that function for the GPLv2&amp;rsquo;d works. GPLv2 assures, to the purchaser of an embedded product, their absolute right to receive the &lt;b>information necessary to install a modified version of the GPLv2&amp;rsquo;d works.&lt;/b> … The GPLv2 was designed to assure bug-fixing. Furthermore, the drafters knew that, on embedded systems and devices, you need to know how to install those fixes. Scripts can be technical [artefacts] like shell scripts, &lt;b>but can also be merely a recipe and/or guidance — written instructions that explain how to succeed at install.&lt;/b>”&lt;/i>&lt;sup id="fnref:50">&lt;a href="#fn:50" class="footnote-ref" role="doc-noteref">50&lt;/a>&lt;/sup>&lt;/p>
+&lt;/blockquote>
+&lt;p>이러한 진술에서와 같이 GPLv3의 (executable을 설치하고 실행하기 위한 정보, recipe, 가이드, 설명 등) &amp;lsquo;설치 정보&amp;rsquo; 요구 사항 개념을 GPLv2에 포함해서 GPLv2에서도 설치를 위한 &amp;lsquo;script&amp;rsquo;를 제공하게 하려는 노력이 현재 진행 중이다. 이러한 노력은 모두 GPLv2의 실제 요구 사항에 반대되는 텍스트&lt;sub>conter-textual&lt;/sub>일 뿐만 아니라 반역사적이다. 다시 말하지만 GPLv2 의 작성자는 GPLv2로는 Tivo에게 수정한 executable을 Tivo 디바이스에 다시 설치하기 위한 필요 정보의 제공을 의무화할 수 없음을 인정하였다&lt;sup id="fnref:51">&lt;a href="#fn:51" class="footnote-ref" role="doc-noteref">51&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="9-conclusion">9. Conclusion&lt;/h2>
+&lt;ul>
+&lt;li>GPLv3의 텍스트와 역사적 기록은 GPLv2에는 없는 새로운 요구 사항인 &amp;lsquo;설치 정보&amp;rsquo; 제공을 추가하기 위해 GPLv3이 특별히 설계되었음을 분명히 한다.&lt;/li>
+&lt;li>이러한 역사적 기록은 또한 GPLv2에서는 (GPLv2 코드의 수정 버전 설치를 막을 수 있는 인증키 또는 기타 하드웨어 내장 정보와 같은) 설치 정보를 제공하지 않고 배포하는 것이 완벽하게 허용되었고, 단지 좁은 범위의 정보 (설치 script)만 요구한다는 것을 분명히 하였다.&lt;/li>
+&lt;li>GPLv3의 &amp;lsquo;설치 정보&amp;rsquo; 요구 사항을 GPLv2로 backporting하려는 노력은 모두 반역사적이며, GPLv3이 GPLv2보다 &amp;lsquo;freedom&amp;rsquo;을 제한하게 하는 반 직관적인 결과를 초래한다. 이는 처음부터 결코 GPLv3을 만든 목적이 아니다.&lt;/li>
+&lt;li>이러한 반 직관적인 결과를 주장하는 자들은 software freedom을 사랑하는 개발자들에게 GPLv3보다 GPLv2를 선호하도록 조언했을 것이며, 이는 GPLv3을 만들고 출시하려는 모든 목적에 반대되는 결과이다.&lt;/li>
+&lt;/ul>
+&lt;p>GPLv2에 대한 반역사적이고 텍스트로 뒷받침되지 않는 해석이 어디까지나 단순한 이론적 논쟁인지, 아니면 컴플라이언스 소송의 결과로 재판소에서 최종적으로 판단을 받을 것인지는 두고 봐야 할 일이다. (위에서 자세히 설명한) GPLv3 초안을 만들면서 작성된 많은 진술과 GPLv2의 실제 표현들이 GPLv2의 소스 코드 의무의 범위에 대한 모든 결정에 근거가 될 것이다.&lt;/p>
+&lt;h3 id="about-the-author">About the author&lt;/h3>
+&lt;p>&lt;i>&lt;b>P. McCoy Smith&lt;/b> is Founding Attorney at Lex Pan Law (&lt;a href="http://www.lexpan.law/">www.lexpan.law&lt;/a>), a full-service intellectual property law firm in Portland, Oregon, U.S.A., that has a sub-speciality in free and open source licensing, as well as Founder at Opsequio (&lt;a href="http://www.opsequ.io/">www.opsequ.io&lt;/a>), an software licence compliance consultancy. As a member of &lt;a href="http://gplv3.fsf.org/discussion-committees/B/memberlist">GPLv3 Discussion Committee B&lt;/a>, he was an active participant in the debate over, and revision of, the ‘Installation Information’ requirement in that licence.&lt;/i>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>&lt;b>Licence and Attribution&lt;/b>&lt;/p>
+&lt;p>This paper was published in the Journal of Open Law, Technology, &amp;amp; Society, Volume 12, Issue 1 (April 2021). It originally appeared online at &lt;a href="https://www.jolts.world">https://www.jolts.world&lt;/a>&lt;/p>
+&lt;p>This article should be cited as follows:&lt;/p>
+&lt;p>Smith, P. McCoy (2021) &amp;lsquo;Does GPLv2 Include an “Installation Information” Obligation? A Textual &amp;amp; Historical Analysis&amp;rsquo;, Journal of Open Law, Technology &amp;amp; Society, 12(1), pp 21 – 31&lt;/p>
+&lt;p>DOI: &lt;a href="https://doi.org/10.5033/jolts.v12i1.149">10.5033/jolts.v12i1.149ㅊㅊ&lt;/a>&lt;/p>
+&lt;p>Copyright © 2021 P. McCoy Smith.&lt;/p>
+&lt;p>This article is licensed under a Creative Commons Attribution 4.0 CC-BY available at&lt;/p>
+&lt;p>&lt;a href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/&lt;/a>&lt;/p>
+&lt;p>&lt;img src="./cc-by.png" alt="ccby">&lt;/p>
+&lt;/div>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>GNU Operating System, ‘GNU Library General Public License, version 2.0,’ (June, 1991) &lt;a href="https://www.gnu.org/licenses/old-licenses/lgpl-2.0.html">https://www.gnu.org/licenses/old-licenses/lgpl-2.0.html&lt;/a> (accessed March 8, 2021).&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Although GPLv3 was designed to eventually supplant GPLv2, in the 14 years since GPLv3 was published, the use of GPLv3, by some measures, is roughly equal in measure to the use of GPLv2; GPLv3’s relative use is also declining while GPLv2 remains steady state. Johnson, Patricia, ‘Open Source Licenses in 2021: Trends and Predictions,’ WhiteSource (January 28, 2021) &lt;a href="https://resources.whitesourcesoftware.com/blog-whitesource/open-source-licenses-trends-and-predictions">https://resources.whitesourcesoftware.com/blog-whitesource/open-source-licenses-trends-and-predictions&lt;/a> (accessed March 30, 2021).&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3" role="doc-endnote">
+&lt;p>See GNU Operating System, ‘What is free software? The Free Software Definition,’ &lt;a href="https://www.gnu.org/philosophy/free-sw.en.html">https://www.gnu.org/philosophy/free-sw.en.html&lt;/a> (accessed March 8, 2021).&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4" role="doc-endnote">
+&lt;p>Free Software Foundation, ‘Rationale for 1st discussion draft,’ &lt;a href="http://gplv3.fsf.org/gpl-rationale-2006-01-16.html">http://gplv3.fsf.org/gpl-rationale-2006-01-16.html&lt;/a> (accessed March 22, 2021).&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5" role="doc-endnote">
+&lt;p>One example of a change in the law that the authors of GPLv3 felt needed to be addressed in that license was the adoption in 1996 of the WIPO Copyright Treaty (WCT), and the passage in 1998 of its counterpart in the United States, the Digital Millennium Copyright Action (DMCA), particularly the provisions against circumvention of &amp;lsquo;technological protection measures&amp;rsquo;, See WCT Article 11; 17 U.S.C. § 1201 (1998). GPLv3, § 3 directly addresses these additions to copyright law.&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:6" role="doc-endnote">
+&lt;p>The technology in TiVo&amp;rsquo;s devices, preventing reinstallation of modified binaries on devices running GPLv2 software, was one example of technology developed long after the GPLv2 licence was drafted that was of concern to the drafters of GPLv3. Subsequent to the release of GPLv3, millions, if not billions, of devices continue to be distributed with a GPLv2-licensed Linux kernel that prevent the reinstallation of modified binaries. GPLv3 also addressed the outmoded language around distribution of source code in GPLv2, and GPLv3 ‒ in Section 6 ‒ added several additional mechanisms for fulfilling source code obligations more consistent with current mechanisms for software distribution. See GPLv3, § 6(d)-(e).&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:7" role="doc-endnote">
+&lt;p>Irish Free Software Organization, ‘Transcript of Opening session of first international GPLv3 conference,’ (January 16th 2006) &lt;a href="http://www.ifso.ie/documents/gplv3-launch-2006-01-16.html">http://www.ifso.ie/documents/gplv3-launch-2006-01-16.html&lt;/a> (accessed March 22, 2021).&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:8" role="doc-endnote">
+&lt;p>GNU Operating System, ‘GNU General Public License, version 3,’ (‘GPLv3’) (June 29, 2007) &lt;a href="https://www.gnu.org/licenses/gpl-3.0.html">https://www.gnu.org/licenses/gpl-3.0.html&lt;/a> (accessed March 22, 2021).&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:9" role="doc-endnote">
+&lt;p>Burnette, Ed, ‘Tivo and GPL: Beauty and the Beast?,’ ZDNet, (October 2, 2006) &lt;a href="https://www.zdnet.com/article/tivo-and-gpl-beauty-and-the-beast/">https://www.zdnet.com/article/tivo-and-gpl-beauty-and-the-beast/&lt;/a> (accessed March 29, 2021).&amp;#160;&lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:10" role="doc-endnote">
+&lt;p>‘Convey’ is the activity defined in GPLv3 as triggering source code disclosure obligations. GPLv3, n. 6, §§ 4-6.&amp;#160;&lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:11" role="doc-endnote">
+&lt;p>GPLv3, n. 6 above, § 6.&amp;#160;&lt;a href="#fnref:11" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:12" role="doc-endnote">
+&lt;p>See ‘Transcript of Opening Session of First International GPLv3 Conference,’ (January 16th 2006) &lt;a href="http://www.ifso.ie/documents/gplv3-launch-2006-01-16.html">http://www.ifso.ie/documents/gplv3-launch-2006-01-16.html&lt;/a> (accessed May 5, 2021) at 0h 03m 59s&amp;#160;&lt;a href="#fnref:12" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:13" role="doc-endnote">
+&lt;p>Perhaps the most notable feature of the ‘Installation Information’ requirement, and an important feature in understanding how that requirement differs from the source code obligations in GPLv2, is that the ‘Installation Information’ requirement of GPLv3 applies only to a specified subset of products – ‘User Products’ upon which GPLv3 might be installed. See GPLv3, n. 6 above, at § 6.&amp;#160;&lt;a href="#fnref:13" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:14" role="doc-endnote">
+&lt;p>The Computer Language Company, ‘Tivoization,’ The Free Dictionary by Farlex &lt;a href="https://encyclopedia2.thefreedictionary.com/Tivoization">https://encyclopedia2.thefreedictionary.com/Tivoization&lt;/a> (accessed April 2, 2021).&amp;#160;&lt;a href="#fnref:14" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:15" role="doc-endnote">
+&lt;p>Checksums and cryptographic hashes are techniques used to determine whether a received binary file is identical to, or deviates from, an expected binary file. Various techniques are used to generate a numerical value associated with the digits in the expected file to generate a value; that value is then compared at the receiving end to a stored representation of the same value. In this way, any changes to the binary file, even so much as changing one bit from ‘0’ to ‘1’ or vice versa, will produce a different value which will not match the stored value, thus indicating at the received binary file is not identical to the expected binary file. See Fisher, T., ‘What Is a Checksum?’ Lifewire (June 14, 2021) &lt;a href="https://www.lifewire.com/what-does-checksum-mean-2625825">https://www.lifewire.com/what-does-checksum-mean-2625825&lt;/a> (accessed June 14, 2021).&amp;#160;&lt;a href="#fnref:15" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:16" role="doc-endnote">
+&lt;p>Miller, Todd, ‘Using large disks with TiVo,’ Sudo Project (2008) &lt;a href="https://web.archive.org/web/20120206023943/http://www.gratisoft.us/tivo/bigdisk.html">https://web.archive.org/web/20120206023943/http://www.gratisoft.us/tivo/bigdisk.html&lt;/a> (accessed April 2, 2021) (‘it is not possible to replace the kernel on a Series2 TiVo since the PROM requires that the kernel be cryptographically signed with a key from TiVo’). Note that although most of the commentary about the Series 2 TiVo devices of the mid-2000s indicate that they would not allow modified GPLv2 binaries to install or execute, at least one commentator has stated that that device allowed such binaries to be installed and run, but only prevented execution of non-GPLv2 proprietary code on that device. See Kuhn, Bradley &amp;amp; Webster, Behan, ‘Safely Copylefted Cars: Reexamining GPLv3 Installation Information Requirements,’ Linux Foundation Events (2017) at 13 &lt;a href="https://events19.linuxfoundation.org/wp-content/uploads/2017/11/Safely-Copylefted-Cars-Reexamining-GPLv3-Installation-Information-Requirements-ALS-Bradley-Kuhn-Behan-Webster-1.pdf">https://events19.linuxfoundation.org/wp-content/uploads/2017/11/Safely-Copylefted-Cars-Reexamining-GPLv3-Installation-Information-Requirements-ALS-Bradley-Kuhn-Behan-Webster-1.pdf&lt;/a> (accessed April 9, 2021)&amp;#160;&lt;a href="#fnref:16" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:17" role="doc-endnote">
+&lt;p>GNU Operating System, ‘Proprietary Tyrants,’ &lt;a href="https://www.gnu.org/proprietary/proprietary-tyrants.html">https://www.gnu.org/proprietary/proprietary-tyrants.html&lt;/a> (accessed April 2, 2021).&amp;#160;&lt;a href="#fnref:17" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:18" role="doc-endnote">
+&lt;p>Stallman, Richard, ‘Transcript of Richard Stallman at the 5th international GPLv3 conference,’ (November 21, 2006) &lt;a href="https://fsfe.org/activities/gplv3/tokyo-rms-transcript#tivoisation">https://fsfe.org/activities/gplv3/tokyo-rms-transcript#tivoisation&lt;/a> (accessed April 2, 2021).&amp;#160;&lt;a href="#fnref:18" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:19" role="doc-endnote">
+&lt;p>Shankland, Stephen, ‘Defender of the GPL,’ CNet (January 19, 2006) &lt;a href="https://www.cnet.com/news/defender-of-the-gpl/">https://www.cnet.com/news/defender-of-the-gpl/&lt;/a> (accessed April 2, 2021).&amp;#160;&lt;a href="#fnref:19" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:20" role="doc-endnote">
+&lt;p>Byfield, Bruce, ‘GPLv2 or GPLv3?: Inside the Debate,’ Datamation (June 17, 2007) &lt;a href="https://www.datamation.com/trends/gplv2-or-gplv3-inside-the-debate/">https://www.datamation.com/trends/gplv2-or-gplv3-inside-the-debate/&lt;/a> (accessed April 9, 2021).&amp;#160;&lt;a href="#fnref:20" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:21" role="doc-endnote">
+&lt;p>Bennett, Amy, ‘Linux creator Torvalds still no fan of GPLv3,’ Computerworld (July 28, 2006) &lt;a href="https://www.computerworld.com/article/2820022/linux-creator-torvalds-still-no-fan-of-gplv3.html">https://www.computerworld.com/article/2820022/linux-creator-torvalds-still-no-fan-of-gplv3.html&lt;/a> (accessed April 7, 2021).&amp;#160;&lt;a href="#fnref:21" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:22" role="doc-endnote">
+&lt;p>Shankland, Stephen, ‘Torvalds rules out GPL3 for Linux,’ ZDNet UK (January 27, 2006) &lt;a href="https://web.archive.org/web/20080424051024/http:/news.zdnet.co.uk/software/0,1000000121,39249370,00.htm">https://web.archive.org/web/20080424051024/http:/news.zdnet.co.uk/software/0,1000000121,39249370,00.htm&lt;/a> (accessed April 7, 2021).&amp;#160;&lt;a href="#fnref:22" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:23" role="doc-endnote">
+&lt;p>Barr, Joe, ‘Torvalds versus GPLv3 DRM restrictions,’ Linux.com (February 2, 2006) &lt;a href="https://www.linux.com/news/torvalds-versus-gplv3-drm-restrictions/">https://www.linux.com/news/torvalds-versus-gplv3-drm-restrictions/&lt;/a> (accessed April 8, 2021).&amp;#160;&lt;a href="#fnref:23" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:24" role="doc-endnote">
+&lt;p>Bottomley, James, et al., ‘Kernel developers&amp;rsquo; position on GPLv3,’ LWN.net (September 22, 2006) &lt;a href="https://lwn.net/Articles/200422/">https://lwn.net/Articles/200422/&lt;/a> (accessed April 8, 2021). See also Bottomley, James, et al., &amp;lsquo;The Dangers and Problems with GPLv3,&amp;rsquo; (September 15, 2006) &lt;a href="https://lore.kernel.org/lkml/1158941750.3445.31.camel@mulgrave.il.steeleye.com">https://lore.kernel.org/lkml/1158941750.3445.31.camel@mulgrave.il.steeleye.com&lt;/a> (accessed May 27, 2021).&amp;#160;&lt;a href="#fnref:24" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:25" role="doc-endnote">
+&lt;p>Linux kernel licensing notice, &lt;a href="https://elixir.bootlin.com/linux/latest/source/COPYING">https://elixir.bootlin.com/linux/latest/source/COPYING&lt;/a> (accessed April 8, 2021).&amp;#160;&lt;a href="#fnref:25" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:26" role="doc-endnote">
+&lt;p>Deb Conf, ‘Linus Torvalds says GPL v3 violates everything that GPLv2 stood for,’ YOUTUBE (accessed May 5, 2021, at 0h 0m 34s) &lt;a href="https://www.youtube.com/watch?v=PaKIZ7gJlRU">https://www.youtube.com/watch?v=PaKIZ7gJlRU&lt;/a>.&amp;#160;&lt;a href="#fnref:26" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:27" role="doc-endnote">
+&lt;p>Stallman, Richard, ‘Transcript of Richard Stallman at the 3rd international GPLv3 conference,’ (June 22, 2006) &lt;a href="https://fsfe.org/activities/gplv3/barcelona-rms-transcript.en.html#tivoisation">https://fsfe.org/activities/gplv3/barcelona-rms-transcript.en.html#tivoisation&lt;/a> (accessed April 2, 2021).&amp;#160;&lt;a href="#fnref:27" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:28" role="doc-endnote">
+&lt;p>Stallman, Richard, ‘Transcript of Richard Stallman speaking on GPLv3 in Torino,’ (March 18, 2006) &lt;a href="https://fsfe.org/activities/gplv3/torino-rms-transcript.en.html#drm">https://fsfe.org/activities/gplv3/torino-rms-transcript.en.html#drm&lt;/a> (accessed April 2, 2021).&amp;#160;&lt;a href="#fnref:28" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:29" role="doc-endnote">
+&lt;p>Free Software Foundation, ‘Opinion on Digital Restrictions Management,’ (August, 2006) &lt;a href="http://gplv3.fsf.org/drm-dd2.html">http://gplv3.fsf.org/drm-dd2.html&lt;/a> (accessed March 17, 2021).&amp;#160;&lt;a href="#fnref:29" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:30" role="doc-endnote">
+&lt;p>GNU Project, ‘Frequently Asked Questions About the GNU Licenses,’ &lt;a href="https://www.gnu.org/licenses/gpl-faq.html#InstInfo">https://www.gnu.org/licenses/gpl-faq.html#InstInfo&lt;/a> (accessed April 7, 2021)&amp;#160;&lt;a href="#fnref:30" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:31" role="doc-endnote">
+&lt;p>Stallman, Richard M. ‘Why Upgrade to GPL Version 3,’ (May 31, 2007) &lt;a href="http://gplv3.fsf.org/rms-why.html">http://gplv3.fsf.org/rms-why.html&lt;/a> (accessed May 6, 2021).&amp;#160;&lt;a href="#fnref:31" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:32" role="doc-endnote">
+&lt;p>GPLv3 uses the term ‘convey,’ n. 8 above, whereas GPLv2 uses the term ‘distribute,’ to articulate acts that trigger, among other things, obligations to provide source. Although there are subtle differences between the two terms, they are intended to cover the same acts. GNU Project, ‘Frequently Asked Questions About the GNU Licenses,’ &lt;a href="https://www.gnu.org/licenses/gpl-faq.html#ConveyVsDistribute">https://www.gnu.org/licenses/gpl-faq.html#ConveyVsDistribute&lt;/a> (accessed March 29, 2021).&amp;#160;&lt;a href="#fnref:32" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:33" role="doc-endnote">
+&lt;p>Brown, Neil, ‘GNU GPL 2.0 and 3.0: obligations to include licence text, and provide source code,’ JOLTS vol. 2, no. 1 (2010) DOI: 10.5033/ifosslr.v2i1.31 (accessed March 30, 2021).&amp;#160;&lt;a href="#fnref:33" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:34" role="doc-endnote">
+&lt;p>GPLv2, n. 1 above, § 3.&amp;#160;&lt;a href="#fnref:34" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:35" role="doc-endnote">
+&lt;p>‘Source Code,’ Computer Dictionary of Information Technology &lt;a href="https://www.computer-dictionary-online.org/definitions-s/source-code.html">https://www.computer-dictionary-online.org/definitions-s/source-code.html&lt;/a> (accessed March 30, 2021).&amp;#160;&lt;a href="#fnref:35" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:36" role="doc-endnote">
+&lt;p>GPLv3, n. 6 above, § 1.&amp;#160;&lt;a href="#fnref:36" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:37" role="doc-endnote">
+&lt;p>GPLv3, n. 6 above, § 6.&amp;#160;&lt;a href="#fnref:37" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:38" role="doc-endnote">
+&lt;p>Free Software Foundation, ‘GPLv3 First Discussion Draft,’ §1 (January 16, 2006) &lt;a href="http://gplv3.fsf.org/gpl-draft-2006-01-16.html">http://gplv3.fsf.org/gpl-draft-2006-01-16.html&lt;/a> (accessed June 14, 2021).&amp;#160;&lt;a href="#fnref:38" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:39" role="doc-endnote">
+&lt;p>Free Software Foundation, ‘GPLv3 Third Discussion Draft Rationale,’ (March 28, 2007) &lt;a href="http://gplv3.fsf.org/gpl3-dd3-rationale.pdf/download">http://gplv3.fsf.org/gpl3-dd3-rationale.pdf/download&lt;/a> (accessed June 14, 2021).&amp;#160;&lt;a href="#fnref:39" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:40" role="doc-endnote">
+&lt;p>GPLv2, n. 1 above, § 3.&amp;#160;&lt;a href="#fnref:40" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:41" role="doc-endnote">
+&lt;p>E.g., Microsoft, ‘Interface Definition (IDL) File,’ Windows Developer Documentation (May 31, 2018) &lt;a href="https://docs.microsoft.com/en-us/windows/win32/midl/interface-definition-idl-file">https://docs.microsoft.com/en-us/windows/win32/midl/interface-definition-idl-file&lt;/a> (accessed April 8, 2021);
+de St. Germain, H. James, ‘Interfaces in Object Oriented Programming Languages,’ University of Utah Computing Department &lt;a href="https://www.cs.utah.edu/~germain/PPS/Topics/interfaces.html">https://www.cs.utah.edu/~germain/PPS/Topics/interfaces.html&lt;/a> (accessed April 8, 2021).&amp;#160;&lt;a href="#fnref:41" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:42" role="doc-endnote">
+&lt;p>Christensson, Per, ‘Script Definition,’&amp;rdquo; TechTerms. (2006) &lt;a href="https://techterms.com/definition/script">https://techterms.com/definition/script&lt;/a> (accessed April 8, 2021).&amp;#160;&lt;a href="#fnref:42" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:43" role="doc-endnote">
+&lt;p>‘Script,’ Merriam-Webster.com Dictionary, Merriam-Webster &lt;a href="https://www.merriam-webster.com/dictionary/script">https://www.merriam-webster.com/dictionary/script&lt;/a> (accessed April 8, 2021).&amp;#160;&lt;a href="#fnref:43" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:44" role="doc-endnote">
+&lt;p>GPLv2’s requirement to provide ‘compilation’ scripts are not analysed in this article; compilation is part the process of converting source code into executable code, and is not related to the subsequent activities of installing, or executing, that executable code.&amp;#160;&lt;a href="#fnref:44" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:45" role="doc-endnote">
+&lt;p>Arthur, Ty, ‘How to Write a Simple Script to Install a Program,’ Techwalla &lt;a href="https://www.techwalla.com/articles/how-to-write-a-simple-script-to-install-a-program">https://www.techwalla.com/articles/how-to-write-a-simple-script-to-install-a-program&lt;/a> (accessed April 8, 2021)&amp;#160;&lt;a href="#fnref:45" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:46" role="doc-endnote">
+&lt;p>‘User Products’ in GPLv3 are subject to a rigorous definition which excludes a large class of products which can, and currently do, use code licensed under one of the GPL family of licences: “A ‘User Product’ is either (1) a ‘consumer product’, which means any tangible personal property which is normally used for personal, family, or household purposes, or (2) anything designed or sold for incorporation into a dwelling. … A product is a consumer product regardless of whether the product has substantial commercial, industrial or non-consumer uses, unless such uses represent the only significant mode of use of the product.” GPLv3, n. 6 above, at Section 6.&amp;#160;&lt;a href="#fnref:46" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:47" role="doc-endnote">
+&lt;p>GPLv3, n. 6 above, at Section 6.&amp;#160;&lt;a href="#fnref:47" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:48" role="doc-endnote">
+&lt;p>Transcript of Opening Session of First International GPLv3 Conference, see n.10 above, at 0h 23m 30s.&amp;#160;&lt;a href="#fnref:48" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:49" role="doc-endnote">
+&lt;p>Kuhn, Bradley, et al., ‘Copyleft and the GNU General Public License: A Comprehensive Tutorial and Guide,’ Copyleft.org at § 5.2 (2003-2018) &lt;a href="https://copyleft.org/guide/comprehensive-gpl-guidech6.html#x9-460005.2">https://copyleft.org/guide/comprehensive-gpl-guidech6.html#x9-460005.2&lt;/a> (accessed April 9, 2021).&amp;#160;&lt;a href="#fnref:49" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:50" role="doc-endnote">
+&lt;p>Gingerich, Denver, ‘Understanding Installation Requirements in GPLv2,’ Software Freedom Conservancy (March 25, 2021) &lt;a href="https://sfconservancy.org/blog/2021/mar/25/install-gplv2/">https://sfconservancy.org/blog/2021/mar/25/install-gplv2/&lt;/a> (accessed April 9, 2021).&amp;#160;&lt;a href="#fnref:50" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:51" role="doc-endnote">
+&lt;p>See above nn. 17 and 22-23.&amp;#160;&lt;a href="#fnref:51" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Blog: Dockerfile 배포 시 컴플라이언스 책임은 누구에게?</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210504-dockerfiles/</link><pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210504-dockerfiles/</guid><description>
+&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210504-dockerfiles/featured-dockerfile-ex_hu144e77f3a0c06d5c2e11835ba0d8ec62_326508_640x0_resize_catmullrom_3.png" width="640" height="368"/>
 &lt;blockquote>
 &lt;p>안녕하세요!&lt;/p>
 &lt;p>2021년 4월, 독일의 유명한 오픈소스 변호사인 Till Jaeger는 Dockerfile이 생성하는 Docker image내 포함될 오픈소스에 대한 라이선스 컴플라이언스 책임은 누구에게 있는가에 대한 글을 &lt;a href="https://jolts.world/index.php/jolts/article/view/147">발표&lt;/a>하였습니다. Till은 독일법과 유럽 연합 사법 재판소&lt;sub>CJEU&lt;/sub>의 판례를 근거로 Dockerfile 제공자가 라이선스 의무를 준수해야 한다고 설명하였습니다.&lt;/p>
@@ -32,7 +407,7 @@
 &lt;h3 id="docker-image">Docker image&lt;/h3>
 &lt;p>사전에 구성된 컨테이너는 &amp;ldquo;Docker image&amp;quot;로 배포될 수 있으며, 기본 프로그램 외에 애플리케이션, 프로그램 코드로서의 Dependency, 필요한 경우 유틸리티 및 구성 파일도 포함할 수 있다. Docker image는 개별적으로 배포될 수 있지만 &amp;ldquo;Docker Hub&amp;quot;와 같은 공용 Repository를 통해서도 배포될 수 있다. 이는 C 라이브러리, Package Manager, Shell 및 디렉터리 트리와 같은 필수 시스템 구성 요소를 포함하고 특정 Linux 배포를 참조하는 이른바 &amp;ldquo;Base Image&amp;quot;에도 해당된다. 이 Base image 위에, 추가 기능은 개별 보관 파일로 별도로 배포될 수 있지만 서로 빌드되어 완전한 Docker image를 형성하는 이른바 &amp;ldquo;레이어&amp;quot;로 추가될 수 있다.&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 778px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/2021/20210504-dockerfiles/image-layer_hu9d57ff001bc659885ebe5d88704277f8_22464_768x768_fit_catmullrom_2.png" width="768" height="304">
+&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/2021/20210504-dockerfiles/image-layer_hu9d57ff001bc659885ebe5d88704277f8_22464_768x768_fit_catmullrom_3.png" width="768" height="304">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 &lt;center>&lt;i>레이어 저장방식 : https://cultivo-hy.github.io/docker/image/usage/2019/03/14/Docker정리/&lt;/i>&lt;/center>
@@ -42,7 +417,7 @@
 &lt;h3 id="dockerfile">Dockerfile&lt;/h3>
 &lt;p>&amp;ldquo;Dockerfile&amp;quot;은 스크립트와 유사하게 Docker image를 만들기 위한 단계별 명령을 포함하는 텍스트 파일이다. Dockerfile은 일반적으로 Dockerfile 자체에만 적용되는 자체 라이선스를 가질 수 있으며, 이 라이선스는 Docker 컨테이너에 포함되는 프로그램에는 적용되지 않는다.&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 778px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/2021/20210504-dockerfiles/featured-dockerfile-ex_hu144e77f3a0c06d5c2e11835ba0d8ec62_326508_768x768_fit_catmullrom_2.png" width="768" height="441">
+&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/2021/20210504-dockerfiles/featured-dockerfile-ex_hu144e77f3a0c06d5c2e11835ba0d8ec62_326508_768x768_fit_catmullrom_3.png" width="768" height="441">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 &lt;center>&lt;i>Dockerfile : https://www.slideshare.net/vincenzoferme/using-docker-containers-to-improve-reproducibility-in-software-and-web-engineering&lt;/i>&lt;/center>
@@ -213,7 +588,7 @@ Software Interactions (a.k.a linking), Available at: &lt;a href="https://www.ifo
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item><item><title>Blog: OSPO란?</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210418-ospo-definition/</link><pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210418-ospo-definition/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210418-ospo-definition/featured-todogroup_hue4eb93ef039f28113d98d652a131b29e_3378_640x0_resize_catmullrom_2.png" width="640" height="320"/>
+&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210418-ospo-definition/featured-todogroup_hue4eb93ef039f28113d98d652a131b29e_3378_640x0_resize_catmullrom_3.png" width="640" height="320"/>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This paper was translated by Haksung Jang from the English version available at the &lt;a href="https://github.com/todogroup/ospodefinition.org">OSPO Definition&lt;/a>. The original document is licensed under &lt;a href="https://github.com/todogroup/ospodefinition.org/blob/master/LICENSE">CC-BY-SA-4.0&lt;/a>.&lt;/p>
 &lt;/div>
@@ -225,7 +600,7 @@ Software Interactions (a.k.a linking), Available at: &lt;a href="https://www.ifo
 &lt;/blockquote>
 &lt;hr>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 328px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/2021/20210418-ospo-definition/featured-todogroup_hue4eb93ef039f28113d98d652a131b29e_3378_768x768_fit_catmullrom_2.png" width="318" height="159">
+&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/2021/20210418-ospo-definition/featured-todogroup_hue4eb93ef039f28113d98d652a131b29e_3378_768x768_fit_catmullrom_3.png" width="318" height="159">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 &lt;small class="text-muted">&lt;br/>Photo: TODO Group&lt;/small>&lt;/p>
@@ -357,7 +732,7 @@ Software Interactions (a.k.a linking), Available at: &lt;a href="https://www.ifo
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item><item><title>Blog: Elastic License 2.0 그리고 진화하는 오픈소스 라이선스</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210328-elasticlicense/</link><pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210328-elasticlicense/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210328-elasticlicense/featured-scale_hu0adce3c464c6f6e27493d0d0745cd5d4_35813_640x0_resize_catmullrom_2.png" width="640" height="612"/>
+&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210328-elasticlicense/featured-scale_hu0adce3c464c6f6e27493d0d0745cd5d4_35813_640x0_resize_catmullrom_3.png" width="640" height="612"/>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This paper was translated by Haksung Jang from the English version available at this &lt;a href="https://www.coss.community/coss/elastic-license-2-0-and-the-evolution-of-open-source-licensing-3jb3">white paper&lt;/a>. The original author, &lt;a href="https://heathermeeker.com/about-me/">Heather Meeker&lt;/a>, has not reviewed this translation.&lt;/p>
 &lt;/div>
@@ -505,7 +880,7 @@ It describes a software model where software:
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item><item><title>Blog: 기업별 Github 활동 순위와 라이선스 현황</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210115-opensource-license-used-by-it-companies/</link><pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210115-opensource-license-used-by-it-companies/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210115-opensource-license-used-by-it-companies/featured-github_hu51c175f0bc73f8141f28734af3e5d00b_391177_640x0_resize_catmullrom_2.png" width="640" height="360"/>
+&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210115-opensource-license-used-by-it-companies/featured-github_hu51c175f0bc73f8141f28734af3e5d00b_391177_640x0_resize_catmullrom_3.png" width="640" height="360"/>
 &lt;h2 id="epam-2020년도-기업별-github-활동-순위와-라이선스-현황-osci">EPAM, 2020년도 기업별 Github 활동 순위와 라이선스 현황 (OSCI)&lt;/h2>
 &lt;p>&lt;img src="featured-github.png" alt="featured-github">&lt;/p>
 &lt;p>Enterprise Software 개발 및 컨설팅을 하는 &lt;a href="https://www.epam.com/">EPAM&lt;/a> 에서는 Github 사용량을 측정하여 &lt;a href="https://solutionshub.epam.com/osci">OSCI (Open Source Contributor Index)&lt;/a> 이라는 랭킹 서비스를 제공하고 있습니다.
