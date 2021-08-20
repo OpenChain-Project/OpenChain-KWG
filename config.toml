@@ -160,7 +160,7 @@ enable = false
 	name = "Mailing list"
 	url = "https://lists.openchainproject.org/g/korea-wg"
 	icon = "fa fa-envelope"
-        desc = "Anyone in charge of open source compliance at a Korean company that develops and distributes software can participate."
+        desc = "Anyone in charge of open source compliance at a Korean company or institute that develops and distributes software can participate."
 [[params.links.user]]
 	name = "Slack"
 	url = "https://openchain-kwg.slack.com"

@@ -9,7 +9,7 @@ description: >
 
 
 
-Anyone in charge of open source compliance at a Korean company that develops and distributes software can participate. Join the Mailing List!
+Anyone in charge of open source compliance at a Korean company or institute that develops and distributes software can participate. Join the Mailing List!
 
 ## MAILING LIST
 
