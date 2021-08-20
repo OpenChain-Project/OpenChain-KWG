@@ -13,7 +13,7 @@ OpenChain KWG (Korea Work Group), a subgroup of the Linux Foundation [OpenChain 
 
 OpenChain KWG is always open.
 
-Anyone in charge of Open Source Compliance at a Korean company that develops and distributes software can participate. Join the Mailing List! :  [Subscribe](https://openchain-project.github.io/OpenChain-KWG/about/subscribe/)
+Anyone in charge of Open Source Compliance at a Korean company or institute that develops and distributes software can participate. Join the Mailing List! :  [Subscribe](https://openchain-project.github.io/OpenChain-KWG/about/subscribe/)
 
 ## Contributing
 
