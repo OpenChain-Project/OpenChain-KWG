@@ -33,7 +33,17 @@ description: >
 3. Do you have any questions to other companies?
 
 ## Attendees
-* ...
+* SK Telecom
+* LINE Plus
+* Kakao
+* LG Electronics
+* NCSOFT
+* Hyundai Mobis
+* Hyundai Motors
+* Hyundai Autoever
+* Samsung Electronics
+* KT ds
+
 
 ## Video
 ### Intro
@@ -67,5 +77,4 @@ description: >
 ![photo](./20210622-openchainkwg.png)
 
 ## OpenChain News
-...
-
+* https://www.openchainproject.org/news/2021/06/11/korea-wg-10
