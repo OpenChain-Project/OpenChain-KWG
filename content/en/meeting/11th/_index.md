@@ -18,7 +18,7 @@ description: >
 |----|-----------------|------|------|
 | 0 | Intro & Greetings | Newcomers | - |
 | 1 | OpenChain Update | Shane Coughlan, Linux Foundation | - |
-| 2 | OpenChain KWG Update | Hakseong Chang, SK Telecom | - |
+| 2 | OpenChain KWG Update | Haksung Jang, SK telecom | - |
 | 3 | to be updated | - | - |
 | 4 | to be updated | - | - |
 | 5 | to be updated | - | - |
