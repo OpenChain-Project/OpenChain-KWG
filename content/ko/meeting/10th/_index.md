@@ -178,5 +178,4 @@ description: >
 ![photo](./20210622-openchainkwg.png)
 
 ## OpenChain News
-...
-
+* https://www.openchainproject.org/news/2021/06/11/korea-wg-10
