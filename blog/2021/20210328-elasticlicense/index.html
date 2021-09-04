@@ -3,7 +3,7 @@
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <script>(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-176937361-1','auto'),ga('send','pageview')</script>
-<meta name=generator content="Hugo 0.87.0">
+<meta name=generator content="Hugo 0.88.0">
 <meta name=ROBOTS content="INDEX, FOLLOW">
 <link rel="shortcut icon" href=/favicons/favicon.ico>
 <link rel=apple-touch-icon href=/OpenChain-KWG/favicons/apple-touch-icon-180x180.png sizes=180x180>
@@ -220,7 +220,7 @@ By <b>Haksung Jang (<a href=https://haksungjang.github.io/>@haksungjang</a>)</b>
 <h2 id=클라우드의-출현과-agpl>클라우드의 출현과 AGPL</h2>
 <p>GPL과 같은 라이선스는 변경 사항의 공유를 요구한다. 바이너리 배포에 대한 소스 코드 공유 조건을 부과한다. 반면에 &ldquo;개인 복사본"을 만들어서 사용하는 건 변경 사항을 공유할 필요가 없다. 이러한 조건은 당시 대부분의 소프트웨어를 직접설치<sub>on-premise</sub>하는 방식이었기 때문에 공유를 강제하는 데 효과적이었다. 그러나 2000년대 초부터 소프트웨어는 퍼블릭 클라우드로 이동하기 시작하였고, 더 이상 소프트웨어를 배포할 필요가 없었다. 고객은 로컬 사본을 얻지 않고도 소프트웨어를 사용할 수 있게 되었다.</p>
 <p>클라우드 서비스 사업이 커지면서, 이러한 패러다임의 변화는 오픈소스 커뮤니티의 기대치와 AWS<sub>Amazon Web Services</sub>와 같은 클라우드 서비스 공급 업체 사이에 긴장감을 조성하였다. 클라우드 서비스 공급 업체는 개선 사항을 공유해야 하는 법적 의무에서 자유로웠다. 구글이 검색 서비스 강화를 위해 Linux에 의존하는 것으로 잘 알려졌기 때문에 이를 &ldquo;구글 루프홀<sub>Loophole</sub>&ldquo;이라고도 불렀다. 이에 대응하기 위해 자유소프트웨어 커뮤니티는 <a href=https://www.gnu.org/licenses/agpl-3.0.en.html>Affero GPL</a> (AGPL)이라는 GPL을 부분 변경한 형태의 라이선스를 만들었다. AGPL 3.0은 GPL 3.0과 거의 동일하지만 다음과 같은 원격 네트워크 상호 작용<sub>Remote Network Interaction</sub> 조항을 포함한다.</p>
-<pre><code>[I]f you modify the Program, your modified version must prominently offer 
+<pre tabindex=0><code>[I]f you modify the Program, your modified version must prominently offer 
 all users interacting with it remotely through a computer network … 
 an opportunity to receive the Corresponding Source of your version by 
 providing access to the Corresponding Source from a network server at no 
@@ -254,7 +254,7 @@ of software….
 <p>이 두 범주 모두 이전에는 정의되지 않았던 형태이다. 둘 다 MySQL 및 MongoDB 에서와 같은 듀얼 라이선스 모델을 지원하기 위한 것이다.</p>
 <h3 id=sspl>SSPL</h3>
 <p>매우 강한 카피레프트 접근 방식은 2018년 <a href=https://www.mongodb.com/licensing/server-side-public-license>SSPL</a><sub>Server Side Public License</sub>을 만든 MongoDB에 의해 시도되었다.</p>
-<pre><code>1.  Offering the Program as a Service.
+<pre tabindex=0><code>1.  Offering the Program as a Service.
 
 If you make the functionality of the Program or a modified version 
 available to third parties as a service, you must make the Service 
@@ -288,7 +288,7 @@ using the Service Source Code you make available. [emphasis added].
 <p>2021년 초, Elasticsearch는 이 두 가지 경로를 모두 따르는 하나의 길을 개척하였다. SSPL과 새로운 <a href=https://www.elastic.co/licensing/elastic-license>Elastic License 2.0</a> (ELv2)이라는 두 가지 무료 선택지를 제공하여 소프트웨어 제품군을 사용할 수 있게 하였다.</p>
 <p>새로운 Elastic 2.0 라이선스는 짧고 (한 페이지에 불과) 쉬운 언어로 작성되었으며 오픈소스 라이선스의 거의 모든 자유를 허용한다. 소프트웨어 수신자는 소프트웨어를 자유롭게 사용, 변경 및 재배포 할 수 있다. 전에 소프트웨어 라이선스를 읽어본 적이 없더라도 이 라이선스는 한번 읽어볼 가치가 있다.</p>
 <p>여기에는 두 가지 주요 제한이 있다.</p>
-<pre><code>You may not provide the software to third parties as a hosted or 
+<pre tabindex=0><code>You may not provide the software to third parties as a hosted or 
 managed service, where the service provides users with access to 
 any substantial set of the features or functionality of the software.
 
@@ -315,7 +315,7 @@ any functionality in the software that is protected by the license key.
 <p>수십 년 전 유닉스에서 분리된 수많은 호환되지 않은 독점 버전과 마찬가지로 독점 라이선스는 제각각의 조항과 조건으로 덕지덕지 붙여진 누더기이다. 일반 소비자 소프트웨어 제품에 대한 단순한 최종 사용자 라이선스조차도 일반적으로 너무 길고 난해하여 대부분의 사용자는 이해할 수 없다. <a href=https://en.wikipedia.org/wiki/HumancentiPad>아무도 그것을 읽지 않는다는 말도 많다</a>. 그러나 이러한 복잡성은 대부분 불필요하다. 오픈소스 라이선스, 특히 허용<sub>permissive</sub> 라이선스는 이를 교훈으로 삼았다. 간단한 일련의 규칙으로도 충분해야 하며 이해하기 쉬울수록 사용자가 이를 존중할 가능성은 높아진다.</p>
 <p>Elastic License 2.0은 짧고 간단하며 이해하기 쉬울 뿐만 아니라 사람들이 이를 <a href=https://www.elastic.co/blog/elastic-license-v2>템플릿으로 사용</a>할 수도 있다. 무상 사용 방지 논쟁이 시작된 후, 마찰이 없는 방식으로, 합리적인 제한을 가지며, 간단하고 이해 가능한 라이선스에 대한 수요가 증가하고 있다. 그러나 대부분의 소규모 소프트웨어 회사는 자체적으로 라이선스를 작성할 리소스가 없다. 많은 소프트웨어 스타트업이 Elastic License 2.0과 Confluent Community License와 같은 라이선스를 그들이 채택할 수 있는 모델로 찾고 있는 것은 놀라운 일이 아니다.</p>
 <p>이 분야는 <a href=https://faircode.io/>Fair Code</a>가 이에 대한 표준을 만들면서 대중화되었다. Fair Code는 다음과 같이 말한다.</p>
-<pre><code>Fair-code is not a software license. 
+<pre tabindex=0><code>Fair-code is not a software license. 
 It describes a software model where software:
 
 * is generally free to use and can be distributed by anybody

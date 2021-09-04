@@ -33,7 +33,7 @@
 &lt;h2 id="2-gplv3의-설치-정보-요구-사항">2. GPLv3의 &amp;lsquo;설치 정보&amp;rsquo; 요구 사항&lt;/h2>
 &lt;p>GPLv2가 광범위하게 사용되던 15년 동안 제기된 문제와 우려를 해결하기 위해 GPLv3에는 수많은 기능이 추가되었다. 그중에서도 가장 주목할만한 (그러면서도 가장 논란이 되는&lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup>) 부분은 (1) &amp;lsquo;설치 정보&amp;rsquo;를 정의한 조항과 (2) GPLv3에 따라 라이센스가 부여된 소프트웨어를 &amp;lsquo;전달&lt;sub>convey&lt;/sub>&lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup>&amp;lsquo;할 때 어떤 상황에서 설치 정보를 제공해야 하는지를 명시한 조항이다. GPLv3에서의 &amp;lsquo;설치 정보&amp;rsquo; 요구 사항이 GPLv2에서 요구하는 요소를 어느 정도 포함하는지, 어느 것은 포함하지 않는지를 이해하려면 두 라이선스에서의 표현과 역사에 대한 자세한 검토가 필요하다.&lt;/p>
 &lt;p>GPLv3, Section 6&lt;sup id="fnref:11">&lt;a href="#fn:11" class="footnote-ref" role="doc-noteref">11&lt;/a>&lt;/sup>(GPLv3 코드를 &amp;ldquo;Non-Source Form으로 Convey&amp;quot;시 의무 사항 명시)에서는 &amp;lsquo;설치 정보&amp;rsquo;를 위해 특별히 공개해야 할 의무를 정의한다.&lt;/p>
-&lt;pre>&lt;code>“‘Installation Information’ ... means any methods, procedures, authorization keys, or other
+&lt;pre tabindex="0">&lt;code>“‘Installation Information’ ... means any methods, procedures, authorization keys, or other
 information required to install and execute modified versions of a covered work ... from a
 modified version of its Corresponding Source. The information must suffice to ensure that the
 continued functioning of the modified object code is in no case prevented or interfered with
@@ -115,7 +115,7 @@ https://www.youtube.com/watch?v=bV3cKq26nKQ
 &lt;/blockquote>
 &lt;h2 id="5-gplv2의-소스-코드-공개-의무">5. GPLv2의 소스 코드 공개 의무&lt;/h2>
 &lt;p>1991년 공개된 GPLv2와 같은 Copyleft 라이선스의 가장 주목할만한 특징 중 하나는 GPLv2의 조건에 따라 라이선스가 부여된 코드를 배포&lt;sub>distribute[s]&lt;/sub>&lt;sup id="fnref:32">&lt;a href="#fn:32" class="footnote-ref" role="doc-noteref">32&lt;/a>&lt;/sup>하는 모든 개인이나 단체는 &amp;lsquo;소스 코드&amp;rsquo;&lt;sup id="fnref:33">&lt;a href="#fn:33" class="footnote-ref" role="doc-noteref">33&lt;/a>&lt;/sup>를 제공해야 하는 의무가 있다는 것이다. GPLv2의 Section 3은 GPLv2하의 코드가 object 혹은 executable code form으로 배포되는 경우 반드시 제공해야 하는 &amp;lsquo;소스 코드&amp;rsquo;의 구성 요소를 구체적으로 정의한다&lt;sup id="fnref:34">&lt;a href="#fn:34" class="footnote-ref" role="doc-noteref">34&lt;/a>&lt;/sup>.&lt;/p>
-&lt;pre>&lt;code>“The source code for a work means the preferred form of the work for making modifications to it.
+&lt;pre tabindex="0">&lt;code>“The source code for a work means the preferred form of the work for making modifications to it.
 For an executable work, complete source code means all the source code for all modules it
 contains, plus any associated interface definition files, plus the scripts used to control
 compilation and installation of the executable.”
@@ -131,9 +131,9 @@ compilation and installation of the executable.”
 &lt;p>GPLv2의 공개 의무가 GPLv3의 공개 의무와 어떻게 다른지 이해하기 위해서는 이러한 조항의 의미를 검토하는 것이 필요하다.&lt;/p>
 &lt;h2 id="6-텍스트-분석-gplv3의-설치-정보-의무와-gplv2-의-소스-코드-의무">6. 텍스트 분석: GPLv3의 &amp;lsquo;설치 정보&amp;rsquo; 의무와 GPLv2 의 소스 코드 의무&lt;/h2>
 &lt;p>위에서 논의한 바와 같이, executable code 배포에 대한 GPLv3의 공개 의무에는 &amp;lsquo;Corresponding Source&amp;rsquo;&lt;sup id="fnref:36">&lt;a href="#fn:36" class="footnote-ref" role="doc-noteref">36&lt;/a>&lt;/sup>와 &amp;lsquo;설치 정보&amp;rsquo;&lt;sup id="fnref:37">&lt;a href="#fn:37" class="footnote-ref" role="doc-noteref">37&lt;/a>&lt;/sup>가 모두 포함된다.&lt;/p>
-&lt;pre>&lt;code>“[A]ll the source code needed to generate, install, and (for an executable work) run the object
+&lt;pre tabindex="0">&lt;code>“[A]ll the source code needed to generate, install, and (for an executable work) run the object
 code and to modify the work, including scripts to control those activities.”
-&lt;/code>&lt;/pre>&lt;pre>&lt;code>“[A]ny methods, procedures, authorization keys, or other information required to install and
+&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code>“[A]ny methods, procedures, authorization keys, or other information required to install and
 execute modified versions of a covered work ... from a modified version of its Corresponding
 Source.”
 &lt;/code>&lt;/pre>&lt;p>GPLv3의 원래 초안에서는 &amp;ldquo;Corresponding Source&amp;quot;의 정의 내에 인증키를 제공해야 하는 의무가 포함되어 있었다&lt;sup id="fnref:38">&lt;a href="#fn:38" class="footnote-ref" role="doc-noteref">38&lt;/a>&lt;/sup>. 그러나 인증키와 같은 데이터를 소스 코드와 혼용하여 정의하는 것에 대한 반대 의견이 있었고, 이에 따라 FSF는 인증키 요구 사항을 다른 section으로 옮겼다.&lt;/p>
@@ -142,7 +142,7 @@ Source.”
 &lt;/blockquote>
 &lt;p>따라서, GPLv3의 초안 변경 단계에서 FSF는 &amp;lsquo;설치 정보&amp;rsquo; 요구 사항이 GPLv2에 존재하다가 GPLv3에도 포함된 &amp;lsquo;Corresponding Source Code&amp;rsquo; 의무를 넘어서는 별도의 의무임을 인식하고 인정한 것이다.&lt;/p>
 &lt;p>GPLv2의 소스 코드 공개 의무는 다음과 같다&lt;sup id="fnref:40">&lt;a href="#fn:40" class="footnote-ref" role="doc-noteref">40&lt;/a>&lt;/sup>.&lt;/p>
-&lt;pre>&lt;code>“For an executable work, complete source code means all the source code for all modules it
+&lt;pre tabindex="0">&lt;code>“For an executable work, complete source code means all the source code for all modules it
 contains, plus any associated interface definition files, plus the scripts used to control
 compilation and installation of the executable.”
 &lt;/code>&lt;/pre>
@@ -169,7 +169,7 @@ compilation and installation of the executable.”
 &lt;p>차라리 이보다 흥미로운 해석상의 문제라고 한다면, 어떤 형태로든 executable의 유효성 검증을 위한 설치 프로그램을 실행하는 펌웨어가 하드웨어 디바이스 자체에 포함된 경우이다(예를 들어, executable에 수정을 가했을 경우, 유효하지 않은 것으로 판단하여 설치를 제한시키는 기능). 하지만 이런 경우라고 하더라도 GPLv3의 초안 작성 및 공개 과정 동안 FSF와 Linux Kernel 개발자 모두가 오랜 기간 동안 일관되게 GPLv2하에서는 (TiVo와 같이 PROM-loaded information을 사용한 경우 등) 어떠한 설치 유효성 검사도 허용된다는 입장을 고수했음을 고려하면, 펌웨어에서 즉시 검사하는 기능이 있더라도 이것이 GPLv2의 &amp;lsquo;scripts used to … installation of the executable&amp;rsquo; 요건에 의해 설치 정보를 제공해야 한다고 주장하기는 어려울 것이다.&lt;/p>
 &lt;h2 id="7-설치-정보-요구-사항을-gplv2로-backporting">7. 설치 정보 요구 사항을 GPLv2로 Backporting&lt;/h2>
 &lt;p>어떤이는 GPLv3의 전체 &amp;lsquo;설치 정보&amp;rsquo; 정의 부분을 GPLv2의 소스 코드 의무 부분 내에 backporting하려고 하기도 하는데, 이런 노력은 역사적, 텍스트 해석적으로 잘못된 결과를 초래한다. 완전한 전체 &amp;lsquo;설치 정보&amp;rsquo; 정의를 GPLv2의 Section 3에 포함했다고 가정해보자. 그런데 그렇게 하는 순간 딜레마에 빠지게 된다. GPLv3의 &amp;lsquo;설치 정보&amp;rsquo; 요구 사항은 의무가 적용되는 대상이 특정 제품으로 한정되어 있다. 바로 &amp;lsquo;User Product&amp;rsquo;&lt;sup id="fnref:46">&lt;a href="#fn:46" class="footnote-ref" role="doc-noteref">46&lt;/a>&lt;/sup>이다. GPLv3에서의 &amp;lsquo;설치 정보&amp;rsquo; 제공 요구 사항은 오직 &amp;lsquo;User Product&amp;rsquo;에만 적용되며 다른 제품에는 적용되지 않는다&lt;sup id="fnref:47">&lt;a href="#fn:47" class="footnote-ref" role="doc-noteref">47&lt;/a>&lt;/sup>.&lt;/p>
-&lt;pre>&lt;code>“If you convey an object code work under this section in, or with, or specifically for use in,
+&lt;pre tabindex="0">&lt;code>“If you convey an object code work under this section in, or with, or specifically for use in,
 a User Product ... the Corresponding Source conveyed under this section must be accompanied by the
 Installation Information.”
 &lt;/code>&lt;/pre>
@@ -760,7 +760,7 @@ Software Interactions (a.k.a linking), Available at: &lt;a href="https://www.ifo
 &lt;h2 id="클라우드의-출현과-agpl">클라우드의 출현과 AGPL&lt;/h2>
 &lt;p>GPL과 같은 라이선스는 변경 사항의 공유를 요구한다. 바이너리 배포에 대한 소스 코드 공유 조건을 부과한다. 반면에 &amp;ldquo;개인 복사본&amp;quot;을 만들어서 사용하는 건 변경 사항을 공유할 필요가 없다. 이러한 조건은 당시 대부분의 소프트웨어를 직접설치&lt;sub>on-premise&lt;/sub>하는 방식이었기 때문에 공유를 강제하는 데 효과적이었다. 그러나 2000년대 초부터 소프트웨어는 퍼블릭 클라우드로 이동하기 시작하였고, 더 이상 소프트웨어를 배포할 필요가 없었다. 고객은 로컬 사본을 얻지 않고도 소프트웨어를 사용할 수 있게 되었다.&lt;/p>
 &lt;p>클라우드 서비스 사업이 커지면서, 이러한 패러다임의 변화는 오픈소스 커뮤니티의 기대치와 AWS&lt;sub>Amazon Web Services&lt;/sub>와 같은 클라우드 서비스 공급 업체 사이에 긴장감을 조성하였다. 클라우드 서비스 공급 업체는 개선 사항을 공유해야 하는 법적 의무에서 자유로웠다. 구글이 검색 서비스 강화를 위해 Linux에 의존하는 것으로 잘 알려졌기 때문에 이를 &amp;ldquo;구글 루프홀&lt;sub>Loophole&lt;/sub>&amp;ldquo;이라고도 불렀다. 이에 대응하기 위해 자유소프트웨어 커뮤니티는 &lt;a href="https://www.gnu.org/licenses/agpl-3.0.en.html">Affero GPL&lt;/a> (AGPL)이라는 GPL을 부분 변경한 형태의 라이선스를 만들었다. AGPL 3.0은 GPL 3.0과 거의 동일하지만 다음과 같은 원격 네트워크 상호 작용&lt;sub>Remote Network Interaction&lt;/sub> 조항을 포함한다.&lt;/p>
-&lt;pre>&lt;code>[I]f you modify the Program, your modified version must prominently offer
+&lt;pre tabindex="0">&lt;code>[I]f you modify the Program, your modified version must prominently offer
 all users interacting with it remotely through a computer network …
 an opportunity to receive the Corresponding Source of your version by
 providing access to the Corresponding Source from a network server at no
@@ -794,7 +794,7 @@ of software….
 &lt;p>이 두 범주 모두 이전에는 정의되지 않았던 형태이다. 둘 다 MySQL 및 MongoDB 에서와 같은 듀얼 라이선스 모델을 지원하기 위한 것이다.&lt;/p>
 &lt;h3 id="sspl">SSPL&lt;/h3>
 &lt;p>매우 강한 카피레프트 접근 방식은 2018년 &lt;a href="https://www.mongodb.com/licensing/server-side-public-license">SSPL&lt;/a>&lt;sub>Server Side Public License&lt;/sub>을 만든 MongoDB에 의해 시도되었다.&lt;/p>
-&lt;pre>&lt;code>1. Offering the Program as a Service.
+&lt;pre tabindex="0">&lt;code>1. Offering the Program as a Service.
 If you make the functionality of the Program or a modified version
 available to third parties as a service, you must make the Service
 Source Code available via network download to everyone at no charge,
@@ -826,7 +826,7 @@ using the Service Source Code you make available. [emphasis added].
 &lt;p>2021년 초, Elasticsearch는 이 두 가지 경로를 모두 따르는 하나의 길을 개척하였다. SSPL과 새로운 &lt;a href="https://www.elastic.co/licensing/elastic-license">Elastic License 2.0&lt;/a> (ELv2)이라는 두 가지 무료 선택지를 제공하여 소프트웨어 제품군을 사용할 수 있게 하였다.&lt;/p>
 &lt;p>새로운 Elastic 2.0 라이선스는 짧고 (한 페이지에 불과) 쉬운 언어로 작성되었으며 오픈소스 라이선스의 거의 모든 자유를 허용한다. 소프트웨어 수신자는 소프트웨어를 자유롭게 사용, 변경 및 재배포 할 수 있다. 전에 소프트웨어 라이선스를 읽어본 적이 없더라도 이 라이선스는 한번 읽어볼 가치가 있다.&lt;/p>
 &lt;p>여기에는 두 가지 주요 제한이 있다.&lt;/p>
-&lt;pre>&lt;code>You may not provide the software to third parties as a hosted or
+&lt;pre tabindex="0">&lt;code>You may not provide the software to third parties as a hosted or
 managed service, where the service provides users with access to
 any substantial set of the features or functionality of the software.
 You may not move, change, disable, or circumvent the license key
@@ -852,7 +852,7 @@ any functionality in the software that is protected by the license key.
 &lt;p>수십 년 전 유닉스에서 분리된 수많은 호환되지 않은 독점 버전과 마찬가지로 독점 라이선스는 제각각의 조항과 조건으로 덕지덕지 붙여진 누더기이다. 일반 소비자 소프트웨어 제품에 대한 단순한 최종 사용자 라이선스조차도 일반적으로 너무 길고 난해하여 대부분의 사용자는 이해할 수 없다. &lt;a href="https://en.wikipedia.org/wiki/HumancentiPad">아무도 그것을 읽지 않는다는 말도 많다&lt;/a>. 그러나 이러한 복잡성은 대부분 불필요하다. 오픈소스 라이선스, 특히 허용&lt;sub>permissive&lt;/sub> 라이선스는 이를 교훈으로 삼았다. 간단한 일련의 규칙으로도 충분해야 하며 이해하기 쉬울수록 사용자가 이를 존중할 가능성은 높아진다.&lt;/p>
 &lt;p>Elastic License 2.0은 짧고 간단하며 이해하기 쉬울 뿐만 아니라 사람들이 이를 &lt;a href="https://www.elastic.co/blog/elastic-license-v2">템플릿으로 사용&lt;/a>할 수도 있다. 무상 사용 방지 논쟁이 시작된 후, 마찰이 없는 방식으로, 합리적인 제한을 가지며, 간단하고 이해 가능한 라이선스에 대한 수요가 증가하고 있다. 그러나 대부분의 소규모 소프트웨어 회사는 자체적으로 라이선스를 작성할 리소스가 없다. 많은 소프트웨어 스타트업이 Elastic License 2.0과 Confluent Community License와 같은 라이선스를 그들이 채택할 수 있는 모델로 찾고 있는 것은 놀라운 일이 아니다.&lt;/p>
 &lt;p>이 분야는 &lt;a href="https://faircode.io/">Fair Code&lt;/a>가 이에 대한 표준을 만들면서 대중화되었다. Fair Code는 다음과 같이 말한다.&lt;/p>
-&lt;pre>&lt;code>Fair-code is not a software license.
+&lt;pre tabindex="0">&lt;code>Fair-code is not a software license.
 It describes a software model where software:
 * is generally free to use and can be distributed by anybody
 * has its source code openly available
