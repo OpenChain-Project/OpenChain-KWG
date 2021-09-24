@@ -21,13 +21,13 @@ description: >
 | 2  | OpenChain KWG Update | 장학성, SK텔레콤 | -  |
 | 3  | 오픈소스 라이선스 변화의 흐름| Sean (김영환), 카카오 | - | 
 | 4  | to be updated | 정윤환. 삼성전자 | - | 
-| 5  | to be updated | Robin (황민호), 카카오 | - | 
+| 5  | 최근 주요 동향 <br> - 미 정부의 'SBOM' 의무화 <br> - Github Codepilot 오픈소스 라이선스 논쟁| Robin (황민호), 카카오 | - | 
 | 6  | 소그룹 모임 | All | - |
 | 7  | Free Discussion | All | - |
 
 ## 소그룹 모임 주제
 1. 자기 소개 (하는 일, 최근 주요 관심사)
-2. to be updated
+2. 오픈소스 컴플라이언스 활동 이력 관리 방법 Best Practice 공유 (개발자와 이메일로 소통? Jira 등 도구 활용?)
 
 ## Attendees
 * ...
