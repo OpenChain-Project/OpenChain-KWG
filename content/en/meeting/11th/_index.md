@@ -19,15 +19,15 @@ description: >
 | 0 | Intro & Greetings | Newcomers | - |
 | 1 | OpenChain Update | Shane Coughlan, Linux Foundation | - |
 | 2 | OpenChain KWG Update | Haksung Jang, SK telecom | - |
-| 3 | to be updated | - | - |
-| 4 | to be updated | - | - |
-| 5 | to be updated | - | - |
-| 6 | Small Group Meetings | All | - |
+| 3 | Flow of change in Open Source License | Sean Kim, Kakao | - | 
+| 4 | to be updated | Yunhwan Jung, Samsung Electronics | - | 
+| 5 | Recent trends <br> - Mandatory 'SBOM' by the US Government <br> - Github Codepilot Open Source License Controversy | Robin Hwang, Kakao | - | 
+| 6 | Small group meeting | All | - |
 | 7 | Free Discussion | All | - |
 
 ## Small group meeting topics
 1. Introduce yourself (what you do, your main interest recently)
-2. to be updated
+2. Share best practices on how to manage open source compliance activity history (communication with developers by e-mail? Using tools such as Jira?)
 
 ## Attendees
 * ...
