@@ -20,7 +20,7 @@ description: >
 | 1 | OpenChain Update | Shane Coughlan, Linux Foundation | - |
 | 2 | OpenChain KWG Update | Haksung Jang, SK telecom | - |
 | 3 | Flow of change in Open Source License | Sean Kim, Kakao | - | 
-| 4 | to be updated | Yunhwan Jung, Samsung Electronics | - | 
+| 4 | Introduction of Samsung Electronics' open source policy and process | Yoonhwan Jung, Samsung Electronics | - | 
 | 5 | Recent trends <br> - Mandatory 'SBOM' by the US Government <br> - Github Codepilot Open Source License Controversy | Robin Hwang, Kakao | - | 
 | 6 | Small group meeting | All | - |
 | 7 | Free Discussion | All | - |
