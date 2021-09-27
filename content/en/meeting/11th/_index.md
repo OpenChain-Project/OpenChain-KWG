@@ -9,7 +9,7 @@ description: >
 
 ## Schedule
 
-* Schedule: 2021-09-30 (Thu) 2:00-3:00 PM
+* Schedule: 2021-09-30 (Thu) 2:00-4:00 PM
 * How to join
    - Zoom (Please refer to the e-mail for the access address)
 
