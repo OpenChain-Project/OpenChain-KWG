@@ -32,8 +32,22 @@ description: >
 ## Attendees
 * ...
 
-##
-* ...
+## Video
+### OpenChain Update 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iRaGiaZYTxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### OpenChain KWG Update
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B4q-7ymocjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Flow of change in Open Source License
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/d79GpONCR9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Recent trends
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KGoVuO1d9Bc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Photo Gallery
 * ...
