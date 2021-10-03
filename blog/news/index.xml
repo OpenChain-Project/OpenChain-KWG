@@ -1,4 +1,30 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – News</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/news/</link><description>Recent content in News on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/blog/news/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: 오픈소스SW 관리 툴 ‘포스라이트’ 공개한 LG전자, “글로벌 표준 거듭나겠다”</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/news/20210628-fosslight/</link><pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/news/20210628-fosslight/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – News</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/news/</link><description>Recent content in News on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/blog/news/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: SKT, 오픈소스 컴플라이언스 분야 ISO 국제인증 획득</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/news/20210909-sktelecom/</link><pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/news/20210909-sktelecom/</guid><description>
+&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/news/20210909-sktelecom/featured-sktosrb_hu065adfe0227da2c1679217693f1d110a_422461_640x0_resize_q75_catmullrom.jpeg" width="640" height="414"/>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 910px">
+&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/news/20210909-sktelecom/featured-sktosrb_hu065adfe0227da2c1679217693f1d110a_422461_900x600_fit_q75_catmullrom.jpeg" width="900" height="582">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+&lt;small class="text-muted">&lt;br/>SK telecom&lt;/small>&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;p>SK텔레콤이 ‘오픈소스’ 활용을 위한 체계적 관리(컴플라이언스) 시스템을 갖췄음을 국제적으로 인정받았다.&lt;/p>
+&lt;p>SK텔레콤(대표이사 박정호, &lt;a href="http://www.sktelecom.com">www.sktelecom.com&lt;/a>)은 국제표준화기구(ISO, Interna-tional Organization for Standardization)로부터 오픈소스 컴플라이언스 관련 표준인증(ISO/IEC 5230)을 획득했다고 9일 밝혔다.&lt;/p>
+&lt;hr>
+&lt;p>자세한 내용은 기사 원문에서 확인하세요. : &lt;a href="https://news.sktelecom.com/147961">https://news.sktelecom.com/147961&lt;/a>&lt;/p></description></item><item><title>Blog: 삼성전자, 오픈소스 국제 표준 인증 획득</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/news/20210708-samsung/</link><pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/news/20210708-samsung/</guid><description>
+&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/news/20210708-samsung/featured-logo_hu3229618b118901ed8942940e48d6a67e_139061_640x0_resize_q75_catmullrom.jpeg" width="640" height="355"/>
+&lt;p>삼성전자가 ‘오픈체인(OpenChain) 프로젝트’의 표준 준수 기업으로 국제 인증(ISO/IEC 5230:2020)을 획득했다.&lt;/p>
+&lt;p>‘오픈체인 프로젝트’는 2016년 미국의 비영리단체인 리눅스 재단(Linux Foundation)의 주도로 시작됐으며, 효과적이고 일관성 있는 오픈소스 컴플라이언스 체계를 갖추고 있는 기업들에게 인증을 부여한다.&lt;/p>
+&lt;p>‘오픈체인 프로젝트’는 오픈소스 컴플라이언스 역량 평가 항목으로 각 기업의 ▲사내 정책과 시스템의 적정성 ▲담당 조직과 인력의 전문성 ▲사내 구성원의 교육 수행 여부 등에 대해 기준 충족 여부를 심사한다.&lt;/p>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 910px">
+&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/blog/news/20210708-samsung/featured-logo_hu3229618b118901ed8942940e48d6a67e_139061_900x600_fit_q75_catmullrom.jpeg" width="900" height="500">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+&lt;small class="text-muted">&lt;br/>OpenChain&lt;/small>&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;p>삼성전자는 이번 인증 획득으로 오픈소스 활용 역량을 인정 받아 자사 소프트웨어의 공신력을 높일 것으로 기대하고 있다.&lt;/p>
+&lt;hr>
+&lt;p>자세한 내용은 기사 원문에서 확인하세요. : &lt;a href="https://news.samsung.com/kr/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B5%AD%EC%A0%9C-%ED%91%9C%EC%A4%80-%EC%9D%B8%EC%A6%9D-%ED%9A%8D%EB%93%9D">삼성전자, 오픈소스 국제 표준 인증 획득&lt;/a>&lt;/p></description></item><item><title>Blog: 오픈소스SW 관리 툴 ‘포스라이트’ 공개한 LG전자, “글로벌 표준 거듭나겠다”</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/news/20210628-fosslight/</link><pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/news/20210628-fosslight/</guid><description>
 &lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/news/20210628-fosslight/featured-fosslight_hu2c94f93077316e74175207ca4deae911_89690_640x0_resize_q75_catmullrom.jpeg" width="640" height="481"/>
 &lt;p>최근 LG전자가 자체 개발해 2014년부터 운영해오고 있는 오픈소스 SW관리 도구인 ‘포스라이트(FOSSLight ; Free and Open Source Software Light)’를 공개해 주목을 받고 있다.
 &lt;a href="https://fosslight.org/">포스라이트&lt;/a>는 개발자의 SW를 분석해 오픈소스를 사용했는지, 오픈소스 사용 조건이나 의무사항을 준수했는지 등을 검증해 주는 툴이다.&lt;/p>
