@@ -22,7 +22,7 @@ description: >
 |----|-----------------|------|------|
 | 0  | Intro & Greetings  | Newcomers | - |
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
-| 2  | OpenChain KWG Update | 장학성, SK텔레콤 | -  |
+| 2  | OpenChain KWG Update | 장학성, SK텔레콤 | [OpenChain_Korea_20210930_update.pptx](OpenChain_Korea_20210930_update.pptx)  |
 | 3  | 오픈소스 라이선스 변화의 흐름| Sean (김영환), 카카오 | [opensource_license_flow.pdf](./20210930_opensource_license_flow_kakao.pdf) | 
 | 4  | 삼성전자 오픈소스 정책 및 프로세스 현황 소개 | 정윤환. 삼성전자 | - | 
 | 5  | 최근 주요 동향 <br> - 미 정부의 'SBOM' 의무화 <br> - Github Codepilot 오픈소스 라이선스 논쟁| Robin (황민호), 카카오 | [opensource_trend.pdf](./20210930_opensource_trend_kakao.pdf) | 
@@ -34,7 +34,17 @@ description: >
 2. 오픈소스 컴플라이언스 활동 이력 관리 방법 Best Practice 공유 (개발자와 이메일로 소통? Jira 등 도구 활용?)
 
 ## Attendees
-* ...
+* ETRI
+* 현대자동차
+* 현대오토에버
+* 현대모비스
+* 카카오
+* LG전자
+* 라인플러스
+* 엔씨소프트
+* 삼성전자
+* SK텔레콤
+* Linux Foundation
 
 ## Video
 ### OpenChain Update 
