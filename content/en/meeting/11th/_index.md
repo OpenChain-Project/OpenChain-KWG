@@ -23,7 +23,7 @@ description: >
 |----|-----------------|------|------|
 | 0 | Intro & Greetings | Newcomers | - |
 | 1 | OpenChain Update | Shane Coughlan, Linux Foundation | - |
-| 2 | OpenChain KWG Update | Haksung Jang, SK telecom | - |
+| 2 | OpenChain KWG Update | Haksung Jang, SK telecom | [OpenChain_Korea_20210930_update.pptx](OpenChain_Korea_20210930_update.pptx) |
 | 3 | Flow of change in Open Source License | Sean Kim, Kakao | [opensource_license_flow.pdf](./20210930_opensource_license_flow_kakao.pdf) | 
 | 4 | Introduction of Samsung Electronics' open source policy and process | Yoonhwan Jung, Samsung Electronics | - | 
 | 5 | Recent trends <br> - Mandatory 'SBOM' by the US Government <br> - Github Codepilot Open Source License Controversy | Robin Hwang, Kakao | [opensource_trend.pdf](./20210930_opensource_trend_kakao.pdf) | 
@@ -35,7 +35,17 @@ description: >
 2. Share best practices on how to manage open source compliance activity history (communication with developers by e-mail? Using tools such as Jira?)
 
 ## Attendees
-* ...
+* ETRI
+* Hyundai
+* Hyundai AutoEver
+* Hyundai Mobis
+* Kakao
+* LG Electronics
+* LINE Plus
+* NCSOFT
+* Samsung Electronics
+* SK telecom
+* Linux Foundation
 
 ## Video
 ### OpenChain Update 
