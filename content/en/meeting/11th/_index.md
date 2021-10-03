@@ -7,6 +7,11 @@ description: >
  Online Meeting, September 2021
 ---
 
+<div ><span class="image fit">
+  <img src="kwg-sep.jpeg" width="50%">
+  <!-- <img src="OpenChain_KWG_6th_1.png" width="42%"> -->
+</span></div>
+
 ## Schedule
 
 * Schedule: 2021-09-30 (Thu) 2:00-4:00 PM
@@ -50,7 +55,7 @@ description: >
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KGoVuO1d9Bc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Photo Gallery
-* ...
+![photo](kwg1001-2.png)
 
 ## OpenChain News
 * ...
