@@ -7,7 +7,7 @@ description: >
  Online Meeting, June 2021
 ---
 <div ><span class="image fit">
-  <img src="openchain-kwg-10.gif" width="60%">
+  <img src="openchain-kwg-10.gif" width="50%">
 </div>
 
 ## Schedule
