@@ -2,7 +2,7 @@
 date: 2021-11-15
 title: "중국 첫 GPL 소송 사례, VirtualApp"
 linkTitle: "중국 첫 GPL 소송 사례"
-description: "피고는 GPL 위반으로 원고에게 배상금 50 위안 지급 선고"
+description: "피고는 GPL 위반으로 원고에게 배상금 50만 위안 지급 선고"
 author: 장학성
 resources:
 - src: "**.{png,jpg}"
@@ -16,7 +16,9 @@ resources:
 > 
 > 지난 2021년 9월, 중국내 최초의 GPL 관련 판결이 있었다는 [중국 기사](https://www.oschina.net/news/159435)를 통해 공개되었습니다. 번역기를 활용해 이해한 내용을 정리해보았습니다.   
 > 제가 법률가도 아니고, 중국어도 모르다보니 틀린 내용이 있을 수도 있음을 감안해주시기 바랍니다. :)   
-> 오류를 발견하신 분은 언제든 알려주시면 감사하겠습니다! (haksung@sk.com) </i>
+> 오류를 발견하신 분은 언제든 알려주시면 감사하겠습니다! (haksung@sk.com) 
+> 
+> (감수에 도움을 주신 한국저작권위원회 [최진영 센터장](https://www.linkedin.com/in/jin-young-choi-20174b44)님께 감사 드립니다. ^^)</i>
 
 
 {{% pageinfo %}}
@@ -88,7 +90,7 @@ VirtualApp의 코드를 상업적 이익, 내부 사용을 위해 자신의 코�
 
 ### 2. Dim Sum Desktop (피고 측 소프트웨어)
 
-Dim Sum Desktop은 VirtualApp과 마찬가지로 가상 안드로이드 환경을 제공하는 소프트웨어이며, 피고인 Fujian Fengling Chuangjing Technology Co., Ltd.가 개발하였습니다. 
+Dim Sum Desktop은 VirtualApp과 마찬가지로 가상 안드로이드 환경을 제공하는 소프트웨어이며, 피고 Fujian Fengling Chuangjing Technology Co., Ltd.가 개발하였습니다. 
 
 {{< imgproc dimsum Resize "600x" >}}
 http://www.appchina.com/app/com.dianxinos.dxhome
@@ -132,7 +134,7 @@ http://www.appchina.com/app/com.dianxinos.dxhome
     - GPL-3.0의 사용 조건을 위반하는 경우 GPL-3.0을 통해 얻은 권한은 자동으로 종료
     - "You may not propagate or modify a covered work except as expressly provided under this License. Any attempt otherwise to propagate or modify it is void, and will automatically terminate your rights under this License"
 - 중국 민법 총칙 제158조
-    - “민사법률행위는 조건이 있을 수 있다…해산조건이 있는 민사법률행위는 조건이 충족되면 무효”라고 규정
+    - “민사법률행위는 조건이 있을 수 있다… 해제 조건이 있는 민사법률행위는 조건이 충족되면 무효”라고 규정
 - 오픈소스 소프트웨어의 특성상 GPL-3.0서에 명시된 사용조건(오픈소스코드, 저작권 정보 표시, 수정정보 등)은 라이선스 제공자가 사용자가 이를 사용할 수 있도록 하기 위한 전제조건임
     - 사용자가 사용 전제조건을 위반한 경우 라이선스 제공자와 사용자 간의 GPL-3.0은 자동으로 해지
     - 계약에 따른 사용자의 라이선스는 즉시 해지됨
@@ -154,7 +156,7 @@ http://www.appchina.com/app/com.dianxinos.dxhome
 
 다만, 법원은 원고가 VirtualApp을 relicense할 권리가 있는지에 관해서는 판단하지 않았습니다. 또한, 다른 기여자의 기여물까지 포함하여 relicense함으로써 GPL-3.0을 오염시킨 부분에 관해서도 판단하지 않았습니다. 
 
-### 쟁점 3. 피고인의 행위가 원고의 저작권을 침해했는지 여부
+### 쟁점 3. 피고의 행위가 원고의 저작권을 침해했는지 여부
 
 법원은 VirtualApp의 "상용 사용 금지 문구"가 GPL-3.0 (7조 Additional Terms, 10조 Automatic Licensing of Downstream Recipients)을 위반한다고 지적하며, 여전히 GPL-3.0 라이선스가 우선한다고 판단하였습니다. 
 
@@ -163,7 +165,7 @@ http://www.appchina.com/app/com.dianxinos.dxhome
     - GPL-3.0에 따르면 GPL-3.0을 따르는 이전 버전의 파일은 후속 버전에서도 여전히 GPL-3.0에 구속됨
 2. GPL-3.0은 사용자가 상업적 사용을 수행할 수 있도록 허용하며, 라이선스 제공자가 이를 제한할 수 없음
     - 따라서, 법원은 원고의 다음 주장을 지지하지 않음 : "Dim Sum Desktop을 상용화하는 것은 GPL-3.0 위반임."
-3. 피고인이 "Dim Sum Desktop" 앱(V6.5.8)이 GPL-3.0을 따라 소스 코드를 무료로 공개해야 하지만 피고인 Fujian Fengling Company가 이를 이행하지 않았음
+3. 피고가 "Dim Sum Desktop" 앱(V6.5.8)이 GPL-3.0을 따라 소스 코드를 무료로 공개해야 하지만 피고 Fujian Fengling Company가 이를 이행하지 않았음
     - 이에 따라 GPL-3.0 8조 및 중국 민법 일반원칙 제158조에 따라 피고 Fujian Fengling Company가 획득한 권한은 자동 종료됨
     - 따라서, 피고 Fujian Fengling Company의 VirtualApp 복사, 수정 및 배포는 권리 출처 상실로 인한 침해에 해당함
 
@@ -173,17 +175,17 @@ http://www.appchina.com/app/com.dianxinos.dxhome
 
 원고는 피고의 이익에 기반한 손해배상액 산정을 요청하였습니다. 하지만 법원은 법정손해배상금(statutory damages)에 근거하여 배상금을 정한 것으로 보입니다. 
 
-- 피고인 Fujian Fengling Company는 "Dim Sum Desktop" 앱(V6.5.8)의 개발자, 운영 및 퍼블리셔로서 법에 따라 VirtualApp의 저작권 침해를 중지할 책임이 있음
+- 피고 Fujian Fengling Company는 "Dim Sum Desktop" 앱(V6.5.8)의 개발자, 운영 및 퍼블리셔로서 법에 따라 VirtualApp의 저작권 침해를 중지할 책임이 있음
     - 피고 Fujian Fengling Company가 피고 Beijing Fengling Company의 전액 출자 자회사라는 사실에 비추어 볼 때, 두 피고가 공동으로 불법 행위 책임을 부담한다는 원고의 주장은 합법적이며 법원의 지지를 받음
-- 피고인 Tencent는 "AppBao 공식 웹사이트"에서 침해 가능성에 대한 관련 규칙과 불만 제기 채널을 마련하고 고소된 소프트웨어를 즉시 제거함
-    - 원고는 또한 피고인 Tencent에 대해 구체적인 불만을 제기하지 않았음
-    - 따라서 피고인 Tencent는 법적 책임을 질 필요가 없음
+- 피고 Tencent는 "AppBao 공식 웹사이트"에서 침해 가능성에 대한 관련 규칙과 불만 제기 채널을 마련하고 고소된 소프트웨어를 즉시 제거함
+    - 원고는 또한 피고 Tencent에 대해 구체적인 불만을 제기하지 않았음
+    - 따라서 피고 Tencent는 법적 책임을 질 필요가 없음
 - 보상 문제
     - 원고는 피고 Fujian Fengling Company와 피고 Beijing Fengling Company의 침해 이익을 기반으로 계산되었다고 주장함
     - 법원은 배상액을 50만 위안으로 결정함
 
 ## 마무리
 
-그동안 중국은 저작권 위반에 관대하다는 인식이 많았는데, 영문을 기반으로 한 오픈소스 라이선스의 법적 효력을 인정하고, 라이선스 위반을 저작권 침해로 판결한 점이 인상적이었습니다. 기업은 오픈소스 라이선스 의무를 준수하기 위한 정책과 프로세스를 갖추어야 이러한 분쟁에 휘말리는 위험을 최소화 할 수 있을 것입니다. 
+그동안 중국은 저작권법 위반에 관대하다는 인식이 많았는데, 영문을 기반으로 한 오픈소스 라이선스의 법적 효력을 인정하고, 라이선스 위반을 저작권 침해로 판결한 점이 인상적이었습니다. 기업은 오픈소스 라이선스 의무를 준수하기 위한 정책과 프로세스를 갖추어야 이러한 분쟁에 휘말리는 위험을 최소화 할 수 있을 것입니다. 
 
 피고는 사건을 대법원에 상고한 것으로 알려졌습니다. 
