@@ -183,11 +183,13 @@ http://www.appchina.com/app/com.dianxinos.dxhome
     - 원고는 또한 피고 Tencent에 대해 구체적인 불만을 제기하지 않았음
     - 따라서 피고 Tencent는 법적 책임을 질 필요가 없음
 - 보상 문제
-    - 원고는 피고 Fujian Fengling Company와 피고 Beijing Fengling Company의 침해 이익을 기반으로 계산되었다고 주장함
+    - 원고는 피고 Fujian Fengling Company와 피고 Beijing Fengling Company의 침해 이익을 기반으로 계산하였다고 주장함
     - 법원은 배상액을 50만 위안으로 결정함
+
+50만 위안은 [저작권 침해 법정손해배상액의 최고액 수준](https://www.copyright.or.kr/kcc/koreacopyright/info/download.do?brdctsno=44122&brdctsfileno=15650)이라고 합니다. 
 
 ## 마무리
 
 그동안 중국은 저작권법 위반에 관대하다는 인식이 많았는데, 영문을 기반으로 한 오픈소스 라이선스의 법적 효력을 인정하고, 라이선스 위반을 저작권 침해로 판결한 점이 인상적이었습니다. 기업은 오픈소스 라이선스 의무를 준수하기 위한 정책과 프로세스를 갖추어야 이러한 분쟁에 휘말리는 위험을 최소화 할 수 있을 것입니다. 
 
-피고는 사건을 대법원에 상고한 것으로 알려졌습니다. 
+피고는 사건을 대법원에 상고한 것으로 알려졌습니다. 피고가 항소심에서 어떤 주장을 펴나갈지 궁금합니다. :) 
