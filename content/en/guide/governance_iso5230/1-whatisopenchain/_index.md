@@ -18,9 +18,9 @@ If any one of the many organizations in this complex software supply chain fails
 <center>[OpenChain Open Source Software License Compliance General Public Guide]</center>
 {{< /imgproc >}}
 
-2009년 12월, Busybox라는 오픈소스 관련된 소송이 있었다. Busybox는 임베디드 시스템에 광범위하게 사용되고 있는 GPL-2.0 라이선스가 적용된 오픈소스인데, 국내 회사 두 곳을 포함하여 14개 회사가 소송 대상이 되었다. 이 사례에서 주목할만한 점은 이 중에는 제품을 직접 개발하지 않고 배포만 한 회사도 소송을 당하였다는 점이다.
+In December 2009, there was a lawsuit related to an open source called Busybox. Busybox is an open source licensed GPL-2.0 widely used in embedded systems, and 14 companies including two Korean companies were the subject of lawsuits. What is noteworthy in this case is that among them, companies that did not develop the product but only distributed it were sued.
 
-이와 같은 복잡한 소프트웨어 공급망 환경에서는 어느 한 기업이 아무리 훌륭한 프로세스를 갖추고 있다고 해도 자체적으로 완벽한 오픈소스 컴플라이언스를 달성하는 건 매우 어렵다. 결국 한 기업이 오픈소스 컴플라이언스를 제대로 이행하기 위해서는 소프트웨어 공급망의 모든 구성원이 라이선스 의무를 준수하고 올바른 오픈소스 정보를 제공해야 한다. 공급망 전체에 걸쳐 이런 신뢰가 구축되어야 한다.
+In such a complex software supply chain environment, it is very difficult for any one company to achieve complete open source compliance on its own, no matter how good its own governance processes are. After all, in order for a company to properly achieve open source compliance, all members in the software supply chain must comply with their licensing obligations and provide correct open source information. This trust must be built throughout the supply chain.
 
 Linux Foundation의 [OpenChain](https://www.openchainproject.org/) 프로젝트는 기업이 오픈소스 컴플라이언스를 위해 준수해야 할 핵심 사항을 간결하고 일관성 있게 정의하고, 이를 모두가 준수한다면 소프트웨어 공급망 전체에 걸쳐 오픈소스 라이선스 측면의 신뢰를 구축할 수 있다는 믿음으로 설립되었다. 
 
