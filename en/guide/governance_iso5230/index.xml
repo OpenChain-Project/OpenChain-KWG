@@ -235,8 +235,8 @@
 &lt;p>한국어 번역 작업 - &lt;a href="https://openchain-project.github.io/OpenChain-KWG/resource/">https://openchain-project.github.io/OpenChain-KWG/resource/&lt;/a>&amp;#160;&lt;a href="#fnref:15" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Guide: 2. 필수 구성 요소</title><link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/2-essential_elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/2-essential_elements/</guid><description>
-&lt;h2 id="오픈소스-거버넌스-체계-필수-구성-요소">오픈소스 거버넌스 체계 필수 구성 요소&lt;/h2>
+&lt;/section></description></item><item><title>Guide: 2. Essential elements</title><link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/2-essential_elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/2-essential_elements/</guid><description>
+&lt;h2 id="essential-elements-of-an-open-source-program">Essential elements of an open source program&lt;/h2>
 &lt;p>기업이 효율적인 오픈소스 거버넌스 체계를 구축하기 위해서는 다음과 같은 구성 요소가 필요하다.&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 690px">
 &lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/2-essential_elements/elements_hu21c61329d347927c32f52e4f71c96c0d_197555_900x600_fit_catmullrom_3.png" width="680" height="600">
@@ -246,31 +246,38 @@
 &lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>이런 구성 요소 중 기업이 ISO/IEC 5230에서 요구하는 모든 항목에 적합한 오픈소스 거버넌스 체계 구축을 위해서는 기본적으로 아래의 다섯가지 사항을 갖추어야 한다. 여기서는 이에 대한 세부 사항을 설명한다.&lt;/p>
+&lt;p>Among the above elements, in order to establish an open source governance suitable for all items required by ISO/IEC 5230, a company must have the following five core elements.&lt;/p>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 460px">
+&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/2-essential_elements/five_hucffedc8b2cdaf28ebdc8bf05d759da20_40502_450x300_fit_catmullrom_3.png" width="450" height="210">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+&lt;/p>
+&lt;/div>
+&lt;/div>
 &lt;ol>
-&lt;li>&lt;a href="../3-teams">조직 (담당자)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="../4-polic">정책&lt;/a>&lt;/li>
-&lt;li>&lt;a href="../5-process">프로세스&lt;/a>&lt;/li>
-&lt;li>&lt;a href="../6-tool">도구&lt;/a>&lt;/li>
-&lt;li>&lt;a href="../7-training">교육/평가&lt;/a>&lt;/li>
-&lt;/ol></description></item><item><title>Guide: 3. 조직 (담당자)</title><link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/3-teams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/3-teams/</guid><description>
-&lt;h2 id="역할과-책임-정의">역할과 책임 정의&lt;/h2>
-&lt;p>기업의 오픈소스 거버넌스 체계를 구축하기 위해서는 먼저 이를 책임지고 수행할 책임자가 필요하다. 오픈소스 프로그램 매니저, 오픈소스 컴플라이언스 담당자 등의 명칭으로 불릴 수 있으며, 이 책임자는 기업의 오픈소스 컴플라이언스에 대한 총괄 책임을 담당한다.&lt;/p>
-&lt;p>아래의 역량을 가지고 있다면 이 역할에 적합하다고 할 수 있겠다.&lt;/p>
+&lt;li>&lt;a href="../3-teams">Team&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../4-polic">Policy&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../5-process">Process&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../6-tool">Tool&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../7-training">Education&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Guide: 3. Team</title><link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/3-teams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/3-teams/</guid><description>
+&lt;h2 id="identify-the-roles-and-the-corresponding-responsibilities">Identify the roles and the corresponding responsibilities&lt;/h2>
+&lt;p>In order to establish a company&amp;rsquo;s open source governance, it is necessary to appoint a person in charge of it. It may be called an open source program manager, an open source compliance officer, etc., and this person in charge is responsible for the overall open source compliance of the company.&lt;/p>
+&lt;p>A person with the following competencies is suitable for this role.&lt;/p>
 &lt;ul>
-&lt;li>오픈소스 생태계에 대한 이해 및 개발 경험 보유&lt;/li>
-&lt;li>폭넓은 기업의 비즈니스 이해&lt;/li>
-&lt;li>기업의 구성원에게 오픈소스 활용 방안을 전파할 수 있는 열정과 커뮤니케이션 능력&lt;/li>
+&lt;li>Understanding and development experience in the open source ecosystem&lt;/li>
+&lt;li>Broad understanding of the company&amp;rsquo;s business&lt;/li>
+&lt;li>Passion and communication skills to spread the effective use of open source to members of the company&lt;/li>
 &lt;/ul>
-&lt;p>오픈소스 프로그램 매니저는 가능한 풀타임으로 역할을 수행할 수 있도록 보장하는게 좋다.&lt;/p>
-&lt;p>글로벌 ICT 기업은 이와 같은 우수한 오픈소스 프로그램 매니저를 채용하기 위해 노력하고 있으며, 다음 사이트에서는 다양한 채용 공고를 확인할 수 있다. : &lt;a href="https://github.com/todogroup/job-descriptions">https://github.com/todogroup/job-descriptions&lt;/a>&lt;/p>
-&lt;p>기업은 오픈소스 거버넌스 체계를 구축하기 위해 각 역할의 필요성을 정의하고, 어떠한 책임을 할당하여야 하는가를 판단해야 한다. 소규모 기업의 경우, 오픈소스 프로그램 매니저 혼자서 모든 역할을 수행하는 것도 가능하다. 기업의 규모에 따라 오픈소스 도구를 운영하는 인프라 담당자도 필요할 수 있고, 전문적인 법무 자문을 제공하기 위한 법무 담당의 역할이 요구될 수도 있다.&lt;/p>
-&lt;p>일반적으로 기업의 오픈소스 거버넌스 체계 구축을 위해서는 아래의 역할이 필요하다.&lt;/p>
+&lt;p>An open source program manager should be guaranteed to be able to perform the role as full-time as possible.&lt;/p>
+&lt;p>Global ICT companies are working hard to hire such excellent open source program managers, and you can check various job postings at the following site. : &lt;a href="https://github.com/todogroup/job-descriptions">https://github.com/todogroup/job-descriptions&lt;/a>&lt;/p>
+&lt;p>To establish open source governance, you need to define the needs of each role and determine what responsibilities should be assigned. For small businesses, it is possible for an open source program manager to perform all the roles alone. Depending on the size of the enterprise, an infrastructure person who operates open source tools may be required, and the role of a legal person may be required to provide professional legal advice.&lt;/p>
+&lt;p>In general, the following roles are required to establish a corporate open source governance system.&lt;/p>
 &lt;ul>
-&lt;li>법무 담당&lt;/li>
-&lt;li>인프라 담당&lt;/li>
-&lt;li>개발 문화 담당&lt;/li>
-&lt;li>보안 담당&lt;/li>
+&lt;li>Legal&lt;/li>
+&lt;li>Infrastructure&lt;/li>
+&lt;li>Development culture&lt;/li>
+&lt;li>Security&lt;/li>
 &lt;/ul>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 543px">
 &lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/3-teams/complianceofficer_hub381da67a0457ff40be51fb508361881_139738_900x600_fit_catmullrom_3.png" width="533" height="434">
@@ -280,51 +287,35 @@
 &lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>이와 같이 수행한다면 ISO/IEC 5230에서 요구하는 다음 입증 자료를 준비할 수 있다.&lt;/p>
+&lt;p>If you do the above, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
 &lt;div class="alert alert-success" role="alert">
 &lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
 &lt;ul>
-&lt;li>&lt;b>3.1.2.1 프로그램의 여러 참여자에 대한 역할과 각 역할의 책임을 나열한 문서&lt;/b>&lt;/li>
+&lt;li>&lt;b>3.1.2.1 : A documented list of roles with corresponding responsibilities for the different participants in the program.&lt;/b>&lt;/li>
 &lt;/ul>
 &lt;/div>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>자체 인증 1.c&lt;/th>
-&lt;th style="text-align:left">프로그램의 성능과 효과에 영향을 미치는 역할과 그에 상응하는 책임을 확인했습니까?&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;td style="text-align:left">Have you identified the roles and the corresponding responsibilities that affect the performance and effectiveness of the Program?&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="필요-역량-정의">필요 역량 정의&lt;/h2>
-&lt;p>각 역할과 그에 대한 책임을 정의하였다면 그 역할을 수행할 인원이 갖춰야 할 필요 역량이 무엇인지 파악해야 한다. 이를 통해 역할별 담당자에게 해당 역할을 수행할 수 있는 역량을 갖췄는지 평가하고, 필요시 교육을 제공해야 하기 때문이다.&lt;/p>
-&lt;p>이와 같이 수행한다면 ISO/IEC 5230에서 요구하는 다음 입증 자료를 준비할 수 있다.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Self Certify&lt;/h4>
+&lt;ul>
+&lt;li>&lt;b>1.c : A documented list of roles with corresponding responsibilities for the different participants in the program.&lt;/b>&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;h2 id="define-competencies">Define competencies&lt;/h2>
+&lt;p>Once you have defined each role and its responsibilities, you need to figure out what competencies the person performing that role should have. This is because, through this, it is necessary to evaluate whether the person in charge of each role has the capability to perform the role, and if there is not enough, the company must provide the necessary training to him.&lt;/p>
+&lt;p>If you do this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
 &lt;div class="alert alert-success" role="alert">
 &lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
 &lt;ul>
-&lt;li>&lt;b>3.1.2.2 각 역할을 위해 필요한 역량을 기술한 문서&lt;/b>&lt;/li>
+&lt;li>&lt;b>3.1.2.2 A document that identifies the competencies for each role.&lt;/b>&lt;/li>
 &lt;/ul>
 &lt;/div>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>자체 인증 1.d&lt;/th>
-&lt;th style="text-align:left">각 역할에 필요한 역량을 확인하고 문서화했습니까?&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;td style="text-align:left">Have you identified and documented the competencies required for each role?&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>아래의 이미지는 오픈소스 관련 조직과 담당자의 역할 및 요구되는 필요 역량과 담당자 현황을 명시한 테이블이이다. 오픈소스 프로그램 매니저는 이를 참고하여 오픈소스 조직을 구성할 수 있다.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Self Certify&lt;/h4>
+&lt;ul>
+&lt;li>&lt;b>1.d : Have you identified and documented the competencies required for each role?&lt;/b>&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;p>The table below is a sample representative that specifies the roles of open source-related organizations and people in charge, and the required competencies. You can refer to this and form an open source organization and document it.&lt;/p>
 &lt;p>&lt;img src="rolelist.png" alt="">&lt;/p>
 &lt;p>이 내용은 다음 페이지에서도 확인할 수 있다. : &lt;a href="https://haksungjang.github.io/docs/openchain/#appendix-1-%EB%8B%B4%EB%8B%B9%EC%9E%90-%ED%98%84%ED%99%A9">https://haksungjang.github.io/docs/openchain/#appendix-1-담당자-현황&lt;/a>&lt;/p>
 &lt;h2 id="담당자-지정">담당자 지정&lt;/h2>
@@ -1242,4 +1233,4 @@ This offer is valid to anyone in receipt of this information.
 &lt;/tbody>
 &lt;/table>
 &lt;p>여기까지 완료하면 기업은 드디어 ISO/IEC 5230의 모든 요구사항을 충족하게 된다.
-&lt;img src="totalno.png" alt="">&lt;/p></description></item></channel></rss>
+&lt;img src="totalno.png" alt="">&lt;/p></description></item><item><title>Guide: Appendix</title><link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/</guid><description/></item></channel></rss>
