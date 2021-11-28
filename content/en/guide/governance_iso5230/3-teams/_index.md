@@ -1,67 +1,73 @@
 ---
-title: "3. 조직 (담당자)"
-linkTitle: "3. 조직 (담당자)"
+title: "3. Team"
+linkTitle: "3. Team"
 weight: 30
 type: docs
 description: >
 ---
 
-## 역할과 책임 정의
+## Identify the roles and the corresponding responsibilities
 
-기업의 오픈소스 거버넌스 체계를 구축하기 위해서는 먼저 이를 책임지고 수행할 책임자가 필요하다. 오픈소스 프로그램 매니저, 오픈소스 컴플라이언스 담당자 등의 명칭으로 불릴 수 있으며, 이 책임자는 기업의 오픈소스 컴플라이언스에 대한 총괄 책임을 담당한다. 
+In order to establish a company's open source governance, it is necessary to appoint a person in charge of it. It may be called an open source program manager, an open source compliance officer, etc., and this person in charge is responsible for the overall open source compliance of the company. 
 
-아래의 역량을 가지고 있다면 이 역할에 적합하다고 할 수 있겠다. 
+A person with the following competencies is suitable for this role.
 
-- 오픈소스 생태계에 대한 이해 및 개발 경험 보유
-- 폭넓은 기업의 비즈니스 이해
-- 기업의 구성원에게 오픈소스 활용 방안을 전파할 수 있는 열정과 커뮤니케이션 능력
+- Understanding and development experience in the open source ecosystem
+- Broad understanding of the company's business
+- Passion and communication skills to spread the effective use of open source to members of the company
 
-오픈소스 프로그램 매니저는 가능한 풀타임으로 역할을 수행할 수 있도록 보장하는게 좋다. 
+An open source program manager should be guaranteed to be able to perform the role as full-time as possible.
 
-글로벌 ICT 기업은 이와 같은 우수한 오픈소스 프로그램 매니저를 채용하기 위해 노력하고 있으며, 다음 사이트에서는 다양한 채용 공고를 확인할 수 있다. : [https://github.com/todogroup/job-descriptions](https://github.com/todogroup/job-descriptions)
+Global ICT companies are working hard to hire such excellent open source program managers, and you can check various job postings at the following site. : [https://github.com/todogroup/job-descriptions](https://github.com/todogroup/job-descriptions)
 
-기업은 오픈소스 거버넌스 체계를 구축하기 위해 각 역할의 필요성을 정의하고, 어떠한 책임을 할당하여야 하는가를 판단해야 한다. 소규모 기업의 경우, 오픈소스 프로그램 매니저 혼자서 모든 역할을 수행하는 것도 가능하다. 기업의 규모에 따라 오픈소스 도구를 운영하는 인프라 담당자도 필요할 수 있고, 전문적인 법무 자문을 제공하기 위한 법무 담당의 역할이 요구될 수도 있다. 
+To establish open source governance, you need to define the needs of each role and determine what responsibilities should be assigned. For small businesses, it is possible for an open source program manager to perform all the roles alone. Depending on the size of the enterprise, an infrastructure person who operates open source tools may be required, and the role of a legal person may be required to provide professional legal advice.
 
-일반적으로 기업의 오픈소스 거버넌스 체계 구축을 위해서는 아래의 역할이 필요하다. 
+In general, the following roles are required to establish a corporate open source governance system.
 
-- 법무 담당
-- 인프라 담당
-- 개발 문화 담당
-- 보안 담당
+- Legal
+- Infrastructure
+- Development culture
+- Security
 
 {{< imgproc complianceofficer Fit "900x600" >}}
 <center><i>Individuals and teams involved in ensuring open source compliance : https://www.linuxfoundation.org/wp-content/uploads/OpenSourceComplianceHandbook_2018_2ndEdition_DigitalEdition.pdf</i></center>
 {{< /imgproc >}}
 
-이와 같이 수행한다면 ISO/IEC 5230에서 요구하는 다음 입증 자료를 준비할 수 있다.
+If you do the above, you can prepare the following evidence required by ISO/IEC 5230.
 
 {{% alert title="ISO/IEC 5230" color="success" %}}
 
-* <b>3.1.2.1 프로그램의 여러 참여자에 대한 역할과 각 역할의 책임을 나열한 문서</b>
+* <b>3.1.2.1 : A documented list of roles with corresponding responsibilities for the different participants in the program.</b>
 
 {{% /alert %}}
 
-| 자체 인증 1.c  | 프로그램의 성능과 효과에 영향을 미치는 역할과 그에 상응하는 책임을 확인했습니까? |
-|---|:---|
-|  | Have you identified the roles and the corresponding responsibilities that affect the performance and effectiveness of the Program? |
+{{% alert title="Self Certify" color="warning" %}}
 
-## 필요 역량 정의
+* <b>1.c : A documented list of roles with corresponding responsibilities for the different participants in the program.</b>
 
-각 역할과 그에 대한 책임을 정의하였다면 그 역할을 수행할 인원이 갖춰야 할 필요 역량이 무엇인지 파악해야 한다. 이를 통해 역할별 담당자에게 해당 역할을 수행할 수 있는 역량을 갖췄는지 평가하고, 필요시 교육을 제공해야 하기 때문이다. 
+{{% /alert %}}
 
-이와 같이 수행한다면 ISO/IEC 5230에서 요구하는 다음 입증 자료를 준비할 수 있다.
+
+## Define competencies
+
+Once you have defined each role and its responsibilities, you need to figure out what competencies the person performing that role should have. This is because, through this, it is necessary to evaluate whether the person in charge of each role has the capability to perform the role, and if there is not enough, the company must provide the necessary training to him.
+
+If you do this, you can prepare the following evidence required by ISO/IEC 5230.
 
 {{% alert title="ISO/IEC 5230" color="success" %}}
 
-* <b>3.1.2.2 각 역할을 위해 필요한 역량을 기술한 문서</b>
+* <b>3.1.2.2 A document that identifies the competencies for each role.</b>
 
 {{% /alert %}}
 
-| 자체 인증 1.d  | 각 역할에 필요한 역량을 확인하고 문서화했습니까? |
-|---|:---|
-|  | Have you identified and documented the competencies required for each role? |
 
-아래의 이미지는 오픈소스 관련 조직과 담당자의 역할 및 요구되는 필요 역량과 담당자 현황을 명시한 테이블이이다. 오픈소스 프로그램 매니저는 이를 참고하여 오픈소스 조직을 구성할 수 있다. 
+{{% alert title="Self Certify" color="warning" %}}
+
+* <b>1.d : Have you identified and documented the competencies required for each role?</b>
+
+{{% /alert %}}
+
+The table below is a sample representative that specifies the roles of open source-related organizations and people in charge, and the required competencies. You can refer to this and form an open source organization and document it.
 
 ![](rolelist.png)
 
