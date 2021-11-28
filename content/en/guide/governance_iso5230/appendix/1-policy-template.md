@@ -1,41 +1,43 @@
 ---
-title: "1. 샘플 오픈소스 정책"
+title: "1. Open Source Policy (Sample)"
 weight: 1
 type: docs
 ---
 {{< alert title="Note:" >}}
-이 샘플 오픈소스 정책은 다음 두 가지 자료를 참고하여 작성하였다.
+This sample open source policy was written with reference to the following two materials.
 
 1. [OpenChain Open Source Policy Template](https://github.com/OpenChain-Project/Reference-Material/blob/master/Open-Source-Policy/Official/2.1/en/Open-Source-Policy-Template-en-OpenChain2.1-ISO5230.xlsx)
 2. [Linux Foundation Generic FOSS Policy](https://github.com/todogroup/policies/blob/master/linuxfoundation/lf_compliance_generic_policy.pdf)
 {{< /alert >}}
 
 
-## 오픈소스 정책
+## Open Source Policy
 
-### 1. 목적
+### 1. Purpose
 
-이 정책은 오픈소스를 사용하는 조직 전체가 오픈소스 컴플라이언스 활동을 수행하도록 수립되었다. 이 정책은 모든 구성원이 오픈소스의 가치를 이해하고, 오픈소스를 올바르게 사용하며, 오픈소스 커뮤니티에 기여하기 위한 방법을 제공한다.
+This policy is established to ensure that all organizations using open source comply with open source compliance activities. This policy provides a way for all members to understand the value of open source, use open source properly, and contribute to the open source community.
 
-이 정책은 모든 구성원이 오픈소스 정책을 쉽게 접할 수 있도록 내부 시스템인 [LINK]에서도 확인할 수 있다.
+This policy can also be viewed on the internal system [LINK] so that all members can easily access the open source policy.
 
-### 2. 적용 범위
+### 2. Scope
 
-이 정책은 다음 세 부분에 적용한다. 
-1. [회사가 외부로 제공하거나 배포하는 모든 제품]에 적용한다. 단, 오픈소스를 내부 사용 목적으로만 사용하는 것은 이 정책의 범위에 포함되지 않는다.
-2. 구성원이 외부 오픈소스 프로젝트로의 기여 시에 적용한다.
-3. 내부 코드를 오픈소스로 공개할 때 적용한다.
+This open source policy covers the following three parts:
 
+1. Covers all products that the company provides or distributes externally. However, the use of open source only for internal use is not included in the scope of this policy.
+2. Covers when members contribute to external open source projects.
+3. Covers the release of internal code as open source.
+
+모든 구성원이 오픈소스 정책을 쉽게 접할 수 있도록 내부 시스템인 [LINK]에서도 확인할 수 있다.
 
 ### 3. 용어
 
-"컴플라이언스 산출물" - 컴플라이언스 프로그램의 결과물을 의미한다. 배포용 소프트웨어 공급 시 함께 제공해야 하는 산출물의 모음이다. 여기에는 다음 사항이 포함된다(단, 이에 국한되지 않음) : 저작자 고지, 소스 코드, 빌드 및 설치 스크립트, 라이선스 사본, 저작권 고지, 수정 내용 고지, 서면 청약(Written Offer), 오픈소스 컴포넌트 BOM (Bill of Materials), SPDX 문서.
+"컴플라이언스 산출물" - 컴플라이언스 프로그램의 결과물을 의미한다. 배포 대상 소프트웨어 공급 시 함께 제공해야 하는 산출물의 모음이다. 여기에는 다음 사항이 포함된다(단, 이에 국한되지 않음) : 저작자 고지, 소스 코드, 빌드 및 설치 스크립트, 라이선스 사본, 저작권 고지, 수정 내용 고지, 서면 청약(Written Offer), 오픈소스 컴포넌트 BOM (Bill of Materials), SPDX 문서.
 
 "오픈소스" - Open Source Initiative에서 만든 Open Source Definition (opensource.org/osd) 혹은 Free Software Foundation에서 만든 Free Software Definition (gnu.org/philosophy/free-sw.html)을 충족하는 라이선스, 혹은 이와 유사한 라이선스가 하나 이상 적용된 소프트웨어이다.
 
 "오픈소스 프로그램" - 오픈소스 정책, 프로세스, 인원 등 기업이 오픈소스 컴플라이언스 활동을 수행하기 위한 일련의 관리 체계를 의미한다.
 
-"배포용 소프트웨어" : 기업이 제3자(예: 다른 조직 또는 개인)에게 배포하는 소프트웨어이다. 
+"배포 대상 소프트웨어" : 기업이 제3자(예: 다른 조직 또는 개인)에게 배포하는 소프트웨어이다. 
 
 "OpenChain 프로젝트" - Linux Foundation의 프로젝트이며 오픈소스 컴플라이언스를 위한 국제 표준으로써 기업이 오픈소스 컴플라이언스를 위해 준수해야 할 활동을 더 간단하고 일관성 있게 만들어 소프트웨어 공급망 전체에 신뢰를 구축히기 위한 활동을 한다. 
 
@@ -155,8 +157,8 @@ type: docs
 
 소프트웨어 개발에 오픈소스를 사용하기 위해 소프트웨어 개발팀은 다음 사항을 준수한다. 
 * 먼저 오픈소스 라이선스가 무엇인지 식별하고, 라이선스가 요구하는 의무 사항을 검토하고 확인한다. 
-* 그렇게 배포용 소프트웨어에 포함된 오픈소스와 라이선스 의무사항을 식별하고, 소프트웨어를 배포 시 라이선스 의무사항을 준수하기 위한 활동을 수행하여 컴플라이언스 산출물을 생성한다.
-* 배포용 소프트웨어에 포함된 오픈소스 현황(BOM : Bill of Materials)을 문서화하여 관리한다. 
+* 그렇게 배포 대상 소프트웨어에 포함된 오픈소스와 라이선스 의무사항을 식별하고, 소프트웨어를 배포 시 라이선스 의무사항을 준수하기 위한 활동을 수행하여 컴플라이언스 산출물을 생성한다.
+* 배포 대상 소프트웨어에 포함된 오픈소스 현황(BOM : Bill of Materials)을 문서화하여 관리한다. 
 * 이를 효과적으로 수행하기 위해 기업의 오픈소스 컴플라이언스 프로세스를 준수한다.
 
 오픈소스 라이선스를 준수하는 과정에서 의문사항이 있을 경우 소프트웨어 개발팀은 오픈소스 센터에 문의한다. 
