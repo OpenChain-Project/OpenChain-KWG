@@ -61,12 +61,6 @@ description: >
 |---|:---|
 |  | Have you identified and documented the competencies required for each role? |
 
-아래의 테이블은 오픈소스 관련 조직과 담당자의 역할 및 요구되는 필요 역량을 명시한 샘플 담당자 현황이다. 기업은 이를 참고하여 오픈소스 조직을 구성하여 문서화할 수 있다. 
-
-![](rolelist.png)
-
-이 내용은 다음 페이지에서도 확인할 수 있다. : [https://haksungjang.github.io/docs/openchain/#appendix-1-담당자-현황](https://haksungjang.github.io/docs/openchain/#appendix-1-%EB%8B%B4%EB%8B%B9%EC%9E%90-%ED%98%84%ED%99%A9)
-
 ## 담당자 지정
 
 오픈소스 프로그램 매니저는 관련부서와 협의하여 각 역할을 위한 담당자를 지정하고 이를 문서화한다.  물론 이를 위해서는 CEO 등 최고 의사결정권자에게 오픈소스 컴플라언스 체계 구축을 위한 목표와 방향을 보고하여 필요한 지원을 받아야 할 것이다. 
@@ -79,7 +73,6 @@ SK텔레콤은 OSRB를 구성하여 기업 내 오픈소스 정책과 프로세�
 <center><i>https://sktelecom.github.io/about/osrb/</i></center>
 {{< /imgproc >}}
 
-
 이와 같이 수행한다면 ISO/IEC 5230에서 요구하는 다음 입증 자료를 준비할 수 있다.
 
 {{% alert title="ISO/IEC 5230" color="success" %}}
@@ -91,6 +84,13 @@ SK텔레콤은 OSRB를 구성하여 기업 내 오픈소스 정책과 프로세�
 | 자체 인증 2.d  | 프로그램 내 각 역할을 담당하는 인원, 그룹 또는 직무의 이름을 기재한 문서가 있습니까? |
 |---|:---|
 |  | Have you documented the persons, group or function supporting the Program role(s) identified? |
+
+
+아래의 테이블은 오픈소스 관련 조직과 담당자의 역할 및 요구되는 필요 역량을 명시한 샘플 담당자 현황이다. 기업은 이를 참고하여 오픈소스 조직을 구성하여 문서화할 수 있다. 
+
+![](rolelist.png)
+
+이 내용은 다음 페이지에서도 확인할 수 있다. : [https://haksungjang.github.io/docs/openchain/#appendix-1-담당자-현황](https://haksungjang.github.io/docs/openchain/#appendix-1-%EB%8B%B4%EB%8B%B9%EC%9E%90-%ED%98%84%ED%99%A9)
 
 
 이렇게 조직을 구성하면 ISO/IEC 5230의 요구 사항 중 아래와 같이 세가지 요구사항을 충족하게 된다. 

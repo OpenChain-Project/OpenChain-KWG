@@ -11,195 +11,328 @@ This sample open source policy was written with reference to the following two m
 {{< /alert >}}
 
 
-## Open Source Policy
+## 1. Purpose
 
-### 1. Purpose
+### (1) Purpose of the policy<sub>(3.1.3.1)</sub>
 
-This policy is established to ensure that all organizations using open source comply with open source compliance activities. This policy provides a way for all members to understand the value of open source, use open source properly, and contribute to the open source community.
+This policy provides the following principles for all organizations involved in software development, service, and distribution in OOO Company (hereinafter referred to as the "Company") to properly utilize open source software (hereinafter referred to as "Open Source"). 
 
-This policy can also be viewed on the internal system [LINK] so that all members can easily access the open source policy.
+1. Principles for open source license compliance
+2. Principles for contribution to external open source projects
+3. Principles for releasing open source
 
-### 2. Scope
+These principles provide a way for all members of the company to understand the value of open source, use it correctly, and contribute to the open source community.
 
-This open source policy covers the following three parts:
+All members of the company can view the open source policy at the following link on the in-house wiki: [internal_link]<sub>(3.1.1.1)</sub>
 
-1. Covers all products that the company provides or distributes externally. However, the use of open source only for internal use is not included in the scope of this policy.
-2. Covers when members contribute to external open source projects.
-3. Covers the release of internal code as open source.
+### (2) 미준수 시 영향
+이 정책을 준수하지 않는다면 다음과 같은 상황이 발생할 수 있다.  
 
+- 외부로부터 오픈소스 라이선스 준수 요구를 받게 된다.
+- 회사가 개발한 소스 코드를 원하지 않게 공개해야 한다.
+- 오픈소스 저작권자로부터 법적 소송을 제기당하게 된다.
+- 저작권 침해 및 계약 위반으로 벌금을 부과 당하거나, 제품 판매 중지 명령을 받게 된다.
+- 회사 평판이 손실된다. 
+- 공급업체와의 계약 위반이 되어 손해배상 청구를 당하게 된다.
 
-### 3. Terms
+이러한 이유로 회사는 오픈소스 정책의 위반을 심각하게 간주하며, 이를 위반하는 구성원이나 조직은 징계 절차에 처할 수 있다.
 
-"compliance artifacts" - a collection of artifacts that represent the output of a compliance program and accompany the supplied software. The collection may include (but is not limited to) one or more of the following: attribution notices, source code, build and install scripts, copy of licenses, copyright notices, modification notifications, written offers, open source component bill of materials, and SPDX documents.
+### (3) 구성원의 공헌 방법
 
-"open source" - software subject to one or more licenses that meet the Open Source Definition published by the Open Source Initiative (see opensource.org/osd) or the Free Software Definition published by the Free Software Foundation (see gnu.org/philosophy/free-sw.html) or similar license.
+회사의 모든 구성원은 이 정책의 근거와 내용을 이해하고 필요한 활동을 충실히 수행함으로써 정책의 효과 및 회사의 컴플라이언스 수준 향상에 공헌할 수 있다.
 
-"open source program" - the set of policies, processes and personnel that comprise an organization’s open source license compliance activities.
+## 2. Scope<sub>(3.1.4.1)</sub>
+This policy applies to the following three parts:
 
-"supplied software" - software that an organization distributes to third parties (e.g., other organizations or individuals). 
+1. Applies to [all products provided or distributed by the company externally]. However, the open source only for internal use is not included in the scope of this policy.
+2. Applied when contributing to external open source projects.
+3. Applied when releasing internal code as open source.
 
-"program participants" - any organization employee or contractor that defines, contributes to or has responsibility for preparing supplied software. Depending on the organization, that may include (but is not limited to) software developers, release engineers, quality engineers, product marketing and product management.
+The scope can be changed according to the business environment of the company, and the procedure for this is as follows.
 
-"OpenChain Project" - a project of the Linux Foundation. They create international standards for open source compliance, making it simpler and more consistent for businesses to achieve and building trust throughout the software supply chain.
+1. If the open source program manager determines that it is necessary to change the scope of policy according to changes in the company's business environment, such as a new business or reorganization, submit a proposal for this to the OSRB.
+2. OSRB approves proposals for scope changes at the appropriate level.
+3. OSRB modifies the open source policy to change the scope of the policy.
 
-“OpenChain conformant” - a program that satisfies all the requirements of this document.
 
+## 3. 용어
+* BOM (Bill of Materials) 
+* 소프트웨어 배포 참여자 : 회사가 소프트웨어를 개발하고 배포, 기여하는 데 관여하는 모든 직원을 의미하며, 소프트웨어 개발자, 배포 엔지니어, 품질 엔지니어 등을 포함한다. 
+* ...
 
-### 4. Roles, Responsibilities and Competencies
+## 4. Roles, Responsibilities and Competencies<sub>(3.1.2.1)</sub>
+In order to ensure the effectiveness of the policy, the roles and responsibilities and the competencies that the person in charge of each role should have are defined as follows.
 
-This chapter defines the roles and responsibilities required to ensure the effective implementation of this policy, as well as the competencies that the person in charge of each role should have.
+The person/group in charge of each role and the required competency level are defined in [Appendix 1. Status of Person in Charge].<sub>(3.1.2.2)</sub>
+ 
+* The open source program manager periodically updates the list according to the company's business situation.<sub>(3.2.2.1)</sub>
+* The head of the organization responsible for each role designates a person in charge within the organization, and allocates appropriate time and budget for the person in charge to fulfill the role.<sub>(3.2.2.2)</sub>
+  * The person in charge of each role should raise an issue with the open source program manager if appropriate support is not provided while performing his/her role.
+  * The open source program manager discusses problem solving with the head of the organization. If not properly resolved, the open source program manager may request the OSRB to resolve the issue.
+  * OSRB shares the problem with the head of the higher level organization and asks for a solution.
 
-* Executives responsible for software development and distribution should designate a person responsible for each role in the open source program and ensure that appropriate time and budget are allocated to fulfill the role.
-* The person in charge of each role must raise a problem to the person in charge of open source if he/she does not receive adequate support while performing his/her role. If not properly resolved, he/she should ask the OSRB to resolve the issue.
 
-#### A) Open Source Manager
-The Open Source Manager is in charge of general responsibility for the company's open source, establishes and operates the open source center, and presides over the OSRB. The Open Source Manager is responsible for the following to ensure open source compliance of products and services using open source.
+### (1) OSRB
+OSRB<sub>Open Source Review Board</sub> is a consultative body composed of an open source program manager, legal team, patent team, development team, and infrastructure team for the company's open source compliance.
 
-* Review, improve and disseminate open source policies.
-* Assign roles and assign responsibilities within the company to effectively implement open source policies.
-* Leads and evaluates open source compliance training.
-* Serves as chairman of the OSRB and directs its activities.
-* Guide software development teams in understanding and complying with open source policies and processes. If necessary, the issue is addressed by raising the issue to an officer.
-* Quickly respond to inquiries from outside about open source usage and compliance.
+* Create policies and processes for open source compliance, and define roles and responsibilities within the company to implement them.
+* When an open source compliance issue occurs within the company, discuss solutions and prepare countermeasures.
+* If necessary, report issues to the executive team to receive feedback on risk mitigation measures.
 
-The understanding and competencies required for an open source leader are:
-* software development process
-* Intellectual property related to open source licenses such as copyrights and patents
-Expertise in Open Source Compliance
-Open source development experience
-communication skills
+### (2) Open Source Program Manager
+The open source program manager is responsible for the overall responsibility for the company's open source programs. To ensure open source compliance of products and services using open source, open source program manager is responsible for:<sub>(3.2.2.4)</sub>
 
-As of November 2021, OOO of the OOO team is in charge of Open Source Manager role.
+- Define the roles required for open source compliance, and designate a responsible person and group in charge of each role. Consult with OSRB if necessary.
+- Supervise and evaluate open source compliance training.
+- Serves as the chair of the OSRB and directs its activities.
+- Respond to inquiries and requests related to open source use and compliance from outside.
+- Review and approve requests for use of open source.
+- Maintain open source BOM records.
+- Provides a way to request legal advice on open source.<sub>(3.2.2.3)</sub>
+- Maintain a repository for open source notices and source code disclosure.
 
-#### B) Open Source Center
+### (3) OSPO
+OSPO<sub>Open Source Program Office</sub> is responsible for supporting and nurturing the growth of open source activities inside and outside the company.
 
-The Open Source Center is a specialized center for open source compliance and defines the process for achieving compliance effectively. The opem source manager plays the role of a leader, and the members of the center are responsible for helping the open source manager smoothly carry out their responsibilities. The Open Source Center performs the following roles:
+- Establish, improve and disseminate open source policies.
+- Provides a guide for contributing code to external open source projects.
+- Provides a guide for releasing an in-house project as an open source.
+- Develop and operate an open source portal.
+- Develop and select open source tools.
+- Sponsor open source project events.
+- Manage relationships with the open source community.
 
-* Develop and provide compliance practice training.
-* Select / develop and provide automation tools for compliance.
-* Perform code scans and inspections to identify open sources in products and services.
-* Review and approve requests for use of open source.
-* Maintain records of open source usage lists (BOMs).
-* Develop and maintain a website for open source notices and source code disclosure.
+### (4) 법무 담당
+법무 담당은 오픈소스 라이선스와 의무를 해석하는 등 오픈소스 활용 과정에서 발생할 수 있는 법적 위험과 완화 방안에 대한 자문을 제공한다. 
 
-The understanding and competencies required for members of the Open Source Center are as follows.
-* Software development process
-* Intellectual property related to open source licenses such as copyrights and patents
-* Basic knowledge of open source compliance
-* Ability to utilize open source compliance tools
+- 호환되지 않는 오픈소스 라이선스로 인한 충돌을 포함하여 라이선스 및 지식재산권 문제에 대해 자문을 제공한다.
+- 외부 오픈소스 프로젝트로의 기여 시 오픈소스 라이선스, CLA<sub>Contributor License Agreement</sub> 등 필요한 법적 사항을 검토한다. 
 
-#### C) OSRB
-The Open Source Review Board (OSRB), also called the Open Source Steering Committee, is a consultative body composed of an open source manager, a legal team, a patent team, a development team, and the person in charge of related organizations such as an infrastructure team for open source management.
+### (5) IT 인프라 담당
+IT 인프라 담당은 오픈소스 분석 도구를 운영하고 자동화하여 모든 배포용 소프트웨어에 대해 라이선스 분석이 원활히 수행되도록 시스템을 구축한다. 
 
-* OSRB creates policies and processes for open source management, and defines R&R within the company to implement them.
-* When an open source issue occurs, discuss solutions and prepare countermeasures.
-* If necessary, report issues to executives to receive feedback on risk mitigation measures.
+- 오픈소스 라이선스 분석 도구를 운영한다. 
+- DevOps 환경과 통합하여 라이선스 분석을 자동화한다. 
+- 모든 배포용 소프트웨어를 대상으로 라이선스 분석이 수행되도록 시스템과 프로세스를 구축한다. 
+- 모든 배포용 소프트웨어에 대한 오픈소스 BOM을 확보하고 유지한다. 
 
-  The understanding and competencies required by OSRB members are as follows.
-* Software development process
-* Basic knowledge of open source compliance
+### (6) 보안 담당
+보안 담당은 오픈소스 보안취약점 분석 도구를 운영하여 모든 배포용 소프트웨어에 대해 보안취약점 분석이 원활히 수행되도록 시스템을 구축한다. 
 
-#### D) Software development team
+- 오픈소스 보안취약점 분석 도구를 운영한다. 
+- DevSecOps 환경과 통합하여 오픈소스 보안취약점 분석을 자동화한다. 
+- 모든 배포용 소프트웨어를 대상으로 오픈소스 보안취약점 분석이 수행되도록 시스템과 프로세스를 구축한다. 
 
-The software development team fully understands the company's open source policies and processes, and complies with the following:
-* Identify the open source to be used for software development and submit a request for open source use approval to the Open Source Center.
-* Fulfill the obligations of open source licenses applicable to open sources used for software development.
-* Design the software architecture so that the development code is not affected by the open source license by checking the binding relationship of open source.
+### (7) 개발 문화 담당
+개발 문화 담당은 사내 개발자들이 오픈소스를 적극적으로 활용하고 사내외 커뮤니티에 참여하여 선진 개발 문화를 습득할 수 있도록 지원한다. 
 
-The understanding and competencies required by members of the software development team are as follows.
-* Software development process
-* Basic knowledge of open source compliance
+- 오픈소스 커뮤니티로의 참여를 장려한다. 
+- 활발한 외부 오픈소스 프로젝트 활동을 사내 성과로 인정할 수 있는 문화를 조성한다. 
+- 오픈소스 개발자들에게 매력 있는 회사로 인식될 수 있는 개발 문화를 만들어간다. 
 
-#### E) Legal Team
+### (8) 품질 담당
+QA 등 품질을 담당하는 조직은 소프트웨어 배포 시 오픈소스 라이선스 의무를 적절히 수행하였는지 확인한다. 
 
-The legal team analyzes open source licenses and obligations. The legal team provides guidance to the software development team for the practical implementation of these obligations, and, as necessary, does the following:
-* Advise on licensing and intellectual property issues, including conflicts due to incompatible open source licenses.
-* Participate in open source use reviews and approval decisions.
-* Provide comments on requests for review for contributions to external open source projects.
+- 개발 프로세스 단계에 맞추어 오픈소스 컴플라이언스 활동이 수행되었는지 확인한다. 
+- 오픈소스 라이선스가 요구하는 대로 산출물을 생성하였는지 확인한다. 
+- 소프트웨어 배포 시 오픈소스 고지문과 공개할 소스 코드를 함께 제공하는지 확인한다. 
+- 이슈가 있으면 소프트웨어 개발/배포 조직에 통보하여 즉시 이슈를 수정하도록 안내한다. 
 
-The understanding and competencies required for members of the legal team are as follows.
-* Basic knowledge of the open source ecosystem
-* Expertise in software copyright
-* Expertise in Open Source Licensing
 
+## 5. 교육 및 평가
+모든 소프트웨어 배포 참여자는 매년 [Learning Portal]에서 제공하는 오픈소스 의무 교육을 수강해야 한다. 이를 통해 오픈소스 정책, 관련 교육 정책 및 조회 방법을 숙지한다. 교육 이력은 [Learning Portal]에 보존한다.<sub>(3.1.1.2)<sub>
 
-### 5. 교육 및 평가
+4장에서 정의한 각 역할을 담당하는 모든 구성원은 [Learning Portal]에서 제공하는 오픈소스 교육 고급 과정을 수강해야 한다. 교육 이력과 평가 결과는 [Learning Portal]에 최소 3년간 보존한다.<sub>(3.1.2.3)</sub>
 
-#### 교육
+## 6. Use open source
 
-오픈소스 책임자는 프로그램 참여자를 대상으로 매년 혹은 2년에 한 번씩 주기적인 교육을 제공함으로 모든 프로그램 참여자가 오픈소스 정책의 존재와 다음 사항을 인식하게 한다. 
+If you use open source to develop and distribute products and services, you should comply with the obligations required by each open source license. The activities that companies perform for this purpose are called open source compliance.
 
-(1) 오픈소스 정책의 존재 및 목표
+For proper open source compliance activities, software development/distribution organizations must comply with the following:<sub>(3.3.1.1)</sub>
 
-(2) 구성원 기여 방법
-* 모든 구성원은 이 정책의 근거와 내용을 이해하고 필요한 활동을 충실히 수행함으로써 정책의 효과 및 회사의 컴플라이언스 수준 향상에 기여할 수 있다. 
+* All processes of the open source compliance process are recorded and preserved in Jira Issue Tracker.
 
-(3) 미준수 시 위험 사항
-* 사용 중인 코드에 대한 저작권 또는 기타 지식재산권 보유자의 법적 클레임
-* 고객으로부터의 클레임
-* 회사 독점 코드의 의도치 않은 공개
-* 라이선스 의무 위반으로 인한 벌금 부과
-* 평판 손실
-* 수익 손실
-* 공급업체 및 고객과의 계약 위반
-이러한 이유로 회사는 코드 침해를 심각하게 간주하며, 코드를 침해하는 개인은 회사의 징계 절차에 처할 수 있다.
+### (1) 오픈소스 식별 및 라이선스 의무 사항 검토
 
-신규 입사자 대상 교육 시 오픈소스 정책에 대한 교육을 의무화한다. 또한, 누구나 수시로 오픈소스 정책을 참고할 수 있도록 사내 Wiki를 통해 전파한다.
+오픈소스를 제품 / 서비스 개발에 도입 시, 먼저 오픈소스 라이선스가 무엇인지 식별하고, 라이선스가 요구하는 의무 사항을 검토하고 확인한다. 
 
+회사의 [오픈소스 라이선스 가이드]에는 주요 오픈소스 라이선스 목록이 포함되어 있으며, 라이선스마다 다음의 배포 형태별 요구하는 의무사항을 구분하여 설명한다.<sub>(3.3.2.1)</sub>
 
-#### 평가
+- 바이너리 형태
+- 소스 형태
+- 강한/약한 Copyleft
+- SasS 기반 제공
+- 수정 여부
+- 저작자 표시 요구 오픈소스 포함 등. 
 
-이 정책을 수행하는 모든 참여자는 자신의 역할에 필요한 역량을 다루는 최소한의 기본 교육을 수강하고 평가를 받는다. 기업은 교육 제공과 평가를 통해 모든 참여자가 각자 자신의 역할을 수행할 역량을 갖추었음을 보장한다. 
+소프트웨어 개발/배포 조직은 오픈소스 라이선스 의무 검토 시 이 가이드를 참고할 수 있다. 이 가이드에서 언급하지 않는 오픈소스 라이선스의 검토가 필요할 경우, 오픈소스 프로그램 매니저에게 문의한다. 
 
-평가 기록은 최소 3년 동안 유지한다.
+### (2) 오픈소스 라이선스 고려 설계
 
+오픈소스의 결합 관계를 파악하여 자사의 코드가 오픈소스 라이선스의 영향을 받지 않도록 소프트웨어 아키텍처를 설계한다.
 
-### 6. 오픈소스 사용 정책
+회사의 [오픈소스 라이선스 가이드]에서는 오픈소스 라이선스별 소스 코드 공개 범위 및 자사 코드의 공개를 방지하기 위한 설계 방법을 설명한다.
 
-소프트웨어 개발에 오픈소스를 사용하기 위해 소프트웨어 개발팀은 다음 사항을 준수한다. 
-* 먼저 오픈소스 라이선스가 무엇인지 식별하고, 라이선스가 요구하는 의무 사항을 검토하고 확인한다. 
-* 그렇게 배포 대상 소프트웨어에 포함된 오픈소스와 라이선스 의무사항을 식별하고, 소프트웨어를 배포 시 라이선스 의무사항을 준수하기 위한 활동을 수행하여 컴플라이언스 산출물을 생성한다.
-* 배포 대상 소프트웨어에 포함된 오픈소스 현황(BOM : Bill of Materials)을 문서화하여 관리한다. 
-* 이를 효과적으로 수행하기 위해 기업의 오픈소스 컴플라이언스 프로세스를 준수한다.
+### (3) 오픈소스 컴플라이언스 산출물 생성
+오픈소스 컴플라이언스 활동의 가장 기본은 배포용 소프트웨어에 포함된 오픈소스 현황을 파악하는 것이다. 이는 바로 오픈소스 컴플라이언스의 핵심인 오픈소스 라이선스 요구사항을 올바르게 충족하기 위해서이다. 즉, 배포용 소프트웨어에 포함된 오픈소스에 대한 컴플라이언스 산출물 세트를 생성해야 한다.<sub>(3.4.1.1)</sub>
 
-오픈소스 라이선스를 준수하는 과정에서 의문사항이 있을 경우 소프트웨어 개발팀은 오픈소스 센터에 문의한다. 
-* 일반적이지 않은 사용 사례여서 법적 해석이 명확하지 않을 경우, 오픈소스 센터는  법무팀에 문의 할 수 있다.
-* 오픈소스 사용에 대한 검토 결과 및 관련 근거는 오픈소스 이슈 추적 시스템에 기록한다.
+오픈소스 컴플라이언스 산출물은 크게 두 가지로 구분된다.
 
+1. 오픈소스 고지문 : 오픈소스 라이선스 전문과 저작권 정보 제공을 위한 문서
+2. 공개할 소스 코드 패키지 : GPL, LGPL 등 소스 코드 공개를 요구하는 오픈소스 라이선스 의무 이행을 위해 공개할 소스 코드를 취합한 패키지
 
-### 7. 외부 문의 대응 정책
+이러한 컴플라이언스 산출물을 취합, 배포, 보관하기 위해 다음 사항을 준수한다.<sub>(3.4.1.2)</sub>
 
-#### 연락처 공개
+- 오픈소스 고지문이나 공개할 소스 코드 패키지는 각 라이선스가 요구하는 조건대로 취합한다. 예를 들어, 라이선스가 라이선스 전체 텍스트의 동봉을 요구하는데, 링크만을 제공해서는 안 된다. 
+- 취합한 산출물은 별도의 저장소에 보관한다. 
+- 공개할 소스 코드를 서면 약정서로 제공할 경우, 취합한 산출물의 저장소를 외부에서 접근할 수 있도록 다운로드 링크를 공개한다. 
+  
+회사의 오픈소스 컴플라이언스 프로세스를 통해 오픈소스 고지문을 발급하고, 공개할 소스 코드 패키지를 취합할 수 있다. 
 
-기업은 외부에서 오픈소스 관련한 문의 및 요청을 할 수 있도록 담당자의 연락처를 공개적으로 제공한다. 
-* 이를 위해 소프트웨어 배포 시 오픈소스 센터의 이메일 주소를 제공한다. 
-* 또한, Linux Foundation의 Open Compliance Directory ([https://compliance. linuxfoundation.org/ references/open-compliance-directory/](https://compliance.linuxfoundation.org/references/open-compliance-directory/))에 오픈소스 센터의 연락처를 등록한다.
+### (4) 오픈소스 BOM (Bill of Materials) 생성
+배포용 소프트웨어에 포함된 오픈소스 현황(BOM : Bill of Materials)을 생성하고 관리해야 한다.<sub>(3.3.1.2)</sub>
 
-#### 외부 문의 대응 절차
+회사의 오픈소스 컴플라이언스 프로세스를 통해 오픈소스 도구를 활용하여 오픈소스 BOM을 생성하고 보존할 수 있다. 
 
- 공개한 연락처로 외부 문의가 접수된 경우, 오픈소스 센터는 즉시 문의를 검토하여 기업 내 적절한 개인 또는 조직에 할당한다. 이를 위한 세부 절차는 다음과 같다. 
+### (5) Compliance Issue Remediation Procedure
 
-1. 질의 접수 승인 및 적절한 해결 시간을 명시한다.
-2. 질의가 진짜 문제인지를 확인한다. (아니라면 영업일 기준 3일 이내에 질의자에게 응답한다.)
-3. 이슈가 진짜 문제라면, 3일 이내에 적절한 대응 방법을 결정하고, 질의자에게 대응 계획에 대해 응답한다.
-4. 결정한 방법에 따라 30일 이내에 대응하고, 질의자에게 문제가 해결되었음을 알린다.
-5. 이상의 사항을 오픈소스 이슈 추적시스템에 기록한다.
+Should a non-compliance issue be raised, the Open Source Program Manager responds promptly by performing the following procedures.<sub>(3.2.2.5)</sub>
 
-이러한 외부 문의를 할당하고 처리하는 것에 대한 전반적인 책임은 오픈소스 책임자에게 있다. 
+1. Acknowledge receipt of the query and state a reasonable time for resolution;
+2. Determine whether the query discloses a genuine issue or not (and if not, respond to the querier accordingly);
+3. If the issue is genuine, apply to prioritise, and determine the appropriate response.
+4. Carry out response and, where necessary, improve open source compliance processes.
+5. Document the above using Jira Tracker.
 
-기업 내 누구든지 외부로부터 오픈소스 관련 문의를 받은 경우, 즉시 오픈소스 센터에 전달하여 외부 문의가 신속히 처리될 수 있도록 한다. 
 
-### 8. 오픈소스 기여 정책
+## 7. 오픈소스 기여
+회사는 오픈소스에서의 비즈니스 가치 창출을 위해 외부 오픈소스 프로젝트로의 참여와 기여를 권장한다. 그러나 이 과정에서 의도하지 않은 회사의 지식 재산 노출 혹은 제 3자의 권리 침해에 주의해야 한다. 이를 위해 회사의 구성원이 외부 오픈소스 프로젝트로의 기여를 위해서는 다음 사항을 준수해야 한다.<sub>(3.5.1.1)</sub>
 
-기업은 오픈소스에서의 비즈니스 가치 창출을 위해 외부 오픈소스 프로젝트로의 참여와 기여를 권장한다. 그러나 이 과정에서 의도하지 않은 기업의 지식 재산 노출 혹은 제3자의 권리 침해에 주의해야 한다. 이를 위해 기업의 구성원이 외부 오픈소스 프로젝트로의 기여를 위해서는 다음 사항을 준수해야 한다.
-* 회사의 업무와 관련이 있는 오픈소스 프로젝트에 기여하기 위해서는 먼저 SW개발팀 리더에게 승인을 받아야 한다.
-* 외부 오픈소스 프로젝트에 최초 기여 시에는 오픈소스 센터에 이를 알린다. 
-* 오픈소스 센터는 오픈소스 프로젝트의 오픈소스 라이선스와 특허 조건을 검토한다. 그리고, 오픈소스 프로젝트가 DCO (Developer Certificate of Origin), CLA (Contributor License Agreement) 등에 서명을 요구할 경우 에 대해 검토해야 한다. 필요할 경우 법무팀에 검토를 요청할 수 있다.
+### (1) 리뷰 요청 및 승인
 
-### 9. OpenChain 적합성
+오픈소스 기여는 저작권 관점에서 저작자가 저작물을 수정/사용/배포할 수 있는 권한을 오픈소스 프로젝트에 부여하는 것이다. 때에 따라서는 오픈소스 프로젝트에 여러분의 저작권을 양도해야 하기도 한다. 그런데 일반적으로 고용 기간에 만든 저작물의 저작권은 고용주가 소유한다. 즉, 회사 구성원이 만든 저작물은 회사가 소유한다. 구성원이 임의로 저작물을 오픈소스에 기여하는 행위는 불필요한 저작권 침해 이슈를 유발할 수 있다. 
 
-기업은 소프트웨어 공급망에서의 오픈소스 컴플라이언스 수준 향상을 위해 Linux Foundation의 OpenChain 프로젝트의 정신을 지지하며 적극적으로 참여한다. 또한 기업은 다음 사항을 확약한다.
+따라서, 기여하고자 하는 오픈소스 프로젝트가 있다면 오픈소스 기여 프로세스에 따라 최초 기여하기 전에 리뷰 요청 및 승인 절차를 준수한다.
 
-* 이 오픈소스 정책은 OpenChain 규격 버전 2.1에 적합하도록 설계되었다.
-* 기업은 OpenChain 규격 버전 2.1의 모든 요구사항을 준수한다. 
-* 기업은 OpenChain 적합성을 선언한 이후 최소 18개월 이상 OpenChain 규격 버전 2.1의 모든 요구사항을 준수하기 위해 정책 및 프로세스를 계속 개선하며 유지한다.
+단, 다음과 같이 단순한 내용일 경우, 저작권 침해 리스크가 크지 않기 때문에 리뷰 절차 없이 구성원의 판단에 따라 기여할 수 있다. 
+
+- 10 라인 이하의 작은 코드 조각
+- Stack Overflow에서의 문의 / 답변
+- GitHub에서의 관리 활동 : Issue 생성, Pull Request Review / Approve 등
+
+### (2) 기여할 권리가 있는 코드만 기여
+기여할 권리가 있는 코드만 기여해야 한다. 즉, 직접 작성한 코드를 기여한다. 제 3자의 코드를 임의로 기여해서는 안 된다. 
+
+### (3) 지식 재산 노출 주의
+민감한 정보, 특허 등 회사의 지식재산 노출이 우려되는 코드, 문서는 기여하지 않는다. 
+
+* 기여하려는 코드에 회사의 특허가 포함되어 있다면, 이 특허를 오픈소스 라이선스로 프로젝트에 기여해도 되는지 확인해야 한다. 모호한 부분이 있다면 OSPO에 문의한다. 
+
+### (4) CLA 서명 주의
+어떤 오픈소스 프로젝트는 모든 기여자에게 CLA<sub>Contributor License Agreement</sub>에 서명할 것을 요구한다. 이는 프로젝트가 여러 기여자의 저작물을 관리하면서 발생할 수 있는 저작권 분쟁을 줄이기 위해 기여자들에게 동의를 구하는 약정서이다. 보통 대회사가 주도하는 프로젝트에서 CLA에 서명할 것을 요구한다.
+
+CLA는 프로젝트마다 다르지만 주로 다음 사항을 동의한다는 내용을 담고 있다.
+
+- 나(또는 소속 회사)는 내가 기여하려고 하는 기여물을 프로젝트에 기여할 권리가 있다. (즉, 이 기여물의 저작자이다.)
+- 나(또는 소속 회사)는 나의 기여물을 프로젝트가 수정, 배포, 관리할 수 있는 권한을 프로젝트에 부여한다.
+- 나(또는 소속 회사)는 부여한 권한을 철회하지 않는다.
+- 나(또는 소속 회사)는 프로젝트가 향후 필요에 따라 라이선스를 변경할 수 있는 권한을 프로젝트에 부여한다.
+
+또한, 드문 경우지만, 어떤 CLA는 다음과 같은 조건에 대해서도 동의를 요구한다.
+
+- 나(또는 소속 회사)는 나의 기여물을 기여함과 동시에 나의 저작권을 프로젝트 또는 프로젝트 관리 조직으로 양도한다.
+
+회사는 자사의 지식재산 보호를 위해 저작권 양도를 요구하는 오픈소스 프로젝트로의 기여는 허용하지 않는다. 이러한 판단을 위해 회사의 구성원은 기여하려는 오픈소스 프로젝트에서 CLA 서명을 요구할 경우, 서명하기 전에 반드시 OSPO에 리뷰를 요청한다.
+
+### (5) 저작권 표시
+
+구성원이 재직 기간에 생성한 저작물의 지식재산은 기본적으로 회사가 소유한다. 따라서, 구성원은 외부 오픈소스 프로젝트에 코드를 기여할 때 회사의 저작권을 표기해야 한다.
+
+하나 이상의 파일을 기여할 때, 다음과 같이 파일 상단에 저작권과 라이선스를 표기한다. 
+
+~~~
+Copyright (c) {$year} {$Company}
+SPDX-License-Identifier: {$SPDX_license_name}
+~~~
+여기서 $SPDX_license_name은 해당 오픈소스 프로젝트의 라이선스 정책에 따라 작성한다.
+
+단, 버그 수정 등의 목적으로 기존 코드를 수정하는 정도라면 해당 코드 수정에 대해 저작권을 표기할 필요는 없다. 
+
+### (6) 회사 이메일 사용
+오픈소스 프로젝트에 기여 시 개인 이메일을 사용하지 말고, 회사 이메일을 사용한다. 이를 통해 (1) 구성원은 회사를 대표하여 커뮤니티와 커뮤니케이션한다는 책임감을 갖게 되고, (2) 회사가 오픈소스 커뮤니티에 기여 활동을 활발히 하는 회사로 인지도를 개선할 수 있다.
+
+## 8. 오픈소스 공개
+
+회사는 오픈소스 커뮤니티와의 협업의 가치를 존중하고, 이를 내부 소프트웨어를 오픈소스 프로젝트로의 공개를 장려한다. 하지만, 회사의 지식재산 보호와 의도치 않은 저작권 침해를 방지하기 위해 준수해야 할 몇 가지 규칙이 있다. 
+
+### (1) 승인
+오픈소스 공개는 저작권 관점에서 저작자가 저작물을 누구나 수정/사용/배포할 수 있는 권한을 오픈소스 라이선스를 통해 부여하는 것이다. 일반적으로 고용 기간에 만든 저작물의 저작권은 고용주가 소유한다. 즉, 회사 구성원이 만든 저작물은 회사가 소유한다. 구성원이 임의로 저작물을 오픈소스로 공개하는 행위는 불필요한 저작권 침해 이슈를 유발할 수 있다. 
+
+따라서, 소프트웨어를 오픈소스로 공개하고자 한다면 회사 오픈소스 공개 정책에 따라 리뷰 요청 및 승인 절차를 따른다. 
+
+공개하는 과정에서 어느 것이라도 무언가 바람직하지 않아 보이는 상황이 있다면 주저하지 말고 OSPO에 문의한다.
+
+### (2) 공개할 권리가 있는 코드만 공개
+
+오픈소스 프로젝트에서 발생할 수 있는 최악의 상황 중 하나는 법적으로 문제가 있는 코드가 프로젝트에 포함되는 것이다. 회사가 배포할 권리가 없는 코드이거나, 다른 회사의 특허와 같은 IP를 침해하는 코드가 법적인 문제를 유발할 수 있다. 따라서, 공개할 코드를 준비하면서 모든 코드의 출처를 확인하고 문제 소지가 있는 코드는 삭제한다.‌ 
+
+### (3) 지식 재산 노출에 주의
+민감한 정보, 특허 등 기업의 지식재산 노출이 우려되는 코드, 문서는 공개하지 않는다.
+
+공개하려는 코드에 회사의 특허가 포함되어 있다면, 이 특허를 오픈소스 라이선스로 공개해도 되는지 확인한다. 모호한 부분이 있다면 OSPO에 문의한다.
+
+### (4) 유용한 코드 공개
+성공적인 프로젝트가 되기 위해서는 다른 사람들에게도 유용해야 한다. 만약, 유사한 프로젝트가 이미 존재한다면, 새로운 프로젝트를 만드는 것보다 기존의 프로젝트에 참여한다. 
+
+공개하려는 오픈소스가 (1) 오픈소스 커뮤니티에 차별화된 가치를 제공하고, (2) 커뮤니티가 해결되지 못했던 문제를 해결하며, (3) 우리의 기술력을 공개함으로 긍정적인 관심을 끌 수 있는 프로젝트가 되기를 기대할 수 있어야 한다. 
+* 실제 제품이나 서비스에 사용하지 못한 코드라면 오픈소스로도 공개하지 않는다.
+* 오픈소스 커뮤니티에서 이미 해결한 문제를 다루는 코드는 공개하지 않는다. 이런 경우라면, 기존의 오픈소스 프로젝트에 기여한다.
+
+### (5) 리소스 확보
+개발자를 포함해서 프로젝트에 투입해야 할 리소스를 확보한다.‌
+
+* 초기에는 일반적인 사내 프로젝트와 비슷한 수준의 개발자가 필요하다.
+* 외부의 기여를 신속하게 리뷰 할 수 있는 개발자가 필요하다.
+* 법무팀, 마케팅팀의 역할도 필요하다.
+* 프로젝트를 유지, 관리하는데 요구되는 인프라에 대한 예산을 확보한다. 여기에는 Github와 같은 프로젝트 호스팅을 위한 도구가 포함된다.
+
+충분한 리소스가 지원되는 환경을 조성할 수 없다면, 오픈소스로 공개하지 않는다.
+
+### (6) 회사 이메일 사용
+오픈소스 공개 활동 시 개인 이메일을 사용하지 말고, 회사 이메일을 사용한다. 이를 통해 (1) 구성원은 회사를 대표하여 커뮤니티와 커뮤니케이션한다는 책임감을 갖게 되고, (2) 회사가 오픈소스 커뮤니티에 공개 활동을 활발히 하는 기업으로 인지도를 개선할 수 있다.
+
+## 9. Respond to external inquiries
+
+### (1) Responsibility for responding to external inquiries
+The open source program manager is responsible for responding to inquiries and requests for open source compliance from outside.<sub>(3.2.1.2)</sub>
+
+* The open source program manager may assign all or part of the handling of inquiries to appropriate personnel within the company. If necessary, contact the legal team to deal with it.
+* Anyone who receives an inquiry about open source compliance from outside will notify the open source program manager so that a prompt response can be made.
+
+### (2) Disclosure of contact information
+The open source program manager publicly provides the contact information of the person in charge so that external inquiries and requests related to open source can be submitted to the company.<sub>(3.2.1.1)</sub>
+
+* Include the email address of the person in charge in the open source notice.
+* Register your contact in the Linux Foundation's Open Compliance Directory.
+
+### (3) External Inquiry Response Procedure
+If you respond quickly and accurately to open source compliance inquiries from outside, you can significantly reduce the risk of going to a lawsuit. To this end, in order to respond to external open source compliance inquiries, you should follow the external inquiry response process defined in the company's open source compliance process.<sub>(3.2.1.2)</sub>
+
+## 10. OpenChain
+회사는 소프트웨어 공급망에서의 오픈소스 컴플라이언스 수준 향상을 위해 Linux Foundation의 OpenChain 프로젝트의 정신을 지지하며 적극적으로 참여한다. 
+
+- 회사는 이 오픈소스 정책을 적용하여 2021년 10월 1일부로 ISO/IEC 5230:2020을 준수함을 보장한다.<sub>(3.6.1.1)</sub>
+- 회사는 적합성 인증을 획득한 후 18개월 이상 OpenChain 규격 버전 2.1, ISO/IED 5230:2020의 모든 요구사항을 충족함을 보장한다.<sub>(3.6.2.1)</sub>
+- 회사는 최소 18개월 간격으로 적합성을 검토하고 필요에 따라 정책을 변경 및 갱신한다. 
+
+
+## Appendix 1. 담당자 현황
+
+| No | 역할 | 책임 | 필요 역량 | 담당 조직 | 담당자 | 
+|---|:---|:---|:---|:---|:---|
+| 1 | Open Source Program Manager | 회사의 오픈소스 프로그램에 대한 총괄 책임을 담당한다. | 1. 소프트웨어 개발 프로세스 이해<br>2. 저작권, 특허 등 오픈소스 라이선스와 관련한 지식재산 이해<br>3. 오픈소스 컴플라이언스에 대한 전문 지식<br>4. 오픈소스 개발 경험<br>5. 커뮤니케이션 스킬  | CTO | OOO |
+| 2 | Legal | 오픈소스 라이선스와 의무를 해석한다. 이러한 의무를 실제 이행하는 등 오픈소스 활용을 위해 발생할 수 있는 법적 위험의 완화를 위한 자문을 제공한다. | 1. 오픈소스 생태계에 대한 기본 지식<br>2. 소프트웨어 저작권에 대한 전문 지식<br>3. 오픈소스 라이선스에 대한 전문 지식 | 법무팀 | OOO | 
+| 3 | Infrastructure | 오픈소스 분석 도구를 운영하고 자동화하여 모든 배포용 소프트웨어에 대해 라이선스 분석이 원활히 수행되도록 시스템을 구축한다. | 1. 오픈소스 컴플라이언스 프로세스에 기본 지식<br>2. 오픈소스 라이선스 분석 도구에 대한 이해<br>3. IT 인프라에 대한 전문 지식 | IT 인프라팀 | OOO | 
+| 4 | Security | 오픈소스 보안취약점 분석 도구를 운영하여 모든 배포용 소프트웨어에 대해 보안취약점 분석이 원활히 수행되도록 시스템을 구축한다. | 1. 오픈소스 컴플라이언스 프로세스에 기본 지식<br>2. 오픈소스 라이선스 분석 도구에 대한 이해<br>3. 보안에 대한 전문 지식 | 보안팀 | OOO | 
+| 5 | Development culture | 사내 개발자들이 오픈소스를 적극적으로 활용하고 사내외 커뮤니티에 참여하여 선진 개발 문화를 습득할 수 있도록 지원한다.  | 1. 소프트웨어 개발 프로세스 이해<br>2. 오픈소스 컴플라이언스에 대한 기본 지식<br>3. 오픈소스 정책에 대한 이해 | DR | OOO | 
+| 6 | Development team | 소프트웨어 개발/배포 조직은 올바른 오픈소스 활용을 위해 오픈소스 정책 및 프로세스를 준수한다.  | 1. 소프트웨어 개발 프로세스 이해<br>2. 오픈소스 컴플라이언스에 대한 기본 지식<br>3. 오픈소스 정책에 대한 이해<br>4. 오픈소스 라이선스에 대한 기본 지식 | 개발팀 | 전원 | 

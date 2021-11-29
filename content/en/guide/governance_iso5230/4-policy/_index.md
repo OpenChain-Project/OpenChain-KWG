@@ -1,292 +1,331 @@
 ---
-title: "4. 정책"
-linkTitle: "4. 정책"
+title: "4. Policy"
+linkTitle: "4. Policy"
 weight: 40
 type: docs
 description: >
 ---
 
-## 오픈소스 정책 문서화
+## Document open source policy
 
-기업은 소프트웨어 개발, 서비스, 배포에 관혀는 조직이 올바르게 오픈소스를 활용하기 위한 원칙으로 구성된 오픈소스 정책을 수립하여 문서화하고 이를 조직 내 전파해야 한다. 
+A company should establish, document, and disseminate an open source policy composed of principles for a company to properly use open source in software development, service, and distribution.
 
-일반적인 오픈소스 정책은 다음을 포함한다.
+Common open source policies include:
 
-- 오픈소스를 사용하여 소프트웨어 제품과 서비스를 만들어서 배포하기 위한 원칙
-- 외부 오픈소스 커뮤니티에 기여하기 위한 원칙
-- 기업의 소프트웨어를 오픈소스로 공개하기 위한 원칙
+- Principles for creating and distributing software products and services using open source
+- Principles for contributing to the external open source community
+- Principles for releasing open source
 
-다음 페이지에서 ISO/IEC 5230의 요구사항을 충족하는 샘플 오픈소스 정책 문서를 제공한다. : “[부록 1. 샘플 오픈소스 정책](https://haksungjang.github.io/docs/openchain/#%EB%B6%80%EB%A1%9D-1-%EC%83%98%ED%94%8C-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%A0%95%EC%B1%85)” 
+The following pages provide sample open source policy documents that meet the requirements of ISO/IEC 5230. : “[부록 1. 샘플 오픈소스 정책](https://haksungjang.github.io/docs/openchain/#%EB%B6%80%EB%A1%9D-1-%EC%83%98%ED%94%8C-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%A0%95%EC%B1%85)” 
 
 ![](samplepolicy.png)
 
-각 기업은 이 샘플 정책을 기반으로 회사의 비즈니스 전략과 환경에 맞게 수정하여 사용할 수 있다.
+Each company can use this sample policy by modifying it according to the company's business strategy and environment.
 
-이와 같이 수행한다면 ISO/IEC 5230에서 요구하는 다음 입증 자료를 준비할 수 있다.
-
-{{% alert title="ISO/IEC 5230" color="success" %}}
-
-* <b>3.1.1.1 문서화된 오픈소스 정책</b>
-
-{{% /alert %}}
-
-| 자체 인증 1.a  | 배포용 소프트웨어의 배포를 위한 오픈소스 라이선스 컴플라이언스를 관리하는 문서화된 정책이 있습니까? |
-|---|:---|
-|  | Do you have a documented policy that governs open source license compliance of the Supplied Software distribution? |
-
-
-## 적용 범위 지정
-
-하나의 오픈소스 정책(프로그램)을 반드시 전체 조직에 적용해야 하는 것은 아니다. 기업 내 각 조직과 제품의 특성에 따라 적용 범위를 달리 지정할 수 있다. 조직별로, 제품별로 다른 오픈소스 프로그램을 적용할 수 있다. 마찬가지로, 소프트웨어를 전혀 배포하지 않는 조직이라면 오픈소스 프로그램의 적용 범위에서 제외할 수 있다. 기업은 조직과 제품의 특성을 고려하여 오픈소스 프로그램의 적용 범위와 한계를 명확히 정의하고, 이를 오픈소스 정책에 명시할 수 있다.
-
-기업의 조직과 제품 및 서비스가 비즈니스 환경에 맞추어 변화함에 따라 프로그램의 적용 범위를 결정하거나 수정해야 하는 상황이 발생할 수 있다. 가업은 이에 대응하기 위한 절차를 다음의 예와 같이 준비해야 한다.
-
-1. 오픈소스 프로그램 매니저는 새로운 프로젝트를 시작할 때 해당 프로젝트가 프로그램 적용 범위 내에 포함되는지 여부를 판단한다.
-2. 포함된다고 판단되는 경우, 해당 프로젝트를 프로그램 적용 범위에 포함 시키기 위한 제안을 OSRB에 제출한다.
-3. OSRB에서 수락할 경우, 이에 맞게 프로그램의 적용 범위를 수정한다.
-4. 이외 오픈소스 프로그램 매니저는 프로그램 적용 범위에 대한 검토가 필요하다고 판단되는 경우, 동일한 프로세스에 따라 프로그램 적용 범위에 대한 검토를 시작할 수 있다.
-
-다음의 예와 같은 내용을 오픈소스 정책에 포함할 수 있다.
-
-```
-2. 적용 범위
-이 정책은 다음 세 부분에 적용한다.
-
-1) 회사가 외부로 제공하거나 배포하는 모든 제품에 적용한다.
-   단, 오픈소스를 내부 사용 목적으로만 사용하는 것은 이 정책의 범위에 포함되지 않는다.
-2) 구성원이 외부 오픈소스 프로젝트로의 기여 시에 적용한다.
-3) 내부 코드를 오픈소스로 공개할 때 적용한다.
-
-적용 범위는 회사의 비즈니스 환경에 맞추어 변경할 수 있으며, 이를 위한 절차는 다음과 같다.
-
-1) 오픈소스 프로그램 매니저는 신규사업, 조직개편 등 회사의 비즈니스 환경이 변화에 따라
-   정책의 적용 범위 변경이 필요하다고 판단할 경우, 이를 위한 제안을 OSRB에 제출한다.
-2) OSRB에서는 적절한 수준의 적용 범위 변경을 승인한다.
-3) OSRB는 오픈소스 정책을 수정하여 정책의 적용 범위를 변경한다.
-```
-
-이와 같이 수행한다면 ISO/IEC 5230에서 요구하는 다음 입증 자료를 준비할 수 있다.
+If you do this, you can prepare the following evidence required by ISO/IEC 5230.
 
 {{% alert title="ISO/IEC 5230" color="success" %}}
 
-* <b>3.1.4.1 프로그램의 적용 범위와 한계를 명확하게 정의한 문서화된 진술</b>
+* <b>3.1.1.1 A documented open source policy.</b>
 
 {{% /alert %}}
 
-| 자체 인증 1.g  | 프로그램의 적용 범위를 결정하는 프로세스가 있습니까? |
-|---|:---|
-|  | Do you have a process for determining the scope of your Program? |
+{{% alert title="Self Certify" color="warning" %}}
+
+* <b>1.a : Do you have a documented policy that governs open source license compliance of the Supplied Software distribution (e.g., via training, internal wiki, or other practical communication method)?</b>
+
+{{% /alert %}}
 
 
-| 자체 인증 1.h  | 프로그램의 적용 범위와 한계를 명확하게 정의한 문서화된 진술이 있습니까? |
-|---|:---|
-|  | Do you have a written statement clearly defining the scope and limits of the Program? |
 
-## 외부 문의 대응 담당자 지정 / 연락처 공개
+## Define scope
 
-오픈소스를 사용하여 개발한 제품 혹은 서비스에 대해 고객 및 오픈소스 저작권자가 기업에 오픈소스 관련 문의, 요청 및 클레임을 제기하는 경우가 있다. 외부 문의 및 요청의 주된 내용은 다음과 같다.
+An open source program does not necessarily apply to the entire organization. The scope can be specified differently depending on the characteristics of each organization and product within the company. Different open source programs can be applied to different organizations and products. Similarly, organizations that do not distribute software at all may be excluded from the scope of the open source program. A company can clearly define the scope and limits of the application of an open source program in consideration of the characteristics of the organization and product, and specify it in the open source policy.
 
-- 특정 제품 및 서비스에 오픈소스가 사용되었는지 문의
-- 서면 약정(Written Offer)에 언급된 GPL, LGPL 라이선스 하의 소스 코드 제공 요청
-- 오픈소스 고지문에 명시되지 않았지만, 제품에서 발견된 오픈소스에 대한 해명 및 소스 코드 공개 요청
-- GPL, LGPL 등의 의무로 공개된 소스 코드에 누락된 파일 및 빌드 방법 제공 요청
-- 저작권 표시 요청
+As a company's organization and its products and services change with the business environment, it may be necessary to determine or modify the scope of the program. A company should prepare a procedure to manage it as in the following example.
 
-기업은 이러한 외부 문의를 처리할 담당자를 지정해야 한다. 일반적으로 오픈소스 프로그램 매니저가 담당한다.
+1. When starting a new project, the open source program manager determines whether the project falls within the scope of the program's coverage.
+2. If it is determined that the project is not included, a proposal to include the project in the scope of application is submitted to the OSRB.
+3. If accepted by OSRB, the scope of the open source program will be modified accordingly.
+4. Other than that, if the open source program manager determines that it is necessary to review the program scope, it may start the program scope review according to the same process.
 
-그리고, 외부의 오픈소스 개발자가 특정 기업의 오픈소스 컴플라이언스 관련 이슈를 논의하기 위해 기업 담당자에게 연락하고 싶어도 연락 방법을 찾지 못하다가 결국 바로 법적 클레임을 제기하는 경우가 있다. 이를 방지하기 위해 기업은 제 3자가 기업에 오픈소스 관련하여 문의 및 요청을 할 수 있는 연락 방법을 항시 공개적으로 밝혀야 한다.
+The following examples can be included in the open source policy.
 
-외부에서 기업에 오픈소스 관련된 문의를 할 수 있는 연락 방법은 (1) 기업 오픈소스 프로그램 매니저의 이메일 주소를 공개하거나, (2) Linux Foundation의 [Open Compliance Directory](https://compliance.linuxfoundation.org/references/open-compliance-directory/)를 이용하는 것이다. 
+```
+2. Scope
+This policy applies to the following three parts:
 
-기업 오픈소스 프로그램 사무소의 대표 이메일 주소는 제품 및 서비스와 동봉하는 오픈소스 고지문에 포함하여 공개하는 것도 좋은 방법이다.
+1. Applies to [all products provided or distributed by the company externally]. 
+   However, the open source only for internal use is not included in the scope of 
+   this policy.
+2. Applied when contributing to external open source projects.
+3. Applied when releasing internal code as open source.
+
+The scope can be changed according to the business environment of the company, 
+and the procedure for this is as follows.
+
+1. If the open source program manager determines that it is necessary to change 
+   the scope of policy according to changes in the company's business environment, 
+   such as a new business or reorganization, submit a proposal for this to the OSRB.
+2. OSRB approves proposals for scope changes at the appropriate level.
+3. OSRB modifies the open source policy to change the scope of the policy.
+```
+
+If you do this, you can prepare the following evidence required by ISO/IEC 5230.
+
+{{% alert title="ISO/IEC 5230" color="success" %}}
+
+* <b>3.1.4.1 A written statement that clearly defines the scope and limits of the program.</b>
+
+{{% /alert %}}
+
+
+{{% alert title="Self Certify" color="warning" %}}
+
+* <b>1.g : Do you have a process for determining the scope of your Program?  
+* 1.h : Do you have a written statement that clearly defines the scope and limits of the Program?</b>
+
+{{% /alert %}}
+
+## Respond to external inquiries
+
+For products or services developed using open source, customers and open source copyright holders may raise open source related inquiries, requests and claims to companies. The main contents of external inquiries and requests are as follows.
+
+- Ask if open source is used for certain products and services
+- Request to provide source code under the GPL, LGPL license mentioned in the Written Offer
+- A request for a description of the open source found in the product and disclosure of the source code, although not specified in the open source notice
+- Request to provide missing files and build methods in the source code published under GPL, LGPL, etc.
+- Request for copyright notice
+
+You should designate a contact person to handle these external inquiries. This is usually done by an open source program manager.
+
+In addition, even if an external open source developer wants to contact a company representative to discuss an issue related to a specific company's open source compliance, they cannot find a way to contact them and eventually file a legal claim. In order to prevent this, you must always disclose publicly how to contact the company from outside to make inquiries and requests related to open source.
+
+To disclose your contact information so that external open source related inquiries can be received, (1) publicly disclosed the email address of the company's open source program manager, or (2) the Linux Foundation's [Open Compliance Directory] (https://compliance.linuxfoundation. org/references/open-compliance-directory/).
+
+It is also a good idea to disclose the representative email address of the company open source program office in the open source notice that accompanies the product and service.
 
 ![](ossnotice.png)
 
 
-이러한 내용은 아래의 예시와 같이 오픈소스 정책에 반영할 수 있다. 
+These contents can be included in the open source policy as in the example below.
 
 ```
-1. 외부 문의 대응
-(1) 외부 문의 대응책임
-외부로부터 오픈소스 컴플라이언스에 대한 문의 및 요청에 대한 대응은 오픈소스 프로그램
-매니저가 담당한다.
+Respond to external inquiries
 
-오픈소스 프로그램 매니저는 [회사] 내의 적절한 인원에게 문의에 대한 전체 또는 일부의
-처리를 할당할 수 있다. 필요할 경우 법률 담당에게 문의하여 처리한다.
-외부로부터 오픈소스 컴플라이언스에 대한 문의를 받은 사람은 누구나 이를 오픈소스
-프로그램 매니저에게 알려서 신속한 대응이 될 수 있게 한다.
+(1) Responsibility for responding to external inquiries
+The open source program manager is responsible for responding 
+to inquiries and requests for open source compliance from 
+outside.<sub>(3.2.1.2)</sub>
 
-(2) 연락처 공개
-오픈소스 프로그램 매니저는 외부에서 오픈소스 관련한 문의 및 요청을 할 수 있도록
-담당자의 연락처를 공개적으로 제공한다.
+* The open source program manager may assign all or part of 
+  the handling of inquiries to appropriate personnel within the 
+  company. If necessary, contact the legal team to deal with it.
+* Anyone who receives an inquiry about open source compliance 
+  from outside will notify the open source program manager so 
+  that a prompt response can be made.
 
-* 오픈소스 고지문에 연락받을 수 있는 이메일 주소 정보를 제공한다.
-* Linux Foundation의 Open Compliance Directory에 연락처를 등록한다.
+(2) Disclosure of contact information
+The open source program manager publicly provides the contact 
+information of the person in charge so that external inquiries 
+and requests related to open source can be submitted to the 
+company.<sub>(3.2.1.1)</sub>
 
-(3) 외부 문의 대응 절차
-외부로부터의 오픈소스 컴플라이언스 문의에 신속하고 정확하게 대응한다면 소송까지
-진행되는 위험을 크게 줄일 수 있다. 이를 위해 회사는 외부의 오픈소스 컴플라이언스
-문의에 대응하기 위해 오픈소스 컴플라이언스 프로세스에서 정의한 외부 문의 대응 절차를
-준
+* Include the email address of the person in charge in the open 
+  source notice.
+* Register your contact in the Linux Foundation's Open Compliance 
+  Directory.
+
+(3) External Inquiry Response Procedure
+If you respond quickly and accurately to open source compliance 
+inquiries from outside, you can significantly reduce the risk of 
+going to a lawsuit. To this end, in order to respond to external 
+open source compliance inquiries, you should follow the external 
+inquiry response process defined in the company's open source 
+compliance process.<sub>(3.2.1.2)</sub>
 ```
 
-이와 같이 수행한다면 ISO/IEC 5230에서 요구하는 다음 입증 자료를 준비할 수 있다. 
+If you do this, you can prepare the following evidence required by ISO/IEC 5230.
 
 {{% alert title="ISO/IEC 5230" color="success" %}}
 
-* <b>3.2.1.1 제 3자가 오픈소스 라이선스 컴플라이언스에 대해 문의 할 수 있는 공개된 방법 (담당자 이메일 주소, 또는 Linux Foundation의 Open Compliance Directory 활용 등)</b>
+* <b>3.2.1.1 Publicly visible method that allows any third party to make an open source license compliance inquiry (e.g., via a published contact email address, or the Linux Foundation's Open Compliance Directory).</b>
 
 {{% /alert %}}
 
-| 자체 인증 2.a  | 외부 오픈소스 컴플라이언스 문의를 받을 담당자(오픈소스 연락담당자)를 지정했습니까? |
-|---|:---|
-|  | Have you assigned individual(s) responsible for receiving external open source compliance inquiries (“Open Source Liaison”)? |
+
+{{% alert title="Self Certify" color="warning" %}}
+
+* <b>2.a : Do you have a documented procedure that assigns responsibility for receiving and responding to open source compliance inquiries?</b>
+* <b>2.b : Is the Open Source Liaison function publicly identified (e.g. via an email address and/or the Linux Foundation's Open Compliance Directory)?</b>
+
+{{% /alert %}}
 
 
-| 자체 인증 2.b  | 오픈소스 연락 담당자 정보가 외부에 공개되어 있습니까(예: 이메일 주소 또는 Linux Foundation의 Open Compliance Directory 활용)? |
-|---|:---|
-|  | Is the Open Source Liaison function publicly identified (e.g. via an email address and/or the Linux Foundation’s Open Compliance Directory)? |
+## Provide staff and funding
 
-## 인원, 예산 등 지원
-
-기업은 오픈소스 프로그램이 원활하게 기능을 수행할 수 있도록 충분한 리소스를 제공해야 한다. 프로그램 내 각 역할을 담당하는 인원을 적합하게 배치하고, 충분한 예산과 업무 시간을 보장해야 한다. 그렇지 않을 경우, 이를 보완할 수 있는 절차가 마련되어야 한다. 다음의 예시 문장을 오픈소스 정책 문서에 추가할 수 있다.
+You must provide sufficient resources for open source programs to function properly. Staff for each role in the program should be appropriately assigned, and sufficient funding and working hours should be ensured. If there is a shortage, there should be a procedure to make up for it. The following example sentences can be added to the open source policy document.
 
 ```
-4. 역할, 책임 및 역량
+4. Roles, Responsibilities and Competencies
 
-각 역할에 대한 담당 조직의 장은 조직 내 담당자를 지정하고, 담당자가 역할을 충실하게
-수행할 수 있는 적절한 사간과 예산을 할당한다. 각 역할의 담당자는 자신이 역할을
-수행하면서 적절한 지원이 되지 않는다면 오픈소스 프로그램 매니저에게 문제를 제기해야
-한다. 오픈소스 프로그램 매니저는 해당 조직장과 문제 해결을 논의한다. 적절하게
-해결되지 않는다면, 오픈소스 프로그램 매니저는 OSRB에 문제 해결을 요청할 수 있다.
-OSRB는 상위 조직의 장에게 문제를 공유하고 해결을 요청한다.
+The head of the organization responsible for each role designates 
+a person in charge within the organization, and allocates appropriate 
+time and budget for the person in charge to fulfill the role.
+ * The person in charge of each role should raise an issue with 
+   the open source program manager if appropriate support is not 
+   provided while performing his/her role.
+ * The open source program manager discusses problem solving with 
+   the head of the organization. If not properly resolved, the open 
+   source program manager may request the OSRB to resolve the issue.
+ * OSRB shares the problem with the head of the higher level organization 
+   and asks for a solution.
 ```
 
-이와 같이 수행한다면 ISO/IEC 5230에서 요구하는 다음 입증 자료를 준비할 수 있다. 
+If you do this, you can prepare the following evidence required by ISO/IEC 5230.
 
 {{% alert title="ISO/IEC 5230" color="success" %}}
 
-* <b>3.2.2.2 프로그램 내 각 역할을 담당하는 인원이 적합하게 배치되고, 예산이 적절하게 지원되어야 한다.</b>
+* <b>3.2.2.2 The identified program roles have been properly staffed and adequate funding provided.</b>
 
 {{% /alert %}}
 
-| 자체 인증 2.e  | 프로그램 내 각 역할을 담당하는 인원이 적합하게 배치되고, 예산이 적절하게 지원되었습니까? |
-|---|:---|
-|  | Have the identified Program roles been properly staffed and has adequate funding provided? |
 
-## 법률 자문 제공
+{{% alert title="Self Certify" color="warning" %}}
 
-기업은 각 역할의 담당자가 오픈소스 컴플라이언스 이슈 해결을 위해 법률적인 검토가 필요할 경우, 이에 대해 법률 자문을 요청할 수 있는 방법을 제공해야 한다. 회사 내의 법무팀을 통해 우선 제공하고, 이슈가 첨예한 경우, 오픈소스 전문 변호사를 보유한 외부 법무 법인을 이용할 수 있다. 이를 위한 오픈소스 정책의 예시는 다음과 같다.
+* <b>2.e : Have the identified Program roles been properly staffed and has adequate funding provided?</b>
+
+{{% /alert %}}
+
+
+## Identify Legal Expertise
+
+You should provide a way for the person in charge of each role to seek legal advice when a legal review is needed to resolve an open source compliance issue.
+
+The legal team within the company provides legal advice first, and if the issue is complex, you can seek advice from an external law firm with an open source lawyer. An example of an open source policy for this is as follows.
 
 ```
-4. 역할, 책임 및 역량
+4. Roles, Responsibilities and Competencies
 
-(2) 오픈소스 프로그램 매니저
-* 오픈소스 프로그램 매니저는 구성원이 오픈소스 관련 법률 자문을 받을 수 있는 방법을
-  제공한다.
-* 오픈소스 프로그램 매니저는 외부 법무 법인을 참여시켜야 하는지 여부를 결정한다.
-  외부 법률 고문의 효과와 적절성은 오픈소스 프로그램 매니저가 매년 평가하고 검토한다.
+(2) Open Source Program Manager
+* Provides a way to request legal advice on open source.
 ```
 
-이와 같이 수행한다면 ISO/IEC 5230에서 요구하는 다음 입증 자료를 준비할 수 있다. 
+If you do this, you can prepare the following evidence required by ISO/IEC 5230.
 
 {{% alert title="ISO/IEC 5230" color="success" %}}
 
-* <b>3.2.2.3 오픈소스 라이선스 컴플라이언스 문제 해결을 위해 내부 또는 외부의 전문 법률 자문을 이용하는 방법</b>
+* <b>3.2.2.3 Identification of legal expertise available to address open source license compliance matters which could be internal or external.</b>
 
 {{% /alert %}}
 
-| 자체 인증 2.f  | 오픈소스 컴플라이언스와 관련된 문제 해결을 위해 내부 또는 외부의 법률 전문 자문을 이용하는 방법이 있습니까? |
-|---|:---|
-|  | Is legal expertise pertaining to internal and external open source compliance identified? |
 
+{{% alert title="Self Certify" color="warning" %}}
 
-참고로, OpenChain 프로젝트에서는 파트너 프로그램을 통해 오픈소스 관련 자문을 제공하는 글로벌 법무법인 리스트를 제공한다. : [https://www.openchainproject.org/partners](https://www.openchainproject.org/partners)
+* <b>2.f : Is legal expertise pertaining to internal and external open source compliance identified?</b>
 
-OpenChain 파트너로 등록된 법무법인은 OpenChain 프로젝트에서 요구하는 요건을 충족한 곳들이며, 대한민국에서는 유일하게 법무법인 태평양이 등록되어 있다.
+{{% /alert %}}
 
-## 내부 책임 할당 절차
+For reference, the OpenChain project provides a list of global law firms that provide open source-related advice through partner programs. : [https://www.openchainproject.org/partners](https://www.openchainproject.org/partners)
 
-오픈소스 컴플라이언스를 위한 내부 책임을 할당하는 절차가 있어야 한다. 이는 오픈소스 프로그램 매니저의 역할이다. 오픈소스 프로그램 매니저는 이슈를 파악하고 각 역할의 담당자에게 적절히 이슈를 할당해야 한다. 이를 위해 기업은 오픈소스 정책 문서에 이러한 내용을 아래와 같이 기술할 수 있다.
+## Assigns internal responsibilities
+
+There should be a process for assigning internal responsibilities for open source compliance. This is the role of an open source program manager. The open source program manager must identify the issues and assign them appropriately to the person in charge of each role. To do this, you should include this in your open source policy document as follows:
 
 ```
-4. 역할, 책임 및 역량
+4. Roles, Responsibilities and Competencies
 
-(2) 오픈소스 프로그램 매니저
+(2) Open Source Program Manager
 
-오픈소스 프로그램 매니저는 회사의 오픈소스 프로그램에 대한 총괄 책임을 담당한다. 
-오픈소스를 사용한 제품과 서비스의 오픈소스 컴플라이언스를 보장하기 위해 다음 사항에 
-대한 책임이 있다.
+The open source program manager is responsible for the overall 
+responsibility for the company's open source programs. 
+To ensure open source compliance of products and services using 
+open source, open source program manager is responsible for:
 
-* 오픈소스 컴플라이언스를 위해 필요한 역할을 정의하고, 각 역할을 책임질 담당 조직 
-및 담당자를 지정한다. 필요 시 OSRB와 협의한다.
+- Define the roles required for open source compliance, and 
+  designate a responsible person and group in charge of each 
+  role. Consult with OSRB if necessary.
+
 ```
-
-이와 같이 수행한다면 ISO/IEC 5230에서 요구하는 다음 입증 자료를 준비할 수 있다. 
+If you do this, you can prepare the following evidence required by ISO/IEC 5230.
 
 {{% alert title="ISO/IEC 5230" color="success" %}}
 
-* <b>3.2.2.4 오픈소스 컴플라이언스에 대한 내부 책임을 할당하는 문서화된 절차</b>
+* <b>3.2.2.4 A documented procedure that assigns internal responsibilities for open source compliance.</b>
 
 {{% /alert %}}
 
-| 자체 인증 2.g  | 오픈소스 컴플라이언스에 대한 내부 책임을 할당하는 문서화된 절차가 있습니까? |
-|---|:---|
-|  | Do you have a documented procedure assigning internal responsibilities for Open Source compliance? |
+
+{{% alert title="Self Certify" color="warning" %}}
+
+* <b>2.g : Do you have a documented procedure assigning internal responsibilities for Open Source compliance?</b>
+
+{{% /alert %}}
 
 
-## 미준수 사례 대응
 
-컴플라이언스 미준수 문제가 제기된 경우, 기업은 이를 신속히 검토하고 대응하기 위한 절차를 문서화해야 한다. 다음의 예시를 참고하여 오픈소스 정책에 포함할 수 있다.
+## Handle non-compliant cases
+
+Businesses should document procedures for promptly reviewing and responding to non-compliance cases. Refer to the following examples and include them in your open source policy.
 
 ```
-1. 오픈소스 사용
+6. Use open source
 
-(5) 컴플라이언스 이슈 수정 절차
-컴플라이언스 이슈가 제기될 경우, 오픈소스 프로그램 매니저는 다음의 절차를 수행하여
-신속히 대응한다.
+(5) Compliance Issue Remediation Procedure
 
-1. 문의 접수를 확인하고 적절한 해결 시간을 명시한다.
-2. 이슈 내용이 실제 문제를 지적하고 있는지를 확인한다. (아닐 경우, 이슈 제기자에게
-   문제가 아님을 알린다.)
-3. 실제 문제인 경우, 우선순위를 정하고 적절한 대응 방안을 결정한다.
-4. 대응을 수행하고, 필요할 경우, 오픈소스 컴플라이언스 프로세스를 적절하게 보완한다.
-5. 위의 내용은 Jira Tracker를 이용하여 보존한다.
+Should a non-compliance issue be raised, the Open Source Program Manager 
+responds promptly by performing the following procedures.
+
+1. Acknowledge receipt of the query and state a reasonable time for resolution;
+2. Determine whether the query discloses a genuine issue or not 
+   (and if not, respond to the querier accordingly);
+3. If the issue is genuine, apply to prioritise, and determine the appropriate response.
+4. Carry out response and, where necessary, improve open source compliance processes.
+5. Document the above using Jira Tracker.
+
 ```
 
-이와 같이 수행한다면 ISO/IEC 5230에서 요구하는 다음 입증 자료를 준비할 수 있다. 
+If you do this, you can prepare the following evidence required by ISO/IEC 5230.
 
 {{% alert title="ISO/IEC 5230" color="success" %}}
 
-* <b>3.2.2.5 미준수 사례를 검토하고 이를 수정하기 위한 문서화된 절차</b>
+* <b>3.2.2.5 A documented procedure for handling the review and remediation of non-compliant cases.</b>
 
 {{% /alert %}}
 
-| 자체 인증 2.h  | 미준수 사례를 검토하고 이를 수정하기 위한 문서화된 절차가 있습니까? |
-|---|:---|
-|  | Do you have a documented procedure for handling review and remediation of non-compliant cases? |
 
-## 오픈소스 기여 정책
+{{% alert title="Self Certify" color="warning" %}}
 
-글로벌 소프트웨어 기업들은 제품을 만들고 서비스를 하는 데 오픈소스를 사용하는 것뿐만 아니라 오픈소스 프로젝트에 기여하며 창출할 수 있는 전략적 가치도 중요하게 여긴다. 그러나 오픈소스 프로젝트 생태계와 커뮤니티 운영방식에 대한 충분한 이해와 전략 없이 접근한다면 예기치 않게 회사의 명성이 손상되고 법적 위험이 발생할 수 있다. 따라서 기업은 오픈소스 프로젝트로의 참여 및 기여를 위한 전략과 정책을 만드는 것이 중요하다.
+* <b>2.7 : Do you have a documented procedure for handling review and remediation of non-compliant cases?</b>
 
-이러한 오픈소스 기여에 대한 정책은 NIPA OpenChain 해설서 [부록 1. 샘플 오픈소스 정책](https://haksungjang.github.io/docs/openchain/#%EB%B6%80%EB%A1%9D-1-%EC%83%98%ED%94%8C-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%A0%95%EC%B1%85)의 [7. 오픈소스 기여](https://haksungjang.github.io/docs/openchain/#7-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B8%B0%EC%97%AC)를 참고할 수 있다.
+{{% /alert %}}
+
+
+## Open Source Contribution Policy
+
+Global IT companies value not only the use of open source to make products and services, but also the strategic value that can be created by contributing to open source projects. However, if you contribute without a sufficient understanding and strategy for the open source project ecosystem and how the community operates, unexpected legal risks may arise and the company's reputation may be damaged. Therefore, it is important for companies to create strategies and policies for participation and contribution to open source projects.
+
+The following pages provide sample open source contribution policy documents. : [7. 오픈소스 기여](https://haksungjang.github.io/docs/openchain/#7-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B8%B0%EC%97%AC)
 
 ![](samplecontribution.png)
 
 
-이와 같이 수행한다면 ISO/IEC 5230에서 요구하는 다음 입증 자료를 준비할 수 있다. 
+If you do this, you can prepare the following evidence required by ISO/IEC 5230.
 
 {{% alert title="ISO/IEC 5230" color="success" %}}
 
-* <b>3.5.1.1 문서화된 오픈소스 기여 정책</b>
+* <b>3.5.1.1 A documented open source contribution policy</b>
 
 {{% /alert %}}
 
-| 자체 인증 5.a  | 조직을 대신하여 오픈소스 프로젝트에 기여하는 것을 관리하는 정책이 있습니까? |
-|---|:---|
-|  | Do you have a policy that governs contributions to open source projects on behalf of the organization? |
 
-위와 같은 내용을 포함하는 오픈소스 정책까지 수립하게 되면 ISO/IEC 5230 요구사항 중 다음의 사항을 만족하게 된다. 
+{{% alert title="Self Certify" color="warning" %}}
+
+* <b>5.a : Do you have a policy that governs contributions to open source projects on behalf of the organization?</b>
+
+{{% /alert %}}
+
+
+If you even establish an open source policy that includes the above, the following green items among the ISO/IEC 5230 requirements will be satisfied.
 
 ![](policynumber.png)
