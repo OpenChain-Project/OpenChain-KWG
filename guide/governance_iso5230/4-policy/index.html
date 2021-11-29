@@ -179,7 +179,15 @@ Korean
 <ul>
 <li class=collapse id=openchain-kwgguidegovernance_iso5230appendix>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-openchain-kwgguidegovernance_iso5230appendix1-policy-template href=/OpenChain-KWG/guide/governance_iso5230/appendix/1-policy-template/>1. 오픈소스 정책 (샘플)</a>
-<a class="td-sidebar-link td-sidebar-link__page" id=m-openchain-kwgguidegovernance_iso5230appendix2-process-template href=/OpenChain-KWG/guide/governance_iso5230/appendix/2-process-template/>2. 오픈소스 컴플라이언스 프로세스 (샘플)</a>
+<ul class="td-sidebar-nav__section pr-md-3">
+<li class=td-sidebar-nav__section-title>
+<a href=/OpenChain-KWG/guide/governance_iso5230/appendix/2-process/ class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">2. 오픈소스 컴플라이언스 프로세스 (샘플)</a>
+</li>
+<ul>
+<li class=collapse id=openchain-kwgguidegovernance_iso5230appendix2-process>
+</li>
+</ul>
+</ul>
 <ul class="td-sidebar-nav__section pr-md-3">
 <li class=td-sidebar-nav__section-title>
 <a href=/OpenChain-KWG/guide/governance_iso5230/appendix/3-tools/ class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">3. Tools (FOSSology, SW360)</a>
@@ -330,10 +338,10 @@ Korean
 </table>
 <h2 id=적용-범위-지정>적용 범위 지정</h2>
 <p>하나의 오픈소스 정책(프로그램)을 반드시 전체 조직에 적용해야 하는 것은 아니다. 기업 내 각 조직과 제품의 특성에 따라 적용 범위를 달리 지정할 수 있다. 조직별로, 제품별로 다른 오픈소스 프로그램을 적용할 수 있다. 마찬가지로, 소프트웨어를 전혀 배포하지 않는 조직이라면 오픈소스 프로그램의 적용 범위에서 제외할 수 있다. 기업은 조직과 제품의 특성을 고려하여 오픈소스 프로그램의 적용 범위와 한계를 명확히 정의하고, 이를 오픈소스 정책에 명시할 수 있다.</p>
-<p>기업의 조직과 제품 및 서비스가 비즈니스 환경에 맞추어 변화함에 따라 프로그램의 적용 범위를 결정하거나 수정해야 하는 상황이 발생할 수 있다. 가업은 이에 대응하기 위한 절차를 다음의 예와 같이 준비해야 한다.</p>
+<p>기업의 조직과 제품 및 서비스가 비즈니스 환경에 맞추어 변화함에 따라 프로그램의 적용 범위를 결정하거나 수정해야 하는 상황이 발생할 수 있다. 기업은 이에 대응하기 위한 절차를 다음의 예와 같이 준비해야 한다.</p>
 <ol>
 <li>오픈소스 프로그램 매니저는 새로운 프로젝트를 시작할 때 해당 프로젝트가 프로그램 적용 범위 내에 포함되는지 여부를 판단한다.</li>
-<li>포함된다고 판단되는 경우, 해당 프로젝트를 프로그램 적용 범위에 포함 시키기 위한 제안을 OSRB에 제출한다.</li>
+<li>포함되지 않는다고 판단되는 경우, 해당 프로젝트를 프로그램 적용 범위에 포함 시키기 위한 제안을 OSRB에 제출한다.</li>
 <li>OSRB에서 수락할 경우, 이에 맞게 프로그램의 적용 범위를 수정한다.</li>
 <li>이외 오픈소스 프로그램 매니저는 프로그램 적용 범위에 대한 검토가 필요하다고 판단되는 경우, 동일한 프로세스에 따라 프로그램 적용 범위에 대한 검토를 시작할 수 있다.</li>
 </ol>
@@ -556,7 +564,7 @@ OSRB는 상위 조직의 장에게 문제를 공유하고 해결을 요청한다
 </tbody>
 </table>
 <h2 id=미준수-사례-대응>미준수 사례 대응</h2>
-<p>컴플라이언스 미준수 문제가 제기된 경우, 기업은 이를 신속히 검토하고 대응하기 위한 절차를 문서화해야 한다. 다음의 예시를 참고하여 오픈소스 정책에 포함할 수 있다.</p>
+<p>기업은 컴플라이언스 미준수 사례를 신속히 검토하고 대응하기 위한 절차를 문서화해야 한다. 다음의 예시를 참고하여 오픈소스 정책에 포함할 수 있다.</p>
 <pre tabindex=0><code>1. 오픈소스 사용
 
 (5) 컴플라이언스 이슈 수정 절차
@@ -633,7 +641,7 @@ Sorry to hear that. Please <a href=https://github.com/OpenChain-Project/OpenChai
 </p>
 <script>const yesButton=document.querySelector('.feedback--answer-yes'),noButton=document.querySelector('.feedback--answer-no'),yesResponse=document.querySelector('.feedback--response-yes'),noResponse=document.querySelector('.feedback--response-no'),disableButtons=()=>{yesButton.disabled=!0,noButton.disabled=!0},sendFeedback=b=>{if(typeof ga!='function')return;const a={command:'send',hitType:'event',category:'Helpful',action:'click',label:window.location.pathname,value:b};ga(a.command,a.hitType,a.category,a.action,a.label,a.value)};yesButton.addEventListener('click',()=>{yesResponse.classList.add('feedback--response__visible'),disableButtons(),sendFeedback(1)}),noButton.addEventListener('click',()=>{noResponse.classList.add('feedback--response__visible'),disableButtons(),sendFeedback(0)})</script>
 <br>
-<div class="text-muted mt-5 pt-3 border-top">Last modified 2021년 11일 21월: <a href=https://github.com/OpenChain-Project/OpenChain-KWG/commit/5909c280f4afc7f7c1e4a7edf306d9e3ebc5a821>add iso/iec5230 guide (5909c280)</a>
+<div class="text-muted mt-5 pt-3 border-top">Last modified 2021년 11일 29월: <a href=https://github.com/OpenChain-Project/OpenChain-KWG/commit/32777377b46b4a0a8ec85df1232663b924704cfd>add policy (32777377)</a>
 </div>
 </div>
 </main>
