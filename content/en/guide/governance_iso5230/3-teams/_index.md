@@ -67,38 +67,44 @@ If you do this, you can prepare the following evidence required by ISO/IEC 5230.
 
 {{% /alert %}}
 
-The table below is a sample representative that specifies the roles of open source-related organizations and people in charge, and the required competencies. You can refer to this and form an open source organization and document it.
 
-![](rolelist.png)
+## Identify person or group
 
-이 내용은 다음 페이지에서도 확인할 수 있다. : [https://haksungjang.github.io/docs/openchain/#appendix-1-담당자-현황](https://haksungjang.github.io/docs/openchain/#appendix-1-%EB%8B%B4%EB%8B%B9%EC%9E%90-%ED%98%84%ED%99%A9)
+The open source program manager, in consultation with the relevant department, designates and documents the person in charge for each role. Of course, for this, it will be necessary to report the goals and directions for establishing an open source compliance system to the top decision makers such as the CEO to receive the necessary support.
 
-## 담당자 지정
+Open source-related person and group in charge do not necessarily have to participate in open source work full-time. You can organize a virtual group in the form of an OSRB (Open Source Review Board) and perform the necessary roles.
 
-오픈소스 프로그램 매니저는 관련부서와 협의하여 각 역할을 위한 담당자를 지정하고 이를 문서화한다.  물론 이를 위해서는 CEO 등 최고 의사결정권자에게 오픈소스 컴플라언스 체계 구축을 위한 목표와 방향을 보고하여 필요한 지원을 받아야 할 것이다. 
-
-오픈소스 관련 조직과 담당자는 반드시 풀타임으로 오픈소스 업무에 참여할 필요는 없다. OSRB (Open Source Review Board) 형태의 Virtual한 조직을 구성하여 필요한 역할을 수행하면 된다. 
-
-SK텔레콤은 OSRB를 구성하여 기업 내 오픈소스 정책과 프로세스를 만들고, 이슈 발생 시 대응 방안을 마련하고 있다. 
+SK Telecom has formed the OSRB to create open source policies and processes, and prepare countermeasures when issues arise.
 
 {{< imgproc sktosrb Fit "900x600" >}}
 <center><i>https://sktelecom.github.io/about/osrb/</i></center>
 {{< /imgproc >}}
 
 
-이와 같이 수행한다면 ISO/IEC 5230에서 요구하는 다음 입증 자료를 준비할 수 있다.
+
+If you do this, you can prepare the following evidence required by ISO/IEC 5230.
 
 {{% alert title="ISO/IEC 5230" color="success" %}}
 
-* <b>3.2.2.1 프로그램 내 각 역할을 담당하는 인원, 그룹 또는 직무의 이름을 기재한 문서</b>
+* <b>3.2.2.1 Document with name of persons, group or function in program role(s) identified.</b>
 
 {{% /alert %}}
 
-| 자체 인증 2.d  | 프로그램 내 각 역할을 담당하는 인원, 그룹 또는 직무의 이름을 기재한 문서가 있습니까? |
-|---|:---|
-|  | Have you documented the persons, group or function supporting the Program role(s) identified? |
+
+{{% alert title="Self Certify" color="warning" %}}
+
+* <b>2.d : Have you documented the persons, group or function supporting the Program role(s) identified?</b>
+
+{{% /alert %}}
 
 
-이렇게 조직을 구성하면 ISO/IEC 5230의 요구 사항 중 아래와 같이 세가지 요구사항을 충족하게 된다. 
+The table below is a sample representative that specifies the roles of open source-related organizations and people in charge, and the required competencies. You can refer to this and form an open source organization and document it.
+
+![](rolelist.png)
+
+This can also be found on this page. : [https://haksungjang.github.io/docs/openchain/#appendix-1-담당자-현황](https://haksungjang.github.io/docs/openchain/#appendix-1-%EB%8B%B4%EB%8B%B9%EC%9E%90-%ED%98%84%ED%99%A9)
+
+
+If you organize in this way, you will now meet the following three requirements among the requirements of ISO/IEC 5230.
 
 ![](spec3121.png)
