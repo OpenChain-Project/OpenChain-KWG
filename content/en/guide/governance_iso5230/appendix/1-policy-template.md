@@ -27,99 +27,100 @@ This open source policy covers the following three parts:
 2. Covers when members contribute to external open source projects.
 3. Covers the release of internal code as open source.
 
-모든 구성원이 오픈소스 정책을 쉽게 접할 수 있도록 내부 시스템인 [LINK]에서도 확인할 수 있다.
 
-### 3. 용어
+### 3. Terms
 
-"컴플라이언스 산출물" - 컴플라이언스 프로그램의 결과물을 의미한다. 배포 대상 소프트웨어 공급 시 함께 제공해야 하는 산출물의 모음이다. 여기에는 다음 사항이 포함된다(단, 이에 국한되지 않음) : 저작자 고지, 소스 코드, 빌드 및 설치 스크립트, 라이선스 사본, 저작권 고지, 수정 내용 고지, 서면 청약(Written Offer), 오픈소스 컴포넌트 BOM (Bill of Materials), SPDX 문서.
+"compliance artifacts" - a collection of artifacts that represent the output of a compliance program and accompany the supplied software. The collection may include (but is not limited to) one or more of the following: attribution notices, source code, build and install scripts, copy of licenses, copyright notices, modification notifications, written offers, open source component bill of materials, and SPDX documents.
 
-"오픈소스" - Open Source Initiative에서 만든 Open Source Definition (opensource.org/osd) 혹은 Free Software Foundation에서 만든 Free Software Definition (gnu.org/philosophy/free-sw.html)을 충족하는 라이선스, 혹은 이와 유사한 라이선스가 하나 이상 적용된 소프트웨어이다.
+"open source" - software subject to one or more licenses that meet the Open Source Definition published by the Open Source Initiative (see opensource.org/osd) or the Free Software Definition published by the Free Software Foundation (see gnu.org/philosophy/free-sw.html) or similar license.
 
-"오픈소스 프로그램" - 오픈소스 정책, 프로세스, 인원 등 기업이 오픈소스 컴플라이언스 활동을 수행하기 위한 일련의 관리 체계를 의미한다.
+"open source program" - the set of policies, processes and personnel that comprise an organization’s open source license compliance activities.
 
-"배포 대상 소프트웨어" : 기업이 제3자(예: 다른 조직 또는 개인)에게 배포하는 소프트웨어이다. 
+"supplied software" - software that an organization distributes to third parties (e.g., other organizations or individuals). 
 
-"OpenChain 프로젝트" - Linux Foundation의 프로젝트이며 오픈소스 컴플라이언스를 위한 국제 표준으로써 기업이 오픈소스 컴플라이언스를 위해 준수해야 할 활동을 더 간단하고 일관성 있게 만들어 소프트웨어 공급망 전체에 신뢰를 구축히기 위한 활동을 한다. 
+"program participants" - any organization employee or contractor that defines, contributes to or has responsibility for preparing supplied software. Depending on the organization, that may include (but is not limited to) software developers, release engineers, quality engineers, product marketing and product management.
 
-"OpenChain 적합성" - 기업의 오픈소스 활동이 OpenChain 규격의 모든 요구 사항을 준수함을 의미한다. 
+"OpenChain Project" - a project of the Linux Foundation. They create international standards for open source compliance, making it simpler and more consistent for businesses to achieve and building trust throughout the software supply chain.
+
+“OpenChain conformant” - a program that satisfies all the requirements of this document.
 
 
-### 4. 역할, 책임 및 역량
+### 4. Roles, Responsibilities and Competencies
 
-이 장에서는 이 정책의 효과적인 수행을 보장하기 위해 다음과 같이 필요한 역할 및 책임과 각 역할의 담당자가 갖추어야 할 역량을 정의한다. 
-* 소프트웨어 개발 및 배포를 담당하는 임원은 각 역할을 위한 담당자를 지정하고, 역할을 수행할 적절한 사간과 예산이 할당되도록 보장해야 한다.
-* 각 역할의 담당자는 자신이 역할을 수행하면서 적절한 지원이 되지 않는다면 반드시 오픈소스 책임자에게 문제를 제기해야 한다. 적절하게 해결되지 않는다면, 오픈소스 운영위원회에 문제 해결을 요청할 수 있다.
+This chapter defines the roles and responsibilities required to ensure the effective implementation of this policy, as well as the competencies that the person in charge of each role should have.
 
-#### 가) 오픈소스 책임자
+* Executives responsible for software development and distribution should designate a person responsible for each role in the open source program and ensure that appropriate time and budget are allocated to fulfill the role.
+* The person in charge of each role must raise a problem to the person in charge of open source if he/she does not receive adequate support while performing his/her role. If not properly resolved, he/she should ask the OSRB to resolve the issue.
 
-오픈소스 책임자는 기업의 오픈소스에 대한 총괄 책임을 담당하며, 오픈소스 센터를 설립하고 운영하며, 오픈소스 운영위원회를 주관한다. 오픈소스를 사용한 제품과 서비스의 오픈소스 컴플라이언스를 보장하기 위해 다음 사항에 대한 책임이 있다.
+#### A) Open Source Manager
+The Open Source Manager is in charge of general responsibility for the company's open source, establishes and operates the open source center, and presides over the OSRB. The Open Source Manager is responsible for the following to ensure open source compliance of products and services using open source.
 
-* 오픈소스 정책을 검토, 개선 및 전파한다.
-* 오픈소스 정책을 효율적으로 수행하기 위해 회사 내부에 역할을 지정하고, 책임을 할당한다.
-* 오픈소스 컴플라이언스 교육을 주관하고 평가한다.
-* 오픈소스 운영위원회의 의장을 맡아서 활동을 지휘한다.
-* 소프트웨어 개발팀이 오픈소스 정책과 프로세스를 이해하고 준수하도록 안내한다. 필요할 경우 경영진에게 문제를 제기하여 해결한다.
-* 외부로부터의 오픈소스 사용 및 컴플라이언스에 대한 문의에 신속히 답변한다.
+* Review, improve and disseminate open source policies.
+* Assign roles and assign responsibilities within the company to effectively implement open source policies.
+* Leads and evaluates open source compliance training.
+* Serves as chairman of the OSRB and directs its activities.
+* Guide software development teams in understanding and complying with open source policies and processes. If necessary, the issue is addressed by raising the issue to an officer.
+* Quickly respond to inquiries from outside about open source usage and compliance.
 
-이를 위해 오픈소스 책임자에게 필요한 역량은 다음과 같다. 
-* 소프트웨어 개발 프로세스 이해
-* 저작권, 특허 등 오픈소스 라이선스와 관련한 지식재산 이해
-* 오픈소스 컴플라이언스에 대한 전문 지식
-* 오픈소스 개발 경험
-* 커뮤니케이션 스킬
+The understanding and competencies required for an open source leader are:
+* software development process
+* Intellectual property related to open source licenses such as copyrights and patents
+Expertise in Open Source Compliance
+Open source development experience
+communication skills
 
-2020년 1월 현재 OOO팀의 OOO가 오픈소스 책임자 역할을 담당한다.
+As of November 2021, OOO of the OOO team is in charge of Open Source Manager role.
 
-#### 나) 오픈소스 센터
+#### B) Open Source Center
 
-오픈소스 센터는 오픈소스 컴플라이언스를 위한 전문 센터이며, 컴플라이언스를 효과적으로 달성하기 위한 프로세스를 정의한다. 오픈소스 책임자가 리더 역할을 수행하고, 센터의 구성원들은 오픈소스 책임자가 원활하게 책임을 수행할 수 있도록 돕는 역할을 맡는다. 오픈소스 센터는 다음과 같은 역할을 수행한다.
+The Open Source Center is a specialized center for open source compliance and defines the process for achieving compliance effectively. The opem source manager plays the role of a leader, and the members of the center are responsible for helping the open source manager smoothly carry out their responsibilities. The Open Source Center performs the following roles:
 
-* 컴플라이언스 실무 교육을 개발 및 제공한다.
-* 컴플라이언스 도구를 선택 / 개발 및 배포한다.
-* 코드 검사 및 자동 스캔을 수행하여 제품과 서비스 내 오픈소스 포함 여부를 식별한다.
-* 오픈소스 사용 요청을 검토하고 승인한다.
-* 오픈소스 사용 목록에 관한 기록을 유지한다.
-* 오픈소스 고지 및 소스코드 공개를 위한 웹사이트를 개발하고 유지 관리한다.
+* Develop and provide compliance practice training.
+* Select / develop and provide automation tools for compliance.
+* Perform code scans and inspections to identify open sources in products and services.
+* Review and approve requests for use of open source.
+* Maintain records of open source usage lists (BOMs).
+* Develop and maintain a website for open source notices and source code disclosure.
 
-오픈소스 센터의 구성원에게 필요한 역량은 다음과 같다. 
-* 소프트웨어 개발 프로세스 이해
-* 저작권, 특허 등 오픈소스 라이선스와 관련한 지식재산 이해
-* 오픈소스 컴플라이언스에 대한 기본 지식
-* 오픈소스 컴플라이언스 도구 활용 능력
+The understanding and competencies required for members of the Open Source Center are as follows.
+* Software development process
+* Intellectual property related to open source licenses such as copyrights and patents
+* Basic knowledge of open source compliance
+* Ability to utilize open source compliance tools
 
-#### 다) 오픈소스 운영위원회
+#### C) OSRB
+The Open Source Review Board (OSRB), also called the Open Source Steering Committee, is a consultative body composed of an open source manager, a legal team, a patent team, a development team, and the person in charge of related organizations such as an infrastructure team for open source management.
 
-오픈소스 운영위원회는 OSRB(Open Source Review Board)라고도 불리며, 기업의 오픈소스 관리를 위해 오픈소스 책임자와 법무팀, 특허팀, 개발팀, 인프라팀 등 관련 조직의 책임자로 구성된 협의체이다. 
-* OSRB는 오픈소스 관리를 위한 정책과 프로세스를 만들고, 이를 수행하기 위한 기업 내의 R&R을 정의한다. 
-* 기업 내 오픈소스 관리 이슈 발생 시, 해결 방안을 논의하고, 대응 방안을 마련한다.
-* 필요 시, 임원진에 이슈를 보고하여 리스크 완화 방안에 대한 피드백을 받는다. 
+* OSRB creates policies and processes for open source management, and defines R&R within the company to implement them.
+* When an open source issue occurs, discuss solutions and prepare countermeasures.
+* If necessary, report issues to executives to receive feedback on risk mitigation measures.
 
-오픈소스 운영위원회의 구성원에게 필요한 기본 역량은 다음과 같다. 
-* 소프트웨어 개발 프로세스 이해
-* 오픈소스 컴플라이언스에 대한 기본 지식 
+  The understanding and competencies required by OSRB members are as follows.
+* Software development process
+* Basic knowledge of open source compliance
 
-#### 라) 소프트웨어 개발팀
+#### D) Software development team
 
-소프트웨어 개발팀은 기업의 오픈소스 정책 및 프로세스를 충분히 이해하고, 다음 사항을 준수한다. 
-* 소프트웨어 개발에 사용할 오픈소스를 식별하고 오픈소스 센터에 오픈소스 사용 승인 요청을 제출한다.
-* 소프트웨어 개발에 사용한 오픈소스에 적용되는 오픈소스 라이선스의 의무를 이행한다. 
-* 오픈소스의 결합 관계를 파악하여 자사의 코드가 오픈소스 라이선스의 영향을 받지 않도록 소프트웨어 아키텍처를 설계한다. 
+The software development team fully understands the company's open source policies and processes, and complies with the following:
+* Identify the open source to be used for software development and submit a request for open source use approval to the Open Source Center.
+* Fulfill the obligations of open source licenses applicable to open sources used for software development.
+* Design the software architecture so that the development code is not affected by the open source license by checking the binding relationship of open source.
 
-소프트웨어 개발팀의 구성원에게 필요한 기본 역량은 다음과 같다. 
-* 소프트웨어 개발 프로세스 이해
-* 오픈소스 컴플라이언스에 대한 기본 지식 
+The understanding and competencies required by members of the software development team are as follows.
+* Software development process
+* Basic knowledge of open source compliance
 
-#### 마) 법무팀
+#### E) Legal Team
 
-법무팀은 오픈소스 라이선스와 의무를 해석한다. 이러한 의무를 실제 이행하기 위해 가이드를 소프트웨어 개발팀에 제공하고, 필요에 따라 다음 사항을 수행한다. 
-* 호환되지 않는 오픈소스 라이선스로 인한 충돌을 포함하여 라이선스 및 지식재산권 문제에 대해 자문을 제공한다. 
-* 오픈소스 사용 검토 및 승인 결정에 참여한다.
-* 외부 오픈소스 프로젝트로의 기여를 위한 검토 요청에 의견을 제공한다.
+The legal team analyzes open source licenses and obligations. The legal team provides guidance to the software development team for the practical implementation of these obligations, and, as necessary, does the following:
+* Advise on licensing and intellectual property issues, including conflicts due to incompatible open source licenses.
+* Participate in open source use reviews and approval decisions.
+* Provide comments on requests for review for contributions to external open source projects.
 
-법무팀의 구성원에게 필요한 기본 역량은 다음과 같다. 
-* 오픈소스 생태계에 대한 기본 지식
-* 소프트웨어 저작권에 대한 전문 지식
-* 오픈소스 라이선스에 대한 전문 지식
+The understanding and competencies required for members of the legal team are as follows.
+* Basic knowledge of the open source ecosystem
+* Expertise in software copyright
+* Expertise in Open Source Licensing
 
 
 ### 5. 교육 및 평가
