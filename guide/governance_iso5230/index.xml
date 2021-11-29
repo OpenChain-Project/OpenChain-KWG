@@ -247,6 +247,13 @@
 &lt;/div>
 &lt;/div>
 &lt;p>이런 구성 요소 중 기업이 ISO/IEC 5230에서 요구하는 모든 항목에 적합한 오픈소스 거버넌스 체계 구축을 위해서는 기본적으로 아래의 다섯가지 사항을 갖추어야 한다. 여기서는 이에 대한 세부 사항을 설명한다.&lt;/p>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 460px">
+&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/guide/governance_iso5230/2-essential_elements/five_huec54d9852c3a36a68cbaa05f9493a629_54306_450x300_fit_catmullrom_3.png" width="450" height="213">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+&lt;/p>
+&lt;/div>
+&lt;/div>
 &lt;ol>
 &lt;li>&lt;a href="../3-teams">조직 (담당자)&lt;/a>&lt;/li>
 &lt;li>&lt;a href="../4-polic">정책&lt;/a>&lt;/li>
@@ -1242,4 +1249,4 @@ This offer is valid to anyone in receipt of this information.
 &lt;/tbody>
 &lt;/table>
 &lt;p>여기까지 완료하면 기업은 드디어 ISO/IEC 5230의 모든 요구사항을 충족하게 된다.
-&lt;img src="totalno.png" alt="">&lt;/p></description></item></channel></rss>
+&lt;img src="totalno.png" alt="">&lt;/p></description></item><item><title>Guide: Appendix</title><link>https://openChain-project.github.io/OpenChain-KWG/guide/governance_iso5230/appendix/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/guide/governance_iso5230/appendix/</guid><description/></item></channel></rss>
