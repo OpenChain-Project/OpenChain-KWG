@@ -7,7 +7,6 @@ description: >
 ---
 <div ><span class="image fit">
   <img src="openchain-xmas-2.gif" width="100%">
-  x
 </span></div>
 
 ## Schedule
