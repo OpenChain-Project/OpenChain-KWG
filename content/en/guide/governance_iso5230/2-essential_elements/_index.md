@@ -1,6 +1,6 @@
 ---
 title: "2. Essential elements"
-linkTitle: "2. Essential elements"
+linkTitle: "2. Elements"
 weight: 20
 type: docs
 description: >
