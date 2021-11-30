@@ -6,7 +6,7 @@ description: >
  Online Meeting, December 2021
 ---
 <div ><span class="image fit">
-  <img src="christmas_game.png" width="40%">
+  <img src="christmas_game.png" width="50%">
 </span></div>
 
 ## Schedule

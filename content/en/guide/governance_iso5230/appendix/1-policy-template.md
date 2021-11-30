@@ -15,7 +15,7 @@ This sample open source policy was written with reference to the following two m
 
 ### (1) Purpose of the policy<sub>(3.1.3.1)</sub>
 
-This policy provides the following principles for all organizations involved in software development, service, and distribution in OOO Company (hereinafter referred to as the "Company") to properly utilize open source software (hereinafter referred to as "Open Source"). 
+This policy provides the following principles for all organizations involved in software development, service, and distribution in [COMPANY] (hereinafter referred to as the "Company") to properly utilize open source software (hereinafter referred to as "Open Source"). 
 
 1. Principles for open source license compliance
 2. Principles for contribution to external open source projects
@@ -25,21 +25,20 @@ These principles provide a way for all members of the company to understand the 
 
 All members of the company can view the open source policy at the following link on the in-house wiki: [internal_link]<sub>(3.1.1.1)</sub>
 
-### (2) 미준수 시 영향
-이 정책을 준수하지 않는다면 다음과 같은 상황이 발생할 수 있다.  
+### (2) Impact of non-compliance
+It is important that [COMPANY] adheres to this policy. Failure to do so may lead to:
+- legal claims from the holders of copyright or other intellectual property rights in code we use
+- claims from our customers;
+- the inadvertent release of [COMPANY] proprietary code;
+- breach of regulatory obligations by [COMPANY] potentially leading to fines;
+- loss of reputation;
+- loss of revenue;
+- breach of contract with suppliers and customers.
+For this reason, we take breaches of this policy seriously, and any individual breaching the policy may find themselves subject to [COMPANY]'s disciplinary procedure.
 
-- 외부로부터 오픈소스 라이선스 준수 요구를 받게 된다.
-- 회사가 개발한 소스 코드를 원하지 않게 공개해야 한다.
-- 오픈소스 저작권자로부터 법적 소송을 제기당하게 된다.
-- 저작권 침해 및 계약 위반으로 벌금을 부과 당하거나, 제품 판매 중지 명령을 받게 된다.
-- 회사 평판이 손실된다. 
-- 공급업체와의 계약 위반이 되어 손해배상 청구를 당하게 된다.
+### (3) How to contribute to the effectiveness of the Program
 
-이러한 이유로 회사는 오픈소스 정책의 위반을 심각하게 간주하며, 이를 위반하는 구성원이나 조직은 징계 절차에 처할 수 있다.
-
-### (3) 구성원의 공헌 방법
-
-회사의 모든 구성원은 이 정책의 근거와 내용을 이해하고 필요한 활동을 충실히 수행함으로써 정책의 효과 및 회사의 컴플라이언스 수준 향상에 공헌할 수 있다.
+All members of the company can contribute to the effectiveness of the program and improvement of the company's compliance level by understanding the rationale and content of this policy and faithfully performing the necessary activities.
 
 ## 2. Scope<sub>(3.1.4.1)</sub>
 This policy applies to the following three parts:
@@ -138,11 +137,10 @@ QA 등 품질을 담당하는 조직은 소프트웨어 배포 시 오픈소스 
 - 소프트웨어 배포 시 오픈소스 고지문과 공개할 소스 코드를 함께 제공하는지 확인한다. 
 - 이슈가 있으면 소프트웨어 개발/배포 조직에 통보하여 즉시 이슈를 수정하도록 안내한다. 
 
+## 5. Training and Assessment
+All program participants should take the open source mandatory training provided by [Learning Portal] every year. Through training, all participants should be familiar with open source policies and processes. Training history is stored in [Learning Portal].<sub>(3.1.1.2)<sub>
 
-## 5. 교육 및 평가
-모든 소프트웨어 배포 참여자는 매년 [Learning Portal]에서 제공하는 오픈소스 의무 교육을 수강해야 한다. 이를 통해 오픈소스 정책, 관련 교육 정책 및 조회 방법을 숙지한다. 교육 이력은 [Learning Portal]에 보존한다.<sub>(3.1.1.2)<sub>
-
-4장에서 정의한 각 역할을 담당하는 모든 구성원은 [Learning Portal]에서 제공하는 오픈소스 교육 고급 과정을 수강해야 한다. 교육 이력과 평가 결과는 [Learning Portal]에 최소 3년간 보존한다.<sub>(3.1.2.3)</sub>
+All members in charge of each role defined in Chapter 4 should take the advanced open source training course provided by [Learning Portal]. Training history and evaluation results are stored in [Learning Portal] for at least 3 years.<sub>(3.1.2.3)</sub>
 
 ## 6. Use open source
 

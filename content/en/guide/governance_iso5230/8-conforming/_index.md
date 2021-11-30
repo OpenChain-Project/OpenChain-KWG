@@ -1,38 +1,38 @@
 ---
-title: "8. 준수 선언"
-linkTitle: "8. 준수 선언"
+title: "8. Conformance"
+linkTitle: "8. Conformance"
 weight: 80
 type: docs
 description: >
 ---
 
-ISO/IEC 5230 규격의 6조를 제외한 모든 요구사항을 준수하는 오픈소스 프로그램(오픈소스 정책 / 프로세스 / 도구 / 조직)을 구축한 기업은 다음 두가지를 명시하는 문서를 작성하여 게시할 수 있다. 
+If you build an open source program (open source policy / process / tool / organization) that complies with all requirements except Article 6 of the ISO/IEC 5230 standard, you can write and publish a document specifying the following two.
 
-1. 기업의 오픈소스 프로그램이 OpenChain 규격 2.1의 모든 요구사항을 충족함
-2. 기업의 오픈소스 프로그램이 적합성 인증을 획득한 후 18개월 이상 OpenChain 규격 2.1의 모든 요구 사항을 충족하는 상태 유지를 보장함
+1. A document affirming the program specified in requirement §3.1.4 satisfies all the requirements of this specification.
+2. A document affirming the program meets all the requirements of this version of the specification (version 2.1), within the past 18 months of obtaining conformance validation
 
-기업은 위의 내용을 오픈소스 정책에 포함시킬 수도 있고, 외부에 공개되어 있는 웹사이트를 통해 게재할 수도 있다. 
+You may include the above document in the open source policy, or you may publish it through an externally public website.
 
-아래 이미지와 같이 SK텔레콤에서 오픈소스 포털사이트에 이에 대한 내용을 게재한 것을 참고할 수 있다. 
+As shown in the image below, you can refer to the content that SK Telecom posted on the open source portal site.
 ![](sktiso.png)
-[https://sktelecom.github.io/compliance/iso5230/](https://sktelecom.github.io/compliance/iso5230/)
+[https://sktelecom.github.io/en/compliance/iso5230/](https://sktelecom.github.io/en/compliance/iso5230/)
  
 
-이렇게 ISO/IEC 5230의 모든 요구사항을 충족함을 보장한다고 문서함으로 ISO/IEC 5230에서 요구하는 다음 입증 자료를 준비할 수 있다.
+If you document that you meet all the requirements of ISO/IEC 5230 in this way, you can prepare the following evidence required by ISO/IEC 5230.
 
 {{% alert title="ISO/IEC 5230" color="success" %}}
 
-* <b>3.6.1.1 3.1.4조에서 명시한 프로그램이 이 규격의 모든 요구사항을 충족함을 확인하는 문서</b>
-* <b>3.6.2.1 프로그램이 적합성 인증을 획득한 후 지난 18개월 동안 이 규격 버전(v2.1)의 모든 요구사항을 충족하고 있음을 확인하는 문서</b>
-
-
+* <b>3.6.1.1 A document affirming the program specified in requirement §3.1.4 satisfies all the requirements of this specification.</b>
+* <b>3.6.2.1 A document affirming the program meets all the requirements of this version of the specification (version 2.1), within the past 18 months of obtaining conformance validation</b>
 {{% /alert %}}
 
-| 자체 인증 6.a  | 프로그램이 이 규격의 모든 요구사항을 충족함을 확인하는 문서가 있습니까? |
-|---|:---|
-|  | Do you have documentation confirming that your Program meets all the requirements of this specification? |
-| <b>자체 인증 6.b</b>  | <b>지난 18개월 이내에 프로그램 적합성을 검토했음을 확인하는 문서가 있습니까?</b> |
-|  | Do you have documentation confirming that your Program conformance was reviewed within the last 18 months? |
 
-여기까지 완료하면 기업은 드디어 ISO/IEC 5230의 모든 요구사항을 충족하게 된다. 
+{{% alert title="Self Certify" color="warning" %}}
+
+* <b>6.a : Do you have documentation confirming that your Program meets all the requirements of this specification?</b>
+* <b>6.b : Do you have documentation confirming that your Program conformance was reviewed within the last 18 months?</b>
+{{% /alert %}}
+
+If you've made it this far, your company will finally meet all the requirements of ISO/IEC 5230.
+
 ![](totalno.png)

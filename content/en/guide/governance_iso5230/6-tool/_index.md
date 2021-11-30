@@ -114,26 +114,19 @@ If you build a tool environment like this, you can prepare the following evidenc
 
 {{% alert title="ISO/IEC 5230" color="success" %}}
 
-* <b>3.4.1.2 A documented procedure for archiving copies of the compliance artifacts of the supplied software - where the archive is planned to exist for a reasonable period of time (determined by domain, legal jurisdiction and/or customer contracts) since the last offer of the supplied software; or as required by the identified licenses (whichever is longer). Records exist that demonstrate the procedure has been properly followed.
+* <b>3.4.1.2 A documented procedure for archiving copies of the compliance artifacts of the supplied software - where the archive is planned to exist for a reasonable period of time (determined by domain, legal jurisdiction and/or customer contracts) since the last offer of the supplied software; or as required by the identified licenses (whichever is longer). Records exist that demonstrate the procedure has been properly followed. </b>
 
 {{% /alert %}}
 
 
-{{% alert title="Self Certify" color="success" %}}
+{{% alert title="Self Certify" color="warning" %}}
 
-* <b>3.4.1.2 A documented procedure for archiving copies of the compliance artifacts of the supplied software - where the archive is planned to exist for a reasonable period of time (determined by domain, legal jurisdiction and/or customer contracts) since the last offer of the supplied software; or as required by the identified licenses (whichever is longer). Records exist that demonstrate the procedure has been properly followed.
+* <b>4.b : Do you archive copies of the Compliance Artifacts of the Supplied Software?</b>
+* <b>4.c : Are the copies of the Compliance Artifacts archived for at least as long as the Supplied Software is offered or as required by the Identified Licenses (whichever is longer)?</b>
 
 {{% /alert %}}
 
-
-
-| 자체 인증 4.b  | 배포용 소프트웨어의 컴플라이언스 산출물 사본을 보관합니까? |
-|---|:---|
-|  | Do you archive copies of the Compliance Artifacts of the Supplied Software? |
-| <b>자체 인증 4.c</b>  | <b>컴플라이언스 결과물 사본은 적어도 배포용 소프트웨어가 제공되는 중이거나 식별된 라이선스가 요구하는 기간 중 더 긴 시간 동안 보관됩니까?</b> |
-|  | Are the copies of the Compliance Artifacts archived for at least as long as the Supplied Software is offered or as required by the Identified Licenses (whichever is longer)? |
-
-이렇게 도구 환경까지 구축하게 되면 ISO/IEC 5230 요구사항을 아래와 같이 준수하게 된다. 
+If you build the tool environment in this way, you will comply with the ISO/IEC 5230 requirements as follows.
 
 ![](toolno.png)
 
