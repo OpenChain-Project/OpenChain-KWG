@@ -1191,7 +1191,7 @@ This offer is valid to anyone in receipt of this information.
 &lt;div class="alert alert-success" role="alert">
 &lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
 &lt;ul>
-&lt;li>&lt;b>규격 3.3.2.1 배포용 소프트웨어 내의 오픈소스 컴포넌트에 대해 일반적인 오픈소스 라이선스 사용 사례를 처리하기 위한 문서화된 절차&lt;/b>&lt;/li>
+&lt;li>&lt;b>3.3.2.1 배포용 소프트웨어 내의 오픈소스 컴포넌트에 대해 일반적인 오픈소스 라이선스 사용 사례를 처리하기 위한 문서화된 절차&lt;/b>&lt;/li>
 &lt;/ul>
 &lt;/div>
 &lt;table>
@@ -1219,7 +1219,7 @@ This offer is valid to anyone in receipt of this information.
 &lt;p>아래 이미지와 같이 SK텔레콤에서 오픈소스 포털사이트에 이에 대한 내용을 게재한 것을 참고할 수 있다.
 &lt;img src="sktiso.png" alt="">
 &lt;a href="https://sktelecom.github.io/compliance/iso5230/">https://sktelecom.github.io/compliance/iso5230/&lt;/a>&lt;/p>
-&lt;p>이렇게 ISO/IEC 5230의 모든 요구사항을 충족함을 보장한다고 문서함으로 ISO/IEC 5230에서 요구하는 다음 입증 자료를 준비할 수 있다.&lt;/p>
+&lt;p>이렇게 ISO/IEC 5230의 모든 요구사항을 충족함을 보장한다고 문서화하면 ISO/IEC 5230에서 요구하는 다음 입증 자료를 준비할 수 있다.&lt;/p>
 &lt;div class="alert alert-success" role="alert">
 &lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
 &lt;ul>

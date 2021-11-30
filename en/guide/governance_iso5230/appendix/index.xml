@@ -9,7 +9,7 @@
 &lt;/div>
 &lt;h2 id="1-purpose">1. Purpose&lt;/h2>
 &lt;h3 id="1-purpose-of-the-policysub3131sub">(1) Purpose of the policy&lt;sub>(3.1.3.1)&lt;/sub>&lt;/h3>
-&lt;p>This policy provides the following principles for all organizations involved in software development, service, and distribution in OOO Company (hereinafter referred to as the &amp;ldquo;Company&amp;rdquo;) to properly utilize open source software (hereinafter referred to as &amp;ldquo;Open Source&amp;rdquo;).&lt;/p>
+&lt;p>This policy provides the following principles for all organizations involved in software development, service, and distribution in [COMPANY] (hereinafter referred to as the &amp;ldquo;Company&amp;rdquo;) to properly utilize open source software (hereinafter referred to as &amp;ldquo;Open Source&amp;rdquo;).&lt;/p>
 &lt;ol>
 &lt;li>Principles for open source license compliance&lt;/li>
 &lt;li>Principles for contribution to external open source projects&lt;/li>
@@ -17,19 +17,20 @@
 &lt;/ol>
 &lt;p>These principles provide a way for all members of the company to understand the value of open source, use it correctly, and contribute to the open source community.&lt;/p>
 &lt;p>All members of the company can view the open source policy at the following link on the in-house wiki: [internal_link]&lt;sub>(3.1.1.1)&lt;/sub>&lt;/p>
-&lt;h3 id="2-미준수-시-영향">(2) 미준수 시 영향&lt;/h3>
-&lt;p>이 정책을 준수하지 않는다면 다음과 같은 상황이 발생할 수 있다.&lt;/p>
+&lt;h3 id="2-impact-of-non-compliance">(2) Impact of non-compliance&lt;/h3>
+&lt;p>It is important that [COMPANY] adheres to this policy. Failure to do so may lead to:&lt;/p>
 &lt;ul>
-&lt;li>외부로부터 오픈소스 라이선스 준수 요구를 받게 된다.&lt;/li>
-&lt;li>회사가 개발한 소스 코드를 원하지 않게 공개해야 한다.&lt;/li>
-&lt;li>오픈소스 저작권자로부터 법적 소송을 제기당하게 된다.&lt;/li>
-&lt;li>저작권 침해 및 계약 위반으로 벌금을 부과 당하거나, 제품 판매 중지 명령을 받게 된다.&lt;/li>
-&lt;li>회사 평판이 손실된다.&lt;/li>
-&lt;li>공급업체와의 계약 위반이 되어 손해배상 청구를 당하게 된다.&lt;/li>
+&lt;li>legal claims from the holders of copyright or other intellectual property rights in code we use&lt;/li>
+&lt;li>claims from our customers;&lt;/li>
+&lt;li>the inadvertent release of [COMPANY] proprietary code;&lt;/li>
+&lt;li>breach of regulatory obligations by [COMPANY] potentially leading to fines;&lt;/li>
+&lt;li>loss of reputation;&lt;/li>
+&lt;li>loss of revenue;&lt;/li>
+&lt;li>breach of contract with suppliers and customers.
+For this reason, we take breaches of this policy seriously, and any individual breaching the policy may find themselves subject to [COMPANY]&amp;rsquo;s disciplinary procedure.&lt;/li>
 &lt;/ul>
-&lt;p>이러한 이유로 회사는 오픈소스 정책의 위반을 심각하게 간주하며, 이를 위반하는 구성원이나 조직은 징계 절차에 처할 수 있다.&lt;/p>
-&lt;h3 id="3-구성원의-공헌-방법">(3) 구성원의 공헌 방법&lt;/h3>
-&lt;p>회사의 모든 구성원은 이 정책의 근거와 내용을 이해하고 필요한 활동을 충실히 수행함으로써 정책의 효과 및 회사의 컴플라이언스 수준 향상에 공헌할 수 있다.&lt;/p>
+&lt;h3 id="3-how-to-contribute-to-the-effectiveness-of-the-program">(3) How to contribute to the effectiveness of the Program&lt;/h3>
+&lt;p>All members of the company can contribute to the effectiveness of the program and improvement of the company&amp;rsquo;s compliance level by understanding the rationale and content of this policy and faithfully performing the necessary activities.&lt;/p>
 &lt;h2 id="2-scopesub3141sub">2. Scope&lt;sub>(3.1.4.1)&lt;/sub>&lt;/h2>
 &lt;p>This policy applies to the following three parts:&lt;/p>
 &lt;ol>
@@ -128,9 +129,9 @@
 &lt;li>소프트웨어 배포 시 오픈소스 고지문과 공개할 소스 코드를 함께 제공하는지 확인한다.&lt;/li>
 &lt;li>이슈가 있으면 소프트웨어 개발/배포 조직에 통보하여 즉시 이슈를 수정하도록 안내한다.&lt;/li>
 &lt;/ul>
-&lt;h2 id="5-교육-및-평가">5. 교육 및 평가&lt;/h2>
-&lt;p>모든 소프트웨어 배포 참여자는 매년 [Learning Portal]에서 제공하는 오픈소스 의무 교육을 수강해야 한다. 이를 통해 오픈소스 정책, 관련 교육 정책 및 조회 방법을 숙지한다. 교육 이력은 [Learning Portal]에 보존한다.&lt;sub>(3.1.1.2)&lt;sub>&lt;/p>
-&lt;p>4장에서 정의한 각 역할을 담당하는 모든 구성원은 [Learning Portal]에서 제공하는 오픈소스 교육 고급 과정을 수강해야 한다. 교육 이력과 평가 결과는 [Learning Portal]에 최소 3년간 보존한다.&lt;sub>(3.1.2.3)&lt;/sub>&lt;/p>
+&lt;h2 id="5-training-and-assessment">5. Training and Assessment&lt;/h2>
+&lt;p>All program participants should take the open source mandatory training provided by [Learning Portal] every year. Through training, all participants should be familiar with open source policies and processes. Training history is stored in [Learning Portal].&lt;sub>(3.1.1.2)&lt;sub>&lt;/p>
+&lt;p>All members in charge of each role defined in Chapter 4 should take the advanced open source training course provided by [Learning Portal]. Training history and evaluation results are stored in [Learning Portal] for at least 3 years.&lt;sub>(3.1.2.3)&lt;/sub>&lt;/p>
 &lt;h2 id="6-use-open-source">6. Use open source&lt;/h2>
 &lt;p>If you use open source to develop and distribute products and services, you should comply with the obligations required by each open source license. The activities that companies perform for this purpose are called open source compliance.&lt;/p>
 &lt;p>For proper open source compliance activities, software development/distribution organizations must comply with the following:&lt;sub>(3.3.1.1)&lt;/sub>&lt;/p>
