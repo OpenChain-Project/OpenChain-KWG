@@ -6,7 +6,7 @@ description: >
  Online Meeting, December 2021
 ---
 <div ><span class="image fit">
-  <img src="openchain-xmas-2.gif" width="100%">
+  <img src="christmas_game.png" width="100%">
 </span></div>
 
 ## 일정
