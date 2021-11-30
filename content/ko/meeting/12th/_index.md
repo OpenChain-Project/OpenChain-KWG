@@ -9,11 +9,11 @@ description: >
   <img src="openchain-xmas-2.gif" width="100%">
 </span></div>
 
-## Schedule
+## 일정
 
-* Schedule: 2021-12-20 (Mon) 2:00~4:00 PM
-* How to join
-  - [Gather Town](https://www.gather.town/) (Please refer to the e-mail for the access address)
+* 일정: 2021-12-20 (월) 오후2시~
+* 장소
+  - [Gather Town](https://www.gather.town/) (접속 방법은 별도 메일 공지 참고)
 
 ## Agenda
 | No | Agenda           | Speaker | Slide |
