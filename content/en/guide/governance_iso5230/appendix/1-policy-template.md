@@ -227,7 +227,7 @@ Only contribute code for which you have the right to contribute. In other words,
 ### (3) Be careful not to expose the company's intellectual property
 Do not contribute code or documents that may expose the company's intellectual property such as sensitive information or patents.
 
-* If the code you want to contribute includes a company's patent, you should check whether you can contribute to the project under the open source license. If there is any ambiguity, contact OSPO.
+* If the code you want to contribute includes [Company]'s patent, you should check whether you can contribute to the project under the open source license. If there is any ambiguity, contact OSPO.
 
 ### (4) Be careful about signing the CLA.
 
@@ -282,7 +282,7 @@ One of the worst things that can happen to an open source project is that the pr
 ### (3) Be careful about the exposure of the company's intellectual property.
 Do not release code or documents that may expose sensitive information or patents to the company's intellectual property.
 
-If the code you want to release contains a company patent, see if you can release it under the open source license. If there are any ambiguities, please contact OSPO.
+If the code you want to release contains [Company] patent, see if you can release it under the open source license. If there are any ambiguities, please contact OSPO.
 
 ### (4) Publish useful code
 
@@ -326,11 +326,13 @@ The open source program manager publicly provides the contact information of the
 If you respond quickly and accurately to open source compliance inquiries from outside, you can significantly reduce the risk of going to a lawsuit. To this end, in order to respond to external open source compliance inquiries, you should follow the external inquiry response process defined in the company's open source compliance process.<sub>(3.2.1.2)</sub>
 
 ## 10. OpenChain
-회사는 소프트웨어 공급망에서의 오픈소스 컴플라이언스 수준 향상을 위해 Linux Foundation의 OpenChain 프로젝트의 정신을 지지하며 적극적으로 참여한다. 
 
-- 회사는 이 오픈소스 정책을 적용하여 2021년 10월 1일부로 ISO/IEC 5230:2020을 준수함을 보장한다.<sub>(3.6.1.1)</sub>
-- 회사는 적합성 인증을 획득한 후 18개월 이상 OpenChain 규격 버전 2.1, ISO/IED 5230:2020의 모든 요구사항을 충족함을 보장한다.<sub>(3.6.2.1)</sub>
-- 회사는 최소 18개월 간격으로 적합성을 검토하고 필요에 따라 정책을 변경 및 갱신한다. 
+[COMPANY] supports the Linux Foundation's OpenChain project. This policy has been carefully designed to be compliant with the OpenChain Specification v2.1, ISO/IEC 5230:2020. 
+
+* [COMPANY] affirms that as of [insert date] it is in compliance with the OpenChain Specification v 2.1, ISO/IEC 5230:2020.<sub>(3.6.1.1)</sub>
+* [COMPANY] affirms that within the past 18 months of obtaining conformance validation, the program meets all the requirements of the OpenChain Specification v2.1, ISO/IEC 5230:2020.<sub>(3.6.2.1)</sub>
+* [COMPANY]'s affirmation of conformance will be reviewed and renewed if appropriate at intervals of at least [12|18 months].
+
 
 ## Appendix 1. List of persons in charge
 

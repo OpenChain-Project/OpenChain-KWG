@@ -1,152 +1,152 @@
 ---
-title: "2. 오픈소스 컴플라이언스 프로세스 (샘플)"
+title: "2. Open Source Compliance Process (Sample)"
 weight: 2
 type: docs
 ---
 
-OOO 주식회사(이하 "회사"라 함)는 소프트웨어를 포함하는 제품과 서비스를 개발하면서 오픈소스 소프트웨어(이하 "오픈소스"라 함)를 적극적으로 활용한다. 회사는 소프트웨어를 배포하면서 오픈소스 라이선스가 부과하는 의무사항을 준수하기 위한 활동을 수행해야 하며 이를 오픈소스 컴플라이언스라고 한다. 
+OOO Corporation (hereinafter referred to as the "Company") actively uses open source software (hereinafter referred to as "Open Source") while developing products and services including the software. When a company distributes its software, it should perform activities to comply with the obligations imposed by the open source license, which is called open source compliance.
 
-## 1. 소프트웨어 제품 개발/배포를 위한 프로세스
+## 1. Process for software development/distribution
 
-오픈소스 컴플라이언스 프로세스는 회사가 소프트웨어 제품 및 서비스를 개발하고 배포하기 위한 각 개발 단계에 맞게 오픈소스 라이선스 의무 준수를 위해 수행해야 할 절차를 정의한다. 소프트웨어 제품 개발/배포에 관여하는 모든 구성원은 다음의 오픈소스 컴플라이언스 프로세스 10단계를 준수한다.
+This open source compliance process defines the procedures a [company] should follow to comply with its open source license obligations for each stage of development for developing and distributing software products and services. All employees involved in developing/distributing software products should follow these 10 steps of the Open Source Compliance Process.
 
 ![general-osc-process](general-osc-process.png)
 
-### 1. 오픈소스 식별<sub>Identification of Open Source</sub>
-개발 부서는 소프트웨어 설계 단계에서 다음 사항을 준수한다.
+### 1. Identification of Open Source
 
-- 소프트웨어를 설계하면서 예측 가능한 오픈소스 사용 현황을 파악하고 라이선스를 확인한다.
-- 오픈소스 라이선스별 의무 사항을 확인한다. 라이선스별 의무 사항은 회사의 오픈소스 라이선스 가이드에서 확인할 수 있다. 
-- 각 오픈소스 라이선스의 소스 코드 공개 범위를 고려하여 소프트웨어를 설계한다. 
+The development team should adhere to the following during the software design phase.
 
-오픈소스 프로그램 매니저는 주요 오픈소스 라이선스 의무, 제한, 권리에 대한 가이드를 작성하고 공개하여 전사의 개발 부서에서 참고하게 한다. 
+- Identify predictable open source usage and check licenses while designing software.
+- Check the obligations for each open source license. You can check the obligations for each license in the company's Open Source Licensing Guide.
+- Design software considering the source code disclosure scope of each open source license.
 
-개발 부서는 회사 규칙에 맞게 소스 코드에 저작권 및 라이선스를 표기한다. 회사의 소스 코드 내 저작권 및 라이선스 표기 규칙은 다음 페이지에서 확인할 수 있다. : (insert_link)
+Open source program managers should write a guide on the obligations, restrictions, and rights of frequently used open source licenses, and make them available for reference to the development team.
 
-개발 부서는 새로운 오픈소스 도입 검토 시, 먼저 라이선스를 식별한다. 회사의 오픈소스 라이선스 가이드에 따라 라이선스 의무, 제한 및 권리를 확인한다. 회사의 오픈소스 라이선스 가이드에서 설명하지 않는 라이선스일 경우, 오픈소스 프로그램 매니저에게 도입 가능 여부 및 주의 사항을 문의한다. Jira Ticket을 생성하여 문의한다. 
+The development team should display the copyright and license in the source code according to the company's policy. The copyright and license notation rules in the company's source code can be found on the following page. : (insert_link)
 
-오픈소스 프로그램 매니저는 오픈소스 라이선스 의무를 분석하여 소프트웨어 개발 조직에 안내한다.
+When a development team needs to use a new open source, first identify the license. Check your license obligations, restrictions, and rights according to your company's Open Source Licensing Guide. If the license is not described in the company's open source license guide, ask the open source program manager whether it can be introduced or not. Create a Jira Ticket and inquire.
 
-- 의문이 있는 경우, 법무 담당에 자문을 요청하여 명확한 가이드를 제공한다. 
-- 새롭게 분석한 라이선스 정보는 전사 라이선스 가이드에 반영한다. 
+Open source program managers guide the software development team by analyzing their open source license obligations.
 
-### 2. 소스 코드 검사<sub>Auditing Source Code</sub>
+- If in doubt, seek advice from the Legal Department to provide clear guidance.
+- Add newly analyzed open source licenses to the guide.
 
-개발 부서는 인프라 담당의 안내에 따라 소스 코드를 제공하여 오픈소스 점검을 요청한다. 
+### 2. Auditing Source Code
 
-인프라 담당은 오픈소스 분석 도구를 사용하여 오픈소스 점검을 하고, 오픈소스 BOM을 생성한다. 
+The development team requests open source audit by providing the source code according to the guidance of the infrastructure team.
 
-오픈소스 프로그램 매니저는 오픈소스 라이선스 의무 준수 가능 여부, 오픈소스 라이선스 충돌 여부를 검토하고, 이슈가 있으면, 개발 부서에 해결을 요청한다. 이슈 사항은 Jira Ticket으로 생성하여 개발 부서에 할당한다. 
+The development team uses the open source analysis tool provided by the infrastructure team to audit the open source and generate the open source BOM.
 
-### 3. 문제 해결<sub>Resolving Issues</sub>
+The open source program manager reviews whether the obligations of the open source license can be complied with and whether there is an open source license conflict, and if there is an issue, ask the development team to resolve it. Create issues with Jira Tickets and assign them to the development team.
 
-개발 부서는 소스 코드 검사 단계에서 발견된 모든 문제를 해결한다. 이슈가 된 오픈소스를 제거하거나, 다른 라이선스 하의 오픈소스로 교체하는 등 조치를 한다. 
+### 3. Resolving Issues
 
-개발 부서는 발견된 모든 이슈를 해결하면 Jira Ticket 이슈를 Resolve하고, 재검토를 요청한다. 
+The development team should resolve any issues found during the source code inspection phase. Take action, such as removing the open source that has become an issue, or replacing it with an open source under a different license.
 
-### 4. 검토<sub>Reviews</sub>
+When the development team resolves all issues found, Resolve the Jira Ticket issue and request a review.
 
-오픈소스 프로그램 매니저는 모든 이슈가 적절하게 보완되었는지를 검토한다. 필요할 경우, 오픈소스 분석 도구를 사용하여 소스 코드 검사를 재수행한다. 
+### 4. Reviews
 
-### 5. 승인<sub>Approval</sub>
+Open source program managers review that all issues have been properly addressed. If necessary, re-audit the source code using an open source analysis tool.
 
-오픈소스 프로그램 매니저는 오픈소스 컴플라이언스 절차가 적절하게 수행되었는지를 최종 승인 혹은 거절한다. 거절 시에는 이유에 대한 설명과 수정 방법을 개발 부서에 제안한다. 
+### 5. Approval
 
-### 6. 등록<sub>Registration</sub>
+The open source program manager should finally approve or reject whether the open source compliance process has been properly performed. In case of rejection, explain the reason and suggest to the development team how to fix it.
 
-오픈소스 프로그램 매니저는 소프트웨어의 버전별 오픈소스 사용 목록을 추적하기 위한 BOM을 확정한다.
+### 6. Registration
 
-인프라 담당은 확정된 BOM을 시스템에 등록한다. BOM에는 배포용 소프트웨어에 포함된 오픈소스 목록과 다음과 같은 정보를 포함한다. 
+The open source program manager confirms the BOM for tracking the list of open source usage by version of the software.
 
-- 배포용 소프트웨어의 제품(혹은 서비스) 이름과 버전
-- 오픈소스 목록
-  - 오픈소스 이름 / 버전
-  - 오픈소스 라이선스
+The person in charge of infrastructure registers the confirmed BOM in the system. Include in the BOM a list of the open sources included with the supplied software and information such as:
 
+- Product (or service) name and version of the supplied software
+- Open Source List
+   - Open source name / version
+   - Open source license
 
-### 7. 고지<sub>Notices</sub>
+### 7. Notices
 
-오픈소스 프로그램 매니저는 고지 의무를 준수하기 위한 오픈소스 고지문을 생성한다. 오픈소스 고지문에는 다음 사항을 포함한다. 
+Open Source Program Managers create Open Source Notices to comply with notice obligations. Include the following in the Open Source Notice.
 
-- 오픈소스 관련 문의할 수 있는 오픈소스 연락처
-- 오픈소스별 고지 내용
-  - 저작권 
-  - 오픈소스 라이선스 이름
-  - 오픈소스 라이선스 사본
-  - (해당하는 경우) 소스 코드 사본을 얻을 수 있는 서면 약정 (Written Offer)
+- Open source contact information for external inquiries related to open source
+- Notice by open source
+  - Copyright notice
+  - Open source license name
+  - A copy of the open source license
+  - Written Offer to receive a copy of the source code (if applicable)
 
-오픈소스 프로그램 매니저는 오픈소스 고지문을 생성하여 개발 부서에 전달한다. 이때 소스 코드 공개가 필요할 경우 개발 부서에 공개할 소스 코드 취합 방법을 안내한다. 
+The open source program manager creates an Open Source Notice and delivers it to the development team. In this case, if it is necessary to disclose the source code, guide the development team on how to collect the source code to be disclosed.
 
-개발 부서는 오픈소스 고지문을 제품 배포 시 동봉한다. 화면이 있는 제품일 경우, 사용자가 메뉴를 통해 확인할 수 있도록 조치한다.  (예: 앱 > 메뉴 > 설정 > 저작권 정보 > 오픈소스 라이선스)
+The development team should enclose the Open Source Notice when distributing the product. In the case of a product with a screen, take measures so that the user can check it through the menu. (Example: Apps > Menu > Settings > Copyright Information > Open Source License)
 
-개발 부서는 GPL, LGPL 등 소스 코드 공개를 요구하는 라이선스 하의 오픈소스를 사용하였을 경우, 이에 대한 소스 코드 공개 범위를 확인하여 공개할 소스 코드를 취합한다. 
+If the development team uses open source under a license that requires source code disclosure, such as GPL or LGPL, check the source code disclosure scope for this and collect the source code to be disclosed.
 
-- GPL, LGPL 등의 라이선스 의무 준수를 위해 취합한 소스 코드는 제품에 탑재된 바이너리를 구성하는 소스 코드와 일치해야 한다. 즉, 취합한 소스 코드를 빌드하면 제품에 탑재된 바이너리와 동일해야 한다. 
+- The source code collected to comply with license obligations such as GPL and LGPL should match the source code that creates the binaries loaded in the product. In other words, when the compiled source code is built, it should be the same as the binary loaded on the product.
 
-### 8. 배포 전 확인<sub>Pre-Distribution Verifications</sub>
+### 8. Pre-Distribution Verifications
 
-개발 부서는 오픈소스 컴플라이언스 활동이 적절히 수행되었음을 입증하는 다음의 산출물을 제출한다. 
+The development team should submit the following artifacts demonstrating that the open source compliance activities were properly conducted.
 
-1. 제품에 포함한 최종 오픈소스 고지문
-2. 제품에 오픈소스 고지문이 포함되었음을 확인하는 자료 (예: 오픈소스 고지문을 보여주는 화면 캡처 이미지)
-3. (해당할 경우) 공개할 소스 코드 (하나의 파일로 압축하여 제출)
+1. Final Open Source Notice included in the product
+2. Materials confirming that the product includes Open Source Notice (eg, screen capture image showing Open Source Notice)
+3. (if applicable) source code to be disclosed (compressed and submitted in one file)
 
-오픈소스 프로그램 매니저는 개발 부서가 제출한 자료를 검토하여 이상 여부를 확인한다. 
+The open source program manager should review the data submitted by the development team and check for any abnormalities.
 
-### 9. 배포<sub>Distribution</sub>
+### 9. Distribution
 
-오픈소스 프로그램 매니저는 개발 부서가 제출한 컴플라이언스 산출물을 인프라 담당에 제출한다.
+Open source program managers should submit compliance artifacts submitted by the development team to the infrastructure team.
 
-인프라 담당은 컴플라이언스 산출물을 회사의 오픈소스 배포 사이트에 등록한다. 
+The infrastructure team registers the compliance artifacts on the company's open source distribution site.
 
-### 10. 최종 확인 (Final Verifications)
+### 10. Final Verifications
 
-오픈소스 프로그램 매니저는 컴플라이언스 산출물이 이상 없이 회사의 오픈소스 포털에 등록이 되었는지, 외부에서 이상 없이 다운로드가 되는지 등 종합적인 확인을 한다. 
+The open source program manager should comprehensively check whether the compliance product is registered on the company's open source portal without any abnormality or whether it is downloaded from outside the company.
 
-## 2. 외부 문의 대응 프로세스
-외부로부터의 오픈소스 컴플라이언스 문의에 신속하고 정확하게 대응한다면 소송까지 진행되는 위험을 크게 줄일 수 있다. 이를 위해 기업은 외부의 오픈소스 컴플라이언스 문의에 대응하기 위해 다음과 같은 프로세스를 준수한다.
+## 2. External Inquiry Response Process
+If you respond quickly and accurately to open source compliance inquiries from outside, you can greatly reduce the risk of going to a lawsuit. Therefore, you should follow the following process to respond to external open source compliance inquiries.
 
 ![general-inquiry-process](general-inquiry-process.png)
 
-### 1. 접수 알림<sub>Acknowledge</sub>
-오픈소스 프로그램 매니저는 문의를 받은 즉시 요청자에게 문의가 접수되었음을 알린다. 이때 조치 예정일을 함께 알린다. 요청자의 의도가 무엇인지 정확히 파악하는 것이 중요하기 때문에 문의가 불명확한 경우 추가 설명을 요청한다.
+### 1. Acknowledge
 
-대응이 필요한 문의 및 요청의 주요 내용은 아래와 같다. 
+The open source program manager immediately informs the requester that the inquiry has been received. In this case, inform the requester of the expected date of action. Since it's important to know exactly what the requester's intent is, ask for further clarification if the inquiry is unclear.
 
-- 특정 제품 및 서비스에 오픈소스가 사용되었는지 문의
-- 서면 약정(Written Offer)에 언급된 GPL, LGPL 라이선스 하의 소스 코드 제공 요청
-- 오픈소스 고지문에 명시되지 않았지만, 제품에서 발견된 오픈소스에 대한 해명 및 소스 코드 공개 요청
-- GPL, LGPL 등의 의무로 공개된 소스 코드에 누락된 파일 및 빌드 방법 제공 요청
-- 저작권 표시 요청
+The main contents of inquiries and requests that require response are as follows.
 
-오픈소스 프로그램 매니저는 접수한 요청에 대한 Jira Issue를 생성하여 대응 상황을 모두 자세히 기록한다.
+- Inquiries about whether open source has been used for certain products and services
+- Request to provide source code under the GPL, LGPL license mentioned in the Written Offer
+- Request for clarification of open source found in the product and disclosure of source code even though it is not specified in the Open Source Notice
+- Request to provide missing files and build methods in the source code published due to GPL, LGPL, etc.
+- Request for copyright notice
 
-### 2. 조사 알림<sub>Inform</sub>
+The open source program manager creates a Jira Issue for the received request and records all responses in detail.
 
-오픈소스 프로그램 매니저는 요청자에게 오픈소스 컴플라이언스를 충실히 수행하고 있음과 요청자의 문의를 조사하고 있음을 알린다. 내부 조사 진행 상황이 업데이트될 때마다 알리는 것이 좋다.
+### 2. Inform
 
-### 3. 내부 조사<sub>Investigate</sub>
+The open source program manager informs the requester that it is faithfully performing open source compliance and is investigating the requester's inquiry. Notify the requestor whenever possible internal investigation progress is updated.
 
-오픈소스 프로그램 매니저는 요청 사항에 대한 내부 조사를 진행한다. 문제가 된 제품의 버전에 대하여 컴플라이언스 프로세스가 적절하게 수행되었는지 BOM 및 문서화된 검토 이력을 통해 확인한다. 필요 시 법무 담당에 자문을 요청한다. 
+### 3. Investigate
 
-특정 개발 부서에서 확인이 필요한 사항일 경우 오픈소스 프로그램 매니저는 개발 부서에 조사를 요청한다. 조사를 요청받은 개발 부서는 컴플라이언스 산출물에 문제가 있는지 즉시 확인하고 결과를 오픈소스 프로그램 매니저에게 보고한다. 
+The open source program manager conducts an internal investigation of the request. Check the BOM and documented review history to ensure that the compliance process has been properly implemented for the version of the product in question. Seek advice from the Legal Department if necessary.
 
-### 4. 요청자에게 보고<sub>Report</sub>
+If a specific development team needs confirmation, the open source program manager should ask the development team to investigate. The development team requested to be investigated immediately identifies any issues with the compliance artifacts and reports the findings to the open source program manager.
 
-요픈소스 컴플라이언스 담당은 조치 예정일 내에 내부 조사를 마치고, 요청자에게 결과를 알린다.
+### 4. Report
 
-- 요청자의 문의가 오해로 인한 잘못된 지적이었다면 추가 조치 없이 요청자에게 이를 알리고 처리를 종료한다.
-- 문제가 맞는다면 요청자에게 해당 오픈소스 라이선스의 의무를 이행하기 위한 정확한 방법과 시기를 알린다.
+The open source program manager should complete the internal investigation within the due date for action and inform the requester of the results.
 
-### 5. 문제 보완 / 알림<sub>Rectify</sub>
+- If the requester's complaint was a misunderstanding rather than a compliance issue, notify the requester without further action and terminate the procedure.
+- If any compliance issues are discovered, inform the requester of the exact method and timing to fulfill the obligations of the applicable open source license.
 
-내부조사에서 실제 컴플라이언스 문제가 발견되면 해당 개발 부서는 컴플라이언스 문제를 해결하는 데 필요한 모든 절차를 수행한다.
+### 5. Rectify
 
-### 6. 문제 해결 알림<sub>Report</sub>
+If an internal investigation reveals an actual compliance issue, the development team should take all necessary steps to resolve the compliance issue.
 
-문제를 해결한 후에는 즉시 요청자에게 알리고 문제가 해결되었음을 확인할 수 있는 최선의 방법을 제공한다.
+### 6. Report
 
-### 7. 프로세스 개선<sub>Improve</sub>
+After resolving the issue, notify the requester immediately and provide the best way to confirm that the issue has been resolved.
 
-컴플라이언스 문제가 있었던 경우, OSRB 미팅을 통해 사례를 검토하고, 문제가 발생한 경위를 파악하여, 문제가 재발하지 않을 수 있도록 프로세스를 개선한다.
+### 7. Improve
 
+If there are compliance issues, conduct an OSRB meeting to review the case, find out how the issue arose, and improve the process so that the issue does not recur.
