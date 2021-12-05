@@ -405,7 +405,7 @@ SPDX-License-Identifier: {$SPDX_license_name}
 &lt;h3 id="9-배포subdistributionsub">9. 배포&lt;sub>Distribution&lt;/sub>&lt;/h3>
 &lt;p>오픈소스 프로그램 매니저는 개발 부서가 제출한 컴플라이언스 산출물을 인프라 담당에 제출한다.&lt;/p>
 &lt;p>인프라 담당은 컴플라이언스 산출물을 회사의 오픈소스 배포 사이트에 등록한다.&lt;/p>
-&lt;h3 id="10-최종-확인-final-verifications">10. 최종 확인 (Final Verifications)&lt;/h3>
+&lt;h3 id="10-최종-확인subfinal-verificationssub">10. 최종 확인&lt;sub>Final Verifications&lt;/sub>&lt;/h3>
 &lt;p>오픈소스 프로그램 매니저는 컴플라이언스 산출물이 이상 없이 회사의 오픈소스 포털에 등록이 되었는지, 외부에서 이상 없이 다운로드가 되는지 등 종합적인 확인을 한다.&lt;/p>
 &lt;h2 id="2-외부-문의-대응-프로세스">2. 외부 문의 대응 프로세스&lt;/h2>
 &lt;p>외부로부터의 오픈소스 컴플라이언스 문의에 신속하고 정확하게 대응한다면 소송까지 진행되는 위험을 크게 줄일 수 있다. 이를 위해 기업은 외부의 오픈소스 컴플라이언스 문의에 대응하기 위해 다음과 같은 프로세스를 준수한다.&lt;/p>
