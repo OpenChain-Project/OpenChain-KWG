@@ -21,7 +21,7 @@ description: >
 | 0  | Intro & Greetings  | Newcomers | - |
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
 | 2  | OpenChain KWG Update | 장학성, SK텔레콤 |  |
-| 3  | 중국 최초 GPL 판결 사례 외| 장학성, SK텔레콤 | | 
+| 3  | 최근 소송 사례| 장학성, SK텔레콤 & 박원재, LG전자 | | 
 | 4  | Shift-left and Automate Compliance Checks | 하헌관, 카카오뱅크 | - | 
 | -  | to be updated | to be updated | - | 
 | 5  | 소그룹 모임 (Case Study) | All | - |
