@@ -21,7 +21,7 @@ description: >
 | 0  | Intro & Greetings  | Newcomers | - |
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
 | 2  | OpenChain KWG Update | Haksung Jang, SK telecom |  |
-| 3  | China's first GPL judgment case| Haksung Jang, SK telecom | | 
+| 3  | Recent litigation case| Haksung Jang, SK telecom & Wonjae Park, LG Electronics | | 
 | 4  | Shift-left and Automate Compliance Checks | Arlo Ha, Kakao Band | - | 
 | -  | to be updated | to be updated | - | 
 | 5  | Case Study | All | - |
