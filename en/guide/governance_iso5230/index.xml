@@ -107,7 +107,7 @@
 &lt;/div>
 &lt;p>The table below is a sample representative that specifies the roles of open source-related organizations and people in charge, and the required competencies. You can refer to this and form an open source organization and document it.&lt;/p>
 &lt;p>&lt;img src="rolelist.png" alt="">&lt;/p>
-&lt;p>This can also be found on this page. : &lt;a href="https://haksungjang.github.io/docs/openchain/#appendix-1-%EB%8B%B4%EB%8B%B9%EC%9E%90-%ED%98%84%ED%99%A9">https://haksungjang.github.io/docs/openchain/#appendix-1-담당자-현황&lt;/a>&lt;/p>
+&lt;p>This can also be found on this page. : &lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/1-policy-template/#appendix-1-list-of-persons-in-charge">appendix-1-list-of-persons-in-charge&lt;/a>&lt;/p>
 &lt;p>If you organize in this way, you will now meet the following three requirements among the requirements of ISO/IEC 5230.&lt;/p>
 &lt;p>&lt;img src="spec3121.png" alt="">&lt;/p></description></item><item><title>Guide: 4. Policy</title><link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/4-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/4-policy/</guid><description>
 &lt;h2 id="document-open-source-policy">Document open source policy&lt;/h2>
@@ -118,8 +118,14 @@
 &lt;li>Principles for contributing to the external open source community&lt;/li>
 &lt;li>Principles for releasing open source&lt;/li>
 &lt;/ul>
-&lt;p>The following pages provide sample open source policy documents that meet the requirements of ISO/IEC 5230. : “&lt;a href="https://haksungjang.github.io/docs/openchain/#%EB%B6%80%EB%A1%9D-1-%EC%83%98%ED%94%8C-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%A0%95%EC%B1%85">부록 1. 샘플 오픈소스 정책&lt;/a>”&lt;/p>
-&lt;p>&lt;img src="samplepolicy.png" alt="">&lt;/p>
+&lt;p>The following pages provide sample open source policy documents that meet the requirements of ISO/IEC 5230. : “&lt;a href="http://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/1-policy-template/">Appendix 1. Open Source Poicy (Sample)&lt;/a>”&lt;/p>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 690px">
+&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/4-policy/samplepolicy_huc1fb973fc49aa82e4c58648ec2c1c8ae_274309_900x600_fit_catmullrom_3.png" width="680" height="600">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+&lt;/p>
+&lt;/div>
+&lt;/div>
 &lt;p>Each company can use this sample policy by modifying it according to the company&amp;rsquo;s business strategy and environment.&lt;/p>
 &lt;p>If you do this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
 &lt;div class="alert alert-success" role="alert">
@@ -326,8 +332,14 @@ responds promptly by performing the following procedures.
 &lt;/div>
 &lt;h2 id="open-source-contribution-policy">Open Source Contribution Policy&lt;/h2>
 &lt;p>Global IT companies value not only the use of open source to make products and services, but also the strategic value that can be created by contributing to open source projects. However, if you contribute without a sufficient understanding and strategy for the open source project ecosystem and how the community operates, unexpected legal risks may arise and the company&amp;rsquo;s reputation may be damaged. Therefore, it is important for companies to create strategies and policies for participation and contribution to open source projects.&lt;/p>
-&lt;p>The following pages provide sample open source contribution policy documents. : &lt;a href="https://haksungjang.github.io/docs/openchain/#7-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B8%B0%EC%97%AC">7. 오픈소스 기여&lt;/a>&lt;/p>
-&lt;p>&lt;img src="samplecontribution.png" alt="">&lt;/p>
+&lt;p>The following pages provide sample open source contribution policy documents. : &lt;a href="http://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/1-policy-template/#7-open-source-contributions">7. Open Source Contribution&lt;/a>&lt;/p>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 747px">
+&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/4-policy/samplecontribution_hudf318fef2c1283938767a6884339f1c2_367902_900x600_fit_catmullrom_3.png" width="737" height="600">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+&lt;/p>
+&lt;/div>
+&lt;/div>
 &lt;p>If you do this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
 &lt;div class="alert alert-success" role="alert">
 &lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
@@ -363,7 +375,7 @@ responds promptly by performing the following procedures.
 &lt;/div>
 &lt;p>The image below is a sample open source compliance process that companies can commonly use.&lt;/p>
 &lt;p>&lt;img src="sampleprocess.png" alt="">&lt;/p>
-&lt;p>You can refer to the next page for more details on this. : &lt;a href="https://haksungjang.github.io/docs/openchain/#%EB%B6%80%EB%A1%9D-2-%EC%83%98%ED%94%8C-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%BB%B4%ED%94%8C%EB%9D%BC%EC%9D%B4%EC%96%B8%EC%8A%A4-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4">https://haksungjang.github.io/docs/openchain/#부록-2-샘플-오픈소스-컴플라이언스-프로세스&lt;/a>&lt;/p>
+&lt;p>You can refer to the next page for more details on this. : &lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/">2. Open Source Compliance Process (Sample)&lt;/a>&lt;/p>
 &lt;p>This chapter describes the elements that an open source compliance process should include.&lt;/p>
 &lt;h2 id="identify-and-audit">Identify and audit&lt;/h2>
 &lt;p>In order to determine whether an open source can be used, it is necessary to first identify the license of the open source to be used and check the obligations required by the license. You should review and record whether you used open source, what the licenses are, and what obligations each license gives you. An example of the procedure for this is as follows.&lt;/p>
@@ -372,8 +384,7 @@ responds promptly by performing the following procedures.
 &lt;li>In case of any doubt, contact the open source program manager, and if necessary, the open source program manager refers the question to external legal experts.&lt;/li>
 &lt;li>The outcome of any determination, and associated rationale (whether internal or external) is recorded.&lt;/li>
 &lt;/ol>
-&lt;p>“&lt;a href="https://haksungjang.github.io/docs/openchain/#%EB%B6%80%EB%A1%9D-2-%EC%83%98%ED%94%8C-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%BB%B4%ED%94%8C%EB%9D%BC%EC%9D%B4%EC%96%B8%EC%8A%A4-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4">부록 2. 샘플 오픈소스 컴플라이언스 프로세스&lt;/a>”의 &lt;a href="https://haksungjang.github.io/docs/openchain/#1-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%8B%9D%EB%B3%84subidentification-of-open-sourcesub">1. 오픈소스 식별&lt;/a>, 검사, 문제 해결, 리뷰, 승인 단계는 각 식별된 라이선스가 부가하는 의무, 제한을 검토하고 기록하기 위한 문서화된 절차의 한 예이다.&lt;/p>
-&lt;p>&lt;img src="identification.png" alt="">&lt;/p>
+&lt;p>The &lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#1-identification-of-open-source">Identification of Open Source&lt;/a>, &lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#2-auditing-source-code">Auditing Source Code&lt;/a>, &lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#3-resolving-issues">Resolving Issues&lt;/a>, &lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#4-reviews">Reviews&lt;/a>, and &lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#5-approval">Approval&lt;/a> steps are an example of a documented process for reviewing and documenting the obligations, restrictions and rights imposed by each identified license.&lt;/p>
 &lt;p>If you prepare such a procedure, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
 &lt;div class="alert alert-success" role="alert">
 &lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
@@ -391,7 +402,7 @@ responds promptly by performing the following procedures.
 &lt;h2 id="create-bill-of-materials">Create Bill of Materials&lt;/h2>
 &lt;p>The most basic of open source compliance activities is to determine open source included in the supplied software. It is necessary to establish a process for creating and managing a Bill of Materials (BOM) containing the information by identifying the open source included in the supplied software and identified license. This is because it is necessary to know which open source is included in each version of the supplied software so that when distributing the software, you can comply with the obligations required by the identified license of each open source.&lt;/p>
 &lt;p>All open source must be reviewed and approved prior to integration into the supplied software. It should be reviewed in advance whether it can meet license requirements as well as the function and quality of open source. For this, a review request → review → approval process is required.&lt;/p>
-&lt;p>&lt;a href="https://haksungjang.github.io/docs/openchain/#%EB%B6%80%EB%A1%9D-2-%EC%83%98%ED%94%8C-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%BB%B4%ED%94%8C%EB%9D%BC%EC%9D%B4%EC%96%B8%EC%8A%A4-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4">부록 2. 샘플 오픈소스 컴플라이언스 프로세스&lt;/a>에서는 기업의 오픈소스 컴플라이언스를 위한 프로세스 모든 과정에 관해 설명하고 있다. &lt;a href="https://haksungjang.github.io/docs/openchain/#1-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%8B%9D%EB%B3%84subidentification-of-open-sourcesub">1. 오픈소스 식별&lt;/a>부터 &lt;a href="https://haksungjang.github.io/docs/openchain/#6-%EB%93%B1%EB%A1%9Dsubregistrationsub">6. 등록&lt;/a>까지의 과정을 통해 BOM을 작성하고 관리하게 된다.&lt;/p>
+&lt;p>&lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/">Appendix 2. Open Source Compliance Process (Sample)&lt;/a> explains all the processes for open source compliance. BOM is created and managed through the process from &lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#1-identification-of-open-source">1. Identification of Open Source&lt;/a> to &lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#6-registration">6. Registration&lt;/a>.&lt;/p>
 &lt;p>The tool for managing the open source BOM is described in detail in &amp;ldquo;&lt;a href="../6-tool/">6. Tool&lt;/a>&amp;rdquo;.&lt;/p>
 &lt;p>In addition, all processes and results of such an open source compliance process should be documented. Rather than using e-mail, it is better to use an issue tracking system such as [Jira] (&lt;a href="https://www.atlassian.com/software/jira">https://www.atlassian.com/software/jira&lt;/a>) and [Bugzilla] (&lt;a href="https://www.bugzilla.org/">https://www.bugzilla.org/&lt;/a>) to effectively document this process.&lt;/p>
 &lt;p>If you prepare such a procedure, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
@@ -422,7 +433,8 @@ responds promptly by performing the following procedures.
 &lt;p>Source code package to be disclosed: A package that collects source codes to be disclosed to fulfill open source license obligations that require source code disclosure such as GPL, LGPL, etc.&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;p>Compliance artifacts must be provided when distributing supplied software.“&lt;a href="https://haksungjang.github.io/docs/openchain/#%EB%B6%80%EB%A1%9D-2-%EC%83%98%ED%94%8C-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%BB%B4%ED%94%8C%EB%9D%BC%EC%9D%B4%EC%96%B8%EC%8A%A4-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4">부록 2. 샘플 오픈소스 컴플라이언스 프로세스&lt;/a>”의 고지 단계부터 배포 단계를 통해 컴플라이언스 산출물을 생성하여 배포한다.&lt;/p>
+&lt;p>Compliance artifacts must be provided when distributing supplied software.&lt;/p>
+&lt;p>In “&lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/">Appendix 2. Open Source Compliance Process (Sample)&lt;/a>”, the compliance artifacts are created and distributed through &lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#7-notices">7. Notices&lt;/a> to &lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#9-distribution">9. Distribution&lt;/a>.&lt;/p>
 &lt;p>When distributing supplied software, if it is difficult to enclose the source code package to be disclosed, it can be replaced by providing a written offer to provide the source code for at least 3 years. Typically, a written offer is provided through the product&amp;rsquo;s user manual, examples of which are as follows.&lt;/p>
 &lt;pre tabindex="0">&lt;code>The software included in this product contains copyrighted software
 that is licensed under the GPL. A copy of that license is included
@@ -454,9 +466,8 @@ This offer is valid to anyone in receipt of this information.
 &lt;h2 id="respond-to-third-party-inquiries">Respond to third party inquiries&lt;/h2>
 &lt;p>It is important for a company to respond to third party inquiries as quickly and accurately as possible in order to avoid legal litigation. For this, a company must have a process that can respond quickly and effectively to third party open source inquiries.&lt;/p>
 &lt;p>The figure below shows the process a company must have to respond to third party inquiries.&lt;/p>
-&lt;p>&lt;img src="access.png" alt="">
-&lt;a href="https://haksungjang.github.io/docs/openchain/#2-%EC%99%B8%EB%B6%80-%EB%AC%B8%EC%9D%98-%EB%8C%80%EC%9D%91-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4">https://haksungjang.github.io/docs/openchain/#2-외부-문의-대응-프로세스&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://haksungjang.github.io/docs/openchain/#2-%EC%99%B8%EB%B6%80-%EB%AC%B8%EC%9D%98-%EB%8C%80%EC%9D%91-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4">“부록 2. 샘플 오픈소스 컴플라이언스 프로세스의 2. 외부 문의 대응 프로세스&lt;/a>”에서 세부 내용을 확인할 수 있다.&lt;/p>
+&lt;p>&lt;img src="access.png" alt="">&lt;/p>
+&lt;p>Details can be found in “&lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#2-external-inquiry-response-process">Appendix 2. Open Source Compliance Process (Sample) 2. External Inquiry Response Process&lt;/a>”.&lt;/p>
 &lt;p>If you prepare such a procedure, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
 &lt;div class="alert alert-success" role="alert">
 &lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
