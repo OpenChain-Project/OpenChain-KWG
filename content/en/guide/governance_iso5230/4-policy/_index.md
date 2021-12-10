@@ -16,9 +16,10 @@ Common open source policies include:
 - Principles for contributing to the external open source community
 - Principles for releasing open source
 
-The following pages provide sample open source policy documents that meet the requirements of ISO/IEC 5230. : “[부록 1. 샘플 오픈소스 정책](https://haksungjang.github.io/docs/openchain/#%EB%B6%80%EB%A1%9D-1-%EC%83%98%ED%94%8C-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%A0%95%EC%B1%85)” 
+The following pages provide sample open source policy documents that meet the requirements of ISO/IEC 5230. : “[Appendix 1. Open Source Poicy (Sample)](http://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/1-policy-template/)” 
 
-![](samplepolicy.png)
+{{< imgproc samplepolicy Fit "900x600" >}}
+{{< /imgproc >}}
 
 Each company can use this sample policy by modifying it according to the company's business strategy and environment.
 
@@ -305,10 +306,11 @@ If you do this, you can prepare the following evidence required by ISO/IEC 5230.
 
 Global IT companies value not only the use of open source to make products and services, but also the strategic value that can be created by contributing to open source projects. However, if you contribute without a sufficient understanding and strategy for the open source project ecosystem and how the community operates, unexpected legal risks may arise and the company's reputation may be damaged. Therefore, it is important for companies to create strategies and policies for participation and contribution to open source projects.
 
-The following pages provide sample open source contribution policy documents. : [7. 오픈소스 기여](https://haksungjang.github.io/docs/openchain/#7-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B8%B0%EC%97%AC)
+The following pages provide sample open source contribution policy documents. : [7. Open Source Contribution](http://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/1-policy-template/#7-open-source-contributions)
 
-![](samplecontribution.png)
 
+{{< imgproc samplecontribution Fit "900x600" >}}
+{{< /imgproc >}}
 
 If you do this, you can prepare the following evidence required by ISO/IEC 5230.
 
