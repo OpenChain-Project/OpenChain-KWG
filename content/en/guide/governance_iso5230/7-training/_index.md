@@ -184,7 +184,7 @@ The Open Source License Guide should include requirements specific to common ope
 
 For general guides on open source licenses and summary of license obligations, refer to the [Open Source License Checklists](https://www.osadl.org/Access-to-raw-data.oss-compliance-raw-data-access.0.html) provided by the OSADL.
 
-The document [Obligations by license] (https://sktelecom.github.io/guide/use/obligation/) in SK Telecom's open source guide is also a good resource (Korean only).
+The document [Obligations by license](https://sktelecom.github.io/guide/use/obligation/) in SK Telecom's open source guide is also a good resource (Korean only).
 
 ![](sktlicenseguide.png)
 [https://sktelecom.github.io/guide/use/obligation/gpl-2.0/](https://sktelecom.github.io/guide/use/obligation/gpl-2.0/)

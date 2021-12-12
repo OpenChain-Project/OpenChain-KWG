@@ -7,7 +7,7 @@ description: >
 
 ## Source code scanning tool
 
-Source code scanning tools are available during the open source identification and audit phase of the open source compliance process. Source code scanning tools range from freely available, open source-based tools to commercial tools, each with their own strengths and weaknesses, but none of them seem to provide complete functionality to solve all problems. Therefore, companies can choose the appropriate tool for the characteristics and requirements of the product.
+You should use a source code scanning tool during the identification of open source and audit phase of the open source compliance process. Source code scanning tools range from freely available, open source-based tools to commercial tools, each with their own strengths and weaknesses, but none of them seem to provide complete functionality to solve all problems. Therefore, companies can choose the appropriate tool for the characteristics and requirements of the product.
 
 Many companies use a combination of these automated source code scanning tools and manual reviews. Linux Foundation's [FOSSology](https://fossology.org/) project is an open source source code scanning tool that companies can use for free.
 
