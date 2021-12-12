@@ -85,7 +85,7 @@ OSRB<sub>Open Source Review Board</sub> is a consultative body composed of an op
 The open source program manager is responsible for the overall responsibility for the company's open source programs. To ensure open source compliance of products and services using open source, open source program manager is responsible for:<sub>(3.2.2.4)</sub>
 
 - Define the roles required for open source compliance, and designate a responsible person and group in charge of each role. Consult with OSRB if necessary.
-- Supervise and evaluate open source compliance training.
+- Supervise and assess open source compliance training.
 - Serves as the chair of the OSRB and directs its activities.
 - Respond to inquiries and requests related to open source use and compliance from outside.
 - Review and approve requests for use of open source.
@@ -143,7 +143,7 @@ The organization responsible for quality, such as QA, checks whether the open so
 ## 5. Training and Assessment
 All program participants should take the open source mandatory training provided by [Learning Portal] every year. Through training, all participants should be familiar with open source policies and processes. Training history is stored in [Learning Portal].<sub>(3.1.1.2)<sub>
 
-All members in charge of each role defined in Chapter 4 should take the advanced open source training course provided by [Learning Portal]. Training history and evaluation results are stored in [Learning Portal] for at least 3 years.<sub>(3.1.2.3)</sub>
+All members in charge of each role defined in Chapter 4 should take the advanced open source training course provided by [Learning Portal]. Training history and assessment results are stored in [Learning Portal] for at least 3 years.<sub>(3.1.2.3)</sub>
 
 ## 6. Use open source
 
