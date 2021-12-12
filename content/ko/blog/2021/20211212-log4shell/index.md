@@ -39,11 +39,11 @@ Log4j는 로그를 목적으로 Java 기반의 웹서비스에서 대부분 사�
 - 해외 기사는 "**Log4Shell**" 로 검색
 
 ### 대응방안
+- **[Log4Shell에 연결된 보안 권고/공고(CVE-2021-44228)](https://gist.github.com/SwitHak/b66db3a06c2955a9cb71a8718970c592)**
 - 2021.12.06 [Apache 2.15.0 CVE-2021-44228 관련 내용 고지](https://logging.apache.org/log4j/2.x/)
 - 2021.12.10 [Spring, Log4J2 Vulnerability and Spring Boot](https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot) (영문)
 - 2021.12.11 [KISA, Apache Log4j 2 보안 업데이트 권고](https://www.krcert.or.kr/data/secNoticeView.do?bulletin_writing_sequence=36389)
 - 2021.12.12 [과기정통부, Apache Log4j 2 웹 서비스 긴급 보안패치 권고](https://www.korea.kr/news/pressReleaseView.do?newsId=156485848) (가이드는 위 내용과 동일)
-
 
 ### 대응 사례 (참고)
 - 2021.12.10 [AWS, Apache Log4j2 Issue](https://aws.amazon.com/ko/security/security-bulletins/AWS-2021-005) (영문)
