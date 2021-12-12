@@ -166,7 +166,7 @@ If you prepare such a procedure, you can prepare the following evidence required
 
 If you have a policy to allow contributions to external open source projects, there should be a documented procedure to manage how in-house developers can contribute to external projects.
 
-The [Open Source Contribution Procedure] (https://sktelecom.github.io/guide/contribute/process/) released by SK telecom is a good example.
+The [Open Source Contribution Procedure](https://sktelecom.github.io/guide/contribute/process/) released by SK telecom is a good example.
 
 ![](contribution.png)
 [https://sktelecom.github.io/guide/contribute/process/](https://sktelecom.github.io/guide/contribute/process/)
