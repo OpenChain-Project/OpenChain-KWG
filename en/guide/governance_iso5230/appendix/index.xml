@@ -77,7 +77,7 @@ For this reason, we take breaches of this policy seriously, and any individual b
 &lt;p>The open source program manager is responsible for the overall responsibility for the company&amp;rsquo;s open source programs. To ensure open source compliance of products and services using open source, open source program manager is responsible for:&lt;sub>(3.2.2.4)&lt;/sub>&lt;/p>
 &lt;ul>
 &lt;li>Define the roles required for open source compliance, and designate a responsible person and group in charge of each role. Consult with OSRB if necessary.&lt;/li>
-&lt;li>Supervise and evaluate open source compliance training.&lt;/li>
+&lt;li>Supervise and assess open source compliance training.&lt;/li>
 &lt;li>Serves as the chair of the OSRB and directs its activities.&lt;/li>
 &lt;li>Respond to inquiries and requests related to open source use and compliance from outside.&lt;/li>
 &lt;li>Review and approve requests for use of open source.&lt;/li>
@@ -134,7 +134,7 @@ For this reason, we take breaches of this policy seriously, and any individual b
 &lt;/ul>
 &lt;h2 id="5-training-and-assessment">5. Training and Assessment&lt;/h2>
 &lt;p>All program participants should take the open source mandatory training provided by [Learning Portal] every year. Through training, all participants should be familiar with open source policies and processes. Training history is stored in [Learning Portal].&lt;sub>(3.1.1.2)&lt;sub>&lt;/p>
-&lt;p>All members in charge of each role defined in Chapter 4 should take the advanced open source training course provided by [Learning Portal]. Training history and evaluation results are stored in [Learning Portal] for at least 3 years.&lt;sub>(3.1.2.3)&lt;/sub>&lt;/p>
+&lt;p>All members in charge of each role defined in Chapter 4 should take the advanced open source training course provided by [Learning Portal]. Training history and assessment results are stored in [Learning Portal] for at least 3 years.&lt;sub>(3.1.2.3)&lt;/sub>&lt;/p>
 &lt;h2 id="6-use-open-source">6. Use open source&lt;/h2>
 &lt;p>If you use open source to develop and distribute products and services, you should comply with the obligations required by each open source license. The activities that companies perform for this purpose are called open source compliance.&lt;/p>
 &lt;p>For proper open source compliance activities, software development/distribution organizations should comply with the following:&lt;sub>(3.3.1.1)&lt;/sub>&lt;/p>
