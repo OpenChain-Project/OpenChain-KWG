@@ -483,7 +483,7 @@ This offer is valid to anyone in receipt of this information.
 &lt;/div>
 &lt;h2 id="open-source-contribution-process">Open Source Contribution Process&lt;/h2>
 &lt;p>If you have a policy to allow contributions to external open source projects, there should be a documented procedure to manage how in-house developers can contribute to external projects.&lt;/p>
-&lt;p>The [Open Source Contribution Procedure] (&lt;a href="https://sktelecom.github.io/guide/contribute/process/">https://sktelecom.github.io/guide/contribute/process/&lt;/a>) released by SK telecom is a good example.&lt;/p>
+&lt;p>The &lt;a href="https://sktelecom.github.io/guide/contribute/process/">Open Source Contribution Procedure&lt;/a> released by SK telecom is a good example.&lt;/p>
 &lt;p>&lt;img src="contribution.png" alt="">
 &lt;a href="https://sktelecom.github.io/guide/contribute/process/">https://sktelecom.github.io/guide/contribute/process/&lt;/a>&lt;/p>
 &lt;p>If you prepare such a procedure, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
@@ -502,7 +502,7 @@ This offer is valid to anyone in receipt of this information.
 &lt;p>If you build the process up to this point, you will comply with the ISO/IEC 5230 requirements as follows.&lt;/p>
 &lt;p>&lt;img src="processno.png" alt="">&lt;/p></description></item><item><title>Guide: 6. Tool</title><link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/6-tool/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/6-tool/</guid><description>
 &lt;h2 id="source-code-scanning-tool">Source code scanning tool&lt;/h2>
-&lt;p>Source code scanning tools are available during the open source identification and audit phase of the open source compliance process. Source code scanning tools range from freely available, open source-based tools to commercial tools, each with their own strengths and weaknesses, but none of them seem to provide complete functionality to solve all problems. Therefore, companies can choose the appropriate tool for the characteristics and requirements of the product.&lt;/p>
+&lt;p>You should use a source code scanning tool during the identification of open source and audit phase of the open source compliance process. Source code scanning tools range from freely available, open source-based tools to commercial tools, each with their own strengths and weaknesses, but none of them seem to provide complete functionality to solve all problems. Therefore, companies can choose the appropriate tool for the characteristics and requirements of the product.&lt;/p>
 &lt;p>Many companies use a combination of these automated source code scanning tools and manual reviews. Linux Foundation&amp;rsquo;s &lt;a href="https://fossology.org/">FOSSology&lt;/a> project is an open source source code scanning tool that companies can use for free.&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 484px">
 &lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/6-tool/fossology_hu1f7b14a5f6ba93f8dfdcd97738077fe2_13569_900x600_fit_catmullrom_3.png" width="474" height="231">
@@ -766,7 +766,7 @@ for at least 3 years.
 &lt;p>To properly comply with open source licenses, you must know exactly what each open source license requires. However, since it is difficult for a software developer to figure it out on their own, it is recommended that an open source program manager identify requirements / conditions for common use cases for frequently used open source licenses and share them within the company.&lt;/p>
 &lt;p>The Open Source License Guide should include requirements specific to common open source licensing use cases to ensure that software developers use open source and comply with its license obligations properly.&lt;/p>
 &lt;p>For general guides on open source licenses and summary of license obligations, refer to the &lt;a href="https://www.osadl.org/Access-to-raw-data.oss-compliance-raw-data-access.0.html">Open Source License Checklists&lt;/a> provided by the OSADL.&lt;/p>
-&lt;p>The document [Obligations by license] (&lt;a href="https://sktelecom.github.io/guide/use/obligation/">https://sktelecom.github.io/guide/use/obligation/&lt;/a>) in SK Telecom&amp;rsquo;s open source guide is also a good resource (Korean only).&lt;/p>
+&lt;p>The document &lt;a href="https://sktelecom.github.io/guide/use/obligation/">Obligations by license&lt;/a> in SK Telecom&amp;rsquo;s open source guide is also a good resource (Korean only).&lt;/p>
 &lt;p>&lt;img src="sktlicenseguide.png" alt="">
 &lt;a href="https://sktelecom.github.io/guide/use/obligation/gpl-2.0/">https://sktelecom.github.io/guide/use/obligation/gpl-2.0/&lt;/a>&lt;/p>
 &lt;p>If you provide this open source licensing guide, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
