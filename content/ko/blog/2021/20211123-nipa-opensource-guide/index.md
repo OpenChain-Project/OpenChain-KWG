@@ -45,7 +45,7 @@ NIPA에서 공개소프트웨어 활용을 위한 4종의 가이드를 발간했
 기업 공개소프트웨어 거버넌스 가이드는 기업에서 공개소프트웨어를 활용한 소프트웨어 제품 및 서비스의 개발과 출시가 증가함에 따라 공개소프트웨어 기반 소프트웨어 개발 및 공급 시 소스 관리 및 공급 정책, 컴플라이언스 프로세스, 관리 도구, 조직 구성 등 기업에서 공개소프트웨어 거버넌스를 수립에 필요한 가이드는 물론 기업의 입장에서 커뮤니티에 기여하는 방법, 공개하는 방법도 함께 설명한다.각 장은 ▲공개소프트웨어 사용하기 ▲공개소프트웨어 기여하기 ▲공개소프트웨어 공개하기▲OSPO(Open Source Program Office), 공개소프트웨어 프로그램 사무소로 구성된다.각 주제는 이해를 돕기 위해 기업 및 구성원의 입장에 따라 각각 기업 편과 개발자 편으로 나누어 설명한다. 기업 편은 공개소프트웨어 담당자가 정책과 프로세스를 구축하기 위해 알아야 할 사항을 중점적으로 다루고, 개발자 편에서는 기업에 속한 개발자가 공개소프트웨어를 활용하는 데에 필요한 사항을 설명한다.
 
 <a href="https://www.oss.kr/oss_guide/show/2f7c25e8-df31-4ad9-9d25-1d8234c322c0" target="_blank">
-<img src="opensource-sw-company-guide.jpg" data-canonical-src="opensource-sw-company-guide.jpg" width="300px" height="600px" />
+<img src="featured-opensource-sw-company-guide.jpg" data-canonical-src="featured-opensource-sw-company-guide.jpg" width="300px" height="600px" />
 </a>
 
 ## 개방형OS 도입가이드
