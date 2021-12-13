@@ -11,7 +11,8 @@ resources:
     byline: "Photo: Robin Hwang"
 ---
 
-NIPA에서 공개소프트웨어 활용을 위한 4종의 가이드를 발간했습니다.
+NIPA에서 공개소프트웨어 활용을 위한 4종의 가이드를 발간했습니다. (출처 : https://www.oss.kr/news/show/ef0900db-f5b4-40fb-8745-f1b937fbd8d0)
+
 공개소프트웨어 가이드 4종의 내용은 아래와 같습니다.
 참고로 기업 공개소프트웨어 거버넌스 가이드는 현재 OpenChain KWG 운영진이신 장학성, 이서연, 황민호님이 집필에 참여했습니다.
 
