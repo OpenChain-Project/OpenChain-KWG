@@ -15,20 +15,19 @@
 <link rel=icon type=image/png href=/OpenChain-KWG/favicons/android-96x96.png sizes=96x96>
 <link rel=icon type=image/png href=/OpenChain-KWG/favicons/android-144x144.png sizes=144x144>
 <link rel=icon type=image/png href=/OpenChain-KWG/favicons/android-192x192.png sizes=192x192>
-<title>샘플 블로그입니다. | OpenChain KWG</title><meta property="og:title" content="샘플 블로그입니다.">
-<meta property="og:description" content="The Docsy Hugo theme lets project maintainers and contributors focus on content, not on reinventing a website infrastructure from scratch">
+<title>Log4j 2 보안 취약점 사태 (Log4Shell) | OpenChain KWG</title><meta property="og:title" content="Log4j 2 보안 취약점 사태 (Log4Shell)">
+<meta property="og:description" content="오픈소스 보안 이슈 Log4Shell과 관련된 내용을 정리합니다.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://openChain-project.github.io/OpenChain-KWG/blog/sample/sample-post/"><meta property="og:image" content="https://openChain-project.github.io/OpenChain-KWG/blog/sample/sample-post/featured-sunset-get.png"><meta property="article:section" content="blog">
-<meta property="article:published_time" content="2020-08-29T00:00:00+00:00">
-<meta property="article:modified_time" content="2021-04-03T17:16:56+09:00"><meta property="og:site_name" content="OpenChain KWG">
-<meta itemprop=name content="샘플 블로그입니다.">
-<meta itemprop=description content="The Docsy Hugo theme lets project maintainers and contributors focus on content, not on reinventing a website infrastructure from scratch"><meta itemprop=datePublished content="2020-08-29T00:00:00+00:00">
-<meta itemprop=dateModified content="2021-04-03T17:16:56+09:00">
-<meta itemprop=wordCount content="1333"><meta itemprop=image content="https://openChain-project.github.io/OpenChain-KWG/blog/sample/sample-post/featured-sunset-get.png">
-<meta itemprop=keywords content><meta name=twitter:card content="summary_large_image">
-<meta name=twitter:image content="https://openChain-project.github.io/OpenChain-KWG/blog/sample/sample-post/featured-sunset-get.png">
-<meta name=twitter:title content="샘플 블로그입니다.">
-<meta name=twitter:description content="The Docsy Hugo theme lets project maintainers and contributors focus on content, not on reinventing a website infrastructure from scratch">
+<meta property="og:url" content="https://openChain-project.github.io/OpenChain-KWG/blog/2021/20211212-log4shell/"><meta property="article:section" content="blog">
+<meta property="article:published_time" content="2021-12-12T00:00:00+00:00">
+<meta property="article:modified_time" content="2021-12-13T01:10:08+09:00"><meta property="og:site_name" content="OpenChain KWG">
+<meta itemprop=name content="Log4j 2 보안 취약점 사태 (Log4Shell)">
+<meta itemprop=description content="오픈소스 보안 이슈 Log4Shell과 관련된 내용을 정리합니다."><meta itemprop=datePublished content="2021-12-12T00:00:00+00:00">
+<meta itemprop=dateModified content="2021-12-13T01:10:08+09:00">
+<meta itemprop=wordCount content="429">
+<meta itemprop=keywords content><meta name=twitter:card content="summary">
+<meta name=twitter:title content="Log4j 2 보안 취약점 사태 (Log4Shell)">
+<meta name=twitter:description content="오픈소스 보안 이슈 Log4Shell과 관련된 내용을 정리합니다.">
 <link rel=preload href=/OpenChain-KWG/scss/main.min.d1e6b43b2650b723f534a66450bacd9495e7bdb3c898fd5bf73f1331ee7f70b4.css as=style>
 <link href=/OpenChain-KWG/scss/main.min.d1e6b43b2650b723f534a66450bacd9495e7bdb3c898fd5bf73f1331ee7f70b4.css rel=stylesheet integrity>
 <script src=https://code.jquery.com/jquery-3.5.1.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script>
@@ -64,7 +63,7 @@
 Korean
 </a>
 <div class=dropdown-menu aria-labelledby=navbarDropdownMenuLink>
-<a class=dropdown-item href=/OpenChain-KWG/en/blog/sample/sample-post/>English</a>
+<a class=dropdown-item href=/OpenChain-KWG/en/>English</a>
 </div>
 </li>
 </ul>
@@ -90,7 +89,7 @@ Korean
 Korean
 </a>
 <div class=dropdown-menu aria-labelledby=navbarDropdownMenuLink>
-<a class=dropdown-item href=/OpenChain-KWG/en/blog/sample/sample-post/>English</a>
+<a class=dropdown-item href=/OpenChain-KWG/en/>English</a>
 </div>
 </div>
 <ul class="td-sidebar-nav__section pr-md-3">
@@ -101,11 +100,11 @@ Korean
 <li class="collapse show" id=openchain-kwgblog>
 <ul class="td-sidebar-nav__section pr-md-3">
 <li class=td-sidebar-nav__section-title>
-<a href=/OpenChain-KWG/blog/2021/ class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">2021</a>
+<a href=/OpenChain-KWG/blog/2021/ class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">2021</a>
 </li>
 <ul>
-<li class=collapse id=openchain-kwgblog2021>
-<a class="td-sidebar-link td-sidebar-link__page" id=m-openchain-kwgblog202120211212-log4shell href=/OpenChain-KWG/blog/2021/20211212-log4shell/>Log4Shell RCE</a>
+<li class="collapse show" id=openchain-kwgblog2021>
+<a class="td-sidebar-link td-sidebar-link__page active" id=m-openchain-kwgblog202120211212-log4shell href=/OpenChain-KWG/blog/2021/20211212-log4shell/>Log4Shell RCE</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-openchain-kwgblog202120211123-nipa-opensource-guide href=/OpenChain-KWG/blog/2021/20211123-nipa-opensource-guide/>NIPA, 공개소프트웨어 가이드</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-openchain-kwgblog202120211115-virtualapp_gpl href=/OpenChain-KWG/blog/2021/20211115-virtualapp_gpl/>중국 첫 GPL 소송 사례</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-openchain-kwgblog202120210728-gplv2installationinformation href=/OpenChain-KWG/blog/2021/20210728-gplv2installationinformation/>GPLv2도 설치정보를 요구한다고?</a>
@@ -131,12 +130,12 @@ Korean
 </ul>
 <ul class="td-sidebar-nav__section pr-md-3">
 <li class=td-sidebar-nav__section-title>
-<a href=/OpenChain-KWG/blog/sample/ class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Howto</a>
+<a href=/OpenChain-KWG/blog/sample/ class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Howto</a>
 </li>
 <ul>
-<li class="collapse show" id=openchain-kwgblogsample>
+<li class=collapse id=openchain-kwgblogsample>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-openchain-kwgblogsamplehow-to href=/OpenChain-KWG/blog/sample/how-to/>블로그 작성 방법</a>
-<a class="td-sidebar-link td-sidebar-link__page active" id=m-openchain-kwgblogsamplesample-post href=/OpenChain-KWG/blog/sample/sample-post/>샘플 블로그</a>
+<a class="td-sidebar-link td-sidebar-link__page" id=m-openchain-kwgblogsamplesample-post href=/OpenChain-KWG/blog/sample/sample-post/>샘플 블로그</a>
 </li>
 </ul>
 </ul>
@@ -162,360 +161,133 @@ Korean
 </div>
 <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
 <div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
-<a href=https://github.com/OpenChain-Project/OpenChain-KWG/edit/master/content/ko/blog/sample/sample-post/index.md target=_blank><i class="fa fa-edit fa-fw"></i> Edit this page</a>
-<a href="https://github.com/OpenChain-Project/OpenChain-KWG/issues/new?title=%ec%83%98%ed%94%8c%20%eb%b8%94%eb%a1%9c%ea%b7%b8%ec%9e%85%eb%8b%88%eb%8b%a4." target=_blank><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
+<a href=https://github.com/OpenChain-Project/OpenChain-KWG/edit/master/content/ko/blog/2021/20211212-log4shell/index.md target=_blank><i class="fa fa-edit fa-fw"></i> Edit this page</a>
+<a href="https://github.com/OpenChain-Project/OpenChain-KWG/issues/new?title=Log4j%202%20%eb%b3%b4%ec%95%88%20%ec%b7%a8%ec%95%bd%ec%a0%90%20%ec%82%ac%ed%83%9c%20%28Log4Shell%29" target=_blank><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
 <a href=https://github.com/OpenChain-Project/OpenChain-KWG/issues/new target=_blank><i class="fas fa-tasks fa-fw"></i> Create project issue</a>
 </div>
 <nav id=TableOfContents>
 <ul>
-<li><a href=#first-header>First Header</a></li>
-<li><a href=#header-2>Header 2</a>
+<li>
 <ul>
-<li><a href=#header-3>Header 3</a></li>
+<li><a href=#log4j>Log4j</a></li>
+<li><a href=#경과>경과</a></li>
+<li><a href=#보도자료-국내>보도자료 (국내)</a></li>
+<li><a href=#대응방안>대응방안</a></li>
+<li><a href=#대응-사례-참고>대응 사례 (참고)</a></li>
+<li><a href=#영향범위>영향범위</a></li>
+<li><a href=#알려진-취약성-검사-스캐너>알려진 취약성 검사 스캐너</a></li>
+<li><a href=#취약성-공격-방식>취약성 공격 방식</a></li>
+<li><a href=#정부-오픈소스-사용실태-조사-검토>정부, 오픈소스 사용실태 조사 검토</a></li>
 </ul>
 </li>
-<li><a href=#components>Components</a>
-<ul>
-<li><a href=#alerts>Alerts</a></li>
-</ul>
-</li>
-<li><a href=#sizing>Sizing</a>
-<ul>
-<li><a href=#parameters-available>Parameters available</a></li>
-<li><a href=#using-pixels>Using pixels</a></li>
-<li><a href=#using-rem>Using rem</a></li>
-</ul>
-</li>
-<li><a href=#memory>Memory</a>
-<ul>
-<li><a href=#ram-to-use>RAM to use</a></li>
-<li><a href=#more-is-better>More is better</a></li>
-<li><a href=#used-ram>Used RAM</a></li>
-</ul>
-</li>
-<li><a href=#including-images>Including images</a></li>
 </ul>
 </nav>
 </div>
 <main class="col-12 col-md-9 col-xl-8 pl-md-5 pr-md-4" role=main>
-<a class="btn btn-lg -bg-orange td-rss-button d-none d-lg-block" href=https://openChain-project.github.io/OpenChain-KWG/blog/sample/index.xml target=_blank>
+<a class="btn btn-lg -bg-orange td-rss-button d-none d-lg-block" href=https://openChain-project.github.io/OpenChain-KWG/blog/2021/index.xml target=_blank>
 RSS <i class="fa fa-rss ml-2"></i>
 </a>
 <div class=td-content>
-<h1>샘플 블로그입니다.</h1>
-<div class=lead>The Docsy Hugo theme lets project maintainers and contributors focus on content, not on reinventing a website infrastructure from scratch</div>
+<h1>Log4j 2 보안 취약점 사태 (Log4Shell)</h1>
+<div class=lead>오픈소스 보안 이슈 Log4Shell과 관련된 내용을 정리합니다.</div>
 <div class="td-byline mb-4">
-By <b>Riona MacNamara (<a href=https://twitter.com/bepsays>@rionam</a>)</b> |
-<time datetime=2020-08-29 class=text-muted>2020년 8일 29월</time>
+By <b>Robin Hwang (<a href=https://github.com/revfactory>@revfactory</a>)</b> |
+<time datetime=2021-12-12 class=text-muted>2021년 12일 12월</time>
 </div>
-<p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>. <a href=https://github.com>Links</a> should be blue with no underlines (unless hovered over).</p>
-<p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.</p>
-<p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.</p>
-<blockquote>
-<p>There should be no margin above this first sentence.</p>
-<p>Blockquotes should be a lighter gray with a border along the left side in the secondary color.</p>
-<p>There should be no margin below this final sentence.</p>
-</blockquote>
-<h2 id=first-header>First Header</h2>
-<p>This is a normal paragraph following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.</p>
-<p>Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.</p>
-<p>On big screens, paragraphs and headings should not take up the full container width, but we want tables, code blocks and similar to take the full width.</p>
-<p>Lorem markdownum tuta hospes stabat; idem saxum facit quaterque repetito
-occumbere, oves novem gestit haerebat frena; qui. Respicit recurvam erat:
-pignora hinc reppulit nos <strong>aut</strong>, aptos, ipsa.</p>
-<p>Meae optatos <em>passa est</em> Epiros utiliter <em>Talibus niveis</em>, hoc lata, edidit.
-Dixi ad aestum.</p>
-<h2 id=header-2>Header 2</h2>
-<blockquote>
-<p>This is a blockquote following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.</p>
-</blockquote>
-<h3 id=header-3>Header 3</h3>
-<pre tabindex=0><code>This is a code block following a header.
-</code></pre><h4 id=header-4>Header 4</h4>
+<p>Apache Log4j 2에서 발생한 취약점(<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44228">CVE-2021-44228, NVD</a>)을 통해 악성코드 감염 등 추가 피해가 발생할 수 있어 전 세계적으로 긴급 보안 업데이트 조치 (2021.11.10)가 있었으며, 관련 내용을 정리합니다.</p>
+<h3 id=log4j>Log4j</h3>
+<p>Log4j는 로그를 목적으로 Java 기반의 웹서비스에서 대부분 사용되는 Apache 재단의 오픈소스입니다.
+<img src=log4j.png alt=log4j-logo></p>
+<h3 id=경과>경과</h3>
 <ul>
-<li>This is an unordered list following a header.</li>
-<li>This is an unordered list following a header.</li>
-<li>This is an unordered list following a header.</li>
+<li>2021.11.24 알리바바 클라우드 보안팀에서 최초로 발견 (<a href=https://logging.apache.org/log4j/2.x/security.html>Apache 공지</a>)</li>
+<li>2021.11.30 Log4j팀, <a href=https://github.com/apache/logging-log4j2/pull/608>Restrict LDAP access via JNDI</a> pull request 추가 (12/5 Merged)</li>
+<li>2021.11.30 Log4j팀, <a href=https://github.com/apache/logging-log4j2/pull/607>no longer formats lookups in messages by default</a> pull request 추가 (12/5 Merged)</li>
+<li>2021.12.09 log4j 2 보안 이슈 PR과 취약성 재현 스샷이 한 <a href=https://twitter.com/P0rZ9/status/1468949890571337731>트윗</a>에 올라오면서 이슈가 퍼지기 시작</li>
+<li>2021.12.10 마인크래프트 기술 책임자가 관련 이슈 수정하였다며 <a href=https://twitter.com/slicedlime/status/1469150993527017483>트윗</a>으로 알리면서 본격 이슈화</li>
+<li>2021.12.10 Log4j <strong>2.15.0 버전 릴리즈</strong> 로 보안 취약성 패치</li>
+<li>2021.12.12 Log4j팀, <a href=https://github.com/apache/logging-log4j2/commit/44569090f1cf1e92c711fb96dfd18cd7dccc72ea>Disable JNDI by default</a> 추가</li>
+<li>2021.12.12 Log4j 2.15.1 버전 릴리즈 후보 (JNDI 기본값 Disable)</li>
 </ul>
-<h5 id=header-5>Header 5</h5>
-<ol>
-<li>This is an ordered list following a header.</li>
-<li>This is an ordered list following a header.</li>
-<li>This is an ordered list following a header.</li>
-</ol>
-<h6 id=header-6>Header 6</h6>
-<table>
-<thead>
-<tr>
-<th>What</th>
-<th>Follows</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>A table</td>
-<td>A header</td>
-</tr>
-<tr>
-<td>A table</td>
-<td>A header</td>
-</tr>
-<tr>
-<td>A table</td>
-<td>A header</td>
-</tr>
-</tbody>
-</table>
-<hr>
-<p>There&rsquo;s a horizontal rule above and below this.</p>
-<hr>
-<p>Here is an unordered list:</p>
+<h3 id=보도자료-국내>보도자료 (국내)</h3>
 <ul>
-<li>Salt-n-Pepa</li>
-<li>Bel Biv DeVoe</li>
-<li>Kid &lsquo;N Play</li>
+<li>2021.12.11 <a href="https://www.yna.co.kr/view/AKR20211211035951009?section=popup/print">&ldquo;컴퓨터 역사상 최악 취약점 발견&rdquo; 전세계 보안업계 화들짝</a></li>
+<li>2021.12.11 <a href="https://news.naver.com/main/tool/print.naver?oid=092&aid=0002241848">거의 모든 서버 위협하는 최악의 &lsquo;로그4j&rsquo; 보안허점 발견</a></li>
+<li>2021.12.11 <a href="https://news.naver.com/main/tool/print.naver?oid=421&aid=0005778626">&ldquo;컴퓨터 역사상 최악의 취약점 발견&rdquo; 보도에 국정원 &ldquo;선제적 조치 취해&rdquo;</a></li>
+<li>2021.12.12 <a href=https://v.kakao.com/v/20211212103345131>과기정통부, &lsquo;치명적 보안 취약&rsquo; 오픈소스 &lsquo;로그4j&rsquo; 긴급 보안조치 권고</a></li>
+<li>2021.12.12 <a href=https://v.kakao.com/v/20211212180303915>&ldquo;최악의 보안 결함&rdquo;..발칵 뒤집힌 IT업계</a></li>
+<li>2021.12.12 <a href=https://v.kakao.com/v/20211212184805464>전자신문, 피해 파악 어려워..SW 세부 내역 파악해야</a></li>
+<li>2021.12.12 <a href=https://v.kakao.com/v/20211212193223921>IT서버 해킹 우려에 &lsquo;긴급 대응팀&rsquo; 가동</a></li>
+<li>해외 기사는 &ldquo;<strong>Log4Shell</strong>&rdquo; 로 검색</li>
 </ul>
-<p>And an ordered list:</p>
-<ol>
-<li>Michael Jackson</li>
-<li>Michael Bolton</li>
-<li>Michael Bublé</li>
-</ol>
-<p>And an unordered task list:</p>
+<h3 id=대응방안>대응방안</h3>
 <ul>
-<li><input checked disabled type=checkbox> Create a sample markdown document</li>
-<li><input checked disabled type=checkbox> Add task lists to it</li>
-<li><input disabled type=checkbox> Take a vacation</li>
+<li><strong><a href=https://gist.github.com/SwitHak/b66db3a06c2955a9cb71a8718970c592>Log4Shell에 연결된 보안 권고/공고(CVE-2021-44228)</a></strong></li>
+<li>2021.12.06 <a href=https://logging.apache.org/log4j/2.x/>Apache 2.15.0 CVE-2021-44228 관련 내용 고지</a></li>
+<li>2021.12.10 <a href=https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot>Spring, Log4J2 Vulnerability and Spring Boot</a> (영문)</li>
+<li>2021.12.11 <a href="https://www.krcert.or.kr/data/secNoticeView.do?bulletin_writing_sequence=36389">KISA, Apache Log4j 2 보안 업데이트 권고</a></li>
+<li>2021.12.12 <a href="https://www.korea.kr/news/pressReleaseView.do?newsId=156485848">과기정통부, Apache Log4j 2 웹 서비스 긴급 보안패치 권고</a> (가이드는 위 내용과 동일)</li>
 </ul>
-<p>And a &ldquo;mixed&rdquo; task list:</p>
+<h3 id=대응-사례-참고>대응 사례 (참고)</h3>
 <ul>
-<li><input disabled type=checkbox> Steal underpants</li>
-<li>?</li>
-<li><input disabled type=checkbox> Profit!</li>
+<li>2021.12.10 <a href=https://aws.amazon.com/ko/security/security-bulletins/AWS-2021-005>AWS, Apache Log4j2 Issue</a> (영문)</li>
+<li>2021.12.11 <a href=https://blog.cloudflare.com/how-cloudflare-security-responded-to-log4j2-vulnerability/>Cloudflare Security의 Log4j 2 취약점 대응</a> (영문)</li>
 </ul>
-<p>And a nested list:</p>
+<h3 id=영향범위>영향범위</h3>
 <ul>
-<li>Jackson 5
-<ul>
-<li>Michael</li>
-<li>Tito</li>
-<li>Jackie</li>
-<li>Marlon</li>
-<li>Jermaine</li>
-</ul>
+<li>
+<p>Log4j 2.0-beta9 부터 2.15.x 이전 버전</p>
 </li>
-<li>TMNT
+<li>
+<p><a href=https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot>Spring Boot 관련</a></p>
 <ul>
-<li>Leonardo</li>
-<li>Michelangelo</li>
-<li>Donatello</li>
-<li>Raphael</li>
+<li>Spring Boot는 또 다른 로그 라이브러리인 Logback을 디폴트로 하고 있으며,<br>
+<a href=https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto.logging.log4j>기본 로깅 시스템을 Log4j2로 전환한 경우</a> 취약점의 영향을 받습니다.</li>
+<li>2021.12.12 현재 최신 버전인 Spring Boot 2.6.1 에서는 Log4j2 로 전환시 버전을
+명시하지 않으면 1.14.1 로 설치됨</li>
+<li>현재 릴리즈 전인 Spring Boot 2.6.2 에서는 Log4j 2.15.x 로 업데이트 예정</li>
 </ul>
 </li>
 </ul>
-<p>Definition lists can be used with Markdown syntax. Definition terms are bold.</p>
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-<hr>
-<p>Tables should have bold headings and alternating shaded rows.</p>
-<table>
-<thead>
-<tr>
-<th>Artist</th>
-<th>Album</th>
-<th>Year</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Michael Jackson</td>
-<td>Thriller</td>
-<td>1982</td>
-</tr>
-<tr>
-<td>Prince</td>
-<td>Purple Rain</td>
-<td>1984</td>
-</tr>
-<tr>
-<td>Beastie Boys</td>
-<td>License to Ill</td>
-<td>1986</td>
-</tr>
-</tbody>
-</table>
-<p>If a table is too wide, it should scroll horizontally.</p>
-<table>
-<thead>
-<tr>
-<th>Artist</th>
-<th>Album</th>
-<th>Year</th>
-<th>Label</th>
-<th>Awards</th>
-<th>Songs</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Michael Jackson</td>
-<td>Thriller</td>
-<td>1982</td>
-<td>Epic Records</td>
-<td>Grammy Award for Album of the Year, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&B Album, Brit Award for Best Selling Album, Grammy Award for Best Engineered Album, Non-Classical</td>
-<td>Wanna Be Startin&rsquo; Somethin', Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life</td>
-</tr>
-<tr>
-<td>Prince</td>
-<td>Purple Rain</td>
-<td>1984</td>
-<td>Warner Brothers Records</td>
-<td>Grammy Award for Best Score Soundtrack for Visual Media, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&B Album, Brit Award for Best Soundtrack/Cast Recording, Grammy Award for Best Rock Performance by a Duo or Group with Vocal</td>
-<td>Let&rsquo;s Go Crazy, Take Me With U, The Beautiful Ones, Computer Blue, Darling Nikki, When Doves Cry, I Would Die 4 U, Baby I&rsquo;m a Star, Purple Rain</td>
-</tr>
-<tr>
-<td>Beastie Boys</td>
-<td>License to Ill</td>
-<td>1986</td>
-<td>Mercury Records</td>
-<td>noawardsbutthistablecelliswide</td>
-<td>Rhymin & Stealin, The New Style, She&rsquo;s Crafty, Posse in Effect, Slow Ride, Girls, (You Gotta) Fight for Your Right, No Sleep Till Brooklyn, Paul Revere, Hold It Now, Hit It, Brass Monkey, Slow and Low, Time to Get Ill</td>
-</tr>
-</tbody>
-</table>
-<hr>
-<p>Code snippets like <code>var foo = "bar";</code> can be shown inline.</p>
-<p>Also, <code>this should vertically align</code> <del><code>with this</code></del> <del>and this</del>.</p>
-<p>Code can also be shown in a block element.</p>
-<pre tabindex=0><code>foo := &quot;bar&quot;;
-bar := &quot;foo&quot;;
-</code></pre><p>Code can also use syntax highlighting.</p>
-<div class=highlight><pre tabindex=0 style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=color:#204a87;font-weight:700>func</span> <span style=color:#000>main</span><span style=color:#000;font-weight:700>()</span> <span style=color:#000;font-weight:700>{</span>
-  <span style=color:#000>input</span> <span style=color:#ce5c00;font-weight:700>:=</span> <span style=color:#4e9a06>`var foo = &#34;bar&#34;;`</span>
-
-  <span style=color:#000>lexer</span> <span style=color:#ce5c00;font-weight:700>:=</span> <span style=color:#000>lexers</span><span style=color:#000;font-weight:700>.</span><span style=color:#000>Get</span><span style=color:#000;font-weight:700>(</span><span style=color:#4e9a06>&#34;javascript&#34;</span><span style=color:#000;font-weight:700>)</span>
-  <span style=color:#000>iterator</span><span style=color:#000;font-weight:700>,</span> <span style=color:#000>_</span> <span style=color:#ce5c00;font-weight:700>:=</span> <span style=color:#000>lexer</span><span style=color:#000;font-weight:700>.</span><span style=color:#000>Tokenise</span><span style=color:#000;font-weight:700>(</span><span style=color:#204a87;font-weight:700>nil</span><span style=color:#000;font-weight:700>,</span> <span style=color:#000>input</span><span style=color:#000;font-weight:700>)</span>
-  <span style=color:#000>style</span> <span style=color:#ce5c00;font-weight:700>:=</span> <span style=color:#000>styles</span><span style=color:#000;font-weight:700>.</span><span style=color:#000>Get</span><span style=color:#000;font-weight:700>(</span><span style=color:#4e9a06>&#34;github&#34;</span><span style=color:#000;font-weight:700>)</span>
-  <span style=color:#000>formatter</span> <span style=color:#ce5c00;font-weight:700>:=</span> <span style=color:#000>html</span><span style=color:#000;font-weight:700>.</span><span style=color:#000>New</span><span style=color:#000;font-weight:700>(</span><span style=color:#000>html</span><span style=color:#000;font-weight:700>.</span><span style=color:#000>WithLineNumbers</span><span style=color:#000;font-weight:700>())</span>
-
-  <span style=color:#204a87;font-weight:700>var</span> <span style=color:#000>buff</span> <span style=color:#000>bytes</span><span style=color:#000;font-weight:700>.</span><span style=color:#000>Buffer</span>
-  <span style=color:#000>formatter</span><span style=color:#000;font-weight:700>.</span><span style=color:#000>Format</span><span style=color:#000;font-weight:700>(</span><span style=color:#ce5c00;font-weight:700>&amp;</span><span style=color:#000>buff</span><span style=color:#000;font-weight:700>,</span> <span style=color:#000>style</span><span style=color:#000;font-weight:700>,</span> <span style=color:#000>iterator</span><span style=color:#000;font-weight:700>)</span>
-
-  <span style=color:#000>fmt</span><span style=color:#000;font-weight:700>.</span><span style=color:#000>Println</span><span style=color:#000;font-weight:700>(</span><span style=color:#000>buff</span><span style=color:#000;font-weight:700>.</span><span style=color:#000>String</span><span style=color:#000;font-weight:700>())</span>
-<span style=color:#000;font-weight:700>}</span>
-</code></pre></div><pre tabindex=0><code>Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-</code></pre><p>Inline code inside table cells should still be distinguishable.</p>
-<table>
-<thead>
-<tr>
-<th>Language</th>
-<th>Code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Javascript</td>
-<td><code>var foo = "bar";</code></td>
-</tr>
-<tr>
-<td>Ruby</td>
-<td><code>foo = "bar"{</code></td>
-</tr>
-</tbody>
-</table>
-<hr>
-<p>Small images should be shown at their actual size.</p>
-<p><img src=https://placekitten.com/g/300/200/ alt></p>
-<p>Large images should always scale down and fit in the content container.</p>
-<p><img src=https://placekitten.com/g/1200/800/ alt></p>
-<h2 id=components>Components</h2>
-<h3 id=alerts>Alerts</h3>
-<p>
-<div class="alert alert-primary" role=alert>
-This is an alert.
-</div>
-<div class="alert alert-primary" role=alert>
-<h4 class=alert-heading>Note:</h4>
-This is an alert with a title.
-</div>
-<div class="alert alert-primary" role=alert>
-This is a successful alert.
-</div>
-<div class="alert alert-primary" role=alert>
-This is a warning!
-</div>
-<div class="alert alert-primary" role=alert>
-<h4 class=alert-heading>Warning!</h4>
-This is a warning with a title!
-</div>
-</p>
-<h2 id=sizing>Sizing</h2>
-<p>Add some sections here to see how the ToC looks like. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.</p>
-<h3 id=parameters-available>Parameters available</h3>
-<p>Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.</p>
-<h3 id=using-pixels>Using pixels</h3>
-<p>Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.</p>
-<h3 id=using-rem>Using rem</h3>
-<p>Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.</p>
-<h2 id=memory>Memory</h2>
-<p>Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.</p>
-<h3 id=ram-to-use>RAM to use</h3>
-<p>Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.</p>
-<h3 id=more-is-better>More is better</h3>
-<p>Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.</p>
-<h3 id=used-ram>Used RAM</h3>
-<p>Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.</p>
-<pre tabindex=0><code>This is the final element on the page and there should be no margin below this.
-</code></pre><h2 id=including-images>Including images</h2>
-<p>Here&rsquo;s an image (<code>featured-sunset-get.png</code>) that includes a byline and a caption.</p>
-<div class="card rounded p-2 td-post-card mb-4 mt-4" style=max-width:610px>
-<img class=card-img-top src=/OpenChain-KWG/blog/sample/sample-post/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_600x300_fill_catmullrom_smart1_3.png width=600 height=300>
-<div class="card-body px-0 pt-2 pb-0">
-<p class=card-text>
-Fetch and scale an image in the upcoming Hugo 0.43.
-<small class=text-muted><br>Photo: Riona MacNamara / CC-BY-CA</small></p>
-</div>
-</div>
-<p>The front matter of this post specifies properties to be assigned to all image resources:</p>
-<pre tabindex=0><code>resources:
-- src: &quot;**.{png,jpg}&quot;
-  title: &quot;Image #:counter&quot;
-  params:
-    byline: &quot;Photo: Riona MacNamara / CC-BY-CA&quot;
-</code></pre><p>To include the image in a page, specify its details like this:</p>
-<pre tabindex=0><code>
-
-
-
-
-
-
-<div class="card rounded p-2 td-post-card mb-4 mt-4" style=max-width:610px>
-	<img class=card-img-top src=/OpenChain-KWG/blog/sample/sample-post/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_600x300_fill_catmullrom_smart1_3.png width=600 height=300>
-	
-	<div class="card-body px-0 pt-2 pb-0">
-		<p class=card-text>
-Fetch and scale an image in the upcoming Hugo 0.43.
-<small class=text-muted><br>Photo: Riona MacNamara / CC-BY-CA</small></p>
-	</div>
-	
-</div>
-</code></pre><p>The image will be rendered at the size and byline specified in the front matter.</p>
+<h3 id=알려진-취약성-검사-스캐너>알려진 취약성 검사 스캐너</h3>
+<ul>
+<li>
+<p><a href=https://labrador.iotcube.com/>Labrador Log4Shell 코드 레벨 점검 도구</a> (래브라도와 고려대 보안연구소 공동 개발)</p>
+</li>
+<li>
+<p><a href=https://github.com/huntresslabs/log4shell-tester>Huntress Log4Shell Testing Application</a></p>
+</li>
+<li>
+<p><strong>Labrador Log4Shell 테스트</strong></p>
+<ul>
+<li>(Step1) Package Management를 통한 스캔 후, (Step2) Jar 파일 스캔 수행</li>
+<li>Spring Boot 2.6.1 샘플 프로젝트(<a href=https://github.com/revfactory/log4j-vulnerability-test>Github</a>)로 테스트 (<a href="https://start.spring.io/#!type=maven-project&language=java&platformVersion=2.6.1&packaging=jar&jvmVersion=11&groupId=com.kakao.opensource&artifactId=log4j-vulnerability-test&name=log4j-vulnerability-test&description=Demo%20project%20for%20Spring%20Boot&packageName=com.kakao.opensource.log4j-vulnerability-test&dependencies=web">직접 생성하기</a>)<br>
+<code>$java -jar LabradorLog4ShellDetector.jar -project [path]</code></li>
+<li>Spring 기본 프로젝트 스캔 수행시 : 취약점 없음
+<img src=labrador-test1.png alt=labrador-test1></li>
+<li><a href=https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto.logging.log4j>Log4j2 로 로깅 시스템 전환 후</a>
+<img src=labrador-test2.png alt=labrador-test2></li>
+</ul>
+</li>
+</ul>
+<h3 id=취약성-공격-방식>취약성 공격 방식</h3>
+<ul>
+<li>log4shell 은 RCE(원격코드실행) 취약성으로 분류됩니다.</li>
+<li>제로데이 Attack (공표되었지만 아직까지 패치되지 않은 보안 취약점을 이용한 공격) 위험이 있습니다.</li>
+<li><a href=https://www.hahwul.com/2021/12/11/log4shell-internet-is-on-fire/>상세 내용 참고</a>
+<img src=log4shell-exploit-flow.png alt=log4shell-exploit-flow>
+<a href=https://www.hahwul.com/2021/12/11/log4shell-internet-is-on-fire/>이미지 출처</a></li>
+</ul>
+<h3 id=정부-오픈소스-사용실태-조사-검토>정부, 오픈소스 사용실태 조사 검토</h3>
+<p>정부도 오픈소스 소프트웨어의 보안 수위를 높이는 방향을 고민하고 있다. 과기부 관계자는 &ldquo;오픈소스가 워낙 많다 보니 앞으로 유사 사고가 발생할 가능성이 크다"며 &ldquo;사용 실태조사 등 후속조치를 고민하고 있다"고 말했다.</p>
+<p>(<a href=https://v.kakao.com/v/20211212233003588>기사내용</a> 발췌)</p>
 <hr>
 <script src=https://utteranc.es/client.js repo=OpenChain-Project/OpenChain-KWG issue-term=title label=Comment theme=github-light crossorigin=anonymous async></script>
 <ul class="list-unstyled d-flex justify-content-between align-items-center mb-0 pt-5">
 <li>
-<a class="btn btn-primary disabled"><span class=mr-1>←</span> 이전</a>
+<a href=/OpenChain-KWG/blog/2021/20211123-nipa-opensource-guide/ class="btn btn-primary"><span class=mr-1>←</span> 이전</a>
 </li>
-<a href=/OpenChain-KWG/blog/sample/how-to/ class="btn btn-primary">다음 <span class=ml-1>→</span></a>
+<a class="btn btn-primary disabled">다음 <span class=ml-1>→</span></a>
 </li>
 </ul>
 </div>
