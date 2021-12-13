@@ -15,7 +15,7 @@ Apache Log4j 2에서 발생한 취약점([CVE-2021-44228, NVD](https://cve.mitre
 
 ### Log4j
 Log4j는 로그를 목적으로 Java 기반의 웹서비스에서 대부분 사용되는 Apache 재단의 오픈소스입니다.
-![log4j-logo](log4j.png)
+![log4j-logo](featured-log4j.png)
 
 
 ### 경과
