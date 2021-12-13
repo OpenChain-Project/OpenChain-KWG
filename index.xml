@@ -1,4 +1,5 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – OpenChain KWG</title><link>https://openChain-project.github.io/OpenChain-KWG/</link><description>Recent content on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Log4j 2 보안 취약점 사태 (Log4Shell)</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20211212-log4shell/</link><pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20211212-log4shell/</guid><description>
+&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2021/20211212-log4shell/featured-log4j_hu62ba52a03a50fc58fdc6f73a48b811a2_5036_640x0_resize_catmullrom_3.png" width="640" height="245"/>
 &lt;p>Apache Log4j 2에서 발생한 취약점(&lt;a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44228">CVE-2021-44228, NVD&lt;/a>)을 통해 악성코드 감염 등 추가 피해가 발생할 수 있어 전 세계적으로 긴급 보안 업데이트 조치 (2021.11.10)가 있었으며, 관련 내용을 정리합니다.&lt;/p>
 &lt;h3 id="log4j">Log4j&lt;/h3>
 &lt;p>Log4j는 로그를 목적으로 Java 기반의 웹서비스에서 대부분 사용되는 Apache 재단의 오픈소스입니다.
@@ -87,6 +88,7 @@
 &lt;p>정부도 오픈소스 소프트웨어의 보안 수위를 높이는 방향을 고민하고 있다. 과기부 관계자는 &amp;ldquo;오픈소스가 워낙 많다 보니 앞으로 유사 사고가 발생할 가능성이 크다&amp;quot;며 &amp;ldquo;사용 실태조사 등 후속조치를 고민하고 있다&amp;quot;고 말했다.&lt;/p>
 &lt;p>(&lt;a href="https://v.kakao.com/v/20211212233003588">기사내용&lt;/a> 발췌)&lt;/p>
 &lt;hr></description></item><item><title>Blog: NIPA, 공개소프트웨어의 활용을 위한 가이드 4종 발간</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20211123-nipa-opensource-guide/</link><pubDate>Tue, 23 Nov 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20211123-nipa-opensource-guide/</guid><description>
+&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2021/20211123-nipa-opensource-guide/featured-opensource-sw-company-guide_hu47b37cb0d8758cf9b87da5a54e16f42e_72671_640x0_resize_q75_catmullrom.jpg" width="640" height="809"/>
 &lt;p>NIPA에서 공개소프트웨어 활용을 위한 4종의 가이드를 발간했습니다.
 공개소프트웨어 가이드 4종의 내용은 아래와 같습니다.
 참고로 기업 공개소프트웨어 거버넌스 가이드는 현재 OpenChain KWG 운영진이신 장학성, 이서연, 황민호님이 집필에 참여했습니다.&lt;/p>
