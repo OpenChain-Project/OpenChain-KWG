@@ -15,17 +15,29 @@ description: >
 * How to join
   - [Gather Town](https://www.gather.town/) (Please refer to the e-mail for the access address)
 
+
+[Game Zone]
+<div ><span class="image fit">
+  <img src="game.png" width="90%">
+</span></div>
+
+<br>
+[Meeting Zone]
+<div ><span class="image fit">
+  <img src="meeting.png" width="90%">
+</span></div>
+
+
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Intro & Greetings  | Newcomers | - |
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
 | 2  | OpenChain KWG Update | Haksung Jang, SK telecom |  |
 | 3  | Recent litigation case| Haksung Jang, SK telecom & Wonjae Park, LG Electronics | | 
 | 4  | Shift-left and Automate Compliance Checks | Arlo Ha, Kakao Band | - | 
-| -  | to be updated | to be updated | - | 
 | 5  | Case Study | All | - |
-| 6  | Free Discussion | All | - |
+| 6  | Squid Game | All | - |
+| Bonus  | Open Source Security Vulnerability Attack Types | Robin Hwang, Kakao | - |
 
 ## Small group meeting topics
 1. (Individual, company) How was this year? Do you have any plans for next year?
