@@ -16,17 +16,15 @@ The Conformance Group is to study and share the best practices and activities th
 
 If you are an open source person in charge of a company looking to build an OpenChain Conformant program, please contact Conformance Group!
 
-## Member 
-
-* Haksung Jang, SK telecom, Lead
-* NCSoft
-* KTDS
-
 ## Subscribe
 
-Conformance Group is open to any OpenChain KWG member interested in building an OpenChain Conformant program.
+Conformance Group is open to any OpenChain KWG member interested in building an OpenChain Conformant program. Please apply for membership by e-mail to the group Lead (Haksung Jang, haksung@sk.com).
 
-There is no Mailing List yet. Please contact the group Lead (Haksung Jang, haksung@sk.com) by e-mail.
+## mailing list
+
+The Conformance Group communicates through mailing lists. You can send inquiry/request emails to all members of the Conformance Group at the email address below.
+
+* korea-sg-conformance@lists.openchainproject.org
 
 
 ## Meeting
