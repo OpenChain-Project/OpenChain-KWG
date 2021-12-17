@@ -16,17 +16,15 @@ Conformance Group은 기업이 이러한 OpenChain Conformant 프로그램을 �
 
 OpenChain Conformant 프로그램을 구축하고자 하는 기업의 담당자는 Conformance Group으로 연락주세요!
 
-## Member 현황
-
-* 장학성, SK telecom, Lead
-* 엔씨소프트
-* KTDS
-
 ## 가입 문의
 
-Conformance Group은 OpenChain Conformant 프로그램 구축에 관심이 있는 OpenChain KWG 멤버는 누구든지 가입할 수 있습니다. 
+Conformance Group은 OpenChain Conformant 프로그램 구축에 관심이 있는 OpenChain KWG 멤버는 누구든지 가입할 수 있습니다. 그룹 Lead (장학성, haksung@sk.com)에게 메일로 가입 신청해 주세요. 
 
-아직 Mailing List는 별도로 운영하지 않습니다. 그룹 Lead (장학성, haksung@sk.com)에게 메일로 연락주세요. 
+## 메일링리스트
+
+Conformance Group은 메일링리스트를 통해 소통합니다. 아래 메일로 Conformance Group의 모든 멤버에게 문의/요청 메일을 보낼 수 있습니다. 
+
+* korea-sg-conformance@lists.openchainproject.org
 
 ## 모임
 
