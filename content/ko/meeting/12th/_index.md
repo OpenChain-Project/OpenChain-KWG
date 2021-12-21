@@ -31,11 +31,12 @@ description: >
 |----|-----------------|------|------|
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
 | 2  | OpenChain KWG Update | 장학성, SK텔레콤 | [pdf](./OpenChain_Korea_update_20211220.pdf) |
-| 3  | 최근 소송 사례| 장학성, SK텔레콤 & 박원재, LG전자 | [pdf](./virtualapp_case_20211220.pdf) | 
-| 4  | Shift-left and Automate Compliance Checks | Arlo (하헌관), 카카오뱅크 | - | 
-| 5  | 소그룹 모임 (Case Study) | All | - |
-| 6  | 오징어게임 | All | - |
-| Bonus  | 오픈소스 보안취약점 공격 유형 | Robin (황민호), 카카오 | [pdf](./OpenSourceVulnerability_20211220.pdf) |
+| 3  | 중국 GPL 소송 사례 | 장학성, SK텔레콤 & 박원재, LG전자 | [pdf](./virtualapp_case_20211220.pdf) | 
+| 4  | 최근 소송 사례 : ChessBase, Vizio| 박원재, LG전자 | - | 
+| 5  | Shift-left and Automate Compliance Checks | Arlo (하헌관), 카카오뱅크 | - | 
+| 6  | 소그룹 모임 (Case Study) | All | - |
+| 7  | 오징어게임 | All | - |
+| 8  | 오픈소스 보안취약점 공격 유형 | Robin (황민호), 카카오 | [pdf](./OpenSourceVulnerability_20211220.pdf) |
 
 
 ## 소그룹 모임 주제
