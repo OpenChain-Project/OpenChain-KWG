@@ -35,7 +35,7 @@ description: >
 | 4  | Shift-left and Automate Compliance Checks | Arlo (하헌관), 카카오뱅크 | - | 
 | 5  | 소그룹 모임 (Case Study) | All | - |
 | 6  | 오징어게임 | All | - |
-| Bonus  | 오픈소스 보안취약점 공격 유형 | Robin (황민호), 카카오 | - |
+| Bonus  | 오픈소스 보안취약점 공격 유형 | Robin (황민호), 카카오 | [pdf](./OpenSourceVulnerability_20211220.pdf) |
 
 
 ## 소그룹 모임 주제
