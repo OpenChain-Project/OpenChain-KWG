@@ -33,11 +33,12 @@ description: >
 |----|-----------------|------|------|
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
 | 2  | OpenChain KWG Update | Haksung Jang, SK telecom | [pdf](./OpenChain_Korea_update_20211220.pdf) |
-| 3  | Recent litigation case| Haksung Jang, SK telecom & Wonjae Park, LG Electronics | [pdf](./virtualapp_case_20211220.pdf) | 
-| 4  | Shift-left and Automate Compliance Checks | Arlo Ha, Kakao Band | - | 
-| 5  | Case Study | All | - |
-| 6  | Squid Game | All | - |
-| Bonus  | Open Source Security Vulnerability Attack Types | Robin Hwang, Kakao | [pdf](./OpenSourceVulnerability_20211220.pdf) |
+| 4  | GPL litigation case in China | Haksung Jang, SK telecom | [pdf](./virtualapp_case_20211220.pdf) | 
+| 4  | Recent case : ChessBase, Vizio | Wonjae Park, LG Electronics | - | 
+| 5  | Shift-left and Automate Compliance Checks | Arlo Ha, Kakao Band | - | 
+| 6  | Case Study | All | - |
+| 7  | Squid Game | All | - |
+| 8  | Open Source Security Vulnerability Attack Types | Robin Hwang, Kakao | [pdf](./OpenSourceVulnerability_20211220.pdf) |
 
 ## Small group meeting topics
 1. (Individual, company) How was this year? Do you have any plans for next year?
