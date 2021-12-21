@@ -30,8 +30,8 @@ description: >
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
-| 2  | OpenChain KWG Update | 장학성, SK텔레콤 | |
-| 3  | 최근 소송 사례| 장학성, SK텔레콤 & 박원재, LG전자 | [virtualapp_case_20211220.pdf](./virtualapp_case_20211220.pdf) | 
+| 2  | OpenChain KWG Update | 장학성, SK텔레콤 | [pdf](./OpenChain_Korea_update_20211220.pdf) |
+| 3  | 최근 소송 사례| 장학성, SK텔레콤 & 박원재, LG전자 | [pdf](./virtualapp_case_20211220.pdf) | 
 | 4  | Shift-left and Automate Compliance Checks | Arlo (하헌관), 카카오뱅크 | - | 
 | 5  | 소그룹 모임 (Case Study) | All | - |
 | 6  | 오징어게임 | All | - |

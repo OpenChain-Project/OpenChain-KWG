@@ -32,8 +32,8 @@ description: >
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
-| 2  | OpenChain KWG Update | Haksung Jang, SK telecom |  |
-| 3  | Recent litigation case| Haksung Jang, SK telecom & Wonjae Park, LG Electronics | [virtualapp_case_20211220.pdf](./virtualapp_case_20211220.pdf) | 
+| 2  | OpenChain KWG Update | Haksung Jang, SK telecom | [pdf](./OpenChain_Korea_update_20211220.pdf) |
+| 3  | Recent litigation case| Haksung Jang, SK telecom & Wonjae Park, LG Electronics | [pdf](./virtualapp_case_20211220.pdf) | 
 | 4  | Shift-left and Automate Compliance Checks | Arlo Ha, Kakao Band | - | 
 | 5  | Case Study | All | - |
 | 6  | Squid Game | All | - |
