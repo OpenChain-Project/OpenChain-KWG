@@ -16,12 +16,11 @@ Planning Group은 OpenChain KWG의 운영진으로써 다음과 같은 역할을
 
 ## Member 현황
 
-* 장학성, SK telecom, Lead
+* 장학성, SK텔레콤, Lead
 * 황민호, 카카오
 * 이서연, 라인플러스
 * 김소임, LG전자
-* 한지호, NCSOFT
-* 한다솜, NCSOFT
+* 한지호, 한다솜, 김다은 NCSOFT
 
 ## Contact
 
