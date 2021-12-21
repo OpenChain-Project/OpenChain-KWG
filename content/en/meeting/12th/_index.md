@@ -37,7 +37,7 @@ description: >
 | 4  | Shift-left and Automate Compliance Checks | Arlo Ha, Kakao Band | - | 
 | 5  | Case Study | All | - |
 | 6  | Squid Game | All | - |
-| Bonus  | Open Source Security Vulnerability Attack Types | Robin Hwang, Kakao | - |
+| Bonus  | Open Source Security Vulnerability Attack Types | Robin Hwang, Kakao | [pdf](./OpenSourceVulnerability_20211220.pdf) |
 
 ## Small group meeting topics
 1. (Individual, company) How was this year? Do you have any plans for next year?
