@@ -34,7 +34,7 @@ description: >
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
 | 2  | OpenChain KWG Update | Haksung Jang, SK telecom | [pdf](./OpenChain_Korea_update_20211220.pdf) |
 | 4  | GPL litigation case in China | Haksung Jang, SK telecom | [pdf](./virtualapp_case_20211220.pdf) | 
-| 4  | Recent case : ChessBase, Vizio | Wonjae Park, LG Electronics | - | 
+| 4  | Recent case : Stockfish v. ChessBase, SFC v. Vizio | Wonjae Park, LG Electronics | [pdf](./stockfish_n_sfc_case_211220.pdf) | 
 | 5  | Shift-left and Automate Compliance Checks | Arlo Ha, Kakao Band | - | 
 | 6  | Case Study | All | - |
 | 7  | Squid Game | All | - |
