@@ -33,7 +33,7 @@ description: >
 | 2  | OpenChain KWG Update | 장학성, SK텔레콤 | [pdf](./OpenChain_Korea_update_20211220.pdf) |
 | 3  | 중국 GPL 소송 사례 | 장학성, SK텔레콤 | [pdf](./virtualapp_case_20211220.pdf) | 
 | 4  | 최근 소송 사례 : Stockfish v. ChessBase, SFC v. Vizio| 박원재, LG전자 | [pdf](./stockfish_n_sfc_case_211220.pdf) | 
-| 5  | Shift-left and Automate Compliance Checks | Arlo (하헌관), 카카오뱅크 | - | 
+| 5  | Shift-left and Automate Compliance Checks | Arlo (하헌관), 카카오뱅크 | [pdf](./Shift-Left_and_Automate_Compliance_Checks.pdf) | 
 | 6  | 소그룹 모임 (Case Study) | All | - |
 | 7  | 오징어게임 | All | - |
 | 8  | 오픈소스 보안취약점 공격 유형 | Robin (황민호), 카카오 | [pdf](./OpenSourceVulnerability_20211220.pdf) |
