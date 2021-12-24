@@ -35,7 +35,7 @@ description: >
 | 2  | OpenChain KWG Update | Haksung Jang, SK telecom | [pdf](./OpenChain_Korea_update_20211220.pdf) |
 | 4  | GPL litigation case in China | Haksung Jang, SK telecom | [pdf](./virtualapp_case_20211220.pdf) | 
 | 4  | Recent case : Stockfish v. ChessBase, SFC v. Vizio | Wonjae Park, LG Electronics | [pdf](./stockfish_n_sfc_case_211220.pdf) | 
-| 5  | Shift-left and Automate Compliance Checks | Arlo Ha, Kakao Band | - | 
+| 5  | Shift-left and Automate Compliance Checks | Arlo Ha, Kakao Band | [pdf](./Shift-Left_and_Automate_Compliance_Checks.pdf) | 
 | 6  | Case Study | All | - |
 | 7  | Squid Game | All | - |
 | 8  | Open Source Security Vulnerability Attack Types | Robin Hwang, Kakao | [pdf](./OpenSourceVulnerability_20211220.pdf) |
