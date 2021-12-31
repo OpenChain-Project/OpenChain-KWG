@@ -15,17 +15,6 @@ description: >
 * 장소
   - [Gather Town](https://www.gather.town/) (접속 방법은 별도 메일 공지 참고)
 
-[Game Zone]
-<div ><span class="image fit">
-  <img src="game.png" width="90%">
-</span></div>
-
-<br>
-[Meeting Zone]
-<div ><span class="image fit">
-  <img src="meeting.png" width="90%">
-</span></div>
-
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
@@ -53,7 +42,8 @@ description: >
 
 
 ## Photo Gallery
-
+![photo](2021-12_1.png)
+![photo](2021-12_2.png)
 
 ## 후원
 ![](./sponsor.png)
