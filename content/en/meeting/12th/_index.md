@@ -16,18 +16,6 @@ description: >
   - [Gather Town](https://www.gather.town/) (Please refer to the e-mail for the access address)
 
 
-[Game Zone]
-<div ><span class="image fit">
-  <img src="game.png" width="90%">
-</span></div>
-
-<br>
-[Meeting Zone]
-<div ><span class="image fit">
-  <img src="meeting.png" width="90%">
-</span></div>
-
-
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
@@ -54,6 +42,8 @@ description: >
 
 
 ## Photo Gallery
+![photo](2021-12_1.png)
+![photo](2021-12_2.png)
 
 ## Sponsor
 ![](./sponsor.png)
