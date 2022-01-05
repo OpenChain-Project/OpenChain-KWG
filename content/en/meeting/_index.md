@@ -12,7 +12,7 @@ menu:
 ---
 
 <div ><span class="image fit">
-  <img src="hayyp2021-openchain-kwg-01.png" width="50%">
+  <img src="2022openchainkwg.png" width="50%">
 </div>
 
 
