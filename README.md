@@ -2,7 +2,7 @@
 
 Welcome to OpenChain KWG!
 
-![hayyp2021-openchain-kwg-01.png](./__document/logo/hayyp2021-openchain-kwg-01.png)
+![hayyp2021-openchain-kwg-01.png](./__document/logo/openchain2022.png)
 <p align="center"> <i>< designed by <a href="https://github.com/soimkim" target="_blank">@soimkim</a> ></i></p>
 
 ## Intro
