@@ -283,9 +283,10 @@ Case Study에서는 인기도와 상업적으로 사용될 가능성이 높은 6
 논문에서 설명하는 위의 결과만을 보더라도 공개 Dataset을 상용 AI 서비스에 사용하는 것은 잠재적인 라이선스 컴플라이언스 위반을 초래할 가능성이 있습니다. 게다가 논문에서는 이번 연구에서 고려하지 않은 부분이 더 있다고 부연 설명합니다.
 
 
+## 5. THREATS TO VALIDITY
+
 {{< alert color="success" title="" >}}
 
-## 5. THREATS TO VALIDITY
 
 ### External validity
 
