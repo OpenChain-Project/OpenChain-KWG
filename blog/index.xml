@@ -319,8 +319,8 @@
 &lt;p>이와 같이 Publicly available datasets는 상용 AI software를 구축하는 데 적합하지 않을 수 있다.&lt;/p>
 &lt;/div>
 &lt;p>논문에서 설명하는 위의 결과만을 보더라도 공개 Dataset을 상용 AI 서비스에 사용하는 것은 잠재적인 라이선스 컴플라이언스 위반을 초래할 가능성이 있습니다. 게다가 논문에서는 이번 연구에서 고려하지 않은 부분이 더 있다고 부연 설명합니다.&lt;/p>
-&lt;div class="alert alert-success" role="alert">
 &lt;h2 id="5-threats-to-validity">5. THREATS TO VALIDITY&lt;/h2>
+&lt;div class="alert alert-success" role="alert">
 &lt;h3 id="external-validity">External validity&lt;/h3>
 &lt;p>이 논문에서는 라이선스 위반 측면에 대해서만 연구하였다.&lt;/p>
 &lt;ul>
