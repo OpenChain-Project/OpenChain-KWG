@@ -105,7 +105,7 @@ Copilot은 GitHub에 개발자의 코드 작성을 돕기 위해 공개된 sourc
 
 이 논문에서는 공개 Dataset을 사용하려는 AI engieer는 적용된 라이선스를 식별해야 하고, Lawyer는 해당 라이선스의 권리와 의무를 분석하여 상용 AI 서비스에 적용할 수 있는지 판단해야 함을 강조합니다. 
 
-![](./dataset_procedure.png)
+![](./featured_procedure.png)
 
 먼저, Phase 1은 AI engineer에 의해 라이선스를 확인하는 과정입니다. 논문에서는 자세한 내용을 아래와 같이 설명합니다. 
 
