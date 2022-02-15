@@ -1,4 +1,5 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – Blog</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/</link><description>Recent content in Blog on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: 상용 AI 서비스에 공개 Dataset을 사용해도 되나요?</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2022/20220214_ai_dataset_copyright/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2022/20220214_ai_dataset_copyright/</guid><description>
+&lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2022/20220214_ai_dataset_copyright/featured_procedure_hudaab2914c5c3dd86326cd7f91192134e_257378_640x0_resize_catmullrom_3.png" width="640" height="1324"/>
 &lt;p>안녕하세요, 장학성입니다.&lt;/p>
 &lt;p>AI는 사용하지 않는 기업이 없을 정도로 현대 비즈니스에 중요한 기술이 되었습니다. AI 서비스를 만들기 위해서는 많은 양의 data가 필요한데요, 공개 Dataset&lt;sub>publicly available datasets&lt;/sub>도 널리 사용되고 있습니다. 다만 공개 Dataset이라고 하더라도 저작권이 있기 때문에 이를 상용 AI 서비스에 사용하려면 저작권 침해 등 법적 리스크를 최소화하기 위해 라이선스 측면의 확인이 필요합니다.&lt;/p>
 &lt;p>오늘은 이와 관련하여 최근 발표된 논문인 &lt;b>Can I use this publicly available dataset to build commercial AI software?&amp;ndash; A Case Study on Publicly Available Image Datasets&lt;/b>을 소개하려고 합니다. : &lt;a href="https://arxiv.org/abs/2111.02374">https://arxiv.org/abs/2111.02374&lt;/a>&lt;/p>
@@ -92,7 +93,7 @@
 &lt;p>그럼 이 논문에서 제안하는 공개 Dataset을 상용 AI 서비스에 활용하기 위한 엄격한 접근 방식이 무엇인지 살펴보겠습니다.&lt;/p>
 &lt;h2 id="3-approach">3. Approach&lt;/h2>
 &lt;p>이 논문에서는 공개 Dataset을 사용하려는 AI engieer는 적용된 라이선스를 식별해야 하고, Lawyer는 해당 라이선스의 권리와 의무를 분석하여 상용 AI 서비스에 적용할 수 있는지 판단해야 함을 강조합니다.&lt;/p>
-&lt;p>&lt;img src="./dataset_procedure.png" alt="">&lt;/p>
+&lt;p>&lt;img src="./featured_procedure.png" alt="">&lt;/p>
 &lt;p>먼저, Phase 1은 AI engineer에 의해 라이선스를 확인하는 과정입니다. 논문에서는 자세한 내용을 아래와 같이 설명합니다.&lt;/p>
 &lt;div class="alert alert-success" role="alert">
 &lt;h4 class="alert-heading">Phase 1 : License identification&lt;/h4>
