@@ -15,7 +15,9 @@ description: >
 * Venue : Online(Webex)
 
 ## Attendees
+* ETRI
 * Hyundai Autoever
+* Hyundai Mobis
 * KaKao
 * Kakao Bank
 * LG Electronics
@@ -23,7 +25,7 @@ description: >
 * Samsung Electronics
 * SK Telecom
 
-## Main Activities
+## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
 | 1  | Introduction on SCANOSS  | 	Park Wonjae, LG Electronics | [pdf](./SCANOSS_Introduction.pdf) |
