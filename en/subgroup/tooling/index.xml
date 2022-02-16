@@ -1,1 +1,75 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – Tooling Group</title><link>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/</link><description>Recent content in Tooling Group on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – Tooling Group</title><link>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/</link><description>Recent content in Tooling Group on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/index.xml" rel="self" type="application/rss+xml"/><item><title>Subgroup: 1st Meeting</title><link>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/1st-meeting/</link><pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/1st-meeting/</guid><description>
+&lt;h2 id="schedule">Schedule&lt;/h2>
+&lt;ul>
+&lt;li>Purpose : Seminar and Discuss the Direction of Tooling SG&lt;/li>
+&lt;li>Date and Time : 2022. 02. 15(Tue.), 2:00 ~ 3:30 PM&lt;/li>
+&lt;li>Venue : Online(Webex)&lt;/li>
+&lt;/ul>
+&lt;h2 id="attendees">Attendees&lt;/h2>
+&lt;ul>
+&lt;li>Hyundai Autoever&lt;/li>
+&lt;li>KaKao&lt;/li>
+&lt;li>Kakao Bank&lt;/li>
+&lt;li>LG Electronics&lt;/li>
+&lt;li>NCSOFT&lt;/li>
+&lt;li>Samsung Electronics&lt;/li>
+&lt;li>SK Telecom&lt;/li>
+&lt;/ul>
+&lt;h2 id="main-activities">Main Activities&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>No&lt;/th>
+&lt;th>Agenda&lt;/th>
+&lt;th>Speaker&lt;/th>
+&lt;th>Slide&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Introduction on SCANOSS&lt;/td>
+&lt;td>Park Wonjae, LG Electronics&lt;/td>
+&lt;td>&lt;a href="./SCANOSS_Introduction.pdf">pdf&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>Introduction on Pre/Realtime Verification Tool&lt;/td>
+&lt;td>Yoonhwan Jung, Samsung Electronics&lt;/td>
+&lt;td>-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>Discussion&lt;/td>
+&lt;td>All&lt;/td>
+&lt;td>-&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="discussion-result">Discussion Result&lt;/h2>
+&lt;ul>
+&lt;li>Meeting Frequency
+&lt;ul>
+&lt;li>Once a month. If there is KWG meeting, skip the month&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Starting Time of the Meetings
+&lt;ul>
+&lt;li>Weekday 2 PM&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Topic of the Meetings
+&lt;ul>
+&lt;li>Open Source Tools, Commercial Tools, Co-operated Projects&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Whether to Make the Materials Public
+&lt;ul>
+&lt;li>Up to each presentors&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="photo-gallery">Photo Gallery&lt;/h2>
+&lt;div >&lt;span class="image fit">
+&lt;img src="220215.jpg" width="45%">
+&lt;/span>&lt;/div></description></item></channel></rss>
