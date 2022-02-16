@@ -15,15 +15,17 @@ description: >
 * 장소 : 온라인(Webex)
 
 ## Attendees
+* ETRI 류원옥
 * LG전자 김경애, 김소임, 박원재, 방재권, 석지영, 진희두, 최혜성
-* NCSOFT 한다솜, 한지호, 강병수
+* NCSOFT 강병수, 김다은, 한다솜, 한지호
 * SK텔레콤 장학성
 * 삼성전자 정윤환
 * 카카오 이민정, 이승아, 황은경
-* 현대오토에버 이영준
-* 카카오뱅크 류창한
+* 카카오뱅크 하헌관
+* 현대모비스 이영준
+* 현대오토에버 류창한
 
-## Main Activities
+## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
 | 1  | SCANOSS 소개  | 	박원재, LG전자 | [pdf](./SCANOSS_Introduction.pdf) |
