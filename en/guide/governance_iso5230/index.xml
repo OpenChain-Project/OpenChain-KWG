@@ -160,7 +160,7 @@ this policy.
 The scope can be changed according to the business environment of the company,
 and the procedure for this is as follows.
 1. If the open source program manager determines that it is necessary to change
-the scope of policy according to changes in the company's business environment,
+the scope of policy according to changes in the company&amp;#39;s business environment,
 such as a new business or reorganization, submit a proposal for this to the OSRB.
 2. OSRB approves proposals for scope changes at the appropriate level.
 3. OSRB modifies the open source policy to change the scope of the policy.
@@ -211,14 +211,14 @@ and requests related to open source can be submitted to the
 company.&amp;lt;sub&amp;gt;(3.2.1.1)&amp;lt;/sub&amp;gt;
 * Include the email address of the person in charge in the open
 source notice.
-* Register your contact in the Linux Foundation's Open Compliance
+* Register your contact in the Linux Foundation&amp;#39;s Open Compliance
 Directory.
 (3) External Inquiry Response Procedure
 If you respond quickly and accurately to open source compliance
 inquiries from outside, you can significantly reduce the risk of
 going to a lawsuit. To this end, in order to respond to external
 open source compliance inquiries, you should follow the external
-inquiry response process defined in the company's open source
+inquiry response process defined in the company&amp;#39;s open source
 compliance process.&amp;lt;sub&amp;gt;(3.2.1.2)&amp;lt;/sub&amp;gt;
 &lt;/code>&lt;/pre>&lt;p>If you do this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
 &lt;div class="alert alert-success" role="alert">
@@ -286,7 +286,7 @@ and asks for a solution.
 &lt;pre tabindex="0">&lt;code>4. Roles, Responsibilities and Competencies
 (2) Open Source Program Manager
 The open source program manager is responsible for the overall
-responsibility for the company's open source programs.
+responsibility for the company&amp;#39;s open source programs.
 To ensure open source compliance of products and services using
 open source, open source program manager is responsible for:
 - Define the roles required for open source compliance, and
@@ -647,8 +647,8 @@ processes. Training history is stored in [Learning Portal].
 (1) Purpose of the policy&amp;lt;sub&amp;gt;(3.1.3.1)&amp;lt;/sub&amp;gt;
 This policy provides the following principles for all organizations
 involved in software development, service, and distribution in OOO
-Company (hereinafter referred to as the &amp;quot;Company&amp;quot;) to properly utilize
-open source software (hereinafter referred to as &amp;quot;Open Source&amp;quot;).
+Company (hereinafter referred to as the &amp;#34;Company&amp;#34;) to properly utilize
+open source software (hereinafter referred to as &amp;#34;Open Source&amp;#34;).
 1. Principles for open source license compliance
 2. Principles for contribution to external open source projects
 3. Principles for releasing open source
@@ -667,11 +667,11 @@ property rights in code we use
 - loss of revenue;
 - breach of contract with suppliers and customers.
 For this reason, we take breaches of this policy seriously, and any
-individual breaching the policy may find themselves subject to [COMPANY]'s
+individual breaching the policy may find themselves subject to [COMPANY]&amp;#39;s
 disciplinary procedure.
 (3) How to contribute to the effectiveness of the Program
 All members of the company can contribute to the effectiveness of the
-program and improvement of the company's compliance level by understanding
+program and improvement of the company&amp;#39;s compliance level by understanding
 the rationale and content of this policy and faithfully performing the
 &lt;/code>&lt;/pre>&lt;p>Assessment will be described in more detail later.&lt;/p>
 &lt;p>If you include the content of such education in your policy, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
