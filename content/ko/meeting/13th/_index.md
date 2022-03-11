@@ -6,6 +6,8 @@ description: >
  Online Meeting, March 2022
 ---
 
+![](./20220316_kwg.png)
+
 ## 일정
 
 * 일정: 2022-03-16 (수) 오후2시~4시
@@ -16,11 +18,17 @@ description: >
 |----|-----------------|------|------|
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
 | 2  | OpenChain KWG Update | 장학성, SK텔레콤 | - |
-| 3  | (to be updated)| - | - |
-| 4  | (to be updated)| - | - |
-| 5  | 소그룹 모임 (Case Study) | All | - |
+| 3  | 오픈소스 최신 동향 | 황민호, 카카오 | - |
+| 4  | 카카카와 카카오뱅크의 ISO/IEC 5230 인증썰 | 황은경, 카카오 / 하헌관, 카카오뱅크 | - |
+| 5  | 현대모비스 오픈소스 관리체계 및 현안 | 전미진/이영준, 현대모비스 | - |
+| 6  | 오픈소스 라이선스 사전/실시간 검증도구 오픈소스화 추진계획 | 정윤환, 삼성전자 | - |
+| 7  | 소그룹 모임 (Case Study) | All | - |
 
+## Sponsor
+### Platinum
+![](./line_logo.png)
 
+<!-- 
 ## Video
 ...
 
@@ -28,8 +36,4 @@ description: >
 ...
 
 ## Photo Gallery
-...
-
-## Sponsor
-...
-
+... -->
