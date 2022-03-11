@@ -6,6 +6,7 @@ description: >
  Online Meeting, March 2022
 ---
 
+![](./20220316_kwg.png)
 ## Schedule
 
 * Schedule: 2022-03-16 (Wednesday) 2pm-4pm
