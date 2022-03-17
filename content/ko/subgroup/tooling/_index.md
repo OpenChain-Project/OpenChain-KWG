@@ -14,10 +14,15 @@ Tooling Group은 이러한 오픈소스 도구를 기업에서 효율적으로 �
 
 ## Member 현황
 
-* LG Electronics (Lead: 박원재)
+* LG전자 (Lead: 박원재)
 * 삼성전자
-* 엔씨소프트
-* SK telecom
+* NCSOFT
+* SK텔레콤
+* 카카오
+* 카카오뱅크
+* 현대오토에버
+* 현대모비스
+* 삼성SDS
 
 ## Subsribe
 

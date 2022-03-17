@@ -18,7 +18,12 @@ The Tooling Group is a group that discusses ways to effectively use these open s
 * LG Electronics (Lead, Wonjae Park)
 * Samsung Electronics
 * NCSoft
-* SK telecom
+* SK Telecom
+* Kakao
+* Kakao Bank
+* Hyundai Autoever
+* Hyundai Mobis
+* Samsung SDS
 
 ## Subsribe
 
