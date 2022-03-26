@@ -24,15 +24,39 @@ description: >
 | 6 | Open Source Promotion Plan for Open Source License Advance/Real-Time Verification Tool  | Yunhwan Jung / Munki Hong, Samsung Electronics | [pdf](./SOSHUB_오픈소스화%20추진계획_OpenChain%20KWG_게시_20220316.pdf) |
 | 7 | Small Group Meetings (Case Study) | All | - |
 
+## Video
+### OpenChain Update 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n0SN6mUwals" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### OpenChain KWG Update
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yn5y_wumgXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Latest Trends in Open Source
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1OZKlOu-SIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ISO/IEC 5230 Certification Cases of Kakao and Kakao Bank 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lKnZ-Jhw2bg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jt54J5iiIOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Hyundai Mobis Open Source Management System and Current Issues
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-8eDeyGhNNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Open Source Promotion Plan for Open Source License Advance/Real-Time Verification Tool
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DZD5DcYmS0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Sponsor
 ### Platinum
 ![](./line_logo.png)
 
 <!-- 
-## Video
-...
-
 ## Minutes
 ...
 
