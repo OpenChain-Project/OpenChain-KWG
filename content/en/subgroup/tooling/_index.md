@@ -8,10 +8,9 @@ description: >
 
 ## Purpose
 
-In the process of automating and streamlining the open source compliance process, the tools can help in an efficient way.Companies can use the tools in ways such as (1) self-development, (2) purchase of commercial tools, and (3) use of open source tools. Using open source tools can be advantageous in many aspects. First of all, open source tools are free to use, so there is no cost. In addition, while using open source tools, companies can contribute their own improvements to the open source community, contributing to the development and spread of the open source ecosystem.
+In the process of automating and streamlining the open source compliance process, the tools can help in an efficient way.
 
 The Tooling Group is a group that discusses ways to effectively use these open source tools in businesses and shares best practices.
-
 
 ## Member
 
@@ -24,6 +23,7 @@ The Tooling Group is a group that discusses ways to effectively use these open s
 * Hyundai Autoever
 * Hyundai Mobis
 * Samsung SDS
+* ETRI
 
 ## Subsribe
 
