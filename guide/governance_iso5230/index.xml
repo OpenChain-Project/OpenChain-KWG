@@ -86,7 +86,7 @@
 &lt;/div>
 &lt;p>각각의 방법을 알아보자.&lt;/p>
 &lt;h3 id="1-자체-인증-self-certification">1. 자체 인증 (Self Certification)&lt;/h3>
-&lt;p>자체 인증은 OpenChain 프로젝트에서 제일 권장하는 방법이며, 비용이 발생하지 않는다는 장점이 있다. OpenChain Project는 기업이 OpenChain 규격을 준수하는지 자체적으로 확인할 수 있도록 OpenChain 자체 인증 웹사이트를 제공한다&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. 기업의 오픈소스 담당자는 OpenChain 자체 인증 웹사이트에 가입해 온라인 자체 인증을 시작할 수 있다. 자체 인증은 아래와 같이 Yes/No 질문에 답변하는 방식으로 진행된다.&lt;/p>
+&lt;p>자체 인증은 OpenChain 프로젝트에서 제일 권장하는 방법이며, 비용이 발생하지 않는다는 장점이 있다. OpenChain Project는 기업이 OpenChain 규격을 준수하는지 자체적으로 확인할 수 있도록 OpenChain 자체 인증 웹사이트를 제공한다&lt;sup id="fnref1:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. 기업의 오픈소스 담당자는 OpenChain 자체 인증 웹사이트에 가입해 온라인 자체 인증을 시작할 수 있다. 자체 인증은 아래와 같이 Yes/No 질문에 답변하는 방식으로 진행된다.&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 846px">
 &lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/guide/governance_iso5230/1-whatisopenchain/question_hu4f44f92da355ecf95f03a5b240a3636b_73520_900x600_fit_catmullrom_3.png" width="836" height="600">
 &lt;div class="card-body px-0 pt-2 pb-0">
@@ -186,56 +186,56 @@
 &lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;section class="footnotes" role="doc-endnotes">
+&lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
+&lt;li id="fn:1">
 &lt;p>OpenChain 규격 - &lt;a href="https://www.openchainproject.org/get-started/conformance">https://www.openchainproject.org/get-started/conformance&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>OpenChain 자체 인증 웹사이트 - &lt;a href="https://certification.openchainproject.org/">https://certification.openchainproject.org/&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;li id="fn:2">
+&lt;p>OpenChain 자체 인증 웹사이트 - &lt;a href="https://certification.openchainproject.org/">https://certification.openchainproject.org/&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:3" role="doc-endnote">
+&lt;li id="fn:3">
 &lt;p>OpenChain 문서 자료 - &lt;a href="https://www.openchainproject.org/resources">https://www.openchainproject.org/resources&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:4" role="doc-endnote">
+&lt;li id="fn:4">
 &lt;p>ISO/IEC 5230 : &lt;a href="https://www.iso.org/standard/81039.html">https://www.iso.org/standard/81039.html&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:5" role="doc-endnote">
+&lt;li id="fn:5">
 &lt;p>AlektoMetis - &lt;a href="https://alektometis.com/">https://alektometis.com/&lt;/a>,&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:6" role="doc-endnote">
+&lt;li id="fn:6">
 &lt;p>Source Code Control - &lt;a href="https://sourcecodecontrol.co/">https://sourcecodecontrol.co/&lt;/a>&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:7" role="doc-endnote">
+&lt;li id="fn:7">
 &lt;p>Conformance Group - &lt;a href="https://openchain-project.github.io/OpenChain-KWG/subgroup/conformance/">https://openchain-project.github.io/OpenChain-KWG/subgroup/conformance/&lt;/a>&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:8" role="doc-endnote">
+&lt;li id="fn:8">
 &lt;p>ORCRO- &lt;a href="https://orcro.co.uk/">https://orcro.co.uk/&lt;/a>&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:9" role="doc-endnote">
+&lt;li id="fn:9">
 &lt;p>PWC - &lt;a href="https://www.pwc.de/en/opensource">https://www.pwc.de/en/opensource&lt;/a>&amp;#160;&lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:10" role="doc-endnote">
+&lt;li id="fn:10">
 &lt;p>TÜV SÜD - &lt;a href="https://www.tuvsud.com">https://www.tuvsud.com&lt;/a>&amp;#160;&lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:11" role="doc-endnote">
+&lt;li id="fn:11">
 &lt;p>Synopsys - &lt;a href="https://www.synopsys.com/">https://www.synopsys.com/&lt;/a>&amp;#160;&lt;a href="#fnref:11" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:12" role="doc-endnote">
+&lt;li id="fn:12">
 &lt;p>Bureau Veritas - &lt;a href="https://group.bureauveritas.com/">https://group.bureauveritas.com/&lt;/a>&amp;#160;&lt;a href="#fnref:12" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:13" role="doc-endnote">
+&lt;li id="fn:13">
 &lt;p>ASPICE : 자동차 소프트웨어 개발을 위한 국제 표준 프로세스 모델 - &lt;a href="http://www.automotivespice.com">http://www.automotivespice.com&lt;/a>&amp;#160;&lt;a href="#fnref:13" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:14" role="doc-endnote">
+&lt;li id="fn:14">
 &lt;p>OpenChain Korea Work Group - &lt;a href="https://openchain-project.github.io/OpenChain-KWG/">https://openchain-project.github.io/OpenChain-KWG/&lt;/a>&amp;#160;&lt;a href="#fnref:14" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:15" role="doc-endnote">
+&lt;li id="fn:15">
 &lt;p>한국어 번역 작업 - &lt;a href="https://openchain-project.github.io/OpenChain-KWG/resource/">https://openchain-project.github.io/OpenChain-KWG/resource/&lt;/a>&amp;#160;&lt;a href="#fnref:15" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Guide: 2. 필수 구성 요소</title><link>https://openChain-project.github.io/OpenChain-KWG/guide/governance_iso5230/2-essential_elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/guide/governance_iso5230/2-essential_elements/</guid><description>
+&lt;/div></description></item><item><title>Guide: 2. 필수 구성 요소</title><link>https://openChain-project.github.io/OpenChain-KWG/guide/governance_iso5230/2-essential_elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/guide/governance_iso5230/2-essential_elements/</guid><description>
 &lt;h2 id="오픈소스-거버넌스-체계-필수-구성-요소">오픈소스 거버넌스 체계 필수 구성 요소&lt;/h2>
 &lt;p>기업이 효율적인 오픈소스 거버넌스 체계를 구축하기 위해서는 다음과 같은 구성 요소가 필요하다.&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 690px">

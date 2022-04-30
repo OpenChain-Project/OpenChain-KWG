@@ -1,4 +1,64 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – Tooling Group</title><link>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/</link><description>Recent content in Tooling Group on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/index.xml" rel="self" type="application/rss+xml"/><item><title>Subgroup: 1st Meeting</title><link>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/1st-meeting/</link><pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/1st-meeting/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – Tooling Group</title><link>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/</link><description>Recent content in Tooling Group on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/index.xml" rel="self" type="application/rss+xml"/><item><title>Subgroup: 2nd Meeting</title><link>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/2nd-meeting/</link><pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/2nd-meeting/</guid><description>
+&lt;h2 id="schedule">Schedule&lt;/h2>
+&lt;ul>
+&lt;li>Purpose : Seminar&lt;/li>
+&lt;li>Date and Time : 2022. 04. 27(Wed.), 2:00 ~ 3:30 PM&lt;/li>
+&lt;li>Venue : Online(Webex)&lt;/li>
+&lt;/ul>
+&lt;h2 id="attendees">Attendees&lt;/h2>
+&lt;ul>
+&lt;li>ETRI&lt;/li>
+&lt;li>Hyundai Autoever&lt;/li>
+&lt;li>Hyundai Mobis&lt;/li>
+&lt;li>KaKao&lt;/li>
+&lt;li>Kakao Bank&lt;/li>
+&lt;li>LG Electronics&lt;/li>
+&lt;li>LINE&lt;/li>
+&lt;li>NCSOFT&lt;/li>
+&lt;li>Samsung Electronics&lt;/li>
+&lt;li>SK Telecom&lt;/li>
+&lt;/ul>
+&lt;h2 id="agenda">Agenda&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>No&lt;/th>
+&lt;th>Agenda&lt;/th>
+&lt;th>Speaker&lt;/th>
+&lt;th>Slide&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>FOSSID Review&lt;/td>
+&lt;td>Yally, KoKao&lt;/td>
+&lt;td>&lt;a href="./Session1_kakao.pdf">pdf&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>Status of Opensource Verification Tool Project&lt;/td>
+&lt;td>Yoonhwan Jung, Samsung Electronics&lt;/td>
+&lt;td>&lt;a href="./Session2_Samsung_Electronics.pdf">pdf&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>Development and Promotion Plan for Opensource Compliance Service Platform Project&lt;/td>
+&lt;td>Park Jeongsook, ETRI&lt;/td>
+&lt;td>&lt;a href="./Session3_ETRI.pdf">pdf&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>Small Talk&lt;/td>
+&lt;td>All&lt;/td>
+&lt;td>-&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="photo-gallery">Photo Gallery&lt;/h2>
+&lt;div >&lt;span class="image fit">
+&lt;img src="220427.png" width="600px">
+&lt;/span>&lt;/div></description></item><item><title>Subgroup: 1st Meeting</title><link>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/1st-meeting/</link><pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/1st-meeting/</guid><description>
 &lt;h2 id="schedule">Schedule&lt;/h2>
 &lt;ul>
 &lt;li>Purpose : Seminar and Discuss the Direction of Tooling SG&lt;/li>
