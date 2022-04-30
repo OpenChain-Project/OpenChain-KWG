@@ -669,165 +669,165 @@ Installation Information.”
 &lt;p>&lt;a href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/&lt;/a>&lt;/p>
 &lt;p>&lt;img src="./cc-by.png" alt="ccby">&lt;/p>
 &lt;/div>
-&lt;section class="footnotes" role="doc-endnotes">
+&lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
+&lt;li id="fn:1">
 &lt;p>GNU Operating System, ‘GNU Library General Public License, version 2.0,’ (June, 1991) &lt;a href="https://www.gnu.org/licenses/old-licenses/lgpl-2.0.html">https://www.gnu.org/licenses/old-licenses/lgpl-2.0.html&lt;/a> (accessed March 8, 2021).&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
+&lt;li id="fn:2">
 &lt;p>Although GPLv3 was designed to eventually supplant GPLv2, in the 14 years since GPLv3 was published, the use of GPLv3, by some measures, is roughly equal in measure to the use of GPLv2; GPLv3’s relative use is also declining while GPLv2 remains steady state. Johnson, Patricia, ‘Open Source Licenses in 2021: Trends and Predictions,’ WhiteSource (January 28, 2021) &lt;a href="https://resources.whitesourcesoftware.com/blog-whitesource/open-source-licenses-trends-and-predictions">https://resources.whitesourcesoftware.com/blog-whitesource/open-source-licenses-trends-and-predictions&lt;/a> (accessed March 30, 2021).&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:3" role="doc-endnote">
+&lt;li id="fn:3">
 &lt;p>See GNU Operating System, ‘What is free software? The Free Software Definition,’ &lt;a href="https://www.gnu.org/philosophy/free-sw.en.html">https://www.gnu.org/philosophy/free-sw.en.html&lt;/a> (accessed March 8, 2021).&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:4" role="doc-endnote">
+&lt;li id="fn:4">
 &lt;p>Free Software Foundation, ‘Rationale for 1st discussion draft,’ &lt;a href="http://gplv3.fsf.org/gpl-rationale-2006-01-16.html">http://gplv3.fsf.org/gpl-rationale-2006-01-16.html&lt;/a> (accessed March 22, 2021).&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:5" role="doc-endnote">
+&lt;li id="fn:5">
 &lt;p>One example of a change in the law that the authors of GPLv3 felt needed to be addressed in that license was the adoption in 1996 of the WIPO Copyright Treaty (WCT), and the passage in 1998 of its counterpart in the United States, the Digital Millennium Copyright Action (DMCA), particularly the provisions against circumvention of &amp;rsquo;technological protection measures&amp;rsquo;, See WCT Article 11; 17 U.S.C. § 1201 (1998). GPLv3, § 3 directly addresses these additions to copyright law.&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:6" role="doc-endnote">
+&lt;li id="fn:6">
 &lt;p>The technology in TiVo&amp;rsquo;s devices, preventing reinstallation of modified binaries on devices running GPLv2 software, was one example of technology developed long after the GPLv2 licence was drafted that was of concern to the drafters of GPLv3. Subsequent to the release of GPLv3, millions, if not billions, of devices continue to be distributed with a GPLv2-licensed Linux kernel that prevent the reinstallation of modified binaries. GPLv3 also addressed the outmoded language around distribution of source code in GPLv2, and GPLv3 ‒ in Section 6 ‒ added several additional mechanisms for fulfilling source code obligations more consistent with current mechanisms for software distribution. See GPLv3, § 6(d)-(e).&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:7" role="doc-endnote">
+&lt;li id="fn:7">
 &lt;p>Irish Free Software Organization, ‘Transcript of Opening session of first international GPLv3 conference,’ (January 16th 2006) &lt;a href="http://www.ifso.ie/documents/gplv3-launch-2006-01-16.html">http://www.ifso.ie/documents/gplv3-launch-2006-01-16.html&lt;/a> (accessed March 22, 2021).&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:8" role="doc-endnote">
+&lt;li id="fn:8">
 &lt;p>GNU Operating System, ‘GNU General Public License, version 3,’ (‘GPLv3’) (June 29, 2007) &lt;a href="https://www.gnu.org/licenses/gpl-3.0.html">https://www.gnu.org/licenses/gpl-3.0.html&lt;/a> (accessed March 22, 2021).&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:9" role="doc-endnote">
+&lt;li id="fn:9">
 &lt;p>Burnette, Ed, ‘Tivo and GPL: Beauty and the Beast?,’ ZDNet, (October 2, 2006) &lt;a href="https://www.zdnet.com/article/tivo-and-gpl-beauty-and-the-beast/">https://www.zdnet.com/article/tivo-and-gpl-beauty-and-the-beast/&lt;/a> (accessed March 29, 2021).&amp;#160;&lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:10" role="doc-endnote">
+&lt;li id="fn:10">
 &lt;p>‘Convey’ is the activity defined in GPLv3 as triggering source code disclosure obligations. GPLv3, n. 6, §§ 4-6.&amp;#160;&lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:11" role="doc-endnote">
+&lt;li id="fn:11">
 &lt;p>GPLv3, n. 6 above, § 6.&amp;#160;&lt;a href="#fnref:11" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:12" role="doc-endnote">
+&lt;li id="fn:12">
 &lt;p>See ‘Transcript of Opening Session of First International GPLv3 Conference,’ (January 16th 2006) &lt;a href="http://www.ifso.ie/documents/gplv3-launch-2006-01-16.html">http://www.ifso.ie/documents/gplv3-launch-2006-01-16.html&lt;/a> (accessed May 5, 2021) at 0h 03m 59s&amp;#160;&lt;a href="#fnref:12" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:13" role="doc-endnote">
+&lt;li id="fn:13">
 &lt;p>Perhaps the most notable feature of the ‘Installation Information’ requirement, and an important feature in understanding how that requirement differs from the source code obligations in GPLv2, is that the ‘Installation Information’ requirement of GPLv3 applies only to a specified subset of products – ‘User Products’ upon which GPLv3 might be installed. See GPLv3, n. 6 above, at § 6.&amp;#160;&lt;a href="#fnref:13" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:14" role="doc-endnote">
+&lt;li id="fn:14">
 &lt;p>The Computer Language Company, ‘Tivoization,’ The Free Dictionary by Farlex &lt;a href="https://encyclopedia2.thefreedictionary.com/Tivoization">https://encyclopedia2.thefreedictionary.com/Tivoization&lt;/a> (accessed April 2, 2021).&amp;#160;&lt;a href="#fnref:14" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:15" role="doc-endnote">
+&lt;li id="fn:15">
 &lt;p>Checksums and cryptographic hashes are techniques used to determine whether a received binary file is identical to, or deviates from, an expected binary file. Various techniques are used to generate a numerical value associated with the digits in the expected file to generate a value; that value is then compared at the receiving end to a stored representation of the same value. In this way, any changes to the binary file, even so much as changing one bit from ‘0’ to ‘1’ or vice versa, will produce a different value which will not match the stored value, thus indicating at the received binary file is not identical to the expected binary file. See Fisher, T., ‘What Is a Checksum?’ Lifewire (June 14, 2021) &lt;a href="https://www.lifewire.com/what-does-checksum-mean-2625825">https://www.lifewire.com/what-does-checksum-mean-2625825&lt;/a> (accessed June 14, 2021).&amp;#160;&lt;a href="#fnref:15" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:16" role="doc-endnote">
+&lt;li id="fn:16">
 &lt;p>Miller, Todd, ‘Using large disks with TiVo,’ Sudo Project (2008) &lt;a href="https://web.archive.org/web/20120206023943/http://www.gratisoft.us/tivo/bigdisk.html">https://web.archive.org/web/20120206023943/http://www.gratisoft.us/tivo/bigdisk.html&lt;/a> (accessed April 2, 2021) (‘it is not possible to replace the kernel on a Series2 TiVo since the PROM requires that the kernel be cryptographically signed with a key from TiVo’). Note that although most of the commentary about the Series 2 TiVo devices of the mid-2000s indicate that they would not allow modified GPLv2 binaries to install or execute, at least one commentator has stated that that device allowed such binaries to be installed and run, but only prevented execution of non-GPLv2 proprietary code on that device. See Kuhn, Bradley &amp;amp; Webster, Behan, ‘Safely Copylefted Cars: Reexamining GPLv3 Installation Information Requirements,’ Linux Foundation Events (2017) at 13 &lt;a href="https://events19.linuxfoundation.org/wp-content/uploads/2017/11/Safely-Copylefted-Cars-Reexamining-GPLv3-Installation-Information-Requirements-ALS-Bradley-Kuhn-Behan-Webster-1.pdf">https://events19.linuxfoundation.org/wp-content/uploads/2017/11/Safely-Copylefted-Cars-Reexamining-GPLv3-Installation-Information-Requirements-ALS-Bradley-Kuhn-Behan-Webster-1.pdf&lt;/a> (accessed April 9, 2021)&amp;#160;&lt;a href="#fnref:16" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:17" role="doc-endnote">
+&lt;li id="fn:17">
 &lt;p>GNU Operating System, ‘Proprietary Tyrants,’ &lt;a href="https://www.gnu.org/proprietary/proprietary-tyrants.html">https://www.gnu.org/proprietary/proprietary-tyrants.html&lt;/a> (accessed April 2, 2021).&amp;#160;&lt;a href="#fnref:17" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:18" role="doc-endnote">
+&lt;li id="fn:18">
 &lt;p>Stallman, Richard, ‘Transcript of Richard Stallman at the 5th international GPLv3 conference,’ (November 21, 2006) &lt;a href="https://fsfe.org/activities/gplv3/tokyo-rms-transcript#tivoisation">https://fsfe.org/activities/gplv3/tokyo-rms-transcript#tivoisation&lt;/a> (accessed April 2, 2021).&amp;#160;&lt;a href="#fnref:18" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:19" role="doc-endnote">
+&lt;li id="fn:19">
 &lt;p>Shankland, Stephen, ‘Defender of the GPL,’ CNet (January 19, 2006) &lt;a href="https://www.cnet.com/news/defender-of-the-gpl/">https://www.cnet.com/news/defender-of-the-gpl/&lt;/a> (accessed April 2, 2021).&amp;#160;&lt;a href="#fnref:19" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:20" role="doc-endnote">
+&lt;li id="fn:20">
 &lt;p>Byfield, Bruce, ‘GPLv2 or GPLv3?: Inside the Debate,’ Datamation (June 17, 2007) &lt;a href="https://www.datamation.com/trends/gplv2-or-gplv3-inside-the-debate/">https://www.datamation.com/trends/gplv2-or-gplv3-inside-the-debate/&lt;/a> (accessed April 9, 2021).&amp;#160;&lt;a href="#fnref:20" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:21" role="doc-endnote">
+&lt;li id="fn:21">
 &lt;p>Bennett, Amy, ‘Linux creator Torvalds still no fan of GPLv3,’ Computerworld (July 28, 2006) &lt;a href="https://www.computerworld.com/article/2820022/linux-creator-torvalds-still-no-fan-of-gplv3.html">https://www.computerworld.com/article/2820022/linux-creator-torvalds-still-no-fan-of-gplv3.html&lt;/a> (accessed April 7, 2021).&amp;#160;&lt;a href="#fnref:21" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:22" role="doc-endnote">
+&lt;li id="fn:22">
 &lt;p>Shankland, Stephen, ‘Torvalds rules out GPL3 for Linux,’ ZDNet UK (January 27, 2006) &lt;a href="https://web.archive.org/web/20080424051024/http:/news.zdnet.co.uk/software/0,1000000121,39249370,00.htm">https://web.archive.org/web/20080424051024/http:/news.zdnet.co.uk/software/0,1000000121,39249370,00.htm&lt;/a> (accessed April 7, 2021).&amp;#160;&lt;a href="#fnref:22" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:23" role="doc-endnote">
+&lt;li id="fn:23">
 &lt;p>Barr, Joe, ‘Torvalds versus GPLv3 DRM restrictions,’ Linux.com (February 2, 2006) &lt;a href="https://www.linux.com/news/torvalds-versus-gplv3-drm-restrictions/">https://www.linux.com/news/torvalds-versus-gplv3-drm-restrictions/&lt;/a> (accessed April 8, 2021).&amp;#160;&lt;a href="#fnref:23" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:24" role="doc-endnote">
+&lt;li id="fn:24">
 &lt;p>Bottomley, James, et al., ‘Kernel developers&amp;rsquo; position on GPLv3,’ LWN.net (September 22, 2006) &lt;a href="https://lwn.net/Articles/200422/">https://lwn.net/Articles/200422/&lt;/a> (accessed April 8, 2021). See also Bottomley, James, et al., &amp;lsquo;The Dangers and Problems with GPLv3,&amp;rsquo; (September 15, 2006) &lt;a href="https://lore.kernel.org/lkml/1158941750.3445.31.camel@mulgrave.il.steeleye.com">https://lore.kernel.org/lkml/1158941750.3445.31.camel@mulgrave.il.steeleye.com&lt;/a> (accessed May 27, 2021).&amp;#160;&lt;a href="#fnref:24" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:25" role="doc-endnote">
+&lt;li id="fn:25">
 &lt;p>Linux kernel licensing notice, &lt;a href="https://elixir.bootlin.com/linux/latest/source/COPYING">https://elixir.bootlin.com/linux/latest/source/COPYING&lt;/a> (accessed April 8, 2021).&amp;#160;&lt;a href="#fnref:25" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:26" role="doc-endnote">
+&lt;li id="fn:26">
 &lt;p>Deb Conf, ‘Linus Torvalds says GPL v3 violates everything that GPLv2 stood for,’ YOUTUBE (accessed May 5, 2021, at 0h 0m 34s) &lt;a href="https://www.youtube.com/watch?v=PaKIZ7gJlRU">https://www.youtube.com/watch?v=PaKIZ7gJlRU&lt;/a>.&amp;#160;&lt;a href="#fnref:26" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:27" role="doc-endnote">
+&lt;li id="fn:27">
 &lt;p>Stallman, Richard, ‘Transcript of Richard Stallman at the 3rd international GPLv3 conference,’ (June 22, 2006) &lt;a href="https://fsfe.org/activities/gplv3/barcelona-rms-transcript.en.html#tivoisation">https://fsfe.org/activities/gplv3/barcelona-rms-transcript.en.html#tivoisation&lt;/a> (accessed April 2, 2021).&amp;#160;&lt;a href="#fnref:27" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:28" role="doc-endnote">
+&lt;li id="fn:28">
 &lt;p>Stallman, Richard, ‘Transcript of Richard Stallman speaking on GPLv3 in Torino,’ (March 18, 2006) &lt;a href="https://fsfe.org/activities/gplv3/torino-rms-transcript.en.html#drm">https://fsfe.org/activities/gplv3/torino-rms-transcript.en.html#drm&lt;/a> (accessed April 2, 2021).&amp;#160;&lt;a href="#fnref:28" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:29" role="doc-endnote">
+&lt;li id="fn:29">
 &lt;p>Free Software Foundation, ‘Opinion on Digital Restrictions Management,’ (August, 2006) &lt;a href="http://gplv3.fsf.org/drm-dd2.html">http://gplv3.fsf.org/drm-dd2.html&lt;/a> (accessed March 17, 2021).&amp;#160;&lt;a href="#fnref:29" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:30" role="doc-endnote">
+&lt;li id="fn:30">
 &lt;p>GNU Project, ‘Frequently Asked Questions About the GNU Licenses,’ &lt;a href="https://www.gnu.org/licenses/gpl-faq.html#InstInfo">https://www.gnu.org/licenses/gpl-faq.html#InstInfo&lt;/a> (accessed April 7, 2021)&amp;#160;&lt;a href="#fnref:30" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:31" role="doc-endnote">
+&lt;li id="fn:31">
 &lt;p>Stallman, Richard M. ‘Why Upgrade to GPL Version 3,’ (May 31, 2007) &lt;a href="http://gplv3.fsf.org/rms-why.html">http://gplv3.fsf.org/rms-why.html&lt;/a> (accessed May 6, 2021).&amp;#160;&lt;a href="#fnref:31" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:32" role="doc-endnote">
+&lt;li id="fn:32">
 &lt;p>GPLv3 uses the term ‘convey,’ n. 8 above, whereas GPLv2 uses the term ‘distribute,’ to articulate acts that trigger, among other things, obligations to provide source. Although there are subtle differences between the two terms, they are intended to cover the same acts. GNU Project, ‘Frequently Asked Questions About the GNU Licenses,’ &lt;a href="https://www.gnu.org/licenses/gpl-faq.html#ConveyVsDistribute">https://www.gnu.org/licenses/gpl-faq.html#ConveyVsDistribute&lt;/a> (accessed March 29, 2021).&amp;#160;&lt;a href="#fnref:32" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:33" role="doc-endnote">
+&lt;li id="fn:33">
 &lt;p>Brown, Neil, ‘GNU GPL 2.0 and 3.0: obligations to include licence text, and provide source code,’ JOLTS vol. 2, no. 1 (2010) DOI: 10.5033/ifosslr.v2i1.31 (accessed March 30, 2021).&amp;#160;&lt;a href="#fnref:33" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:34" role="doc-endnote">
+&lt;li id="fn:34">
 &lt;p>GPLv2, n. 1 above, § 3.&amp;#160;&lt;a href="#fnref:34" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:35" role="doc-endnote">
+&lt;li id="fn:35">
 &lt;p>‘Source Code,’ Computer Dictionary of Information Technology &lt;a href="https://www.computer-dictionary-online.org/definitions-s/source-code.html">https://www.computer-dictionary-online.org/definitions-s/source-code.html&lt;/a> (accessed March 30, 2021).&amp;#160;&lt;a href="#fnref:35" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:36" role="doc-endnote">
+&lt;li id="fn:36">
 &lt;p>GPLv3, n. 6 above, § 1.&amp;#160;&lt;a href="#fnref:36" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:37" role="doc-endnote">
+&lt;li id="fn:37">
 &lt;p>GPLv3, n. 6 above, § 6.&amp;#160;&lt;a href="#fnref:37" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:38" role="doc-endnote">
+&lt;li id="fn:38">
 &lt;p>Free Software Foundation, ‘GPLv3 First Discussion Draft,’ §1 (January 16, 2006) &lt;a href="http://gplv3.fsf.org/gpl-draft-2006-01-16.html">http://gplv3.fsf.org/gpl-draft-2006-01-16.html&lt;/a> (accessed June 14, 2021).&amp;#160;&lt;a href="#fnref:38" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:39" role="doc-endnote">
+&lt;li id="fn:39">
 &lt;p>Free Software Foundation, ‘GPLv3 Third Discussion Draft Rationale,’ (March 28, 2007) &lt;a href="http://gplv3.fsf.org/gpl3-dd3-rationale.pdf/download">http://gplv3.fsf.org/gpl3-dd3-rationale.pdf/download&lt;/a> (accessed June 14, 2021).&amp;#160;&lt;a href="#fnref:39" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:40" role="doc-endnote">
+&lt;li id="fn:40">
 &lt;p>GPLv2, n. 1 above, § 3.&amp;#160;&lt;a href="#fnref:40" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:41" role="doc-endnote">
+&lt;li id="fn:41">
 &lt;p>E.g., Microsoft, ‘Interface Definition (IDL) File,’ Windows Developer Documentation (May 31, 2018) &lt;a href="https://docs.microsoft.com/en-us/windows/win32/midl/interface-definition-idl-file">https://docs.microsoft.com/en-us/windows/win32/midl/interface-definition-idl-file&lt;/a> (accessed April 8, 2021);
 de St. Germain, H. James, ‘Interfaces in Object Oriented Programming Languages,’ University of Utah Computing Department &lt;a href="https://www.cs.utah.edu/~germain/PPS/Topics/interfaces.html">https://www.cs.utah.edu/~germain/PPS/Topics/interfaces.html&lt;/a> (accessed April 8, 2021).&amp;#160;&lt;a href="#fnref:41" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:42" role="doc-endnote">
+&lt;li id="fn:42">
 &lt;p>Christensson, Per, ‘Script Definition,’&amp;rdquo; TechTerms. (2006) &lt;a href="https://techterms.com/definition/script">https://techterms.com/definition/script&lt;/a> (accessed April 8, 2021).&amp;#160;&lt;a href="#fnref:42" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:43" role="doc-endnote">
+&lt;li id="fn:43">
 &lt;p>‘Script,’ Merriam-Webster.com Dictionary, Merriam-Webster &lt;a href="https://www.merriam-webster.com/dictionary/script">https://www.merriam-webster.com/dictionary/script&lt;/a> (accessed April 8, 2021).&amp;#160;&lt;a href="#fnref:43" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:44" role="doc-endnote">
+&lt;li id="fn:44">
 &lt;p>GPLv2’s requirement to provide ‘compilation’ scripts are not analysed in this article; compilation is part the process of converting source code into executable code, and is not related to the subsequent activities of installing, or executing, that executable code.&amp;#160;&lt;a href="#fnref:44" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:45" role="doc-endnote">
+&lt;li id="fn:45">
 &lt;p>Arthur, Ty, ‘How to Write a Simple Script to Install a Program,’ Techwalla &lt;a href="https://www.techwalla.com/articles/how-to-write-a-simple-script-to-install-a-program">https://www.techwalla.com/articles/how-to-write-a-simple-script-to-install-a-program&lt;/a> (accessed April 8, 2021)&amp;#160;&lt;a href="#fnref:45" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:46" role="doc-endnote">
+&lt;li id="fn:46">
 &lt;p>‘User Products’ in GPLv3 are subject to a rigorous definition which excludes a large class of products which can, and currently do, use code licensed under one of the GPL family of licences: “A ‘User Product’ is either (1) a ‘consumer product’, which means any tangible personal property which is normally used for personal, family, or household purposes, or (2) anything designed or sold for incorporation into a dwelling. … A product is a consumer product regardless of whether the product has substantial commercial, industrial or non-consumer uses, unless such uses represent the only significant mode of use of the product.” GPLv3, n. 6 above, at Section 6.&amp;#160;&lt;a href="#fnref:46" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:47" role="doc-endnote">
+&lt;li id="fn:47">
 &lt;p>GPLv3, n. 6 above, at Section 6.&amp;#160;&lt;a href="#fnref:47" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:48" role="doc-endnote">
+&lt;li id="fn:48">
 &lt;p>Transcript of Opening Session of First International GPLv3 Conference, see n.10 above, at 0h 23m 30s.&amp;#160;&lt;a href="#fnref:48" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:49" role="doc-endnote">
+&lt;li id="fn:49">
 &lt;p>Kuhn, Bradley, et al., ‘Copyleft and the GNU General Public License: A Comprehensive Tutorial and Guide,’ Copyleft.org at § 5.2 (2003-2018) &lt;a href="https://copyleft.org/guide/comprehensive-gpl-guidech6.html#x9-460005.2">https://copyleft.org/guide/comprehensive-gpl-guidech6.html#x9-460005.2&lt;/a> (accessed April 9, 2021).&amp;#160;&lt;a href="#fnref:49" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:50" role="doc-endnote">
+&lt;li id="fn:50">
 &lt;p>Gingerich, Denver, ‘Understanding Installation Requirements in GPLv2,’ Software Freedom Conservancy (March 25, 2021) &lt;a href="https://sfconservancy.org/blog/2021/mar/25/install-gplv2/">https://sfconservancy.org/blog/2021/mar/25/install-gplv2/&lt;/a> (accessed April 9, 2021).&amp;#160;&lt;a href="#fnref:50" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:51" role="doc-endnote">
+&lt;li id="fn:51">
 &lt;p>See above nn. 17 and 22-23.&amp;#160;&lt;a href="#fnref:51" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Blog: Dockerfile 배포 시 컴플라이언스 책임은 누구에게?</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210504-dockerfiles/</link><pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210504-dockerfiles/</guid><description>
+&lt;/div></description></item><item><title>Blog: Dockerfile 배포 시 컴플라이언스 책임은 누구에게?</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210504-dockerfiles/</link><pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210504-dockerfiles/</guid><description>
 &lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210504-dockerfiles/featured-dockerfile-ex_hu144e77f3a0c06d5c2e11835ba0d8ec62_326508_640x0_resize_catmullrom_3.png" width="640" height="368"/>
 &lt;blockquote>
 &lt;p>안녕하세요!&lt;/p>
@@ -990,58 +990,58 @@ DOI: 10.5033/jolts.v12i1.147&lt;/p>
 &lt;p>&lt;a href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/&lt;/a>&lt;/p>
 &lt;p>&lt;img src="./cc.png" alt="cc">&lt;/p>
 &lt;/div>
-&lt;section class="footnotes" role="doc-endnotes">
+&lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
+&lt;li id="fn:1">
 &lt;p>Hemel, Armijn, (2020), ‘Docker Containers for Legal Professionals,’ [pdf] Available at: &lt;a href="https://www.linuxfoundation.org/wp-content/uploads/Docker-Containers-for-Legal-Professionals-Whitepaper_042420.pdf">https://www.linuxfoundation.org/wp-content/uploads/Docker-Containers-for-Legal-Professionals-Whitepaper_042420.pdf&lt;/a> [Accessed 16 February 2021]. See also Peterson, Scott, (2020), ‘Making compliance scalable in a container world.’ Available at: &lt;a href="https://opensource.com/article/20/7/compliance-containers">https://opensource.com/article/20/7/compliance-containers&lt;/a> [Accessed 16 February 2021].&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
+&lt;li id="fn:2">
 &lt;p>Sec. 0 GPL-3.0 provides as follows: “To ‘convey&amp;rsquo;‘ a work means any kind of propagation that enables other parties to make or receive copies.” and “To ’propagate’ a work means to do anything with it that, without permission, would make you directly or secondarily liable for infringement under applicable copyright law, except executing it on a computer or modifying a private copy.”&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:3" role="doc-endnote">
+&lt;li id="fn:3">
 &lt;p>Meeker, Heather (2012), ‘The Gift that Keeps on Giving – Distribution and Copyleft in Open Source Software Licenses’, JOLTS, 4(1), pp 29 – 40, [DOI: 10.5033/ifosslr.v4i1.66].&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:4" role="doc-endnote">
+&lt;li id="fn:4">
 &lt;p>Directive 2009/24/EC on the legal protection of computer programs (codified version). Available at: &lt;a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32009L0024">https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32009L0024&lt;/a> [Accessed 16 February 2021].&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:5" role="doc-endnote">
+&lt;li id="fn:5">
 &lt;p>See the ‘Opinion of Advocate General Saugmandsgaard Øe in the joined Cases C‑682/18 and C‑683/18 (Frank Peterson v Google LLC et al), ECLI:EU:C:2020:586. Available at: &lt;a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:62018CC0682">https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:62018CC0682&lt;/a> [Accessed 16 February 2021].&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:6" role="doc-endnote">
+&lt;li id="fn:6">
 &lt;p>BGH (German Federal Court of Justice), judgment of 2020-03-05 - I ZR 32/19 – Internet radio recorder. Available at: &lt;a href="https://openjur.de/u/2202077.html">https://openjur.de/u/2202077.html&lt;/a> [Accessed 16 February 2021].&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:7" role="doc-endnote">
+&lt;li id="fn:7">
 &lt;p>독일 지방법원, 인터넷 라디오 음악 녹음 서비스(stream ripping) 제공자는 복제권과 전송권을 침해한다 : &lt;a href="http://www.copyright.or.kr/information-materials/trend/the-copyright/download.do?brdctsno=44381&amp;amp;brdctsfileno=15929">http://www.copyright.or.kr/information-materials/trend/the-copyright/download.do?brdctsno=44381&amp;amp;brdctsfileno=15929&lt;/a>&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:8" role="doc-endnote">
+&lt;li id="fn:8">
 &lt;p>CJEU of 2015-05-13, C-516/13 – Dimensione Direct Sales and Labianca. Available at:
 &lt;a href="https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:62013CJ0516&amp;amp;qid=1607613372933&amp;amp;from=EN">https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:62013CJ0516&amp;amp;qid=1607613372933&amp;amp;from=EN&lt;/a> [Accessed 16 February 2021].&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:9" role="doc-endnote">
+&lt;li id="fn:9">
 &lt;p>Please not that the “Right of communication to the public of works and right of making available to the public” in Art. 3 are independent rights from the “distribution right” in Art. 4 Directive 2001/29/EC. Available at: &lt;a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32001L0029">https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32001L0029&lt;/a> [Accessed 16 February 2021].&amp;#160;&lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:10" role="doc-endnote">
+&lt;li id="fn:10">
 &lt;p>See Hemel Armijn, ibid n. 1, p. 19.&amp;#160;&lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:11" role="doc-endnote">
+&lt;li id="fn:11">
 &lt;p>As the CJEU, judgment of 14 June 2017 in case C-610/15 – Stichting Brein (The Pirate Bay) itself declares: “In order to determine whether a user is making a ‘communication to the public’ within the meaning of Article 3(1) of Directive 2001/29, it is necessary to take into account several complementary criteria, which are not autonomous and are interdependent. Consequently, those criteria must be applied both individually and in their interaction with one another, since they may, in different situations, be present to widely varying degrees.” Available at: &lt;a href="http://curia.europa.eu/juris/liste.jsf?language=en&amp;amp;T,F&amp;amp;num=c-610-15">http://curia.europa.eu/juris/liste.jsf?language=en&amp;amp;T,F&amp;amp;num=c-610-15&lt;/a> [Accessed 16 February 2021].&amp;#160;&lt;a href="#fnref:11" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:12" role="doc-endnote">
+&lt;li id="fn:12">
 &lt;p>For efforts of Red Hat to improve the situation see Peterson, S., ibid.&amp;#160;&lt;a href="#fnref:12" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:13" role="doc-endnote">
+&lt;li id="fn:13">
 &lt;p>&amp;ldquo;However, parties who have received copies, or rights, from you under this License will not have their licenses terminated so long as such parties remain in full compliance.&amp;rdquo;&amp;#160;&lt;a href="#fnref:13" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:14" role="doc-endnote">
+&lt;li id="fn:14">
 &lt;p>See for more details Jaeger, Till and Metzger, Aaxel, Open Source Software, 5th edition, 2020, 64 et seq; Meeker, Heather, Open Source for Business, A practical Guide to Open Source Software Licensing, 3rd edition 2020, 119 et seq; Working Paper on the legal implication of certain forms of
 Software Interactions (a.k.a linking), Available at: &lt;a href="https://www.ifosslr.org/public/LinkingDocument.odt">https://www.ifosslr.org/public/LinkingDocument.odt&lt;/a> [Accessed 16 February 2021].&amp;#160;&lt;a href="#fnref:14" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:15" role="doc-endnote">
+&lt;li id="fn:15">
 &lt;p>The definition in section 1 GPL-3.0 reads as follows: ’The “System Libraries’ of an executable work include anything, other than the work as a whole, that (a) is included in the normal form of packaging a Major Component, but which is not part of that Major Component, and (b) serves only to enable use of the work with that Major Component, or to implement a Standard Interface for which an implementation is available to the public in source code form. A ‘Major Component’, in this context, means a major essential component (kernel, window system, and so on) of the specific operating system (if any) on which the executable work runs, or a compiler used to produce the work, or an object code interpreter used to run it.”&amp;#160;&lt;a href="#fnref:15" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Blog: OSPO란?</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210418-ospo-definition/</link><pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210418-ospo-definition/</guid><description>
+&lt;/div></description></item><item><title>Blog: OSPO란?</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210418-ospo-definition/</link><pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210418-ospo-definition/</guid><description>
 &lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210418-ospo-definition/featured-todogroup_hue4eb93ef039f28113d98d652a131b29e_3378_640x0_resize_catmullrom_3.png" width="640" height="320"/>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This paper was translated by Haksung Jang from the English version available at the &lt;a href="https://github.com/todogroup/ospodefinition.org">OSPO Definition&lt;/a>. The original document is licensed under &lt;a href="https://github.com/todogroup/ospodefinition.org/blob/master/LICENSE">CC-BY-SA-4.0&lt;/a>.&lt;/p>
@@ -1124,68 +1124,68 @@ Software Interactions (a.k.a linking), Available at: &lt;a href="https://www.ifo
 &lt;p>SK텔레콤의 OSPO에 대한 글을 소개 하며 글을 마칩니다. : &lt;a href="https://sktelecom.github.io/about/ospo/">SK텔레콤 OSPO&lt;/a>&lt;sup id="fnref:19">&lt;a href="#fn:19" class="footnote-ref" role="doc-noteref">19&lt;/a>&lt;/sup>&lt;/p>
 &lt;p>감사합니다.&lt;/p>
 &lt;/blockquote>
-&lt;section class="footnotes" role="doc-endnotes">
+&lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
+&lt;li id="fn:1">
 &lt;p>TODO Group : &lt;a href="https://todogroup.org/">https://todogroup.org/&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
+&lt;li id="fn:2">
 &lt;p>TODO Group Member : &lt;a href="https://todogroup.org/members/">https://todogroup.org/members/&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:3" role="doc-endnote">
+&lt;li id="fn:3">
 &lt;p>TODO guides : &lt;a href="https://todogroup.org/guides/">https://todogroup.org/guides/&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:4" role="doc-endnote">
+&lt;li id="fn:4">
 &lt;p>Repolinter : &lt;a href="https://github.com/todogroup/repolinter">https://github.com/todogroup/repolinter&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:5" role="doc-endnote">
+&lt;li id="fn:5">
 &lt;p>Open Source Program Office (OSPO) Definition and Guide : &lt;a href="https://github.com/todogroup/ospodefinition.org">https://github.com/todogroup/ospodefinition.org&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:6" role="doc-endnote">
+&lt;li id="fn:6">
 &lt;p>How to Create an Open Source Program : &lt;a href="https://todogroup.org/guides/create-program">https://todogroup.org/guides/create-program&lt;/a>)&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:7" role="doc-endnote">
+&lt;li id="fn:7">
 &lt;p>Measuring Your Open Source Program : &lt;a href="https://todogroup.org/guides/measuring">https://todogroup.org/guides/measuring&lt;/a>)&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:8" role="doc-endnote">
+&lt;li id="fn:8">
 &lt;p>Tools for Managing Your Open Source Program : &lt;a href="https://todogroup.org/guides/management-tools)%5B">https://todogroup.org/guides/management-tools)[&lt;/a>&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:9" role="doc-endnote">
+&lt;li id="fn:9">
 &lt;p>Autodesk&amp;rsquo;s OSPO : &lt;a href="https://bit.ly/3mVdi0I">https://bit.ly/3mVdi0I&lt;/a>)&amp;#160;&lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:10" role="doc-endnote">
+&lt;li id="fn:10">
 &lt;p>Capital One&amp;rsquo;s OSPO : &lt;a href="https://bit.ly/3sxbf4e">https://bit.ly/3sxbf4e&lt;/a>&amp;#160;&lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:11" role="doc-endnote">
+&lt;li id="fn:11">
 &lt;p>Comcast&amp;rsquo;s OSPO : &lt;a href="https://bit.ly/2RAIw1A">https://bit.ly/2RAIw1A&lt;/a>&amp;#160;&lt;a href="#fnref:11" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:12" role="doc-endnote">
+&lt;li id="fn:12">
 &lt;p>Facebook&amp;rsquo;s OSPO : &lt;a href="https://bit.ly/3gkwOmg">https://bit.ly/3gkwOmg&lt;/a>&amp;#160;&lt;a href="#fnref:12" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:13" role="doc-endnote">
+&lt;li id="fn:13">
 &lt;p>Microsoft&amp;rsquo;s OSPO : &lt;a href="https://bit.ly/3eajxKm">https://bit.ly/3eajxKm&lt;/a>&amp;#160;&lt;a href="#fnref:13" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:14" role="doc-endnote">
+&lt;li id="fn:14">
 &lt;p>Red Hat : &lt;a href="https://bit.ly/3xfk3iW">https://bit.ly/3xfk3iW&lt;/a>&amp;#160;&lt;a href="#fnref:14" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:15" role="doc-endnote">
+&lt;li id="fn:15">
 &lt;p>Salesforce&amp;rsquo;s OSPO : &lt;a href="https://bit.ly/3akfzgR">https://bit.ly/3akfzgR&lt;/a>&amp;#160;&lt;a href="#fnref:15" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:16" role="doc-endnote">
+&lt;li id="fn:16">
 &lt;p>SAP&amp;rsquo;s OSPO : &lt;a href="https://bit.ly/32sVznS">https://bit.ly/32sVznS&lt;/a>&amp;#160;&lt;a href="#fnref:16" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:17" role="doc-endnote">
+&lt;li id="fn:17">
 &lt;p>Uber&amp;rsquo;s OSPO : &lt;a href="https://bit.ly/2Qcxwar">https://bit.ly/2Qcxwar&lt;/a>&amp;#160;&lt;a href="#fnref:17" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:18" role="doc-endnote">
+&lt;li id="fn:18">
 &lt;p>Yahoo/Verizon Media&amp;rsquo;s OSPO : &lt;a href="https://bit.ly/3mYRmBP">https://bit.ly/3mYRmBP&lt;/a>&amp;#160;&lt;a href="#fnref:18" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:19" role="doc-endnote">
+&lt;li id="fn:19">
 &lt;p>SK텔레콤 OSPO : &lt;a href="https://sktelecom.github.io/about/ospo">https://sktelecom.github.io/about/ospo&lt;/a>&amp;#160;&lt;a href="#fnref:19" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Blog: Elastic License 2.0 그리고 진화하는 오픈소스 라이선스</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210328-elasticlicense/</link><pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210328-elasticlicense/</guid><description>
+&lt;/div></description></item><item><title>Blog: Elastic License 2.0 그리고 진화하는 오픈소스 라이선스</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210328-elasticlicense/</link><pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210328-elasticlicense/</guid><description>
 &lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210328-elasticlicense/featured-scale_hu0adce3c464c6f6e27493d0d0745cd5d4_35813_640x0_resize_catmullrom_3.png" width="640" height="612"/>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This paper was translated by Haksung Jang from the English version available at this &lt;a href="https://www.coss.community/coss/elastic-license-2-0-and-the-evolution-of-open-source-licensing-3jb3">white paper&lt;/a>. The original author, &lt;a href="https://heathermeeker.com/about-me/">Heather Meeker&lt;/a>, has not reviewed this translation.&lt;/p>
@@ -1320,20 +1320,20 @@ It describes a software model where software:
 &lt;p>&lt;strong>&amp;ldquo;The rise of open source IPOs&amp;rdquo;&lt;/strong> &lt;a href="https://coss.media/rise-of-the-open-source-ipo/">https://coss.media/rise-of-the-open-source-ipo/&lt;/a>. This article tracks some of the spectacular business successes of open source companies.&lt;/p>
 &lt;p>&lt;strong>&amp;ldquo;The After Open Source Era Has Started&amp;rdquo;&lt;/strong> &lt;a href="https://monetize.substack.com/p/open-source-eras">https://monetize.substack.com/p/open-source-eras&lt;/a> . This article discusses the sea change represented by companies moving to source available licenses.&lt;/p>
 &lt;p>&lt;strong>US House of Representatives Committee on the Judiciary&amp;rsquo;s report on investigation into competition in digital markets, spearheaded by the Subcommittee on Antitrust, Commercial and Administrative Law.&lt;/strong> &lt;a href="https://www.documentcloud.org/documents/7222836-Investigation-of-Competition-in-Digital-Markets.html">https://www.documentcloud.org/documents/7222836-Investigation-of-Competition-in-Digital-Markets.html&lt;/a>. Note the mention of Elasticsearch on page 326.&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
+&lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
+&lt;li id="fn:1">
 &lt;p>&amp;ldquo;Modification of Final Judgment,&amp;rdquo; August 24, 1982, filed in case 82-0192, United States of America v. Western Electric Company, Incorporated, and American Telephone and Telegraph Company, U.S. District Court for the District of Columbia &lt;a href="http://web.archive.org/web/20060827191354/members.cox.net/hwilkerson/documents/AT&amp;amp;T_Consent_Decree.pdf">web.archive.org/web/20060827191354/members.cox&lt;/a>.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
+&lt;li id="fn:2">
 &lt;p>The Free Software Definition is similar to the Open Source Definition, but shorter and clearer.&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:3" role="doc-endnote">
+&lt;li id="fn:3">
 &lt;p>Open source licenses can contain conditions, such as notices or source code sharing. But these are not limitations that tell you what you cannot do with software, they only require that if you elect to do certain things, you also must do others.&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Blog: 기업별 Github 활동 순위와 라이선스 현황</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210115-opensource-license-used-by-it-companies/</link><pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210115-opensource-license-used-by-it-companies/</guid><description>
+&lt;/div></description></item><item><title>Blog: 기업별 Github 활동 순위와 라이선스 현황</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210115-opensource-license-used-by-it-companies/</link><pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210115-opensource-license-used-by-it-companies/</guid><description>
 &lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2021/20210115-opensource-license-used-by-it-companies/featured-github_hu51c175f0bc73f8141f28734af3e5d00b_391177_640x0_resize_catmullrom_3.png" width="640" height="360"/>
 &lt;h2 id="epam-2020년도-기업별-github-활동-순위와-라이선스-현황-osci">EPAM, 2020년도 기업별 Github 활동 순위와 라이선스 현황 (OSCI)&lt;/h2>
 &lt;p>&lt;img src="featured-github.png" alt="featured-github">&lt;/p>
