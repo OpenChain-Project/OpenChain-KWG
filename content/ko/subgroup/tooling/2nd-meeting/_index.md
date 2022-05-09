@@ -1,7 +1,7 @@
 ---
 title: "2nd Meeting"
 linkTitle: "2nd Meeting"
-weight: 1
+weight: 2
 date: 2022-04-27
 type: docs
 description: >
@@ -31,8 +31,8 @@ description: >
 |----|-----------------|------|------|
 | 1  | FOSSID 리뷰  | 이민정, 카카오 | [pdf](./Session1_kakao.pdf) |
 | 2  | 오픈소스 검증도구 오픈소스화 계획 현황 | 정윤환, 삼성전자 | [pdf](./Session2_Samsung_Electronics.pdf) |
-| 3  | 개방형 오픈소스 컴플라이언스 서비스 플랫폼 개발 및 확산 계획 | 박정숙, ETRI | [pdf](./Session3_ETRI.pdf) | 
-| 4  | 근황 Talk | ALL | - | 
+| 3  | 개방형 오픈소스 컴플라이언스 서비스 플랫폼 개발 및 확산 계획 | 박정숙, ETRI | - |
+| 4  | 근황 Talk | ALL | - |
 
 ## Photo Gallery
 

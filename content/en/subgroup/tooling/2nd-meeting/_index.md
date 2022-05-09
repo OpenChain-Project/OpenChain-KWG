@@ -1,7 +1,7 @@
 ---
 title: "2nd Meeting"
 linkTitle: "2nd Meeting"
-weight: 1
+weight: 2
 date: 2022-04-27
 type: docs
 description: >
@@ -31,8 +31,8 @@ description: >
 |----|-----------------|------|------|
 | 1  | FOSSID Review  | Yally, KoKao | [pdf](./Session1_kakao.pdf) |
 | 2  | Status of Opensource Verification Tool Project | Yoonhwan Jung, Samsung Electronics | [pdf](./Session2_Samsung_Electronics.pdf) |
-| 3  | Development and Promotion Plan for Opensource Compliance Service Platform Project | Park Jeongsook, ETRI | [pdf](./Session3_ETRI.pdf) | 
-| 4  | Small Talk | All | - | 
+| 3  | Development and Promotion Plan for Opensource Compliance Service Platform Project | Park Jeongsook, ETRI | - |
+| 4  | Small Talk | All | - |
 
 ## Photo Gallery
 
