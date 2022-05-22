@@ -15,7 +15,7 @@ description: >
 | No | Agenda | Speaker | Slide |
 |----|-----------------|------|------|
 | 1 | OpenChain Update | Shane Coughlan, Linux Foundation | - |
-| 2 | OpenChain KWG Update | Hakseong Chang, SK Telecom | - |
+| 2 | OpenChain KWG Update | Haksung Jang, SK Telecom | - |
 | - | to be updated | - | - |
 | - | Small Group Meetings (Case Study) | All | - |
 
