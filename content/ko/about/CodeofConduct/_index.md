@@ -69,7 +69,7 @@ description: >
 **결과**: 커뮤니티와의 모든 종류의 공개적 교류를 영구적으로 제재.
 
 ## 참고
-이 행동 강령은 기여자 규약 의 2.1 버전을 변형하였습니다. 그 내용은 https://www.contributor-covenant.org/ko/version/2/1/code-of-conduct.html 에서 확인할 수 있습니다.
+이 행동 강령은 기여자 규약 의 2.1 버전을 변형하였습니다. 그 내용은 https://www.contributor-covenant.org/ko/version/2/1/code_of_conduct/ 에서 확인할 수 있습니다.
 
 커뮤니티 영향 지침은 Mozilla’s code of conduct enforcement ladder 에서 영감을 얻었습니다.
 
