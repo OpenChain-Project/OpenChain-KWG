@@ -134,4 +134,55 @@
 &lt;h2 id="photo-gallery">Photo Gallery&lt;/h2>
 &lt;div >&lt;span class="image fit">
 &lt;img src="220427.png" width="600px">
-&lt;/span>&lt;/div></description></item></channel></rss>
+&lt;/span>&lt;/div></description></item><item><title>Subgroup: 3rd Meeting</title><link>https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling/3rd-meeting/</link><pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling/3rd-meeting/</guid><description>
+&lt;h2 id="schedule">Schedule&lt;/h2>
+&lt;ul>
+&lt;li>목적 : 공유 세미나&lt;/li>
+&lt;li>일시 : 2022. 05. 25(수), 오후 2시~3:30시&lt;/li>
+&lt;li>장소 : 온라인(Webex)&lt;/li>
+&lt;/ul>
+&lt;h2 id="attendees">Attendees&lt;/h2>
+&lt;ul>
+&lt;li>ETRI&lt;/li>
+&lt;li>LG전자&lt;/li>
+&lt;li>NCSOFT&lt;/li>
+&lt;li>LINE&lt;/li>
+&lt;li>SK텔레콤&lt;/li>
+&lt;li>삼성전자&lt;/li>
+&lt;li>카카오&lt;/li>
+&lt;li>카카오뱅크&lt;/li>
+&lt;li>현대모비스&lt;/li>
+&lt;li>현대오토에버&lt;/li>
+&lt;li>현대자동차&lt;/li>
+&lt;/ul>
+&lt;h2 id="agenda">Agenda&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>No&lt;/th>
+&lt;th>Agenda&lt;/th>
+&lt;th>Speaker&lt;/th>
+&lt;th>Slide&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>LINE에서 FOSSLight를 도입하고 사용한 경험을 공유합니다&lt;/td>
+&lt;td>이서연,김동혁, LINE&lt;/td>
+&lt;td>-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>OLIVE CLI 소개&lt;/td>
+&lt;td>Ricky(이기문), 카카오&lt;/td>
+&lt;td>&lt;a href="./Session2_Kakao.pdf">pdf&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>오픈소스 라이선스 사전/실시간 검증도구 데모&lt;/td>
+&lt;td>정윤환,안다래,김태완, ETRI&lt;/td>
+&lt;td>&lt;a href="./Session3_Samsung_Electronics.pdf">pdf&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item></channel></rss>
