@@ -16,8 +16,8 @@ description: >
 |----|-----------------|------|------|
 | 1 | OpenChain Update | Shane Coughlan, Linux Foundation | - |
 | 2 | OpenChain KWG Update | Haksung Jang, SK Telecom | - |
-| - | to be updated | - | - |
-| - | Small Group Meetings (Case Study) | All | - |
+| 3 | Implications of SFC and Vizio's GPL lawsuit | Haksung Jang, SK Telecom | [Link (Korean)](https://devocean.sk.com/opensource/techBoardDetail.do?ID=163978) |
+| 4 | Small Group Meetings (Case Study) | All | - |
 
 ## Video
 ...
