@@ -16,8 +16,8 @@ description: >
 |----|-----------------|------|------|
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
 | 2  | OpenChain KWG Update | 장학성, SK텔레콤 | - |
-| 3  | SFC vs. Vizio 판결 겉핥기 | 장학성, SK텔레콤 | Link |
-| -  | 소그룹 모임 (Case Study) | All | - |
+| 3  | SFC vs. Vizio, GPL 소송 판결 겉핥기 | 장학성, SK텔레콤 | [Link](https://devocean.sk.com/opensource/techBoardDetail.do?ID=163978) |
+| 4  | 소그룹 모임 (Case Study) | All | - |
 
 ## Video
 ...
