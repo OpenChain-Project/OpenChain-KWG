@@ -30,11 +30,12 @@ description: >
 
 ### Session 2. Just small talk
 
+## Sponsor
+![nipa](./nipg-logo.png)
+
+
 ## Video
 ...
 
 ## Minutes
-...
-
-## Sponsor
 ...
