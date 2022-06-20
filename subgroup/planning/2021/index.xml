@@ -1,157 +1,225 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – 2021년 Planning Group</title><link>https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/2021/</link><description>Recent content in 2021년 Planning Group on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/2021/index.xml" rel="self" type="application/rss+xml"/><item><title>Subgroup: 2021 1st Planning Group Meeting</title><link>https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/2021/1st-meeting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/2021/1st-meeting/</guid><description>
-&lt;h2 id="intro">Intro&lt;/h2>
-&lt;ul>
-&lt;li>Schedule: 2021-02-18 (Thu) 15:00~16:00&lt;/li>
-&lt;li>How to join : &lt;a href="https://meet.google.com/vys-oxxd-gmk">https://meet.google.com/vys-oxxd-gmk&lt;/a>&lt;/li>
-&lt;li>Attendees
-&lt;ul>
-&lt;li>SK텔레콤 장학성&lt;/li>
-&lt;li>카카오 황민호&lt;/li>
-&lt;li>라인 이서연&lt;/li>
-&lt;li>NCSOFT 한지호, 한다솜&lt;/li>
-&lt;li>LG전자 김소임&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="agenda">Agenda&lt;/h2>
-&lt;ol>
-&lt;li>근황 토크&lt;/li>
-&lt;li>2021년 KWG Meeting 일정 수립 (안) : (잠정) 매분기 마지막월 2주차 목요일&lt;/li>
-&lt;li>2021년 1분기 KWG Meeting 준비
-&lt;ul>
-&lt;li>일정 : 3/11 (목), 14:00&lt;/li>
-&lt;li>Join : &lt;del>ZOOM&lt;/del> Google Meet&lt;/li>
-&lt;li>Agenda
-&lt;ul>
-&lt;li>Call for Paper (2/19-3/5)&lt;/li>
-&lt;li>(안)
-&lt;ol>
-&lt;li>OpenChain KWG Update / 장학성
-&lt;ul>
-&lt;li>OpenChain 규격 2.1 한국어 Release&lt;/li>
-&lt;li>Self Certification 규격 2.1 한국어 웹사이트 공개&lt;/li>
-&lt;li>ISO 인증 방법 (Self/Indenpendent/Third-Party) 구분 소개&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>(가제) NCSOFT ISO 인증 과정 소개 / 한지호&lt;/li>
-&lt;li>&amp;hellip;&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol></description></item><item><title>Subgroup: 2021 2nd Planning Group Meeting</title><link>https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/2021/2nd-meeting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/2021/2nd-meeting/</guid><description>
-&lt;h2 id="intro">Intro&lt;/h2>
-&lt;ul>
-&lt;li>Schedule: 2021-05-24 (Mon) 16:00~17:00&lt;/li>
-&lt;li>How to join : &lt;a href="https://meet.google.com/cky-svof-mfe">https://meet.google.com/cky-svof-mfe&lt;/a>&lt;/li>
-&lt;li>Attendees
-&lt;ul>
-&lt;li>라인플러스 이서연&lt;/li>
-&lt;li>엔씨소프트 한지호, 한다솜, 김다은&lt;/li>
-&lt;li>카카오 황민호(Robin)&lt;/li>
-&lt;li>LG전자 김소임&lt;/li>
-&lt;li>SK텔레콤 장학성&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="agenda">Agenda&lt;/h2>
-&lt;ol>
-&lt;li>근황 토크&lt;/li>
-&lt;li>2021년 2분기 KWG Meeting 준비
-&lt;ul>
-&lt;li>일정 : 6/22 (화), 15:00&lt;/li>
-&lt;li>Join : Zoom
-&lt;ul>
-&lt;li>녹화를 위해선 Zoom 사용 필요&lt;/li>
-&lt;li>회사 보안 정책 상 Zoom 접속이 어려운 참여자를 위해, 일반 전화 음성 통화로 Zoom 접근 가능한 Zoom 프리미엄 기능 구매 검토&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Agenda
-&lt;ul>
-&lt;li>Call for Paper (5/25~6/11)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Case Study
-&lt;ul>
-&lt;li>Elastic License를 어떻게 보냐? + 최근 이슈로 논의하고자 하는 주제&lt;/li>
-&lt;li>4-5명 소그룹으로. 7분.&lt;/li>
-&lt;li>밤에는 클럽하우스에서 informal talk&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;h2 id="photo-gallery">Photo Gallery&lt;/h2>
-&lt;p>&lt;img src="./pg-20210524.png" alt="photo">&lt;/p></description></item><item><title>Subgroup: 2021 3rd Planning Group Meeting</title><link>https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/2021/3rd-meeting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/2021/3rd-meeting/</guid><description>
-&lt;h2 id="intro">Intro&lt;/h2>
-&lt;ul>
-&lt;li>Schedule: 2021-08-27 (금) 16:00~17:20 / Zoom&lt;/li>
-&lt;li>Attendees
-&lt;ul>
-&lt;li>라인플러스 이서연&lt;/li>
-&lt;li>엔씨소프트 한지호, 한다솜, 김다은&lt;/li>
-&lt;li>카카오 황민호(Robin)&lt;/li>
-&lt;li>SK텔레콤 장학성&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="agenda">Agenda&lt;/h2>
-&lt;ol>
-&lt;li>근황 토크&lt;/li>
-&lt;li>거버넌스 논의 (논의 결과 및 세부 내용은 메일링리스트로 공유)
-&lt;ul>
-&lt;li>3rd party 인증 업체 등 OpenChain Partner사 참여 방안&lt;/li>
-&lt;li>KWG 거버넌스 문서화 필요
-&lt;ul>
-&lt;li>11차 모임 시 draft 공유 / 12차 모임에서 확정&lt;/li>
-&lt;li>2022년 시행 목표&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>2021년 3분기 KWG Meeting
-&lt;ul>
-&lt;li>일정 : 9/30 (목), 14:00~16:00&lt;/li>
-&lt;li>Join : Zoom (라인플러스 제공)&lt;/li>
-&lt;li>Agenda
-&lt;ul>
-&lt;li>Call for Paper (8/30~9/24)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>소그룹 토의 (Case Study)
-&lt;ul>
-&lt;li>3-5명 소그룹으로. 15분.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;h2 id="photo-gallery">Photo Gallery&lt;/h2>
-&lt;p>&lt;img src="./2021-08-27-planning.png" alt="photo">&lt;/p></description></item><item><title>Subgroup: 2021 4th Planning Group Meeting</title><link>https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/2021/4th-meeting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/2021/4th-meeting/</guid><description>
-&lt;h2 id="intro">Intro&lt;/h2>
-&lt;ul>
-&lt;li>Schedule: 2021-11-30 (화) 11:00~12:20 / Google Meet&lt;/li>
-&lt;li>Attendees
-&lt;ul>
-&lt;li>LG전자 김소임&lt;/li>
-&lt;li>라인플러스 이서연&lt;/li>
-&lt;li>엔씨소프트 한지호, 한다솜, 김다은&lt;/li>
-&lt;li>카카오 황민호(Robin)&lt;/li>
-&lt;li>SK텔레콤 장학성&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="agenda">Agenda&lt;/h2>
-&lt;ol>
-&lt;li>근황 토크&lt;/li>
-&lt;li>2021년 4분기 KWG Meeting 준비
-&lt;ul>
-&lt;li>일정 : 12/20 (월), 14:00~16:00&lt;/li>
-&lt;li>Join : 게더타운&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;h2 id="photo-gallery">Photo Gallery&lt;/h2>
-&lt;p>&lt;img src="./gathertest.png" alt="photo">&lt;/p></description></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenChain KWG – 2021년 Planning Group</title>
+    <link>https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/2021/</link>
+    <description>Recent content in 2021년 Planning Group on OpenChain KWG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/2021/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Subgroup: 2021 1st Planning Group Meeting</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/2021/1st-meeting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/2021/1st-meeting/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Schedule: 2021-02-18 (Thu) 15:00~16:00&lt;/li&gt;
+&lt;li&gt;How to join : &lt;a href=&#34;https://meet.google.com/vys-oxxd-gmk&#34;&gt;https://meet.google.com/vys-oxxd-gmk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Attendees
+&lt;ul&gt;
+&lt;li&gt;SK텔레콤 장학성&lt;/li&gt;
+&lt;li&gt;카카오 황민호&lt;/li&gt;
+&lt;li&gt;라인 이서연&lt;/li&gt;
+&lt;li&gt;NCSOFT 한지호, 한다솜&lt;/li&gt;
+&lt;li&gt;LG전자 김소임&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;agenda&#34;&gt;Agenda&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;근황 토크&lt;/li&gt;
+&lt;li&gt;2021년 KWG Meeting 일정 수립 (안) : (잠정) 매분기 마지막월 2주차 목요일&lt;/li&gt;
+&lt;li&gt;2021년 1분기 KWG Meeting 준비
+&lt;ul&gt;
+&lt;li&gt;일정 : 3/11 (목), 14:00&lt;/li&gt;
+&lt;li&gt;Join : &lt;del&gt;ZOOM&lt;/del&gt; Google Meet&lt;/li&gt;
+&lt;li&gt;Agenda
+&lt;ul&gt;
+&lt;li&gt;Call for Paper (2/19-3/5)&lt;/li&gt;
+&lt;li&gt;(안)
+&lt;ol&gt;
+&lt;li&gt;OpenChain KWG Update / 장학성
+&lt;ul&gt;
+&lt;li&gt;OpenChain 규격 2.1 한국어 Release&lt;/li&gt;
+&lt;li&gt;Self Certification 규격 2.1 한국어 웹사이트 공개&lt;/li&gt;
+&lt;li&gt;ISO 인증 방법 (Self/Indenpendent/Third-Party) 구분 소개&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;(가제) NCSOFT ISO 인증 과정 소개 / 한지호&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Subgroup: 2021 2nd Planning Group Meeting</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/2021/2nd-meeting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/2021/2nd-meeting/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Schedule: 2021-05-24 (Mon) 16:00~17:00&lt;/li&gt;
+&lt;li&gt;How to join : &lt;a href=&#34;https://meet.google.com/cky-svof-mfe&#34;&gt;https://meet.google.com/cky-svof-mfe&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Attendees
+&lt;ul&gt;
+&lt;li&gt;라인플러스 이서연&lt;/li&gt;
+&lt;li&gt;엔씨소프트 한지호, 한다솜, 김다은&lt;/li&gt;
+&lt;li&gt;카카오 황민호(Robin)&lt;/li&gt;
+&lt;li&gt;LG전자 김소임&lt;/li&gt;
+&lt;li&gt;SK텔레콤 장학성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;agenda&#34;&gt;Agenda&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;근황 토크&lt;/li&gt;
+&lt;li&gt;2021년 2분기 KWG Meeting 준비
+&lt;ul&gt;
+&lt;li&gt;일정 : 6/22 (화), 15:00&lt;/li&gt;
+&lt;li&gt;Join : Zoom
+&lt;ul&gt;
+&lt;li&gt;녹화를 위해선 Zoom 사용 필요&lt;/li&gt;
+&lt;li&gt;회사 보안 정책 상 Zoom 접속이 어려운 참여자를 위해, 일반 전화 음성 통화로 Zoom 접근 가능한 Zoom 프리미엄 기능 구매 검토&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Agenda
+&lt;ul&gt;
+&lt;li&gt;Call for Paper (5/25~6/11)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Case Study
+&lt;ul&gt;
+&lt;li&gt;Elastic License를 어떻게 보냐? + 최근 이슈로 논의하고자 하는 주제&lt;/li&gt;
+&lt;li&gt;4-5명 소그룹으로. 7분.&lt;/li&gt;
+&lt;li&gt;밤에는 클럽하우스에서 informal talk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;photo-gallery&#34;&gt;Photo Gallery&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./pg-20210524.png&#34; alt=&#34;photo&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Subgroup: 2021 3rd Planning Group Meeting</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/2021/3rd-meeting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/2021/3rd-meeting/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Schedule: 2021-08-27 (금) 16:00~17:20 / Zoom&lt;/li&gt;
+&lt;li&gt;Attendees
+&lt;ul&gt;
+&lt;li&gt;라인플러스 이서연&lt;/li&gt;
+&lt;li&gt;엔씨소프트 한지호, 한다솜, 김다은&lt;/li&gt;
+&lt;li&gt;카카오 황민호(Robin)&lt;/li&gt;
+&lt;li&gt;SK텔레콤 장학성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;agenda&#34;&gt;Agenda&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;근황 토크&lt;/li&gt;
+&lt;li&gt;거버넌스 논의 (논의 결과 및 세부 내용은 메일링리스트로 공유)
+&lt;ul&gt;
+&lt;li&gt;3rd party 인증 업체 등 OpenChain Partner사 참여 방안&lt;/li&gt;
+&lt;li&gt;KWG 거버넌스 문서화 필요
+&lt;ul&gt;
+&lt;li&gt;11차 모임 시 draft 공유 / 12차 모임에서 확정&lt;/li&gt;
+&lt;li&gt;2022년 시행 목표&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2021년 3분기 KWG Meeting
+&lt;ul&gt;
+&lt;li&gt;일정 : 9/30 (목), 14:00~16:00&lt;/li&gt;
+&lt;li&gt;Join : Zoom (라인플러스 제공)&lt;/li&gt;
+&lt;li&gt;Agenda
+&lt;ul&gt;
+&lt;li&gt;Call for Paper (8/30~9/24)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;소그룹 토의 (Case Study)
+&lt;ul&gt;
+&lt;li&gt;3-5명 소그룹으로. 15분.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;photo-gallery&#34;&gt;Photo Gallery&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./2021-08-27-planning.png&#34; alt=&#34;photo&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Subgroup: 2021 4th Planning Group Meeting</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/2021/4th-meeting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/2021/4th-meeting/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Schedule: 2021-11-30 (화) 11:00~12:20 / Google Meet&lt;/li&gt;
+&lt;li&gt;Attendees
+&lt;ul&gt;
+&lt;li&gt;LG전자 김소임&lt;/li&gt;
+&lt;li&gt;라인플러스 이서연&lt;/li&gt;
+&lt;li&gt;엔씨소프트 한지호, 한다솜, 김다은&lt;/li&gt;
+&lt;li&gt;카카오 황민호(Robin)&lt;/li&gt;
+&lt;li&gt;SK텔레콤 장학성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;agenda&#34;&gt;Agenda&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;근황 토크&lt;/li&gt;
+&lt;li&gt;2021년 4분기 KWG Meeting 준비
+&lt;ul&gt;
+&lt;li&gt;일정 : 12/20 (월), 14:00~16:00&lt;/li&gt;
+&lt;li&gt;Join : 게더타운&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;photo-gallery&#34;&gt;Photo Gallery&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./gathertest.png&#34; alt=&#34;photo&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
