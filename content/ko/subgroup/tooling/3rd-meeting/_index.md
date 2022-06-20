@@ -32,4 +32,4 @@ description: >
 |----|-----------------|------|------|
 | 1  | LINE에서 FOSSLight를 도입하고 사용한 경험을 공유합니다 | 이서연,김동혁, LINE | - |
 | 2  | OLIVE CLI 소개 | Ricky(이기문), 카카오 | [pdf](./Session2_Kakao.pdf) |
-| 3  | 오픈소스 라이선스 사전/실시간 검증도구 데모 | 정윤환,안다래,김태완, ETRI | [pdf](./Session3_Samsung_Electronics.pdf) |
+| 3  | 오픈소스 라이선스 사전/실시간 검증도구 데모 | 정윤환,안다래,김태완, 삼성전자 | [pdf](./Session3_Samsung_Electronics.pdf) |
