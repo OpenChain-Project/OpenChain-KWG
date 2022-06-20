@@ -17,7 +17,7 @@ description: >
 | 1 | OpenChain Update | Shane Coughlan, Linux Foundation | - |
 | 2 | OpenChain KWG Update | Haksung Jang, SK Telecom | - |
 | 3 | Implications of SFC and Vizio's GPL lawsuit | Haksung Jang, SK Telecom | [Link (Korean)](https://devocean.sk.com/opensource/techBoardDetail.do?ID=163978) |
-| 3.5 | Quick session : Tips for using FOSSID | Younghwan Kim (Sean), Kakao | |
+| 3.5 | Quick session : Tips for using FOSSID | Younghwan Kim (Sean), Kakao | [pdf](./Fossid%20Ignore%20rule.pdf) |
 | 4 | Small Group Meetings (Case Study) | All | - |
 
 ## Small group meeting: 2 sessions
