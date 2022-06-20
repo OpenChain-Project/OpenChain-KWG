@@ -17,6 +17,7 @@ description: >
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
 | 2  | OpenChain KWG Update | 장학성, SK텔레콤 | - |
 | 3  | SFC vs. Vizio, GPL 소송 판결 겉핥기 | 장학성, SK텔레콤 | [Link](https://devocean.sk.com/opensource/techBoardDetail.do?ID=163978) |
+| 3.5  | Quick session : FOSSID 사용팁 | 김영환(Sean), 카카오 |  |
 | 4  | 소그룹 모임 (Case Study) | All | - |
 
 ## 소그룹 모임 : 2개 세션으로 구성
