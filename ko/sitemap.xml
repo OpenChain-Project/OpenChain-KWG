@@ -122,19 +122,6 @@
                 href="https://openChain-project.github.io/OpenChain-KWG/guide/nipa_openchain/i-openchainproject/"
                 />
   </url><url>
-    <loc>https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/</loc>
-    <lastmod>2021-12-21T12:12:48+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://openChain-project.github.io/OpenChain-KWG/en/subgroup/planning/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/"
-                />
-  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/resource/specification/</loc>
     <lastmod>2021-03-10T22:57:54+09:00</lastmod>
     <xhtml:link
@@ -146,6 +133,19 @@
                 rel="alternate"
                 hreflang="ko"
                 href="https://openChain-project.github.io/OpenChain-KWG/resource/specification/"
+                />
+  </url><url>
+    <loc>https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/</loc>
+    <lastmod>2022-06-21T22:40:27+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://openChain-project.github.io/OpenChain-KWG/en/subgroup/planning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/"
                 />
   </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling/2nd-meeting/</loc>
@@ -402,7 +402,7 @@
                 />
   </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/about/subscribe/</loc>
-    <lastmod>2021-08-20T18:25:31+09:00</lastmod>
+    <lastmod>2022-06-21T22:40:27+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -610,7 +610,7 @@
                 />
   </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/2022/5th-meeting/</loc>
-    <lastmod>2022-02-25T20:52:04+09:00</lastmod>
+    <lastmod>2022-06-21T22:40:27+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -623,7 +623,7 @@
                 />
   </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/about/contact/</loc>
-    <lastmod>2021-02-21T22:42:10+09:00</lastmod>
+    <lastmod>2022-06-21T22:40:27+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -701,7 +701,7 @@
                 />
   </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/2022/</loc>
-    <lastmod>2022-02-25T20:52:04+09:00</lastmod>
+    <lastmod>2022-06-21T22:40:27+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1006,7 +1006,7 @@
                 />
   </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/blog/2022/20220614_sfc_vizio/</loc>
-    <lastmod>2022-06-14T15:52:24+09:00</lastmod>
+    <lastmod>2022-06-21T22:40:27+09:00</lastmod>
   </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/blog/2022/20220403_innersource/</loc>
     <lastmod>2022-04-03T14:54:25+09:00</lastmod>

@@ -119,19 +119,6 @@
                 href="https://openChain-project.github.io/OpenChain-KWG/en/guide/nipa_openchain/i-openchainproject/"
                 />
   </url><url>
-    <loc>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/planning/</loc>
-    <lastmod>2021-12-21T12:12:48+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://openChain-project.github.io/OpenChain-KWG/en/subgroup/planning/"
-                />
-  </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/resource/specification/</loc>
     <lastmod>2021-03-10T22:57:54+09:00</lastmod>
     <xhtml:link
@@ -143,6 +130,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://openChain-project.github.io/OpenChain-KWG/en/resource/specification/"
+                />
+  </url><url>
+    <loc>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/planning/</loc>
+    <lastmod>2022-06-21T22:40:27+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://openChain-project.github.io/OpenChain-KWG/subgroup/planning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://openChain-project.github.io/OpenChain-KWG/en/subgroup/planning/"
                 />
   </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/2nd-meeting/</loc>
@@ -692,7 +692,7 @@
                 />
   </url><url>
     <loc>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/planning/2022/</loc>
-    <lastmod>2022-02-25T20:52:04+09:00</lastmod>
+    <lastmod>2022-06-21T22:40:27+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
