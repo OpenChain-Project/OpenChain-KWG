@@ -16,7 +16,7 @@ OpenChain KWG의 기본 소통 채널은 Mailing List입니다. OpenChain KWG에
 ## MAILING LIST 현황
 
 * 전체 [멤버](../member)에게 메일 보내기 : korea-wg@lists.openchainproject.org
-* 운영진([Planning Group](../../subgroup/planning))에게 메일 보내기 : korea-sg-planning@lists.openchainproject.org
+* 운영진([Steering Committee](../../subgroup/planning))에게 메일 보내기 : korea-sg-planning@lists.openchainproject.org
 * [Tooling Group](../../subgroup/tooling) 멤버에게 메일 보내기 : korea-sg-tooling@lists.openchainproject.org
 
 

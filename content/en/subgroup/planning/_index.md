@@ -1,26 +1,29 @@
 ---
-title: "Planning Group"
+title: "Steering Committee"
 weight: 1
 type: docs
 description: >
-  Planning Group is the management team of OpenChain KWG.
+  The Steering Committee is responsible for overall management of the group.
 ---
 
 ## Purpose
 
-Planning Group, as the management team of OpenChain KWG, performs the following roles.
+The Steering Committee is the organization that manages the OpenChain KWG and performs the following roles:
 
-* OpenChain KWG governance system establishment
-* Schedule of regular meetings and establishment of agenda
-* Key decision making
+* Establishes a governance system such as policy establishment and charter creation of the OpenChain Korea Work Group.
+* Holds regular meetings of the OpenChain Korea Work Group.
+* Carries out the main decision-making of the OpenChain Korea Work Group.
+* Executes the budget of the OpenChain Korea Work Group and transparently discloses management details.
 
 ## Member
 
-* Haksung Jang, SK telecom, Lead
-* Robin Hwang, Kakao
-* Seoyeon Lee, Line+
+* Haksung Jang, SK telecom
+* Seoyeon Lee, Line Plus
 * Soim Kim, LG Electronics
-* Jiho Han, Dasom Han, Daun Kim, NCSOFT
+* Jiho Han, NCSOFT
+* Dasom Han, NCSOFT
+* Violet Hwang, Kakao
+* Yunhwan Jung, Samesung Electronics
 
 ## Contact
 
