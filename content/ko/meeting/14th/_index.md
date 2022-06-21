@@ -15,7 +15,7 @@ description: >
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
-| 2  | OpenChain KWG Update | 장학성, SK텔레콤 | - |
+| 2  | OpenChain KWG Update | 장학성, SK텔레콤 | [pdf](./OpenChain_Korea_update_20220621.pdf) |
 | 3  | SFC vs. Vizio, GPL 소송 판결 겉핥기 | 장학성, SK텔레콤 | [Link](https://devocean.sk.com/opensource/techBoardDetail.do?ID=163978) |
 | 3.5  | Quick session : FOSSID 사용팁 | 김영환(Sean), 카카오 |  [pdf](./Fossid%20Ignore%20rule.pdf) | |
 | 4  | 소그룹 모임 (Case Study) | All | - |
