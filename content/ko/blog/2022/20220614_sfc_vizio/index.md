@@ -53,19 +53,19 @@ resources:
 #### 계약법
 - 일반적으로 계약은 라이센서(오픈소스라면 copyright owner)와 라이선시 사이의 합의
 - 계약법에 의한 책임을 물으려면 우선 양 당사자 사이에 정당하게 계약이 성립되었음이 요구됨
-- 계약(합의)’의 효력으로서 부담하는 의무에 위반한 경우에는 채무불이행으로 인한 계약 책임만 부담
+- 계약(합의)의 효력으로서 부담하는 의무에 위반한 경우에는 채무불이행으로 인한 계약 책임만 부담
   - 저작권 침해처럼 형사처벌이나 금지 청구를 당할 염려는 없으며 약정된 손해배상액을 물어주어야 함
 - 오픈소스 라이선스 하의 저작물을 계약의 성립이 구성된다고 보는 것은 관할권마다 다툼의 여지가 있음
 - 손해배상의 액수나 구제 조치 등에 있어서 제한적
 
 #### 사례
 - GPL software의 저작권자가 저작권 침해 주장으로 소송 제기
-  - 예: Harald Welte, Patrick McHardy)
+  - 예: Harald Welte, Patrick McHardy
 - Jacobsen v. Katzer 판례
     - 라이선스 조건을 부과하고 있는 저작권 라이선스가 준수되지 아니한 경우에는 저작권 침해
     - 라이선스 규정이 조건(condition)이라면 저작권법이 적용되고 합의사항 (covenants)에 불과하다면 계약법 적용
 - 한컴 vs. 아티팩스
-    - 한컴은 계약 서명과 같은 행위 또는 상호 합의 과정이 없었기 때문에 계약 위반이 아니라고 주장하
+    - 한컴은 계약 서명과 같은 행위 또는 상호 합의 과정이 없었기 때문에 계약 위반이 아니라고 주장
     - 법원은 계약 위반에 해당한다고 판결
 
 ### 1-2 미국 연방 법원 (Federal Court)와 주 법원 (State Court)
@@ -130,7 +130,7 @@ SFC는 이러한 Vizio의 주장에 반박하며 이 사건을 다시 주 법원
 - 하지만, 이번 소송은 저작권법이 아닌 계약법 하의 claim
 - 금전적 손해 배상(monetary damages)이 아닌 모든 TV 구매자에게 copyleft license가 요구하는 technical information을 제공할 것을 요구 (소스 코드 공개)
     - “damages”에 대한 보상이 아닌 소스 코드 공개를 요구 : “specific performance”
-- 계약법에서 금전적 손해를 제외한 모든 구제 청구는 특정 이행(specific performance)을 요구하는 것임 (specific performance는 계약법에서는 드문 구제 방법
+- 계약법에서 금전적 손해를 제외한 모든 구제 청구는 특정 이행(specific performance)을 요구하는 것임 (specific performance)는 계약법에서는 드문 구제 방법
 - 일반적으로 원고가 계약을 위반한 피고에게 보상금 대신 specific performance를 요구하는 경우는, 돈으로 대체할 수 없는 것을 원하기 때문
 
 {{< alert type="warning" title="specific performance" >}}
