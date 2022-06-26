@@ -36,7 +36,21 @@ description: >
 
 
 ## Video
-...
+### OpenChain Update
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Xs--TJ5Y6LI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### OpenChain KWG Update
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vpSpZpCGfdM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### SFC vs. Vizio, GPL 소송 판결 겉핥기
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rJw_9SmxPXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Quick session : FOSSID 사용팁
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Dc0d-QPqU8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Minutes
 ...
