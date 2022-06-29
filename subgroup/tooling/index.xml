@@ -1,188 +1,243 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – Tooling Group</title><link>https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling/</link><description>Recent content in Tooling Group on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling/index.xml" rel="self" type="application/rss+xml"/><item><title>Subgroup: 1st Meeting</title><link>https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling/1st-meeting/</link><pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling/1st-meeting/</guid><description>
-&lt;h2 id="schedule">Schedule&lt;/h2>
-&lt;ul>
-&lt;li>목적 : 공유 세미나 및 Tooling SG 활동 방향 논의&lt;/li>
-&lt;li>일시 : 2022. 02. 15(화), 오후 2시~3:30시&lt;/li>
-&lt;li>장소 : 온라인(Webex)&lt;/li>
-&lt;/ul>
-&lt;h2 id="attendees">Attendees&lt;/h2>
-&lt;ul>
-&lt;li>ETRI 류원옥&lt;/li>
-&lt;li>LG전자 김경애, 김소임, 박원재, 방재권, 석지영, 진희두, 최혜성&lt;/li>
-&lt;li>NCSOFT 강병수, 김다은, 한다솜, 한지호&lt;/li>
-&lt;li>SK텔레콤 장학성&lt;/li>
-&lt;li>삼성전자 정윤환&lt;/li>
-&lt;li>카카오 이민정, 이승아, 황은경&lt;/li>
-&lt;li>카카오뱅크 하헌관&lt;/li>
-&lt;li>현대모비스 이영준&lt;/li>
-&lt;li>현대오토에버 류창한&lt;/li>
-&lt;/ul>
-&lt;h2 id="agenda">Agenda&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>No&lt;/th>
-&lt;th>Agenda&lt;/th>
-&lt;th>Speaker&lt;/th>
-&lt;th>Slide&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>SCANOSS 소개&lt;/td>
-&lt;td>박원재, LG전자&lt;/td>
-&lt;td>&lt;a href="./SCANOSS_Introduction.pdf">pdf&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>사전검증/실시간검증 도구 소개&lt;/td>
-&lt;td>정윤환, 삼성전자&lt;/td>
-&lt;td>-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3&lt;/td>
-&lt;td>Tooling 그룹 운영 방향 논의&lt;/td>
-&lt;td>All&lt;/td>
-&lt;td>-&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="discussion-result">Discussion Result&lt;/h2>
-&lt;ul>
-&lt;li>모임 주기
-&lt;ul>
-&lt;li>월 1회, 단, KWG 전체 모임 있는 달은 Skip&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>모임 시간
-&lt;ul>
-&lt;li>평일 오후 2시&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>모임 주제
-&lt;ul>
-&lt;li>Open Source Tool, Commercial Tool, 공동 프로젝트&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>모임 자료 공개 여부
-&lt;ul>
-&lt;li>각 모임 시 발표자 의사에 따름&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="photo-gallery">Photo Gallery&lt;/h2>
-&lt;div >&lt;span class="image fit">
-&lt;img src="220215.jpg" width="45%">
-&lt;/span>&lt;/div></description></item><item><title>Subgroup: 2nd Meeting</title><link>https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling/2nd-meeting/</link><pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling/2nd-meeting/</guid><description>
-&lt;h2 id="schedule">Schedule&lt;/h2>
-&lt;ul>
-&lt;li>목적 : 공유 세미나&lt;/li>
-&lt;li>일시 : 2022. 04. 27(수), 오후 2시~3:30시&lt;/li>
-&lt;li>장소 : 온라인(Webex)&lt;/li>
-&lt;/ul>
-&lt;h2 id="attendees">Attendees&lt;/h2>
-&lt;ul>
-&lt;li>ETRI&lt;/li>
-&lt;li>LG전자&lt;/li>
-&lt;li>LINE&lt;/li>
-&lt;li>SK텔레콤&lt;/li>
-&lt;li>삼성전자&lt;/li>
-&lt;li>카카오&lt;/li>
-&lt;li>카카오뱅크&lt;/li>
-&lt;li>현대모비스&lt;/li>
-&lt;li>현대오토에버&lt;/li>
-&lt;li>현대자동차&lt;/li>
-&lt;/ul>
-&lt;h2 id="agenda">Agenda&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>No&lt;/th>
-&lt;th>Agenda&lt;/th>
-&lt;th>Speaker&lt;/th>
-&lt;th>Slide&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>FOSSID 리뷰&lt;/td>
-&lt;td>이민정, 카카오&lt;/td>
-&lt;td>&lt;a href="./Session1_kakao.pdf">pdf&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>오픈소스 검증도구 오픈소스화 계획 현황&lt;/td>
-&lt;td>정윤환, 삼성전자&lt;/td>
-&lt;td>&lt;a href="./Session2_Samsung_Electronics.pdf">pdf&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3&lt;/td>
-&lt;td>개방형 오픈소스 컴플라이언스 서비스 플랫폼 개발 및 확산 계획&lt;/td>
-&lt;td>박정숙, ETRI&lt;/td>
-&lt;td>-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>4&lt;/td>
-&lt;td>근황 Talk&lt;/td>
-&lt;td>ALL&lt;/td>
-&lt;td>-&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="photo-gallery">Photo Gallery&lt;/h2>
-&lt;div >&lt;span class="image fit">
-&lt;img src="220427.png" width="600px">
-&lt;/span>&lt;/div></description></item><item><title>Subgroup: 3rd Meeting</title><link>https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling/3rd-meeting/</link><pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling/3rd-meeting/</guid><description>
-&lt;h2 id="schedule">Schedule&lt;/h2>
-&lt;ul>
-&lt;li>목적 : 공유 세미나&lt;/li>
-&lt;li>일시 : 2022. 05. 25(수), 오후 2시~3:30시&lt;/li>
-&lt;li>장소 : 온라인(Webex)&lt;/li>
-&lt;/ul>
-&lt;h2 id="attendees">Attendees&lt;/h2>
-&lt;ul>
-&lt;li>ETRI&lt;/li>
-&lt;li>LG전자&lt;/li>
-&lt;li>NCSOFT&lt;/li>
-&lt;li>LINE&lt;/li>
-&lt;li>SK텔레콤&lt;/li>
-&lt;li>삼성전자&lt;/li>
-&lt;li>카카오&lt;/li>
-&lt;li>카카오뱅크&lt;/li>
-&lt;li>현대모비스&lt;/li>
-&lt;li>현대오토에버&lt;/li>
-&lt;li>현대자동차&lt;/li>
-&lt;/ul>
-&lt;h2 id="agenda">Agenda&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>No&lt;/th>
-&lt;th>Agenda&lt;/th>
-&lt;th>Speaker&lt;/th>
-&lt;th>Slide&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>LINE에서 FOSSLight를 도입하고 사용한 경험을 공유합니다&lt;/td>
-&lt;td>이서연,김동혁, LINE&lt;/td>
-&lt;td>-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>OLIVE CLI 소개&lt;/td>
-&lt;td>Ricky(이기문), 카카오&lt;/td>
-&lt;td>&lt;a href="./Session2_Kakao.pdf">pdf&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3&lt;/td>
-&lt;td>오픈소스 라이선스 사전/실시간 검증도구 데모&lt;/td>
-&lt;td>정윤환,안다래,김태완, 삼성전자&lt;/td>
-&lt;td>&lt;a href="./Session3_Samsung_Electronics.pdf">pdf&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table></description></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenChain KWG – Tooling Group</title>
+    <link>https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling/</link>
+    <description>Recent content in Tooling Group on OpenChain KWG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Subgroup: 1st Meeting</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling/1st-meeting/</link>
+      <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling/1st-meeting/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;목적 : 공유 세미나 및 Tooling SG 활동 방향 논의&lt;/li&gt;
+&lt;li&gt;일시 : 2022. 02. 15(화), 오후 2시~3:30시&lt;/li&gt;
+&lt;li&gt;장소 : 온라인(Webex)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;attendees&#34;&gt;Attendees&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ETRI 류원옥&lt;/li&gt;
+&lt;li&gt;LG전자 김경애, 김소임, 박원재, 방재권, 석지영, 진희두, 최혜성&lt;/li&gt;
+&lt;li&gt;NCSOFT 강병수, 김다은, 한다솜, 한지호&lt;/li&gt;
+&lt;li&gt;SK텔레콤 장학성&lt;/li&gt;
+&lt;li&gt;삼성전자 정윤환&lt;/li&gt;
+&lt;li&gt;카카오 이민정, 이승아, 황은경&lt;/li&gt;
+&lt;li&gt;카카오뱅크 하헌관&lt;/li&gt;
+&lt;li&gt;현대모비스 이영준&lt;/li&gt;
+&lt;li&gt;현대오토에버 류창한&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;agenda&#34;&gt;Agenda&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;No&lt;/th&gt;
+&lt;th&gt;Agenda&lt;/th&gt;
+&lt;th&gt;Speaker&lt;/th&gt;
+&lt;th&gt;Slide&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;SCANOSS 소개&lt;/td&gt;
+&lt;td&gt;박원재, LG전자&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;./SCANOSS_Introduction.pdf&#34;&gt;pdf&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;사전검증/실시간검증 도구 소개&lt;/td&gt;
+&lt;td&gt;정윤환, 삼성전자&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Tooling 그룹 운영 방향 논의&lt;/td&gt;
+&lt;td&gt;All&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;discussion-result&#34;&gt;Discussion Result&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;모임 주기
+&lt;ul&gt;
+&lt;li&gt;월 1회, 단, KWG 전체 모임 있는 달은 Skip&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;모임 시간
+&lt;ul&gt;
+&lt;li&gt;평일 오후 2시&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;모임 주제
+&lt;ul&gt;
+&lt;li&gt;Open Source Tool, Commercial Tool, 공동 프로젝트&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;모임 자료 공개 여부
+&lt;ul&gt;
+&lt;li&gt;각 모임 시 발표자 의사에 따름&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;photo-gallery&#34;&gt;Photo Gallery&lt;/h2&gt;
+&lt;div &gt;&lt;span class=&#34;image fit&#34;&gt;
+  &lt;img src=&#34;220215.jpg&#34; width=&#34;45%&#34;&gt;
+&lt;/span&gt;&lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Subgroup: 2nd Meeting</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling/2nd-meeting/</link>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling/2nd-meeting/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;목적 : 공유 세미나&lt;/li&gt;
+&lt;li&gt;일시 : 2022. 04. 27(수), 오후 2시~3:30시&lt;/li&gt;
+&lt;li&gt;장소 : 온라인(Webex)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;attendees&#34;&gt;Attendees&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ETRI&lt;/li&gt;
+&lt;li&gt;LG전자&lt;/li&gt;
+&lt;li&gt;LINE&lt;/li&gt;
+&lt;li&gt;SK텔레콤&lt;/li&gt;
+&lt;li&gt;삼성전자&lt;/li&gt;
+&lt;li&gt;카카오&lt;/li&gt;
+&lt;li&gt;카카오뱅크&lt;/li&gt;
+&lt;li&gt;현대모비스&lt;/li&gt;
+&lt;li&gt;현대오토에버&lt;/li&gt;
+&lt;li&gt;현대자동차&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;agenda&#34;&gt;Agenda&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;No&lt;/th&gt;
+&lt;th&gt;Agenda&lt;/th&gt;
+&lt;th&gt;Speaker&lt;/th&gt;
+&lt;th&gt;Slide&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;FOSSID 리뷰&lt;/td&gt;
+&lt;td&gt;이민정, 카카오&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;./Session1_kakao.pdf&#34;&gt;pdf&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;오픈소스 검증도구 오픈소스화 계획 현황&lt;/td&gt;
+&lt;td&gt;정윤환, 삼성전자&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;./Session2_Samsung_Electronics.pdf&#34;&gt;pdf&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;개방형 오픈소스 컴플라이언스 서비스 플랫폼 개발 및 확산 계획&lt;/td&gt;
+&lt;td&gt;박정숙, ETRI&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;근황 Talk&lt;/td&gt;
+&lt;td&gt;ALL&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;photo-gallery&#34;&gt;Photo Gallery&lt;/h2&gt;
+&lt;div &gt;&lt;span class=&#34;image fit&#34;&gt;
+  &lt;img src=&#34;220427.png&#34; width=&#34;600px&#34;&gt;
+&lt;/span&gt;&lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Subgroup: 3rd Meeting</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling/3rd-meeting/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling/3rd-meeting/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;목적 : 공유 세미나&lt;/li&gt;
+&lt;li&gt;일시 : 2022. 05. 25(수), 오후 2시~3:30시&lt;/li&gt;
+&lt;li&gt;장소 : 온라인(Webex)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;attendees&#34;&gt;Attendees&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ETRI&lt;/li&gt;
+&lt;li&gt;LG전자&lt;/li&gt;
+&lt;li&gt;NCSOFT&lt;/li&gt;
+&lt;li&gt;LINE&lt;/li&gt;
+&lt;li&gt;SK텔레콤&lt;/li&gt;
+&lt;li&gt;삼성전자&lt;/li&gt;
+&lt;li&gt;카카오&lt;/li&gt;
+&lt;li&gt;카카오뱅크&lt;/li&gt;
+&lt;li&gt;현대모비스&lt;/li&gt;
+&lt;li&gt;현대오토에버&lt;/li&gt;
+&lt;li&gt;현대자동차&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;agenda&#34;&gt;Agenda&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;No&lt;/th&gt;
+&lt;th&gt;Agenda&lt;/th&gt;
+&lt;th&gt;Speaker&lt;/th&gt;
+&lt;th&gt;Slide&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;LINE에서 FOSSLight를 도입하고 사용한 경험을 공유합니다&lt;/td&gt;
+&lt;td&gt;이서연,김동혁, LINE&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;OLIVE CLI 소개&lt;/td&gt;
+&lt;td&gt;Ricky(이기문), 카카오&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;./Session2_Kakao.pdf&#34;&gt;pdf&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;오픈소스 라이선스 사전/실시간 검증도구 데모&lt;/td&gt;
+&lt;td&gt;정윤환,안다래,김태완, 삼성전자&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;./Session3_Samsung_Electronics.pdf&#34;&gt;pdf&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
