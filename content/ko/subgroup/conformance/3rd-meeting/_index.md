@@ -2,7 +2,7 @@
 title: "3rd Meeting"
 linkTitle: "3rd Meeting"
 weight: 3
-date: 2022-07-19
+date: 2022-06-29
 type: docs
 description: >
   Conformance 그룹 3차 미팅
