@@ -2,7 +2,7 @@
 title: "2nd Meeting"
 linkTitle: "2nd Meeting"
 weight: 2
-date: 2022-01-18
+date: 2022-03-18
 type: docs
 description: >
   Conformance 그룹 2차 미팅
@@ -11,7 +11,7 @@ description: >
 ## Schedule
 
 * 목적 : ISO/IEC 5230 준수 프로그램 구축 방안 논의 및 공유
-* 일시 : 2021. 1. 18 (화), 오전 11시~12시30분
+* 일시 : 2022. 3. 18 (화), 오전 11시~12시30분
 * 장소 : 온라인(구글밋)
 
 ## Attendees
