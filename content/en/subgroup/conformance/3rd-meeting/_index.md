@@ -11,7 +11,7 @@ description: >
 ## Schedule
 
 * Purpose: To discuss and share ISO/IEC 5230 compliance program establishment plan
-* Date: 2022. 7. 19 (Tuesday), 3pm~
+* Date: 2022. 7. 19 (Tuesday), 9am
 * Venue: Online
 
 ## Main Activities
