@@ -32,7 +32,7 @@ description: >
 |----|-----------------|------|------|
 | 1  | FOSSID Review  | Yally, KaKao | [pdf](./Session1_kakao.pdf) |
 | 2  | Status of Opensource Verification Tool Project | Yoonhwan Jung, Samsung Electronics | [pdf](./Session2_Samsung_Electronics.pdf) |
-| 3  | Development and Promotion Plan for Opensource Compliance Service Platform Project | Park Jeongsook, ETRI | - |
+| 3  | Development and Promotion Plan for Opensource Compliance Service Platform Project | Jeongsook Park, ETRI | - |
 | 4  | Small Talk | All | - |
 
 ## Photo Gallery
