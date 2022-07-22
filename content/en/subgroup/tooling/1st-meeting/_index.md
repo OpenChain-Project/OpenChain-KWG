@@ -28,7 +28,7 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | Introduction on SCANOSS  | 	Park Wonjae, LG Electronics | [pdf](./SCANOSS_Introduction.pdf) |
+| 1  | Introduction on SCANOSS  | Wonjae Park, LG Electronics | [pdf](./SCANOSS_Introduction.pdf) |
 | 2  | Introduction on Pre/Realtime Verification Tool | Yoonhwan Jung, Samsung Electronics | - |
 | 3  | Discussion | All | - | 
 
