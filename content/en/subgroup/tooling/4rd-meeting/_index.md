@@ -17,7 +17,8 @@ description: >
 ## Attendees
 * ETRI
 * Hyundai Autoever
-* KaKao
+* Hyundai Mobis 
+* Kakao
 * LG Electronics
 * Samsung Electronics
 
