@@ -72,7 +72,7 @@ description: >
 #### LG전자의 Open Source 프로젝트로 FOSSLight Scanner와 FOSSLight System 공개 예정
 - FOSSLight Scanner: 오픈소스 분석 스캐너
 - FOSSLight System: 오픈소스 컴플라이언스 통합 시스템
-#### FOSSLignt System 사용 방법
+#### FOSSLight System 사용 방법
 - FOSSLight Scanner로 스캔한 결과를 업로드
 - Indentification, Packaging, Distribution 절차를 거쳐서 오픈소스 라이선스 고지문 발급 및 배포까지 완료
 #### FOSSLight Scanner 
