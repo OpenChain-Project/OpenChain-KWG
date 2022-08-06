@@ -17,3 +17,12 @@ description: >
 ## Main Activities
 * 현대차그룹3사 공동 ISO/IEC 5230 자체 인증 준비 사항 공유 및 이슈/해결방안 논의
 
+## Attendees
+* 현대자동차 백송하, 진소윤, 김대열
+* 현대모비스 전미진
+* 현대오토에버 류창한, 김한주
+* 삼성SDS 채진영
+* SK텔레콤 장학성
+
+## Photo
+![photo](conformance_3rd_meeting.png)
