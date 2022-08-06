@@ -16,3 +16,14 @@ description: >
 
 ## Main Activities
 * Sharing preparations for ISO/IEC 5230 self-certification jointly with the three Hyundai Motor Group companies and discussing issues/solutions
+
+## Attendees
+* Hyundai Motor Company / Song-ha Baek, So-yoon Jin, Dae-yeol Kim
+* Hyundai Mobis / Mi-jin Jeon
+* Hyundai Autoever / Chang-Han Ryu, Han-Joo Kim
+* Samsung SDS / Jinyoung Chae
+* SK Telecom / Haksung Jang
+
+
+## Photo
+![photo](conformance_3rd_meeting.png)
