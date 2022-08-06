@@ -34,6 +34,8 @@ description: >
 ## Sponsor
 ![nipa](./nipg-logo.png)
 
+## Photo Gallery
+![photo](14th-photo.png)
 
 ## Video
 ### OpenChain Update
@@ -133,4 +135,5 @@ description: >
     - 정규식이 지원되지 않음 
     - 확장자 이름만 작성하면 됨 (예) gradle 이라고 적용하면 build.gradle 파일이 제외됨
 
-...
+## Photo
+
