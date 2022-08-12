@@ -1,17 +1,1 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>OpenChain KWG – 4. Policy</title>
-    <link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/4-policy/</link>
-    <description>Recent content in 4. Policy on OpenChain KWG</description>
-    <generator>Hugo -- gohugo.io</generator>
-    
-	  <atom:link href="https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/4-policy/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
-  </channel>
-</rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – 4. Policy</title><link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/4-policy/</link><description>Recent content in 4. Policy on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/4-policy/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
