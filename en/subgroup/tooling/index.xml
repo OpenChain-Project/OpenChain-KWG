@@ -1,239 +1,307 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – Tooling Group</title><link>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/</link><description>Recent content in Tooling Group on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/index.xml" rel="self" type="application/rss+xml"/><item><title>Subgroup: 1st Meeting</title><link>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/1st-meeting/</link><pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/1st-meeting/</guid><description>
-&lt;h2 id="schedule">Schedule&lt;/h2>
-&lt;ul>
-&lt;li>Purpose : Seminar and Discuss the Direction of Tooling SG&lt;/li>
-&lt;li>Date and Time : 2022. 02. 15(Tue.), 2:00 ~ 3:30 PM&lt;/li>
-&lt;li>Venue : Online(Webex)&lt;/li>
-&lt;/ul>
-&lt;h2 id="attendees">Attendees&lt;/h2>
-&lt;ul>
-&lt;li>ETRI&lt;/li>
-&lt;li>Hyundai Autoever&lt;/li>
-&lt;li>Hyundai Mobis&lt;/li>
-&lt;li>KaKao&lt;/li>
-&lt;li>Kakao Bank&lt;/li>
-&lt;li>LG Electronics&lt;/li>
-&lt;li>NCSOFT&lt;/li>
-&lt;li>Samsung Electronics&lt;/li>
-&lt;li>SK Telecom&lt;/li>
-&lt;/ul>
-&lt;h2 id="agenda">Agenda&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>No&lt;/th>
-&lt;th>Agenda&lt;/th>
-&lt;th>Speaker&lt;/th>
-&lt;th>Slide&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Introduction on SCANOSS&lt;/td>
-&lt;td>Wonjae Park, LG Electronics&lt;/td>
-&lt;td>&lt;a href="./SCANOSS_Introduction.pdf">pdf&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>Introduction on Pre/Realtime Verification Tool&lt;/td>
-&lt;td>Yoonhwan Jung, Samsung Electronics&lt;/td>
-&lt;td>-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3&lt;/td>
-&lt;td>Discussion&lt;/td>
-&lt;td>All&lt;/td>
-&lt;td>-&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="discussion-result">Discussion Result&lt;/h2>
-&lt;ul>
-&lt;li>Meeting Frequency
-&lt;ul>
-&lt;li>Once a month. If there is KWG meeting, skip the month&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Starting Time of the Meetings
-&lt;ul>
-&lt;li>Weekday 2 PM&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Topic of the Meetings
-&lt;ul>
-&lt;li>Open Source Tools, Commercial Tools, Co-operated Projects&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Whether to Make the Materials Public
-&lt;ul>
-&lt;li>Up to each presentors&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="photo-gallery">Photo Gallery&lt;/h2>
-&lt;div >&lt;span class="image fit">
-&lt;img src="220215.jpg" width="45%">
-&lt;/span>&lt;/div></description></item><item><title>Subgroup: 2nd Meeting</title><link>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/2nd-meeting/</link><pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/2nd-meeting/</guid><description>
-&lt;h2 id="schedule">Schedule&lt;/h2>
-&lt;ul>
-&lt;li>Purpose : Seminar&lt;/li>
-&lt;li>Date and Time : 2022. 04. 27(Wed.), 2:00 ~ 3:30 PM&lt;/li>
-&lt;li>Venue : Online(Webex)&lt;/li>
-&lt;/ul>
-&lt;h2 id="attendees">Attendees&lt;/h2>
-&lt;ul>
-&lt;li>ETRI&lt;/li>
-&lt;li>Hyundai Autoever&lt;/li>
-&lt;li>Hyundai Mobis&lt;/li>
-&lt;li>Hyundai Motors&lt;/li>
-&lt;li>KaKao&lt;/li>
-&lt;li>Kakao Bank&lt;/li>
-&lt;li>LG Electronics&lt;/li>
-&lt;li>LINE&lt;/li>
-&lt;li>NCSOFT&lt;/li>
-&lt;li>Samsung Electronics&lt;/li>
-&lt;li>SK Telecom&lt;/li>
-&lt;/ul>
-&lt;h2 id="agenda">Agenda&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>No&lt;/th>
-&lt;th>Agenda&lt;/th>
-&lt;th>Speaker&lt;/th>
-&lt;th>Slide&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>FOSSID Review&lt;/td>
-&lt;td>Yally, KaKao&lt;/td>
-&lt;td>&lt;a href="./Session1_kakao.pdf">pdf&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>Status of Opensource Verification Tool Project&lt;/td>
-&lt;td>Yoonhwan Jung, Samsung Electronics&lt;/td>
-&lt;td>&lt;a href="./Session2_Samsung_Electronics.pdf">pdf&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3&lt;/td>
-&lt;td>Development and Promotion Plan for Opensource Compliance Service Platform Project&lt;/td>
-&lt;td>Jeongsook Park, ETRI&lt;/td>
-&lt;td>-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>4&lt;/td>
-&lt;td>Small Talk&lt;/td>
-&lt;td>All&lt;/td>
-&lt;td>-&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="photo-gallery">Photo Gallery&lt;/h2>
-&lt;div >&lt;span class="image fit">
-&lt;img src="220427.png" width="600px">
-&lt;/span>&lt;/div></description></item><item><title>Subgroup: 3rd Meeting</title><link>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/3rd-meeting/</link><pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/3rd-meeting/</guid><description>
-&lt;h2 id="schedule">Schedule&lt;/h2>
-&lt;ul>
-&lt;li>Purpose : Seminar&lt;/li>
-&lt;li>Date and Time : 2022. 05. 25(Wed.), 2:00 ~ 3:30 PM&lt;/li>
-&lt;li>Venue : Online(Webex)&lt;/li>
-&lt;/ul>
-&lt;h2 id="attendees">Attendees&lt;/h2>
-&lt;ul>
-&lt;li>ETRI&lt;/li>
-&lt;li>Hyundai Autoever&lt;/li>
-&lt;li>Hyundai Mobis&lt;/li>
-&lt;li>Hyundai Motors&lt;/li>
-&lt;li>KaKao&lt;/li>
-&lt;li>Kakao Bank&lt;/li>
-&lt;li>LG Electronics&lt;/li>
-&lt;li>LINE&lt;/li>
-&lt;li>NCSOFT&lt;/li>
-&lt;li>Samsung Electronics&lt;/li>
-&lt;li>SK Telecom&lt;/li>
-&lt;/ul>
-&lt;h2 id="agenda">Agenda&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>No&lt;/th>
-&lt;th>Agenda&lt;/th>
-&lt;th>Speaker&lt;/th>
-&lt;th>Slide&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Sharing experience of adopting and using FOSSLight at LINE&lt;/td>
-&lt;td>Seoyeon Lee,Donghyeok Kim, LINE&lt;/td>
-&lt;td>-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>Introducing OLIVE CLI&lt;/td>
-&lt;td>Ricky, Kakao&lt;/td>
-&lt;td>&lt;a href="./Session2_Kakao.pdf">pdf&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3&lt;/td>
-&lt;td>Demo of Preemptive and Real Time Open Source Scanning Tool&lt;/td>
-&lt;td>Yoonhwan Jung,Darae Ahn,Taewan Kim, Samsung Electronics&lt;/td>
-&lt;td>&lt;a href="./Session3_Samsung_Electronics.pdf">pdf&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table></description></item><item><title>Subgroup: 4th Meeting</title><link>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/4rd-meeting/</link><pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/4rd-meeting/</guid><description>
-&lt;h2 id="schedule">Schedule&lt;/h2>
-&lt;ul>
-&lt;li>Purpose : Seminar&lt;/li>
-&lt;li>Date and Time : 2022. 07. 20(Wed.), 2:00 ~ 3:15 PM&lt;/li>
-&lt;li>Venue : Online(Webex)&lt;/li>
-&lt;/ul>
-&lt;h2 id="attendees">Attendees&lt;/h2>
-&lt;ul>
-&lt;li>ETRI&lt;/li>
-&lt;li>Hyundai Autoever&lt;/li>
-&lt;li>Hyundai Mobis&lt;/li>
-&lt;li>Kakao&lt;/li>
-&lt;li>LG Electronics&lt;/li>
-&lt;li>Samsung Electronics&lt;/li>
-&lt;/ul>
-&lt;h2 id="agenda">Agenda&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>No&lt;/th>
-&lt;th>Agenda&lt;/th>
-&lt;th>Speaker&lt;/th>
-&lt;th>Slide&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Introducing Opossum Tool&lt;/td>
-&lt;td>Jiyeong Seok, LG Electronics&lt;/td>
-&lt;td>&lt;a href="./Session1_LGE.pdf">pdf&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>OLA, Open Source Compliance System of ETRI - Adopting Case of FOSSLight&lt;/td>
-&lt;td>Jeongsook Park, ETRI&lt;/td>
-&lt;td>&lt;a href="./Session2_ETRI.pdf">pdf&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3&lt;/td>
-&lt;td>Discussing Subject for Study&lt;/td>
-&lt;td>Wonjae Park, LG Electronics&lt;/td>
-&lt;td>-&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="photo-gallery">Photo Gallery&lt;/h2>
-&lt;div >&lt;span class="image fit">
-&lt;img src="220720.PNG" width="45%">
-&lt;/span>&lt;/div></description></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenChain KWG – Tooling Group</title>
+    <link>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/</link>
+    <description>Recent content in Tooling Group on OpenChain KWG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Subgroup: 1st Meeting</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/1st-meeting/</link>
+      <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/1st-meeting/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Purpose : Seminar and Discuss the Direction of Tooling SG&lt;/li&gt;
+&lt;li&gt;Date and Time : 2022. 02. 15(Tue.), 2:00 ~ 3:30 PM&lt;/li&gt;
+&lt;li&gt;Venue : Online(Webex)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;attendees&#34;&gt;Attendees&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ETRI&lt;/li&gt;
+&lt;li&gt;Hyundai Autoever&lt;/li&gt;
+&lt;li&gt;Hyundai Mobis&lt;/li&gt;
+&lt;li&gt;KaKao&lt;/li&gt;
+&lt;li&gt;Kakao Bank&lt;/li&gt;
+&lt;li&gt;LG Electronics&lt;/li&gt;
+&lt;li&gt;NCSOFT&lt;/li&gt;
+&lt;li&gt;Samsung Electronics&lt;/li&gt;
+&lt;li&gt;SK Telecom&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;agenda&#34;&gt;Agenda&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;No&lt;/th&gt;
+&lt;th&gt;Agenda&lt;/th&gt;
+&lt;th&gt;Speaker&lt;/th&gt;
+&lt;th&gt;Slide&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Introduction on SCANOSS&lt;/td&gt;
+&lt;td&gt;Wonjae Park, LG Electronics&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;./SCANOSS_Introduction.pdf&#34;&gt;pdf&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Introduction on Pre/Realtime Verification Tool&lt;/td&gt;
+&lt;td&gt;Yoonhwan Jung, Samsung Electronics&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Discussion&lt;/td&gt;
+&lt;td&gt;All&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;discussion-result&#34;&gt;Discussion Result&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Meeting Frequency
+&lt;ul&gt;
+&lt;li&gt;Once a month. If there is KWG meeting, skip the month&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Starting Time of the Meetings
+&lt;ul&gt;
+&lt;li&gt;Weekday 2 PM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Topic of the Meetings
+&lt;ul&gt;
+&lt;li&gt;Open Source Tools, Commercial Tools, Co-operated Projects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Whether to Make the Materials Public
+&lt;ul&gt;
+&lt;li&gt;Up to each presentors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;photo-gallery&#34;&gt;Photo Gallery&lt;/h2&gt;
+&lt;div &gt;&lt;span class=&#34;image fit&#34;&gt;
+  &lt;img src=&#34;220215.jpg&#34; width=&#34;45%&#34;&gt;
+&lt;/span&gt;&lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Subgroup: 2nd Meeting</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/2nd-meeting/</link>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/2nd-meeting/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Purpose : Seminar&lt;/li&gt;
+&lt;li&gt;Date and Time : 2022. 04. 27(Wed.), 2:00 ~ 3:30 PM&lt;/li&gt;
+&lt;li&gt;Venue : Online(Webex)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;attendees&#34;&gt;Attendees&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ETRI&lt;/li&gt;
+&lt;li&gt;Hyundai Autoever&lt;/li&gt;
+&lt;li&gt;Hyundai Mobis&lt;/li&gt;
+&lt;li&gt;Hyundai Motors&lt;/li&gt;
+&lt;li&gt;KaKao&lt;/li&gt;
+&lt;li&gt;Kakao Bank&lt;/li&gt;
+&lt;li&gt;LG Electronics&lt;/li&gt;
+&lt;li&gt;LINE&lt;/li&gt;
+&lt;li&gt;NCSOFT&lt;/li&gt;
+&lt;li&gt;Samsung Electronics&lt;/li&gt;
+&lt;li&gt;SK Telecom&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;agenda&#34;&gt;Agenda&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;No&lt;/th&gt;
+&lt;th&gt;Agenda&lt;/th&gt;
+&lt;th&gt;Speaker&lt;/th&gt;
+&lt;th&gt;Slide&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;FOSSID Review&lt;/td&gt;
+&lt;td&gt;Yally, KaKao&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;./Session1_kakao.pdf&#34;&gt;pdf&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Status of Opensource Verification Tool Project&lt;/td&gt;
+&lt;td&gt;Yoonhwan Jung, Samsung Electronics&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;./Session2_Samsung_Electronics.pdf&#34;&gt;pdf&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Development and Promotion Plan for Opensource Compliance Service Platform Project&lt;/td&gt;
+&lt;td&gt;Jeongsook Park, ETRI&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;Small Talk&lt;/td&gt;
+&lt;td&gt;All&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;photo-gallery&#34;&gt;Photo Gallery&lt;/h2&gt;
+&lt;div &gt;&lt;span class=&#34;image fit&#34;&gt;
+  &lt;img src=&#34;220427.png&#34; width=&#34;600px&#34;&gt;
+&lt;/span&gt;&lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Subgroup: 3rd Meeting</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/3rd-meeting/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/3rd-meeting/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Purpose : Seminar&lt;/li&gt;
+&lt;li&gt;Date and Time : 2022. 05. 25(Wed.), 2:00 ~ 3:30 PM&lt;/li&gt;
+&lt;li&gt;Venue : Online(Webex)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;attendees&#34;&gt;Attendees&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ETRI&lt;/li&gt;
+&lt;li&gt;Hyundai Autoever&lt;/li&gt;
+&lt;li&gt;Hyundai Mobis&lt;/li&gt;
+&lt;li&gt;Hyundai Motors&lt;/li&gt;
+&lt;li&gt;KaKao&lt;/li&gt;
+&lt;li&gt;Kakao Bank&lt;/li&gt;
+&lt;li&gt;LG Electronics&lt;/li&gt;
+&lt;li&gt;LINE&lt;/li&gt;
+&lt;li&gt;NCSOFT&lt;/li&gt;
+&lt;li&gt;Samsung Electronics&lt;/li&gt;
+&lt;li&gt;SK Telecom&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;agenda&#34;&gt;Agenda&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;No&lt;/th&gt;
+&lt;th&gt;Agenda&lt;/th&gt;
+&lt;th&gt;Speaker&lt;/th&gt;
+&lt;th&gt;Slide&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Sharing experience of adopting and using FOSSLight at LINE&lt;/td&gt;
+&lt;td&gt;Seoyeon Lee,Donghyeok Kim, LINE&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Introducing OLIVE CLI&lt;/td&gt;
+&lt;td&gt;Ricky, Kakao&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;./Session2_Kakao.pdf&#34;&gt;pdf&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Demo of Preemptive and Real Time Open Source Scanning Tool&lt;/td&gt;
+&lt;td&gt;Yoonhwan Jung,Darae Ahn,Taewan Kim, Samsung Electronics&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;./Session3_Samsung_Electronics.pdf&#34;&gt;pdf&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Subgroup: 4th Meeting</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/4rd-meeting/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/4rd-meeting/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Purpose : Seminar&lt;/li&gt;
+&lt;li&gt;Date and Time : 2022. 07. 20(Wed.), 2:00 ~ 3:15 PM&lt;/li&gt;
+&lt;li&gt;Venue : Online(Webex)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;attendees&#34;&gt;Attendees&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ETRI&lt;/li&gt;
+&lt;li&gt;Hyundai Autoever&lt;/li&gt;
+&lt;li&gt;Hyundai Mobis&lt;/li&gt;
+&lt;li&gt;Kakao&lt;/li&gt;
+&lt;li&gt;LG Electronics&lt;/li&gt;
+&lt;li&gt;Samsung Electronics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;agenda&#34;&gt;Agenda&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;No&lt;/th&gt;
+&lt;th&gt;Agenda&lt;/th&gt;
+&lt;th&gt;Speaker&lt;/th&gt;
+&lt;th&gt;Slide&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Introducing Opossum Tool&lt;/td&gt;
+&lt;td&gt;Jiyeong Seok, LG Electronics&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;./Session1_LGE.pdf&#34;&gt;pdf&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;OLA, Open Source Compliance System of ETRI - Adopting Case of FOSSLight&lt;/td&gt;
+&lt;td&gt;Jeongsook Park, ETRI&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;./Session2_ETRI.pdf&#34;&gt;pdf&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Discussing Subject for Study&lt;/td&gt;
+&lt;td&gt;Wonjae Park, LG Electronics&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;photo-gallery&#34;&gt;Photo Gallery&lt;/h2&gt;
+&lt;div &gt;&lt;span class=&#34;image fit&#34;&gt;
+  &lt;img src=&#34;220720.PNG&#34; width=&#34;45%&#34;&gt;
+&lt;/span&gt;&lt;/div&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

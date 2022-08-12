@@ -1,66 +1,202 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – News</title><link>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/</link><description>Recent content in News on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/en/blog/news/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: SK Telecom is the first Telecommunications Operator to adopt OpenChain ISO 5230</title><link>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210909-sktelecom/</link><pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210909-sktelecom/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210909-sktelecom/featured-sktosrb_hu065adfe0227da2c1679217693f1d110a_422461_640x0_resize_q75_catmullrom.jpeg" width="640" height="414"/>
-&lt;p>SK Telecom, South Korea’s largest wireless carrier, is the first telecommunications operator to adopt OpenChain ISO 5230. This leap forward in governance builds on their long-term mission to lead in technological capabilities in 5G, AI, big data analysis, IoT and quantum cryptography communications as a global ICT leader.&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 910px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/news/20210909-sktelecom/featured_sktlogo_huf164a5478e6b369a40b5565c608d1717_33678_900x600_fit_catmullrom_3.png" width="900" height="355">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-&lt;small class="text-muted">&lt;br/>SK telecom&lt;/small>&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;p>“SK Telecom is preparing for its transition to an AI company, and is strategically using open source to develop advanced technologies in AI, 5G, and cloud technology”, says Kim Yoon, CTO, SK Telecom. “Open source, essential for the early introduction of new technologies and rapid technological change, forms a key part of our strategy. We adopted OpenChain ISO 5230, the International Standard for open source compliance, to ensure effective process management in this space. We are also spreading our know-how around complying with open source international standards to SK affiliates and software supply chains to drive further expansion of open source ecosystems and to deliver even greater social value.”&lt;/p>
-&lt;hr>
-&lt;p>See the original article for more details. : &lt;a href="https://www.openchainproject.org/featured/2021/09/08/sk-telecom">https://www.openchainproject.org/featured/2021/09/08/sk-telecom&lt;/a>&lt;/p></description></item><item><title>Blog: Samsung Electronics Announces OpenChain ISO 5230 Conformance</title><link>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210708-samsung/</link><pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210708-samsung/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210708-samsung/featured-logo_hu3229618b118901ed8942940e48d6a67e_139061_640x0_resize_q75_catmullrom.jpeg" width="640" height="355"/>
-&lt;p>Samsung Electronics announces adoption of OpenChain ISO 5230, the International Standard for open source compliance. They join a growing community of companies in the consumer electronics, automotive, cloud computing and telecommunications field in using this standard to manage supply chains.&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 910px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/news/20210708-samsung/featured-samsunglogo_hu64cfd9a56a6c25f2f95c8cb75d7b14d6_45385_900x600_fit_catmullrom_3.png" width="900" height="138">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-&lt;small class="text-muted">&lt;br/>Samsung&lt;/small>&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;p>“Samsung Electronics has been consistently striving to build an open source compliance process. Our adoption of OpenChain ISO 5230 reflects our ongoing commitment to excellence in our field,” says Daniel Park, Head of Open Source Group. “OpenChain has greatly helped improve the efficiency and confidence of the process. We are pleased to be a part of OpenChain and sincerely look forward to further developing this standard with our peers and suppliers.”&lt;/p>
-&lt;hr>
-&lt;p>See the original article for more details. : &lt;a href="https://www.openchainproject.org/featured/2021/07/07/samsung-electronics-announces-openchain-iso-5230-conformance">https://www.openchainproject.org/featured/2021/07/07/samsung-electronics-announces-openchain-iso-5230-conformance&lt;/a>&lt;/p></description></item><item><title>Blog: 오픈소스SW 관리 툴 ‘포스라이트’ 공개한 LG전자, “글로벌 표준 거듭나겠다”</title><link>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210628-fosslight/</link><pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210628-fosslight/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210628-fosslight/featured-fosslight_hu2c94f93077316e74175207ca4deae911_89690_640x0_resize_q75_catmullrom.jpeg" width="640" height="481"/>
-&lt;p>최근 LG전자가 자체 개발해 2014년부터 운영해오고 있는 오픈소스 SW관리 도구인 ‘포스라이트(FOSSLight ; Free and Open Source Software Light)’를 공개해 주목을 받고 있다.
-&lt;a href="https://fosslight.org/">포스라이트&lt;/a>는 개발자의 SW를 분석해 오픈소스를 사용했는지, 오픈소스 사용 조건이나 의무사항을 준수했는지 등을 검증해 주는 툴이다.&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 440px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/news/20210628-fosslight/featured-fosslight_hu2c94f93077316e74175207ca4deae911_89690_900x600_fit_q75_catmullrom.jpeg" width="430" height="323">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenChain KWG – News</title>
+    <link>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/</link>
+    <description>Recent content in News on OpenChain KWG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://openChain-project.github.io/OpenChain-KWG/en/blog/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Blog: SK Telecom is the first Telecommunications Operator to adopt OpenChain ISO 5230</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210909-sktelecom/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210909-sktelecom/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210909-sktelecom/featured-sktosrb_hu065adfe0227da2c1679217693f1d110a_422461_640x0_resize_q75_catmullrom.jpeg" width="640" height="414"/>]]>
+        
+        &lt;p&gt;SK Telecom, South Korea’s largest wireless carrier, is the first telecommunications operator to adopt OpenChain ISO 5230. This leap forward in governance builds on their long-term mission to lead in technological capabilities in 5G, AI, big data analysis, IoT and quantum cryptography communications as a global ICT leader.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 910px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/news/20210909-sktelecom/featured_sktlogo_huf164a5478e6b369a40b5565c608d1717_33678_900x600_fit_catmullrom_2.png&#34; width=&#34;900&#34; height=&#34;355&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;small class=&#34;text-muted&#34;&gt;&lt;br/&gt;SK telecom&lt;/small&gt;&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;“SK Telecom is preparing for its transition to an AI company, and is strategically using open source to develop advanced technologies in AI, 5G, and cloud technology”, says Kim Yoon, CTO, SK Telecom. “Open source, essential for the early introduction of new technologies and rapid technological change, forms a key part of our strategy. We adopted OpenChain ISO 5230, the International Standard for open source compliance, to ensure effective process management in this space. We are also spreading our know-how around complying with open source international standards to SK affiliates and software supply chains to drive further expansion of open source ecosystems and to deliver even greater social value.”&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;See the original article for more details. : &lt;a href=&#34;https://www.openchainproject.org/featured/2021/09/08/sk-telecom&#34;&gt;https://www.openchainproject.org/featured/2021/09/08/sk-telecom&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Samsung Electronics Announces OpenChain ISO 5230 Conformance</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210708-samsung/</link>
+      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210708-samsung/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210708-samsung/featured-logo_hu3229618b118901ed8942940e48d6a67e_139061_640x0_resize_q75_catmullrom.jpeg" width="640" height="355"/>]]>
+        
+        &lt;p&gt;Samsung Electronics announces adoption of OpenChain ISO 5230, the International Standard for open source compliance. They join a growing community of companies in the consumer electronics, automotive, cloud computing and telecommunications field in using this standard to manage supply chains.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 910px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/news/20210708-samsung/featured-samsunglogo_hu64cfd9a56a6c25f2f95c8cb75d7b14d6_45385_900x600_fit_catmullrom_2.png&#34; width=&#34;900&#34; height=&#34;138&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;small class=&#34;text-muted&#34;&gt;&lt;br/&gt;Samsung&lt;/small&gt;&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;“Samsung Electronics has been consistently striving to build an open source compliance process. Our adoption of OpenChain ISO 5230 reflects our ongoing commitment to excellence in our field,” says Daniel Park, Head of Open Source Group. “OpenChain has greatly helped improve the efficiency and confidence of the process. We are pleased to be a part of OpenChain and sincerely look forward to further developing this standard with our peers and suppliers.”&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;See the original article for more details. : &lt;a href=&#34;https://www.openchainproject.org/featured/2021/07/07/samsung-electronics-announces-openchain-iso-5230-conformance&#34;&gt;https://www.openchainproject.org/featured/2021/07/07/samsung-electronics-announces-openchain-iso-5230-conformance&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: 오픈소스SW 관리 툴 ‘포스라이트’ 공개한 LG전자, “글로벌 표준 거듭나겠다”</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210628-fosslight/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210628-fosslight/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210628-fosslight/featured-fosslight_hu2c94f93077316e74175207ca4deae911_89690_640x0_resize_q75_catmullrom.jpeg" width="640" height="481"/>]]>
+        
+        &lt;p&gt;최근 LG전자가 자체 개발해 2014년부터 운영해오고 있는 오픈소스 SW관리 도구인 ‘포스라이트(FOSSLight ; Free and Open Source Software Light)’를 공개해 주목을 받고 있다.
+&lt;a href=&#34;https://fosslight.org/&#34;&gt;포스라이트&lt;/a&gt;는 개발자의 SW를 분석해 오픈소스를 사용했는지, 오픈소스 사용 조건이나 의무사항을 준수했는지 등을 검증해 주는 툴이다.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 440px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/news/20210628-fosslight/featured-fosslight_hu2c94f93077316e74175207ca4deae911_89690_900x600_fit_q75_catmullrom.jpeg&#34; width=&#34;430&#34; height=&#34;323&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
 LG전자 오픈소스 태스크. 사진 왼쪽부터 방재권 선임, 김소임 선임, 최혜성 책임, 김경애 리더, 석지영 선임, 박원재 선임
-&lt;small class="text-muted">&lt;br/>백지영 기자&lt;/small>&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;p>‘포스라이트’라는 이름으로 외부에 공개하면서 안정성과 기능을 확대하는 한편 글로벌 인지도를 높일 수 있게 할 계획이다. 포스라이트에는 ‘세상에 빛을 밝혀줄 오픈소스’라는 의미가 담겼다.&lt;/p>
-&lt;hr>
-&lt;p>자세한 내용은 기사 원문에서 확인하세요. : &lt;a href="https://n.news.naver.com/article/138/0002105818">https://n.news.naver.com/article/138/0002105818&lt;/a>&lt;/p></description></item><item><title>Blog: 한 달 걸리던 카카오톡 오픈소스 관리, 이틀이면 충분</title><link>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210628-olive/</link><pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210628-olive/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210628-olive/featured-olive_hue5579ffc1af7d7a3463298b978caa6cc_25759_640x0_resize_q75_catmullrom.jpeg" width="640" height="434"/>
-&lt;p>“한 달이 걸리던 카카오톡 오픈소스 관리 작업을 올리브를 사용하면 하루 이틀이면 충분할 것이다.”&lt;/p>
-&lt;p>카카오의 황은경 오픈소스기술파트장은 오픈소스 관리 서비스 &amp;lsquo;올리브&amp;rsquo;의 정식 버전에 대해 소개하며 위와 같이 말했다.&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 643px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/news/20210628-olive/featured-olive_hue5579ffc1af7d7a3463298b978caa6cc_25759_900x600_fit_q75_catmullrom.jpeg" width="633" height="429">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-카카오가 오픈소스 관리플랫폼 '올리브'를 29일 정식 출시한다(이미지=카카오)
-&lt;small class="text-muted">&lt;br/>카카오&lt;/small>&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;a href="https://olive.kakao.com/intro">올리브&lt;/a>는 복잡한 오픈소스 라이선스 관리를 자동화하는 개발 지원 도구다. 자동으로 소프트웨어를 분석해 오픈소스를 사용했는지, 오픈소스 사용 조건이나 의무사항 등을 목록별로 정리해 제공한다.&lt;/p>
-&lt;hr>
-&lt;p>자세한 내용은 기사 원문에서 확인하세요. : &lt;a href="https://zdnet.co.kr/view/?no=20210628143239">https://zdnet.co.kr/view/?no=20210628143239&lt;/a>&lt;/p></description></item><item><title>Blog: SK텔레콤, 개발자와 소통하는 커뮤니티 ‘DEVOCEAN’ 론칭</title><link>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210614-devocean/</link><pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210614-devocean/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210614-devocean/featured-devocean_hu14eeb2e9bb7ca8a2f7495fccba6aca57_92060_640x0_resize_q75_catmullrom.jpeg" width="640" height="398"/>
-&lt;p>SK텔레콤이 스타트업·대학 등 외부 개발자들과 소통하는 오픈 커뮤니티를 론칭하며 SK의 ICT 역량을 적극 공유에 나선다.&lt;/p>
-&lt;p>‘&lt;a href="https://devocean.sk.com/">데보션&lt;/a>’은 개발자들을 위한 영감의 바다(Developer’s Ocean)라는 뜻으로, 개발자들이 지식과 경허을 공유하는 커뮤니티를 ‘바다’에 비유했다.&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 810px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/news/20210614-devocean/featured-devocean_hu14eeb2e9bb7ca8a2f7495fccba6aca57_92060_900x600_fit_q75_catmullrom.jpeg" width="800" height="498">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
+&lt;small class=&#34;text-muted&#34;&gt;&lt;br/&gt;백지영 기자&lt;/small&gt;&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;‘포스라이트’라는 이름으로 외부에 공개하면서 안정성과 기능을 확대하는 한편 글로벌 인지도를 높일 수 있게 할 계획이다. 포스라이트에는 ‘세상에 빛을 밝혀줄 오픈소스’라는 의미가 담겼다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;자세한 내용은 기사 원문에서 확인하세요. : &lt;a href=&#34;https://n.news.naver.com/article/138/0002105818&#34;&gt;https://n.news.naver.com/article/138/0002105818&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: 한 달 걸리던 카카오톡 오픈소스 관리, 이틀이면 충분</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210628-olive/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210628-olive/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210628-olive/featured-olive_hue5579ffc1af7d7a3463298b978caa6cc_25759_640x0_resize_q75_catmullrom.jpeg" width="640" height="434"/>]]>
+        
+        &lt;p&gt;“한 달이 걸리던 카카오톡 오픈소스 관리 작업을 올리브를 사용하면 하루 이틀이면 충분할 것이다.”&lt;/p&gt;
+&lt;p&gt;카카오의 황은경 오픈소스기술파트장은 오픈소스 관리 서비스 &amp;lsquo;올리브&amp;rsquo;의 정식 버전에 대해 소개하며 위와 같이 말했다.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 643px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/news/20210628-olive/featured-olive_hue5579ffc1af7d7a3463298b978caa6cc_25759_900x600_fit_q75_catmullrom.jpeg&#34; width=&#34;633&#34; height=&#34;429&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+카카오가 오픈소스 관리플랫폼 &#39;올리브&#39;를 29일 정식 출시한다(이미지=카카오)
+&lt;small class=&#34;text-muted&#34;&gt;&lt;br/&gt;카카오&lt;/small&gt;&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;https://olive.kakao.com/intro&#34;&gt;올리브&lt;/a&gt;는 복잡한 오픈소스 라이선스 관리를 자동화하는 개발 지원 도구다. 자동으로 소프트웨어를 분석해 오픈소스를 사용했는지, 오픈소스 사용 조건이나 의무사항 등을 목록별로 정리해 제공한다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;자세한 내용은 기사 원문에서 확인하세요. : &lt;a href=&#34;https://zdnet.co.kr/view/?no=20210628143239&#34;&gt;https://zdnet.co.kr/view/?no=20210628143239&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: SK텔레콤, 개발자와 소통하는 커뮤니티 ‘DEVOCEAN’ 론칭</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210614-devocean/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210614-devocean/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210614-devocean/featured-devocean_hu14eeb2e9bb7ca8a2f7495fccba6aca57_92060_640x0_resize_q75_catmullrom.jpeg" width="640" height="398"/>]]>
+        
+        &lt;p&gt;SK텔레콤이 스타트업·대학 등 외부 개발자들과 소통하는 오픈 커뮤니티를 론칭하며 SK의 ICT 역량을 적극 공유에 나선다.&lt;/p&gt;
+&lt;p&gt;‘&lt;a href=&#34;https://devocean.sk.com/&#34;&gt;데보션&lt;/a&gt;’은 개발자들을 위한 영감의 바다(Developer’s Ocean)라는 뜻으로, 개발자들이 지식과 경허을 공유하는 커뮤니티를 ‘바다’에 비유했다.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 810px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/news/20210614-devocean/featured-devocean_hu14eeb2e9bb7ca8a2f7495fccba6aca57_92060_900x600_fit_q75_catmullrom.jpeg&#34; width=&#34;800&#34; height=&#34;498&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
 SK텔레콤은 SK하이닉스, SK㈜C&amp;C, SK브로드밴드, SK플래닛 등 SK ICT패밀리사 개발전문가들과 외부 개발인재간 소통과 기술 공유를 위한 디벨로퍼 릴레이션 채널인 ‘데보션’을 론칭했다. 사진=SK텔레콤
-&lt;small class="text-muted">&lt;br/>SK텔레콤&lt;/small>&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;hr>
-&lt;p>자세한 내용은 기사 원문에서 확인하세요. : &lt;a href="https://www.fntimes.com/html/view.php?ud=202106140855478693645ffc9771_18">https://www.fntimes.com/html/view.php?ud=202106140855478693645ffc9771_18&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;small class=&#34;text-muted&#34;&gt;&lt;br/&gt;SK텔레콤&lt;/small&gt;&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;p&gt;자세한 내용은 기사 원문에서 확인하세요. : &lt;a href=&#34;https://www.fntimes.com/html/view.php?ud=202106140855478693645ffc9771_18&#34;&gt;https://www.fntimes.com/html/view.php?ud=202106140855478693645ffc9771_18&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
