@@ -1,812 +1,1335 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – Open Source Governance for Enterprises based on ISO/IEC 5230</title><link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/</link><description>Recent content in Open Source Governance for Enterprises based on ISO/IEC 5230 on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/index.xml" rel="self" type="application/rss+xml"/><item><title>Guide: 1. What is ISO/IEC 5230</title><link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/1-whatisopenchain/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/1-whatisopenchain/</guid><description>
-&lt;p>You can find everything about ISO/IEC 5230 on the OpenChain project website. : &lt;a href="https://www.openchainproject.org/">https://www.openchainproject.org/&lt;/a>&lt;/p>
-&lt;p>&lt;img src="./openchainproject.png" alt="openchain">&lt;/p></description></item><item><title>Guide: 2. Essential elements</title><link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/2-essential_elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/2-essential_elements/</guid><description>
-&lt;h2 id="essential-elements-of-an-open-source-program">Essential elements of an open source program&lt;/h2>
-&lt;p>You need the following components to build an effective open source governance for your comapny.&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 690px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/2-essential_elements/elements_hu21c61329d347927c32f52e4f71c96c0d_197555_900x600_fit_catmullrom_3.png" width="680" height="600">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-&lt;center>&lt;i>Essential elements of an open source management program : https://www.linuxfoundation.org/wp-content/uploads/OpenSourceComplianceHandbook_2018_2ndEdition_DigitalEdition.pdf&lt;/i>&lt;/center>
-&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;p>Among the above elements, in order to establish an open source governance suitable for all items required by ISO/IEC 5230, a company must have the following five core elements.&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 460px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/2-essential_elements/five_hucffedc8b2cdaf28ebdc8bf05d759da20_40502_450x300_fit_catmullrom_3.png" width="450" height="210">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;ol>
-&lt;li>&lt;a href="../3-teams">Team&lt;/a>&lt;/li>
-&lt;li>&lt;a href="../4-polic">Policy&lt;/a>&lt;/li>
-&lt;li>&lt;a href="../5-process">Process&lt;/a>&lt;/li>
-&lt;li>&lt;a href="../6-tool">Tool&lt;/a>&lt;/li>
-&lt;li>&lt;a href="../7-training">Education&lt;/a>&lt;/li>
-&lt;/ol></description></item><item><title>Guide: 3. Team</title><link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/3-teams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/3-teams/</guid><description>
-&lt;h2 id="identify-the-roles-and-the-corresponding-responsibilities">Identify the roles and the corresponding responsibilities&lt;/h2>
-&lt;p>In order to establish a company&amp;rsquo;s open source governance, it is necessary to appoint a person in charge of it. It may be called an open source program manager, an open source compliance officer, etc., and this person in charge is responsible for the overall open source compliance of the company.&lt;/p>
-&lt;p>A person with the following competencies is suitable for this role.&lt;/p>
-&lt;ul>
-&lt;li>Understanding and development experience in the open source ecosystem&lt;/li>
-&lt;li>Broad understanding of the company&amp;rsquo;s business&lt;/li>
-&lt;li>Passion and communication skills to spread the effective use of open source to members of the company&lt;/li>
-&lt;/ul>
-&lt;p>An open source program manager should be guaranteed to be able to perform the role as full-time as possible.&lt;/p>
-&lt;p>Global ICT companies are working hard to hire such excellent open source program managers, and you can check various job postings at the following site. : &lt;a href="https://github.com/todogroup/job-descriptions">https://github.com/todogroup/job-descriptions&lt;/a>&lt;/p>
-&lt;p>To establish open source governance, you need to define the needs of each role and determine what responsibilities should be assigned. For small businesses, it is possible for an open source program manager to perform all the roles alone. Depending on the size of the enterprise, an infrastructure person who operates open source tools may be required, and the role of a legal person may be required to provide professional legal advice.&lt;/p>
-&lt;p>In general, the following roles are required to establish a corporate open source governance system.&lt;/p>
-&lt;ul>
-&lt;li>Legal&lt;/li>
-&lt;li>Infrastructure&lt;/li>
-&lt;li>Development culture&lt;/li>
-&lt;li>Security&lt;/li>
-&lt;/ul>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 543px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/3-teams/complianceofficer_hub381da67a0457ff40be51fb508361881_139738_900x600_fit_catmullrom_3.png" width="533" height="434">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-&lt;center>&lt;i>Individuals and teams involved in ensuring open source compliance : https://www.linuxfoundation.org/wp-content/uploads/OpenSourceComplianceHandbook_2018_2ndEdition_DigitalEdition.pdf&lt;/i>&lt;/center>
-&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;p>If you do the above, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
-&lt;div class="alert alert-success" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>3.1.2.1 : A documented list of roles with corresponding responsibilities for the different participants in the program.&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">Self Certify&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>1.c : A documented list of roles with corresponding responsibilities for the different participants in the program.&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;h2 id="define-competencies">Define competencies&lt;/h2>
-&lt;p>Once you have defined each role and its responsibilities, you need to figure out what competencies the person performing that role should have. This is because, through this, it is necessary to evaluate whether the person in charge of each role has the capability to perform the role, and if there is not enough, the company must provide the necessary training to him.&lt;/p>
-&lt;p>If you do this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
-&lt;div class="alert alert-success" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>3.1.2.2 A document that identifies the competencies for each role.&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">Self Certify&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>1.d : Have you identified and documented the competencies required for each role?&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;h2 id="identify-person-or-group">Identify person or group&lt;/h2>
-&lt;p>The open source program manager, in consultation with the relevant department, designates and documents the person in charge for each role. Of course, for this, it will be necessary to report the goals and directions for establishing an open source compliance system to the top decision makers such as the CEO to receive the necessary support.&lt;/p>
-&lt;p>Open source-related person and group in charge do not necessarily have to participate in open source work full-time. You can organize a virtual group in the form of an OSRB (Open Source Review Board) and perform the necessary roles.&lt;/p>
-&lt;p>SK Telecom has formed the OSRB to create open source policies and processes, and prepare countermeasures when issues arise.&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 524px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/3-teams/sktosrb_hu8365bdd22430b84fd0ebdf374d904d20_51248_900x600_fit_catmullrom_3.png" width="514" height="424">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-&lt;center>&lt;i>https://sktelecom.github.io/about/osrb/&lt;/i>&lt;/center>
-&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;p>If you do this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
-&lt;div class="alert alert-success" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>3.2.2.1 Document with name of persons, group or function in program role(s) identified.&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">Self Certify&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>2.d : Have you documented the persons, group or function supporting the Program role(s) identified?&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;p>The table below is a sample representative that specifies the roles of open source-related organizations and people in charge, and the required competencies. You can refer to this and form an open source organization and document it.&lt;/p>
-&lt;p>&lt;img src="rolelist.png" alt="">&lt;/p>
-&lt;p>This can also be found on this page. : &lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/1-policy-template/#appendix-1-list-of-persons-in-charge">appendix-1-list-of-persons-in-charge&lt;/a>&lt;/p>
-&lt;p>If you organize in this way, you will now meet the following three requirements among the requirements of ISO/IEC 5230.&lt;/p>
-&lt;p>&lt;img src="spec3121.png" alt="">&lt;/p></description></item><item><title>Guide: 4. Policy</title><link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/4-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/4-policy/</guid><description>
-&lt;h2 id="document-open-source-policy">Document open source policy&lt;/h2>
-&lt;p>A company should establish, document, and disseminate an open source policy composed of principles for a company to properly use open source in software development, service, and distribution.&lt;/p>
-&lt;p>Common open source policies include:&lt;/p>
-&lt;ul>
-&lt;li>Principles for creating and distributing software products and services using open source&lt;/li>
-&lt;li>Principles for contributing to the external open source community&lt;/li>
-&lt;li>Principles for releasing open source&lt;/li>
-&lt;/ul>
-&lt;p>The following pages provide sample open source policy documents that meet the requirements of ISO/IEC 5230. : “&lt;a href="http://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/1-policy-template/">Appendix 1. Open Source Poicy (Sample)&lt;/a>”&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 690px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/4-policy/samplepolicy_huc1fb973fc49aa82e4c58648ec2c1c8ae_274309_900x600_fit_catmullrom_3.png" width="680" height="600">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;p>Each company can use this sample policy by modifying it according to the company&amp;rsquo;s business strategy and environment.&lt;/p>
-&lt;p>If you do this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
-&lt;div class="alert alert-success" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>3.1.1.1 A documented open source policy.&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">Self Certify&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>1.a : Do you have a documented policy that governs open source license compliance of the Supplied Software distribution (e.g., via training, internal wiki, or other practical communication method)?&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;h2 id="define-scope">Define scope&lt;/h2>
-&lt;p>An open source program does not necessarily apply to the entire organization. The scope can be specified differently depending on the characteristics of each organization and product within the company. Different open source programs can be applied to different organizations and products. Similarly, organizations that do not distribute software at all may be excluded from the scope of the open source program. A company can clearly define the scope and limits of the application of an open source program in consideration of the characteristics of the organization and product, and specify it in the open source policy.&lt;/p>
-&lt;p>As a company&amp;rsquo;s organization and its products and services change with the business environment, it may be necessary to determine or modify the scope of the program. A company should prepare a procedure to manage it as in the following example.&lt;/p>
-&lt;ol>
-&lt;li>When starting a new project, the open source program manager determines whether the project falls within the scope of the program&amp;rsquo;s coverage.&lt;/li>
-&lt;li>If it is determined that the project is not included, a proposal to include the project in the scope of application is submitted to the OSRB.&lt;/li>
-&lt;li>If accepted by OSRB, the scope of the open source program will be modified accordingly.&lt;/li>
-&lt;li>Other than that, if the open source program manager determines that it is necessary to review the program scope, it may start the program scope review according to the same process.&lt;/li>
-&lt;/ol>
-&lt;p>The following examples can be included in the open source policy.&lt;/p>
-&lt;pre tabindex="0">&lt;code>2. Scope
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenChain KWG – Open Source Governance for Enterprises based on ISO/IEC 5230</title>
+    <link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/</link>
+    <description>Recent content in Open Source Governance for Enterprises based on ISO/IEC 5230 on OpenChain KWG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Guide: 1. What is ISO/IEC 5230</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/1-whatisopenchain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/1-whatisopenchain/</guid>
+      <description>
+        
+        
+        &lt;p&gt;You can find everything about ISO/IEC 5230 on the OpenChain project website. : &lt;a href=&#34;https://www.openchainproject.org/&#34;&gt;https://www.openchainproject.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./openchainproject.png&#34; alt=&#34;openchain&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Guide: 2. Essential elements</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/2-essential_elements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/2-essential_elements/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;essential-elements-of-an-open-source-program&#34;&gt;Essential elements of an open source program&lt;/h2&gt;
+&lt;p&gt;You need the following components to build an effective open source governance for your comapny.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 690px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/2-essential_elements/elements_hu21c61329d347927c32f52e4f71c96c0d_197555_900x600_fit_catmullrom_3.png&#34; width=&#34;680&#34; height=&#34;600&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;center&gt;&lt;i&gt;Essential elements of an open source management program : https://www.linuxfoundation.org/wp-content/uploads/OpenSourceComplianceHandbook_2018_2ndEdition_DigitalEdition.pdf&lt;/i&gt;&lt;/center&gt;
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;Among the above elements, in order to establish an open source governance suitable for all items required by ISO/IEC 5230, a company must have the following five core elements.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 460px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/2-essential_elements/five_hucffedc8b2cdaf28ebdc8bf05d759da20_40502_450x300_fit_catmullrom_3.png&#34; width=&#34;450&#34; height=&#34;210&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;../3-teams&#34;&gt;Team&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../4-polic&#34;&gt;Policy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../5-process&#34;&gt;Process&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../6-tool&#34;&gt;Tool&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../7-training&#34;&gt;Education&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Guide: 3. Team</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/3-teams/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/3-teams/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;identify-the-roles-and-the-corresponding-responsibilities&#34;&gt;Identify the roles and the corresponding responsibilities&lt;/h2&gt;
+&lt;p&gt;In order to establish a company&amp;rsquo;s open source governance, it is necessary to appoint a person in charge of it. It may be called an open source program manager, an open source compliance officer, etc., and this person in charge is responsible for the overall open source compliance of the company.&lt;/p&gt;
+&lt;p&gt;A person with the following competencies is suitable for this role.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Understanding and development experience in the open source ecosystem&lt;/li&gt;
+&lt;li&gt;Broad understanding of the company&amp;rsquo;s business&lt;/li&gt;
+&lt;li&gt;Passion and communication skills to spread the effective use of open source to members of the company&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;An open source program manager should be guaranteed to be able to perform the role as full-time as possible.&lt;/p&gt;
+&lt;p&gt;Global ICT companies are working hard to hire such excellent open source program managers, and you can check various job postings at the following site. : &lt;a href=&#34;https://github.com/todogroup/job-descriptions&#34;&gt;https://github.com/todogroup/job-descriptions&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To establish open source governance, you need to define the needs of each role and determine what responsibilities should be assigned. For small businesses, it is possible for an open source program manager to perform all the roles alone. Depending on the size of the enterprise, an infrastructure person who operates open source tools may be required, and the role of a legal person may be required to provide professional legal advice.&lt;/p&gt;
+&lt;p&gt;In general, the following roles are required to establish a corporate open source governance system.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Legal&lt;/li&gt;
+&lt;li&gt;Infrastructure&lt;/li&gt;
+&lt;li&gt;Development culture&lt;/li&gt;
+&lt;li&gt;Security&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 543px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/3-teams/complianceofficer_hub381da67a0457ff40be51fb508361881_139738_900x600_fit_catmullrom_3.png&#34; width=&#34;533&#34; height=&#34;434&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;center&gt;&lt;i&gt;Individuals and teams involved in ensuring open source compliance : https://www.linuxfoundation.org/wp-content/uploads/OpenSourceComplianceHandbook_2018_2ndEdition_DigitalEdition.pdf&lt;/i&gt;&lt;/center&gt;
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;If you do the above, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;ISO/IEC 5230&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;3.1.2.1 : A documented list of roles with corresponding responsibilities for the different participants in the program.&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Self Certify&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;1.c : A documented list of roles with corresponding responsibilities for the different participants in the program.&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;define-competencies&#34;&gt;Define competencies&lt;/h2&gt;
+&lt;p&gt;Once you have defined each role and its responsibilities, you need to figure out what competencies the person performing that role should have. This is because, through this, it is necessary to evaluate whether the person in charge of each role has the capability to perform the role, and if there is not enough, the company must provide the necessary training to him.&lt;/p&gt;
+&lt;p&gt;If you do this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;ISO/IEC 5230&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;3.1.2.2 A document that identifies the competencies for each role.&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Self Certify&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;1.d : Have you identified and documented the competencies required for each role?&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;identify-person-or-group&#34;&gt;Identify person or group&lt;/h2&gt;
+&lt;p&gt;The open source program manager, in consultation with the relevant department, designates and documents the person in charge for each role. Of course, for this, it will be necessary to report the goals and directions for establishing an open source compliance system to the top decision makers such as the CEO to receive the necessary support.&lt;/p&gt;
+&lt;p&gt;Open source-related person and group in charge do not necessarily have to participate in open source work full-time. You can organize a virtual group in the form of an OSRB (Open Source Review Board) and perform the necessary roles.&lt;/p&gt;
+&lt;p&gt;SK Telecom has formed the OSRB to create open source policies and processes, and prepare countermeasures when issues arise.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 524px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/3-teams/sktosrb_hu8365bdd22430b84fd0ebdf374d904d20_51248_900x600_fit_catmullrom_3.png&#34; width=&#34;514&#34; height=&#34;424&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;center&gt;&lt;i&gt;https://sktelecom.github.io/about/osrb/&lt;/i&gt;&lt;/center&gt;
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;If you do this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;ISO/IEC 5230&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;3.2.2.1 Document with name of persons, group or function in program role(s) identified.&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Self Certify&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;2.d : Have you documented the persons, group or function supporting the Program role(s) identified?&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;The table below is a sample representative that specifies the roles of open source-related organizations and people in charge, and the required competencies. You can refer to this and form an open source organization and document it.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;rolelist.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This can also be found on this page. : &lt;a href=&#34;https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/1-policy-template/#appendix-1-list-of-persons-in-charge&#34;&gt;appendix-1-list-of-persons-in-charge&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you organize in this way, you will now meet the following three requirements among the requirements of ISO/IEC 5230.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;spec3121.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Guide: 4. Policy</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/4-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/4-policy/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;document-open-source-policy&#34;&gt;Document open source policy&lt;/h2&gt;
+&lt;p&gt;A company should establish, document, and disseminate an open source policy composed of principles for a company to properly use open source in software development, service, and distribution.&lt;/p&gt;
+&lt;p&gt;Common open source policies include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Principles for creating and distributing software products and services using open source&lt;/li&gt;
+&lt;li&gt;Principles for contributing to the external open source community&lt;/li&gt;
+&lt;li&gt;Principles for releasing open source&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following pages provide sample open source policy documents that meet the requirements of ISO/IEC 5230. : “&lt;a href=&#34;http://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/1-policy-template/&#34;&gt;Appendix 1. Open Source Poicy (Sample)&lt;/a&gt;”&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 690px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/4-policy/samplepolicy_huc1fb973fc49aa82e4c58648ec2c1c8ae_274309_900x600_fit_catmullrom_3.png&#34; width=&#34;680&#34; height=&#34;600&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;Each company can use this sample policy by modifying it according to the company&amp;rsquo;s business strategy and environment.&lt;/p&gt;
+&lt;p&gt;If you do this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;ISO/IEC 5230&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;3.1.1.1 A documented open source policy.&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Self Certify&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;1.a : Do you have a documented policy that governs open source license compliance of the Supplied Software distribution (e.g., via training, internal wiki, or other practical communication method)?&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;define-scope&#34;&gt;Define scope&lt;/h2&gt;
+&lt;p&gt;An open source program does not necessarily apply to the entire organization. The scope can be specified differently depending on the characteristics of each organization and product within the company. Different open source programs can be applied to different organizations and products. Similarly, organizations that do not distribute software at all may be excluded from the scope of the open source program. A company can clearly define the scope and limits of the application of an open source program in consideration of the characteristics of the organization and product, and specify it in the open source policy.&lt;/p&gt;
+&lt;p&gt;As a company&amp;rsquo;s organization and its products and services change with the business environment, it may be necessary to determine or modify the scope of the program. A company should prepare a procedure to manage it as in the following example.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;When starting a new project, the open source program manager determines whether the project falls within the scope of the program&amp;rsquo;s coverage.&lt;/li&gt;
+&lt;li&gt;If it is determined that the project is not included, a proposal to include the project in the scope of application is submitted to the OSRB.&lt;/li&gt;
+&lt;li&gt;If accepted by OSRB, the scope of the open source program will be modified accordingly.&lt;/li&gt;
+&lt;li&gt;Other than that, if the open source program manager determines that it is necessary to review the program scope, it may start the program scope review according to the same process.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following examples can be included in the open source policy.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;2. Scope
 This policy applies to the following three parts:
-1. Applies to [all products provided or distributed by the company externally].
-However, the open source only for internal use is not included in the scope of
-this policy.
+
+1. Applies to [all products provided or distributed by the company externally]. 
+   However, the open source only for internal use is not included in the scope of 
+   this policy.
 2. Applied when contributing to external open source projects.
 3. Applied when releasing internal code as open source.
-The scope can be changed according to the business environment of the company,
+
+The scope can be changed according to the business environment of the company, 
 and the procedure for this is as follows.
-1. If the open source program manager determines that it is necessary to change
-the scope of policy according to changes in the company&amp;#39;s business environment,
-such as a new business or reorganization, submit a proposal for this to the OSRB.
+
+1. If the open source program manager determines that it is necessary to change 
+   the scope of policy according to changes in the company&amp;#39;s business environment, 
+   such as a new business or reorganization, submit a proposal for this to the OSRB.
 2. OSRB approves proposals for scope changes at the appropriate level.
 3. OSRB modifies the open source policy to change the scope of the policy.
-&lt;/code>&lt;/pre>&lt;p>If you do this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
-&lt;div class="alert alert-success" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>3.1.4.1 A written statement that clearly defines the scope and limits of the program.&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">Self Certify&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>1.g : Do you have a process for determining the scope of your Program?&lt;/li>
-&lt;li>1.h : Do you have a written statement that clearly defines the scope and limits of the Program?&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;h2 id="respond-to-external-inquiries">Respond to external inquiries&lt;/h2>
-&lt;p>For products or services developed using open source, customers and open source copyright holders may raise open source related inquiries, requests and claims to companies. The main contents of external inquiries and requests are as follows.&lt;/p>
-&lt;ul>
-&lt;li>Ask if open source is used for certain products and services&lt;/li>
-&lt;li>Request to provide source code under the GPL, LGPL license mentioned in the Written Offer&lt;/li>
-&lt;li>A request for a description of the open source found in the product and disclosure of the source code, although not specified in the open source notice&lt;/li>
-&lt;li>Request to provide missing files and build methods in the source code published under GPL, LGPL, etc.&lt;/li>
-&lt;li>Request for copyright notice&lt;/li>
-&lt;/ul>
-&lt;p>You should designate a contact person to handle these external inquiries. This is usually done by an open source program manager.&lt;/p>
-&lt;p>In addition, even if an external open source developer wants to contact a company representative to discuss an issue related to a specific company&amp;rsquo;s open source compliance, they cannot find a way to contact them and eventually file a legal claim. In order to prevent this, you must always disclose publicly how to contact the company from outside to make inquiries and requests related to open source.&lt;/p>
-&lt;p>To disclose your contact information so that external open source related inquiries can be received, (1) publicly disclosed the email address of the company&amp;rsquo;s open source program manager, or (2) the Linux Foundation&amp;rsquo;s [Open Compliance Directory] (&lt;a href="https://compliance.linuxfoundation">https://compliance.linuxfoundation&lt;/a>. org/references/open-compliance-directory/).&lt;/p>
-&lt;p>It is also a good idea to disclose the representative email address of the company open source program office in the open source notice that accompanies the product and service.&lt;/p>
-&lt;p>&lt;img src="ossnotice.png" alt="">&lt;/p>
-&lt;p>These contents can be included in the open source policy as in the example below.&lt;/p>
-&lt;pre tabindex="0">&lt;code>Respond to external inquiries
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If you do this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;ISO/IEC 5230&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;3.1.4.1 A written statement that clearly defines the scope and limits of the program.&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Self Certify&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;1.g : Do you have a process for determining the scope of your Program?&lt;/li&gt;
+&lt;li&gt;1.h : Do you have a written statement that clearly defines the scope and limits of the Program?&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;respond-to-external-inquiries&#34;&gt;Respond to external inquiries&lt;/h2&gt;
+&lt;p&gt;For products or services developed using open source, customers and open source copyright holders may raise open source related inquiries, requests and claims to companies. The main contents of external inquiries and requests are as follows.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ask if open source is used for certain products and services&lt;/li&gt;
+&lt;li&gt;Request to provide source code under the GPL, LGPL license mentioned in the Written Offer&lt;/li&gt;
+&lt;li&gt;A request for a description of the open source found in the product and disclosure of the source code, although not specified in the open source notice&lt;/li&gt;
+&lt;li&gt;Request to provide missing files and build methods in the source code published under GPL, LGPL, etc.&lt;/li&gt;
+&lt;li&gt;Request for copyright notice&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You should designate a contact person to handle these external inquiries. This is usually done by an open source program manager.&lt;/p&gt;
+&lt;p&gt;In addition, even if an external open source developer wants to contact a company representative to discuss an issue related to a specific company&amp;rsquo;s open source compliance, they cannot find a way to contact them and eventually file a legal claim. In order to prevent this, you must always disclose publicly how to contact the company from outside to make inquiries and requests related to open source.&lt;/p&gt;
+&lt;p&gt;To disclose your contact information so that external open source related inquiries can be received, (1) publicly disclosed the email address of the company&amp;rsquo;s open source program manager, or (2) the Linux Foundation&amp;rsquo;s [Open Compliance Directory] (&lt;a href=&#34;https://compliance.linuxfoundation&#34;&gt;https://compliance.linuxfoundation&lt;/a&gt;. org/references/open-compliance-directory/).&lt;/p&gt;
+&lt;p&gt;It is also a good idea to disclose the representative email address of the company open source program office in the open source notice that accompanies the product and service.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;ossnotice.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;These contents can be included in the open source policy as in the example below.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Respond to external inquiries
+
 (1) Responsibility for responding to external inquiries
-The open source program manager is responsible for responding
-to inquiries and requests for open source compliance from
+The open source program manager is responsible for responding 
+to inquiries and requests for open source compliance from 
 outside.&amp;lt;sub&amp;gt;(3.2.1.2)&amp;lt;/sub&amp;gt;
-* The open source program manager may assign all or part of
-the handling of inquiries to appropriate personnel within the
-company. If necessary, contact the legal team to deal with it.
-* Anyone who receives an inquiry about open source compliance
-from outside will notify the open source program manager so
-that a prompt response can be made.
+
+* The open source program manager may assign all or part of 
+  the handling of inquiries to appropriate personnel within the 
+  company. If necessary, contact the legal team to deal with it.
+* Anyone who receives an inquiry about open source compliance 
+  from outside will notify the open source program manager so 
+  that a prompt response can be made.
+
 (2) Disclosure of contact information
-The open source program manager publicly provides the contact
-information of the person in charge so that external inquiries
-and requests related to open source can be submitted to the
+The open source program manager publicly provides the contact 
+information of the person in charge so that external inquiries 
+and requests related to open source can be submitted to the 
 company.&amp;lt;sub&amp;gt;(3.2.1.1)&amp;lt;/sub&amp;gt;
-* Include the email address of the person in charge in the open
-source notice.
-* Register your contact in the Linux Foundation&amp;#39;s Open Compliance
-Directory.
+
+* Include the email address of the person in charge in the open 
+  source notice.
+* Register your contact in the Linux Foundation&amp;#39;s Open Compliance 
+  Directory.
+
 (3) External Inquiry Response Procedure
-If you respond quickly and accurately to open source compliance
-inquiries from outside, you can significantly reduce the risk of
-going to a lawsuit. To this end, in order to respond to external
-open source compliance inquiries, you should follow the external
-inquiry response process defined in the company&amp;#39;s open source
+If you respond quickly and accurately to open source compliance 
+inquiries from outside, you can significantly reduce the risk of 
+going to a lawsuit. To this end, in order to respond to external 
+open source compliance inquiries, you should follow the external 
+inquiry response process defined in the company&amp;#39;s open source 
 compliance process.&amp;lt;sub&amp;gt;(3.2.1.2)&amp;lt;/sub&amp;gt;
-&lt;/code>&lt;/pre>&lt;p>If you do this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
-&lt;div class="alert alert-success" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>3.2.1.1 Publicly visible method that allows any third party to make an open source license compliance inquiry (e.g., via a published contact email address, or the Linux Foundation&amp;rsquo;s Open Compliance Directory).&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">Self Certify&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>2.a : Do you have a documented procedure that assigns responsibility for receiving and responding to open source compliance inquiries?&lt;/b>&lt;/li>
-&lt;li>&lt;b>2.b : Is the Open Source Liaison function publicly identified (e.g. via an email address and/or the Linux Foundation&amp;rsquo;s Open Compliance Directory)?&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;h2 id="provide-staff-and-funding">Provide staff and funding&lt;/h2>
-&lt;p>You must provide sufficient resources for open source programs to function properly. Staff for each role in the program should be appropriately assigned, and sufficient funding and working hours should be ensured. If there is a shortage, there should be a procedure to make up for it. The following example sentences can be added to the open source policy document.&lt;/p>
-&lt;pre tabindex="0">&lt;code>4. Roles, Responsibilities and Competencies
-The head of the organization responsible for each role designates
-a person in charge within the organization, and allocates appropriate
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If you do this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;ISO/IEC 5230&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;3.2.1.1 Publicly visible method that allows any third party to make an open source license compliance inquiry (e.g., via a published contact email address, or the Linux Foundation&amp;rsquo;s Open Compliance Directory).&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Self Certify&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;2.a : Do you have a documented procedure that assigns responsibility for receiving and responding to open source compliance inquiries?&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;2.b : Is the Open Source Liaison function publicly identified (e.g. via an email address and/or the Linux Foundation&amp;rsquo;s Open Compliance Directory)?&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;provide-staff-and-funding&#34;&gt;Provide staff and funding&lt;/h2&gt;
+&lt;p&gt;You must provide sufficient resources for open source programs to function properly. Staff for each role in the program should be appropriately assigned, and sufficient funding and working hours should be ensured. If there is a shortage, there should be a procedure to make up for it. The following example sentences can be added to the open source policy document.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;4. Roles, Responsibilities and Competencies
+
+The head of the organization responsible for each role designates 
+a person in charge within the organization, and allocates appropriate 
 time and budget for the person in charge to fulfill the role.
-* The person in charge of each role should raise an issue with
-the open source program manager if appropriate support is not
-provided while performing his/her role.
-* The open source program manager discusses problem solving with
-the head of the organization. If not properly resolved, the open
-source program manager may request the OSRB to resolve the issue.
-* OSRB shares the problem with the head of the higher level organization
-and asks for a solution.
-&lt;/code>&lt;/pre>&lt;p>If you do this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
-&lt;div class="alert alert-success" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>3.2.2.2 The identified program roles have been properly staffed and adequate funding provided.&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">Self Certify&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>2.e : Have the identified Program roles been properly staffed and has adequate funding provided?&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;h2 id="identify-legal-expertise">Identify Legal Expertise&lt;/h2>
-&lt;p>You should provide a way for the person in charge of each role to seek legal advice when a legal review is needed to resolve an open source compliance issue.&lt;/p>
-&lt;p>The legal team within the company provides legal advice first, and if the issue is complex, you can seek advice from an external law firm with an open source lawyer. An example of an open source policy for this is as follows.&lt;/p>
-&lt;pre tabindex="0">&lt;code>4. Roles, Responsibilities and Competencies
+ * The person in charge of each role should raise an issue with 
+   the open source program manager if appropriate support is not 
+   provided while performing his/her role.
+ * The open source program manager discusses problem solving with 
+   the head of the organization. If not properly resolved, the open 
+   source program manager may request the OSRB to resolve the issue.
+ * OSRB shares the problem with the head of the higher level organization 
+   and asks for a solution.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If you do this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;ISO/IEC 5230&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;3.2.2.2 The identified program roles have been properly staffed and adequate funding provided.&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Self Certify&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;2.e : Have the identified Program roles been properly staffed and has adequate funding provided?&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;identify-legal-expertise&#34;&gt;Identify Legal Expertise&lt;/h2&gt;
+&lt;p&gt;You should provide a way for the person in charge of each role to seek legal advice when a legal review is needed to resolve an open source compliance issue.&lt;/p&gt;
+&lt;p&gt;The legal team within the company provides legal advice first, and if the issue is complex, you can seek advice from an external law firm with an open source lawyer. An example of an open source policy for this is as follows.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;4. Roles, Responsibilities and Competencies
+
 (2) Open Source Program Manager
 * Provides a way to request legal advice on open source.
-&lt;/code>&lt;/pre>&lt;p>If you do this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
-&lt;div class="alert alert-success" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>3.2.2.3 Identification of legal expertise available to address open source license compliance matters which could be internal or external.&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">Self Certify&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>2.f : Is legal expertise pertaining to internal and external open source compliance identified?&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;p>For reference, the OpenChain project provides a list of global law firms that provide open source-related advice through partner programs. : &lt;a href="https://www.openchainproject.org/partners">https://www.openchainproject.org/partners&lt;/a>&lt;/p>
-&lt;h2 id="assigns-internal-responsibilities">Assigns internal responsibilities&lt;/h2>
-&lt;p>There should be a process for assigning internal responsibilities for open source compliance. This is the role of an open source program manager. The open source program manager must identify the issues and assign them appropriately to the person in charge of each role. To do this, you should include this in your open source policy document as follows:&lt;/p>
-&lt;pre tabindex="0">&lt;code>4. Roles, Responsibilities and Competencies
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If you do this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;ISO/IEC 5230&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;3.2.2.3 Identification of legal expertise available to address open source license compliance matters which could be internal or external.&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Self Certify&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;2.f : Is legal expertise pertaining to internal and external open source compliance identified?&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;For reference, the OpenChain project provides a list of global law firms that provide open source-related advice through partner programs. : &lt;a href=&#34;https://www.openchainproject.org/partners&#34;&gt;https://www.openchainproject.org/partners&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;assigns-internal-responsibilities&#34;&gt;Assigns internal responsibilities&lt;/h2&gt;
+&lt;p&gt;There should be a process for assigning internal responsibilities for open source compliance. This is the role of an open source program manager. The open source program manager must identify the issues and assign them appropriately to the person in charge of each role. To do this, you should include this in your open source policy document as follows:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;4. Roles, Responsibilities and Competencies
+
 (2) Open Source Program Manager
-The open source program manager is responsible for the overall
-responsibility for the company&amp;#39;s open source programs.
-To ensure open source compliance of products and services using
+
+The open source program manager is responsible for the overall 
+responsibility for the company&amp;#39;s open source programs. 
+To ensure open source compliance of products and services using 
 open source, open source program manager is responsible for:
-- Define the roles required for open source compliance, and
-designate a responsible person and group in charge of each
-role. Consult with OSRB if necessary.
-&lt;/code>&lt;/pre>&lt;p>If you do this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
-&lt;div class="alert alert-success" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>3.2.2.4 A documented procedure that assigns internal responsibilities for open source compliance.&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">Self Certify&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>2.g : Do you have a documented procedure assigning internal responsibilities for Open Source compliance?&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;h2 id="handle-non-compliant-cases">Handle non-compliant cases&lt;/h2>
-&lt;p>Businesses should document procedures for promptly reviewing and responding to non-compliance cases. Refer to the following examples and include them in your open source policy.&lt;/p>
-&lt;pre tabindex="0">&lt;code>6. Use open source
+
+- Define the roles required for open source compliance, and 
+  designate a responsible person and group in charge of each 
+  role. Consult with OSRB if necessary.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If you do this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;ISO/IEC 5230&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;3.2.2.4 A documented procedure that assigns internal responsibilities for open source compliance.&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Self Certify&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;2.g : Do you have a documented procedure assigning internal responsibilities for Open Source compliance?&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;handle-non-compliant-cases&#34;&gt;Handle non-compliant cases&lt;/h2&gt;
+&lt;p&gt;Businesses should document procedures for promptly reviewing and responding to non-compliance cases. Refer to the following examples and include them in your open source policy.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;6. Use open source
+
 (5) Compliance Issue Remediation Procedure
-Should a non-compliance issue be raised, the Open Source Program Manager
+
+Should a non-compliance issue be raised, the Open Source Program Manager 
 responds promptly by performing the following procedures.
+
 1. Acknowledge receipt of the query and state a reasonable time for resolution;
-2. Determine whether the query discloses a genuine issue or not
-(and if not, respond to the querier accordingly);
+2. Determine whether the query discloses a genuine issue or not 
+   (and if not, respond to the querier accordingly);
 3. If the issue is genuine, apply to prioritise, and determine the appropriate response.
 4. Carry out response and, where necessary, improve open source compliance processes.
 5. Document the above using Jira Tracker.
-&lt;/code>&lt;/pre>&lt;p>If you do this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
-&lt;div class="alert alert-success" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>3.2.2.5 A documented procedure for handling the review and remediation of non-compliant cases.&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">Self Certify&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>2.7 : Do you have a documented procedure for handling review and remediation of non-compliant cases?&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;h2 id="open-source-contribution-policy">Open Source Contribution Policy&lt;/h2>
-&lt;p>Global IT companies value not only the use of open source to make products and services, but also the strategic value that can be created by contributing to open source projects. However, if you contribute without a sufficient understanding and strategy for the open source project ecosystem and how the community operates, unexpected legal risks may arise and the company&amp;rsquo;s reputation may be damaged. Therefore, it is important for companies to create strategies and policies for participation and contribution to open source projects.&lt;/p>
-&lt;p>The following pages provide sample open source contribution policy documents. : &lt;a href="http://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/1-policy-template/#7-open-source-contributions">7. Open Source Contribution&lt;/a>&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 747px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/4-policy/samplecontribution_hudf318fef2c1283938767a6884339f1c2_367902_900x600_fit_catmullrom_3.png" width="737" height="600">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;p>If you do this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
-&lt;div class="alert alert-success" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>3.5.1.1 A documented open source contribution policy&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">Self Certify&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>5.a : Do you have a policy that governs contributions to open source projects on behalf of the organization?&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;p>If you even establish an open source policy that includes the above, the following green items among the ISO/IEC 5230 requirements will be satisfied.&lt;/p>
-&lt;p>&lt;img src="policynumber.png" alt="">&lt;/p></description></item><item><title>Guide: 5. Process</title><link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/5-process/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/5-process/</guid><description>
-&lt;p>A process is an actionable procedure that enables a company to comply with open source policies during software development/distribution. Simply put, the open source compliance process is an activity to comply with the obligations required by each license for the open source used while developing and distributing software, and it generates artifacts such as open source notices and source code to be disclosed.&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 702px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/5-process/input_hu6fb1167426b664b7db45fb3de90029fd_53101_900x600_fit_catmullrom_3.png" width="692" height="176">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-&lt;center>&lt;i>Simplified view of the compliance end-to-end process : https://www.linuxfoundation.org/wp-content/uploads/OpenSourceComplianceHandbook_2018_2ndEdition_DigitalEdition.pdf&lt;/i>&lt;/center>
-&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;p>If the open source compliance process is subdivided and schematized, it is shown in the figure below.&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 742px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/5-process/roughprocess_hu28f27b0bffa7b2a58c24a0b088bae420_116838_900x600_fit_catmullrom_3.png" width="732" height="252">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-&lt;center>&lt;i>End-to-end compliance process : https://www.linuxfoundation.org/wp-content/uploads/OpenSourceComplianceHandbook_2018_2ndEdition_DigitalEdition.pdf&lt;/i>&lt;/center>
-&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;p>The image below is a sample open source compliance process that companies can commonly use.&lt;/p>
-&lt;p>&lt;img src="sampleprocess.png" alt="">&lt;/p>
-&lt;p>You can refer to the next page for more details on this. : &lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/">2. Open Source Compliance Process (Sample)&lt;/a>&lt;/p>
-&lt;p>This chapter describes the elements that an open source compliance process should include.&lt;/p>
-&lt;h2 id="identify-and-audit">Identify and audit&lt;/h2>
-&lt;p>In order to determine whether an open source can be used, it is necessary to first identify the license of the open source to be used and check the obligations required by the license. You should review and record whether you used open source, what the licenses are, and what obligations each license gives you. An example of the procedure for this is as follows.&lt;/p>
-&lt;ol>
-&lt;li>The development team makes a preliminary assessment of the license based on the open source policy.&lt;/li>
-&lt;li>In case of any doubt, contact the open source program manager, and if necessary, the open source program manager refers the question to external legal experts.&lt;/li>
-&lt;li>The outcome of any determination, and associated rationale (whether internal or external) is recorded.&lt;/li>
-&lt;/ol>
-&lt;p>The &lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#1-identification-of-open-source">Identification of Open Source&lt;/a>, &lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#2-auditing-source-code">Auditing Source Code&lt;/a>, &lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#3-resolving-issues">Resolving Issues&lt;/a>, &lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#4-reviews">Reviews&lt;/a>, and &lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#5-approval">Approval&lt;/a> steps are an example of a documented process for reviewing and documenting the obligations, restrictions and rights imposed by each identified license.&lt;/p>
-&lt;p>If you prepare such a procedure, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
-&lt;div class="alert alert-success" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>3.1.5.1 A documented procedure to review and document the obligations, restrictions and rights granted by each identified license.&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">Self Certify&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>1.i : Do you have a process for reviewing open source license obligations, restrictions and rights?&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;p>In the open source identification and audit phase, you use a code scan tool to inspect the source code. For details on this, refer to &amp;ldquo;&lt;a href="../6-tool/">6. Tool&lt;/a>&amp;rdquo;.&lt;/p>
-&lt;h2 id="create-bill-of-materials">Create Bill of Materials&lt;/h2>
-&lt;p>The most basic of open source compliance activities is to determine open source included in the supplied software. It is necessary to establish a process for creating and managing a Bill of Materials (BOM) containing the information by identifying the open source included in the supplied software and identified license. This is because it is necessary to know which open source is included in each version of the supplied software so that when distributing the software, you can comply with the obligations required by the identified license of each open source.&lt;/p>
-&lt;p>All open source must be reviewed and approved prior to integration into the supplied software. It should be reviewed in advance whether it can meet license requirements as well as the function and quality of open source. For this, a review request → review → approval process is required.&lt;/p>
-&lt;p>&lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/">Appendix 2. Open Source Compliance Process (Sample)&lt;/a> explains all the processes for open source compliance. BOM is created and managed through the process from &lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#1-identification-of-open-source">1. Identification of Open Source&lt;/a> to &lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#6-registration">6. Registration&lt;/a>.&lt;/p>
-&lt;p>The tool for managing the open source BOM is described in detail in &amp;ldquo;&lt;a href="../6-tool/">6. Tool&lt;/a>&amp;rdquo;.&lt;/p>
-&lt;p>In addition, all processes and results of such an open source compliance process should be documented. Rather than using e-mail, it is better to use an issue tracking system such as [Jira] (&lt;a href="https://www.atlassian.com/software/jira">https://www.atlassian.com/software/jira&lt;/a>) and [Bugzilla] (&lt;a href="https://www.bugzilla.org/">https://www.bugzilla.org/&lt;/a>) to effectively document this process.&lt;/p>
-&lt;p>If you prepare such a procedure, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
-&lt;div class="alert alert-success" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>3.3.1.1 A documented procedure for identifying, tracking, reviewing, approving, and archiving information about the collection of open source components from which the supplied software is comprised.&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">Self Certify&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>3.a : Do you have a documented procedure for identifying, tracking and archiving information about the collection of open source components from which a Supplied Software release is comprised?&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;h2 id="create-artifacts">Create Artifacts&lt;/h2>
-&lt;p>As mentioned above, the most basic of open source compliance activities is to determine the open source included in the supplied software. This is to properly meet the open source license requirements, which are the core of open source compliance. In other words, a process for generating a set of compliance artifacts for open source included in the supplied software should be established.&lt;/p>
-&lt;p>Compliance artifacts are divided into two main categories.&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>Open Source Notice: A document to provide full open source license and copyright information&lt;/p>
-&lt;p>&lt;img src="ossnotice.png" alt="">&lt;/p>
-&lt;ul>
-&lt;li>The method of automatically generating an open source notice corresponding to an open source BOM is further described in &amp;ldquo;&lt;a href="../6-tool/">6. Tool&lt;/a>&amp;rdquo;.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Source code package to be disclosed: A package that collects source codes to be disclosed to fulfill open source license obligations that require source code disclosure such as GPL, LGPL, etc.&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;p>Compliance artifacts must be provided when distributing supplied software.&lt;/p>
-&lt;p>In “&lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/">Appendix 2. Open Source Compliance Process (Sample)&lt;/a>”, the compliance artifacts are created and distributed through &lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#7-notices">7. Notices&lt;/a> to &lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#9-distribution">9. Distribution&lt;/a>.&lt;/p>
-&lt;p>When distributing supplied software, if it is difficult to enclose the source code package to be disclosed, it can be replaced by providing a written offer to provide the source code for at least 3 years. Typically, a written offer is provided through the product&amp;rsquo;s user manual, examples of which are as follows.&lt;/p>
-&lt;pre tabindex="0">&lt;code>The software included in this product contains copyrighted software
-that is licensed under the GPL. A copy of that license is included
-in this document on page X. You may obtain the complete Corresponding
-Source code from us for a period of three years after our last shipment
-of this product, which will be no earlier than 2011-08- 01, by sending
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If you do this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;ISO/IEC 5230&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;3.2.2.5 A documented procedure for handling the review and remediation of non-compliant cases.&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Self Certify&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;2.7 : Do you have a documented procedure for handling review and remediation of non-compliant cases?&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;open-source-contribution-policy&#34;&gt;Open Source Contribution Policy&lt;/h2&gt;
+&lt;p&gt;Global IT companies value not only the use of open source to make products and services, but also the strategic value that can be created by contributing to open source projects. However, if you contribute without a sufficient understanding and strategy for the open source project ecosystem and how the community operates, unexpected legal risks may arise and the company&amp;rsquo;s reputation may be damaged. Therefore, it is important for companies to create strategies and policies for participation and contribution to open source projects.&lt;/p&gt;
+&lt;p&gt;The following pages provide sample open source contribution policy documents. : &lt;a href=&#34;http://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/1-policy-template/#7-open-source-contributions&#34;&gt;7. Open Source Contribution&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 747px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/4-policy/samplecontribution_hudf318fef2c1283938767a6884339f1c2_367902_900x600_fit_catmullrom_3.png&#34; width=&#34;737&#34; height=&#34;600&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;If you do this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;ISO/IEC 5230&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;3.5.1.1 A documented open source contribution policy&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Self Certify&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;5.a : Do you have a policy that governs contributions to open source projects on behalf of the organization?&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;If you even establish an open source policy that includes the above, the following green items among the ISO/IEC 5230 requirements will be satisfied.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;policynumber.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Guide: 5. Process</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/5-process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/5-process/</guid>
+      <description>
+        
+        
+        &lt;p&gt;A process is an actionable procedure that enables a company to comply with open source policies during software development/distribution. Simply put, the open source compliance process is an activity to comply with the obligations required by each license for the open source used while developing and distributing software, and it generates artifacts such as open source notices and source code to be disclosed.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 702px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/5-process/input_hu6fb1167426b664b7db45fb3de90029fd_53101_900x600_fit_catmullrom_3.png&#34; width=&#34;692&#34; height=&#34;176&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;center&gt;&lt;i&gt;Simplified view of the compliance end-to-end process : https://www.linuxfoundation.org/wp-content/uploads/OpenSourceComplianceHandbook_2018_2ndEdition_DigitalEdition.pdf&lt;/i&gt;&lt;/center&gt;
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;If the open source compliance process is subdivided and schematized, it is shown in the figure below.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 742px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/5-process/roughprocess_hu28f27b0bffa7b2a58c24a0b088bae420_116838_900x600_fit_catmullrom_3.png&#34; width=&#34;732&#34; height=&#34;252&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;center&gt;&lt;i&gt;End-to-end compliance process : https://www.linuxfoundation.org/wp-content/uploads/OpenSourceComplianceHandbook_2018_2ndEdition_DigitalEdition.pdf&lt;/i&gt;&lt;/center&gt;
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;The image below is a sample open source compliance process that companies can commonly use.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;sampleprocess.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;You can refer to the next page for more details on this. : &lt;a href=&#34;https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/&#34;&gt;2. Open Source Compliance Process (Sample)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This chapter describes the elements that an open source compliance process should include.&lt;/p&gt;
+&lt;h2 id=&#34;identify-and-audit&#34;&gt;Identify and audit&lt;/h2&gt;
+&lt;p&gt;In order to determine whether an open source can be used, it is necessary to first identify the license of the open source to be used and check the obligations required by the license. You should review and record whether you used open source, what the licenses are, and what obligations each license gives you. An example of the procedure for this is as follows.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The development team makes a preliminary assessment of the license based on the open source policy.&lt;/li&gt;
+&lt;li&gt;In case of any doubt, contact the open source program manager, and if necessary, the open source program manager refers the question to external legal experts.&lt;/li&gt;
+&lt;li&gt;The outcome of any determination, and associated rationale (whether internal or external) is recorded.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The &lt;a href=&#34;https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#1-identification-of-open-source&#34;&gt;Identification of Open Source&lt;/a&gt;, &lt;a href=&#34;https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#2-auditing-source-code&#34;&gt;Auditing Source Code&lt;/a&gt;, &lt;a href=&#34;https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#3-resolving-issues&#34;&gt;Resolving Issues&lt;/a&gt;, &lt;a href=&#34;https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#4-reviews&#34;&gt;Reviews&lt;/a&gt;, and &lt;a href=&#34;https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#5-approval&#34;&gt;Approval&lt;/a&gt; steps are an example of a documented process for reviewing and documenting the obligations, restrictions and rights imposed by each identified license.&lt;/p&gt;
+&lt;p&gt;If you prepare such a procedure, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;ISO/IEC 5230&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;3.1.5.1 A documented procedure to review and document the obligations, restrictions and rights granted by each identified license.&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Self Certify&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;1.i : Do you have a process for reviewing open source license obligations, restrictions and rights?&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;In the open source identification and audit phase, you use a code scan tool to inspect the source code. For details on this, refer to &amp;ldquo;&lt;a href=&#34;../6-tool/&#34;&gt;6. Tool&lt;/a&gt;&amp;rdquo;.&lt;/p&gt;
+&lt;h2 id=&#34;create-bill-of-materials&#34;&gt;Create Bill of Materials&lt;/h2&gt;
+&lt;p&gt;The most basic of open source compliance activities is to determine open source included in the supplied software. It is necessary to establish a process for creating and managing a Bill of Materials (BOM) containing the information by identifying the open source included in the supplied software and identified license. This is because it is necessary to know which open source is included in each version of the supplied software so that when distributing the software, you can comply with the obligations required by the identified license of each open source.&lt;/p&gt;
+&lt;p&gt;All open source must be reviewed and approved prior to integration into the supplied software. It should be reviewed in advance whether it can meet license requirements as well as the function and quality of open source. For this, a review request → review → approval process is required.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/&#34;&gt;Appendix 2. Open Source Compliance Process (Sample)&lt;/a&gt; explains all the processes for open source compliance. BOM is created and managed through the process from &lt;a href=&#34;https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#1-identification-of-open-source&#34;&gt;1. Identification of Open Source&lt;/a&gt; to &lt;a href=&#34;https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#6-registration&#34;&gt;6. Registration&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The tool for managing the open source BOM is described in detail in &amp;ldquo;&lt;a href=&#34;../6-tool/&#34;&gt;6. Tool&lt;/a&gt;&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;In addition, all processes and results of such an open source compliance process should be documented. Rather than using e-mail, it is better to use an issue tracking system such as [Jira] (&lt;a href=&#34;https://www.atlassian.com/software/jira&#34;&gt;https://www.atlassian.com/software/jira&lt;/a&gt;) and [Bugzilla] (&lt;a href=&#34;https://www.bugzilla.org/&#34;&gt;https://www.bugzilla.org/&lt;/a&gt;) to effectively document this process.&lt;/p&gt;
+&lt;p&gt;If you prepare such a procedure, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;ISO/IEC 5230&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;3.3.1.1 A documented procedure for identifying, tracking, reviewing, approving, and archiving information about the collection of open source components from which the supplied software is comprised.&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Self Certify&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;3.a : Do you have a documented procedure for identifying, tracking and archiving information about the collection of open source components from which a Supplied Software release is comprised?&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;create-artifacts&#34;&gt;Create Artifacts&lt;/h2&gt;
+&lt;p&gt;As mentioned above, the most basic of open source compliance activities is to determine the open source included in the supplied software. This is to properly meet the open source license requirements, which are the core of open source compliance. In other words, a process for generating a set of compliance artifacts for open source included in the supplied software should be established.&lt;/p&gt;
+&lt;p&gt;Compliance artifacts are divided into two main categories.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open Source Notice: A document to provide full open source license and copyright information&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;ossnotice.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The method of automatically generating an open source notice corresponding to an open source BOM is further described in &amp;ldquo;&lt;a href=&#34;../6-tool/&#34;&gt;6. Tool&lt;/a&gt;&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Source code package to be disclosed: A package that collects source codes to be disclosed to fulfill open source license obligations that require source code disclosure such as GPL, LGPL, etc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Compliance artifacts must be provided when distributing supplied software.&lt;/p&gt;
+&lt;p&gt;In “&lt;a href=&#34;https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/&#34;&gt;Appendix 2. Open Source Compliance Process (Sample)&lt;/a&gt;”, the compliance artifacts are created and distributed through &lt;a href=&#34;https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#7-notices&#34;&gt;7. Notices&lt;/a&gt; to &lt;a href=&#34;https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#9-distribution&#34;&gt;9. Distribution&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;When distributing supplied software, if it is difficult to enclose the source code package to be disclosed, it can be replaced by providing a written offer to provide the source code for at least 3 years. Typically, a written offer is provided through the product&amp;rsquo;s user manual, examples of which are as follows.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;The software included in this product contains copyrighted software 
+that is licensed under the GPL. A copy of that license is included 
+in this document on page X. You may obtain the complete Corresponding 
+Source code from us for a period of three years after our last shipment 
+of this product, which will be no earlier than 2011-08- 01, by sending 
 a money order or check for $5 to:
+
 GPL Compliance Division
 Our Company
 Any Town, US 99999
+
 Please write“source for product Y” in the memo line of your payment.
 You may also find a copy of the source at http://www.example.com/sources/Y/.
 This offer is valid to anyone in receipt of this information.
+
 &amp;lt;SFLC Guide to GPL Compliance&amp;gt;
-&lt;/code>&lt;/pre>&lt;p>Therefore, a process must be established to store compliance artifacts for at least 3 years. To this end, a company needs to build an open source website, which is described in detail in &amp;ldquo;&lt;a href="../6-tool/">6. Tool&lt;/a>&amp;rdquo;.&lt;/p>
-&lt;p>If you prepare such a procedure, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
-&lt;div class="alert alert-success" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>3.4.1.1 A documented procedure that describes the process under which the compliance artifacts are prepared and distributed with the supplied software as required by the identified licenses.&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">Self Certify&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>4.a : Do you have a documented procedure that describes a process that ensures the Compliance Artifacts are distributed with Supplied Software as required by the Identified Licenses?&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;h2 id="respond-to-third-party-inquiries">Respond to third party inquiries&lt;/h2>
-&lt;p>It is important for a company to respond to third party inquiries as quickly and accurately as possible in order to avoid legal litigation. For this, a company must have a process that can respond quickly and effectively to third party open source inquiries.&lt;/p>
-&lt;p>The figure below shows the process a company must have to respond to third party inquiries.&lt;/p>
-&lt;p>&lt;img src="access.png" alt="">&lt;/p>
-&lt;p>Details can be found in “&lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#2-external-inquiry-response-process">Appendix 2. Open Source Compliance Process (Sample) 2. External Inquiry Response Process&lt;/a>”.&lt;/p>
-&lt;p>If you prepare such a procedure, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
-&lt;div class="alert alert-success" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>3.2.1.2 An internal documented procedure for responding to third party open source license compliance inquiries.&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">Self Certify&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>2.c : Do you have a documented procedure that assigns responsibility for receiving and responding to open source compliance inquiries? &lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;h2 id="open-source-contribution-process">Open Source Contribution Process&lt;/h2>
-&lt;p>If you have a policy to allow contributions to external open source projects, there should be a documented procedure to manage how in-house developers can contribute to external projects.&lt;/p>
-&lt;p>The &lt;a href="https://sktelecom.github.io/guide/contribute/process/">Open Source Contribution Procedure&lt;/a> released by SK telecom is a good example.&lt;/p>
-&lt;p>&lt;img src="contribution.png" alt="">
-&lt;a href="https://sktelecom.github.io/guide/contribute/process/">https://sktelecom.github.io/guide/contribute/process/&lt;/a>&lt;/p>
-&lt;p>If you prepare such a procedure, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
-&lt;div class="alert alert-success" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>3.5.1.2 A documented procedure that governs open source contributions&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">Self Certify&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>5.b : Do you have a documented procedure that governs Open Source contributions?&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;p>If you build the process up to this point, you will comply with the ISO/IEC 5230 requirements as follows.&lt;/p>
-&lt;p>&lt;img src="processno.png" alt="">&lt;/p></description></item><item><title>Guide: 6. Tool</title><link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/6-tool/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/6-tool/</guid><description>
-&lt;h2 id="source-code-scanning-tool">Source code scanning tool&lt;/h2>
-&lt;p>You should use a source code scanning tool during the identification of open source and audit phase of the open source compliance process. Source code scanning tools range from freely available, open source-based tools to commercial tools, each with their own strengths and weaknesses, but none of them seem to provide complete functionality to solve all problems. Therefore, companies can choose the appropriate tool for the characteristics and requirements of the product.&lt;/p>
-&lt;p>Many companies use a combination of these automated source code scanning tools and manual reviews. Linux Foundation&amp;rsquo;s &lt;a href="https://fossology.org/">FOSSology&lt;/a> project is an open source source code scanning tool that companies can use for free.&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 484px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/6-tool/fossology_hu1f7b14a5f6ba93f8dfdcd97738077fe2_13569_900x600_fit_catmullrom_3.png" width="474" height="231">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-&lt;center>&lt;i>https://www.fossology.org/&lt;/i>&lt;/center>
-&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;p>For instructions on how to install and use FOSSology, refer to &lt;a href="https://www.fossology.org/get-started/">Get Started&lt;/a>.&lt;/p>
-&lt;h2 id="dependency-analysis-tool">Dependency analysis tool&lt;/h2>
-&lt;p>In recent software development, build environments that support Package Manager such as Gradle and Maven are used. In such a build environment, even if there is no source code, the required dependency library at build time is received from the remote to compose the supplied software. At this time, the dependency library is included in the supplied software, but it is not detected by the source code scanning tool. Therefore, it is also important to utilize a tool for dependency analysis.&lt;/p>
-&lt;p>The OSS Review Toolkit provides a dependency analysis tool called &lt;a href="https://github.com/oss-review-toolkit/ort#analyzer">Analyzer&lt;/a>.&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 650px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/6-tool/ort_hube1128b774f3d17c68febc7698949979_37592_900x600_fit_catmullrom_3.png" width="640" height="144">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-&lt;center>&lt;i>https://github.com/oss-review-toolkit/ort#analyzer&lt;/i>&lt;/center>
-&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;p>LG Electronics has released &lt;a href="https://fosslight.org/ko/scanner/">FOSSLight Dependency Scanner&lt;/a> as an open source. FOSSLight Dependency Scanner supports various package managers such as Gradle, Maven, NPM, PIP, Pub, and Cocoapods.&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 609px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/6-tool/fosslightdependency_hu31e27796df6b3b9446cbf7cbbef6bcbd_144925_900x600_fit_catmullrom_3.png" width="599" height="409">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-&lt;center>&lt;i>https://fosslight.org/ko/scanner/&lt;/i>&lt;/center>
-&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;h2 id="open-source-bom-management-tool">Open Source BOM Management Tool&lt;/h2>
-&lt;p>3.3.1.2 of the ISO/IEC 5230 standard requires that the open source BOM list included in the supplied software be documented and kept. The open source BOM can also be managed with a spreadsheet program such as Excel. However, if the number and version of supplied software exceed hundreds, it is not easy to manage them manually. Therefore, it is better to use an automated tool to manage it.&lt;/p>
-&lt;p>&lt;a href="https://github.com/eclipse/sw360">SW360&lt;/a>, an open source project hosted by the Eclipse Foundation, provides a function to track the list of open source BOM included in the supplied software.&lt;/p>
-&lt;p>&lt;img src="sw360project.png" alt="">&lt;/p>
-&lt;p>How to install and use SW360 is &lt;a href="https://github.com/eclipse/sw360/wiki">SW360 wiki&lt;/a>&lt;/p>
-&lt;p>And FOSSLight, an open source released by LG Electronics mentioned above, also provides a function for open source BOM management.&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 910px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/6-tool/fosslightproject_hu38334993454753095246ddd418adc9ba_41626_900x600_fit_catmullrom_3.png" width="900" height="289">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-&lt;center>&lt;i>https://fosslight.org/fosslight-guide/started/2_try/4_project.html&lt;/i>&lt;/center>
-&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;p>LG Electronics developed &lt;a href="https://fosslight.org/">FOSSLight&lt;/a> on its own and has been managing the open source BOM for supplied software for all business divisions for the past several years, and in June 2021, it announced that it had been released as an open source for anyone to use.&lt;/p>
-&lt;p>For detailed installation and usage instructions, refer to the following English guide. : &lt;a href="https://fosslight.org/fosslight-guide-en/">https://fosslight.org/fosslight-guide-en/&lt;/a>&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 569px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/6-tool/fosslight_hub65fa4fd2ded0b8a62af322a753fc134_83005_600x400_fit_catmullrom_3.png" width="559" height="400">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-&lt;center>&lt;i>https://fosslight.org/fosslight/&lt;/i>&lt;/center>
-&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;p>If you have the above tools, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
-&lt;div class="alert alert-success" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>3.3.1.2 Open source component records for the supplied software that demonstrates the documented procedure was properly followed.&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">Self Certify&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>3.b : Do you have open source component records for each Supplied Software release which demonstrates the documented procedure was properly followed?&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;h2 id="create-artifacts">Create artifacts&lt;/h2>
-&lt;p>It is better to use a tool that automatically generates an open source notice, which is an open source compliance product, rather than writing it manually.&lt;/p>
-&lt;p>You can automatically generate an open source notice by registering an open source BOM using the FOSSLight tool. The open source disclaimer generated by FOSSLight also includes a Written Offer to provide source code.&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 910px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/6-tool/fosslightnotice_hub26133ecb8b043f50cb5cffcf582687c_47692_900x600_fit_catmullrom_3.png" width="900" height="394">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-&lt;center>&lt;i>https://fosslight.org/fosslight-guide/started/2_try/4_project.html&lt;/i>&lt;/center>
-&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;p>In addition, SK Telecom is planning to release the open source automatic notice generation tool used in-house.&lt;/p>
-&lt;p>&lt;img src="ossnoticegenerator.png" alt="">&lt;/p>
-&lt;h2 id="archive-open-source-artifacts">Archive open source artifacts&lt;/h2>
-&lt;p>It is recommended that companies create an open source website and register open source compliance artifacts to provide convenience so that external customers can download open source notices and source code packages to be disclosed at any time.&lt;/p>
-&lt;p>You can refer to SK Telecom&amp;rsquo;s open source website.&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 910px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/6-tool/sktcompliance_hue3e4b400473b31cb9330b17ebc2e2045_51427_900x600_fit_catmullrom_3.png" width="900" height="313">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-&lt;center>&lt;i>https://sktelecom.github.io/compliance/&lt;/i>&lt;/center>
-&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;p>In particular, this website was developed as an open source, and since the source code is open, you can easily build a website by referring to it.&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 910px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/6-tool/sktgithub_huea9391e4744127ce4c1693f784f8a97e_57123_900x600_fit_catmullrom_3.png" width="900" height="352">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-&lt;center>&lt;i>https://github.com/sktelecom/sktelecom.github.io&lt;/i>&lt;/center>
-&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;p>If you build a tool environment like this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
-&lt;div class="alert alert-success" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>3.4.1.2 A documented procedure for archiving copies of the compliance artifacts of the supplied software - where the archive is planned to exist for a reasonable period of time (determined by domain, legal jurisdiction and/or customer contracts) since the last offer of the supplied software; or as required by the identified licenses (whichever is longer). Records exist that demonstrate the procedure has been properly followed. &lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">Self Certify&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>4.b : Do you archive copies of the Compliance Artifacts of the Supplied Software?&lt;/b>&lt;/li>
-&lt;li>&lt;b>4.c : Are the copies of the Compliance Artifacts archived for at least as long as the Supplied Software is offered or as required by the Identified Licenses (whichever is longer)?&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;p>If you build the tool environment in this way, you will comply with the ISO/IEC 5230 requirements as follows.&lt;/p>
-&lt;p>&lt;img src="toolno.png" alt="">&lt;/p></description></item><item><title>Guide: 7. Training</title><link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/7-training/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/7-training/</guid><description>
-&lt;h2 id="training">Training&lt;/h2>
-&lt;p>No matter how good policies and processes are in place, they will be useless if no one in the company understands and follows them. In order for the open source policy and open source compliance process to work effectively in the company, it is important to educate employees.&lt;/p>
-&lt;p>You should provide practical methods, such as training and internal wikis, to ensure that all program participants are aware that there is an open source policy within the company and can take necessary actions. Program participants here mean all employees involved in the development, distribution, and contribution of software by a company, including software developers, distribution engineers, and quality engineers.&lt;/p>
-&lt;p>Many companies publish open source policy documents through their in-house wiki site, so that any employee can see what they need. In addition, training on open source policy is mandatory for new hires during training, and regular training is provided annually or every two years to program participants so that all program participants are aware of the existence of open source policies. . In other words, you should write these methods as the following example and include the open source policy document.&lt;/p>
-&lt;pre tabindex="0">&lt;code>5. Training and Assessment
-All program participants should take the open source mandatory
-training provided by [Learning Portal] every year. Through training,
-all participants should be familiar with open source policies and
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Therefore, a process must be established to store compliance artifacts for at least 3 years. To this end, a company needs to build an open source website, which is described in detail in &amp;ldquo;&lt;a href=&#34;../6-tool/&#34;&gt;6. Tool&lt;/a&gt;&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;If you prepare such a procedure, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;ISO/IEC 5230&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;3.4.1.1 A documented procedure that describes the process under which the compliance artifacts are prepared and distributed with the supplied software as required by the identified licenses.&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Self Certify&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;4.a : Do you have a documented procedure that describes a process that ensures the Compliance Artifacts are distributed with Supplied Software as required by the Identified Licenses?&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;respond-to-third-party-inquiries&#34;&gt;Respond to third party inquiries&lt;/h2&gt;
+&lt;p&gt;It is important for a company to respond to third party inquiries as quickly and accurately as possible in order to avoid legal litigation. For this, a company must have a process that can respond quickly and effectively to third party open source inquiries.&lt;/p&gt;
+&lt;p&gt;The figure below shows the process a company must have to respond to third party inquiries.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;access.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Details can be found in “&lt;a href=&#34;https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/2-process/#2-external-inquiry-response-process&#34;&gt;Appendix 2. Open Source Compliance Process (Sample) 2. External Inquiry Response Process&lt;/a&gt;”.&lt;/p&gt;
+&lt;p&gt;If you prepare such a procedure, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;ISO/IEC 5230&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;3.2.1.2 An internal documented procedure for responding to third party open source license compliance inquiries.&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Self Certify&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;2.c : Do you have a documented procedure that assigns responsibility for receiving and responding to open source compliance inquiries? &lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;open-source-contribution-process&#34;&gt;Open Source Contribution Process&lt;/h2&gt;
+&lt;p&gt;If you have a policy to allow contributions to external open source projects, there should be a documented procedure to manage how in-house developers can contribute to external projects.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://sktelecom.github.io/guide/contribute/process/&#34;&gt;Open Source Contribution Procedure&lt;/a&gt; released by SK telecom is a good example.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;contribution.png&#34; alt=&#34;&#34;&gt;
+&lt;a href=&#34;https://sktelecom.github.io/guide/contribute/process/&#34;&gt;https://sktelecom.github.io/guide/contribute/process/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you prepare such a procedure, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;ISO/IEC 5230&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;3.5.1.2 A documented procedure that governs open source contributions&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Self Certify&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;5.b : Do you have a documented procedure that governs Open Source contributions?&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;If you build the process up to this point, you will comply with the ISO/IEC 5230 requirements as follows.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;processno.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Guide: 6. Tool</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/6-tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/6-tool/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;source-code-scanning-tool&#34;&gt;Source code scanning tool&lt;/h2&gt;
+&lt;p&gt;You should use a source code scanning tool during the identification of open source and audit phase of the open source compliance process. Source code scanning tools range from freely available, open source-based tools to commercial tools, each with their own strengths and weaknesses, but none of them seem to provide complete functionality to solve all problems. Therefore, companies can choose the appropriate tool for the characteristics and requirements of the product.&lt;/p&gt;
+&lt;p&gt;Many companies use a combination of these automated source code scanning tools and manual reviews. Linux Foundation&amp;rsquo;s &lt;a href=&#34;https://fossology.org/&#34;&gt;FOSSology&lt;/a&gt; project is an open source source code scanning tool that companies can use for free.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 484px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/6-tool/fossology_hu1f7b14a5f6ba93f8dfdcd97738077fe2_13569_900x600_fit_catmullrom_3.png&#34; width=&#34;474&#34; height=&#34;231&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;center&gt;&lt;i&gt;https://www.fossology.org/&lt;/i&gt;&lt;/center&gt;
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;For instructions on how to install and use FOSSology, refer to &lt;a href=&#34;https://www.fossology.org/get-started/&#34;&gt;Get Started&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;dependency-analysis-tool&#34;&gt;Dependency analysis tool&lt;/h2&gt;
+&lt;p&gt;In recent software development, build environments that support Package Manager such as Gradle and Maven are used. In such a build environment, even if there is no source code, the required dependency library at build time is received from the remote to compose the supplied software. At this time, the dependency library is included in the supplied software, but it is not detected by the source code scanning tool. Therefore, it is also important to utilize a tool for dependency analysis.&lt;/p&gt;
+&lt;p&gt;The OSS Review Toolkit provides a dependency analysis tool called &lt;a href=&#34;https://github.com/oss-review-toolkit/ort#analyzer&#34;&gt;Analyzer&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 650px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/6-tool/ort_hube1128b774f3d17c68febc7698949979_37592_900x600_fit_catmullrom_3.png&#34; width=&#34;640&#34; height=&#34;144&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;center&gt;&lt;i&gt;https://github.com/oss-review-toolkit/ort#analyzer&lt;/i&gt;&lt;/center&gt;
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;LG Electronics has released &lt;a href=&#34;https://fosslight.org/ko/scanner/&#34;&gt;FOSSLight Dependency Scanner&lt;/a&gt; as an open source. FOSSLight Dependency Scanner supports various package managers such as Gradle, Maven, NPM, PIP, Pub, and Cocoapods.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 609px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/6-tool/fosslightdependency_hu31e27796df6b3b9446cbf7cbbef6bcbd_144925_900x600_fit_catmullrom_3.png&#34; width=&#34;599&#34; height=&#34;409&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;center&gt;&lt;i&gt;https://fosslight.org/ko/scanner/&lt;/i&gt;&lt;/center&gt;
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;h2 id=&#34;open-source-bom-management-tool&#34;&gt;Open Source BOM Management Tool&lt;/h2&gt;
+&lt;p&gt;3.3.1.2 of the ISO/IEC 5230 standard requires that the open source BOM list included in the supplied software be documented and kept. The open source BOM can also be managed with a spreadsheet program such as Excel. However, if the number and version of supplied software exceed hundreds, it is not easy to manage them manually. Therefore, it is better to use an automated tool to manage it.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/eclipse/sw360&#34;&gt;SW360&lt;/a&gt;, an open source project hosted by the Eclipse Foundation, provides a function to track the list of open source BOM included in the supplied software.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;sw360project.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;How to install and use SW360 is &lt;a href=&#34;https://github.com/eclipse/sw360/wiki&#34;&gt;SW360 wiki&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And FOSSLight, an open source released by LG Electronics mentioned above, also provides a function for open source BOM management.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 910px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/6-tool/fosslightproject_hu38334993454753095246ddd418adc9ba_41626_900x600_fit_catmullrom_3.png&#34; width=&#34;900&#34; height=&#34;289&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;center&gt;&lt;i&gt;https://fosslight.org/fosslight-guide/started/2_try/4_project.html&lt;/i&gt;&lt;/center&gt;
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;LG Electronics developed &lt;a href=&#34;https://fosslight.org/&#34;&gt;FOSSLight&lt;/a&gt; on its own and has been managing the open source BOM for supplied software for all business divisions for the past several years, and in June 2021, it announced that it had been released as an open source for anyone to use.&lt;/p&gt;
+&lt;p&gt;For detailed installation and usage instructions, refer to the following English guide. : &lt;a href=&#34;https://fosslight.org/fosslight-guide-en/&#34;&gt;https://fosslight.org/fosslight-guide-en/&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 569px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/6-tool/fosslight_hub65fa4fd2ded0b8a62af322a753fc134_83005_600x400_fit_catmullrom_3.png&#34; width=&#34;559&#34; height=&#34;400&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;center&gt;&lt;i&gt;https://fosslight.org/fosslight/&lt;/i&gt;&lt;/center&gt;
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;If you have the above tools, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;ISO/IEC 5230&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;3.3.1.2 Open source component records for the supplied software that demonstrates the documented procedure was properly followed.&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Self Certify&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;3.b : Do you have open source component records for each Supplied Software release which demonstrates the documented procedure was properly followed?&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;create-artifacts&#34;&gt;Create artifacts&lt;/h2&gt;
+&lt;p&gt;It is better to use a tool that automatically generates an open source notice, which is an open source compliance product, rather than writing it manually.&lt;/p&gt;
+&lt;p&gt;You can automatically generate an open source notice by registering an open source BOM using the FOSSLight tool. The open source disclaimer generated by FOSSLight also includes a Written Offer to provide source code.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 910px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/6-tool/fosslightnotice_hub26133ecb8b043f50cb5cffcf582687c_47692_900x600_fit_catmullrom_3.png&#34; width=&#34;900&#34; height=&#34;394&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;center&gt;&lt;i&gt;https://fosslight.org/fosslight-guide/started/2_try/4_project.html&lt;/i&gt;&lt;/center&gt;
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;In addition, SK Telecom is planning to release the open source automatic notice generation tool used in-house.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;ossnoticegenerator.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;archive-open-source-artifacts&#34;&gt;Archive open source artifacts&lt;/h2&gt;
+&lt;p&gt;It is recommended that companies create an open source website and register open source compliance artifacts to provide convenience so that external customers can download open source notices and source code packages to be disclosed at any time.&lt;/p&gt;
+&lt;p&gt;You can refer to SK Telecom&amp;rsquo;s open source website.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 910px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/6-tool/sktcompliance_hue3e4b400473b31cb9330b17ebc2e2045_51427_900x600_fit_catmullrom_3.png&#34; width=&#34;900&#34; height=&#34;313&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;center&gt;&lt;i&gt;https://sktelecom.github.io/compliance/&lt;/i&gt;&lt;/center&gt;
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;In particular, this website was developed as an open source, and since the source code is open, you can easily build a website by referring to it.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 910px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/6-tool/sktgithub_huea9391e4744127ce4c1693f784f8a97e_57123_900x600_fit_catmullrom_3.png&#34; width=&#34;900&#34; height=&#34;352&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;center&gt;&lt;i&gt;https://github.com/sktelecom/sktelecom.github.io&lt;/i&gt;&lt;/center&gt;
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;If you build a tool environment like this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;ISO/IEC 5230&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;3.4.1.2 A documented procedure for archiving copies of the compliance artifacts of the supplied software - where the archive is planned to exist for a reasonable period of time (determined by domain, legal jurisdiction and/or customer contracts) since the last offer of the supplied software; or as required by the identified licenses (whichever is longer). Records exist that demonstrate the procedure has been properly followed. &lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Self Certify&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;4.b : Do you archive copies of the Compliance Artifacts of the Supplied Software?&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;4.c : Are the copies of the Compliance Artifacts archived for at least as long as the Supplied Software is offered or as required by the Identified Licenses (whichever is longer)?&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;If you build the tool environment in this way, you will comply with the ISO/IEC 5230 requirements as follows.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;toolno.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Guide: 7. Training</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/7-training/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/7-training/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;training&#34;&gt;Training&lt;/h2&gt;
+&lt;p&gt;No matter how good policies and processes are in place, they will be useless if no one in the company understands and follows them. In order for the open source policy and open source compliance process to work effectively in the company, it is important to educate employees.&lt;/p&gt;
+&lt;p&gt;You should provide practical methods, such as training and internal wikis, to ensure that all program participants are aware that there is an open source policy within the company and can take necessary actions. Program participants here mean all employees involved in the development, distribution, and contribution of software by a company, including software developers, distribution engineers, and quality engineers.&lt;/p&gt;
+&lt;p&gt;Many companies publish open source policy documents through their in-house wiki site, so that any employee can see what they need. In addition, training on open source policy is mandatory for new hires during training, and regular training is provided annually or every two years to program participants so that all program participants are aware of the existence of open source policies. . In other words, you should write these methods as the following example and include the open source policy document.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;5. Training and Assessment
+All program participants should take the open source mandatory 
+training provided by [Learning Portal] every year. Through training, 
+all participants should be familiar with open source policies and 
 processes. Training history is stored in [Learning Portal].
-&lt;/code>&lt;/pre>&lt;p>If you build an educational environment like this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
-&lt;div class="alert alert-success" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>3.1.1.2 A documented procedure that makes program participants aware of the existence of the open source policy (e.g., via training, internal wiki, or other practical communication method).&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">Self Certify&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>1.b : Do you have a documented procedure that communicates the existence of the open source policy to all Software Staff? (e.g., via training, internal wiki, or other practical communication method)&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;p>In addition, you should ensure that program participants are aware of the company&amp;rsquo;s open source policies, the relevant open source objectives, the contributions expected to ensure the effectiveness of the Program, and the implications of failing to follow the Program requirements. To this end, you should provide training and conduct assessments to ensure that program participants are properly aware. The assessment results are documented and stored.&lt;/p>
-&lt;p>To do this, you can include the example below in your company&amp;rsquo;s open source policy.&lt;/p>
-&lt;pre tabindex="0">&lt;code>1. Purpose
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If you build an educational environment like this, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;ISO/IEC 5230&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;3.1.1.2 A documented procedure that makes program participants aware of the existence of the open source policy (e.g., via training, internal wiki, or other practical communication method).&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Self Certify&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;1.b : Do you have a documented procedure that communicates the existence of the open source policy to all Software Staff? (e.g., via training, internal wiki, or other practical communication method)&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;In addition, you should ensure that program participants are aware of the company&amp;rsquo;s open source policies, the relevant open source objectives, the contributions expected to ensure the effectiveness of the Program, and the implications of failing to follow the Program requirements. To this end, you should provide training and conduct assessments to ensure that program participants are properly aware. The assessment results are documented and stored.&lt;/p&gt;
+&lt;p&gt;To do this, you can include the example below in your company&amp;rsquo;s open source policy.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;1. Purpose
+
 (1) Purpose of the policy&amp;lt;sub&amp;gt;(3.1.3.1)&amp;lt;/sub&amp;gt;
-This policy provides the following principles for all organizations
-involved in software development, service, and distribution in OOO
-Company (hereinafter referred to as the &amp;#34;Company&amp;#34;) to properly utilize
-open source software (hereinafter referred to as &amp;#34;Open Source&amp;#34;).
+
+This policy provides the following principles for all organizations 
+involved in software development, service, and distribution in OOO 
+Company (hereinafter referred to as the &amp;#34;Company&amp;#34;) to properly utilize 
+open source software (hereinafter referred to as &amp;#34;Open Source&amp;#34;). 
+
 1. Principles for open source license compliance
 2. Principles for contribution to external open source projects
 3. Principles for releasing open source
-These principles provide a way for all members of the company to
-understand the value of open source, use it correctly, and contribute
+
+These principles provide a way for all members of the company to 
+understand the value of open source, use it correctly, and contribute 
 to the open source community.
+
 (2) Impact of non-compliance
-It is important that [COMPANY] adheres to this policy. Failure to do
+It is important that [COMPANY] adheres to this policy. Failure to do 
 so may lead to:
-- legal claims from the holders of copyright or other intellectual
-property rights in code we use
+- legal claims from the holders of copyright or other intellectual 
+  property rights in code we use
 - claims from our customers;
 - the inadvertent release of [COMPANY] proprietary code;
 - breach of regulatory obligations by [COMPANY] potentially leading to fines;
 - loss of reputation;
 - loss of revenue;
 - breach of contract with suppliers and customers.
-For this reason, we take breaches of this policy seriously, and any
-individual breaching the policy may find themselves subject to [COMPANY]&amp;#39;s
+For this reason, we take breaches of this policy seriously, and any 
+individual breaching the policy may find themselves subject to [COMPANY]&amp;#39;s 
 disciplinary procedure.
+
 (3) How to contribute to the effectiveness of the Program
-All members of the company can contribute to the effectiveness of the
-program and improvement of the company&amp;#39;s compliance level by understanding
-the rationale and content of this policy and faithfully performing the
-&lt;/code>&lt;/pre>&lt;p>Assessment will be described in more detail later.&lt;/p>
-&lt;p>If you include the content of such education in your policy, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
-&lt;div class="alert alert-success" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>3.1.3.1 Documented evidence of assessed awareness for the program participants - which should include the program’s objectives, one’s contribution within the program, and implications of program non-conformance.&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">Self Certify&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>1.f : Do you have evidence documenting the awareness of your personnel of the following topics? &lt;br>i - The open source policy and where to find it;&lt;br>ii - The relevant open source objectives;&lt;br>iii - The contributions expected to ensure the effectiveness of the Program;&lt;br>iv - The implications of failing to follow the Program requirements.&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;p>Open source training also includes content on the open source contribution policy. Even if an open source contribution policy has been created, if program participants are not aware of its existence, there is a risk of harm to individuals and companies due to unexpected copyright infringement. You should provide open source training so that all program participants are aware of the existence of the open source contribution policy.&lt;/p>
-&lt;p>If you provide training on the contribution policy in this way, you can prepare the following evidences required by ISO/IEC 5230.&lt;/p>
-&lt;div class="alert alert-success" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>3.5.1.3 A documented procedure that makes all program participants aware of the existence of the Open Source contribution policy (e.g., via training, internal wiki, or other practical communication method)&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">Self Certify&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>5.c Do you have a documented procedure that makes all Software Staff aware of the existence of the Open Source contribution policy?&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;p>If you want to create a new educational material, it may not be easy for the person in charge who is starting the job for the first time. The OpenChain Project has released the reference training slides for anyone to refer to.&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 910px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/7-training/training_slides_huba5497a012d8a13d83edcb84b03eb026_300144_900x600_fit_catmullrom_3.png" width="900" height="503">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-&lt;center>&lt;i>https://www.openchainproject.org/resources&lt;/i>&lt;/center>
-&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;p>NCSOFT, a Korean game company, has published teaching plans (PPT) and lecture scripts on GitHub so that anyone can use in-house open source educational materials (Korean only).&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 910px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/7-training/ncsofttraining_hub642cc500108499b0e5eb4adfb0c803c_81325_900x600_fit_catmullrom_3.png" width="900" height="483">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-&lt;center>&lt;i>https://github.com/ncsoft/oss-basic-training&lt;/i>&lt;/center>
-&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;p>In addition, Kakao, a representative platform company in Korea, has also released open source training materials for in-house developers so that anyone can refer to it (Korean only).&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 910px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/7-training/kakaotraining_huf372666c9b5e6e536192bad67bd1d09f_4348095_900x600_fit_catmullrom_3.png" width="900" height="507">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-&lt;center>&lt;i>http://t1.kakaocdn.net/olive/assets/opensource_guide_kakao.pdf&lt;/i>&lt;/center>
-&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;p>If you have not yet created training materials, it is also a good way to use open source training materials from these excellent open source management companies.&lt;/p>
-&lt;h2 id="assessment">Assessment&lt;/h2>
-&lt;p>Once you have designated a person in charge for each role, you should ensure that the person assigned is qualified to perform the role based on education, training and experience. Training should also be provided to program participants with insufficient competencies so that they can acquire sufficient competencies. And the company should assess each participant&amp;rsquo;s competencies and archive the results.&lt;/p>
-&lt;ol>
-&lt;li>Provide training so that each participant has the necessary competencies.&lt;/li>
-&lt;li>Assess based on education content.&lt;/li>
-&lt;li>Keep the assessment results in the company&amp;rsquo;s training system or HR team.&lt;/li>
-&lt;/ol>
-&lt;p>If it is difficult to provide training because there are more than hundreds of participants in the program, it is also a good idea to use the company&amp;rsquo;s online training and assessment system.&lt;/p>
-&lt;p>You can include this in your company&amp;rsquo;s open source policy as follows.&lt;/p>
-&lt;pre tabindex="0">&lt;code>4. Roles, Responsibilities and Competencies
-In order to ensure the effectiveness of the policy, the roles and
-responsibilities and the competencies that the person in charge of
+
+All members of the company can contribute to the effectiveness of the 
+program and improvement of the company&amp;#39;s compliance level by understanding 
+the rationale and content of this policy and faithfully performing the 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Assessment will be described in more detail later.&lt;/p&gt;
+&lt;p&gt;If you include the content of such education in your policy, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;ISO/IEC 5230&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;3.1.3.1 Documented evidence of assessed awareness for the program participants - which should include the program’s objectives, one’s contribution within the program, and implications of program non-conformance.&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Self Certify&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;1.f : Do you have evidence documenting the awareness of your personnel of the following topics? &lt;br&gt;i - The open source policy and where to find it;&lt;br&gt;ii - The relevant open source objectives;&lt;br&gt;iii - The contributions expected to ensure the effectiveness of the Program;&lt;br&gt;iv - The implications of failing to follow the Program requirements.&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Open source training also includes content on the open source contribution policy. Even if an open source contribution policy has been created, if program participants are not aware of its existence, there is a risk of harm to individuals and companies due to unexpected copyright infringement. You should provide open source training so that all program participants are aware of the existence of the open source contribution policy.&lt;/p&gt;
+&lt;p&gt;If you provide training on the contribution policy in this way, you can prepare the following evidences required by ISO/IEC 5230.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;ISO/IEC 5230&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;3.5.1.3 A documented procedure that makes all program participants aware of the existence of the Open Source contribution policy (e.g., via training, internal wiki, or other practical communication method)&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Self Certify&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;5.c Do you have a documented procedure that makes all Software Staff aware of the existence of the Open Source contribution policy?&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;If you want to create a new educational material, it may not be easy for the person in charge who is starting the job for the first time. The OpenChain Project has released the reference training slides for anyone to refer to.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 910px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/7-training/training_slides_huba5497a012d8a13d83edcb84b03eb026_300144_900x600_fit_catmullrom_3.png&#34; width=&#34;900&#34; height=&#34;503&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;center&gt;&lt;i&gt;https://www.openchainproject.org/resources&lt;/i&gt;&lt;/center&gt;
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;NCSOFT, a Korean game company, has published teaching plans (PPT) and lecture scripts on GitHub so that anyone can use in-house open source educational materials (Korean only).&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 910px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/7-training/ncsofttraining_hub642cc500108499b0e5eb4adfb0c803c_81325_900x600_fit_catmullrom_3.png&#34; width=&#34;900&#34; height=&#34;483&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;center&gt;&lt;i&gt;https://github.com/ncsoft/oss-basic-training&lt;/i&gt;&lt;/center&gt;
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;In addition, Kakao, a representative platform company in Korea, has also released open source training materials for in-house developers so that anyone can refer to it (Korean only).&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 910px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/guide/governance_iso5230/7-training/kakaotraining_huf372666c9b5e6e536192bad67bd1d09f_4348095_900x600_fit_catmullrom_3.png&#34; width=&#34;900&#34; height=&#34;507&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;center&gt;&lt;i&gt;http://t1.kakaocdn.net/olive/assets/opensource_guide_kakao.pdf&lt;/i&gt;&lt;/center&gt;
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;If you have not yet created training materials, it is also a good way to use open source training materials from these excellent open source management companies.&lt;/p&gt;
+&lt;h2 id=&#34;assessment&#34;&gt;Assessment&lt;/h2&gt;
+&lt;p&gt;Once you have designated a person in charge for each role, you should ensure that the person assigned is qualified to perform the role based on education, training and experience. Training should also be provided to program participants with insufficient competencies so that they can acquire sufficient competencies. And the company should assess each participant&amp;rsquo;s competencies and archive the results.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Provide training so that each participant has the necessary competencies.&lt;/li&gt;
+&lt;li&gt;Assess based on education content.&lt;/li&gt;
+&lt;li&gt;Keep the assessment results in the company&amp;rsquo;s training system or HR team.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If it is difficult to provide training because there are more than hundreds of participants in the program, it is also a good idea to use the company&amp;rsquo;s online training and assessment system.&lt;/p&gt;
+&lt;p&gt;You can include this in your company&amp;rsquo;s open source policy as follows.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;4. Roles, Responsibilities and Competencies
+In order to ensure the effectiveness of the policy, the roles and 
+responsibilities and the competencies that the person in charge of 
 each role should have are defined as follows.
-The person/group in charge of each role and the required competency
+The person/group in charge of each role and the required competency 
 level are defined in [Appendix 1. Status of Person in Charge].
+
 5. Training and Assessment
-All members in charge of each role defined in Chapter 4 should take
-the advanced open source training course provided by [Learning Portal].
-Training history and evaluation results are stored in [Learning Portal]
+All members in charge of each role defined in Chapter 4 should take 
+the advanced open source training course provided by [Learning Portal]. 
+Training history and evaluation results are stored in [Learning Portal] 
 for at least 3 years.
-&lt;/code>&lt;/pre>&lt;p>If you have this training and evaluation system, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
-&lt;div class="alert alert-success" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>3.1.2.3 Documented evidence of assessed competence for each program participant.&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">Self Certify&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>1.e : Have you documented evidence of assessed competence for each Program participant?&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;h2 id="open-source-license-guide">Open Source License Guide&lt;/h2>
-&lt;p>To properly comply with open source licenses, you must know exactly what each open source license requires. However, since it is difficult for a software developer to figure it out on their own, it is recommended that an open source program manager identify requirements / conditions for common use cases for frequently used open source licenses and share them within the company.&lt;/p>
-&lt;p>The Open Source License Guide should include requirements specific to common open source licensing use cases to ensure that software developers use open source and comply with its license obligations properly.&lt;/p>
-&lt;p>For general guides on open source licenses and summary of license obligations, refer to the &lt;a href="https://www.osadl.org/Access-to-raw-data.oss-compliance-raw-data-access.0.html">Open Source License Checklists&lt;/a> provided by the OSADL.&lt;/p>
-&lt;p>The document &lt;a href="https://sktelecom.github.io/guide/use/obligation/">Obligations by license&lt;/a> in SK Telecom&amp;rsquo;s open source guide is also a good resource (Korean only).&lt;/p>
-&lt;p>&lt;img src="sktlicenseguide.png" alt="">
-&lt;a href="https://sktelecom.github.io/guide/use/obligation/gpl-2.0/">https://sktelecom.github.io/guide/use/obligation/gpl-2.0/&lt;/a>&lt;/p>
-&lt;p>If you provide this open source licensing guide, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
-&lt;div class="alert alert-success" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>3.3.2.1 A documented procedure for handling the common open source license use cases for the open source components of the supplied software.&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">Self Certify&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>3.c Have you implemented a procedure that handles at least the following common open source license use cases for the open source components of each supplied Supplied Software release?&lt;br>i - distributed in binary form;&lt;br>ii - distributed in source form;&lt;br>iii - integrated with other open source such that it may trigger copyleft obligations;&lt;br>iv - contains modified open source;&lt;br>v - contains open source or other software under an incompatible license interacting with other components within the Supplied Software;&lt;br>vi - contains open source with attribution requirements.&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;p>If you build an environment for providing training, assessment and guide in this way, you will comply with ISO/IEC 5230 requirements as follows.&lt;/p>
-&lt;p>&lt;img src="trainingno.png" alt="">&lt;/p></description></item><item><title>Guide: 8. Conformance</title><link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/8-conforming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/8-conforming/</guid><description>
-&lt;p>If you build an open source program (open source policy / process / tool / organization) that complies with all requirements except Article 6 of the ISO/IEC 5230 standard, you can write and publish a document specifying the following two.&lt;/p>
-&lt;ol>
-&lt;li>A document affirming the program specified in requirement §3.1.4 satisfies all the requirements of this specification.&lt;/li>
-&lt;li>A document affirming the program meets all the requirements of this version of the specification (version 2.1), within the past 18 months of obtaining conformance validation&lt;/li>
-&lt;/ol>
-&lt;p>You may include the above document in the open source policy, or you may publish it through an externally public website.&lt;/p>
-&lt;p>As shown in the image below, you can refer to the content that SK Telecom posted on the open source portal site.
-&lt;img src="sktiso.png" alt="">
-&lt;a href="https://sktelecom.github.io/en/compliance/iso5230/">https://sktelecom.github.io/en/compliance/iso5230/&lt;/a>&lt;/p>
-&lt;p>If you document that you meet all the requirements of ISO/IEC 5230 in this way, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p>
-&lt;div class="alert alert-success" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC 5230&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>3.6.1.1 A document affirming the program specified in requirement §3.1.4 satisfies all the requirements of this specification.&lt;/b>&lt;/li>
-&lt;li>&lt;b>3.6.2.1 A document affirming the program meets all the requirements of this version of the specification (version 2.1), within the past 18 months of obtaining conformance validation&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">Self Certify&lt;/h4>
-&lt;ul>
-&lt;li>&lt;b>6.a : Do you have documentation confirming that your Program meets all the requirements of this specification?&lt;/b>&lt;/li>
-&lt;li>&lt;b>6.b : Do you have documentation confirming that your Program conformance was reviewed within the last 18 months?&lt;/b>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;p>If you&amp;rsquo;ve made it this far, your company will finally meet all the requirements of ISO/IEC 5230.&lt;/p>
-&lt;p>&lt;img src="totalno.png" alt="">&lt;/p></description></item><item><title>Guide: Appendix</title><link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/</guid><description/></item></channel></rss>
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If you have this training and evaluation system, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;ISO/IEC 5230&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;3.1.2.3 Documented evidence of assessed competence for each program participant.&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Self Certify&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;1.e : Have you documented evidence of assessed competence for each Program participant?&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;open-source-license-guide&#34;&gt;Open Source License Guide&lt;/h2&gt;
+&lt;p&gt;To properly comply with open source licenses, you must know exactly what each open source license requires. However, since it is difficult for a software developer to figure it out on their own, it is recommended that an open source program manager identify requirements / conditions for common use cases for frequently used open source licenses and share them within the company.&lt;/p&gt;
+&lt;p&gt;The Open Source License Guide should include requirements specific to common open source licensing use cases to ensure that software developers use open source and comply with its license obligations properly.&lt;/p&gt;
+&lt;p&gt;For general guides on open source licenses and summary of license obligations, refer to the &lt;a href=&#34;https://www.osadl.org/Access-to-raw-data.oss-compliance-raw-data-access.0.html&#34;&gt;Open Source License Checklists&lt;/a&gt; provided by the OSADL.&lt;/p&gt;
+&lt;p&gt;The document &lt;a href=&#34;https://sktelecom.github.io/guide/use/obligation/&#34;&gt;Obligations by license&lt;/a&gt; in SK Telecom&amp;rsquo;s open source guide is also a good resource (Korean only).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;sktlicenseguide.png&#34; alt=&#34;&#34;&gt;
+&lt;a href=&#34;https://sktelecom.github.io/guide/use/obligation/gpl-2.0/&#34;&gt;https://sktelecom.github.io/guide/use/obligation/gpl-2.0/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you provide this open source licensing guide, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;ISO/IEC 5230&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;3.3.2.1 A documented procedure for handling the common open source license use cases for the open source components of the supplied software.&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Self Certify&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;3.c Have you implemented a procedure that handles at least the following common open source license use cases for the open source components of each supplied Supplied Software release?&lt;br&gt;i - distributed in binary form;&lt;br&gt;ii - distributed in source form;&lt;br&gt;iii - integrated with other open source such that it may trigger copyleft obligations;&lt;br&gt;iv - contains modified open source;&lt;br&gt;v - contains open source or other software under an incompatible license interacting with other components within the Supplied Software;&lt;br&gt;vi - contains open source with attribution requirements.&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;If you build an environment for providing training, assessment and guide in this way, you will comply with ISO/IEC 5230 requirements as follows.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;trainingno.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Guide: 8. Conformance</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/8-conforming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/8-conforming/</guid>
+      <description>
+        
+        
+        &lt;p&gt;If you build an open source program (open source policy / process / tool / organization) that complies with all requirements except Article 6 of the ISO/IEC 5230 standard, you can write and publish a document specifying the following two.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;A document affirming the program specified in requirement §3.1.4 satisfies all the requirements of this specification.&lt;/li&gt;
+&lt;li&gt;A document affirming the program meets all the requirements of this version of the specification (version 2.1), within the past 18 months of obtaining conformance validation&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You may include the above document in the open source policy, or you may publish it through an externally public website.&lt;/p&gt;
+&lt;p&gt;As shown in the image below, you can refer to the content that SK Telecom posted on the open source portal site.
+&lt;img src=&#34;sktiso.png&#34; alt=&#34;&#34;&gt;
+&lt;a href=&#34;https://sktelecom.github.io/en/compliance/iso5230/&#34;&gt;https://sktelecom.github.io/en/compliance/iso5230/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you document that you meet all the requirements of ISO/IEC 5230 in this way, you can prepare the following evidence required by ISO/IEC 5230.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;ISO/IEC 5230&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;3.6.1.1 A document affirming the program specified in requirement §3.1.4 satisfies all the requirements of this specification.&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;3.6.2.1 A document affirming the program meets all the requirements of this version of the specification (version 2.1), within the past 18 months of obtaining conformance validation&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Self Certify&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;6.a : Do you have documentation confirming that your Program meets all the requirements of this specification?&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;6.b : Do you have documentation confirming that your Program conformance was reviewed within the last 18 months?&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;If you&amp;rsquo;ve made it this far, your company will finally meet all the requirements of ISO/IEC 5230.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;totalno.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Guide: Appendix</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

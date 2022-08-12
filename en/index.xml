@@ -1,466 +1,741 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – OpenChain KWG</title><link>https://openChain-project.github.io/OpenChain-KWG/en/</link><description>Recent content on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: SK Telecom is the first Telecommunications Operator to adopt OpenChain ISO 5230</title><link>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210909-sktelecom/</link><pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210909-sktelecom/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210909-sktelecom/featured-sktosrb_hu065adfe0227da2c1679217693f1d110a_422461_640x0_resize_q75_catmullrom.jpeg" width="640" height="414"/>
-&lt;p>SK Telecom, South Korea’s largest wireless carrier, is the first telecommunications operator to adopt OpenChain ISO 5230. This leap forward in governance builds on their long-term mission to lead in technological capabilities in 5G, AI, big data analysis, IoT and quantum cryptography communications as a global ICT leader.&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 910px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/news/20210909-sktelecom/featured_sktlogo_huf164a5478e6b369a40b5565c608d1717_33678_900x600_fit_catmullrom_3.png" width="900" height="355">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-&lt;small class="text-muted">&lt;br/>SK telecom&lt;/small>&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;p>“SK Telecom is preparing for its transition to an AI company, and is strategically using open source to develop advanced technologies in AI, 5G, and cloud technology”, says Kim Yoon, CTO, SK Telecom. “Open source, essential for the early introduction of new technologies and rapid technological change, forms a key part of our strategy. We adopted OpenChain ISO 5230, the International Standard for open source compliance, to ensure effective process management in this space. We are also spreading our know-how around complying with open source international standards to SK affiliates and software supply chains to drive further expansion of open source ecosystems and to deliver even greater social value.”&lt;/p>
-&lt;hr>
-&lt;p>See the original article for more details. : &lt;a href="https://www.openchainproject.org/featured/2021/09/08/sk-telecom">https://www.openchainproject.org/featured/2021/09/08/sk-telecom&lt;/a>&lt;/p></description></item><item><title>Blog: Samsung Electronics Announces OpenChain ISO 5230 Conformance</title><link>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210708-samsung/</link><pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210708-samsung/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210708-samsung/featured-logo_hu3229618b118901ed8942940e48d6a67e_139061_640x0_resize_q75_catmullrom.jpeg" width="640" height="355"/>
-&lt;p>Samsung Electronics announces adoption of OpenChain ISO 5230, the International Standard for open source compliance. They join a growing community of companies in the consumer electronics, automotive, cloud computing and telecommunications field in using this standard to manage supply chains.&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 910px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/news/20210708-samsung/featured-samsunglogo_hu64cfd9a56a6c25f2f95c8cb75d7b14d6_45385_900x600_fit_catmullrom_3.png" width="900" height="138">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-&lt;small class="text-muted">&lt;br/>Samsung&lt;/small>&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;p>“Samsung Electronics has been consistently striving to build an open source compliance process. Our adoption of OpenChain ISO 5230 reflects our ongoing commitment to excellence in our field,” says Daniel Park, Head of Open Source Group. “OpenChain has greatly helped improve the efficiency and confidence of the process. We are pleased to be a part of OpenChain and sincerely look forward to further developing this standard with our peers and suppliers.”&lt;/p>
-&lt;hr>
-&lt;p>See the original article for more details. : &lt;a href="https://www.openchainproject.org/featured/2021/07/07/samsung-electronics-announces-openchain-iso-5230-conformance">https://www.openchainproject.org/featured/2021/07/07/samsung-electronics-announces-openchain-iso-5230-conformance&lt;/a>&lt;/p></description></item><item><title>Blog: 오픈소스SW 관리 툴 ‘포스라이트’ 공개한 LG전자, “글로벌 표준 거듭나겠다”</title><link>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210628-fosslight/</link><pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210628-fosslight/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210628-fosslight/featured-fosslight_hu2c94f93077316e74175207ca4deae911_89690_640x0_resize_q75_catmullrom.jpeg" width="640" height="481"/>
-&lt;p>최근 LG전자가 자체 개발해 2014년부터 운영해오고 있는 오픈소스 SW관리 도구인 ‘포스라이트(FOSSLight ; Free and Open Source Software Light)’를 공개해 주목을 받고 있다.
-&lt;a href="https://fosslight.org/">포스라이트&lt;/a>는 개발자의 SW를 분석해 오픈소스를 사용했는지, 오픈소스 사용 조건이나 의무사항을 준수했는지 등을 검증해 주는 툴이다.&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 440px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/news/20210628-fosslight/featured-fosslight_hu2c94f93077316e74175207ca4deae911_89690_900x600_fit_q75_catmullrom.jpeg" width="430" height="323">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenChain KWG – OpenChain KWG</title>
+    <link>https://openChain-project.github.io/OpenChain-KWG/en/</link>
+    <description>Recent content on OpenChain KWG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://openChain-project.github.io/OpenChain-KWG/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+      
+    
+    
+    <item>
+      <title>Blog: SK Telecom is the first Telecommunications Operator to adopt OpenChain ISO 5230</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210909-sktelecom/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210909-sktelecom/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210909-sktelecom/featured-sktosrb_hu065adfe0227da2c1679217693f1d110a_422461_640x0_resize_q75_catmullrom.jpeg" width="640" height="414"/>]]>
+        
+        &lt;p&gt;SK Telecom, South Korea’s largest wireless carrier, is the first telecommunications operator to adopt OpenChain ISO 5230. This leap forward in governance builds on their long-term mission to lead in technological capabilities in 5G, AI, big data analysis, IoT and quantum cryptography communications as a global ICT leader.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 910px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/news/20210909-sktelecom/featured_sktlogo_huf164a5478e6b369a40b5565c608d1717_33678_900x600_fit_catmullrom_3.png&#34; width=&#34;900&#34; height=&#34;355&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;small class=&#34;text-muted&#34;&gt;&lt;br/&gt;SK telecom&lt;/small&gt;&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;“SK Telecom is preparing for its transition to an AI company, and is strategically using open source to develop advanced technologies in AI, 5G, and cloud technology”, says Kim Yoon, CTO, SK Telecom. “Open source, essential for the early introduction of new technologies and rapid technological change, forms a key part of our strategy. We adopted OpenChain ISO 5230, the International Standard for open source compliance, to ensure effective process management in this space. We are also spreading our know-how around complying with open source international standards to SK affiliates and software supply chains to drive further expansion of open source ecosystems and to deliver even greater social value.”&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;See the original article for more details. : &lt;a href=&#34;https://www.openchainproject.org/featured/2021/09/08/sk-telecom&#34;&gt;https://www.openchainproject.org/featured/2021/09/08/sk-telecom&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Samsung Electronics Announces OpenChain ISO 5230 Conformance</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210708-samsung/</link>
+      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210708-samsung/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210708-samsung/featured-logo_hu3229618b118901ed8942940e48d6a67e_139061_640x0_resize_q75_catmullrom.jpeg" width="640" height="355"/>]]>
+        
+        &lt;p&gt;Samsung Electronics announces adoption of OpenChain ISO 5230, the International Standard for open source compliance. They join a growing community of companies in the consumer electronics, automotive, cloud computing and telecommunications field in using this standard to manage supply chains.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 910px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/news/20210708-samsung/featured-samsunglogo_hu64cfd9a56a6c25f2f95c8cb75d7b14d6_45385_900x600_fit_catmullrom_3.png&#34; width=&#34;900&#34; height=&#34;138&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;small class=&#34;text-muted&#34;&gt;&lt;br/&gt;Samsung&lt;/small&gt;&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;“Samsung Electronics has been consistently striving to build an open source compliance process. Our adoption of OpenChain ISO 5230 reflects our ongoing commitment to excellence in our field,” says Daniel Park, Head of Open Source Group. “OpenChain has greatly helped improve the efficiency and confidence of the process. We are pleased to be a part of OpenChain and sincerely look forward to further developing this standard with our peers and suppliers.”&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;See the original article for more details. : &lt;a href=&#34;https://www.openchainproject.org/featured/2021/07/07/samsung-electronics-announces-openchain-iso-5230-conformance&#34;&gt;https://www.openchainproject.org/featured/2021/07/07/samsung-electronics-announces-openchain-iso-5230-conformance&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: 오픈소스SW 관리 툴 ‘포스라이트’ 공개한 LG전자, “글로벌 표준 거듭나겠다”</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210628-fosslight/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210628-fosslight/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210628-fosslight/featured-fosslight_hu2c94f93077316e74175207ca4deae911_89690_640x0_resize_q75_catmullrom.jpeg" width="640" height="481"/>]]>
+        
+        &lt;p&gt;최근 LG전자가 자체 개발해 2014년부터 운영해오고 있는 오픈소스 SW관리 도구인 ‘포스라이트(FOSSLight ; Free and Open Source Software Light)’를 공개해 주목을 받고 있다.
+&lt;a href=&#34;https://fosslight.org/&#34;&gt;포스라이트&lt;/a&gt;는 개발자의 SW를 분석해 오픈소스를 사용했는지, 오픈소스 사용 조건이나 의무사항을 준수했는지 등을 검증해 주는 툴이다.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 440px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/news/20210628-fosslight/featured-fosslight_hu2c94f93077316e74175207ca4deae911_89690_900x600_fit_q75_catmullrom.jpeg&#34; width=&#34;430&#34; height=&#34;323&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
 LG전자 오픈소스 태스크. 사진 왼쪽부터 방재권 선임, 김소임 선임, 최혜성 책임, 김경애 리더, 석지영 선임, 박원재 선임
-&lt;small class="text-muted">&lt;br/>백지영 기자&lt;/small>&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;p>‘포스라이트’라는 이름으로 외부에 공개하면서 안정성과 기능을 확대하는 한편 글로벌 인지도를 높일 수 있게 할 계획이다. 포스라이트에는 ‘세상에 빛을 밝혀줄 오픈소스’라는 의미가 담겼다.&lt;/p>
-&lt;hr>
-&lt;p>자세한 내용은 기사 원문에서 확인하세요. : &lt;a href="https://n.news.naver.com/article/138/0002105818">https://n.news.naver.com/article/138/0002105818&lt;/a>&lt;/p></description></item><item><title>Blog: 한 달 걸리던 카카오톡 오픈소스 관리, 이틀이면 충분</title><link>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210628-olive/</link><pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210628-olive/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210628-olive/featured-olive_hue5579ffc1af7d7a3463298b978caa6cc_25759_640x0_resize_q75_catmullrom.jpeg" width="640" height="434"/>
-&lt;p>“한 달이 걸리던 카카오톡 오픈소스 관리 작업을 올리브를 사용하면 하루 이틀이면 충분할 것이다.”&lt;/p>
-&lt;p>카카오의 황은경 오픈소스기술파트장은 오픈소스 관리 서비스 &amp;lsquo;올리브&amp;rsquo;의 정식 버전에 대해 소개하며 위와 같이 말했다.&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 643px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/news/20210628-olive/featured-olive_hue5579ffc1af7d7a3463298b978caa6cc_25759_900x600_fit_q75_catmullrom.jpeg" width="633" height="429">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-카카오가 오픈소스 관리플랫폼 '올리브'를 29일 정식 출시한다(이미지=카카오)
-&lt;small class="text-muted">&lt;br/>카카오&lt;/small>&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;a href="https://olive.kakao.com/intro">올리브&lt;/a>는 복잡한 오픈소스 라이선스 관리를 자동화하는 개발 지원 도구다. 자동으로 소프트웨어를 분석해 오픈소스를 사용했는지, 오픈소스 사용 조건이나 의무사항 등을 목록별로 정리해 제공한다.&lt;/p>
-&lt;hr>
-&lt;p>자세한 내용은 기사 원문에서 확인하세요. : &lt;a href="https://zdnet.co.kr/view/?no=20210628143239">https://zdnet.co.kr/view/?no=20210628143239&lt;/a>&lt;/p></description></item><item><title>Blog: SK텔레콤, 개발자와 소통하는 커뮤니티 ‘DEVOCEAN’ 론칭</title><link>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210614-devocean/</link><pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210614-devocean/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210614-devocean/featured-devocean_hu14eeb2e9bb7ca8a2f7495fccba6aca57_92060_640x0_resize_q75_catmullrom.jpeg" width="640" height="398"/>
-&lt;p>SK텔레콤이 스타트업·대학 등 외부 개발자들과 소통하는 오픈 커뮤니티를 론칭하며 SK의 ICT 역량을 적극 공유에 나선다.&lt;/p>
-&lt;p>‘&lt;a href="https://devocean.sk.com/">데보션&lt;/a>’은 개발자들을 위한 영감의 바다(Developer’s Ocean)라는 뜻으로, 개발자들이 지식과 경허을 공유하는 커뮤니티를 ‘바다’에 비유했다.&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 810px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/news/20210614-devocean/featured-devocean_hu14eeb2e9bb7ca8a2f7495fccba6aca57_92060_900x600_fit_q75_catmullrom.jpeg" width="800" height="498">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
+&lt;small class=&#34;text-muted&#34;&gt;&lt;br/&gt;백지영 기자&lt;/small&gt;&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;‘포스라이트’라는 이름으로 외부에 공개하면서 안정성과 기능을 확대하는 한편 글로벌 인지도를 높일 수 있게 할 계획이다. 포스라이트에는 ‘세상에 빛을 밝혀줄 오픈소스’라는 의미가 담겼다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;자세한 내용은 기사 원문에서 확인하세요. : &lt;a href=&#34;https://n.news.naver.com/article/138/0002105818&#34;&gt;https://n.news.naver.com/article/138/0002105818&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: 한 달 걸리던 카카오톡 오픈소스 관리, 이틀이면 충분</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210628-olive/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210628-olive/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210628-olive/featured-olive_hue5579ffc1af7d7a3463298b978caa6cc_25759_640x0_resize_q75_catmullrom.jpeg" width="640" height="434"/>]]>
+        
+        &lt;p&gt;“한 달이 걸리던 카카오톡 오픈소스 관리 작업을 올리브를 사용하면 하루 이틀이면 충분할 것이다.”&lt;/p&gt;
+&lt;p&gt;카카오의 황은경 오픈소스기술파트장은 오픈소스 관리 서비스 &amp;lsquo;올리브&amp;rsquo;의 정식 버전에 대해 소개하며 위와 같이 말했다.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 643px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/news/20210628-olive/featured-olive_hue5579ffc1af7d7a3463298b978caa6cc_25759_900x600_fit_q75_catmullrom.jpeg&#34; width=&#34;633&#34; height=&#34;429&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+카카오가 오픈소스 관리플랫폼 &#39;올리브&#39;를 29일 정식 출시한다(이미지=카카오)
+&lt;small class=&#34;text-muted&#34;&gt;&lt;br/&gt;카카오&lt;/small&gt;&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;https://olive.kakao.com/intro&#34;&gt;올리브&lt;/a&gt;는 복잡한 오픈소스 라이선스 관리를 자동화하는 개발 지원 도구다. 자동으로 소프트웨어를 분석해 오픈소스를 사용했는지, 오픈소스 사용 조건이나 의무사항 등을 목록별로 정리해 제공한다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;자세한 내용은 기사 원문에서 확인하세요. : &lt;a href=&#34;https://zdnet.co.kr/view/?no=20210628143239&#34;&gt;https://zdnet.co.kr/view/?no=20210628143239&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: SK텔레콤, 개발자와 소통하는 커뮤니티 ‘DEVOCEAN’ 론칭</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210614-devocean/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210614-devocean/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/news/20210614-devocean/featured-devocean_hu14eeb2e9bb7ca8a2f7495fccba6aca57_92060_640x0_resize_q75_catmullrom.jpeg" width="640" height="398"/>]]>
+        
+        &lt;p&gt;SK텔레콤이 스타트업·대학 등 외부 개발자들과 소통하는 오픈 커뮤니티를 론칭하며 SK의 ICT 역량을 적극 공유에 나선다.&lt;/p&gt;
+&lt;p&gt;‘&lt;a href=&#34;https://devocean.sk.com/&#34;&gt;데보션&lt;/a&gt;’은 개발자들을 위한 영감의 바다(Developer’s Ocean)라는 뜻으로, 개발자들이 지식과 경허을 공유하는 커뮤니티를 ‘바다’에 비유했다.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 810px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/news/20210614-devocean/featured-devocean_hu14eeb2e9bb7ca8a2f7495fccba6aca57_92060_900x600_fit_q75_catmullrom.jpeg&#34; width=&#34;800&#34; height=&#34;498&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
 SK텔레콤은 SK하이닉스, SK㈜C&amp;C, SK브로드밴드, SK플래닛 등 SK ICT패밀리사 개발전문가들과 외부 개발인재간 소통과 기술 공유를 위한 디벨로퍼 릴레이션 채널인 ‘데보션’을 론칭했다. 사진=SK텔레콤
-&lt;small class="text-muted">&lt;br/>SK텔레콤&lt;/small>&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;hr>
-&lt;p>자세한 내용은 기사 원문에서 확인하세요. : &lt;a href="https://www.fntimes.com/html/view.php?ud=202106140855478693645ffc9771_18">https://www.fntimes.com/html/view.php?ud=202106140855478693645ffc9771_18&lt;/a>&lt;/p></description></item><item><title>Blog: Opensource license used by IT Companies</title><link>https://openChain-project.github.io/OpenChain-KWG/en/blog/2021/20210115-opensource-license-used-by-it-companies/</link><pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/2021/20210115-opensource-license-used-by-it-companies/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/2021/20210115-opensource-license-used-by-it-companies/featured-github_hu51c175f0bc73f8141f28734af3e5d00b_391177_640x0_resize_catmullrom_3.png" width="640" height="360"/>
-&lt;h2 id="epam-github-activity-ranking-and-license-status-by-enterprise-in-2020-osci">EPAM, Github Activity Ranking and License Status by Enterprise in 2020 (OSCI)&lt;/h2>
-&lt;p>&lt;img src="featured-github.png" alt="featured-github">&lt;/p>
-&lt;p>&lt;a href="https://www.epam.com/">EPAM&lt;/a>, which develops and consults Enterprise Software, provides a ranking service called &lt;a href="https://solutionshub.epam.com/osci">OSCI (Open Source Contributor Index)&lt;/a> that measures Github usage.&lt;/p>
-&lt;p>Measures the contributions of members of a commercial organization using publicly available Github Committed event data. Contributions from universities, research institutes and free email providers were not included. The target is contributors who have performed more than 10 commits, and the activity score is measured by an algorithm they have studied. The algorithm is published in &lt;a href="https://github.com/epam/OSCI">OSCI Github&lt;/a>.&lt;/p>
-&lt;h3 id="osci-open-source-contributor-index">OSCI (Open Source Contributor Index)&lt;/h3>
-&lt;p>&lt;a href="https://solutionshub.epam.com/osci">https://solutionshub.epam.com/osci&lt;/a>
-&lt;img src="contributing-ranking.png" alt="contributing-ranking">&lt;/p>
-&lt;p>According to the analysis score, Google is at the forefront, with Microsoft and Red Hat coming next. Samsung is ranked 29th for Korean companies and LG Electronics is ranked 71st.&lt;/p>
-&lt;h2 id="license-status-used-by-major-companies">License Status used by Major Companies&lt;/h2>
-&lt;p>See &lt;a href="(https://solutionshub.epam.com/blog/post/examining-open-source-license-usage)">Open Source License Usage Survey&lt;/a>&lt;/p></description></item><item><title>Blog: ISO Standard, OpenChain</title><link>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/20201216-iso-standard-openchain/</link><pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/20201216-iso-standard-openchain/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/20201216-iso-standard-openchain/featured-openchain-logo_hu8867dc5e6101eed4d7e5cae707819046_27741_640x0_resize_catmullrom_3.png" width="640" height="356"/>
-&lt;p>&lt;img src="featured-openchain-logo.png" alt="featured-cover">&lt;/p>
-&lt;p>On December 15, 2020, OpenChain Specification 2.1 was officially published as an international standard &lt;a href="https://www.iso.org/standard/81039.html">ISO/IEC 5230:2020&lt;/a>.&lt;/p>
-&lt;p>For more information on this, please refer to the following article. : &lt;a href="https://world.einnews.com/pr_news/532725924/iso-iec-5230-2020-is-the-international-standard-for-open-source-compliance">https://world.einnews.com/pr_news/532725924/iso-iec-5230-2020-is-the-international-standard-for-open-source-compliance&lt;/a>&lt;/p></description></item><item><title>Blog: Kakao Training Material</title><link>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/20201124-kakao-training-materials/</link><pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/20201124-kakao-training-materials/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/20201124-kakao-training-materials/featured-kakao-guide_hue464c17a889a8c1bdee5ff249108a58e_3462491_640x0_resize_catmullrom_3.png" width="640" height="360"/>
-&lt;p>The open source technology part of &lt;a href="https://www.kakaocorp.com/">Kakao&lt;/a> has released open source educational materials for in-house developers so that anyone can read it.&lt;/p>
-&lt;p>&lt;img src="featured-kakao-guide.png" alt="featured-kakao-guide">&lt;/p>
-&lt;h2 id="download">Download&lt;/h2>
-&lt;p>Training materials can be downloaded from the following page.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="http://t1.kakaocdn.net/olive/assets/opensource_guide_kakao.pdf">http://t1.kakaocdn.net/olive/assets/opensource_guide_kakao.pdf&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;hr></description></item><item><title>Blog: NCSOFT Training Material</title><link>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/20201123-ncsoft-training-materials/</link><pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/20201123-ncsoft-training-materials/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/20201123-ncsoft-training-materials/featured-cover_hu003f16982aa978f5b0a1755141a97a27_67333_640x0_resize_catmullrom_3.png" width="640" height="344"/>
-&lt;p>&lt;a href="https://global.ncsoft.com/">NCSOFT&lt;/a> has released lecture slides and scripts, which are open source educational materials in-house, on &lt;a href="https://github.com/ncsoft/oss-basic-training">GitHub&lt;/a> based on the spirit of sharing open source so that anyone can use them.&lt;/p>
-&lt;p>Companies that develop/distribute software can use this slide as it is or extract/modify necessary parts when preparing for in-house open source training.&lt;/p>
-&lt;p>&lt;img src="featured-cover.png" alt="cover">&lt;/p>
-&lt;p>Anyone can participate in modifying and supplementing these materials through &lt;a href="https://github.com/ncsoft/oss-basic-training">GitHub&lt;/a>.&lt;/p>
-&lt;h2 id="download">Download&lt;/h2>
-&lt;p>These materials can be downloaded from the following page.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/ncsoft/oss-basic-training/tree/master/source">https://github.com/ncsoft/oss-basic-training/tree/master/source&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="maintainer">Maintainer&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Name&lt;/th>
-&lt;th>Company&lt;/th>
-&lt;th>Email&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Peter Jiho Han&lt;/td>
-&lt;td>NCSOFT&lt;/td>
-&lt;td>&lt;a href="mailto:yulica37@ncsoft.com">yulica37@ncsoft.com&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Dasom Han&lt;/td>
-&lt;td>NCSOFT&lt;/td>
-&lt;td>&lt;a href="mailto:dasom12@ncsoft.com">dasom12@ncsoft.com&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="license">License&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;hr></description></item><item><title>Blog: Open Source Compliance in the Enterprise</title><link>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/20201123-ncsoft-compliance-book/</link><pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/20201123-ncsoft-compliance-book/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/20201123-ncsoft-compliance-book/featured-book_hu507ff350081ed18a3212a79b7740fd25_253665_640x0_resize_catmullrom_3.png" width="640" height="471"/>
-&lt;h2 id="introducing-the-open-source-compliance-in-the-enterprise-book">Introducing the Open Source Compliance in the Enterprise book&lt;/h2>
-&lt;p>This book was written by &lt;a href="https://www.ibrahimatlinux.com/about.html">Ibrahim Haddad&lt;/a> and &lt;a href="https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/">published&lt;/a> by the Linux Foundation.&lt;/p>
-&lt;img src="featured-book.png" width="300">
-&lt;p>It explains in detail what to consider when building an open source compliance program in a business, and anyone can download it from the following link : &lt;a href="https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/">Download&lt;/a>&lt;/p>
-&lt;h2 id="korean-summary">Korean summary&lt;/h2>
-&lt;p>NCSOFT summarized the main contents of this book in Korean, and after getting permission from the author, Ibrahim, they released it so that open source people of Korean companies can refer to it.&lt;/p>
-&lt;p>In particular, NCSOFT shared this on GitHub so that anyone can refer to it, improve it, and continue to develop it.&lt;/p>
-&lt;ul>
-&lt;li>GitHub : &lt;a href="https://github.com/ncsoft/osc-enterprise-ko/">https://github.com/ncsoft/osc-enterprise-ko/&lt;/a>&lt;/li>
-&lt;li>License : CC BY 4.0&lt;/li>
-&lt;li>Slide : &lt;a href="OSC-Enterprise-ko_OpenchainKWG_20200317_FN.pdf">OSC-Enterprise-ko_Openchain_KWG_20200317_FN.pdf&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="contributors">Contributors&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Name&lt;/th>
-&lt;th>Company&lt;/th>
-&lt;th>Email&lt;/th>
-&lt;th>Role&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Dasom Han&lt;/td>
-&lt;td>NCSOFT&lt;/td>
-&lt;td>&lt;a href="mailto:dasom12@ncsoft.com">dasom12@ncsoft.com&lt;/a>&lt;/td>
-&lt;td>Maintainer&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Peter Jiho Han&lt;/td>
-&lt;td>NCSOFT&lt;/td>
-&lt;td>&lt;a href="mailto:yulica37@ncsoft.com">yulica37@ncsoft.com&lt;/a>&lt;/td>
-&lt;td>Contributor&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;hr></description></item><item><title>Blog: How to blog</title><link>https://openChain-project.github.io/OpenChain-KWG/en/blog/sample/how-to/</link><pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/sample/how-to/</guid><description>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;p>The blog on the OpenChain Korea Work Group website shares articles on open source.&lt;/p>
-&lt;p>Any member of the OpenChain Korea Work Group can write.&lt;/p>
-&lt;p>Please refer to the guide on the next page. : &lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/wiki/Blog-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0">How to write a blog&lt;/a>&lt;/p>
-&lt;/div></description></item><item><title>Blog: The sample blog post</title><link>https://openChain-project.github.io/OpenChain-KWG/en/blog/sample/sample-post/</link><pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/sample/sample-post/</guid><description>
-&lt;img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/sample/sample-post/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_640x0_resize_catmullrom_3.png" width="640" height="253"/>
-&lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://github.com">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
-&lt;p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&lt;/p>
-&lt;p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&lt;/p>
-&lt;blockquote>
-&lt;p>There should be no margin above this first sentence.&lt;/p>
-&lt;p>Blockquotes should be a lighter gray with a border along the left side in the secondary color.&lt;/p>
-&lt;p>There should be no margin below this final sentence.&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="first-header">First Header&lt;/h2>
-&lt;p>This is a normal paragraph following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.&lt;/p>
-&lt;p>Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.&lt;/p>
-&lt;p>On big screens, paragraphs and headings should not take up the full container width, but we want tables, code blocks and similar to take the full width.&lt;/p>
-&lt;p>Lorem markdownum tuta hospes stabat; idem saxum facit quaterque repetito
+&lt;small class=&#34;text-muted&#34;&gt;&lt;br/&gt;SK텔레콤&lt;/small&gt;&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;p&gt;자세한 내용은 기사 원문에서 확인하세요. : &lt;a href=&#34;https://www.fntimes.com/html/view.php?ud=202106140855478693645ffc9771_18&#34;&gt;https://www.fntimes.com/html/view.php?ud=202106140855478693645ffc9771_18&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Opensource license used by IT Companies</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/blog/2021/20210115-opensource-license-used-by-it-companies/</link>
+      <pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/2021/20210115-opensource-license-used-by-it-companies/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/2021/20210115-opensource-license-used-by-it-companies/featured-github_hu51c175f0bc73f8141f28734af3e5d00b_391177_640x0_resize_catmullrom_3.png" width="640" height="360"/>]]>
+        
+        &lt;h2 id=&#34;epam-github-activity-ranking-and-license-status-by-enterprise-in-2020-osci&#34;&gt;EPAM, Github Activity Ranking and License Status by Enterprise in 2020 (OSCI)&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;featured-github.png&#34; alt=&#34;featured-github&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.epam.com/&#34;&gt;EPAM&lt;/a&gt;, which develops and consults Enterprise Software, provides a ranking service called &lt;a href=&#34;https://solutionshub.epam.com/osci&#34;&gt;OSCI (Open Source Contributor Index)&lt;/a&gt; that measures Github usage.&lt;/p&gt;
+&lt;p&gt;Measures the contributions of members of a commercial organization using publicly available Github Committed event data. Contributions from universities, research institutes and free email providers were not included. The target is contributors who have performed more than 10 commits, and the activity score is measured by an algorithm they have studied. The algorithm is published in &lt;a href=&#34;https://github.com/epam/OSCI&#34;&gt;OSCI Github&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;osci-open-source-contributor-index&#34;&gt;OSCI (Open Source Contributor Index)&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://solutionshub.epam.com/osci&#34;&gt;https://solutionshub.epam.com/osci&lt;/a&gt;
+&lt;img src=&#34;contributing-ranking.png&#34; alt=&#34;contributing-ranking&#34;&gt;&lt;/p&gt;
+&lt;p&gt;According to the analysis score, Google is at the forefront, with Microsoft and Red Hat coming next. Samsung is ranked 29th for Korean companies and LG Electronics is ranked 71st.&lt;/p&gt;
+&lt;h2 id=&#34;license-status-used-by-major-companies&#34;&gt;License Status used by Major Companies&lt;/h2&gt;
+&lt;p&gt;See &lt;a href=&#34;(https://solutionshub.epam.com/blog/post/examining-open-source-license-usage)&#34;&gt;Open Source License Usage Survey&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: ISO Standard, OpenChain</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/20201216-iso-standard-openchain/</link>
+      <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/20201216-iso-standard-openchain/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/20201216-iso-standard-openchain/featured-openchain-logo_hu8867dc5e6101eed4d7e5cae707819046_27741_640x0_resize_catmullrom_3.png" width="640" height="356"/>]]>
+        
+        &lt;p&gt;&lt;img src=&#34;featured-openchain-logo.png&#34; alt=&#34;featured-cover&#34;&gt;&lt;/p&gt;
+&lt;p&gt;On December 15, 2020, OpenChain Specification 2.1 was officially published as an international standard &lt;a href=&#34;https://www.iso.org/standard/81039.html&#34;&gt;ISO/IEC 5230:2020&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For more information on this, please refer to the following article. : &lt;a href=&#34;https://world.einnews.com/pr_news/532725924/iso-iec-5230-2020-is-the-international-standard-for-open-source-compliance&#34;&gt;https://world.einnews.com/pr_news/532725924/iso-iec-5230-2020-is-the-international-standard-for-open-source-compliance&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Kakao Training Material</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/20201124-kakao-training-materials/</link>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/20201124-kakao-training-materials/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/20201124-kakao-training-materials/featured-kakao-guide_hue464c17a889a8c1bdee5ff249108a58e_3462491_640x0_resize_catmullrom_3.png" width="640" height="360"/>]]>
+        
+        &lt;p&gt;The open source technology part of &lt;a href=&#34;https://www.kakaocorp.com/&#34;&gt;Kakao&lt;/a&gt; has released open source educational materials for in-house developers so that anyone can read it.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;featured-kakao-guide.png&#34; alt=&#34;featured-kakao-guide&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;download&#34;&gt;Download&lt;/h2&gt;
+&lt;p&gt;Training materials can be downloaded from the following page.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://t1.kakaocdn.net/olive/assets/opensource_guide_kakao.pdf&#34;&gt;http://t1.kakaocdn.net/olive/assets/opensource_guide_kakao.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: NCSOFT Training Material</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/20201123-ncsoft-training-materials/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/20201123-ncsoft-training-materials/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/20201123-ncsoft-training-materials/featured-cover_hu003f16982aa978f5b0a1755141a97a27_67333_640x0_resize_catmullrom_3.png" width="640" height="344"/>]]>
+        
+        &lt;p&gt;&lt;a href=&#34;https://global.ncsoft.com/&#34;&gt;NCSOFT&lt;/a&gt; has released lecture slides and scripts, which are open source educational materials in-house, on &lt;a href=&#34;https://github.com/ncsoft/oss-basic-training&#34;&gt;GitHub&lt;/a&gt; based on the spirit of sharing open source so that anyone can use them.&lt;/p&gt;
+&lt;p&gt;Companies that develop/distribute software can use this slide as it is or extract/modify necessary parts when preparing for in-house open source training.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;featured-cover.png&#34; alt=&#34;cover&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Anyone can participate in modifying and supplementing these materials through &lt;a href=&#34;https://github.com/ncsoft/oss-basic-training&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;download&#34;&gt;Download&lt;/h2&gt;
+&lt;p&gt;These materials can be downloaded from the following page.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ncsoft/oss-basic-training/tree/master/source&#34;&gt;https://github.com/ncsoft/oss-basic-training/tree/master/source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;maintainer&#34;&gt;Maintainer&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Company&lt;/th&gt;
+&lt;th&gt;Email&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Peter Jiho Han&lt;/td&gt;
+&lt;td&gt;NCSOFT&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;mailto:yulica37@ncsoft.com&#34;&gt;yulica37@ncsoft.com&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Dasom Han&lt;/td&gt;
+&lt;td&gt;NCSOFT&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;mailto:dasom12@ncsoft.com&#34;&gt;dasom12@ncsoft.com&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;CC-BY 4.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Open Source Compliance in the Enterprise</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/20201123-ncsoft-compliance-book/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/20201123-ncsoft-compliance-book/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/2020/20201123-ncsoft-compliance-book/featured-book_hu507ff350081ed18a3212a79b7740fd25_253665_640x0_resize_catmullrom_3.png" width="640" height="471"/>]]>
+        
+        &lt;h2 id=&#34;introducing-the-open-source-compliance-in-the-enterprise-book&#34;&gt;Introducing the Open Source Compliance in the Enterprise book&lt;/h2&gt;
+&lt;p&gt;This book was written by &lt;a href=&#34;https://www.ibrahimatlinux.com/about.html&#34;&gt;Ibrahim Haddad&lt;/a&gt; and &lt;a href=&#34;https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/&#34;&gt;published&lt;/a&gt; by the Linux Foundation.&lt;/p&gt;
+&lt;img src=&#34;featured-book.png&#34; width=&#34;300&#34;&gt;
+&lt;p&gt;It explains in detail what to consider when building an open source compliance program in a business, and anyone can download it from the following link : &lt;a href=&#34;https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/&#34;&gt;Download&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;korean-summary&#34;&gt;Korean summary&lt;/h2&gt;
+&lt;p&gt;NCSOFT summarized the main contents of this book in Korean, and after getting permission from the author, Ibrahim, they released it so that open source people of Korean companies can refer to it.&lt;/p&gt;
+&lt;p&gt;In particular, NCSOFT shared this on GitHub so that anyone can refer to it, improve it, and continue to develop it.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub : &lt;a href=&#34;https://github.com/ncsoft/osc-enterprise-ko/&#34;&gt;https://github.com/ncsoft/osc-enterprise-ko/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;License : CC BY 4.0&lt;/li&gt;
+&lt;li&gt;Slide : &lt;a href=&#34;OSC-Enterprise-ko_OpenchainKWG_20200317_FN.pdf&#34;&gt;OSC-Enterprise-ko_Openchain_KWG_20200317_FN.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;contributors&#34;&gt;Contributors&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Company&lt;/th&gt;
+&lt;th&gt;Email&lt;/th&gt;
+&lt;th&gt;Role&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Dasom Han&lt;/td&gt;
+&lt;td&gt;NCSOFT&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;mailto:dasom12@ncsoft.com&#34;&gt;dasom12@ncsoft.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Maintainer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Peter Jiho Han&lt;/td&gt;
+&lt;td&gt;NCSOFT&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;mailto:yulica37@ncsoft.com&#34;&gt;yulica37@ncsoft.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Contributor&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: How to blog</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/blog/sample/how-to/</link>
+      <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/sample/how-to/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;The blog on the OpenChain Korea Work Group website shares articles on open source.&lt;/p&gt;
+&lt;p&gt;Any member of the OpenChain Korea Work Group can write.&lt;/p&gt;
+&lt;p&gt;Please refer to the guide on the next page. : &lt;a href=&#34;https://github.com/OpenChain-Project/OpenChain-KWG/wiki/Blog-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0&#34;&gt;How to write a blog&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: The sample blog post</title>
+      <link>https://openChain-project.github.io/OpenChain-KWG/en/blog/sample/sample-post/</link>
+      <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openChain-project.github.io/OpenChain-KWG/en/blog/sample/sample-post/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://openChain-project.github.io/OpenChain-KWG/en/blog/sample/sample-post/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_640x0_resize_catmullrom_3.png" width="640" height="253"/>]]>
+        
+        &lt;p&gt;Text can be &lt;strong&gt;bold&lt;/strong&gt;, &lt;em&gt;italic&lt;/em&gt;, or &lt;del&gt;strikethrough&lt;/del&gt;. &lt;a href=&#34;https://github.com&#34;&gt;Links&lt;/a&gt; should be blue with no underlines (unless hovered over).&lt;/p&gt;
+&lt;p&gt;There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&lt;/p&gt;
+&lt;p&gt;There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There should be no margin above this first sentence.&lt;/p&gt;
+&lt;p&gt;Blockquotes should be a lighter gray with a border along the left side in the secondary color.&lt;/p&gt;
+&lt;p&gt;There should be no margin below this final sentence.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;first-header&#34;&gt;First Header&lt;/h2&gt;
+&lt;p&gt;This is a normal paragraph following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.  Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.  Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.&lt;/p&gt;
+&lt;p&gt;Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.&lt;/p&gt;
+&lt;p&gt;On big screens, paragraphs and headings should not take up the full container width, but we want tables, code blocks and similar to take the full width.&lt;/p&gt;
+&lt;p&gt;Lorem markdownum tuta hospes stabat; idem saxum facit quaterque repetito
 occumbere, oves novem gestit haerebat frena; qui. Respicit recurvam erat:
-pignora hinc reppulit nos &lt;strong>aut&lt;/strong>, aptos, ipsa.&lt;/p>
-&lt;p>Meae optatos &lt;em>passa est&lt;/em> Epiros utiliter &lt;em>Talibus niveis&lt;/em>, hoc lata, edidit.
-Dixi ad aestum.&lt;/p>
-&lt;h2 id="header-2">Header 2&lt;/h2>
-&lt;blockquote>
-&lt;p>This is a blockquote following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.&lt;/p>
-&lt;/blockquote>
-&lt;h3 id="header-3">Header 3&lt;/h3>
-&lt;pre tabindex="0">&lt;code>This is a code block following a header.
-&lt;/code>&lt;/pre>&lt;h4 id="header-4">Header 4&lt;/h4>
-&lt;ul>
-&lt;li>This is an unordered list following a header.&lt;/li>
-&lt;li>This is an unordered list following a header.&lt;/li>
-&lt;li>This is an unordered list following a header.&lt;/li>
-&lt;/ul>
-&lt;h5 id="header-5">Header 5&lt;/h5>
-&lt;ol>
-&lt;li>This is an ordered list following a header.&lt;/li>
-&lt;li>This is an ordered list following a header.&lt;/li>
-&lt;li>This is an ordered list following a header.&lt;/li>
-&lt;/ol>
-&lt;h6 id="header-6">Header 6&lt;/h6>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>What&lt;/th>
-&lt;th>Follows&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>A table&lt;/td>
-&lt;td>A header&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>A table&lt;/td>
-&lt;td>A header&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>A table&lt;/td>
-&lt;td>A header&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;hr>
-&lt;p>There&amp;rsquo;s a horizontal rule above and below this.&lt;/p>
-&lt;hr>
-&lt;p>Here is an unordered list:&lt;/p>
-&lt;ul>
-&lt;li>Salt-n-Pepa&lt;/li>
-&lt;li>Bel Biv DeVoe&lt;/li>
-&lt;li>Kid &amp;lsquo;N Play&lt;/li>
-&lt;/ul>
-&lt;p>And an ordered list:&lt;/p>
-&lt;ol>
-&lt;li>Michael Jackson&lt;/li>
-&lt;li>Michael Bolton&lt;/li>
-&lt;li>Michael Bublé&lt;/li>
-&lt;/ol>
-&lt;p>And an unordered task list:&lt;/p>
-&lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> Create a sample markdown document&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> Add task lists to it&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Take a vacation&lt;/li>
-&lt;/ul>
-&lt;p>And a &amp;ldquo;mixed&amp;rdquo; task list:&lt;/p>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Steal underpants&lt;/li>
-&lt;li>?&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Profit!&lt;/li>
-&lt;/ul>
-&lt;p>And a nested list:&lt;/p>
-&lt;ul>
-&lt;li>Jackson 5
-&lt;ul>
-&lt;li>Michael&lt;/li>
-&lt;li>Tito&lt;/li>
-&lt;li>Jackie&lt;/li>
-&lt;li>Marlon&lt;/li>
-&lt;li>Jermaine&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>TMNT
-&lt;ul>
-&lt;li>Leonardo&lt;/li>
-&lt;li>Michelangelo&lt;/li>
-&lt;li>Donatello&lt;/li>
-&lt;li>Raphael&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>Definition lists can be used with Markdown syntax. Definition terms are bold.&lt;/p>
-&lt;dl>
-&lt;dt>Name&lt;/dt>
-&lt;dd>Godzilla&lt;/dd>
-&lt;dt>Born&lt;/dt>
-&lt;dd>1952&lt;/dd>
-&lt;dt>Birthplace&lt;/dt>
-&lt;dd>Japan&lt;/dd>
-&lt;dt>Color&lt;/dt>
-&lt;dd>Green&lt;/dd>
-&lt;/dl>
-&lt;hr>
-&lt;p>Tables should have bold headings and alternating shaded rows.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Artist&lt;/th>
-&lt;th>Album&lt;/th>
-&lt;th>Year&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Michael Jackson&lt;/td>
-&lt;td>Thriller&lt;/td>
-&lt;td>1982&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Prince&lt;/td>
-&lt;td>Purple Rain&lt;/td>
-&lt;td>1984&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Beastie Boys&lt;/td>
-&lt;td>License to Ill&lt;/td>
-&lt;td>1986&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>If a table is too wide, it should scroll horizontally.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Artist&lt;/th>
-&lt;th>Album&lt;/th>
-&lt;th>Year&lt;/th>
-&lt;th>Label&lt;/th>
-&lt;th>Awards&lt;/th>
-&lt;th>Songs&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Michael Jackson&lt;/td>
-&lt;td>Thriller&lt;/td>
-&lt;td>1982&lt;/td>
-&lt;td>Epic Records&lt;/td>
-&lt;td>Grammy Award for Album of the Year, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&amp;amp;B Album, Brit Award for Best Selling Album, Grammy Award for Best Engineered Album, Non-Classical&lt;/td>
-&lt;td>Wanna Be Startin&amp;rsquo; Somethin&amp;rsquo;, Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Prince&lt;/td>
-&lt;td>Purple Rain&lt;/td>
-&lt;td>1984&lt;/td>
-&lt;td>Warner Brothers Records&lt;/td>
-&lt;td>Grammy Award for Best Score Soundtrack for Visual Media, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&amp;amp;B Album, Brit Award for Best Soundtrack/Cast Recording, Grammy Award for Best Rock Performance by a Duo or Group with Vocal&lt;/td>
-&lt;td>Let&amp;rsquo;s Go Crazy, Take Me With U, The Beautiful Ones, Computer Blue, Darling Nikki, When Doves Cry, I Would Die 4 U, Baby I&amp;rsquo;m a Star, Purple Rain&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Beastie Boys&lt;/td>
-&lt;td>License to Ill&lt;/td>
-&lt;td>1986&lt;/td>
-&lt;td>Mercury Records&lt;/td>
-&lt;td>noawardsbutthistablecelliswide&lt;/td>
-&lt;td>Rhymin &amp;amp; Stealin, The New Style, She&amp;rsquo;s Crafty, Posse in Effect, Slow Ride, Girls, (You Gotta) Fight for Your Right, No Sleep Till Brooklyn, Paul Revere, Hold It Now, Hit It, Brass Monkey, Slow and Low, Time to Get Ill&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;hr>
-&lt;p>Code snippets like &lt;code>var foo = &amp;quot;bar&amp;quot;;&lt;/code> can be shown inline.&lt;/p>
-&lt;p>Also, &lt;code>this should vertically align&lt;/code> &lt;del>&lt;code>with this&lt;/code>&lt;/del> &lt;del>and this&lt;/del>.&lt;/p>
-&lt;p>Code can also be shown in a block element.&lt;/p>
-&lt;pre tabindex="0">&lt;code>foo := &amp;#34;bar&amp;#34;;
+pignora hinc reppulit nos &lt;strong&gt;aut&lt;/strong&gt;, aptos, ipsa.&lt;/p&gt;
+&lt;p&gt;Meae optatos &lt;em&gt;passa est&lt;/em&gt; Epiros utiliter &lt;em&gt;Talibus niveis&lt;/em&gt;, hoc lata, edidit.
+Dixi ad aestum.&lt;/p&gt;
+&lt;h2 id=&#34;header-2&#34;&gt;Header 2&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is a blockquote following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;header-3&#34;&gt;Header 3&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;This is a code block following a header.
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;header-4&#34;&gt;Header 4&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;This is an unordered list following a header.&lt;/li&gt;
+&lt;li&gt;This is an unordered list following a header.&lt;/li&gt;
+&lt;li&gt;This is an unordered list following a header.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;header-5&#34;&gt;Header 5&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;This is an ordered list following a header.&lt;/li&gt;
+&lt;li&gt;This is an ordered list following a header.&lt;/li&gt;
+&lt;li&gt;This is an ordered list following a header.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h6 id=&#34;header-6&#34;&gt;Header 6&lt;/h6&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;What&lt;/th&gt;
+&lt;th&gt;Follows&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;A table&lt;/td&gt;
+&lt;td&gt;A header&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;A table&lt;/td&gt;
+&lt;td&gt;A header&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;A table&lt;/td&gt;
+&lt;td&gt;A header&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;There&amp;rsquo;s a horizontal rule above and below this.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Here is an unordered list:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Salt-n-Pepa&lt;/li&gt;
+&lt;li&gt;Bel Biv DeVoe&lt;/li&gt;
+&lt;li&gt;Kid &amp;lsquo;N Play&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And an ordered list:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Michael Jackson&lt;/li&gt;
+&lt;li&gt;Michael Bolton&lt;/li&gt;
+&lt;li&gt;Michael Bublé&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;And an unordered task list:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Create a sample markdown document&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Add task lists to it&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Take a vacation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And a &amp;ldquo;mixed&amp;rdquo; task list:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Steal underpants&lt;/li&gt;
+&lt;li&gt;?&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Profit!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And a nested list:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jackson 5
+&lt;ul&gt;
+&lt;li&gt;Michael&lt;/li&gt;
+&lt;li&gt;Tito&lt;/li&gt;
+&lt;li&gt;Jackie&lt;/li&gt;
+&lt;li&gt;Marlon&lt;/li&gt;
+&lt;li&gt;Jermaine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;TMNT
+&lt;ul&gt;
+&lt;li&gt;Leonardo&lt;/li&gt;
+&lt;li&gt;Michelangelo&lt;/li&gt;
+&lt;li&gt;Donatello&lt;/li&gt;
+&lt;li&gt;Raphael&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Definition lists can be used with Markdown syntax. Definition terms are bold.&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;Name&lt;/dt&gt;
+&lt;dd&gt;Godzilla&lt;/dd&gt;
+&lt;dt&gt;Born&lt;/dt&gt;
+&lt;dd&gt;1952&lt;/dd&gt;
+&lt;dt&gt;Birthplace&lt;/dt&gt;
+&lt;dd&gt;Japan&lt;/dd&gt;
+&lt;dt&gt;Color&lt;/dt&gt;
+&lt;dd&gt;Green&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;hr&gt;
+&lt;p&gt;Tables should have bold headings and alternating shaded rows.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Artist&lt;/th&gt;
+&lt;th&gt;Album&lt;/th&gt;
+&lt;th&gt;Year&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Michael Jackson&lt;/td&gt;
+&lt;td&gt;Thriller&lt;/td&gt;
+&lt;td&gt;1982&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Prince&lt;/td&gt;
+&lt;td&gt;Purple Rain&lt;/td&gt;
+&lt;td&gt;1984&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Beastie Boys&lt;/td&gt;
+&lt;td&gt;License to Ill&lt;/td&gt;
+&lt;td&gt;1986&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;If a table is too wide, it should scroll horizontally.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Artist&lt;/th&gt;
+&lt;th&gt;Album&lt;/th&gt;
+&lt;th&gt;Year&lt;/th&gt;
+&lt;th&gt;Label&lt;/th&gt;
+&lt;th&gt;Awards&lt;/th&gt;
+&lt;th&gt;Songs&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Michael Jackson&lt;/td&gt;
+&lt;td&gt;Thriller&lt;/td&gt;
+&lt;td&gt;1982&lt;/td&gt;
+&lt;td&gt;Epic Records&lt;/td&gt;
+&lt;td&gt;Grammy Award for Album of the Year, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&amp;amp;B Album, Brit Award for Best Selling Album, Grammy Award for Best Engineered Album, Non-Classical&lt;/td&gt;
+&lt;td&gt;Wanna Be Startin&amp;rsquo; Somethin&amp;rsquo;, Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Prince&lt;/td&gt;
+&lt;td&gt;Purple Rain&lt;/td&gt;
+&lt;td&gt;1984&lt;/td&gt;
+&lt;td&gt;Warner Brothers Records&lt;/td&gt;
+&lt;td&gt;Grammy Award for Best Score Soundtrack for Visual Media, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&amp;amp;B Album, Brit Award for Best Soundtrack/Cast Recording, Grammy Award for Best Rock Performance by a Duo or Group with Vocal&lt;/td&gt;
+&lt;td&gt;Let&amp;rsquo;s Go Crazy, Take Me With U, The Beautiful Ones, Computer Blue, Darling Nikki, When Doves Cry, I Would Die 4 U, Baby I&amp;rsquo;m a Star, Purple Rain&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Beastie Boys&lt;/td&gt;
+&lt;td&gt;License to Ill&lt;/td&gt;
+&lt;td&gt;1986&lt;/td&gt;
+&lt;td&gt;Mercury Records&lt;/td&gt;
+&lt;td&gt;noawardsbutthistablecelliswide&lt;/td&gt;
+&lt;td&gt;Rhymin &amp;amp; Stealin, The New Style, She&amp;rsquo;s Crafty, Posse in Effect, Slow Ride, Girls, (You Gotta) Fight for Your Right, No Sleep Till Brooklyn, Paul Revere, Hold It Now, Hit It, Brass Monkey, Slow and Low, Time to Get Ill&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;Code snippets like &lt;code&gt;var foo = &amp;quot;bar&amp;quot;;&lt;/code&gt; can be shown inline.&lt;/p&gt;
+&lt;p&gt;Also, &lt;code&gt;this should vertically align&lt;/code&gt; &lt;del&gt;&lt;code&gt;with this&lt;/code&gt;&lt;/del&gt; &lt;del&gt;and this&lt;/del&gt;.&lt;/p&gt;
+&lt;p&gt;Code can also be shown in a block element.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;foo := &amp;#34;bar&amp;#34;;
 bar := &amp;#34;foo&amp;#34;;
-&lt;/code>&lt;/pre>&lt;p>Code can also use syntax highlighting.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">func&lt;/span> &lt;span style="color:#000">main&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">input&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">:=&lt;/span> &lt;span style="color:#4e9a06">`var foo = &amp;#34;bar&amp;#34;;`&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">lexer&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">:=&lt;/span> &lt;span style="color:#000">lexers&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">Get&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;javascript&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">iterator&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">_&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">:=&lt;/span> &lt;span style="color:#000">lexer&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">Tokenise&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">nil&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">input&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">style&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">:=&lt;/span> &lt;span style="color:#000">styles&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">Get&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;github&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">formatter&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">:=&lt;/span> &lt;span style="color:#000">html&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">New&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">html&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">WithLineNumbers&lt;/span>&lt;span style="color:#000;font-weight:bold">())&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">var&lt;/span> &lt;span style="color:#000">buff&lt;/span> &lt;span style="color:#000">bytes&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">Buffer&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">formatter&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">Format&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&lt;/span>&lt;span style="color:#000">buff&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">style&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">iterator&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">fmt&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">Println&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">buff&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">String&lt;/span>&lt;span style="color:#000;font-weight:bold">())&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;pre tabindex="0">&lt;code>Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-&lt;/code>&lt;/pre>&lt;p>Inline code inside table cells should still be distinguishable.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Language&lt;/th>
-&lt;th>Code&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Javascript&lt;/td>
-&lt;td>&lt;code>var foo = &amp;quot;bar&amp;quot;;&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Ruby&lt;/td>
-&lt;td>&lt;code>foo = &amp;quot;bar&amp;quot;{&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;hr>
-&lt;p>Small images should be shown at their actual size.&lt;/p>
-&lt;p>&lt;img src="https://placekitten.com/g/300/200/" alt="">&lt;/p>
-&lt;p>Large images should always scale down and fit in the content container.&lt;/p>
-&lt;p>&lt;img src="https://placekitten.com/g/1200/800/" alt="">&lt;/p>
-&lt;h2 id="components">Components&lt;/h2>
-&lt;h3 id="alerts">Alerts&lt;/h3>
-&lt;p>
-&lt;div class="alert alert-primary" role="alert">
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Code can also use syntax highlighting.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;main&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#000&#34;&gt;input&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;`var foo = &amp;#34;bar&amp;#34;;`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#000&#34;&gt;lexer&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;lexers&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Get&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;javascript&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#000&#34;&gt;iterator&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;_&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;lexer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Tokenise&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;nil&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;input&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#000&#34;&gt;style&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;styles&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Get&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;github&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#000&#34;&gt;formatter&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;html&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;New&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;html&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;WithLineNumbers&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;())&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;buff&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;bytes&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Buffer&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#000&#34;&gt;formatter&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Format&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;buff&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;style&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;iterator&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#000&#34;&gt;fmt&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Println&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;buff&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;())&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Inline code inside table cells should still be distinguishable.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Language&lt;/th&gt;
+&lt;th&gt;Code&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Javascript&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;var foo = &amp;quot;bar&amp;quot;;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ruby&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;foo = &amp;quot;bar&amp;quot;{&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;Small images should be shown at their actual size.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://placekitten.com/g/300/200/&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Large images should always scale down and fit in the content container.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://placekitten.com/g/1200/800/&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;components&#34;&gt;Components&lt;/h2&gt;
+&lt;h3 id=&#34;alerts&#34;&gt;Alerts&lt;/h3&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
 This is an alert.
-&lt;/div>
-&lt;div class="alert alert-primary" role="alert">
-&lt;h4 class="alert-heading">Note:&lt;/h4>
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
 This is an alert with a title.
-&lt;/div>
-&lt;div class="alert alert-primary" role="alert">
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
 This is a successful alert.
-&lt;/div>
-&lt;div class="alert alert-primary" role="alert">
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
 This is a warning!
-&lt;/div>
-&lt;div class="alert alert-primary" role="alert">
-&lt;h4 class="alert-heading">Warning!&lt;/h4>
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Warning!&lt;/h4&gt;
 This is a warning with a title!
-&lt;/div>
-&lt;/p>
-&lt;h2 id="sizing">Sizing&lt;/h2>
-&lt;p>Add some sections here to see how the ToC looks like. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.&lt;/p>
-&lt;h3 id="parameters-available">Parameters available&lt;/h3>
-&lt;p>Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.&lt;/p>
-&lt;h3 id="using-pixels">Using pixels&lt;/h3>
-&lt;p>Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.&lt;/p>
-&lt;h3 id="using-rem">Using rem&lt;/h3>
-&lt;p>Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.&lt;/p>
-&lt;h2 id="memory">Memory&lt;/h2>
-&lt;p>Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.&lt;/p>
-&lt;h3 id="ram-to-use">RAM to use&lt;/h3>
-&lt;p>Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.&lt;/p>
-&lt;h3 id="more-is-better">More is better&lt;/h3>
-&lt;p>Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.&lt;/p>
-&lt;h3 id="used-ram">Used RAM&lt;/h3>
-&lt;p>Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.&lt;/p>
-&lt;pre tabindex="0">&lt;code>This is the final element on the page and there should be no margin below this.
-&lt;/code>&lt;/pre>&lt;h2 id="including-images">Including images&lt;/h2>
-&lt;p>Here&amp;rsquo;s an image (&lt;code>featured-sunset-get.png&lt;/code>) that includes a byline and a caption.&lt;/p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 610px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/sample/sample-post/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_600x300_fill_catmullrom_smart1_3.png" width="600" height="300">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;sizing&#34;&gt;Sizing&lt;/h2&gt;
+&lt;p&gt;Add some sections here to see how the ToC looks like. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.&lt;/p&gt;
+&lt;h3 id=&#34;parameters-available&#34;&gt;Parameters available&lt;/h3&gt;
+&lt;p&gt;Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.&lt;/p&gt;
+&lt;h3 id=&#34;using-pixels&#34;&gt;Using pixels&lt;/h3&gt;
+&lt;p&gt;Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.&lt;/p&gt;
+&lt;h3 id=&#34;using-rem&#34;&gt;Using rem&lt;/h3&gt;
+&lt;p&gt;Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.&lt;/p&gt;
+&lt;h2 id=&#34;memory&#34;&gt;Memory&lt;/h2&gt;
+&lt;p&gt;Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.&lt;/p&gt;
+&lt;h3 id=&#34;ram-to-use&#34;&gt;RAM to use&lt;/h3&gt;
+&lt;p&gt;Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.&lt;/p&gt;
+&lt;h3 id=&#34;more-is-better&#34;&gt;More is better&lt;/h3&gt;
+&lt;p&gt;Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.&lt;/p&gt;
+&lt;h3 id=&#34;used-ram&#34;&gt;Used RAM&lt;/h3&gt;
+&lt;p&gt;Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;This is the final element on the page and there should be no margin below this.
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;including-images&#34;&gt;Including images&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s an image (&lt;code&gt;featured-sunset-get.png&lt;/code&gt;) that includes a byline and a caption.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 610px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/sample/sample-post/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_600x300_fill_catmullrom_smart1_3.png&#34; width=&#34;600&#34; height=&#34;300&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
 Fetch and scale an image in the upcoming Hugo 0.43.
-&lt;small class="text-muted">&lt;br/>Photo: Riona MacNamara / CC-BY-CA&lt;/small>&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;p>The front matter of this post specifies properties to be assigned to all image resources:&lt;/p>
-&lt;pre tabindex="0">&lt;code>resources:
+&lt;small class=&#34;text-muted&#34;&gt;&lt;br/&gt;Photo: Riona MacNamara / CC-BY-CA&lt;/small&gt;&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;The front matter of this post specifies properties to be assigned to all image resources:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;resources:
 - src: &amp;#34;**.{png,jpg}&amp;#34;
-title: &amp;#34;Image #:counter&amp;#34;
-params:
-byline: &amp;#34;Photo: Riona MacNamara / CC-BY-CA&amp;#34;
-&lt;/code>&lt;/pre>&lt;p>To include the image in a page, specify its details like this:&lt;/p>
-&lt;pre tabindex="0">&lt;code>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 610px">
-&lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/sample/sample-post/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_600x300_fill_catmullrom_smart1_3.png" width="600" height="300">
-&lt;div class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
+  title: &amp;#34;Image #:counter&amp;#34;
+  params:
+    byline: &amp;#34;Photo: Riona MacNamara / CC-BY-CA&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;To include the image in a page, specify its details like this:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 610px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/en/blog/sample/sample-post/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_600x300_fill_catmullrom_smart1_3.png&#34; width=&#34;600&#34; height=&#34;300&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
 Fetch and scale an image in the upcoming Hugo 0.43.
-&lt;small class="text-muted">&lt;br/>Photo: Riona MacNamara / CC-BY-CA&lt;/small>&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;/code>&lt;/pre>&lt;p>The image will be rendered at the size and byline specified in the front matter.&lt;/p>
-&lt;hr></description></item></channel></rss>
+&lt;small class=&#34;text-muted&#34;&gt;&lt;br/&gt;Photo: Riona MacNamara / CC-BY-CA&lt;/small&gt;&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The image will be rendered at the size and byline specified in the front matter.&lt;/p&gt;
+&lt;hr&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
