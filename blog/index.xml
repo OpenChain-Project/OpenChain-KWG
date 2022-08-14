@@ -652,7 +652,7 @@ People who aren’t a party to a GPL agreement, but who would benefit from the
 &lt;ol>
 &lt;li>dataset 자체를 상업적으로 배포 (DD : Distribute Datasets)&lt;/li>
 &lt;li>dataset으로 AI Model을 학습하고, 이 모델을 포함하는 임베디드 제품 출시 (RPEAI : Release Product with Embedded AI Model)&lt;/li>
-&lt;li>dataset으로 AI Model을 학습하고, 모델의 output을 상용화 (CAI : Commercialize the Model)&lt;/li>
+&lt;li>dataset으로 AI Model을 학습하고, 이 모델 산출물을 상용화 (CAI : Commercialize the Model)&lt;/li>
 &lt;/ol>
 &lt;p>이러한 사용 시나리오에 대한 각 Dataset의 연구 결과는 다음과 같다.&lt;/p>
 &lt;p>&lt;img src="./scenario.png" alt="">&lt;/p>
@@ -667,7 +667,7 @@ People who aren’t a party to a GPL agreement, but who would benefit from the
 &lt;ul>
 &lt;li>CIFAR-10, ImageNet 및 CityScapes의 배포는 허용되지 않음&lt;/li>
 &lt;li>이러한 제한에도 불구하고 많은 플랫폼에서 이들 Dataset을 배포하고 있다. (예: &lt;a href="https://deepai.org/datasets">https://deepai.org/datasets&lt;/a> - ImageNet, CIFAR-10 을 배포함) 이는 문제를 유발할 수 있다.&lt;/li>
-&lt;li>다른 3개도 Dataset도 동일한 라이선스로 배포해야 해야 하는 등의 의무를 준수해야 사용할 수 있다.&lt;/li>
+&lt;li>다른 3개 Dataset도 동일한 라이선스로 배포해야 해야 하는 등의 의무를 준수해야 사용할 수 있다.&lt;/li>
 &lt;/ul>
 &lt;h3 id="2-dataset을-상용-ai-software-학습에-사용하는-경우----잠재적-라이선스-컴플라이언스-위반-초래-가능-6개-중-5개">2. Dataset을 상용 AI software 학습에 사용하는 경우 &amp;ndash;&amp;gt; 잠재적 라이선스 컴플라이언스 위반 초래 가능 (6개 중 5개)&lt;/h3>
 &lt;ul>
