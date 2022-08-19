@@ -17,7 +17,7 @@ The Steering Committee is the organization that manages the OpenChain KWG and pe
 
 ## Member
 
-* Haksung Jang, SK telecom
+* Haksung Jang, SK telecom (Lead)
 * Seoyeon Lee, Line Plus
 * Soim Kim, LG Electronics
 * Jiho Han, NCSOFT
