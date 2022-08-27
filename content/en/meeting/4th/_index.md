@@ -24,7 +24,7 @@ description: >
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | [Download](a_brief_introduction_to_openchain.pdf) |
 | 2  | Open Source Management Portal and Open Source Management Plan | Sangmi Kim, Jihyun Lee / Ktds |  - | 
 | 3  | How to Install and Use FOSSology | Wonjae Park / LG Electronics | [Download](fossology_introduction_openchain_kwg.pdf)  | 
-| 4  | Haksung Jang, LG Electronics |[Download](openchain_kwg_update_2019-12-02)  | 
+| 4  | Haksung Jang, LG Electronics |[Download](openchain_kwg_update_2019-12-02.pdf)  | 
 | 5  | Case Study| All | -  | 
 | 6  | Free Discussion | All | -  | 
 
