@@ -10,7 +10,7 @@ description: >
 
 In the process of automating and streamlining the open source compliance process, the tools can help in an efficient way.
 
-The Tooling Group is a group that discusses ways to effectively use these open source tools in businesses and shares best practices.
+The Tooling Group is a group that discusses ways to effectively use these open source compliance tools in businesses and shares best practices.
 
 ## Member
 
