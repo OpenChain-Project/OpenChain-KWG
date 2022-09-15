@@ -18,7 +18,7 @@ description: >
 | 2  | OpenChain KWG Update | 장학성, SK텔레콤 | - |
 | 3  | ISO/IEC 인증 | 현대자동차그룹 | - |
 | 4  | 중국 소송 사례 | ETRI 박정숙 | - |
-| 5  | SFC vs. Vizio 소송 파해치기 | 삼성전자 정윤환 | - |
+| 5  | SFC vs. Vizio 소송 파헤치기 | 삼성전자 정윤환 | - |
 | 6  | 소그룹 모임 (Case Study) | All | - |
 
 
