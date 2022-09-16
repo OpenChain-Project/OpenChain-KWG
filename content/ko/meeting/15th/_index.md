@@ -16,7 +16,7 @@ description: >
 |----|-----------------|------|------|
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
 | 2  | OpenChain KWG Update | 장학성, SK텔레콤 | - |
-| 3  | ISO/IEC 인증 | 현대자동차그룹 | - |
+| 3  | 자동차 분야의 SW 자산관리체계 및 현대차그룹 ISO/IEC 인증 | 현대자동차 백송하 책임<br>현대오토에버 류창한 책임 | - |
 | 4  | 중국 소송 사례 | ETRI 박정숙 | - |
 | 5  | SFC vs. Vizio 소송 파헤치기 | 삼성전자 정윤환 | - |
 | 6  | 소그룹 모임 (Case Study) | All | - |
