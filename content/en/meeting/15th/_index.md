@@ -17,7 +17,7 @@ description: >
 | 1 | OpenChain Update | Shane Coughlan, Linux Foundation | - |
 | 2 | OpenChain KWG Update | Haksung Jang, SK Telecom | - |
 | 3 | SW asset management system in automobile sector and Hyundai Motor Group ISO/IEC certification | Song-ha Baek, Hyundai Motor Company  <br>Chang-han Ryu, Hyundai Auto Ever | - |
-| 4 | Recent Litigation Cases in China | Jeong-sook Par, ERTI| - |
+| 4 | Open Source Litigation Cases in China | Jeong-sook Par, ERTI| - |
 | 5 | SFC vs. Vizio Litigation Case Analysis | Yunhwan Jung, Samsung Electronics | - |
 | 6 | Small Group Meetings (Case Study) | All | - |
 
