@@ -30,7 +30,7 @@ description: >
    - 일정 : 9/21(수) 14:00~16:00
    - 장소 : 온라인
 4. 운영위원회 Lead 선출
-   * 근거 조항 : https://openchain-project.github.io/OpenChain-KWG/about/charter/#운영위원회 
+   * 근거 조항 : [https://openchain-project.github.io/OpenChain-KWG/about/charter/#운영위원회](https://openchain-project.github.io/OpenChain-KWG/about/charter/#운영위원회)
    * 임기 : ~2022년말
    * 2023년 Lead는 4분기 운영위원회(11월)에서 선출 예정
 5. 2022년 OpenChain 예산 집행 계획 수립
