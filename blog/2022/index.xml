@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – 2022</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2022/</link><description>Recent content in 2022 on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/blog/2022/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Akka는 더 이상 오픈소스가 아닙니다.</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2022/20220930_akka_license_change/</link><pubDate>Fri, 30 Sep 2022 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2022/20220930_akka_license_change/</guid><description>
 &lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2022/20220930_akka_license_change/featured_akka_hu515c71a488a6766b364d7f25ac0e66ab_48953_640x0_resize_catmullrom_2.png" width="640" height="235"/>
 &lt;blockquote>
-&lt;p>오픈소스로 시작한 소프트웨어 기업이 라이선스 정책을 변경하는 사례가 증가하고 있는데요, 그동안 Apache-2.0으로 오픈소스 라이선스 정책을 유지해오던 미국의 Lightbend사도 2022년 9월, 라이선스를 BUSL-1.1 (Business Source License)로 변경한다고 발표하였습니다.&lt;br>
-Business Source License이 무엇인지, Lightbend가 Akka의 라이선스를 BSL로 변경한 배경과 그 영향은 무엇인지에 대해 알아보겠습니다.&lt;/p>
+&lt;p>오픈소스로 시작한 소프트웨어 기업이 라이선스 정책을 변경하는 사례가 증가하고 있는데요, 그동안 Apache-2.0으로 오픈소스 라이선스 정책을 유지해오던 미국의 Lightbend사도 2022년 9월, Akka의 라이선스를 BUSL-1.1 (Business Source License)로 변경한다고 발표하였습니다.&lt;br>
+Business Source License가 무엇인지, Lightbend가 Akka의 라이선스를 BSL로 변경한 배경과 그 영향은 무엇인지에 대해 알아보겠습니다.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="akka란">Akka란?&lt;/h2>
 &lt;p>&lt;a href="https://github.com/akka/akka">Akka&lt;/a>는 JVM에서 여러 개의 thread가 동시에 작업하는 분산 애플리케이션을 &lt;a href="https://doc.akka.io/docs/akka/current/typed/guide/actors-intro.html">Actor Model&lt;/a>을 기반으로 단순화하는 툴킷으로 live chatting 등 주로 고성능이 요구되는 백엔드 플랫폼에 사용된다고 합니다.&lt;/p>
@@ -30,21 +30,25 @@ Business Source License이 무엇인지, Lightbend가 Akka의 라이선스를 BS
 &lt;/ul>
 &lt;h2 id="business-source-license">Business Source License&lt;/h2>
 &lt;p>&lt;a href="https://spdx.org/licenses/BUSL-1.1.html">BUSL-1.1&lt;/a>은 오픈소스 라이선스와 무엇이 다를까요?&lt;/p>
-&lt;h3 id="non-production-use에-한하여-사용-권리-부여">&lt;code>non-production use&lt;/code>에 한하여 사용 권리 부여&lt;/h3>
+&lt;h3 id="non-production-use에-한하여-사용-권리-부여">non-production use에 한하여 사용 권리 부여&lt;/h3>
 &lt;p>BUSL-1-1은 일반적인 오픈소스 라이선스와는 달리 &lt;code>non-production use&lt;/code>에 한하여 복사, 수정, 재배포 등을 할 수 있는 권리를 부여합니다.&lt;/p>
 &lt;blockquote>
-&lt;p>The Licensor hereby grants you the right to copy, modify, create derivative works, redistribute, and make &lt;code>non-production use&lt;/code> of the Licensed Work.&lt;/p>
+&lt;p>The Licensor hereby grants you the right to copy, modify, create derivative works, redistribute, and make non-production use of the Licensed Work.&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;code>non-production use&lt;/code>에 해당하지 않을 경우, Licensor에게 commercial license를 구매할 것을 요구합니다.&lt;/p>
 &lt;blockquote>
 &lt;p>If your use of the Licensed Work does not comply with the requirements currently in effect as described in this License, you must purchase a commercial license from the Licensor, &amp;hellip;&lt;/p>
 &lt;/blockquote>
 &lt;p>따라서, BUSL-1.1이 적용된 Akka 버전 (v2.7 이후)를 사용하는 기업은 더 이상 무료로 Akka를 사용할 수 없으며, Lightbend에게 &lt;a href="https://www.lightbend.com/akka#pricing">상용 라이선스를 구매&lt;/a>해야 합니다.&lt;/p>
-&lt;h3 id="change-date-change-license">&lt;code>Change Date&lt;/code>, &lt;code>Change License&lt;/code>&lt;/h3>
-&lt;p>BUSL-1.1 또 다른 특징은 &lt;code>Change Date&lt;/code>와 &lt;code>Change License&lt;/code>입니다. BUSL-1.1이 적용된 버전의 소프트웨어가 릴리즈된 이후 &lt;code>Change Date&lt;/code>가 지나면 &lt;code>Change License&lt;/code>가 적용되며 더 이상 BUSL-1.1이 적용되지 않게 됩니다. &lt;a href="https://www.lightbend.com/akka/license">Akka의 BUSL-1.1&lt;/a>의 경우 &lt;code>Change Date&lt;/code>는 릴리즈 후 3년이며, &lt;code>Change License&lt;/code>는 Apache-2.0입니다.&lt;/p>
+&lt;h3 id="change-date-change-license">Change Date, Change License&lt;/h3>
+&lt;p>BUSL-1.1 또 다른 특징은 &lt;code>Change Date&lt;/code>와 &lt;code>Change License&lt;/code>입니다. BUSL-1.1이 적용된 버전의 소프트웨어가 릴리즈된 이후 &lt;code>Change Date&lt;/code>가 지나면 &lt;code>Change License&lt;/code>가 적용되며 더 이상 BUSL-1.1이 적용되지 않게 됩니다.&lt;/p>
+&lt;blockquote>
+&lt;p>Effective on the Change Date, or the fourth anniversary of the first publicly available distribution of a specific version of the Licensed Work under this License, whichever comes first, the Licensor hereby grants you rights under the terms of the Change License, and the rights granted in the paragraph above terminate.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a href="https://www.lightbend.com/akka/license">Akka의 BUSL-1.1&lt;/a>의 경우 &lt;code>Change Date&lt;/code>는 릴리즈 후 3년이며, &lt;code>Change License&lt;/code>는 Apache-2.0입니다.&lt;/p>
 &lt;p>&lt;img src="./akka_busl.png" alt="">&lt;/p>
 &lt;p>예를 들어, Akka 2.8이 2023년 1월 1일에 릴리즈되었다면, 3년이 지난 후, 2026년 1월 1일부터는 Apache-2.0이 적용되어 기업도 무료로 사용이 가능합니다. BUSL-1.1은 이러한 &lt;code>Change License&lt;/code> 조항을 제공하여 신규 버전을 사용하려면 돈을 내고 써야 하지만 오래된 버전은 상용 목적의 사용이라고 하더라도 무료로 사용할 수 있게 하였습니다. 이는 소프트웨어의 Heavy user인 대기업에는 비용을 청구하겠다는 의지로 보입니다.&lt;/p>
-&lt;h3 id="additional-use-grant">&lt;code>Additional Use Grant&lt;/code>&lt;/h3>
+&lt;h3 id="additional-use-grant">Additional Use Grant&lt;/h3>
 &lt;p>BUSL-1.1은 Licensor가 일정 조건 하에 상용 목적의 사용자에게 권리를 부여할 수 있도록 하는 &lt;code>Additioanl Use Grant&lt;/code> 조항을 갖고 있습니다.&lt;/p>
 &lt;blockquote>
 &lt;p>The Licensor may make an Additional Use Grant, above, permitting limited production use.&lt;/p>
