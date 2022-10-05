@@ -94,7 +94,7 @@ Lightbend는 Akka의 라이선스 변경과 관련한 [FAQ를 제공](https://ww
 
 ### 이전 버전의 Akka는 계속 사용할 수 있나? 
 
-이전 버전의 라이선스는 변경 없이 Apache-2.0입니다. 그러나 추가적인 기능, 개선 사항, non-critical security updates, non-critical bug fix는 제공되지는 않습니다. 2.6.x 버전의 경우, 향후 1년간, 즉 2023년 9월까지만 Apache-2.0으로 critical security updates와 critical but fix만 제공됩니다. 
+이전 버전의 라이선스는 변경 없이 Apache-2.0입니다. 그러나 추가적인 기능, 개선 사항, non-critical security updates, non-critical bug fix는 제공되지는 않습니다. 2.6.x 버전의 경우, 향후 1년간, 즉 2023년 9월까지만 Apache-2.0으로 critical security updates와 critical bug fix만 제공됩니다. 
 
 ### 수익과 관련 없는 정부 부처에서 일하는데, 상용 라이선스 구매가 필요한가? 
 
