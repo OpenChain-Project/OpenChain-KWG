@@ -96,7 +96,11 @@ Lightbend는 Akka의 라이선스 변경과 관련한 [FAQ를 제공](https://ww
 
 이전 버전의 라이선스는 변경 없이 Apache-2.0입니다. 그러나 추가적인 기능, 개선 사항, non-critical security updates, non-critical bug fix는 제공되지는 않습니다. 2.6.x 버전의 경우, 향후 1년간, 즉 2023년 9월까지만 Apache-2.0으로 critical security updates와 critical bug fix만 제공됩니다. 
 
-### 수익과 관련 없는 정부 부처에서 일하는데, 상용 라이선스 구매가 필요한가? 
+### Production을 위해 사용하기도 하고, 개발, 테스트 나 Staging으로사용하기도 합니다. 어떤 경우에 상용 라이선스가 필요한가요? 
+
+Production을 위해 사용하는 소프트웨어 사본에 대한 상용 라이선스만 있으면 됩니다. 
+
+### 수익과 관련 없는 정부 부처에서 일하는데, 상용 라이선스 구매가 필요한가요? 
 
 `non-production use`가 아닌 production에 Akka를 사용한다면 정부 부처에서도 상용 라이선스 구매가 요구됩니다. 
 
