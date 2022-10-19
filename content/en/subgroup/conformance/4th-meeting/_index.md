@@ -18,7 +18,17 @@ description: >
 * Share issues arising from CJ's open source compliance and discuss solutions.
 
 ## Attendees
-...
+* CJ
+* CJ ONS
+* Line Plus
+* SK Telecom
+* Hyundai Auto Ever
+* LG Electronics
+* Hyundai Motor
+* Samsung SDS
+* Kakao
+* NCSOFT
+* Kakao Bank
 
 ## Photo
-...
+![](./conformance_4th.png)
