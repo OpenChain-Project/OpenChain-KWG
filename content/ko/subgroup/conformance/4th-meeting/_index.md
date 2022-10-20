@@ -18,7 +18,17 @@ description: >
 * CJ 오픈소스 컴플라이언스 체계 구축 이슈 공유 및 해결 방안 논의
 
 ## Attendees
-...
+* CJ
+* CJ ONS
+* 라인플러스
+* SK텔레콤
+* 현대오토에버
+* LG전자
+* 현대자동차
+* 삼성SDS
+* 카카오
+* NCSOFT
+* 카카오뱅크
 
 ## Photo
 ![](./conformance_4th.png)
