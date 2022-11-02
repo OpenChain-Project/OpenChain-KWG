@@ -15,15 +15,17 @@ Tooling Group은 이러한 오픈소스 컴플라이언스 도구를 기업에�
 ## Member 현황
 
 * LG전자 (Lead: 박원재)
-* 삼성전자
+* ETRI
+* LINE
 * NCSOFT
 * SK텔레콤
+* 삼성전자
 * 카카오
 * 카카오뱅크
 * 현대오토에버
 * 현대모비스
+* 현대자동차
 * 삼성SDS
-* ETRI
 
 ## Subsribe
 
@@ -32,7 +34,6 @@ Tooling Group은 오픈소스 컴플라이언스 도구에 관심이 있는 Open
 Mailing List에 가입하세요!
 
 * Tooling Group Mailing List : https://lists.openchainproject.org/g/korea-sg-tooling
-
 
 ## Contact
 
