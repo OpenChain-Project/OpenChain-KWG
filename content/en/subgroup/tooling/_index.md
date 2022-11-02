@@ -15,15 +15,16 @@ The Tooling Group is a group that discusses ways to effectively use these open s
 ## Member
 
 * LG Electronics (Lead, Wonjae Park)
-* Samsung Electronics
-* NCSoft
-* SK Telecom
-* Kakao
-* Kakao Bank
+* ETRI
 * Hyundai Autoever
 * Hyundai Mobis
-* Samsung SDS
-* ETRI
+* Hyundai Motors
+* KaKao
+* Kakao Bank
+* LINE
+* NCSOFT
+* Samsung Electronics
+* SK Telecom
 
 ## Subsribe
 
@@ -32,7 +33,6 @@ The Tooling Group is open to any OpenChain KWG member interested in open source 
 Join the Mailing List!
 
 * Tooling Group Mailing List : https://lists.openchainproject.org/g/korea-sg-tooling
-
 
 ## Contact
 
