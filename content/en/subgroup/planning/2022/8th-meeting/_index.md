@@ -31,4 +31,8 @@ description: >
 3. 2023 Steering Committee Lead Election
     * Grounds clause: [https://openchain-project.github.io/OpenChain-KWG/about/charter/#운영위원회](https://openchain-project.github.io/OpenChain-KWG/about/charter#운영위원회)
     * Term: ~End of 2023
-    * Result: Haksung Jang
+    * Result: Haksung Jang was reappointed
+   
+## Photo
+
+![](./8th_meeting.png)
