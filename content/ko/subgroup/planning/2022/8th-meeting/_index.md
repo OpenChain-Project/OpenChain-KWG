@@ -32,3 +32,7 @@ description: >
    * 근거 조항 : [https://openchain-project.github.io/OpenChain-KWG/about/charter/#운영위원회](https://openchain-project.github.io/OpenChain-KWG/about/charter/#운영위원회)
    * 임기 : ~2023년말
    * 결과 : 장학성 연임
+
+## Photo
+
+![](./8th_meeting.png)
