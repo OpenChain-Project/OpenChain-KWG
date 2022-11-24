@@ -1,6 +1,6 @@
 ---
 title: "5th Planning Group Meeting"
-linkTitle: "5st Meeting"
+linkTitle: "5th Meeting"
 weight: 10
 type: docs
 description: >
