@@ -1,6 +1,6 @@
 ---
 title: "7th Steering Committee Meeting"
-linkTitle: "7st Meeting"
+linkTitle: "7th Meeting"
 weight: 30
 type: docs
 description: >
