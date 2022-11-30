@@ -16,13 +16,14 @@ description: >
 |----|-----------------|------|------|
 | 1 | OpenChain Update | Shane Coughlan, The Linux Foundation | - |
 | 2 | OpenChain KWG Update | Haksung Jang, SK Telecom | - |
-| 3 | GitHub Copilot is facing a class action lawsuit | Line Plus, Donghyuk Kim | - |
-| | (to be updated) | - | - |
-| | Small Group Meeting (Case Study) | All | - |
+| 3 | GitHub Copilot is facing a class action lawsuit | Donghyuk Kim, Line Plus | - |
+| 4 | Introduction of OLIVE Platform Code Snippet analysis function | Ricky Lee, Kakao | - |
+| 5 | Notice obligations required by open source licenses and automatic generation of open source notices based on the SBOM standard (SPDX) | Haksung Jang, SK Telecom  | - |
+| 6 | Small Group Meeting (Case Study) | All | - |
 
 
 ## Sponsors
-![nipa](./nipg-logo.png)
+![sponsor](./sponsor.png)
 
 ## Photo Gallery
 
