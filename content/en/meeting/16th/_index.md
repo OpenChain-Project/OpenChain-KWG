@@ -19,7 +19,8 @@ description: >
 | 3 | GitHub Copilot is facing a class action lawsuit | Donghyuk Kim, Line Plus | - |
 | 4 | Introduction of OLIVE Platform Code Snippet analysis function | Ricky Lee, Kakao | - |
 | 5 | Notice obligations required by open source licenses and automatic generation of open source notices based on the SBOM standard (SPDX) | Haksung Jang, SK Telecom  | - |
-| 6 | Small Group Meeting (Case Study) | All | - |
+| 6 | 2022 Awards | Line Plus Seoyeon Lee | - |
+| 7 | Small Group Meeting (Case Study) | all | - |
 
 
 ## Sponsors
