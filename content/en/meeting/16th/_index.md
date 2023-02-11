@@ -6,12 +6,12 @@ description: >
   December 2022, online meeting
 ---
 
-## calendar
+## Calendar
 
 * Schedule: 2022-12-02 (Fri) 2pm - 4pm
 * Venue: Zoom
 
-##Agenda
+## Agenda
 | No | Agenda | Speaker | Slide |
 |----|-----------------|------|------|
 | 1 | OpenChain Update | Shane Coughlan, The Linux Foundation | - |
