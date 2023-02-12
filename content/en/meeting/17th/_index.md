@@ -3,7 +3,7 @@ title: "17th Meeting"
 weight: 17
 type: docs
 description: >
-  March 2023, offline meeting at Line Plus
+  March 28, 2023 at Line Plus
 ---
 
 ## Schedule
