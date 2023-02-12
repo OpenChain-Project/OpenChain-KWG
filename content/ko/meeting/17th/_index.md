@@ -3,7 +3,7 @@ title: "17th Meeting"
 weight: 17
 type: docs
 description: >
- 2023년 3월, 오프라인 미팅 at 라인플러스
+ 2023년 3월 28일 at 라인플러스 (분당구 서현동)
 ---
 
 ## 일정
