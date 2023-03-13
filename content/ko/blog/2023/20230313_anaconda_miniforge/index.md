@@ -1,7 +1,7 @@
 ---
 date: 2023-03-13
-title: "Anaconda 꼭 사서 쓰세요. 아니라면 Miniforge!"
-linkTitle: "Anaconda 꼭 사서 쓰세요. 아니라면 Miniforge!"
+title: "Anaconda 꼭 사서 쓰세요. 아니라면 conda-forge!"
+linkTitle: "Anaconda 꼭 사서 쓰세요. 아니라면 conda-forge!"
 description: Anaconda를 상용 목적으로 사용하려면 유료 버전을 구매해야 합니다. 200인 이상 기업의 개발자가 Anaconda를 사용하는 것은 상용 목적에 해당합니다. 
 author: 장학성
 resources:
