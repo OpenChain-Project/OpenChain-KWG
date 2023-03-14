@@ -28,7 +28,7 @@ description: >
 | 6  | 소리소리 오소리 | LG전자 김소임 책임 | - |
 | 7  | FOSSLight 슈퍼 대변신 | LG전자 김경애 | - |
 | 8  | 요즘 OLIVE 써봤니? | 카카오 Violet(황은경) | - |
-| 9  | onot, 이제 쓸만해졌어요! | 카카오 Rogers(한현민) | - |
+| 9  | onot, 이제 제법 쓸만해졌어요! | 카카오 Rogers(한현민) | - |
 
 
 ## Sponsor
