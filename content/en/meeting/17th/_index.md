@@ -16,8 +16,9 @@ description: >
 
 | No | Agenda | Speaker | Slide |
 |----|-----------------|------|------|
+| 0 | Welcome & OpenChain KWG Update | Seoyeon Lee / Line Plus | - |
 | 1 | OpenChain Update | Shane Coughlan, The Linux Foundation | - |
-| 2 | OpenChain KWG Update and Intro of OpenChain Security Assurance Specification | Haksung Jang, SK Telecom  | - |
+| 2 | Intro of OpenChain Security Assurance Specification | Haksung Jang, SK Telecom  | - |
 | 3 | Legal Issues of AI Technologies / Case Study: Getty Images v. Stability AI | Jeongsuk Park, ETRI | - |
 | 4 | networking time | all | - |
 
