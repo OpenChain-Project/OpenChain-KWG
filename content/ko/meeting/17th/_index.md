@@ -16,8 +16,9 @@ description: >
 ### 1부 발표 세션
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
+| 0  | Welcome & OpenChain KWG Update | 이서연 / 라인플러스 | - |
 | 1  | OpenChain Global Update  | 	Shane Coughlan, Linux Foundation | - |
-| 2  | OpenChain KWG Update & OpenChain 보안 규격 소개 | SK텔레콤 장학성 | - |
+| 2  | OpenChain 보안 규격 소개 | SK텔레콤 장학성 |
 | 3  | Legal Issues of AI Technologies  / Case Study: Getty Images v. Stability AI | ETRI 박정숙 | - |
 | 4  | 네트워킹 시간 | all | - |
 
