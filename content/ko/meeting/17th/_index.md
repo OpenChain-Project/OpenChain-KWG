@@ -33,8 +33,7 @@ description: >
 
 
 ## Sponsor
-* 라인플러스
-* NIPA
+![sponsor](./sponsor.png)
 
 ## Photo
 

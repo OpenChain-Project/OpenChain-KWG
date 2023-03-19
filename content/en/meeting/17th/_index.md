@@ -34,8 +34,7 @@ description: >
 
 
 ## Sponsors
-* Line Plus
-* NIPA
+![sponsor](./sponsor.png)
 
 
 ## Photo
