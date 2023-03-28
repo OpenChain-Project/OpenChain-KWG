@@ -28,7 +28,7 @@ OpenChain의 규격에 대한 자세한 번역 정책은 다음 페이지를 참
 
 ## 한국어 번역
 
-OpenChain 규격의 한국어 번역은 버전 2.1까지 번역이 완료된 상태이며 다음 페이지에서 다운로드 받을 수 있습니다. : https://github.com/OpenChain-Project/Specification/tree/master/Official/ko/2.1
+OpenChain 규격의 한국어 번역은 버전 2.1까지 번역이 완료된 상태이며 다음 페이지에서 다운로드 받을 수 있습니다. : https://github.com/OpenChain-KWG/Specification-Translation-KR/tree/master/release/2.1
 
 ## 한국어 번역 기여자 현황
 
