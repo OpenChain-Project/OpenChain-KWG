@@ -48,6 +48,7 @@ description: >
   <img src="photo/IMG_1278.png" width="45%">
   <img src="photo/IMG_2300.jpg" width="45%">
 </span></div>
+<br>
 <div ><span class="image fit">
   <img src="photo/IMG_1293.png" width="90%">
 </span></div>
