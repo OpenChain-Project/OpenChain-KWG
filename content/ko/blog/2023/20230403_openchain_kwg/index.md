@@ -17,7 +17,7 @@ resources:
 
 [OpenChain Korea Work Group](https://openchain-project.github.io/OpenChain-KWG/)(KWG)은 Linux Foundation의 [OpenChain Project](https://openchainproject.org/)의 하위 그룹입니다. 이 그룹은 오픈소스 정신인 협업과 공유를 통해 모두가 효과적으로 오픈소스 관리에 성공하기 위한 방법을 고민하고 공유하는 모임입니다. KWG에는 한국의 [주요 ICT 기업](https://openchain-project.github.io/OpenChain-KWG/about/member/)의 오픈소스 담당자들이 참여하고 있습니다.
 
-![Untitled](./Untitled.png)
+![featured_kwg](./featured_kwg.png)
 
 ## OpenChain KWG 정기 미팅
 
