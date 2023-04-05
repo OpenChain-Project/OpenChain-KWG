@@ -145,15 +145,26 @@
 &lt;p>conda는 package 설치/관리를 위해 설치할 package를 찾기 위한 저장소 위치가 필요한데요, 이를 channel이라고 칭합니다. 기본 channel이 바로 &lt;a href="https://repo.anaconda.com/">Anaconda Repository&lt;/a>입니다. 그런데, commuinity 기반의 repository가 또 있습니다. 바로 &lt;a href="https://conda-forge.org/">conda-forge&lt;/a>인데요,&lt;/p>
 &lt;p>&lt;img src="featured_condaforge.png" alt="https://conda-forge.org/">&lt;/p>
 &lt;p>&lt;a href="https://conda-forge.org/">https://conda-forge.org/&lt;/a>&lt;/p>
-&lt;p>conda를 설치하고 default channel을 기존의 Anaconda Repository가 아닌 conda-forge로 변경할 수 있습니다.&lt;/p>
+&lt;p>conda를 설치하고 channel에 conda-forge를 추가할 수 있습니다.&lt;/p>
 &lt;pre>&lt;code>conda config --add channels conda-forge
 conda config --set channel_priority strict
 &lt;/code>&lt;/pre>&lt;p>이렇게 하면 Anaconda Repository를 사용하지 않기 때문에 위에서 설명한 &lt;a href="https://legal.anaconda.com/policies/en/?name=terms-of-service">서비스 약관&lt;/a>을 위반하지 않고 conda를 사용할 수 &lt;a href="https://florianwilhelm.info/2021/09/Handling_Anaconda_without_getting_constricted/">있습니다&lt;/a>.&lt;/p>
 &lt;p>Anaconda사의 CEO인 Peter Wang은 Miniconda를 다운 받아서 conda config를 conda-forge로 변경할 경우, 무료로 사용할 수 있다고 직접 밝힌 바 &lt;a href="https://www.reddit.com/r/Python/comments/iqsk3y/comment/g4xuabr/">있습니다&lt;/a>.&lt;/p>
 &lt;p>&lt;img src="./pwang.png" alt="">&lt;/p>
 &lt;p>&lt;a href="https://www.reddit.com/r/Python/comments/iqsk3y/comment/g4xuabr/">https://www.reddit.com/r/Python/comments/iqsk3y/comment/g4xuabr/&lt;/a>&lt;/p>
-&lt;h2 id="miniforge는-기본-채널이-conda-forge입니다">Miniforge는 기본 채널이 conda-forge입니다.&lt;/h2>
-&lt;p>한 걸음 더 나아가서 &lt;a href="https://github.com/conda-forge/miniforge">Miniforge&lt;/a>는 conda-forge를 기본 channel로 설정하여 conda를 설치하는 최소의 installer를 제공하는 프로젝트입니다. 게다가 Miniforge는 Apple M1을 포함한 다양한 CPU 아키텍처를 지원한다고도 알려져 있습니다.&lt;/p>
+&lt;p>Anaconda Repository를 가리키는 defaults channel을 아예 삭제해 버리면 보다 확실하게 Anaconda Repository 사용을 제한할 수 있습니다.&lt;/p>
+&lt;pre>&lt;code>conda config --remove channels defaults
+&lt;/code>&lt;/pre>&lt;p>원하는대로 channel이 변경되었는지는 아래 명령어로 확인할 수 있습니다.&lt;/p>
+&lt;pre>&lt;code>### 변경 전
+% conda config --show channels
+channels:
+- defaults
+### 변경 후
+% conda config --show channels
+channels:
+- conda-forge
+&lt;/code>&lt;/pre>&lt;h2 id="miniforge는-설치-시-channel에-conda-forge를-추가합니다">Miniforge는 설치 시 channel에 conda-forge를 추가합니다.&lt;/h2>
+&lt;p>한 걸음 더 나아가서 &lt;a href="https://github.com/conda-forge/miniforge">Miniforge&lt;/a>는 conda 설치를 위한 최소의 installer를 제공하는 오픈소스 프로젝트로, 기본 설치 시 channel에 conda-forge를 추가합니다. 또한, Miniforge는 Apple M1을 포함한 다양한 CPU 아키텍처를 지원한다고도 알려져 있습니다.&lt;/p>
 &lt;p>&lt;img src="Untitled%207.png" alt="https://github.com/conda-forge/miniforge">&lt;/p>
 &lt;p>&lt;a href="https://github.com/conda-forge/miniforge">https://github.com/conda-forge/miniforge&lt;/a>&lt;/p>
 &lt;p>따라서, Anaconda 대신 Miniforge를 설치한다면 비교적 수월하게 라이선스 위반 없이 conda package manager로 개발 환경을 구성할 수 있는 것으로 보입니다.&lt;/p>
