@@ -20,6 +20,9 @@ description: >
 * SK텔레콤
 * 현대오토에버
 
+## Invitees
+* SCANOSS
+
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
