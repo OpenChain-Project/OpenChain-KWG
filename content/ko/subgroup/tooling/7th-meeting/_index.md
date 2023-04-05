@@ -22,6 +22,9 @@ description: >
 * 현대모비스
 * 현대오토에버
 
+## Invitees
+* FOSSA
+
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|

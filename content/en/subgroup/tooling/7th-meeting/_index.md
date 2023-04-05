@@ -22,6 +22,9 @@ description: >
 * LG Electronics
 * LINE
 
+## Invitees
+* FOSSA
+
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
