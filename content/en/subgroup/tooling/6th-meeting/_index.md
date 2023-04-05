@@ -20,6 +20,9 @@ description: >
 * LG Electronics
 * SK Telecom
 
+## Invitees
+* SCANOSS
+
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
