@@ -296,6 +296,10 @@
 &lt;li>LG Electronics&lt;/li>
 &lt;li>SK Telecom&lt;/li>
 &lt;/ul>
+&lt;h2 id="invitees">Invitees&lt;/h2>
+&lt;ul>
+&lt;li>SCANOSS&lt;/li>
+&lt;/ul>
 &lt;h2 id="agenda">Agenda&lt;/h2>
 &lt;table>
 &lt;thead>
@@ -335,6 +339,10 @@
 &lt;li>Kakao Bank&lt;/li>
 &lt;li>LG Electronics&lt;/li>
 &lt;li>LINE&lt;/li>
+&lt;/ul>
+&lt;h2 id="invitees">Invitees&lt;/h2>
+&lt;ul>
+&lt;li>FOSSA&lt;/li>
 &lt;/ul>
 &lt;h2 id="agenda">Agenda&lt;/h2>
 &lt;table>
@@ -393,6 +401,52 @@
 &lt;td>Intorduction to Debricked&lt;/td>
 &lt;td>Hyesung Choi, LG Electronics&lt;/td>
 &lt;td>&lt;a href="Session1_LGE.pdf">pdf&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Subgroup: 9th Meeting</title><link>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/9th-meeting/</link><pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/subgroup/tooling/9th-meeting/</guid><description>
+&lt;h2 id="schedule">Schedule&lt;/h2>
+&lt;ul>
+&lt;li>Purpose : Seminar&lt;/li>
+&lt;li>Date and Time : 2023. 04. 05(Wed.), 2:00 ~ 3:30 PM&lt;/li>
+&lt;li>Venue : Online(Webex)&lt;/li>
+&lt;/ul>
+&lt;h2 id="attendees">Attendees&lt;/h2>
+&lt;ul>
+&lt;li>ETRI&lt;/li>
+&lt;li>Hyundai Autoever&lt;/li>
+&lt;li>Hyundai Mobis&lt;/li>
+&lt;li>Kakao&lt;/li>
+&lt;li>LG Electronics&lt;/li>
+&lt;li>LINE&lt;/li>
+&lt;li>Samsung Electronics&lt;/li>
+&lt;li>SK Telecom&lt;/li>
+&lt;/ul>
+&lt;h2 id="invitees">Invitees&lt;/h2>
+&lt;ul>
+&lt;li>OSBC&lt;/li>
+&lt;/ul>
+&lt;h2 id="agenda">Agenda&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>No&lt;/th>
+&lt;th>Agenda&lt;/th>
+&lt;th>Speaker&lt;/th>
+&lt;th>Slide&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Intorduction to FOSSID and Snyk Open Source&lt;/td>
+&lt;td>Junsu Lee, OSBC&lt;/td>
+&lt;td>&lt;a href="Session1_OSBC.pdf">pdf&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>Discussion on Tooling SG Operation&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item></channel></rss>
