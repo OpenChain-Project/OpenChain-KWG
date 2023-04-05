@@ -17,7 +17,7 @@ resources:
 
 [OpenChain Korea Work Group](https://openchain-project.github.io/OpenChain-KWG/)(KWG)은 Linux Foundation의 [OpenChain Project](https://openchainproject.org/)의 하위 그룹입니다. 이 그룹은 오픈소스 정신인 협업과 공유를 통해 모두가 효과적으로 오픈소스 관리에 성공하기 위한 방법을 고민하고 공유하는 모임입니다. KWG에는 한국의 [주요 ICT 기업](https://openchain-project.github.io/OpenChain-KWG/about/member/)의 오픈소스 담당자들이 참여하고 있습니다.
 
-![featured_kwg](./featured_kwg.png)
+![Untitled](./Untitled.png)
 
 ## OpenChain KWG 정기 미팅
 
@@ -29,7 +29,7 @@ resources:
 
 모임은 매 분기 진행하고 있으며, 코로나 기간 동안 온라인으로 진행되었습니다. 그러다가, 지난 2023년 3월 28일에는 3년 만에 [오프라인 모임을 개최](https://openchain-project.github.io/OpenChain-KWG/meeting/17th/)했습니다. 19개 기업/기관에서 50여 명의 오픈소스 담당자가 참석했습니다. 이번 오프라인 모임은 라인플러스에서 준비해 주었습니다. 쾌적한 장소와 음료, 그리고 기념품 등을 제공해주신 라인플러스의 오픈소스 매니저 [이서연](https://engineering.linecorp.com/ko/blog/line-opensource-manager-interview), 김동혁 님께 감사드립니다! ^^ 
 
-![Untitled](./Untitled_1.png)
+![featured_kwg](./featured_kwg.png)
 
 이번 모임의 첫 번째 부분에서는 OpenChain Project의 국내외 최신 동향과 보안 보증 규격에 대한 발표가 있었으며, AI 기술에 대한 법적 이슈 및 사례 연구에 대한 발표도 있었습니다. 두 번째 부분에서는 기업의 오픈 소스 관리를 위한 도구를 오픈 소스로 개발하여 공유하는 세션 발표가 있었습니다. 자세한 발표 내용은 이어지는 소개에서 다루겠습니다.
 
