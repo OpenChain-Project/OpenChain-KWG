@@ -1,4 +1,40 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – Blog</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/</link><description>Recent content in Blog on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: 기업의 효과적인 오픈소스 관리 방안 (2) OpenChain Korea Work Group</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2023/20230403_openchain_kwg/</link><pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2023/20230403_openchain_kwg/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – Blog</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/</link><description>Recent content in Blog on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: 오프라인 모임 준비 checklist</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2023/20230405_offline_checklist/</link><pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2023/20230405_offline_checklist/</guid><description>
+&lt;p>안녕하세요. 지난 3월 28일은 모두에게 기억에 남을 시간을 가졌습니다. 바로 3년 만에 COVID를 지나고 처음 갖는 오프라인 모임이었는데요. 너무 오랜만에 오프라인 모임을 가지면서 생각보다 장소 제공에 많은 &lt;del>잡다한&lt;/del>준비가 필요하다는 것을 알게 되었습니다.&lt;/p>
+&lt;p>다음에 언젠가 이런 오프라인 모임을 가지게 될 텐데, 이번 경험을 떠올려 오프라인 모임 준비 체크리스트를 작성해 보았습니다.(&lt;em>다음 모임 주최자가 또 제가 될 수도 있잖아요..?앗, 말조심!&lt;/em>)&lt;/p>
+&lt;p>&lt;img src="brown.jpg" alt="">&lt;/p>
+&lt;h2 id="모임의-준비">모임의 준비&lt;/h2>
+&lt;p>모임을 가지기 전에 하면 좋을 작업 목록입니다. Planning Sub-group에서 해야 할 작업도 포함됩니다.&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> 모임의 일시 정하기&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 발표자 모집&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 사전 참가 신청받기(얼마나 큰 장소가 필요할지 가늠, 출입 등록에 필요한 정보 수집)&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 외부인 출입 방법 확인, 필요시 사전 등록&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 외부인 주차 방법 확인&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 외부인 방문 시 전자기기 소지 가능 여부 확인&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 외부인 방문 시 사용 가능한 무선 인터넷 확인&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 참가자 명찰 제작(이름, 소속을 서로 알기 쉽게)&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 공간 안내 슬라이드 제작&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 공간 방문에 대한 안내 메일 발송&lt;/li>
+&lt;/ul>
+&lt;h2 id="모임-당일">모임 당일&lt;/h2>
+&lt;p>모임 당일, 행사 시작 전에 해야 할 작업 목록입니다.&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> 행사 안내문 설치(주변 다른 임직원에게 안내용)&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 마이크, 음향, 빔프로젝터 사용법/연결 확인&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 공간 확인, 필요시 의자 추가&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 참가자 명찰 배부 공간(책상) 마련&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 필요시 다과 준비&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 필요시 회사 소개 자료 비치&lt;/li>
+&lt;/ul>
+&lt;h2 id="행사-종료-이후">행사 종료 이후&lt;/h2>
+&lt;p>행사 종료 이후에 해야 할 작업 목록입니다.&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> 퇴실 안내(출입증 반납, 주차 정산)&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 행사 안내문 철거&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 공간 정돈&lt;/li>
+&lt;/ul>
+&lt;p>여기까지 기억에 남은 것들을 바탕으로 작업 목록을 정리해 보았는데요. 부디 이후 행사 준비에 도움이 되기를 바랍니다. 또 이후 행사에서 새롭게 배우는 점이 있다면 다시 목록을 업데이트하겠습니다.&lt;/p>
+&lt;p>감사합니다.&lt;/p></description></item><item><title>Blog: 기업의 효과적인 오픈소스 관리 방안 (2) OpenChain Korea Work Group</title><link>https://openChain-project.github.io/OpenChain-KWG/blog/2023/20230403_openchain_kwg/</link><pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/blog/2023/20230403_openchain_kwg/</guid><description>
 &lt;img src="https://openChain-project.github.io/OpenChain-KWG/blog/2023/20230403_openchain_kwg/featured_kwg_hue700537ca22b35ea3fa60f5546ba5516_655045_640x0_resize_catmullrom_2.png" width="640" height="362"/>
 &lt;p>이전 글에서는 기업의 효과적인 오픈소스 관리 방안으로 &lt;a href="https://devocean.sk.com/blog/techBoardDetail.do?ID=164676">글로벌 협력을 위한 OpenChain Project&lt;/a>를 소개했습니다. 이번에는 한국 기업이 오픈소스를 효과적으로 관리하기 위한 협업 커뮤니티인 &lt;a href="https://openchain-project.github.io/OpenChain-KWG/">OpenChain Korea Work Group&lt;/a>에 대해 소개하려고 합니다.&lt;/p>
 &lt;h2 id="openchain-korea-work-group">OpenChain Korea Work Group&lt;/h2>
