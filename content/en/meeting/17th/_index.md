@@ -27,7 +27,7 @@ description: >
 | No | Agenda | Speaker | Slide |
 |----|-----------------|------|------|
 | 5 | Dependency analysis method by tool | Rain (Hyunji Lim), Kakao | [pdf](./%EB%8F%84%EA%B5%AC%EB%B3%84_%EC%9D%98%EC%A1%B4%EC%84%B1_%EB%B6%84%EC%84%9D_%EB%B0%A9%EC%8B%9D.pdf) |
-| 6 | Sorisori OSORI | Soim Kim, Senior Manager, LG Electronics  |  |
+| 6 | Sorisori OSORI | Soim Kim, Senior Manager, LG Electronics | [pdf](./230328_FOSSLight_2023_%EB%A1%9C%EB%93%9C%EB%A7%B5_%EA%B3%B5%EC%9C%A0.pdf) |
 | 7 | FOSSLight super makeover | Kyoungae Kim, LG Electronics | [pdf](./230328_FOSSLight_2023_%EB%A1%9C%EB%93%9C%EB%A7%B5_%EA%B3%B5%EC%9C%A0.pdf) |
 | 8 | Have you used OLIVE lately? | Violet (Eunkyung Hwang), Kakao  | [pdf](./Openchain_KWG_17th_OLIVE.pdf) |
 | 9 | onot, now it's quite usable! | Rogers (Hyun-min Han), Kakao  | [pdf](./openchain_kwg_17th_onot.pdf) |
