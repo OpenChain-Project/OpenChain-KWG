@@ -13,6 +13,8 @@ description: >
 
 ## 아젠다
 
+* 발표 신청 : https://github.com/OpenChain-KWG/meeting/discussions/2
+
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Welcome & OpenChain KWG Update | 카카오 황은경 |  -  |

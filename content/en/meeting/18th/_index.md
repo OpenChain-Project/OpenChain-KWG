@@ -13,6 +13,8 @@ description: >
 
 ## agenda
 
+* Call for paper: https://github.com/OpenChain-KWG/meeting/discussions/2
+
 | No | Agenda | Speaker | Slide |
 |----|-----------------|------|------|
 | 0 | Welcome & OpenChain KWG Update | Eunkyung Hwang, Kakao | - |
