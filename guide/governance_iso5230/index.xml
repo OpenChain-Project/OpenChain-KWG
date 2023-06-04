@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – 국제표준(ISO/IEC 5230)에 기반한 기업 오픈소스 거버넌스 구축 가이드</title><link>https://openChain-project.github.io/OpenChain-KWG/guide/governance_iso5230/</link><description>Recent content in 국제표준(ISO/IEC 5230)에 기반한 기업 오픈소스 거버넌스 구축 가이드 on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/guide/governance_iso5230/index.xml" rel="self" type="application/rss+xml"/><item><title>Guide: 1. ISO/IEC 5230 살펴보기</title><link>https://openChain-project.github.io/OpenChain-KWG/guide/governance_iso5230/1-whatisopenchain/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/guide/governance_iso5230/1-whatisopenchain/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – [2021] 국제표준(ISO/IEC 5230)에 기반한 기업 오픈소스 거버넌스 구축 가이드</title><link>https://openChain-project.github.io/OpenChain-KWG/guide/governance_iso5230/</link><description>Recent content in [2021] 국제표준(ISO/IEC 5230)에 기반한 기업 오픈소스 거버넌스 구축 가이드 on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/guide/governance_iso5230/index.xml" rel="self" type="application/rss+xml"/><item><title>Guide: 1. ISO/IEC 5230 살펴보기</title><link>https://openChain-project.github.io/OpenChain-KWG/guide/governance_iso5230/1-whatisopenchain/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/guide/governance_iso5230/1-whatisopenchain/</guid><description>
 &lt;h2 id="isoiec-5230-이란">ISO/IEC 5230 이란?&lt;/h2>
 &lt;p>ISO/IEC 5230은 Linux Foundation의 OpenChain Project에서 만든 규격으로 소프트웨어 공급망 내 신뢰할 수 있는 오픈소스 컴플라이언스를 보장하기 위한 최소한의 핵심 요구 사항을 정의하였다.&lt;/p>
 &lt;p>오늘날 소프트웨어는 갈수록 그 규모와 복잡도가 커지고 있다. 하나의 소프트웨어를 개발하기 위해서는 자체 개발한 소프트웨어뿐 아니라 오픈소스, 타사 소프트웨어&lt;sub>3rd party software&lt;/sub>, 벤더의 SDK 등 소프트웨어 공급망에 걸친 다양한 소프트웨어가 사용될 수 있다.&lt;/p>
@@ -271,11 +271,11 @@
 &lt;/ul>
 &lt;p>오픈소스 프로그램 매니저는 가능한 풀타임으로 역할을 수행할 수 있도록 보장되는게 좋다.&lt;/p>
 &lt;p>글로벌 ICT 기업은 이와 같은 우수한 오픈소스 프로그램 매니저를 채용하기 위해 노력하고 있으며, 다음 사이트에서는 다양한 채용 공고를 확인할 수 있다. : &lt;a href="https://github.com/todogroup/job-descriptions">https://github.com/todogroup/job-descriptions&lt;/a>&lt;/p>
-&lt;p>기업은 오픈소스 거버넌스 체계를 구축하기 위해 각 역할의 필요성을 정의하고, 어떠한 책임을 할당하여야 하는가를 판단해야 한다. 소규모 기업의 경우, 오픈소스 프로그램 매니저 혼자서 모든 역할을 수행하는 것도 가능하다. 기업의 규모에 따라 오픈소스 도구를 운영하는 인프라 담당자도 필요할 수 있고, 전문적인 법무 자문을 제공하기 위한 법무 담당의 역할이 요구될 수도 있다.&lt;/p>
+&lt;p>기업은 오픈소스 거버넌스 체계를 구축하기 위해 각 역할의 필요성을 정의하고, 어떠한 책임을 할당하여야 하는가를 판단해야 한다. 소규모 기업의 경우, 오픈소스 프로그램 매니저 혼자서 모든 역할을 수행하는 것도 가능하다. 기업의 규모에 따라 오픈소스 도구를 운영하는 IT 담당자도 필요할 수 있고, 전문적인 법무 자문을 제공하기 위한 법무 담당의 역할이 요구될 수도 있다.&lt;/p>
 &lt;p>일반적으로 기업의 오픈소스 거버넌스 체계 구축을 위해서는 아래의 역할이 필요하다.&lt;/p>
 &lt;ul>
 &lt;li>법무 담당&lt;/li>
-&lt;li>인프라 담당&lt;/li>
+&lt;li>IT 담당&lt;/li>
 &lt;li>개발 문화 담당&lt;/li>
 &lt;li>보안 담당&lt;/li>
 &lt;/ul>
