@@ -26,4 +26,14 @@ description: >
 
 ## ISO/IEC 5230 살펴보기
 
-* 기존 가이드 내용을 참고하세요. : [가이드](/OpenChain-KWG/guide/governance_iso5230/1-whatisopenchain/)
+* 기존 가이드 내용을 참고하세요. : [ISO/IEC 5230 살펴보기](/OpenChain-KWG/guide/governance_iso5230/1-whatisopenchain/)
+
+## 필수 구성 요소
+
+* 기존 가이드 내용을 참고하세요. : [필수 구성 요소](/OpenChain-KWG/guide/governance_iso5230/2-essential_elements/)
+
+## 두 표준을 준수하기 위해 기업은 무엇을 해야 하나?
+
+여섯가지 요소 관점에서 살펴본다. 
+
+![](./elements.png)
