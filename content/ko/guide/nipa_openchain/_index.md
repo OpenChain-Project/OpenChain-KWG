@@ -1,7 +1,7 @@
 
 ---
-title: "기업 공개SW 거버넌스 OpenChain 해설서"
-linkTitle: "NIPA OpenChain 해설서"
+title: "[2020] 기업 공개SW 거버넌스 OpenChain 해설서"
+linkTitle: "[2020] OpenChain 해설서"
 weight: 60
 type: docs
 description: >

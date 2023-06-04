@@ -1,6 +1,6 @@
 ---
-title: "국제표준(ISO/IEC 5230)에 기반한 기업 오픈소스 거버넌스 구축 가이드"
-linkTitle: "ISO/IEC 5230 기반 거버넌스"
+title: "[2021] 국제표준(ISO/IEC 5230)에 기반한 기업 오픈소스 거버넌스 구축 가이드"
+linkTitle: "[2021] ISO/IEC 5230 기반 거버넌스"
 weight: 30
 type: docs
 description: >
