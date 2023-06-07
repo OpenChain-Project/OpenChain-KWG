@@ -1,6 +1,6 @@
 ---
-title: "2. 오픈소스 프로세스 (샘플)"
-weight: 2
+title: "[부록2] 오픈소스 프로세스 (샘플)"
+weight: 80
 type: docs
 ---
 
