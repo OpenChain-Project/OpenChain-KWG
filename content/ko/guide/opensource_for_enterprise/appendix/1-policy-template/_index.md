@@ -1,6 +1,6 @@
 ---
 title: "[부록1] 오픈소스 정책 (샘플)"
-weight: 70
+weight: 10
 type: docs
 ---
 
