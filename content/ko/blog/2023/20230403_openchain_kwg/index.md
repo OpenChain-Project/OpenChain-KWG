@@ -103,7 +103,9 @@ FOSSLight Project는 2023년 보안 취약점 기능을 개선하고, SBOM 기�
 
 ### 요즘 OLIVE 써봤니? (카카오, 황은경)
 
-[OLIVE Platform](https://olive.kakao.com/)은 카카오에서 개발한 오픈소스 라이선스 검증 서비스이며, 카카오 계정만 있으면 누구나 무료로 사용할 수 있습니다. 카카오의 황은경 님은 OLIVE Platform의 주요 기능을 소개하였습니다. 
+[OLIVE Platform](https://olive.kakao.com/)은 카카오에서 개발한 오픈소스 라이선스 검증 서비스이며, 카카오 계정 뿐만 아니라 GitHub, Google, Facebook 등의 계정만 있으면 누구나 무료로 사용할 수 있습니다.
+
+카카오의 황은경 님은 OLIVE Platform의 주요 기능을 소개하였습니다. 
 
 ![Untitled](./Untitled_14.png)
 
