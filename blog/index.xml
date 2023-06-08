@@ -82,7 +82,8 @@
 &lt;p>FOSSLight Project는 2023년 보안 취약점 기능을 개선하고, SBOM 기능 강화, UX개선 등의 로드맵을 가지고 있습니다.&lt;/p>
 &lt;p>&lt;img src="./Untitled_13.png" alt="Untitled">&lt;/p>
 &lt;h3 id="요즘-olive-써봤니-카카오-황은경">요즘 OLIVE 써봤니? (카카오, 황은경)&lt;/h3>
-&lt;p>&lt;a href="https://olive.kakao.com/">OLIVE Platform&lt;/a>은 카카오에서 개발한 오픈소스 라이선스 검증 서비스이며, 카카오 계정만 있으면 누구나 무료로 사용할 수 있습니다. 카카오의 황은경 님은 OLIVE Platform의 주요 기능을 소개하였습니다.&lt;/p>
+&lt;p>&lt;a href="https://olive.kakao.com/">OLIVE Platform&lt;/a>은 카카오에서 개발한 오픈소스 라이선스 검증 서비스이며, 카카오 계정 뿐만 아니라 GitHub, Google, Facebook 등의 계정만 있으면 누구나 무료로 사용할 수 있습니다.&lt;/p>
+&lt;p>카카오의 황은경 님은 OLIVE Platform의 주요 기능을 소개하였습니다.&lt;/p>
 &lt;p>&lt;img src="./Untitled_14.png" alt="Untitled">&lt;/p>
 &lt;p>OLIVE Platform은 소스 코드 노출이 우려되는 경우에도 안심하고 사용할 수 있는 OLIVE CLI 기능이 추가되어 보안에 민감한 금융권에서도 도입될 수 있었습니다.&lt;/p>
 &lt;p>&lt;img src="./Untitled_15.png" alt="Untitled">&lt;/p>
