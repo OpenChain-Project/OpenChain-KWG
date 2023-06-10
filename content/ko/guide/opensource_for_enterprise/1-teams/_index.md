@@ -159,7 +159,7 @@ SK텔레콤은 [OSRB](https://sktelecom.github.io/about/osrb/)를 구성하여 �
 {{< /imgproc >}}
 
 
-## 4. Summary
+## Summary
 
 역할, 책임, 필요 역량 및 담당자 지정을 문서화한 샘플은 [부록1] 오픈소스 정책에서 확인할 수 있습니다. : [Appendix 1. 담당자 현황](../appendix/7-policy-template/#appendix-1-담당자-현황)
 
