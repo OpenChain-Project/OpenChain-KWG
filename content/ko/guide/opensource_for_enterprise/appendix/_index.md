@@ -1,5 +1,5 @@
 ---
 title: "부록"
-weight: 30
+weight: 70
 type: docs
 ---
