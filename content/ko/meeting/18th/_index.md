@@ -13,16 +13,16 @@ description: >
 
 ## 아젠다
 
-* 발표 신청 : https://github.com/OpenChain-KWG/meeting/discussions/2
-
-| No | Agenda           | Speaker | Slide |
-|----|-----------------|------|------|
-| 0  | Welcome & OpenChain KWG Update | 카카오 황은경 |  -  |
-| 1  | OpenChain Global Update  | 	Shane Coughlan, Linux Foundation | -  |
-| 2  | To be updated | - | - |
-| 3  | 그룹 토의 & 네트워킹 | all | - |
-| 4  | To be updated | - | - |
-
+| No | Time | Agenda           | Speaker | Slide |
+|----|----|-----------------|------|------|
+| 0  | 14:00 | Welcome & Intro | 카카오 황은경 |  -  |
+| 1  | 14:10 | OpenChain Global Update  | 	Shane Coughlan, Linux Foundation | -  |
+| 2  | 14:20 | OpenChain KWG Update  | 	장학성, SK텔레콤 | -  |
+| 3  | 14:30 | (전산학 박사 출신 특허 법무 대학원생이 파헤치는) Copilot 소송 판결문 분석 | 박정숙, ETRI | -  |
+| 4  | 15:00 | Break & Networking  | - | -  |
+| 5  | 15:15 | FOSSLight + Security Release  | 석지영, LG전자 | -  |
+| 6  | 15:30 | 오소리 프로젝트, 웅장한 계획을 밝히다  | 정윤환, 삼성전자 | -  |
+| 7  | 16:00 | 그룹 토의 | all | - |
 
 ## Sponsor
 
