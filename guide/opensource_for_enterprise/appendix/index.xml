@@ -352,7 +352,7 @@ SPDX-License-Identifier: {$SPDX_license_name}
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item><item><title>Guide: [부록2] 오픈소스 프로세스 (샘플)</title><link>https://openChain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/appendix/2-process-template/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/appendix/2-process-template/</guid><description>
-&lt;p>OOO 회사(이하 &amp;ldquo;회사&amp;quot;라 함)는 소프트웨어를 포함하는 제품과 서비스를 개발하면서 오픈소스 소프트웨어를 적극적으로 활용합니다. 회사는 오픈소스 리스크를 최소화하기 위해 소프트웨어를 배포하면서 (1) 오픈소스 라이선스가 부과하는 의무사항을 준수하기 위한 활동과 (2) 오픈소스 보안 취약점을 검출하고 후속 조치를 위한 적절한 활동을 수행해야 합니다. 이러한 활동을 보장하기 위해 오픈소스 프로세스를 따릅니다.&lt;/p>
+&lt;p>OO 회사(이하 &amp;ldquo;회사&amp;quot;라 함)는 소프트웨어를 포함하는 제품과 서비스를 개발하면서 오픈소스 소프트웨어를 적극적으로 활용합니다. 회사는 오픈소스 리스크를 최소화하기 위해 소프트웨어를 배포하면서 (1) 오픈소스 라이선스가 부과하는 의무사항을 준수하기 위한 활동과 (2) 오픈소스 보안 취약점을 검출하고 후속 조치를 위한 적절한 활동을 수행해야 합니다. 이러한 활동을 보장하기 위해 오픈소스 프로세스를 따릅니다.&lt;/p>
 &lt;h2 id="1-오픈소스-프로세스">1. 오픈소스 프로세스&lt;/h2>
 &lt;p>오픈소스 프로세스는 회사가 소프트웨어 제품 및 서비스를 개발하고 배포하기 위한 각 개발 단계에 맞게 오픈소스 라이선스 의무 준수와 오픈소스 보안 취약점 해결을 위해 수행해야 할 절차를 정의합니다. 소프트웨어 제품 개발/배포에 관여하는 모든 구성원은 다음의 오픈소스 프로세스 11단계를 준수합니다.&lt;/p>
 &lt;p>&lt;img src="process.png" alt="process">&lt;/p>
@@ -361,7 +361,7 @@ SPDX-License-Identifier: {$SPDX_license_name}
 &lt;p>사업 부서는 소프트웨어 설계 단계에서 다음 사항을 준수합니다.&lt;/p>
 &lt;ul>
 &lt;li>소프트웨어를 설계하면서 예측 가능한 오픈소스 사용 현황을 파악하고 라이선스를 확인합니다.&lt;/li>
-&lt;li>오픈소스 라이선스별 의무 사항을 확인합니다. 라이선스별 의무 사항은 회사의 오픈소스 라이선스 가이드에서 확인할 수 있습니다. (insert_link)&lt;/li>
+&lt;li>오픈소스 라이선스별 의무 사항을 확인합니다. 라이선스별 의무 사항은 회사의 오픈소스 라이선스 가이드에서 확인할 수 있습니다. : &lt;a href="https://sktelecom.github.io/guide/use/obligation/">https://sktelecom.github.io/guide/use/obligation/&lt;/a>&lt;/li>
 &lt;li>각 오픈소스 라이선스의 소스 코드 공개 범위를 고려하여 소프트웨어를 설계합니다.&lt;/li>
 &lt;/ul>
 &lt;p>오픈소스 프로그램 매니저는 주요 오픈소스 라이선스 의무, 제한, 권리에 대한 가이드를 작성하고 공개하여 전사의 사업 부서에서 참고할 수 있도록 합니다. 이 가이드에는 일반적인 오픈소스 라이선스의 사용 사례가 관리될 수 있도록 다음과 같은 사용 사례가 포함되어야 합니다.&lt;/p>
@@ -421,7 +421,8 @@ SPDX-License-Identifier: {$SPDX_license_name}
 &lt;/tbody>
 &lt;/table>
 &lt;h3 id="3-문제-해결subresolving-issuessub">(3) 문제 해결&lt;sub>Resolving Issues&lt;/sub>&lt;/h3>
-&lt;p>사업 부서는 소스 코드 검사 단계에서 발견된 모든 문제를 해결합니다. 이슈가 된 오픈소스를 제거하거나, 다른 라이선스 하의 오픈소스로 교체하거나, 알려진 취약점이 수정된 버전으로 교체하는 등의 조치를 취합니다.&lt;/p>
+&lt;p>사업 부서는 소스 코드 검사 단계에서 발견된 모든 문제를 해결합니다.&lt;/p>
+&lt;p>이슈가 된 오픈소스를 제거하거나, 다른 라이선스 하의 오픈소스로 교체합니다. 보안 취약점 이슈의 경우 알려진 취약점이 수정된 버전으로 교체하는 등의 조치를 취합니다.&lt;/p>
 &lt;p>사업 부서는 발견된 모든 이슈를 해결하면 Jira Ticket 이슈를 Resolve하고, 재검토를 요청합니다.&lt;/p>
 &lt;h3 id="4-검토subreviewssub">(4) 검토&lt;sub>Reviews&lt;/sub>&lt;/h3>
 &lt;p>오픈소스 프로그램 매니저는 모든 이슈가 적절하게 보완되었는지 검토합니다. 필요할 경우, 오픈소스 분석 도구를 사용하여 소스 코드 검사를 재수행합니다.&lt;/p>
