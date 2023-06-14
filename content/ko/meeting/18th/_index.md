@@ -26,6 +26,7 @@ description: >
 
 ## Sponsor
 
+![](nipg-logo.png)
 
 ## Photo
 
