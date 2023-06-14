@@ -27,5 +27,6 @@ description: >
 ## Sponsors
 
 ![](./nipg-logo.png)
+![](./kakao.png)
 
 ## Photo
