@@ -46,7 +46,7 @@ Group은 오픈소스의 공유와 협업 정신에 따라 소프트웨어를 �
 
 ### Subgroup Member
 
-Group에는 다양한 주제의 Subgroup이 있다. [Code of Conduct](../codeofconduct/)를 준수하는 한 누구나 관심있는 주제의 Subgroup에 참여할 수 있다. 
+Group에는 다양한 주제의 Subgroup이 있다. Member라면 누구나 관심있는 주제의 Subgroup에 참여할 수 있다. 
 
 - Subgroup Member는 특정 주제에 대해 심도 있게 연구/개발하여 공동의 산출물을 만들어서 공공의 이익에 기여한다.
 - Subgroup Member는 해당 Subgroup의 메일링리스트에 가입할 수 있다.
@@ -90,7 +90,7 @@ Subgroup은 보다 전문적인 협업을 위한 주제에 대해 함께 연구�
 #### 구성
 
 - Member는 전문적인 협업을 위한 주제가 있을 경우 운영위원회에 Subgroup 결성을 제안할 수 있다. 운영위원회는 이를 검토하여 승인 여부를 결정한다.
-- Subgroup은 Member가 아니어도 해당 주제에 관심이 있는 누구나 [Code of Conduct](../codeofconduct/)를 준수하는 조건으로 참석할 수 있다.
+- Member가 아니어도 해당 주제에 관심이 있는 자는 Subgroup Member의 과반수가 동의하고 Subgroup 리더가 승인하는 조건으로 참석할 수 있다. 
 
 #### 리더
 
