@@ -17,7 +17,7 @@ description: >
 |----|----|-----------------|------|------|
 | 0 | 14:00 | Welcome & Intro | Violet Hwang, Kakao | - |
 | 1 | 14:10 | OpenChain Global Update | Shane Coughlan, The Linux Foundation | - |
-| 2 | 14:20 | OpenChain KWG Update | Haksung Jang, SK Telecom | - |
+| 2 | 14:20 | OpenChain KWG Update | Haksung Jang, SK Telecom / Seoyeon Lee, Line Plus | - |
 | 3 | 14:30 | Copilot Litigation Judgment Analysis | Jeongsook Park, ETRI | - |
 | 4 | 15:00 | Break & Networking | - | - |
 | 5 | 15:15 | FOSSLight + Security Release | Ji-young Seok, LG Electronics | - |
