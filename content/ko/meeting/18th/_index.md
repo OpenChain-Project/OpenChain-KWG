@@ -17,7 +17,7 @@ description: >
 |----|----|-----------------|------|------|
 | 0  | 14:00 | Welcome & Intro | 황은경, 카카오 |  -  |
 | 1  | 14:10 | OpenChain Global Update  | 	Shane Coughlan, Linux Foundation | -  |
-| 2  | 14:20 | OpenChain KWG Update  | 	장학성, SK텔레콤 | -  |
+| 2  | 14:20 | OpenChain KWG Update  | 	장학성, SK텔레콤 / 이서연, 라인플러스 | -  |
 | 3  | 14:30 | (전산학 박사 출신 특허 법무 대학원생이 파헤치는) Copilot 소송 판결문 분석 | 박정숙, ETRI | -  |
 | 4  | 15:00 | Break & Networking  | - | -  |
 | 5  | 15:15 | FOSSLight + Security Release  | 석지영, LG전자 | -  |
