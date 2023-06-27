@@ -30,6 +30,28 @@ description: >
 <br>
 ![](./kakao.png)
 
+## Participant
+- Kookmin bank
+- KFTC
+- Line Plus
+- Samsung
+- AhnLab
+- NCsoft
+- cacao
+- Kakao Bank
+- Hangeul and computer
+- Hyundai Autoever
+- Hyundai Mobis
+- Hyundai Motor
+- CJ
+- ETRI
+- KT
+- KTDS
+- LG Electronics
+- NIPA
+- SK Telecom
+- SK Hynix
+
 ## Photo
 ![](18_00.jpeg)
 <br><br>
