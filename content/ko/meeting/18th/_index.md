@@ -18,7 +18,7 @@ description: >
 | 0  | 14:00 | Welcome & Intro | 황은경, 카카오 |  -  |
 | 1  | 14:10 | OpenChain Global Update  | 	Shane Coughlan, Linux Foundation | [slide](https://www.slideshare.net/ShaneCoughlan3/openchain-korea-work-group-meeting-18)  |
 | 2  | 14:20 | OpenChain KWG Update  | 	장학성, SK텔레콤 / 이서연, 라인플러스 | [slide](./OpenChain_Korea_update_20230622.pdf)  |
-| 3  | 14:30 | (전산학 박사 출신 특허 법무 대학원생이 파헤치는) Copilot 소송 진행 현황 | 박정숙, ETRI | to be updated  |
+| 3  | 14:30 | (전산학 박사 출신 특허 법무 대학원생이 파헤치는) Copilot 소송 진행 현황 | 박정숙, ETRI | [slide](./Copilot%EC%86%8C%EC%86%A1%EC%A7%84%ED%96%89%ED%98%84%ED%99%A9_ETRI%EB%B0%95%EC%A0%95%EC%88%99-R4.pdf)  |
 | 4  | 15:00 | Break & Networking  | all | -  |
 | 5  | 15:15 | FOSSLight + Security Release  | 석지영, LG전자 | [slide](./230622_FOSSLight_Hub_Security%EA%B8%B0%EB%8A%A5%EC%86%8C%EA%B0%9C.pdf)  |
 | 6  | 15:30 | 오소리 프로젝트, 웅장한 계획을 밝히다  | 정윤환, 삼성전자 | [slide](./OSORI_%EC%98%A4%ED%94%88%EC%B2%B4%EC%9D%B8KWG_20230622_%EB%B0%9C%ED%91%9C-2.pdf)  |
