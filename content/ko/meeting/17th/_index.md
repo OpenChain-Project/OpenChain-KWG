@@ -31,6 +31,8 @@ description: >
 | 8  | 요즘 OLIVE 써봤니? | 카카오 Violet(황은경) | [pdf](./Openchain_KWG_17th_OLIVE.pdf) |
 | 9  | onot, 이제 제법 쓸만해졌어요! | 카카오 Rogers(한현민) | [pdf](./openchain_kwg_17th_onot.pdf) |
 
+* 리뷰 : https://devocean.sk.com/opensource/techBoardDetail.do?ID=164691
+
 ## Sponsor
 ![sponsor](./sponsor.png)
 

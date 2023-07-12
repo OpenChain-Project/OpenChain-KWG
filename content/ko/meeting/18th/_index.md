@@ -24,6 +24,8 @@ description: >
 | 6  | 15:30 | 오소리 프로젝트, 웅장한 계획을 밝히다  | 정윤환, 삼성전자 | [slide](./OSORI_%EC%98%A4%ED%94%88%EC%B2%B4%EC%9D%B8KWG_20230622_%EB%B0%9C%ED%91%9C-2.pdf)  |
 | 7  | 16:00 | 그룹 토의 | all | - |
 
+* 후기 : [오픈소스는 저희에게 맡겨주세요! OpenChain Korea Work Group 모임 후기](https://tech.kakao.com/2023/07/10/openchain-kwg-18th-meeting/)
+
 ## Sponsor
 
 ![](nipg-logo.png)
