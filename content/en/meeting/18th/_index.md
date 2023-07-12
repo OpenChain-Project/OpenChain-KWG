@@ -24,6 +24,8 @@ description: >
 | 6 | 15:30 | Introducing the OSORI project | Yunhwan Jung, Samsung Electronics | [slide](./OSORI_%EC%98%A4%ED%94%88%EC%B2%B4%EC%9D%B8KWG_20230622_%EB%B0%9C%ED%91%9C-2.pdf)  |
 | 7 | 16:00 | Group discussion | all | - |
 
+* Review: [Leave open source to us! Review of OpenChain Korea Work Group meeting](https://tech.kakao.com/2023/07/10/openchain-kwg-18th-meeting/)
+
 ## Sponsor
 
 ![](nipg-logo.png)

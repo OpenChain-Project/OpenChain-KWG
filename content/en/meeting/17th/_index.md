@@ -32,6 +32,7 @@ description: >
 | 8 | Have you used OLIVE lately? | Violet (Eunkyung Hwang), Kakao  | [pdf](./Openchain_KWG_17th_OLIVE.pdf) |
 | 9 | onot, now it's quite usable! | Rogers (Hyun-min Han), Kakao  | [pdf](./openchain_kwg_17th_onot.pdf) |
 
+* Review : https://devocean.sk.com/opensource/techBoardDetail.do?ID=164691
 
 ## Sponsors
 ![sponsor](./sponsor.png)
