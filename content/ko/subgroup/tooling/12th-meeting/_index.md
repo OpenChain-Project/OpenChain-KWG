@@ -2,7 +2,7 @@
 title: "Upcomming_12th Meeting"
 linkTitle: "Upcomming_12th Meeting"
 weight: 12
-date: 2023-10-11
+date: 2023-08-02
 type: docs
 description: >
   Tooling SG 12th Meeting
