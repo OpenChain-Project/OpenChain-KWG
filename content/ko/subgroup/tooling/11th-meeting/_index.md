@@ -15,7 +15,10 @@ description: >
 * 장소 : 온라인(Webex)
 
 ## Attendees
-* N/A
+* ETRI
+* Hyundai Mobis
+* Kakao
+* LG Electronics
 
 ## Invitees
 * Xmirror Security
@@ -24,4 +27,4 @@ description: >
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
 | 1  | OpenSCA 소개 | TBA, Xmirror Security | [pdf](session1_xmirror.pdf) |
-| 2  | SPDX Tools 사용 | 박정숙, ETRI | - |
+| 2  | SPDX Tools 사용 | 박정숙, ETRI | [pdf](session2_etri.pdf) |
