@@ -1,6 +1,6 @@
 ---
-title: "Upcomming_11th Meeting"
-linkTitle: "Upcomming_11th Meeting"
+title: "11th Meeting"
+linkTitle: "11th Meeting"
 weight: 11
 date: 2023-08-02
 type: docs
@@ -23,5 +23,5 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | Intorduction to Open SCA | TBA, Xmirror Security | - |
+| 1  | Intorduction to Open SCA | TBA, Xmirror Security | [pdf](session1_xmirror.pdf) |
 | 2  | Use of SPDX Tools | Jeongsook Park, ETRI | - |
