@@ -26,5 +26,5 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | OpenSCA 소개 | TBA, Xmirror Security | [pdf](session1_xmirror.pdf) |
+| 1  | OpenSCA 소개 | Qiuyue Qi, Xmirror Security | [pdf](session1_xmirror.pdf) |
 | 2  | SPDX Tools 사용 | 박정숙, ETRI | [pdf](session2_etri.pdf) |
