@@ -23,5 +23,5 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | Intorduction to Open SCA | TBA, Xmirror Security | [pdf](session1_xmirror.pdf) |
+| 1  | Intorduction to Open SCA | Qiuyue Qi, Xmirror Security | [pdf](session1_xmirror.pdf) |
 | 2  | Use of SPDX Tools | Jeongsook Park, ETRI | [pdf](session2_etri.pdf) |
