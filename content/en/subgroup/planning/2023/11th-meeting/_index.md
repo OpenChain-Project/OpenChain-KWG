@@ -16,6 +16,7 @@ description: >
    * Jiho Han, Dasom Han, NCSOFT
    * Seoyeon Lee, Line Plus 
    * Haksung Jang, SK Telecom 
+   * Soim Kim, LG Electronics
 
 ## Agenda
 
