@@ -20,7 +20,7 @@ description: >
 
 ## Agenda
 
-1. Review of the 18th KWG meeting (Kakao)
-2. Preparation for the 19th KWG meeting
-   - Schedule & Agenda
-3. Steering Committee election schedule discussion
+1. 18차 KWG 모임 리뷰 (카카오)
+2. 19차 KWG 모임 준비
+  - 일정 / 아젠다 논의
+3. 운영위원회 선거 일정 논의
