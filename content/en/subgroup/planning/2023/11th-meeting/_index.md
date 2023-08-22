@@ -20,8 +20,7 @@ description: >
 
 ## Agenda
 
-1. The 2023 first quater budget use results were reported. 
-2. Prepared the KWG meeting in the second quarter of 2023
-3. Major events in 2023
-   - Election of steering committee members (at the 3rd KWG meetings)
-   - Election of steering committee leader (at the 4th quarter steering committee)
+1. Review of the 18th KWG meeting (Kakao)
+2. Preparation for the 19th KWG meeting
+   - Schedule & Agenda
+3. Steering Committee election schedule discussion
