@@ -17,7 +17,7 @@ description: >
 
 | Time | Agenda | Speaker | Slide |
 |----|-----------------|------|------|
-| 13:30~13:40 | Welcome & Intro | Changhan Ryu, Hyundai Autoever | - |
+| 13:30~13:40 | Welcome & Intro | Seokgi Min/Changhan Ryu, Hyundai Autoever | - |
 | 13:40~13:50 | OpenChain Global Update | Shane Coughlan, Linux Foundation | - |
 | 13:50~14:00 | OpenChain KWG Update <br> About Legal subgroup | Haksung Jang, SK Telecom / Seo-yeon Lee, Line Plus <br> Jeong-sook Park, ETRI | - |
 
@@ -46,10 +46,11 @@ description: >
 
 ## Sponsors
 
-![](nipg-logo.png)
-<br>
-<br>
 ![](autoever-logo.png)
+<br>
+
+![](nipg-logo.png)
+
 
 ## Attending
 
