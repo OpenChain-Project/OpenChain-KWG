@@ -17,7 +17,7 @@ description: >
 
 | Time | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 13:30~13:40 | Welcome & Intro | 류창한, 현대오토에버 |  -  |
+| 13:30~13:40 | Welcome & Intro | 민석기/류창한, 현대오토에버 |  -  |
 | 13:40~13:50 | OpenChain Global Update  | 	Shane Coughlan, Linux Foundation | - |
 | 13:50~14:00 | OpenChain KWG Update <br> Legal subgroup 소개  | 장학성, SK텔레콤 / 이서연, 라인플러스 <br> 박정숙, ETRI | -  |
 
@@ -34,7 +34,7 @@ description: >
 | Time | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
 | 15:00~15:20 | LG전자 제품 보안 관리 체계 기반 오픈소스 보안 보증 표준 준수 사례 소개 | 정재욱, LG전자 |  -  |
-| 15:20~15:40 | 우당탕탕 LINE의 OpenChain 인증 여정 | 이서연, 김동혁, 라인플러스 |  -  |
+| 15:20~15:40 | 우당탕탕 LINE의 OpenChain 인증 여정 | 이서연/김동혁, 라인플러스 |  -  |
 | 15:40~16:00 | 혼돈의 AI 오픈 소스 라이선스 | 최혜성, LG전자 |  -  |
 | 16:00~16:20 | 네트워킹 | ALL |  -  |
 
@@ -46,10 +46,11 @@ description: >
 
 ## Sponsor
 
-![](nipg-logo.png)
-<br>
-<br>
 ![](autoever-logo.png)
+<br>
+
+![](nipg-logo.png)
+
 
 ## 참석 기업/기관
 
