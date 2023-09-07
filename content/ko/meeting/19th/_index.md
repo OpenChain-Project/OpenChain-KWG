@@ -50,6 +50,9 @@ description: >
 <br>
 
 ![](nipg-logo.png)
+<br>
+<br>
+![](ETRI-logo.png)
 
 
 ## 참석 기업/기관
