@@ -19,7 +19,7 @@ description: >
 |----|-----------------|------|------|
 | 13:30~13:40 | Welcome & Intro | 민석기/류창한, 현대오토에버 |  -  |
 | 13:40~13:50 | OpenChain Global Update  | 	Shane Coughlan, Linux Foundation | - |
-| 13:50~14:00 | OpenChain KWG Update <br> Legal subgroup 소개  | 장학성, SK텔레콤 / 이서연, 라인플러스 <br> 박정숙, ETRI | [slide](./OpenChain_Korea_update_20230919_2.pdf) <br> [slide](./LegalSubgroup소개자료-20230919-R1.pdf)  |
+| 13:50~14:00 | OpenChain KWG Update <br> Legal subgroup 소개  | 장학성, SK텔레콤 / 이서연, 라인플러스 <br> 박정숙, ETRI | [slide](./OpenChain_Korea_update_20230919.pdf) <br> [slide](./LegalSubgroup소개자료-20230919-R1.pdf)  |
 
 ### 세션 1. 현대차그룹과 오픈소스
 
