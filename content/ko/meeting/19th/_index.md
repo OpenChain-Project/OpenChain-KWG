@@ -84,4 +84,20 @@ description: >
 * 현대자동차
 
 ## Photo
+![](IMG_5205.jpeg)
+<br><br>
+![](IMG_5203.jpeg)
+<br><br>
+![](IMG_5202.jpeg)
+<br><br>
+![](20230919_131847.jpg)
+<br><br>
+![](20230919_130539.jpg)
+<br><br>
+![](20230919_123642.jpg)
+<br><br>
+
+
+### Full Album
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/198570149@N05/albums/72177720311433957" title="[2023 Sep] OpenChain Korea Work Group in Hyundae Autoever"><img src="https://live.staticflickr.com/65535/53212082529_fe12947413_z.jpg" width="640" height="480" alt="[2023 Sep] OpenChain Korea Work Group in Hyundae Autoever"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
