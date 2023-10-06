@@ -23,4 +23,4 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | Labrador 소개 | TBA, Labrador Labs | - |
+| 1  | Labrador 소개 | 조재형, Labrador Labs | - |
