@@ -1,8 +1,8 @@
 ---
-title: "Upcomming_12th Meeting"
-linkTitle: "Upcomming_12th Meeting"
+title: "12th Meeting"
+linkTitle: "12th Meeting"
 weight: 12
-date: 2023-08-02
+date: 2023-10-11
 type: docs
 description: >
   Tooling SG 12th Meeting
@@ -15,7 +15,11 @@ description: >
 * 장소 : 온라인(Webex)
 
 ## Attendees
-* N/A
+* LG전자
+* SK텔레콤 
+* 삼성전자
+* 카카오
+* 현대오토에버
 
 ## Invitees
 * Labrador Labs
@@ -23,4 +27,4 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | Labrador 소개 | 조재형, Labrador Labs | - |
+| 1  | Labrador 소개 | 조재형, Labrador Labs | [pdf](Labrador.pdf) |
