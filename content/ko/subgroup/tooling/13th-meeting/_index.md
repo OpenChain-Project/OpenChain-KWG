@@ -18,9 +18,9 @@ description: >
 * TBD
 
 ## Invitees
-* TBD
+* 엘에스웨어
 
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | TBD | TBD | TBD |
+| 1  | 오픈소스 통합관리 포털 - 포세라 포털 위드 블랙덕 | 박준석, 엘에스웨어 | TBD |
