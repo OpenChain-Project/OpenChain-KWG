@@ -18,9 +18,9 @@ description: >
 * TBD
 
 ## Invitees
-* TBD
+* LSware
 
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | TBD | TBD | TBD |
+| 1  | Open Source Governance Portal - FOSSEra Protal with Black Duck | JunSeok Park, LSware | TBD |
