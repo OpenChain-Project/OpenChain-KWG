@@ -18,9 +18,9 @@ description: >
 * TBD
 
 ## Invitees
-* TBD
+* nexB Inc.
 
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | TBD | TBD | TBD |
+| 1  | TBD | Philippe Ombredanne, nexB Inc. | TBD |
