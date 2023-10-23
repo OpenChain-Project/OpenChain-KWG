@@ -18,7 +18,7 @@ description: >
 * TBD
 
 ## Invitees
-* TBD
+* nexB Inc.
 
 ## Agenda
 | No | Agenda           | Speaker | Slide |
