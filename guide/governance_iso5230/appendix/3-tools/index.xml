@@ -96,63 +96,102 @@
 &lt;p>이 가이드에서는 &lt;code>Docker&lt;/code>로 Deploy하는 방법을 소개한다. 자세한 사항은 README를 참고한다. : &lt;a href="https://github.com/eclipse-sw360/sw360/blob/main/README_DOCKER.md">https://github.com/eclipse-sw360/sw360/blob/main/README_DOCKER.md&lt;/a>&lt;/p>
 &lt;h3 id="1-코드-다운로드">1. 코드 다운로드&lt;/h3>
 &lt;p>Docker Image 빌드를 위해 코드를 다운로드 한다. 테스트가 완료된 코드는 여기서 받을 수 있다. : &lt;a href="https://github.com/haksungjang/sw360/tree/docker_build">https://github.com/haksungjang/sw360/tree/docker_build&lt;/a>&lt;/p>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">$ git clone -b docker_build https://github.com/haksungjang/sw360.git
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">git clone -b docker_build https://github.com/haksungjang/sw360.git
 &lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="2-빌드">2. 빌드&lt;/h3>
 &lt;p>먼저 &lt;a href="https://www.docker.com/">Docker&lt;/a>를 설치한다. (기업 개발자가 사용하려면 &lt;a href="https://www.docker.com/pricing/">유료 구매&lt;/a>가 필요할 수 있음에 주의하세요.)&lt;/p>
 &lt;p>아래와 같이 &lt;code>docker_build.sh&lt;/code>를 실행하여 빌드한다.&lt;/p>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">$ &lt;span style="color:#204a87">cd&lt;/span> sw360
-$ ./docker_build.sh
-&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="1-사전-설치">1) 사전 설치&lt;/h3>
-&lt;p>vagrant box에 SW360을 설치하기 위해서는 openjdk, VirtualBox 및 Vagrant를 설치해야 다. 먼저 openjdk 1.8.0을 설치한다.&lt;/p>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">$ yum install java-1.8.0-openjdk
-$ java -version
-openjdk version &amp;#34;1.8.0_191&amp;#34;
-OpenJDK Runtime Environment (build 1.8.0_191-b12)”
-OpenJDK 64-Bit Server VM (build 25.191-b12, mixed mode)
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>VirtualBox를 설치한다.&lt;/p>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">$ sudo wget https://download.virtualbox.org/virtualbox/rpm/el/virtualbox.repo -P /etc/yum.repos.d
-$ sudo yum install VirtualBox-5.2
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>CentOS 7에서 VirtualBox 설치 시, “kernel module is not loaded’ 에러가 발생할 경우, kernel-devel을 설치하여 해결한 후 VirtualBox를 재설치한다.&lt;/p>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">$ sudo yum install https://centos7.iuscommunity.org/ius-release.rpm
-$ sudo yum install dkms
-$ sudo yum install kernel-devel
-# reboot
-$ sudo /sbin/vboxconfig
-$ systemctl status vboxdrv
-● vboxdrv.service - VirtualBox Linux kernel module
-Loaded: loaded (/usr/lib/virtualbox/vboxdrv.sh; enabled; vendor preset: disabled)
-Active: active (exited) since Wed 2020-02-19 09:06:02 KST; 20min ago
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Vagrant와 vagrant-aws plugin을 설치한다.&lt;/p>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">$ sudo yum install https://releases.hashicorp.com/vagrant/2.2.6/vagrant_2.2.6_x86_64.rpm
-# vagrant-aws plugin 설치
-$ vagrant plugin install vagrant-aws
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>그리고, sw360vagrant 코드를 Clone 한다.&lt;/p>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">$ git clone https://github.com/sw360/sw360vagrant.git
-&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="2-dependency-다운로드">2) Dependency 다운로드&lt;/h3>
-&lt;p>Vagrant box를 빌드하는 시간을 줄이기 위해 Dependency Package들을 미리 다운로드 받는다.&lt;/p>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">$ cd sw360vagrant
-$ ./download-packages.sh
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>그러면 다음의 package들이 ./shared/package 폴더 안에 다운로드 된다.&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">&lt;span style="color:#204a87">cd&lt;/span> sw360
+./docker_build.sh
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>정상적으로 빌드가 완료되면 아래와 같이 생성된 이미지를 확인할 수 있다.&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">docker image ls
+REPOSITORY TAG IMAGE ID CREATED SIZE
+eclipse-sw360/sw360 18-development ab0fd848bf80 &lt;span style="color:#0000cf;font-weight:bold">8&lt;/span> minutes ago 2.95GB
+eclipse-sw360/sw360 latest ab0fd848bf80 &lt;span style="color:#0000cf;font-weight:bold">8&lt;/span> minutes ago 2.95GB
+ghcr.io/eclipse-sw360/sw360 18-development ab0fd848bf80 &lt;span style="color:#0000cf;font-weight:bold">8&lt;/span> minutes ago 2.95GB
+ghcr.io/eclipse-sw360/sw360 latest ab0fd848bf80 &lt;span style="color:#0000cf;font-weight:bold">8&lt;/span> minutes ago 2.95GB
+eclipse-sw360/binaries 18-development aa7debf0a1fc &lt;span style="color:#0000cf;font-weight:bold">8&lt;/span> minutes ago 347MB
+eclipse-sw360/binaries latest aa7debf0a1fc &lt;span style="color:#0000cf;font-weight:bold">8&lt;/span> minutes ago 347MB
+ghcr.io/eclipse-sw360/binaries 18-development aa7debf0a1fc &lt;span style="color:#0000cf;font-weight:bold">8&lt;/span> minutes ago 347MB
+ghcr.io/eclipse-sw360/binaries latest aa7debf0a1fc &lt;span style="color:#0000cf;font-weight:bold">8&lt;/span> minutes ago 347MB
+eclipse-sw360/base 18-development e5147733fc88 &lt;span style="color:#0000cf;font-weight:bold">37&lt;/span> minutes ago 1.52GB
+eclipse-sw360/base latest e5147733fc88 &lt;span style="color:#0000cf;font-weight:bold">37&lt;/span> minutes ago 1.52GB
+ghcr.io/eclipse-sw360/base 18-development e5147733fc88 &lt;span style="color:#0000cf;font-weight:bold">37&lt;/span> minutes ago 1.52GB
+ghcr.io/eclipse-sw360/base latest e5147733fc88 &lt;span style="color:#0000cf;font-weight:bold">37&lt;/span> minutes ago 1.52GB
+ghcr.io/eclipse-sw360/thrift 0.18.1 0012d7998058 &lt;span style="color:#0000cf;font-weight:bold">4&lt;/span> weeks ago 152MB
+ghcr.io/eclipse-sw360/thrift latest 0012d7998058 &lt;span style="color:#0000cf;font-weight:bold">4&lt;/span> weeks ago 152MB
+eclipse-sw360/thrift 0.18.1 0012d7998058 &lt;span style="color:#0000cf;font-weight:bold">4&lt;/span> weeks ago 152MB
+eclipse-sw360/thrift latest 0012d7998058 &lt;span style="color:#0000cf;font-weight:bold">4&lt;/span> weeks ago 152MB
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="3-실행">3. 실행&lt;/h3>
+&lt;p>&lt;code>docker-compose up&lt;/code> 명령으로 생성된 이미지를 실행한다.&lt;/p>
+&lt;pre>&lt;code>docker-compose up
+&lt;/code>&lt;/pre>&lt;p>정상적으로 실행이 완료되면 아래와 같이 세개의 container가 실행된 것을 볼 수 있다.&lt;/p>
+&lt;pre>&lt;code>docker ps
+CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+4299fd39010c eclipse-sw360/sw360 &amp;quot;/app/entry_point.sh&amp;quot; 3 minutes ago Up 3 minutes 0.0.0.0:8080-&amp;gt;8080/tcp, 0.0.0.0:11311-&amp;gt;11311/tcp sw360
+13fd5696b140 postgres:14 &amp;quot;docker-entrypoint.s…&amp;quot; 3 minutes ago Up 3 minutes (healthy) 0.0.0.0:5438-&amp;gt;5432/tcp sw360-postgresdb-1
+7bb70f2daaf4 couchdb &amp;quot;tini -- /docker-ent…&amp;quot; 3 minutes ago Up 3 minutes (healthy) 4369/tcp, 9100/tcp, 0.0.0.0:5984-&amp;gt;5984/tcp sw360-couchdb-1
+&lt;/code>&lt;/pre>&lt;p>이 상태에서 &lt;code>http://localhost:8080/&lt;/code>로 접근하면 다음과 같은 화면에 진입한다.&lt;/p>
+&lt;p>&lt;img src="../liferay.png" alt="">&lt;/p>
+&lt;h2 id="설정">설정&lt;/h2>
+&lt;p>SW360을 정상적으로 설치한 후에는 아래의 절차대로 초기 설정이 필요하다. 자세한 내용은 여기에서 확인할 수 있다. : &lt;a href="https://eclipse.dev/sw360/docs/deployment/legacy/deploy-liferay7.4/">SW360 Initial Setup Configuration&lt;/a>&lt;/p>
+&lt;h3 id="user-login-설정">User, Login 설정&lt;/h3>
+&lt;p>설정을 위해 다음 계정으로 로그인한다.&lt;/p>
 &lt;ul>
-&lt;li>Liferay 7.2.1 CE GA2 with Tomcat (9.0.17)&lt;/li>
-&lt;li>Postgresql-42.2.9 ODBC client for Java as *.jar file&lt;/li>
-&lt;li>SW 360에서 필요한 11개의 *.jar 파일&lt;/li>
-&lt;li>Thrift 0.11&lt;/li>
-&lt;li>A box images from the Ubuntu 16.04 LTS (xenial-server-cloudimg-amd64-vagrant.box)&lt;/li>
+&lt;li>id : &lt;a href="mailto:setup@sw360.org">setup@sw360.org&lt;/a>&lt;/li>
+&lt;li>pw : sw360fossy&lt;/li>
 &lt;/ul>
-&lt;h3 id="3-base-box-생성">3) Base box 생성&lt;/h3>
-&lt;p>이제 다음 명령어로 Base box를 생성한다.&lt;/p>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">$ cd generate-box
-$ ./generate_box.sh
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>이 작업은 수십 분 소요될 수 있다.&lt;/p>
-&lt;h3 id="4-box-실행">4) Box 실행&lt;/h3>
-&lt;p>다음 명령어로 Box를 실행한다.&lt;/p>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text"># If you have built a vagrant box from this directory earlier, you will have to destroy it first via
-$ vagrant destroy
-$ cd ../sw360-single
-$ vagrant up
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Box를 실행하면 liferay, postgresql 및 couchdb가 구성된다. 이상없이 실행이 될 경우, &lt;a href="https://localhost:8443/">https://localhost:8443/&lt;/a> 로 Liferay 화면에 접근할 수 있다.&lt;/p>
-&lt;p>&lt;img src="https://lh6.googleusercontent.com/leof_ntxQlxjDeD91E7ZfwWY0ftUlD0D_L58AkeNJb_bEFFzKvuL28yzb4iIA6-bAuSfQydo-gVBlnn5EVGGBKcPh0-6Y7p2Qbar74qpB4uwa_nibrV535NJwEIpWXZPFeNUSRd-" alt="">&lt;/p>
+&lt;p>로그인을 하면 아래와 같이 Not Found라는 표시가 나타나게 된다.&lt;/p>
+&lt;p>&lt;img src="../liferay1.png" alt="">&lt;/p>
+&lt;p>화면 우상단의 아이템 아이콘(큐브 모양)을 클릭하고 &lt;code>Control Panel&lt;/code> 탭을 선택한다.&lt;/p>
+&lt;p>&lt;img src="../liferay2.png" alt="">&lt;/p>
+&lt;p>&lt;code>SECURITY&lt;/code> &amp;gt; &lt;code>Password Policies&lt;/code> &amp;gt; &lt;code>Default Password Policy&lt;/code> &amp;gt; &lt;code>PASSWORD CHANGES&lt;/code> &amp;gt; &lt;code>Change Requried&lt;/code>를 활성화한다.&lt;/p>
+&lt;p>&lt;img src="../liferay3.png" alt="">&lt;/p>
+&lt;p>그리고, 다시 &lt;code>Control Panel&lt;/code>탭에서 &lt;code>CONFIGURATION&lt;/code> &amp;gt; &lt;code>Instance Settings&lt;/code>을 선택한다. 그러면, &lt;code>PLATFORM&lt;/code>메뉴를 볼 수 있다.&lt;/p>
+&lt;p>&lt;img src="../liferay4.png" alt="">&lt;/p>
+&lt;p>거기서 &lt;code>Users&lt;/code>를 선택한다. 그리고, &lt;code>Default User Associations&lt;/code> 메뉴로 진입하고, &lt;code>Apply to Existing Users&lt;/code>를 체크한다. 그리고 &lt;code>Save&lt;/code>한다.&lt;/p>
+&lt;p>&lt;img src="../liferay5.png" alt="">&lt;/p>
+&lt;p>이번에는 &lt;code>Instance Settings&lt;/code> &amp;gt; &lt;code>PLATFORM&lt;/code>에서 &lt;code>User Authentication&lt;/code>를 선택한다. &lt;code>General&lt;/code>로 진입하여 모든 항목을 Uncheck한다. (관리 목적상 필요한 항목은 Check하여 활성화할 수 있다.) 그리고 &lt;code>Save&lt;/code>한다.&lt;/p>
+&lt;p>&lt;img src="../liferay6.png" alt="">&lt;/p>
+&lt;p>끝으로, jquery와 font awesome을 활성화시켜야 한다. 이를 위해 &lt;code>Control Panel&lt;/code> 탭에서 &lt;code>CONFIGURATION&lt;/code> &amp;gt; &lt;code>System Settings&lt;/code>으로 진입하면 &lt;code>PLATFORM&lt;/code> 하위에 &lt;code>Third Party&lt;/code>를 볼 수 있다.&lt;/p>
+&lt;p>&lt;img src="../liferay7.png" alt="">&lt;/p>
+&lt;p>&lt;code>Third Party&lt;/code>에 진입하여 &lt;code>JQuery&lt;/code>와 &lt;code>Font Awesome&lt;/code>을 각각 Enable시킨다.&lt;/p>
+&lt;p>&lt;img src="../liferay8.png" alt="">&lt;/p>
+&lt;p>&lt;img src="../liferay9.png" alt="">&lt;/p>
+&lt;p>브라우저를 새로 실행하면 변경 사항이 적용된다.&lt;/p>
+&lt;h3 id="lar-파일-import">LAR 파일 import&lt;/h3>
+&lt;p>SW360 설정을 위해서는 &lt;code>*.lar&lt;/code> 파일들을 import해야 한다. 이를 설정하기 위해서는 메뉴로 진입해야 하는데, 메뉴 버튼은 화면 좌측 상단에 있다.&lt;/p>
+&lt;p>&lt;img src="../liferay10.png" alt="">&lt;/p>
+&lt;p>메뉴에서 &lt;code>Publishing&lt;/code> &amp;gt; &lt;code>Import&lt;/code>에 진입한다.&lt;/p>
+&lt;p>&lt;img src="../liferay11.png" alt="">&lt;/p>
+&lt;p>우측의 &lt;code>+&lt;/code> 버튼을 눌러 LAR 파일을 업로드 할 수 있는데, LAR 파일은 SW360 소스 파일 내 &lt;code>frontend/configuration&lt;/code> 폴더 하위에 있다. (예: &lt;a href="https://github.com/haksungjang/sw360/tree/docker_build/frontend/configuration">https://github.com/haksungjang/sw360/tree/docker_build/frontend/configuration&lt;/a>)&lt;/p>
+&lt;p>먼저, &lt;code>Public_Pages_7_4_3_18_GA18.lar&lt;/code> 파일을 업로드하고 &lt;code>Continue&lt;/code> 버튼을 누른다.&lt;/p>
+&lt;p>&lt;img src="../liferay12.png" alt="">&lt;/p>
+&lt;p>File Summary 화면에서 업로드된 LAR 파일 세부 내용을 볼 수 있다.&lt;/p>
+&lt;p>&lt;img src="../liferay13.png" alt="">&lt;/p>
+&lt;p>제일 아래의 &lt;code>AUTHORSHIP OF THE CONTENT&lt;/code>를 &lt;code>Use the Current User as Author&lt;/code>로 변경하고 &lt;code>Import&lt;/code> 버튼을 누른다.&lt;/p>
+&lt;p>&lt;img src="../liferay14.png" alt="">&lt;/p>
+&lt;p>그러면 Import가 성공적으로 완료된 걸 볼 수 있다.&lt;/p>
+&lt;p>&lt;img src="../liferay15.png" alt="">&lt;/p>
+&lt;p>이와 유사하게 &lt;code>Private_Pages_7_4_3_18_GA18.lar&lt;/code> 파일을 Import한다. File Summary 화면에서 아래와 같이 &lt;code>PAGES&lt;/code> &amp;gt; &lt;code>Private Pages&lt;/code>로 변경한다.&lt;/p>
+&lt;p>&lt;img src="../liferay16.png" alt="">&lt;/p>
+&lt;p>그리고, &lt;code>PERMISSIONS&lt;/code>, &lt;code>UPDATE DATA&lt;/code>, &lt;code>AUTHORSHIP OF THE CONTENT&lt;/code> 항목을 각각 아래 이미지와 같이 선택하고, &lt;code>Import&lt;/code>버튼을 눌러 Import를 수행한다.&lt;/p>
+&lt;p>&lt;img src="../liferay17.png" alt="">&lt;/p>
+&lt;p>여기까지 수행을 마친 후 메뉴 상단의 &lt;code>Home&lt;/code> 버튼을 누른다.&lt;/p>
+&lt;p>&lt;img src="../liferay18.png" alt="">&lt;/p>
+&lt;p>그럼 아래와 같이 &lt;code>Welcome to SW360!&lt;/code> 화면에 진입한다.&lt;/p>
+&lt;p>&lt;img src="../liferay19.png" alt="">&lt;/p>
+&lt;p>&lt;code>Start&lt;/code> 버튼을 눌러 SW360 첫 화면에 진입할 수 있다. (모든 항목이 비어있다.)&lt;/p>
+&lt;p>&lt;img src="../liferay20.png" alt="">&lt;/p>
+&lt;h3 id="테스트를-위한-user-account-설정">테스트를 위한 User Account 설정&lt;/h3>
+&lt;p>SW360 메뉴에서 &lt;code>Admin&lt;/code> &amp;gt; &lt;code>User&lt;/code>를 선택한다.&lt;/p>
+&lt;p>&lt;img src="../liferay21.png" alt="">&lt;/p>
+&lt;p>화면 하단의 &lt;code>UPLOAD USERS&lt;/code> 메뉴에서 테스트를 위한 User 리스트를 업로드 한다. 테스트를 위한 User 리스트는 여기에서 다운 받을 수 있다. : &lt;a href="https://github.com/haksungjang/sw360/blob/main/frontend/configuration/test_users_with_passwords_12345.csv">test_users_with_passwords_12345.csv&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>(참고) 원본 파일 : &lt;a href="https://github.com/sw360/sw360vagrant/blob/master/shared/test_users_with_passwords_12345.csv">sw360vagrant&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>그러면 다음과 같이 9개의 User 리스트가 업로드 된 것을 볼 수 있다.&lt;/p>
+&lt;p>&lt;img src="../liferay22.png" alt="">&lt;/p>
+&lt;p>여기서 보이는 User 리스트 중 하나의 계정으로 다시 로그인을 시도한다. Password는 &lt;code>12345&lt;/code>이다.&lt;/p>
 &lt;h3 id="5-sw360-layout-deploy">5) SW360 Layout Deploy&lt;/h3>
 &lt;p>마지막 단계는 Liferay에서 SW360의 Layout을 Deploy하는 것이다. 이 작업은 아직 자동화가 되지 않아 관리자가 수동으로 수행해야 다. &lt;a href="https://localhost:8443/">https://localhost:8443/&lt;/a>에 접근하여 다음 계정으로 로그인한다.&lt;/p>
 &lt;ul>
