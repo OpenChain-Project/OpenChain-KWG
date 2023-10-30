@@ -134,7 +134,7 @@ CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
 &lt;p>&lt;img src="../liferay.png" alt="">&lt;/p>
 &lt;h2 id="설정">설정&lt;/h2>
 &lt;p>SW360을 정상적으로 설치한 후에는 아래의 절차대로 초기 설정이 필요하다. 자세한 내용은 여기에서 확인할 수 있다. : &lt;a href="https://eclipse.dev/sw360/docs/deployment/legacy/deploy-liferay7.4/">SW360 Initial Setup Configuration&lt;/a>&lt;/p>
-&lt;h3 id="user-login-설정">User, Login 설정&lt;/h3>
+&lt;h3 id="1-user-login-설정">1. User, Login 설정&lt;/h3>
 &lt;p>설정을 위해 다음 계정으로 로그인한다.&lt;/p>
 &lt;ul>
 &lt;li>id : &lt;a href="mailto:setup@sw360.org">setup@sw360.org&lt;/a>&lt;/li>
@@ -158,7 +158,7 @@ CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
 &lt;p>&lt;img src="../liferay8.png" alt="">&lt;/p>
 &lt;p>&lt;img src="../liferay9.png" alt="">&lt;/p>
 &lt;p>브라우저를 새로 실행하면 변경 사항이 적용된다.&lt;/p>
-&lt;h3 id="lar-파일-import">LAR 파일 import&lt;/h3>
+&lt;h3 id="2-lar-파일-import">2. LAR 파일 import&lt;/h3>
 &lt;p>SW360 설정을 위해서는 &lt;code>*.lar&lt;/code> 파일들을 import해야 한다. 이를 설정하기 위해서는 메뉴로 진입해야 하는데, 메뉴 버튼은 화면 좌측 상단에 있다.&lt;/p>
 &lt;p>&lt;img src="../liferay10.png" alt="">&lt;/p>
 &lt;p>메뉴에서 &lt;code>Publishing&lt;/code> &amp;gt; &lt;code>Import&lt;/code>에 진입한다.&lt;/p>
@@ -182,27 +182,16 @@ CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
 &lt;p>&lt;img src="../liferay19.png" alt="">&lt;/p>
 &lt;p>&lt;code>Start&lt;/code> 버튼을 눌러 SW360 첫 화면에 진입할 수 있다. (모든 항목이 비어있다.)&lt;/p>
 &lt;p>&lt;img src="../liferay20.png" alt="">&lt;/p>
-&lt;h3 id="테스트를-위한-user-account-설정">테스트를 위한 User Account 설정&lt;/h3>
+&lt;h3 id="3-user-account-설정-테스트용">3. User Account 설정 (테스트용)&lt;/h3>
 &lt;p>SW360 메뉴에서 &lt;code>Admin&lt;/code> &amp;gt; &lt;code>User&lt;/code>를 선택한다.&lt;/p>
 &lt;p>&lt;img src="../liferay21.png" alt="">&lt;/p>
-&lt;p>화면 하단의 &lt;code>UPLOAD USERS&lt;/code> 메뉴에서 테스트를 위한 User 리스트를 업로드 한다. 테스트를 위한 User 리스트는 여기에서 다운 받을 수 있다. : &lt;a href="https://github.com/haksungjang/sw360/blob/main/frontend/configuration/test_users_with_passwords_12345.csv">test_users_with_passwords_12345.csv&lt;/a>&lt;/p>
-&lt;ul>
-&lt;li>(참고) 원본 파일 : &lt;a href="https://github.com/sw360/sw360vagrant/blob/master/shared/test_users_with_passwords_12345.csv">sw360vagrant&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>그러면 다음과 같이 9개의 User 리스트가 업로드 된 것을 볼 수 있다.&lt;/p>
+&lt;p>화면 하단의 &lt;code>UPLOAD USERS&lt;/code> 메뉴에서 테스트를 위한 User 리스트를 업로드 한다. (테스트를 위한 User 리스트는 여기에서 다운 받을 수 있다. : &lt;a href="https://github.com/haksungjang/sw360/blob/main/frontend/configuration/test_users_with_passwords_12345.csv">test_users_with_passwords_12345.csv&lt;/a> )&lt;/p>
 &lt;p>&lt;img src="../liferay22.png" alt="">&lt;/p>
-&lt;p>여기서 보이는 User 리스트 중 하나의 계정으로 다시 로그인을 시도한다. Password는 &lt;code>12345&lt;/code>이다.&lt;/p>
-&lt;h3 id="5-sw360-layout-deploy">5) SW360 Layout Deploy&lt;/h3>
-&lt;p>마지막 단계는 Liferay에서 SW360의 Layout을 Deploy하는 것이다. 이 작업은 아직 자동화가 되지 않아 관리자가 수동으로 수행해야 다. &lt;a href="https://localhost:8443/">https://localhost:8443/&lt;/a>에 접근하여 다음 계정으로 로그인한다.&lt;/p>
-&lt;ul>
-&lt;li>id : &lt;a href="mailto:setup@sw360.org">setup@sw360.org&lt;/a>&lt;/li>
-&lt;li>pw : sw360fossy&lt;/li>
-&lt;/ul>
-&lt;p>이후에는 다음 사이트의 안내에 따라 Layout deploy를 수행한다. &lt;a href="https://github.com/eclipse/sw360/wiki/Deploy-Liferay7">https://github.com/eclipse/sw360/wiki/Deploy-Liferay7&lt;/a>&lt;/p>
-&lt;p>Deploy가 완료되면 다음과 같은 화면을 볼 수 있다.&lt;/p>
-&lt;p>&lt;img src="https://lh5.googleusercontent.com/INu1-WWi1-SA9P61IMNlgZhugTXbiwbSKUOu2eWq_d5sIIp8NfqxQntwId41ZDmTG6_5Ope8GdU1J2S0adaJDolM09dtfkwIbOE2gTDC4MZXMxhX9kN28E4Yj8a3deBUHBL7yCqj" alt="">&lt;/p>
+&lt;p>그러면 다음과 같이 9개의 User 리스트가 업로드 된 것을 볼 수 있다.&lt;/p>
+&lt;p>&lt;img src="../liferay23.png" alt="">&lt;/p>
+&lt;p>여기서 보이는 User 리스트 중 하나인 &lt;code>user@@sw360.org&lt;/code> 계정으로 다시 로그인을 시도한다. Password는 &lt;code>12345&lt;/code>이다.&lt;/p>
 &lt;h2 id="basic-workflow">Basic Workflow&lt;/h2>
-&lt;h3 id="1-license-등록">1) License 등록&lt;/h3>
+&lt;h3 id="1-license-등록">1. License 등록&lt;/h3>
 &lt;p>SW360을 처음 설치하면 먼저 자주 사용하는 오픈소스 라이선스 들을 등록해야 한다. 라이선스 다음과 같은 정보를 포함한다.&lt;/p>
 &lt;ul>
 &lt;li>Full Name&lt;/li>
@@ -217,7 +206,7 @@ CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
 &lt;p>&lt;img src="https://lh5.googleusercontent.com/d8ZK-dD34z1yKZn-szPNrN7iT4zg1EQnKnAv4QcPslSR0-laETy37ArojuweqSsxpWuvGXtdF5FabiWk57So-bD_iiEx7eVIR6tWDsYO2SkaCdlKr6ELDN9y_NdkqWFbQgRF2lXN" alt="">&lt;/p>
 &lt;p>그러면, 곧 SPDX License List가 자동으로 등록됩니다. 메뉴 &amp;gt; Licenses에서 338개의 License가 등록된 것을 확인할 수 있다.&lt;/p>
 &lt;p>&lt;img src="https://lh6.googleusercontent.com/Ucjuo09uJKhEhACZ90y98PszgSiCGtlDotH8mbTXJ2ePnF3TquzNX2yWzOCENTKNk1UjMJhyFgHxTCH6lxvZJg1l07M0hCc-v-14loAJ0efUU9V9hqS9mUabAT9QNysYL8E2tgIf" alt="">&lt;/p>
-&lt;h3 id="2-component-및-release-등록">2) Component 및 Release 등록&lt;/h3>
+&lt;h3 id="2-component-및-release-등록">2. Component 및 Release 등록&lt;/h3>
 &lt;p>SW360에서 Component는 하나의 소프트웨어 단위이다. 여기에는 다양한 형태의 소프트웨어가 해당할 수 있으며, 그 예는 다음과 같다.&lt;/p>
 &lt;ul>
 &lt;li>오픈소스 소프트웨어&lt;/li>
@@ -251,7 +240,7 @@ CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
 &lt;p>SW360은 다수의 Component 정보를 Import 시키기 위한 기능을 제공한다. 메뉴 &amp;gt; Admin &amp;gt; Import / Export에 CSV template에 등록을 원하는 Component 정보를 입력 후 Import 할 수 있다.&lt;/p>
 &lt;p>&lt;img src="https://lh5.googleusercontent.com/VInFwWAV-1lG1E7zFQPvn1GIlYPPY5ToGbSa49Brg7XuB-AwyCEHA9han0EUij1KX3c8aN2UZ1mKkN-5Y4BNv8LOV3O5YoypLQ7EF43QFPAU9L18XT57Ec5eoneswtGtt3rMSPoQ" alt="">&lt;/p>
 &lt;p>단, 이 기능은 2020년 2월 기준 아직 안정적으로 동작하지 않을 수 있다.&lt;/p>
-&lt;h3 id="3-project-생성">3) Project 생성&lt;/h3>
+&lt;h3 id="3-project-생성">3. Project 생성&lt;/h3>
 &lt;p>Project는 하나의 제품을 가리킨다. 사업 유형에 따라 제품일수도 있고, 서비스 혹은 소프트웨어 일수도 있다. Project에는 제품에 사용된 Component/Release를 등록하여 관리한다.&lt;/p>
 &lt;p>Project 생성 시에는 다음과 같은 정보를 등록한다.&lt;/p>
 &lt;ul>
@@ -265,7 +254,7 @@ CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
 &lt;p>&lt;img src="https://lh4.googleusercontent.com/ZjD7r7EzxfdQ4bhw4ODsChydb6Vgqj1m4Ad0cWlYtyYXO40MCbPpTHHcy-wJmbHeA_FxTa66Mpza6-9ohu0e93b7BaGb7Zc9soTA3mGCHGnyGURukRUnJS_duI7T8IL2aTgMFzjB" alt="">&lt;/p>
 &lt;p>다음은 SuperCalc라는 Project에 OpenSSL 1.0.1과 zlib 1.2.8을 Linked Releases로 등록한 이후의 화면이다.&lt;/p>
 &lt;p>&lt;img src="https://lh3.googleusercontent.com/tZCshPwxtukNLvfL-f-LfNOH-4ATof0bIGxpghVKXQ9QMBgoc_t0ROJMYafS9V4PuRaOOEW9zp25yk0gFA_kcaoRN83UKwUaFhaXxSWg7xPWvsYoJ_-pZkROkey1mYVTqGxKsCRu" alt="">&lt;/p>
-&lt;h2 id="4-보안-취약점-관리">4. 보안 취약점 관리&lt;/h2>
+&lt;h3 id="4-보안-취약점-관리">4. 보안 취약점 관리&lt;/h3>
 &lt;p>SW360은 등록된 Release에 대해 보안 취약점이 있는지 자동으로 확인할 수 있다. 이를 위해 SW360은 CVE 정보를 주기적으로 수집하도록 스케쥴링하는 기능을 제공한다. 메뉴 &amp;gt; Admin &amp;gt; Schedule 에서 CVE SEARCH 정보를 24시간마다 수집하도록 스케쥴링을 설정할 수 있다.&lt;/p>
 &lt;p>&lt;img src="https://lh5.googleusercontent.com/V2AJbexZqJJqwFYD1kFpjdZ7zVM9PCd-I_6MSBu3djO2Gi6gQxxQpKoqqsETxDaSkpDXOKFOp9h0Fps1xYHEphesVX9ECwBwnSX5cWdziXoohh-CMmqRh_wVkwUD8dZE9w1raJRk" alt="">&lt;/p>
 &lt;p>이렇게 스케쥴링을 설정하면 SW360은 정해진 시간에 CVE Search 사이트(&lt;a href="https://cve.circl.lu/">https://cve.circl.lu/&lt;/a>)에서 CVE 정보를 수집한다. 수집한 CVE 정보는 메뉴 &amp;gt; Vulnerabilities에서 확인할 수 있다.&lt;/p>
