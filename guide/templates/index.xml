@@ -357,6 +357,7 @@ SPDX-License-Identifier: {$SPDX_license_name}
 &lt;p>오픈소스 프로세스는 회사가 소프트웨어 제품 및 서비스를 개발하고 배포하기 위한 각 개발 단계에 맞게 오픈소스 라이선스 의무 준수와 오픈소스 보안 취약점 해결을 위해 수행해야 할 절차를 정의합니다. 소프트웨어 제품 개발/배포에 관여하는 모든 구성원은 다음의 오픈소스 프로세스 11단계를 준수합니다.&lt;/p>
 &lt;p>&lt;img src="process.png" alt="process">&lt;/p>
 &lt;p>회사는 오픈소스 프로세스를 통해 오픈소스 리스크를 최소화하고, 고객에게 안전하고 안정적인 소프트웨어 제품과 서비스를 제공하기 위해 노력합니다.&lt;/p>
+&lt;p>오픈소스 프로그램 매니저는 프로세스를 1년에 한 번 이상 주기적으로 검토하여 내부 모범 사례는 확산 전파하고, 미흡한 부분은 보완할 수 있도록 개선해야 합니다.&lt;/p>
 &lt;h3 id="1-오픈소스-식별subidentification-of-open-sourcesub">(1) 오픈소스 식별&lt;sub>Identification of Open Source&lt;/sub>&lt;/h3>
 &lt;p>사업 부서는 소프트웨어 설계 단계에서 다음 사항을 준수합니다.&lt;/p>
 &lt;ul>
