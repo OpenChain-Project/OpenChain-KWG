@@ -18,10 +18,10 @@ description: >
 | 14:00~14:10 | Welcome & Intro | Yunhwan Jeong, Samsung Electronics | - |
 | 14:10~14:20 | OpenChain Global Update | Shane Coughlan, Linux Foundation | - |
 | 14:20~14:30 | OpenChain KWG Update | Haksung Jang, SK Telecom | - |
-| 14:30~15:00 | Kakao Bank open source security assurance preparation case study | Alro Ha, Kakao Bank | - |
-| 15:00~15:20 | Networking (Beverages/Refreshments) | All | - |
-| 15:20~16:20 | Group discussion | Host: Seoyeon Lee, Line Plus | - |
-| 16:20~16:30 | Year-end awards | Host: | - |
+| 14:30~14:40 | Year-end awards | Host: | - |
+| 14:40~15:10 | Kakao Bank open source security assurance preparation case study | Alro Ha, Kakao Bank | - |
+| 15:10~15:30 | Networking (Beverages/Refreshments) | All | - |
+| 15:30~16:30 | Group discussion | Host: Seoyeon Lee, Line Plus | - |
 
 ## Sponsor
 
