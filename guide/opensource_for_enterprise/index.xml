@@ -16,7 +16,7 @@
 &lt;/ul>
 &lt;/div>
 &lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC DIS 18974 - Security Assurance&lt;/h4>
+&lt;h4 class="alert-heading">ISO/IEC 18974 - Security Assurance&lt;/h4>
 &lt;ul>
 &lt;li>3.1.2.1: A documented list of roles with corresponding responsibilities for the different Program Participants&lt;br>&lt;code>여러 프로그램 참여자에 대한 각각의 책임을 나열한 문서&lt;/code>&lt;/li>
 &lt;/ul>
@@ -102,7 +102,7 @@
 &lt;/ul>
 &lt;/div>
 &lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC DIS 18974 - Security Assurance&lt;/h4>
+&lt;h4 class="alert-heading">ISO/IEC 18974 - Security Assurance&lt;/h4>
 &lt;ul>
 &lt;li>3.1.2.2: A document that identifies the competencies for each role.&lt;br>&lt;code>각 역할을 위해 필요한 역량을 기술한 문서&lt;/code>&lt;/li>
 &lt;/ul>
@@ -175,7 +175,7 @@
 &lt;/ul>
 &lt;/div>
 &lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC DIS 18974 - Security Assurance&lt;/h4>
+&lt;h4 class="alert-heading">ISO/IEC 18974 - Security Assurance&lt;/h4>
 &lt;ul>
 &lt;li>3.1.2.3: List of participants and their roles&lt;br>&lt;code>참여자 명단과 그들의 역할&lt;/code>&lt;/li>
 &lt;li>3.2.2.1: Document with name of persons, group or function in Program role(s) identified&lt;br>&lt;code>프로그램 내 각 역할을 담당하는 인원, 그룹 또는 직무의 이름을 기재한 문서&lt;/code>&lt;/li>
@@ -271,7 +271,7 @@
 &lt;/ul>
 &lt;/div>
 &lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC DIS 18974 - Security Assurance&lt;/h4>
+&lt;h4 class="alert-heading">ISO/IEC 18974 - Security Assurance&lt;/h4>
 &lt;ul>
 &lt;li>3.1.1.1: A documented Open Source Software Security Assurance policy &lt;br>&lt;code>문서화된 오픈소스 소프트웨어 보안 보증 정책&lt;/code>&lt;/li>
 &lt;/ul>
@@ -346,7 +346,7 @@
 &lt;/ul>
 &lt;/div>
 &lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC DIS 18974 - Security Assurance&lt;/h4>
+&lt;h4 class="alert-heading">ISO/IEC 18974 - Security Assurance&lt;/h4>
 &lt;ul>
 &lt;li>3.2.2.4: A documented procedure that assigns internal responsibilities for Security Assurance.&lt;br>&lt;code>보안 보증에 대한 내부 책임을 할당하는 문서화된 절차&lt;/code>&lt;/li>
 &lt;/ul>
@@ -389,7 +389,7 @@
 &lt;/ul>
 &lt;/div>
 &lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC DIS 18974 - Security Assurance&lt;/h4>
+&lt;h4 class="alert-heading">ISO/IEC 18974 - Security Assurance&lt;/h4>
 &lt;ul>
 &lt;li>3.2.2.2: The identified Program roles have been properly staffed and adequate funding provided;&lt;br>&lt;code>프로그램 내 각 역할을 담당하는 인원이 적합하게 배치되고, 예산이 적절하게 지원되어야 합니다.&lt;/code>&lt;/li>
 &lt;/ul>
@@ -410,7 +410,7 @@
 &lt;/ul>
 &lt;/div>
 &lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC DIS 18974 - Security Assurance&lt;/h4>
+&lt;h4 class="alert-heading">ISO/IEC 18974 - Security Assurance&lt;/h4>
 &lt;ul>
 &lt;li>3.2.2.3: Identification of expertise available to address identified Known Vulnerabilities&lt;br>&lt;code>식별된 알려진 취약점을 해결을 위해 전문 기술 자문을 이용할 수 있는 방법&lt;/code>&lt;/li>
 &lt;/ul>
@@ -440,7 +440,7 @@
 &lt;/ul>
 &lt;/div>
 &lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC DIS 18974 - Security Assurance&lt;/h4>
+&lt;h4 class="alert-heading">ISO/IEC 18974 - Security Assurance&lt;/h4>
 &lt;ul>
 &lt;li>3.1.4.1: A written statement that clearly defines the scope and limits of the Program &lt;br>&lt;code>프로그램의 적용 범위와 한계를 명확하게 정의한 문서화된 진술&lt;/code>&lt;/li>
 &lt;li>3.1.4.2: A set of metrics the program shall achieve to improve&lt;br>&lt;code>프로그램 개선을 위해 달성해야 하는 일련의 측정 기준&lt;/code>&lt;/li>
@@ -482,7 +482,7 @@
 &lt;/ul>
 &lt;/div>
 &lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC DIS 18974 - Security Assurance&lt;/h4>
+&lt;h4 class="alert-heading">ISO/IEC 18974 - Security Assurance&lt;/h4>
 &lt;ul>
 &lt;li>3.2.1.1: Publicly visible method to allow third parties to make Known Vulnerability or Newly Discovered Vulnerability enquires (e.g., via an email address or web portal that is monitored by Program Participants)&lt;br>&lt;code>제3자가 알려진 취약점 또는 새로 발견된 취약점에 대해 문의할 수 있는 공개된 방법 (예: 이메일 주소 또는 프로그램 참여자가 모니터링하는 웹 포털)&lt;/code>&lt;/li>
 &lt;/ul>
@@ -528,7 +528,7 @@
 &lt;p>기업은 이를 참고하여 기업의 상황에 맞는 오픈소스 기여에 대한 원칙을 오픈소스 정책에 포함해야 합니다.&lt;/p>
 &lt;h2 id="summary">Summary&lt;/h2>
 &lt;p>오픈소스 정책을 문서화하는 것은 효과적인 오픈소스 관리를 위해 가장 중요한 과정입니다.&lt;/p>
-&lt;p>다음 페이지에서 위에서 언급한 ISO/IEC 5230과 ISO/IEC DIS 18974의 요구사항을 충족하는 샘플 오픈소스 정책 문서를 제공합니다. : &lt;a href="../7-policy-template">[부록1] 오픈소스 정책 (샘플)&lt;/a>&lt;/p>
+&lt;p>다음 페이지에서 위에서 언급한 ISO/IEC 5230과 ISO/IEC 18974의 요구사항을 충족하는 샘플 오픈소스 정책 문서를 제공합니다. : &lt;a href="../7-policy-template">[부록1] 오픈소스 정책 (샘플)&lt;/a>&lt;/p>
 &lt;p>위의 내용을 참고하여 각 요구사항을 회사의 상황에 맞게 적절한 원칙을 수립하는 것이 필요합니다. 또한 문서로만 그치지 않고, 실행 가능한 절차까지 고려해야 합니다. 말뿐인 정책은 소용이 없습니다.&lt;/p>
 &lt;p>이렇게 오픈소스 정책을 수립하고 문서화하면, ISO 표준 규격 중 아래의 주황색으로 표시된 요구사항을 충족할 수 있습니다.&lt;/p>
 &lt;p>&lt;img src="./spec_number_02.png" alt="">&lt;/p></description></item><item><title>Guide: 3. 프로세스</title><link>https://openChain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/3-process/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/3-process/</guid><description>
@@ -639,7 +639,7 @@ IT 담당은 오픈소스 분석 도구를 사용하여 오픈소스 점검을 �
 &lt;/ul>
 &lt;/div>
 &lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC DIS 18974 - Security Assurance&lt;/h4>
+&lt;h4 class="alert-heading">ISO/IEC 18974 - Security Assurance&lt;/h4>
 &lt;ul>
 &lt;li>3.3.1.1: A documented procedure ensuring all Open Source Software used in the Supplied Software is continuously recorded across the lifecycle of the Supplied Software. This includes an archive of all Open Source Software used in the Supplied Software;&lt;br>&lt;code>배포용 소프트웨어에 사용된 모든 오픈소스 소프트웨어가 배포용 소프트웨어의 수명 주기 동안 지속적으로 기록되도록 하는 문서화된 절차. 여기에는 배포용 소프트웨어에 사용된 모든 오픈소스 소프트웨어의 저장소도 포함된다.&lt;/code>&lt;/li>
 &lt;/ul>
@@ -724,9 +724,9 @@ This offer is valid to anyone in receipt of this information.
 &lt;p>이를 위해 기업은 오픈소스 웹사이트 구축을 고려할 수 있습니다. 자세한 내용은 &amp;ldquo;&lt;a href="../4-tool/#6-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%BB%B4%ED%94%8C%EB%9D%BC%EC%9D%B4%EC%96%B8%EC%8A%A4-%EC%82%B0%EC%B6%9C%EB%AC%BC-%EB%B3%B4%EA%B4%80">오픈소스 컴플라이언스 산출물 보관&lt;/a>&amp;ldquo;에서 확인하실 수 있습니다.&lt;/p>
 &lt;h2 id="2-오픈소스-보안-취약점-대응-프로세스">2. 오픈소스 보안 취약점 대응 프로세스&lt;/h2>
 &lt;p>기업은 제품/서비스를 개발하면서 오픈소스 보안 취약점을 탐지하고 해결하는 등 보안 보증을 위한 활동을 수행해야 합니다.&lt;/p>
-&lt;p>ISO/IEC DIS 18974 표준은 다음과 같이 보안 보증 방법에 대한 문서화된 절차와 수행된 조치를 기록하도록 요구합니다.&lt;/p>
+&lt;p>ISO/IEC 18974 표준은 다음과 같이 보안 보증 방법에 대한 문서화된 절차와 수행된 조치를 기록하도록 요구합니다.&lt;/p>
 &lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC DIS 18974 - Security Assurance&lt;/h4>
+&lt;h4 class="alert-heading">ISO/IEC 18974 - Security Assurance&lt;/h4>
 &lt;p>3.1.5 - Standard Practice Implementation &lt;code>3.1.5 - 표준 사례 구현&lt;/code>&lt;/p>
 &lt;p>The Program demonstrates a sound and robust handling procedures of Known Vulnerabilities and Secure Software Development by defining and implementing following procedures:&lt;br>&lt;code>프로그램은 다음 절차를 정의하고 구현하여 알려진 취약점 및 보안 소프트웨어 개발을 건전하고 강력하게 처리하는 절차를 갖춘다.&lt;/code>&lt;/p>
 &lt;ul>
@@ -807,7 +807,7 @@ IT 담당은 신별된 위험에 대한 정보를 오픈소스 웹사이트에 �
 &lt;/ul>
 &lt;/div>
 &lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC DIS 18974 - Security Assurance&lt;/h4>
+&lt;h4 class="alert-heading">ISO/IEC 18974 - Security Assurance&lt;/h4>
 &lt;ul>
 &lt;li>3.2.1.2: An internal documented procedure exists for responding to third party Known Vulnerability or Newly Discovered Vulnerability inquiries.&lt;br>&lt;code>제3자에 의한 알려진 취약점 또는 새로 발견된 취약점 문의에 대응하기 위한 내부의 문서화된 절차&lt;/code>&lt;/li>
 &lt;/ul>
@@ -853,9 +853,9 @@ IT 담당은 신별된 위험에 대한 정보를 오픈소스 웹사이트에 �
 &lt;a href="https://sktelecom.github.io/guide/contribute/process/">https://sktelecom.github.io/guide/contribute/process/&lt;/a>&lt;/p>
 &lt;h2 id="5-프로세스-현행화">5. 프로세스 현행화&lt;/h2>
 &lt;p>프로세스가 문서화만 되어 있고 실제 운영되지 않는다면 바람직하지 않습니다. 또한, 업무 상황이나 조직 구성에 맞지 않게 되어 있는 것도 문제입니다. 기업은 프로세스가 회사 내부 조직과 상황에 맞게 항상 최신 상태로 유지되어야 합니다.&lt;/p>
-&lt;p>ISO/IEC DIS 18974 표준은 다음과 같이 프로세스를 주기적으로 검토 및 개선해야 함을 요구합니다.&lt;/p>
+&lt;p>ISO/IEC 18974 표준은 다음과 같이 프로세스를 주기적으로 검토 및 개선해야 함을 요구합니다.&lt;/p>
 &lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC DIS 18974 - Security Assurance&lt;/h4>
+&lt;h4 class="alert-heading">ISO/IEC 18974 - Security Assurance&lt;/h4>
 &lt;ul>
 &lt;li>3.1.2.5: Documented Evidence of periodic reviews and changes made to the process;&lt;br>&lt;code>프로세스를 주기적으로 검토하고 개선했음을 나타내는 문서화된 증거&lt;/code>&lt;/li>
 &lt;li>3.1.2.6: Documented verification that these processes are current with company internal best practices and who is assigned to accomplish them.&lt;br>&lt;code>이러한 프로세스는 회사 내부 모범 사례를 반영하여 항상 현행화되어야 하고, 이를 누가 책임지고 수행해야 하는지를 명시한 문서화된 증거&lt;/code>&lt;/li>
@@ -914,7 +914,7 @@ OSRB는 매년 정기적으로 검토하여 정책과 프로세스를 개선합�
 &lt;/ul>
 &lt;/div>
 &lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC DIS 18974 - Security Assurance&lt;/h4>
+&lt;h4 class="alert-heading">ISO/IEC 18974 - Security Assurance&lt;/h4>
 &lt;ul>
 &lt;li>3.3.1.2: Open Source Software Component Records for the Supplied Software that demonstrates the documented procedure was properly followed.&lt;br>&lt;code>문서화된 절차가 적절히 준수되었음을 보여주는 배포용 소프트웨어에 대한 오픈소스 소프트웨어 컴포넌트 기록&lt;/code>&lt;/li>
 &lt;/ul>
@@ -1005,7 +1005,7 @@ OSRB는 매년 정기적으로 검토하여 정책과 프로세스를 개선합�
 &lt;/ul>
 &lt;/div>
 &lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC DIS 18974 - Security Assurance&lt;/h4>
+&lt;h4 class="alert-heading">ISO/IEC 18974 - Security Assurance&lt;/h4>
 &lt;ul>
 &lt;li>3.1.1.2: A documented procedure to make Program Participants aware of the Security Assurance policy.&lt;br>&lt;code>프로그램 참가자에게 보안 보증 정책을 알리기 위한 문서화된 절차.&lt;/code>&lt;/li>
 &lt;/ul>
@@ -1023,7 +1023,7 @@ OSRB는 매년 정기적으로 검토하여 정책과 프로세스를 개선합�
 &lt;/ul>
 &lt;/div>
 &lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC DIS 18974 - Security Assurance&lt;/h4>
+&lt;h4 class="alert-heading">ISO/IEC 18974 - Security Assurance&lt;/h4>
 &lt;ul>
 &lt;li>3.1.3.1: Documented Evidence of assessed awareness for the Program Participants - which should include the Program’s objectives, one’s contribution within the Program, and implications of Program non-conformance.&lt;br>&lt;code>다음 사항에 대한 프로그램 참여자의 인식을 평가하였음을 나타내는 문서화된 증거 : 프로그램의 목표, 프로그램 내에서의 참여자 기여 방법 및 프로그램을 준수하지 않을 경우 미치는 영향.&lt;/code>&lt;/li>
 &lt;/ul>
@@ -1088,7 +1088,7 @@ OSRB는 매년 정기적으로 검토하여 정책과 프로세스를 개선합�
 &lt;/ul>
 &lt;/div>
 &lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">ISO/IEC DIS 18974 - Security Assurance&lt;/h4>
+&lt;h4 class="alert-heading">ISO/IEC 18974 - Security Assurance&lt;/h4>
 &lt;ul>
 &lt;li>3.1.2.4 - Documented evidence of assessed competence for each Program Participant; &lt;br>&lt;code>각 프로그램 참여자의 역량을 평가한 문서화된 증거&lt;/code>&lt;/li>
 &lt;/ul>
@@ -1125,10 +1125,10 @@ OSRB는 매년 정기적으로 검토하여 정책과 프로세스를 개선합�
 &lt;h2 id="4-summary">4. Summary&lt;/h2>
 &lt;p>여기까지 교육, 평가와 가이드 제공 환경까지 구축하게 되면 ISO 표준 규격 중 아래의 하늘색으로 표시된 요구사항을 충족할 수 있다.&lt;/p>
 &lt;p>&lt;img src="trainingno.png" alt="">&lt;/p></description></item><item><title>Guide: 6. 준수</title><link>https://openChain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/6-conforming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/6-conforming/</guid><description>
-&lt;p>ISO/IEC 5230 3.6, ISO/IEC DIS 18974 3.4를 제외한 모든 요구사항을 준수하는 오픈소스 프로그램(오픈소스 정책 / 프로세스 / 도구 / 조직)을 구축한 기업은 다음 두가지를 문서화하여 명시할 수 있습니다.&lt;/p>
+&lt;p>ISO/IEC 5230 3.6, ISO/IEC 18974 3.4를 제외한 모든 요구사항을 준수하는 오픈소스 프로그램(오픈소스 정책 / 프로세스 / 도구 / 조직)을 구축한 기업은 다음 두가지를 문서화하여 명시할 수 있습니다.&lt;/p>
 &lt;ol>
-&lt;li>기업의 오픈소스 프로그램이 ISO/IEC 5230, ISO/IEC DIS 18974 의 모든 요구사항을 충족함&lt;/li>
-&lt;li>적합성 인증을 획득한 후 18개월 이상 ISO/IEC 5230, ISO/IEC DIS 18974의 모든 요구 사항을 충족하는 상태 유지를 보장함&lt;/li>
+&lt;li>기업의 오픈소스 프로그램이 ISO/IEC 5230, ISO/IEC 18974 의 모든 요구사항을 충족함&lt;/li>
+&lt;li>적합성 인증을 획득한 후 18개월 이상 ISO/IEC 5230, ISO/IEC 18974의 모든 요구 사항을 충족하는 상태 유지를 보장함&lt;/li>
 &lt;/ol>
 &lt;p>기업은 위의 내용을 오픈소스 정책에 포함시킬 수도 있고, 외부에 공개되어 있는 웹사이트를 통해 게재할 수도 있습니다.&lt;/p>
 &lt;p>아래 이미지와 같이 SK텔레콤에서 오픈소스 포털사이트에 이에 대한 내용을 게재한 것을 참고할 수 있습니다.
@@ -1136,4 +1136,4 @@ OSRB는 매년 정기적으로 검토하여 정책과 프로세스를 개선합�
 &lt;a href="https://sktelecom.github.io/compliance/iso5230/">https://sktelecom.github.io/compliance/iso5230/&lt;/a>&lt;/p>
 &lt;p>이렇게 하면 ISO 표준 규격 중 아래의 파란색으로 표시된 요구사항을 충족할 수 있다.&lt;/p>
 &lt;p>&lt;img src="totalno.png" alt="">&lt;/p>
-&lt;p>여기까지 완료하면 기업은 드디어 ISO/IEC 5230, ISO/IEC DIS 18974의 모든 요구사항을 충족하게 됩니다.&lt;/p></description></item><item><title>Guide: 부록</title><link>https://openChain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/appendix/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/appendix/</guid><description/></item></channel></rss>
+&lt;p>여기까지 완료하면 기업은 드디어 ISO/IEC 5230, ISO/IEC 18974의 모든 요구사항을 충족하게 됩니다.&lt;/p></description></item><item><title>Guide: 부록</title><link>https://openChain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/appendix/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/appendix/</guid><description/></item></channel></rss>
