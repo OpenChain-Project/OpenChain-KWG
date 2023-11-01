@@ -144,7 +144,7 @@ ISO 표준은 공통적으로 다음과 같이 프로그램 내 각 역할을 �
 {{% /alert %}}
 
 
-{{% alert title="ISO/IEC DIS 18974 - Security Assurance" color="warning" %}}
+{{% alert title="ISO/IEC 18974 - Security Assurance" color="warning" %}}
 
 * 3.3.1.1: A documented procedure ensuring all Open Source Software used in the Supplied Software is continuously recorded across the lifecycle of the Supplied Software. This includes an archive of all Open Source Software used in the Supplied Software;<br>`배포용 소프트웨어에 사용된 모든 오픈소스 소프트웨어가 배포용 소프트웨어의 수명 주기 동안 지속적으로 기록되도록 하는 문서화된 절차. 여기에는 배포용 소프트웨어에 사용된 모든 오픈소스 소프트웨어의 저장소도 포함된다.`
 
@@ -280,9 +280,9 @@ This offer is valid to anyone in receipt of this information.
 
 기업은 제품/서비스를 개발하면서 오픈소스 보안 취약점을 탐지하고 해결하는 등 보안 보증을 위한 활동을 수행해야 합니다. 
 
-ISO/IEC DIS 18974 표준은 다음과 같이 보안 보증 방법에 대한 문서화된 절차와 수행된 조치를 기록하도록 요구합니다.
+ISO/IEC 18974 표준은 다음과 같이 보안 보증 방법에 대한 문서화된 절차와 수행된 조치를 기록하도록 요구합니다.
 
-{{% alert title="ISO/IEC DIS 18974 - Security Assurance" color="warning" %}}
+{{% alert title="ISO/IEC 18974 - Security Assurance" color="warning" %}}
 
 3.1.5 - Standard Practice Implementation  `3.1.5 - 표준 사례 구현`
 
@@ -389,7 +389,7 @@ ISO 표준은 공통적으로 다음과 같이 제3자의 문의에 대응하기
 {{% /alert %}}
 
 
-{{% alert title="ISO/IEC DIS 18974 - Security Assurance" color="warning" %}}
+{{% alert title="ISO/IEC 18974 - Security Assurance" color="warning" %}}
 
 * 3.2.1.2: An internal documented procedure exists for responding to third party Known Vulnerability or Newly Discovered Vulnerability inquiries.<br>`제3자에 의한 알려진 취약점 또는 새로 발견된 취약점 문의에 대응하기 위한 내부의 문서화된 절차`
 
@@ -472,9 +472,9 @@ SK텔레콤에서 공개한 [오픈소스 기여 절차](https://sktelecom.githu
 
 프로세스가 문서화만 되어 있고 실제 운영되지 않는다면 바람직하지 않습니다. 또한, 업무 상황이나 조직 구성에 맞지 않게 되어 있는 것도 문제입니다. 기업은 프로세스가 회사 내부 조직과 상황에 맞게 항상 최신 상태로 유지되어야 합니다.
 
-ISO/IEC DIS 18974 표준은 다음과 같이 프로세스를 주기적으로 검토 및 개선해야 함을 요구합니다.
+ISO/IEC 18974 표준은 다음과 같이 프로세스를 주기적으로 검토 및 개선해야 함을 요구합니다.
 
-{{% alert title="ISO/IEC DIS 18974 - Security Assurance" color="warning" %}}
+{{% alert title="ISO/IEC 18974 - Security Assurance" color="warning" %}}
 
 * 3.1.2.5: Documented Evidence of periodic reviews and changes made to the process;<br>`프로세스를 주기적으로 검토하고 개선했음을 나타내는 문서화된 증거`
 * 3.1.2.6: Documented verification that these processes are current with company internal best practices and who is assigned to accomplish them.<br>`이러한 프로세스는 회사 내부 모범 사례를 반영하여 항상 현행화되어야 하고, 이를 누가 책임지고 수행해야 하는지를 명시한 문서화된 증거`

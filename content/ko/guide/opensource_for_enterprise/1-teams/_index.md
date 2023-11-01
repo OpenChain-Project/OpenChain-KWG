@@ -25,7 +25,7 @@ ISO 표준은 공통적으로 다음과 같이 프로그램 내 여러 참여자
 {{% /alert %}}
 
 
-{{% alert title="ISO/IEC DIS 18974 - Security Assurance" color="warning" %}}
+{{% alert title="ISO/IEC 18974 - Security Assurance" color="warning" %}}
 
 * 3.1.2.1: A documented list of roles with corresponding responsibilities for the different Program Participants<br>`여러 프로그램 참여자에 대한 각각의 책임을 나열한 문서`
 
@@ -92,7 +92,7 @@ ISO 표준은 공통적으로 다음과 같이 각 역할을 위해 필요한 �
 {{% /alert %}}
 
 
-{{% alert title="ISO/IEC DIS 18974 - Security Assurance" color="warning" %}}
+{{% alert title="ISO/IEC 18974 - Security Assurance" color="warning" %}}
 
 * 3.1.2.2: A document that identifies the competencies for each role.<br>`각 역할을 위해 필요한 역량을 기술한 문서`
 
@@ -129,7 +129,7 @@ ISO 표준은 공통적으로 다음과 같이 각 역할을 위해 필요한 �
 {{% /alert %}}
 
 
-{{% alert title="ISO/IEC DIS 18974 - Security Assurance" color="warning" %}}
+{{% alert title="ISO/IEC 18974 - Security Assurance" color="warning" %}}
 
 * 3.1.2.3: List of participants and their roles<br>`참여자 명단과 그들의 역할`
 * 3.2.2.1: Document with name of persons, group or function in Program role(s) identified<br>`프로그램 내 각 역할을 담당하는 인원, 그룹 또는 직무의 이름을 기재한 문서`
