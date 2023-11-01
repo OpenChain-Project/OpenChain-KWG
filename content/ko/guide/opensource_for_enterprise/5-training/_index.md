@@ -21,7 +21,7 @@ description: >
 {{% /alert %}}
 
 
-{{% alert title="ISO/IEC DIS 18974 - Security Assurance" color="warning" %}}
+{{% alert title="ISO/IEC 18974 - Security Assurance" color="warning" %}}
 
 * 3.1.1.2: A documented procedure to make Program Participants aware of the Security Assurance policy.<br>`프로그램 참가자에게 보안 보증 정책을 알리기 위한 문서화된 절차.`
 
@@ -50,7 +50,7 @@ ISO 표준은 공통적으로 다음과 같이 프로그램 참여자의 인식�
 {{% /alert %}}
 
 
-{{% alert title="ISO/IEC DIS 18974 - Security Assurance" color="warning" %}}
+{{% alert title="ISO/IEC 18974 - Security Assurance" color="warning" %}}
 
 * 3.1.3.1: Documented Evidence of assessed awareness for the Program Participants - which should include the Program’s objectives, one’s contribution within the Program, and implications of Program non-conformance.<br>`다음 사항에 대한 프로그램 참여자의 인식을 평가하였음을 나타내는 문서화된 증거 : 프로그램의 목표, 프로그램 내에서의 참여자 기여 방법 및 프로그램을 준수하지 않을 경우 미치는 영향.`
 
@@ -135,7 +135,7 @@ ISO 표준은 공통적으로 다음과 같이 프로그램 참여자의 인식�
 {{% /alert %}}
 
 
-{{% alert title="ISO/IEC DIS 18974 - Security Assurance" color="warning" %}}
+{{% alert title="ISO/IEC 18974 - Security Assurance" color="warning" %}}
 
 * 3.1.2.4 - Documented evidence of assessed competence for each Program Participant; <br>`각 프로그램 참여자의 역량을 평가한 문서화된 증거`
 

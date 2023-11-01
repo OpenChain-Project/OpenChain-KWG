@@ -41,7 +41,7 @@ Linux Foundation의 OpenChain Project General Manager [Shane Coughlan](https://j
 
 ![Untitled](./Untitled_2.png)
 
-오픈소스 컴플라이언스를 위한 표준인 ISO/IEC 5230뿐만 아니라 보안을 위한 표준인 [ISO/IEC DIS 18974](https://www.iso.org/standard/86450.html)도 개발 중입니다. 이 표준은 곧 공식 ISO 표준으로 등록될 예정이며, 기업이 준수해야 할 [Self-Checklist](https://github.com/OpenChain-Project/Reference-Material/blob/master/Self-Certification/Checklist/DIS-18974/en/DIS-18974-Self-Certification-Checklist-2.0.md)도 공개되어 있습니다. 이러한 자료들을 활용하여 기업은 효율적인 오픈소스 리스크 관리를 수행할 수 있습니다.
+오픈소스 컴플라이언스를 위한 표준인 ISO/IEC 5230뿐만 아니라 보안을 위한 표준인 [ISO/IEC 18974](https://www.iso.org/standard/86450.html)도 개발 중입니다. 이 표준은 곧 공식 ISO 표준으로 등록될 예정이며, 기업이 준수해야 할 [Self-Checklist](https://github.com/OpenChain-Project/Reference-Material/blob/master/Self-Certification/Checklist/DIS-18974/en/DIS-18974-Self-Certification-Checklist-2.0.md)도 공개되어 있습니다. 이러한 자료들을 활용하여 기업은 효율적인 오픈소스 리스크 관리를 수행할 수 있습니다.
 
 Shane은 KWG 멤버들을 위한 기념품도 가져와서 큰 호응을 얻기도 하였습니다. (Thank you, Shane 😊 )
 
@@ -49,7 +49,7 @@ Shane은 KWG 멤버들을 위한 기념품도 가져와서 큰 호응을 얻기�
 
 ### OpenChain 보안 표준 소개 (SK텔레콤, 장학성)
 
-[ISO/IEC 5230](https://www.iso.org/standard/81039.html)은 오픈소스 컴플라이언스를 위한 국제 표준입니다. 이 표준은 2020년에 ISO에 등록되었으며, 세계의 [많은 기업이 이 표준을 준수](https://www.openchainproject.org/community-of-conformance)하여 오픈소스 컴플라이언스 관리를 훌륭하게 수행하고 있습니다. 기업이 오픈소스를 관리해야 하는 이유는 라이선스 컴플라이언스 뿐만 아니라 보안 취약점에 대한 리스크도 존재하기 때문입니다. OpenChain Project에서는 보안 취약점 관리를 위한 표준, [ISO/IEC DIS 18974](https://www.iso.org/standard/86450.html), OpenChain security assurance specification을 만들었습니다. 저는 이 표준이 어떤 내용으로 구성되어 있는지를 [간단히 요약하여 소개](https://openchain-project.github.io/OpenChain-KWG/meeting/17th/OpenChain%EB%B3%B4%EC%95%88%EB%B3%B4%EC%A6%9D%EA%B7%9C%EA%B2%A9%EC%86%8C%EA%B0%9C_20230328_%EC%9E%A5%ED%95%99%EC%84%B1.pdf)하였습니다. 
+[ISO/IEC 5230](https://www.iso.org/standard/81039.html)은 오픈소스 컴플라이언스를 위한 국제 표준입니다. 이 표준은 2020년에 ISO에 등록되었으며, 세계의 [많은 기업이 이 표준을 준수](https://www.openchainproject.org/community-of-conformance)하여 오픈소스 컴플라이언스 관리를 훌륭하게 수행하고 있습니다. 기업이 오픈소스를 관리해야 하는 이유는 라이선스 컴플라이언스 뿐만 아니라 보안 취약점에 대한 리스크도 존재하기 때문입니다. OpenChain Project에서는 보안 취약점 관리를 위한 표준, [ISO/IEC 18974](https://www.iso.org/standard/86450.html), OpenChain security assurance specification을 만들었습니다. 저는 이 표준이 어떤 내용으로 구성되어 있는지를 [간단히 요약하여 소개](https://openchain-project.github.io/OpenChain-KWG/meeting/17th/OpenChain%EB%B3%B4%EC%95%88%EB%B3%B4%EC%A6%9D%EA%B7%9C%EA%B2%A9%EC%86%8C%EA%B0%9C_20230328_%EC%9E%A5%ED%95%99%EC%84%B1.pdf)하였습니다. 
 
 ![Untitled](./Untitled_4.png)
 
