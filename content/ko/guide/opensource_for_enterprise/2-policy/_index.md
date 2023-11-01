@@ -20,7 +20,7 @@ description: >
 {{% /alert %}}
 
 
-{{% alert title="ISO/IEC DIS 18974 - Security Assurance" color="warning" %}}
+{{% alert title="ISO/IEC 18974 - Security Assurance" color="warning" %}}
 
 * 3.1.1.1: A documented Open Source Software Security Assurance policy <br>`문서화된 오픈소스 소프트웨어 보안 보증 정책`
 
@@ -133,7 +133,7 @@ ISO 표준은 공통적으로 다음과 같이 내부 책임을 할당하는 문
 {{% /alert %}}
 
 
-{{% alert title="ISO/IEC DIS 18974 - Security Assurance" color="warning" %}}
+{{% alert title="ISO/IEC 18974 - Security Assurance" color="warning" %}}
 
 * 3.2.2.4: A documented procedure that assigns internal responsibilities for Security Assurance.<br>`보안 보증에 대한 내부 책임을 할당하는 문서화된 절차`
 
@@ -204,7 +204,7 @@ ISO 표준은 공통적으로 다음과 같이 프로그램 내 각 역할을 �
 {{% /alert %}}
 
 
-{{% alert title="ISO/IEC DIS 18974 - Security Assurance" color="warning" %}}
+{{% alert title="ISO/IEC 18974 - Security Assurance" color="warning" %}}
 
 * 3.2.2.2: The identified Program roles have been properly staffed and adequate funding provided;<br>`프로그램 내 각 역할을 담당하는 인원이 적합하게 배치되고, 예산이 적절하게 지원되어야 합니다.`
 
@@ -239,7 +239,7 @@ ISO 표준은 공통적으로 다음과 같이 문제 해결을 위해 내부 �
 {{% /alert %}}
 
 
-{{% alert title="ISO/IEC DIS 18974 - Security Assurance" color="warning" %}}
+{{% alert title="ISO/IEC 18974 - Security Assurance" color="warning" %}}
 
 * 3.2.2.3: Identification of expertise available to address identified Known Vulnerabilities<br>`식별된 알려진 취약점을 해결을 위해 전문 기술 자문을 이용할 수 있는 방법`
 
@@ -289,7 +289,7 @@ ISO 표준은 공통적으로 다음과 같이 프로그램의 적용 범위와 
 
 {{% /alert %}}
 
-{{% alert title="ISO/IEC DIS 18974 - Security Assurance" color="warning" %}}
+{{% alert title="ISO/IEC 18974 - Security Assurance" color="warning" %}}
 
 * 3.1.4.1: A written statement that clearly defines the scope and limits of the Program <br>`프로그램의 적용 범위와 한계를 명확하게 정의한 문서화된 진술`
 * 3.1.4.2: A set of metrics the program shall achieve to improve<br>`프로그램 개선을 위해 달성해야 하는 일련의 측정 기준`
@@ -351,7 +351,7 @@ ISO 표준은 공통적으로 다음과 같이 제3자가 오픈소스에 대해
 {{% /alert %}}
 
 
-{{% alert title="ISO/IEC DIS 18974 - Security Assurance" color="warning" %}}
+{{% alert title="ISO/IEC 18974 - Security Assurance" color="warning" %}}
 
 * 3.2.1.1: Publicly visible method to allow third parties to make Known Vulnerability or Newly Discovered Vulnerability enquires (e.g., via an email address or web portal that is monitored by Program Participants)<br>`제3자가 알려진 취약점 또는 새로 발견된 취약점에 대해 문의할 수 있는 공개된 방법 (예: 이메일 주소 또는 프로그램 참여자가 모니터링하는 웹 포털)`
 
@@ -426,7 +426,7 @@ ISO/IEC 5230은 다음과 같이 문서화된 오픈소스 기여 정책을 요�
  
 오픈소스 정책을 문서화하는 것은 효과적인 오픈소스 관리를 위해 가장 중요한 과정입니다. 
 
-다음 페이지에서 위에서 언급한 ISO/IEC 5230과 ISO/IEC DIS 18974의 요구사항을 충족하는 샘플 오픈소스 정책 문서를 제공합니다. : [[부록1] 오픈소스 정책 (샘플)](../7-policy-template)
+다음 페이지에서 위에서 언급한 ISO/IEC 5230과 ISO/IEC 18974의 요구사항을 충족하는 샘플 오픈소스 정책 문서를 제공합니다. : [[부록1] 오픈소스 정책 (샘플)](../7-policy-template)
 
 위의 내용을 참고하여 각 요구사항을 회사의 상황에 맞게 적절한 원칙을 수립하는 것이 필요합니다. 또한 문서로만 그치지 않고, 실행 가능한 절차까지 고려해야 합니다. 말뿐인 정책은 소용이 없습니다.
 

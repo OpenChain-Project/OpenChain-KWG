@@ -48,7 +48,7 @@ ISO/IEC 5230 규격의 3.3.1.2에서는 배포용 소프트웨어에 포함된 S
 {{% /alert %}}
 
 
-{{% alert title="ISO/IEC DIS 18974 - Security Assurance" color="warning" %}}
+{{% alert title="ISO/IEC 18974 - Security Assurance" color="warning" %}}
 
 * 3.3.1.2: Open Source Software Component Records for the Supplied Software that demonstrates the documented procedure was properly followed.<br>`문서화된 절차가 적절히 준수되었음을 보여주는 배포용 소프트웨어에 대한 오픈소스 소프트웨어 컴포넌트 기록`
 

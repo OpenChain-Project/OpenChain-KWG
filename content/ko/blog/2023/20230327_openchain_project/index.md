@@ -40,9 +40,9 @@ OpenChain Project에는 [다수의 Work Group](https://www.openchainproject.org/
 
 ## OpenChain Standard
 
-### ISO/IEC 5230:2020, ISO/IEC DIS 18974
+### ISO/IEC 5230:2020, ISO/IEC 18974
 
-가장 가시적인 결과는 오픈소스 관리를 위한 최초의 국제 표준을 개발한 것입니다. 2020년 12월, [ISO/IEC 5230](https://www.iso.org/standard/81039.html)이 오픈소스 컴플라이언스를 위한 유일한 국제 표준으로 등록되었습니다. [ISO/IEC DIS 18974](https://www.iso.org/standard/86450.html)는 오픈소스 보안 보증 컴플라이언스를 위한 사실상의 표준이며, 2023년 하반기에 ISO 표준으로 공식 등록될 예정입니다. 
+가장 가시적인 결과는 오픈소스 관리를 위한 최초의 국제 표준을 개발한 것입니다. 2020년 12월, [ISO/IEC 5230](https://www.iso.org/standard/81039.html)이 오픈소스 컴플라이언스를 위한 유일한 국제 표준으로 등록되었습니다. [ISO/IEC 18974](https://www.iso.org/standard/86450.html)는 오픈소스 보안 보증 컴플라이언스를 위한 사실상의 표준이며, 2023년 하반기에 ISO 표준으로 공식 등록될 예정입니다. 
 
 이들 표준은 기업이 오픈소스를 관리하는데 꼭 필요한 핵심 요구사항을 정의하고 있습니다. 기업은 이 표준의 요구사항을 준수함으로 Software Supply Chain 내에서 오픈소스 관리가 이뤄지고 있음을 투명하게 나타낼 수 있습니다. 
 
