@@ -83,6 +83,10 @@ description: >
 * 현대오토에버
 * 현대자동차
 
+## Review
+
+* [국내 기업 오픈소스 담당자가 현대오토에버에 모인 이유?](https://blog.naver.com/hyundai-autoever/223234425018)  
+
 ## Photo
 ![](IMG_5205.jpeg)
 <br><br>
