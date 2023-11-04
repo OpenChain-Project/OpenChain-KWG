@@ -1,7 +1,7 @@
 
 ---
-title: "[2020] 기업 공개SW 거버넌스 OpenChain 해설서"
-linkTitle: "[2020] OpenChain 해설서"
+title: "기업 오픈소스SW 거버넌스 - OpenChain 해설서"
+linkTitle: "OpenChain 해설서"
 weight: 60
 type: docs
 description: >
@@ -14,7 +14,7 @@ description: >
 기업 공개SW 거버넌스 Openchain 2.0 해설
 {{< /imgproc >}}
 
-여기서는 NIPA의 허락 하에 가이드 내용을 GitHub에 공개하고, 누구나 내용을 참고하고, 수정 / 개선할 수 있게 하였습니다. : [GitHub Repository](https://github.com/OpenChain-Project/OpenChain-KWG/tree/master/content/ko/guide)
+여기서는 NIPA의 허락 하에 가이드 내용을 GitHub에 공개하고, 누구나 내용을 참고하고, 수정 / 개선할 수 있게 하였습니다. : [GitHub Repository](https://github.com/OpenChain-Project/OpenChain-KWG/tree/master/content/ko/guide/nipa_openchain)
 
 ## References
 
@@ -22,7 +22,8 @@ description: >
 
 {{% pageinfo %}}
 1. [OpenChain Project Website](https://www.openchainproject.org/)
-2. [OpenChain Specification 2.0](https://wiki.linuxfoundation.org/_media/openchain/openchainspec-2.0.pdf)
-3. [OpenChain Open Source Policy Template](https://www.openchainproject.org/news/2019/01/17/openchain-open-source-policy-template-now-available)
-4. [Open Source Compliance In The Enterprise](https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/)
+2. [OpenChain ISO/IEC 5230](https://www.openchainproject.org/license-compliance)
+3. [OpenChain ISO/IEC 18974](https://www.openchainproject.org/security-assurance)
+4. [OpenChain Open Source Policy Template](https://www.openchainproject.org/news/2019/01/17/openchain-open-source-policy-template-now-available)
+5. [Open Source Compliance In The Enterprise](https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/)
 {{% /pageinfo %}}

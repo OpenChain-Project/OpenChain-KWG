@@ -2,6 +2,8 @@
 title: "I. OpenChain 프로젝트란?"
 weight: 1
 type: docs
+description: >
+  ISO 국제 표준에 기반하여 기업이 오픈소스를 효과적으로 관리하기 위한 방안을 소개합니다. 
 ---
 
 오늘날 소프트웨어는 갈수록 그 규모와 복잡도가 커지고 있다. 하나의 소프트웨어를 개발하기 위해서는 자체 개발하는 소프트웨어뿐 아니라 오픈소스, 3rd party Software, 반도체 벤더의 SDK 등 소프트웨어 공급망에 걸친 다양한 소프트웨어가 사용될 수 있기 때문이다.
@@ -24,5 +26,3 @@ type: docs
 1. OpenChain 규격
 2. OpenChain 적합성 (자체 인증)
 3. OpenChain 참조 자료
-
- OpenChain은 2020년 11월 현재, 오픈소스 컴플라이언스에 대한 국제 표준(ISO/IEC DIS 5230 : https://www.iso.org/standard/81039.html)으로의 등록 절차가 진행 중이다. 
