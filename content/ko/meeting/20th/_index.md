@@ -35,6 +35,9 @@ description: >
 
 ![](line.png)
 
+
+![](lge.png)
+
 ## 참석 기업/기관
 
 
