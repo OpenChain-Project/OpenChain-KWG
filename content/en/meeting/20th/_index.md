@@ -34,6 +34,7 @@ description: >
 
 ![](line.png)
 
+![](lge.png)
 
 ## Attendees
 
