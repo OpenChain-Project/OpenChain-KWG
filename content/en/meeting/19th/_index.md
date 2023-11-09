@@ -34,7 +34,7 @@ description: >
 | Time | Agenda | Speaker | Slide |
 |----|-----------------|------|------|
 | 15:00-15:20 | Security Management System - Based Open Source Security Assurance Standard | Jaewook Jeong, LG Electronics | [slide](./LG전자제품보안관리체계기반_오픈소스보안보증표준준수사례소개_정재욱.pdf)  |
-| 15:20~15:40 | LINE's OpenChain Certification Journey | Seoyeon Lee, Donghyuk Kim, Line Plus | - |
+| 15:20~15:40 | LINE's OpenChain Certification Journey | Seoyeon Lee, Donghyuk Kim, Line Plus | [slide](./LINE-OpenChain-Conformance.pdf) |
 | 15:40~16:00 | Chaotic AI open source license! | Hyeseong Choi, LG Electronics | [slide](./혼돈의AI오픈소스라이선스.pdf) |
 | 16:00-16:20 | Networking | ALL | - |
 
