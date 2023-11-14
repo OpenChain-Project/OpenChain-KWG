@@ -2,7 +2,7 @@
 title: "2nd Meeting"
 linkTitle: "Legal SG 2nd Meeting"
 weight: 2
-date: 2023-08-18
+date: 2023-12-13.(수) 16:30~18:00
 type: docs
 description: >
   Legal SG 2nd Meeting 
@@ -10,9 +10,9 @@ description: >
 
 ## Schedule
 
-* 목적 : 
-* 일시 : 
-* 장소 : 
+* 목적 : Legal Subgroup 2차 회의
+* 일시 : 2023.12.13.(수) 16:30~18:00
+* 장소 : LG전자 회의실
 
 ## Attendees
 * 
@@ -20,8 +20,8 @@ description: >
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  |      | 	    |   |
-| 2  |      | 	    |   |
+| 1  | (소송사례) Entr’ouvert v. Orange : License 분쟁과 준거법     | 박원재, LG전자  |   |
+| 2  | (주제발표) GPL-2.0: 라이선스 경계 문제와 컴플라이언스     | 박정숙, ETRI	    |   |
 | 3  |      | 	    |   |
 
 
