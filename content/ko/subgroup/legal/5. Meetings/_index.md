@@ -4,8 +4,7 @@ linkTitle: "Meetings"
 weight: 5
 date: 2023-08-12
 type: docs
-description: >
-  회의
+description: 회의
 ---
 
 ## List of Meetings
