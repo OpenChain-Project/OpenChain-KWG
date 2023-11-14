@@ -11,7 +11,7 @@ description: >
 ## Schedule
 
 * 일시 : 2023.9.19.(화) 19차 OpenChain-KWG 회의 후
-* 장소 : 현대오토에버 회의실 (확정 아님)
+* 장소 : 현대오토에버 회의실
 
 ## Attendees
 * 
@@ -19,7 +19,7 @@ description: >
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  |      | 	    |   |
+| 1  | Legal subgroup 운영 방안 소개   | ETRI 박정숙  |  [pdf](LegalSubgroup_1차회의발표.pdf) |
 | 2  |      | 	    |   |
 | 3  |      | 	    |   |
 
