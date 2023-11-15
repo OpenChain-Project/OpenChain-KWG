@@ -15,7 +15,7 @@ description: >
 
 | Time | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 14:00~14:10 | Welcome & Intro | 정윤환, 삼성전자 |  -  |
+| 14:00~14:10 | Welcome & Intro | 박수홍 그룹장 / 정윤환, 삼성전자 |  -  |
 | 14:10~14:20 | OpenChain Global Update  | 	Shane Coughlan, Linux Foundation | [pptx](./korea-work-group-2023-11-15.pptx) |
 | 14:20~14:30 | OpenChain KWG Update  | 장학성, SK텔레콤 | [pdf](./OpenChain_Korea_update_20231115.pdf)  |
 | 14:30~14:40 | 연말 시상 | 사회 : 이서연, LINE+ |  -  |
