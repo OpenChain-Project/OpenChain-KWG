@@ -2,17 +2,16 @@
 title: "2nd Meeting"
 linkTitle: "Legal SG 2nd Meeting"
 weight: 2
-date: 2023-12-13.(수) 16:30~18:00
+date: 2023-12-13(수) 16:30~18:00
 type: docs
-description: >
-  Legal SG 2nd Meeting 
+description: Legal SG 2nd Meeting 
 ---
 
 ## Schedule
 
 * 목적 : Legal Subgroup 2차 회의
 * 일시 : 2023.12.13.(수) 16:30~18:00
-* 장소 : LG전자 회의실
+* 장소 : LG전자 회의실 + 온라인(WebEx)
 
 ## Attendees
 * 
