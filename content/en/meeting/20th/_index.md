@@ -15,7 +15,7 @@ description: >
 
 | Time | Agenda | Speaker | Slide |
 |-------|-----------------|------|------|
-| 14:00~14:10 | Welcome & Intro | Yunhwan Jeong, Samsung Electronics | - |
+| 14:00~14:10 | Welcome & Intro | Daniel Park / Yunhwan Jeong, Samsung Electronics | - |
 | 14:10~14:20 | OpenChain Global Update | Shane Coughlan, Linux Foundation | [pptx](./korea-work-group-2023-11-15.pptx) |
 | 14:20~14:30 | OpenChain KWG Update | Haksung Jang, SK Telecom | [pdf](./OpenChain_Korea_update_20231115.pdf) |
 | 14:30~14:40 | Year-end awards | Host: Seoyeon Lee, LINE+ | - |
