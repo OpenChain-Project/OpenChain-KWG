@@ -45,6 +45,31 @@ description: >
 
 ## Attendees
 
+- KB bank
+- Korea Financial Telecommunications & Clearings Institute
+- Kia
+- Naver
+- Line Plus
+- Samsung
+- Samsung SDS
+- Ahnlab
+- Escore
+- NCSOFT
+- National IT Industry Promotion Agency
+- Kakao
+- Kakao Bank
+- TMap Mobility
+- Korea Electronics and Telecommunications Research Institute
+- Hancom
+- Hyundai Mobis
+- Hyundai Autoever
+- Hyundai Motor
+- KT
+- KTDS
+- LG AI Researcher
+- LG Electronics
+- NHN
+- SK Telecom
 
 ## Photo
 
