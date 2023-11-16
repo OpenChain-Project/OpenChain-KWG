@@ -23,6 +23,12 @@ description: >
 | 15:10~15:30 | Networking (Beverages/Refreshments) | All | - |
 | 15:30~16:30 | Group discussion | Host: Seoyeon Lee, LINE+ | - |
 
+
+## Video 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gB271IMLFl8?si=5laDJLG2aNX10o1z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 ## Sponsor
 ![](nipg-logo.png)
 <br>
@@ -35,6 +41,7 @@ description: >
 ![](line.png)
 
 ![](lge.png)
+
 
 ## Attendees
 
