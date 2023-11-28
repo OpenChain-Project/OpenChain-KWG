@@ -1,5 +1,5 @@
 ---
-title: "오픈소스 정책"
+title: "[부록1] 오픈소스 정책 (샘플)"
 weight: 10
 type: docs
 ---
@@ -7,7 +7,7 @@ type: docs
 {{< alert title="Note:" >}}
 This sample open source policy was written with reference to the following two materials.
 
-1. [OpenChain Open Source Policy Template](https://github.com/OpenChain-Project/Reference-Material/tree/master/Policy-Templates/Official/2.1/en)
+1. [OpenChain Open Source Policy Template](https://github.com/OpenChain-Project/Reference-Material/blob/master/Open-Source-Policy/Official/2.1/en/Open-Source-Policy-Template-en-OpenChain2.1-ISO5230.xlsx)
 2. [Linux Foundation Generic FOSS Policy](https://github.com/todogroup/policies/blob/master/linuxfoundation/lf_compliance_generic_policy.pdf)
 {{< /alert >}}
 
