@@ -1,0 +1,575 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – Templates</title><link>https://openChain-project.github.io/OpenChain-KWG/en/guide/templates/</link><description>Recent content in Templates on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/en/guide/templates/index.xml" rel="self" type="application/rss+xml"/><item><title>Guide: Open Source Policy</title><link>https://openChain-project.github.io/OpenChain-KWG/en/guide/templates/1-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/guide/templates/1-policy/</guid><description>
+&lt;div class="alert alert-primary" role="alert">
+&lt;h4 class="alert-heading">Note:&lt;/h4>
+&lt;p>This sample open source policy was written with reference to the following two materials.&lt;/p>
+&lt;ol>
+&lt;li>&lt;a href="https://github.com/OpenChain-Project/Reference-Material/tree/master/Policy-Templates/Official/2.1/en">OpenChain Open Source Policy Template&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/todogroup/policies/blob/master/linuxfoundation/lf_compliance_generic_policy.pdf">Linux Foundation Generic FOSS Policy&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;h2 id="1-purpose">1. Purpose&lt;/h2>
+&lt;h3 id="1-purpose-of-the-policy">(1) Purpose of the Policy&lt;/h3>
+&lt;p>This policy provides the following principles for the entire organization involved in software development, service, and distribution at the OOO company (hereinafter referred to as &amp;ldquo;the company&amp;rdquo;) to properly utilize open source software (hereinafter referred to as &amp;ldquo;open source&amp;rdquo;).&lt;/p>
+&lt;ol>
+&lt;li>Principles of open source compliance / security assurance&lt;/li>
+&lt;li>Principles of contribution to external open source projects&lt;/li>
+&lt;li>Principles for releasing internal projects as open source&lt;/li>
+&lt;/ol>
+&lt;p>These principles provide a way for all members of the company to understand the value of open source, use open source correctly, and contribute to the open source community.&lt;/p>
+&lt;p>All members of the company can check the open source policy at the following link on the internal wiki: [internal_link]&lt;/p>
+&lt;h3 id="2-impact-of-non-compliance">(2) Impact of Non-compliance&lt;/h3>
+&lt;p>If this policy is not complied with, the following situations may occur:&lt;/p>
+&lt;ul>
+&lt;li>You may receive a request for open source license compliance from outside.&lt;/li>
+&lt;li>You may have to disclose the source code developed by the company against your will.&lt;/li>
+&lt;li>You may be sued by the open source copyright holder.&lt;/li>
+&lt;li>You may be fined for copyright infringement and breach of contract, or receive an order to stop selling products.&lt;/li>
+&lt;li>The company&amp;rsquo;s reputation may be damaged.&lt;/li>
+&lt;li>You may be claimed for damages due to breach of contract with the supplier.&lt;/li>
+&lt;li>You may be exposed to serious security incidents, causing significant damage to the company.&lt;/li>
+&lt;/ul>
+&lt;p>For these reasons, the company takes violations of the open source policy seriously, and members or organizations that violate it may be subject to disciplinary procedures.&lt;/p>
+&lt;h3 id="3-how-members-can-contribute">(3) How Members Can Contribute&lt;/h3>
+&lt;p>All members of the company can contribute to the effectiveness of the policy and the improvement of the company&amp;rsquo;s compliance level by understanding the basis and content of this policy and faithfully performing the necessary activities.&lt;/p>
+&lt;h2 id="2-scope-of-application">2. Scope of Application&lt;/h2>
+&lt;p>This policy applies to the following three parts:&lt;/p>
+&lt;ol>
+&lt;li>It applies to all products provided or distributed by the company. However, the use of open source for internal use only is not included in the scope of this policy.&lt;/li>
+&lt;li>It applies when members contribute to external open source projects.&lt;/li>
+&lt;li>It applies when internal code is released as open source.&lt;/li>
+&lt;/ol>
+&lt;p>The scope of application can be changed to suit the company&amp;rsquo;s business environment. In particular, the Open Source Program Manager investigates at least once a month whether there are products that are not applied and are distributed or serviced externally to ensure continuous effectiveness. This is used as a criterion for changing the scope of application when even one case is found.&lt;/p>
+&lt;p>The procedure for changing the scope of application is as follows:&lt;/p>
+&lt;ol>
+&lt;li>If the Open Source Program Manager determines that changes to the scope of application of the policy are necessary due to changes in the company&amp;rsquo;s business environment such as new business and organizational restructuring, he/she submits a proposal to the OSRB.&lt;/li>
+&lt;li>The OSRB approves an appropriate level of change in the scope of application.&lt;/li>
+&lt;li>The OSRB modifies the open source policy to change the scope of application.&lt;/li>
+&lt;/ol>
+&lt;p>The Open Source Program Manager continuously reviews, updates, and inspects the scope of application at least once a month to improve it, and documents the history using the Jira Issue Tracker.&lt;/p>
+&lt;h2 id="3-terminology">3. Terminology&lt;/h2>
+&lt;ul>
+&lt;li>SBOM (Software Bill of Materials): List of software components&lt;/li>
+&lt;li>Software Distribution Participants: Refers to all employees involved in software development, distribution, and contribution in the company, including software developers, distribution engineers, quality engineers, etc.&lt;/li>
+&lt;li>&amp;hellip;&lt;/li>
+&lt;/ul>
+&lt;h2 id="4-roles-responsibilities-and-competencies">4. Roles, Responsibilities, and Competencies&lt;/h2>
+&lt;p>The following roles, responsibilities, and competencies required for each role are defined to ensure the effectiveness of the policy.&lt;/p>
+&lt;p>The responsible organization/person and the level of required competencies for each role are defined in [Appendix 1. Status of Responsible Persons].&lt;/p>
+&lt;ul>
+&lt;li>The Open Source Program Manager regularly updates the list according to the company&amp;rsquo;s business situation.&lt;/li>
+&lt;li>The head of the organization responsible for each role appoints a person in charge within the organization and allocates appropriate time and budget to ensure that the person in charge can faithfully perform the role.
+&lt;ul>
+&lt;li>If the person in charge of each role finds that they are not being properly supported in performing their role, they should raise the issue with the Open Source Program Manager.&lt;/li>
+&lt;li>The Open Source Program Manager discusses problem-solving with the head of the organization. If it is not resolved appropriately, the Open Source Program Manager can request problem-solving from the OSRB.&lt;/li>
+&lt;li>The OSRB shares the issue with the head of the upper organization and requests a solution.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="1-osrb">(1) OSRB&lt;/h3>
+&lt;p>The OSRB (Open Source Review Board) is a consultative body composed of the Open Source Program Manager and responsible persons from related organizations such as the legal team, patent team, development team, infrastructure team, etc., for managing open source in the company.&lt;/p>
+&lt;ul>
+&lt;li>The OSRB establishes policies and processes for managing open source in the company and defines the roles and responsibilities within the company to implement them.&lt;/li>
+&lt;li>The OSRB reviews and improves policies and processes annually. All improvement processes are documented and recorded.
+&lt;ul>
+&lt;li>The OSRB always updates the policies and processes for open source compliance and security assurance to reflect the business environment by analyzing the company&amp;rsquo;s process performance, shortcomings, and best practices.&lt;/li>
+&lt;li>The Open Source Program Manager is responsible for managing the policies and processes for open source compliance.&lt;/li>
+&lt;li>The security officer is responsible for managing the policies and processes for open source security assurance.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>The OSRB discusses solutions and prepares countermeasures when open source issues occur within the company.&lt;/li>
+&lt;li>The OSRB reports issues to the executive management when necessary and receives feedback on risk mitigation measures.&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-open-source-program-manager">(2) Open Source Program Manager&lt;/h3>
+&lt;p>The Open Source Program Manager is responsible for the overall responsibility of the company&amp;rsquo;s open source program. It has the following responsibilities to ensure the management activities of open source used in products and services:&lt;/p>
+&lt;ul>
+&lt;li>Defines the roles necessary for open source compliance and assigns the responsible organization and person for each role. Consults with the OSRB if necessary. The internal responsibility for open source security assurance is assigned by the security officer.&lt;/li>
+&lt;li>Organizes and evaluates open source education.&lt;/li>
+&lt;li>Serves as the chairman of the OSRB and directs activities.&lt;/li>
+&lt;li>Responds to inquiries and requests related to open source use and compliance from outside.&lt;/li>
+&lt;li>Reviews and approves open source use requests.&lt;/li>
+&lt;li>Maintains SBOM records.&lt;/li>
+&lt;li>Provides a way for members to receive open source related advice.&lt;/li>
+&lt;li>Maintains a repository for open source notices and source code disclosure.&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-ospo">(3) OSPO&lt;/h3>
+&lt;p>The Open Source Program Office (OSPO) supports and nurtures open source activities both inside and outside the company.&lt;/p>
+&lt;ul>
+&lt;li>It provides guidelines for contributing code to external open source projects.&lt;/li>
+&lt;li>It provides guidelines for releasing internal projects as open source.&lt;/li>
+&lt;li>It develops and operates an open source portal.&lt;/li>
+&lt;li>It develops and selects open source tools.&lt;/li>
+&lt;li>It sponsors open source project events.&lt;/li>
+&lt;li>It manages relationships with open source communities.&lt;/li>
+&lt;/ul>
+&lt;h3 id="4-legal-officer">(4) Legal Officer&lt;/h3>
+&lt;p>The Legal Officer provides advice on legal risks and mitigation measures that may arise in the process of using open source, such as interpreting open source licenses and obligations.&lt;/p>
+&lt;ul>
+&lt;li>It provides a reasonable method for members to inquire about open source compliance issues.&lt;/li>
+&lt;li>It provides advice on license and intellectual property issues, including conflicts due to incompatible open source licenses.&lt;/li>
+&lt;li>It reviews necessary legal matters such as open source licenses, CLA (Contributor License Agreement), etc. when contributing to external open source projects.&lt;/li>
+&lt;li>In acute cases, it requests advice from external law firms with open source specialist lawyers.&lt;/li>
+&lt;/ul>
+&lt;h3 id="5-it-officer">(5) IT Officer&lt;/h3>
+&lt;p>The IT Officer operates open source analysis tools and automates them to build a system that allows open source analysis to be smoothly performed for all distributed software.&lt;/p>
+&lt;ul>
+&lt;li>It operates open source analysis tools.&lt;/li>
+&lt;li>It integrates with the DevOps environment to automate open source analysis.&lt;/li>
+&lt;li>It builds systems and processes to perform open source analysis for all distributed software.&lt;/li>
+&lt;li>It secures and maintains SBOM for all distributed software.&lt;/li>
+&lt;/ul>
+&lt;h3 id="6-security-officer">(6) Security Officer&lt;/h3>
+&lt;p>The Security Officer operates open source security vulnerability analysis tools to build a system that allows security vulnerability analysis to be smoothly performed for all distributed software.&lt;/p>
+&lt;ul>
+&lt;li>It assigns responsibilities for each task to ensure successful open source security assurance.&lt;/li>
+&lt;li>It operates open source security vulnerability analysis tools.&lt;/li>
+&lt;li>It integrates with the DevSecOps environment to automate open source security vulnerability analysis.&lt;/li>
+&lt;li>It builds systems and processes to perform open source security vulnerability analysis for all distributed software.&lt;/li>
+&lt;li>It provides a reasonable method for members to inquire about security vulnerabilities, and uses external expert technical advice if necessary to resolve vulnerabilities.&lt;/li>
+&lt;/ul>
+&lt;h3 id="7-development-culture-officer">(7) Development Culture Officer&lt;/h3>
+&lt;p>The Development Culture Officer supports in-house developers to actively use open source and participate in in-house and external communities to acquire advanced development culture.&lt;/p>
+&lt;ul>
+&lt;li>It encourages participation in open source communities.&lt;/li>
+&lt;li>It creates a culture that recognizes active external open source project activities as in-house performance.&lt;/li>
+&lt;li>It creates a development culture that can be recognized as an attractive company by open source developers.&lt;/li>
+&lt;/ul>
+&lt;h3 id="8-quality-assurance-officer">(8) Quality Assurance Officer&lt;/h3>
+&lt;p>The Quality Assurance Officer, such as QA, checks whether the open source license obligations have been properly performed when distributing software.&lt;/p>
+&lt;ul>
+&lt;li>It checks whether open source management activities are performed according to the development process stage.&lt;/li>
+&lt;li>It checks whether the deliverables are created as required by the open source license.&lt;/li>
+&lt;li>It checks whether the open source notice and the source code to be disclosed are provided together when distributing software.&lt;/li>
+&lt;li>If there is an issue, it notifies the software development/distribution organization and guides them to correct the issue immediately.&lt;/li>
+&lt;/ul>
+&lt;h2 id="5-education-and-evaluation">5. Education and Evaluation&lt;/h2>
+&lt;p>All members who are responsible for the roles defined in Chapter 4 must take the advanced open source education course provided by the [Learning Portal]. Through this, they will familiarize themselves with the open source policy, related education policy, and how to look it up.&lt;/p>
+&lt;p>The education history and evaluation results are kept in the [Learning Portal] for at least 3 years.&lt;/p>
+&lt;h2 id="6-open-source-use">6. Open Source Use&lt;/h2>
+&lt;p>When developing and distributing products and services using open source, you must comply with the obligations required by each open source license. This activity is called open source compliance.&lt;/p>
+&lt;p>For proper open source compliance activities, the software development/distribution organization complies with the following matters and all processes are recorded and preserved in the Jira Tracker.&lt;/p>
+&lt;h3 id="1-open-source-identification-and-license-obligation-review">(1) Open Source Identification and License Obligation Review&lt;/h3>
+&lt;p>When introducing open source to product/service development, first identify what the open source license is, and review and confirm the obligations required by the license.&lt;/p>
+&lt;p>The company&amp;rsquo;s [Open Source License Guide] includes a list of major open source licenses, and explains the obligations required by each license according to the following types of distribution:&lt;/p>
+&lt;ul>
+&lt;li>Binary form&lt;/li>
+&lt;li>Source form&lt;/li>
+&lt;li>Strong/Weak Copyleft&lt;/li>
+&lt;li>SasS-based provision&lt;/li>
+&lt;li>Whether modified&lt;/li>
+&lt;li>Including open source that requires author indication, etc.&lt;/li>
+&lt;/ul>
+&lt;p>The software development/distribution organization can refer to this guide when reviewing open source license obligations. If you need to review an open source license not mentioned in this guide, contact the open source program manager.&lt;/p>
+&lt;h3 id="2-open-source-license-consideration-design">(2) Open Source License Consideration Design&lt;/h3>
+&lt;p>Understand the combination relationship of open source and design the software architecture so that our code is not affected by the open source license.&lt;/p>
+&lt;p>The company&amp;rsquo;s [Open Source License Guide] explains the range of source code disclosure for each open source license and how to design to prevent the disclosure of our code.&lt;/p>
+&lt;h3 id="3-creation-of-open-source-compliance-deliverables">(3) Creation of Open Source Compliance Deliverables&lt;/h3>
+&lt;p>The most basic of open source compliance activities is to understand the status of open source included in distributed software. This is to properly meet the core of open source compliance, which is the requirements of the open source license. In other words, you need to create a set of compliance deliverables for the open source included in the distributed software.&lt;/p>
+&lt;p>Open source compliance deliverables are divided into two main categories.&lt;/p>
+&lt;ol>
+&lt;li>Open Source Notice: A document for providing the full text of the open source license and copyright information&lt;/li>
+&lt;li>Source Code Package to be Disclosed: A package that collects the source code to be disclosed to fulfill the obligations of open source licenses that require source code disclosure, such as GPL, LGPL&lt;/li>
+&lt;/ol>
+&lt;p>To collect, distribute, and store these compliance deliverables, comply with the following matters.&lt;/p>
+&lt;ul>
+&lt;li>The open source notice or source code package to be disclosed is collected according to the conditions required by each license. For example, if the license requires the entire text of the license to be enclosed, you cannot just provide a link.&lt;/li>
+&lt;li>The collected deliverables are stored in a separate repository.&lt;/li>
+&lt;li>If the source code to be disclosed is provided by a written agreement, the download link is made public so that the repository of the collected deliverables can be accessed from the outside.&lt;/li>
+&lt;/ul>
+&lt;p>You can issue an open source notice and collect a source code package to be disclosed through the company&amp;rsquo;s open source process.&lt;/p>
+&lt;h3 id="4-creation-of-sbom-bill-of-materials">(4) Creation of SBOM (Bill of Materials)&lt;/h3>
+&lt;p>You must create and manage the status of open source included in distributed software (BOM: Bill of Materials).&lt;/p>
+&lt;p>You can create and preserve SBOM using open source tools through the company&amp;rsquo;s open source process.&lt;/p>
+&lt;h3 id="5-compliance-issue-response-procedure">(5) Compliance Issue Response Procedure&lt;/h3>
+&lt;p>If a compliance issue is raised, the open source program manager performs the following procedures to respond quickly.&lt;/p>
+&lt;ol>
+&lt;li>Confirm the inquiry receipt and specify a reasonable resolution time.&lt;/li>
+&lt;li>Check whether the issue content is pointing out a real problem. (If not, inform the issue raiser that it is not a problem.)&lt;/li>
+&lt;li>If it is a real problem, prioritize and decide on an appropriate response.&lt;/li>
+&lt;li>Perform the response and, if necessary, appropriately supplement the open source process.&lt;/li>
+&lt;li>The above contents are preserved using the Jira Tracker.&lt;/li>
+&lt;/ol>
+&lt;h3 id="6-open-source-vulnerability-response">(6) Open Source Vulnerability Response&lt;/h3>
+&lt;ul>
+&lt;li>We identify open source vulnerabilities and evaluate their severity.&lt;/li>
+&lt;li>Based on the analysis of open source vulnerabilities, we either fix the vulnerability or apply a security patch. The decision to address vulnerabilities takes into account the severity of the vulnerability, the importance of the system, and the availability of vulnerability fixes or security patches.&lt;/li>
+&lt;li>We monitor the announcement of new open source security vulnerabilities and respond quickly when vulnerabilities occur. Open source vulnerability monitoring can be performed through vulnerability databases such as CVE and websites of security specialist organizations.&lt;/li>
+&lt;/ul>
+&lt;h2 id="7-open-source-contribution">7. Open Source Contribution&lt;/h2>
+&lt;p>The company encourages participation and contribution to external open source projects to create business value from open source. However, care must be taken to avoid unintentional exposure of the company&amp;rsquo;s intellectual property or infringement of third-party rights during this process. To this end, members of the company must comply with the following when contributing to external open source projects:&lt;/p>
+&lt;h3 id="1-request-for-review-and-approval">(1) Request for Review and Approval&lt;/h3>
+&lt;p>Contributing to open source is granting the open source project the right to modify, use, and distribute the work from a copyright perspective. Sometimes, you may need to transfer your copyright to the open source project. However, the copyright of works created during the employment period is generally owned by the employer. In other words, the works created by company members are owned by the company. The act of arbitrarily contributing works to open source can trigger unnecessary copyright infringement issues.&lt;/p>
+&lt;p>Therefore, if there is an open source project you want to contribute to, you must comply with the review request and approval process before making the initial contribution according to the open source contribution process.&lt;/p>
+&lt;p>However, in the case of simple content such as the following, you can contribute according to the judgment of the member without the review process because the risk of copyright infringement is not high:&lt;/p>
+&lt;ul>
+&lt;li>Small code snippets of 10 lines or less&lt;/li>
+&lt;li>Questions / Answers on Stack Overflow&lt;/li>
+&lt;li>Management activities on GitHub: Creating Issues, Reviewing / Approving Pull Requests, etc.&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-only-contribute-code-you-have-the-right-to-contribute">(2) Only Contribute Code You Have the Right to Contribute&lt;/h3>
+&lt;p>You should only contribute code that you have the right to contribute. In other words, you contribute code that you have written yourself. You should not arbitrarily contribute third-party code.&lt;/p>
+&lt;h3 id="3-be-careful-about-intellectual-property-exposure">(3) Be Careful About Intellectual Property Exposure&lt;/h3>
+&lt;p>Do not contribute code or documents that may expose sensitive information or company intellectual property, such as patents.&lt;/p>
+&lt;p>If the code you want to contribute contains a company patent, you need to check whether this patent can be contributed to the project under an open source license. If there is any ambiguity, contact the OSPO.&lt;/p>
+&lt;h3 id="4-be-careful-about-signing-the-cla">(4) Be Careful About Signing the CLA&lt;/h3>
+&lt;p>Some open source projects require all contributors to sign the CLA (Contributor License Agreement). This is an agreement that seeks consent from contributors to reduce copyright disputes that can arise while the project manages the works of multiple contributors. Typically, projects led by large corporations require you to sign the CLA.&lt;/p>
+&lt;p>The CLA varies from project to project, but it usually contains the following:&lt;/p>
+&lt;ul>
+&lt;li>I (or my affiliated company) have the right to contribute the contribution I want to contribute to the project. (In other words, I am the author of this contribution.)&lt;/li>
+&lt;li>I (or my affiliated company) grant the project the right to modify, distribute, and manage my contribution.&lt;/li>
+&lt;li>I (or my affiliated company) will not revoke the granted rights.&lt;/li>
+&lt;li>I (or my affiliated company) grant the project the right to change the license as needed in the future.&lt;/li>
+&lt;/ul>
+&lt;p>Also, although rare, some CLAs require agreement on the following conditions:&lt;/p>
+&lt;ul>
+&lt;li>I (or my affiliated company) transfer my copyright to the project or project management organization at the same time as I contribute my contribution.&lt;/li>
+&lt;/ul>
+&lt;p>The company does not allow contributions to open source projects that require copyright transfer to protect its intellectual property. To make this judgment, company members must request a review from the OSPO before signing if the open source project they want to contribute to requires signing the CLA.&lt;/p>
+&lt;h3 id="5-copyright-notice">(5) Copyright Notice&lt;/h3>
+&lt;p>The intellectual property of the works created by members during their employment is basically owned by the company. Therefore, when members contribute code to an external open source project, they must indicate the company&amp;rsquo;s copyright.&lt;/p>
+&lt;p>When contributing one or more files, indicate the copyright and license at the top of the file as follows:&lt;/p>
+&lt;pre>&lt;code>Copyright (c) {$year} {$Company}
+SPDX-License-Identifier: {$SPDX_license_name}
+&lt;/code>&lt;/pre>&lt;p>Here, $SPDX_license_name is written according to the license policy of the open source project in question.&lt;/p>
+&lt;p>However, if you are modifying existing code for purposes such as bug fixes, you do not need to indicate copyright for the code modification.&lt;/p>
+&lt;h3 id="6-use-of-company-email">(6) Use of Company Email&lt;/h3>
+&lt;p>When contributing to an open source project, do not use personal email, use company email. Through this, (1) members have a sense of responsibility to communicate with the community on behalf of the company, and (2) the company can improve its recognition as a company that actively contributes to the open source community.&lt;/p>
+&lt;h2 id="8-open-source-release">8. Open Source Release&lt;/h2>
+&lt;p>The company respects the value of collaboration with the open source community and encourages the release of internal software to open source projects. However, there are a few rules to follow to protect the company&amp;rsquo;s intellectual property and prevent unintended copyright infringement.&lt;/p>
+&lt;h3 id="1-approval">(1) Approval&lt;/h3>
+&lt;p>Open source release is granting anyone the right to modify, use, and distribute the work through an open source license from a copyright perspective. Generally, the copyright of works created during the employment period is owned by the employer. In other words, the works created by company members are owned by the company. The act of arbitrarily disclosing works to open source can trigger unnecessary copyright infringement issues.&lt;/p>
+&lt;p>Therefore, if you want to disclose software as open source, you must follow the review request and approval process according to the company&amp;rsquo;s open source release policy.&lt;/p>
+&lt;p>If there is anything that seems undesirable in the process of release, do not hesitate to contact the OSPO.&lt;/p>
+&lt;h3 id="2-only-disclose-code-you-have-the-right-to-disclose">(2) Only Disclose Code You Have the Right to Disclose&lt;/h3>
+&lt;p>One of the worst situations that can occur in an open source project is the inclusion of legally problematic code in the project. Code that the company does not have the right to distribute, or code that infringes on the IP of another company, such as a patent, can cause legal problems. Therefore, while preparing to disclose the code, check the source of all code and remove any code that may be problematic.&lt;/p>
+&lt;h3 id="3-be-careful-about-intellectual-property-exposure-1">(3) Be Careful About Intellectual Property Exposure&lt;/h3>
+&lt;p>Do not disclose code or documents that may expose sensitive information or company intellectual property, such as patents.&lt;/p>
+&lt;p>If the code you want to disclose contains a company patent, you need to check whether this patent can be disclosed under an open source license. If there is any ambiguity, contact the OSPO.&lt;/p>
+&lt;h3 id="4-disclose-useful-code">(4) Disclose Useful Code&lt;/h3>
+&lt;p>In order to be a successful project, it must also be useful to others. If a similar project already exists, participate in the existing project rather than creating a new one.&lt;/p>
+&lt;p>The open source you want to disclose should (1) provide differentiated value to the open source community, (2) solve problems that the community has not been able to solve, and (3) be expected to attract positive attention by disclosing our technology.&lt;/p>
+&lt;ul>
+&lt;li>Do not disclose code that could not be used in actual products or services as open source.&lt;/li>
+&lt;li>Do not disclose code that deals with problems already solved in the open source community. In this case, contribute to the existing open source project.&lt;/li>
+&lt;/ul>
+&lt;h3 id="5-resource-allocation">(5) Resource Allocation&lt;/h3>
+&lt;ul>
+&lt;li>Secure the resources that need to be invested in the project.&lt;/li>
+&lt;li>Initially, you need developers at a level similar to general internal projects.&lt;/li>
+&lt;li>You need developers who can quickly review contributions from outside.&lt;/li>
+&lt;li>The roles of the legal and marketing teams are also needed.&lt;/li>
+&lt;/ul>
+&lt;p>Secure a budget for the infrastructure needed to maintain and manage the project. This includes project hosting tools like GitHub. If you cannot create an environment that supports sufficient resources, do not disclose it as open source.&lt;/p>
+&lt;h3 id="6-use-of-company-email-1">(6) Use of Company Email&lt;/h3>
+&lt;p>When conducting open source release activities, use company email instead of personal email. This has the following benefits:&lt;/p>
+&lt;ul>
+&lt;li>Members have a sense of responsibility to communicate with the community on behalf of the company.&lt;/li>
+&lt;li>The company can improve its recognition as a company that actively discloses to the open source community.&lt;/li>
+&lt;/ul>
+&lt;h2 id="9-response-to-external-inquiries">9. Response to External Inquiries&lt;/h2>
+&lt;h3 id="1-responsibility-for-responding-to-external-inquiries">(1) Responsibility for Responding to External Inquiries&lt;/h3>
+&lt;p>The Open Source Program Manager is responsible for responding to inquiries and requests about open source from outside.&lt;/p>
+&lt;ul>
+&lt;li>The Open Source Program Manager can assign all or part of the processing of inquiries to appropriate personnel within the company. If necessary, consult with a legal officer to handle it.&lt;/li>
+&lt;li>Anyone who receives an open source inquiry from outside informs the Open Source Program Manager so that a quick response can be made.&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-public-contact-information">(2) Public Contact Information&lt;/h3>
+&lt;p>The Open Source Program Manager provides contact information publicly so that outsiders can make inquiries and requests related to open source.&lt;/p>
+&lt;ul>
+&lt;li>Provide an email address where you can be contacted in the open source notice.&lt;/li>
+&lt;li>Provide email address information on the open source website.&lt;/li>
+&lt;li>Register your contact information in the Open Compliance Directory of the Linux Foundation.&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-external-inquiry-response-procedure">(3) External Inquiry Response Procedure&lt;/h3>
+&lt;p>If you respond quickly and accurately to open source inquiries from outside, you can greatly reduce the risk of claims or legal litigation. To this end, the company complies with the external inquiry response procedure defined in the company&amp;rsquo;s open source process to respond to external open source inquiries.&lt;/p>
+&lt;h2 id="10-declaration-and-maintenance-of-compliance-with-iso-standards">10. Declaration and Maintenance of Compliance with ISO Standards&lt;/h2>
+&lt;p>The company supports the spirit of the OpenChain project of the Linux Foundation for improving the level of open source compliance in the software supply chain and actively participates.&lt;/p>
+&lt;ul>
+&lt;li>The company guarantees compliance with ISO/IEC 5230:2020 as of October 1, 2021, by applying this open source policy.&lt;/li>
+&lt;li>The company guarantees that it meets all the requirements of OpenChain Specification Version 2.1, ISO/IED 5230:2020 for more than 18 months after obtaining conformity certification.&lt;/li>
+&lt;li>The company reviews conformity at least every 18 months and changes and updates policies as needed.&lt;/li>
+&lt;/ul>
+&lt;h2 id="appendix-1-status-of-responsible-persons">Appendix 1. Status of Responsible Persons&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>No&lt;/th>
+&lt;th style="text-align:left">Role&lt;/th>
+&lt;th style="text-align:left">Responsibility&lt;/th>
+&lt;th style="text-align:left">Required Skills&lt;/th>
+&lt;th style="text-align:left">Responsible Organization&lt;/th>
+&lt;th style="text-align:left">Person in Charge&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td style="text-align:left">Open Source Program Manager&lt;/td>
+&lt;td style="text-align:left">Responsible for overseeing the company&amp;rsquo;s open source program.&lt;/td>
+&lt;td style="text-align:left">1. Understanding of software development process&lt;br>2. Understanding of intellectual property related to open source licenses such as copyright and patents&lt;br>3. Expert knowledge of open source compliance&lt;br>4. Open source development experience&lt;br>5. Communication skills&lt;/td>
+&lt;td style="text-align:left">CTO&lt;/td>
+&lt;td style="text-align:left">OOO&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td style="text-align:left">Legal Officer&lt;/td>
+&lt;td style="text-align:left">Interprets the obligations of open source licenses and provides advice to mitigate legal risks that may arise in utilizing open source to fulfill these obligations.&lt;/td>
+&lt;td style="text-align:left">1. Basic knowledge of the open source ecosystem&lt;br>2. Expert knowledge of software copyright&lt;br>3. Expert knowledge of open source licenses&lt;/td>
+&lt;td style="text-align:left">Legal Team&lt;/td>
+&lt;td style="text-align:left">OOO&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td style="text-align:left">IT Officer&lt;/td>
+&lt;td style="text-align:left">Operates and automates open source analysis tools to build a system that allows open source analysis to be performed smoothly for all software for distribution.&lt;/td>
+&lt;td style="text-align:left">1. Basic knowledge of open source compliance process&lt;br>2. Understanding of open source analysis tools&lt;br>3. Expert knowledge of IT infrastructure&lt;/td>
+&lt;td style="text-align:left">IT Infrastructure Team&lt;/td>
+&lt;td style="text-align:left">OOO&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td style="text-align:left">Security Officer&lt;/td>
+&lt;td style="text-align:left">Operates open source vulnerability analysis tools to build a system that allows vulnerability analysis to be performed for all software for distribution and ensures that discovered vulnerabilities are remedied according to standards.&lt;/td>
+&lt;td style="text-align:left">1. Broad understanding of DevSecOps&lt;br>2. Understanding of open source vulnerability analysis tools&lt;br>3. Expert knowledge of open source vulnerabilities&lt;br>4. Communication skills&lt;/td>
+&lt;td style="text-align:left">Security Team&lt;/td>
+&lt;td style="text-align:left">OOO&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td style="text-align:left">Development Culture Officer&lt;/td>
+&lt;td style="text-align:left">Supports internal developers to actively utilize open source and participate in internal and external communities to acquire advanced development culture.&lt;/td>
+&lt;td style="text-align:left">1. Understanding of software development process&lt;br>2. Basic knowledge of open source compliance&lt;br>3. Understanding of open source policy&lt;/td>
+&lt;td style="text-align:left">DR&lt;/td>
+&lt;td style="text-align:left">OOO&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6&lt;/td>
+&lt;td style="text-align:left">Business Department&lt;/td>
+&lt;td style="text-align:left">Software development/distribution organizations comply with open source policy and process for proper open source utilization.&lt;/td>
+&lt;td style="text-align:left">1. Understanding of software development process&lt;br>2. Basic knowledge of open source compliance&lt;br>3. Understanding of open source policy&lt;br>4. Basic knowledge of open source licenses&lt;/td>
+&lt;td style="text-align:left">Development Team&lt;/td>
+&lt;td style="text-align:left">All members&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Guide: Open Source Process</title><link>https://openChain-project.github.io/OpenChain-KWG/en/guide/templates/2-process-template/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/en/guide/templates/2-process-template/</guid><description>
+&lt;p>The OO Company (hereinafter referred to as the &amp;ldquo;Company&amp;rdquo;) actively utilizes open source software in the development of products and services that include software. The Company must perform appropriate activities to detect open source security vulnerabilities and follow-up measures, and to comply with the obligations imposed by open source licenses when distributing software, in order to minimize open source risks. We follow the open source process to ensure these activities.&lt;/p>
+&lt;h2 id="1-open-source-process">1. Open Source Process&lt;/h2>
+&lt;p>The open source process defines the procedures that the Company must perform to comply with open source license obligations and resolve open source security vulnerabilities according to each development stage for developing and distributing software products and services. All members involved in the development/distribution of software products comply with the following 11 steps of the open source process.&lt;/p>
+&lt;p>&lt;img src="process.png" alt="process">&lt;/p>
+&lt;p>The Company strives to provide safe and stable software products and services to customers by minimizing open source risks through the open source process.&lt;/p>
+&lt;p>The open source program manager should review the process at least once a year to spread internal best practices and improve areas that are lacking.&lt;/p>
+&lt;h3 id="1-identification-of-open-source">(1) Identification of Open Source&lt;/h3>
+&lt;p>The business department complies with the following matters at the software design stage.&lt;/p>
+&lt;ul>
+&lt;li>Identify the foreseeable open source usage status and check the license when designing the software.&lt;/li>
+&lt;li>Check the obligations of each open source license. The obligations of each license can be checked in the Company&amp;rsquo;s open source license guide: &lt;a href="https://sktelecom.github.io/guide/use/obligation/">https://sktelecom.github.io/guide/use/obligation/&lt;/a>&lt;/li>
+&lt;li>Design the software considering the source code disclosure range of each open source license.&lt;/li>
+&lt;/ul>
+&lt;p>The open source program manager creates and publishes a guide on the obligations, restrictions, and rights of major open source licenses so that the business departments of the entire company can refer to it. This guide should include the following use cases so that general open source license use cases can be managed.&lt;/p>
+&lt;ul>
+&lt;li>Distribution in binary form&lt;/li>
+&lt;li>Distribution in source form&lt;/li>
+&lt;li>Integration with other open sources that trigger additional license obligations&lt;/li>
+&lt;li>Inclusion of modified open source&lt;/li>
+&lt;/ul>
+&lt;p>The business department marks copyright and licenses in the source code according to the company&amp;rsquo;s rules. The company&amp;rsquo;s rules for marking copyright and licenses in the source code can be checked on the following page. (insert_link)&lt;/p>
+&lt;p>When the business department reviews the introduction of new open source, it first identifies the license. Check the license obligations, restrictions, and rights according to the company&amp;rsquo;s open source license guide. If it is a license not explained in the company&amp;rsquo;s open source license guide, ask the open source program manager about the possibility of introduction and precautions. Create a Jira Ticket for inquiries.&lt;/p>
+&lt;p>The open source program manager analyzes the obligations of the open source license and guides the software development organization.&lt;/p>
+&lt;ul>
+&lt;li>If there is any doubt, request advice from the legal manager and provide clear guidance.&lt;/li>
+&lt;li>The newly analyzed license information is reflected in the company-wide license guide.&lt;/li>
+&lt;/ul>
+&lt;p>The security manager provides a guide for the company&amp;rsquo;s security assurance.&lt;/p>
+&lt;h3 id="2-auditing-source-code">(2) Auditing Source Code&lt;/h3>
+&lt;p>The business department requests an open source inspection according to the guidance of the IT manager and provides the source code.&lt;/p>
+&lt;p>The IT manager uses an open source analysis tool to inspect the open source and create an SBOM (Software Bill of Materials).&lt;/p>
+&lt;p>The open source program manager reviews whether the open source license obligations can be complied with and whether there is a conflict between the open source licenses, and if there is an issue, requests the business department to resolve it. Issue matters are created as Jira Tickets and assigned to the business department.&lt;/p>
+&lt;p>The security manager reviews the known vulnerabilities detected and provides a response guide to the business department according to the pre-defined Risk classification criteria. Risk is classified by CVSS (Common Vulnerability Scoring System) Score, and Critical Risk is advised to establish a plan that can be dealt with within 1 week.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Risk&lt;/th>
+&lt;th style="text-align:center">CVSS 2.0&lt;/th>
+&lt;th style="text-align:center">CVSS 3.0&lt;/th>
+&lt;th style="text-align:center">Recommended action schedule&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Low&lt;/td>
+&lt;td style="text-align:center">0.0 - 3.9&lt;/td>
+&lt;td style="text-align:center">0.0 - 3.9&lt;/td>
+&lt;td style="text-align:center">-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Medium&lt;/td>
+&lt;td style="text-align:center">4.0 - 6.9&lt;/td>
+&lt;td style="text-align:center">4.0 - 6.9&lt;/td>
+&lt;td style="text-align:center">-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>High&lt;/td>
+&lt;td style="text-align:center">7.0 - 10.0&lt;/td>
+&lt;td style="text-align:center">7.0 - 8.9&lt;/td>
+&lt;td style="text-align:center">Within 4 weeks&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Critical&lt;/td>
+&lt;td style="text-align:center">-&lt;/td>
+&lt;td style="text-align:center">9.0 - 10.0&lt;/td>
+&lt;td style="text-align:center">Within 1 week&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="3-resolving-issues">(3) Resolving Issues&lt;/h3>
+&lt;p>The business department resolves all problems found in the source code inspection stage.&lt;/p>
+&lt;p>Remove the open source that has become an issue or replace it with open source under a different license. In the case of security vulnerability issues, measures such as replacing with a version in which known vulnerabilities have been fixed are taken.&lt;/p>
+&lt;p>When the business department resolves all discovered issues, it resolves the Jira Ticket issue and requests a re-review.&lt;/p>
+&lt;h3 id="4-reviews">(4) Reviews&lt;/h3>
+&lt;p>The open source program manager reviews whether all issues have been properly supplemented. If necessary, the source code inspection is re-performed using an open source analysis tool.&lt;/p>
+&lt;p>The security manager reviews whether all serious vulnerabilities have been resolved. If there are vulnerabilities that are difficult to resolve, the possibility of approval is reviewed considering the business form and service exposure status.&lt;/p>
+&lt;h3 id="5-approval">(5) Approval&lt;/h3>
+&lt;p>The open source program manager finally approves or rejects whether the open source compliance procedure has been properly performed. If rejected, it proposes a reason and a correction method to the business department.&lt;/p>
+&lt;h3 id="6-registration">(6) Registration&lt;/h3>
+&lt;p>The open source program manager finalizes the BOM to track the open source usage list for each version of the software.&lt;/p>
+&lt;p>The IT manager registers the finalized BOM in the system. The BOM includes a list of open sources included in the software for distribution and the following information.&lt;/p>
+&lt;ul>
+&lt;li>Product (or service) name and version of the software for distribution&lt;/li>
+&lt;li>Open source list
+&lt;ul>
+&lt;li>Open source name / version&lt;/li>
+&lt;li>Open source license&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>The open source program manager finalizes the BOM to track the open source usage list for each version of the software.&lt;/p>
+&lt;h3 id="7-notices">(7) Notices&lt;/h3>
+&lt;p>The open source program manager creates an open source notice to comply with the notice obligation. The open source notice includes the following contents.&lt;/p>
+&lt;ul>
+&lt;li>Open source contact that can be contacted for open source related inquiries&lt;/li>
+&lt;li>Notice content for each open source
+&lt;ul>
+&lt;li>Copyright&lt;/li>
+&lt;li>Open source license name&lt;/li>
+&lt;li>Copy of open source license&lt;/li>
+&lt;li>(If applicable) Written agreement to obtain a copy of the source code&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>The open source program manager creates an open source notice and delivers it to the business department. At this time, if the source code needs to be disclosed, it guides the business department on how to collect the source code to be disclosed.&lt;/p>
+&lt;p>The business department includes the open source notice when distributing the product. If it is a product with a screen, it takes measures so that the user can check it through the menu. (Example: App &amp;gt; Menu &amp;gt; Settings &amp;gt; Copyright Information &amp;gt; Open Source License)&lt;/p>
+&lt;p>The business department collects the source code to be disclosed by checking the source code disclosure range when using open source under a license that requires source code disclosure such as GPL, LGPL, etc.&lt;/p>
+&lt;ul>
+&lt;li>The source code collected to comply with the obligations of licenses such as GPL, LGPL, etc. must match the source code that constitutes the binary loaded on the product. In other words, the collected source code should be the same as the binary loaded on the product when built.&lt;/li>
+&lt;/ul>
+&lt;h3 id="8-pre-distribution-verifications">(8) Pre-Distribution Verifications&lt;/h3>
+&lt;p>The business department submits the following deliverables to demonstrate that open source compliance activities have been appropriately performed:&lt;/p>
+&lt;ol>
+&lt;li>The final open source notice included in the product&lt;/li>
+&lt;li>Materials confirming the inclusion of the open source notice in the product (e.g., a screenshot showing the open source notice)&lt;/li>
+&lt;li>(If applicable) Source code to be disclosed (submitted as a single compressed file)&lt;/li>
+&lt;/ol>
+&lt;p>The open source program manager reviews the materials submitted by the business department to check for any issues.&lt;/p>
+&lt;h3 id="9-distribution">(9) Distribution&lt;/h3>
+&lt;p>The open source program manager submits the compliance deliverables provided by the business department to the IT manager.&lt;/p>
+&lt;p>The IT manager registers the compliance deliverables on the company&amp;rsquo;s open source distribution site.&lt;/p>
+&lt;h3 id="10-final-verifications">(10) Final Verifications&lt;/h3>
+&lt;p>The open source program manager comprehensively verifies whether the compliance deliverables have been properly registered on the company&amp;rsquo;s open source portal and whether they can be downloaded without issues from outside.&lt;/p>
+&lt;h3 id="11-monitoring">(11) Monitoring&lt;/h3>
+&lt;p>The open source program manager periodically checks for products with inadequate generation of open source compliance deliverables. They also operate a process to respond quickly to external inquiries. The detailed procedure for responding to external inquiries follows [2. External Inquiry Response Process].&lt;/p>
+&lt;p>The security manager operates a process to monitor and respond to newly known vulnerabilities. The detailed procedure for responding to new security vulnerabilities follows [3. New Security Vulnerability Management Process].&lt;/p>
+&lt;h2 id="2-new-security-vulnerability-management-process">2. New Security Vulnerability Management Process&lt;/h2>
+&lt;p>We adhere to the following process to take appropriate action according to the risk when a new security vulnerability is reported after a product/service has been launched in the market.&lt;/p>
+&lt;p>&lt;img src="securityprocess.png" alt="">&lt;/p>
+&lt;h3 id="1-monitoring">(1) Monitoring&lt;/h3>
+&lt;p>The IT manager operates a system to monitor new security vulnerabilities. This system performs the following functions:&lt;/p>
+&lt;ul>
+&lt;li>It periodically collects information about newly disclosed security vulnerabilities.&lt;/li>
+&lt;li>If an open source with a newly known vulnerability is used in a product/service that has already been released, it sends a notification to the business department manager responsible for that product/service. From the notification to the review, action, and resolution, everything is documented using the Jira Issue Tracker.&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-initial-response">(2) Initial Response&lt;/h3>
+&lt;p>The security manager provides a response guide to the business department according to the predefined risk classification criteria. The risk is classified by the CVSS (Common Vulnerability Scoring System) score, and a plan that can be implemented within one week is recommended for Critical Risk.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Risk&lt;/th>
+&lt;th style="text-align:center">CVSS 2.0&lt;/th>
+&lt;th style="text-align:center">CVSS 3.0&lt;/th>
+&lt;th style="text-align:center">Recommended Action Schedule&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Low&lt;/td>
+&lt;td style="text-align:center">0.0 - 3.9&lt;/td>
+&lt;td style="text-align:center">0.0 - 3.9&lt;/td>
+&lt;td style="text-align:center">-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Medium&lt;/td>
+&lt;td style="text-align:center">4.0 - 6.9&lt;/td>
+&lt;td style="text-align:center">4.0 - 6.9&lt;/td>
+&lt;td style="text-align:center">-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>High&lt;/td>
+&lt;td style="text-align:center">7.0 - 10.0&lt;/td>
+&lt;td style="text-align:center">7.0 - 8.9&lt;/td>
+&lt;td style="text-align:center">Within 4 weeks&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Critical&lt;/td>
+&lt;td style="text-align:center">-&lt;/td>
+&lt;td style="text-align:center">9.0 - 10.0&lt;/td>
+&lt;td style="text-align:center">Within 1 week&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>If a product/service that has already been released has a new security vulnerability, the business department establishes an action plan according to the response guide provided by the security manager.&lt;/p>
+&lt;p>If there are customers who need assurance, the business department notifies them of the confirmed known vulnerabilities by email or other means as necessary, depending on the risk.&lt;/p>
+&lt;h3 id="3-problem-resolution">(3) Problem Resolution&lt;/h3>
+&lt;p>The business department resolves the security vulnerability issue by deleting the problematic open source or replacing it with a patched version, according to the established action plan. Once all issues are resolved, a review is requested.&lt;/p>
+&lt;h3 id="4-review">(4) Review&lt;/h3>
+&lt;p>The IT manager uses open source analysis tools to confirm whether the problem has been appropriately resolved.&lt;/p>
+&lt;h3 id="5-approval-1">(5) Approval&lt;/h3>
+&lt;p>The security manager reviews whether all serious vulnerabilities have been resolved. If there are vulnerabilities that are difficult to resolve, the approval is reviewed considering the business form and service exposure status.&lt;/p>
+&lt;h3 id="6-registration-1">(6) Registration&lt;/h3>
+&lt;p>The IT manager registers the SBOM, which has resolved the open source security vulnerability, in the system.&lt;/p>
+&lt;h3 id="7-notification">(7) Notification&lt;/h3>
+&lt;p>The open source program manager generates an open source notice based on the SBOM that has resolved the open source security vulnerability and delivers it to the business department.&lt;/p>
+&lt;p>The business department replaces the open source notice included in the product distribution.&lt;/p>
+&lt;p>The IT manager registers the modified open source notice on the company&amp;rsquo;s open source distribution site.&lt;/p>
+&lt;h3 id="8-distribution">(8) Distribution&lt;/h3>
+&lt;p>The business department redistributes the software version that has resolved the open source security vulnerability issue.&lt;/p>
+&lt;p>The security manager identifies whether there is risk information that needs to be disclosed to third parties, and if there is, it is delivered to the IT manager.&lt;/p>
+&lt;p>The IT manager registers the identified risk information on the open source website so that third parties can check it.&lt;/p>
+&lt;h2 id="3-external-inquiry-response-process">3. External Inquiry Response Process&lt;/h2>
+&lt;p>If you respond quickly and accurately to open source compliance inquiries from outside, you can greatly reduce the risk of proceeding to litigation. To this end, companies comply with the following process to respond to external open source compliance inquiries.&lt;/p>
+&lt;p>&lt;img src="general-inquiry-process.png" alt="general-inquiry-process">&lt;/p>
+&lt;h3 id="1-acknowledge">(1) Acknowledge&lt;/h3>
+&lt;p>The open source program manager immediately notifies the requester that the inquiry has been received. At this time, the expected date of action is also notified. If the inquiry is unclear, additional explanation is requested to accurately understand the requester&amp;rsquo;s intention.&lt;/p>
+&lt;p>The main contents of the inquiries and requests that require a response are as follows:&lt;/p>
+&lt;ul>
+&lt;li>Inquiry about whether open source has been used in a specific product or service&lt;/li>
+&lt;li>Request for source code provision under the GPL, LGPL license mentioned in the written agreement&lt;/li>
+&lt;li>Explanation and source code disclosure request for open source found in the product but not specified in the open source notice&lt;/li>
+&lt;li>Request for provision of missing files and build methods in the source code disclosed due to obligations such as GPL, LGPL&lt;/li>
+&lt;li>Request for copyright notice&lt;/li>
+&lt;/ul>
+&lt;p>The open source program manager creates a Jira Issue for the received request and records all the response situations in detail.&lt;/p>
+&lt;h3 id="2-inform">(2) Inform&lt;/h3>
+&lt;p>The open source program manager informs the requester that they are conducting open source compliance faithfully and that they are investigating the requester&amp;rsquo;s inquiry. It is good to notify whenever the internal investigation progress is updated.&lt;/p>
+&lt;h3 id="3-investigate">(3) Investigate&lt;/h3>
+&lt;p>The open source program manager conducts an internal investigation on the request. They check whether the compliance process has been appropriately performed for the version of the product in question through the BOM and documented review history. If necessary, they request advice from the legal manager.&lt;/p>
+&lt;p>If it is a matter that needs to be confirmed by a specific business department, the open source program manager requests an investigation from the business department. The business department that received the investigation request immediately checks whether there is a problem with the compliance deliverables and reports the results to the open source program manager.&lt;/p>
+&lt;h3 id="4-report">(4) Report&lt;/h3>
+&lt;p>The open source compliance manager completes the internal investigation within the scheduled date of action and notifies the requester of the result.&lt;/p>
+&lt;ul>
+&lt;li>If the requester&amp;rsquo;s inquiry was a misdirected point due to misunderstanding, they notify the requester and end the process without any additional action.&lt;/li>
+&lt;li>If there is a problem, they notify the requester of the exact method and timing to fulfill the obligations of the relevant open source license.&lt;/li>
+&lt;/ul>
+&lt;h3 id="5-rectify--notify">(5) Rectify / Notify&lt;/h3>
+&lt;p>If an actual compliance issue is found in the internal investigation, the relevant business department performs all procedures necessary to resolve the compliance issue.&lt;/p>
+&lt;h3 id="6-report">(6) Report&lt;/h3>
+&lt;p>After resolving the issue, they immediately notify the requester and provide the best way to confirm that the issue has been resolved.&lt;/p>
+&lt;h3 id="7-improve">(7) Improve&lt;/h3>
+&lt;p>In case of a compliance issue, the case is reviewed through the OSRB meeting, the circumstances of the occurrence of the problem are identified, and the process is improved so that the problem does not recur.&lt;/p></description></item></channel></rss>

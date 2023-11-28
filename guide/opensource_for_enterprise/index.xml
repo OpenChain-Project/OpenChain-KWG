@@ -480,7 +480,7 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>다음 페이지에서는 역할, 책임, 필요 역량 및 담당자 지정 등을 문서화한 샘플을 참고할 수 있습니다. &lt;a href="../appendix/7-policy-template/#appendix-1-%EB%8B%B4%EB%8B%B9%EC%9E%90-%ED%98%84%ED%99%A9">[부록1]오픈소스 정책(샘플) - Appendix 1. 담당자 현황&lt;/a>&lt;/p>
+&lt;p>다음 페이지에서는 역할, 책임, 필요 역량 및 담당자 지정 등을 문서화한 샘플을 참고할 수 있습니다. &lt;a href="../../templates/1-policy/#appendix-1-%EB%8B%B4%EB%8B%B9%EC%9E%90-%ED%98%84%ED%99%A9">[부록1]오픈소스 정책(샘플) - Appendix 1. 담당자 현황&lt;/a>&lt;/p>
 &lt;p>SK텔레콤은 &lt;a href="https://sktelecom.github.io/about/osrb/">OSRB&lt;/a>를 구성하여 기업 내 오픈소스 정책과 프로세스를 만들고, 이슈 발생 시 협업하여 대응 방안을 마련하고 있습니다.&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 471px">
 &lt;img class="card-img-top" src="https://openChain-project.github.io/OpenChain-KWG/OpenChain-KWG/guide/opensource_for_enterprise/1-teams/sktosrb_hudb2d30eec1b89635a12caf266f1f24ba_65832_600x300_fit_catmullrom_2.png" width="461" height="300">
@@ -491,12 +491,12 @@
 &lt;/div>
 &lt;/div>
 &lt;h2 id="summary">Summary&lt;/h2>
-&lt;p>역할, 책임, 필요 역량 및 담당자 지정을 문서화한 샘플은 [부록1] 오픈소스 정책에서 확인할 수 있습니다. : &lt;a href="../appendix/7-policy-template/#appendix-1-%EB%8B%B4%EB%8B%B9%EC%9E%90-%ED%98%84%ED%99%A9">Appendix 1. 담당자 현황&lt;/a>&lt;/p>
+&lt;p>역할, 책임, 필요 역량 및 담당자 지정을 문서화한 샘플은 오픈소스 정책 템플릿 문서에서 확인할 수 있습니다. : &lt;a href="../../templates/1-policy/#appendix-1-%EB%8B%B4%EB%8B%B9%EC%9E%90-%ED%98%84%ED%99%A9">Appendix 1. 담당자 현황&lt;/a>&lt;/p>
 &lt;p>기업은 이를 참고하여 기업의 상황에 맞게 오픈소스 관리 조직을 구성할 수 있습니다.&lt;/p>
 &lt;p>이렇게 오픈소스 프로그램 오피스 조직을 지정하고 문서화하면, ISO 표준 규격 중 아래의 붉은색으로 표시된 요구사항을 충족하게 됩니다.&lt;/p>
 &lt;p>&lt;img src="./spec_number_01.png" alt="">&lt;/p>
 &lt;p>사실, 문서화하는 것보다 실제 업무를 충실히 수행할 담당자를 지정하고, 담당자가 역량을 확보할 수 있도록 지원하는 것이 더 중요합니다.&lt;/p>
-&lt;p>한국저작권위원회의 &lt;a href="https://www.olis.or.kr/consulting/openswStudyDetail.do?seq=463">오픈소스 라이선스 전문 교육&lt;/a>이나 &lt;a href="https://www.oss.kr/oss_data/show/448d2e96-6819-45f4-b114-73cd41b3e9d3">NIPA의 공개소프트웨어 매니지먼트 아카데미&lt;/a>에 참여하여 체계적인 교육을 수강하는 것도 매우 도움이 됩니다.&lt;/p></description></item><item><title>Guide: 2. 정책</title><link>https://openChain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/2-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/2-policy/</guid><description>
+&lt;p>한국저작권위원회의 &lt;a href="https://www.olis.or.kr/consulting/openswStudy.do">오픈소스 라이선스 전문 교육&lt;/a>이나 &lt;a href="https://www.oss.kr/oss_data/show/448d2e96-6819-45f4-b114-73cd41b3e9d3">NIPA의 공개소프트웨어 매니지먼트 아카데미&lt;/a>에 참여하여 체계적인 교육을 수강하는 것도 매우 도움이 됩니다.&lt;/p></description></item><item><title>Guide: 2. 정책</title><link>https://openChain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/2-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/2-policy/</guid><description>
 &lt;h2 id="1-오픈소스-정책-문서화">1. 오픈소스 정책 문서화&lt;/h2>
 &lt;p>기업은 소프트웨어 개발, 서비스, 배포에 관여하는 조직이 올바르게 오픈소스를 활용하기 위한 원칙으로 구성된 오픈소스 정책을 수립하여 문서화하고 이를 조직 내 전파해야 합니다.&lt;/p>
 &lt;p>이를 위해 ISO 표준은 공통적으로 다음과 같이 문서화된 오픈소스 (보안 보증) 정책을 요구합니다.&lt;/p>
@@ -530,9 +530,9 @@
 &lt;li>오픈소스 라이선스 컴플라이언스 이슈 대응&lt;/li>
 &lt;li>오픈소스 보안 취약점 대응&lt;/li>
 &lt;/ol>
-&lt;p>[부록1] 오픈소스 정책 (샘플)의 &lt;a href="../appendix/2-process-template/#6-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%82%AC%EC%9A%A9">6. 오픈소스 사용&lt;/a>에서 이를 문서화한 원칙을 살펴보실 수 있습니다.&lt;/p>
+&lt;p>[부록1] 오픈소스 정책 template의 &lt;a href="../../templates/1-policy/#6-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%82%AC%EC%9A%A9">6. 오픈소스 사용&lt;/a>에서 이를 문서화한 원칙을 살펴보실 수 있습니다.&lt;/p>
 &lt;pre>&lt;code>
-6. 오픈소스 사용
+1. 오픈소스 사용
 오픈소스를 사용하여 제품 및 서비스를 개발하고 배포하려면 각 오픈소스 라이선스가 요구하는 의무 사항을 준수해야 합니다. 이를 위한 활동을 오픈소스 컴플라이언스라고 합니다.
 올바른 오픈소스 컴플라이언스 활동을 위해 소프트웨어 개발/배포 조직은 다음 사항을 준수하고 모든 과정은 Jira Tracker에 기록하여 보존합니다.
 (1) 오픈소스 식별 및 라이선스 의무 사항 검토
@@ -758,13 +758,21 @@
 &lt;li>3.5.1.1 - A documented open source contribution policy&lt;br>&lt;code>문서화된 오픈소스 기여 정책&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;/div>
-&lt;p>이러한 오픈소스 기여에 대한 정책은 [부록1] 오픈소스 정책 샘플 &lt;a href="../appendix/2-process-template/#7-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B8%B0%EC%97%AC">7. 오픈소스 기여&lt;/a>에서 확인할 수 있습니다.&lt;/p>
-&lt;p>&lt;img src="samplecontribution.png" alt="">&lt;/p>
-&lt;center>&lt;i>&lt;샘플> 오픈소스 기여 정책&lt;/i>&lt;/center>&lt;br>
-&lt;p>기업은 이를 참고하여 기업의 상황에 맞는 오픈소스 기여에 대한 원칙을 오픈소스 정책에 포함해야 합니다.&lt;/p>
+&lt;p>이러한 오픈소스 기여에 대한 정책은 [부록1] 오픈소스 정책 샘플 &lt;a href="../../templates/1-policy/#7-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B8%B0%EC%97%AC">7. 오픈소스 기여&lt;/a>에서 확인할 수 있습니다.&lt;/p>
+&lt;pre>&lt;code>7. 오픈소스 기여
+회사는 오픈소스에서의 비즈니스 가치 창출을 위해 외부 오픈소스 프로젝트로의 참여와 기여를 권장합니다. 그러나 이 과정에서 의도하지 않은 회사의 지식 재산 노출 혹은 제 3자의 권리 침해에 주의해야 합니다. 이를 위해 회사의 구성원이 외부 오픈소스 프로젝트로의 기여를 위해서는 다음 사항을 준수해야 합니다.
+(1) 리뷰 요청 및 승인
+오픈소스 기여는 저작권 관점에서 저작자가 저작물을 수정/사용/배포할 수 있는 권한을 오픈소스 프로젝트에 부여하는 것입니다. 때에 따라서는 오픈소스 프로젝트에 여러분의 저작권을 양도해야 하기도 합니다. 그런데 일반적으로 고용 기간에 만든 저작물의 저작권은 고용주가 소유합니다. 즉, 회사 구성원이 만든 저작물은 회사가 소유합니다. 구성원이 임의로 저작물을 오픈소스에 기여하는 행위는 불필요한 저작권 침해 이슈를 유발할 수 있습니다.
+따라서, 기여하고자 하는 오픈소스 프로젝트가 있다면 오픈소스 기여 프로세스에 따라 최초 기여하기 전에 리뷰 요청 및 승인 절차를 준수합니다.
+단, 다음과 같이 단순한 내용일 경우, 저작권 침해 리스크가 크지 않기 때문에 리뷰 절차 없이 구성원의 판단에 따라 기여할 수 있습니다.
+- 10 라인 이하의 작은 코드 조각
+- Stack Overflow에서의 문의 / 답변
+- GitHub에서의 관리 활동 : Issue 생성, Pull Request Review / Approve 등
+...
+&lt;/code>&lt;/pre>&lt;p>기업은 이를 참고하여 기업의 상황에 맞는 오픈소스 기여에 대한 원칙을 오픈소스 정책에 포함해야 합니다.&lt;/p>
 &lt;h2 id="summary">Summary&lt;/h2>
 &lt;p>오픈소스 정책을 문서화하는 것은 효과적인 오픈소스 관리를 위해 가장 중요한 과정입니다.&lt;/p>
-&lt;p>다음 페이지에서 위에서 언급한 ISO/IEC 5230과 ISO/IEC 18974의 요구사항을 충족하는 샘플 오픈소스 정책 문서를 제공합니다. : &lt;a href="../7-policy-template">[부록1] 오픈소스 정책 (샘플)&lt;/a>&lt;/p>
+&lt;p>다음 페이지에서 위에서 언급한 ISO/IEC 5230과 ISO/IEC 18974의 요구사항을 충족하는 샘플 오픈소스 정책 문서를 제공합니다. : &lt;a href="../../templates/1-policy">[부록1] 오픈소스 정책 (template)&lt;/a>&lt;/p>
 &lt;p>위의 내용을 참고하여 각 요구사항을 회사의 상황에 맞게 적절한 원칙을 수립하는 것이 필요합니다. 또한 문서로만 그치지 않고, 실행 가능한 절차까지 고려해야 합니다. 말뿐인 정책은 소용이 없습니다.&lt;/p>
 &lt;p>이렇게 오픈소스 정책을 수립하고 문서화하면, ISO 표준 규격 중 아래의 주황색으로 표시된 요구사항을 충족할 수 있습니다.&lt;/p>
 &lt;p>&lt;img src="./spec_number_02.png" alt="">&lt;/p></description></item><item><title>Guide: 3. 프로세스</title><link>https://openChain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/3-process/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/3-process/</guid><description>
