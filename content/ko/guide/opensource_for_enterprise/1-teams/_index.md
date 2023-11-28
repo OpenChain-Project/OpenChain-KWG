@@ -149,7 +149,7 @@ ISO 표준은 공통적으로 다음과 같이 각 역할을 위해 필요한 �
 | 6 | 사업 부서 | 개발팀 | 전원 | 
 
 
-다음 페이지에서는 역할, 책임, 필요 역량 및 담당자 지정 등을 문서화한 샘플을 참고할 수 있습니다. [[부록1]오픈소스 정책(샘플) - Appendix 1. 담당자 현황](../appendix/7-policy-template/#appendix-1-담당자-현황)
+다음 페이지에서는 역할, 책임, 필요 역량 및 담당자 지정 등을 문서화한 샘플을 참고할 수 있습니다. [[부록1]오픈소스 정책(샘플) - Appendix 1. 담당자 현황](../../templates/1-policy/#appendix-1-담당자-현황)
 
 
 SK텔레콤은 [OSRB](https://sktelecom.github.io/about/osrb/)를 구성하여 기업 내 오픈소스 정책과 프로세스를 만들고, 이슈 발생 시 협업하여 대응 방안을 마련하고 있습니다. 
@@ -161,7 +161,7 @@ SK텔레콤은 [OSRB](https://sktelecom.github.io/about/osrb/)를 구성하여 �
 
 ## Summary
 
-역할, 책임, 필요 역량 및 담당자 지정을 문서화한 샘플은 [부록1] 오픈소스 정책에서 확인할 수 있습니다. : [Appendix 1. 담당자 현황](../appendix/7-policy-template/#appendix-1-담당자-현황)
+역할, 책임, 필요 역량 및 담당자 지정을 문서화한 샘플은 오픈소스 정책 템플릿 문서에서 확인할 수 있습니다. : [Appendix 1. 담당자 현황](../../templates/1-policy/#appendix-1-담당자-현황)
 
 기업은 이를 참고하여 기업의 상황에 맞게 오픈소스 관리 조직을 구성할 수 있습니다. 
 
@@ -171,4 +171,4 @@ SK텔레콤은 [OSRB](https://sktelecom.github.io/about/osrb/)를 구성하여 �
 
 사실, 문서화하는 것보다 실제 업무를 충실히 수행할 담당자를 지정하고, 담당자가 역량을 확보할 수 있도록 지원하는 것이 더 중요합니다.
 
-한국저작권위원회의 [오픈소스 라이선스 전문 교육](https://www.olis.or.kr/consulting/openswStudyDetail.do?seq=463)이나 [NIPA의 공개소프트웨어 매니지먼트 아카데미](https://www.oss.kr/oss_data/show/448d2e96-6819-45f4-b114-73cd41b3e9d3)에 참여하여 체계적인 교육을 수강하는 것도 매우 도움이 됩니다.
+한국저작권위원회의 [오픈소스 라이선스 전문 교육](https://www.olis.or.kr/consulting/openswStudy.do)이나 [NIPA의 공개소프트웨어 매니지먼트 아카데미](https://www.oss.kr/oss_data/show/448d2e96-6819-45f4-b114-73cd41b3e9d3)에 참여하여 체계적인 교육을 수강하는 것도 매우 도움이 됩니다.
