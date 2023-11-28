@@ -1362,6 +1362,22 @@ OSRB는 매년 정기적으로 검토하여 정책과 프로세스를 개선합�
 &lt;p>여기까지 교육, 평가와 가이드 제공 환경까지 구축하게 되면 ISO 표준 규격 중 아래의 하늘색으로 표시된 요구사항을 충족할 수 있다.&lt;/p>
 &lt;p>&lt;img src="trainingno.png" alt="">&lt;/p></description></item><item><title>Guide: 6. 준수</title><link>https://openChain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/6-conforming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/6-conforming/</guid><description>
 &lt;p>ISO/IEC 5230 3.6, ISO/IEC 18974 3.4를 제외한 모든 요구사항을 준수하는 오픈소스 프로그램(오픈소스 정책 / 프로세스 / 도구 / 조직)을 구축한 기업은 다음 두가지를 문서화하여 명시할 수 있습니다.&lt;/p>
+&lt;p>이를 위해 ISO 표준은 공통적으로 다음과 같이 오픈소스 정책을 알리기 위한 문서화된 절차를 요구합니다.&lt;/p>
+&lt;div class="alert alert-success" role="alert">
+&lt;h4 class="alert-heading">ISO/IEC 5230 - License Compliance&lt;/h4>
+&lt;ul>
+&lt;li>3.6.1.1 A document affirming the program specified in §3.1.4 satisfies all the requirements of this document.&lt;br>&lt;code>3.1.4조에서 명시한 프로그램이 이 규격의 모든 요구사항을 충족함을 확인하는 문서&lt;/code>&lt;/li>
+&lt;li>3.6.2.1 A document affirming the program meets all the requirements of this document, within the past 18 months of obtaining conformance validation.&lt;br>&lt;code>프로그램이 적합성 인증을 획득한 후 지난 18개월 동안 이 규격 버전(v2.1)의 모든 요구사항을 충족하고 있음을 확인하는 문서&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">ISO/IEC 18974 - Security Assurance&lt;/h4>
+&lt;ul>
+&lt;li>3.4.1.1: Documented Evidence affirming the Program specified in §3.1.4 satisfies all the requirements of this document.&lt;br>&lt;code>§3.1.4에 명시된 프로그램이 이 문서의 모든 요구 사항을 충족함을 확인하는 문서화된 증거.&lt;/code>&lt;/li>
+&lt;li>3.4.2.1: A document affirming the Program meets all the requirements of this specification, within the past 18 months of obtaining conformance validation.&lt;br>&lt;code>프로그램이 적합성 인증을 획득한 후 지난 18개월 동안 이 규격의 모든 요구사항을 충족하고 있음을 확인하는 문서&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;p>따라서, 다음의 내용을 문서화할 수 있습니다.&lt;/p>
 &lt;ol>
 &lt;li>기업의 오픈소스 프로그램이 ISO/IEC 5230, ISO/IEC 18974 의 모든 요구사항을 충족함&lt;/li>
 &lt;li>적합성 인증을 획득한 후 18개월 이상 ISO/IEC 5230, ISO/IEC 18974의 모든 요구 사항을 충족하는 상태 유지를 보장함&lt;/li>
