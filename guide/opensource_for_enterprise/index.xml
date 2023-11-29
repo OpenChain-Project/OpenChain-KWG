@@ -1057,7 +1057,7 @@ IT 담당은 신별된 위험에 대한 정보를 오픈소스 웹사이트에 �
 &lt;/ul>
 &lt;/div>
 &lt;p>아래 그림은 외부 문의 대응을 위해 기업이 갖춰야할 프로세스 샘플입니다.&lt;/p>
-&lt;p>&lt;img src="access.png" alt="">&lt;/p>
+&lt;p>&lt;img src="general-inquiry-process.png" alt="">&lt;/p>
 &lt;center>&lt;i>외부 문의 대응 프로세스 (샘플)&lt;/i>&lt;/center>&lt;br>
 &lt;pre>&lt;code>
 외부로부터의 오픈소스 컴플라이언스 문의에 신속하고 정확하게 대응한다면 소송까지 진행되는 위험을 크게 줄일 수 있다. 이를 위해 기업은 외부의 오픈소스 컴플라이언스 문의에 대응하기 위해 다음과 같은 프로세스를 준수합니다.
@@ -1396,4 +1396,4 @@ OSRB는 매년 정기적으로 검토하여 정책과 프로세스를 개선합�
 &lt;a href="https://sktelecom.github.io/compliance/iso5230/">https://sktelecom.github.io/compliance/iso5230/&lt;/a>&lt;/p>
 &lt;p>이렇게 하면 ISO 표준 규격 중 아래의 파란색으로 표시된 요구사항을 충족할 수 있다.&lt;/p>
 &lt;p>&lt;img src="totalno.png" alt="">&lt;/p>
-&lt;p>여기까지 완료하면 기업은 드디어 ISO/IEC 5230, ISO/IEC 18974의 모든 요구사항을 충족하게 됩니다.&lt;/p></description></item><item><title>Guide: 부록</title><link>https://openChain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/appendix/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/appendix/</guid><description/></item></channel></rss>
+&lt;p>여기까지 완료하면 기업은 드디어 ISO/IEC 5230, ISO/IEC 18974의 모든 요구사항을 충족하게 됩니다.&lt;/p></description></item></channel></rss>
