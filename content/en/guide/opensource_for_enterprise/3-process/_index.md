@@ -46,9 +46,9 @@ The ISO/IEC 5230 standard requires a documented procedure to handle common open 
 
 {{% alert title="ISO/IEC 5230 - License Compliance" color="success" %}}
 
-* 3.3.2.1 - A documented procedure for handling the common open source license use cases for the open source components of the supplied software.<br>`A documented procedure for handling the common open source license use cases for the open source components of the supplied software`
+* 3.3.2.1 - A documented procedure for handling the common open source license use cases for the open source components of the supplied software.
   
-* 3.1.5.1 - A documented procedure to review and document the obligations, restrictions and rights granted by each identified license.<br>`A documented procedure to review and document the obligations, restrictions and rights granted by each identified license`
+* 3.1.5.1 - A documented procedure to review and document the obligations, restrictions and rights granted by each identified license.
 
 {{% /alert %}}
 
@@ -276,7 +276,7 @@ The Program demonstrates a sound and robust handling procedures of Known Vulnera
 * Method to verify that identified risks will have been addressed before release of Supplied Software;
 * Method to export information about identified risks to third parties as appropriate.
 
-* 3.1.5.1: A documented procedure exists for each of the methods identified above.<br>`위에서 식별된 각 방법에 대한 문서화된 절차가 존재한다.`
+* 3.1.5.1: A documented procedure exists for each of the methods identified above.
 
 
 3.3.2 - Security Assurance
@@ -286,208 +286,200 @@ The Program demonstrates a sound and robust handling procedures of Known Vulnera
 
 {{% /alert %}}
 
-이를 위해 기업은 배포용 소프트웨어에서 알려진 취약점 존재 여부를 탐지하고, 식별된 위험이 출시 전에 해결해야 할 뿐 아니라 출시 후 새롭게 알려진 취약점에 대응하기 위한 방법과 절차를 갖춰야 합니다.
 
-먼저 기업은 배포용 소프트웨어에 알려진 취약점이 있는지 탐지하고, 식별된 위험을 출시 전에 해결해야 합니다. 이와 같이 알려진 취약점을 탐지하고 해결하는 절차는 [오픈소스 프로세스](#1-오픈소스-프로세스)의 오픈소스 식별 단계, 소스 코드 검사 단계, 문제 해결 단계를 통해 수행할 수 있습니다.
+In order to address vulnerabilities in the deployed software, enterprises must detect the presence of known vulnerabilities in the distribution-ready software and resolve identified risks before release. Furthermore, they need to establish methods and procedures to respond to newly discovered vulnerabilities post-release.
 
-그리고, 배포용 소프트웨어의 릴리스 후 새롭게 알려진 취약점이 공개되었을 때 이미 배포된 소프트웨어에 존재하는지 확인하고, 해결하기 위해서는 신규 보안 취약점 대응 프로세스를 수립해야 합니다.
+Initially, enterprises should detect known vulnerabilities in the distribution-ready software and resolve identified risks before release. The procedure for detecting and addressing these known vulnerabilities can be carried out through the open-source identification phase, source code inspection phase, and issue resolution phase of the open-source process, as outlined in [Open Source Process](#1-open-source-process).
 
-아래는 신규 보안 취약점 발견 시 대응을 위한 프로세스 샘플입니다.
+Additionally, when newly identified vulnerabilities are disclosed after the release of the deployed software, it is imperative to establish a process for confirming their existence in the already distributed software and taking necessary measures to address them.
+
+Below is a sample process for responding to the discovery of new security vulnerabilities:
+
+---
 
 ![](./securityprocess.png)
-<center><i>신규 보안 취약점 대응 프로세스 (샘플)</i></center><br>
+<center><i>New Security Vulnerability Response Process (Sample)</i></center><br>
 
+```
+1. New Security Vulnerability Response Process
+
+After a product/service is launched in the market, we adhere to the following process to take appropriate measures according to the risk level when a new security vulnerability is reported.
+
+(1) Monitoring
+
+The IT department operates a system that monitors new security vulnerabilities. This system performs the following functions:
+
+- Regularly collects information about newly disclosed security vulnerabilities.
+- If an open source with a new known vulnerability is used in a product/service that has already been released, it sends a notification to the business department in charge of the product/service. From notification to review, action, and resolution, everything is documented and recorded using the Jira Issue Tracker.
+
+(2) Initial Response
+
+The security officer provides a response guide to the business department according to the pre-defined risk classification criteria. Risks are classified by CVSS (Common Vulnerability Scoring System) scores, and Critical Risk is guided to establish a plan that can be implemented within 1 week.
+
+If a new security vulnerability is found in a product/service that has already been released, the business department establishes a response plan according to the response guide provided by the security officer.
+
+If there are customers who need assurance, the business department notifies the confirmed known vulnerabilities by email or other means as needed, depending on the risk level.
+
+(3) Problem Solving
+
+The business department solves the security vulnerability problem by deleting the problematic open source or replacing it with a patched version, etc., according to the established response plan. Once all issues are resolved, a re-review is requested.
+
+(4) Review
+
+The IT department uses an open source analysis tool to check whether the problem has been properly resolved.
+
+(5) Approval
+
+The security officer reviews whether all serious vulnerabilities have been resolved. If there are vulnerabilities that are difficult to resolve, the approval is reviewed considering the business form and service exposure status.
+
+(6) Registration
+
+The IT department registers the SBOM, which has resolved the open source security vulnerability, in the system.
+
+(7) Notification
+
+The open source program manager creates an open source notice based on the SBOM that has resolved the open source security vulnerability and delivers it to the business department.
+
+The business department replaces the open source notice included in the product distribution.
+
+The IT department registers the modified open source notice on the company's open source distribution site.
+
+(8) Distribution
+
+The business department redistributes the software version that has resolved the open source security vulnerability.
+
+The security officer identifies whether there is risk information that needs to be disclosed to third parties, and if so, delivers it to the IT department.
+
+The IT department registers the identified risk information on the open source website so that third parties can check it.
 
 ```
 
-1. 신규 보안취약점 대응 프로세스
+## 3. External Inquiry Response Process
 
-제품/서비스가 시장에 출시된 후 새롭게 보안 취약점이 보고될 경우 위험도에 따라 적절한 조치를 취하기 위해 다음과 같은 프로세스를 준수합니다.
+In order for a company not to lead to legal litigation due to external claims, it is important to respond as quickly and accurately as possible to external inquiries and requests. To this end, companies should establish a process that can respond quickly and effectively to external open source inquiries.
 
-(1) 모니터링
-
-IT 담당은 새로운 보안 취약점을 모니터링하는 시스템을 구축하여 운영합니다. 이 시스템은 다음과 같은 기능을 수행합니다.
-
-- 새로운 보안 취약점이 공개되는 것을 주기적으로 수집합니다.
-- 새로운 알려진 취약점을 갖고 있는 오픈소스가 이미 출시된 제품/서비스에 사용된 경우, 해당 제품/서비스의 사업 부서 담당자에게 알림을 보냅니다. 이때 알림부터 검토, 조치, 해결 사항이 모두 문서화되어 기록될 수 있도록 Jira Issue Tracker를 사용합니다.
-
-
-(2) 초기 대응
-
-보안 담당은 사전 정의한 위험 분류 기준에 따라 사업 부서에 대응 가이드를 제공합니다. 위험은 CVSS(Common Vulnerability Scoring System) 점수로 분류하며, Critical Risk는 1주 이내에 조치할 수 있는 계획을 수립하도록 안내합니다.
-
-사업 부서는 기존 출시한 제품/서비스에 새로운 보안 취약점이 발견된 경우, 보안 담당자가 제공한 대응 가이드에 따라 조치 계획을 수립합니다.
-
-보증이 필요한 고객이 있는 경우, 사업 부서는 위험도에 따라 필요한 경우 이메일 등의 방법으로 확인된 알려진 취약점을 고지합니다.
-
-(3) 문제 해결
-
-사업 부서는 수립한 조치 계획에 따라 문제가 되는 오픈소스를 삭제하거나 패치된 버전으로 교체하는 등의 방법으로 보안 취약점 문제를 해결합니다. 발견된 모든 이슈를 해결하면, 재검토를 요청합니다.
-
-(4) 검토
-
-IT 담당은 오픈소스 분석 도구를 활용하여 문제가 적절하게 해결되었는지 확인합니다.
-
-(5) 승인
-
-보안 담당은 심각한 취약점이 모두 해결되었는지 검토합니다. 해결하기 어려운 취약점이 남아 있을 경우, 비즈니스 형태와 서비스 노출 현황 등을 고려하여 승인 여부를 검토합니다.
-
-(6) 등록
-
-IT 담당은 오픈소스 보안 취약점이 해결된 SBOM을 시스템에 등록합니다.
-
-(7) 고지
-
-오픈소스 프로그램 매니저는 오픈소스 보안 취약점이 해결된 SBOM을 기준으로 오픈소스 고지문을 생성하여 사업 부서에 전달합니다.
-
-사업 부서는 제품 배포 시 동봉한 오픈소스 고지문을 교체합니다.
-
-IT 담당은 수정된 오픈소스 고지문을 회사의 오픈소스 배포 사이트에 등록합니다.
-
-(8) 배포
-
-사업 부서는 오픈소스 보안 취약점 문제가 해결된 버전의 소프트웨어를 재배포합니다.
-
-보안 담당은 제3자에게 공개가 필요한 위험 정보가 존재하는지 식별하고, 존재할 경우 IT 담당자에게 전달합니다.
-
-IT 담당은 신별된 위험에 대한 정보를 오픈소스 웹사이트에 등록하여 제3자가 확인할 수 있게 합니다.
-
-```
-
-
-## 3. 외부 문의 대응 프로세스
-
-기업이 외부 클레임으로 인해 법적 소송에까지 이르지 않기 위해서는 외부 문의 및 요청에 가능한 한 빠르고 정확하게 대응하는 것이 중요합니다. 이를 위해 기업은 외부 오픈소스 문의에 빠르고 효과적으로 대응할 수 있는 프로세스를 구축해야 합니다.
-
-ISO 표준은 공통적으로 다음과 같이 제3자의 문의에 대응하기 위한 내부의 문서화된 절차를 요구합니다. 
+ISO standards commonly require the following internal documented procedures to respond to third-party inquiries.
 
 {{% alert title="ISO/IEC 5230 - License Compliance" color="success" %}}
 
-* 3.2.1.2 - An internal documented procedure for responding to third party open source license compliance inquiries.<br>`제 3자의 오픈소스 라이선스 컴플라이언스 문의에 대응하기 위한 내부의 문서화된 절차`
+* 3.2.1.2 - An internal documented procedure for responding to third party open source license compliance inquiries.
 
 {{% /alert %}}
 
 
 {{% alert title="ISO/IEC 18974 - Security Assurance" color="warning" %}}
 
-* 3.2.1.2: An internal documented procedure exists for responding to third party Known Vulnerability or Newly Discovered Vulnerability inquiries.<br>`제3자에 의한 알려진 취약점 또는 새로 발견된 취약점 문의에 대응하기 위한 내부의 문서화된 절차`
+* 3.2.1.2: An internal documented procedure exists for responding to third party Known Vulnerability or Newly Discovered Vulnerability inquiries.
 
 {{% /alert %}}
 
-아래 그림은 외부 문의 대응을 위해 기업이 갖춰야할 프로세스 샘플입니다.  
+The following figure is a sample process that a company should have in order to respond to external inquiries.
 
-![](access.png)
-<center><i>외부 문의 대응 프로세스 (샘플)</i></center><br>
-
-```
-
-외부로부터의 오픈소스 컴플라이언스 문의에 신속하고 정확하게 대응한다면 소송까지 진행되는 위험을 크게 줄일 수 있다. 이를 위해 기업은 외부의 오픈소스 컴플라이언스 문의에 대응하기 위해 다음과 같은 프로세스를 준수합니다.
-
-(1) 접수 알림
-
-오픈소스 프로그램 매니저는 문의를 받은 즉시 요청자에게 문의가 접수되었음을 알립니다. 이때 조치 예정일을 함께 알립니다. 요청자의 의도가 무엇인지 정확히 파악하는 것이 중요하기 때문에 문의가 불명확한 경우 추가 설명을 요청합니다.
-
-대응이 필요한 문의 및 요청의 주요 내용은 아래와 같습니다.
-
-- 특정 제품 및 서비스에 오픈소스가 사용되었는지 문의
-- 서면 약정(Written Offer)에 언급된 GPL, LGPL 라이선스 하의 소스 코드 제공 요청
-- 오픈소스 고지문에 명시되지 않았지만, 제품에서 발견된 오픈소스에 대한 해명 및 소스 코드 공개 요청
-- GPL, LGPL 등의 의무로 공개된 소스 코드에 누락된 파일 및 빌드 방법 제공 요청
-- 저작권 표시 요청
-
-오픈소스 프로그램 매니저는 접수한 요청에 대한 Jira Issue를 생성하여 대응 상황을 모두 자세히 기록합니다.
-
-(2) 조사 알림
-
-오픈소스 프로그램 매니저는 요청자에게 오픈소스 컴플라이언스를 충실히 수행하고 있음과 요청자의 문의를 조사하고 있음을 알립니다. 내부 조사 진행 상황이 업데이트될 때마다 알리는 것이 좋습니다.
-
-(3) 내부 조사
-
-오픈소스 프로그램 매니저는 요청 사항에 대한 내부 조사를 진행합니다. 문제가 된 제품의 버전에 대하여 컴플라이언스 프로세스가 적절하게 수행되었는지 BOM 및 문서화된 검토 이력을 통해 확인합니다. 필요 시 법무 담당에 자문을 요청합니다.
-
-특정 사업 부서에서 확인이 필요한 사항일 경우 오픈소스 프로그램 매니저는 사업 부서에 조사를 요청합니다. 조사를 요청받은 사업 부서는 컴플라이언스 산출물에 문제가 있는지 즉시 확인하고 결과를 오픈소스 프로그램 매니저에게 보고합니다.
-
-(4) 요청자에게 보고
-
-오픈소스 컴플라이언스 담당은 조치 예정일 내에 내부 조사를 마치고, 요청자에게 결과를 알립니다.
-
-- 요청자의 문의가 오해로 인한 잘못된 지적이었다면 추가 조치 없이 요청자에게 이를 알리고 처리를 종료합니다.
-- 문제가 맞는다면 요청자에게 해당 오픈소스 라이선스의 의무를 이행하기 위한 정확한 방법과 시기를 알립니다.
-
-(5) 문제 보완 / 알림
-
-내부조사에서 실제 컴플라이언스 문제가 발견되면 해당 사업 부서는 컴플라이언스 문제를 해결하는 데 필요한 모든 절차를 수행합니다.
-
-(6) 문제 해결 알림
-
-문제를 해결한 후에는 즉시 요청자에게 알리고 문제가 해결되었음을 확인할 수 있는 최선의 방법을 제공합니다.
-
-(7) 프로세스 개선
-
-컴플라이언스 문제가 있었던 경우, OSRB 미팅을 통해 사례를 검토하고, 문제가 발생한 경위를 파악하여, 문제가 재발하지 않을 수 있도록 프로세스를 개선합니다.
+![](general-inquiry-process.png)
+<center><i>External Inquiry Response Process (Sample)</i></center><br>
 
 ```
+If you respond quickly and accurately to open source compliance inquiries from outside, you can greatly reduce the risk of proceeding to litigation. To this end, the company adheres to the following process to respond to external open source compliance inquiries.
 
-## 4. 오픈소스 기여 프로세스
+(1) Receipt Notification
 
-기업이 외부 오픈소스 프로젝트에 기여를 허용하는 정책을 갖고 있다면, 사내 개발자들이 어떤 절차로 외부 프로젝트에 기여할 수 있을지 관리하는 문서화된 절차가 있어야 합니다. 
+As soon as the open source program manager receives an inquiry, they notify the requester that the inquiry has been received. At this time, they also notify the expected date of action. If the inquiry is unclear, they request additional explanation.
 
-ISO/IEC 5230 표준은 다음과 같이 오픈소스 기여를 관리하는 문서화된 절차를 요구합니다.
+The main contents of the inquiries and requests that require response are as follows:
 
+- Inquiry whether open source has been used in a specific product or service
+- Request for source code provision under GPL, LGPL license mentioned in written agreement (Written Offer)
+- Explanation and source code disclosure request for open source found in the product but not specified in the open source notice
+- Request for missing files and build methods in the source code disclosed due to obligations such as GPL, LGPL
+- Copyright notice request
+
+The open source program manager creates a Jira Issue for the received request and records all the response situations in detail.
+
+(2) Investigation Notification
+
+The open source program manager notifies the requester that they are investigating the open source compliance. It is good to notify whenever the internal investigation progress is updated.
+
+(3) Internal Investigation
+
+The open source program manager conducts an internal investigation on the request. They check whether the compliance process has been properly performed for the version of the product in question through the BOM and documented review history. If necessary, they request advice from the legal department.
+
+If it is a matter that needs to be confirmed by a specific business department, the open source program manager requests an investigation from the business department. The business department immediately checks whether there is a problem with the compliance deliverables upon receiving the investigation request and reports the results to the open source program manager.
+
+(4) Report to Requester
+
+The open source compliance officer completes the internal investigation within the expected date of action and notifies the requester of the result.
+
+- If the requester's inquiry was a misdirected point due to misunderstanding, they notify the requester and end the process without any additional action.
+- If there is a problem, they notify the requester of the exact method and timing to fulfill the obligations of the open source license in question.
+
+(5) Problem Supplement / Notification
+
+If a compliance problem is actually found in the internal investigation, the relevant business department performs all procedures necessary to solve the compliance problem.
+
+(6) Problem Resolution Notification
+
+After solving the problem, they immediately notify the requester and provide the best way to confirm that the problem has been resolved.
+
+(7) Process Improvement
+
+If there was a compliance problem, the OSRB meeting reviews the case, identifies the circumstances of the problem, and improves the process so that the problem does not recur.
+
+```
+Sure, here is the translation of the text you provided:
+
+---
+
+## 4. Open Source Contribution Process
+
+If a company has a policy that allows contributions to external open source projects, there should be a documented procedure for how in-house developers can contribute to external projects.
+
+The ISO/IEC 5230 standard requires a documented procedure for managing open source contributions.
 
 {{% alert title="ISO/IEC 5230 - License Compliance" color="success" %}}
 
-3.5.1.2 - A documented procedure that governs open source contributions; <br>`오픈소스 기여를 관리하는 문서화된 절차`
+3.5.1.2 - A documented procedure that governs open source contributions;
 
 {{% /alert %}}
 
-SK텔레콤에서 공개한 [오픈소스 기여 절차](https://sktelecom.github.io/guide/contribute/process/)는 좋은 예입니다.
+The [Open Source Contribution Process](https://sktelecom.github.io/guide/contribute/process/) published by SK Telecom is a good example.
 
 ![](contribution.png)
 [https://sktelecom.github.io/guide/contribute/process/](https://sktelecom.github.io/guide/contribute/process/)
 
 
-## 5. 프로세스 현행화
+## 5. Process Modernization
 
-프로세스가 문서화만 되어 있고 실제 운영되지 않는다면 바람직하지 않습니다. 또한, 업무 상황이나 조직 구성에 맞지 않게 되어 있는 것도 문제입니다. 기업은 프로세스가 회사 내부 조직과 상황에 맞게 항상 최신 상태로 유지되어야 합니다.
+It is not desirable for the process to be documented but not actually operated. Also, it is a problem if it does not fit the business situation or organizational composition. Companies should always keep the process up-to-date to match the internal organization and situation of the company.
 
-ISO/IEC 18974 표준은 다음과 같이 프로세스를 주기적으로 검토 및 개선해야 함을 요구합니다.
+The ISO/IEC 18974 standard requires periodic review and improvement of the process.
 
 {{% alert title="ISO/IEC 18974 - Security Assurance" color="warning" %}}
 
-* 3.1.2.5: Documented Evidence of periodic reviews and changes made to the process;<br>`프로세스를 주기적으로 검토하고 개선했음을 나타내는 문서화된 증거`
-* 3.1.2.6: Documented verification that these processes are current with company internal best practices and who is assigned to accomplish them.<br>`이러한 프로세스는 회사 내부 모범 사례를 반영하여 항상 현행화되어야 하고, 이를 누가 책임지고 수행해야 하는지를 명시한 문서화된 증거`
+* 3.1.2.5: Documented Evidence of periodic reviews and changes made to the process;
+* 3.1.2.6: Documented verification that these processes are current with company internal best practices and who is assigned to accomplish them.
 
 {{% /alert %}}
 
-기업은 이를 위해 아래의 샘플과 같이 오픈소스 정책 문서 내에 매년 정기적으로 오픈소스 정책과 오픈소스 프로세스를 개선하고, 모든 과정을 문서화하여 기록하도록 정의할 수 있습니다. 
+Companies can define in the open source policy document that they improve the open source policy and open source process every year and document and record all processes.
 
 ```
-4. 역할, 책임 및 역량
+1. Roles, Responsibilities, and Competencies
 
-정책의 효과를 보장하기 위해 다음과 같이 역할과 책임 및 각 역할의 담당자가 갖추어야 할 역량을 정의합니다.
+To ensure the effectiveness of the policy, we define the roles and responsibilities and the competencies that each role holder should have as follows.
 
 (1) OSRB
 
-OSRB(Open Source Review Board)는 회사의 오픈소스 관리를 위해 오픈소스 프로그램 매니저와 법무팀, 특허팀, 개발팀, 인프라팀 등 관련 조직의 책임자로 구성된 협의체입니다.
+The OSRB (Open Source Review Board) is a consultative body composed of the open source program manager and the heads of related organizations such as the legal team, patent team, development team, and infrastructure team for the company's open source management.
 
-OSRB는 매년 정기적으로 검토하여 정책과 프로세스를 개선합니다. 모든 개선 과정은 문서화하여 기록합니다.
-  - OSRB는 회사의 프로세스 수행 성과와 미흡한 부분, 모범 사례를 분석하고 비즈니스 환경을 반영하여 항상 현행화합니다.
-  - 오픈소스 컴플라이언스를 위한 정책과 프로세스는 오픈소스 프로그램 매니저가 책임을 갖고 관리합니다.
-  - 오픈소스 보안 보증을 위한 정책과 프로세스는 보안 담당이 책임을 갖고 관리합니다.
+The OSRB improves policies and processes on a regular basis every year. All improvement processes are documented and recorded.
+  - The OSRB always modernizes the company's process performance results, shortcomings, best practices, and reflects the business environment.
+  - The policy and process for open source compliance are managed by the open source program manager.
+  - The policy and process for open source security assurance are managed by the security officer.
 
 ```
 
-
-
-
-
 ## 6. Summary
 
-여기까지 프로세스를 구축하게 되면 ISO 표준 규격 중 아래의 노란색으로 표시된 요구사항을 충족할 수 있습니다.
+By building the process up to this point, you can meet the requirements marked in yellow in the ISO standard specifications.
 
 ![](./processno.png)
-
-
-
-
