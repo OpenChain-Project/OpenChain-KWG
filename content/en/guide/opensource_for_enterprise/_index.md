@@ -1,6 +1,6 @@
 
 ---
-title: "ISO Standard-Based Enterprise "
+title: "ISO Standard-Based Enterprise Open Source Management Guide"
 linkTitle: "Open Source Management Guide"
 weight: 20
 type: docs
@@ -40,6 +40,6 @@ So, what should companies do to comply with the standards? It needs to have the 
 3. Process
 4. Tools
 5. Education
-6. Announcement
+6. Conformance
 
 To comply with the standards, companies must adhere to these six components:
