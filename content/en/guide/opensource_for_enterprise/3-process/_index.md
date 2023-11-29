@@ -182,7 +182,7 @@ Compliance artifacts are divided into two main categories:
 
     ![](ossnotice.png)
 
-    * For how to create an open source notice that aggregates the SBOM using tools, see "[Open Source Compliance Artifact Creation Tools](../4-tool/#5-open-source-compliance-artifact-creation-tools)".
+    * For how to create an open source notice that aggregates the SBOM using tools, see "[Open Source Compliance Artifact Generation Tools](../4-tool/#5-open-source-compliance-artifact-generation-tool)".
 
 
 Sure, here is the English translation of the Korean guide you provided, written in a professional style suitable for user manuals, help documents, and technical documents:
@@ -253,7 +253,7 @@ This offer is valid to anyone in receipt of this information.
 
 Therefore, compliance deliverables must be kept for more than 3 years, and a process for this must be established.
 
-For this, companies can consider building an open source website. You can check the details in "[Open Source Compliance Deliverable Storage](../4-tool/#6-오픈소스-컴플라이언스-산출물-보관)".
+For this, companies can consider building an open source website. You can check the details in "[Open Source Compliance Artifact Storage](../4-tool/#6-open-source-compliance-artifact-storage)".
 
 ## 2. Open Source Security Vulnerability Response Process
 
