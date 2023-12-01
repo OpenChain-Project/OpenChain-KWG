@@ -43,3 +43,13 @@ So, what should companies do to comply with the standards? It needs to have the 
 6. Conformance
 
 To comply with the standards, companies must adhere to these six components:
+
+
+## References
+
+{{% pageinfo %}}
+1. [OpenChain Project Website](https://www.openchainproject.org/)
+2. [OpenChain Specification 2.0](https://wiki.linuxfoundation.org/_media/openchain/openchainspec-2.0.pdf)
+3. [OpenChain Open Source Policy Template](https://www.openchainproject.org/news/2019/01/17/openchain-open-source-policy-template-now-available)
+4. [Open Source Compliance In The Enterprise](https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/)
+{{% /pageinfo %}}
