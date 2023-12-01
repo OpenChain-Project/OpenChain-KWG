@@ -41,6 +41,15 @@
 &lt;p>OpenChain 문서 자료 - &lt;a href="https://www.openchainproject.org/resources">https://www.openchainproject.org/resources&lt;/a> &lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Guide: II. ISO/IEC 5230 표준 준수 방법</title><link>https://openChain-project.github.io/OpenChain-KWG/guide/nipa_openchain/ii-howtocomply/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/guide/nipa_openchain/ii-howtocomply/</guid><description>
-&lt;p>ISO/IEC 5230 표준은 오픈소스 컴플라이언스를 위한 핵심 요구 사항을 정의한다. ISO/IEC 5230 표준을 모두 준수함을 선언한 기업은 소프트웨어 솔루션을 배포하는 공급망 내에서 신뢰를 제공할 수 있게 된다.&lt;/p>
-&lt;p>여기에서는 기업들이 ISO/IEC 5230 표준을 준수하기 위해 충족해야 하는 여섯 가지 주요 요구사항과 각각의 준수 방법을 세부적으로 설명한다.&lt;/p></description></item><item><title>Guide: 부록</title><link>https://openChain-project.github.io/OpenChain-KWG/guide/nipa_openchain/appendix/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/guide/nipa_openchain/appendix/</guid><description/></item></channel></rss>
+&lt;/section></description></item><item><title>Guide: II. OpenChain ISO 표준 준수 방법</title><link>https://openChain-project.github.io/OpenChain-KWG/guide/nipa_openchain/ii-howtocomply/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/guide/nipa_openchain/ii-howtocomply/</guid><description>
+&lt;p>기업 오픈소스 관리를 위한 두개의 ISO 표준은 ISO/IEC 5230과 ISO/IEC 18974이다. 이 두 표준을 모두 준수함을 선언한 기업은 소프트웨어 솔루션을 배포하는 공급망 내에서 신뢰를 제공할 수 있게 된다.&lt;/p>
+&lt;p>ISO/IEC 5230과 ISO/IEC 18974는 유사한 포맷의 표준으로 공통 요구사항을 다수 포함한다. 아래 표는 두 표준의 요구사항 중 공통 사항과 차이점을 보여준다.&lt;/p>
+&lt;div >&lt;span class="image fit">
+&lt;img src="compare.png" width="90%">
+&lt;/span>&lt;/div>
+&lt;ul>
+&lt;li>파란색 영역은 두 표준이 공통적으로 포함하는 요구사항이다.&lt;/li>
+&lt;li>노란색 영역은 License Compliance를 위해 ISO/IEC 5230에서만 요구하는 항목이다.&lt;/li>
+&lt;li>붉은색 영역은 Security Assurance를 위해 ISO/IEC 18974에서만 요구하는 항목이다.&lt;/li>
+&lt;/ul>
+&lt;p>여기에서는 기업이 이 두 표준을 모두 준수하기 위해 충족해야 하는 여섯 가지 주요 요구사항과 각각의 준수 방법을 세부적으로 설명한다.&lt;/p></description></item><item><title>Guide: 부록</title><link>https://openChain-project.github.io/OpenChain-KWG/guide/nipa_openchain/appendix/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/guide/nipa_openchain/appendix/</guid><description/></item></channel></rss>
