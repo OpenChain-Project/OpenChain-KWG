@@ -38,3 +38,15 @@ ISO/IEC 5230은 오픈소스 컴플라이언스를 위한 유일한 국제표준
 ![](./elements.png)
 
 이 가이드에서는 각 구성 요소를 기업이 어떻게 갖춰나갈 수 있는지에 대해 상세히 설명합니다. 
+
+## References
+
+이 가이드는 다음 자료를 참고하여 작성하였습니다. 
+
+{{% pageinfo %}}
+1. [OpenChain Project Website](https://www.openchainproject.org/)
+2. [OpenChain ISO/IEC 5230](https://www.openchainproject.org/license-compliance)
+3. [OpenChain ISO/IEC 18974](https://www.openchainproject.org/security-assurance)
+4. [OpenChain Open Source Policy Template](https://www.openchainproject.org/news/2019/01/17/openchain-open-source-policy-template-now-available)
+5. [Open Source Compliance In The Enterprise](https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/)
+{{% /pageinfo %}}
