@@ -19,7 +19,7 @@ description: Legal SG 2nd Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | (소송사례) Entr’ouvert v. Orange : License 분쟁과 준거법     | 박원재, LG전자  |   |
+| 1  | (소송사례) Stability AI 집단소송 – Motion to Dismiss| 박원재, LG전자  |   |
 | 2  | (주제발표) GPL-2.0: 라이선스 경계 문제와 컴플라이언스     | 박정숙, ETRI	    |   |
 | 3  |      | 	    |   |
 
