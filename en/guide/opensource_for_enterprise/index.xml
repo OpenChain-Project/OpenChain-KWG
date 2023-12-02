@@ -552,7 +552,7 @@ However, in the case of simple content such as the following, you can contribute
 &lt;p>In order for a company to effectively achieve open source license compliance and security assurance, the following processes must be established:&lt;/p>
 &lt;ul>
 &lt;li>Open source process&lt;/li>
-&lt;li>Open source vulnerability response process&lt;/li>
+&lt;li>Open source vulnerability process&lt;/li>
 &lt;li>External inquiry response process&lt;/li>
 &lt;li>Open source contribution process&lt;/li>
 &lt;/ul>
@@ -638,6 +638,18 @@ Once the business department has resolved all discovered issues, they resolve th
 &lt;p>The most basic of open source license compliance activities is to understand the status of open source included in the distributed software. You need to build a process to create and manage an SBOM (Software Bill of Materials) that contains information identifying the open source and its licenses included in the distributed software. Knowing which open source is included in each version of the distributed software is essential for complying with the obligations required by each open source license when distributing software. This is also an essential process for discovering and responding to open source security vulnerabilities.&lt;/p>
 &lt;p>All open source must be reviewed and approved before being integrated into the distributed software. Not only the functionality and quality of the open source, but also whether the origin, license requirements can be met, and whether known vulnerabilities have been resolved, etc., must be reviewed in advance. A review request → review → approval process is required for this.&lt;/p>
 &lt;p>ISO standards commonly require a documented procedure that ensures that all open source software used in the supplied software is continuously recorded during the lifecycle of the supplied software.&lt;/p>
+&lt;div class="alert alert-success" role="alert">
+&lt;h4 class="alert-heading">ISO/IEC 5230 - License Compliance&lt;/h4>
+&lt;ul>
+&lt;li>3.3.1.1 - A documented procedure for identifying, tracking, reviewing, approving, and archiving information about the collection of open source components from which the supplied software is comprised.&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">ISO/IEC 18974 - Security Assurance&lt;/h4>
+&lt;ul>
+&lt;li>3.3.1.1: A documented procedure ensuring all Open Source Software used in the Supplied Software is continuously recorded across the lifecycle of the Supplied Software. This includes an archive of all Open Source Software used in the Supplied Software;&lt;/li>
+&lt;/ul>
+&lt;/div>
 &lt;p>For this, companies can reflect the following content about SBOM in the open source process:&lt;/p>
 &lt;pre>&lt;code>
 (4) Review
@@ -658,6 +670,12 @@ The open source program manager finalizes the BOM to track the list of open sour
 &lt;h3 id="4-creation-of-license-compliance-artifacts">(4) Creation of License Compliance Artifacts&lt;/h3>
 &lt;p>As mentioned above, the most basic of open source license compliance activities is to understand the status of open source included in the distributed software. This is precisely because it is the core of open source license compliance to properly meet the requirements of open source licenses. In other words, a process must be established to create a set of compliance artifacts for the open source included in the distributed software.&lt;/p>
 &lt;p>The ISO/IEC 5230 standard requires a documented procedure that describes the process under which the compliance artifacts are prepared and distributed with the supplied software as required by the identified licenses.&lt;/p>
+&lt;div class="alert alert-success" role="alert">
+&lt;h4 class="alert-heading">ISO/IEC 5230 - License Compliance&lt;/h4>
+&lt;ul>
+&lt;li>3.4.1.1 - A documented procedure that describes the process under which the compliance artifacts are prepared and distributed with the supplied software as required by the identified licenses.&lt;/li>
+&lt;/ul>
+&lt;/div>
 &lt;p>Compliance artifacts are divided into two main categories:&lt;/p>
 &lt;ol>
 &lt;li>
@@ -711,7 +729,7 @@ This offer is valid to anyone in receipt of this information.
 &amp;lt;Source: SFLC Guide to GPL Compliance&amp;gt;
 &lt;/code>&lt;/pre>&lt;p>Therefore, compliance deliverables must be kept for more than 3 years, and a process for this must be established.&lt;/p>
 &lt;p>For this, companies can consider building an open source website. You can check the details in &amp;ldquo;&lt;a href="../4-tool/#6-open-source-compliance-artifact-storage">Open Source Compliance Artifact Storage&lt;/a>&amp;rdquo;.&lt;/p>
-&lt;h2 id="2-open-source-security-vulnerability-response-process">2. Open Source Security Vulnerability Response Process&lt;/h2>
+&lt;h2 id="2-open-source-security-vulnerability-process">2. Open Source Security Vulnerability Process&lt;/h2>
 &lt;p>Companies must perform activities for security assurance, such as detecting and resolving open source security vulnerabilities, while developing products/services.&lt;/p>
 &lt;p>The ISO/IEC 18974 standard requires documented procedures and records of actions taken for security assurance methods as follows:&lt;/p>
 &lt;div class="alert alert-warning" role="alert">
@@ -759,8 +777,8 @@ This offer is valid to anyone in receipt of this information.
 &lt;p>Below is a sample process for responding to the discovery of new security vulnerabilities:&lt;/p>
 &lt;hr>
 &lt;p>&lt;img src="./securityprocess.png" alt="">&lt;/p>
-&lt;center>&lt;i>New Security Vulnerability Response Process (Sample)&lt;/i>&lt;/center>&lt;br>
-&lt;pre>&lt;code>1. New Security Vulnerability Response Process
+&lt;center>&lt;i>New Security Vulnerability Process (Sample)&lt;/i>&lt;/center>&lt;br>
+&lt;pre>&lt;code>1. New Security Vulnerability Process
 After a product/service is launched in the market, we adhere to the following process to take appropriate measures according to the risk level when a new security vulnerability is reported.
 (1) Monitoring
 The IT department operates a system that monitors new security vulnerabilities. This system performs the following functions:
