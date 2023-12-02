@@ -1,6 +1,6 @@
 ---
-title: "Open Source Governance for Enterprises based on ISO/IEC 5230"
-linkTitle: "Governance based on ISO/IEC 5230"
+title: "[out of date] Open Source Governance for Enterprises"
+linkTitle: "[out of date] Open Source Governance"
 weight: 30
 type: docs
 description: >
