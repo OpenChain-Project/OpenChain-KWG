@@ -397,7 +397,7 @@ ISO 표준은 공통적으로 다음과 같이 제3자의 문의에 대응하기
 
 아래 그림은 외부 문의 대응을 위해 기업이 갖춰야할 프로세스 샘플입니다.  
 
-![](access.png)
+![](general-inquiry-process.png)
 <center><i>외부 문의 대응 프로세스 (샘플)</i></center><br>
 
 ```
