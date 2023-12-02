@@ -19,7 +19,7 @@ For open source security assurance, activities must be carried out to detect the
 In order for a company to effectively achieve open source license compliance and security assurance, the following processes must be established:
 
 * Open source process
-* Open source vulnerability response process
+* Open source vulnerability process
 * External inquiry response process
 * Open source contribution process
 
@@ -137,6 +137,19 @@ All open source must be reviewed and approved before being integrated into the d
 
 ISO standards commonly require a documented procedure that ensures that all open source software used in the supplied software is continuously recorded during the lifecycle of the supplied software.
 
+{{% alert title="ISO/IEC 5230 - License Compliance" color="success" %}}
+
+* 3.3.1.1 - A documented procedure for identifying, tracking, reviewing, approving, and archiving information about the collection of open source components from which the supplied software is comprised. 
+
+{{% /alert %}}
+
+
+{{% alert title="ISO/IEC 18974 - Security Assurance" color="warning" %}}
+
+* 3.3.1.1: A documented procedure ensuring all Open Source Software used in the Supplied Software is continuously recorded across the lifecycle of the Supplied Software. This includes an archive of all Open Source Software used in the Supplied Software;
+
+{{% /alert %}}
+
 For this, companies can reflect the following content about SBOM in the open source process:
 
 ```
@@ -175,6 +188,12 @@ Also, all processes and results of such open source processes must be documented
 As mentioned above, the most basic of open source license compliance activities is to understand the status of open source included in the distributed software. This is precisely because it is the core of open source license compliance to properly meet the requirements of open source licenses. In other words, a process must be established to create a set of compliance artifacts for the open source included in the distributed software.
 
 The ISO/IEC 5230 standard requires a documented procedure that describes the process under which the compliance artifacts are prepared and distributed with the supplied software as required by the identified licenses.
+
+{{% alert title="ISO/IEC 5230 - License Compliance" color="success" %}}
+
+* 3.4.1.1 - A documented procedure that describes the process under which the compliance artifacts are prepared and distributed with the supplied software as required by the identified licenses.
+
+{{% /alert %}}
 
 Compliance artifacts are divided into two main categories:
 
@@ -255,7 +274,7 @@ Therefore, compliance deliverables must be kept for more than 3 years, and a pro
 
 For this, companies can consider building an open source website. You can check the details in "[Open Source Compliance Artifact Storage](../4-tool/#6-open-source-compliance-artifact-storage)".
 
-## 2. Open Source Security Vulnerability Response Process
+## 2. Open Source Security Vulnerability Process
 
 Companies must perform activities for security assurance, such as detecting and resolving open source security vulnerabilities, while developing products/services.
 
@@ -298,10 +317,10 @@ Below is a sample process for responding to the discovery of new security vulner
 ---
 
 ![](./securityprocess.png)
-<center><i>New Security Vulnerability Response Process (Sample)</i></center><br>
+<center><i>New Security Vulnerability Process (Sample)</i></center><br>
 
 ```
-1. New Security Vulnerability Response Process
+1. New Security Vulnerability Process
 
 After a product/service is launched in the market, we adhere to the following process to take appropriate measures according to the risk level when a new security vulnerability is reported.
 
