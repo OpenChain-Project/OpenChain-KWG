@@ -25,7 +25,13 @@ description: >
 
 ## Video 
 
+### OpenChain Global Update, Shane Coughlan
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gB271IMLFl8?si=5laDJLG2aNX10o1z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### Group Discussion
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EEwATEHrl6Q?si=-RhVWR12BeIvsXno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Sponsor
 
@@ -71,8 +77,19 @@ description: >
 - SK텔레콤
 
 ## Photo
-
-
+![](IMG_6741.jpeg)
+<br><br>
+![](IMG_6742.jpeg)
+<br><br>
+![](IMG_6747.jpeg)
+<br><br>
+![](IMG_6747.jpeg)
+<br><br>
+![](IMG_6756.jpeg)
+<br><br>
+![](IMG_6763.jpeg)
+<br><br>
 
 ## Full Album
 
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/198570149@N05/albums/72177720313164223" title="[2023 Sep] OpenChain Korea Work Group in Hyundae Autoever"><img src="https://live.staticflickr.com/65535/53376561936_fc29beb126_z.jpg" width="640" height="480" alt="[2023 Sep] OpenChain Korea Work Group in Hyundae Autoever"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
