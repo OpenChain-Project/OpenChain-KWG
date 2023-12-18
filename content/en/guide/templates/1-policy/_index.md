@@ -368,7 +368,7 @@ If you respond quickly and accurately to open source inquiries from outside, you
 The company supports the spirit of the OpenChain project of the Linux Foundation for improving the level of open source compliance in the software supply chain and actively participates.
 
 - The company guarantees compliance with ISO/IEC 5230:2020 as of October 1, 2021, by applying this open source policy.
-- The company guarantees that it meets all the requirements of OpenChain Specification Version 2.1, ISO/IED 5230:2020 for more than 18 months after obtaining conformity certification.
+- The company guarantees that it meets all the requirements of OpenChain Specification Version 2.1, ISO/IEC 5230:2020 for more than 18 months after obtaining conformity certification.
 - The company reviews conformity at least every 18 months and changes and updates policies as needed.
 
 ## Appendix 1. Status of Responsible Persons
