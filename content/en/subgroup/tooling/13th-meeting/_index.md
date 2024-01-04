@@ -1,6 +1,6 @@
 ---
-title: "Upcomming_13th Meeting"
-linkTitle: "Upcomming_13th Meeting"
+title: "13th Meeting"
+linkTitle: "13th Meeting"
 weight: 13
 date: 2023-10-13
 type: docs
@@ -15,7 +15,20 @@ description: >
 * Venue : Online(Webex)
 
 ## Attendees
-* TBD
+* AhnLab
+* ETRI
+* Hyundai Autoever
+* Hyundai Mobis
+* Kakao
+* KTDS
+* LG AI Research
+* LG Electronics
+* LINE
+* NAVER
+* NHN
+* Samsung Electronics
+* Samsung SDS
+* SK Telecom
 
 ## Invitees
 * LSware
@@ -23,4 +36,4 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | Open Source Governance Portal - FOSSEra Protal with Black Duck | JunSeok Park, LSware | TBD |
+| 1  | Open Source Governance Portal - FOSSEra Protal with Black Duck | JunSeok Park, LSware | N/A |
