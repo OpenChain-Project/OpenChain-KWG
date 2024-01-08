@@ -23,4 +23,4 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | TBD | Philippe Ombredanne, nexB Inc. | TBD |
+| 1  | The AboutCode stack: End-to-end open source compliance automation with ScanCode and beyond | Philippe Ombredanne, nexB Inc. | TBD |
