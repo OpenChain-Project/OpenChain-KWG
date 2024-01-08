@@ -66,7 +66,7 @@ The company's [Open Source License Guide] includes a list of major open source l
 - Binary form
 - Source form
 - Strong/weak Copyleft
-- SasS-based provision
+- SaaS-based provision
 - Whether modification is made
 - Requirement to indicate the author's open source, etc.
 
