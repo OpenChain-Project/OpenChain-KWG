@@ -181,7 +181,7 @@ The company's [Open Source License Guide] includes a list of major open source l
 - Binary form
 - Source form
 - Strong/Weak Copyleft
-- SasS-based provision
+- SaaS-based provision
 - Whether modified
 - Including open source that requires author indication, etc.
 
