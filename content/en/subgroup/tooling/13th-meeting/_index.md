@@ -36,4 +36,4 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | Open Source Governance Portal - FOSSEra Protal with Black Duck | JunSeok Park, LSware | N/A |
+| 1  | Open Source Governance Portal - FOSSEra Protal with Black Duck | JunSeok Park, LSware | - |
