@@ -609,10 +609,10 @@
 &lt;td>1&lt;/td>
 &lt;td>오픈소스 통합관리 포털 - 포세라 포털 위드 블랙덕&lt;/td>
 &lt;td>박준석, 엘에스웨어&lt;/td>
-&lt;td>N/A&lt;/td>
+&lt;td>-&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Subgroup: Upcomming 14th Meeting</title><link>https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling/14th-meeting/</link><pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling/14th-meeting/</guid><description>
+&lt;/table></description></item><item><title>Subgroup: 14th Meeting</title><link>https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling/14th-meeting/</link><pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling/14th-meeting/</guid><description>
 &lt;h2 id="schedule">Schedule&lt;/h2>
 &lt;ul>
 &lt;li>목적 : 공유 세미나&lt;/li>
@@ -621,7 +621,15 @@
 &lt;/ul>
 &lt;h2 id="attendees">Attendees&lt;/h2>
 &lt;ul>
-&lt;li>TBD&lt;/li>
+&lt;li>ETRI&lt;/li>
+&lt;li>LG전자&lt;/li>
+&lt;li>NHN&lt;/li>
+&lt;li>SK텔레콤&lt;/li>
+&lt;li>국민은행&lt;/li>
+&lt;li>삼성SDS&lt;/li>
+&lt;li>안랩&lt;/li>
+&lt;li>카카오&lt;/li>
+&lt;li>현대모비스&lt;/li>
 &lt;/ul>
 &lt;h2 id="invitees">Invitees&lt;/h2>
 &lt;ul>
@@ -642,7 +650,13 @@
 &lt;td>1&lt;/td>
 &lt;td>The AboutCode stack: End-to-end open source compliance automation with ScanCode and beyond&lt;/td>
 &lt;td>Philippe Ombredanne, nexB Inc.&lt;/td>
-&lt;td>TBD&lt;/td>
+&lt;td>&lt;a href="OpenChain-KRW-AboutCode-Stack-introduction-Q1-2024.pdf">pdf&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>2024 Tooling SG 활동 방향 논의&lt;/td>
+&lt;td>박원재, LG전자&lt;/td>
+&lt;td>-&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item></channel></rss>
