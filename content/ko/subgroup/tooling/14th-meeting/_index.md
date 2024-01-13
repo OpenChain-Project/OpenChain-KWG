@@ -1,6 +1,6 @@
 ---
-title: "Upcomming 14th Meeting"
-linkTitle: "Upcomming 14th Meeting"
+title: "14th Meeting"
+linkTitle: "14th Meeting"
 weight: 14
 date: 2023-10-13
 type: docs
@@ -15,7 +15,15 @@ description: >
 * 장소 : 온라인(Webex)
 
 ## Attendees
-* TBD
+* ETRI
+* LG전자
+* NHN
+* SK텔레콤 
+* 국민은행
+* 삼성SDS
+* 안랩
+* 카카오
+* 현대모비스
 
 ## Invitees
 * nexB Inc.
@@ -23,4 +31,5 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | The AboutCode stack: End-to-end open source compliance automation with ScanCode and beyond | Philippe Ombredanne, nexB Inc. | TBD |
+| 1  | The AboutCode stack: End-to-end open source compliance automation with ScanCode and beyond | Philippe Ombredanne, nexB Inc. | [pdf](OpenChain-KRW-AboutCode-Stack-introduction-Q1-2024.pdf) |
+| 2  | 2024 Tooling SG 활동 방향 논의 | 박원재, LG전자 | - |
