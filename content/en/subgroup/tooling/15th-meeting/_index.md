@@ -11,7 +11,7 @@ description: >
 ## Schedule
 
 * Purpose : Seminar
-* Date and Time : 2024. 02. 13(Wed.), 1:30 ~ 3:00 PM
+* Date and Time : 2024. 02. 14(Wed.), 1:30 ~ 3:00 PM
 * Venue : Online(Webex)
 
 ## Attendees
