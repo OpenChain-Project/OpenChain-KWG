@@ -36,7 +36,7 @@ Group의 Membership은 아래와 같은 역할로 구성된다.
 
 ### Member
 
-Group은 오픈소스의 공유와 협업 정신에 따라 소프트웨어를 개발하고 배포하는 기업 혹은 기관의 오픈소스 컴플라이언스 담당자라면 [Code of Conduct](../codeofconduct/)를 준수하는 한 누구나 참여할 수 있다. 
+Group에는 오픈소스의 공유와 협업 정신에 따라 소프트웨어를 개발하고 배포하는 기업 혹은 기관의 오픈소스 컴플라이언스 담당자라면 [Code of Conduct](../codeofconduct/)를 준수하는 한 누구나 참여하여 Member가 될 수 있다.
 
 - Member는 Group의 성장과 발전을 위해 가장 중요한 구성원이다.
 - Member는 Group 메일링리스트에 가입하여 Group이 Mission을 수행하는데 도움을 줄 수 있다.
@@ -46,7 +46,7 @@ Group은 오픈소스의 공유와 협업 정신에 따라 소프트웨어를 �
 
 ### Subgroup Member
 
-Group에는 다양한 주제의 Subgroup이 있다. Member라면 누구나 관심있는 주제의 Subgroup에 참여할 수 있다. 
+Group에는 다양한 주제의 Subgroup이 있다. Member라면 누구나 관심있는 주제의 Subgroup에 참여하여 Subgroup Member가 될 수 있다.
 
 - Subgroup Member는 특정 주제에 대해 심도 있게 연구/개발하여 공동의 산출물을 만들어서 공공의 이익에 기여한다.
 - Subgroup Member는 해당 Subgroup의 메일링리스트에 가입할 수 있다.
