@@ -23,4 +23,4 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | SW Supply Chain Security, XSCA | Jun Dockko, RedPenSoft | TBD |
+| 1  | SW Supply Chain Security, XSCAN | Jun Dockko, RedPenSoft | [key](XSCAN_introduction.key) |
