@@ -23,4 +23,4 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | SW 공급망보안 XSCA | 독고준, RedPenSoft | TBD |
+| 1  | SW 공급망보안 XSCAN | 독고준, RedPenSoft | [key](XSCAN_introduction.key) |
