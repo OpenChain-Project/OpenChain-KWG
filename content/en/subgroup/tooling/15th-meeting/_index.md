@@ -1,6 +1,6 @@
 ---
-title: "Upcoming 15th Meeting"
-linkTitle: "Upcoming 15th Meeting"
+title: "15th Meeting"
+linkTitle: "15th Meeting"
 weight: 15
 date: 2023-10-13
 type: docs
@@ -15,7 +15,12 @@ description: >
 * Venue : Online(Webex)
 
 ## Attendees
-* TBD
+* AhnLab
+* ETRI
+* Hyundai Mobis
+* LG Electronics
+* SK Telecom
+* TMAP MOBILITY
 
 ## Invitees
 * RedPenSoft
