@@ -1,6 +1,6 @@
 ---
-title: "Upcoming 15th Meeting"
-linkTitle: "Upcoming 15th Meeting"
+title: "15th Meeting"
+linkTitle: "15th Meeting"
 weight: 15
 date: 2023-10-13
 type: docs
@@ -15,7 +15,12 @@ description: >
 * 장소 : 온라인(Webex)
 
 ## Attendees
-* TBD
+* ETRI
+* LG전자
+* SK텔레콤 
+* 안랩
+* 티맵모빌리티
+* 현대모비스
 
 ## Invitees
 * RedPenSoft
