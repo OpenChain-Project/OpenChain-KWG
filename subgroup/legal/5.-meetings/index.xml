@@ -104,8 +104,93 @@
 &lt;h2 id="schedule">Schedule&lt;/h2>
 &lt;ul>
 &lt;li>목적 : Legal Subgroup 3차 회의&lt;/li>
-&lt;li>일시 : 2024년 2월 14일(수) (시간 미정)&lt;/li>
-&lt;li>장소 : ETRI 서울사무소(남부터미널 근처, 외부유료주차장 이용) + 온라인(WebEx)&lt;/li>
+&lt;li>일시 : 2024년 2월 14일(수) 15:00~17:20&lt;/li>
+&lt;li>장소 : ETRI 서울사무소 소회의실1 + 온라인(Zoom)&lt;/li>
+&lt;/ul>
+&lt;h2 id="attendees">Attendees&lt;/h2>
+&lt;ul>
+&lt;li>김강보, 김기련, 김동혁, 김상미, 김시안, 김승우, 김진아, 김형진, 류창한,&lt;/li>
+&lt;li>박명헌, 박슬희, 박원재, 박은정, 박정숙, 신학철, 엄숭광, 유원재, 윤석경,&lt;/li>
+&lt;li>이근찬, 이완근, 장학성, 전미진, 정윤환, 조민지, 주군호, 최소현, 홍종호&lt;/li>
+&lt;/ul>
+&lt;h2 id="agenda">Agenda&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>No&lt;/th>
+&lt;th>Subject&lt;/th>
+&lt;th>Speaker&lt;/th>
+&lt;th>Slide&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Updates&lt;/td>
+&lt;td>사회자&lt;/td>
+&lt;td>&lt;a href="%ED%9A%8C%EC%9D%98%EC%9E%90%EB%A3%8C-LegalSG-3%EC%B0%A8-20240214.pdf">pdf&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>Introducing New Issues&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2-1&lt;/td>
+&lt;td>SFC v. Vizio&lt;/td>
+&lt;td>이완근, OSBC&lt;/td>
+&lt;td>&lt;a href="%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C1-OSBC%EC%9D%B4%EC%99%84%EA%B7%BC.pdf">pdf&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2-2&lt;/td>
+&lt;td>중국의 오픈소스 2차적저작물 소송 판결 결과 소개&lt;/td>
+&lt;td>사회자&lt;/td>
+&lt;td>회의자료 참고&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2-3&lt;/td>
+&lt;td>LF의 오픈소스 라이선스 컴플라이언스 리포트 소개&lt;/td>
+&lt;td>사회자&lt;/td>
+&lt;td>회의자료 참고&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>(소송사례) GPL-violations.org는 어떤 사항들을 문제삼았나?&lt;/td>
+&lt;td>김강보, 안랩&lt;/td>
+&lt;td>&lt;a href="%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C2-%EC%95%88%EB%9E%A9-%EA%B9%80%EA%B0%95%EB%B3%B4.pdf">pdf&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>(주제발표) GPL의 발전: GPL-3.0, AGPL-3.0&lt;/td>
+&lt;td>엄숭광, ETRI&lt;/td>
+&lt;td>&lt;a href="%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C3-ETRI%EC%97%84%EC%88%AD%EA%B4%91.pdf">pdf&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td>회의록&lt;/td>
+&lt;td>사회자&lt;/td>
+&lt;td>&lt;a href="%ED%9A%8C%EC%9D%98%EB%A1%9D-LegalSG-3%EC%B0%A8-20240214.pdf">pdf&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="meeting-minutes">Meeting Minutes&lt;/h2>
+&lt;p>회의록 파일 참고&lt;/p>
+&lt;h2 id="photo-gallery">Photo Gallery&lt;/h2>
+&lt;div >&lt;span class="image fit">
+　&lt;img src="Scene1.jpg" width="45%">
+　&lt;img src="Scene2.jpg" width="45%">
+　&lt;img src="Scene3.jpg" width="45%">
+　&lt;img src="Scene4.jpg" width="45%">
+　&lt;img src="Scene5.jpg" width="45%">
+　&lt;img src="Scene6.jpg" width="45%">
+　&lt;img src="Scene7.jpg" width="45%">
+&lt;/span>&lt;/div></description></item><item><title>Subgroup: 4th Meeting</title><link>https://openChain-project.github.io/OpenChain-KWG/subgroup/legal/5.-meetings/4rd-meeting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/subgroup/legal/5.-meetings/4rd-meeting/</guid><description>
+&lt;h2 id="schedule">Schedule&lt;/h2>
+&lt;ul>
+&lt;li>목적 : Legal Subgroup 4차 회의&lt;/li>
+&lt;li>일시 : 2024년 4월 (날짜 및 시간 미정)&lt;/li>
+&lt;li>장소 : ETRI 서울사무소(남부터미널 근처 (장소변경 가능)&lt;/li>
 &lt;/ul>
 &lt;h2 id="attendees">Attendees&lt;/h2>
 &lt;h2 id="agenda">Agenda&lt;/h2>
@@ -121,14 +206,8 @@
 &lt;tbody>
 &lt;tr>
 &lt;td>1&lt;/td>
-&lt;td>(소송사례) GPL-violations.org는 어떤 사항들을 문제삼았나?&lt;/td>
-&lt;td>안랩 김강보&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>(주제발표) GPL의 발전: GPL-3.0, AGPL-3.0&lt;/td>
-&lt;td>ETRI 엄숭광&lt;/td>
+&lt;td>(전문가초청) 국가별 오픈소스 저작권과 특허권의 비교&lt;/td>
+&lt;td>섭외 중&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
