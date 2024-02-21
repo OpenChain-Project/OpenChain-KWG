@@ -9,7 +9,7 @@ description: >
 
 ## Intro
 
-* Schedule: 2023-10-31 (Tue) 16:00~17:00 / Zoom
+* Schedule: 2024-02-20 (화) 15:00~16:00 / Zoom
 * Attendees
    * Violet Hwang, Kakao
    * Yunhwan Jeong / Darae Ahn, Samsung Electronics 
