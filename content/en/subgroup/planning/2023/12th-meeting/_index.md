@@ -21,7 +21,7 @@ description: >
 ## Agenda
 
 1. Sharing the results of the steering committee election
-    - Election of steering committee members: Jiho Han, Seoyeon Lee, Haksung Jang, Soim Kim, Darae Anda
+    - Election of steering committee members: Jiho Han, Seoyeon Lee, Haksung Jang, Soim Kim, Darae Ahn
     - Term: 2024.1~2025.12
 2. Review of the 19th KWG meeting
    - Data & Photos: https://openchain-project.github.io/OpenChain-KWG/meeting/19th/
