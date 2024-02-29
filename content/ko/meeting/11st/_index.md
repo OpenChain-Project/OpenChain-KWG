@@ -1,6 +1,6 @@
 ---
-title: "11th Meeting"
-linkTitle: "11th Meeting"
+title: "11st Meeting"
+linkTitle: "11st Meeting"
 weight: 11
 type: docs
 description: >
