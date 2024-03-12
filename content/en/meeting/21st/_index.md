@@ -9,7 +9,7 @@ description: >
 ## schedule
 
 * Schedule: 2024-03-26 (Tuesday) 2:00 PM - 5:00 PM
-* Location: Kakao Pangyo Azit, Seminar Room
+* Location: Kakao Pangyo Azit, B1, Seminar Room
 
 ## agenda
 
