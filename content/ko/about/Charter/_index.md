@@ -36,7 +36,7 @@ Group의 Membership은 아래와 같은 역할로 구성된다.
 
 ### Member
 
-Group에는 오픈소스의 공유와 협업 정신에 따라 소프트웨어를 개발하고 배포하는 기업 혹은 기관의 오픈소스 컴플라이언스 담당자라면 [Code of Conduct](../codeofconduct/)를 준수하는 한 누구나 참여하여 Member가 될 수 있다.
+Group에는 소프트웨어를 개발하고 배포하는 기업 혹은 기관의 오픈소스 컴플라이언스 담당자라면 [Code of Conduct](../codeofconduct/)를 준수하는 한 누구나 참여하여 Member가 될 수 있다.
 
 - Member는 Group의 성장과 발전을 위해 가장 중요한 구성원이며 Mission을 수행하는데 도움을 줄 수 있다.
 - Member는 Group의 [메일링리스트](https://lists.openchainproject.org/g/korea-wg)에 가입할 수 있다. 
