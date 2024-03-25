@@ -22,8 +22,8 @@ description: >
 * 이서연, 라인플러스
 * 김소임, LG전자
 * 한지호, NCSOFT
-* 한다솜, NCSOFT
 * 정윤환, 삼성전자
+* 안다래, 삼성전자
 
 ## Contact
 
