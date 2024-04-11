@@ -162,9 +162,9 @@ enable = false
 	icon = "fa fa-envelope"
         desc = "Anyone in charge of open source compliance at a Korean company or institute that develops and distributes software can participate."
 [[params.links.user]]
-	name = "Slack"
-	url = "https://openchain-kwg.slack.com"
-	icon = "fab fa-slack"
+	name = "Discord"
+	url = "https://discord.com/channels/1177116701561729104/"
+	icon = "fab fa-discord"
         desc = "Chat with other members"
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
