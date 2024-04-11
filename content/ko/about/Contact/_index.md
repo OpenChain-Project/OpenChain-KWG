@@ -20,8 +20,9 @@ OpenChain KWG의 기본 소통 채널은 Mailing List입니다. OpenChain KWG에
 * [Tooling Group](../../subgroup/tooling) 멤버에게 메일 보내기 : korea-sg-tooling@lists.openchainproject.org
 
 
-## Slack
+## Discord
 
-또한, Slack 채널에서 OpenChain KWG의 멤버들과 소통하세요. Slack에서는 보다 가볍고 일상적인 주제의 대화를 할 수 있습니다. 
+또한, Discord 채널에서 OpenChain KWG의 멤버들과 소통하세요. Discord에서는 보다 가볍고 일상적인 주제의 대화를 할 수 있습니다. 
 
-* OpenChain KWG Slack : https://openchain-kwg.slack.com/
+* OpenChain KWG Discord : https://discord.com/channels/1177116701561729104
+* 초대링크는 운영진([Steering Committee](../../subgroup/planning))에게 문의하세요. : korea-sg-planning@lists.openchainproject.org
