@@ -192,7 +192,6 @@
 &lt;li>일시 : 2024년 4월 24일(수) 13:30 ~ 15:30&lt;/li>
 &lt;li>장소 : ETRI 서울사무소 소회의실2 (남부터미널 근처)&lt;/li>
 &lt;/ul>
-&lt;h2 id="attendees">Attendees&lt;/h2>
 &lt;h2 id="agenda">Agenda&lt;/h2>
 &lt;table>
 &lt;thead>
@@ -218,7 +217,9 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;!-- ## Meeting Minutes
+&lt;!--
+## Attendees
+## Meeting Minutes
 ## Photo Gallery
 &lt;div >&lt;span class="image fit">
 &lt;/span>&lt;/div> --></description></item></channel></rss>
