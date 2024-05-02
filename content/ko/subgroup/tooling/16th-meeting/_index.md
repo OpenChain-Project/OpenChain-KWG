@@ -27,4 +27,4 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | ORT 프로젝트 | Thomas Steenbergen, OSS Review Toolkit | [slides](The ORT project - OpenChain KWG April 2024.pdf) / [demo](ort-demo-example-openchain-kwg-april-2024.zip) |
+| 1  | ORT 프로젝트 | Thomas Steenbergen, OSS Review Toolkit | [slides](The-ORT-project-OpenChain-KWG-April-2024.pdf) / [demo](ort-demo-example-openchain-kwg-april-2024.zip) |
