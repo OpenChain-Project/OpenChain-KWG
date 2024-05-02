@@ -12,15 +12,19 @@ description: >
 
 * Purpose : Seminar
 * Date and Time : 2024. 04. 17(Wed.), 1:30 ~ 3:00 PM
-* Venue : Online(Webex)
+* Venue : Online(LFX)
 
 ## Attendees
-* TBD
+* Hyundai Mobis
+* Kakao
+* LG Electronics
+* NHN
+* SK Telecom
 
 ## Invitees
-* RedPenSoft
+* OSS Review Toolkit
 
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | TBD | Thomas Steenbergen, OSS Review Toolkit | TBD |
+| 1  | The ORT Project | Thomas Steenbergen, OSS Review Toolkit | [slides](The ORT project - OpenChain KWG April 2024.pdf) / [demo](ort-demo-example-openchain-kwg-april-2024.zip) |
