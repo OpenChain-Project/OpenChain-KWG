@@ -664,7 +664,7 @@
 &lt;ul>
 &lt;li>목적 : 공유 세미나&lt;/li>
 &lt;li>일시 : 2024. 02. 14(수), 오후 1:30~3:00&lt;/li>
-&lt;li>장소 : 온라인(Webex)&lt;/li>
+&lt;li>장소 : 온라인(LFX)&lt;/li>
 &lt;/ul>
 &lt;h2 id="attendees">Attendees&lt;/h2>
 &lt;ul>
@@ -702,11 +702,15 @@
 &lt;ul>
 &lt;li>목적 : 공유 세미나&lt;/li>
 &lt;li>일시 : 2024. 04. 17(수), 오후 1:30~3:00&lt;/li>
-&lt;li>장소 : 온라인(Webex)&lt;/li>
+&lt;li>장소 : 온라인(LFX)&lt;/li>
 &lt;/ul>
 &lt;h2 id="attendees">Attendees&lt;/h2>
 &lt;ul>
-&lt;li>TBD&lt;/li>
+&lt;li>LG전자&lt;/li>
+&lt;li>NHN&lt;/li>
+&lt;li>SK텔레콤&lt;/li>
+&lt;li>카카오&lt;/li>
+&lt;li>현대모비스&lt;/li>
 &lt;/ul>
 &lt;h2 id="invitees">Invitees&lt;/h2>
 &lt;ul>
@@ -725,9 +729,9 @@
 &lt;tbody>
 &lt;tr>
 &lt;td>1&lt;/td>
-&lt;td>TBD&lt;/td>
+&lt;td>ORT 프로젝트&lt;/td>
 &lt;td>Thomas Steenbergen, OSS Review Toolkit&lt;/td>
-&lt;td>TBD&lt;/td>
+&lt;td>[slides](The ORT project - OpenChain KWG April 2024.pdf) / &lt;a href="ort-demo-example-openchain-kwg-april-2024.zip">demo&lt;/a>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item></channel></rss>
