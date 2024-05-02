@@ -662,7 +662,7 @@
 &lt;ul>
 &lt;li>Purpose : Seminar&lt;/li>
 &lt;li>Date and Time : 2024. 02. 14(Wed.), 1:30 ~ 3:00 PM&lt;/li>
-&lt;li>Venue : Online(Webex)&lt;/li>
+&lt;li>Venue : Online(LFX)&lt;/li>
 &lt;/ul>
 &lt;h2 id="attendees">Attendees&lt;/h2>
 &lt;ul>
@@ -700,15 +700,19 @@
 &lt;ul>
 &lt;li>Purpose : Seminar&lt;/li>
 &lt;li>Date and Time : 2024. 04. 17(Wed.), 1:30 ~ 3:00 PM&lt;/li>
-&lt;li>Venue : Online(Webex)&lt;/li>
+&lt;li>Venue : Online(LFX)&lt;/li>
 &lt;/ul>
 &lt;h2 id="attendees">Attendees&lt;/h2>
 &lt;ul>
-&lt;li>TBD&lt;/li>
+&lt;li>Hyundai Mobis&lt;/li>
+&lt;li>Kakao&lt;/li>
+&lt;li>LG Electronics&lt;/li>
+&lt;li>NHN&lt;/li>
+&lt;li>SK Telecom&lt;/li>
 &lt;/ul>
 &lt;h2 id="invitees">Invitees&lt;/h2>
 &lt;ul>
-&lt;li>RedPenSoft&lt;/li>
+&lt;li>OSS Review Toolkit&lt;/li>
 &lt;/ul>
 &lt;h2 id="agenda">Agenda&lt;/h2>
 &lt;table>
@@ -723,9 +727,9 @@
 &lt;tbody>
 &lt;tr>
 &lt;td>1&lt;/td>
-&lt;td>TBD&lt;/td>
+&lt;td>The ORT Project&lt;/td>
 &lt;td>Thomas Steenbergen, OSS Review Toolkit&lt;/td>
-&lt;td>TBD&lt;/td>
+&lt;td>[slides](The ORT project - OpenChain KWG April 2024.pdf) / &lt;a href="ort-demo-example-openchain-kwg-april-2024.zip">demo&lt;/a>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item></channel></rss>
