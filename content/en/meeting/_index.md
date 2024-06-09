@@ -12,7 +12,7 @@ menu:
 ---
 
 <div ><span class="image fit">
-  <img src="2022openchainkwg.png" width="50%">
+  <img src="openchain_meeting.png" width="50%">
 </div>
 
 
