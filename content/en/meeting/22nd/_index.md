@@ -22,7 +22,7 @@ description: >
 | 15:10~15:40 | Entr’ouvert v. Orange Litigation Case | Jeong-nyeon Jo, SK Corporation | |
 | 15:40~16:00 | Break | All | - |
 | 16:00~16:30 | Sharing status of preparation of ISO/IEC 18974, open source security standard | Jin-young Chae/Ki-ryun Kim, Samsung SDS | - |
-| 16:30~17:00 | Introduction of BOM-based SW supply chain management guidelines | Wonjae Park, LG Electronics | - |
+| 16:30~17:00 | Introduction of SBOM-based SW supply chain management guidelines | Wonjae Park, LG Electronics | - |
 
 ## Sponsor
 
