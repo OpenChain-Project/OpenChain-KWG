@@ -110,7 +110,7 @@
 &lt;h2 id="attendees">Attendees&lt;/h2>
 &lt;ul>
 &lt;li>김강보, 김기련, 김동혁, 김상미, 김시안, 김승우, 김진아, 김형진, 류창한,&lt;/li>
-&lt;li>박명헌, 박슬희, 박원재, 박은정, 박정숙, 신학철, 엄숭광, 유원재, 윤석경,&lt;/li>
+&lt;li>박명헌, 박슬희, 박원재, 박은정, 박정숙, 신학철, 엄숭광, 유경재, 윤석경,&lt;/li>
 &lt;li>이근찬, 이완근, 장학성, 전미진, 정윤환, 조민지, 주군호, 최소현, 홍종호&lt;/li>
 &lt;/ul>
 &lt;h2 id="agenda">Agenda&lt;/h2>
@@ -185,12 +185,66 @@
 　&lt;img src="Scene5.jpg" width="45%">
 　&lt;img src="Scene6.jpg" width="45%">
 　&lt;img src="Scene7.jpg" width="45%">
-&lt;/span>&lt;/div></description></item><item><title>Subgroup: 4th Meeting</title><link>https://openChain-project.github.io/OpenChain-KWG/subgroup/legal/5.-meetings/4rd-meeting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/subgroup/legal/5.-meetings/4rd-meeting/</guid><description>
+&lt;/span>&lt;/div></description></item><item><title>Subgroup: 4th Meeting</title><link>https://openChain-project.github.io/OpenChain-KWG/subgroup/legal/5.-meetings/4th-meeting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/subgroup/legal/5.-meetings/4th-meeting/</guid><description>
 &lt;h2 id="schedule">Schedule&lt;/h2>
 &lt;ul>
 &lt;li>목적 : Legal Subgroup 4차 회의&lt;/li>
-&lt;li>일시 : 2024년 4월 (날짜 및 시간 미정)&lt;/li>
-&lt;li>장소 : ETRI 서울사무소(남부터미널 근처 (장소변경 가능)&lt;/li>
+&lt;li>일시 : 2024년 4월 24일 오후 3시&lt;/li>
+&lt;li>장소 : ETRI 서울사무소(남부터미널 근처)&lt;/li>
+&lt;/ul>
+&lt;h2 id="attendees">Attendees&lt;/h2>
+&lt;ul>
+&lt;li>김강보, 김대성, 류창한, 박명헌, 박은정, 박원재, 박정숙, 백송하, 신학철,&lt;/li>
+&lt;li>유경재, 이근찬, 장학성, 정윤환, 조정년, 홍종호 외&lt;/li>
+&lt;/ul>
+&lt;h2 id="agenda">Agenda&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>No&lt;/th>
+&lt;th>Subject&lt;/th>
+&lt;th>Speaker&lt;/th>
+&lt;th>Slide&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>(소송사례) Entr’Ouvert vs. Orange 프랑스 소송 사례&lt;/td>
+&lt;td>조정년, SK주식회사&lt;/td>
+&lt;td>&lt;a href="%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C1-SK%EC%A3%BC%EC%8B%9D%ED%9A%8C%EC%82%AC_%EC%A1%B0%EC%A0%95%EB%85%84.pdf">pdf&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>(주제발표) 오픈소스 라이선스 특허보복조항&lt;/td>
+&lt;td>박명헌, NHN&lt;/td>
+&lt;td>&lt;a href="%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C2-NHN-%EB%B0%95%EB%AA%85%ED%97%8C.pdf">pdf&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="meeting-minutes">Meeting Minutes&lt;/h2>
+&lt;h2 id="photo-gallery">Photo Gallery&lt;/h2>
+&lt;div >&lt;span class="image fit">
+　&lt;img src="Scene1.jpg" width="45%">
+　&lt;img src="Scene2.jpg" width="45%">
+　&lt;img src="Scene3.jpg" width="45%">
+　&lt;img src="Scene4.jpg" width="45%">
+　&lt;img src="Scene5.jpg" width="45%">
+　&lt;img src="Scene6.jpg" width="45%">
+　&lt;img src="Scene7.jpg" width="45%">
+　&lt;img src="Scene8.jpg" width="45%">
+　&lt;img src="Scene9.jpg" width="45%">
+　&lt;img src="Scene10.jpg" width="45%">
+　&lt;img src="Scene11.jpg" width="45%">
+　&lt;img src="Scene12.jpg" width="45%">
+　&lt;img src="Scene13.jpg" width="45%">
+　
+&lt;/span>&lt;/div></description></item><item><title>Subgroup: 5th Meeting</title><link>https://openChain-project.github.io/OpenChain-KWG/subgroup/legal/5.-meetings/5th-meeting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/subgroup/legal/5.-meetings/5th-meeting/</guid><description>
+&lt;h2 id="schedule">Schedule&lt;/h2>
+&lt;ul>
+&lt;li>목적 : Legal Subgroup 5차 회의&lt;/li>
+&lt;li>일시 : 2024년 8월 (날짜 및 시간 미정)&lt;/li>
+&lt;li>장소 : ETRI 서울사무소(남부터미널 근처, 장소변경 가능)&lt;/li>
 &lt;/ul>
 &lt;h2 id="attendees">Attendees&lt;/h2>
 &lt;h2 id="agenda">Agenda&lt;/h2>
@@ -206,8 +260,14 @@
 &lt;tbody>
 &lt;tr>
 &lt;td>1&lt;/td>
-&lt;td>(전문가초청) 국가별 오픈소스 저작권과 특허권의 비교&lt;/td>
-&lt;td>섭외 중&lt;/td>
+&lt;td>(소송사례) Jacobsen v. Katzer: 계약위반과 저작권 위반&lt;/td>
+&lt;td>김형진, 현대모비스&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>(주제발표) 도커와 오픈소스 라이선스의 법적 이슈&lt;/td>
+&lt;td>(지원자 모집 중)&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
