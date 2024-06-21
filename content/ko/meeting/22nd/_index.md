@@ -3,7 +3,7 @@ title: "22nd Meeting"
 weight: 22
 type: docs
 description: >
- 2024년 6월 20일 (화) / CJ Talent Training Center
+ 2024년 6월 20일 (목) / CJ Talent Training Center
 ---
 
 ## 일정
