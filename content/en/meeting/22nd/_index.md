@@ -3,7 +3,7 @@ title: "22nd Meeting"
 weight: 22
 type: docs
 description: >
-  June 20, 2024 (Tuesday) / CJ Talent Training Center
+  June 20, 2024 (Thursday) / CJ Talent Training Center
 ---
 
 ## Schedule
