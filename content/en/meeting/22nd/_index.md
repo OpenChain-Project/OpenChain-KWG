@@ -18,7 +18,7 @@ description: >
 | 14:00~14:10 | Welcome & Opening | CJ | - |
 | 14:10~14:20 | OpenChain Global Update | Shane Coughlan, Linux Foundation | [pptx](./KoreaWorkGroupMeeting22_2024-06-20.pptx) |
 | 14:20~14:40 | OpenChain Korea Update & Subgroup Plan | Haksung Jang, SK Telecom<br>Jeong-sook Park , ETRI<br>Won-jae Park, LG Electronics | [pdf](./Subgroup_-20240620-R1.pdf) |
-| 14:40~15:10 | CJ open source management system  case | Ki-young Seong, CJ | - |
+| 14:40~15:10 | CJ open source management system  case | Ki-young Seong, CJ | [pdf](./CJ_오픈소스관리시스템구축사례.pdf) |
 | 15:10~15:40 | Entr’ouvert v. Orange Litigation Case | Jeong-nyeon Jo, SK Corporation | [ppt](./EntrOuvert_vs_ORANGE_20240620_v3.pptx) |
 | 15:40~16:00 | Break | All | - |
 | 16:00~16:30 | Sharing status of preparation of ISO/IEC 18974, open source security standard | Jin-young Chae/Ki-ryun Kim, Samsung SDS | [pdf](./OpenChainKWG_SamsungSDS_ISOIEC18974_240620.pdf) |
