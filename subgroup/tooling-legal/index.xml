@@ -1,9 +1,9 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – Tooling &amp; Legal Group (draft)</title><link>https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling-legal/</link><description>Recent content in Tooling &amp; Legal Group (draft) on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling-legal/index.xml" rel="self" type="application/rss+xml"/><item><title>Subgroup: 17th Meeting</title><link>https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling-legal/17th-meeting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling-legal/17th-meeting/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG – Tooling &amp; Legal Group</title><link>https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling-legal/</link><description>Recent content in Tooling &amp; Legal Group on OpenChain KWG</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling-legal/index.xml" rel="self" type="application/rss+xml"/><item><title>Subgroup: 17th Meeting</title><link>https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling-legal/17th-meeting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openChain-project.github.io/OpenChain-KWG/subgroup/tooling-legal/17th-meeting/</guid><description>
 &lt;h2 id="schedule">Schedule&lt;/h2>
 &lt;ul>
 &lt;li>목적 : Legal Subgroup 4차 회의&lt;/li>
-&lt;li>일시 : 2024년 8월 13일(수) 14:00 ~ 15:30&lt;/li>
-&lt;li>장소 : ETRI 서울사무소&lt;/li>
+&lt;li>일시 : 2024년 8월 13일(수) 14:00 ~ 17:00&lt;/li>
+&lt;li>장소 : ETRI 서울사무소 중회의실&lt;/li>
 &lt;/ul>
 &lt;h2 id="agenda">Agenda&lt;/h2>
 &lt;table>
@@ -24,20 +24,20 @@
 &lt;/tr>
 &lt;tr>
 &lt;td>1&lt;/td>
-&lt;td>(소송사례) Jacobsen v. Katzer 소송: 계약위반과 저작권 위반&lt;/td>
-&lt;td>SK주식회사 조정년&lt;/td>
+&lt;td>(Tooling) FOSSLight Scanner Update&lt;/td>
+&lt;td>LG전자 박원재&lt;/td>
 &lt;td>-&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>2&lt;/td>
-&lt;td>(주제발표) 오픈소스 라이선스 간 양립성 충돌 문제 조항과 판단 기준에 관한 연구(GPL 라이선스를 중심으로)&lt;/td>
-&lt;td>텔레칩스 연지영&lt;/td>
+&lt;td>(소송사례) Jacobsen v. Katzer 소송: 계약위반과 저작권 위반&lt;/td>
+&lt;td>현대모비스 김형진&lt;/td>
 &lt;td>-&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>3&lt;/td>
-&lt;td>(Tooling) FOSSLight Scanner Update&lt;/td>
-&lt;td>LG전자 박원재&lt;/td>
+&lt;td>(주제발표) 오픈소스 라이선스 간 양립성 충돌 문제 조항과 판단 기준에 관한 연구(GPL 라이선스를 중심으로)&lt;/td>
+&lt;td>텔레칩스 연지영&lt;/td>
 &lt;td>-&lt;/td>
 &lt;/tr>
 &lt;/tbody>
