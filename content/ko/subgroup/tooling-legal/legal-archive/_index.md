@@ -1,7 +1,6 @@
-﻿
----
-title: "Legal Group"
-weight: 4
+﻿---
+title: "Legal Group Archive"
+weight: 100
 type: docs
 description: Legal Group은 오픈소스 컴플라이언스와 관련된 분쟁 사례, 라이선스, 법률 쟁점에 대해 함께 학습하고 논의하기 위한 그룹입니다.
 ---
