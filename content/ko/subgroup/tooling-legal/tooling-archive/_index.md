@@ -1,6 +1,6 @@
 ---
-title: "Tooling Group"
-weight: 2
+title: "Tooling Group Archive"
+weight: 99
 type: docs
 description: >
   Tooling Group은 OpenSource Tool에 집중하여 협업을 하는 공간입니다. 
