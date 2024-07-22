@@ -1,5 +1,5 @@
 ---
-title: "Tooling & Legal Group (draft)"
+title: "Tooling & Legal Group"
 linkTitle: "T&L Group"
 weight: 2
 type: docs
