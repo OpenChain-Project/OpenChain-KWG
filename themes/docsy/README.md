@@ -1,1 +1,0 @@
-# OpenChain Koera Work Group

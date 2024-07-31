@@ -1,8 +1,6 @@
-
-public/
+/public
 resources/
 node_modules/
-tech-doc-hugo
-.vscode/
+package-lock.json
+.hugo_build.lock
 .DS_Store
-.idea/
