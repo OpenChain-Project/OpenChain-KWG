@@ -12,6 +12,9 @@ env:
   REPO_OWNER: ${{ github.repository_owner }}
 
 jobs:
+  permissions:
+    id-token: write
+    pages: write
   deploy:
     runs-on: ubuntu-22.04
     concurrency:
