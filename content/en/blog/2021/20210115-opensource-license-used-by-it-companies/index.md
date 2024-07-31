@@ -26,4 +26,4 @@ Measures the contributions of members of a commercial organization using publicl
 According to the analysis score, Google is at the forefront, with Microsoft and Red Hat coming next. Samsung is ranked 29th for Korean companies and LG Electronics is ranked 71st. 
 
 ## License Status used by Major Companies
-See [Open Source License Usage Survey]((https://solutionshub.epam.com/blog/post/examining-open-source-license-usage))
+See [Open Source License Usage Survey](https://solutionshub.epam.com/blog/post/examining-open-source-license-usage)
