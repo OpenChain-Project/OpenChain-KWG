@@ -18,6 +18,8 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
     permissions:
       id-token: write
+      pages: write
+      contents: write
     steps:
       - uses: actions/checkout@v4
         with:
