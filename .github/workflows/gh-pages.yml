@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main  # <-- specify the branch you want to deploy from
+      - master  # <-- specify the branch you want to deploy from
   pull_request:
 
 env:
