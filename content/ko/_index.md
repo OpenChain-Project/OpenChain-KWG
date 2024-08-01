@@ -3,7 +3,7 @@ title: OpenChain KWG
 ---
 
 {{< blocks/cover title="Welcome to OpenChain Korea Work Group!" image_anchor="top" height="full" >}}
-<a class="btn btn-lg btn-primary me-3 mb-4" href="/about/">
+<a class="btn btn-lg btn-primary me-3 mb-4" href="/OpenChain-KWG/about/">
   About <i class="fas fa-arrow-alt-circle-right ms-2"></i>
 </a>
 <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/OpenChain-Project/OpenChain-KWG">
@@ -20,7 +20,7 @@ OpenChain KWG(Korea Work Group)은 Open Source 정신인 협업과 공유를 통
 
 
 {{% blocks/section color="primary" type="row" %}}
-{{% blocks/feature icon="fa-lightbulb" title="Join the Mailing List!" url="/about/subscribe"  %}}
+{{% blocks/feature icon="fa-lightbulb" title="Join the Mailing List!" url="/OpenChain-KWG/about/subscribe" %}}
 소프트웨어를 개발하여 배포하는 한국 기업/기관에서 Open Source Compliance 업무를 담당하는 분이라면 참여가 가능합니다.
 {{% /blocks/feature %}}
 

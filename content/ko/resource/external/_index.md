@@ -20,4 +20,6 @@ description: >
 자세한 내용은 다음 링크를 참고하세요 : [LINK](/OpenChain-KWG/blog/2020/20201123-ncsoft-compliance-book/)
 
 ## 오픈소스 도구
-...
+
+### 소스코드 스캐닝 도구
+- FOSSology: [FOSSology 소개 및 사용법](/OpenChain-KWG/guide/tools/1-fossology/)
