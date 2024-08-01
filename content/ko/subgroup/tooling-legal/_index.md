@@ -4,10 +4,15 @@ linkTitle: "T&L Group"
 weight: 2
 type: docs
 description: >
-  Tooling Subgroup과 Legal Subgroup이 통합되어 Tooling & Legal Subgroup으로 새롭게 시작합니다.
-  Tooling & Legal Subgroup은 Open Source 공급망 관리에 활용되는 도구와 더불어 
+  Tooling & Legal Subgroup은 Open Source 공급망 관리에 활용되는 도구와 더불어
   Open Source 컴플라이언스 관련 분쟁 사례, 라이선스 및 법률 쟁점에 대해 학습하고 논의하기 위한 그룹입니다.
 ---
+
+{{% alert title="Tip" %}}
+
+Tooling Subgroup과 Legal Subgroup이 통합되어 Tooling & Legal Subgroup으로 새롭게 시작합니다.
+
+{{% /alert %}}
 
 ## 목적
 

@@ -6,6 +6,12 @@ description: >
   The Tooling Group focuses on open source tools to collaborate.
 ---
 
+{{% alert title="Tip" %}}
+
+Tooling Group will be integrated with Legal Group in July 2024 and will operate as Tooling&Legal Group.
+
+{{% /alert %}}
+
 ## Purpose
 
 In the process of automating and streamlining the open source compliance process, the tools can help in an efficient way.
