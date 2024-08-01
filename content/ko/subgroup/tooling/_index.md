@@ -1,10 +1,17 @@
 ---
-title: "Tooling Group Archive"
+title: "Tooling Group"
 weight: 99
 type: docs
 description: >
-  Tooling Group은 OpenSource Tool에 집중하여 협업을 하는 공간입니다. 
+  Tooling Group은 OpenSource Tool에 집중하여 협업을 하는 공간입니다.
 ---
+
+{{% alert title="Tip" %}}
+
+Tooling Group은 2024년 7월, Legal Group과 통합되어 Tooling&Legal Group으로 운영됩니다.
+
+{{% /alert %}}
+
 
 ## 목적
 

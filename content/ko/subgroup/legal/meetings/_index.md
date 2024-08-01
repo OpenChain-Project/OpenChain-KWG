@@ -1,7 +1,7 @@
 ﻿---
 title: "Meetings"
 linkTitle: "Meetings"
-weight: 5
+weight: 20
 date: 2023-08-12
 type: docs
 description: 회의
