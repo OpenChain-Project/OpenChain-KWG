@@ -3,6 +3,7 @@ title: "Contact"
 linkTitle: "Contact"
 weight: 10
 type: docs
+categories: ["about"]
 description: >
   OpenChain KWG의 메일링 리스트로 연락하세요.
 ---
