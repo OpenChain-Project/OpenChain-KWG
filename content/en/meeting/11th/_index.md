@@ -26,7 +26,7 @@ description: >
 | 2 | OpenChain KWG Update | Haksung Jang, SK telecom | [OpenChain_Korea_20210930_update.pptx](OpenChain_Korea_20210930_update.pptx) |
 | 3 | Flow of change in Open Source License | Sean Kim, Kakao | [opensource_license_flow.pdf](./20210930_opensource_license_flow_kakao.pdf) | 
 | 4 | Introduction of Samsung Electronics' open source policy and process | Yoonhwan Jung, Samsung Electronics | - | 
-| 5 | Recent trends <br> - Mandatory 'SBOM' by the US Government <br> - Github Codepilot Open Source License Controversy | Robin Hwang, Kakao | [opensource_trend.pdf](./20210930_opensource_trend_kakao.pdf) | 
+| 5 | Recent trends <br> - Mandatory 'SBOM' by the US Government <br> - Github Copilot Open Source License Controversy | Robin Hwang, Kakao | [opensource_trend.pdf](./20210930_opensource_trend_kakao.pdf) | 
 | 6 | Small group meeting | All | - |
 | 7 | Free Discussion | All | - |
 
