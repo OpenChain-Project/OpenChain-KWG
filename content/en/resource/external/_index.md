@@ -20,5 +20,22 @@ description: >
 
 For more information, refer to the following link: [LINK](/OpenChain-KWG/blog/2020/20201123-ncsoft-compliance-book/)
 
-## Open source tools
-...
+## Open Source Tools
+
+### Source Code Scanning Tools
+- FOSSology: [FOSSology Introduction and Usage](/OpenChain-KWG/guide/tools/1-fossology/)
+
+### Dependency Analysis Tools
+- ORT (OSS Review Toolkit) : https://github.com/oss-review-toolkit/ort#analyzer
+
+- FOSSLight Dependency Scanner : https://github.com/fosslight/fosslight_dependency_scanner
+
+### SBOM Management Tools
+- SW360: [SW360 Introduction and Usage](/OpenChain-KWG/guide/tools/2-sw360/)
+- FOSSLight: https://fosslight.org
+
+### Open Source Compliance Artifact Generation Tools
+- Open Source Notice Generation Tools - onot: https://github.com/sktelecom/onot
+
+### Open Source Compliance Output Archive Tool
+- SK Telecom Open Source Website Case: https://github.com/sktelecom/sktelecom.github.io
