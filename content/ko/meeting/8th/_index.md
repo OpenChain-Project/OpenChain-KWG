@@ -3,6 +3,8 @@ title: "8th Meeting"
 linkTitle: "8th Meeting"
 weight: 8
 type: docs
+categories: ["meeting"]
+tags: ["현대자동차", "SCA", "Olive"]
 description: >
  Online Meeting, Dec 2020
 ---

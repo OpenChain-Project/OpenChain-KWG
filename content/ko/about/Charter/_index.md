@@ -3,6 +3,7 @@ title: "Charter"
 linkTitle: "Charter"
 weight: 2
 type: docs
+categories: ["about"]
 description: >
   OpenChain KWG의 거버넌스를 위한 문서입니다.
 ---

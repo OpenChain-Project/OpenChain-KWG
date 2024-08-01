@@ -4,6 +4,8 @@ linkTitle: "오픈소스 라이선스 연구"
 weight: 3
 date: 2023-08-12
 type: docs
+categories: ["legal"]
+tags: ["오픈소스라이선스"]
 description: >
   오픈소스 라이선스 연구 페이지
 ---

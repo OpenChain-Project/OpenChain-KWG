@@ -3,6 +3,8 @@ title: "External Resources"
 linkTitle: "External Resources"
 weight: 3
 type: docs
+categories: ["resource"]
+tags: ["교육자료"]
 description: >
   교육, 학습을 위해 활용가능한 외부 자료
 ---

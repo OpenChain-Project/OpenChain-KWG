@@ -4,6 +4,8 @@ linkTitle: "12th Meeting"
 weight: 12
 date: 2023-10-11
 type: docs
+categories: ["tooling"]
+tags: ["Labrador"]
 description: >
   Tooling SG 12th Meeting
 ---

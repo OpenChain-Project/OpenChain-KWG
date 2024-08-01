@@ -3,6 +3,8 @@ title: "10th Meeting"
 linkTitle: "10th Meeting"
 weight: 10
 type: docs
+categories: ["meeting"]
+tags: ["FOSSLight", "Google OSV", "Google Insight", "NIPA"]
 description: >
  Online Meeting, June 2021
 ---

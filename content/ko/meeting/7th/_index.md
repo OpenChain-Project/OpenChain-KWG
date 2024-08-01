@@ -3,6 +3,8 @@ title: "7th Meeting"
 linkTitle: "7th Meeting"
 weight: 7
 type: docs
+categories: ["meeting"]
+tags: ["LG전자"]
 description: >
  Online Meeting, Sep 2020
 ---

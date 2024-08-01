@@ -2,6 +2,8 @@
 title: "17th Meeting"
 weight: 17
 type: docs
+categories: ["meeting"]
+tags: ["ISO/IEC18974", "AI Compliance", "Getty Images", "Stability AI", "오소리", "FOSSLight", "Olive", "onot"]
 description: >
  2023년 3월 28일 at 라인플러스 (분당구 서현동)
 ---

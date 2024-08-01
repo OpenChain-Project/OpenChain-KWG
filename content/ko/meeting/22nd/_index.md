@@ -2,6 +2,8 @@
 title: "22nd Meeting"
 weight: 22
 type: docs
+categories: ["meeting"]
+tags: ["CJ", "Orange", "ISO/IEC18974", "SBOM"]
 description: >
  2024년 6월 20일 (목) / CJ Talent Training Center
 ---

@@ -4,6 +4,8 @@ title: "Elastic License 2.0 그리고 진화하는 오픈소스 라이선스"
 linkTitle: "Elastic License 2.0"
 description: "Elastic License 2.0의 작성 배경을 설명합니다"
 author: Haksung Jang ([@haksungjang](https://haksungjang.github.io/))
+categories: ["blog"]
+tags: ["오픈소스라이선스", "Elastic License"]
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"

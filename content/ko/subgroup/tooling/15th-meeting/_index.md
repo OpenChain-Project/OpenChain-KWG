@@ -4,6 +4,8 @@ linkTitle: "15th Meeting"
 weight: 15
 date: 2023-10-13
 type: docs
+categories: ["tooling"]
+tags: ["XSCAN"]
 description: >
   Tooling SG 15th Meeting
 ---

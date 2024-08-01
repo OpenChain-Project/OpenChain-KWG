@@ -4,6 +4,8 @@ title: "SaaS로 서비스를 제공할 때에도 오픈소스 컴플라이언스
 linkTitle: "SaaS와 컴플라이언스"
 description: "Open Source Compliance for SaaS Vendors"
 author: 장학성
+categories: ["blog"]
+tags: ["SaaS"]
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"

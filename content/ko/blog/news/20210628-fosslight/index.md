@@ -3,6 +3,8 @@ date: 2021-06-28
 title: "오픈소스SW 관리 툴 ‘포스라이트’ 공개한 LG전자, “글로벌 표준 거듭나겠다”"
 description: ""
 author: 디지털데일리 백지영 기자
+categories: ["blog"]
+tags: ["LG전자", "FOSSLight"]
 resources:
 - src: "**.{png,jpg,jpeg}"
   title: "Image #:counter"

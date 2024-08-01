@@ -4,6 +4,8 @@ linkTitle: "8th Meeting"
 weight: 8
 date: 2023-02-08
 type: docs
+categories: ["tooling"]
+tags: ["Debricked"]
 description: >
   Tooling SG 8th Meeting
 ---

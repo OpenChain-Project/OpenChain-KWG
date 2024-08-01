@@ -4,6 +4,8 @@ linkTitle: "Legal SG 4th Meeting"
 weight: 2
 date: 2024.4월 24일 15:00~17:00
 type: docs
+categories: ["legal"]
+tags: ["Orange", "특허", "분쟁사례"]
 description: Legal SG 4th Meeting 
 ---
 

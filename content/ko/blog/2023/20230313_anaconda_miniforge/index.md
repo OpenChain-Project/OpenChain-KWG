@@ -4,6 +4,8 @@ title: "Anaconda 꼭 사서 쓰세요. 아니라면 conda-forge!"
 linkTitle: "Anaconda 꼭 사서 쓰세요. 아니라면 conda-forge!"
 description: Anaconda를 상용 목적으로 사용하려면 유료 버전을 구매해야 합니다. 200인 이상 기업의 개발자가 Anaconda를 사용하는 것은 상용 목적에 해당합니다. 
 author: 장학성
+categories: ["blog"]
+tags: ["anaconda"]
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
@@ -15,7 +17,7 @@ resources:
 
 Python 개발 환경 만들면서 Anaconda 많이 사용하시지 않나요? Python은 간단한 업무 자동화부터 데이터 분석, 인공지능 학습, 모델링 작업 등에 많이 사용되고 있는데요, 여러 Python 프로젝트 개발을 수행하다 보면 package 버전이 충돌하는 불편함이 생길 수 있습니다. Anaconda는 개발 프로젝트별로 가상 환경을 제공하여 버전 충돌을 방지할 수 있다는 장점이 있으며, [홈페이지](https://www.anaconda.com/)에서 쉽게 다운받아 설치가 간단하여 널리 사용되고 있습니다. 
 
-![[https://www.anaconda.com/](https://www.anaconda.com/)](Untitled.png)
+![](Untitled.png)
 
 [https://www.anaconda.com/](https://www.anaconda.com/)
 
@@ -25,13 +27,13 @@ Python 개발 환경 만들면서 Anaconda 많이 사용하시지 않나요? Pyt
 
 따라서, 200명 이상의 기업에서 근무하는 개발자라면 Anaconda 웹사이트에서 Pro 이상의 라이선스를 구매해야 합니다. 
 
-![[https://www.anaconda.com/pricing](https://www.anaconda.com/pricing)](Untitled%201.png)
+![](Untitled%201.png)
 
 [https://www.anaconda.com/pricing](https://www.anaconda.com/pricing)
 
 조금 자세히 살펴보면, 일반적으로 Anaconda 설치를 위해서는 Anaconda 홈페이지에서 [Anaconda Distribution](https://www.anaconda.com/products/distribution)을 무료로 다운 받을 수 있습니다. 
 
-![[https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution)](Untitled%202.png)
+![](Untitled%202.png)
 
 [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution)
 
@@ -39,7 +41,7 @@ Python 개발 환경 만들면서 Anaconda 많이 사용하시지 않나요? Pyt
 
 Anaconda사는 [Anaconda Repository](https://repo.anaconda.com)를 호스팅하며 8천 개 이상의 오픈소스 package를 제공하고, 사용자는 conda install PACKAGENAME 명령어로 이들 package를 안정적으로 설치/관리 할 수 있습니다. 
 
-![[https://repo.anaconda.com/](https://repo.anaconda.com/)](Untitled%203.png)
+![](Untitled%203.png)
 
 [https://repo.anaconda.com/](https://repo.anaconda.com/)
 
@@ -49,7 +51,7 @@ Anaconda사는 [Anaconda Repository](https://repo.anaconda.com)를 호스팅하�
 
 참고로, [Miniconda](https://docs.conda.io/en/latest/miniconda.html)는 Anaconda와 마찬가지로 conda package manager와 Python 및 최소한의 dependency를 설치하는 소프트웨어 패키지인데요, Miniconda를 사용하면서도 마찬가지로 Anaconda Repository에 Access하여 package를 다운 받아 사용하게 되며, Anaconda와 동일하게 유료 구매 대상으로 간주될 수 있습니다. 
 
-![[https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)](Untitled%204.png)
+![](Untitled%204.png)
 
 [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
 
@@ -62,13 +64,13 @@ Anaconda사는 [Anaconda Repository](https://repo.anaconda.com)를 호스팅하�
 
 Anaconda사는 [conda](https://conda.io/)라는 package manager를 오픈소스로 공개하여 관리하고 있습니다. [conda](https://github.com/conda/conda) 자체는 [BSD-3-Clause](https://github.com/conda/conda/blob/main/LICENSE.txt) 라이선스로 공개된 오픈소스여서 기업이 무료로 사용하는 데 문제되지 않습니다. 
 
-![[https://github.com/conda/conda](https://github.com/conda/conda)](Untitled%205.png)
+![](Untitled%205.png)
 
 [https://github.com/conda/conda](https://github.com/conda/conda)
 
 conda는 package 설치/관리를 위해 설치할 package를 찾기 위한 저장소 위치가 필요한데요, 이를 channel이라고 칭합니다. 기본 channel이 바로 [Anaconda Repository](https://repo.anaconda.com/)입니다. 그런데, commuinity 기반의 repository가 또 있습니다. 바로 [conda-forge](https://conda-forge.org/)인데요, 
 
-![[https://conda-forge.org/](https://conda-forge.org/)](featured_condaforge.png)
+![](featured_condaforge.png)
 
 [https://conda-forge.org/](https://conda-forge.org/)
 
@@ -110,7 +112,7 @@ channels:
 
 한 걸음 더 나아가서 [Miniforge](https://github.com/conda-forge/miniforge)는 conda 설치를 위한 최소의 installer를 제공하는 오픈소스 프로젝트로, 기본 설치 시 channel에 conda-forge를 추가합니다. 또한, Miniforge는 Apple M1을 포함한 다양한 CPU 아키텍처를 지원한다고도 알려져 있습니다.
 
-![[https://github.com/conda-forge/miniforge](https://github.com/conda-forge/miniforge)](Untitled%207.png)
+![](Untitled%207.png)
 
 [https://github.com/conda-forge/miniforge](https://github.com/conda-forge/miniforge)
 

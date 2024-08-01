@@ -4,6 +4,8 @@ linkTitle: "6th Meeting"
 weight: 6
 date: 2022-11-29
 type: docs
+categories: ["tooling"]
+tags: ["SCANOSS"]
 description: >
   Tooling SG 6th Meeting
 ---

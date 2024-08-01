@@ -4,6 +4,8 @@ title: "Log4j 2 보안 취약점 사태 (Log4Shell)"
 linkTitle: "Log4Shell RCE"
 description: "오픈소스 보안 이슈 Log4Shell과 관련된 내용을 정리합니다."
 author: Robin Hwang ([@revfactory](https://github.com/revfactory))
+categories: ["blog"]
+tags: ["log4j", "오픈소스보안"]
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
