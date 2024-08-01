@@ -4,6 +4,8 @@ title: "기업의 효과적인 오픈소스 관리 방안 (1) 글로벌 협력�
 linkTitle: "기업의 효과적인 오픈소스 관리 방안 (1) 글로벌 협력을 위한 OpenChain Project"
 description: 
 author: 장학성
+categories: ["blog"]
+tags: ["OpenChain"]
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"

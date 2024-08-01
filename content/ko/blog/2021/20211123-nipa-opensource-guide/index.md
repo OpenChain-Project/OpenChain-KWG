@@ -4,6 +4,8 @@ title: "NIPA, 공개소프트웨어의 활용을 위한 가이드 4종 발간"
 linkTitle: "NIPA, 공개소프트웨어 가이드"
 description: "정보통신산업진흥원(이하 NIPA)은 기업과 기관, 단체(이하 기관)에서 공개소프트웨어를 안전하게 활용할 수 있도록 ‘NIPA 공개소프트웨어 가이드 4종’을 발간하였습니다."
 author: Robin Hwang ([@revfactory](https://github.com/revfactory))
+categories: ["blog"]
+tags: ["NIPA", "교육자료"]
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"

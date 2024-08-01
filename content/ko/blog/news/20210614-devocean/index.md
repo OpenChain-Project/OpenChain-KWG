@@ -5,6 +5,8 @@ description: "SK ICT 패밀리사 개발자와 외부 개발자 간 소통 채�
 ICT 지식 공유 및 문답·멘토링 제공<br>
 외부강연 통해 양방향 교류 촉진"
 author: 한국금융신문 정은경 기자
+categories: ["blog"]
+tags: ["SK텔레콤"]
 resources:
 - src: "**.{png,jpg,jpeg}"
   title: "Image #:counter"

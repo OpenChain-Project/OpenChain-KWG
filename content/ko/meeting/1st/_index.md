@@ -3,6 +3,8 @@ title: "1st Meeting"
 linkTitle: "1st Meeting"
 weight: 1
 type: docs
+categories: ["meeting"]
+tags: ["LG전자", "OpenChain"]
 description: >
   LG Electronics Seocho R&D Campus, Jan 2019
 ---

@@ -4,6 +4,8 @@ linkTitle: "14th Meeting"
 weight: 14
 date: 2023-10-13
 type: docs
+categories: ["tooling"]
+tags: ["AboutCode", "ScanCode"]
 description: >
   Tooling SG 14th Meeting
 ---

@@ -3,6 +3,8 @@ title: "6th Meeting"
 linkTitle: "6th Meeting"
 weight: 6
 type: docs
+categories: ["meeting"]
+tags: ["Kakao", "Olive", "dependency", "SK텔레콤", "기여", "공개"]
 description: >
  Online Meeting, Jun 2020
 ---

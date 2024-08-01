@@ -3,6 +3,8 @@ title: "11st Meeting"
 linkTitle: "11st Meeting"
 weight: 11
 type: docs
+categories: ["meeting"]
+tags: ["오픈소스라이선스", "삼성전자", "SBOM", "Copilot", "분쟁사례"]
 description: >
  Online Meeting, September 2021
 ---

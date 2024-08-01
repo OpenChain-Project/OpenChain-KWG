@@ -4,6 +4,8 @@ linkTitle: "5th Meeting"
 weight: 5
 date: 2022-08-30
 type: docs
+categories: ["tooling"]
+tags: ["DejaCode"]
 description: >
   Tooling SG 5th Meeting
 ---

@@ -3,6 +3,8 @@ title: "2nd Meeting"
 linkTitle: "2nd Meeting"
 weight: 2
 type: docs
+categories: ["meeting"]
+tags: ["삼성전자", "fossology", "ClearlyDefined"]
 description: >
  Samsung Electronics, Seoul R&D Campus, Jun 2019
 ---

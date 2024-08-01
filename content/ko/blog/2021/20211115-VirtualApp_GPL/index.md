@@ -4,6 +4,8 @@ title: "중국 첫 GPL 소송 사례, VirtualApp"
 linkTitle: "중국 첫 GPL 소송 사례"
 description: "피고는 GPL 위반으로 원고에게 배상금 50만 위안 지급 선고"
 author: 장학성
+categories: ["blog"]
+tags: ["중국", "GPL", "분쟁사례"]
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"

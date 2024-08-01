@@ -4,6 +4,8 @@ linkTitle: "3rd Meeting"
 weight: 3
 date: 2022-05-25
 type: docs
+categories: ["tooling"]
+tags: ["LINE", "FOSSLight", "Olive", "삼성전자"]
 description: >
   Tooling SG 3rd Meeting
 ---

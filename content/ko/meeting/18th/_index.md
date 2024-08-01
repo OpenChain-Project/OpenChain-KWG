@@ -2,6 +2,8 @@
 title: "18th Meeting"
 weight: 18
 type: docs
+categories: ["meeting"]
+tags: ["Copilot", "FOSSLight", "오픈소스보안", "오소리"]
 description: >
  2023년 6월 22일 at 카카오 (판교아지트)
 ---

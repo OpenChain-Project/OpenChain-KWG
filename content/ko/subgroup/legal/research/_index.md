@@ -1,14 +1,12 @@
-
 ---
 title: "Research"
 linkTitle: "Research"
 weight: 10
+date: 2023-08-12
 type: docs
-description: >
-menu:
-  main:
-    weight: 10
+description: 
 ---
+
 
 Legal 그룹 연구 사례
 

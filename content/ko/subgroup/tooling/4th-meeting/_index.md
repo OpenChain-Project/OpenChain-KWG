@@ -4,6 +4,8 @@ linkTitle: "4th Meeting"
 weight: 4
 date: 2022-07-20
 type: docs
+categories: ["tooling"]
+tags: ["Opossum", "ETRI", "OLA", "FOSSLight"]
 description: >
   Tooling SG 4th Meeting
 ---

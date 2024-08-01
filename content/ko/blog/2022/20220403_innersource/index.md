@@ -4,6 +4,8 @@ title: "이너소스 도입을 위한 과제와 효과"
 linkTitle: "이너소스 도입을 위한 과제와 효과"
 description: 
 author: 장학성
+categories: ["blog"]
+tags: ["innersource"]
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"

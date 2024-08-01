@@ -4,6 +4,8 @@ title: "OSPO란?"
 linkTitle: "OSPO란?"
 description: "OSPO<sub>Open Source Program Office</sub>의 정의와 가이드"
 author: Haksung Jang ([@haksungjang](https://haksungjang.github.io/))
+categories: ["blog"]
+tags: ["OSPO"]
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"

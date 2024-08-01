@@ -4,6 +4,8 @@ linkTitle: "16th Meeting"
 weight: 16
 date: 2023-10-13
 type: docs
+categories: ["tooling"]
+tags: ["ORT"]
 description: >
   Tooling SG 16th Meeting
 ---

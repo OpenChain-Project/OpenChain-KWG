@@ -4,6 +4,8 @@ title: "Open Source Compliance in the Enterprise 요약 자료"
 linkTitle: "Open Source Compliance in the Enterprise"
 description: "NCSOFT에서 Open Source Compliance in the Enterprise 책을 요약 정리하여 누구나 열람할 수 있도록 GitHub에 공개하였습니다."
 author: Jiho Han ([@PeterHanJiho](https://github.com/PeterHanJiho))
+categories: ["blog"]
+tags: ["교육자료", "NCSOFT"]
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"

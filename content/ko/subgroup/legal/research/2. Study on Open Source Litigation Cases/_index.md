@@ -4,6 +4,8 @@ linkTitle: "분쟁 사례 연구"
 weight: 2
 date: 2023-08-12
 type: docs
+categories: ["legal"]
+tags: ["분쟁사례"]
 description: >
   소송사례 연구 페이지
 ---

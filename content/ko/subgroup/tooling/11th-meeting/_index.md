@@ -4,6 +4,8 @@ linkTitle: "11th Meeting"
 weight: 11
 date: 2023-08-02
 type: docs
+categories: ["tooling"]
+tags: ["Open SCA", "SPDX"]
 description: >
   Tooling SG 11th Meeting
 ---

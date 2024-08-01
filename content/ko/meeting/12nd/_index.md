@@ -2,6 +2,8 @@
 title: "12nd Meeting"
 weight: 12
 type: docs
+categories: ["meeting"]
+tags: ["GPL", "중국", "분쟁사례", "Stockfish", "ChessBase", "SFC", "Vizio", "카카오뱅크", "오픈소스보안"]
 description: >
  Online Meeting, December 2021
 ---

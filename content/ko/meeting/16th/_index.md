@@ -2,6 +2,8 @@
 title: "16th Meeting"
 weight: 16
 type: docs
+categories: ["meeting"]
+tags: ["Copilot", "Olive", "SBOM", "SPDX", "onot"]
 description: >
  2022년 12월, 온라인 미팅
 ---
