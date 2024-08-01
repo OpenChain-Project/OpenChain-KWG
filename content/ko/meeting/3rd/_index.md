@@ -3,6 +3,8 @@ title: "3rd Meeting"
 linkTitle: "3rd Meeting"
 weight: 3
 type: docs
+categories: ["meeting"]
+tags: ["SK텔레콤", "OpenChain", "NCSOFT"]
 description: >
  SK telecom - Samhwa Tower 3F Room 4, Sep 2019
 ---

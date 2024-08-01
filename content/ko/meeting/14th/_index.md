@@ -2,6 +2,8 @@
 title: "14th Meeting"
 weight: 14
 type: docs
+categories: ["meeting"]
+tags: ["SFC", "Vizio", "FOSSID"]
 description: >
  Online Meeting, June 2022
 ---

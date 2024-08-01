@@ -4,6 +4,8 @@ title: "GPLv2도 설치정보를 요구한다고?"
 linkTitle: "GPLv2도 설치정보를 요구한다고?"
 description: "GPLv2도 설치정보를 요구하는가에 대한 저자의 분석 결과를 설명한다."
 author: 원문 저작자 - P. McCoy Smith, 번역 - 장학성
+categories: ["blog"]
+tags: ["GPL"]
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"

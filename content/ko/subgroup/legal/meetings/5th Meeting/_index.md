@@ -4,6 +4,8 @@ linkTitle: "Legal SG 5th Meeting"
 weight: 2
 date: 2024.8월 (날짜 및 시간 미정)
 type: docs
+categories: ["legal"]
+tags: ["Jacobsen", "Kztzer", "docker", "분쟁사례"]
 description: Legal SG 5th Meeting 
 ---
 

@@ -3,6 +3,8 @@ title: "Curriculum"
 linkTitle: "Curriculum"
 weight: 2
 type: docs
+categories: ["resource"]
+tags: ["교육자료"]
 description: >
   OpenChain Curriculum을 한국어로 번역하여 공개합니다.
 ---

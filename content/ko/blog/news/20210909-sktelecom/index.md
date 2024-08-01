@@ -3,6 +3,8 @@ date: 2021-09-09
 title: "SKT, 오픈소스 컴플라이언스 분야 ISO 국제인증 획득"
 description: 하나의 S/W에도 수백 개 오픈소스 활용… 관리 체계 중요성 나날이 커져<br>오픈소스 정책과 컴플라이언스 및 내외 개발자간 소통 공간 확대 국제적 인정 받아<br>“오픈소스는 AI 등 빠른 기술변화 대처에 필수, 생태계 확장 및 사회적가치 창출 기대”
 author: SK telecom Newsroom
+categories: ["blog"]
+tags: ["SK텔레콤", "ISO/IEC5230"]
 resources:
 - src: "**.{png,jpg,jpeg}"
   title: "Image #:counter"

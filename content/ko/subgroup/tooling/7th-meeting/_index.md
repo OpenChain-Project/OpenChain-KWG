@@ -4,6 +4,8 @@ linkTitle: "7th Meeting"
 weight: 7
 date: 2023-01-11
 type: docs
+categories: ["tooling"]
+tags: ["FOSSA", "ORT"]
 description: >
   Tooling SG 7th Meeting
 ---

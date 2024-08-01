@@ -4,6 +4,8 @@ title: "상용 AI 서비스에 공개 Dataset을 사용해도 되나요?"
 linkTitle: "상용 AI 서비스에 공개 Dataset을 사용해도 되나요?"
 description: "Can I use this publicly available dataset to build commercial AI software?"
 author: 장학성
+categories: ["blog"]
+tags: ["AI Compliance", "data"]
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"

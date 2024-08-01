@@ -4,6 +4,8 @@ title: "카카오 교육 자료 공개"
 linkTitle: "카카오 교육 자료"
 description: "카카오에서 사내 개발자를 위한 오픈소스 교육자료를 누구나 열람할 수 있도록 공개하였습니다"
 author: Robin Hwang ([@revfactory](https://github.com/revfactory))
+categories: ["blog"]
+tags: ["Kakao", "교육자료"]
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"

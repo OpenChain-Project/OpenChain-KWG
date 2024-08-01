@@ -4,6 +4,8 @@ linkTitle: "1st Meeting"
 weight: 1
 date: 2022-02-15
 type: docs
+categories: ["tooling"]
+tags: ["SCANOSS"]
 description: >
   Tooling SG 1st Meeting
 ---

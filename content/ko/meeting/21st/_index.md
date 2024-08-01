@@ -2,6 +2,7 @@
 title: "21st Meeting"
 weight: 21
 type: docs
+categories: ["meeting"]
 description: >
  2024년 3월 26일 (화) / 카카오 판교아지트
 ---

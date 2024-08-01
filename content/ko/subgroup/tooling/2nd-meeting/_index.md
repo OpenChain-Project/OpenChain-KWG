@@ -4,6 +4,8 @@ linkTitle: "2nd Meeting"
 weight: 2
 date: 2022-04-27
 type: docs
+categories: ["tooling"]
+tags: ["FOSSID", "삼성전자", "ETRI"]
 description: >
   Tooling SG 2nd Meeting
 ---

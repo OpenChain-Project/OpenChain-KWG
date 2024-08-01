@@ -4,6 +4,8 @@ linkTitle: "9th Meeting"
 weight: 9
 date: 2023-04-05
 type: docs
+categories: ["tooling"]
+tags: ["FOSSID", "Snyk"]
 description: >
   Tooling SG 9th Meeting
 ---

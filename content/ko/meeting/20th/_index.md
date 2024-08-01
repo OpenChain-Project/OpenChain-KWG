@@ -2,6 +2,8 @@
 title: "20th Meeting"
 weight: 20
 type: docs
+categories: ["meeting"]
+tags: ["카카오뱅크", "ISO/IEC18974"]
 description: >
  2023년 11월 15일 / 삼성전자 서초사옥
 ---

@@ -4,6 +4,8 @@ title: "SFC vs. Vizio 판결 겉핥기"
 linkTitle: "SFC vs. Vizio 판결 겉핥기"
 description: SFC와 Vizio의 GPL 소송에 대한 배경과 쟁점을 살펴 보겠습니다.
 author: 장학성
+categories: ["blog"]
+tags: ["SFC", "Vizio"]
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"

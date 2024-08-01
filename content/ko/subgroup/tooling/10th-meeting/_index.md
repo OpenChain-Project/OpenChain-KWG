@@ -4,6 +4,8 @@ linkTitle: "10th Meeting"
 weight: 10
 date: 2023-07-05
 type: docs
+categories: ["tooling"]
+tags: ["Black Duck"]
 description: >
   Tooling SG 10th Meeting
 ---

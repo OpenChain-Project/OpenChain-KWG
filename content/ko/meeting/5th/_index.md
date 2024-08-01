@@ -3,6 +3,8 @@ title: "5th Meeting"
 linkTitle: "5th Meeting"
 weight: 5
 type: docs
+categories: ["meeting"]
+tags: ["교육자료", "SW360"]
 description: >
  Conference Call, Mar 2020
 ---

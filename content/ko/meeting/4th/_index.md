@@ -3,6 +3,8 @@ title: "4th Meeting"
 linkTitle: "4th Meeting"
 weight: 4
 type: docs
+categories: ["meeting"]
+tags: ["KTDS", "관리포털", "fossology"]
 description: >
  Ktds - Bangbae office, Room 207, Dec 2019
 ---

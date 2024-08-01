@@ -4,6 +4,8 @@ linkTitle: "13th Meeting"
 weight: 13
 date: 2023-10-13
 type: docs
+categories: ["tooling"]
+tags: ["FOSSera", "관리포털"]
 description: >
   Tooling SG 13th Meeting
 ---
