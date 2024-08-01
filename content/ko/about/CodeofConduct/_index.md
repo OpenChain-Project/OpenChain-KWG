@@ -3,6 +3,7 @@ title: "Code of Conduct"
 linkTitle: "Code of Conduct"
 weight: 90
 type: docs
+categories: ["about"]
 description: >
   OpenChain KWG은 Contributor Covenant의 Code of Conduct(행동 강령)를 따릅니다.
 ---
