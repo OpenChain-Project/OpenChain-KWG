@@ -3,6 +3,7 @@ title: "가입 방법"
 linkTitle: "Subscribe"
 weight: 3
 type: docs
+categories: ["about"]
 description: >
   OpenChain KWG은 항상 열려있습니다. 
 ---
