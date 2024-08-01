@@ -3,7 +3,7 @@ title: OpenChain KWG
 ---
 
 {{< blocks/cover title="Welcome to OpenChain Korea Work Group!" image_anchor="top" height="full" >}}
-<a class="btn btn-lg btn-primary me-3 mb-4" href="/about/">
+<a class="btn btn-lg btn-primary me-3 mb-4" href="/OpenChain-KWG/about/">
   About <i class="fas fa-arrow-alt-circle-right ms-2"></i>
 </a>
 <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/OpenChain-Project/OpenChain-KWG">
@@ -20,7 +20,7 @@ OpenChain KWG(Korea Work Group) is a group to create and share how to effectivel
 
 
 {{% blocks/section color="primary" type="row" %}}
-{{% blocks/feature icon="fa-lightbulb" title="Join the Mailing List!" url="/about/subscribe"  %}}
+{{% blocks/feature icon="fa-lightbulb" title="Join the Mailing List!" url="/OpenChain-KWG/about/subscribe"  %}}
 Anyone in charge of open source compliance at a Korean company that develops and distributes software can participate.
 {{% /blocks/feature %}}
 
@@ -29,7 +29,7 @@ With channels in Discord, you and your team know where to go to ask questions, s
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/OpenChain-Project/OpenChain-KWG" %}}
-Our activities are public on **GitHub** and all forms of contributions are welcome! Please create a [Pull Request](https://github.com/OpenChain-Project/OpenChain-KWG/pulls).
+Our activities are public on GitHub and all forms of contributions are welcome! Please create a [Pull Request](https://github.com/OpenChain-Project/OpenChain-KWG/pulls).
 {{% /blocks/feature %}}
 
 {{% /blocks/section %}}
