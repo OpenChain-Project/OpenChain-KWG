@@ -1,6 +1,6 @@
 ﻿---
 title: "17th Meeting"
-linkTitle: "T&L SG 17th Meeting"
+linkTitle: "17th Meeting"
 weight: 1
 date: 2024년 7월 22일
 type: docs
