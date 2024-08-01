@@ -23,3 +23,17 @@ description: >
 
 ### 소스코드 스캐닝 도구
 - FOSSology: [FOSSology 소개 및 사용법](/OpenChain-KWG/guide/tools/1-fossology/)
+
+### Dependency 분석 도구
+- ORT (OSS Review Toolkit) : https://github.com/oss-review-toolkit/ort#analyzer 
+- FOSSLight Dependency Scanner : https://github.com/fosslight/fosslight_dependency_scanner
+
+### SBOM 관리 도구
+- SW360: [SW360 소개 및 사용법](/OpenChain-KWG/guide/tools/2-sw360/)
+- FOSSLight: https://fosslight.org
+
+### 오픈소스 컴플라이언스 산출물 생성 도구
+- 오픈소스 고지문 생성도구 - onot: https://github.com/sktelecom/onot 
+
+### 오픈소스 컴플라이언스 산출물 보관 도구
+- SK텔레콤 오픈소스 웹사이트 사례: https://github.com/sktelecom/sktelecom.github.io
