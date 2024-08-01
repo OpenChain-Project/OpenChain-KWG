@@ -4,7 +4,7 @@ title: "한 달 걸리던 카카오톡 오픈소스 관리, 이틀이면 충분"
 description: "카카오, 오픈소스 관리 플랫폼 '올리브' 이달 말 출시"
 author: 남혁우 기자
 categories: ["blog"]
-tags: ["Kakao", "Olive"]
+tags: ["카카오", "Olive"]
 resources:
 - src: "**.{png,jpg,jpeg}"
   title: "Image #:counter"
