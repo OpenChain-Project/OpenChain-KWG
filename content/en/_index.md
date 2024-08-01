@@ -2,7 +2,7 @@
 title: OpenChain KWG
 ---
 
-{{< blocks/cover title="Welcome to OpenChain Korea Work Group!" image_anchor="top" height="full" >}}
+{{< blocks/cover title="OpenChain Korea Work Group" image_anchor="top" height="full" >}}
 <a class="btn btn-lg btn-primary me-3 mb-4" href="/OpenChain-KWG/about/">
   About <i class="fas fa-arrow-alt-circle-right ms-2"></i>
 </a>
