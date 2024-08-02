@@ -3,6 +3,8 @@ title: "0. OpenChain 살펴보기"
 linkTitle: "0. OpenChain"
 weight: 10
 type: docs
+categories: ["guide"]
+tags: ["OpenChain", "ISO/IEC5230", "ISO/IEC18974"]
 description: >
 ---
 

@@ -3,6 +3,8 @@ title: "3. 프로세스"
 linkTitle: "3. 프로세스"
 weight: 30
 type: docs
+categories: ["guide"]
+tags: ["프로세스"]
 description: >
 ---
 

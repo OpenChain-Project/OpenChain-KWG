@@ -3,6 +3,8 @@ title: "1. 조직"
 linkTitle: "1. 조직"
 weight: 10
 type: docs
+categories: ["guide"]
+tags: ["조직"]
 description: >
 ---
 

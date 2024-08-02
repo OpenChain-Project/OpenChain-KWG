@@ -3,6 +3,8 @@ title: "6. 준수"
 linkTitle: "6. 준수"
 weight: 60
 type: docs
+categories: ["guide"]
+tags: ["준수"]
 description: >
 ---
 
