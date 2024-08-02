@@ -3,6 +3,8 @@ title: "4. 도구"
 linkTitle: "4. 도구"
 weight: 40
 type: docs
+categories: ["guide"]
+tags: ["도구"]
 description: >
 ---
 

@@ -3,6 +3,8 @@ title: "2. 정책"
 linkTitle: "2. 정책"
 weight: 20
 type: docs
+categories: ["guide"]
+tags: ["정책"]
 description: >
 ---
 
