@@ -2,6 +2,8 @@
 title: "SW360"
 weight: 2
 type: docs
+categories: ["guide"]
+tags: ["sw360"]
 ---
 
 (Updated on August 29, 2023.)

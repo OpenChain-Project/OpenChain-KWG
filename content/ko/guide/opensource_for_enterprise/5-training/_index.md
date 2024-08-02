@@ -3,6 +3,8 @@ title: "5. 교육"
 linkTitle: "5. 교육"
 weight: 50
 type: docs
+categories: ["guide"]
+tags: ["교육"]
 description: >
 ---
 
