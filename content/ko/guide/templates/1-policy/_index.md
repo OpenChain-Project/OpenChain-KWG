@@ -2,6 +2,8 @@
 title: "오픈소스 정책"
 weight: 10
 type: docs
+categories: ["guide"]
+tags: ["정책"]
 ---
 
 {{< alert title="Note:" >}}
