@@ -17,7 +17,7 @@ description: Tooling & Legal Subgroup 17th Meeting
 | No | Subject | Speaker | Slide |
 |----|-----------------|------|------|
 | 0 | Community Updates & New Issues | ETRI Park Jeong-sook | - |
-| 1 | (Tooling) FOSSLight Scanner Update | LG Electronics Park Won-jae | - |
+| 1 | (Tooling) FOSSLight Scanner Update | LG Electronics Kim Soim | - |
 | 2 | (Litigation Case) Jacobsen v. Katzer Litigation: Breach of Contract and Copyright Infringement | Hyundai Mobis Kim Hyung-jin | - |
 | 3 | (Topic Presentation) A Study on the Compatibility Conflicts and Criteria of Open Source Licenses (Focusing on GPL License) | Telechips Yeon Ji-young | - |
 
