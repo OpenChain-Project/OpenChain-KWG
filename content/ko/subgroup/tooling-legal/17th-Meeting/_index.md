@@ -11,7 +11,7 @@ description: Tooling & Legal Subgroup 17th Meeting
 
 ## Schedule
 
-* 목적 : Legal Subgroup 4차 회의
+* 목적 : Tooling and Legal Subgroup 17차 회의
 * 일시 : 2024년 8월 13일(수) 14:00 ~ 17:00
 * 장소 : ETRI 서울사무소 중회의실
 
