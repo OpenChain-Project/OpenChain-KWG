@@ -3,7 +3,7 @@ title: "15th Meeting"
 weight: 15
 type: docs
 categories: ["meeting"]
-tags: ["현대자동차", "현대오토에버", "SFC", "Vizio"]
+tags: ["현대자동차", "현대오토에버", "SFC v. Vizioo"]
 description: >
  2022년 9월, 온라인 미팅
 ---

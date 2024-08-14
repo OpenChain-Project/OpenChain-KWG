@@ -5,7 +5,7 @@ weight: 1
 date: 2024년 7월 22일
 type: docs
 categories: ["Tooling&Legal"]
-tags: ["FOSSLight", "Jacobsen vs. Katzer", "GPL", "compatibility", "Lawsuit", "Scanner"]
+tags: ["FOSSLight", "Jacobsen vs. Katzer", "GPL", "compatibility", "분쟁사례", "Scanner"]
 description: Tooling & Legal Subgroup 17th Meeting
 ---
 
