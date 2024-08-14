@@ -5,7 +5,7 @@ type: docs
 categories: ["meeting"]
 # tags: ["CJ", "Orange", "ISO/IEC18974", "SBOM"]
 description: >
-September 10, 2024 (Tue) / ETRI Seoul Office
+ September 10, 2024 (Tue) / ETRI Seoul Office
 ---
 
 ## Schedule

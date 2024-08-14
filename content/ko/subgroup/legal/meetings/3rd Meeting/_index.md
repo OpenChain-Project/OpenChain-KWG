@@ -5,7 +5,7 @@ weight: 2
 date: 2024-2-14(수) 15:00~17:20
 type: docs
 categories: ["legal"]
-tags: ["SFC", "Vizio", "중국", "GPL", "분쟁사례"]
+tags: ["SFC v. Vizio", "중국", "GPL", "분쟁사례"]
 description: Legal SG 3rd Meeting 
 ---
 
