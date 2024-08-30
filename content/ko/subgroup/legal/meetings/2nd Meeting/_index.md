@@ -5,7 +5,7 @@ weight: 2
 date: 2023-12-13(수) 16:30~18:00
 type: docs
 categories: ["legal"]
-tags: ["Stability AI", "GPL", "분쟁사례"]
+tags: ["Getty Images v. Stability AI", "GPL", "분쟁사례"]
 description: Legal SG 2nd Meeting 
 ---
 
