@@ -18,6 +18,13 @@ description: >
 | Time | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
 | 14:00~14:10 | Welcome & Opening | ETRI | - |
+| 14:10~14:20 | OpenChain Global Update  | 	Shane Coughlan, Linux Foundation |  |
+| 14:20~14:40 | OpenChain Korea Update | 	장학성, SK텔레콤 | - |
+| 14:40~15:10 | ETRI 오픈소스 거버넌스 소개 | 박정숙, ETRI |  -  |
+| 15:10~15:40 | 글로벌 자동차 제조사가 요구하는 오픈소스 라이선스 준수 활동 (가제)  | 티맵모빌리티 | - |
+| 15:40~16:00 | Break  | All | -  |
+| 16:00~16:30 | 오픈소스 라이선스 간 양립성 충돌 문제 조항과 판단 기준에 관한 연구(GPL 라이선스를 중심으로)  | 연지영, 텔레칩스 |  - |
+| 16:30~17:00 | 온보딩 TF 운영 소기 | 이서연, 라인플러스 |  -  |
 
 
 ## Sponsor
