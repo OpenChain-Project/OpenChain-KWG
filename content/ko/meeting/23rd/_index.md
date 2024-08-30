@@ -29,6 +29,11 @@ description: >
 
 ## Sponsor
 
+![](etri.png)
+
+
+![](mobis.png)
+
 
 ## 참석사 
 
