@@ -3,7 +3,7 @@ title: "23rd Meeting"
 weight: 23
 type: docs
 categories: ["meeting"]
-# tags: ["CJ", "Orange", "ISO/IEC18974", "SBOM"]
+tags: ["ETRI", "Copilot", "Google v. Oracle", "Getty Images v Stability AI", "GPL", "Compatibility"]
 description: >
  2024년 9월 10일 (화) / ETRI 서울사무소
 ---
