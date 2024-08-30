@@ -28,6 +28,12 @@ description: >
 
 ## Sponsor
 
+
+![](etri.png)
+
+
+![](mobis.png)
+
 ## Attendees
 
 ## Photo
