@@ -60,14 +60,14 @@ SPDX 3.0은 다음과 같은 이유로 기업의 오픈소스 관리에 중요�
 
 SPDX 3.0은 소프트웨어 개발 및 배포 과정에서 투명성, 보안, 컴플라이언스를 크게 향상시키는 강력한 도구입니다. 기업의 오픈소스 관리자는 이 표준을 이해하고 적용함으로써, 조직의 소프트웨어 관리 프로세스를 현대화하고 리스크를 줄일 수 있습니다.
 
-Citations:
-[1] [https://fossa.com/blog/understanding-using-spdx-license-identifiers-license-expressions/](https://fossa.com/blog/understanding-using-spdx-license-identifiers-license-expressions/)
-[2] [https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases](https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases)
-[3] [https://fossa.com/learn/spdx](https://fossa.com/learn/spdx)
-[4] [https://fossa.com/blog/sbom-examples-explained/](https://fossa.com/blog/sbom-examples-explained/)
-[5] [https://ossna2023.sched.com](https://ossna2023.sched.com/)
-[6] [https://ossna2023.sched.com/list/descriptions/](https://ossna2023.sched.com/list/descriptions/)
-[7] [https://fossa.com/blog/spdx-3-0/](https://fossa.com/blog/spdx-3-0/)
+Citations: <br>
+[1] [https://fossa.com/blog/understanding-using-spdx-license-identifiers-license-expressions/](https://fossa.com/blog/understanding-using-spdx-license-identifiers-license-expressions/)<br>
+[2] [https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases](https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases)<br>
+[3] [https://fossa.com/learn/spdx](https://fossa.com/learn/spdx)<br>
+[4] [https://fossa.com/blog/sbom-examples-explained/](https://fossa.com/blog/sbom-examples-explained/)<br>
+[5] [https://ossna2023.sched.com](https://ossna2023.sched.com/)<br>
+[6] [https://ossna2023.sched.com/list/descriptions/](https://ossna2023.sched.com/list/descriptions/)<br>
+[7] [https://fossa.com/blog/spdx-3-0/](https://fossa.com/blog/spdx-3-0/)<br>
 
 ## 2. SPDX 3.0의 핵심 기능
 
@@ -121,14 +121,14 @@ SPDX 3.0은 ISO/IEC 5962:2021 표준을 준수하며, 이는 글로벌 소프트
 
 SPDX 3.0의 이러한 핵심 기능들은 소프트웨어 공급망의 투명성, 보안, 그리고 컴플라이언스를 크게 개선하며, 현대적인 소프트웨어 개발 및 관리 요구사항을 충족시키는 데 중요한 역할을 합니다.
 
-Citations:
-[1] [https://scribesecurity.com/ko/blog/spdx-vs-cyclonedx-sbom-formats-compared/](https://scribesecurity.com/ko/blog/spdx-vs-cyclonedx-sbom-formats-compared/)
-[2] [https://github.com/spdx/spdx-3-model/releases](https://github.com/spdx/spdx-3-model/releases)
-[3] [https://olis.or.kr/license/licenseSPDX.do?mapcode=010107](https://olis.or.kr/license/licenseSPDX.do?mapcode=010107)
-[4] [https://ettrends.etri.re.kr/ettrends/203/0905203008/0905203008.html](https://ettrends.etri.re.kr/ettrends/203/0905203008/0905203008.html)
-[5] [https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases](https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases)
-[6] [https://www.prnewswire.com/news-releases/spdx-3-0-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases-302118321.html](https://www.prnewswire.com/news-releases/spdx-3-0-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases-302118321.html)
-[7] [https://www.gttkorea.com/news/articleView.html?idxno=5131](https://www.gttkorea.com/news/articleView.html?idxno=5131)
+Citations:<br>
+[1] [https://scribesecurity.com/ko/blog/spdx-vs-cyclonedx-sbom-formats-compared/](https://scribesecurity.com/ko/blog/spdx-vs-cyclonedx-sbom-formats-compared/)<br>
+[2] [https://github.com/spdx/spdx-3-model/releases](https://github.com/spdx/spdx-3-model/releases)<br>
+[3] [https://olis.or.kr/license/licenseSPDX.do?mapcode=010107](https://olis.or.kr/license/licenseSPDX.do?mapcode=010107)<br>
+[4] [https://ettrends.etri.re.kr/ettrends/203/0905203008/0905203008.html](https://ettrends.etri.re.kr/ettrends/203/0905203008/0905203008.html)<br>
+[5] [https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases](https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases)<br>
+[6] [https://www.prnewswire.com/news-releases/spdx-3-0-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases-302118321.html](https://www.prnewswire.com/news-releases/spdx-3-0-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases-302118321.html)<br>
+[7] [https://www.gttkorea.com/news/articleView.html?idxno=5131](https://www.gttkorea.com/news/articleView.html?idxno=5131)<br>
 
 ## 3. SPDX 3.0 프로필
 
@@ -199,15 +199,15 @@ AI/ML 프로필은 인공지능과 머신러닝 모델에 특화된 정보를 �
 
 각 프로필은 SPDX 3.0의 모듈화된 구조를 반영하며, 사용자는 필요에 따라 적절한 프로필을 선택하여 SPDX 문서를 생성할 수 있습니다. 이를 통해 소프트웨어 공급망의 다양한 측면을 효과적으로 문서화하고 관리할 수 있습니다.
 
-Citations:
-[1] [https://spdx.dev/leveraging-profiles-for-license-compliance-insights-from-spdx-mini-summit/](https://spdx.dev/leveraging-profiles-for-license-compliance-insights-from-spdx-mini-summit/)
-[2] [https://spdx.dev/providing-transparency-at-software-developments-core-process-build-time/](https://spdx.dev/providing-transparency-at-software-developments-core-process-build-time/)
-[3] [https://spdx.github.io/spdx-spec/v2.3/SPDX-license-list/](https://spdx.github.io/spdx-spec/v2.3/SPDX-license-list/)
-[4] [https://spdx.dev/capturing-software-vulnerability-data-in-spdx-3-0/](https://spdx.dev/capturing-software-vulnerability-data-in-spdx-3-0/)
-[5] [https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases](https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases)
-[6] [https://spdx.dev/understanding-spdx-profiles/](https://spdx.dev/understanding-spdx-profiles/)
-[7] [https://github.com/spdx/spdx-3-model/actions](https://github.com/spdx/spdx-3-model/actions)
-[8] [https://spdx.github.io/spdx-spec/v3.0/model/AI/AI/](https://spdx.github.io/spdx-spec/v3.0/model/AI/AI/)
+Citations:<br>
+[1] [https://spdx.dev/leveraging-profiles-for-license-compliance-insights-from-spdx-mini-summit/](https://spdx.dev/leveraging-profiles-for-license-compliance-insights-from-spdx-mini-summit/)<br>
+[2] [https://spdx.dev/providing-transparency-at-software-developments-core-process-build-time/](https://spdx.dev/providing-transparency-at-software-developments-core-process-build-time/)<br>
+[3] [https://spdx.github.io/spdx-spec/v2.3/SPDX-license-list/](https://spdx.github.io/spdx-spec/v2.3/SPDX-license-list/)<br>
+[4] [https://spdx.dev/capturing-software-vulnerability-data-in-spdx-3-0/](https://spdx.dev/capturing-software-vulnerability-data-in-spdx-3-0/)<br>
+[5] [https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases](https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases)<br>
+[6] [https://spdx.dev/understanding-spdx-profiles/](https://spdx.dev/understanding-spdx-profiles/)<br>
+[7] [https://github.com/spdx/spdx-3-model/actions](https://github.com/spdx/spdx-3-model/actions)<br>
+[8] [https://spdx.github.io/spdx-spec/v3.0/model/AI/AI/](https://spdx.github.io/spdx-spec/v3.0/model/AI/AI/)<br>
 
 ## **4. SPDX 3.0 데이터 모델**
 
@@ -404,15 +404,15 @@ SPDX 2.x에서 3.0으로 마이그레이션하는 과정은 다음과 같습니�
 
 이러한 구현 가이드를 따라 SPDX 3.0을 효과적으로 도입하고 활용할 수 있습니다.
 
-Citations:
-[1] [https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases](https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases)
-[2] [https://www.youtube.com/watch?v=iqVk-Sek8Pc](https://www.youtube.com/watch?v=iqVk-Sek8Pc)
-[3] [https://github.com/spdx/Spdx-Java-Library](https://github.com/spdx/Spdx-Java-Library)
-[4] [https://spdx.github.io/spdx-spec/v3.0/annexes/diffs-from-previous-editions/](https://spdx.github.io/spdx-spec/v3.0/annexes/diffs-from-previous-editions/)
-[5] [https://github.com/spdx/spdx-3-model/releases](https://github.com/spdx/spdx-3-model/releases)
-[6] [https://spdx.dev/use/spdx-tools/](https://spdx.dev/use/spdx-tools/)
-[7] [https://github.com/spdx/tools-python/blob/main/README.md](https://github.com/spdx/tools-python/blob/main/README.md)
-[8] [https://fossa.com/learn/spdx](https://fossa.com/learn/spdx)
+Citations:<br>
+[1] [https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases](https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases)<br>
+[2] [https://www.youtube.com/watch?v=iqVk-Sek8Pc](https://www.youtube.com/watch?v=iqVk-Sek8Pc)<br>
+[3] [https://github.com/spdx/Spdx-Java-Library](https://github.com/spdx/Spdx-Java-Library)<br>
+[4] [https://spdx.github.io/spdx-spec/v3.0/annexes/diffs-from-previous-editions/](https://spdx.github.io/spdx-spec/v3.0/annexes/diffs-from-previous-editions/)<br>
+[5] [https://github.com/spdx/spdx-3-model/releases](https://github.com/spdx/spdx-3-model/releases)<br>
+[6] [https://spdx.dev/use/spdx-tools/](https://spdx.dev/use/spdx-tools/)<br>
+[7] [https://github.com/spdx/tools-python/blob/main/README.md](https://github.com/spdx/tools-python/blob/main/README.md)<br>
+[8] [https://fossa.com/learn/spdx](https://fossa.com/learn/spdx)<br>
 
 ## 6. SBOM과 SPDX 3.0
 
@@ -470,15 +470,15 @@ SPDX 3.0은 NTIA(National Telecommunications and Information Administration)가 
 
 SPDX 3.0을 활용한 SBOM 관리는 단순히 규제 요구사항을 충족하는 것을 넘어, 조직의 소프트웨어 공급망 보안을 크게 강화하고 투명성을 높이는 데 기여합니다. 이는 궁극적으로 더 안전하고 신뢰할 수 있는 소프트웨어 생태계 구축으로 이어집니다.
 
-Citations:
-[1] [https://spdx.dev/capturing-software-vulnerability-data-in-spdx-3-0/](https://spdx.dev/capturing-software-vulnerability-data-in-spdx-3-0/)
-[2] [https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases](https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases)
-[3] [https://www.legitsecurity.com/blog/best-practices-for-managing-maintaining-sboms](https://www.legitsecurity.com/blog/best-practices-for-managing-maintaining-sboms)
-[4] [https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom](https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom)
-[5] [https://cybellum.com/blog/ntia-minimum-elements-for-a-software-bill-of-materials-sbom-a-guide/](https://cybellum.com/blog/ntia-minimum-elements-for-a-software-bill-of-materials-sbom-a-guide/)
-[6] [https://jfrog.com/devops-tools/article/best-practices-for-software-bill-of-materials-management/](https://jfrog.com/devops-tools/article/best-practices-for-software-bill-of-materials-management/)
-[7] [https://about.gitlab.com/blog/2022/10/25/the-ultimate-guide-to-sboms/](https://about.gitlab.com/blog/2022/10/25/the-ultimate-guide-to-sboms/)
-[8] [https://scribesecurity.com/sbom/how-to-generate-an-sbom/](https://scribesecurity.com/sbom/how-to-generate-an-sbom/)
+Citations:<br>
+[1] [https://spdx.dev/capturing-software-vulnerability-data-in-spdx-3-0/](https://spdx.dev/capturing-software-vulnerability-data-in-spdx-3-0/)<br>
+[2] [https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases](https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases)<br>
+[3] [https://www.legitsecurity.com/blog/best-practices-for-managing-maintaining-sboms](https://www.legitsecurity.com/blog/best-practices-for-managing-maintaining-sboms)<br>
+[4] [https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom](https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom)<br>
+[5] [https://cybellum.com/blog/ntia-minimum-elements-for-a-software-bill-of-materials-sbom-a-guide/](https://cybellum.com/blog/ntia-minimum-elements-for-a-software-bill-of-materials-sbom-a-guide/)<br>
+[6] [https://jfrog.com/devops-tools/article/best-practices-for-software-bill-of-materials-management/](https://jfrog.com/devops-tools/article/best-practices-for-software-bill-of-materials-management/)<br>
+[7] [https://about.gitlab.com/blog/2022/10/25/the-ultimate-guide-to-sboms/](https://about.gitlab.com/blog/2022/10/25/the-ultimate-guide-to-sboms/)<br>
+[8] [https://scribesecurity.com/sbom/how-to-generate-an-sbom/](https://scribesecurity.com/sbom/how-to-generate-an-sbom/)<br>
 
 ## 7. 보안 및 취약점 관리
 
@@ -733,14 +733,14 @@ SPDX 3.0은 다양한 산업 분야에서 소프트웨어 관리와 보안을 �
 
 SPDX 3.0의 이러한 활용 사례들은 조직이 소프트웨어 관리, 보안, 컴플라이언스를 통합적으로 개선할 수 있게 해줍니다. 표준화된 접근 방식을 통해 조직 간 협력을 촉진하고, 소프트웨어 생태계 전반의 투명성과 신뢰성을 높이는 데 기여합니다.
 
-Citations:
-[1] [https://linuxsecurity.com/news/organizations-events/spdx-3-0](https://linuxsecurity.com/news/organizations-events/spdx-3-0)
-[2] [https://spdx.dev/spdx-announces-3-0-release-candidate-with-new-use-cases/](https://spdx.dev/spdx-announces-3-0-release-candidate-with-new-use-cases/)
-[3] [https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases](https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases)
-[4] [https://www.prnewswire.com/news-releases/spdx-3-0-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases-302118321.html](https://www.prnewswire.com/news-releases/spdx-3-0-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases-302118321.html)
-[5] [https://spdx.dev/leveraging-profiles-for-license-compliance-insights-from-spdx-mini-summit/](https://spdx.dev/leveraging-profiles-for-license-compliance-insights-from-spdx-mini-summit/)
-[6] [https://www.synopsys.com/blogs/software-security/sboms-and-spdx.html](https://www.synopsys.com/blogs/software-security/sboms-and-spdx.html)
-[7] [https://spdx.dev/understanding-spdx-profiles/](https://spdx.dev/understanding-spdx-profiles/)
+Citations:<br>
+[1] [https://linuxsecurity.com/news/organizations-events/spdx-3-0](https://linuxsecurity.com/news/organizations-events/spdx-3-0)<br>
+[2] [https://spdx.dev/spdx-announces-3-0-release-candidate-with-new-use-cases/](https://spdx.dev/spdx-announces-3-0-release-candidate-with-new-use-cases/)<br>
+[3] [https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases](https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases)<br>
+[4] [https://www.prnewswire.com/news-releases/spdx-3-0-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases-302118321.html](https://www.prnewswire.com/news-releases/spdx-3-0-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases-302118321.html)<br>
+[5] [https://spdx.dev/leveraging-profiles-for-license-compliance-insights-from-spdx-mini-summit/](https://spdx.dev/leveraging-profiles-for-license-compliance-insights-from-spdx-mini-summit/)<br>
+[6] [https://www.synopsys.com/blogs/software-security/sboms-and-spdx.html](https://www.synopsys.com/blogs/software-security/sboms-and-spdx.html)<br>
+[7] [https://spdx.dev/understanding-spdx-profiles/](https://spdx.dev/understanding-spdx-profiles/)<br>
 
 ## 10. SPDX 3.0 도입 전략
 
@@ -816,14 +816,14 @@ SPDX 3.0을 조직에 성공적으로 도입하기 위해서는 체계적인 접
 
 SPDX 3.0의 성공적인 도입은 기술적 구현뿐만 아니라 조직 문화와 프로세스의 변화를 수반합니다. 체계적인 계획, 지속적인 교육, 그리고 유연한 접근을 통해 SPDX 3.0의 이점을 최대한 활용할 수 있습니다[1][2].
 
-Citations:
-[1] [https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases](https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases)
-[2] [https://spdx.dev/unpacking-the-spdx-3-0-tooling-mini-summit-a-new-era-of-compliance-and-security/](https://spdx.dev/unpacking-the-spdx-3-0-tooling-mini-summit-a-new-era-of-compliance-and-security/)
-[3] [https://spdx.dev/spdx-announces-3-0-release-candidate-with-new-use-cases/](https://spdx.dev/spdx-announces-3-0-release-candidate-with-new-use-cases/)
-[4] [https://openchainproject.org/news/2023/03/31/webinar-50](https://openchainproject.org/news/2023/03/31/webinar-50)
-[5] [https://nand-research.com/quick-take-spdx-3-0-release/](https://nand-research.com/quick-take-spdx-3-0-release/)
-[6] [https://linuxsecurity.com/news/organizations-events/spdx-3-0](https://linuxsecurity.com/news/organizations-events/spdx-3-0)
-[7] [https://spdx.dev/leveraging-profiles-for-license-compliance-insights-from-spdx-mini-summit/](https://spdx.dev/leveraging-profiles-for-license-compliance-insights-from-spdx-mini-summit/)
+Citations:<br>
+[1] [https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases](https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases)<br>
+[2] [https://spdx.dev/unpacking-the-spdx-3-0-tooling-mini-summit-a-new-era-of-compliance-and-security/](https://spdx.dev/unpacking-the-spdx-3-0-tooling-mini-summit-a-new-era-of-compliance-and-security/)<br>
+[3] [https://spdx.dev/spdx-announces-3-0-release-candidate-with-new-use-cases/](https://spdx.dev/spdx-announces-3-0-release-candidate-with-new-use-cases/)<br>
+[4] [https://openchainproject.org/news/2023/03/31/webinar-50](https://openchainproject.org/news/2023/03/31/webinar-50)<br>
+[5] [https://nand-research.com/quick-take-spdx-3-0-release/](https://nand-research.com/quick-take-spdx-3-0-release/)<br>
+[6] [https://linuxsecurity.com/news/organizations-events/spdx-3-0](https://linuxsecurity.com/news/organizations-events/spdx-3-0)<br>
+[7] [https://spdx.dev/leveraging-profiles-for-license-compliance-insights-from-spdx-mini-summit/](https://spdx.dev/leveraging-profiles-for-license-compliance-insights-from-spdx-mini-summit/)<br>
 
 ## 11. 향후 전망 및 발전 방향
 
@@ -872,14 +872,14 @@ SPDX 3.0의 출시는 소프트웨어 공급망 관리의 새로운 장을 열�
 SPDX 3.0은 소프트웨어 관리의 미래를 형성하는 중요한 이정표입니다. 지속적인 커뮤니티 참여와 기술 발전, 그리고 국제적인 표준화 노력을 통해 SPDX는 앞으로도 소프트웨어 공급망 보안과 투명성 향상에 크게 기여할 것으로 전망됩니다.
 
 Citations:
-[1] [https://spdx.dev/engage/participate/](https://spdx.dev/engage/participate/)
-[2] [https://www.linuxinsider.com/story/spdx-becomes-new-standard-for-open-source-software-security-87265.html](https://www.linuxinsider.com/story/spdx-becomes-new-standard-for-open-source-software-security-87265.html)
-[3] [https://spdx.dev/engage/join/](https://spdx.dev/engage/join/)
-[4] [https://sbomify.com/2024/04/28/exploring-the-new-spdx-3-0-a-game-changer-for-sboms/](https://sbomify.com/2024/04/28/exploring-the-new-spdx-3-0-a-game-changer-for-sboms/)
-[5] [https://www.prnewswire.com/news-releases/spdx-3-0-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases-302118321.html](https://www.prnewswire.com/news-releases/spdx-3-0-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases-302118321.html)
-[6] [https://spdx.dev/spdx-announces-3-0-release-candidate-with-new-use-cases/](https://spdx.dev/spdx-announces-3-0-release-candidate-with-new-use-cases/)
-[7] [https://wiki.spdx.org/view/GSOC/GSOC_ProjectIdeas](https://wiki.spdx.org/view/GSOC/GSOC_ProjectIdeas)
-[8] [https://linuxsecurity.com/news/organizations-events/spdx-3-0](https://linuxsecurity.com/news/organizations-events/spdx-3-0)
+[1] [https://spdx.dev/engage/participate/](https://spdx.dev/engage/participate/)<br>
+[2] [https://www.linuxinsider.com/story/spdx-becomes-new-standard-for-open-source-software-security-87265.html](https://www.linuxinsider.com/story/spdx-becomes-new-standard-for-open-source-software-security-87265.html)<br>
+[3] [https://spdx.dev/engage/join/](https://spdx.dev/engage/join/)<br>
+[4] [https://sbomify.com/2024/04/28/exploring-the-new-spdx-3-0-a-game-changer-for-sboms/](https://sbomify.com/2024/04/28/exploring-the-new-spdx-3-0-a-game-changer-for-sboms/)<br>
+[5] [https://www.prnewswire.com/news-releases/spdx-3-0-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases-302118321.html](https://www.prnewswire.com/news-releases/spdx-3-0-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases-302118321.html)<br>
+[6] [https://spdx.dev/spdx-announces-3-0-release-candidate-with-new-use-cases/](https://spdx.dev/spdx-announces-3-0-release-candidate-with-new-use-cases/)<br>
+[7] [https://wiki.spdx.org/view/GSOC/GSOC_ProjectIdeas](https://wiki.spdx.org/view/GSOC/GSOC_ProjectIdeas)<br>
+[8] [https://linuxsecurity.com/news/organizations-events/spdx-3-0](https://linuxsecurity.com/news/organizations-events/spdx-3-0)<br>
 
 ## 12. 결론: 기업의 오픈소스 관리자를 위한 SPDX 3.0 활용 전략
 
