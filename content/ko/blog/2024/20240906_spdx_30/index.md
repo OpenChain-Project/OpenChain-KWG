@@ -13,11 +13,16 @@ resources:
     byline: ""
 ---
 
-*이 글은 Perplexity AI ([https://www.perplexity.ai/](https://www.perplexity.ai/))와 함께 작성하였습니다.*
+
+{{% pageinfo %}}
+
+*이 글은 Perplexity ([https://www.perplexity.ai/](https://www.perplexity.ai/))와 함께 작성하였습니다.*
+
+*SKT고객은 Perplexicy Pro를 1년간 무료로 이용할 수 있습니다.: [https://perplexity.sktadotevent.com/](https://perplexity.sktadotevent.com/)*
 
 ![image.png](./image.png)
 
-*SKT고객은 Perplexicy Pro를 1년간 무료로 이용할 수 있습니다.: [https://perplexity.sktadotevent.com/](https://perplexity.sktadotevent.com/)*
+{{% /pageinfo %}}
 
 ## 1. SPDX 3.0 소개
 
