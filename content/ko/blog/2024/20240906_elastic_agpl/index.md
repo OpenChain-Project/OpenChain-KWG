@@ -13,6 +13,16 @@ resources:
     byline: ""
 ---
 
+{{% pageinfo %}}
+
+*이 글은 Perplexity([https://www.perplexity.ai/](https://www.perplexity.ai/))와 함께 작성하였습니다.*
+
+*SKT고객은 Perplexicy Pro를 1년간 무료로 이용할 수 있습니다.: [https://perplexity.sktadotevent.com/](https://perplexity.sktadotevent.com/)*
+
+![image.png](./image.png)
+
+{{% /pageinfo %}}
+
 ## 서론: Elasticsearch 라이선스 배경
 
 Elasticsearch는 오픈소스 프로젝트로 시작했으며, 그동안 여러 번의 라이선스 정책 변경을 겪었습니다. 처음에는 **Apache 2.0 라이선스** 하에 배포되었지만, 2021년 Elastic은 **Elastic License 2.0**과 **Server Side Public License**로 라이선스를 변경했습니다. 이후 2024년 8월 30일에는 다시 **AGPL-3.0**을 추가하는 발표([Elasticsearch is Open Source, Again](https://www.elastic.co/kr/blog/elasticsearch-is-open-source-again))를 하면서 주목을 받고 있습니다.
