@@ -18,7 +18,7 @@ description: >
 | Time | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
 | 14:00~14:10 | Welcome & Opening | ETRI | - |
-| 14:10~14:20 | OpenChain Global Update  | 	Shane Coughlan, Linux Foundation |  |
+| 14:10~14:20 | OpenChain Global Update  | 	Shane Coughlan, Linux Foundation | [LINK](https://openchainproject.org/news/2024/09/09/openchain-korea-work-group-meeting-23-2024-09-10) |
 | 14:20~14:40 | OpenChain Korea Update | 	장학성, SK텔레콤 | - |
 | 14:40~15:10 | ETRI 오픈소스 거버넌스 소개 | 박정숙, ETRI |  -  |
 | 15:10~15:40 | 1. 글로벌 자동차 제조사가 요구하는 오픈소스 관련 요건 <br> 2. 소송 사례 공유 <br> - Github Copilot <br> - Google v. Oracle <br> - Getty Images v Stability AI | 김문엽, 티맵모빌리티 | - |
