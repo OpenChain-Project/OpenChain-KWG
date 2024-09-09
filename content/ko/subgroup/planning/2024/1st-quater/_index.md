@@ -1,7 +1,7 @@
 ---
 title: "1분기 운영위원회"
 linkTitle: "1분기 운영위원회"
-weight: 40
+weight: 10
 type: docs
 description: >
   2024년 1분기 운영위원회
