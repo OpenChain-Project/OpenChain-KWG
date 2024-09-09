@@ -4,7 +4,7 @@ linkTitle: "3rd Quarter Management Committee"
 weight: 30
 type: docs
 description: >
-2024 3rd Quarter Management Committee
+  2024 3rd Quarter Management Committee
 ---
 
 ## Intro
