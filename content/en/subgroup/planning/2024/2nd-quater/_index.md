@@ -4,7 +4,7 @@ linkTitle: "2nd Quarter Steering Committee"
 weight: 20
 type: docs
 description: >
-2024 2nd Quarter Steering Committee
+  2024 2nd Quarter Steering Committee
 ---
 
 ## Intro
