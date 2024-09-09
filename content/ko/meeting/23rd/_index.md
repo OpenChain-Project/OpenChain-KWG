@@ -27,12 +27,20 @@ description: >
 | 16:30~17:00 | 온보딩 TF 운영 소개 | 이서연, 라인플러스 |  -  |
 
 
+## Video 
+
+### OpenChain Global Update, Shane Coughlan
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PbW4shzjKNk?si=kbRcYg4OqsCjtil-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ## Sponsor
 
 ![](etri.png)
 
 
 ![](mobis.png)
+
 
 
 ## 참석사 
