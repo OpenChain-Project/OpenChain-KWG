@@ -46,4 +46,7 @@ description: >
 ## 참석사 
 
 
+
 ## Photo
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/198570149@N05/albums/72177720320248483" title="[2024 September] OpenChain Korea Work Group in ETRI"><img src="https://live.staticflickr.com/65535/53986987363_97693d6340_c.jpg" width="800" height="600" alt="[2024 September] OpenChain Korea Work Group in ETRI"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
