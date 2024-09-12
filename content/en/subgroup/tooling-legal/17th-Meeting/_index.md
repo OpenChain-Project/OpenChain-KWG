@@ -9,7 +9,7 @@ description: Tooling & Legal Subgroup 17th Meeting
 
 ## Schedule
 
-* Purpose: Tooling and Legal Subgroup 17th Meetingc
+* Purpose: Tooling and Legal Subgroup 17th Meeting
 * Date: August 13, 2024 (Wed) 14:00 ~ 16:30
 * Venue: ETRI Seoul Office Medium Conference Room
 
