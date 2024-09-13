@@ -1,7 +1,7 @@
 ---
 title: "External Resources"
 linkTitle: "External Resources"
-weight: 3
+weight: 4
 type: docs
 categories: ["resource"]
 tags: ["교육자료"]

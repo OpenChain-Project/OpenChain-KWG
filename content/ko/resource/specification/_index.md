@@ -1,7 +1,7 @@
 ---
 title: "Specification"
 linkTitle: "Specification"
-weight: 1
+weight: 2
 type: docs
 categories: ["resource"]
 tags: ["ISO/IEC5230"]
