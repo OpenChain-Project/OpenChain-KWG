@@ -126,7 +126,7 @@ Discord is a channel for lighter conversations and real-time communication. It i
 
 1. Understanding Channel Structure:
    - **#announcements**: This channel is for official KWG announcements. Only administrators can post, and members should check for important notices.
-   - #information-news: This is a space to share the latest information and news related to open source and compliance. Members can share relevant news articles, blog posts, conference information, etc.
+   - **#information-news**: This is a space to share the latest information and news related to open source and compliance. Members can share relevant news articles, blog posts, conference information, etc.
    - **#opensource-talk**: This channel is for free discussion and information exchange about open source in general. You can ask questions related to open source, share experiences, and exchange opinions.
    - **#tooling-legal-group**: This is a specialized channel for discussing open source management tools and legal issues. Experiences with open source management tools and questions and answers about legal issues are shared here.
    - **#onboarding-tf**: This is a task force channel for improving the onboarding process for new members. Ideas for onboarding and process improvement discussions take place here.
