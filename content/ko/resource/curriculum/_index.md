@@ -1,7 +1,7 @@
 ---
 title: "Curriculum"
 linkTitle: "Curriculum"
-weight: 2
+weight: 3
 type: docs
 categories: ["resource"]
 tags: ["교육자료"]

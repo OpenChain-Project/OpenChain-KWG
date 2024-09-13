@@ -1,7 +1,7 @@
 ---
 title: "Specification"
 linkTitle: "Specification"
-weight: 1
+weight: 2
 type: docs
 description: >
   OpenChain Specification is translated into Korean and released.

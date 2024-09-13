@@ -1,7 +1,7 @@
 ---
 title: "Curriculum"
 linkTitle: "Curriculum"
-weight: 2
+weight: 3
 type: docs
 description: >
   OpenChain Curriculum translated into Korean.
