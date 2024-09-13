@@ -24,7 +24,7 @@ KWG was [established with the following background](https://www.oss.kr/community
 
 KWG was [established](https://devocean.sk.com/opensource/techBoardDetail.do?ID=164691) as a subgroup of the Linux Foundation's OpenChain Project to support open source compliance for Korean companies. It officially started its activities in January 2019 with the [first meeting](https://openchain-project.github.io/OpenChain-KWG/meeting/1st/) held at LG Electronics, with open source representatives from major corporations participating.
 
-### Major Achievements and Milestones
+### Major Achievements
 
 KWG has achieved the following major accomplishments and milestones since its establishment:
 

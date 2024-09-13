@@ -24,7 +24,7 @@ KWG는 [다음과 같은 배경에서 설립](https://www.oss.kr/community_suppo
 
 KWG는 Linux Foundation의 OpenChain Project의 하위 그룹으로, 한국 기업들의 오픈소스 컴플라이언스를 지원하기 위해 [설립되었습니다](https://devocean.sk.com/opensource/techBoardDetail.do?ID=164691). 주요 대기업들의 오픈소스 담당자들이 참여하여 LG전자에서 2019년 1월 [첫 번째 모임](https://openchain-project.github.io/OpenChain-KWG/meeting/1st/)을 개최하면서 공식적으로 활동을 시작했습니다.
 
-### 주요 성과 및 마일스톤
+### 주요 성과
 
 KWG는 설립 이후 다음과 같은 주요 성과와 마일스톤을 달성했습니다:
 
