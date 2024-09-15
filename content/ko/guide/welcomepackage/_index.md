@@ -3,7 +3,6 @@ title: "Welcome Package"
 linkTitle: "Welcome Package"
 weight: 1
 type: docs
-categories: ["resource"]
 description: >
   OpenChain KWG의 웰컴 패키지는 신규 멤버들이 KWG 활동에 효과적으로 적응하고 기여할 수 있도록 필요한 정보와 자료를 종합적으로 제공하는 안내서입니다.
 ---
