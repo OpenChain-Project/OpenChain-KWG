@@ -1,6 +1,6 @@
 ---
 title: "Tooling & Legal Group"
-linkTitle: "T&L Group"
+linkTitle: "Tooling & Legal Group"
 weight: 2
 type: docs
 description: >
