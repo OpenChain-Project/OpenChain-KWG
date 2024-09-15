@@ -3,7 +3,6 @@ title: "Welcome Package"
 linkTitle: "Welcome Package"
 weight: 1
 type: docs
-categories: ["resource"]
 description: >
   The OpenChain KWG Welcome Package is a comprehensive guide designed to provide new members with the necessary information and resources to effectively adapt to and contribute to KWG activities.
 ---
