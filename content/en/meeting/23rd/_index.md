@@ -2,8 +2,8 @@
 title: "23rd Meeting"
 weight: 23
 type: docs
-categories: ["meeting"]
-tags: ["ETRI", "Orange", "ISO/IEC18974", "SBOM"]
+# categories: ["meeting"]
+# tags: ["ETRI", "Orange", "ISO/IEC18974", "SBOM"]
 description: >
  September 10, 2024 (Tue) / ETRI Seoul Office
 ---
