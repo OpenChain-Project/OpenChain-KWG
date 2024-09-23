@@ -5,7 +5,7 @@ linkTitle: "중국 저작권 침해 소송 사례"
 description: 
 author: 장학성
 categories: ["blog"]
-tags: ["GPL", "분쟁사례"]
+tags: ["GPL", "분쟁사례", "중국"]
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
