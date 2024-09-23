@@ -14,16 +14,6 @@ resources:
 ---
 
 
-{{% pageinfo %}}
-
-*이 글은 Perplexity ([https://www.perplexity.ai/](https://www.perplexity.ai/))와 함께 작성하였습니다.*
-
-*SKT고객은 Perplexicy Pro를 1년간 무료로 이용할 수 있습니다.: [https://perplexity.sktadotevent.com/](https://perplexity.sktadotevent.com/)*
-
-![image.png](./image.png)
-
-{{% /pageinfo %}}
-
 ## 1. SPDX 3.0 소개
 
 SPDX(Software Package Data Exchange)는 소프트웨어 구성 요소, 라이선스, 저작권 및 보안 정보를 표준화된 방식으로 전달하기 위한 오픈 표준입니다. SPDX 3.0은 이 표준의 최신 버전으로, 2024년 4월에 출시되었으며 소프트웨어 공급망의 투명성과 보안을 크게 향상시키는 중요한 업데이트입니다[2].
@@ -917,3 +907,15 @@ SPDX 3.0은 기업의 오픈소스 관리자에게 강력하고 유연한 도구
     - 이를 통해 업계 내에서 오픈소스 관리의 선도적 위치를 확보합니다.
 
 결론적으로, SPDX 3.0은 기업의 오픈소스 관리자에게 오픈소스 생태계를 효과적으로 관리하고 활용할 수 있는 강력한 도구를 제공합니다. 전략적이고 체계적인 접근을 통해 SPDX 3.0을 활용한다면, 조직은 오픈소스의 이점을 최대화하면서 관련 리스크를 최소화할 수 있을 것입니다. 오픈소스 관리자는 이러한 도구를 통해 조직의 디지털 혁신과 경쟁력 강화에 핵심적인 역할을 수행할 수 있을 것입니다.
+
+
+
+{{% pageinfo %}}
+
+*이 글은 Perplexity ([https://www.perplexity.ai/](https://www.perplexity.ai/))와 함께 작성하였습니다.*
+
+*SKT고객은 Perplexicy Pro를 1년간 무료로 이용할 수 있습니다.: [https://perplexity.sktadotevent.com/](https://perplexity.sktadotevent.com/)*
+
+![image.png](./image.png)
+
+{{% /pageinfo %}}
