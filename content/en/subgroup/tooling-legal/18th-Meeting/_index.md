@@ -19,8 +19,7 @@ description: Tooling & Legal Subgroup 18th Meeting
 | No | Subject | Speaker | Slide |
 |----|-----------------|------|------|
 | 0 | Community Updates & New Issues | ETRI Park Jeong-sook | TBD |
-| 1  | (Topic Presentation) Legal Issues on Docker and Open Source License | Presenter TBD | TBD |
-| 2  | (Litigation Case) Digital Heaven v. Pomelo. Open Source Litigation Case in China | Presenter TBD | TBD |
+| 1  | (Litigation Case) Neo4j, Inc. v. PureThink, LLC | LG Electronics Park Wonjae | TBD |
 
 <!--
 
