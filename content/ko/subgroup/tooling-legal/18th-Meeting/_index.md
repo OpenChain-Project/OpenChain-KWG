@@ -22,8 +22,7 @@ description: Tooling & Legal Subgroup 18th Meeting
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Community Updates & New Issues | ETRI 박정숙 | TBD |
-| 1  | (소송사례) 도커와 오픈소스 라이선스의 법적 이슈 | 발표자 모집중 | TBD |
-| 2  | (주제발표) 숫자천당 v. 유자. 중국의 오픈소스 소송사례 | 발표자 모집중 | TBD |
+| 1  | (소송사례) Neo4j, Inc. v. PureThink, LLC | LG전자 박원재 | TBD |
 
 
 <!-- 
