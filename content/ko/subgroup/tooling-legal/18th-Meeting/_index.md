@@ -5,7 +5,7 @@ weight: 1
 date: 2024년 7월 22일
 type: docs
 categories: ["Tooling&Legal"]
-tags: ["Docker", "GPL", "분쟁사례"]
+tags: ["GPL", "분쟁사례", "호환성", "Compatibility", "Apache"]
 description: Tooling & Legal Subgroup 18th Meeting
 ---
 
@@ -16,13 +16,19 @@ description: Tooling & Legal Subgroup 18th Meeting
 
 
 ## Attendees
-* TBD
+* ETRI
+* LG AI연구원
+* LG전자
+* NHN
+* SK주식회사
+* 안랩
+* 카카오
 
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues | ETRI 박정숙 | TBD |
-| 1  | (소송사례) Neo4j, Inc. v. PureThink, LLC | LG전자 박원재 | TBD |
+| 0  | Community Updates and New Issues: 논문 분석(GPLv2와 Apache 2,0의 양립성 이슈) | ETRI 박정숙 | [pdf](./session0_etri.pptx) |
+| 1  | (소송사례) Neo4j, Inc. v. PureThink, LLC | LG전자 박원재 | [pdf](./session1_lge.pdf) |
 
 
 <!-- 
