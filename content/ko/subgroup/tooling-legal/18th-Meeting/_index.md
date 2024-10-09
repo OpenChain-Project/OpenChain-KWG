@@ -27,7 +27,7 @@ description: Tooling & Legal Subgroup 18th Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates and New Issues: 논문 분석(GPLv2와 Apache 2,0의 양립성 이슈) | ETRI 박정숙 | [pdf](./session0_etri.pptx) |
+| 0  | Community Updates and New Issues: 논문 분석(GPLv2와 Apache 2,0의 양립성 이슈) | ETRI 박정숙 | [pdf](./session0_etri.pdf) |
 | 1  | (소송사례) Neo4j, Inc. v. PureThink, LLC | LG전자 박원재 | [pdf](./session1_lge.pdf) |
 
 
