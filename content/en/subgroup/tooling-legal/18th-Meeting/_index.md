@@ -8,7 +8,7 @@ description: Tooling & Legal Subgroup 18th Meeting
 ---
 
 ## Schedule
-* Purpose: Tooling and Legal Subgroup 18th Meeting
+* Purpose: Tooling and Legal Subgroup 1th Meeting
 * Date: October 8, 2024 (Tue) 14:00 ~ 17:00
 * Venue: Magok SciencePark ISC Building 7th Floor Meeting Room
 
