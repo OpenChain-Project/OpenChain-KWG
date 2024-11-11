@@ -2,7 +2,7 @@
 title: "18th Meeting"
 linkTitle: "18th Meeting"
 weight: 1
-date: July 22, 2024
+date: 2024-10-08
 type: docs
 description: Tooling & Legal Subgroup 18th Meeting
 ---

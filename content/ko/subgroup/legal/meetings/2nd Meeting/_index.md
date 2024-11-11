@@ -2,7 +2,7 @@
 title: "2nd Meeting"
 linkTitle: "Legal SG 2nd Meeting"
 weight: 2
-date: 2023-12-13(수) 16:30~18:00
+date: 2023-12-13
 type: docs
 categories: ["legal"]
 tags: ["Getty Images v. Stability AI", "GPL", "분쟁사례"]

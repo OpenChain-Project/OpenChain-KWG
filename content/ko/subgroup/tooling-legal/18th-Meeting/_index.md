@@ -2,7 +2,7 @@
 title: "18th Meeting"
 linkTitle: "18th Meeting"
 weight: 1
-date: 2024년 7월 22일
+date: 2024-10-08
 type: docs
 categories: ["Tooling&Legal"]
 tags: ["GPL", "분쟁사례", "호환성", "Compatibility", "Apache"]
