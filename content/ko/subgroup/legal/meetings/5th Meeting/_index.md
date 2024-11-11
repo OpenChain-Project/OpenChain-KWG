@@ -2,7 +2,7 @@
 title: "5th Meeting"
 linkTitle: "Legal SG 5th Meeting"
 weight: 2
-date: 2024.8월 (날짜 및 시간 미정)
+date: 2024-08-01
 type: docs
 categories: ["legal"]
 tags: ["Jacobsen vs. Katzer", "docker", "분쟁사례"]
