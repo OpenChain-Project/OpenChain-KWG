@@ -2,7 +2,7 @@
 title: "19th Meeting"
 linkTitle: "19th Meeting"
 weight: 1
-date: 2024년 7월 22일
+date: 2024-11-10
 type: docs
 categories: ["Tooling&Legal"]
 tags: []

@@ -2,7 +2,7 @@
 title: "3rd Meeting"
 linkTitle: "Legal SG 3rd Meeting"
 weight: 2
-date: 2024-2-14(수) 15:00~17:20
+date: 2024-02-14
 type: docs
 categories: ["legal"]
 tags: ["SFC v. Vizio", "중국", "GPL", "분쟁사례"]

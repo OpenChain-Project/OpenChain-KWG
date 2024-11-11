@@ -2,7 +2,7 @@
 title: "17th Meeting"
 linkTitle: "17th Meeting"
 weight: 1
-date: 2024년 7월 22일
+date: 2024-08-13
 type: docs
 categories: ["Tooling&Legal"]
 tags: ["FOSSLight", "Jacobsen vs. Katzer", "GPL", "compatibility", "분쟁사례", "Scanner"]
