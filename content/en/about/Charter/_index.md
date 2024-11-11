@@ -20,7 +20,7 @@ The Group contributes to building a transparent and reliable software supply cha
 The Group adheres to the following principles:
 
 - Openness: All outputs are published under CC-0.
-- Welcome and Respect: We welcome and respect all members who comply with the [Code of Conduct](../codeofconduct/).
+- Welcome and Respect: We welcome and respect all members who comply with the [Code of Conduct](../CodeofConduct/).
 - Transparency: All processes are transparently disclosed.
 
 ## 3. Code of Conduct
