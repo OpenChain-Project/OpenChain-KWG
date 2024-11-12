@@ -24,7 +24,7 @@ description: >
 | 15:00~15:30 | Networking | All | - |
 | 15:30~16:10 | Open Compliance Summit 2024 Review | Wonjae Park, LG Electronics <br>  Seoyeon Lee, Line Plus <br> Haksung Jang, SK Telecom | - |
 | 16:10~16:40 | AI Copyright Issues and Cases That Open Source Managers Should Know | Yoonhwan Jeong, Samsung Electronics | - |
-| 16:40~17:00 | Wrapping Up the Year | - | - |
+| 16:40~17:00 | Wrapping Up the Year | Seoyeon Lee, Line Plus | - |
 
 ## Sponsor
 
