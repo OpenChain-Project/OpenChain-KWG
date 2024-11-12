@@ -1,6 +1,6 @@
 ---
 title: "2nd Quarter Steering Committee"
-linkTitle: "2nd Quarter Steering Committee"
+linkTitle: "2nd quarter"
 weight: 20
 type: docs
 description: >
