@@ -1,10 +1,10 @@
 ---
-title: "3rd Quarter Management Committee"
-linkTitle: "3rd Quarter Management Committee"
+title: "3rd Quarter Steering Committee"
+linkTitle: "3rd quarter"
 weight: 30
 type: docs
 description: >
-  2024 3rd Quarter Management Committee
+  2024 3rd Quarter Steering Committee
 ---
 
 ## Intro

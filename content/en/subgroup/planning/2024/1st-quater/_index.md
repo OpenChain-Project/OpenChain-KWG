@@ -1,7 +1,7 @@
 ---
 title: "1st Quater Steering Committee"
-linkTitle: "1st Quater Steering Committee"
-weight: 40
+linkTitle: "1st quater"
+weight: 10
 type: docs
 description: >
   1st Quater Steering Committee, 2024
