@@ -24,10 +24,10 @@ description: >
 |----|-----------------|------|------|
 | 0  | Intro & Greetings  | Newcomers | - |
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
-| 2  | OpenChain KWG Update | 장학성, SK텔레콤 | [OpenChain_Korea_20210930_update.pptx](OpenChain_Korea_20210930_update.pptx)  |
-| 3  | 오픈소스 라이선스 변화의 흐름| Sean (김영환), 카카오 | [opensource_license_flow.pdf](./20210930_opensource_license_flow_kakao.pdf) | 
+| 2  | OpenChain KWG Update | 장학성, SK텔레콤 | [pdf](./OpenChain_Korea_20210930_update.pdf)  |
+| 3  | 오픈소스 라이선스 변화의 흐름| Sean (김영환), 카카오 | [pdf](./20210930_opensource_license_flow_kakao.pdf) | 
 | 4  | 삼성전자 오픈소스 정책 및 프로세스 현황 소개 | 정윤환. 삼성전자 | - | 
-| 5  | 최근 주요 동향 <br> - 미 정부의 'SBOM' 의무화 <br> - Github Copilot 오픈소스 라이선스 논쟁| Robin (황민호), 카카오 | [opensource_trend.pdf](./20210930_opensource_trend_kakao.pdf) | 
+| 5  | 최근 주요 동향 <br> - 미 정부의 'SBOM' 의무화 <br> - Github Copilot 오픈소스 라이선스 논쟁| Robin (황민호), 카카오 | [pdf](./20210930_opensource_trend_kakao.pdf) | 
 | 6  | 소그룹 모임 | All | - |
 | 7  | Free Discussion | All | - |
 
