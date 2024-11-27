@@ -24,7 +24,7 @@ description: >
 | 15:20~15:50 | Networking | All | - |
 | 15:50~16:20 | AI Copyright Issues and Cases That Open Source Managers Should Know | Yoonhwan Jeong, Samsung Electronics | [pdf](https://openchain-project.github.io/OpenChain-KWG/meeting/24th/%EC%83%9D%EC%84%B1%ED%98%95AI%EC%9D%98%EC%A0%80%EC%9E%91%EA%B6%8C%EC%9D%B4%EC%8A%88_20241126.pdf) |
 | 16:20~16:40 | LG AI Research's Responsible AI Policy | Soyoung Ahn, LG AI Research | - |
-| 16:40~17:00 | Wrapping Up the Year | Seoyeon Lee, Line Plus | - |
+| 16:40~17:00 | Wrapping Up the Year | Seoyeon Lee, Line Plus | [pdf](https://openchain-project.github.io/OpenChain-KWG/meeting/24th/2024%EB%85%84%EA%B2%B0%EC%82%B0.pdf) |
 
 ## Sponsor
 
