@@ -18,9 +18,9 @@ description: >
 | Time | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
 | 14:00~14:10 | Welcome & Opening | LG AI 연구원 | - |
-| 14:10~14:20 | OpenChain Global Update  | 	Shane Coughlan, Linux Foundation | - |
+| 14:10~14:20 | OpenChain Global Update  | 	Shane Coughlan, Linux Foundation | [slideshare](https://www.slideshare.net/slideshow/embed_code/key/5FBAVoKqwvoykg) |
 | 14:20~14:40 | OpenChain Korea Update | 장학성, SK텔레콤 | [pdf](./OpenChain_Korea_update_20241126.pdf) |
-| 14:40~15:20 | Open Compliance Summit 2024 Review | LG전자 박원재 <br> 라인플러스 이서연 <br> SK텔레콤 장학성 | - |
+| 14:40~15:20 | Open Compliance Summit 2024 Review | LG전자 박원재 <br> 라인플러스 이서연 <br> SK텔레콤 장학성 | [pdf](./KWG_ComplianceSummit.pdf) |
 | 15:20~15:50 | Networking | All | - |
 | 15:50~16:20 | 오픈소스 담당자가 알아야 할 AI저작권 논점과 판례 | 삼성전자 정윤환 | [pdf](./생성형AI의저작권이슈_20241126.pdf) |
 | 16:20~16:40 | LG AI Research의 Responsible AI 정책 | LG AI 연구원 안소영 | - |
