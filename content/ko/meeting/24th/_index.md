@@ -34,9 +34,26 @@ description: >
 
 ## 참석사 
 
-
-
-## Video 
-
+- 국민은행
+- 라인플러스
+- 삼성전자
+- 신한DS
+- 카카오
+- 티맵모빌리티
+- 한국디지털인증협회
+- 현대모비스
+- 현대자동차
+- AhnLab
+- Cj주식회사
+- ETRI
+- HANCOM
+- KTDS
+- LG AI Research
+- LG전자
+- NAVER
+- NHN
+- SK텔레콤
 
 ## Photo
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/198570149@N05/albums/72177720322215314" title="[2024 November] OpenChain Korea Work Group in LG AI Research"><img src="https://live.staticflickr.com/65535/54167200316_3a95bde645_z.jpg" width="640" height="480" alt="[2024 November] OpenChain Korea Work Group in LG AI Research"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
