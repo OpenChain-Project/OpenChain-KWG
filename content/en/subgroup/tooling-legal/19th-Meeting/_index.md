@@ -9,16 +9,23 @@ description: Tooling & Legal Subgroup 19th Meeting
 
 ## Schedule
 * Purpose: Tooling and Legal Subgroup 19th Meeting
-* Date: December 17, 2024 (Tue) 14:00 ~ 17:00
+* Date: December 17, 2024 (Tue) 14:30 ~ 17:00
 * Venue: Ahnlab
 
 ## Attendees
 * TBD
 
 ## Agenda
-| No | Subject | Speaker | Slide |
+| No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | TBD | TBD | TBD |
+| 0  | Community Updates | ETRI, Park Jeong-sook | TBD |
+| 1  | TBD | ETRI, Shin Hak-Chul | TBD |
+| 2  | Open Discussion : Open Source Analysis Tools | LG Electronics, Park Wonjae | TBD |
+| 3  | Build Tracing | Tjaldur Software, Armijn Hemel | TBD |
+
+## IMPORTANT
+* Due to AhnLab's security policy for providing the 19th conference venue, visitor registration is required prior to attending.
+* Please apply in advance using the form announced through the mailing list and Discord.
 
 <!--
 
