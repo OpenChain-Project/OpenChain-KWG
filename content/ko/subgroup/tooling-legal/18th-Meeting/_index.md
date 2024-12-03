@@ -1,7 +1,7 @@
 ﻿---
 title: "18th Meeting"
 linkTitle: "18th Meeting"
-weight: 1
+weight: 2
 date: 2024-10-08
 type: docs
 categories: ["Tooling&Legal"]
