@@ -10,7 +10,7 @@ description: Tooling & Legal Subgroup 20th Meeting
 ## Schedule
 * Purpose: Tooling and Legal Subgroup 20th Meeting
 * Date: February xx, 2025 (xxx) 14:00 ~ 17:00
-* Venue: Ahnlab
+* Venue: TBD
 
 ## Attendees
 * TBD
