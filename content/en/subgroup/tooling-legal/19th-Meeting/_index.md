@@ -19,7 +19,7 @@ description: Tooling & Legal Subgroup 19th Meeting
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Community Updates | ETRI, Park Jeong-sook | TBD |
-| 1  | TBD | ETRI, Shin Hak-Chul | TBD |
+| 1  | Discussion on How to Write a License Notice | ETRI, Shin Hak-Chul | TBD |
 | 2  | Open Discussion : Open Source Analysis Tools | LG Electronics, Park Wonjae | TBD |
 | 3  | Build Tracing | Tjaldur Software, Armijn Hemel | TBD |
 
