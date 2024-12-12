@@ -22,7 +22,7 @@ description: Tooling & Legal Subgroup 19th Meeting
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Community Updates | ETRI, 박정숙 | TBD |
-| 1  | TBD | ETRI, 신학철 | TBD |
+| 1  | 고지문 작성법에 대한 논의 | ETRI, 신학철 | TBD |
 | 2  | Open Discussion : Open Source 분석 도구 | LG전자, 박원재 | TBD |
 | 3  | Build Tracing | Tjaldur Software, Armijn Hemel | TBD |
 
