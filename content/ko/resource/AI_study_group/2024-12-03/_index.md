@@ -6,7 +6,7 @@ date: 2024-12-03
 type: docs
 categories: ["study"]
 tags: ["AI"]
-description: 2024-11-05 AI Compliance BOM에 대한 실용적인 가이드 개발 목표
+description: 2024-12-03 AI Compliance BOM에 대한 실용적인 가이드 개발 목표
 ---
 
 source: https://openchainproject.org/news/2024/12/04/full-recording-openchain-ai-work-group-monthly-workshop-for-north-america-and-europe-2024-12-03
