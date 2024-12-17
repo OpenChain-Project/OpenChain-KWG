@@ -4,7 +4,7 @@ title: "삼성전자, 오픈소스 국제 표준 인증 획득"
 description: 오픈소스 활용 역량 인정… 소프트웨어 공신력 제고 기대
 author: Samsung Newsroom
 categories: ["blog"]
-tags: ["삼성전자", "ISO/IEC5230"]
+tags: ["삼성전자", "ISO/IEC 5230"]
 resources:
 - src: "**.{png,jpg,jpeg}"
   title: "Image #:counter"
