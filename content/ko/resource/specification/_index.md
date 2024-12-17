@@ -4,7 +4,7 @@ linkTitle: "Specification"
 weight: 2
 type: docs
 categories: ["resource"]
-tags: ["ISO/IEC5230"]
+tags: ["ISO/IEC 5230"]
 description: >
   OpenChain 규격을 한국어로 번역하여 공개합니다.
 ---

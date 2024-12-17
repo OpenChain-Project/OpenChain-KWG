@@ -3,7 +3,7 @@ title: "13th Meeting"
 weight: 13
 type: docs
 categories: ["meeting"]
-tags: ["카카오", "카카오뱅크", "ISO/IEC5230", "현대모비스"]
+tags: ["카카오", "카카오뱅크", "ISO/IEC 5230", "현대모비스"]
 description: >
  Online Meeting, March 2022
 ---

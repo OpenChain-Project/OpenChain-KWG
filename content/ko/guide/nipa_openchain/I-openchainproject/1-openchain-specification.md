@@ -3,7 +3,7 @@ title: "1. OpenChain 표준"
 weight: 1
 type: docs
 categories: ["guide"]
-tags: ["OpenChain", "ISO/IEC5230"]
+tags: ["OpenChain", "ISO/IEC 5230"]
 ---
 
 ## ISO/IEC 5230 

@@ -3,7 +3,7 @@ title: "2. OpenChain  인증"
 weight: 2
 type: docs
 categories: ["guide"]
-tags: ["OpenChain", "ISO/IEC5230"]
+tags: ["OpenChain", "ISO/IEC 5230"]
 ---
 
 OpenChain 규격에서의 요구 사항을 모두 준수한다면 OpenChain 적합한 오픈소스 프로그램을 보유했음을 인증받을 수 있다. 오픈소스 프로그램이란 정책, 프로세스, 인원 등 기업이 오픈소스 컴플라이언스 활동을 수행하기 위한 일련의 관리 체계를 의미한다. 이 장에서는 인증 방법과 적합성 선언에 관해 설명한다. 
