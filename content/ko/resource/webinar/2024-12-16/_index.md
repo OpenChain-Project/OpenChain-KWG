@@ -6,7 +6,7 @@ date: 2024-12-16
 type: docs
 categories: ["webinar"]
 tags: ["Standards"]
-description: 2024-12-16 AI, Creating Standards: OpenChain의 ISO 표준화 여정과 교훈
+description: 2024-12-16 AI, Creating Standards OpenChain의 ISO 표준화 여정과 교훈
 ---
 
 source: https://openchainproject.org/news/2024/12/16/2024-recap-creating-standards-from-writing-a-spec-to-obtaining-iso-status-open-source-summit-europe-full-recording
