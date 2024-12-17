@@ -1,7 +1,7 @@
 ---
 title: "SOFTWARE BILL OF MATERIALS (SBOM)에 대한 기술 가이드라인 (인도 정부 발간)"
 linkTitle: "인도 SBOM 가이드라인"
-weight: 90
+weight: 200
 type: docs
 description: >
   Technical Guidelines on Software Bill of Materials (SBOM)
