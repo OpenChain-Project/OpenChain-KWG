@@ -2,7 +2,7 @@
 title: "20th Meeting"
 linkTitle: "20th Meeting"
 weight: 4
-date: 2024년 7월 22일
+date: 2025-01-01
 type: docs
 categories: ["Tooling&Legal"]
 tags: []
