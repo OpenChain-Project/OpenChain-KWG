@@ -16,10 +16,10 @@ source: https://openchainproject.org/news/2024/12/04/sbom-study-group-2024-11-27
 1. 발표자 소개
 2. 웨비나 소개와 목적
 3. Software Supply Chain Risk
-4. Cyclonedex와 SBOM
+4. CycloneDX와 SBOM
 5. 취약점 해결과 소프트웨어 투명성
 6. Software Heritage Project
-7. Cyclonedex의 도전과제
+7. CycloneDX의 도전과제
 8. Q&A 세션
 
 ## 1. 발표자 소개
@@ -47,13 +47,13 @@ Riotar Okada는 일본 기업의 Asterisk Research에서 근무하며, 애플리
 - [Open SSF](https://openssf.org/) 보고서에 따르면, 전문가의 약 1/3이 안전한 소프트웨어 개발 관행에 익숙하지 않다고 응답했습니다.
 - 오픈소스 소프트웨어의 70%가 충분한 코드 리뷰를 받지 못하고 있습니다.
 
-## 4. Cyclonedex와 SBOM
+## 4. CycloneDX와 SBOM
 
-### Cyclonedex 소개
+### CycloneDX 소개
 
-[Cyclonedex](https://cyclonedx.org/)는 소프트웨어 구성 요소의 투명성을 제공하기 위한 커뮤니티 주도 프로젝트입니다. 이는 OWASP Foundation의 주요 프로젝트 중 하나입니다.
+[CycloneDX](https://cyclonedx.org/)는 소프트웨어 구성 요소의 투명성을 제공하기 위한 커뮤니티 주도 프로젝트입니다. 이는 OWASP Foundation의 주요 프로젝트 중 하나입니다.
 
-### Cyclonedex의 특징
+### CycloneDX의 특징
 
 - 하드웨어와 소프트웨어를 모두 다룰 수 있음
 - 오픈소스 및 독점 소프트웨어 모두 포함
@@ -74,7 +74,7 @@ Riotar Okada는 일본 기업의 Asterisk Research에서 근무하며, 애플리
 
 [Software Heritage Project](https://www.softwareheritage.org/)는 다양한 저장소의 아카이브 프로젝트로, 패치 및 기여자 정보를 포함하고 있습니다. 이를 통해 프로젝트나 개발자의 신뢰성을 추적할 수 있습니다.
 
-## 7. Cyclonedex의 도전과제
+## 7. CycloneDX의 도전과제
 
 1. 공개 사례 연구 부족
 2. 도구 분류 체계의 개선 필요
@@ -93,7 +93,7 @@ Riotar Okada는 일본 기업의 Asterisk Research에서 근무하며, 애플리
 
 ### SBOM 포맷 간 협력
 
-SBOM 툴링 스터디 그룹은 공급망을 따라 전달되는 내용에 초점을 맞추고 있으며, 다양한 포맷(SPDX, Cyclonedex 등) 간의 협력이 중요합니다.
+SBOM 툴링 스터디 그룹은 공급망을 따라 전달되는 내용에 초점을 맞추고 있으며, 다양한 포맷(SPDX, CycloneDX 등) 간의 협력이 중요합니다.
 
 ---
 
@@ -105,15 +105,15 @@ SBOM 툴링 스터디 그룹은 공급망을 따라 전달되는 내용에 초�
 2. **SBOM의 중요성**: Software Bill of Materials(SBOM)를 통해 소프트웨어 구성 요소의 투명성을 확보하는 것이 중요합니다.
 3. **보안 성숙도 향상**: 오픈소스 프로젝트의 보안 성숙도를 평가하고, 필요한 경우 개선에 기여해야 합니다.
 4. **업데이트 관리**: 맹목적인 업데이트 신뢰를 지양하고, 각 업데이트의 내용을 면밀히 검토해야 합니다.
-5. **커뮤니티 참여**: OWASP나 Cyclonedex와 같은 커뮤니티에 참여하여 최신 보안 동향과 실무를 학습해야 합니다.
+5. **커뮤니티 참여**: OWASP나 CycloneDX와 같은 커뮤니티에 참여하여 최신 보안 동향과 실무를 학습해야 합니다.
 
 ## 고려해야 할 Action Item
 
-1. **SBOM 도구 도입**: Cyclonedex나 SPDX와 같은 SBOM 도구를 도입하여 소프트웨어 구성 요소를 체계적으로 관리합니다.
+1. **SBOM 도구 도입**: CycloneDX나 SPDX와 같은 SBOM 도구를 도입하여 소프트웨어 구성 요소를 체계적으로 관리합니다.
 2. **취약점 분석 강화**: 단순한 버전 체크를 넘어, 코드 수준의 취약점 분석을 수행합니다.
 3. **오픈소스 프로젝트 평가**: Software Heritage Project 등을 활용하여 사용 중인 오픈소스 프로젝트의 신뢰성을 평가합니다.
 4. **보안 교육 강화**: 개발자들을 대상으로 안전한 소프트웨어 개발 관행에 대한 교육을 실시합니다.
-5. **커뮤니티 협력**: OWASP 지역 챕터나 Cyclonedex 커뮤니티에 참여하여 지식을 공유하고 협력합니다.
+5. **커뮤니티 협력**: OWASP 지역 챕터나 CycloneDX 커뮤니티에 참여하여 지식을 공유하고 협력합니다.
 6. **공급망 감사**: 소프트웨어 공급망 전체에 대한 정기적인 보안 감사를 실시합니다.
 7. **정책 수립**: 오픈소스 소프트웨어 사용 및 관리에 대한 명확한 기업 정책을 수립합니다.
 8. **자동화 도구 활용**: SCA(Software Composition Analysis) 도구를 도입하여 구성 요소 분석을 자동화합니다.
