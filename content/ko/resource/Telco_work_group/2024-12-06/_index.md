@@ -1,6 +1,6 @@
 ---
 title: "India CERT-In SBOM Guidelines"
-linkTitle: "India CERT-In SBOM Guidelines"
+linkTitle: "SBOM Guidelines"
 # weight: 10
 date: 2024-12-06
 type: docs
