@@ -18,7 +18,7 @@ description: Tooling & Legal Subgroup 19th Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates | ETRI, Park Jeong-sook | TBD |
+| 0  | Community Updates | SK Telecom, Jang Haksung | [LINK](https://openchain-project.github.io/OpenChain-KWG/resource/) |
 | 1  | Discussion on How to Write a License Notice | ETRI, Shin Hak-Chul | TBD |
 | 2  | Open Discussion : Open Source Analysis Tools | LG Electronics, Park Wonjae | TBD |
 | 3  | Build Tracing | Tjaldur Software, Armijn Hemel | TBD |
