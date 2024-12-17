@@ -4,7 +4,7 @@ linkTitle: "0. OpenChain"
 weight: 10
 type: docs
 categories: ["guide"]
-tags: ["OpenChain", "ISO/IEC5230", "ISO/IEC18974"]
+tags: ["OpenChain", "ISO/IEC 5230", "ISO/IEC 18974"]
 description: >
 ---
 

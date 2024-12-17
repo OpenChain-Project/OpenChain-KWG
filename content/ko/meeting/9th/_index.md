@@ -4,7 +4,7 @@ linkTitle: "9th Meeting"
 weight: 9
 type: docs
 categories: ["meeting"]
-tags: ["FOSSLight", "dependency", "ISO/IEC5230", "NCSOFT"]
+tags: ["FOSSLight", "dependency", "ISO/IEC 5230", "NCSOFT"]
 description: >
  Online Meeting, Mar 2021
 ---

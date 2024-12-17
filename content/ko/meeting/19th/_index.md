@@ -3,7 +3,7 @@ title: "19th Meeting"
 weight: 19
 type: docs
 categories: ["meeting"]
-tags: ["현대오토에버", "현대자동차", "현대모비스", "LG전자", "오픈소스보안", "LINE", "ISO/IEC5230", "AI Compliance"]
+tags: ["현대오토에버", "현대자동차", "현대모비스", "LG전자", "오픈소스보안", "LINE", "ISO/IEC 5230", "AI Compliance"]
 description: >
  2023년 9월 19일 at 현대오토에버 (삼성동)
 ---
