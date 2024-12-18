@@ -1,118 +1,106 @@
 ---
-title: "OpenChain AI Study Group Meeting"
+title: "OpenChain AI 스터디 그룹: AI BOM 관리와 워킹그룹 전환 논의"
 linkTitle: "2024-11-05"
 # weight: 10
 date: 2024-11-05
 type: docs
 categories: ["study"]
 tags: ["AI"]
-description: 2024-11-05 AI Bill of Materials (AIBOM) 관리를 위한 draft scratchpad에 대한 논의
+description: 2024-11-05 OpenChain AI Study Group Meeting
 ---
 
 source: https://openchainproject.org/news/2024/11/06/ai-study-group-2024-11-05-recording
 
+# OpenChain AI 스터디 그룹: AI BOM 관리와 워킹그룹 전환 논의
+
 ## 목차
+1. 웨비나 소개
+2. AI BOM 관리를 위한 스크래치패드 논의
+3. 정식 워킹그룹으로의 전환
+4. 질의응답
+5. 향후 계획
 
-1. 소개 및 반독점 정책
-2. 가이드라인 검토
-3. AI Bill of Materials (AIBOM)
-4. License Obligations
-5. Human Oversight
-6. Working Group 제안
-7. 결론 및 다음 단계
+## 1. 웨비나 소개
 
-## 1. 소개
+### 제목
+OpenChain AI 스터디 그룹: 북미 및 유럽을 위한 월간 워크샵 - 2024년 11월 5일
 
-이 워크샵은 OpenChain AI Study Group의 정기 월간 미팅입니다. 주요 목적과 내용은 다음과 같습니다:
+### 발표자 소개
+이번 웨비나는 [OpenChain Project](https://www.openchainproject.org/)의 AI 스터디 그룹에 의해 진행되었습니다. 특정 발표자의 이름은 제공된 정보에 명시되어 있지 않습니다.
 
-1. AI Bill of Materials (AIBOM) 관리를 위한 draft scratchpad에 대한 논의
-2. Study Group에서 formal working group으로의 전환 검토
+### 웨비나 소개와 목적
+이 워크샵은 OpenChain AI 스터디 그룹의 정기 모임으로, 2024년 11월 5일에 개최되었습니다. 주요 목적은 두 가지였습니다:
+1. [AI BOM](https://www.linuxfoundation.org/blog/blog/ai-bill-of-materials-aibom-managing-ai-supply-chain-risk) (Bill of Materials) 관리를 위한 초안 스크래치패드에 대한 논의
+2. 현재의 스터디 그룹을 정식 워킹그룹으로 전환하는 방안 검토
 
-이 미팅은 AI 공급망 관리와 관련된 지침을 개발하고 개선하는 데 중점을 두었습니다. 참가자들은 AI 시스템의 신뢰성을 높이기 위한 방안을 논의하고, OpenChain의 기존 open-source license compliance 경험을 AI 영역에 적용하는 방법을 모색했습니다.
+## 2. AI BOM 관리를 위한 스크래치패드 논의
 
-워크샵의 결과물은 향후 AI 관련 compliance 및 governance 표준 개발에 기여할 수 있으며, 이는 산업 전반에 걸쳐 AI 시스템의 투명성과 신뢰성을 향상시키는 데 도움이 될 것으로 기대됩니다.
+이 세션에서는 AI BOM 관리를 위한 초안 스크래치패드에 대해 심도 있는 논의가 이루어졌습니다. AI BOM은 AI 시스템의 구성 요소를 문서화하는 중요한 도구로, 이를 효과적으로 관리하기 위한 방법론과 best practice에 대해 참가자들이 의견을 나누었습니다.
 
+주요 논의 사항:
+- AI 모델의 구성 요소 식별 방법
+- 데이터셋 및 알고리즘의 출처 추적
+- AI BOM의 표준화 필요성
+- 보안 및 규제 준수를 위한 AI BOM 활용 방안
 
-## 2. 가이드라인 검토
+## 3. 정식 워킹그룹으로의 전환
 
-그룹은 이전 세션에서 개발해온 가이드라인을 검토하고 논의했습니다. 이 가이드라인은 [ISO 5230](https://www.iso.org/standard/81039.html)이 open-source license compliance를 다루는 방식과 유사하게 supply chain에서 AI를 관리하기 위한 프레임워크를 제공하는 것을 목표로 합니다.
+스터디 그룹을 정식 [OpenChain](https://www.openchainproject.org/) 워킹그룹으로 전환하는 방안에 대해 논의가 이루어졌습니다. 이는 AI 관련 오픈소스 관리에 대한 중요성이 증가함에 따라 더욱 체계적이고 공식적인 접근이 필요하다는 인식에서 비롯되었습니다.
 
-### 주요 논의 사항:
+전환 시 고려사항:
+- 워킹그룹의 목표 및 범위 설정
+- 멤버십 구조 및 운영 방식
+- 다른 OpenChain 워킹그룹과의 협력 방안
+- 정기적인 성과 보고 및 평가 체계
 
-- AI bill of materials 관리를 위한 policy 및 competence 요구사항
-- Program scope 정의
-- AI models 및 datasets에 대한 license obligations
+## 4. 질의응답
 
-## 3. AI Bill of Materials (AIBOM)
+참가자들의 질문과 그에 대한 답변이 이어졌습니다. 주요 질문들은 AI BOM의 실제 적용 사례, 법적 고려사항, 그리고 워킹그룹 전환 후의 활동 계획 등에 집중되었습니다.
 
-그룹은 Software Bill of Materials (SBOM)와 유사하지만 AI systems에 특화된 [AI Bill of Materials (AIBOM)](https://www.nist.gov/news-events/news/2023/08/nist-seeks-comments-ai-risk-management-framework-companion-resource-ai-bill) 개념에 대해 논의했습니다.
+## 5. 향후 계획
 
-### 논의 사항:
+### 스터디 그룹 활동 참여 방법
+- [OpenChain AI 스터디 그룹 메일링 리스트](https://lists.openchainproject.org/g/ai-study-group)를 통해 지속적으로 논의에 참여할 수 있습니다. 이는 산업 분야나 전문성에 관계없이 모든 사람에게 열려 있습니다.
 
-- AIBOMs의 format 및 content
-- Fields를 지정할지 또는 [SPDX](https://spdx.dev/)와 같은 기존 standards를 참조할지 여부
-- 다양한 use cases에 대한 specificity와 flexibility의 균형 필요성
+### 향후 미팅 참석
+- 모든 향후 AI 스터디 그룹 미팅의 일정과 참여 방법은 [OpenChain 참여 페이지](https://www.openchainproject.org/participate)에서 확인할 수 있습니다.
 
-## 4. License Obligations
-
-그룹은 가이드라인에 license obligation verification을 포함하는 것에 대해 토론했습니다.
-
-### 주요 고려사항:
-
-- Model data sets의 licenses를 검토하는 process의 필요성
-- Verification 요구사항의 광범위성에 대한 우려
-- 최근 [Open Source Initiative의 AI 정의](https://opensource.org/osd-annotated)를 참조한 AI licensing의 진화하는 특성
-
-## 5. Human Oversight
-
-AI systems에 대한 human oversight 포함에 관한 새로운 주제가 소개되었습니다.
-
-### 논의 사항:
-
-- Ethics 및 bias와 같이 이전에 제외된 주제들과의 잠재적 중복
-- "Unintended consequences"를 정의하고 정량화하는 데의 어려움
-- AI systems에서 human oversight의 timing 및 implementation
-
-## 6. Working Group 제안
-
-그룹은 study group에서 formal working group으로의 전환 가능성에 대해 논의했습니다.
-
-### 주요 사항:
-
-- Study group에서의 brainstorming과 working group에서의 formal work의 차이
-- Working group이 된 후에도 ideas를 계속 개선할 수 있는 flexibility
-- OpenChain board에 proposal을 제출하는 process
-
-## 7. 결론 및 다음 단계
-
-미팅은 향후 방향과 가이드라인의 추가 개선 필요성에 대한 논의로 마무리되었습니다. 그룹은 문서 작업을 계속하고 working group으로의 전환 제안을 고려하기로 합의했습니다.
+이번 워크샵은 AI 기술의 오픈소스 관리에 대한 중요한 논의의 장을 제공했으며, 향후 더욱 체계적인 접근을 위한 기반을 마련했습니다.
 
 ---
 
 # 요약 보고서
 
-## 주요 내용
+## 기업의 오픈소스 관리 담당자에게 주는 의미
 
-1. OpenChain AI Study Group은 AI supply chain 관리를 위한 가이드라인을 개발 중입니다.
-2. AI Bill of Materials (AIBOM) 개념이 논의되었으며, 이는 AI systems에 특화된 것입니다.
-3. License obligations, 특히 AI models 및 datasets에 대한 검토 process의 필요성이 강조되었습니다.
-4. AI systems에서의 human oversight 포함 여부가 새롭게 논의되었습니다.
-5. Study group에서 formal working group으로의 전환이 고려되고 있습니다.
+1. **AI 기술 관리의 중요성 인식**: AI 기술이 기업 환경에 빠르게 도입됨에 따라, 오픈소스 관리 담당자들은 AI 관련 오픈소스 컴포넌트의 관리에 대한 중요성을 인식해야 합니다.
 
-## 기업 오픈소스 관리 담당자를 위한 시사점
+2. **AI BOM의 도입 필요성**: AI Bill of Materials (BOM)는 AI 시스템의 구성 요소를 추적하고 관리하는 데 필수적인 도구가 될 것입니다. 이는 기존의 소프트웨어 BOM 관리 경험을 AI 영역으로 확장하는 것을 의미합니다.
 
-1. AI 기술 도입 시 license compliance 및 risk management가 더욱 복잡해질 수 있습니다.
-2. AIBOM이 향후 중요한 compliance 도구가 될 수 있으므로, 이에 대한 이해와 준비가 필요합니다.
-3. AI models 및 datasets에 대한 license 검토 process가 필요할 수 있습니다.
-4. AI systems에 대한 human oversight 요구사항이 향후 등장할 수 있으므로, 이에 대한 준비가 필요할 수 있습니다.
-5. OpenChain과 같은 국제 표준화 움직임을 주시하고, 필요시 참여를 고려해야 합니다.
+3. **규제 대비**: AI 기술에 대한 규제가 강화될 것으로 예상되므로, 오픈소스 관리 담당자들은 이에 대비하여 AI 관련 오픈소스 사용을 더욱 철저히 관리해야 합니다.
 
-## 기업 오픈소스 관리 담당자가 고려해야 할 Action Item
+4. **협업의 중요성**: AI 기술의 복잡성을 고려할 때, 오픈소스 관리 담당자는 AI 개발팀, 법무팀, 보안팀 등과의 긴밀한 협력이 필요합니다.
 
-1. AI 기술 도입 시 license compliance 및 risk management 전략을 재검토하고 필요시 업데이트합니다.
-2. AIBOM 개념을 이해하고, 기업 내 적용 가능성을 검토합니다.
-3. AI models 및 datasets에 대한 license 검토 process를 수립하거나 개선합니다.
-4. AI systems에 대한 human oversight 방안을 검토하고, 필요시 관련 정책을 수립합니다.
-5. OpenChain AI Study Group의 활동을 지속적으로 모니터링하고, 필요시 참여를 고려합니다.
-6. AI 관련 open source 및 compliance 교육을 기업 내 관련 부서에 제공합니다.
-7. AI 기술 도입 및 관리에 관한 cross-functional team을 구성하여 협력을 강화합니다.
+5. **지속적인 학습과 적응**: AI 기술과 관련 오픈소스 생태계가 빠르게 변화하고 있으므로, 지속적인 학습과 적응이 필요합니다.
+
+## 고려해야 할 Action Item
+
+1. **AI BOM 관리 체계 구축**: AI 프로젝트에 사용되는 모든 오픈소스 컴포넌트를 식별하고 문서화하는 체계를 구축합니다.
+
+2. **AI 관련 오픈소스 정책 수립**: 기존의 오픈소스 정책을 AI 기술의 특성에 맞게 업데이트합니다.
+
+3. **교육 및 인식 제고**: 개발자와 관리자를 대상으로 AI 관련 오픈소스 사용의 특징과 주의사항에 대한 교육을 실시합니다.
+
+4. **AI 오픈소스 컴플라이언스 점검**: AI 프로젝트에 대한 정기적인 오픈소스 컴플라이언스 점검을 실시합니다.
+
+5. **OpenChain AI 워킹그룹 참여**: OpenChain AI 워킹그룹의 활동에 적극적으로 참여하여 최신 동향을 파악하고 best practice를 공유합니다.
+
+6. **AI 공급망 관리 강화**: AI 모델, 데이터셋, 알고리즘 등의 출처와 라이선스를 철저히 관리합니다.
+
+7. **법적 리스크 평가**: AI 관련 오픈소스 사용에 따른 잠재적 법적 리스크를 평가하고 대응 방안을 마련합니다.
+
+8. **보안 강화**: AI 시스템의 보안 취약점을 식별하고 관리하는 프로세스를 구축합니다.
+
+9. **성과 측정 체계 수립**: AI 관련 오픈소스 관리의 효과성을 측정할 수 있는 KPI를 설정하고 정기적으로 평가합니다.
+
+이러한 action item들을 실행함으로써, 기업의 오픈소스 관리 담당자들은 AI 기술의 도입과 확산에 따른 새로운 도전에 효과적으로 대응할 수 있을 것입니다.
