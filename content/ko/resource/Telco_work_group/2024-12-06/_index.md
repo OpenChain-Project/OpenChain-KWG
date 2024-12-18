@@ -1,89 +1,100 @@
 ---
-title: "India CERT-In SBOM Guidelines"
+title: "SBOM 가이드라인 업데이트 논의"
 linkTitle: "SBOM Guidelines"
 # weight: 10
 date: 2024-12-06
 type: docs
 categories: ["Telco"]
 tags: ["SBOM"]
-description: 2024-12-06 India CERT-In SBOM Guidelines 및 OpenChain Telco SBOM Guide 개선사항 논의
+description: 2024-12-06 OpenChain Telco Work Group Meetings
 ---
 
 source: https://openchainproject.org/news/2024/12/12/telco-work-group-2024-12-06
 
+
 ## 목차
+1. 인도 CERT-In SBOM 가이드라인 검토
+2. OpenChain Telco SBOM 가이드 개선사항
+3. SBOM 도구 관련 논의
+4. 향후 계획
 
-1. India CERT-In SBOM Guidelines 논의
-2. OpenChain Telco SBOM Guide 개선사항
-3. 기타 논의사항
+## 1. 웨비나 개요
 
-## 1. India CERT-In SBOM Guidelines 논의
+### 발표자 소개
+이번 웨비나는 [OpenChain Project](https://www.openchainproject.org)의 Telco Work Group에서 진행되었으며, [Nokia](https://www.nokia.com)의 Marc-Etienne Vargenau가 진행을 맡았습니다.
 
-### 주요 내용
+### 웨비나 목적
+Telco Work Group의 정기 미팅으로, SBOM 관련 최신 동향을 공유하고 [OpenChain Telco SBOM Guide](https://github.com/OpenChain-Project/Telco-WG) 개선 방안을 논의하였습니다.
 
-- 2023년 10월 India Computer Emergency Response Team이 발행한 SBOM 기술 가이드라인 검토
-- 주요 대상: 공공부문, 정부 필수 서비스, 소프트웨어 산업
-- 법적 강제성은 없으나 SBOM 생성 및 제공을 권장
+## 2. 인도 CERT-In SBOM 가이드라인 검토
 
-### 주요 이슈
+### 가이드라인 개요
+2023년 10월에 인도 [CERT-In](https://www.cert-in.org.in/)에서 발표한 SBOM 기술 가이드라인에 대해 논의했습니다. 이 가이드라인은 주로 공공 부문의 보안 관점에 초점을 맞추고 있습니다.
 
-- Mandatory Fields가 21개로 NTIA minimum elements보다 광범위
-- End of Life date 등 현실적으로 제공이 어려운 필드 존재
-- Medical 산업의 경우 FDA 요구사항과 연계되어 있음
-- SPDX, CycloneDX 등 현존 표준과 일부 불일치
+### 주요 특징
+- 21개의 필수 요소를 정의하고 있으며, 이는 [NTIA](https://www.ntia.gov/) 최소 요구사항보다 더 많은 항목을 포함
+- End-of-life date와 같은 현실적으로 구현이 어려운 필드들이 포함
+- 공공 부문을 주요 대상으로 하며, 의무사항이 아닌 권고사항으로 제시
 
-## 2. OpenChain Telco SBOM Guide 개선사항
+### (참고) 인도 정부 발간 SBOM 가이드라인 한국어 번역
+- [인도 SBOM 가이드라인](https://openchain-project.github.io/OpenChain-KWG/guide/sbom_guide/)
 
-### Component Hash 관련
+## 3. OpenChain Telco SBOM 가이드 개선사항
 
-- Package Checksum과 Package Verification Code 모두 허용하는 방향으로 변경
-- CISA Common SBOM Requirements 3rd Edition과 일관성 유지
-- Hash 제공이 불가능한 경우 처리방안 논의 필요
+### Package Hash 관련 개선
+- [SPDX](https://spdx.dev/) Package Checksum과 Package Verification Code 모두 허용하도록 변경
+- [CISA](https://www.cisa.gov/)의 Common SBOM Requirements와 일관성 유지
+- Hash 필드의 필수 여부에 대한 재검토 진행 중
 
-### 필수 필드 완화
+### 기타 개선사항
+- File Analyzed 필드를 필수항목에서 제외
+- Package License concluded와 declared 관련 SPDX 2.2와 2.3 버전 차이 반영
+- [SBOM Merge 도구](https://github.com/interlynk-io/sbomasm) 관련 권장사항 업데이트
 
-- File Analyzed 필드를 필수에서 제외 (default: true)
-- Package License (concluded/declared) - SPDX 2.2/2.3 버전 차이 반영
-- External Ref와 PURL 관련 요구사항 일관성 개선
+## 4. SBOM 도구 관련 논의
 
-### 도구 관련
+### Merge 도구 평가
+- [Interlink](https://www.interlink.io/)의 SBOM ASM 도구에 대한 상세 테스트 결과 공유
+- 중복 패키지 처리 등 개선 필요사항 식별
+- [CycloneDX](https://cyclonedx.org/) 포맷에서는 이미 구현된 기능들이 SPDX에서도 구현될 예정
 
-- SBOM 병합 도구로 Interlynk의 SBOM-ASEM 추천
-- 중복 패키지 처리 등 일부 개선사항 존재
+## 5. 향후 계획
+- OpenChain Telco SBOM Guide 1.1 버전 준비
+- 커뮤니티 피드백 수렴 후 업데이트 진행
+- 1.0 버전과의 하위 호환성 유지
 
-## 3. 기타 논의사항
-
-### 일본 SBOM 그룹 제안
-
-- Industry-neutral, format-neutral SBOM 가이드 개발 제안
-- 보안 정보의 SBOM 포함 여부 논의 필요
-- German BSI 가이드는 보안정보 분리 권장
+### 다음 미팅 일정
+2024년 1월에 다음 정기 미팅이 예정되어 있으며, 추가적인 개선사항에 대한 논의를 이어갈 예정입니다.
 
 ---
 
-# 요약 보고서
+## 요약 보고서
 
-## 기업 오픈소스 관리 담당자에게 주는 의미
+### 기업 오픈소스 관리자를 위한 시사점
 
-1. **SBOM 표준화 동향**
-- 국가별 SBOM 가이드라인 제정 확산
-- 산업별 요구사항 차이 인식 필요
-- 글로벌 표준과의 정합성 고려 필요
-1. **구현 현실성**
-- 도구 지원 현황 파악 중요
-- 필수 필드의 현실적 구현 가능성 검토
-- 보안정보 통합 여부에 대한 전략 수립 필요
+1. SBOM 표준화 동향
+- 글로벌 규제 환경이 강화되는 추세
+- 인도의 사례처럼 지역별로 상이한 요구사항 출현
+- 국제 표준과의 조화 필요성 증가
 
-## 주요 Action Items
+2. 실무적 고려사항
+- SBOM 생성 도구의 선택과 검증 중요성 증가
+- Hash 값 관리 등 기술적 요구사항 변화
+- 보안 정보와 SBOM 연계 방안 고려 필요
 
-1. **SBOM 도구 검토**
-- SBOM-ASEM 등 새로운 도구 평가
-- 현재 사용 중인 도구의 표준 준수 여부 확인
-1. **가이드라인 대응**
-- 국가별/산업별 요구사항 매핑
-- 필수 필드 제공 가능성 검토
-- 미제공 필드에 대한 대응 방안 수립
-1. **보안정보 전략**
-- SBOM 내 보안정보 포함 여부 결정
-- 별도 문서화 전략 검토
-- 업데이트 주기 및 방식 결정
+### Action Items
+
+1. 단기 조치사항
+- 현재 사용 중인 SBOM 도구의 기능 검토
+- SPDX 2.2/2.3 버전 지원 현황 확인
+- Merge 도구 도입 검토
+
+2. 중장기 계획
+- SBOM 관련 규제 동향 모니터링
+- 보안 정보 연계 방안 수립
+- 글로벌 표준화 활동 참여 검토
+
+3. 조직 내부 대응
+- SBOM 관련 프로세스 개선
+- 담당자 교육 및 역량 강화
+- 공급망 관리 체계 재검토
