@@ -5,7 +5,7 @@ linkTitle: "ISO 표준 등록"
 description: "오픈소스 컴플라이언스에 대한 국제 표준, ISO/IEC 5230:2020"
 author: OpenChain Project
 categories: ["blog"]
-tags: ["ISO/IE C5230"]
+tags: ["ISO/IEC 5230"]
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
