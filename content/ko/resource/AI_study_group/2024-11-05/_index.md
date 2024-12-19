@@ -1,5 +1,5 @@
 ---
-title: "OpenChain AI 스터디 그룹: AI BOM 관리와 워킹그룹 전환 논의"
+title: "AI BOM 관리와 워킹그룹 전환 논의"
 linkTitle: "AI BOM 관리와 워킹그룹 전환 논의"
 # weight: 10
 date: 2024-11-05
@@ -30,7 +30,7 @@ OpenChain AI 스터디 그룹: 북미 및 유럽을 위한 월간 워크샵 - 20
 
 ### 웨비나 소개와 목적
 이 워크샵은 OpenChain AI 스터디 그룹의 정기 모임으로, 2024년 11월 5일에 개최되었습니다. 주요 목적은 두 가지였습니다:
-1. [AI BOM](https://www.linuxfoundation.org/blog/blog/ai-bill-of-materials-aibom-managing-ai-supply-chain-risk) (Bill of Materials) 관리를 위한 초안 스크래치패드에 대한 논의
+1. [AI BOM](https://www.linuxfoundation.org/research/ai-bom) (Bill of Materials) 관리를 위한 초안 스크래치패드에 대한 논의
 2. 현재의 스터디 그룹을 정식 워킹그룹으로 전환하는 방안 검토
 
 ## 2. AI BOM 관리를 위한 스크래치패드 논의
@@ -60,7 +60,7 @@ OpenChain AI 스터디 그룹: 북미 및 유럽을 위한 월간 워크샵 - 20
 ## 5. 향후 계획
 
 ### 스터디 그룹 활동 참여 방법
-- [OpenChain AI 스터디 그룹 메일링 리스트](https://lists.openchainproject.org/g/ai-study-group)를 통해 지속적으로 논의에 참여할 수 있습니다. 이는 산업 분야나 전문성에 관계없이 모든 사람에게 열려 있습니다.
+- [OpenChain AI 스터디 그룹 메일링 리스트](https://lists.openchainproject.org/g/ai)를 통해 지속적으로 논의에 참여할 수 있습니다. 이는 산업 분야나 전문성에 관계없이 모든 사람에게 열려 있습니다.
 
 ### 향후 미팅 참석
 - 모든 향후 AI 스터디 그룹 미팅의 일정과 참여 방법은 [OpenChain 참여 페이지](https://www.openchainproject.org/participate)에서 확인할 수 있습니다.
