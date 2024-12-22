@@ -24,7 +24,7 @@ OpenChain KWG always welcomes your contributions. We develop and grow with each 
 ## License
 
 * License for website code : [Apache-2.0](./LICENSE)
-* License for contribution to OpenChain KWG : [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+* License for documentation : [CC BY 4.0](https://creativecommons.org/licenses/by/4.0)
 
 ## Contact
 
