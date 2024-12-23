@@ -7,7 +7,7 @@ tags: ["프로세스"]
 ---
 
 {{< alert title="Note:" >}}
-This sample open source policy was written with reference to the following two materials.
+This sample open source process was written with reference to the following two materials.
 
 1. [OpenChain Open Source Policy Template](https://github.com/OpenChain-Project/Reference-Material/tree/master/Policy-Templates/Official/2.1/en)
 2. [Open Source Compliance In The Enterprise](https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/)
