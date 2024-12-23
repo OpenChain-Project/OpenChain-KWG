@@ -11,6 +11,9 @@ This sample open source policy was written with reference to the following two m
 
 1. [OpenChain Open Source Policy Template](https://github.com/OpenChain-Project/Reference-Material/tree/master/Policy-Templates/Official/2.1/en)
 2. [Linux Foundation Generic FOSS Policy](https://github.com/todogroup/policies/blob/master/linuxfoundation/lf_compliance_generic_policy.pdf)
+
+**Author : OpenChain Korea Work Group Authors / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**
+
 {{< /alert >}}
 
 ## 1. 목적
