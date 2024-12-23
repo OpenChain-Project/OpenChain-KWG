@@ -3,7 +3,7 @@ date: 2022-09-30
 title: "Akka는 더 이상 오픈소스가 아닙니다."
 linkTitle: "Akka는 더 이상 오픈소스가 아닙니다."
 description: Apache-2.0이었던 Akka의 라이선스가 2.7 버전부터 기업이 무료로 사용할 수 없는 Business Source License로 변경되었습니다. 
-author: 장학성
+author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
 tags: ["akka"]
 resources:

@@ -11,7 +11,7 @@ description: >
 
 ISO/IEC 5230은 오픈소스 컴플라이언스를 위한 국제 표준으로 소프트웨어를 배포하는 기업이 올바른 오픈소스의 활용을 위해 준수해야 할 최소한의 핵심 요구사항을 정의하였다. 여기에서는 ISO/IEC 5230에 대해 간단히 소개하고, 이를 기반으로 기업이 어떻게 오픈소스 거버넌스 체계를 구축할 수 있을지에 대하여 설명한다. 
 
-**Author : 장학성 (haksung@sktelecom.com)**
+**Author : 장학성 (haksung@sktelecom.com) / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**
 
 {{% /pageinfo %}}
 

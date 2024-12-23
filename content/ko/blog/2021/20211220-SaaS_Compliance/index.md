@@ -3,7 +3,7 @@ date: 2021-12-20
 title: "SaaS로 서비스를 제공할 때에도 오픈소스 컴플라이언스가 필요한가요?"
 linkTitle: "SaaS와 컴플라이언스"
 description: "Open Source Compliance for SaaS Vendors"
-author: 장학성
+author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
 tags: ["SaaS"]
 resources:

@@ -3,7 +3,7 @@ date: 2023-04-05
 title: "오프라인 모임 준비 checklist"
 linkTitle: "오프라인 모임 준비 checklist"
 description: "OpenChain Korea Workgroup 오프라인 모임 준비에 필요한 체크리스트를 정리합니다."
-author: 이서연
+author: 이서연 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"

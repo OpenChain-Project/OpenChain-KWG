@@ -2,8 +2,8 @@
 date: 2024-11-06
 title: "To Mine or Not To Mine: 독일 법원이 AI 시대의 저작권 딜레마에 내린 판결"
 linkTitle: "독일 법원 AI 저작권 판결"
-description: 
-author: 장학성
+description:
+author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
 tags: ["AI", "분쟁사례"]
 resources:

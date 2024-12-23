@@ -3,7 +3,7 @@ date: 2024-11-12
 title: "한국 소프트웨어 기업이 알아야 할 EU의 3대 디지털 규제 핵심 내용"
 linkTitle: "EU 3대 디지털 규제 핵심 내용"
 description: 
-author: 장학성
+author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
 tags: ["AI Act", "CRA"]
 resources:

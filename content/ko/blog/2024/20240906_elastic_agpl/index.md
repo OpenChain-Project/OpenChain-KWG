@@ -3,7 +3,7 @@ date: 2024-09-06
 title: "또 다시 Elasticsearch 라이선스 변경, 기업의 대응 방안은?"
 linkTitle: "Elasticsearch 라이선스 변경"
 description: 
-author: 장학성
+author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
 tags: ["Elastic", "AGPL"]
 resources:

@@ -3,7 +3,7 @@ date: 2020-11-24
 title: "Kakao Training Material"
 linkTitle: "Kakao Training Material"
 description: "Kakao has released open source educational materials for in-house developers so that anyone can read it."
-author: Robin Hwang ([@revfactory](https://github.com/revfactory)
+author: Robin Hwang ([@revfactory](https://github.com/revfactory) 
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
