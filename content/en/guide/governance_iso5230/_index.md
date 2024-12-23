@@ -13,7 +13,7 @@ OpenChain ISO/IEC 5230 is the International Standard for open source license com
 
 This content is the result of a study conducted by the Korea Copyright Commission open source expert community in 2021.
 
-**Author : Haksung Jang (haksung@sktelecom.com)**
+**Author : Haksung Jang (haksung@sktelecom.com) / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**
 
 {{% /pageinfo %}}
 
