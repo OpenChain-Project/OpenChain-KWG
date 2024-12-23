@@ -3,7 +3,7 @@ date: 2024-09-23
 title: "중국 저작권 침해 소송 사례 “GPL 기반 소프트웨어 제품은 어차피 소스 공개 의무가 있으니 배껴도 되는 것 아닌가요?"
 linkTitle: "중국 저작권 침해 소송 사례"
 description: 
-author: 장학성
+author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
 tags: ["GPL", "분쟁사례", "중국"]
 resources:

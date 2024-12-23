@@ -14,7 +14,7 @@ If an organisation fails to manage open source, it may encounter risks such as l
 
 In this article, we will examine the minimum core requirements and techniques that organisations need to implement for managing open source based on ISO international standards.
 
-**Author: Haksung Jang (haksung@sktelecom.com)**
+**Author: Haksung Jang (haksung@sktelecom.com) / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**
 
 {{% /pageinfo %}}
 

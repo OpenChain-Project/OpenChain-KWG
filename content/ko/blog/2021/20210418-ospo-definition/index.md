@@ -3,7 +3,7 @@ date: 2021-04-18
 title: "OSPO란?"
 linkTitle: "OSPO란?"
 description: "OSPO<sub>Open Source Program Office</sub>의 정의와 가이드"
-author: Haksung Jang ([@haksungjang](https://haksungjang.github.io/))
+author: Haksung Jang ([@haksungjang](https://haksungjang.github.io/)) / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
 tags: ["OSPO"]
 resources:
