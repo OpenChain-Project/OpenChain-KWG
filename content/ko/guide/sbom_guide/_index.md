@@ -22,7 +22,7 @@ description: >
 
 이 번역본이 한국의 소프트웨어 개발 및 보안 전략 수립에 실질적인 도움이 되기를 기대합니다.
 
-**Author : [장학성 (Haksung Jang)](https://haksungjang.github.io/)**
+**Author : [장학성 (Haksung Jang)](https://haksungjang.github.io/) / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**
 
 {{% /pageinfo %}}
 

@@ -14,7 +14,7 @@ description: >
 
 여기에서는 ISO 국제표준에 근거하여 기업이 오픈소스 관리를 위해 수행해야 할 최소한의 핵심 요구 사항과 그 방법을 알아봅니다.
 
-**Author : 장학성 (haksung@sktelecom.com)**
+**Author : 장학성 (haksung@sktelecom.com) / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**
 
 {{% /pageinfo %}}
 
