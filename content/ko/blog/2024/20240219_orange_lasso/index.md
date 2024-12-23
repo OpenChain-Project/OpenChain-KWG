@@ -3,7 +3,7 @@ date: 2024-02-19
 title: "프랑스 법원, 대형 통신사 Orange에게 GPL 위반으로 손해배상 판결"
 linkTitle: "프랑스 법원, 대형 통신사 Orange에게 GPL 위반으로 손해배상 판결"
 description: 
-author: 장학성
+author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
 tags: ["orange", "분쟁사례"]
 resources:

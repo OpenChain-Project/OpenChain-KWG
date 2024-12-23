@@ -3,7 +3,7 @@ date: 2023-04-03
 title: "기업의 효과적인 오픈소스 관리 방안 (2) OpenChain Korea Work Group"
 linkTitle: "기업의 효과적인 오픈소스 관리 방안 (2) OpenChain Korea Work Group"
 description: 
-author: 장학성
+author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"

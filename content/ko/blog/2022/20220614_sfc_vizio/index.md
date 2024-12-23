@@ -3,7 +3,7 @@ date: 2022-06-14
 title: "SFC vs. Vizio 판결 겉핥기"
 linkTitle: "SFC vs. Vizio 판결 겉핥기"
 description: SFC와 Vizio의 GPL 소송에 대한 배경과 쟁점을 살펴 보겠습니다.
-author: 장학성
+author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
 tags: ["SFC v. Vizio"]
 resources:

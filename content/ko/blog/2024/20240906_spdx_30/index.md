@@ -3,7 +3,7 @@ date: 2024-09-06
 title: "SPDX 3.0 소개와 기업 도입 전략"
 linkTitle: "SPDX 3.0 기업 도입 전략"
 description: 
-author: 장학성
+author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
 tags: ["SPDX"]
 resources:
