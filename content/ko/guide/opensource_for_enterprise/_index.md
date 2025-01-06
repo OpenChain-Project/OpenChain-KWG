@@ -1,6 +1,6 @@
 ---
-title: "ISO 표준 기반 기업 오픈소스 관리 가이드"
-linkTitle: "기업 오픈소스 관리 가이드"
+title: "[2025] ISO 표준 기반 기업 오픈소스 관리 가이드"
+linkTitle: "2025 기업 오픈소스 관리 가이드"
 weight: 20
 type: docs
 description: >
