@@ -7,6 +7,7 @@ description: >
   ISO 국제 표준에 기반하여 기업이 오픈소스를 효과적으로 관리하기 위한 방안을 소개합니다. 
 ---
 
+
 {{% pageinfo %}}
 
 오픈소스는 현대 소프트웨어 개발에 필수적인 요소입니다. 그러나 적절한 관리 없이 오픈소스를 사용하면 기업은 라이선스 컴플라이언스 위반, 보안 취약점 노출 등 심각한 리스크에 직면할 수 있습니다. 
@@ -14,6 +15,13 @@ description: >
 이 가이드는 ISO 국제표준을 기반으로 기업이 오픈소스를 효과적으로 관리하기 위해 수행해야 할 핵심 요구사항과 구체적인 실행 방법을 제시합니다.
 
 **Author : 장학성 (haksung@sktelecom.com) / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**
+
+**최근 업데이트 사항 (2025.1.6):**
+- ISO/IEC 18974 (OpenChain Security Assurance Specification) 관련 내용 추가
+- 오픈소스 보안 보증 프로세스 및 요구사항 상세화
+- SBOM (Software Bill of Materials) 관리에 대한 내용 보강
+- 오픈소스 기여 및 공개 프로세스 개선
+- 프로그램 효과성 측정 및 지속적 개선 방안 추가
 
 {{% /pageinfo %}}
 
