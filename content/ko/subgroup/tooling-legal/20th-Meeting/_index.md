@@ -22,7 +22,7 @@ description: Tooling & Legal Subgroup 20th Meeting
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Community Updates & New Issues | TBD | TBD |
-| 1  | TBD | SECTREND | TBD |
+| 1  | Guard Your AI+Software Supply Chain with Sectrend | SECTREND | TBD |
 | 2  | Open Source for Business | LG전자, 박원재 | TBD |
 
 
