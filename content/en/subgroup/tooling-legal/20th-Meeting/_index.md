@@ -9,8 +9,8 @@ description: Tooling & Legal Subgroup 20th Meeting
 
 ## Schedule
 * Purpose: Tooling and Legal Subgroup 20th Meeting
-* Date: February xx, 2025 (xxx) 14:00 ~ 17:00
-* Venue: TBD
+* Date: February 26, 2025 (Wed) 14:00 ~ 17:00
+* Venue: Ahnlab
 
 ## Attendees
 * TBD
@@ -18,7 +18,9 @@ description: Tooling & Legal Subgroup 20th Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | TBD | TBD | TBD |
+| 0  | Community Updates & New Issues | TBD | TBD |
+| 1  | TBD | SECTREND | TBD |
+| 2  | Open Source for Business | LG Eletronics, Park Wonjae | TBD |
 
 <!--
 
