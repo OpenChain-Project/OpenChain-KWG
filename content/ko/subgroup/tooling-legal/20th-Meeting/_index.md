@@ -11,8 +11,8 @@ description: Tooling & Legal Subgroup 20th Meeting
 
 ## Schedule
 * 목적 : Tooling and Legal Subgroup 20차 회의
-* 일시 : 2025년 2월 xx일(x) 14:00 ~ 17:00
-* 장소 : xxxxx
+* 일시 : 2025년 2월 26일(수) 14:00 ~ 17:00
+* 장소 : 안랩
 
 
 ## Attendees
@@ -21,7 +21,9 @@ description: Tooling & Legal Subgroup 20th Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | TBD | TBD | TBD |
+| 0  | Community Updates & New Issues | TBD | TBD |
+| 1  | TBD | SECTREND | TBD |
+| 2  | Open Source for Business | LG전자, 박원재 | TBD |
 
 
 <!-- 
