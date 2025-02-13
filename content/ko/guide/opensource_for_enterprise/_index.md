@@ -14,7 +14,7 @@ description: >
 
 이 가이드는 ISO 국제표준을 기반으로 기업이 오픈소스를 효과적으로 관리하기 위해 수행해야 할 핵심 요구사항과 구체적인 실행 방법을 제시합니다.
 
-**Author : 장학성 (haksung@sktelecom.com) / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**
+**Author : OpenChain Korea Work Group / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**
 
 **최근 업데이트 사항 (2025.1.6):**
 - ISO/IEC 18974 (OpenChain Security Assurance Specification) 관련 내용 추가
