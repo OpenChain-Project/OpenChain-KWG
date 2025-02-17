@@ -7,7 +7,7 @@ categories: ["about"]
 description: >
   한국의 주요 ICT 기업의 오픈소스 담당자가 참여하고 있습니다.
 ---
- <table>
+ <table bgcolor="white">
     <tr>
         <td align=center valign=middle><img src="../../images/content/about/logo/financial.png" alt="금융결제원" width=400px></td>
         <td align=center valign=middle><img src="../../images/content/about/logo/kier.png" alt="한국에너지기연구원" width=400px></td>
