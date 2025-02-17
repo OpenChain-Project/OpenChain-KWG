@@ -16,9 +16,9 @@ description: >
     </tr>
      <tr>
         <td><img src="../../images/content/about/logo/cj.png" alt="CJ" width=400px></td>
-        <td><img src="../../images/content/about/logo/etri.tif" alt="ETRI" width=400px></td>
+        <td><img src="../../images/content/about/logo/etri.png" alt="ETRI" width=400px></td>
         <td><img src="../../images/content/about/logo/hd.png" alt="현대" width=400px></td>
-        <td><img src="../../images/content/about/logo/hd_autoever.tif" alt="현대오토에버" width=400px></td>
+        <td><img src="../../images/content/about/logo/hd_autoever.png" alt="현대오토에버" width=400px></td>
     </tr>
      <tr>
         <td><img src="../../images/content/about/logo/hd_mobis.png" alt="현대모비스" width=400px></td>
