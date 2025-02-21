@@ -18,9 +18,10 @@ description: Tooling & Legal Subgroup 20th Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues | TBD | TBD |
+| 0  | Community Updates & New Issues | ETRI, Park Jeong-sook | TBD |
 | 1  | Guard Your AI+Software Supply Chain with Sectrend | SECTREND | TBD |
-| 2  | Open Source for Business | LG Eletronics, Park Wonjae | TBD |
+| 2  | Issues on Disclosing Open Source of a Web Service | Ahnlab, Kim Gangbo | TBD |
+| 3  | Open Source for Business | LG Eletronics, Park Wonjae | TBD |
 
 <!--
 
