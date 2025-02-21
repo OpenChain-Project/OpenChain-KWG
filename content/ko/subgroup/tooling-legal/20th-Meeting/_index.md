@@ -21,7 +21,7 @@ description: Tooling & Legal Subgroup 20th Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues | TBD | TBD |
+| 0  | Community Updates & New Issues | ETRI, 박정숙 | TBD |
 | 1  | Guard Your AI+Software Supply Chain with Sectrend | SECTREND, Wenhui Jin | TBD |
 | 2  | 웹서비스의 오픈소스 공개 이슈 | 안랩, 김강보 | TBD |
 | 3  | Open Source for Business | LG전자, 박원재 | TBD |
