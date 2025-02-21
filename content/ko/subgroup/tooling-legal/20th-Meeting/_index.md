@@ -13,7 +13,7 @@ description: Tooling & Legal Subgroup 20th Meeting
 * 목적 : Tooling and Legal Subgroup 20차 회의
 * 일시 : 2025년 2월 26일(수) 14:00 ~ 17:00
 * 장소 : 안랩
-
+* 참가 신청(~2/25 13:00) : https://docs.google.com/forms/d/e/1FAIpQLSeiEnXeWjcDYWjvwT0I_wPxtnmrW-iTmuoOWQhX62qpJB-qfA/viewform
 
 ## Attendees
 * TBD
@@ -23,7 +23,8 @@ description: Tooling & Legal Subgroup 20th Meeting
 |----|-----------------|------|------|
 | 0  | Community Updates & New Issues | TBD | TBD |
 | 1  | Guard Your AI+Software Supply Chain with Sectrend | SECTREND | TBD |
-| 2  | Open Source for Business | LG전자, 박원재 | TBD |
+| 2  | 웹서비스의 오픈소스 공개 이슈 | 안랩, 김강보 | TBD |
+| 3  | Open Source for Business | LG전자, 박원재 | TBD |
 
 
 <!-- 
