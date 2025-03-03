@@ -29,7 +29,7 @@ description: Tooling & Legal Subgroup 20th Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues | ETRI, 박정숙 | [pdf](./0_CommunityUpdates_New Issues_ETRI.pdf) |
+| 0  | Community Updates & New Issues | ETRI, 박정숙 | [pdf](./0_CommunityUpdates_NewIssues_ETRI.pdf) |
 | 1  | Guard Your AI+Software Supply Chain with Sectrend | SECTREND, Wenhui Jin | [pdf](./1_GuardYourAI_Sectrend.pdf) |
 | 2  | 웹서비스의 오픈소스 공개 이슈 | 안랩, 김강보 | [pptx](./2_OpeningWebService_Anlab.pptx) |
 | 3  | 반도체 기업의 OSS 관리 시스템 구축 사례 | 텔레칩스, 연지영 | [pdf](./3_CaseStudyonBuildingOSSMS_Telechips.pdf) |
