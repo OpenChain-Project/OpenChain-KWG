@@ -13,16 +13,25 @@ description: Tooling & Legal Subgroup 20th Meeting
 * Venue: Ahnlab
 
 ## Attendees
-* TBD
+* Ahnlab
+* ETRI
+* Hancom
+* Hyundai Autoever
+* Kakao
+* LG Electronics
+* SK Inc.
+* SK Telecom
+* Telechips
+* (Guest) SECTREND 
 
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues | ETRI, Park Jeong-sook | TBD |
-| 1  | Guard Your AI+Software Supply Chain with Sectrend | SECTREND, Wenhui Jin | TBD |
-| 2  | Issues on Disclosing Open Source of a Web Service | Ahnlab, Kim Gangbo | TBD |
-| 3  | SCA Tool Comparison | Telechips, Yeon Ji-young | TBD |
-| 4  | Open Source for Business | LG Eletronics, Park Wonjae | TBD |
+| 0  | Community Updates & New Issues | ETRI, Park Jeong-sook | [pdf](./0_CommunityUpdates_New Issues_ETRI.pdf) |
+| 1  | Guard Your AI+Software Supply Chain with Sectrend | SECTREND, Wenhui Jin | [pdf](./1_GuardYourAI_Sectrend.pdf) |
+| 2  | Issues on Disclosing Open Source of a Web Service | Ahnlab, Kim Gangbo | [pptx](./2_OpeningWebService_Anlab.pptx) |
+| 3  | Case Study on Building OSS Management System for a Semiconductor Company | Telechips, Yeon Ji-young | [pdf](./3_CaseStudyonBuildingOSSMS_Telechips.pdf) |
+| 4  | Open Source for Business | LG Eletronics, Park Wonjae  | [LINK](https://heathermeeker.com/open-source-for-business/) |
 
 <!--
 
