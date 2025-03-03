@@ -13,19 +13,27 @@ description: Tooling & Legal Subgroup 19th Meeting
 * Venue: Ahnlab
 
 ## Attendees
-* TBD
+* Ahnlab
+* ETRI
+* Hancom
+* Kakao
+* LG Electronics
+* LINE
+* Naver
+* NHN
+* SK Inc.
+* SK Telecom
+* Telechips
+* (Guest) Tjaldur Software
 
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Community Updates | SK Telecom, Jang Haksung | [LINK](https://openchain-project.github.io/OpenChain-KWG/resource/) |
-| 1  | Discussion on How to Write a License Notice | ETRI, Shin Hak-Chul | TBD |
-| 2  | Open Discussion : Open Source Analysis Tools | LG Electronics, Park Wonjae | TBD |
-| 3  | Build Tracing | Tjaldur Software, Armijn Hemel | TBD |
+| 1  | Discussion on How to Write a License Notice | ETRI, Shin Hak-Chul | [pdf](./1_NoticeDocument_ETRI.pdf) |
+| 2  | Open Discussion : Open Source Analysis Tools | LG Electronics, Park Wonjae | N/A |
+| 3  | Build Tracing | Tjaldur Software, Armijn Hemel | [pdf](./3_BuildTracing_TjaldurSoftware,.pdf) |
 
-## IMPORTANT
-* Due to AhnLab's security policy for providing the 19th conference venue, visitor registration is required prior to attending.
-* Please apply in advance using the form announced through the mailing list and Discord.
 
 <!--
 

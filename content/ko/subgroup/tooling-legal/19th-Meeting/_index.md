@@ -14,21 +14,27 @@ description: Tooling & Legal Subgroup 19th Meeting
 * 일시 : 2024년 12월 17일(화) 14:30 ~ 17:00
 * 장소 : 안랩
 
-
 ## Attendees
-* TBD
+* ETRI
+* LG전자
+* LINE
+* NHN
+* SK주식회사
+* SK텔레콤
+* 네이버
+* 안랩
+* 카카오
+* 텔레칩스
+* 한글과컴퓨터
+* (Guest) Tjaldur Software
 
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Community Updates | SK텔레콤, 장학성 | [LINK](https://openchain-project.github.io/OpenChain-KWG/resource/) |
-| 1  | 고지문 작성법에 대한 논의 | ETRI, 신학철 | TBD |
-| 2  | Open Discussion : Open Source 분석 도구 | LG전자, 박원재 | TBD |
-| 3  | Build Tracing | Tjaldur Software, Armijn Hemel | TBD |
-
-## IMPORTANT
-* 19차 회의 장소를 제공해주시는 안랩의 보안 정책상 참석 전 방문자 등록이 반드시 필요합니다.
-* 메일링 리스트 및 Discord를 통해 공지되는 양식을 이용해 사전 신청을 해주시기 바랍니다.
+| 1  | 고지문 작성법에 대한 논의 | ETRI, 신학철 | [pdf](./1_NoticeDocument_ETRI.pdf) |
+| 2  | Open Discussion : Open Source 분석 도구 | LG전자, 박원재 | N/A |
+| 3  | Build Tracing | Tjaldur Software, Armijn Hemel | [pdf](./3_BuildTracing_TjaldurSoftware,.pdf) |
 
 <!-- 
 
