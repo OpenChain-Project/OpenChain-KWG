@@ -9,7 +9,7 @@ description: Tooling & Legal Subgroup 21st Meeting
 
 ## Schedule
 * Purpose: Tooling and Legal Subgroup 21st Meeting
-* Date: April 4, 2025 (Tue) 14:00 ~ 17:00
+* Date: April 8, 2025 (Tue) 14:00 ~ 17:00
 * Venue: Telechips
 
 ## Attendees
