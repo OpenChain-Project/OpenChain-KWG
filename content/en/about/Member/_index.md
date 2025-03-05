@@ -6,6 +6,7 @@ type: docs
 description: >
   Open source people from major Korean ICT companies are participating in OpenChain KWG.
 ---
+
 <body>
 <table>
     <tr>
@@ -52,3 +53,50 @@ description: >
     </tr>
 </table>
 </body>
+
+* 42dot 
+* Koh Young Technology
+* Korea Financial Telecommunications and Clearings Institute
+* Kia
+* Naver
+* Raon Secure
+* LINE Plus
+* Meritz Fire & Marine Insurance
+* BC Card
+* Samsung Electronics
+* Samsung Fire & Marine Insurance
+* Samsung SDS
+* Shinhan Financial Group
+* Shinhan DS
+* CSPI (CS Pioneer Inc.)
+* AhnLab
+* NCSOFT
+* WayneOS
+* GENIANS
+* Kakao
+* Telechips
+* Toss Bank
+* Korea Expressway Corporation
+* Korea Institute of Energy Research
+* Hancom
+* KEPCO KDN
+* Hyundai Mobis
+* Hyundai AutoEver
+* Hyundai Motor Company
+* ATCI 
+* CJ 
+* CJ ENM 
+* CJ OliveNetworks
+* ETRI (Electronics and Telecommunications Research Institute)
+* KB Kookmin Bank
+* KB Data Systems
+* KDN 
+* KT 
+* KT DS 
+* LG AI Research
+* LG Electronics
+* LIG Nex1
+* LS ELECTRIC
+* NHN 
+* SK Inc.
+* SK Telecom
