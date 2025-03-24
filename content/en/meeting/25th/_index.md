@@ -20,11 +20,11 @@ description: >
 | 14:00~14:10 | Welcome & Opening | - | - |
 | 14:10~14:30 | OpenChain Global Update | Shane Coughlan, Linux Foundation | - |
 | 14:30~14:50 | OpenChain Korea Update | Haksung Jang, SK Telecom | - |
-| 14:50~15:00 | Lighting Talk 1 <br> - Open Source Tech Day 2025 Announcement | <br> - Jeong-sook Par, ETRI | <br> [pdf](../../slides/테크데이행사소개-20250325-R1.pdf) |
+| 14:50~15:00 | Lightning Talk 1 <br> - Open Source Tech Day 2025 Announcement | <br> - Jeong-sook Par, ETRI | <br> [pdf](../../slides/테크데이행사소개-20250325-R1.pdf) |
 | 15:00~15:30 | Mobile ID application "DID", open source governance strategy and future tasks? | Mikyoung Lee, Raon Secure |
 | 15:30~16:00 | Networking | All | - |
 | 16:00~16:30 | How did the Financial Supervisory Service comply with all ISO/IEC 5230 requirements? | Dae-yeol Ryu, KFTC | - |
-| 16:30~17:00 | Lightining Talk 2 <br> - 2024 Open Source Settlement that Developers Should Know <br> - Expansion of Open Source User Rights and Importance of Providing LGPL-2.1 Installation Information as Seen in the AVM Litigation <br> - ISO/IEC 18974 Corporate Introduction and Certification Strategy | <br> - Seo-yeon Lee, Line Plus<br> - Haksung Jang, SK Telecom <br> | - |
+| 16:30~17:00 | Lightning Talk 2 <br> - 2024 Open Source Settlement that Developers Should Know <br> - Expansion of Open Source User Rights and Importance of Providing LGPL-2.1 Installation Information as Seen in the AVM Litigation <br> - ISO/IEC 18974 Corporate Introduction and Certification Strategy | <br> - Seo-yeon Lee, Line Plus<br> - Haksung Jang, SK Telecom <br> | - |
 
 ## Sponsor
 
