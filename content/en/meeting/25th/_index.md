@@ -32,3 +32,31 @@ description: >
 
 
 ![](../../../images/content/about/logo/did.png)
+
+
+## Participating Companies
+- 42dot
+- KB Kookmin Bank
+- Korea Financial Telecommunications and Clearings Institute
+- Busan Bank
+- Samsung Electronics
+- Samsung SDS
+- Shinhan DS
+- Kakao
+- KakaoBank
+- Hancom
+- Hyundai Mobis
+- Hyundai AutoEver
+- Hyundai Motor Company
+- CJ OliveNetworks
+- CJ CheilJedang
+- CJ ENM
+- CJ Corporation
+- CJ CGV
+- ETRI
+- LG Electronics
+- LINE+
+- NAVER
+- NHN
+- SK Corporation
+- SK Telecom

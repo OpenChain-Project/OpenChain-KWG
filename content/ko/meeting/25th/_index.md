@@ -33,3 +33,30 @@ description: >
 
 
 ![](../../images/content/about/logo/did.png)
+
+## 참석 기업
+- 42dot
+- 국민은행
+- 금융결제원
+- 부산은행
+- 삼성전자
+- 삼성SDS
+- 신한DS
+- 카카오
+- 카카오뱅크
+- 한컴
+- 현대모비스
+- 현대오토에버
+- 현대자동차
+- CJ 올리브네트웍스
+- CJ 제일제당
+- CJ ENM
+- CJ 주식회사
+- CJCGV
+- ETRI
+- LG전자
+- LINE+
+- NAVER
+- NHN
+- SK주식회사
+- SK텔레콤
