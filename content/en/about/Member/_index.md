@@ -31,7 +31,7 @@ description: >
         <td align=center valign=middle><img src="../../../images/content/about/logo/kt.png" alt="KT" width=400px></td>
         <td align=center valign=middle><img src="../../../images/content/about/logo/ktds.jpg" alt="KT ds" width=400px></td>
         <td align=center valign=middle><img src="../../../images/content/about/logo/lge.jpg" alt="LG Electronics" width=400px></td>
-        <td align=center valign=middle><img src="../../../images/content/about/logo/line.jpg" alt="LINE" width=400px></td>
+        <td align=center valign=middle><img src="../../../images/content/about/logo/line.png" alt="LINE" width=400px></td>
     </tr>
      <tr>
         <td align=center valign=middle><img src="../../../images/content/about/logo/meritz.jpg" alt="Meritz" width=400px></td>
