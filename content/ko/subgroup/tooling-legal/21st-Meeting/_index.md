@@ -20,7 +20,10 @@ description: Tooling & Legal Subgroup 21th Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | TBD | TBD | TBD |
+| 0  | Community Updates & New Issues | TBD | TBD |
+| 1  | TBD | ETRI, 박정숙 | TBD |
+| 2  | Sebastian Steck v. AVM 소송 사례 | LG전자, 박원재 | TBD |
+| 3  | Open Source 고지문 공유 | TBD | TBD |
 
 
 <!-- 
