@@ -1,7 +1,7 @@
 ---
 date: 2025-01-13
-title: "AVM 소송으로 본 오픈소스 사용자 권리 확대와 LGPL-2.1 설치정보 제공의 중요성"
-linkTitle: "AVM 소송과 LGPL-2.1"
+title: "AVM 소송: LGPL-2.1 사용자 권리와 설치정보 제공 의무의 재조명"
+linkTitle: "AVM 소송: LGPL-2.1 사용자 권리와 설치정보 제공 의무의 재조명"
 description: 
 author: 장학성
 categories: ["blog"]
