@@ -24,7 +24,7 @@ description: >
 | 14:50~15:00 | Lightning Talk 1 <br> - 오픈소스 테크데이 2025 개최 안내 | <br> - ETRI 박정숙| <br> [pdf](../../slides/테크데이행사소개-20250325-R1.pdf) |
 | 15:00~15:30 | 모바일신분증 적용 "DID", 오픈소스 거버넌스 전략과 앞으로의 과제는? | 라온시큐어 이미경 |
 | 15:30~16:00 | Networking | All | - |
-| 16:00~16:30 | 금융결제원은 어떻게 ISO/IEC 5230 요구사항을 모두 준수할 수 있었나? | 금융결제원 유대열 | - |
+| 16:00~16:30 | 금융결제원의 ISO/IEC 5230:2020 준수 사례 | 금융결제원 유대열 | - |
 | 16:30~17:00 | Lightning Talk 2 <br> - 개발자들도 알아야 할 2024년 오픈소스 결산 <br> - AVM 소송으로 본 오픈소스 사용자 권리 확대와 LGPL-2.1 설치정보 제공의 중요성<br> - ISO/IEC 18974 기업 도입 및 인증 전략 | <br> - 라인플러스 이서연 <br> - SK텔레콤 장학성<br> | <br> - <br> [AVM소송소개](https://gamma.app/docs/AVM-LGPL-21--wql4pmu3qwbd4up) <br> [ISO/IEC18974](https://gamma.app/docs/ISOIEC-18974--tpfdaoz4bxhxhm2)|
 
 ## Sponsor
