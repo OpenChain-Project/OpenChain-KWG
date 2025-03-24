@@ -1,7 +1,7 @@
 ---
 title: "[2025] ISO 표준 기반 기업 오픈소스 관리 가이드"
 linkTitle: "2025 기업 오픈소스 관리 가이드"
-weight: 20
+weight: 10
 type: docs
 description: >
   ISO 국제 표준에 기반하여 기업이 오픈소스를 효과적으로 관리하기 위한 방안을 소개합니다. 
