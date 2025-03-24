@@ -24,7 +24,7 @@ description: >
 | 15:00~15:30 | Mobile ID application "DID", open source governance strategy and future tasks? | Mikyoung Lee, Raon Secure |
 | 15:30~16:00 | Networking | All | - |
 | 16:00~16:30 | How did the Financial Supervisory Service comply with all ISO/IEC 5230 requirements? | Dae-yeol Ryu, KFTC | - |
-| 16:30~17:00 | Lightning Talk 2 <br> - 2024 Open Source Settlement that Developers Should Know <br> - Expansion of Open Source User Rights and Importance of Providing LGPL-2.1 Installation Information as Seen in the AVM Litigation <br> - ISO/IEC 18974 Corporate Introduction and Certification Strategy | <br> - Seo-yeon Lee, Line Plus<br> - Haksung Jang, SK Telecom <br> | - |
+| 16:30~17:00 | Lightning Talk 2 <br> - 2024 Open Source Settlement that Developers Should Know <br> - Expansion of Open Source User Rights and Importance of Providing LGPL-2.1 Installation Information as Seen in the AVM Litigation <br> - ISO/IEC 18974 Corporate Introduction and Certification Strategy | <br> - Seo-yeon Lee, Line Plus<br> - Haksung Jang, SK Telecom <br> | <br> - <br> [AVM](https://gamma.app/docs/AVM-LGPL-21--wql4pmu3qwbd4up) <br> [ISO/IEC18974](https://gamma.app/docs/ISOIEC-18974--tpfdaoz4bxhxhm2)|
 
 ## Sponsor
 
