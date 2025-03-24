@@ -19,6 +19,9 @@ description: Tooling & Legal Subgroup 21st Meeting
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | TBD | TBD | TBD |
+| 1  | TBD | ETRI, Park Jeong-sook  | TBD |
+| 2  | Case Study: Sebastian Steck v. AVM | LG Eletronics, Park Wonjae | TBD |
+| 3  | Open Source Notice Case Study | TBD | TBD |
 
 <!--
 
