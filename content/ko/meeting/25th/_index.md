@@ -59,6 +59,7 @@ description: >
 - CJ 주식회사
 - CJCGV
 - ETRI
+- KT DS
 - LG전자
 - LINE+
 - NAVER

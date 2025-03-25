@@ -61,6 +61,7 @@ description: >
 - CJ Corporation
 - CJ CGV
 - ETRI
+- KT DS
 - LG Electronics
 - LINE+
 - NAVER
