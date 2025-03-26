@@ -56,4 +56,4 @@ description: >
 
 ## Photo
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/198570149@N05/albums/72177720322215314" title="[2024 November] OpenChain Korea Work Group in LG AI Research"><img src="https://live.staticflickr.com/65535/54167200316_3a95bde645_z.jpg" width="640" height="480" alt="[2024 November] OpenChain Korea Work Group in LG AI Research"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/198570149@N05/albums/72177720322215314" title="[2024 November] OpenChain Korea Work Group in LG AI Research"><img src="https://live.staticflickr.com/65535/54167655625_3a95bde645_b.jpg" width="1024" height="768" alt="[2024 November] OpenChain Korea Work Group in LG AI Research"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
