@@ -20,7 +20,7 @@ description: >
 | 14:00~14:10 | Welcome & Opening | - | - |
 | 14:10~14:30 | OpenChain Global Update | Shane Coughlan, Linux Foundation | - |
 | 14:30~14:50 | OpenChain Korea Update | Haksung Jang, SK Telecom | [slide](https://gamma.app/docs/25-1-Update-9mahbv9p49opuvi) |
-| 14:50~15:00 | Lightning Talk 1 <br> - Open Source Tech Day 2025 Announcement | <br> - Jeong-sook Par, ETRI | <br> [pdf](../../slides/테크데이행사소개-20250325-R1.pdf) |
+| 14:50~15:00 | Lightning Talk 1 <br> - Open Source Tech Day 2025 Announcement | <br> - Jeong-sook Par, ETRI | <br> [pdf](../../../slides/테크데이행사소개-20250325-R1.pdf) |
 | 15:00~15:30 | Mobile ID application "DID", open source governance strategy and future tasks? | Mikyoung Lee, Raon Secure |
 | 15:30~16:00 | Networking | All | - |
 | 16:00~16:30 | ISO/IEC 5230:2020 Conformance in KFTC | Daeyeol Ryu, KFTC | [pdf(ko)](../../../slides/20250325_KFTC_OpenChain-KWG_25th_ko.pdf) |
