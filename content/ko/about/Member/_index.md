@@ -14,7 +14,7 @@ td {
 </style>
  <table>
     <tr>
-        <td align=center valign=middle><img src="../../images/content/about/logo/financial.png" alt="금융결제원" width=400px></td>
+        <td align=center valign=middle><img src="../../images/content/about/logo/kftc.png" alt="금융결제원" width=400px></td>
         <td align=center valign=middle><img src="../../images/content/about/logo/kier.png" alt="한국에너지기연구원" width=400px></td>
         <td align=center valign=middle><img src="../../images/content/about/logo/hancom.png" alt="한글과컴퓨터" width=400px></td>
         <td align=center valign=middle><img src="../../images/content/about/logo/kdn.png" alt="한전KDN" width=400px></td>
