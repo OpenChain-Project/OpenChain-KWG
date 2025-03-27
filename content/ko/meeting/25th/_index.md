@@ -19,7 +19,7 @@ description: >
 | Time | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
 | 14:00~14:10 | Welcome & Opening | - | - |
-| 14:10~14:30 | OpenChain Global Update  | 	Shane Coughlan, Linux Foundation | - |
+| 14:10~14:30 | OpenChain Global Update  | 	Shane Coughlan, Linux Foundation | [pptx](../../slides/korea-q1-2025.pptx) |
 | 14:30~14:50 | OpenChain Korea Update | SK텔레콤 장학성 | [slide](https://gamma.app/docs/25-1-Update-9mahbv9p49opuvi) |
 | 14:50~15:00 | Lightning Talk 1 <br> - 오픈소스 테크데이 2025 개최 안내 | <br> - ETRI 박정숙| <br> [pdf](../../slides/테크데이행사소개-20250325-R1.pdf) |
 | 15:00~15:30 | 모바일신분증 적용 "DID", 오픈소스 거버넌스 전략과 앞으로의 과제는? | 라온시큐어 이미경 |
@@ -66,3 +66,9 @@ description: >
 - NHN
 - SK주식회사
 - SK텔레콤
+
+
+
+## Album
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/198570149@N05/albums/72177720324660595" title="[2025 March] OpenChain Korea Work Group in RaonSecure"><img src="https://live.staticflickr.com/65535/54411244629_77f26387dd_b.jpg" width="1024" height="768" alt="[2025 March] OpenChain Korea Work Group in RaonSecure"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
