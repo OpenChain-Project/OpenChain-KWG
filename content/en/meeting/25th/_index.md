@@ -24,7 +24,7 @@ description: >
 | 15:00~15:30 | Mobile ID application "DID", open source governance strategy and future tasks? | Mikyoung Lee, Raon Secure | [pdf](../../../slides/OpenDID_20250325.pdf) |
 | 15:30~16:00 | Networking | All | - |
 | 16:00~16:30 | ISO/IEC 5230:2020 Conformance in KFTC | Daeyeol Ryu, KFTC | [pdf(ko)](../../../slides/20250325_KFTC_OpenChain-KWG_25th_ko.pdf) |
-| 16:30~17:00 | Lightning Talk 2 <br> - 2024 Open Source Settlement that Developers Should Know <br> - Expansion of Open Source User Rights and Importance of Providing LGPL-2.1 Installation Information as Seen in the AVM Litigation <br> - ISO/IEC 18974 Corporate Introduction and Certification Strategy | <br> - Seo-yeon Lee, Line Plus<br> - Haksung Jang, SK Telecom <br> | <br> [pdf](../../../slides/2024_오픈소스_이슈.pdf) <br> [AVM소송소개](https://gamma.app/docs/AVM-LGPL-21--wql4pmu3qwbd4up) <br> [ISO/IEC18974](https://gamma.app/docs/ISOIEC-18974--tpfdaoz4bxhxhm2)|
+| 16:30~17:00 | Lightning Talk 2 <br> - 2024 Open Source Settlement that Developers Should Know <br> - Expansion of Open Source User Rights and Importance of Providing LGPL-2.1 Installation Information as Seen in the AVM Litigation <br> - ISO/IEC 18974 Corporate Introduction and Certification Strategy | <br> - Seo-yeon Lee, Line Plus<br> - Haksung Jang, SK Telecom <br> | <br> [pdf](../../../slides/2024_오픈소스_이슈.pdf) <br> [AVM소송소개](https://gamma.app/docs/AVM-LGPL-21--wql4pmu3qwbd4up) <br> [ISO/IEC18974](https://gamma.app/docs/ISOIEC-18974--tpfdaoz4bxhxhm2)|
 
 ## Sponsor
 
