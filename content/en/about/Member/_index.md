@@ -10,7 +10,7 @@ description: >
 <body>
 <table>
     <tr>
-        <td class=custom align=center valign=middle><img src="../../../images/content/about/logo/financial.png" alt="KFTC" width=400px></td>
+        <td align=center valign=middle><img src="../../../images/content/about/logo/kftc.png" alt="KFTC" width=400px></td>
         <td align=center valign=middle><img src="../../../images/content/about/logo/kier.png" alt="KIER" width=400px></td>
         <td align=center valign=middle><img src="../../../images/content/about/logo/hancom.png" alt="HANCOM" width=400px></td>
         <td align=center valign=middle><img src="../../../images/content/about/logo/kdn.png" alt="KDN" width=400px></td>
@@ -56,7 +56,7 @@ description: >
 
 * 42dot 
 * Koh Young Technology
-* Korea Financial Telecommunications and Clearings Institute
+* KFTC (Korea Financial Telecommunications & Clearings Institute)
 * Kia
 * Naver
 * Raon Secure
