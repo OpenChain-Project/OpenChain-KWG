@@ -43,6 +43,7 @@ description: >
 
 ## Participating Companies
 - 42dot
+- Ahnlab
 - KB Kookmin Bank
 - Korea Financial Telecommunications and Clearings Institute
 - Busan Bank
