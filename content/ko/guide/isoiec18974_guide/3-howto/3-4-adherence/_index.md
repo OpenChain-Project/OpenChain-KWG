@@ -14,6 +14,14 @@ description: >
 
 ### 4.4.1.1 요구사항 충족 증거
 
+> **ISO/IEC 18974**  
+> - 4.4.1.1: Documented evidence affirming the program specified in 4.1.4 satisfies all the requirements of this document.
+> - 4.4.1.1: 4.1.4에 명시된 프로그램이 이 문서의 모든 요구 사항을 충족함을 확인하는 문서화된 증거
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have documentation confirming that the Program meets all the requirements of this specification.
+> - [ ] 프로그램이 이 표준의 모든 요구사항을 충족한다는 문서화된 확인이 있습니다.
+
 조직은 프로그램이 ISO/IEC 18974 표준의 모든 요구사항을 충족한다는 것을 입증하는 문서화된 증거를 제시해야 합니다. 이 증거는 프로그램 운영의 모든 측면을 포괄해야 하며, 객관적이고 신뢰할 수 있어야 합니다.
 
 **구현 방법 및 고려사항**:
@@ -55,6 +63,14 @@ description: >
 이러한 접근 방식을 통해 조직은 프로그램이 ISO/IEC 18974 표준의 모든 요구사항을 충족한다는 것을 입증하고, 대외적으로 신뢰를 확보할 수 있습니다.
 
 ## 4.4.2 Duration (기간)
+
+> **ISO/IEC 18974**  
+> - 4.4.2.1: A document affirming the program meets all the requirements of this specification, within the past 18 months of obtaining conformance validation.
+> - 4.4.2.1: 프로그램이 적합성 검증을 획득한 후 지난 18개월 이내에 이 규격의 모든 요구 사항을 충족함을 확인하는 문서.
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have documentation confirming that Program conformance was reviewed within the last 18 months.
+> - [ ] 프로그램의 준수 여부가 최근 18개월 내에 검토된 기록이 있습니다.
 
 ISO/IEC 18974 표준 준수는 일회성 이벤트가 아니라, 지속적인 과정입니다. 따라서, 조직은 표준 준수를 획득한 후에도, 해당 상태를 유지하기 위해 지속적으로 노력해야 합니다. 이 섹션에서는 표준 준수 기간과 관련된 요구사항을 설명합니다.
 

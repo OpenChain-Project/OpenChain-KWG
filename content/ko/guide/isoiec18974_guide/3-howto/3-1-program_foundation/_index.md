@@ -14,7 +14,16 @@ ISO/IEC 18974 표준의 핵심은 조직이 오픈소스 소프트웨어를 안�
 
 ### 3.1.1.1 문서화된 오픈소스 소프트웨어 보안 보증 정책
 
+> **ISO/IEC 18974**
+> - 4.1.1.1: A documented open source software security assurance policy  
+> - 4.1.1.1: 문서화된 오픈 소스 소프트웨어 보안 보증 정책  
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have a documented policy governing the open source security assurance of Supplied Software.  
+> - [ ] 공급 소프트웨어의 오픈소스 보안 보증을 다루는 문서화된 정책이 있습니다.
+
 문서화된 오픈소스 소프트웨어 보안 보증 정책은 조직의 오픈소스 사용에 대한 공식적인 지침을 제공하는 핵심 문서입니다. 이 정책은 조직의 모든 구성원이 오픈소스를 안전하게 사용하고 관리하기 위한 기준을 제시하며, 법적 및 보안적 위험을 최소화하는 데 기여합니다.
+
 
 **정책 내용 예시**:
 
@@ -32,6 +41,14 @@ ISO/IEC 18974 표준의 핵심은 조직이 오픈소스 소프트웨어를 안�
 이 가이드에서는 ISO/IEC 18974 요구사항을 모두 충족하는 오픈소스 정책 템플릿을 제공합니다. : [오픈소스 정책 템플릿](../../../templates/1-policy/)
 
 ### 3.1.1.2 프로그램 참가자에게 보안 보증 정책을 알리기 위한 문서화된 절차
+
+> **ISO/IEC 18974**  
+> - 4.1.1.2: A documented procedure to make program participants aware of the security assurance policy.
+> - 4.1.1.2: 프로그램 참여자가 보안 보증 정책을 인식하도록 하기 위한 문서화된 절차
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have a documented procedure to communicate the existence of the open source policy to all Software Staff.
+> - [ ] 오픈소스 정책의 존재를 모든 소프트웨어 직원에게 전달하는 절차가 문서화되어 있습니다.
 
 정책이 아무리 잘 작성되었더라도, 조직 구성원들이 정책의 존재를 모르거나 내용을 이해하지 못한다면 효과를 발휘할 수 없습니다. 따라서, 조직은 모든 프로그램 참가자에게 보안 보증 정책을 효과적으로 알리기 위한 문서화된 절차를 마련해야 합니다.
 
@@ -58,6 +75,14 @@ ISO/IEC 18974 표준의 핵심은 조직이 오픈소스 소프트웨어를 안�
 
 ### 3.1.2.1 문서화된 역할과 책임 목록
 
+> **ISO/IEC 18974**  
+> - 4.1.2.1: A documented list of roles with corresponding responsibilities for the different program participants;
+> - 4.1.2.1: 여러 프로그램 참여자에 대한 해당 책임이 있는 문서화된 역할 목록
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have identified the roles and responsibilities that affect the performance and effectiveness of the Program.
+> - [ ] 프로그램의 성능과 효과에 영향을 미치는 역할과 책임을 식별하고 문서화했습니다.
+
 오픈소스 보안 보증 프로그램에 참여하는 모든 구성원의 역할과 책임을 명확하게 정의하고 문서화하는 것은 효과적인 프로그램 운영의 첫걸음입니다. 각 구성원이 자신의 역할과 책임을 명확히 이해하고 있어야, 프로그램 목표 달성을 위한 효과적인 협업이 가능합니다.
 
 **구현 방법 및 고려사항**:
@@ -78,6 +103,14 @@ ISO/IEC 18974 표준의 핵심은 조직이 오픈소스 소프트웨어를 안�
 | 개발팀 | 안전한 코드 개발 및 정책 준수 | - 정책 준수<br>- 코드 품질 관리<br>- 보안 취약점 수정 |
 
 ### 3.1.2.2 각 역할에 필요한 역량 정의 문서
+
+> **ISO/IEC 18974**  
+> - 4.1.2.2: A document that identifies the competencies for each role;
+> - 4.1.2.2: 각 역할에 대한 역량을 식별하는 문서
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have identified and documented the competencies required for each role.
+> - [ ] 각 역할에 필요한 역량을 식별하고 문서화했습니다.
 
 각 역할에 필요한 역량을 정의하는 것은 적합한 인력을 배치하고, 필요한 교육 및 훈련 프로그램을 개발하는 데 필수적입니다. 역량 정의는 기술적인 지식뿐만 아니라, 문제 해결 능력, 의사 소통 능력, 협업 능력 등 비기술적인 역량도 포함해야 합니다.
 
@@ -102,6 +135,14 @@ ISO/IEC 18974 표준의 핵심은 조직이 오픈소스 소프트웨어를 안�
 
 ### 3.1.2.3 참여자 목록 및 역할
 
+> **ISO/IEC 18974**  
+> - 4.1.2.3: List of participants and their roles;
+> - 4.1.2.3: 참여자 목록 및 해당 역할
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have identified and documented a list of Program Participants and how they fill their respective roles.
+> - [ ] 프로그램 참여자 목록과 각자의 역할을 문서화했습니다.
+
 오픈소스 보안 보증 프로그램에 참여하는 모든 구성원의 이름과 역할을 명확하게 기록한 목록을 유지하는 것은, 책임 소재를 명확히 하고, 효율적인 의사소통 체계를 구축하는 데 필수적입니다. 이 목록은 프로그램 운영의 투명성을 높이고, 비상 상황 발생 시 신속하게 대응할 수 있도록 지원합니다.
 
 **구현 방법 및 고려사항**:
@@ -120,6 +161,14 @@ ISO/IEC 18974 표준의 핵심은 조직이 오픈소스 소프트웨어를 안�
 | 최민호 | 개발팀 리드 | 개발1팀 | [minho.choi@example.com](mailto:minho.choi@example.com) |
 
 ### 3.1.2.4 각 참여자의 역량 평가 증거
+
+> **ISO/IEC 18974**  
+> - 4.1.2.4: Documented evidence of assessed competence for each program participant;
+> - 4.1.2.4: 각 프로그램 참여자에 대해 평가된 역량에 대한 문서화된 증거
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have documented the assessed competence for each Program Participant.
+> - [ ] 각 참여자의 역량 평가를 문서화했습니다.
 
 각 역할에 필요한 역량을 갖추고 있는지 평가하는 것은, 프로그램의 효과성을 보장하는 데 매우 중요합니다. 역량 평가는 단순히 자격증 보유 여부를 확인하는 것을 넘어, 실제 업무 수행 능력, 문제 해결 능력, 그리고 변화에 대한 적응력 등을 종합적으로 평가해야 합니다.
 
@@ -151,6 +200,14 @@ ISO/IEC 18974 표준의 핵심은 조직이 오픈소스 소프트웨어를 안�
 이러한 접근 방식을 통해 조직은 참여자 목록을 효과적으로 관리하고, 모든 구성원들이 자신의 역할에 필요한 역량을 갖추도록 지원할 수 있습니다. 이는 프로그램의 안정적인 운영과 지속적인 성과 향상에 기여할 것입니다.
 
 ### 3.1.2.5 프로세스 검토 및 변경 사항 기록
+
+> **ISO/IEC 18974**  
+> - 4.1.2.5: Documented evidence of periodic reviews and changes made to the process;
+> - 4.1.2.5: 주기적인 검토 및 프로세스 변경에 대한 문서화된 증거
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have a way to document periodic reviews and changes made to our processes.
+> - [ ] 절차의 정기적인 검토 및 변경 사항을 문서화할 방법이 있습니다.
 
 오픈소스 보안 보증 프로그램은 끊임없이 변화하는 위협 환경과 기술 트렌드에 발맞춰 지속적으로 개선되어야 합니다. 이를 위해, 조직은 역할 및 책임, 역량 요구사항 등을 정기적으로 검토하고, 필요한 경우 변경 사항을 적용하는 체계를 구축해야 합니다. 이러한 검토 및 변경 사항은 문서화되어 관리되어야 하며, 변경 이력 추적을 통해 프로그램의 발전 과정을 확인할 수 있어야 합니다.
 
@@ -188,6 +245,14 @@ ISO/IEC 18974 표준의 핵심은 조직이 오픈소스 소프트웨어를 안�
 이러한 접근 방식을 통해 조직은 오픈소스 보안 보증 프로그램을 지속적으로 개선하고, 변화하는 환경에 효과적으로 대응할 수 있습니다.
 
 ### 3.1.2.6 회사 내부 모범 사례와의 일치 여부 확인
+
+> **ISO/IEC 18974**  
+> - 4.1.2.6: Documented verification that these processes are current with company internal best practices and who is assigned to accomplish them.
+> - 4.1.2.6: 이러한 프로세스가 회사 내부 모범 사례와 일치하며 최신 상태를 유지하고 있는지, 그리고 이를 확인하는 담당자가 지정되었는지에 대한 문서화된 증거.
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have a way to verify that our processes align with current company best practices and staff assignments.
+> - [ ] 절차가 현재 회사 모범 사례 및 직원 배치와 일치하는지 확인하는 방법이 있습니다.
 
 오픈소스 보안 보증 프로그램의 효과성을 극대화하기 위해서는, 프로그램 운영 방식이 회사 내 다른 보안 관련 활동이나 모범 사례와 일관성을 유지하는 것이 중요합니다. 이는 프로그램이 조직 전체의 보안 전략에 통합되어 시너지를 창출하고, 불필요한 중복을 방지하는 데 기여합니다.
 
@@ -235,6 +300,22 @@ ISO/IEC 18974 표준의 핵심은 조직이 오픈소스 소프트웨어를 안�
 오픈소스 보안 보증 프로그램이 성공적으로 운영되기 위해서는, 프로그램 참여자들의 인식 제고가 필수적입니다. 프로그램 참여자들은 조직의 오픈소스 정책, 프로그램 목표, 그리고 자신의 역할과 책임을 명확하게 이해하고 있어야 합니다. 또한, 프로그램 요구사항을 준수하지 않을 경우 발생할 수 있는 영향에 대해서도 충분히 인지하고 있어야 합니다.
 
 ### 3.1.3.1 프로그램 참여자의 인식 평가 증거
+
+> **ISO/IEC 18974**  
+> - 4.1.3.1: Documented evidence of assessed awareness for the program participants - which should include the program’s objectives, one’s contribution within the program, and implications of program non-conformance.
+> - 4.1.3.1: 프로그램 목표, 프로그램 내에서의 개인 기여, 프로그램 미준수의 영향 등이 포함되어야 하는 프로그램 참여자에 대한 평가된 인식에 대한 문서화된 증거
+>   
+> **Self-Certification Checklist**  
+> - We have documented the awareness of our Program Participants on the following topics:
+>   - [ ] The open source security assurance policy and where to find it;
+>   - [ ] Relevant open source objectives;
+>   - [ ] Contributions expected to ensure the effectiveness of the Program;
+>   - [ ] The implications of failing to follow the Program requirements.
+> - 프로그램 참여자가 다음 주제에 대한 인식을 갖추고 있습니다:
+>   - [ ] 오픈소스 보안 보증 정책 및 위치
+>   - [ ] 관련 오픈소스 목표
+>   - [ ] 프로그램의 효과성을 보장하기 위한 기대되는 기여
+>   - [ ] 프로그램 요구사항을 따르지 않을 경우의 영향
 
 프로그램 참여자들이 오픈소스 관련 정책과 절차, 그리고 보안의 중요성에 대해 충분히 인지하고 있는지 확인하기 위해서는, 정기적인 평가를 실시하고 그 결과를 문서화해야 합니다. 이러한 평가는 프로그램의 효과성을 측정하고, 필요한 경우 교육 프로그램을 개선하는 데 활용될 수 있습니다.
 
@@ -287,6 +368,14 @@ ISO/IEC 18974 표준의 핵심은 조직이 오픈소스 소프트웨어를 안�
 
 ### 3.1.4.1 프로그램의 범위 및 한계를 명확하게 정의하는 서면 진술
 
+> **ISO/IEC 18974**  
+> - 4.1.4.1: A written statement that clearly defines the scope and limits of the program;
+> - 4.1.4.1: 프로그램의 범위와 제한 사항을 명확하게 정의하는 서면 진술
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have a written statement clearly defining the scope and limits of the Program.
+> - [ ] 프로그램의 적용 범위와 한계를 명확히 정의한 문서화된 진술이 있습니다.
+
 프로그램의 범위와 한계를 명확하게 정의하는 서면 진술은, 프로그램이 적용되는 대상과 적용되지 않는 대상을 명확히 구분함으로써 혼란을 방지하고, 책임 소재를 명확히 하는 데 기여합니다. 이 진술은 프로그램의 목표와 일관성을 유지해야 하며, 조직의 모든 구성원이 쉽게 이해할 수 있도록 작성되어야 합니다.
 
 **구현 방법 및 고려사항**:
@@ -319,6 +408,14 @@ ISO/IEC 18974 표준의 핵심은 조직이 오픈소스 소프트웨어를 안�
 
 ### 3.1.4.2 프로그램 개선을 위해 달성해야 할 메트릭 세트
 
+> **ISO/IEC 18974**  
+> - 4.1.4.2: A set of metrics the program shall achieve to improve;
+> - 4.1.4.2: 프로그램이 개선하기 위해 달성해야 하는 메트릭 세트
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have a set of metrics to measure Program performance.
+> - [ ] 프로그램 성과를 측정하기 위한 일련의 지표가 있습니다.
+
 오픈소스 보안 보증 프로그램의 효과성을 지속적으로 측정하고 개선하기 위해서는, 구체적이고 측정 가능한 메트릭(지표)을 설정하는 것이 필수적입니다. 이러한 메트릭은 프로그램의 목표 달성 여부를 평가하고, 개선 영역을 식별하며, 진행 상황을 추적하는 데 활용됩니다.
 
 **구현 방법 및 고려사항**:
@@ -345,6 +442,14 @@ ISO/IEC 18974 표준의 핵심은 조직이 오픈소스 소프트웨어를 안�
 - **설문 조사**: 프로그램 참여자들의 의견을 수렴하고, 주관적인 데이터를 수집합니다.
 
 ### 3.1.4.3 지속적인 개선을 입증하기 위한 검토, 업데이트 또는 감사에서 문서화된 증거
+
+> **ISO/IEC 18974**  
+> - 4.1.4.3: Documented evidence from each review, update, or audit to demonstrate continuous improvement.
+> - 4.1.4.3: 지속적인 개선을 입증하기 위한 각 검토, 업데이트 또는 감사에서 얻은 문서화된 증거
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have Documented Evidence from each review, update, or audit to demonstrate continuous improvement.
+> - [ ] 검토, 업데이트, 또는 감사에서 지속적인 개선을 입증하는 문서화된 증거가 있습니다.
 
 오픈소스 보안 보증 프로그램은 일회성으로 구축하고 유지하는 것이 아니라, 지속적인 검토와 개선을 통해 그 효과성을 유지하고 강화해야 합니다. 변화하는 위협 환경, 새로운 기술 동향, 그리고 조직의 비즈니스 요구사항 변화에 맞춰 프로그램의 범위, 정책, 그리고 절차를 지속적으로 검토하고 업데이트해야 합니다. 이러한 검토, 업데이트, 그리고 감사 활동은 문서화되어 관리되어야 하며, 프로그램의 지속적인 개선을 입증하는 중요한 증거 자료로 활용됩니다.
 
@@ -387,6 +492,14 @@ ISO/IEC 18974 표준의 핵심은 조직이 오픈소스 소프트웨어를 안�
 
 ### 3.1.5.1 공급 소프트웨어의 구조적 및 기술적 위협 식별 방법
 
+> **ISO/IEC 18974**  
+> - Method to identify structural and technical threats to the supplied software;
+> - 공급 소프트웨어에 대한 구조적 및 기술적 위협을 식별하는 방법
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have a method to identify structural and technical threats to the Supplied Software;
+> - [ ] 공급 소프트웨어의 구조적 및 기술적 위협을 식별하는 방법이 있습니다.
+
 공급 소프트웨어의 구조적 및 기술적 위협을 식별하는 것은, 개발 초기 단계에서 잠재적인 보안 문제를 발견하고 해결하는 데 필수적인 과정입니다. 이 과정은 소프트웨어 아키텍처의 설계 결함, 부적절한 기술 스택 선택, 그리고 안전하지 않은 코딩 관행 등 다양한 요소를 고려해야 합니다. 오픈소스 소프트웨어 보안 보증 측면에서는, 특별히 오픈소스 컴포넌트 사용으로 인해 발생할 수 있는 보안 취약점을 식별하는 데 중점을 두어야 합니다.
 
 **구현 방법 및 고려사항**:
@@ -415,6 +528,14 @@ ISO/IEC 18974 표준의 핵심은 조직이 오픈소스 소프트웨어를 안�
 이러한 접근 방식을 통해 조직은 공급 소프트웨어의 구조적 및 기술적 위협을 효과적으로 식별하고, 오픈소스 사용에 따른 보안 위험을 최소화할 수 있습니다.
 
 ### 3.1.5.2 공급 소프트웨어의 알려진 취약점 탐지 방법
+
+> **ISO/IEC 18974**  
+> - Method for detecting existence of known vulnerabilities in supplied software;
+> - 공급 소프트웨어에서 알려진 취약점의 존재를 탐지하는 방법
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have a method for detecting existence of Known Vulnerabilities in Supplied Software;
+> - [ ] 공급 소프트웨어에 존재하는 알려진 취약점을 탐지하는 방법이 있습니다.
 
 공급 소프트웨어에 포함된 오픈소스 컴포넌트의 알려진 취약점을 탐지하는 것은, 조직의 시스템을 잠재적인 공격으로부터 보호하는 데 매우 중요합니다. 이 과정은 취약점 데이터베이스를 활용하여, SBOM에 포함된 각 컴포넌트의 알려진 취약점 정보를 확인하고, 취약점의 심각도를 평가하며, 적절한 대응 조치를 취하는 것을 포함합니다. 효과적인 취약점 탐지 방법은 다음과 같습니다.
 
@@ -448,6 +569,14 @@ ISO/IEC 18974 표준의 핵심은 조직이 오픈소스 소프트웨어를 안�
 이러한 접근 방식을 통해 조직은 공급 소프트웨어에 포함된 오픈소스 컴포넌트의 알려진 취약점을 효과적으로 탐지하고, 시스템을 잠재적인 공격으로부터 보호할 수 있습니다.
 
 ### 3.1.5.3 식별된 알려진 취약점에 대한 후속 조치 방법
+
+> **ISO/IEC 18974**  
+> - Method for following up on identified known vulnerabilities;
+> - 식별된 알려진 취약점에 대한 후속 조치 방법
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have a method for following up on identified Known Vulnerabilities;
+> - [ ] 식별된 알려진 취약점에 대한 추적 방법이 있습니다.
 
 오픈소스 컴포넌트에서 취약점이 발견되었다면, 신속하고 체계적인 후속 조치를 통해 조직의 시스템과 데이터를 보호해야 합니다. 이는 단순히 패치를 적용하는 것 이상의 의미를 가지며, 취약점의 심각도를 평가하고, 대응 우선순위를 결정하며, 적절한 해결 방안을 선택하고, 그 결과를 검증하는 일련의 과정을 포함합니다. 효과적인 후속 조치 방법은 다음과 같습니다.
 
@@ -488,6 +617,14 @@ ISO/IEC 18974 표준의 핵심은 조직이 오픈소스 소프트웨어를 안�
 이러한 접근 방식을 통해 조직은 식별된 알려진 취약점에 대해 체계적으로 후속 조치를 취하고, 시스템을 안전하게 유지할 수 있습니다.
 
 ### 3.1.5.4 식별된 알려진 취약점의 고객 전달 방법
+
+> **ISO/IEC 18974**  
+> - Method to communicate identified known vulnerabilities to customer base when warranted;
+> - 필요한 경우 식별된 알려진 취약점을 고객들에게 전달하는 방법
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have a method to communicate identified Known Vulnerabilities to customer base when warranted;
+> - [ ] 필요 시 고객에게 식별된 알려진 취약점을 통지하는 방법이 있습니다.
 
 오픈소스 컴포넌트에서 식별된 알려진 취약점이 고객에게 미치는 영향을 최소화하기 위해서는, 투명하고 신속한 정보 전달이 필수적입니다. 조직은 취약점 정보, 영향 범위, 그리고 대응 방안을 고객에게 명확하고 시기적절하게 전달할 수 있는 체계를 구축해야 합니다. 이는 고객의 신뢰를 유지하고, 브랜드 이미지를 보호하며, 법적 책임을 줄이는 데 기여합니다.
 
@@ -533,6 +670,14 @@ ISO/IEC 18974 표준의 핵심은 조직이 오픈소스 소프트웨어를 안�
 
 ### 3.1.5.5 공급 소프트웨어 출시 후 새로 발견된 취약점 분석 방법
 
+> **ISO/IEC 18974**  
+> - Method for analyzing supplied software for newly published known vulnerabilities post release of the supplied software;
+> - 공급 소프트웨어 릴리스 후 새로 게시된 알려진 취약점에 대해 공급 소프트웨어를 분석하는 방법
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have a method for analyzing Supplied Software for newly published Known Vulnerabilities post release of the Supplied Software;
+> - [ ] 공급 소프트웨어가 출시된 후 새로 게시된 알려진 취약점을 분석하는 방법이 있습니다.
+
 공급 소프트웨어가 출시된 이후에도 새로운 취약점이 발견될 수 있습니다. 이러한 취약점은 예기치 않은 공격 경로를 통해 시스템에 침투하거나, 기존의 보안 조치를 우회할 수 있습니다. 따라서, 조직은 공급 소프트웨어 출시 후에도 새로운 취약점을 지속적으로 모니터링하고 분석하는 체계를 갖추어야 합니다. 이는 신속한 대응을 통해 잠재적인 피해를 최소화하고, 고객의 신뢰를 유지하는 데 필수적입니다.
 
 **구현 방법 및 고려사항:**
@@ -577,6 +722,14 @@ ISO/IEC 18974 표준의 핵심은 조직이 오픈소스 소프트웨어를 안�
 
 ### 3.1.5.6 출시 전 지속적이고 반복적인 보안 테스트 방법
 
+> **ISO/IEC 18974**  
+> - Method for continuous and repeated security testing to be applied for all supplied software before release;
+> - 릴리스 전에 모든 공급 소프트웨어에 적용할 지속적이고 반복적인 보안 테스트 방법
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have a method for continuous and repeated Security Testing is applied for all Supplied Software before release;
+> - [ ] 모든 공급 소프트웨어에 대해 출시 전 지속적이고 반복적인 보안 테스트가 적용됩니다.
+
 안전한 소프트웨어를 제공하기 위해서는, 릴리스 전에 보안 테스트를 단 한 번 수행하는 것으로는 충분하지 않습니다. 지속적이고 반복적인 보안 테스트는 소프트웨어 개발 라이프사이클(SDLC) 전반에 걸쳐 보안을 강화하고, 릴리스 전에 잠재적인 취약점을 식별하고 해결하는 데 필수적입니다. 특히, 오픈소스 컴포넌트를 사용하는 경우, 이러한 테스트는 오픈소스 라이선스 준수 여부와 잠재적인 보안 취약점을 확인하는 데 중요한 역할을 합니다.
 
 **구현 방법 및 고려사항**:
@@ -612,6 +765,14 @@ ISO/IEC 18974 표준의 핵심은 조직이 오픈소스 소프트웨어를 안�
 
 ### 3.1.5.7 공급 소프트웨어 출시 전 식별된 위험 해결 확인 방법
 
+> **ISO/IEC 18974**  
+> - Method to verify that identified risks will have been addressed before release of supplied software;
+> - 공급 소프트웨어 릴리스 전에 식별된 위험이 해결되었는지 확인하는 방법
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have a method to verify that identified risks will have been addressed before release of Supplied Software;
+> - [ ] 출시 전 식별된 위험이 해결되었음을 확인하는 방법이 있습니다.
+
 공급 소프트웨어를 릴리스하기 전에 SCA(Software Composition Analysis) 도구로 발견한 알려진 취약점을 해결하는 것은 최종 제품의 보안 수준을 보장하는 데 매우 중요합니다. 이는 취약한 오픈소스 컴포넌트를 패치하거나 제거하는 활동을 포함하며, 향후 유사한 문제가 발생하지 않도록 예방하는 것을 목표로 합니다.
 
 **구현 방법 및 고려사항**:
@@ -643,6 +804,14 @@ ISO/IEC 18974 표준의 핵심은 조직이 오픈소스 소프트웨어를 안�
 이러한 접근 방식을 통해 조직은 공급 소프트웨어 릴리스 전에 알려진 취약점을 효과적으로 해결하고, 최종 제품의 보안 수준을 크게 향상시킬 수 있습니다.
 
 ### 3.1.5.8 식별된 위험의 제3자 전달 방법
+
+> **ISO/IEC 18974**  
+> - Method to export information about identified risks to third parties as appropriate.
+> - 식별된 위험에 대한 정보를 제3자에게 적절하게 내보내는 방법
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have a method to export information about identified risks to third parties as appropriate.
+> - [ ] 식별된 위험 정보를 제3자에게 전달하는 방법이 있습니다.
 
 조직의 공급 소프트웨어에 존재하는 보안 위험은 조직 자체뿐만 아니라, 해당 소프트웨어를 사용하는 고객, 협력사, 그리고 오픈소스 커뮤니티 등 다양한 이해관계자에게 영향을 미칠 수 있습니다. 따라서, 조직은 식별된 위험을 적절하게 제3자에게 전달하여, 함께 위험을 관리하고, 전체적인 소프트웨어 공급망의 보안을 강화해야 합니다. 이 과정은 투명하고 책임감 있는 자세로 수행되어야 하며, 관련 법규 및 계약 조건을 준수해야 합니다.
 
