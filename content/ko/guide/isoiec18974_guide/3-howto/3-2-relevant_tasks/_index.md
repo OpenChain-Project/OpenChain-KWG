@@ -14,6 +14,14 @@ description: >
 
 ### 3.2.1.1 공개적으로 볼 수 있는 취약점 문의 방법
 
+> **ISO/IEC 18974**  
+> - 4.2.1.1: Publicly visible method to allow third parties to make known vulnerability or newly discovered vulnerability enquires (e.g., via an email address or web portal that is monitored by program participants);
+> - 4.2.1.1 제3자가 알려진 취약점 또는 새로 발견된 취약점에 대한 문의를 할 수 있도록 공개적으로 볼 수 있는 방법 (예: 프로그램 참여자가 모니터링하는 이메일 주소 또는 웹 포털)
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have a method to allow third parties to make Known Vulnerability or Newly Discovered Vulnerability enquires (e.g., via an email address or web portal that is monitored by Program Participants);
+> - [ ] 제3자가 알려진 취약점 또는 새로 발견된 취약점에 대한 문의를 할 수 있는 방법(예: 이메일 주소 또는 웹 포털)이 있습니다.
+
 조직은 누구나 쉽게 접근할 수 있는 방법으로, 소프트웨어의 취약점에 대한 정보를 제공할 수 있도록 해야 합니다. 이는 조직의 웹사이트, 보안 관련 페이지, 또는 별도의 버그 바운티 플랫폼 등을 통해 구현할 수 있습니다. 중요한 것은, 정보 제공 방법이 명확하고, 쉽게 찾을 수 있어야 하며, 지속적으로 모니터링되어야 한다는 점입니다.
 
 **구현 방법 및 고려사항**:
@@ -42,6 +50,14 @@ description: >
     - 증거 자료 (스크린샷, 로그 파일 등)
 
 ### 3.2.1.2 취약점 문의 대응 내부 절차
+
+> **ISO/IEC 18974**  
+> - 4.2.1.2: An internal documented procedure for responding to third party known vulnerability or newly discovered vulnerability inquiries.
+> - 4.2.1.2 제3자의 알려진 취약점 또는 새로 발견된 취약점 문의에 응답하기 위한 내부 문서화된 절차가 존재합니다.
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have an internal documented procedure for responding to third party Known Vulnerability or Newly Discovered Vulnerability inquiries.
+> - [ ] 외부 문의에 대한 내부 대응 절차가 문서화되어 있습니다.
 
 외부에서 취약점 문의가 접수되었을 때, 조직 내부에서 체계적이고 효율적으로 대응하기 위한 절차를 마련하는 것은 매우 중요합니다. 이 절차는 문의 접수, 분석, 해결, 그리고 보고 과정 전반을 아우르며, 각 단계별 책임자와 기한을 명확히 정의해야 합니다. 또한, 정보 보안 및 법적 책임을 고려하여, 민감한 정보를 안전하게 처리하고 공유할 수 있도록 해야 합니다.
 
@@ -78,6 +94,14 @@ description: >
 오픈소스 보안 보증 프로그램을 성공적으로 운영하기 위해서는, 단순히 정책과 절차를 수립하는 것만으로는 충분하지 않습니다. 이러한 정책과 절차가 실제로 효과를 발휘하기 위해서는, 프로그램에 필요한 인력, 예산, 그리고 기술적인 전문 지식을 적절하게 확보하고 할당해야 합니다. 이는 프로그램의 지속 가능성을 보장하고, 변화하는 위협 환경에 효과적으로 대응할 수 있도록 하는 데 매우 중요합니다.
 
 ### 3.2.2.1 프로그램 역할 식별 문서
+
+> **ISO/IEC 18974**  
+> - 4.2.2.1: Document with name of persons, group or function in program role(s) identified;
+> - 4.2.2.1 프로그램 역할에 지정된 개인, 그룹 또는 기능의 이름이 포함된 문서.
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have documented the people, group or functions related to the Program.
+> - [ ] 프로그램 관련 인물, 그룹, 또는 기능을 문서화했습니다.
 
 프로그램 역할 식별 문서는 오픈소스 보안 보증 프로그램의 성공적인 운영을 위한 초석과 같습니다. 이 문서는 프로그램에 참여하는 모든 이해관계자들이 각자의 역할과 책임을 명확히 이해하도록 돕고, 효율적인 협업과 의사소통을 가능하게 합니다. 또한, 책임 소재를 명확히 함으로써, 프로그램 운영 과정에서 발생할 수 있는 혼란과 책임을 회피하는 상황을 방지합니다.
 
@@ -116,6 +140,14 @@ description: >
 
 ### 3.2.2.2 프로그램 역할의 적절한 인력 배치 및 자금 제공
 
+> **ISO/IEC 18974**  
+> - 4.2.2.2: The identified program roles have been properly staffed and adequate funding provided;
+> - 4.2.2.2 식별된 프로그램 역할이 적절히 인력 배치되었으며 충분한 예산이 제공되었음을 나타내는 문서.
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have ensured the identified Program roles have been properly staffed and adequate funding has been provided.
+> - [ ] 식별된 프로그램 역할이 적절히 인력 배치되고 충분한 자금이 제공되었음을 확인했습니다.
+
 프로그램 역할이 아무리 잘 정의되어 있어도, 해당 역할을 수행할 인력이 부족하거나, 필요한 자금이 제대로 지원되지 않는다면 프로그램은 제대로 운영될 수 없습니다. 따라서, 조직은 각 역할에 필요한 인력을 적절하게 배치하고, 프로그램 운영에 필요한 충분한 자금을 제공해야 합니다. 이는 프로그램의 성공적인 운영을 위한 필수적인 조건입니다.
 
 **구현 방법 및 고려사항**:
@@ -148,6 +180,14 @@ description: >
 
 ### 3.2.2.3 알려진 취약점 해결을 위한 전문 지식 식별
 
+> **ISO/IEC 18974**  
+> - 4.2.2.3: Identification of expertise available to address identified known vulnerabilities;
+> - 4.2.2.3 식별된 알려진 취약점을 해결하기 위해 이용 가능한 전문성을 명시한 문서.
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have ensured expertise available is to address identified Known Vulnerabilities;
+> - [ ] 식별된 알려진 취약점을 해결하기 위한 전문 지식이 확보되어 있음을 확인했습니다.
+
 오픈소스 컴포넌트에서 알려진 취약점이 발견되었을 때, 이를 신속하고 효과적으로 해결하기 위해서는 해당 취약점에 대한 전문 지식을 가진 인력이 필요합니다. 이러한 전문 지식은 내부 인력으로부터 확보할 수도 있고, 외부 전문가의 도움을 받을 수도 있습니다. 중요한 것은, 필요한 전문 지식을 적시에 확보하고 활용할 수 있는 체계를 구축하는 것입니다.
 
 **구현 방법 및 고려사항**:
@@ -176,6 +216,14 @@ description: >
     - 특정 오픈소스 라이선스의 의무사항에 대한 해석이 필요한 경우, 오픈소스 라이선스 전문가에게 법적 검토를 의뢰합니다.
 
 ### 3.2.2.4 보안 보증에 대한 내부 책임 할당 절차
+
+> **ISO/IEC 18974**  
+> - 4.2.2.4: A documented procedure that assigns internal responsibilities for security assurance.
+> - 4.2.2.4 보안 보증을 위해 내부 책임을 할당하는 절차를 문서화한 자료.
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have a documented procedure that assigns internal responsibilities for Security Assurance.
+> - [ ] 보안 보증에 대한 내부 책임을 할당하는 절차가 문서화되어 있습니다.
 
 오픈소스 보안 보증 프로그램의 효과적인 운영을 위해 내부 책임을 명확히 할당하는 절차를 수립합니다. 이 절차는 다음과 같습니다:
 
