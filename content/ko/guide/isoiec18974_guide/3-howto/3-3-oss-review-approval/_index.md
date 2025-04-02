@@ -14,13 +14,21 @@ SBOM(Software Bill of Materials)은 소프트웨어를 구성하는 모든 컴�
 
 ### 3.3.1.1 SBOM 생성 및 유지 절차
 
+> **ISO/IEC 18974**  
+> - 4.3.1.1: A documented procedure ensuring all open source software used in the supplied software is continuously recorded across the lifecycle of the supplied software. This includes an archive of all open source software used in the supplied software;
+> - 4.3.1.1 공급 소프트웨어에 사용되는 모든 오픈 소스 소프트웨어가 공급 소프트웨어의 수명 주기 동안 지속적으로 기록되도록 보장하는 문서화된 절차. 여기에는 공급 소프트웨어에 사용되는 모든 오픈 소스 소프트웨어의 아카이브가 포함됩니다.
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have a documented procedure ensuring all Open Source Software used in the Supplied Software is continuously recorded across the lifecycle of the Supplied Software. This includes an archive of all Open Source Software used in the Supplied Software.
+> - [ ] 공급 소프트웨어에 사용된 모든 오픈소스 소프트웨어가 공급 소프트웨어의 수명 주기 전반에 걸쳐 지속적으로 기록되는 절차가 있습니다. 이 절차는 모든 오픈소스 소프트웨어의 아카이브를 포함합니다.
+
 SBOM은 단순히 한 번 생성하는 것으로 끝나는 것이 아니라, 소프트웨어의 라이프사이클 전반에 걸쳐 지속적으로 업데이트되고 관리되어야 합니다. 소프트웨어가 변경됨에 따라 새로운 컴포넌트가 추가되거나, 기존 컴포넌트가 업데이트될 수 있기 때문입니다. 따라서, 조직은 SBOM을 생성하고 유지하는 절차를 명확하게 정의하고, 이를 문서화해야 합니다.
 
 **구현 방법 및 고려사항**:
 
 1. **SBOM 생성 도구 선정**:
     - SBOM을 자동으로 생성하고 관리할 수 있는 도구를 선정합니다.
-    - SPDX, CycloneDX, 그리고 SWID Tag 등과 같은 표준화된 SBOM 형식을 지원하는 도구를 선택하는 것이 좋습니다.
+    - SPDX, CycloneDX, 그리고 SWID Tag 등과 같은 표준화된 SBOM 형식을 지원하는 도구를 선택하는 것이 좋습니다. 아래 "주요 SBOM 생성 도구 비교" 표를 참고하세요. 
     - 도구는 CI/CD 파이프라인에 통합하여, 빌드 프로세스 중에 자동으로 SBOM을 생성할 수 있도록 구성합니다.
 2. **SBOM 생성 및 업데이트 주기 정의**:
     - SBOM을 언제 생성하고 업데이트할 것인지에 대한 주기를 정의합니다.
@@ -39,6 +47,19 @@ SBOM은 단순히 한 번 생성하는 것으로 끝나는 것이 아니라, 소
     - SBOM은 조직 내부의 관련 부서(예: 개발팀, 보안팀, 법무팀)와 공유해야 합니다.
     - 또한, 고객 또는 규제 기관의 요청이 있는 경우, SBOM을 제공해야 할 수도 있습니다.
 
+**표 : 주요 SBOM 생성 도구 비교**
+
+| 도구 이름 | 지원 언어/패키지 | CI/CD 통합 | 출력 형식 | 오픈소스 여부 | 기타 |
+| --- | --- | --- | --- | --- | --- |
+| SPDX Tools | 다양함 | 가능 | SPDX | 예 | SPDX 형식에 특화 |
+| FOSSLight | 다양함 | 가능 | SPDX, CycloneDX, Excel, Text | 예 | 다양한 스캐너 연동, FOSSLight Hub를 통한 통합 관리 기능 제공 |
+| SW360 | 다양함 | 제한적 | SPDX | 예 | 오픈소스 컴플라이언스 관리 기능, 대규모 조직에 적합 |
+| OSV-SCALIBR | 다양함 | 제한적 | JSON | 예 | 라이브러리 형태로 제공, 직접 통합 필요 |
+| Tern (컨테이너 특화) | 컨테이너 이미지 | 가능 | SPDX, CycloneDX | 예 | 컨테이너 이미지 레이어 분석 |
+| Syft (컨테이너 특화) | 컨테이너 이미지, 파일 시스템, 다양한 아티팩트 | 쉬움 | SPDX, CycloneDX, Text, Table | 예 | 다양한 아티팩트 유형 지원, 사용하기 쉬운 CLI 제공 |
+
+이들 도구의 설치 및 사용 가이드는 부록에서 제공됩니다.
+
 **구체적인 예시**:
 
 - CI/CD 파이프라인에 OWASP Dependency-Track을 통합하여, 빌드 프로세스 중에 자동으로 SBOM을 생성하고, 취약점을 분석합니다.
@@ -52,6 +73,14 @@ SBOM은 단순히 한 번 생성하는 것으로 끝나는 것이 아니라, 소
 - SBOM에 포함되는 정보의 정확성과 완전성을 보장하기 위해 노력해야 합니다.
 
 ### 3.3.1.2 SBOM 관리 절차 준수 증거
+
+> **ISO/IEC 18974**  
+> - 4.3.1.2: open source software component records for the supplied software that demonstrates the documented procedure was properly followed.
+> - 4.3.1.2 문서화된 절차가 올바르게 수행되었음을 입증하는 공급 소프트웨어에 대한 오픈 소스 소프트웨어 컴포넌트 기록.
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have open source component records for the Supplied Software which demonstrate the documented procedure was properly followed.
+> - [ ] 공급 소프트웨어에 대한 오픈소스 컴포넌트 기록이 문서화된 절차가 적절히 수행되었음을 입증합니다.
 
 효과적인 SBOM 관리는 단순히 SBOM을 생성하는 것을 넘어, 지속적으로 관리하고, 최신 정보를 유지하며, 필요한 경우 활용할 수 있는 체계를 갖추는 것을 의미합니다. SBOM 관리 절차 준수 증거는 조직이 이러한 체계를 제대로 운영하고 있다는 것을 입증하는 데 사용됩니다.
 
@@ -113,6 +142,14 @@ SBOM은 단순히 한 번 생성하는 것으로 끝나는 것이 아니라, 소
 
 ### 3.3.2.1 취약점 탐지 및 해결 절차
 
+> **ISO/IEC 18974**  
+> - 4.3.2.1: A documented procedure for handling detection and resolution of known vulnerabilities for the open source software components of the supplied software;
+> - 4.3.2.1 공급 소프트웨어의 오픈 소스 소프트웨어 컴포넌트에 대해 알려진 취약점의 탐지 및 해결을 처리하기 위한 문서화된 절차.
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have a documented procedure for handling detection and resolution of Known Vulnerabilities for the Open Source Software components of the Supplied Software.
+> - [ ] 오픈소스 소프트웨어 컴포넌트의 알려진 취약점 탐지 및 해결을 위한 문서화된 절차가 있습니다.
+
 효과적인 보안 보증을 위해서는, 오픈소스 컴포넌트에서 발견된 취약점을 체계적으로 탐지하고 해결하기 위한 명확하고 문서화된 절차가 필요합니다. 이 절차는 취약점 탐지, 심각도 평가, 대응 계획 수립, 해결 조치 실행, 그리고 결과 검증 단계를 포함해야 하며, 각 단계별 책임자와 기한을 명확하게 정의해야 합니다.
 
 **구현 방법 및 고려사항**:
@@ -123,8 +160,14 @@ SBOM은 단순히 한 번 생성하는 것으로 끝나는 것이 아니라, 소
     - 문서는 프로그램 참여자들이 쉽게 접근할 수 있도록, 공유 문서 저장소, 위키, 또는 기타 협업 도구에 게시합니다.
 2. **취약점 탐지**:
     - SCA (Software Composition Analysis) 도구를 활용하여, SBOM에 포함된 각 오픈소스 컴포넌트의 알려진 취약점을 탐지합니다.
+      - 예시: OWASP Dependency-Check, Black Duck
     - 취약점 데이터베이스 (예: NVD, CVE)를 주기적으로 업데이트하고, 새로운 취약점 정보를 확인합니다.
+      - **NVD (National Vulnerability Database, 미국 국립 취약점 데이터베이스)**: 미국 NIST(National Institute of Standards and Technology, 미국 국립표준기술연구소)에서 관리하는 취약점 데이터베이스입니다. CVE(Common Vulnerabilities and Exposures) ID를 기준으로 취약점 정보를 제공합니다.
+      - **CVE (Common Vulnerabilities and Exposures, 공통 취약점 및 노출)**: MITRE Corporation에서 관리하는 공개적으로 알려진 정보 보안 취약점 목록입니다. 각 취약점에 고유한 ID (CVE ID)를 할당합니다.
     - 자동화된 취약점 스캔을 정기적으로 수행하고, 필요한 경우 수동 검토를 수행합니다.
+    - 추천 오픈소스 취약점 스캐닝 도구는 다음과 같습니다. 이러한 도구의 설치, 구성, 사용법에 대한 상세 가이드는 부록에서 제공됩니다.
+      - OWASP Dependency-Check: 오픈소스 종속성 취약점 검사
+      - Trivy: 컨테이너 이미지 및 파일시스템 취약점 스캐너
 3. **심각도 평가**:
     - 탐지된 각 취약점의 심각도를 평가합니다.
     - CVSS (Common Vulnerability Scoring System) 점수를 활용하여 취약점의 심각도를 객관적으로 평가할 수 있습니다.
@@ -153,6 +196,14 @@ SBOM은 단순히 한 번 생성하는 것으로 끝나는 것이 아니라, 소
 - 보안 전문가, 개발자, 그리고 운영자 간의 긴밀한 협력이 필요합니다.
 
 ### 3.3.2.2 취약점 기록 유지
+
+> **ISO/IEC 18974**  
+> - 4.3.2.2: For each open source software component a record is maintained of the identified known vulnerabilities and action(s) taken (including even if no action was required).
+> - 4.3.2.2 각 오픈소스 소프트웨어 컴포넌트에 대해 식별된 알려진 취약점 및 취해진 조치(조치가 필요하지 않은 경우도 포함)에 대한 기록이 유지 관리되어야 함.
+>   
+> **Self-Certification Checklist**  
+> - [ ] We have open source component records for the Supplied Software which track identified Known Vulnerabilities and action(s) taken (including even if no action was required).
+> - [ ] 공급 소프트웨어에 대한 오픈소스 컴포넌트 기록이 식별된 알려진 취약점과 취해진 조치(조치가 필요하지 않은 경우도 포함)를 추적합니다.
 
 각 오픈소스 컴포넌트에 대해 식별된 알려진 취약점과, 그에 대해 취해진 조치를 기록하는 것은, 효과적인 취약점 관리를 위한 핵심적인 요소입니다. 이러한 기록은 과거의 취약점 발생 이력을 추적하고, 유사한 문제가 발생했을 때 신속하게 대응할 수 있도록 돕습니다. 또한, 감사 및 보고 목적으로도 활용될 수 있습니다.
 
