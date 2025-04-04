@@ -20,10 +20,11 @@ description: Tooling & Legal Subgroup 21th Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues | TBD | TBD |
-| 1  | TBD | ETRI, 박정숙 | TBD |
-| 2  | Sebastian Steck v. AVM 소송 사례 | LG전자, 박원재 | TBD |
-| 3  | Open Source 고지문 공유 | TBD | TBD |
+| 0  | Community Updates & New Issues | ETRI, 박정숙 | TBD |
+| 1  | Robert Kneschke v. LAION 소송 판결 분석 | ETRI, 박정숙 | TBD |
+| 2  | Thomson Reuters v. Ross Intelligence Inc 소송 사례 | LG전자, 박원재 | TBD |
+| 3  | Black Duck을 좀 더 편하게 | 안랩, 김강보 | TBD |
+| 4  | Open Source 고지문 공유 | TBD | TBD |
 
 
 <!-- 
