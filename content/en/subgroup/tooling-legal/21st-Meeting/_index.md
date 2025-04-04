@@ -1,7 +1,7 @@
 ﻿---
 title: "21st Meeting"
 linkTitle: "21st Meeting"
-weight: 4
+weight: 5
 date: 2024-11-10
 type: docs
 description: Tooling & Legal Subgroup 21st Meeting
@@ -18,10 +18,11 @@ description: Tooling & Legal Subgroup 21st Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | TBD | TBD | TBD |
-| 1  | TBD | ETRI, Park Jeong-sook  | TBD |
-| 2  | Case Study: Sebastian Steck v. AVM | LG Eletronics, Park Wonjae | TBD |
-| 3  | Open Source Notice Case Study | TBD | TBD |
+| 0  | Community Updates & New Issues | ETRI, Park Jeong-sook | TBD |
+| 1  | Analysis of the Robert Kneschke v. LAION Case | ETRI, Park Jeong-sook  | TBD |
+| 2  | Case Study: Thomson Reuters v. Ross Intelligence Inc | LG Eletronics, Park Wonjae | TBD |
+| 3  | Make Black Duck a little more comfortable | Ahnlab, Kim Gangbo | TBD |
+| 4  | Open Source Notice Case Study | TBD | TBD |
 
 <!--
 
