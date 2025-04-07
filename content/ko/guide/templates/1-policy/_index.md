@@ -188,7 +188,7 @@ This sample open source policy was written with reference to the following two m
 
 ### 3.4 담당자 현황
 
-각 역할의 담당 조직과 담당자는 [부록 A: 담당자 현황]에서 확인할 수 있습니다. 필요에 따라 명단은 업데이트됩니다.
+각 역할의 담당 조직과 담당자는 [[부록 A: 담당자 현황]](./appendix/_index.md)에서 확인할 수 있습니다. 필요에 따라 명단은 업데이트됩니다.
 
 ## 4. 오픈소스 라이선스 컴플라이언스
 
