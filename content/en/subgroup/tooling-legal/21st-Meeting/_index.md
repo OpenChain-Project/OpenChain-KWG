@@ -23,7 +23,7 @@ description: Tooling & Legal Subgroup 21st Meeting
 | 2  | Information Technology and Reproduction under Copyright Law | Telechips, Yeon Ji-young | TBD |
 | 3  | Case Study: Thomson Reuters v. Ross Intelligence Inc | LG Eletronics, Park Wonjae | TBD |
 | 4  | Make Black Duck a little more comfortable | Ahnlab, Kim Gangbo | TBD |
-| 5  | Open Source Notice Case Study | TBD | TBD |
+| 5  | Open Source Notice Case Study | Hancom, Ryu Hyunju / Telechips, Yeon Ji-young | TBD |
 
 <!--
 
