@@ -21,7 +21,7 @@ description: Tooling & Legal Subgroup 22nd Meeting
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Community Updates & New Issues | TBD | TBD |
-| 1  | TBD | TBD | TBD |
+| 1  | Black Duck을 좀 더 편하게 | 안랩, 김강보 | TBD |
 
 
 <!-- 

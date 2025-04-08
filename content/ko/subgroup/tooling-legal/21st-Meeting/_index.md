@@ -24,8 +24,7 @@ description: Tooling & Legal Subgroup 21th Meeting
 | 1  | Robert Kneschke v. LAION 소송 판결 분석 | ETRI, 박정숙 | TBD |
 | 2  | IT와 저작권법상 복제 | 텔레칩스, 연지영 | TBD |
 | 3  | Thomson Reuters v. Ross Intelligence Inc 소송 사례 | LG전자, 박원재 | TBD |
-| 4  | Black Duck을 좀 더 편하게 | 안랩, 김강보 | TBD |
-| 5  | Open Source 고지문 공유 | 한글과컴퓨터, 류현주 / 텔레칩스, 연지영 | TBD |
+| 4  | Open Source 고지문 공유 | 한글과컴퓨터, 류현주 / 텔레칩스, 연지영 | TBD |
 
 
 <!-- 
