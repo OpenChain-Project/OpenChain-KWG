@@ -19,7 +19,7 @@ description: Tooling & Legal Subgroup 22nd Meeting
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Community Updates & New Issues | TBD | TBD |
-| 1  | TBD | TBD  | TBD |
+| 1  | Make Black Duck a little more comfortable | Ahnlab, Kim Gangbo | TBD |
 
 <!--
 
