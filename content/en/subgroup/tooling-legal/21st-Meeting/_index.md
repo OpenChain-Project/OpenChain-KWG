@@ -13,7 +13,13 @@ description: Tooling & Legal Subgroup 21st Meeting
 * Venue: Telechips
 
 ## Attendees
-* TBD
+* ETRI
+* Hancom
+* Kakao
+* LG Electronics
+* NHN
+* Samsung SDS
+* Telechips
 
 ## Agenda
 | No | Subject           | Speaker | Slide |
@@ -21,7 +27,7 @@ description: Tooling & Legal Subgroup 21st Meeting
 | 0  | Community Updates & New Issues | ETRI, Park Jeong-sook | TBD |
 | 1  | Analysis of the Robert Kneschke v. LAION Case | ETRI, Park Jeong-sook  | TBD |
 | 2  | Information Technology and Reproduction under Copyright Law | Telechips, Yeon Ji-young | TBD |
-| 3  | Case Study: Thomson Reuters v. Ross Intelligence Inc | LG Eletronics, Park Wonjae | TBD |
+| 3  | Case Study: Thomson Reuters v. Ross Intelligence Inc | LG Eletronics, Park Wonjae | [pdf](./3_Westlaw_v_RossAI.pdf) |
 | 4  | Open Source Notice Case Study | Hancom, Ryu Hyunju / Telechips, Yeon Ji-young | TBD |
 
 <!--

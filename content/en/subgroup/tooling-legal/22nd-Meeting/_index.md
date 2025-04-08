@@ -9,8 +9,8 @@ description: Tooling & Legal Subgroup 22nd Meeting
 
 ## Schedule
 * Purpose: Tooling and Legal Subgroup 22nd Meeting
-* Date: June TBD, 2025 (Tue) 14:00 ~ 17:00
-* Venue: TBD
+* Date: June 26, 2025 (Thu) 14:00 ~ 17:00
+* Venue: Jamsil, Samsung SDS
 
 ## Attendees
 * TBD
