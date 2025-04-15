@@ -26,11 +26,11 @@ description: Tooling & Legal Subgroup 21th Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues | ETRI, 박정숙 | TBD |
-| 1  | Robert Kneschke v. LAION 소송 판결 분석 | ETRI, 박정숙 | TBD |
+| 0  | Community Updates & New Issues | ETRI, 박정숙 | N/A |
+| 1  | Robert Kneschke v. LAION 소송 판결 분석 | ETRI, 박정숙 | [pdf](./1_AI_Copyright_Issue_RobertKneschke_v_LAION.pdf)/[Attatch1](./1_1_the_bill_on_legal_tech_industry.pdf)/[Attatch2](./1_2_Latest_Legislative_Trends.pdf) |
 | 2  | IT와 저작권법상 복제 | 텔레칩스, 연지영 | TBD |
 | 3  | Thomson Reuters v. Ross Intelligence Inc 소송 사례 | LG전자, 박원재 | [pdf](./3_Westlaw_v_RossAI.pdf) |
-| 4  | Open Source 고지문 공유 | 한글과컴퓨터, 류현주 / 텔레칩스, 연지영 | TBD |
+| 4  | Open Source 고지문 공유 | 한글과컴퓨터, 류현주 / 텔레칩스, 연지영 | N/A |
 
 
 <!-- 
