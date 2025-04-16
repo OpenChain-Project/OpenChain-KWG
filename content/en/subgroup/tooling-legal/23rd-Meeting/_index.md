@@ -19,9 +19,8 @@ description: Tooling & Legal Subgroup 23rd Meeting
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Community Updates & New Issues | TBD | TBD |
-| 1  | Make Black Duck a little more comfortable | Ahnlab, Kim Gangbo | TBD |
-| 2  | TBD | Kakao, TBD | TBD |
-| 3  | Open Source Notice Case Study | Kakao, TBD | TBD |
+| 1  | TBD | Kakao, TBD | TBD |
+| 2  | Open Source Notice Case Study | Kakao, TBD | TBD |
 
 <!--
 
