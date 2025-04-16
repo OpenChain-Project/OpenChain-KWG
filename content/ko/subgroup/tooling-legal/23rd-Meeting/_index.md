@@ -21,9 +21,8 @@ description: Tooling & Legal Subgroup 23rd Meeting
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Community Updates & New Issues | TBD | TBD |
-| 1  | Black Duck을 좀 더 편하게 | 안랩, 김강보 | TBD |
-| 2  | TBD | 카카오, TBD | TBD |
-| 3  | Open Source 고지문 공유 | 카카오, TBD | TBD |
+| 1  | TBD | 카카오, TBD | TBD |
+| 2  | Open Source 고지문 공유 | 카카오, TBD | TBD |
 
 <!-- 
 
