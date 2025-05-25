@@ -166,12 +166,9 @@ This sample open source policy was written with reference to the following two m
 ### 3.3 내부 책임 할당 절차
 
 1. 책임 할당 절차:
-    
-    a. 오픈소스 프로그램 매니저(OSPM)가 연간 책임 할당 회의를 소집합니다.
-    
-    b. 각 부서장(법무, IT, 보안, 개발, 품질 등)과 협의하여 활동별 책임자를 선정합니다.
-    
-    c. 선정된 책임자 목록을 OSRB(Open Source Review Board)에 제출하여 최종 승인을 받습니다.
+    1) 오픈소스 프로그램 매니저(OSPM)가 연간 책임 할당 회의를 소집합니다.  
+    2) 각 부서장(법무, IT, 보안, 개발, 품질 등)과 협의하여 활동별 책임자를 선정합니다.  
+    3) 선정된 책임자 목록을 OSRB(Open Source Review Board)에 제출하여 최종 승인을 받습니다.  
     
 2. 책임과 권한의 균형:
     - 각 책임자에게는 해당 업무를 수행하는 데 필요한 적절한 권한이 부여됩니다.
