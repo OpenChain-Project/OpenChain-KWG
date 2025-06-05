@@ -23,7 +23,7 @@ description: >
 | 14:40~15:10  | Samsung Electronics Open Source 2025     | Darae Ahn, Samsung Electronics               | -     |
 | 15:10~15:50  | Networking                                                           | All                                          | -     |
 | 15:50~16:20  | AI Data Compliance Process                                            | Jungwon Cho, LG AI Research Institute        | -     |
-| 16:20~16:50  | Lightning Talk  - License & Regulatory Risks When Korean Companies Use Global Open Source AI Models in Commercial Services<br> - Changes in Redis Licensing and Its Impact on the Open Source Ecosystem |  - Yunhwan Jung, Samsung Electronics<br>  - Jungsook Park, ETRI |       |
+| 16:20~16:50  | Lightning Talk  - Risks When Using Open AI Models in Enterprises <br> - Changes in Redis Licensing and Its Impact on the Open Source Ecosystem |  - Yunhwan Jung, Samsung Electronics<br>  - Jungsook Park, ETRI |       |
 | 16:50~17:00 | Closing | - | - |
 
 ## Sponsor
