@@ -54,49 +54,54 @@ description: >
 </table>
 </body>
 
-* 42dot 
-* Koh Young Technology
-* KFTC (Korea Financial Telecommunications & Clearings Institute)
-* Kia
-* Naver
-* Raon Secure
-* LINE Plus
-* Meritz Fire & Marine Insurance
-* BC Card
-* Samsung Electronics
-* Samsung Fire & Marine Insurance
-* Samsung SDS
-* Shinhan Financial Group
-* Shinhan DS
-* CSPI (CS Pioneer Inc.)
-* AhnLab
-* NCSOFT
-* WayneOS
-* GENIANS
-* Kakao
-* Telechips
-* Toss Bank
-* Korea Expressway Corporation
-* Korea Institute of Energy Research
-* Hancom
-* KEPCO KDN
-* Hyundai Mobis
-* Hyundai AutoEver
-* Hyundai Motor Company
-* ATCI 
-* CJ 
-* CJ ENM 
-* CJ OliveNetworks
-* ETRI (Electronics and Telecommunications Research Institute)
-* KB Kookmin Bank
-* KB Data Systems
-* KDN 
-* KT 
-* KT DS 
-* LG AI Research
-* LG Electronics
-* LIG Nex1
-* LS ELECTRIC
-* NHN 
-* SK Inc.
-* SK Telecom
+1. 42dot  
+2. KOYOUNG Technology  
+3. Korea Financial Telecommunications & Clearings Institute (KFTC)  
+4. Kia  
+5. Naver  
+6. Doosan Digital Innovation  
+7. RaonSecure  
+8. LINE Plus  
+9. Meritz Fire & Marine Insurance  
+10. Busan Bank  
+11. BC Card  
+12. Samsung Electronics  
+13. Samsung Fire & Marine Insurance  
+14. Samsung SDS  
+15. Shinhan Financial Group  
+16. Shinhan DS  
+17. CSPI  
+18. AhnLab  
+19. Woori Bank  
+20. NCSOFT  
+21. WayneOS  
+22. Genians  
+23. Kakao  
+24. Telechips  
+25. Toss Bank  
+26. Korea Expressway Corporation  
+27. Korea Institute of Energy Research (KIER)  
+28. Hancom (Hancom Inc.)  
+29. KEPCO KDN  
+30. Hyundai Mobis  
+31. Hyundai AutoEver  
+32. Hyundai Motor Company  
+33. ATCI  
+34. CJ  
+35. CJ CGV  
+36. CJ ENM  
+37. CJ OliveNetworks  
+38. CJ Olive Young  
+39. CJ CheilJedang  
+40. ETRI (Electronics and Telecommunications Research Institute)  
+41. KB Kookmin Bank  
+42. KB Data Systems  
+43. KT Corporation  
+44. KT DS  
+45. LG AI Research  
+46. LG Electronics  
+47. LIG Nex1  
+48. LS ELECTRIC  
+49. NHN  
+50. SK Inc.  
+51. SK Telecom
