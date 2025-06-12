@@ -20,9 +20,11 @@ description: Tooling & Legal Subgroup 22nd Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues | TBD | TBD |
+| 0  | Community Updates & New Issues | ETRI, 박정숙 | TBD |
 | 1  | Black Duck을 좀 더 편하게 | 안랩, 김강보 | TBD |
-
+| 2  | 삼성SDS 오픈소스 라이선스 검증 프로세스 | 삼성SDS, 채진영 | TBD |
+| 3  | OSFB > 조건부 라이선싱 | LG전자, 박원재 | TBD |
+| 4  | Open Source 고지문 공유 | TBD | N/A |
 
 <!-- 
 
