@@ -18,8 +18,11 @@ description: Tooling & Legal Subgroup 22nd Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues | TBD | TBD |
+| 0  | Community Updates & New Issues | ETRI, Park Jeong-sook | TBD |
 | 1  | Make Black Duck a little more comfortable | Ahnlab, Kim Gangbo | TBD |
+| 2  | 삼성SDS 오픈소스 라이선스 검증 프로세스 | Samsung SDS, Chae Jinyeong | TBD |
+| 3  | OSFB > Conditional Licensing | LG Electronics, Park Wonjae | TBD |
+| 4  | Open Source Notice Case Study | TBD | N/A |
 
 <!--
 
