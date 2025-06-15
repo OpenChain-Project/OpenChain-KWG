@@ -29,3 +29,31 @@ description: >
 ## Sponsor
 
 ![](../../images/content/about/logo/samsung.png)
+
+## 참가기업
+
+- 42dot  
+- 두산 디지털이노베이션  
+- 현대모비스  
+- 안랩  
+- CJ CGV  
+- CJ제일제당  
+- CJ주식회사    
+- 한컴  
+- 현대오토에버  
+- 현대모비스  
+- 현대자동차  
+- 카카오  
+- 금융결제원  
+- 국민은행  
+- KT DS  
+- LG AI Research   
+- LG전자  
+- 라인플러스  
+- 네이버  
+- 엔씨소프트  
+- NHN  
+- 삼성전자  
+- 삼성SDS  
+- 신한DS  
+- SK텔레콤

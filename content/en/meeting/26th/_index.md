@@ -29,3 +29,32 @@ description: >
 ## Sponsor
 
 ![](../../../images/content/about/logo/samsung.png)
+
+
+## Participating Companies
+
+- 42dot  
+- Doosan Digital Innovation  
+- Hyundai Mobis  
+- AhnLab  
+- CJ CGV  
+- CJ CheilJedang  
+- CJ Corporation  
+- Hancom  
+- Hyundai AutoEver  
+- Hyundai Mobis  
+- Hyundai Motor Company  
+- Kakao  
+- Korea Financial Telecommunications & Clearings Institute (KFTC)  
+- Kookmin Bank  
+- KT DS  
+- LG AI Research  
+- LG Electronics  
+- LINE Plus  
+- Naver  
+- NCSoft  
+- NHN  
+- Samsung Electronics  
+- Samsung SDS  
+- Shinhan DS  
+- SK Telecom
