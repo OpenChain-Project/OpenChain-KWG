@@ -58,3 +58,8 @@ description: >
 - Samsung SDS  
 - Shinhan DS  
 - SK Telecom
+
+
+## Album
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/198570149@N05/albums/72177720327000879" title="[2025 June] OpenChain Korea Work Group in Samsung Electronics"><img src="https://live.staticflickr.com/65535/54601376288_9379ecd7ec_b.jpg" width="1024" height="768" alt="[2025 June] OpenChain Korea Work Group in Samsung Electronics"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
