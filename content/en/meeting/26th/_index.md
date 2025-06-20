@@ -22,8 +22,8 @@ description: >
 | 14:30~14:40  | OpenChain Korea Update                                                | Haksung Jang, SK Telecom                    | [slide](https://gamma.app/docs/25-2-Update-p2oogyv44st07nj)    |
 | 14:40~15:10  | Samsung Electronics Open Source 2025     | Darae Ahn, Samsung Electronics               | [pptx](../../../slides/삼성전자_오픈소스2025_안다래.pptx)   |
 | 15:10~15:50  | Networking                                                           | All                                          | -     |
-| 15:50~16:20  | AI Data Compliance Process                                            | Jungwon Cho, LG AI Research Institute        | [pptx](../../../slides/korea-wg-2025-06.pptx)    |
-| 16:20~16:50  | Lightning Talk  <br> - Risks When Using Open AI Models in Enterprises <br> - Changes in Redis Licensing and Its Impact on the Open Source Ecosystem |  - Yunhwan Jung, Samsung Electronics<br>  - Jungsook Park, ETRI | <br> [pptx](../../../slides/오픈AI모델 리스크_오픈체인KWG_250616.pptx) <br> [pptx](../../../slides/OpenChain-KWG-Redis 라이선스 변화-20250616-R2.pdf)  |
+| 15:50~16:20  | AI Data Compliance Process                                            | Jungwon Cho, LG AI Research Institute        | [pptx](../../../slides/AI_Compliance_LG_AI_Research_0613.pdf)    |
+| 16:20~16:50  | Lightning Talk  <br> - Risks When Using Open AI Models in Enterprises <br> - Changes in Redis Licensing and Its Impact on the Open Source Ecosystem |  - Yunhwan Jung, Samsung Electronics<br>  - Jungsook Park, ETRI | <br> [pptx](../../../slides/오픈AI모델리스크_오픈체인KWG_250616.pptx) <br> [pptx](../../../slides/OpenChain-KWG-Redis라이선스변화-20250616-R2.pdf)  |
 | 16:50~17:00 | Closing | - | - |
 
 ## Sponsor
