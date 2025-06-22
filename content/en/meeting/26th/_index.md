@@ -26,6 +26,7 @@ description: >
 | 16:20~16:50  | Lightning Talk  <br> - Risks When Using Open AI Models in Enterprises <br> - Changes in Redis Licensing and Its Impact on the Open Source Ecosystem |  - Yunhwan Jung, Samsung Electronics<br>  - Jungsook Park, ETRI | <br> [pptx](../../../slides/오픈AI모델리스크_오픈체인KWG_250616.pptx) <br> [pdf](../../../slides/OpenChain-KWG-Redis라이선스변화-20250616-R2.pdf)  |
 | 16:50~17:00 | Closing                               | -                                            | - |
 
+
 ## Sponsor
 
 ![](../../../images/content/about/logo/samsung.png)
