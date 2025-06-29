@@ -13,16 +13,29 @@ description: Tooling & Legal Subgroup 22nd Meeting
 * Venue: Jamsil, Samsung SDS
 
 ## Attendees
-* TBD
+* Ahnlab
+* ETRI
+* Hancom
+* Hyundai Autoever
+* Kakao
+* LG AI Research
+* LG Electronics
+* NHN
+* Samsung Electronics
+* Samsung SDS
+* SK Telecom
+* Telechips
+* Woori Bank
+* (Guest) SECTREND 
 
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues | ETRI, Park Jeong-sook | TBD |
-| 1  | Make Black Duck a little more comfortable | Ahnlab, Kim Gangbo | TBD |
-| 2  | 삼성SDS 오픈소스 라이선스 검증 프로세스 | Samsung SDS, Chae Jinyeong | TBD |
-| 3  | OSFB > Conditional Licensing | LG Electronics, Park Wonjae | TBD |
-| 4  | Open Source Notice Case Study | TBD | N/A |
+| 0  | Community Updates & New Issues (U.S. Copyright Trends for AI Technologies) | ETRI, Park Jeong-sook | [pdf](1_US_Copyright_Trends_for_AI_Technologies.pdf) |
+| 1  | Make Black Duck More User Friendly | Ahnlab, Kim Gangbo | [pdf](2_Make_Black_Duck_More_User_Friendly.pdf) |
+| 2  | Samsung SDS Open Source License Verification Proces | Samsung SDS, Chae Jinyeong | N/A |
+| 3  | OSFB > Conditional Licensing | LG Eletronics, Park Wonjae | [pdf](4_OSFB_ch5.pdf) |
+| 4  | Open Source Notice Case Study | LG Eletronics, Park Wonjae | N/A |
 
 <!--
 
