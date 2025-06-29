@@ -11,8 +11,8 @@ description: Tooling & Legal Subgroup 22nd Meeting
 
 ## Schedule
 * 목적 : Tooling and Legal Subgroup 22차 회의
-* 일시 : 2025년 6월 26일(목) 14:00 ~ 17:00
-* 장소 : 잠실 삼성 SDS
+* 일시 : 2025년 6월 26일(목) 14:00 ~ 18:00
+* 장소 : 삼성 SDS
 
 ## Attendees
 * ETRI
