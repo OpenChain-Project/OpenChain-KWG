@@ -1,7 +1,7 @@
 ---
 title: "Guide to Software Supply Chain Security in the Telco Industry: A Handbook for the OpenChain Telco SBOM Guide"
 linkTitle: "Telco SBOM Guide Handbook"
-weight: 150
+weight: 70
 type: docs
 description: >
   Technical Guidelines on Software Bill of Materials (SBOM)
