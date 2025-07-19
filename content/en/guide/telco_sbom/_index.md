@@ -701,6 +701,7 @@ Rather than grand transformations, what is important is **a small but certain fi
 
 ### Appendix A: Full Text of the OpenChain Telco SBOM Guide (Korean Version Link)
 
+*   Download and view the full text of the guide: [OpenChain-Telco-SBOM-Guide_EN.md](https://github.com/OpenChain-Project/Telco-WG/blob/main/OpenChain-Telco-SBOM-Guide_EN.md)
 *   Download and view the full text of the guide (Korean translation): [OpenChain-Telco-SBOM-Guide_KR.md](https://github.com/OpenChain-Project/Telco-WG/blob/main/OpenChain-Telco-SBOM-Guide_KR.md)
 
 ### Appendix B: Glossary
