@@ -24,23 +24,23 @@ description: >
 
 #### 1.1.1. 5G, 클라우드 네이티브 환경에서의 오픈소스 의존성 심화
 
-통신 산업은 현재 전례 없는 디지털 혁신의 물결을 맞고 있습니다. 5G 네트워크 구축, 클라우드 네이티브 기술 도입, IoT 기기의 폭발적 증가로 인해 소프트웨어의 복잡성과 상호 의존성이 기하급수적으로 늘어나고 [있습니다](https://seo.goover.ai/report/202504/go-public-report-ko-808587ee-afb5-4b01-8dd2-0d5f3e4ee352-0-0.html).
+[통신 산업](https://seo.goover.ai/report/202504/go-public-report-ko-808587ee-afb5-4b01-8dd2-0d5f3e4ee352-0-0.html)은 현재 전례 없는 디지털 혁신의 물결을 맞고 있습니다. 5G 네트워크 구축, 클라우드 네이티브 기술 도입, IoT 기기의 폭발적 증가로 인해 소프트웨어의 복잡성과 상호 의존성이 기하급수적으로 늘어나고 있습니다.
 
-현재 90% 이상의 소프트웨어 개발 과정에서 오픈소스 소프트웨어가 활용되고 있으며, 특히 통신 인프라에서는 OPC UA, MQTT와 같은 오픈소스 통신 프로토콜이 실시간 데이터 교환의 핵심 역할을 담당하고 [있습니다](https://www.thelec.kr/news/articleView.html?idxno=33454). 5G 네트워크의 복잡한 아키텍처는 수천 개의 소프트웨어 컴포넌트로 구성되며, 이들 간의 의존성 관계는 더욱 복잡해지고 [있습니다](https://www.oss.kr/oss_guide/show/7d7d50dd-816f-410d-9bbb-682683a26181).
+현재 90% 이상의 소프트웨어 개발 과정에서 오픈소스 소프트웨어가 활용되고 있으며, 특히 통신 인프라에서는 OPC UA, MQTT와 같은 오픈소스 [통신 프로토콜](https://www.thelec.kr/news/articleView.html?idxno=33454)이 실시간 데이터 교환의 핵심 역할을 담당하고 있습니다. 5G 네트워크의 복잡한 아키텍처는 수천 개의 소프트웨어 컴포넌트로 구성되며, 이들 간의 [의존성 관계](https://www.oss.kr/oss_guide/show/7d7d50dd-816f-410d-9bbb-682683a26181)는 더욱 복잡해지고 있습니다.
 
 #### 1.1.2. Log4j 사태로 본 공급망 공격의 파급력과 교훈
 
-2021년 12월 공개된 Log4Shell(Log4j 취약점)은 통신 산업을 포함한 전 세계 소프트웨어 생태계에 엄청난 충격을 [주었습니다](https://www.ibm.com/kr-ko/think/topics/log4j). 이 취약점은 다음과 같은 심각한 문제점들을 드러냈습니다:
+2021년 12월 공개된 Log4Shell([Log4j 취약점](https://www.ibm.com/kr-ko/think/topics/log4j))은 통신 산업을 포함한 전 세계 소프트웨어 생태계에 엄청난 충격을 주었습니다. 이 취약점은 다음과 같은 심각한 문제점들을 드러냈습니다:
 
-- **광범위한 영향력:** Log4j는 전 세계에서 가장 널리 배포된 오픈소스 프로그램 중 하나로, 수백만 개의 시스템이 영향을 [받았습니다](https://blog.cloudflare.com/ko-kr/inside-the-log4j2-vulnerability-cve-2021-44228/). IBM의 X-Force Threat Intelligence Index에 따르면, 2020년과 2021년 사이에 취약점이 34% 증가했으며, 이는 주로 Log4Shell에 기인한 것으로 [나타났습니다](https://www.ibm.com/kr-ko/think/topics/log4j).
+- **광범위한 영향력:** [Log4j](https://blog.cloudflare.com/ko-kr/inside-the-log4j2-vulnerability-cve-2021-44228/)는 전 세계에서 가장 널리 배포된 오픈소스 프로그램 중 하나로, 수백만 개의 시스템이 영향을 받았습니다. IBM의 [X-Force Threat Intelligence Index](https://www.ibm.com/kr-ko/reports/threat-intelligence)에 따르면, 2020년과 2021년 사이에 취약점이 34% 증가했으며, 이는 주로 [Log4Shell에 기인](https://www.ibm.com/kr-ko/think/topics/log4j)한 것으로 나타났습니다.
 - **탐지와 대응의 어려움:** 많은 기업들이 자사 시스템에서 Log4j 프로그램을 사용하는 서드파티(3rd-party) 제품이 있는지 여부를 식별하는 것 자체에 많은 시간이 소요되었습니다. 취약점 공개 2년이 지난 시점에도 Log4j 사용 애플리케이션의 38%가 여전히 취약점을 갖고 있는 것으로 [파악되었습니다](https://www.epnc.co.kr/news/articleView.html?idxno=300506).
-- **연쇄적 취약점 발견:** 최초 취약점(CVE-2021-44228) 발견 이후 7건의 추가 취약점이 발견되어, 지속적인 모니터링과 업데이트의 중요성을 [보여주었습니다](https://m.boannews.com/html/detail.html?idx=105394).
+- **연쇄적 취약점 발견:** 최초 취약점(CVE-2021-44228) 발견 이후 [7건의 추가 취약점](https://m.boannews.com/html/detail.html?idx=105394)이 발견되어, 지속적인 모니터링과 업데이트의 중요성을 보여주었습니다.
 
 #### 1.1.3. SBOM을 통한 소프트웨어 투명성 확보의 중요성 대두
 
-Log4j 사태는 소프트웨어 구성요소에 대한 가시성 부족이 얼마나 위험한지를 명확히 [보여주었습니다](https://www.igloo.co.kr/security-information/sbom%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EA%B3%B5%EA%B8%89%EB%A7%9D-%EB%B3%B4%EC%95%88/). 이를 계기로 전 세계 각국 정부와 산업계는 소프트웨어 공급망의 투명성 확보를 위한 SBOM(Software Bill of Materials) 도입을 적극 검토하기 시작했습니다.
+Log4j 사태는 소프트웨어 구성요소에 대한 가시성 부족이 얼마나 위험한지를 명확히 보여주었습니다. 이를 계기로 전 세계 각국 정부와 산업계는 [소프트웨어 공급망의 투명성 확보를 위한 SBOM(Software Bill of Materials) 도입](https://www.igloo.co.kr/security-information/sbom%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EA%B3%B5%EA%B8%89%EB%A7%9D-%EB%B3%B4%EC%95%88/)을 적극 검토하기 시작했습니다.
 
-미국 바이든 행정부는 2021년 5월 사이버 보안 강화를 위한 행정명령을 통해 SW 공급망 보안 강화를 지시했으며, 우리나라 정부도 같은 해 2월 발표한 K-사이버 방역 추진 전략에서 SW 개발·공급망 보안 강화 계획을 [밝혔습니다](https://www.igloo.co.kr/security-information/sbom%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EA%B3%B5%EA%B8%89%EB%A7%9D-%EB%B3%B4%EC%95%88/).
+미국 바이든 행정부는 2021년 5월 사이버 보안 강화를 위한 행정명령을 통해 SW 공급망 보안 강화를 지시했으며, 우리나라 정부도 같은 해 2월 발표한 K-사이버 방역 추진 전략에서 SW 개발·공급망 보안 강화 계획을 밝혔습니다.
 
 ### 1.2. 통신 산업이 마주한 특수성과 당면 과제
 
@@ -58,7 +58,7 @@ Log4j 사태는 소프트웨어 구성요소에 대한 가시성 부족이 얼�
 
 통신 인프라는 국가 핵심 인프라로 분류되어 매우 높은 수준의 보안과 안정성이 [요구됩니다](https://www.dt.co.kr/article/10590709). 특히 5G 네트워크는 다음과 같은 새로운 보안 도전에 직면하고 있습니다:
 
-- **IoT 기기의 대규모 연결:** 5G 환경에서는 수십억 개의 IoT 기기가 연결되어, 각각이 잠재적인 공격 진입점이 될 수 [있습니다](https://www.dt.co.kr/article/10590709).
+- **IoT 기기의 대규모 연결:** 5G 환경에서는 수십억 개의 IoT 기기가 연결되어, 각각이 잠재적인 공격 진입점이 될 수 있습니다.
 - **엣지 컴퓨팅의 분산된 특성:** 네트워크 엣지에서 데이터 처리가 이루어지면서, 중앙 집중식 보안 관리가 어려워졌습니다.
 - **네트워크 슬라이싱의 격리 문제:** 하나의 슬라이스에서 발생한 보안 문제가 다른 슬라이스로 확산될 위험이 있습니다.
 
@@ -66,10 +66,10 @@ Log4j 사태는 소프트웨어 구성요소에 대한 가시성 부족이 얼�
 
 최근 국내외에서 SBOM 제공을 요구하는 사례가 급격히 증가하고 있습니다:
 
-- **정부 및 공공기관:** 기상청 등 공공기관에서 인프라 도입사업 공고 시 SBOM 제출을 요구하는 경우가 생겨나고 [있습니다](https://kisia.or.kr/bucket/uploads/2025/03/11/%5Bkisia%5D%20sbom%20%EB%8F%84%EA%B5%AC%20%EC%8B%A4%EC%A6%9D%20%EA%B2%B0%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf).
+- **정부 및 공공기관:** 기상청 등 공공기관에서 인프라 도입사업 공고 시 [SBOM 제출을 요구](https://kisia.or.kr/bucket/uploads/2025/03/11/%5Bkisia%5D%20sbom%20%EB%8F%84%EA%B5%AC%20%EC%8B%A4%EC%A6%9D%20%EA%B2%B0%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf)하는 경우가 생겨나고 있습니다.
 - **글로벌 규제 동향:**
     - 미국: 연방 정부에 납품되는 모든 소프트웨어에 대해 SBOM 제공을 [의무화했습니다](https://seo.goover.ai/report/202409/go-public-report-ko-d69ad755-7cc7-441a-9899-de0ddd66ea3b-0-0.html).
-    - EU: 사이버복원력법(CRA)을 통해 SBOM 의무화를 추진하고 [있습니다](https://www.oss.kr/oss_guide/show/f02cd419-df61-4f00-9149-e50c901ce06e).
+    - EU: [사이버복원력법(CRA)을 통해 SBOM 의무화를 추진](https://www.oss.kr/oss_guide/show/f02cd419-df61-4f00-9149-e50c901ce06e)하고 있습니다.
     - 일본, 한국 등 주요국들도 유사한 정책을 검토 중입니다.
 - **고객사 요구:** 대형 통신사, 장비사, 네트워크 솔루션 기업들이 소프트웨어 납품 시 SBOM 제공을 계약 조건으로 명시하는 경우가 증가하고 있습니다.
 - **산업 표준화:** OpenChain과 같은 국제 표준 기구들이 통신 산업 특화 SBOM 가이드를 제시하기 시작했습니다.
@@ -78,11 +78,14 @@ Log4j 사태는 소프트웨어 구성요소에 대한 가시성 부족이 얼�
 
 ## 2장: OpenChain Telco SBOM 가이드란?
 
+* 영문(원본): [OpenChain Telco SBOM Guide 1.1](https://github.com/OpenChain-Project/Telco-WG/blob/main/OpenChain-Telco-SBOM-Guide_EN.md)
+* 국문: [OpenChain Telco SBOM 가이드 1.1](https://github.com/OpenChain-Project/Telco-WG/blob/main/OpenChain-Telco-SBOM-Guide_KR.md)
+
 ### 2.1. 가이드의 탄생 배경과 핵심 목적
 
 #### 2.1.1. 통신 산업의 SBOM 파편화 문제 해결
 
-통신 산업은 전 세계적으로 가장 복잡하고 상호 연결된 소프트웨어 생태계 중 하나입니다. 5G 인프라, 클라우드 네이티브 솔루션, 네트워크 가상화 기술 등이 융합되면서, 각 조직마다 서로 다른 SBOM 작성 방식과 요구사항을 적용하게 [되었습니다](https://openchainproject.org/news/2024/07/30/openchain-telco-sbom-guide-general-availability).
+통신 산업은 전 세계적으로 가장 복잡하고 상호 연결된 소프트웨어 생태계 중 하나입니다. 5G 인프라, 클라우드 네이티브 솔루션, 네트워크 가상화 기술 등이 융합되면서, [각 조직마다 서로 다른 SBOM 작성 방식과 요구사항을 적용](https://openchainproject.org/news/2024/07/30/openchain-telco-sbom-guide-general-availability)하게 되었습니다.
 
 이러한 파편화는 다음과 같은 심각한 문제들을 야기했습니다:
 
@@ -90,7 +93,7 @@ Log4j 사태는 소프트웨어 구성요소에 대한 가시성 부족이 얼�
 - **중복 투자:** 각 조직이 서로 다른 도구와 프로세스를 개발하면서, 업계 전체적으로 비효율적인 중복 투자가 이루어졌습니다.
 - **리스크 관리 한계:** 표준화되지 않은 SBOM으로 인해 공급망 전반에 걸친 취약점 추적과 신속한 대응이 어려워졌습니다.
 
-OpenChain 프로젝트는 이러한 문제를 해결하기 위해 2023년 Telco 워킹 그룹을 구성하고, 통신 산업 특화 SBOM 가이드 개발에 [착수했습니다](https://www.scanoss.com/post/the-openchain-telco-sbom).
+OpenChain 프로젝트는 이러한 문제를 해결하기 위해 2023년 Telco 워킹 그룹을 구성하고, [통신 산업 특화 SBOM 가이드 개발](https://www.scanoss.com/post/the-openchain-telco-sbom)에 착수했습니다.
 
 #### 2.1.2. 상호운용성, 반복성, 효율성 확보를 위한 표준 제시
 
@@ -104,9 +107,9 @@ OpenChain Telco SBOM 가이드는 통신 산업의 특수성을 반영하면서�
 
 #### 2.2.1. **표준성:** 국제 표준(SPDX) 기반의 데이터 포맷 및 구조
 
-[OpenChain Telco SBOM 가이드](https://github.com/OpenChain-Project/Telco-WG/blob/main/OpenChain-Telco-SBOM-Guide_EN.md)는 **ISO/IEC 5962:2021**로 공식 인증받은 **SPDX(Software Package Data Exchange)** 표준을 데이터 포맷의 기반으로 [채택했습니다](https://ccs.korea.ac.kr/pds/TTA23.pdf). 이는 다음과 같은 전략적 이유에서 비롯됩니다:
+[OpenChain Telco SBOM 가이드](https://github.com/OpenChain-Project/Telco-WG/blob/main/OpenChain-Telco-SBOM-Guide_EN.md)는 [ISO/IEC 5962:2021](https://www.iso.org/standard/81870.html)로 공식 인증받은 [SPDX(Software Package Data Exchange)](https://www.iso.org/standard/81870.html)표준을 데이터 포맷의 기반으로 채택했습니다 이는 다음과 같은 전략적 이유에서 비롯됩니다:
 
-- **국제 표준 준수:** [SPDX](https://www.iso.org/standard/81870.html)는 2021년 9월 국제표준화기구(ISO)와 국제전기기술위원회(IEC)에 의해 공식 채택된 유일한 SBOM 국제 표준입니다.
+- **국제 표준 준수:** SPDX는 2021년 9월 국제표준화기구(ISO)와 국제전기기술위원회(IEC)에 의해 공식 채택된 유일한 SBOM 국제 표준입니다.
 - **기술적 우위성:** SPDX는 라이선스 컴플라이언스 측면에서 CycloneDX보다 더 많은 기능을 제공하며, 사람이 읽을 수 있는(human-readable) 포맷을 지원합니다.
 - **산업계 검증:** Intel, Microsoft, Siemens, Sony, Nokia 등 글로벌 기업들이 SPDX를 활용하여 소프트웨어 공급망 관리를 수행하고 있어, 실무적 검증이 완료된 표준입니다.
 
@@ -156,7 +159,7 @@ OpenChain Telco SBOM 가이드는 이러한 현실을 반영하여 **포괄적 �
 | **생성 정보** | 조직명, 도구명/버전 | CISA SBOM Type 포함 |
 | **검증** | 디지털 서명 권장 | Sigstore 등 활용 |
 
-이러한 체계적이고 실무 중심적인 접근방식을 통해 OpenChain Telco SBOM 가이드는 통신 산업의 소프트웨어 공급망 관리 수준을 한 단계 끌어올리는 든든한 기반을 제공합니다. Nokia와 같은 글로벌 통신 장비사가 이미 이 가이드를 내부 프레임워크의 기초로 채택한 것은, 가이드의 실용성과 효과성을 입증하는 사례라 할 수 [있습니다](https://www.scanoss.com/post/the-openchain-telco-sbom).
+이러한 체계적이고 실무 중심적인 접근방식을 통해 OpenChain Telco SBOM 가이드는 통신 산업의 소프트웨어 공급망 관리 수준을 한 단계 끌어올리는 든든한 기반을 제공합니다. Nokia와 같은 글로벌 통신 장비사가 이미 이 가이드를 내부 프레임워크의 기초로 채택한 것은, 가이드의 실용성과 효과성을 입증하는 사례라 할 수 있습니다.
 
 ## 3장: 가이드 준수가 가져오는 비즈니스 가치와 기대 효과
 
@@ -172,25 +175,25 @@ Log4j 사태가 발생했을 때, SBOM을 보유한 조직은 영향받는 시�
 
 #### 3.1.2. 오픈소스 라이선스 컴플라이언스 자동화 및 리스크 최소화
 
-표준화된 SPDX 포맷을 통해 각 컴포넌트의 라이선스 정보를 명확히 관리함으로써, 라이선스 위반으로 인한 **소송 및 과징금 리스크를 선제적으로 차단**할 수 [있습니다](https://www.pivotpointsecurity.com/a-software-bill-of-materials-sbom-benefits-both-vendors-and-users/).
+표준화된 SPDX 포맷을 통해 각 컴포넌트의 라이선스 정보를 명확히 관리함으로써, 라이선스 위반으로 인한 **소송 및 과징금 리스크를 선제적으로 차단**할 수 있습니다.
 
-SBOM 도구를 활용하면 **라이선스 관리의 효율성**이 크게 향상됩니다. 각 라이선스의 내용 표시, 주의가 필요한 라이선스에 대한 경고 등 컴플라이언스 기능을 자동화하여 관리 비용을 대폭 줄일 수 [있습니다](https://www.meti.go.jp/english/policy/safety_security/cybersecurity/downloadfiles/sbom_tebiki02_en.pdf).
+[SBOM 도구를 활용](https://www.meti.go.jp/english/policy/safety_security/cybersecurity/downloadfiles/sbom_tebiki02_en.pdf)하면 **라이선스 관리의 효율성**이 크게 향상됩니다. 각 라이선스의 내용 표시, 주의가 필요한 라이선스에 대한 경고 등 컴플라이언스 기능을 자동화하여 관리 비용을 대폭 줄일 수 있습니다.
 
 ### 3.2. 비즈니스 경쟁력 및 신뢰도 향상
 
 #### 3.2.1. 고객사 및 파트너사의 SBOM 요구에 선제적 대응
 
-현재 100%의 SI(System Integrator) 및 SV(Software Vendor) 기업이 'SBOM 도입을 통한 규제·산업표준 준수'와 '신뢰 향상'을 주요 인센티브로 인식하고 [있습니다](https://runsafesecurity.com/blog/sbom-requirements-global-guide/).
+현재 많은 SI(System Integrator) 및 SV(Software Vendor) 기업이 'SBOM 도입을 통한 규제·산업표준 준수'와 '신뢰 향상'을 [주요 인센티브로 인식](https://runsafesecurity.com/blog/sbom-requirements-global-guide/)하고 있습니다.
 
 SBOM 제공 역량을 갖춘 조직은 다음과 같**은 명확한 경쟁 우위를 확보할 수 있습니다:**
 
 - **보안 중시 고객과의 계약에서 차별화된 포지션 [확보](https://anchore.com/blog/how-to-respond-when-your-customers-require-an-sbom/)**
 - **정부 기관 및 대형 기업 계약에서 필수 조건 [충족](https://www.opswat.com/resources/guides/sbom-in-2025-a-strategic-asset-not-just-a-list)**
-- **EU CRA, 미국 행정명령 14028 등 글로벌 규제 대응 역**량 [입증](https://cycode.com/blog/software-bill-of-materials/)
+- **EU CRA, 미국 행정명령 14028 등 글로벌 규제 대응 역량** [입증](https://cycode.com/blog/software-bill-of-materials/)
 
 #### 3.2.2. RFP, 계약, 공공 입찰 시 수주 경쟁력 확보
 
-이미 다수의 통신사와 공공기관이 SBOM 제출을 입찰 필수 조건으로 명시하고 [있습니다](https://anchore.com/blog/how-to-respond-when-your-customers-require-an-sbom/). 한 API 관리 벤더 CEO는 "대화 초기에 SBOM을 제시할 수 있다는 것은 완전히 다른 차원의 대화를 가능하게 하며, CISO들이 '이것을 시도해보자'고 말할 수 있게 해준다"고 증언했습니다.
+이미 다수의 통신사와 공공기관이 SBOM 제출을 입찰 필수 조건으로 명시하고 있습니다. 한 API 관리 벤더 CEO는 "대화 초기에 SBOM을 제시할 수 있다는 것은 완전히 다른 차원의 대화를 가능하게 하며, CISO들이 '이것을 시도해보자'고 말할 수 있게 해준다"고 증언했습니다.
 
 표준화된 SBOM 제공 능력은 가시적인 가산점 요소가 되어, 보안과 투명성을 중시하는 고객들과의 판매 주기를 단축시키는 효과를 가져옵니다.
 
@@ -202,9 +205,9 @@ OpenChain Telco SBOM 가이드는 ISO/IEC 5962:2021(SPDX) 기반으로 작성되
 
 #### 3.3.1. SBOM 생성 및 관리 프로세스 표준화
 
-표준화된 포맷(SPDX 2.2/2.3)과 명확한 필수 항목 정의로 인해 SBOM 생성·검증·제공 프로세스의 자동화와 반복성을 확보할 수 [있습니다](https://www.ntia.doc.gov/sites/default/files/publications/copado_-_2021.06.17_0.pdf).
+표준화된 포맷(SPDX 2.2/2.3)과 명확한 필수 항목 정의로 인해 SBOM 생성·검증·제공 프로세스의 [자동화와 반복성을 확보](https://www.ntia.doc.gov/sites/default/files/publications/copado_-_2021.06.17_0.pdf)할 수 있습니다.
 
-구체적인 시간 절약 [효과](https://noux.cloud/save-5-hours-weekly-cra-machine-builder-software-bill-of-materials-automation-solution/):
+[구체적인 시간 절약 효과](https://noux.cloud/save-5-hours-weekly-cra-machine-builder-software-bill-of-materials-automation-solution/):
 
 - 컴포넌트 문서화 및 검증: 주당 2.5시간 절약
 - 버전 관리 및 변경 사항 관리: 주당 1.5시간 절약
@@ -215,7 +218,7 @@ OpenChain Telco SBOM 가이드는 ISO/IEC 5962:2021(SPDX) 기반으로 작성되
 
 #### 3.3.2. 명확한 가이드라인을 통한 내부 개발팀의 혼선 방지
 
-일관된 SBOM 작성 기준을 통해 조직 내 모든 부서가 동일한 컴포넌트 정보를 공유함으로써, 중복 스캔과 수작업 관리의 비효율을 제거할 수 [있습니다](https://pure.tudelft.nl/ws/portalfiles/portal/217100048/3634737.3637659.pdf). 이는 반복 업무의 자동화와 CI/CD 파이프라인과의 연동을 통해 더욱 [가속화됩니다](https://soos.io/https-soos-io-sbom-adoption-guide-part-1-burden-or-opportunity).
+일관된 SBOM 작성 기준을 통해 조직 내 모든 부서가 동일한 컴포넌트 정보를 공유함으로써, 중복 스캔과 수작업 관리의 [비효율을 제거](https://pure.tudelft.nl/ws/portalfiles/portal/217100048/3634737.3637659.pdf)할 수 있습니다. 이는 반복 업무의 자동화와 CI/CD 파이프라인과의 연동을 통해 더욱 [가속화됩니다](https://soos.io/https-soos-io-sbom-adoption-guide-part-1-burden-or-opportunity).
 
 ### 3.4. 비용 절감 및 경제적 효과
 
@@ -225,7 +228,7 @@ OpenChain Telco SBOM 가이드는 ISO/IEC 5962:2021(SPDX) 기반으로 작성되
 
 #### 3.4.2. 운영 비용 절감 및 자동화 효과
 
-취약점 분석과 패치 검증에 투입되는 수백 시간을 SBOM으로 절감할 수 있다는 실제 사례가 다수 보고되고 [있습니다](https://www.meti.go.jp/english/policy/safety_security/cybersecurity/downloadfiles/sbom_tebiki02_en.pdf). 한 조직은 "취약점 검토 시간을 하루에서 1시간 미만으로 단축했으며, 오픈소스 프로젝트당 약 500시간의 취약점 분석 및 우선순위 결정 시간을 절약했다"고 보고했습니다.
+취약점 분석과 패치 검증에 투입되는 수백 시간을 SBOM으로 절감할 수 있다는 [실제 사례가 다수 보고](https://www.meti.go.jp/english/policy/safety_security/cybersecurity/downloadfiles/sbom_tebiki02_en.pdf)되고 있습니다. 한 조직은 "취약점 검토 시간을 하루에서 1시간 미만으로 단축했으며, 오픈소스 프로젝트당 약 500시간의 취약점 분석 및 우선순위 결정 시간을 절약했다"고 보고했습니다.
 
 ### 3.5. 글로벌 규제 및 표준 대응력 강화
 
@@ -241,12 +244,12 @@ OpenChain Telco SBOM 가이드는 NTIA, CISA, ISO 등 글로벌 컴플라이언�
 
 #### 3.5.2. 다국적 파트너십 및 공급망 협업 강화
 
-표준화된 SBOM 교환은 주요 글로벌 과제로 부상하고 있으며[18](https://www.cisa.gov/sbom), 가이드를 준수하면 타사 SBOM과의 호환성이 보장되어 협업 장벽이 [사라집니다](https://www.scanoss.com/post/the-openchain-telco-sbom).
+[표준화된 SBOM 교환](https://www.cisa.gov/sbom)은 주요 글로벌 과제로 부상하고 있으며, 가이드를 준수하면 타사 SBOM과의 호환성이 보장되어 협업 장벽이 [사라집니다](https://www.scanoss.com/post/the-openchain-telco-sbom).
 
 Nokia와 같은 글로벌 통신 장비사가 이미 이 가이드를 내부 프레임워크의 기초로 채택한 것은, 가이드의 실용성과 비즈니스 가치를 입증하는 대표적 [사례입니다](https://openchainproject.org/news/2025/05/09/expanded-support-for-the-telco-guide).
 
 
-## 제4장: 주체별 활용 방안 및 맞춤형 시나리오
+## 4장: 주체별 활용 방안 및 맞춤형 시나리오
 
 OpenChain Telco SBOM 가이드는 통신 산업 생태계를 구성하는 각 주체의 역할과 필요에 따라 다르게 활용될 수 있습니다. 본 장에서는 **이동통신사(소비자), 통신장비 제조사(생산자), 네트워크 솔루션 공급사(생산자)**, 그리고 **실무 담당자**의 입장에서 가이드를 어떻게 전략적으로 활용할 수 있는지 구체적인 시나리오와 함께 제시합니다.
 
@@ -263,7 +266,7 @@ OpenChain Telco SBOM 가이드는 통신 산업 생태계를 구성하는 각 �
 
 ###### **1단계: 요구사항 명확화 (Requirement Clarification)**
 *   **RFP(제안요청서)에 가이드 준수 명시:** 모든 벤더에게 **SPDX 2.2 또는 2.3 포맷**의 SBOM 제출을 필수 평가 항목으로 포함합니다. 이는 벤더들에게 통일된 기준을 제시하여, 제출된 SBOM의 품질과 형식을 표준화하는 첫걸음입니다.
- *   **완전성 요구:** 가이드에 따라, 직접 의존성뿐만 아니라 **모든 간접 의존성(transitive dependencies)**까지 포함된 완전한 SBOM을 요구합니다. 이를 통해 숨겨진 보안 위협이나 라이선스 리스크를 사전에 파악할 수 있습니다.
+ *   **완전성 요구:** 가이드에 따라, 직접 의존성뿐만 아니라 **모든 간접 의존성(transitive dependencies)** 까지 포함된 완전한 SBOM을 요구합니다. 이를 통해 숨겨진 보안 위협이나 라이선스 리스크를 사전에 파악할 수 있습니다.
 
 ###### **2단계: 리스크의 정량적 평가 (Quantitative Risk Assessment)**
   *   **자동화된 분석:** 제출받은 표준화된 SBOM을 내부 SCA(Software Composition Analysis) 도구에 입력하여, 알려진 보안 취약점(CVE) 목록과 심각도를 자동으로 스캔하고 정량화합니다.
@@ -311,7 +314,7 @@ SBOM 요구를 명문화하는 것은 공급업체의 책임감 있는 참여를
 ######   **제품 중심의 SBOM 관리**
   *   **버전 관리:** Git과 같은 버전 관리 시스템과 연동하여, 펌웨어 버전별로 SBOM을 자동으로 생성하고 매칭하여 관리합니다. 이를 통해 특정 버전의 취약점 분석이 용이해집니다.
   *   **접근성 설계:** 제품의 저장 공간 제약을 고려하여, 제품 박스나 매뉴얼에 **SBOM 다운로드 링크가 포함된 QR 코드**를 인쇄하거나, 패키지 내에 압축된 형태로 SBOM을 **임베딩**합니다.
-  *   **무결성 보장:** 생성된 SBOM 파일에 **디지털 서명(예: Sigstore 사용)**을 적용하여, 전송 과정에서의 위변조를 방지하고 고객의 신뢰를 높입니다.
+  *   **무결성 보장:** 생성된 SBOM 파일에 **디지털 서명(예: Sigstore 사용)** 을 적용하여, 전송 과정에서의 위변조를 방지하고 고객의 신뢰를 높입니다.
 
 ###### **효율적인 고객 대응 체계**
   *   **단일 표준 제공:** 모든 고객사에게 **OpenChain Telco SBOM 가이드 기반의 표준 SBOM**을 기본으로 제공합니다.
@@ -344,7 +347,7 @@ SBOM 요구를 명문화하는 것은 공급업체의 책임감 있는 참여를
 #### 4.3.1. 시나리오: SaaS 및 온프레미스 솔루션의 SBOM 제공 전략
 
 ##### **상황:**
-국내 한 네트워크 보안 솔루션 기업이 클라우드 기반의 DDoS 방어 솔루션(SaaS)과 데이터센터용 방화벽 솔루션(온프레미스)을 함께 제공하고 있습니다. 최근 대형 금융사 고객으로부터 두 솔루션 모두에 대해 상세한 SBOM을 요구받았으며, 특히 지속적으로 업데이트되는 SaaS 환경의 SBOM 관리에 어려움을 겪고 있습니다.
+국내 한 네트워크 보안 솔루션 기업이 클라우드 기반의 DDoS 방어 솔루션(SaaS)과 데이터센터용 방화벽 솔루션(온프레미스)을 함께 제공하고 있습니다. 최근 대형 통신사 고객으로부터 두 솔루션 모두에 대해 상세한 SBOM을 요구받았으며, 특히 지속적으로 업데이트되는 SaaS 환경의 SBOM 관리에 어려움을 겪고 있습니다.
 
 ##### **OpenChain Telco SBOM 가이드 적용:**
 
@@ -363,7 +366,7 @@ SBOM 요구를 명문화하는 것은 공급업체의 책임감 있는 참여를
 
 ###### **DevSecOps 파이프라인과의 완벽한 통합**
   *   **마이크로서비스별 SBOM 생성:** 솔루션이 마이크로서비스 아키텍처(MSA)로 구성된 경우, 각 서비스(예: 인증 서비스, 분석 서비스 등)의 빌드 파이프라인에서 개별 SBOM을 생성합니다.
-  *   **통합 및 관계 정의:** 전체 솔루션 배포 시, 개별 마이크로서비스의 SBOM들을 **SPDX의 관계 정의 기능(DESCRIBES, CONTAINS 등)**을 활용하여 하나의 통합된 SBOM으로 병합합니다. 이를 통해 전체 솔루션의 구조와 의존성을 명확히 표현할 수 있습니다.
+  *   **통합 및 관계 정의:** 전체 솔루션 배포 시, 개별 마이크로서비스의 SBOM들을 **SPDX의 관계 정의 기능(DESCRIBES, CONTAINS 등)** 을 활용하여 하나의 통합된 SBOM으로 병합합니다. 이를 통해 전체 솔루션의 구조와 의존성을 명확히 표현할 수 있습니다.
   *   **지속적 배포(CD)와 연동:** 새로운 버전의 마이크로서비스가 배포될 때마다, 해당 서비스의 SBOM이 자동으로 업데이트되고, 통합 SBOM에도 이 변경사항이 실시간으로 반영되는 체계를 구축합니다.
 
 ##### **기대 효과:**
@@ -394,7 +397,7 @@ SBOM은 제품 판매 이후의 고객 지원과 유지보수 단계에서 더�
 #### 4.4.1. 시나리오: 본 가이드를 기반으로 사내 SBOM 정책 수립하기
 
 ##### **상황:**
-한 대기업의 오픈소스 프로그램을 총괄하는 담당자가 전사 차원의 SBOM 정책 수립을 맡게 되었습니다. 개발, 보안, 조달, 법무 등 각 부서의 요구사항이 달라, 모두를 만족시키는 표준 정책을 만드는 데 어려움을 겪고 있습니다.
+한 통신사의 오픈소스 프로그램을 총괄하는 담당자가 전사 차원의 SBOM 정책 수립을 맡게 되었습니다. 개발, 보안, 조달, 법무 등 각 부서의 요구사항이 달라, 모두를 만족시키는 표준 정책을 만드는 데 어려움을 겪고 있습니다.
 
 ##### **OpenChain Telco SBOM 가이드 기반 정책 수립:**
 객관적인 국제 표준 기반의 가이드를 정책의 근간으로 삼아, 부서 간의 이견을 조율하고 설득의 근거로 활용합니다.
@@ -464,13 +467,11 @@ SBOM은 제품 판매 이후의 고객 지원과 유지보수 단계에서 더�
   *   **협업 효율성 극대화:** 모든 참여자가 동일한 표준과 포맷을 사용하므로, 데이터 변환이나 재해석에 드는 불필요한 비용과 시간을 제거할 수 있습니다.
   *   **국가 핵심 인프라 보안 강화:** 개별 기업의 보안 노력을 넘어, 국가 차원의 핵심 통신 인프라에 대한 회복탄력성(Resilience)과 보안 수준을 획기적으로 향상시킬 수 있습니다.
 
-## 제5장: 시작하기 — 우리 회사에 가이드 도입하기 (단계별 실행 계획)
+## 5장: 시작하기 — 우리 회사에 가이드 도입하기 (단계별 실행 계획)
 
-OpenChain Telco SBOM 가이드의 성공적인 도입은 일회성 프로젝트가 아닌, 조직의 문화와 프로세스에 내재화되는 지속적인 여정입니다. 본 장에서는 조직이 SBOM 관리 체계를 효과적으로 구축하고 운영할 수 있도록, **‘분석(Assess) → 실행(Implement) → 확산(Scale)’**의 3단계로 구성된 실질적인 실행 계획을 제시합니다.
+OpenChain Telco SBOM 가이드의 성공적인 도입은 일회성 프로젝트가 아닌, 조직의 문화와 프로세스에 내재화되는 지속적인 여정입니다. 본 장에서는 조직이 SBOM 관리 체계를 효과적으로 구축하고 운영할 수 있도록, **‘분석(Assess) → 실행(Implement) → 확산(Scale)’** 의 3단계로 구성된 실질적인 실행 계획을 제시합니다.
 
 ### 5.1. 1단계: 현황 분석 및 목표 설정 (Assess)
-
-**목표: "우리가 어디에 있는지 알고, 어디로 가야 할지 결정한다."**
 
 이 단계는 성공적인 SBOM 도입의 초석을 다지는 과정입니다. 정확한 현황 진단 없이 무작정 도구를 도입하거나 정책을 수립하면, 현장과 괴리된 비효율적인 결과를 낳을 수 있습니다. 조직의 현재 역량과 마주한 과제를 명확히 파악하는 것이 무엇보다 중요합니다.
 
@@ -534,8 +535,6 @@ SBOM 도입은 특정 부서의 과제가 아닌, 전사적 협력이 필요한 
 
 ### 5.2. 2단계: 도구 선정 및 프로세스 정립 (Build & Implement)
 
-**목표: "설계도를 바탕으로, 지속 가능한 시스템을 구축한다."**
-
 이 단계에서는 1단계에서 수립한 계획을 바탕으로 실제 시스템과 프로세스를 구축합니다. 핵심은 일회성 작업이 아닌, 개발 라이프사이클에 자연스럽게 통합되어 지속적으로 운영될 수 있는 자동화된 체계를 만드는 것입니다.
 
 #### 5.2.1. SBOM 생성 도구 평가 및 선정
@@ -590,8 +589,6 @@ SBOM 도입은 특정 부서의 과제가 아닌, 전사적 협력이 필요한 
     *   **보안/컴플라이언스팀:** SBOM 기반의 취약점 분석, 라이선스 감사 등 심화 교육
 
 ### 5.3. 3단계: 파일럿 프로젝트 및 점진적 확산 (Pilot & Scale)
-
-**목표: "작은 성공을 통해 가치를 증명하고, 조직 전체로 확산시킨다."**
 
 이 단계에서는 실제 프로젝트에 SBOM 프로세스를 적용하여 그 효과를 검증하고, 이를 바탕으로 전사적인 도입을 추진합니다.
 
@@ -653,7 +650,7 @@ SBOM 관리가 일회성으로 끝나지 않고, 조직의 핵심 역량으로 �
 
 #### 산업 생태계 전반의 변화 촉진
 
-가이드의 가장 큰 의의는 **상호운용성과 표준화**를 통해 통신 산업 전반의 효율성을 극대화한다는 점입니다. Nokia의 Gergely Csatári가 언급했듯이, "내부적으로나 외부 인터페이스에서 SBOM의 상호운용성을 보장하기 위해서는 완전성, 품질, 콘텐츠의 조화가 필요하다"는 현실을 이 가이드가 해결하고 [있습니다](https://www.scanoss.com/post/the-openchain-telco-sbom).
+가이드의 가장 큰 의의는 **상호운용성과 표준화**를 통해 통신 산업 전반의 효율성을 극대화한다는 점입니다. Nokia의 Gergely Csatári가 [언급했듯이](https://www.scanoss.com/post/the-openchain-telco-sbom), "내부적으로나 외부 인터페이스에서 SBOM의 상호운용성을 보장하기 위해서는 완전성, 품질, 콘텐츠의 조화가 필요하다"는 현실을 이 가이드가 해결하고 있습니다.
 
 특히 SCANOSS의 상용 도구 지원 [발표](https://www.linkedin.com/posts/openchain_the-openchain-telco-sbom-guide-activity-7326247571994087425-o6Q8/)는 가이드가 이론적 지침에서 **실무적 자동화 솔루션**으로 진화하고 있음을 보여주는 중요한 이정표입니다.
 
@@ -667,7 +664,7 @@ SBOM 관리가 일회성으로 끝나지 않고, 조직의 핵심 역량으로 �
 - **EU**: 사이버복원력법(CRA)에 따른 SBOM 요구사항이 2026년 9월부터 본격 [시행](https://www.linkedin.com/pulse/sbom-requirements-european-unions-cyber-resilience-act-pscheidl-1m3hf/)
 - **일본, 한국**: 정부 차원의 SBOM 도입 정책 추진 가속화
 
-이미 많은 전문가들이 "2026년이 진정한 SBOM 도입 시점"이라고 전망하고 [있으며](https://fossid.com/articles/2025-outlook-open-source-software-risk-management/), **늦은 대응은 곧 시장에서의 도태**를 의미합니다.
+이미 많은 전문가들이 "[2026년이 진정한 SBOM 도입 시점](https://fossid.com/articles/2025-outlook-open-source-software-risk-management/)"이라고 전망하고 있으며, **늦은 대응은 곧 시장에서의 도태**를 의미합니다.
 
 #### 공급망 공격의 기하급수적 증가
 
