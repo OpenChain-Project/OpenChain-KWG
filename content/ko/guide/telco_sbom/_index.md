@@ -1,7 +1,7 @@
 ---
 title: "통신 산업 소프트웨어 공급망 보안 가이드: OpenChain Telco SBOM 가이드 안내서"
 linkTitle: "Telco SBOM 가이드 안내서"
-weight: 150
+weight: 70
 type: docs
 description: >
   Technical Guidelines on Software Bill of Materials (SBOM)
