@@ -1,7 +1,7 @@
 ---
 title: "[out of date] Open Source Governance for Enterprises"
 linkTitle: "[out of date] Open Source Governance"
-weight: 30
+weight: 900
 type: docs
 description: >
   This guide explains how to build open source governance for enterprises based on ISO/IEC 5230, an international open source standard.
