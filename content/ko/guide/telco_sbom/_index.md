@@ -13,7 +13,7 @@ description: >
 
 이 안내서를 통해 조직의 SBOM 관리 체계를 효율적으로 구축하고, 나아가 소프트웨어 공급망 보안을 한층 더 강화할 수 있습니다.
 
-**Author : [장학성 (Haksung Jang)](https://haksungjang.github.io/) / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**
+**Author : OpenChain Korea Work Group / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**
 
 {{% /pageinfo %}}
 
