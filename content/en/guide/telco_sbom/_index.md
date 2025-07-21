@@ -14,7 +14,7 @@ This handbook offers practical, step-by-step guidance for organizations in the t
 
 It provides implementation plans and use-case scenarios tailored to each stakeholder, helping organizations establish effective SBOM management systems and strengthen their software supply chain security.
 
-**Author : OpenChain Korea Work Group / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**
+**Author : [OpenChain Korea Work Group](https://openchain-project.github.io/OpenChain-KWG/en/) / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**
 
 {{% /pageinfo %}}
 
