@@ -72,7 +72,8 @@ The demand for SBOMs from regulators and customers is rapidly intensifying:
     *   **EU:** Is [advancing SBOM mandates through the Cyber Resilience Act (CRA)](https://www.oss.kr/oss_guide/show/f02cd419-df61-4f00-9149-e50c901ce06e).
     *   Other major countries like Japan and South Korea are pursuing similar policies.
 *   **Customer Demands:** Large telecom operators, equipment manufacturers, and network solution providers increasingly specify SBOM delivery as a contractual requirement.
-*   **Industry Standardization:** International standards bodies like the OpenChain Project are proposing industry-specific SBOM guides for telecommunications.
+*   **Industry Momentum:** Industry-led initiatives like the **OpenChain Project** are building consensus and proposing practical, industry-specific SBOM guides for telecommunications to address these growing needs from the ground up.
+*   **Future Standardization:** It is anticipated that formal **Standards Development Organizations (SDOs), such as ETSI,** will address this topic more formally in the future, potentially building on the work done by industry groups in response to regulations like the EU's Cyber Resilience Act (CRA).
 
 These shifts signal a fundamental need to innovate software supply chain security in the telecommunications industry. An SBOM is no longer an option but a core requirement for survival and competitiveness in the telco sector.
 
