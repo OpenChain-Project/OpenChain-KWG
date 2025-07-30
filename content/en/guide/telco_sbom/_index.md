@@ -61,6 +61,8 @@ Telecommunications infrastructure is designated as critical national infrastruct
 *   **Massive IoT Connectivity:** A 5G environment connects billions of IoT devices, each a potential attack vector.
 *   **Distributed Edge Computing:** As data processing shifts to the network edge, centralized security management becomes more difficult.
 *   **Network Slicing Isolation:** A security breach in one network slice could potentially impact others.
+*   **The Rise of Open RAN (O-RAN):** The promotion of open RAN interfaces, mainly driven by the O-RAN Alliance, allows equipment from multiple vendors to be used together, breaking away from traditional single-vendor lock-in. However, this introduces new supply chain risks. For equipment from different vendors to interoperate safely and securely, they must exchange mutually trusted information about their software composition. An SBOM is the foundational mechanism that provides this basis of trust.
+
 
 #### 1.2.3. Mounting Regulatory and Customer Pressure for SBOMs
 
