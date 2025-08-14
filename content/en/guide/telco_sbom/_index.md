@@ -115,7 +115,7 @@ The [OpenChain Telco SBOM Guide](https://github.com/OpenChain-Project/Telco-WG/b
 
 *   **International Standard Compliance:** SPDX is the only SBOM format officially adopted by the International Organization for Standardization (ISO) and the International Electrotechnical Commission (IEC) as of September 2021.
 *   **Technical Advantages:** SPDX offers more robust features for license compliance than other formats and supports a human-readable structure.
-*   **Industry Validation:** Global companies like Intel, Microsoft, Siemens, Sony, and Nokia use SPDX for their software supply chain management, making it a proven standard.
+*   **Industry Validation:** Global companies like Ericsson, Intel, Microsoft, Siemens, Sony, and Nokia use SPDX for their software supply chain management, making it a proven standard.
 
 The guide requires compliance with **SPDX version 2.2 or 2.3** and specifies that SBOMs be provided in **Tag:Value or JSON format**.
 
