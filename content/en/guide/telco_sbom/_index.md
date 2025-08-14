@@ -131,6 +131,7 @@ The OpenChain Telco SBOM Guide builds on the [minimum requirements from the NTIA
 *   **Delivery Timing and Method:**
     *   **Timing:** The SBOM must be delivered concurrently with the software.
     *   **Method:** The primary method is to embed the SBOM within the software package. If technically infeasible, web hosting is permitted, with access guaranteed for at least 18 months.
+    *   **Note:** The SBOM may be made available before delivery is the SBOM provider so wishes, however, it is still a requirement to also deliver it concurrently with the software. 
 
 *   **Mandatory Generation Information:**
     *   The `Creator` field must include the organization's name and the tool's name/version.
