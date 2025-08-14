@@ -260,7 +260,7 @@ Telecom operators are the **primary stewards of the supply chain** and key consu
         *   **Assess Transparency:** Use the `known unknowns` field as a metric to evaluate how transparently a vendor manages its software components.
 
     3.  **Step 3: Ensure Continuous Management**
-        *   **Define Contractual Obligations:** In the contract, require the vendor to "provide an updated SBOM within 48 hours of any software patch or version update."
+        *   **Define Contractual Obligations:** For instance, the contract could include a clause specifying that "an updated SBOM must be provided concurrently with any software patch or version update." As the OpenChain Project does not provide legal advice, all contractual clauses should be developed in consultation with your legal counsel.
         *   **Guarantee Accessibility:** As per the guide, ensure that web-hosted SBOMs are accessible for at least 18 months to support long-term security management and audits.
 
 *   **Expected Benefits:**
