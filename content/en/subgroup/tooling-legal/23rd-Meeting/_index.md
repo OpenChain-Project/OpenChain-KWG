@@ -9,8 +9,8 @@ description: Tooling & Legal Subgroup 23rd Meeting
 
 ## Schedule
 * Purpose: Tooling and Legal Subgroup 23rd Meeting
-* Date: August xx, 2025 (xxx) 14:00 ~ 18:00
-* Venue: TBD
+* Date: August 26, 2025 (Tue) 14:00 ~ 18:00
+* Venue: Kakao Pangyo Azit
 
 ## Attendees
 * TBD
@@ -19,7 +19,7 @@ description: Tooling & Legal Subgroup 23rd Meeting
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Community Updates & New Issues | TBD | TBD |
-| 1  | TBD | Kakao, TBD | TBD |
+| 1  | TBD | TBD | TBD |
 | 2  | Open Source Notice Case Study | Kakao, TBD | TBD |
 
 <!--
