@@ -19,8 +19,9 @@ description: Tooling & Legal Subgroup 23rd Meeting
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Community Updates & New Issues | TBD | TBD |
-| 1  | TBD | TBD | TBD |
-| 2  | Open Source Notice Case Study | Kakao, TBD | TBD |
+| 1  | Nonfree Firmware | Telechips, Yeon Ji-young | TBD |
+| 2  | Automated Open Source Checkup with Version Control Repositories | Ahnlab, Kim Gangbo | TBD |
+| 3  | Open Source Notice Case Study | Kakao, TBD | TBD |
 
 <!--
 

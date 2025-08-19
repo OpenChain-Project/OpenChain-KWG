@@ -20,9 +20,10 @@ description: Tooling & Legal Subgroup 23rd Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues | TBD | TBD |
-| 1  | TBD | TBD | TBD |
-| 2  | Open Source 고지문 공유 | 카카오, TBD | TBD |
+| 0  | Community Updates & New Issues | ETRI, 박정숙 | TBD |
+| 1  | Nonfree Firmware | 텔레칩스, 연지영 | TBD |
+| 2  | 형상관리 저장소의 오픈소스 자동검증 | 안랩, 김강보 | TBD |
+| 3  | Open Source 고지문 공유 | 카카오, TBD | TBD |
 
 <!-- 
 
