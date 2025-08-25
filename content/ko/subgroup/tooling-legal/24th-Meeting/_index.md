@@ -21,8 +21,8 @@ description: Tooling & Legal Subgroup 24th Meeting
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Community Updates & New Issues | TBD | TBD |
-| 1  | TBD | TBD | TBD |
-| 2  | Open Source 고지문 공유 | 카카오, TBD | TBD |
+| 1  | Blackduck 레포트 변환 프로그램 (Blackduck copyright 자동추출/변환) | 현대오토에버 | TBD |
+| 2  | Open Source 고지문 공유 | TBD , TBD | TBD |
 
 <!--
 
