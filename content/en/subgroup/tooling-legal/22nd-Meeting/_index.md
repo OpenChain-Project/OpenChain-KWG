@@ -26,7 +26,6 @@ description: Tooling & Legal Subgroup 22nd Meeting
 * SK Telecom
 * Telechips
 * Woori Bank
-* (Guest) SECTREND 
 
 ## Agenda
 | No | Subject           | Speaker | Slide |
