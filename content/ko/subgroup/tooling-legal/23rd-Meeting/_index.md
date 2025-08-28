@@ -15,15 +15,23 @@ description: Tooling & Legal Subgroup 23rd Meeting
 * 장소 : 카카오 판교아지트
 
 ## Attendees
-* TBD
+* ETRI
+* LG AI연구원
+* LG전자
+* NHN
+* 국민은행
+* 삼성전자
+* 안랩
+* 카카오
+* 텔레칩스
+* 현대오토에버
 
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues | ETRI, 박정숙 | TBD |
-| 1  | Nonfree Firmware | 텔레칩스, 연지영 | TBD |
-| 2  | 형상관리 저장소의 오픈소스 자동검증 | 안랩, 김강보 | TBD |
-| 3  | Open Source 고지문 공유 | 카카오, TBD | TBD |
+| 1  | Nonfree Firmware | 텔레칩스, 연지영 | [pdf](1_Nonfee_Firmware.pdf) |
+| 2  | 형상관리 저장소의 오픈소스 자동검증 | 안랩, 김강보 | [pdf](2_Automated_OpenSource_Checking_at_VCS.pdf) |
+| 3  | Open Source 고지문 공유 | 카카오, 이민정 | N/A |
 
 <!-- 
 
