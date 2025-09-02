@@ -9,7 +9,7 @@ description: Tooling & Legal Subgroup 24th Meeting
 
 ## Schedule
 * Purpose: Tooling and Legal Subgroup 24th Meeting
-* Date: October xx, 2025 (xxx) 14:00 ~ 18:00
+* Date: October 28, 2025 (TUE) 14:00 ~ 18:00
 * Venue: ST Center
 
 ## Attendees
