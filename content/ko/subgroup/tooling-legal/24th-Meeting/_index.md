@@ -11,7 +11,7 @@ description: Tooling & Legal Subgroup 24th Meeting
 
 ## Schedule
 * 목적 : Tooling and Legal Subgroup 24차 회의
-* 일시 : 2025년 10월 x일(x) 14:00 ~ 18:00
+* 일시 : 2025년 10월 28일(화) 14:00 ~ 18:00
 * 장소 : 한국과학기술회관
 
 ## Attendees
