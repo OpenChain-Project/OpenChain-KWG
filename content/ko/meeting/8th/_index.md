@@ -9,8 +9,8 @@ description: >
  Online Meeting, Dec 2020
 ---
 
-![kwg-logo.gif](openchain-xmas-2.gif)
-_<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
+<!-- ![kwg-logo.gif](openchain-xmas-2.gif)
+_<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_ -->
 
 <img src="kwg8-2.png" width="90%">
 
@@ -26,13 +26,13 @@ _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
 
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Intro & Greetings  | SK텔레콤 장학성 | [Download](./OpenChainKWG-8th-2020-12-02-intro.pdf) |
-| 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | [Download](./OpenChain_Korea_8_Keynote.pdf) |
-| 2  | 현대자동차 오픈소스 거버넌스 체계 구축 | 현대자동차 백송하 |  [Download](./20201202_Hyundai.pdf) | 
-| 3  | SCA(Software Composition Analysis)  Market 동향 | 카카오 황민호(Robin) | [Download](./SCA%20Market%20Wave%202020.pdf) | 
+| 0  | Intro & Greetings  | SK텔레콤 장학성 | [pdf](../../slides/OpenChainKWG-8th-2020-12-02-intro.pdf) |
+| 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | [pdf](../../slides/OpenChain_Korea_8_Keynote.pdf) |
+| 2  | 현대자동차 오픈소스 거버넌스 체계 구축 | 현대자동차 백송하 |  [pdf](../../slides/20201202_Hyundai.pdf) | 
+| 3  | SCA(Software Composition Analysis)  Market 동향 | 카카오 황민호(Robin) | [pdf](../../slides/SCA%20Market%20Wave%202020.pdf) | 
 | 4  | Olive 전격 공개 | 카카오 황민호(Robin) | - | 
 | 5  | Case Study | All | - |
-| 6  | OpenChain KWG Update | SK텔레콤 장학성 | [Download](./OpenChainKWG-8th-2020-12-02-update.pdf) |
+| 6  | OpenChain KWG Update | SK텔레콤 장학성 | [pdf](../../slides/OpenChainKWG-8th-2020-12-02-update.pdf) |
 | 7  | Free Discussion | All | - |
 
 ## Case Study
@@ -219,6 +219,3 @@ _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
 ## OpenChain News
 https://www.openchainproject.org/featured/2020/12/09/openchain-korea-work-group-meeting-8-full-recording
 
-
-![kwg-logo.gif](openchain-xmas.gif)
-_<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
