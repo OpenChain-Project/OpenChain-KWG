@@ -22,19 +22,16 @@ description: >
 
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Intro & Greetings  | Newcomers | [download](./OpenChain_Korea_20210311_intro.pptx) |
+| 0  | Intro & Greetings  | Newcomers | [pptx](../../slides/OpenChain_Korea_20210311_intro.pptx) |
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
-| 2  | FOSSLight Dependency 소개 | LG전자 석지영 | [download](./FOSSLight_dependency.pptx) | 
-| 3  | OpenChain KWG Update / <br> ISO/IEC 5230 인증 3가지 방법 | SK텔레콤 장학성 | [download](./OpenChain_Korea_20210311_update.pptx)  <br> [download](./OpenChain_Korea_20210311_howto.pptx)|
-| 4  | 오픈소스와 함께한 1,273일간의 기록 (ISO 인증 취득 과정) | NCSOFT 한지호 | [download](./★오픈소스와%20함께한%201273일간의%20기록_20210311_FN.pdf)| 
+| 2  | FOSSLight Dependency 소개 | LG전자 석지영 | [ppts](../../slides/FOSSLight_dependency.pptx) | 
+| 3  | OpenChain KWG Update / <br> ISO/IEC 5230 인증 3가지 방법 | SK텔레콤 장학성 | [pptx](../../slides/OpenChain_Korea_20210311_update.pptx)  <br> [pptx](../../slides/OpenChain_Korea_20210311_howto.pptx)|
+| 4  | 오픈소스와 함께한 1,273일간의 기록 (ISO 인증 취득 과정) | NCSOFT 한지호 | [pdf](../../slides/★오픈소스와%20함께한%201273일간의%20기록_20210311_FN.pdf)| 
 | 5  | Case Study | All | - |
 | 6  | Free Discussion | All | - |
 
 ## Case Study
 * 주제 : ISO/IEC 5230 인증 취득을 고려하고 있는지? 
-
-## Attendees
-* ...
 
 
 ## Video
@@ -204,11 +201,6 @@ description: >
   - 전사 교육 시행 시 설문조사까지 완료하여야 수료되도록 강제성을 부여했음
 
 
-
 ## Photo Gallery
-![photo](./openchain9-2.png)
-
-
-## OpenChain News
-...
+![photo](../../images/openchain9-2.png)
 
