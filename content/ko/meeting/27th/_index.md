@@ -27,4 +27,4 @@ description: >
 
 ## Sponsor
 
-![](../../images/content/about/logo/ETRI.png)
+![](../../images/content/about/logo/etri.png)
