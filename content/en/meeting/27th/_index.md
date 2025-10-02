@@ -26,7 +26,7 @@ description: >
 | 3:40~4:00 PM | FOSSLight 2.0        | Kyungsun Min, LG Electronics                  | - |
 | 4:00~4:20 PM | Adopting Olive Action        | Sean Kim, Kakao                    | - |
 | 4:20~4:40 PM | What's new in OSORI                    | Soim Kim, LG Electronics                              | -     |
-| 4:40~5:00 PM | Can I contribute to open source with AI-generated code? | Seoyeon Lee, LINE Plus                | -  |
+| 4:40~4:50 PM | Can I contribute to open source with AI-generated code? | Seoyeon Lee, LINE Plus                | -  |
 
 
 
