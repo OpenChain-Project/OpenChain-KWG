@@ -39,28 +39,32 @@ KWG의 모든 구성원은 KWG의 [Code of Conduct](../CodeofConduct/)를 숙지
 
 ## 5. Membership
 
-KWG의 Membership은 아래와 같은 역할로 구성됩니다.
+KWG의 Member는 다음과 같이 구성되며, 모든 Member는 가입 시 KWG의 비상업적·협력적 활동 원칙에 동의해야 합니다.
 
-*   Member
-*   Subgroup Member
+### 5.1. Member 자격 및 가입
 
-### 5.1. Member
+다음 각 호의 자격 요건 중 하나 이상을 충족하고 운영위원회의 가입 승인을 받은 자는 Member가 될 수 있습니다. 단, 운영위원회는 다음 각 호에 해당하더라도 KWG 가입이 부적절하다고 판단되는 경우에는 가입을 불허할 수 있습니다.
 
-소프트웨어를 개발하고 배포하는 기업 혹은 기관의 오픈소스 컴플라이언스 담당자라면 Code of Conduct를 준수하는 한 누구나 참여하여 Member가 될 수 있습니다.
+*   가. 소프트웨어 제품 또는 서비스를 최종 사용자에게 제공하는 기업/기관에서 오픈소스 거버넌스 관련 업무(라이선스, 보안, 정책, AI 윤리 등)를 담당하는 자
+*   나. 대학, 연구소 등 비영리 기관에 소속되어 오픈소스 관련 정책, 라이선스, 보안, AI 윤리 등에 대한 연구나 교육을 수행하는 자
+*   다. 그 밖에 KWG의 미션 달성에 기여할 수 있다고 운영위원회가 인정하는 자
 
-*   Member는 KWG의 미션 달성과 커뮤니티 발전에 기여하는 핵심 구성원입니다.
-*   Member는 KWG의 [메일링리스트](https://lists.openchainproject.org/g/korea-wg)에 가입할 수 있습니다.
-*   Member는 매 분기 개최하는 정기 미팅에 참여할 수 있습니다.
-*   Member는 KWG의 Subgroup에 참여할 수 있습니다.
-*   Member는 운영위원회에 참여할 자격이 있습니다.
+### 5.2. Member의 권한과 책임
 
-### 5.2. Subgroup Member
+Member는 KWG의 성장과 발전을 위한 핵심 구성원으로서 다음과 같은 권한과 책임을 갖습니다.
+
+*   KWG의 메일링리스트에 가입하고 활동에 참여할 권한을 갖는다.
+*   정기 미팅 및 Subgroup 활동에 참여할 권한을 갖는다.
+*   정관에 따라 선거권과 피선거권을 가지며, 운영위원회에 입후보할 자격을 갖는다.
+*   KWG의 Code of Conduct를 준수해야 한다.
+
+### 5.3. Subgroup Member
 
 Member라면 누구나 관심 있는 주제의 Subgroup에 참여하여 Subgroup Member가 될 수 있습니다.
 
-*   Subgroup Member는 특정 주제에 대해 심도 있게 연구/개발하여 공동의 산출물을 만들어 공공의 이익에 기여합니다.
-*   Subgroup Member는 해당 Subgroup의 메일링리스트에 가입할 수 있습니다.
-*   Subgroup Member는 해당 Subgroup의 미팅에 참여할 수 있습니다.
+*   Member는 누구나 관심 있는 주제의 Subgroup에 참여하여 Subgroup Member가 될 수 있습니다.
+*   Subgroup Member는 특정 주제에 대해 심도 있게 연구·개발하여 공동의 산출물을 만들어 공공의 이익에 기여합니다.
+*   Subgroup Member는 해당 Subgroup의 메일링리스트에 가입하고 정기 미팅에 참여합니다.
 
 ## 6. Organization
 
