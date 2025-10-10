@@ -10,8 +10,8 @@ description: >
 
 ## 일정
 
-* 일정: 2025-10-21 (화) 오후3시~5시
-* 장소: 오픈소스 테크데이 2025 세션C (aT센터 - https://maps.app.goo.gl/CcH1kxo8qfQrgp8i8 )
+* 일정: 2025-10-21 (화) 오후3시~4시50분
+* 장소: 오픈소스 테크데이 2025 4F 창조룸2 (aT센터 - https://maps.app.goo.gl/CcH1kxo8qfQrgp8i8 )
 
 ## 아젠다
 
