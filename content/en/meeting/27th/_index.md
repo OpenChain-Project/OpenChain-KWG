@@ -12,8 +12,8 @@ description: >
 ## Schedule
 
 
-* Date: 2025-10-21 (Tue) 3:00 PM - 5:00 PM
-* Location: Open Source Tech Day 2025 Session C (aT Center - [https://maps.app.goo.gl/CcH1kxo8qfQrgp8i8](https://maps.app.goo.gl/CcH1kxo8qfQrgp8i8) )
+* Date: 2025-10-21 (Tue) 3:00 PM - 4:50 PM
+* Location: Open Source Tech Day 2025, 4F Changjo Room 2 (aT Center - [https://maps.app.goo.gl/CcH1kxo8qfQrgp8i8](https://maps.app.goo.gl/CcH1kxo8qfQrgp8i8) )
 
 
 ## Agenda
