@@ -22,11 +22,11 @@ description: >
 | Time | Agenda | Speaker | Slide |
 | :--- | :--- | :--- | :--- |
 | 15:00~15:20 | OpenChain Global Update | Shane Coughlan, Linux Foundation | [pdf](../../../slides/OST2025-ShaneCoughlan.pdf) |
-| 15:20~15:40 | ETRI Open Source Governance Package | Sungkwang Eom, ETRI | [pdf](../../../slides/OST2025-엄숭광.pdf) |
-| 15:40~16:00 | FOSSLight 2.0 | Kyungseon Min, LG Electronics | [pdf](../../../slides/OST2025-민경선.pdf) |
-| 16:00~16:20 | Adopting Olive Action | Younghwan Kim, Kakao | [pdf](../../../slides/OST2025-김영환.pdf) |
-| 16:20~16:40 | What's new in OSORI | Soim Kim, LG Electronics | [pdf](../../../slides/OST2025-김소임.pdf) |
-| 16:40~16:50 | Can I contribute to open source with AI-generated code? | Seoyeon Lee, LINE Plus | [pdf](../../../slides/OST2025-이서연.pdf) |
+| 15:20~15:40 | ETRI Open Source Governance Package | Sungkwang Eom, ETRI | [pdf](../../../slides/OST2025-Sungkwang.pdf) |
+| 15:40~16:00 | FOSSLight 2.0 | Kyungseon Min, LG Electronics | [pdf](../../../slides/OST2025-Kyungseon.pdf) |
+| 16:00~16:20 | Adopting Olive Action | Younghwan Kim, Kakao | [pdf](../../../slides/OST2025-Younghwan.pdf) |
+| 16:20~16:40 | What's new in OSORI | Soim Kim, LG Electronics | [pdf](../../../slides/OST2025-Soim.pdf) |
+| 16:40~16:50 | Can I contribute to open source with AI-generated code? | Seoyeon Lee, LINE Plus | [pdf](../../../slides/OST2025-Seoyeon.pdf) |
 
 
 
