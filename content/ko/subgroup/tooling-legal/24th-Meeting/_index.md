@@ -15,12 +15,21 @@ description: Tooling & Legal Subgroup 24th Meeting
 * 장소 : 한국과학기술회관
 
 ## Attendees
-* TBD
+* ETRI
+* LG전자
+* NHN
+* 삼성전자
+* 안랩
+* 카카오
+* 텔레칩스
+* 현대오토에버
+
+## Invitees
+* OSBC
 
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues | TBD | TBD |
 | 1  | Blackduck 레포트 변환 프로그램 (Blackduck copyright 자동추출/변환) | 현대오토에버, 서윤지 | TBD |
 | 2  | Open Source 고지문 공유 | 현대오토에버, 황성연 | TBD |
 | 3  | Shift-Left에서 SBOM까지: 툴 통합 기반 오픈소스 거버넌스 모델 | OSBC, 이준수 | TBD |
