@@ -27,10 +27,10 @@ description: Tooling & Legal Subgroup 24th Meeting
 
 ## Agenda
 | No | Subject           | Speaker | Slide |
-|----|-----------------|------|------||
+|----|-----------------|------|------|
 | 1  | Blackduck Report Conversion Program (Blackduck copyright automatic extraction/conversion) | Hyundai Autoever, Seo Yunji | TBD |
 | 2  | Open Source Notice Case Study | Hyundai Autoever, Hwang SeongYeon | TBD |
-| 3  | From Shift-Left to SBOM: An Open Source Governance Model Based on Tool Integration | OSBC, Lee Junsu | TBD |
+| 3  | From Shift-Left to SBOM: An Open Source Governance Model Based on Tool Integration | OSBC, Lee Junsu | [pdf](3_OSBC_LeeJunsu.pdf) |
 
 <!--
 
