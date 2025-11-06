@@ -8,6 +8,8 @@ description: >
   December 9, 2025 (Tuesday)
 ---
 
+![](../../../images/2025_goodbye.png)
+
 
 ## Schedule
 
