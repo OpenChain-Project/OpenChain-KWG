@@ -14,4 +14,4 @@ description: >
 ## Schedule
 
 * Date and Time: December 9, 2025 (Tuesday), 2:00 PM – 4:50 PM  
-* Venue: Hancom Tower (Pangyo - maps.app.goo.gl/CJWt2bjgw4Grxtmf9)
+* Venue: Hancom Tower (Pangyo - https://maps.app.goo.gl/Nq3XHZtPrg9Zvtzn7)

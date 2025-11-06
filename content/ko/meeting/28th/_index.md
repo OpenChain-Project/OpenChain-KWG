@@ -13,5 +13,5 @@ description: >
 ## 일정
 
 * 일정: 2025-12-09 (화) 오후2시~4시50분
-* 장소: 한컴타워 (판교 - maps.app.goo.gl/CJWt2bjgw4Grxtmf9 )
+* 장소: 한컴타워 (판교 - https://maps.app.goo.gl/Nq3XHZtPrg9Zvtzn7 )
 
