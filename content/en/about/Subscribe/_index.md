@@ -7,7 +7,7 @@ description: >
   OpenChain KWG is a non-commercial, collaborative community for sharing knowledge in open source governance
 ---
 
-Professionals from companies that develop software products/services, or those who conduct related research or education at universities and research institutions, can participate by applying to join the mailing list.
+Open source managers from companies that develop software products/services, or individuals who conduct related research or education at universities and research institutions, can participate by applying to join the mailing list.
 
 ## MAILING LIST
 
