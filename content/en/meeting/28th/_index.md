@@ -1,6 +1,6 @@
 ---
-title: "27th Meeting"
-weight: 27
+title: "28th Meeting"
+weight: 28
 type: docs
 categories: ["meeting"]
 tags: [""]
