@@ -22,7 +22,7 @@ description: >
 | Time        | Agenda                        | Speaker                          | Slide |
 |-------------|-------------------------------|----------------------------------|-------|
 | 14:00~14:05 | Welcome & Opening | Jihwan Jeong CTO, Hancom | - |
-| 14:05~14:20 | OpenChain Update              | Haksung Jang, SK Telecom | - |
+| 14:05~14:20 | OpenChain Update              | - | - |
 | 14:20~14:45 | Sharing Hancom's OpenChain Certification Declaration Preparation | Hyunjoo Ryu, Hancom | - |
 | 14:45~15:10 | Introduction to OpenPDF Data Loader and Tips for Open Source Disclosure Using AI | Open Source Project Team, Hancom | - |
 | 15:10~15:50 | Networking (Group Discussion) | All | - |
