@@ -6,7 +6,7 @@ date: 2024-11-05
 type: docs
 categories: ["study"]
 tags: ["AI"]
-description: 2024-11-05 OpenChain AI Study Group Meeting
+description: 2024-11-05 OpenChain AI Work Group Meeting
 ---
 
 source: https://openchainproject.org/news/2024/11/06/ai-study-group-2024-11-05-recording
