@@ -21,7 +21,7 @@ description: Tooling & Legal Subgroup 25th Meeting
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Community Updates & New Issues | TBD | TBD |
-| 1  | TBD | TBD | TBD |
+| 1  | TBD | 레드펜소프트, 독고준 | TBD |
 | 2  | Open Source 고지문 공유 | 안랩, 김강보 | TBD |
 
 <!--
