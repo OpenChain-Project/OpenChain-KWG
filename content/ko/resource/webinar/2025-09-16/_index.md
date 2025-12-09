@@ -6,10 +6,10 @@ date: 2025-09-16
 type: docs
 categories: ["webinar"]
 tags: ["CRA"]
-description: 2025-09-12 Compliant containers with the OSADL Base Image
+description: 2025-09-16 Introduction to the Cyber Resilience Act (CRA)
 ---
 
-source: Webinar: Introduction to the Cyber Resilience Act (CRA)
+source: https://openchainproject.org/news/2025/09/16/webinar-cra 
 
 
 2025년 9월 16일, OpenChain Project는 유럽 연합(EU)의 새로운 사이버 보안법인 CRA(Cyber Resilience Act)를 주제로 긴급 웨비나를 개최했습니다. 이번 웨비나에서는 Linux Foundation의 오픈소스 공급망 보안 책임자이자 20년 이상의 경력을 가진 보안 전문가 David A. Wheeler가 연사로 나서 CRA의 핵심과 대응 방안을 명쾌하게 풀어냈습니다.
