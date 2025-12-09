@@ -12,90 +12,101 @@ description: 2025-11-06 OpenChain Telco Work Group Meetings
 source: https://openchainproject.org/news/2025/11/11/telco-2025-11-06
 
 
-작성일: 2025년 10월 27일
+일시: 2025년 11월 6일
 
-주제: OpenChain AI 워크그룹 Asia Sync 미팅 (2025-10-09) 핵심 요약 및 인사이트
+참석자: Marc-Etienne Vargenau (Nokia, 의장), Shane Coughlan (OpenChain), Norio Koboto (Sony), Masahiro Daikoku (KDDI), Jari Koivisto (Analog Devices) 등
 
-안녕하세요. 지난 10월 9일 진행된 OpenChain AI Work Group – Asia Sync 미팅의 상세 내용을 정리하여 공유드립니다. 이번 미팅은 북미/유럽 워크숍의 논의 내용을 바탕으로 아시아 시간대 참여자들을 위해 진행되었으며, 무엇보다 'AI SBOM 규정 준수 관리 가이드(AI SBOM Compliance Management Guide)'의 완성이라는 중대한 마일스톤이 발표된 자리였습니다.
+이번 OpenChain Telco Work Group(이하 Telco WG) 정기 미팅에서는 미국 정부 셧다운이 CISA(사이버보안 및 인프라 보안국)의 업무에 미치는 영향부터, 차기 Telco Guide 업데이트 방향, 그리고 최근 업데이트된 SBOM 품질 가이드(Quality Guide)에 대한 심도 있는 기술적 검토가 이루어졌습니다.
 
-단순한 일정 공유를 넘어, 현재 글로벌 AI 공급망 관리가 어떤 방향으로 흐르고 있는지, 그리고 오픈체인 프로젝트가 규제 당국(UK 등) 및 타 단체(FINOS)와 어떻게 협력하고 있는지에 대한 중요한 로드맵이 제시되었습니다.
-
----
-
-## 1. 핵심 성과: AI SBOM 규정 준수 관리 가이드 완성 및 런칭
-
-이번 미팅의 가장 큰 뉴스는 단연 AI SBOM 규정 준수 관리 가이드(AI SBOM Compliance Management Guide)의 완성 소식입니다.
-
-### 가이드의 목적과 의의
-
-OpenChain 프로젝트팀은 지난 2024년 1월부터 AI 공급망 내에서 규정 준수(Compliance)를 어떻게 관리할 것인지에 대해 치열하게 고민해 왔습니다. 이번에 완성된 가이드는 그 결과물로서, AI 시스템을 구성하는 모델, 데이터셋, 코드, 그리고 각종 종속성(Dependencies)을 투명하게 관리하기 위한 실질적인 프레임워크를 제공합니다.
-
-- 투명성(Transparency) 확보: AI 모델이 어떤 데이터로 학습되었고 어떤 라이선스 정책을 따르는지 명확히 문서화합니다.
-- 리스크 관리: 공급망 내에서 발생할 수 있는 법적, 보안적 리스크를 식별하고 관리할 수 있는 프로세스를 제안합니다.
-- 단순함과 명확성: 복잡한 통제보다는 '무엇이 존재하는가'에 대한 명확성(Clarity)에 초점을 맞추어, 기업들이 실행 가능한 정책을 수립하도록 돕습니다.
-
-### 런칭 일정 및 홍보
-
-이 가이드는 미팅 직후인 10월 20일에 공식적으로 라이브(Go-Live) 되었습니다. 워크그룹은 이 가이드가 단순한 문서로 남지 않고 업계의 표준 레퍼런스로 자리 잡을 수 있도록 커뮤니티 차원의 적극적인 홍보와 확산을 요청했습니다. 이는 기업들이 다가오는 AI 규제(EU AI Act 등)에 선제적으로 대응할 수 있는 강력한 도구가 될 것입니다.
+미팅에 직접 참여하지 못하신 분들을 위해 핵심 내용을 상세히 요약해 드립니다.
 
 ---
 
-## 2. 전략적 협력: 글로벌 정책 및 규제 대응 (UK & Legal)
+## 1. CISA 동향: 정부 셧다운과 인력 공백
 
-단순히 가이드를 만드는 것을 넘어, 이 가이드가 실제 법적 효력이나 국제 표준으로서의 위상을 갖출 수 있도록 고위급 레벨의 조율이 시작되었습니다.
+이번 미팅의 서두는 현재 미국 정부의 셧다운 사태가 공급망 보안 규제 기관인 CISA에 미치는 영향에 대한 논의로 시작되었습니다.
 
-### 영국 상원(House of Lords)과의 연계
+### 주요 업데이트
 
-이번 미팅에서는 Lord Clement-Jones와의 협력 논의가 중요하게 다뤄졌습니다. Lord Clement-Jones는 영국 상원의 AI 특별위원회 위원장이자 OECD AI 의회 그룹의 창립 멤버로서, 국제 AI 규제 및 정책 수립에 막대한 영향력을 가진 인물입니다.
+- 업무 마비: 현재 셧다운으로 인해 CISA 직원의 약 2/3가 사무실에 출근하지 못하고 있는 상황입니다.
+- 핵심 인력 부재: SBOM 확산을 주도했던 Allan Friedman이 CISA를 떠났으며, 그의 후임자 역시 셧다운 영향으로 업무를 시작하지 못한 상태라 리더십 공백이 발생했습니다.
+- 의견 수렴 지연: OpenChain WG와 Nokia 등 여러 기업이 CISA의 'Minimum Elements(최소 요소)' 문서에 대한 의견(Comments)을 제출했으나, 셧다운으로 인해 처리가 지연되고 있습니다. 특히 마감 직전에 제출된 Nokia의 코멘트는 시스템에 반영조차 되지 않은 상태입니다.
 
-OpenChain AI 워크그룹이 그와 직접적인 코디네이션을 시작했다는 것은, 우리가 만든 AI SBOM 가이드가 영국의 AI 규제 프레임워크나 향후 정책 방향과 정합성을 맞추고 있음을 의미합니다. 이는 향후 이 가이드가 글로벌 표준으로 채택될 가능성을 높이는 전략적 행보입니다.
+### 쟁점: SBOM에 '라이선스 정보'가 필요한가?
 
-### 법률 및 스펙 그룹과의 공조
+CISA 문서에 대한 업계의 피드백은 엇갈리고 있습니다.
 
-또한, 리눅스 재단(LF)의 법률 컨퍼런스(Legal Conference) 및 파이토치(PyTorch) 컨퍼런스와의 연계도 진행 중입니다. 기술적인 구현(PyTorch)과 법적인 해석(LF Legal) 양쪽을 모두 아우르며, AI 거버넌스의 사각지대를 없애겠다는 의지입니다.
+- 찬성 측: 라이선스 정보도 투명성 확보 차원에서 포함되어야 한다.
+- 반대 측: 라이선스는 '보안(Security)'과 직접적인 관련이 없으므로 보안 중심 문서인 SBOM 필수 요소에서 제외해야 한다.
 
----
-
-## 3. FINOS(금융 오픈소스 재단)와의 협업 및 표준화 논의
-
-금융 산업은 AI 도입에 있어 가장 보수적이면서도 규제가 강력한 분야입니다. 이번 미팅에서는 금융 오픈소스 재단인 FINOS(Fintech Open Source Foundation)와의 협력 모델이 구체적으로 논의되었습니다.
-
-### FINOS AI 거버넌스 프레임워크와의 연계
-
-FINOS는 현재 자체적인 'AI 거버넌스 프레임워크'를 개발 중이며, 이를 ISO 표준으로 발전시키려는 계획을 가지고 있습니다. OpenChain 워크그룹은 FINOS와 경쟁하는 것이 아니라, 상호 보완적인 관계를 맺기로 했습니다.
-
-- 역할 분담: OpenChain은 공급망 전반의 투명성과 프로세스 관리(Process Management)에 집중하고, FINOS는 금융 산업 특화된 거버넌스와 리스크 통제에 집중합니다.
-- 표준화(Spec) 협력: 만약 FINOS의 프레임워크나 OpenChain의 AI 가이드가 국제 표준(ISO 등)으로 발전해야 한다면, OpenChain 내의 'Spec Group(사양 워크그룹)'과 긴밀히 협력하여 기술적 완성도를 높이기로 했습니다.
-
-이는 AI 거버넌스 분야에서 파편화된 표준이 난립하는 것을 막고, 산업계가 신뢰할 수 있는 단일한 기준점을 만들기 위한 노력입니다.
+> Telco WG의 대응 방향:
+> 
+> 
+> 현재 Telco Guide v1.0 및 1.1에서는 라이선스 정보가 필수지만, 값을 `NOASSERTION`(정보 없음)으로 표기하는 것을 허용하고 있습니다.
+> 
+> 하지만 Draft v1.2에서는 `NOASSERTION`을 허용하지 않고 실제 라이선스 정보를 기입하도록 강화할 예정이었습니다. WG는 CISA가 최종적으로 라이선스 정보를 필수 요소로 확정할지 여부를 지켜본 후, 이 방침을 유지할지 결정하기로 했습니다.
+> 
 
 ---
 
-## 4. 시장 피드백(Market Feedback)과 향후 계획
+## 2. Telco Guide 및 Validator(검증기) 업데이트
 
-가이드 1.0 버전의 완성은 끝이 아니라 시작입니다. 미팅에서는 '초기 시장 피드백(Early Market Feedback)'의 중요성이 강조되었습니다.
+### 암호화(Encryption) 챕터 추가 건
 
-- Solution/Market Fit: 완성된 가이드가 실제 기업 현장에서 적용될 때 어떤 어려움이 있는지, 과도하거나 부족한 부분은 없는지 피드백을 수집하여 가이드를 지속적으로 업데이트할 예정입니다.
-- 참여 요청: 워크그룹은 미팅 참석자들에게 가이드를 직접 사용해 보고, 개선 제안을 적극적으로 해달라고 요청했습니다. 이는 오픈소스 프로젝트의 핵심인 '집단 지성'을 통해 가이드의 완성도를 높이기 위함입니다.
+Ericsson의 Jimmy Ahlberg가 제안했던 '암호화 관련 챕터' 추가는 문구 수정이 더 필요한 상황입니다. 제안자가 현재 아시아 출장 및 한국 행사 참석 일정으로 인해 수정안을 제출하지 못해, 다음 미팅에서 다시 논의하기로 했습니다.
 
----
+### Validator(검증 도구) 이슈
 
-## [요약 및 결론] 참여 방법
-
-이번 10월 9일 Asia Sync 미팅은 "AI SBOM 가이드의 완성"이라는 결실을 확인하고, 이를 "글로벌 규제(UK)" 및 "특화 산업(FINOS)"과 연결하는 거대한 로드맵을 공유하는 자리였습니다.
-
-AI 거버넌스는 혼자서 해결할 수 있는 문제가 아닙니다. 여러분의 조직이 AI를 도입하고 있거나 도입할 예정이라면, 지금 바로 OpenChain AI 워크그룹에 합류하여 글로벌 표준 수립 과정에 목소리를 내주시기 바랍니다.
-
-### 참여 및 리소스 링크:
-
-- AI 워크그룹 메일링 리스트: [https://lists.org/g/ai](https://lists.openchainproject.org/g/ai)[openchainproject](https://openchainproject.org/news/2025/10/27/recording-openchain-ai-work-group-asia-sync-2025-10-09)
-- 향후 미팅 일정 및 참여 방법: [https://www.org/participate](https://www.openchainproject.org/participate)[openchainproject](https://openchainproject.org/news/2025/10/27/recording-openchain-ai-work-group-asia-sync-2025-10-09)
-- OpenChain 공식 웹사이트: [https://openchainproject.org](https://openchainproject.org/)
-
-미팅 녹화본은 아래 유튜브 링크를 통해 다시 보실 수 있습니다.
-
-- 녹화 영상 보기: [https://www.youtube.com/watch?v=ooVyaIw3KuQ](https://www.youtube.com/watch?v=ooVyaIw3KuQ)
+- 버그 수정: CISA SBOM Type을 처리하는 과정에서 발견된 사소한 버그가 수정되어 곧 마이너 릴리스가 배포될 예정입니다.
+- SPDX 3.0 지원의 어려움: 지난 10월 미팅에서 Telco Validator가 SPDX 3.0 스펙을 지원해야 한다는 제안이 있었습니다. 하지만 현재 Validator가 의존하고 있는 파이썬 라이브러리(`tools-python`)가 SPDX 3.0을 지원하지 않아 구현이 어렵습니다.
+    - 해당 라이브러리는 1년 넘게 업데이트가 없었으나, 최근 새로운 메인테이너가 지명되어 향후 업데이트를 기대해볼 수 있는 상황입니다.
 
 ---
 
-*이 블로그 포스트는 OpenChain AI Work Group의 공개된 미팅 기록과 자료를 바탕으로 작성되었습니다.*
+## 3. 심층 분석: SBOM 품질 가이드(Quality Guide) 검토
+
+미팅의 대부분은 현재 작성 중인 SBOM Quality Guide 문서를 검토하는 데 할애되었습니다.
+
+### (1) BSI(독일 연방정보보안청)의 급진적인 SPDX 3.0 도입
+
+독일 BSI의 최신 가이드라인(TR-03183-2 v2.1.0) 내용이 공유되었는데, 이 내용이 상당히 파격적이라 우려의 목소리가 나왔습니다.
+
+- 내용: BSI는 SBOM 포맷으로 SPDX 3.0.1 이상 또는 CycloneDX 1.6 이상을 의무화(Mandate)하고, SPDX 2.x 버전 사용을 사실상 배제했습니다.
+- WG의 우려: 이는 시기상조(Premature)라는 의견이 지배적입니다. 현재 BlackDuck을 포함한 대다수의 상용 SCA 도구들이 여전히 SPDX 2.2나 2.3만 지원하고 있으며, SPDX 3.0을 완벽히 지원하는 도구는 거의 없기 때문입니다.
+
+### (2) 용어의 명확화: "Build Information"
+
+가이드 문서의 섹션 3.5인 "SBOM Build information"이라는 용어가 혼란을 줄 수 있다는 지적이 있었습니다.
+
+- 문제점: 독자들이 이를 '소프트웨어를 빌드하는 시점의 정보'로 오해할 수 있음.
+- 수정 제안: "SBOM Document Build Information"으로 명칭을 변경하여, 이것이 소프트웨어 자체가 아니라 SBOM 문서가 생성된 시점과 도구에 대한 정보임을 명확히 하기로 했습니다.
+
+### (3) 패키지 식별자 (Package Identifier)
+
+문서에서는 SWHID, PURL, CPE 등 다양한 식별자를 나열하고 있습니다.
+
+- Telco WG의 권장: Telco Guide는 PURL (Package URL) 사용을 권장합니다.
+- 표준화 현황: PURL은 곧 ECMA 표준이 될 예정이며, 이후 패스트트랙을 통해 ISO 표준으로 제정될 것으로 예상됩니다. Shane Coughlan(OpenChain)은 ECMA 표준 제정 후 ISO화 되기까지 약 9개월 정도가 소요될 것으로 전망했습니다.
+
+### (4) '알려진 미지(Known Unknowns)'의 표현
+
+공급망 내에서 일부 종속성 정보가 누락되었음을 인지하고 있지만, 그 내용이 무엇인지 모르는 경우(Known Unknowns)를 SPDX로 표현하는 것이 기술적으로 까다롭다는 논의가 있었습니다.
+
+- 현업에서는 종종 공급업체가 하위 모듈에 대한 조사를 하지 않아 정보를 제공하지 않으면서, 단순히 "모른다"고만 표기하는 경우가 많습니다. 이를 데이터 필드에 어떻게 정확히 매핑할지가 과제로 남아 있습니다.
+
+---
+
+## 4. 향후 일정 및 참여 안내
+
+### 문서 검토 요청
+
+이번에 논의된 문서들은 오는 12월 일본에서 열리는 Open Compliance Summit에서 발표될 예정입니다. 따라서 WG 멤버들은 그전까지 문서에 대한 코멘트를 적극적으로 제출해 줄 것을 요청받았습니다.
+
+### 참여 방법
+
+OpenChain Telco WG는 모든 이에게 열려 있습니다. 관심 있는 분들은 아래 채널을 통해 참여하실 수 있습니다.
+
+- 메일링 리스트: [https://lists.openchainproject.org/g/telco](https://lists.openchainproject.org/g/telco)
+- GitHub 저장소: [https://github.com/OpenChain-Project/Telco-WG](https://github.com/OpenChain-Project/Telco-WG)
+
+---
