@@ -24,7 +24,7 @@ description: >
 | 14:00~14:05 | Welcome & Opening | Jihwan Jeong CTO, Hancom | - |
 | 14:05~14:20 | OpenChain Update              | - | - |
 | 14:20~14:45 | Sharing Hancom's OpenChain Certification Declaration Preparation | Hyunjoo Ryu, Hancom | - |
-| 14:45~15:10 | Introduction to OpenPDF Data Loader and Tips for Open Source Disclosure Using AI | Open Source Project Team, Hancom | - |
+| 14:45~15:10 | Introduction to OpenPDF Data Loader and Tips for Open Source Disclosure Using AI | Bundo Lee, Hancom | - |
 | 15:10~15:50 | Networking (Group Discussion) | All | - |
 | 15:50~16:00 | Telechips' OpenChain Certification and Remaining Challenges | Jiyoung Yeon, Telechips | - |
 | 16:00~16:10 | About Cryptography Bill of Materials (CBOM) | Jinyoung Chae, Samsung SDS | - |
