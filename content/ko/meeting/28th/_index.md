@@ -23,7 +23,7 @@ description: >
 | 14:00~14:05 | 웰컴 & 오프닝              | 정지환 CTO, 한글과컴퓨터 | - |
 | 14:05~14:20 | OpenChain Update              | 장학성, SK텔레콤 | [slide](https://gamma.app/docs/rgelezj6nhbbw4u?following_id=r2th6vhw2e0c6us&follow_on_start=true) |
 | 14:20~14:45 | 한컴 OpenChain 인증 선언 준비 공유기 | 류현주, 한글과컴퓨터 | - |
-| 14:45~15:10 | 오픈PDF 데이터로더 소개 및 AI를 활용한 오픈소스 공개 Tip | 오픈소스프로젝트팀, 한글과컴퓨터 | - |
+| 14:45~15:10 | 오픈PDF 데이터로더 소개 및 AI를 활용한 오픈소스 공개 Tip | 이분도, 한글과컴퓨터 | - |
 | 15:10~15:50 | 네트워킹 (그룹 토의) | All | - |
 | 15:50~16:00 | 텔레칩스의 오픈체인 인증과 남은 과제 | 연지영, 텔레칩스 | - |
 | 16:00~16:10 | Cryptography Bill of Materials (CBOM)에 대해서 | 채진영, 삼성SDS | - |
