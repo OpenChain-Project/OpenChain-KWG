@@ -19,8 +19,8 @@ description: Tooling & Legal Subgroup 25th Meeting
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Community Updates & New Issues | TBD | TBD |
-| 1  | TBD | RedPenSoft, Dockko Jun | TBD |
-| 2  | Open Source Notice Case Study | Ahnlab, Kim Gangbo | TBD |
+| 1  | Open Source Notice Case Study | Ahnlab, Kim Gangbo | TBD |
+| 2  | TBD | RedPenSoft, Dockko Jun | TBD |
 
 <!--
 
