@@ -110,3 +110,5 @@ OpenChain Telco WG는 모든 이에게 열려 있습니다. 관심 있는 분들
 - GitHub 저장소: [https://github.com/OpenChain-Project/Telco-WG](https://github.com/OpenChain-Project/Telco-WG)
 
 ---
+
+*by Gemini 3.0*
