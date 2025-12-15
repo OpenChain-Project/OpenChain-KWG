@@ -1,6 +1,6 @@
 ---
-title: "CHAOSS Practitioner Guides를 활용한 건강하고 지속 가능한 OSS 프로젝트 구축"
-linkTitle: "CHAOSS Practitioner Guides"
+title: "2024-12-12 CHAOSS Practitioner Guides를 활용한 건강하고 지속 가능한 OSS 프로젝트 구축"
+linkTitle: "2024-12-12"
 # weight: 10
 date: 2024-12-12
 type: docs

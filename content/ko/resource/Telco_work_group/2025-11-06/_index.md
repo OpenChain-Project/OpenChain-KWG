@@ -1,6 +1,6 @@
 ---
-title: "2025년 11월 미팅: CISA 셧다운의 영향과 SBOM 품질 가이드 집중 점검"
-linkTitle: "SBOM 품질 가이드 집중 점검"
+title: "2025-11-06 CISA 셧다운의 영향과 SBOM 품질 가이드 집중 점검"
+linkTitle: "2025-11-06"
 # weight: 10
 date: 2025-11-06
 type: docs

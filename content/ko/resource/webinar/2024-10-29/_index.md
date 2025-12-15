@@ -1,6 +1,6 @@
 ---
-title: "SBOM 시각화 - SBOM 검토를 위한 대안적 접근법"
-linkTitle: "SBOM 시각화"
+title: "2024-10-29 SBOM 시각화 - SBOM 검토를 위한 대안적 접근법"
+linkTitle: "2024-10-29"
 # weight: 10
 date: 2024-10-29
 type: docs

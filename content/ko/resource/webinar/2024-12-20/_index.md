@@ -1,6 +1,6 @@
 ---
-title: "DeviceCode - 크라우드소싱 기반 디바이스 데이터 파서"
-linkTitle: "DeviceCode"
+title: "2024-12-20 DeviceCode - 크라우드소싱 기반 디바이스 데이터 파서"
+linkTitle: "2024-12-20"
 # weight: 10
 date: 2024-12-20
 type: docs

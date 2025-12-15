@@ -1,6 +1,6 @@
 ---
-title: "컨테이너 컴플라이언스, OSADL Base Image로 해결하세요"
-linkTitle: "컨테이너 컴플라이언스"
+title: "2025-09-12 컨테이너 컴플라이언스, OSADL Base Image로 해결하세요"
+linkTitle: "2025-09-12"
 # weight: 10
 date: 2025-09-12
 type: docs

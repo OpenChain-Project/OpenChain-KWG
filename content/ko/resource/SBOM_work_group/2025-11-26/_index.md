@@ -1,6 +1,6 @@
 ---
-title: "대규모 공급망에서 SBOM을 어떻게 운영 단계에 적용할 것인가?"
-linkTitle: "운영 단계 SBOM 적용"
+title: "2025-11-26 대규모 공급망에서 SBOM을 어떻게 운영 단계에 적용할 것인가?"
+linkTitle: "2025-11-26"
 # weight: 10
 date: 2025-11-26
 type: docs

@@ -1,6 +1,6 @@
 ---
-title: "AI Compliance BOM 가이드 웨비나"
-linkTitle: "AI Compliance BOM 가이드"
+title: "2024-12-03 AI Compliance BOM 가이드 웨비나"
+linkTitle: "2024-12-03"
 # weight: 10
 date: 2024-12-03
 type: docs

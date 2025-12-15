@@ -1,6 +1,6 @@
 ---
-title: "OpenChain ISO 표준이 InnerSource를 지원하는 방법 이해하기"
-linkTitle: "OpenChain ISO 표준이 InnerSource를 지원하는 방법"
+title: "2024-12-04 OpenChain ISO 표준이 InnerSource를 지원하는 방법 이해하기"
+linkTitle: "2024-12-04"
 # weight: 10
 date: 2024-12-04
 type: docs
