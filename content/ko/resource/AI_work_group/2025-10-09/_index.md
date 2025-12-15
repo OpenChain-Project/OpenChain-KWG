@@ -1,12 +1,12 @@
 ---
-title: "OpenChain AI 워크그룹 (2025-10-09): AI SBOM 가이드 완성 및 글로벌 거버넌스 전략"
-linkTitle: "AI SBOM 전략"
+title: "2025-10-09 AI SBOM 가이드 완성 및 글로벌 거버넌스 전략"
+linkTitle: "2025-10-09"
 # weight: 10
 date: 2025-10-09
 type: docs
 categories: ["study"]
 tags: ["AI"]
-description: OpenChain AI Work Group – Asia Sync – 2025-10-09
+description: 2025-10-09 OpenChain AI Work Group – Asia Sync - 
 ---
 
 source: https://openchainproject.org/news/2025/10/27/recording-openchain-ai-work-group-asia-sync-2025-10-09

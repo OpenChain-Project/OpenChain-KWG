@@ -1,6 +1,6 @@
 ---
-title: "SBOM 가이드라인 업데이트 논의"
-linkTitle: "SBOM 가이드라인"
+title: "2024-12-06 SBOM 가이드라인 업데이트 논의"
+linkTitle: "2024-12-06"
 # weight: 10
 date: 2024-12-06
 type: docs

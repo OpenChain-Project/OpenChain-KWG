@@ -1,6 +1,6 @@
 ---
-title: "데이터가 AI 공급망에서 차지하는 역할"
-linkTitle: "데이터가 AI 공급망에서 차지하는 역할"
+title: "2024-10-10 데이터가 AI 공급망에서 차지하는 역할"
+linkTitle: "2024-10-10"
 # weight: 10
 date: 2024-10-10
 type: docs

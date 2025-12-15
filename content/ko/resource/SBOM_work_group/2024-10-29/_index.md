@@ -1,6 +1,6 @@
 ---
-title: "SBOM 관련 다양한 규제와 가이드라인에 대한 개요"
-linkTitle: "SBOM 관련 다양한 규제"
+title: "2024-10-29 SBOM 관련 다양한 규제와 가이드라인에 대한 개요"
+linkTitle: "2024-10-29"
 # weight: 10
 date: 2024-10-29
 type: docs

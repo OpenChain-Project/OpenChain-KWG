@@ -1,6 +1,6 @@
 ---
-title: "리눅스 재단에서 SBOM을 활성화하는 과정"
-linkTitle: "SBOM 활성화 과정"
+title: "2024-12-05 리눅스 재단에서 SBOM을 활성화하는 과정"
+linkTitle: "2024-12-05"
 # weight: 10
 date: 2024-12-05
 type: docs

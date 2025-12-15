@@ -1,6 +1,6 @@
 ---
-title: "EU Cyber Resilience Act (CRA): 오픈소스 개발자가 반드시 알아야 할 생존 가이드"
-linkTitle: "EU CRA 소개"
+title: "2025-09-16 EU Cyber Resilience Act (CRA): 오픈소스 개발자가 반드시 알아야 할 생존 가이드"
+linkTitle: "2025-09-16"
 # weight: 10
 date: 2025-09-16
 type: docs

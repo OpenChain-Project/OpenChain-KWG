@@ -1,6 +1,6 @@
 ---
-title: "킥오프 웨비나: SBOM의 실제 활용 방안 모색"
-linkTitle: "SBOM의 실제 활용 방안 모색"
+title: "2024-07-30 킥오프 웨비나: SBOM의 실제 활용 방안 모색"
+linkTitle: "2024-07-30"
 # weight: 10
 date: 2024-07-30
 type: docs

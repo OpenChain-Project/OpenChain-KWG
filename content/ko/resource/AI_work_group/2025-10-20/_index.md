@@ -1,6 +1,6 @@
 ---
-title: "OpenChain AI SBOM 컴플라이언스 가이드"
-linkTitle: "AI SBOM 가이드"
+title: "2025-10-20 OpenChain AI SBOM 컴플라이언스 가이드"
+linkTitle: "2025-10-20"
 # weight: 10
 date: 2025-10-20
 type: docs
