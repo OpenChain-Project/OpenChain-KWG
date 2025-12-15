@@ -1,6 +1,6 @@
 ---
-title: "AI BOM 관리와 워킹그룹 전환 논의"
-linkTitle: "AI BOM 관리와 워킹그룹 전환 논의"
+title: "2024-11-05 AI BOM 관리와 워킹그룹 전환 논의"
+linkTitle: "2024-11-05"
 # weight: 10
 date: 2024-11-05
 type: docs

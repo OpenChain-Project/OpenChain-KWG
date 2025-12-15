@@ -1,6 +1,6 @@
 ---
-title: "Software Hash ID (SWHID): 이제는 선택이 아닌 필수입니다"
-linkTitle: "SWID"
+title: "2025-12-03 Software Hash ID (SWHID): 이제는 선택이 아닌 필수입니다"
+linkTitle: "2025-12-03"
 # weight: 10
 date: 2025-12-03
 type: docs

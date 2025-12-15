@@ -1,6 +1,6 @@
 ---
-title: "SBOM 품질 가이드와 규제 대응의 구체화"
-linkTitle: "SBOM 품질 가이드"
+title: "2025-10-27 SBOM 품질 가이드와 규제 대응의 구체화"
+linkTitle: "2025-10-27"
 # weight: 10
 date: 2025-10-27
 type: docs

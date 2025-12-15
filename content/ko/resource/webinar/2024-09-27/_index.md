@@ -1,6 +1,6 @@
 ---
-title: "AI: 현재의 법적 환경"
-linkTitle: "AI 법적 환경"
+title: "2024-09-27 AI: 현재의 법적 환경"
+linkTitle: "2024-09-27"
 # weight: 10
 date: 2024-09-27
 type: docs
