@@ -111,3 +111,5 @@ SBOM(Software Bill of Materials)이 중요해지면서, "정확히 어떤 코드
 ---
 
 *본 포스팅은 2025년 12월 3일 진행된 OpenChain 웨비나 내용을 바탕으로 작성되었습니다.*
+
+*by Gemini 3.0*
