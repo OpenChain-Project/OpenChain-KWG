@@ -13,14 +13,22 @@ description: Tooling & Legal Subgroup 25th Meeting
 * Venue: Kakao Pangyo Azit
 
 ## Attendees
-* TBD
+* Ahnlab
+* ETRI
+* Hyundai Autoever
+* Kakao
+* KB Kookmin Bank
+* LG Electronics
+* Samsung Electronics
+* Telechips
 
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues | TBD | TBD |
-| 1  | Open Source Notice Case Study | Ahnlab, Kim Gangbo | TBD |
-| 2  | TBD | RedPenSoft, Dockko Jun | TBD |
+| 0  | Community Updates & New Issues | LG전자, 박원재 | N/A |
+| 1  | Issues on CPE-based CVE verification | Ahnlab, Kim Gangbo | [pdf](2_Ahnlab_KimGangbo.pdf) |
+| 2  | Open Source Notice Case Study | Ahnlab, Kim Gangbo | [pdf](3_Ahnlab_KimGangbo.pdf) |
+| 3  | Server Runtime SBOM Solution for Server Asset Management | RedPenSoft, Dockko Jun | [pdf](4_Redpensoft_DockkoJun.pdf) |
 
 <!--
 
