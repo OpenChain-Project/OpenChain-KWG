@@ -22,6 +22,9 @@ description: Tooling & Legal Subgroup 25th Meeting
 * Samsung Electronics
 * Telechips
 
+## Invitee
+* RedPenSoft
+
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
