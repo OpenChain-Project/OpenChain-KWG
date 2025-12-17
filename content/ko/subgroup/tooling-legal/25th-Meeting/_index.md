@@ -23,6 +23,9 @@ description: Tooling & Legal Subgroup 25th Meeting
 * 카카오
 * 텔레칩스
 
+## Invitee
+* 레드펜소프트
+
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|

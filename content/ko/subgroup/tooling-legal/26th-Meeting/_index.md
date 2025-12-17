@@ -17,6 +17,9 @@ description: Tooling & Legal Subgroup 26th Meeting
 ## Attendees
 * TBD
 
+## Invitee
+* Labrador Labs
+
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
