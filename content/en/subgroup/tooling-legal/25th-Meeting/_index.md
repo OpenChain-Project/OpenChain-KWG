@@ -18,6 +18,7 @@ description: Tooling & Legal Subgroup 25th Meeting
 * Hyundai Autoever
 * Kakao
 * KB Kookmin Bank
+* LG AI Research
 * LG Electronics
 * Samsung Electronics
 * Telechips

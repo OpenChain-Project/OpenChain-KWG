@@ -17,6 +17,7 @@ description: Tooling & Legal Subgroup 25th Meeting
 ## Attendees
 * ETRI
 * KB 국민은행
+* LG AI연구원
 * LG전자
 * 삼성전자
 * 안랩
