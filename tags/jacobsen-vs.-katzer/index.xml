@@ -1,1 +1,102 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jacobsen vs. Katzer on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/jacobsen-vs.-katzer/</link><description>Recent content in Jacobsen vs. Katzer on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Mon, 11 Nov 2024 22:34:25 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/jacobsen-vs.-katzer/index.xml" rel="self" type="application/rss+xml"/><item><title>17th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/17th-meeting/</link><pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/17th-meeting/</guid><description>Schedule 목적 : Tooling and Legal Subgroup 17차 회의 일시 : 2024년 8월 13일(수) 14:00 ~ 16:30 장소 : ETRI 서울사무소 중회의실 Attendees CJ ETRI LINE Plus LG전자 NHN 안랩 카카오 텔레칩스 한글과컴퓨터 현대모비스 현대오토에버 Agenda No Subject Speaker Slide 0 Community Updates &amp;amp; New Issues ETRI 박정숙 ppt 1 (Tooling) FOSSLight Scanner Update LG전자 김소임 pdf 2 (소송사례) Jacobsen v. Katzer 소송: 계약위반과 저작권 위반 현대모비스 김형진 ppt 3 (주제발표) 오픈소스 라이선스 간 양립성 충돌 문제 조항과 판단 기준에 관한 연구(GPL 라이선스를 중심으로) 텔레칩스 연지영 pdf</description></item><item><title>5th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/legal/meetings/5th-meeting/</link><pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/legal/meetings/5th-meeting/</guid><description>Schedule 목적 : Legal Subgroup 5차 회의 일시 : 2024년 8월 (날짜 및 시간 미정) 장소 : ETRI 서울사무소(남부터미널 근처, 장소변경 가능) Attendees Agenda No Subject Speaker Slide 1 (소송사례) Jacobsen v. Katzer: 계약위반과 저작권 위반 김형진, 현대모비스 2 (주제발표) 도커와 오픈소스 라이선스의 법적 이슈 (지원자 모집 중) Meeting Minutes Photo Gallery</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jacobsen vs. Katzer on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/jacobsen-vs.-katzer/</link><description>Recent content in Jacobsen vs. Katzer on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Mon, 11 Nov 2024 22:34:25 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/jacobsen-vs.-katzer/index.xml" rel="self" type="application/rss+xml"/><item><title>17th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/17th-meeting/</link><pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/17th-meeting/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;목적 : Tooling and Legal Subgroup 17차 회의&lt;/li&gt;
+&lt;li&gt;일시 : 2024년 8월 13일(수) 14:00 ~ 16:30&lt;/li&gt;
+&lt;li&gt;장소 : ETRI 서울사무소 중회의실&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="attendees"&gt;Attendees&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;CJ&lt;/li&gt;
+&lt;li&gt;ETRI&lt;/li&gt;
+&lt;li&gt;LINE Plus&lt;/li&gt;
+&lt;li&gt;LG전자&lt;/li&gt;
+&lt;li&gt;NHN&lt;/li&gt;
+&lt;li&gt;안랩&lt;/li&gt;
+&lt;li&gt;카카오&lt;/li&gt;
+&lt;li&gt;텔레칩스&lt;/li&gt;
+&lt;li&gt;한글과컴퓨터&lt;/li&gt;
+&lt;li&gt;현대모비스&lt;/li&gt;
+&lt;li&gt;현대오토에버&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="agenda"&gt;Agenda&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;No&lt;/th&gt;
+ &lt;th&gt;Subject&lt;/th&gt;
+ &lt;th&gt;Speaker&lt;/th&gt;
+ &lt;th&gt;Slide&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;Community Updates &amp;amp; New Issues&lt;/td&gt;
+ &lt;td&gt;ETRI 박정숙&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/17th-meeting/session0_etri.pptx"&gt;ppt&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;(Tooling) FOSSLight Scanner Update&lt;/td&gt;
+ &lt;td&gt;LG전자 김소임&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/17th-meeting/session1_lge.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;(소송사례) Jacobsen v. Katzer 소송: 계약위반과 저작권 위반&lt;/td&gt;
+ &lt;td&gt;현대모비스 김형진&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/17th-meeting/session2_mobis.pptx"&gt;ppt&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3&lt;/td&gt;
+ &lt;td&gt;(주제발표) 오픈소스 라이선스 간 양립성 충돌 문제 조항과 판단 기준에 관한 연구(GPL 라이선스를 중심으로)&lt;/td&gt;
+ &lt;td&gt;텔레칩스 연지영&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/17th-meeting/session3_telechips.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!-- 
+
+## Attendees
+
+## Meeting Minutes
+
+## Photo Gallery
+
+&lt;div &gt;&lt;span class="image fit"&gt;
+&lt;/span&gt;&lt;/div&gt; --&gt;</description></item><item><title>5th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/legal/meetings/5th-meeting/</link><pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/legal/meetings/5th-meeting/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;목적 : Legal Subgroup 5차 회의&lt;/li&gt;
+&lt;li&gt;일시 : 2024년 8월 (날짜 및 시간 미정)&lt;/li&gt;
+&lt;li&gt;장소 : ETRI 서울사무소(남부터미널 근처, 장소변경 가능)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="attendees"&gt;Attendees&lt;/h2&gt;
+&lt;h2 id="agenda"&gt;Agenda&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;No&lt;/th&gt;
+ &lt;th&gt;Subject&lt;/th&gt;
+ &lt;th&gt;Speaker&lt;/th&gt;
+ &lt;th&gt;Slide&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;(소송사례) Jacobsen v. Katzer: 계약위반과 저작권 위반&lt;/td&gt;
+ &lt;td&gt;김형진, 현대모비스&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;(주제발표) 도커와 오픈소스 라이선스의 법적 이슈&lt;/td&gt;
+ &lt;td&gt;(지원자 모집 중)&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="meeting-minutes"&gt;Meeting Minutes&lt;/h2&gt;
+&lt;h2 id="photo-gallery"&gt;Photo Gallery&lt;/h2&gt;
+&lt;div &gt;&lt;span class="image fit"&gt;
+&lt;/span&gt;&lt;/div&gt;</description></item></channel></rss>

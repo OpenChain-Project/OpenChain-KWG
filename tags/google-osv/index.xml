@@ -1,2 +1,285 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Google OSV on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/google-osv/</link><description>Recent content in Google OSV on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/google-osv/index.xml" rel="self" type="application/rss+xml"/><item><title>10th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/10th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/10th/</guid><description>Schedule Schedule: 2021-06-22 (Tue) 3:00~5:00 PM How to join Zoom (Please refer to the e-mail for the access address) Agenda No Agenda Speaker Slide 0 Intro &amp;amp; Greetings Newcomers OpenChain_Korea_20210622_intro.pptx 1 OpenChain Update Shane Coughlan, Linux Foundation - 2 OpenChain KWG Update 장학성, SK텔레콤 OpenChain_Korea_20210622_update.pptx 3 FOSSLight Open Source Project 김경애, LG전자 210622_OpenChain_FOSSLight_LGE.pdf 4 최근 주요 동향 - Google OSV (오픈소스 취약성) &amp;amp; Google Insight (오픈소스 BOM)
-- NIPA 오픈소스 거버넌스 가이드 Robin (황민호), 카카오 이서연, 라인플러스 Google_OSV_and_Insight_황민호.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Google OSV on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/google-osv/</link><description>Recent content in Google OSV on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/google-osv/index.xml" rel="self" type="application/rss+xml"/><item><title>10th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/10th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/10th/</guid><description>&lt;div &gt;&lt;span class="image fit"&gt;
+ &lt;img src="openchain-kwg-10.gif" width="50%"&gt;
+&lt;/div&gt;
+&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Schedule: 2021-06-22 (Tue) 3:00~5:00 PM&lt;/li&gt;
+&lt;li&gt;How to join
+&lt;ul&gt;
+&lt;li&gt;Zoom (Please refer to the e-mail for the access address)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="agenda"&gt;Agenda&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;No&lt;/th&gt;
+ &lt;th&gt;Agenda&lt;/th&gt;
+ &lt;th&gt;Speaker&lt;/th&gt;
+ &lt;th&gt;Slide&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;Intro &amp;amp; Greetings&lt;/td&gt;
+ &lt;td&gt;Newcomers&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/10th/OpenChain_Korea_20210622_intro.pptx"&gt;OpenChain_Korea_20210622_intro.pptx&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;OpenChain Update&lt;/td&gt;
+ &lt;td&gt;Shane Coughlan, Linux Foundation&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;OpenChain KWG Update&lt;/td&gt;
+ &lt;td&gt;장학성, SK텔레콤&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/10th/OpenChain_Korea_20210622_update.pptx"&gt;OpenChain_Korea_20210622_update.pptx&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3&lt;/td&gt;
+ &lt;td&gt;FOSSLight Open Source Project&lt;/td&gt;
+ &lt;td&gt;김경애, LG전자&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/10th/210622_OpenChain_FOSSLight_LGE.pdf"&gt;210622_OpenChain_FOSSLight_LGE.pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;최근 주요 동향 &lt;br&gt;- Google OSV (오픈소스 취약성) &amp;amp; Google Insight (오픈소스 BOM)&lt;br&gt;- NIPA 오픈소스 거버넌스 가이드&lt;/td&gt;
+ &lt;td&gt;&lt;br&gt;Robin (황민호), 카카오 &lt;br&gt; 이서연, 라인플러스&lt;/td&gt;
+ &lt;td&gt;&lt;br&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/10th/Google_OSV_and_Insight_%ED%99%A9%EB%AF%BC%ED%98%B8.pdf"&gt;Google_OSV_and_Insight_황민호.pdf&lt;/a&gt;&lt;br&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/10th/NIPAGuide_Intro.pdf"&gt;NIPAGuide_Intro.pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;5&lt;/td&gt;
+ &lt;td&gt;소그룹 모임&lt;/td&gt;
+ &lt;td&gt;All&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;6&lt;/td&gt;
+ &lt;td&gt;Free Discussion&lt;/td&gt;
+ &lt;td&gt;All&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="소그룹-모임-주제"&gt;소그룹 모임 주제&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;자기 소개&lt;/li&gt;
+&lt;li&gt;하는 일, 최근 주요 관심사&lt;/li&gt;
+&lt;li&gt;다른 회사의 담당자에게 궁금한 것이 있다면?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="attendees"&gt;Attendees&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;SK Telecom&lt;/li&gt;
+&lt;li&gt;LINE Plus&lt;/li&gt;
+&lt;li&gt;Kakao&lt;/li&gt;
+&lt;li&gt;LG Electronics&lt;/li&gt;
+&lt;li&gt;NCSOFT&lt;/li&gt;
+&lt;li&gt;Hyundai Mobis&lt;/li&gt;
+&lt;li&gt;Hyundai Motors&lt;/li&gt;
+&lt;li&gt;Hyundai Autoever&lt;/li&gt;
+&lt;li&gt;Samsung Electronics&lt;/li&gt;
+&lt;li&gt;KT ds&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="video"&gt;Video&lt;/h2&gt;
+&lt;h3 id="intro"&gt;Intro&lt;/h3&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/gkDHc1QcieY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id="openchain-update"&gt;OpenChain Update&lt;/h3&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/mu0OQUZagoQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id="openchain-kwg-update"&gt;OpenChain KWG Update&lt;/h3&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Szxdcjkmvfs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id="fosslight-open-source-project"&gt;FOSSLight Open Source Project&lt;/h3&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/AF84HtQFIRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id="최근-주요-동향"&gt;최근 주요 동향&lt;/h3&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/yQjn-imIh78" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id="nipa-오픈소스-거버넌스-가이드"&gt;NIPA 오픈소스 거버넌스 가이드&lt;/h3&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/lE3SDadQXR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id="minutes"&gt;Minutes&lt;/h2&gt;
+&lt;h3 id="openchain-update-shane-coughlan--linux-foundation"&gt;OpenChain Update (Shane Coughlan / Linux Foundation)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Security Guide 를 발간할 계획이 있으며, 현재 편집 중 (Link)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="openchain-kwg-update-장학성sk텔레콤"&gt;OpenChain KWG Update (장학성/SK텔레콤)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Github 개설: &lt;a href="https://github.com/OpenChain-KWG"&gt;https://github.com/OpenChain-KWG&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;YouTube 개설: &lt;a href="https://www.youtube.com/channel/UCl4pp1CIFjh6OoHXWzB-FKg/featured"&gt;https://www.youtube.com/channel/UCl4pp1CIFjh6OoHXWzB-FKg/featured&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;OpenChain 인증 해설서 개정 중
+&lt;ul&gt;
+&lt;li&gt;NIPA에서 2020년에 발간하였으며, 현재 개정판 작업 중&lt;/li&gt;
+&lt;li&gt;기업의 OpenChain 인증 방법에 대해 설명&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://haksungjang.github.io/docs/openchain/"&gt;https://haksungjang.github.io/docs/openchain/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Planning Group (운영진) 모임
+&lt;ul&gt;
+&lt;li&gt;5월 24일에 10차 모임 준비를 위해 Planning Group 모임을 진행하였음&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://openchain-project.github.io/OpenChain-KWG/subgroup/planning/2021/2nd-meeting/"&gt;https://openchain-project.github.io/OpenChain-KWG/subgroup/planning/2021/2nd-meeting/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;OpenChain ISO 5230 Supplier Education Pack 한국어 리뷰가 필요함&lt;/li&gt;
+&lt;li&gt;Blog 개설
+&lt;ul&gt;
+&lt;li&gt;Elastic License 2.0 &amp;amp; 진화하는 오픈소스 라이선스: &lt;a href="https://openchain-project.github.io/OpenChain-KWG/blog/2021/20210328-elasticlicense"&gt;https://openchain-project.github.io/OpenChain-KWG/blog/2021/20210328-elasticlicense&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;OSPO란?: &lt;a href="https://openchain-project.github.io/OpenChain-KWG/blog/2021/20210418-ospo-definition/"&gt;https://openchain-project.github.io/OpenChain-KWG/blog/2021/20210418-ospo-definition/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Dockerfile 배포 시 컴플라이언스 책임은 누구에게?:&lt;a href="https://openchain-project.github.io/OpenChain-KWG/blog/2021/20210504-dockerfiles/"&gt;https://openchain-project.github.io/OpenChain-KWG/blog/2021/20210504-dockerfiles/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="fosslight-open-source-project-소개-김경애lg전자"&gt;FOSSLight Open Source Project 소개 (김경애/LG전자)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;FOSSLight Open Source Project 란?
+&lt;ul&gt;
+&lt;li&gt;FOSSLight 스캐너를 통해 소스코드, 디펜던시, 바이너리를 스캔하고&lt;/li&gt;
+&lt;li&gt;스캔한 결과물을 FOSSLight System에 업로드하여&lt;/li&gt;
+&lt;li&gt;OSS Distribution Site에 공개할 수 있도록 고지문 발급하는 시스템&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;FOSSLight Source Scanner
+&lt;ul&gt;
+&lt;li&gt;String Search 기반으로 라이선스 검출 (ScanCode 활용)&lt;/li&gt;
+&lt;li&gt;Code Match 가 불가하여 OSS 이름 검출이 불가함&lt;/li&gt;
+&lt;li&gt;소스
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/fosslight/fosslight_source_scanner"&gt;https://github.com/fosslight/fosslight_source_scanner&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/fosslight/fosslight_source_scanner/blob/main/docs/README_Kor.md"&gt;https://github.com/fosslight/fosslight_source_scanner/blob/main/docs/README_Kor.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;FOSSLight Dependency Scanner
+&lt;ul&gt;
+&lt;li&gt;개발 환경에서 Dependency 목록에 대해 OSS 정보 출력&lt;/li&gt;
+&lt;li&gt;지원 가능한 Package Manager
+&lt;ul&gt;
+&lt;li&gt;Gradle (Java/Android)&lt;/li&gt;
+&lt;li&gt;Maven (Java)&lt;/li&gt;
+&lt;li&gt;NPM (Node.js)&lt;/li&gt;
+&lt;li&gt;Pypi (Python)&lt;/li&gt;
+&lt;li&gt;Pub (Dart with flutter)&lt;/li&gt;
+&lt;li&gt;Cocoapods (Swift/Obj-C)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Transitive Dependency 출력&lt;/li&gt;
+&lt;li&gt;빌드되지 않는 환경에서 동작하지 않음
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/fosslight/fosslight_dependency_scanner"&gt;https://github.com/fosslight/fosslight_dependency_scanner&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/fosslight/fosslight_dependency_scanner/blob/main/docs/user-guide_Kor.md"&gt;https://github.com/fosslight/fosslight_dependency_scanner/blob/main/docs/user-guide_Kor.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;FOSSLight System
+&lt;ul&gt;
+&lt;li&gt;Open Source Compliance Process를 효율적으로 수행하는 시스템
+&lt;ul&gt;
+&lt;li&gt;LICENSE/OSS 정보 조회 및 관리&lt;/li&gt;
+&lt;li&gt;Project 단위로 OSC 수행 및 Status 관리&lt;/li&gt;
+&lt;li&gt;3rd Party Project 관리&lt;/li&gt;
+&lt;li&gt;Vulnerability 관리&lt;/li&gt;
+&lt;li&gt;Self-Check 기능&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;곧 Release 될 기능
+&lt;ul&gt;
+&lt;li&gt;FOSSLight Binary Scanner
+&lt;ul&gt;
+&lt;li&gt;Binary 실제 분석하는 것은 아님&lt;/li&gt;
+&lt;li&gt;Path 내 Binary를 추출하여 checksum, TLSH 추출&lt;/li&gt;
+&lt;li&gt;System Database와 비교하여 OSS 정보 자동 출력&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;FOSSLight REUSE
+&lt;ul&gt;
+&lt;li&gt;Reuse &lt;a href="https://github.com/fsfe/reuse-tool"&gt;https://github.com/fsfe/reuse-tool&lt;/a&gt; 활용&lt;/li&gt;
+&lt;li&gt;저작권 및 라이선스 표기 규칙 확인&lt;/li&gt;
+&lt;li&gt;OSS-pkg-info.yaml 파일 &amp;lt;-&amp;gt; FOSSLight Report 변환&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;특징
+&lt;ul&gt;
+&lt;li&gt;동일한 OSS 이름이지만 다양하게 불리는 경우, Nickname을 등록하여 일관된 이름으로 통합 관리 가능&lt;/li&gt;
+&lt;li&gt;OSS Notice Format을 커스터마이징할 수 있음 (Company Name, Email 등)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;FOSSLight Contribution Items
+&lt;ul&gt;
+&lt;li&gt;버그 리포팅&lt;/li&gt;
+&lt;li&gt;오타&lt;/li&gt;
+&lt;li&gt;문서화 작업&lt;/li&gt;
+&lt;li&gt;1인 OSC 담당자를 위한 Customizing&lt;/li&gt;
+&lt;li&gt;Distribution 단계 구현&lt;/li&gt;
+&lt;li&gt;테스트 자동화 등&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="google-osv--open-source-insight-robin-hwang카카오"&gt;Google OSV &amp;amp; Open Source Insight (Robin Hwang/카카오)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Google OSV &lt;a href="https://osv.dev/"&gt;https://osv.dev/&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;SVE와 Sonatype OSS Index 등을 통해 취약성 데이터 베이스 확인&lt;/li&gt;
+&lt;li&gt;구글이 OSS-Fuzz 프로젝트에서 발견한 데이터 세트를 제공
+&lt;ul&gt;
+&lt;li&gt;OSS-Fuzz: 소프트웨어 프로그래밍 오류를 발견하는 Fuzz Test 프로젝트&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;CVE의 경우, 취약성 정보를 특정 패키지 버전에 매핑하기 어려운 경우가 많음&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Open Source Insight &lt;a href="https://deps.dev/"&gt;https://deps.dev/&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Google에서 Open Source Insight 서비스 공개&lt;/li&gt;
+&lt;li&gt;기존에 ClearlyDefined 서비스를 제공하고 있음&lt;/li&gt;
+&lt;li&gt;직관적인 UI로 서비스 구성&lt;/li&gt;
+&lt;li&gt;보안 취약성 정보를 연결, 종속성 그래프도 제공&lt;/li&gt;
+&lt;li&gt;차별점
+&lt;ul&gt;
+&lt;li&gt;Npm과 같은 일반적인 도구 세트를 대체하려는 것은 아니고 패키징에 정의되어 있는 정보를 토대로 구성&lt;/li&gt;
+&lt;li&gt;Lock 파일에 선언된 종속성과 다르거나 더 완전할 수 있음&lt;/li&gt;
+&lt;li&gt;OpenSSF Score 도입&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="기업-공개-소프트웨어-거버넌스-가이드-이서연line-플러스"&gt;기업 공개 소프트웨어 거버넌스 가이드 (이서연/LINE 플러스)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;기업 공개 소프트웨어 거버넌스 가이드
+&lt;ul&gt;
+&lt;li&gt;NIPA 주관하고 오픈업이 연구 수행하여 국내 기업의 올바른 오픈소스 활용을 안내하기 위함&lt;/li&gt;
+&lt;li&gt;SKT, 라인, Kakao 에서 NIPA 기업 공개 소프트웨어 거버넌스 가이드 집필하였음&lt;/li&gt;
+&lt;li&gt;실물 책자는 발간 진행 중이고, 웹 통해서 확인 가능&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;오픈소스 사용하기
+&lt;ul&gt;
+&lt;li&gt;“기업 관리자편” + “개발자 편”으로 구성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;오픈소스 기여하기
+&lt;ul&gt;
+&lt;li&gt;기업편: 기여 전략&lt;/li&gt;
+&lt;li&gt;개발자편: 기여 준비 방법&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;오픈소스 공개하기
+&lt;ul&gt;
+&lt;li&gt;기업편: 어떻게 공개해야 할지, 공개 후 해야 할 일 등&lt;/li&gt;
+&lt;li&gt;개발자편: 오픈소스 공개 준비 방법, 운영 방법&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;다양한 의견과 컨트리뷰션 환영합니다.
+&lt;ul&gt;
+&lt;li&gt;저장소: &lt;a href="https://github.com/NIPA-OpenUP/oss-governance-guide"&gt;https://github.com/NIPA-OpenUP/oss-governance-guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;사이트: &lt;a href="https://nipa-openup.github.io/oss-governance-guide/"&gt;https://nipa-openup.github.io/oss-governance-guide/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="photo-gallery"&gt;Photo Gallery&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/10th/20210622-openchainkwg.png" alt="photo"&gt;&lt;/p&gt;</description></item></channel></rss>

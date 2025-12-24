@@ -1,12 +1,82 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG News in 2020 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/</link><description>Recent content in OpenChain KWG News in 2020 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenChain, ISO 표준 등록</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/12/16/openchain-iso-%ED%91%9C%EC%A4%80-%EB%93%B1%EB%A1%9D/</link><pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/12/16/openchain-iso-%ED%91%9C%EC%A4%80-%EB%93%B1%EB%A1%9D/</guid><description>지난 2020년 12월 15일, OpenChain 규격 2.1이 국제 표준인 ISO/IEC 5230:2020로 공식 Publication 되었습니다.
-이에 대한 자세한 사항은 다음 기사를 참고하시기 바랍니다. : https://www.einpresswire.com/article/532735099/iso-iec-5230-2020</description></item><item><title>카카오 교육 자료 공개</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/11/24/%EC%B9%B4%EC%B9%B4%EC%98%A4-%EA%B5%90%EC%9C%A1-%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C/</link><pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/11/24/%EC%B9%B4%EC%B9%B4%EC%98%A4-%EA%B5%90%EC%9C%A1-%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C/</guid><description>Kakao 오픈소스 기술파트에서는 사내 개발자를 위한 오픈소스 교육자료를 누구나 열람할 수 있도록 공개하였습니다.
-Download 교육자료는 다음 페이지에서 다운로드 받을 수 있습니다.
-http://t1.kakaocdn.net/olive/assets/opensource_guide_kakao.pdf</description></item><item><title>NCSOFT 교육자료 공개</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/11/23/ncsoft-%EA%B5%90%EC%9C%A1%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C/</link><pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/11/23/ncsoft-%EA%B5%90%EC%9C%A1%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C/</guid><description>NCSOFT에서는 오픈소스의 공유 정신에 따라 사내 오픈소스 교육자료를 누구나 사용할 수 있도록 강의 교안(PPT)과 강의 스크립트를 GitHub에 공개하였습니다.
-소프트웨어를 개발/배포하는 기업에서 사내 오픈소스 교육을 준비하면서 이 교안을 직접 사용하거나, 필요한 부분을 발췌/수정하여 사용할 수 있습니다.
-교육자료에 대한 수정과 보완은 GitHub을 통해 누구나 참여할 수 있습니다.
-Download 교육자료와 강의 스크립트는 다음 페이지에서 다운로드 받을 수 있습니다.
-https://github.com/ncsoft/oss-basic-training/tree/master/source Maintainer Name Company Email Peter Jiho Han NCSOFT yulica37@ncsoft.com Dasom Han NCSOFT dasom12@ncsoft.com License CC-BY 4.</description></item><item><title>Open Source Compliance in the Enterprise 요약 자료</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/11/23/open-source-compliance-in-the-enterprise-%EC%9A%94%EC%95%BD-%EC%9E%90%EB%A3%8C/</link><pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/11/23/open-source-compliance-in-the-enterprise-%EC%9A%94%EC%95%BD-%EC%9E%90%EB%A3%8C/</guid><description>Open Source Compliance in the Enterprise 책 소개 이 책은 Ibrahim Haddad가 저술하고 Linux Foundation에서 발간하였습니다.
-기업에서 오픈소스 컴플라이언스 프로그램을 구축할때 고려해야 사항들을 자세히 설명하며 다음 링크에서 누구나 다운로드 가능합니다. : Download
-한국어 요약 NCSOFT에서는 이 책의 주요 내용을 한글로 요약하였고 저자인 Ibrahim으로부터 허가를 받은 후 국내 기업의 오픈소스 담당자들이 참고할 수 있도록 공개하였습니다.
-특히, 이를 GitHub에 공유하여 누구나 참고하고, 개선하여 계속 발전시킬 수 있게 하였습니다.
-GitHub : https://github.com/ncsoft/osc-enterprise-ko/ License : CC BY 4.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain KWG News in 2020 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/</link><description>Recent content in OpenChain KWG News in 2020 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenChain, ISO 표준 등록</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/12/16/openchain-iso-%ED%91%9C%EC%A4%80-%EB%93%B1%EB%A1%9D/</link><pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/12/16/openchain-iso-%ED%91%9C%EC%A4%80-%EB%93%B1%EB%A1%9D/</guid><description>&lt;p&gt;&lt;img src="https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/12/16/openchain-iso-%ED%91%9C%EC%A4%80-%EB%93%B1%EB%A1%9D/featured-openchain-logo.png" alt="featured-cover"&gt;&lt;/p&gt;
+&lt;p&gt;지난 2020년 12월 15일, OpenChain 규격 2.1이 국제 표준인 &lt;a href="https://www.iso.org/standard/81039.html"&gt;ISO/IEC 5230:2020&lt;/a&gt;로 공식 Publication 되었습니다.&lt;/p&gt;
+&lt;p&gt;이에 대한 자세한 사항은 다음 기사를 참고하시기 바랍니다. : &lt;a href="https://www.einpresswire.com/article/532735099/iso-iec-5230-2020"&gt;https://www.einpresswire.com/article/532735099/iso-iec-5230-2020&lt;/a&gt;&lt;/p&gt;</description></item><item><title>카카오 교육 자료 공개</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/11/24/%EC%B9%B4%EC%B9%B4%EC%98%A4-%EA%B5%90%EC%9C%A1-%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C/</link><pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/11/24/%EC%B9%B4%EC%B9%B4%EC%98%A4-%EA%B5%90%EC%9C%A1-%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C/</guid><description>&lt;p&gt;&lt;a href="https://www.kakaocorp.com/"&gt;Kakao&lt;/a&gt; 오픈소스 기술파트에서는 사내 개발자를 위한 오픈소스 교육자료를 누구나 열람할 수 있도록 공개하였습니다.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/11/24/%EC%B9%B4%EC%B9%B4%EC%98%A4-%EA%B5%90%EC%9C%A1-%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C/featured-kakao-guide.png" alt="featured-kakao-guide"&gt;&lt;/p&gt;
+&lt;h2 id="download"&gt;Download&lt;/h2&gt;
+&lt;p&gt;교육자료는 다음 페이지에서 다운로드 받을 수 있습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://t1.kakaocdn.net/olive/assets/opensource_guide_kakao.pdf"&gt;http://t1.kakaocdn.net/olive/assets/opensource_guide_kakao.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;</description></item><item><title>NCSOFT 교육자료 공개</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/11/23/ncsoft-%EA%B5%90%EC%9C%A1%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C/</link><pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/11/23/ncsoft-%EA%B5%90%EC%9C%A1%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C/</guid><description>&lt;p&gt;&lt;a href="https://global.ncsoft.com/"&gt;NCSOFT&lt;/a&gt;에서는 오픈소스의 공유 정신에 따라 사내 오픈소스 교육자료를 누구나 사용할 수 있도록 강의 교안(PPT)과 강의 스크립트를 &lt;a href="https://github.com/ncsoft/oss-basic-training"&gt;GitHub&lt;/a&gt;에 공개하였습니다.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/11/23/ncsoft-%EA%B5%90%EC%9C%A1%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C/featured-cover.png" alt="featured-cover"&gt;&lt;/p&gt;
+&lt;p&gt;소프트웨어를 개발/배포하는 기업에서 사내 오픈소스 교육을 준비하면서 이 교안을 직접 사용하거나, 필요한 부분을 발췌/수정하여 사용할 수 있습니다.&lt;/p&gt;
+&lt;p&gt;교육자료에 대한 수정과 보완은 &lt;a href="https://github.com/ncsoft/oss-basic-training"&gt;GitHub&lt;/a&gt;을 통해 누구나 참여할 수 있습니다.&lt;/p&gt;
+&lt;h2 id="download"&gt;Download&lt;/h2&gt;
+&lt;p&gt;교육자료와 강의 스크립트는 다음 페이지에서 다운로드 받을 수 있습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/ncsoft/oss-basic-training/tree/master/source"&gt;https://github.com/ncsoft/oss-basic-training/tree/master/source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="maintainer"&gt;Maintainer&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Name&lt;/th&gt;
+ &lt;th&gt;Company&lt;/th&gt;
+ &lt;th&gt;Email&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Peter Jiho Han&lt;/td&gt;
+ &lt;td&gt;NCSOFT&lt;/td&gt;
+ &lt;td&gt;&lt;a href="mailto:yulica37@ncsoft.com"&gt;yulica37@ncsoft.com&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Dasom Han&lt;/td&gt;
+ &lt;td&gt;NCSOFT&lt;/td&gt;
+ &lt;td&gt;&lt;a href="mailto:dasom12@ncsoft.com"&gt;dasom12@ncsoft.com&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="license"&gt;License&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://creativecommons.org/licenses/by/4.0/"&gt;CC-BY 4.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;</description></item><item><title>Open Source Compliance in the Enterprise 요약 자료</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/11/23/open-source-compliance-in-the-enterprise-%EC%9A%94%EC%95%BD-%EC%9E%90%EB%A3%8C/</link><pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/11/23/open-source-compliance-in-the-enterprise-%EC%9A%94%EC%95%BD-%EC%9E%90%EB%A3%8C/</guid><description>&lt;h2 id="open-source-compliance-in-the-enterprise-책-소개"&gt;Open Source Compliance in the Enterprise 책 소개&lt;/h2&gt;
+&lt;p&gt;이 책은 &lt;a href="https://www.ibrahimatlinux.com/about.html"&gt;Ibrahim Haddad&lt;/a&gt;가 저술하고 &lt;a href="https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/"&gt;Linux Foundation&lt;/a&gt;에서 발간하였습니다.&lt;/p&gt;
+&lt;img src="featured-book.png" width="300"&gt;
+&lt;p&gt;기업에서 오픈소스 컴플라이언스 프로그램을 구축할때 고려해야 사항들을 자세히 설명하며 다음 링크에서 누구나 다운로드 가능합니다. : &lt;a href="https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/"&gt;Download&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="한국어-요약"&gt;한국어 요약&lt;/h2&gt;
+&lt;p&gt;NCSOFT에서는 이 책의 주요 내용을 한글로 요약하였고 저자인 Ibrahim으로부터 허가를 받은 후 국내 기업의 오픈소스 담당자들이 참고할 수 있도록 공개하였습니다.&lt;/p&gt;
+&lt;p&gt;특히, 이를 GitHub에 공유하여 누구나 참고하고, 개선하여 계속 발전시킬 수 있게 하였습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub : &lt;a href="https://github.com/ncsoft/osc-enterprise-ko/"&gt;https://github.com/ncsoft/osc-enterprise-ko/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;License : CC BY 4.0&lt;/li&gt;
+&lt;li&gt;발표자료 : &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/11/23/open-source-compliance-in-the-enterprise-%EC%9A%94%EC%95%BD-%EC%9E%90%EB%A3%8C/OSC-Enterprise-ko_OpenchainKWG_20200317_FN.pdf"&gt;OSC-Enterprise-ko_Openchain_KWG_20200317_FN.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="기여자-현황"&gt;기여자 현황&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Name&lt;/th&gt;
+ &lt;th&gt;Company&lt;/th&gt;
+ &lt;th&gt;Email&lt;/th&gt;
+ &lt;th&gt;Role&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Dasom Han&lt;/td&gt;
+ &lt;td&gt;NCSOFT&lt;/td&gt;
+ &lt;td&gt;&lt;a href="mailto:dasom12@ncsoft.com"&gt;dasom12@ncsoft.com&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Maintainer&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Peter Jiho Han&lt;/td&gt;
+ &lt;td&gt;NCSOFT&lt;/td&gt;
+ &lt;td&gt;&lt;a href="mailto:yulica37@ncsoft.com"&gt;yulica37@ncsoft.com&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Contributor&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;</description></item></channel></rss>
