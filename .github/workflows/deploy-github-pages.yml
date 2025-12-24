@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - master  # <-- specify the branch you want to deploy from
-    pull_request:
+      - master  # <-- 배포 기준 브랜치 (main 또는 master 확인 필요)
+  pull_request:
 
 env:
   REPO_NAME: ${{ github.event.repository.name }}
@@ -23,12 +23,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0         # Fetch all history for .GitInfo and .Lastmod
+          fetch-depth: 0    # .GitInfo 및 .Lastmod를 위해 전체 히스토리 가져오기
+
+      # [NEW] package.json에서 hugo-extended 버전 자동 추출
+      - name: Get Hugo version from package.json
+        id: hugo-version
+        run: |
+          HUGO_VERSION=$(npm pkg get dependencies.hugo-extended | tr -d '"')
+          echo "Detected Hugo version: $HUGO_VERSION"
+          echo "HUGO_VERSION=$HUGO_VERSION" >> $GITHUB_OUTPUT
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.125.5'
+          hugo-version: ${{ steps.hugo-version.outputs.HUGO_VERSION }}
           extended: true
 
       - name: Setup Node
@@ -43,6 +51,6 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
-        if: ${{ github.ref == 'refs/heads/master' }} # <-- specify same branch as above here
+        if: ${{ github.ref == 'refs/heads/master' }} # <-- 브랜치 이름이 master인지 확인
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
