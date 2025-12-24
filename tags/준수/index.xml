@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>준수 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%A4%80%EC%88%98/</link><description>Recent content in 준수 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%A4%80%EC%88%98/index.xml" rel="self" type="application/rss+xml"/><item><title>6. 준수 선언</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/6-conforming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/6-conforming/</guid><description>ISO/IEC 5230과 ISO/IEC 18974의 모든 요구사항을 준수하는 오픈소스 프로그램(오픈소스 정책 / 프로세스 / 도구 / 조직)을 구축한 기업은 다음 두 가지를 문서화하여 명시해야 합니다.
-(1) 표준 요구사항 충족 확인 ISO/IEC 5230과 ISO/IEC 18974는 다음과 같이 프로그램이 모든 요구사항을 충족함을 확인하는 문서를 요구합니다:
-ISO/IEC 5230 - License Compliance 3.6.1.1 A document affirming the program specified in §3.1.4 satisfies all the requirements of this document.
-3.1.4조에서 명시한 프로그램이 이 규격의 모든 요구사항을 충족함을 확인하는 문서 ISO/IEC 18974 - Security Assurance 3.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>준수 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%A4%80%EC%88%98/</link><description>Recent content in 준수 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%A4%80%EC%88%98/index.xml" rel="self" type="application/rss+xml"/><item><title>6. 준수 선언</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/6-conforming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/6-conforming/</guid><description>&lt;p&gt;ISO/IEC 5230과 ISO/IEC 18974의 모든 요구사항을 준수하는 오픈소스 프로그램(오픈소스 정책 / 프로세스 / 도구 / 조직)을 구축한 기업은 다음 두 가지를 문서화하여 명시해야 합니다.&lt;/p&gt;
+&lt;h3 id="1-표준-요구사항-충족-확인"&gt;(1) 표준 요구사항 충족 확인&lt;/h3&gt;
+&lt;p&gt;ISO/IEC 5230과 ISO/IEC 18974는 다음과 같이 프로그램이 모든 요구사항을 충족함을 확인하는 문서를 요구합니다:&lt;/p&gt;
+&lt;div class="alert alert-success" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;ISO/IEC 5230 - License Compliance&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;3.6.1.1 A document affirming the program specified in §3.1.4 satisfies all the requirements of this document.&lt;br&gt;&lt;code&gt;3.1.4조에서 명시한 프로그램이 이 규격의 모든 요구사항을 충족함을 확인하는 문서&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;ISO/IEC 18974 - Security Assurance&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;3.4.1.1: Documented Evidence affirming the Program specified in §3.1.4 satisfies all the requirements of this document.&lt;br&gt;&lt;code&gt;§3.1.4에 명시된 프로그램이 이 문서의 모든 요구 사항을 충족함을 확인하는 문서화된 증거.&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;이를 위해 기업은 다음과 같은 내용을 포함하는 문서를 작성해야 합니다:&lt;/p&gt;</description></item></channel></rss>

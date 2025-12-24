@@ -1,1 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>호환성 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%ED%98%B8%ED%99%98%EC%84%B1/</link><description>Recent content in 호환성 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Tue, 03 Dec 2024 10:35:13 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%ED%98%B8%ED%99%98%EC%84%B1/index.xml" rel="self" type="application/rss+xml"/><item><title>18th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/18th-meeting/</link><pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/18th-meeting/</guid><description>Schedule 목적 : Tooling and Legal Subgroup 18차 회의 일시 : 2024년 10월 8일(화) 14:00 ~ 17:00 장소 : 마곡 사이언스파크 ISC동 7층 회의실 (서울 강서구 마곡중앙10로 30) Attendees ETRI LG AI연구원 LG전자 NHN SK주식회사 안랩 카카오 Agenda No Subject Speaker Slide 0 Community Updates and New Issues: 논문 분석(GPLv2와 Apache 2,0의 양립성 이슈) ETRI 박정숙 pdf 1 (소송사례) Neo4j, Inc. v. PureThink, LLC LG전자 박원재 pdf</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>호환성 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%ED%98%B8%ED%99%98%EC%84%B1/</link><description>Recent content in 호환성 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Tue, 03 Dec 2024 10:35:13 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%ED%98%B8%ED%99%98%EC%84%B1/index.xml" rel="self" type="application/rss+xml"/><item><title>18th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/18th-meeting/</link><pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/18th-meeting/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;목적 : Tooling and Legal Subgroup 18차 회의&lt;/li&gt;
+&lt;li&gt;일시 : 2024년 10월 8일(화) 14:00 ~ 17:00&lt;/li&gt;
+&lt;li&gt;장소 : 마곡 사이언스파크 ISC동 7층 회의실 (서울 강서구 마곡중앙10로 30)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="attendees"&gt;Attendees&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ETRI&lt;/li&gt;
+&lt;li&gt;LG AI연구원&lt;/li&gt;
+&lt;li&gt;LG전자&lt;/li&gt;
+&lt;li&gt;NHN&lt;/li&gt;
+&lt;li&gt;SK주식회사&lt;/li&gt;
+&lt;li&gt;안랩&lt;/li&gt;
+&lt;li&gt;카카오&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="agenda"&gt;Agenda&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;No&lt;/th&gt;
+ &lt;th&gt;Subject&lt;/th&gt;
+ &lt;th&gt;Speaker&lt;/th&gt;
+ &lt;th&gt;Slide&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;Community Updates and New Issues: 논문 분석(GPLv2와 Apache 2,0의 양립성 이슈)&lt;/td&gt;
+ &lt;td&gt;ETRI 박정숙&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/18th-meeting/session0_etri.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;(소송사례) Neo4j, Inc. v. PureThink, LLC&lt;/td&gt;
+ &lt;td&gt;LG전자 박원재&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/18th-meeting/session1_lge.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!-- 
+
+## Attendees
+
+## Meeting Minutes
+
+## Photo Gallery
+
+&lt;div &gt;&lt;span class="image fit"&gt;
+&lt;/span&gt;&lt;/div&gt; --&gt;</description></item></channel></rss>

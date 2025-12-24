@@ -1,2 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CHAOSS on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/chaoss/</link><description>Recent content in CHAOSS on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Mon, 15 Dec 2025 17:43:24 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/chaoss/index.xml" rel="self" type="application/rss+xml"/><item><title>2024-12-12 CHAOSS Practitioner Guides를 활용한 건강하고 지속 가능한 OSS 프로젝트 구축</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/resource/webinar/2024-12-12/</link><pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/resource/webinar/2024-12-12/</guid><description>source: https://openchainproject.org/news/2024/12/12/webinar-chaoss-practitioner-guides
-목차 발표자 소개 웨비나 소개와 목적 CHAOSS 프로젝트 개요 Practitioner Guide 주요 내용 Responsiveness (응답성) Contributor Sustainability (기여자 지속 가능성) Organizational Participation (조직 참여) Security (보안) 청중 질문과 답변 결론 및 주요 시사점 1. 발표자 소개 이번 웨비나의 발표자는 Dawn Foster로, 오픈소스 커뮤니티와 데이터 과학 분야에서 오랜 경력을 쌓아온 전문가입니다. Dawn은 CHAOSS 프로젝트의 데이터 과학 리더이자 이사회 멤버로 활동 중이며, CNCF Contributor Strategy Technical Advisory Group의 공동 의장 및 OpenUK 이사로도 활약하고 있습니다.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CHAOSS on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/chaoss/</link><description>Recent content in CHAOSS on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Mon, 15 Dec 2025 17:43:24 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/chaoss/index.xml" rel="self" type="application/rss+xml"/><item><title>2024-12-12 CHAOSS Practitioner Guides를 활용한 건강하고 지속 가능한 OSS 프로젝트 구축</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/resource/webinar/2024-12-12/</link><pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/resource/webinar/2024-12-12/</guid><description>&lt;p&gt;source: &lt;a href="https://openchainproject.org/news/2024/12/12/webinar-chaoss-practitioner-guides"&gt;https://openchainproject.org/news/2024/12/12/webinar-chaoss-practitioner-guides&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="목차"&gt;목차&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;발표자 소개&lt;/li&gt;
+&lt;li&gt;웨비나 소개와 목적&lt;/li&gt;
+&lt;li&gt;CHAOSS 프로젝트 개요&lt;/li&gt;
+&lt;li&gt;Practitioner Guide 주요 내용
+&lt;ul&gt;
+&lt;li&gt;Responsiveness (응답성)&lt;/li&gt;
+&lt;li&gt;Contributor Sustainability (기여자 지속 가능성)&lt;/li&gt;
+&lt;li&gt;Organizational Participation (조직 참여)&lt;/li&gt;
+&lt;li&gt;Security (보안)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;청중 질문과 답변&lt;/li&gt;
+&lt;li&gt;결론 및 주요 시사점&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id="1-발표자-소개"&gt;1. 발표자 소개&lt;/h2&gt;
+&lt;p&gt;이번 웨비나의 발표자는 &lt;strong&gt;Dawn Foster&lt;/strong&gt;로, 오픈소스 커뮤니티와 데이터 과학 분야에서 오랜 경력을 쌓아온 전문가입니다. Dawn은 CHAOSS 프로젝트의 데이터 과학 리더이자 이사회 멤버로 활동 중이며, CNCF Contributor Strategy Technical Advisory Group의 공동 의장 및 OpenUK 이사로도 활약하고 있습니다. 그녀는 오픈소스 프로젝트의 건강성과 지속 가능성을 개선하기 위해 데이터 기반 접근 방식을 제안하며, CHAOSS 프로젝트 내 다양한 활동을 이끌고 있습니다.&lt;/p&gt;</description></item></channel></rss>

@@ -1,5 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>부록 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/nipa_openchain/appendix/</link><description>Recent content in 부록 on OpenChain KWG</description><generator>Hugo</generator><language>en</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/nipa_openchain/appendix/index.xml" rel="self" type="application/rss+xml"/><item><title>1. 샘플 오픈소스 정책 for OpenChain 2.1</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/nipa_openchain/appendix/1-policy-template/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/nipa_openchain/appendix/1-policy-template/</guid><description>Note: 이 오픈소스 정책 for OpenChain 2.0(예)은 다음 두가지 자료를 참고하여 작성하였다.
-OpenChain Open Source Policy Template : https://github.com/OpenChain-Project/Reference-Material/blob/master/Policy-Templates/Official/en/2.0/Open-Source-Policy-Template-2.0-en.xlsx Linux Foundation Generic FOSS Policy : https://github.com/todogroup/policies/blob/master/linuxfoundation/lf_compliance_generic_policy.pdf OO회사 오픈소스 정책 1. 목적 이 정책은 오픈소스를 사용하는 조직 전체가 오픈소스 컴플라이언스 활동을 수행하도록 수립되었다. 또한 이 정책은 직원들이 오픈소스의 가치를 이해하게 하고, 오픈소스 커뮤니티에 기여하기 위한 방법을 제공한다.
-&amp;lt;OO회사&amp;gt;의 직원은 이 정책의 근거와 내용을 이해하고 필요한 활동을 충실히 수행함으로써 정책의 효과 및 회사의 컴플라이언스 수준 향상에 기여한다.</description></item><item><title>2. 오픈소스 컴플라이언스 프로세스 (template)</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/nipa_openchain/appendix/2-process-template/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/nipa_openchain/appendix/2-process-template/</guid><description>오픈소스 컴플라이언스의 주요 두가지 목적은 다음과 같다.
-의무 파악 : 공급 대상 소프트웨어가 포함하고 있는 오픈소스를 식별하고 각 오픈소스 라이선스가 요구하는 의무를 파악한다. 의무 사항 이행 : 식별한 의무 사항을 이행한다. 이를 위해 기업은 공급 대상 소프트웨어를 배포하는 시점에 오픈소스 라이선스 의무사항을 준수할 수 있도록 오픈소스 컴플라이언스 프로세스를 구축해야 한다. 여기서는 일반적인 오픈소스 컴플라이언스 프로세스의 구성요소와 각각의 기능 및 역할을 포함하는 프로세스(예시)를 제안한다.
-Note: 이 오픈소스 컴플라이언스 프로세스 (예시)는 다음 자료를 참고하여 작성하였다.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>부록 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/nipa_openchain/appendix/</link><description>Recent content in 부록 on OpenChain KWG</description><generator>Hugo</generator><language>en</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/nipa_openchain/appendix/index.xml" rel="self" type="application/rss+xml"/><item><title>1. 샘플 오픈소스 정책 for OpenChain 2.1</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/nipa_openchain/appendix/1-policy-template/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/nipa_openchain/appendix/1-policy-template/</guid><description>&lt;div class="alert alert-primary" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;Note:&lt;/div&gt;
+
+
+이 오픈소스 정책 for OpenChain 2.0\(예\)은 다음 두가지 자료를 참고하여 작성하였다.
+
+1. OpenChain Open Source Policy Template : [https://github.com/OpenChain-Project/Reference-Material/blob/master/Policy-Templates/Official/en/2.0/Open-Source-Policy-Template-2.0-en.xlsx](https://github.com/OpenChain-Project/Reference-Material/blob/master/Policy-Templates/Official/en/2.0/Open-Source-Policy-Template-2.0-en.xlsx)
+2. Linux Foundation Generic FOSS Policy : [https://github.com/todogroup/policies/blob/master/linuxfoundation/lf\_compliance\_generic\_policy.pdf](https://github.com/todogroup/policies/blob/master/linuxfoundation/lf_compliance_generic_policy.pdf)
+&lt;/div&gt;
+
+&lt;h2 id="oo회사-오픈소스-정책"&gt;OO회사 오픈소스 정책&lt;/h2&gt;
+&lt;h3 id="1-목적"&gt;1. 목적&lt;/h3&gt;
+&lt;p&gt;이 정책은 오픈소스를 사용하는 조직 전체가 오픈소스 컴플라이언스 활동을 수행하도록 수립되었다. 또한 이 정책은 직원들이 오픈소스의 가치를 이해하게 하고, 오픈소스 커뮤니티에 기여하기 위한 방법을 제공한다.&lt;/p&gt;
+&lt;p&gt;&amp;lt;OO회사&amp;gt;의 직원은 이 정책의 근거와 내용을 이해하고 필요한 활동을 충실히 수행함으로써 정책의 효과 및 회사의 컴플라이언스 수준 향상에 기여한다.&lt;/p&gt;</description></item><item><title>2. 오픈소스 컴플라이언스 프로세스 (template)</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/nipa_openchain/appendix/2-process-template/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/nipa_openchain/appendix/2-process-template/</guid><description>&lt;p&gt;오픈소스 컴플라이언스의 주요 두가지 목적은 다음과 같다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;의무 파악 : 공급 대상 소프트웨어가 포함하고 있는 오픈소스를 식별하고 각 오픈소스 라이선스가 요구하는 의무를 파악한다.&lt;/li&gt;
+&lt;li&gt;의무 사항 이행 : 식별한 의무 사항을 이행한다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;이를 위해 기업은 공급 대상 소프트웨어를 배포하는 시점에 오픈소스 라이선스 의무사항을 준수할 수 있도록 오픈소스 컴플라이언스 프로세스를 구축해야 한다. 여기서는 일반적인 오픈소스 컴플라이언스 프로세스의 구성요소와 각각의 기능 및 역할을 포함하는 프로세스(예시)를 제안한다.&lt;/p&gt;
+&lt;div class="alert alert-primary" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;Note:&lt;/div&gt;
+
+
+이 오픈소스 컴플라이언스 프로세스 \(예시\)는 다음 자료를 참고하여 작성하였다. 
+
+* Open Source Compliance In The Enterprise / Ibrahim Haddad : [https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/](https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/)
+
+&lt;/div&gt;
+
+&lt;h2 id="oo-회사-오픈소스-컴플라이언스-프로세스-예시"&gt;&amp;lt;OO 회사&amp;gt; 오픈소스 컴플라이언스 프로세스 (예시)&lt;/h2&gt;
+&lt;p&gt;&amp;lt;OO 회사&amp;gt;의 오픈소스 정책에 근거하여 오픈소스를 사용하기 위해서는 먼저 오픈소스 라이선스가 무엇인지 식별하고, 라이선스가 요구하는 의무 사항을 검토하고 확인해야 한다. 그렇게 공급 대상 소프트웨어에 포함된 오픈소스와 라이선스 의무사항을 식별하고, 소프트웨어를 배포 시 라이선스 의무사항을 준수하기 위한 오픈소스 컴플라이언스 활동을 해야 한다.&lt;/p&gt;</description></item></channel></rss>
