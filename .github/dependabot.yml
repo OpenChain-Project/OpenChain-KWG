@@ -8,22 +8,13 @@ updates:
       time: "20:00"
     open-pull-requests-limit: 10
 
-  # 2. Bundler (Ruby 관련 의존성)
-  - package-ecosystem: "bundler"
-    directory: "/"
-    schedule:
-      interval: "daily"
-      time: "20:00"
-    open-pull-requests-limit: 10
-
-  # 3. [NEW] Go 모듈 (Docsy 테마 등) - 매주 확인
+  # 2. Go 모듈 (Docsy 테마 등)
   - package-ecosystem: "gomod"
     directory: "/"
     schedule:
       interval: "weekly"
       time: "20:00"
     open-pull-requests-limit: 10
-    # 테마 관련 업데이트를 하나의 PR로 묶기
     groups:
        dependencies:
           patterns:
