@@ -6,7 +6,7 @@ categories: ["guide"]
 tags: ["프로세스"]
 ---
 
-{{< alert title="Note:" >}}
+{{% alert title="Note:" %}}
 This sample open source process was written with reference to the following two materials.
 
 1. [OpenChain Open Source Policy Template](https://github.com/OpenChain-Project/Reference-Material/tree/master/Policy-Templates/Official/2.1/en)
@@ -14,7 +14,7 @@ This sample open source process was written with reference to the following two 
 
 **Author : OpenChain Korea Work Group Authors / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**
 
-{{< /alert >}}
+{{% /alert %}}
 
 OO 회사(이하 “회사"라 함)는 소프트웨어를 포함하는 제품과 서비스를 개발하면서 오픈소스 소프트웨어를 적극적으로 활용합니다. 회사는 오픈소스 리스크를 최소화하기 위해 소프트웨어를 배포하면서 (1) 오픈소스 라이선스가 부과하는 의무사항을 준수하기 위한 활동과 (2) 오픈소스 보안 취약점을 검출하고 후속 조치를 위한 적절한 활동을 수행해야 합니다. 이러한 활동을 보장하기 위해 오픈소스 프로세스를 따릅니다.
 
