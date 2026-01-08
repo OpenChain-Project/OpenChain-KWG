@@ -6,7 +6,8 @@ categories: ["guide"]
 tags: ["정책"]
 ---
 
-{{< alert title="Note:" >}}
+{{% alert title="Note:" %}}
+
 This sample open source policy was written with reference to the following two materials.
 
 1. [OpenChain Open Source Policy Template](https://github.com/OpenChain-Project/Reference-Material/tree/master/Policy-Templates/Official/2.1/en)
@@ -14,7 +15,7 @@ This sample open source policy was written with reference to the following two m
 
 **Author : OpenChain Korea Work Group Authors / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**
 
-{{< /alert >}}
+{{% /alert %}}
 
 ## 1. 목적 및 적용 범위
 
