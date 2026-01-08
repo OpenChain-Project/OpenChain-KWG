@@ -194,17 +194,13 @@ OpenChain 프로젝트는 기업이 자체적으로 OpenChain 규격을 충족�
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;</description></item><item><title>오픈소스 정책</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/templates/1-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/templates/1-policy/</guid><description>&lt;div class="alert alert-primary" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;Note:&lt;/div&gt;
-
-
-This sample open source policy was written with reference to the following two materials.
-
-1. [OpenChain Open Source Policy Template](https://github.com/OpenChain-Project/Reference-Material/tree/master/Policy-Templates/Official/2.1/en)
-2. [Linux Foundation Generic FOSS Policy](https://github.com/todogroup/policies/blob/master/linuxfoundation/lf_compliance_generic_policy.pdf)
-
-**Author : OpenChain Korea Work Group Authors / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**
-
+&lt;p&gt;This sample open source policy was written with reference to the following two materials.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="https://github.com/OpenChain-Project/Reference-Material/tree/master/Policy-Templates/Official/2.1/en"&gt;OpenChain Open Source Policy Template&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/todogroup/policies/blob/master/linuxfoundation/lf_compliance_generic_policy.pdf"&gt;Linux Foundation Generic FOSS Policy&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Author : OpenChain Korea Work Group Authors / &lt;a href="https://creativecommons.org/licenses/by/4.0/"&gt;CC BY 4.0&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;/div&gt;
-
 &lt;h2 id="1-목적-및-적용-범위"&gt;1. 목적 및 적용 범위&lt;/h2&gt;
 &lt;h3 id="11-목적"&gt;1.1 목적&lt;/h3&gt;
 &lt;p&gt;이 정책은 회사가 오픈소스 소프트웨어를 안전하고 효과적으로 활용하기 위한 원칙과 절차를 제공합니다. 정책의 주요 목적은 다음과 같습니다:&lt;/p&gt;
@@ -244,21 +240,17 @@ This sample open source policy was written with reference to the following two m
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;p&gt;일반적인 오픈소스 정책은 다음을 포함합니다. 기업은 이러한 원칙을 포함한 오픈소스 정책을 만들어서 문서화해야 합니다:&lt;/p&gt;</description></item><item><title>오픈소스 프로세스</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/templates/2-process-template/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/templates/2-process-template/</guid><description>&lt;div class="alert alert-primary" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;Note:&lt;/div&gt;
-
-
-This sample open source process was written with reference to the following two materials.
-
-1. [OpenChain Open Source Policy Template](https://github.com/OpenChain-Project/Reference-Material/tree/master/Policy-Templates/Official/2.1/en)
-2. [Open Source Compliance In The Enterprise](https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/)
-
-**Author : OpenChain Korea Work Group Authors / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**
-
+&lt;p&gt;This sample open source process was written with reference to the following two materials.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="https://github.com/OpenChain-Project/Reference-Material/tree/master/Policy-Templates/Official/2.1/en"&gt;OpenChain Open Source Policy Template&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/"&gt;Open Source Compliance In The Enterprise&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Author : OpenChain Korea Work Group Authors / &lt;a href="https://creativecommons.org/licenses/by/4.0/"&gt;CC BY 4.0&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;/div&gt;
-
 &lt;p&gt;OO 회사(이하 “회사&amp;quot;라 함)는 소프트웨어를 포함하는 제품과 서비스를 개발하면서 오픈소스 소프트웨어를 적극적으로 활용합니다. 회사는 오픈소스 리스크를 최소화하기 위해 소프트웨어를 배포하면서 (1) 오픈소스 라이선스가 부과하는 의무사항을 준수하기 위한 활동과 (2) 오픈소스 보안 취약점을 검출하고 후속 조치를 위한 적절한 활동을 수행해야 합니다. 이러한 활동을 보장하기 위해 오픈소스 프로세스를 따릅니다.&lt;/p&gt;</description></item><item><title>3. 프로세스</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/3-process/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/3-process/</guid><description>&lt;p&gt;오픈소스 프로세스는 소프트웨어 개발 및 배포 과정에서 기업이 오픈소스 정책을 준수할 수 있도록 하는 실행 가능한 절차입니다.&lt;/p&gt;
 &lt;p&gt;오픈소스 라이선스 컴플라이언스 측면에서는 공급 소프트웨어를 개발하고 배포하면서 사용한 오픈소스에 대해 각 라이선스가 요구하는 조건을 준수하기 위한 활동을 수행하여 오픈소스 고지문(Notice), 공개할 소스 코드 (Source Code) 등의 컴플라이언스 산출물을 생성하게 됩니다.&lt;/p&gt;
 &lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 702px"&gt;
-&lt;img class="card-img-top" src="https://OpenChain-Project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/3-process/input_hu_8a040dc8332130b8.png" width="692" height="176"&gt;
+&lt;img class="card-img-top" src="https://OpenChain-Project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/3-process/input_hu_9c508b8a4602861d.png" width="692" height="176"&gt;
 &lt;figcaption class="card-body px-0 pt-2 pb-0"&gt;
 &lt;p class="card-text"&gt;
 
