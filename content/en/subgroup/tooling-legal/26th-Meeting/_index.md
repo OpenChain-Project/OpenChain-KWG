@@ -21,9 +21,9 @@ description: Tooling & Legal Subgroup 26th Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues | TBD | TBD |
-| 1  | TBD | Labrador Labs | TBD |
-
+| 0  | Community Updates & New Issues | LG Electronics, Park Wonjae | TBD |
+| 1  | Make Black Duck More User Friendly 02 | Ahnlab, Kim Gangbo | TBD |
+| 2  | TBD | TBD, Labrador Labs | TBD |
 <!--
 
 ## Attendees
