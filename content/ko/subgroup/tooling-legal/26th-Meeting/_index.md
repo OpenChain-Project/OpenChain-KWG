@@ -23,9 +23,8 @@ description: Tooling & Legal Subgroup 26th Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues | LG전자, 박원재 | TBD |
+| 0  | Community Updates & New Issues | ETRI, 박정숙 / LG전자, 박원재 | TBD |
 | 1  | Black Duck을 좀 더 편하게 02 | 안랩, 김강보 | TBD |
-| 2  | TBD | TBD, Labrador Labs | TBD |
 
 <!--
 
