@@ -23,7 +23,8 @@ description: Tooling & Legal Subgroup 26th Meeting
 |----|-----------------|------|------|
 | 0  | Community Updates & New Issues | ETRI, Park Jeong-sook / LG Electronics, Park Wonjae | TBD |
 | 1  | Make Black Duck More User Friendly 02 | Ahnlab, Kim Gangbo | [pdf](2_Ahnlab_KimGangbo.pdf) |
-| 2  | Discussion on OSS Notice | LG Electronics, Park Wonjae | N/A |
+| 2  | (Draft) Sharing Open Source Management System and Discussion | KB Kookmin Bank, Kang Jieun | N/A |
+| 3  | Discussion on OSS Notice | LG Electronics, Park Wonjae | N/A |
 <!--
 
 ## Attendees
