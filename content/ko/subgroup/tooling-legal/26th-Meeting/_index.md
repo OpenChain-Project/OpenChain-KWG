@@ -24,7 +24,8 @@ description: Tooling & Legal Subgroup 26th Meeting
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Community Updates & New Issues | ETRI, 박정숙 / LG전자, 박원재 | TBD |
-| 1  | Black Duck을 좀 더 편하게 02 | 안랩, 김강보 | TBD |
+| 1  | Black Duck을 좀 더 편하게 02 | 안랩, 김강보 | [pdf](2_Ahnlab_KimGangbo.pdf) |
+| 2  | OSS Notice 관련 논의 | LG전자, 박원재 | N/A |
 
 <!--
 
