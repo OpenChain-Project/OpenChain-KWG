@@ -15,7 +15,19 @@ description: Tooling & Legal Subgroup 26th Meeting
 * 장소 : ETRI 서울사무소
 
 ## Attendees
-* TBD
+* ETRI
+* KB 국민은행
+* KT
+* LG전자
+* Line Plus
+* NHN
+* SK텔레콤
+* 삼성전자
+* 안랩
+* 카카오
+* 한글과컴퓨터
+* 현대모비스
+* 현대오토에버
 
 ## Invitee
 * N/A
@@ -23,10 +35,10 @@ description: Tooling & Legal Subgroup 26th Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues | LG전자, 박원재 | TBD |
-| 1  | Black Duck을 좀 더 편하게 02 | 안랩, 김강보 | [pdf](2_Ahnlab_KimGangbo.pdf) |
-| 2  | (가제) 오픈소스 관리체계 공유 및 토론 | KB국민은행, 강지은 | N/A |
-| 3  | 오픈소스 라이선스와는 다른, AI 라이선스 | LINE Plus, 김동혁 | TBD |
+| 0  | Community Updates & New Issues | LG전자, 박원재 | [pdf](0_CommunityUpdates_NewIssues_LGE.pdf) |
+| 1  | Black Duck을 좀 더 편하게 02 | 안랩, 김강보 | [pdf](1_Ahnlab_KimGangbo.pdf) |
+| 2  | 오픈소스 관리체계 공유 및 토론 | KB국민은행, 강지은 | N/A |
+| 3  | 오픈소스 라이선스와는 다른, AI 라이선스 | LINE Plus, 김동혁 | N/A |
 | 4  | OSS Notice 관련 논의 | LG전자, 박원재 | N/A |
 
 <!--
