@@ -2,7 +2,7 @@
 ---
 title: "2026"
 linkTitle: "2026"
-weight: 50
+weight: 30
 ---
 
 
