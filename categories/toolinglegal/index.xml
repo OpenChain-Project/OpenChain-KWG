@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tooling&amp;Legal on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/categories/toolinglegal/</link><description>Recent content in Tooling&amp;Legal on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Wed, 11 Feb 2026 15:05:40 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/categories/toolinglegal/index.xml" rel="self" type="application/rss+xml"/><item><title>17th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/17th-meeting/</link><pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/17th-meeting/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tooling&amp;Legal on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/categories/toolinglegal/</link><description>Recent content in Tooling&amp;Legal on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Fri, 20 Feb 2026 20:37:10 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/categories/toolinglegal/index.xml" rel="self" type="application/rss+xml"/><item><title>17th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/17th-meeting/</link><pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/17th-meeting/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;목적 : Tooling and Legal Subgroup 17차 회의&lt;/li&gt;
 &lt;li&gt;일시 : 2024년 8월 13일(수) 14:00 ~ 16:30&lt;/li&gt;
@@ -588,7 +588,19 @@
 &lt;/ul&gt;
 &lt;h2 id="attendees"&gt;Attendees&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;TBD&lt;/li&gt;
+&lt;li&gt;ETRI&lt;/li&gt;
+&lt;li&gt;KB 국민은행&lt;/li&gt;
+&lt;li&gt;KT&lt;/li&gt;
+&lt;li&gt;LG전자&lt;/li&gt;
+&lt;li&gt;Line Plus&lt;/li&gt;
+&lt;li&gt;NHN&lt;/li&gt;
+&lt;li&gt;SK텔레콤&lt;/li&gt;
+&lt;li&gt;삼성전자&lt;/li&gt;
+&lt;li&gt;안랩&lt;/li&gt;
+&lt;li&gt;카카오&lt;/li&gt;
+&lt;li&gt;한글과컴퓨터&lt;/li&gt;
+&lt;li&gt;현대모비스&lt;/li&gt;
+&lt;li&gt;현대오토에버&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="invitee"&gt;Invitee&lt;/h2&gt;
 &lt;ul&gt;
@@ -609,17 +621,17 @@
  &lt;td&gt;0&lt;/td&gt;
  &lt;td&gt;Community Updates &amp;amp; New Issues&lt;/td&gt;
  &lt;td&gt;LG전자, 박원재&lt;/td&gt;
- &lt;td&gt;TBD&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/26th-meeting/0_CommunityUpdates_NewIssues_LGE.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;1&lt;/td&gt;
  &lt;td&gt;Black Duck을 좀 더 편하게 02&lt;/td&gt;
  &lt;td&gt;안랩, 김강보&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/26th-meeting/2_Ahnlab_KimGangbo.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/26th-meeting/1_Ahnlab_KimGangbo.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;2&lt;/td&gt;
- &lt;td&gt;(가제) 오픈소스 관리체계 공유 및 토론&lt;/td&gt;
+ &lt;td&gt;오픈소스 관리체계 공유 및 토론&lt;/td&gt;
  &lt;td&gt;KB국민은행, 강지은&lt;/td&gt;
  &lt;td&gt;N/A&lt;/td&gt;
  &lt;/tr&gt;
@@ -627,10 +639,106 @@
  &lt;td&gt;3&lt;/td&gt;
  &lt;td&gt;오픈소스 라이선스와는 다른, AI 라이선스&lt;/td&gt;
  &lt;td&gt;LINE Plus, 김동혁&lt;/td&gt;
- &lt;td&gt;TBD&lt;/td&gt;
+ &lt;td&gt;N/A&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;OSS Notice 관련 논의&lt;/td&gt;
+ &lt;td&gt;LG전자, 박원재&lt;/td&gt;
+ &lt;td&gt;N/A&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!--
+
+## Attendees
+
+## Meeting Minutes
+
+## Photo Gallery
+
+&lt;div &gt;&lt;span class="image fit"&gt;
+&lt;/span&gt;&lt;/div&gt; --&gt;</description></item><item><title>27th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/27th-meeting/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/27th-meeting/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;목적 : Tooling and Legal Subgroup 27차 회의&lt;/li&gt;
+&lt;li&gt;일시 : 2026년 4월 9일(목) 14:00 ~ 18:00&lt;/li&gt;
+&lt;li&gt;장소 : 여의도 KB국민은행 신관 3층 스타프렌즈1 (서울 영등포구 의사당대로 141)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="attendees"&gt;Attendees&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;TBD&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="invitee"&gt;Invitee&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;TBD&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="agenda"&gt;Agenda&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;No&lt;/th&gt;
+ &lt;th&gt;Subject&lt;/th&gt;
+ &lt;th&gt;Speaker&lt;/th&gt;
+ &lt;th&gt;Slide&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;Community Updates &amp;amp; New Issues&lt;/td&gt;
+ &lt;td&gt;TBD&lt;/td&gt;
+ &lt;td&gt;TBD&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;_&lt;/td&gt;
+ &lt;td&gt;OSS Notice 관련 논의&lt;/td&gt;
+ &lt;td&gt;LG전자, 박원재&lt;/td&gt;
+ &lt;td&gt;N/A&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!--
+
+## Attendees
+
+## Meeting Minutes
+
+## Photo Gallery
+
+&lt;div &gt;&lt;span class="image fit"&gt;
+&lt;/span&gt;&lt;/div&gt; --&gt;</description></item><item><title>28th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/28th-meeting-copy/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/28th-meeting-copy/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;목적 : Tooling and Legal Subgroup 28차 회의&lt;/li&gt;
+&lt;li&gt;일시 : 2026년 6월 11일(목) 14:00 ~ 18:00&lt;/li&gt;
+&lt;li&gt;장소 : 현대모비스 역삼&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="attendees"&gt;Attendees&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;TBD&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="invitee"&gt;Invitee&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;TBD&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="agenda"&gt;Agenda&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;No&lt;/th&gt;
+ &lt;th&gt;Subject&lt;/th&gt;
+ &lt;th&gt;Speaker&lt;/th&gt;
+ &lt;th&gt;Slide&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;Community Updates &amp;amp; New Issues&lt;/td&gt;
+ &lt;td&gt;TBD&lt;/td&gt;
+ &lt;td&gt;TBD&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;_&lt;/td&gt;
  &lt;td&gt;OSS Notice 관련 논의&lt;/td&gt;
  &lt;td&gt;LG전자, 박원재&lt;/td&gt;
  &lt;td&gt;N/A&lt;/td&gt;
