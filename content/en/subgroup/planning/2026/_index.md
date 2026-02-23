@@ -1,4 +1,4 @@
-----
+---
 title: "2026 Steering Committee"
 linkTitle: "2026"
 weight: 50
