@@ -5,7 +5,7 @@ type: docs
 categories: ["meeting"]
 tags: [""]
 description: >
- 2025년 6월 16일 (월)
+ 2025년 6월 16일 (월) / 삼성전자
 ---
 
 ## 일정

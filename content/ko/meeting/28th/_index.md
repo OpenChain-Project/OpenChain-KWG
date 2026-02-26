@@ -5,7 +5,7 @@ type: docs
 categories: ["meeting"]
 tags: [""]
 description: >
- 2025년 12월 9일 (화)
+ 2025년 12월 9일 (화) / 한컴
 ---
 
 ![](../../images/2025_goodbye.png)

@@ -5,7 +5,7 @@ type: docs
 categories: ["meeting"]
 tags: [""]
 description: >
- 2025년 10월 21일 (화)
+ 2025년 10월 21일 (화) / 오픈소스 테크데이
 ---
 
 ## 일정
