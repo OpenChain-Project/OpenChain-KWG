@@ -5,7 +5,7 @@ type: docs
 categories: ["meeting"]
 tags: [""]
 description: >
- Tuesday, June 9, 2026
+ Tuesday, June 9, 2026 / KakaoBank
 ---
 
 ## Schedule

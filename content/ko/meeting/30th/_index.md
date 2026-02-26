@@ -5,7 +5,7 @@ type: docs
 categories: ["meeting"]
 tags: [""]
 description: >
- 2026년 6월 9일 (화)
+ 2026년 6월 9일 (화) / 카카오뱅크
 ---
 
 ## 일정

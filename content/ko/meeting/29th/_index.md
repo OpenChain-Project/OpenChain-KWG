@@ -5,7 +5,7 @@ type: docs
 categories: ["meeting"]
 tags: [""]
 description: >
- 2026년 3월 24일 (화)
+ 2026년 3월 24일 (화) / 라인플러스
 ---
 
 ## 일정
