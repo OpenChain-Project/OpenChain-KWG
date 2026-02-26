@@ -5,7 +5,7 @@ type: docs
 categories: ["meeting"]
 tags: [""]
 description: >
- June 16, 2025 (Monday)
+ June 16, 2025 (Monday) / Samsung Electronics
 ---
 
 ## Schedule

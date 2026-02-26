@@ -5,7 +5,7 @@ type: docs
 categories: ["meeting"]
 tags: [""]
 description: >
-  December 9, 2025 (Tuesday)
+  December 9, 2025 (Tuesday) / Hancom
 ---
 
 ![](../../../images/2025_goodbye.png)

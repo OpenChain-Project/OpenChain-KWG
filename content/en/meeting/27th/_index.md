@@ -5,7 +5,7 @@ type: docs
 categories: ["meeting"]
 tags: [""]
 description: >
-  October 21, 2025 (Tue)
+  October 21, 2025 (Tue) / ETRI Open Source Tech Day 2025
 ---
 
 

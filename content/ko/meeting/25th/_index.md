@@ -5,7 +5,7 @@ type: docs
 categories: ["meeting"]
 tags: [""]
 description: >
- 2025년 3월 25일 (화)
+ 2025년 3월 25일 (화) / 한국디지털인증협회
 ---
 
 ## 일정
