@@ -19,7 +19,7 @@ description: >
 | Time        | Agenda                        | Speaker                          | Slide |
 |-------------|-------------------------------|----------------------------------|-------|
 | 14:00~14:10 | Welcome & Introduction        | Steering Committee               | - |
-| 14:10~14:30 | OpenChain Updates             | Steering Committee, Mary Meisia Wang, Executive Director, Linux Foundation              | - |
+| 14:10~14:30 | OpenChain Updates             | Steering Committee, Mary Meisia Wang, Executive Director, Linux Foundation              | [slide](https://gamma.app/docs/2026-1-OpenChain-Updates-7iwsddngu7alb9q) | |
 | 14:30~15:00 | Open Compliance Summit 2025 Review | Wonjae Park, LG Electronics      | - |
 | 15:00~15:20 | Break & Networking            | -                                | - |
 | 15:20~15:50 | AI License, distinct from Open Source License | Donghyuk Kim, LINE Plus          | - |
