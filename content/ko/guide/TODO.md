@@ -15,7 +15,7 @@ draft: true
 
 ### [즉시 수정] 오류 수정
 - [x] #1  OSV-SCALIBR 페이지 전면 재작성 (tools/4-osvscalibr/_index.md)
-- [ ] #36 2-policy L135 앵커 오타 수정 (## → #)
+- [x] #36 2-policy L135 앵커 오타 수정 (## → #)
 - [ ] #19 4-tool FOSSology 링크 구버전→신버전 교체
 - [ ] #20 4-tool SW360 링크 구버전→신버전 교체
 
