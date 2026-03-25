@@ -31,10 +31,10 @@ description: Tooling & Legal Subgroup 22nd Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues | ETRI, 박정숙 | [pdf](1_US_Copyright_Trends_for_AI_Technologies.pdf) |
-| 1  | Black Duck을 좀 더 편하게 | 안랩, 김강보 | [pdf](2_Make_Black_Duck_More_User_Friendly.pdf) |
+| 0  | Community Updates & New Issues | ETRI, 박정숙 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/1_US_Copyright_Trends_for_AI_Technologies.pdf) |
+| 1  | Black Duck을 좀 더 편하게 | 안랩, 김강보 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/2_Make_Black_Duck_More_User_Friendly.pdf) |
 | 2  | 삼성SDS 오픈소스 라이선스 검증 프로세스 | 삼성SDS, 채진영 | N/A |
-| 3  | OSFB > 조건부 라이선싱 | LG전자, 박원재 | [pdf](4_OSFB_ch5.pdf) |
+| 3  | OSFB > 조건부 라이선싱 | LG전자, 박원재 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/4_OSFB_ch5.pdf) |
 | 4  | Open Source 고지문 공유 | LG전자, 박원재 | N/A |
 
 <!-- 

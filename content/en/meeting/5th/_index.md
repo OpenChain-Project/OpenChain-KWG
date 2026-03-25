@@ -23,12 +23,12 @@ description: >
 
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | [Download](OpenChain_Korea_Meeting_5_March_2020.pptx) |
-| 2  | Introduction to Korean Summary of Open Source Compliance in the Enterprise  | Dasom Han, NCSoft |  [Download](OSC-Enterprise-ko_Openchain_KWG_20200317_FN.pdf) | 
+| 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | [Download](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2020/OpenChain_Korea_Meeting_5_March_2020.pptx) |
+| 2  | Introduction to Korean Summary of Open Source Compliance in the Enterprise  | Dasom Han, NCSoft |  [Download](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2020/OSC-Enterprise-ko_Openchain_KWG_20200317_FN.pdf) | 
 | 3  | Introduction to OpenChain Guide Published by NIPA | Haksung Jang, SK Telecom | [Link](https://www.oss.kr/oss_guide/show/7050bff0-d06b-43f0-99a6-9975afcd486f)  | 
-| 4  | How to install&use SW360, and Security Vulnerabilities Management | Haksung Jang, SK Telecom |[Download](OpenChainKWG-5th-SW360.pdf)  | 
+| 4  | How to install&use SW360, and Security Vulnerabilities Management | Haksung Jang, SK Telecom |[Download](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2020/OpenChainKWG-5th-SW360.pdf)  | 
 | 5  | Case Study : How to track BOM | All | -  | 
-| 6  |OpenChain KWG Updates | Haksung Jang, SK Telecom |[Download](OpenChainKWG-5th-Updates.pdf)  | 
+| 6  |OpenChain KWG Updates | Haksung Jang, SK Telecom |[Download](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2020/OpenChainKWG-5th-Updates.pdf)  | 
 
 ## Attenddes
 
@@ -43,4 +43,4 @@ description: >
 
 ## Minutes
 
-* [5th-minutes.pdf](5th-minutes.pdf) (Koeran only)
+* [5th-minutes.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2020/5th-minutes.pdf) (Koeran only)

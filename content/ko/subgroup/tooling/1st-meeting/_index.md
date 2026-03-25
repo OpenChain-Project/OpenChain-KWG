@@ -30,7 +30,7 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | SCANOSS 소개  | 	박원재, LG전자 | [pdf](./SCANOSS_Introduction.pdf) |
+| 1  | SCANOSS 소개  | 	박원재, LG전자 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/SCANOSS_Introduction.pdf) |
 | 2  | 사전검증/실시간검증 도구 소개 | 정윤환, 삼성전자 | - |
 | 3  | Tooling 그룹 운영 방향 논의 | All | - | 
 

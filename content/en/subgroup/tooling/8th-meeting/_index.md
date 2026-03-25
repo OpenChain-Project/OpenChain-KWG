@@ -26,4 +26,4 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | Intorduction to Debricked | Hyesung Choi, LG Electronics | [pdf](Session1_LGE.pdf) |
+| 1  | Intorduction to Debricked | Hyesung Choi, LG Electronics | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session1_LGE.pdf) |

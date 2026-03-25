@@ -30,10 +30,10 @@ description: Tooling & Legal Subgroup 22nd Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues (U.S. Copyright Trends for AI Technologies) | ETRI, Park Jeong-sook | [pdf](1_US_Copyright_Trends_for_AI_Technologies.pdf) |
-| 1  | Make Black Duck More User Friendly | Ahnlab, Kim Gangbo | [pdf](2_Make_Black_Duck_More_User_Friendly.pdf) |
+| 0  | Community Updates & New Issues (U.S. Copyright Trends for AI Technologies) | ETRI, Park Jeong-sook | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/1_US_Copyright_Trends_for_AI_Technologies.pdf) |
+| 1  | Make Black Duck More User Friendly | Ahnlab, Kim Gangbo | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/2_Make_Black_Duck_More_User_Friendly.pdf) |
 | 2  | Samsung SDS Open Source License Verification Proces | Samsung SDS, Chae Jinyeong | N/A |
-| 3  | OSFB > Conditional Licensing | LG Eletronics, Park Wonjae | [pdf](4_OSFB_ch5.pdf) |
+| 3  | OSFB > Conditional Licensing | LG Eletronics, Park Wonjae | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/4_OSFB_ch5.pdf) |
 | 4  | Open Source Notice Case Study | LG Eletronics, Park Wonjae | N/A |
 
 <!--

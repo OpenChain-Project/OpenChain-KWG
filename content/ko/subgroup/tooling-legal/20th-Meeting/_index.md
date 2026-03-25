@@ -29,10 +29,10 @@ description: Tooling & Legal Subgroup 20th Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues | ETRI, 박정숙 | [pdf](./0_CommunityUpdates_NewIssues_ETRI.pdf) |
-| 1  | Guard Your AI+Software Supply Chain with Sectrend | SECTREND, Wenhui Jin | [pdf](./1_GuardYourAI_Sectrend.pdf) |
-| 2  | 웹서비스의 오픈소스 공개 이슈 | 안랩, 김강보 | [pdf](./2_OpeningWebService_Anlab.pdf) |
-| 3  | 반도체 기업의 OSS 관리 시스템 구축 사례 | 텔레칩스, 연지영 | [pdf](./3_CaseStudyonBuildingOSSMS_Telechips.pdf) |
+| 0  | Community Updates & New Issues | ETRI, 박정숙 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/0_CommunityUpdates_NewIssues_ETRI.pdf) |
+| 1  | Guard Your AI+Software Supply Chain with Sectrend | SECTREND, Wenhui Jin | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/1_GuardYourAI_Sectrend.pdf) |
+| 2  | 웹서비스의 오픈소스 공개 이슈 | 안랩, 김강보 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/2_OpeningWebService_Anlab.pdf) |
+| 3  | 반도체 기업의 OSS 관리 시스템 구축 사례 | 텔레칩스, 연지영 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/3_CaseStudyonBuildingOSSMS_Telechips.pdf) |
 | 4  | Open Source for Business | LG전자, 박원재 | [LINK](https://heathermeeker.com/open-source-for-business/) |
 
 

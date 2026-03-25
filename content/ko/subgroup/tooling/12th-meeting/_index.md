@@ -29,4 +29,4 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | Labrador 소개 | 조재형, Labrador Labs | [pdf](Labrador.pdf) |
+| 1  | Labrador 소개 | 조재형, Labrador Labs | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2023/Labrador.pdf) |
