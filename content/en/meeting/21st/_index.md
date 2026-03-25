@@ -16,10 +16,10 @@ description: >
 | Time | Agenda | Speaker | Slide |
 |-------|-----------------|------|------|
 | 14:00~14:10 | Welcome & Intro | Haksung Jang, SK Telecom | - |
-| 14:10~14:20 | OpenChain Global Update | Shane Coughlan, Linux Foundation | [pptx](./OpenChain%20Korea%20Work%20Group%20Meeting%202024-03-26.pptx) |
-| 14:20~14:30 | OpenChain KWG Update | Haksung Jang, SK Telecom | [pptx](./OpenChain_Korea_update_20240326.pptx) |
+| 14:10~14:20 | OpenChain Global Update | Shane Coughlan, Linux Foundation | [pptx](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2024/OpenChain-Korea-Work-Group-Meeting-2024-03-26.pptx) |
+| 14:20~14:30 | OpenChain KWG Update | Haksung Jang, SK Telecom | [pptx](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2024/OpenChain_Korea_update_20240326.pptx) |
 | 14:30~14:40 | Tooling Subgroup activities | Wonjae Park, LG Electronics | - |
-| 14:40~15:00 | Legal Subgroup activities | Jeongsook Park, ETRI | [pdf](./[회의자료]%20Legal%20subgroup%20활동%20및%20주요%20사례-20240326-R1.pdf) |
+| 14:40~15:00 | Legal Subgroup activities | Jeongsook Park, ETRI | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2024/legal-subgroup-activities-and-cases-20240326-R1.pdf) |
 | 15:10~15:30 | Break | All | - |
 | 15:30~17:00 | Group discussion | Host: Seoyeon Lee, Line Plus | - |
 

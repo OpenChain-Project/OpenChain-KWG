@@ -31,5 +31,5 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | The AboutCode stack: End-to-end open source compliance automation with ScanCode and beyond | Philippe Ombredanne, nexB Inc. | [pdf](OpenChain-KRW-AboutCode-Stack-introduction-Q1-2024.pdf) |
+| 1  | The AboutCode stack: End-to-end open source compliance automation with ScanCode and beyond | Philippe Ombredanne, nexB Inc. | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2024/OpenChain-KRW-AboutCode-Stack-introduction-Q1-2024.pdf) |
 | 2  | Discussion on Operating Direction of Tooling SG in 2024 | Wonjae Park, LG Electronics | - |
