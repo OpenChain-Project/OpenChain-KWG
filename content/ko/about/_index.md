@@ -2,13 +2,13 @@
 ---
 title: "About"
 linkTitle: "About"
-weight: 20
+weight: 10
 type: docs
 description: >
-  OpenChain Korea Work Group을 소개합니다.  
+  OpenChain Korea Work Group을 소개합니다.
 menu:
   main:
-    weight: 20
+    weight: 10
 ---
  ![openchain-kwg-calli.jpeg](openchain-kwg-calli.jpeg) 
 _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_

@@ -45,7 +45,7 @@ draft: false
 
 ## Sponsor
 
-![](../../images/content/about/logo/회사로고.png)
+![](../../../images/content/about/logo/회사로고.png)
 
 ## 참가기업
 
