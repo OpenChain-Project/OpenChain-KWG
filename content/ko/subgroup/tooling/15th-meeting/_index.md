@@ -30,4 +30,4 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | SW 공급망보안 XSCAN | 독고준, RedPenSoft | [pdf](XSCAN_introduction.pdf) |
+| 1  | SW 공급망보안 XSCAN | 독고준, RedPenSoft | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2023/XSCAN_introduction.pdf) |

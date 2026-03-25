@@ -32,5 +32,5 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | FOSSID, Snyk Open Source 소개 | 이준수, OSBC | [pdf](Session1_OSBC.pdf) |
+| 1  | FOSSID, Snyk Open Source 소개 | 이준수, OSBC | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2023/Session1_OSBC.pdf) |
 | 2  | Tooling SG 운영 토의 | - | - |

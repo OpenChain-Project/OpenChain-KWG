@@ -22,9 +22,9 @@ description: >
 |----|-----------------|------|------|
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
 | 2  | Introduction of LG Electronics' Open Source Compliance Management System (OSC System) |LG Electronics, Soim Kim | [Video](#video_en) | 
-| 3  | Intro and summary of a book, Forge Your Future with Open Source | Line, Seoyeon Lee | [Download](forge-your-future.pdf)  | 
+| 3  | Intro and summary of a book, Forge Your Future with Open Source | Line, Seoyeon Lee | [Download](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2020/forge-your-future.pdf)  | 
 | 4  | Case Study : Open source release practices (GitHub, CLA) | All | - |
-| 5  | OpenChain KWG Update | SK telecom, Haksung Jang | [Download](openchain-kwg-7th-2020-09-22.pdf) |
+| 5  | OpenChain KWG Update | SK telecom, Haksung Jang | [Download](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2020/openchain-kwg-7th-2020-09-22.pdf) |
 | 6  | Free Discussion | All | - |
 
 ## Attenddes

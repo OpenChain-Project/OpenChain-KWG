@@ -28,4 +28,4 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | Debricked 소개 | 최혜성, LG전자 | [pdf](Session1_LGE.pdf) |
+| 1  | Debricked 소개 | 최혜성, LG전자 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session1_LGE.pdf) |

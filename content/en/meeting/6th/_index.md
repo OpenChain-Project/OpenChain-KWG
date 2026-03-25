@@ -24,10 +24,10 @@ description: >
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
-| 2  | Introducing Olive, Kakao's open source management system | Robin |  [Download](openchain-kakao_20200616.pdf) | 
+| 2  | Introducing Olive, Kakao's open source management system | Robin |  [Download](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2020/openchain-kakao_20200616.pdf) | 
 |  | Structure and Specification of Dependency Analysis in Olive |  Kakao Sean | |
-| 3  | SK telecom and open source | SK telecom Aaron | [Download](SKT_opensource_20200616.pdf)  | 
-| 4  | Case Study : Open Source Contribution / Release Policy | All | [Download](OpenChainKWG_6th_20200616.pdf) |
+| 3  | SK telecom and open source | SK telecom Aaron | [Download](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2020/SKT_opensource_20200616.pdf)  | 
+| 4  | Case Study : Open Source Contribution / Release Policy | All | [Download](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2020/OpenChainKWG_6th_20200616.pdf) |
 | 5  | Free Discussion | All | - |
 
 ## Attenddes
@@ -42,7 +42,7 @@ description: >
 
 ## Minutes
 
-* [OpenChainKWG_6th_20200616.pdf](OpenChainKWG_6th_20200616.pdf) (Koran only)
+* [OpenChainKWG_6th_20200616.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2020/OpenChainKWG_6th_20200616.pdf) (Koran only)
 
 ## Video 
 

@@ -28,5 +28,5 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | Commoditising Open Source Risk Management | Julian Coccia, SCANOSS | [pdf](./Session1_SCANOSS.pdf) |
+| 1  | Commoditising Open Source Risk Management | Julian Coccia, SCANOSS | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session1_SCANOSS.pdf) |
 | 2  | Tool 스터디 방향 및 Tooling SG 운영 논의 | 박원재, LG전자 | - |

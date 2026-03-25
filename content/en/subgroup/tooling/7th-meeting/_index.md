@@ -29,4 +29,4 @@ description: >
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
 | 1  | Intorduction to FOSSA Platform | Carlos Cheung, FOSSA | - |
-| 2  | Overview of OSS Review Toolkit | Jeongsook Park, ETRI | [pdf](./Session2_ETRI.pdf) |
+| 2  | Overview of OSS Review Toolkit | Jeongsook Park, ETRI | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session2_ETRI.pdf) |

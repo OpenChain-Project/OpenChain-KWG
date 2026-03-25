@@ -31,8 +31,8 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | FOSSID 리뷰  | 이민정, 카카오 | [pdf](./Session1_kakao.pdf) |
-| 2  | 오픈소스 검증도구 오픈소스화 계획 현황 | 정윤환, 삼성전자 | [pdf](./Session2_Samsung_Electronics.pdf) |
+| 1  | FOSSID 리뷰  | 이민정, 카카오 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session1_kakao.pdf) |
+| 2  | 오픈소스 검증도구 오픈소스화 계획 현황 | 정윤환, 삼성전자 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session2_Samsung_Electronics.pdf) |
 | 3  | 개방형 오픈소스 컴플라이언스 서비스 플랫폼 개발 및 확산 계획 | 박정숙, ETRI | - |
 | 4  | 근황 Talk | ALL | - |
 

@@ -29,8 +29,8 @@ description: Tooling & Legal Subgroup 23rd Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | Nonfree Firmware | 텔레칩스, 연지영 | [pdf](1_Nonfee_Firmware.pdf) |
-| 2  | 형상관리 저장소의 오픈소스 자동검증 | 안랩, 김강보 | [pdf](2_Automated_OpenSource_Checking_at_VCS.pdf) |
+| 1  | Nonfree Firmware | 텔레칩스, 연지영 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/1_Nonfee_Firmware.pdf) |
+| 2  | 형상관리 저장소의 오픈소스 자동검증 | 안랩, 김강보 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/2_Automated_OpenSource_Checking_at_VCS.pdf) |
 | 3  | Open Source 고지문 공유 | 카카오, 이민정 | N/A |
 
 <!-- 

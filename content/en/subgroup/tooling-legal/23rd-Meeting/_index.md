@@ -27,8 +27,8 @@ description: Tooling & Legal Subgroup 23rd Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | Nonfree Firmware | Telechips, Yeon Ji-young | [pdf](1_Nonfee_Firmware.pdf) |
-| 2  | Automated Open Source Checkup with Version Control Repositories | Ahnlab, Kim Gangbo | [pdf](2_Automated_OpenSource_Checking_at_VCS.pdf) |
+| 1  | Nonfree Firmware | Telechips, Yeon Ji-young | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/1_Nonfee_Firmware.pdf) |
+| 2  | Automated Open Source Checkup with Version Control Repositories | Ahnlab, Kim Gangbo | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/2_Automated_OpenSource_Checking_at_VCS.pdf) |
 | 3  | Open Source Notice Case Study | Kakao, Yally Lee | N/A |
 
 <!--

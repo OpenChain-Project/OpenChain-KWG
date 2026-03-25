@@ -27,10 +27,10 @@ description: Tooling & Legal Subgroup 20th Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues | ETRI, Park Jeong-sook | [pdf](./0_CommunityUpdates_NewIssues_ETRI.pdf) |
-| 1  | Guard Your AI+Software Supply Chain with Sectrend | SECTREND, Wenhui Jin | [pdf](./1_GuardYourAI_Sectrend.pdf) |
-| 2  | Issues on Disclosing Open Source of a Web Service | Ahnlab, Kim Gangbo | [pdf](./2_OpeningWebService_Anlab.pdf) |
-| 3  | Case Study on Building OSS Management System for a Semiconductor Company | Telechips, Yeon Ji-young | [pdf](./3_CaseStudyonBuildingOSSMS_Telechips.pdf) |
+| 0  | Community Updates & New Issues | ETRI, Park Jeong-sook | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/0_CommunityUpdates_NewIssues_ETRI.pdf) |
+| 1  | Guard Your AI+Software Supply Chain with Sectrend | SECTREND, Wenhui Jin | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/1_GuardYourAI_Sectrend.pdf) |
+| 2  | Issues on Disclosing Open Source of a Web Service | Ahnlab, Kim Gangbo | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/2_OpeningWebService_Anlab.pdf) |
+| 3  | Case Study on Building OSS Management System for a Semiconductor Company | Telechips, Yeon Ji-young | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/3_CaseStudyonBuildingOSSMS_Telechips.pdf) |
 | 4  | Open Source for Business | LG Eletronics, Park Wonjae  | [LINK](https://heathermeeker.com/open-source-for-business/) |
 
 <!--

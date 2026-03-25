@@ -27,7 +27,7 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | Evaluation Items for Open Source Compliance Tools | Jeongsook Park, ETRI | [pdf](./Session1_ETRI.pdf) |
+| 1  | Evaluation Items for Open Source Compliance Tools | Jeongsook Park, ETRI | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session1_ETRI.pdf) |
 | 2  | Introducing DejaCode | Hyesung Choi, LG Electronics | - |
 
 ## Photo Gallery

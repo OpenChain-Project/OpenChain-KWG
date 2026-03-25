@@ -30,8 +30,8 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | FOSSID Review  | Yally, KaKao | [pdf](./Session1_kakao.pdf) |
-| 2  | Status of Opensource Verification Tool Project | Yoonhwan Jung, Samsung Electronics | [pdf](./Session2_Samsung_Electronics.pdf) |
+| 1  | FOSSID Review  | Yally, KaKao | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session1_kakao.pdf) |
+| 2  | Status of Opensource Verification Tool Project | Yoonhwan Jung, Samsung Electronics | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session2_Samsung_Electronics.pdf) |
 | 3  | Development and Promotion Plan for Opensource Compliance Service Platform Project | Jeongsook Park, ETRI | - |
 | 4  | Small Talk | All | - |
 

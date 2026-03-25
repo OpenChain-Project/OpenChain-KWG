@@ -17,7 +17,7 @@ description: >
 |----|----|-----------------|------|------|
 | 0 | 14:00 | Welcome & Intro | Violet Hwang, Kakao | - |
 | 1 | 14:10 | OpenChain Global Update | Shane Coughlan, The Linux Foundation | [slide](https://www.slideshare.net/ShaneCoughlan3/openchain-korea-work-group-meeting-18)  |
-| 2 | 14:20 | OpenChain KWG Update | Haksung Jang, SK Telecom / Seoyeon Lee, Line Plus | [slide](./OpenChain_Korea_update_20230622.pdf)  |
+| 2 | 14:20 | OpenChain KWG Update | Haksung Jang, SK Telecom / Seoyeon Lee, Line Plus | [slide](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2023/OpenChain_Korea_update_20230622.pdf)  |
 | 3 | 14:30 | Copilot Litigation Status Analysis | Jeongsook Park, ETRI | [slide](./Copilot%EC%86%8C%EC%86%A1%EC%A7%84%ED%96%89%ED%98%84%ED%99%A9_ETRI%EB%B0%95%EC%A0%95%EC%88%99-R4.pdf)  |
 | 4 | 15:00 | Break & Networking | - | - |
 | 5 | 15:15 | FOSSLight + Security Release | Ji-young Seok, LG Electronics | [slide](./230622_FOSSLight_Hub_Security%EA%B8%B0%EB%8A%A5%EC%86%8C%EA%B0%9C.pdf)  |

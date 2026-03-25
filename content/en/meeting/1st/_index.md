@@ -23,10 +23,10 @@ description: >
 
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | Keynote  | 	Haksung Jang / LGE | [Download](openchain_korea_workshop_intro_2019-01-23.pdf) |
+| 1  | Keynote  | 	Haksung Jang / LGE | [Download](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2019/openchain_korea_workshop_intro_2019-01-23.pdf) |
 | 2  | Great Open Source Compliance For Everyone | Shane Coughlan, Linux Foundation | - | 
-| 3  | How do we OpenChain? | Haksung Jang / LGE | [Download](openchain_korea_workshop_how_do_we_openchain_2019-01-23.pdf) | 
-| 4  | Introduce yourself & Workshop – OpenChain and Korea | Soim Kim / LGE | [Download](openchainkoreaworkshop_livepoll_result_2019-01-23.pdf) | 
+| 3  | How do we OpenChain? | Haksung Jang / LGE | [Download](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2019/openchain_korea_workshop_how_do_we_openchain_2019-01-23.pdf) | 
+| 4  | Introduce yourself & Workshop – OpenChain and Korea | Soim Kim / LGE | [Download](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2019/openchainkoreaworkshop_livepoll_result_2019-01-23.pdf) | 
 
 
 ## Attendees

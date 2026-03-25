@@ -27,7 +27,7 @@ In particular, NCSOFT shared this on GitHub so that anyone can refer to it, impr
 
 * GitHub : https://github.com/ncsoft/osc-enterprise-ko/
 * License : CC BY 4.0
-* Slide : [OSC-Enterprise-ko_Openchain_KWG_20200317_FN.pdf](OSC-Enterprise-ko_OpenchainKWG_20200317_FN.pdf)
+* Slide : [OSC-Enterprise-ko_Openchain_KWG_20200317_FN.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2020/OSC-Enterprise-ko_OpenchainKWG_20200317_FN.pdf)
 
 ## Contributors
 

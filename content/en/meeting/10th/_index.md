@@ -19,11 +19,11 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Intro & Greetings  | Newcomers | [OpenChain_Korea_20210622_intro.pptx](./OpenChain_Korea_20210622_intro.pptx) |
+| 0  | Intro & Greetings  | Newcomers | [OpenChain_Korea_20210622_intro.pptx](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2021/OpenChain_Korea_20210622_intro.pptx) |
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
-| 2  | OpenChain KWG Update | Haksung Jang, SK telecom  | [OpenChain_Korea_20210622_update.pptx](./OpenChain_Korea_20210622_update.pptx)  |
-| 3  | FOSSLight Open Source Project | Kyoungae Kim, LG Electronics | [210622_OpenChain_FOSSLight_LGE.pdf](./210622_OpenChain_FOSSLight_LGE.pdf) | 
-| 4  | Latest Trends <br>- Google OSV (Open Source Vulnerability) & Google Insight (Open Source BOM)<br>- NIPA Open Source Governance Guide | <br>Robin (Minho Hwang), Kakao <br> Seoyeon Lee, Line Plus| <br>[Google_OSV_and_Insight_황민호.pdf](./Google_OSV_and_Insight_황민호.pdf)<br>[NIPAGuide_Intro.pdf](./NIPAGuide_Intro.pdf) | 
+| 2  | OpenChain KWG Update | Haksung Jang, SK telecom  | [OpenChain_Korea_20210622_update.pptx](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2021/OpenChain_Korea_20210622_update.pptx)  |
+| 3  | FOSSLight Open Source Project | Kyoungae Kim, LG Electronics | [210622_OpenChain_FOSSLight_LGE.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2021/210622_OpenChain_FOSSLight_LGE.pdf) | 
+| 4  | Latest Trends <br>- Google OSV (Open Source Vulnerability) & Google Insight (Open Source BOM)<br>- NIPA Open Source Governance Guide | <br>Robin (Minho Hwang), Kakao <br> Seoyeon Lee, Line Plus| <br>[Google_OSV_and_Insight_황민호.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2021/Google_OSV_and_Insight_HwangMinho.pdf)<br>[NIPAGuide_Intro.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2021/NIPAGuide_Intro.pdf) | 
 | 5  | Smalㅣ group meeting | All | - |
 | 6  | Free Discussion | All | - |
 

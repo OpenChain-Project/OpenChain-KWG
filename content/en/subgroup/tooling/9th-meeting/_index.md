@@ -30,5 +30,5 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | Intorduction to FOSSID and Snyk Open Source | Junsu Lee, OSBC | [pdf](Session1_OSBC.pdf) |
+| 1  | Intorduction to FOSSID and Snyk Open Source | Junsu Lee, OSBC | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2023/Session1_OSBC.pdf) |
 | 2  | Discussion on Tooling SG Operation | - | - |

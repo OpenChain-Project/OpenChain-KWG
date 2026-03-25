@@ -15,10 +15,10 @@ description: >
 | No | Agenda | Speaker | Slide |
 |----|-----------------|------|------|
 | 1 | OpenChain Update | Shane Coughlan, Linux Foundation | - |
-| 2 | OpenChain KWG Update | Haksung Jang, SK Telecom | [pdf](OpenChain_Korea_update_20220921.pdf) |
-| 3 | SW asset management system in automobile sector and Hyundai Motor Group ISO/IEC certification | Song-ha Baek, Hyundai Motor Company  <br>Chang-han Ryu, Hyundai Auto Ever | [pdf](220826_현대자동차그룹_오픈소스%20컴플라이언스_F.pdf) |
+| 2 | OpenChain KWG Update | Haksung Jang, SK Telecom | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/OpenChain_Korea_update_20220921.pdf) |
+| 3 | SW asset management system in automobile sector and Hyundai Motor Group ISO/IEC certification | Song-ha Baek, Hyundai Motor Company  <br>Chang-han Ryu, Hyundai Auto Ever | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/220826_HyundaiMotorGroup_OpenSource_Compliance_F.pdf) |
 | 4 | Open Source Litigation Cases in China | Jeong-sook Par, ERTI| [case]([오픈소스_소송사례_분석1]_数字天堂_v._柚子_20220726-R2(Linux_China_의견_번역).pdf), [ruling]([오픈소스_소송사례_분석1]_숫자천당_v._유자(판결문%20번역)-20220902.pdf) |
-| 5 | SFC vs. Vizio Litigation Case Analysis | Yunhwan Jung, Samsung Electronics | [pdf](SFC_vs_Vizio_파헤치기_오픈체인KWG_220921.pdf) |
+| 5 | SFC vs. Vizio Litigation Case Analysis | Yunhwan Jung, Samsung Electronics | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/SFC_vs_Vizio_Analysis_OpenChainKWG_220921.pdf) |
 | 6 | Small Group Meetings (Case Study) | All | - |
 
 

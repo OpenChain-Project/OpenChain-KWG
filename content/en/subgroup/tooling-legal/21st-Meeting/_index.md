@@ -25,9 +25,9 @@ description: Tooling & Legal Subgroup 21st Meeting
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Community Updates & New Issues | ETRI, Park Jeong-sook | N/A |
-| 1  | Analysis of the Robert Kneschke v. LAION Case | ETRI, Park Jeong-sook  | [pdf](./1_AI_Copyright_Issue_RobertKneschke_v_LAION.pdf)/[Attatch1](./1_1_the_bill_on_legal_tech_industry.pdf)/[Attatch2](./1_2_Latest_Legislative_Trends.pdf) |
-| 2  | Information Technology and Reproduction under Copyright Law | Telechips, Yeon Ji-young | [pdf](2_IT_and_Reproduction_under_CopyrightLaw.pdf) |
-| 3  | Case Study: Thomson Reuters v. Ross Intelligence Inc | LG Eletronics, Park Wonjae | [pdf](./3_Westlaw_v_RossAI.pdf) |
+| 1  | Analysis of the Robert Kneschke v. LAION Case | ETRI, Park Jeong-sook  | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/1_AI_Copyright_Issue_RobertKneschke_v_LAION.pdf)/[Attatch1](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/1_1_the_bill_on_legal_tech_industry.pdf)/[Attatch2](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/1_2_Latest_Legislative_Trends.pdf) |
+| 2  | Information Technology and Reproduction under Copyright Law | Telechips, Yeon Ji-young | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/2_IT_and_Reproduction_under_CopyrightLaw.pdf) |
+| 3  | Case Study: Thomson Reuters v. Ross Intelligence Inc | LG Eletronics, Park Wonjae | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/3_Westlaw_v_RossAI.pdf) |
 | 4  | Open Source Notice Case Study | Hancom, Ryu Hyunju / Telechips, Yeon Ji-young | N/A |
 
 <!--

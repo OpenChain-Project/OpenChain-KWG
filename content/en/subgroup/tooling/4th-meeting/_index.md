@@ -25,8 +25,8 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | Introducing Opossum Tool | Jiyeong Seok, LG Electronics | [pdf](./Session1_LGE.pdf) |
-| 2  | OLA, Open Source Compliance System of ETRI - Adopting Case of FOSSLight | Jeongsook Park, ETRI | [pdf](./Session2_ETRI.pdf) |
+| 1  | Introducing Opossum Tool | Jiyeong Seok, LG Electronics | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session1_LGE.pdf) |
+| 2  | OLA, Open Source Compliance System of ETRI - Adopting Case of FOSSLight | Jeongsook Park, ETRI | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session2_ETRI.pdf) |
 | 3  | Discussing Subject for Study | Wonjae Park, LG Electronics | - |
 
 ## Photo Gallery

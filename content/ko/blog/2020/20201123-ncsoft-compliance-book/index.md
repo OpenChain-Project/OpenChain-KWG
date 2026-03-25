@@ -29,7 +29,7 @@ NCSOFT에서는 이 책의 주요 내용을 한글로 요약하였고 저자인 
 
 * GitHub : https://github.com/ncsoft/osc-enterprise-ko/
 * License : CC BY 4.0
-* 발표자료 : [OSC-Enterprise-ko_Openchain_KWG_20200317_FN.pdf](OSC-Enterprise-ko_OpenchainKWG_20200317_FN.pdf)
+* 발표자료 : [OSC-Enterprise-ko_Openchain_KWG_20200317_FN.pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2020/OSC-Enterprise-ko_OpenchainKWG_20200317_FN.pdf)
 
 ## 기여자 현황 
 
