@@ -2,13 +2,13 @@
 ---
 title: "About"
 linkTitle: "About"
-weight: 20
+weight: 10
 type: docs
 description: >
-  Introducing the OpenChain Korea Work Group.  
+  Introducing the OpenChain Korea Work Group.
 menu:
   main:
-    weight: 20
+    weight: 10
 ---
  ![openchain-kwg-calli.jpeg](openchain-kwg-calli.jpeg) 
 

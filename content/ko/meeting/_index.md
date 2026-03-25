@@ -2,13 +2,13 @@
 ---
 title: "Meeting"
 linkTitle: "Meeting"
-weight: 40
+weight: 20
 type: docs
 description: >
-  OpenChain KWG은 매분기마다 모여서 공유와 협업으로 함께 가치를 창출합니다. 
+  OpenChain KWG은 매분기마다 모여서 공유와 협업으로 함께 가치를 창출합니다.
 menu:
   main:
-    weight: 40
+    weight: 20
 ---
 
 <div ><span class="image fit">

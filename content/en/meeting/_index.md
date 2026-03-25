@@ -2,13 +2,13 @@
 ---
 title: "Meeting"
 linkTitle: "Meeting"
-weight: 40
+weight: 20
 type: docs
 description: >
   OpenChain KWG meets every quarter to create value together through sharing and collaboration.
 menu:
   main:
-    weight: 40
+    weight: 20
 ---
 
 <div ><span class="image fit">

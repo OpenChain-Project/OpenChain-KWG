@@ -1,0 +1,28 @@
+---
+title: "[out of date] Open Source Governance for Enterprises"
+linkTitle: "[out of date] Open Source Governance"
+weight: 900
+type: docs
+description: >
+  This guide explains how to build open source governance for enterprises based on ISO/IEC 5230, an international open source standard.
+aliases:
+  - /en/guide/governance_iso5230/
+---
+
+{{% pageinfo %}}
+
+OpenChain ISO/IEC 5230 is the International Standard for open source license compliance. It defines key requirements that companies distributing software must comply with in order to use open source properly. Here, ISO/IEC 5230 is briefly introduced and how companies can build open source governance based on it.
+
+This content is the result of a study conducted by the Korea Copyright Commission open source expert community in 2021.
+
+**Author : Haksung Jang (haksung@sktelecom.com) / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**
+
+{{% /pageinfo %}}
+
+## References
+
+This guide has referenced the following resources:
+
+1. [OpenChain Project Website](https://www.openchainproject.org/)
+2. [OpenChain Open Source Policy Template](https://www.openchainproject.org/resources)
+3. [Open Source Compliance In The Enterprise](https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/)
