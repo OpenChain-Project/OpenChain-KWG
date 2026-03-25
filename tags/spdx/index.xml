@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SPDX on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/spdx/</link><description>Recent content in SPDX on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Wed, 25 Mar 2026 13:18:12 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/spdx/index.xml" rel="self" type="application/rss+xml"/><item><title>11th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/11th-meeting/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/11th-meeting/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SPDX on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/spdx/</link><description>Recent content in SPDX on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Thu, 26 Mar 2026 05:45:44 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/spdx/index.xml" rel="self" type="application/rss+xml"/><item><title>11th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/11th-meeting/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/11th-meeting/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;목적 : 공유 세미나&lt;/li&gt;
 &lt;li&gt;일시 : 2023. 08. 09(수), 오후 3:00~4:30&lt;/li&gt;
@@ -39,7 +39,7 @@
  &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2023/session2_etri.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>16th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/16th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/16th/</guid><description>&lt;h2 id="일정"&gt;일정&lt;/h2&gt;
+&lt;/table&gt;</description></item><item><title>16th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2022/16th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2022/16th/</guid><description>&lt;h2 id="일정"&gt;일정&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;일정: 2022-12-02 (금) 오후2시~4시&lt;/li&gt;
 &lt;li&gt;장소: Zoom (접속 방법은 별도 메일 공지)&lt;/li&gt;
@@ -100,7 +100,7 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id="sponsor"&gt;Sponsor&lt;/h2&gt;
-&lt;p&gt;&lt;img src="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/16th/sponsor.png" alt="sponsor"&gt;&lt;/p&gt;</description></item><item><title>SPDX 3.0 소개와 기업 도입 전략</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2024/09/06/spdx-3.0-%EC%86%8C%EA%B0%9C%EC%99%80-%EA%B8%B0%EC%97%85-%EB%8F%84%EC%9E%85-%EC%A0%84%EB%9E%B5/</link><pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2024/09/06/spdx-3.0-%EC%86%8C%EA%B0%9C%EC%99%80-%EA%B8%B0%EC%97%85-%EB%8F%84%EC%9E%85-%EC%A0%84%EB%9E%B5/</guid><description>&lt;h2 id="1-spdx-30-소개"&gt;1. SPDX 3.0 소개&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2022/16th/sponsor.png" alt="sponsor"&gt;&lt;/p&gt;</description></item><item><title>SPDX 3.0 소개와 기업 도입 전략</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2024/09/06/spdx-3.0-%EC%86%8C%EA%B0%9C%EC%99%80-%EA%B8%B0%EC%97%85-%EB%8F%84%EC%9E%85-%EC%A0%84%EB%9E%B5/</link><pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2024/09/06/spdx-3.0-%EC%86%8C%EA%B0%9C%EC%99%80-%EA%B8%B0%EC%97%85-%EB%8F%84%EC%9E%85-%EC%A0%84%EB%9E%B5/</guid><description>&lt;h2 id="1-spdx-30-소개"&gt;1. SPDX 3.0 소개&lt;/h2&gt;
 &lt;p&gt;SPDX(Software Package Data Exchange)는 소프트웨어 구성 요소, 라이선스, 저작권 및 보안 정보를 표준화된 방식으로 전달하기 위한 오픈 표준입니다. SPDX 3.0은 이 표준의 최신 버전으로, 2024년 4월에 출시되었으며 소프트웨어 공급망의 투명성과 보안을 크게 향상시키는 중요한 업데이트입니다[2].&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://OpenChain-Project.github.io/OpenChain-KWG/blog/2024/09/06/spdx-3.0-%EC%86%8C%EA%B0%9C%EC%99%80-%EA%B8%B0%EC%97%85-%EB%8F%84%EC%9E%85-%EC%A0%84%EB%9E%B5/featured_SPDX30.png" alt=""&gt;&lt;/p&gt;
 &lt;h3 id="spdx의-정의와-목적"&gt;SPDX의 정의와 목적&lt;/h3&gt;

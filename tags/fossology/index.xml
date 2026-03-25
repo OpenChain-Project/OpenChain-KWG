@@ -3,7 +3,7 @@
 &lt;p&gt;&lt;em&gt;&lt;center&gt;&amp;lt; &lt;a href="https://www.fossology.org/"&gt;https://www.fossology.org/&lt;/a&gt; &amp;gt;&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Linux Foundation의 FOSSology 프로젝트는 이러한 스캔 도구를 개발하고 오픈소스로 공개해 누구나 자유롭게 사용할 수 있게 한 도구이다.&lt;/p&gt;
 &lt;h2 id="주요-특징"&gt;주요 특징&lt;/h2&gt;
-&lt;p&gt;FOSSology는 웹기반의 프로그램으로 사용자는 웹사이트에 로그인하여 개별 파일 혹은 소프트웨어 패키지를 업로드할 수 있다. FOSSology는 업로드된 파일 내에 라이선스 텍스트와 Copyright 정보를 검출한다. 개발자는 사용하고자 하는 오픈소스의 라이선스가 무엇인지, Copyright은 어떻게 되는지에 대한 정보를 확인하고자 할때 FOSSology를 이용하는 것이 좋다. FOSSology는 개발자가 업로드한 오픈소스 패키지 내의 모든 파일을 스캔하여 각 파일 내 라이선스 관련 텍스트와 Copyright 정보를 자동으로 검출하고, 이를 리포트로 생성한다. FOSSology 주요 특징에 대한 자세한 내용은 다음 페이지를 참고할 수 있다. : &lt;a href="https://www.fossology.org/features/"&gt;https://www.fossology.org/features/&lt;/a&gt;&lt;/p&gt;</description></item><item><title>2nd Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2nd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2nd/</guid><description>&lt;img src="openchain-2nd.jpeg" width="90%"&gt;
+&lt;p&gt;FOSSology는 웹기반의 프로그램으로 사용자는 웹사이트에 로그인하여 개별 파일 혹은 소프트웨어 패키지를 업로드할 수 있다. FOSSology는 업로드된 파일 내에 라이선스 텍스트와 Copyright 정보를 검출한다. 개발자는 사용하고자 하는 오픈소스의 라이선스가 무엇인지, Copyright은 어떻게 되는지에 대한 정보를 확인하고자 할때 FOSSology를 이용하는 것이 좋다. FOSSology는 개발자가 업로드한 오픈소스 패키지 내의 모든 파일을 스캔하여 각 파일 내 라이선스 관련 텍스트와 Copyright 정보를 자동으로 검출하고, 이를 리포트로 생성한다. FOSSology 주요 특징에 대한 자세한 내용은 다음 페이지를 참고할 수 있다. : &lt;a href="https://www.fossology.org/features/"&gt;https://www.fossology.org/features/&lt;/a&gt;&lt;/p&gt;</description></item><item><title>2nd Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2019/2nd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2019/2nd/</guid><description>&lt;img src="openchain-2nd.jpeg" width="90%"&gt;
 &lt;h2 id="organizer"&gt;Organizer&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Samsung Electronics&lt;/li&gt;
@@ -69,7 +69,7 @@
 &lt;br&gt;
 &lt;div &gt;&lt;span class="image fit"&gt;
  &lt;img src="openchain-2nd-3.jpeg" width="90%"&gt;
-&lt;/span&gt;&lt;/div&gt;</description></item><item><title>4th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/4th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/4th/</guid><description>&lt;img src="20191202_141601.jpg" width="90%"&gt;
+&lt;/span&gt;&lt;/div&gt;</description></item><item><title>4th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2019/4th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2019/4th/</guid><description>&lt;img src="20191202_141601.jpg" width="90%"&gt;
 &lt;h2 id="organizer"&gt;Organizer&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;KTDS&lt;/li&gt;
