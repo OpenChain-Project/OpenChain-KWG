@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FOSSID on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/fossid/</link><description>Recent content in FOSSID on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Thu, 15 Aug 2024 08:25:50 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/fossid/index.xml" rel="self" type="application/rss+xml"/><item><title>2nd Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/2nd-meeting/</link><pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/2nd-meeting/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FOSSID on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/fossid/</link><description>Recent content in FOSSID on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Wed, 25 Mar 2026 13:18:12 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/fossid/index.xml" rel="self" type="application/rss+xml"/><item><title>2nd Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/2nd-meeting/</link><pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/2nd-meeting/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;목적 : 공유 세미나&lt;/li&gt;
 &lt;li&gt;일시 : 2022. 04. 27(수), 오후 2시~3:30시&lt;/li&gt;
@@ -32,13 +32,13 @@
  &lt;td&gt;1&lt;/td&gt;
  &lt;td&gt;FOSSID 리뷰&lt;/td&gt;
  &lt;td&gt;이민정, 카카오&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/2nd-meeting/Session1_kakao.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session1_kakao.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;2&lt;/td&gt;
  &lt;td&gt;오픈소스 검증도구 오픈소스화 계획 현황&lt;/td&gt;
  &lt;td&gt;정윤환, 삼성전자&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/2nd-meeting/Session2_Samsung_Electronics.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session2_Samsung_Electronics.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;3&lt;/td&gt;
@@ -93,7 +93,7 @@
  &lt;td&gt;1&lt;/td&gt;
  &lt;td&gt;FOSSID, Snyk Open Source 소개&lt;/td&gt;
  &lt;td&gt;이준수, OSBC&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/9th-meeting/Session1_OSBC.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2023/Session1_OSBC.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;2&lt;/td&gt;
@@ -128,7 +128,7 @@
  &lt;td&gt;2&lt;/td&gt;
  &lt;td&gt;OpenChain KWG Update&lt;/td&gt;
  &lt;td&gt;장학성, SK텔레콤&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/14th/OpenChain_Korea_update_20220621.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/OpenChain_Korea_update_20220621.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;3&lt;/td&gt;
@@ -140,7 +140,7 @@
  &lt;td&gt;3.5&lt;/td&gt;
  &lt;td&gt;Quick session : FOSSID 사용팁&lt;/td&gt;
  &lt;td&gt;김영환(Sean), 카카오&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/14th/Fossid%20Ignore%20rule.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Fossid_Ignore_rule.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;4&lt;/td&gt;

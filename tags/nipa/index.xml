@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NIPA on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/nipa/</link><description>Recent content in NIPA on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Fri, 02 Aug 2024 09:22:24 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/nipa/index.xml" rel="self" type="application/rss+xml"/><item><title>I. OpenChain 프로젝트란?</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/nipa_openchain/i-openchainproject/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/nipa_openchain/i-openchainproject/</guid><description>&lt;p&gt;오늘날 소프트웨어는 갈수록 그 규모와 복잡도가 커지고 있다. 하나의 소프트웨어를 개발하기 위해서는 자체 개발한 소프트웨어뿐 아니라 오픈소스, 타사 소프트웨어&lt;sub&gt;3rd party software&lt;/sub&gt;, 벤더의 SDK 등 소프트웨어 공급망에 걸친 다양한 소프트웨어가 사용될 수 있다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NIPA on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/nipa/</link><description>Recent content in NIPA on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Wed, 25 Mar 2026 13:18:12 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/nipa/index.xml" rel="self" type="application/rss+xml"/><item><title>I. OpenChain 프로젝트란?</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/nipa_openchain/i-openchainproject/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/nipa_openchain/i-openchainproject/</guid><description>&lt;p&gt;오늘날 소프트웨어는 갈수록 그 규모와 복잡도가 커지고 있다. 하나의 소프트웨어를 개발하기 위해서는 자체 개발한 소프트웨어뿐 아니라 오픈소스, 타사 소프트웨어&lt;sub&gt;3rd party software&lt;/sub&gt;, 벤더의 SDK 등 소프트웨어 공급망에 걸친 다양한 소프트웨어가 사용될 수 있다.&lt;/p&gt;
 &lt;p&gt;이러한 복잡한 소프트웨어 공급망의 여러 조직 중 한 곳이라도 오픈소스 라이선스 의무를 준수하지 않거나 올바른 오픈소스 사용 정보를 제공하지 않으면 최종 소프트웨어를 배포하는 기업은 오픈소스 라이선스 의무 준수에 실패할 수밖에 없다. 이로 인해 소송을 제기당해 제품 판매가 중단되는 상황이 발생할 수도 있다.&lt;/p&gt;</description></item><item><title>10th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/10th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/10th/</guid><description>&lt;div &gt;&lt;span class="image fit"&gt;
  &lt;img src="openchain-kwg-10.gif" width="50%"&gt;
 &lt;/div&gt;
@@ -26,7 +26,7 @@
  &lt;td&gt;0&lt;/td&gt;
  &lt;td&gt;Intro &amp;amp; Greetings&lt;/td&gt;
  &lt;td&gt;Newcomers&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/10th/OpenChain_Korea_20210622_intro.pptx"&gt;OpenChain_Korea_20210622_intro.pptx&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2021/OpenChain_Korea_20210622_intro.pptx"&gt;OpenChain_Korea_20210622_intro.pptx&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;1&lt;/td&gt;
@@ -38,19 +38,19 @@
  &lt;td&gt;2&lt;/td&gt;
  &lt;td&gt;OpenChain KWG Update&lt;/td&gt;
  &lt;td&gt;장학성, SK텔레콤&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/10th/OpenChain_Korea_20210622_update.pptx"&gt;OpenChain_Korea_20210622_update.pptx&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2021/OpenChain_Korea_20210622_update.pptx"&gt;OpenChain_Korea_20210622_update.pptx&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;3&lt;/td&gt;
  &lt;td&gt;FOSSLight Open Source Project&lt;/td&gt;
  &lt;td&gt;김경애, LG전자&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/10th/210622_OpenChain_FOSSLight_LGE.pdf"&gt;210622_OpenChain_FOSSLight_LGE.pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2021/210622_OpenChain_FOSSLight_LGE.pdf"&gt;210622_OpenChain_FOSSLight_LGE.pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;4&lt;/td&gt;
  &lt;td&gt;최근 주요 동향 &lt;br&gt;- Google OSV (오픈소스 취약성) &amp;amp; Google Insight (오픈소스 BOM)&lt;br&gt;- NIPA 오픈소스 거버넌스 가이드&lt;/td&gt;
  &lt;td&gt;&lt;br&gt;Robin (황민호), 카카오 &lt;br&gt; 이서연, 라인플러스&lt;/td&gt;
- &lt;td&gt;&lt;br&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/10th/Google_OSV_and_Insight_%ED%99%A9%EB%AF%BC%ED%98%B8.pdf"&gt;Google_OSV_and_Insight_황민호.pdf&lt;/a&gt;&lt;br&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/10th/NIPAGuide_Intro.pdf"&gt;NIPAGuide_Intro.pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;br&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2021/Google_OSV_and_Insight_HwangMinho.pdf"&gt;Google_OSV_and_Insight_황민호.pdf&lt;/a&gt;&lt;br&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2021/NIPAGuide_Intro.pdf"&gt;NIPAGuide_Intro.pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;5&lt;/td&gt;

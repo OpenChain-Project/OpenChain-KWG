@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>관리포털 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EA%B4%80%EB%A6%AC%ED%8F%AC%ED%84%B8/</link><description>Recent content in 관리포털 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Thu, 01 Aug 2024 23:33:26 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EA%B4%80%EB%A6%AC%ED%8F%AC%ED%84%B8/index.xml" rel="self" type="application/rss+xml"/><item><title>4th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/4th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/4th/</guid><description>&lt;img src="20191202_141601.jpg" width="90%"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>관리포털 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EA%B4%80%EB%A6%AC%ED%8F%AC%ED%84%B8/</link><description>Recent content in 관리포털 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Wed, 25 Mar 2026 13:18:12 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EA%B4%80%EB%A6%AC%ED%8F%AC%ED%84%B8/index.xml" rel="self" type="application/rss+xml"/><item><title>4th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/4th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/4th/</guid><description>&lt;img src="20191202_141601.jpg" width="90%"&gt;
 &lt;h2 id="organizer"&gt;Organizer&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;KTDS&lt;/li&gt;
@@ -23,7 +23,7 @@
  &lt;td&gt;1&lt;/td&gt;
  &lt;td&gt;OpenChain Update&lt;/td&gt;
  &lt;td&gt;Shane Coughlan, Linux Foundation&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/4th/a_brief_introduction_to_openchain.pdf"&gt;Download&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2019/a_brief_introduction_to_openchain.pdf"&gt;Download&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;2&lt;/td&gt;
@@ -35,13 +35,13 @@
  &lt;td&gt;3&lt;/td&gt;
  &lt;td&gt;FOSSology 설치와 사용 방법 (How to Install and Use FOSSology)&lt;/td&gt;
  &lt;td&gt;LG전자 박원재 (Wonjae Park / LG Electronics)&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/4th/fossology_introduction_openchain_kwg.pdf"&gt;Download&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2019/fossology_introduction_openchain_kwg.pdf"&gt;Download&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;4&lt;/td&gt;
  &lt;td&gt;OpenChain KWG Update&lt;/td&gt;
  &lt;td&gt;LG전자 장학성 (Haksung Jang, LG Electronics)&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/4th/openchain_kwg_update_2019-12-02.pdf"&gt;Download&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2019/openchain_kwg_update_2019-12-02.pdf"&gt;Download&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;5&lt;/td&gt;
@@ -73,12 +73,12 @@
  &lt;tr&gt;
  &lt;td&gt;1&lt;/td&gt;
  &lt;td&gt;SK텔레콤, 박철웅 (SK telecom, Woody Park)&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/4th/openchainkwg_organization_skt_20191202.pdf"&gt;Download&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2019/openchainkwg_organization_skt_20191202.pdf"&gt;Download&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;1&lt;/td&gt;
  &lt;td&gt;엔씨소프트, 한다솜 (NCSoft, Dasom Han)&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/4th/openchain_kwg_case_study_ncsoft_2019-12-02.pdf"&gt;Download&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2019/openchain_kwg_case_study_ncsoft_2019-12-02.pdf"&gt;Download&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;

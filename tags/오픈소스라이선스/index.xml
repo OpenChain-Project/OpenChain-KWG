@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>오픈소스라이선스 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4/</link><description>Recent content in 오픈소스라이선스 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Mon, 23 Dec 2024 21:25:40 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4/index.xml" rel="self" type="application/rss+xml"/><item><title>오픈소스 라이선스 연구</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/legal/research/3.-study-on-open-source-licenses/</link><pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/legal/research/3.-study-on-open-source-licenses/</guid><description>&lt;h2 id="references"&gt;References&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>오픈소스라이선스 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4/</link><description>Recent content in 오픈소스라이선스 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Wed, 25 Mar 2026 13:18:12 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4/index.xml" rel="self" type="application/rss+xml"/><item><title>오픈소스 라이선스 연구</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/legal/research/3.-study-on-open-source-licenses/</link><pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/legal/research/3.-study-on-open-source-licenses/</guid><description>&lt;h2 id="references"&gt;References&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Heather Meeker, “Open Source for Business: A Practical Guide to Open Source Software Licensing”, 2020. (ISBN-13: 979-8618201773)&lt;/li&gt;
 &lt;li&gt;Copyleft.org, “Copyleft and the GNU General Public License: A Comprehensive Tutorial and Guide”, &lt;a href="https://copyleft.org/guide"&gt;https://copyleft.org/guide&lt;/a&gt;.&lt;/li&gt;
@@ -47,13 +47,13 @@
  &lt;td&gt;2&lt;/td&gt;
  &lt;td&gt;OpenChain KWG Update&lt;/td&gt;
  &lt;td&gt;장학성, SK텔레콤&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/11st/OpenChain_Korea_20210930_update.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2021/OpenChain_Korea_20210930_update.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;3&lt;/td&gt;
  &lt;td&gt;오픈소스 라이선스 변화의 흐름&lt;/td&gt;
  &lt;td&gt;Sean (김영환), 카카오&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/11st/20210930_opensource_license_flow_kakao.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2021/20210930_opensource_license_flow_kakao.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;4&lt;/td&gt;
@@ -65,7 +65,7 @@
  &lt;td&gt;5&lt;/td&gt;
  &lt;td&gt;최근 주요 동향 &lt;br&gt; - 미 정부의 &amp;lsquo;SBOM&amp;rsquo; 의무화 &lt;br&gt; - Github Copilot 오픈소스 라이선스 논쟁&lt;/td&gt;
  &lt;td&gt;Robin (황민호), 카카오&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/11st/20210930_opensource_trend_kakao.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2021/20210930_opensource_trend_kakao.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;6&lt;/td&gt;

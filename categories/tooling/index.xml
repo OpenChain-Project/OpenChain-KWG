@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tooling on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/categories/tooling/</link><description>Recent content in Tooling on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Thu, 01 Aug 2024 23:33:26 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/categories/tooling/index.xml" rel="self" type="application/rss+xml"/><item><title>1st Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/1st-meeting/</link><pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/1st-meeting/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tooling on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/categories/tooling/</link><description>Recent content in Tooling on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Wed, 25 Mar 2026 13:18:12 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/categories/tooling/index.xml" rel="self" type="application/rss+xml"/><item><title>1st Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/1st-meeting/</link><pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/1st-meeting/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;목적 : 공유 세미나 및 Tooling SG 활동 방향 논의&lt;/li&gt;
 &lt;li&gt;일시 : 2022. 02. 15(화), 오후 2시~3:30시&lt;/li&gt;
@@ -31,7 +31,7 @@
  &lt;td&gt;1&lt;/td&gt;
  &lt;td&gt;SCANOSS 소개&lt;/td&gt;
  &lt;td&gt;박원재, LG전자&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/1st-meeting/SCANOSS_Introduction.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/SCANOSS_Introduction.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;2&lt;/td&gt;
@@ -107,13 +107,13 @@
  &lt;td&gt;1&lt;/td&gt;
  &lt;td&gt;FOSSID 리뷰&lt;/td&gt;
  &lt;td&gt;이민정, 카카오&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/2nd-meeting/Session1_kakao.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session1_kakao.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;2&lt;/td&gt;
  &lt;td&gt;오픈소스 검증도구 오픈소스화 계획 현황&lt;/td&gt;
  &lt;td&gt;정윤환, 삼성전자&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/2nd-meeting/Session2_Samsung_Electronics.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session2_Samsung_Electronics.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;3&lt;/td&gt;
@@ -173,13 +173,13 @@
  &lt;td&gt;2&lt;/td&gt;
  &lt;td&gt;OLIVE CLI 소개&lt;/td&gt;
  &lt;td&gt;Ricky(이기문), 카카오&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/3rd-meeting/Session2_Kakao.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session2_Kakao.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;3&lt;/td&gt;
  &lt;td&gt;오픈소스 라이선스 사전/실시간 검증도구 데모&lt;/td&gt;
  &lt;td&gt;정윤환,안다래,김태완, 삼성전자&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/3rd-meeting/Session3_Samsung_Electronics.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session3_Samsung_Electronics.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;</description></item><item><title>4th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/4th-meeting/</link><pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/4th-meeting/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
@@ -212,13 +212,13 @@
  &lt;td&gt;1&lt;/td&gt;
  &lt;td&gt;Opossum 툴 소개&lt;/td&gt;
  &lt;td&gt;석지영, LG전자&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/4th-meeting/Session1_LGE.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session1_LGE.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;2&lt;/td&gt;
  &lt;td&gt;ETRI 오픈소스 컴플라이언스 시스템 OLA - FOSSLight 적용 사례&lt;/td&gt;
  &lt;td&gt;박정숙, ETRI&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/4th-meeting/Session2_ETRI.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session2_ETRI.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;3&lt;/td&gt;
@@ -263,7 +263,7 @@
  &lt;td&gt;1&lt;/td&gt;
  &lt;td&gt;오픈소스 컴플라이언스 도구의 평가 항목&lt;/td&gt;
  &lt;td&gt;박정숙, ETRI&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/5th-meeting/Session1_ETRI.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session1_ETRI.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;2&lt;/td&gt;
@@ -308,7 +308,7 @@
  &lt;td&gt;1&lt;/td&gt;
  &lt;td&gt;Commoditising Open Source Risk Management&lt;/td&gt;
  &lt;td&gt;Julian Coccia, SCANOSS&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/6th-meeting/Session1_SCANOSS.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session1_SCANOSS.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;2&lt;/td&gt;
@@ -357,7 +357,7 @@
  &lt;td&gt;2&lt;/td&gt;
  &lt;td&gt;OSS Review Toolkit 분석&lt;/td&gt;
  &lt;td&gt;박정숙, ETRI&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/7th-meeting/Session2_ETRI.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session2_ETRI.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;</description></item><item><title>8th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/8th-meeting/</link><pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/8th-meeting/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
@@ -391,7 +391,7 @@
  &lt;td&gt;1&lt;/td&gt;
  &lt;td&gt;Debricked 소개&lt;/td&gt;
  &lt;td&gt;최혜성, LG전자&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/8th-meeting/Session1_LGE.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session1_LGE.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;</description></item><item><title>9th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/9th-meeting/</link><pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/9th-meeting/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
@@ -430,7 +430,7 @@
  &lt;td&gt;1&lt;/td&gt;
  &lt;td&gt;FOSSID, Snyk Open Source 소개&lt;/td&gt;
  &lt;td&gt;이준수, OSBC&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/9th-meeting/Session1_OSBC.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2023/Session1_OSBC.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;2&lt;/td&gt;
@@ -509,13 +509,13 @@
  &lt;td&gt;1&lt;/td&gt;
  &lt;td&gt;OpenSCA 소개&lt;/td&gt;
  &lt;td&gt;Qiuyue Qi, Xmirror Security&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/11th-meeting/session1_xmirror.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2023/session1_xmirror.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;2&lt;/td&gt;
  &lt;td&gt;SPDX Tools 사용&lt;/td&gt;
  &lt;td&gt;박정숙, ETRI&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/11th-meeting/session2_etri.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2023/session2_etri.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;</description></item><item><title>12th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/12th-meeting/</link><pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/12th-meeting/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
@@ -551,7 +551,7 @@
  &lt;td&gt;1&lt;/td&gt;
  &lt;td&gt;Labrador 소개&lt;/td&gt;
  &lt;td&gt;조재형, Labrador Labs&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/12th-meeting/Labrador.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2023/Labrador.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;</description></item><item><title>13th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/13th-meeting/</link><pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/13th-meeting/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
@@ -636,7 +636,7 @@
  &lt;td&gt;1&lt;/td&gt;
  &lt;td&gt;The AboutCode stack: End-to-end open source compliance automation with ScanCode and beyond&lt;/td&gt;
  &lt;td&gt;Philippe Ombredanne, nexB Inc.&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/14th-meeting/OpenChain-KRW-AboutCode-Stack-introduction-Q1-2024.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2024/OpenChain-KRW-AboutCode-Stack-introduction-Q1-2024.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;2&lt;/td&gt;
@@ -679,7 +679,7 @@
  &lt;td&gt;1&lt;/td&gt;
  &lt;td&gt;SW 공급망보안 XSCAN&lt;/td&gt;
  &lt;td&gt;독고준, RedPenSoft&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/15th-meeting/XSCAN_introduction.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2023/XSCAN_introduction.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;</description></item><item><title>16th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/16th-meeting/</link><pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/16th-meeting/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
@@ -715,7 +715,7 @@
  &lt;td&gt;1&lt;/td&gt;
  &lt;td&gt;ORT 프로젝트&lt;/td&gt;
  &lt;td&gt;Thomas Steenbergen, OSS Review Toolkit&lt;/td&gt;
- &lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/16th-meeting/The-ORT-project-OpenChain-KWG-April-2024.pdf"&gt;slides&lt;/a&gt; / &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/16th-meeting/ort-demo-example-openchain-kwg-april-2024.zip"&gt;demo&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2024/The-ORT-project-OpenChain-KWG-April-2024.pdf"&gt;slides&lt;/a&gt; / &lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2024/ort-demo-example-openchain-kwg-april-2024.zip"&gt;demo&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;</description></item></channel></rss>
