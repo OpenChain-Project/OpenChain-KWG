@@ -16,8 +16,8 @@ draft: true
 ### [즉시 수정] 오류 수정
 - [x] #1  OSV-SCALIBR 페이지 전면 재작성 (tools/4-osvscalibr/_index.md)
 - [x] #36 2-policy L135 앵커 오타 수정 (## → #)
-- [ ] #19 4-tool FOSSology 링크 구버전→신버전 교체
-- [ ] #20 4-tool SW360 링크 구버전→신버전 교체
+- [x] #19 4-tool FOSSology 링크 구버전→신버전 교체
+- [x] #20 4-tool SW360 링크 구버전→신버전 교체
 
 ### [1-policy 보완] ISO 조항 누락 항목
 - [ ] #2  컴플라이언스 산출물 보관 기간 명시 (§4.3 / ISO 5230 §3.4.1.2)
