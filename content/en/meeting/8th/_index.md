@@ -25,13 +25,13 @@ _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
 
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Intro & Greetings  | Haksung Jang, SK telecom| [pdf](../../../slides/OpenChainKWG-8th-2020-12-02-intro.pdf) |
-| 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | [pdf](../../../slides/OpenChain_Korea_8_Keynote.pdf) |
-| 2  | How to build open source program in Hyundai Motors | Songha Back, Hyundai Motors |  [pdf](../../../slides/20201202_Hyundai.pdf) | 
-| 3  | SCA(Software Composition Analysis)  Market Trend | Robin Hwang, Kakao | [pdf](../../../slides/SCA%20Market%20Wave%202020.pdf) | 
+| 0  | Intro & Greetings  | Haksung Jang, SK telecom| [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/OpenChainKWG-8th-2020-12-02-intro.pdf) |
+| 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/OpenChain_Korea_8_Keynote.pdf) |
+| 2  | How to build open source program in Hyundai Motors | Songha Back, Hyundai Motors |  [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/20201202_Hyundai.pdf) | 
+| 3  | SCA(Software Composition Analysis)  Market Trend | Robin Hwang, Kakao | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/SCA-Market-Wave-2020.pdf) | 
 | 4  | Olive, Grand Open | Robin Hwang, Kakao | - | 
 | 5  | Case Study | All | - |
-| 6  | OpenChain KWG Update | Haksung Jang, SK telecom | [pdf](../../../slides/OpenChainKWG-8th-2020-12-02-update.pdf) |
+| 6  | OpenChain KWG Update | Haksung Jang, SK telecom | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/OpenChainKWG-8th-2020-12-02-update.pdf) |
 | 7  | Free Discussion | All | - |
 
 ## Case Study

@@ -18,10 +18,10 @@ description: >
 | Time | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
 | 14:00~14:10 | Welcome & Intro | 박수홍 그룹장 / 정윤환, 삼성전자 |  -  |
-| 14:10~14:20 | OpenChain Global Update  | 	Shane Coughlan, Linux Foundation | [pdf](../../slides/korea-work-group-2023-11-15.pdf) |
-| 14:20~14:30 | OpenChain KWG Update  | 장학성, SK텔레콤 | [pdf](../../slides/OpenChain_Korea_update_20231115.pdf)  |
+| 14:10~14:20 | OpenChain Global Update  | 	Shane Coughlan, Linux Foundation | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/korea-work-group-2023-11-15.pdf) |
+| 14:20~14:30 | OpenChain KWG Update  | 장학성, SK텔레콤 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/OpenChain_Korea_update_20231115.pdf)  |
 | 14:30~14:40 | 연말 시상 | 사회 : 이서연, LINE+ |  -  |
-| 14:40~15:10 | 세션발표 : 카카오뱅크 오픈소스 보안 보증 준비 사례 공유  | 하헌관(Arlo) / 이민애(May), 카카오뱅크 | [pdf](../../slides/카카오뱅크_ISO18974_준수_사례_소개.pdf)  |
+| 14:40~15:10 | 세션발표 : 카카오뱅크 오픈소스 보안 보증 준비 사례 공유  | 하헌관(Arlo) / 이민애(May), 카카오뱅크 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/kakaobank-ISO18974-conformance-case-study.pdf)  |
 | 15:10~15:30 | 네트워킹 (음료/다과)  | All | -  |
 | 15:30~16:30 | 그룹 토의 | 사회 : 이서연, LINE+ |  -  |
 

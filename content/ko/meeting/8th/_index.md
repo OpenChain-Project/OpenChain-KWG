@@ -26,13 +26,13 @@ _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_ -->
 
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Intro & Greetings  | SK텔레콤 장학성 | [pdf](../../slides/OpenChainKWG-8th-2020-12-02-intro.pdf) |
-| 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | [pdf](../../slides/OpenChain_Korea_8_Keynote.pdf) |
-| 2  | 현대자동차 오픈소스 거버넌스 체계 구축 | 현대자동차 백송하 |  [pdf](../../slides/20201202_Hyundai.pdf) | 
-| 3  | SCA(Software Composition Analysis)  Market 동향 | 카카오 황민호(Robin) | [pdf](../../slides/SCA%20Market%20Wave%202020.pdf) | 
+| 0  | Intro & Greetings  | SK텔레콤 장학성 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/OpenChainKWG-8th-2020-12-02-intro.pdf) |
+| 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/OpenChain_Korea_8_Keynote.pdf) |
+| 2  | 현대자동차 오픈소스 거버넌스 체계 구축 | 현대자동차 백송하 |  [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/20201202_Hyundai.pdf) | 
+| 3  | SCA(Software Composition Analysis)  Market 동향 | 카카오 황민호(Robin) | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/SCA-Market-Wave-2020.pdf) | 
 | 4  | Olive 전격 공개 | 카카오 황민호(Robin) | - | 
 | 5  | Case Study | All | - |
-| 6  | OpenChain KWG Update | SK텔레콤 장학성 | [pdf](../../slides/OpenChainKWG-8th-2020-12-02-update.pdf) |
+| 6  | OpenChain KWG Update | SK텔레콤 장학성 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/OpenChainKWG-8th-2020-12-02-update.pdf) |
 | 7  | Free Discussion | All | - |
 
 ## Case Study

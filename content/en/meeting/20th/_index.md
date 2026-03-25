@@ -16,10 +16,10 @@ description: >
 | Time | Agenda | Speaker | Slide |
 |-------|-----------------|------|------|
 | 14:00~14:10 | Welcome & Intro | Daniel Park / Yunhwan Jeong, Samsung Electronics | - |
-| 14:10~14:20 | OpenChain Global Update | Shane Coughlan, Linux Foundation | [pdf](../../../slides/korea-work-group-2023-11-15.pdf) |
-| 14:20~14:30 | OpenChain KWG Update | Haksung Jang, SK Telecom | [pdf](../../../slides/OpenChain_Korea_update_20231115.pdf) |
+| 14:10~14:20 | OpenChain Global Update | Shane Coughlan, Linux Foundation | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/korea-work-group-2023-11-15.pdf) |
+| 14:20~14:30 | OpenChain KWG Update | Haksung Jang, SK Telecom | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/OpenChain_Korea_update_20231115.pdf) |
 | 14:30~14:40 | Year-end awards | Host: Seoyeon Lee, LINE+ | - |
-| 14:40~15:10 | Kakao Bank open source security assurance preparation case study | Alro Ha / May Lee, Kakao Bank | [pdf](../../../slides/카카오뱅크_ISO18974_준수_사례_소개.pdf) |
+| 14:40~15:10 | Kakao Bank open source security assurance preparation case study | Alro Ha / May Lee, Kakao Bank | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/kakaobank-ISO18974-conformance-case-study.pdf) |
 | 15:10~15:30 | Networking (Beverages/Refreshments) | All | - |
 | 15:30~16:30 | Group discussion | Host: Seoyeon Lee, LINE+ | - |
 
