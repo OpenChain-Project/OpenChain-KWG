@@ -22,6 +22,56 @@ OpenChain KWG의 모든 활동은 누구나 열람하고 사용할 수 있도록
 
 * [Resource](https://openchain-project.github.io/OpenChain-KWG/resource/) : OpenChain KWG에서 번역/생성한 자료 공개
 * [Meeting](https://openchain-project.github.io/OpenChain-KWG/meeting/) : OpenChain KWG 정기 모임 공지, 발표자료, 참석자, 회의록 등 자료 공개  (작성 방법 : [Meeting 내용 작성하기](https://github.com/OpenChain-Project/OpenChain-KWG/wiki/Meeting-%EB%82%B4%EC%9A%A9-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0))
+
+### 새 미팅 페이지 생성 방법
+
+미팅 페이지는 Archetype 템플릿을 사용하여 아래 절차로 생성합니다.
+
+**1단계: 발표자료 업로드**
+
+발표자료(PDF, PPTX 등)는 Git 저장소에 직접 커밋하지 않고,
+반드시 GitHub Releases에 업로드합니다.
+
+- GitHub Releases 접속:
+  https://github.com/OpenChain-Project/OpenChain-KWG/releases
+- 해당 연도의 Release 태그 선택 (예: `meeting-slides-2026`)
+  태그가 없으면 새로 생성:
+  - Tag: `meeting-slides-YYYY`
+  - Title: `Meeting Slides YYYY`
+- 파일명 규칙 준수 후 업로드:
+  - 영문, 숫자, 하이픈(`-`), 언더스코어(`_`), 점(`.`)만 사용
+  - 공백·한글·특수문자 사용 금지
+  - 권장 형식: `YYYYMMDD-발표자-주제키워드.pdf`
+  - 예시: `20260320-kakao-sbom-intro.pdf`
+- 업로드 후 다운로드 URL 복사:
+  `https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-YYYY/파일명.pdf`
+
+**2단계: 미팅 페이지 생성**
+
+Archetype 템플릿을 사용하여 ko/en 양쪽 페이지를 생성합니다.
+
+```bash
+# 예시: 29번째 미팅
+hugo new content/ko/meeting/29th/_index.md --kind meeting
+hugo new content/en/meeting/29th/_index.md --kind meeting
+```
+
+생성된 파일을 열어 아래 항목을 채웁니다:
+- Front Matter: `title`, `date`, `description`
+- 발표자료 표의 링크를 1단계에서 복사한 GitHub Releases URL로 교체
+
+**3단계: 커밋 및 배포**
+
+```bash
+git add content/ko/meeting/29th/
+git add content/en/meeting/29th/
+git commit -m "feat: add 29th meeting page"
+git push origin master
+```
+
+> 주의: `static/` 또는 `content/` 폴더에 PDF, PPTX 등 대용량 파일을
+> 직접 커밋하지 마세요. GitHub Pages 1GB 용량 한도를 초과할 수 있습니다.
+
 * [Subgroup](https://openchain-project.github.io/OpenChain-KWG/subgroup/) : OpenChain KWG Subgroup의 활동 자료 공개 (작성 방법 : [Subgroup 내용 작성하기](https://github.com/OpenChain-Project/OpenChain-KWG/wiki/Subgroup-%EB%82%B4%EC%9A%A9-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0))
 * [Blog](https://openchain-project.github.io/OpenChain-KWG/blog/) : OpenChain KWG 멤버가 작성하는 뉴스, 기술블로그 공개 (작성 방법 : [Blog 작성하기](https://github.com/OpenChain-Project/OpenChain-KWG/wiki/Blog-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0))
 
