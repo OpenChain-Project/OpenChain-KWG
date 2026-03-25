@@ -33,8 +33,8 @@ description: Tooling & Legal Subgroup 26th Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues | LG Electronics, Park Wonjae | [pdf](0_CommunityUpdates_NewIssues_LGE.pdf) |
-| 1  | Make Black Duck More User Friendly 02 | Ahnlab, Kim Gangbo | [pdf](1_Ahnlab_KimGangbo.pdf) |
+| 0  | Community Updates & New Issues | LG Electronics, Park Wonjae | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/0_CommunityUpdates_NewIssues_LGE.pdf) |
+| 1  | Make Black Duck More User Friendly 02 | Ahnlab, Kim Gangbo | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/1_Ahnlab_KimGangbo.pdf) |
 | 2  | (Draft) Sharing Open Source Management System and Discussion | KB Kookmin Bank, Kang Jieun | N/A |
 | 3  | AI Licensing: Different from Open Source Licensing | LINE Plus, Kim Dongheyok | N/A |
 | 4  | Discussion on OSS Notice | LG Electronics, Park Wonjae | N/A |

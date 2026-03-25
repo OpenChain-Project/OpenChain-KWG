@@ -22,8 +22,8 @@ description: Legal SG 4th Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | (소송사례) Entr’Ouvert vs. Orange 프랑스 소송 사례 | 조정년, SK주식회사  | [pdf](발표자료1-SK주식회사-조정년.pdf) |
-| 2  | (주제발표) 오픈소스 라이선스 특허보복조항 | 박명헌, NHN | [pdf](발표자료2-NHN-박명헌.pdf) |
+| 1  | (소송사례) Entr’Ouvert vs. Orange 프랑스 소송 사례 | 조정년, SK주식회사  | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2024/presentation1-SK_Holdings-JoJeongnyon.pdf) |
+| 2  | (주제발표) 오픈소스 라이선스 특허보복조항 | 박명헌, NHN | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2024/presentation2-NHN-ParkMyungheon.pdf) |
 
 ## Meeting Minutes
 

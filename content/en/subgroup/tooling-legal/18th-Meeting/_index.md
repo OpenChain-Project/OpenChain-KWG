@@ -24,8 +24,8 @@ description: Tooling & Legal Subgroup 18th Meeting
 ## Agenda
 | No | Subject | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates and New Issues: Analysis of Paper (Compatibility Issues between GPLv2 and Apache 2.0) | ETRI Park Jeong-sook | [pdf](./session0_etri.pdf) |
-| 1  | (Litigation Case) Neo4j, Inc. v. PureThink, LLC | LG Electronics Park Wonjae | [pdf](./session1_lge.pdf) |
+| 0  | Community Updates and New Issues: Analysis of Paper (Compatibility Issues between GPLv2 and Apache 2.0) | ETRI Park Jeong-sook | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2024/session0_etri.pdf) |
+| 1  | (Litigation Case) Neo4j, Inc. v. PureThink, LLC | LG Electronics Park Wonjae | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2024/session1_lge_18th.pdf) |
 
 <!--
 

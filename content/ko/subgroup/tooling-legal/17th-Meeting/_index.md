@@ -31,10 +31,10 @@ description: Tooling & Legal Subgroup 17th Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues | ETRI 박정숙 | [ppt](./session0_etri.pptx) |
-| 1  | (Tooling) FOSSLight Scanner Update | LG전자 김소임 | [pdf](./session1_lge.pdf) |
-| 2  | (소송사례) Jacobsen v. Katzer 소송: 계약위반과 저작권 위반 | 현대모비스 김형진 | [ppt](./session2_mobis.pptx) |
-| 3  | (주제발표) 오픈소스 라이선스 간 양립성 충돌 문제 조항과 판단 기준에 관한 연구(GPL 라이선스를 중심으로) | 텔레칩스 연지영 | [pdf](./session3_telechips.pdf) |
+| 0  | Community Updates & New Issues | ETRI 박정숙 | [ppt](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2024/session0_etri.pptx) |
+| 1  | (Tooling) FOSSLight Scanner Update | LG전자 김소임 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2024/session1_lge_17th.pdf) |
+| 2  | (소송사례) Jacobsen v. Katzer 소송: 계약위반과 저작권 위반 | 현대모비스 김형진 | [ppt](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2024/session2_mobis.pptx) |
+| 3  | (주제발표) 오픈소스 라이선스 간 양립성 충돌 문제 조항과 판단 기준에 관한 연구(GPL 라이선스를 중심으로) | 텔레칩스 연지영 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2024/session3_telechips.pdf) |
 
 
 <!-- 
