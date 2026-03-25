@@ -32,9 +32,9 @@ description: Tooling & Legal Subgroup 19th Meeting
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Community Updates | SK텔레콤, 장학성 | [LINK](https://openchain-project.github.io/OpenChain-KWG/resource/) |
-| 1  | 고지문 작성법에 대한 논의 | ETRI, 신학철 | [pdf](./1_NoticeDocument_ETRI.pdf) |
+| 1  | 고지문 작성법에 대한 논의 | ETRI, 신학철 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2024/1_NoticeDocument_ETRI.pdf) |
 | 2  | Open Discussion : Open Source 분석 도구 | LG전자, 박원재 | N/A |
-| 3  | Build Tracing | Tjaldur Software, Armijn Hemel | [pdf](./3_BuildTracing_TjaldurSoftware,.pdf) |
+| 3  | Build Tracing | Tjaldur Software, Armijn Hemel | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2024/3_BuildTracing_TjaldurSoftware.pdf) |
 
 <!-- 
 

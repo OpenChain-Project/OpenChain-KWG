@@ -29,10 +29,10 @@ description: Tooling & Legal Subgroup 17th Meeting
 ## Agenda
 | No | Subject | Speaker | Slide |
 |----|-----------------|------|------|
-| 0 | Community Updates & New Issues | ETRI Park Jeong-sook | [ppt](./session0_etri.pptx) |
-| 1 | (Tooling) FOSSLight Scanner Update | LG Electronics Kim Soim | [pdf](./session1_lge.pdf) |
-| 2 | (Litigation Case) Jacobsen v. Katzer Litigation: Breach of Contract and Copyright Infringement | Hyundai Mobis Kim Hyung-jin | [ppt](./session2_mobis.pptx) |
-| 3 | (Topic Presentation) A Study on the Compatibility Conflicts and Criteria of Open Source Licenses (Focusing on GPL License) | Telechips Yeon Ji-young | [pdf](./session3_telechips.pdf) |
+| 0 | Community Updates & New Issues | ETRI Park Jeong-sook | [ppt](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2024/session0_etri.pptx) |
+| 1 | (Tooling) FOSSLight Scanner Update | LG Electronics Kim Soim | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2024/session1_lge_17th.pdf) |
+| 2 | (Litigation Case) Jacobsen v. Katzer Litigation: Breach of Contract and Copyright Infringement | Hyundai Mobis Kim Hyung-jin | [ppt](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2024/session2_mobis.pptx) |
+| 3 | (Topic Presentation) A Study on the Compatibility Conflicts and Criteria of Open Source Licenses (Focusing on GPL License) | Telechips Yeon Ji-young | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2024/session3_telechips.pdf) |
 
 
 <!--
