@@ -22,11 +22,11 @@ description: >
 
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Intro & Greetings  | Newcomers | [pptx](../../slides/OpenChain_Korea_20210311_intro.pptx) |
+| 0  | Intro & Greetings  | Newcomers | [pptx](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/OpenChain_Korea_20210311_intro.pptx) |
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
-| 2  | FOSSLight Dependency 소개 | LG전자 석지영 | [ppts](../../slides/FOSSLight_dependency.pptx) | 
-| 3  | OpenChain KWG Update / <br> ISO/IEC 5230 인증 3가지 방법 | SK텔레콤 장학성 | [pptx](../../slides/OpenChain_Korea_20210311_update.pptx)  <br> [pptx](../../slides/OpenChain_Korea_20210311_howto.pptx)|
-| 4  | 오픈소스와 함께한 1,273일간의 기록 (ISO 인증 취득 과정) | NCSOFT 한지호 | [pdf](../../slides/★오픈소스와%20함께한%201273일간의%20기록_20210311_FN.pdf)| 
+| 2  | FOSSLight Dependency 소개 | LG전자 석지영 | [ppts](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/FOSSLight_dependency.pptx) | 
+| 3  | OpenChain KWG Update / <br> ISO/IEC 5230 인증 3가지 방법 | SK텔레콤 장학성 | [pptx](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/OpenChain_Korea_20210311_update.pptx)  <br> [pptx](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/OpenChain_Korea_20210311_howto.pptx)|
+| 4  | 오픈소스와 함께한 1,273일간의 기록 (ISO 인증 취득 과정) | NCSOFT 한지호 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/1273-days-with-opensource-20210311-FN.pdf)| 
 | 5  | Case Study | All | - |
 | 6  | Free Discussion | All | - |
 

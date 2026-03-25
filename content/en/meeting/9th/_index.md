@@ -23,11 +23,11 @@ description: >
 
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Intro & Greetings  | Newcomers | [pptx](../../../slides/OpenChain_Korea_20210311_intro.pptx) |
+| 0  | Intro & Greetings  | Newcomers | [pptx](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/OpenChain_Korea_20210311_intro.pptx) |
 | 1  | OpenChain Update  | 	Shane Coughlan, Linux Foundation | - |
-| 2  | FOSSLight Dependency  | Jiyeong Seok, LG Electronics | [ppts](../../../slides/FOSSLight_dependency.pptx) | 
-| 3  | OpenChain KWG Update & / <br> 3 Ways to Get ISO Certification | Haksung Jang, SK telecom | [pptx](../../../slides/OpenChain_Korea_20210311_update.pptx)  <br> [pptx](../../../slides/OpenChain_Korea_20210311_howto.pptx)|
-| 4  | 1,273 days with open source (ISO Certification Review) | Jiho Han, NCSOFT | [pdf](../../../slides/★오픈소스와%20함께한%201273일간의%20기록_20210311_FN.pdf)| 
+| 2  | FOSSLight Dependency  | Jiyeong Seok, LG Electronics | [ppts](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/FOSSLight_dependency.pptx) | 
+| 3  | OpenChain KWG Update & / <br> 3 Ways to Get ISO Certification | Haksung Jang, SK telecom | [pptx](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/OpenChain_Korea_20210311_update.pptx)  <br> [pptx](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/OpenChain_Korea_20210311_howto.pptx)|
+| 4  | 1,273 days with open source (ISO Certification Review) | Jiho Han, NCSOFT | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/1273-days-with-opensource-20210311-FN.pdf)| 
 | 5  | Case Study | All | - |
 | 6  | Free Discussion | All | - |
 
