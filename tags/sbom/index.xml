@@ -1,4 +1,115 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBOM on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/sbom/</link><description>Recent content in SBOM on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Thu, 26 Mar 2026 05:45:44 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/sbom/index.xml" rel="self" type="application/rss+xml"/><item><title>11st Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2021/11st/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2021/11st/</guid><description>&lt;div &gt;&lt;span class="image fit"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBOM on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/sbom/</link><description>Recent content in SBOM on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Thu, 26 Mar 2026 07:34:43 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/sbom/index.xml" rel="self" type="application/rss+xml"/><item><title>OSV-SCALIBR</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/4-osvscalibr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/4-osvscalibr/</guid><description>&lt;p&gt;OSV-SCALIBR (Open Source Vulnerabilities - Software Composition Analysis LIBRary)은
+Google이 개발한 오픈소스 소프트웨어 구성 분석 도구입니다.
+파일시스템, 컨테이너 이미지, 바이너리를 스캔하여 포함된 패키지를 식별하고,
+&lt;a href="https://osv.dev/"&gt;OSV(Open Source Vulnerabilities)&lt;/a&gt; 데이터베이스와 대조하여
+알려진 취약점을 검출합니다. SPDX 형식의 SBOM 생성도 지원합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a href="https://github.com/google/osv-scalibr"&gt;https://github.com/google/osv-scalibr&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;라이선스: Apache-2.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="1-주요-특징"&gt;1. 주요 특징&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;다양한 스캔 대상 지원&lt;/strong&gt;: 로컬 파일시스템, 컨테이너 이미지, 아카이브 파일&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;폭넓은 생태계 지원&lt;/strong&gt;: Go, Python, Java(Maven), JavaScript(npm), Rust, Ruby 등&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OSV DB 연동&lt;/strong&gt;: 스캔 결과를 OSV 데이터베이스와 대조하여 CVE 등 취약점 정보 제공&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SBOM 출력&lt;/strong&gt;: SPDX 2.3 형식으로 결과 내보내기 가능&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CLI 및 라이브러리 이중 제공&lt;/strong&gt;: 독립 실행 바이너리(CLI)와 Go 라이브러리 모두 제공&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="2-설치-방법"&gt;2. 설치 방법&lt;/h3&gt;
+&lt;p&gt;Go 1.21 이상이 설치된 환경에서 아래 명령으로 빌드합니다.&lt;/p&gt;</description></item><item><title>cdxgen</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/5-cdxgen/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/5-cdxgen/</guid><description>&lt;p&gt;cdxgen은 OWASP(Open Web Application Security Project)가 관리하는 오픈소스 SBOM 생성 도구입니다.
+소스 코드, 빌드 결과물, 컨테이너 이미지를 분석하여 &lt;a href="https://cyclonedx.org/"&gt;CycloneDX&lt;/a&gt; 형식의
+SBOM을 자동으로 생성합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a href="https://github.com/CycloneDX/cdxgen"&gt;https://github.com/CycloneDX/cdxgen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;라이선스: Apache-2.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="주요-특징"&gt;주요 특징&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;광범위한 언어·생태계 지원&lt;/strong&gt;: Java(Maven/Gradle), Node.js, Python, Go, Rust, PHP, Ruby, .NET 등 20개 이상&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;다양한 스캔 대상&lt;/strong&gt;: 소스 코드 디렉토리, 컨테이너 이미지, GitHub 저장소&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CycloneDX 표준 출력&lt;/strong&gt;: CycloneDX 1.4/1.5/1.6 JSON 및 XML 형식 지원&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;REPL 모드&lt;/strong&gt;: 대화형 인터페이스로 SBOM 탐색 및 조회 가능&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CI/CD 통합&lt;/strong&gt;: GitHub Actions, GitLab CI 등 주요 파이프라인과 쉽게 연동&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="설치-방법"&gt;설치 방법&lt;/h2&gt;
+&lt;p&gt;Node.js 18 이상이 설치된 환경에서 아래 명령으로 설치합니다.&lt;/p&gt;</description></item><item><title>Syft</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/6-syft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/6-syft/</guid><description>&lt;p&gt;Syft는 Anchore가 개발한 오픈소스 SBOM 생성 CLI 도구입니다.
+컨테이너 이미지, 파일시스템, 아카이브를 스캔하여 포함된 패키지를 식별하고
+SPDX 또는 CycloneDX 형식의 SBOM을 생성합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a href="https://github.com/anchore/syft"&gt;https://github.com/anchore/syft&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;라이선스: Apache-2.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="주요-특징"&gt;주요 특징&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;다양한 스캔 대상&lt;/strong&gt;: 컨테이너 이미지(Docker, OCI), 로컬 파일시스템, tar 아카이브&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;폭넓은 생태계 지원&lt;/strong&gt;: Alpine(apk), Debian/Ubuntu(dpkg), RPM, Python, Java, Go, Node.js, Ruby, Rust 등&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;표준 출력 형식&lt;/strong&gt;: SPDX 2.2/2.3 (JSON·tag-value), CycloneDX 1.4/1.5 (JSON·XML), Syft JSON&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Grype 연동&lt;/strong&gt;: Anchore의 취약점 스캐너 Grype와 자연스럽게 연동하여 SBOM 기반 취약점 분석 가능&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;빠른 설치&lt;/strong&gt;: 단일 바이너리 배포, 별도 런타임 불필요&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="설치-방법"&gt;설치 방법&lt;/h2&gt;
+&lt;h3 id="스크립트-설치-linuxmacos"&gt;스크립트 설치 (Linux/macOS)&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh &lt;span style="color:#000;font-weight:bold"&gt;|&lt;/span&gt; sh -s -- -b /usr/local/bin
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="homebrew-macos"&gt;Homebrew (macOS)&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;brew install syft
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="docker"&gt;Docker&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;docker pull anchore/syft
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="기본-사용법"&gt;기본 사용법&lt;/h2&gt;
+&lt;h3 id="1-컨테이너-이미지-스캔"&gt;(1) 컨테이너 이미지 스캔&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#8f5902;font-style:italic"&gt;# Docker 이미지 스캔 (SPDX JSON 출력)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;syft ubuntu:22.04 -o spdx-json&lt;span style="color:#ce5c00;font-weight:bold"&gt;=&lt;/span&gt;sbom.spdx.json
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#8f5902;font-style:italic"&gt;# CycloneDX JSON 출력&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;syft ubuntu:22.04 -o cyclonedx-json&lt;span style="color:#ce5c00;font-weight:bold"&gt;=&lt;/span&gt;sbom.cdx.json
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="2-로컬-디렉토리-스캔"&gt;(2) 로컬 디렉토리 스캔&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;syft dir:/path/to/project -o spdx-json&lt;span style="color:#ce5c00;font-weight:bold"&gt;=&lt;/span&gt;sbom.spdx.json
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="3-표준-출력으로-결과-확인"&gt;(3) 표준 출력으로 결과 확인&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#8f5902;font-style:italic"&gt;# 터미널에서 패키지 목록 확인&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;syft ubuntu:22.04
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#8f5902;font-style:italic"&gt;# JSON 형식으로 표준 출력&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;syft ubuntu:22.04 -o json
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="4-grype와-연동하여-취약점-스캔"&gt;(4) Grype와 연동하여 취약점 스캔&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#8f5902;font-style:italic"&gt;# Syft로 SBOM 생성 후 Grype로 취약점 분석&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;syft ubuntu:22.04 -o json &lt;span style="color:#000;font-weight:bold"&gt;|&lt;/span&gt; grype
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="cicd-연동-예시"&gt;CI/CD 연동 예시&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#8f5902;font-style:italic"&gt;# GitHub Actions 예시&lt;/span&gt;&lt;span style="color:#f8f8f8"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;- &lt;span style="color:#204a87;font-weight:bold"&gt;name&lt;/span&gt;&lt;span style="color:#000;font-weight:bold"&gt;:&lt;/span&gt;&lt;span style="color:#f8f8f8"&gt; &lt;/span&gt;&lt;span style="color:#000"&gt;Generate SBOM with Syft&lt;/span&gt;&lt;span style="color:#f8f8f8"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f8f8f8"&gt; &lt;/span&gt;&lt;span style="color:#204a87;font-weight:bold"&gt;uses&lt;/span&gt;&lt;span style="color:#000;font-weight:bold"&gt;:&lt;/span&gt;&lt;span style="color:#f8f8f8"&gt; &lt;/span&gt;&lt;span style="color:#000"&gt;anchore/sbom-action@v0&lt;/span&gt;&lt;span style="color:#f8f8f8"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f8f8f8"&gt; &lt;/span&gt;&lt;span style="color:#204a87;font-weight:bold"&gt;with&lt;/span&gt;&lt;span style="color:#000;font-weight:bold"&gt;:&lt;/span&gt;&lt;span style="color:#f8f8f8"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f8f8f8"&gt; &lt;/span&gt;&lt;span style="color:#204a87;font-weight:bold"&gt;image&lt;/span&gt;&lt;span style="color:#000;font-weight:bold"&gt;:&lt;/span&gt;&lt;span style="color:#f8f8f8"&gt; &lt;/span&gt;&lt;span style="color:#000"&gt;myapp:latest&lt;/span&gt;&lt;span style="color:#f8f8f8"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f8f8f8"&gt; &lt;/span&gt;&lt;span style="color:#204a87;font-weight:bold"&gt;format&lt;/span&gt;&lt;span style="color:#000;font-weight:bold"&gt;:&lt;/span&gt;&lt;span style="color:#f8f8f8"&gt; &lt;/span&gt;&lt;span style="color:#000"&gt;spdx-json&lt;/span&gt;&lt;span style="color:#f8f8f8"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f8f8f8"&gt; &lt;/span&gt;&lt;span style="color:#204a87;font-weight:bold"&gt;output-file&lt;/span&gt;&lt;span style="color:#000;font-weight:bold"&gt;:&lt;/span&gt;&lt;span style="color:#f8f8f8"&gt; &lt;/span&gt;&lt;span style="color:#000"&gt;sbom.spdx.json&lt;/span&gt;&lt;span style="color:#f8f8f8"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;- &lt;span style="color:#204a87;font-weight:bold"&gt;name&lt;/span&gt;&lt;span style="color:#000;font-weight:bold"&gt;:&lt;/span&gt;&lt;span style="color:#f8f8f8"&gt; &lt;/span&gt;&lt;span style="color:#000"&gt;Upload SBOM&lt;/span&gt;&lt;span style="color:#f8f8f8"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f8f8f8"&gt; &lt;/span&gt;&lt;span style="color:#204a87;font-weight:bold"&gt;uses&lt;/span&gt;&lt;span style="color:#000;font-weight:bold"&gt;:&lt;/span&gt;&lt;span style="color:#f8f8f8"&gt; &lt;/span&gt;&lt;span style="color:#000"&gt;actions/upload-artifact@v4&lt;/span&gt;&lt;span style="color:#f8f8f8"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f8f8f8"&gt; &lt;/span&gt;&lt;span style="color:#204a87;font-weight:bold"&gt;with&lt;/span&gt;&lt;span style="color:#000;font-weight:bold"&gt;:&lt;/span&gt;&lt;span style="color:#f8f8f8"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f8f8f8"&gt; &lt;/span&gt;&lt;span style="color:#204a87;font-weight:bold"&gt;name&lt;/span&gt;&lt;span style="color:#000;font-weight:bold"&gt;:&lt;/span&gt;&lt;span style="color:#f8f8f8"&gt; &lt;/span&gt;&lt;span style="color:#000"&gt;sbom&lt;/span&gt;&lt;span style="color:#f8f8f8"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f8f8f8"&gt; &lt;/span&gt;&lt;span style="color:#204a87;font-weight:bold"&gt;path&lt;/span&gt;&lt;span style="color:#000;font-weight:bold"&gt;:&lt;/span&gt;&lt;span style="color:#f8f8f8"&gt; &lt;/span&gt;&lt;span style="color:#000"&gt;sbom.spdx.json&lt;/span&gt;&lt;span style="color:#f8f8f8"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="참고-자료"&gt;참고 자료&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Syft GitHub: &lt;a href="https://github.com/anchore/syft"&gt;https://github.com/anchore/syft&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Grype(취약점 스캐너): &lt;a href="https://github.com/anchore/grype"&gt;https://github.com/anchore/grype&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;SPDX 표준: &lt;a href="https://spdx.dev/"&gt;https://spdx.dev/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CycloneDX 표준: &lt;a href="https://cyclonedx.org/"&gt;https://cyclonedx.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Dependency-Track</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/7-dependency-track/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/7-dependency-track/</guid><description>&lt;p&gt;Dependency-Track은 OWASP가 관리하는 오픈소스 SBOM 관리 및 취약점 분석 플랫폼입니다.
+업로드된 SBOM(CycloneDX, SPDX)을 기반으로 컴포넌트별 취약점을 지속적으로 모니터링하고,
+정책 위반 여부를 자동으로 평가합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a href="https://github.com/DependencyTrack/dependency-track"&gt;https://github.com/DependencyTrack/dependency-track&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;공식 문서: &lt;a href="https://docs.dependencytrack.org/"&gt;https://docs.dependencytrack.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;라이선스: Apache-2.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="주요-특징"&gt;주요 특징&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SBOM 기반 지속 모니터링&lt;/strong&gt;: SPDX 및 CycloneDX 형식의 SBOM을 업로드하면 컴포넌트별 최신 취약점을 자동으로 추적&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;다양한 취약점 데이터소스 연동&lt;/strong&gt;: NVD, OSV, GitHub Advisories, VulnDB 등&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;정책 엔진&lt;/strong&gt;: 라이선스 정책, 취약점 심각도 기준, 컴포넌트 사용 가능 여부를 규칙으로 정의하여 자동 평가&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;REST API&lt;/strong&gt;: CI/CD 파이프라인과 통합하여 빌드 시 SBOM을 자동 업로드하고 결과를 피드백&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;웹 UI 대시보드&lt;/strong&gt;: 프로젝트별 위험 점수, 취약점 현황, 라이선스 분포를 한눈에 파악&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;알림&lt;/strong&gt;: Slack, 이메일, Webhook 등 다양한 채널로 신규 취약점 알림 발송&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="설치-방법"&gt;설치 방법&lt;/h2&gt;
+&lt;p&gt;Docker Compose를 사용하는 방법이 가장 간편합니다.&lt;/p&gt;</description></item><item><title>11st Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2021/11st/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2021/11st/</guid><description>&lt;div &gt;&lt;span class="image fit"&gt;
  &lt;img src="kwg-sep.jpeg" width="50%"&gt;
  &lt;!-- &lt;img src="OpenChain_KWG_6th_1.png" width="42%"&gt; --&gt;
 &lt;/span&gt;&lt;/div&gt;

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cdxgen on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/cdxgen/</link><description>Recent content in Cdxgen on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/cdxgen/index.xml" rel="self" type="application/rss+xml"/><item><title>cdxgen</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/5-cdxgen/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/5-cdxgen/</guid><description>&lt;p&gt;cdxgen은 OWASP(Open Web Application Security Project)가 관리하는 오픈소스 SBOM 생성 도구입니다.
+소스 코드, 빌드 결과물, 컨테이너 이미지를 분석하여 &lt;a href="https://cyclonedx.org/"&gt;CycloneDX&lt;/a&gt; 형식의
+SBOM을 자동으로 생성합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a href="https://github.com/CycloneDX/cdxgen"&gt;https://github.com/CycloneDX/cdxgen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;라이선스: Apache-2.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="주요-특징"&gt;주요 특징&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;광범위한 언어·생태계 지원&lt;/strong&gt;: Java(Maven/Gradle), Node.js, Python, Go, Rust, PHP, Ruby, .NET 등 20개 이상&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;다양한 스캔 대상&lt;/strong&gt;: 소스 코드 디렉토리, 컨테이너 이미지, GitHub 저장소&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CycloneDX 표준 출력&lt;/strong&gt;: CycloneDX 1.4/1.5/1.6 JSON 및 XML 형식 지원&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;REPL 모드&lt;/strong&gt;: 대화형 인터페이스로 SBOM 탐색 및 조회 가능&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CI/CD 통합&lt;/strong&gt;: GitHub Actions, GitLab CI 등 주요 파이프라인과 쉽게 연동&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="설치-방법"&gt;설치 방법&lt;/h2&gt;
+&lt;p&gt;Node.js 18 이상이 설치된 환경에서 아래 명령으로 설치합니다.&lt;/p&gt;</description></item></channel></rss>

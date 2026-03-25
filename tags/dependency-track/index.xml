@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dependency-Track on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/dependency-track/</link><description>Recent content in Dependency-Track on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/dependency-track/index.xml" rel="self" type="application/rss+xml"/><item><title>Dependency-Track</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/7-dependency-track/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/7-dependency-track/</guid><description>&lt;p&gt;Dependency-Track은 OWASP가 관리하는 오픈소스 SBOM 관리 및 취약점 분석 플랫폼입니다.
+업로드된 SBOM(CycloneDX, SPDX)을 기반으로 컴포넌트별 취약점을 지속적으로 모니터링하고,
+정책 위반 여부를 자동으로 평가합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a href="https://github.com/DependencyTrack/dependency-track"&gt;https://github.com/DependencyTrack/dependency-track&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;공식 문서: &lt;a href="https://docs.dependencytrack.org/"&gt;https://docs.dependencytrack.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;라이선스: Apache-2.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="주요-특징"&gt;주요 특징&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SBOM 기반 지속 모니터링&lt;/strong&gt;: SPDX 및 CycloneDX 형식의 SBOM을 업로드하면 컴포넌트별 최신 취약점을 자동으로 추적&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;다양한 취약점 데이터소스 연동&lt;/strong&gt;: NVD, OSV, GitHub Advisories, VulnDB 등&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;정책 엔진&lt;/strong&gt;: 라이선스 정책, 취약점 심각도 기준, 컴포넌트 사용 가능 여부를 규칙으로 정의하여 자동 평가&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;REST API&lt;/strong&gt;: CI/CD 파이프라인과 통합하여 빌드 시 SBOM을 자동 업로드하고 결과를 피드백&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;웹 UI 대시보드&lt;/strong&gt;: 프로젝트별 위험 점수, 취약점 현황, 라이선스 분포를 한눈에 파악&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;알림&lt;/strong&gt;: Slack, 이메일, Webhook 등 다양한 채널로 신규 취약점 알림 발송&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="설치-방법"&gt;설치 방법&lt;/h2&gt;
+&lt;p&gt;Docker Compose를 사용하는 방법이 가장 간편합니다.&lt;/p&gt;</description></item></channel></rss>
