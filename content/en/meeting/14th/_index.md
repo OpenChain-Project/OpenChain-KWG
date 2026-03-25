@@ -15,9 +15,9 @@ description: >
 | No | Agenda | Speaker | Slide |
 |----|-----------------|------|------|
 | 1 | OpenChain Update | Shane Coughlan, Linux Foundation | - |
-| 2 | OpenChain KWG Update | Haksung Jang, SK Telecom | [pdf](./OpenChain_Korea_update_20220621.pdf) |
+| 2 | OpenChain KWG Update | Haksung Jang, SK Telecom | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/OpenChain_Korea_update_20220621.pdf) |
 | 3 | Implications of SFC and Vizio's GPL lawsuit | Haksung Jang, SK Telecom | [Link (Korean)](https://devocean.sk.com/opensource/techBoardDetail.do?ID=163978) |
-| 3.5 | Quick session : Tips for using FOSSID | Younghwan Kim (Sean), Kakao | [pdf](./Fossid%20Ignore%20rule.pdf) |
+| 3.5 | Quick session : Tips for using FOSSID | Younghwan Kim (Sean), Kakao | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Fossid_Ignore_rule.pdf) |
 | 4 | Small Group Meetings (Case Study) | All | - |
 
 ## Small group meeting: 2 sessions

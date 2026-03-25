@@ -30,9 +30,9 @@ description: Tooling & Legal Subgroup 25th Meeting
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Community Updates & New Issues | LG전자, 박원재 | N/A |
-| 1  | Issues on CPE-based CVE verification | Ahnlab, Kim Gangbo | [pdf](2_Ahnlab_KimGangbo.pdf) |
-| 2  | Open Source Notice Case Study | Ahnlab, Kim Gangbo | [pdf](3_Ahnlab_KimGangbo.pdf) |
-| 3  | Server Runtime SBOM Solution for Server Asset Management | RedPenSoft, Dockko Jun | [pdf](4_Redpensoft_DockkoJun.pdf) |
+| 1  | Issues on CPE-based CVE verification | Ahnlab, Kim Gangbo | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/2_Ahnlab_KimGangbo.pdf) |
+| 2  | Open Source Notice Case Study | Ahnlab, Kim Gangbo | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/3_Ahnlab_KimGangbo.pdf) |
+| 3  | Server Runtime SBOM Solution for Server Asset Management | RedPenSoft, Dockko Jun | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/4_Redpensoft_DockkoJun.pdf) |
 
 <!--
 

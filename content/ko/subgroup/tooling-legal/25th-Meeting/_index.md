@@ -31,9 +31,9 @@ description: Tooling & Legal Subgroup 25th Meeting
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Community Updates & New Issues | LG전자, 박원재 | N/A |
-| 1  | CPE 기반의 CVE 검증 문제점 | 안랩, 김강보 | [pdf](2_Ahnlab_KimGangbo.pdf) |
-| 2  | Open Source 고지문 공유 | 안랩, 김강보 | [pdf](3_Ahnlab_KimGangbo.pdf) |
-| 3  | 서버 자산 관리를 위한 서버 런타임 SBOM 솔루션 | 레드펜소프트, 독고준 | [pdf](4_Redpensoft_DockkoJun.pdf) |
+| 1  | CPE 기반의 CVE 검증 문제점 | 안랩, 김강보 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/2_Ahnlab_KimGangbo.pdf) |
+| 2  | Open Source 고지문 공유 | 안랩, 김강보 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/3_Ahnlab_KimGangbo.pdf) |
+| 3  | 서버 자산 관리를 위한 서버 런타임 SBOM 솔루션 | 레드펜소프트, 독고준 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2025/4_Redpensoft_DockkoJun.pdf) |
 
 <!--
 

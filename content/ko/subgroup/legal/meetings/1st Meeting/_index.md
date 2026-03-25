@@ -19,7 +19,7 @@ description: >
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | Legal subgroup 운영 방안 소개   | ETRI 박정숙  |  [pdf](LegalSubgroup_1차회의발표.pdf) |
+| 1  | Legal subgroup 운영 방안 소개   | ETRI 박정숙  |  [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2023/LegalSubgroup_1st_meeting_presentation.pdf) |
 | 2  |      | 	    |   |
 | 3  |      | 	    |   |
 

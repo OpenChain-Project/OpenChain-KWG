@@ -31,5 +31,5 @@ description: >
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
 | 1  | Sharing experience of adopting and using FOSSLight at LINE  | Seoyeon Lee,Donghyeok Kim, LINE | - |
-| 2  | Introducing OLIVE CLI | Ricky, Kakao | [pdf](./Session2_Kakao.pdf) |
-| 3  | Demo of Preemptive and Real Time Open Source Scanning Tool | Yoonhwan Jung,Darae Ahn,Taewan Kim, Samsung Electronics | [pdf](./Session3_Samsung_Electronics.pdf) |
+| 2  | Introducing OLIVE CLI | Ricky, Kakao | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session2_Kakao.pdf) |
+| 3  | Demo of Preemptive and Real Time Open Source Scanning Tool | Yoonhwan Jung,Darae Ahn,Taewan Kim, Samsung Electronics | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session3_Samsung_Electronics.pdf) |

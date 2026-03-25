@@ -27,8 +27,8 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | Opossum 툴 소개| 석지영, LG전자 | [pdf](./Session1_LGE.pdf) |
-| 2  | ETRI 오픈소스 컴플라이언스 시스템 OLA - FOSSLight 적용 사례 | 박정숙, ETRI | [pdf](./Session2_ETRI.pdf) |
+| 1  | Opossum 툴 소개| 석지영, LG전자 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session1_LGE.pdf) |
+| 2  | ETRI 오픈소스 컴플라이언스 시스템 OLA - FOSSLight 적용 사례 | 박정숙, ETRI | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session2_ETRI.pdf) |
 | 3  | Study 주제 논의 | 박원재, LG전자 | - |
 
 ## Photo Gallery

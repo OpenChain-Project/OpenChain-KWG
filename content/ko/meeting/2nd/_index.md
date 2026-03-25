@@ -23,10 +23,10 @@ description: >
 
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | OpenChain Today and Tomorrow  | 	Shane Coughlan, Linux Foundation | [Download](openchaintodayandtomorrow-190612090644.pdf) |
+| 1  | OpenChain Today and Tomorrow  | 	Shane Coughlan, Linux Foundation | [Download](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2019/openchaintodayandtomorrow-190612090644.pdf) |
 | 2  | 기업 내 Open Source 검증 시스템 구축 현황 (Open Source Verification System Construction Status) | 삼성전자 조재민 (Jaemin Cho, Samsung Electronics) | - | 
 | 3  | Open Source 분석 도구 검토 현황 (Open Source Analysis Tool Review) | 삼성전자 김희성 (Hee Sung Kim, Samsung Electronics) | - | 
-| 4  | Open Source Compliance Tool based on Open Source | LG전자 장학성 (Haksung Jang, LG Electronics) | [fossology](036_oss_tooling_20190506_fossology_and_sw360_updates_04.pdf), [oss-toolchain](oss-compliance-toolcahin-2019.pdf), [ClearlyDefined](ClearlyDefined-Crowdsourcing-Project-Security-and-Licensing-Data-Jeff-McAffer-Microsoft.pdf) | 
+| 4  | Open Source Compliance Tool based on Open Source | LG전자 장학성 (Haksung Jang, LG Electronics) | [fossology](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2019/036_oss_tooling_20190506_fossology_and_sw360_updates_04.pdf), [oss-toolchain](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2019/oss-compliance-toolcahin-2019.pdf), [ClearlyDefined](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2019/ClearlyDefined-Crowdsourcing-Project-Security-and-Licensing-Data-Jeff-McAffer-Microsoft.pdf) | 
 
 ## Attendees
 * KT (1)

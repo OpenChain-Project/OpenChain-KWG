@@ -29,7 +29,7 @@ description: >
 ## Agenda
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | 오픈소스 컴플라이언스 도구의 평가 항목 | 박정숙, ETRI | [pdf](./Session1_ETRI.pdf) |
+| 1  | 오픈소스 컴플라이언스 도구의 평가 항목 | 박정숙, ETRI | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session1_ETRI.pdf) |
 | 2  | DejaCode 소개 | 최혜성, LG전자 | - |
 
 ## Photo Gallery

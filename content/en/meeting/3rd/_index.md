@@ -21,10 +21,10 @@ description: >
 
 | No | Agenda           | Speaker | Slide |
 |----|-----------------|------|------|
-| 1  | State of the Union  | 	Shane Coughlan, Linux Foundation | [Download](openchainthirdkoreanworkshop-190909143700.pdf) |
-| 2  | Introducing the T-hub System | SK telecom, Sang-gi Kim |  [Download](t-hub_v1.0.pdf) | 
-| 3  | Open Source Software License Analysis History | NCsoft, Jiho Han | [Download](ncsoft_20190904.pdf)  | 
-| 4  | Catch up with OpenChain | Haksung Jang, LG Electronics | [Download](openchain_update_2019-09-04.pdf) | 
+| 1  | State of the Union  | 	Shane Coughlan, Linux Foundation | [Download](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2019/openchainthirdkoreanworkshop-190909143700.pdf) |
+| 2  | Introducing the T-hub System | SK telecom, Sang-gi Kim |  [Download](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2019/t-hub_v1.0.pdf) | 
+| 3  | Open Source Software License Analysis History | NCsoft, Jiho Han | [Download](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2019/ncsoft_20190904.pdf)  | 
+| 4  | Catch up with OpenChain | Haksung Jang, LG Electronics | [Download](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2019/openchain_update_2019-09-04.pdf) | 
 
 ## Attenddes
 * KT
