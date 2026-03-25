@@ -36,9 +36,9 @@ draft: true
 - [x] #25 4-tool에 FOSSLight tools/ 링크 추가
 
 ### [tools/ 신규 작성] SBOM 도구 3종
-- [ ] #33 cdxgen tools/ 페이지 신규 작성 (tools/5-cdxgen/_index.md)
-- [ ] #34 Syft tools/ 페이지 신규 작성 (tools/6-syft/_index.md)
-- [ ] #35 Dependency-Track tools/ 페이지 신규 작성 (tools/7-dependency-track/_index.md)
+- [x] #33 cdxgen tools/ 페이지 신규 작성 (tools/5-cdxgen/_index.md)
+- [x] #34 Syft tools/ 페이지 신규 작성 (tools/6-syft/_index.md)
+- [x] #35 Dependency-Track tools/ 페이지 신규 작성 (tools/7-dependency-track/_index.md)
 
 ---
 ## 2차 작업 (별도 브랜치 예정 — 지금은 작업하지 않음)
