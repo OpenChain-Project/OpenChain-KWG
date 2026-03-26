@@ -166,6 +166,12 @@ All members who are responsible for the roles defined in Chapter 4 must take the
 
 The education history and evaluation results are kept in the [Learning Portal] for at least 3 years.
 
+### Assessment Evidence Retention Procedure
+
+- Evidence of competency assessment shall be collected and retained in one or more of the following forms: test scores, training completion certificates, policy awareness confirmation signatures. (ISO/IEC 5230 §3.1.3, ISO/IEC 18974 §3.1.3)
+- Evidence shall be registered in the internal document management system (e.g., Learning Portal, HR system) and maintained in a state that can be immediately produced during audits.
+- After the retention period expires, records shall be destroyed in accordance with the personal data protection policy.
+
 ## 6. Open Source Use
 
 When developing and distributing products and services using open source, you must comply with the obligations required by each open source license. This activity is called open source compliance.
@@ -193,6 +199,17 @@ Understand the combination relationship of open source and design the software a
 
 The company's [Open Source License Guide] explains the range of source code disclosure for each open source license and how to design to prevent the disclosure of our code.
 
+### (2-1) License Use Case Policy
+
+The following guidelines apply depending on how open source components are used:
+
+1. **Internal use only**: When open source is used internally without external distribution, there is no obligation to generate compliance deliverables, but SBOM records must still be maintained.
+2. **External distribution (binary)**: If licenses that require source code disclosure (e.g., GPL) are included, a source code package must be provided along with the binary, or a written offer must be included.
+3. **External distribution (SaaS/network service)**: If licenses that treat network use as distribution (e.g., AGPL) are included, a separate legal review is required.
+4. **Contribution to open source projects**: Confirm that the license applied to contributed code is compatible with the project's license.
+
+For each use case, compliance deliverables are created and managed according to the procedures in §4.3.
+
 ### (3) Creation of Open Source Compliance Deliverables
 
 The most basic of open source compliance activities is to understand the status of open source included in distributed software. This is to properly meet the core of open source compliance, which is the requirements of the open source license. In other words, you need to create a set of compliance deliverables for the open source included in the distributed software.
@@ -207,12 +224,15 @@ To collect, distribute, and store these compliance deliverables, comply with the
 - The open source notice or source code package to be disclosed is collected according to the conditions required by each license. For example, if the license requires the entire text of the license to be enclosed, you cannot just provide a link.
 - The collected deliverables are stored in a separate repository.
 - If the source code to be disclosed is provided by a written agreement, the download link is made public so that the repository of the collected deliverables can be accessed from the outside.
+- Compliance deliverables shall be retained for a minimum of 3 years from the date of the last distribution of the supplied software. If a license requires a longer retention period, that period takes precedence. (ISO/IEC 5230 §3.4.1.2)
 
 You can issue an open source notice and collect a source code package to be disclosed through the company's open source process.
 
 ### (4) Creation of SBOM (Bill of Materials)
 
 You must create and manage the status of open source included in distributed software (BOM: Bill of Materials).
+
+- SBOMs shall be generated in one of the following standard formats: SPDX or CycloneDX. (ISO/IEC 18974 §3.3.1.2)
 
 You can create and preserve SBOM using open source tools through the company's open source process.
 
@@ -231,7 +251,9 @@ If a compliance issue is raised, the open source program manager performs the fo
 
 - We identify open source vulnerabilities and evaluate their severity.
 - Based on the analysis of open source vulnerabilities, we either fix the vulnerability or apply a security patch. The decision to address vulnerabilities takes into account the severity of the vulnerability, the importance of the system, and the availability of vulnerability fixes or security patches.
+- Remediation actions shall be completed within the following deadlines based on vulnerability severity: Critical (CVSS 9.0 or above) within 1 week, High (CVSS 7.0–8.9) within 4 weeks. (ISO/IEC 18974 §3.3.2.1)
 - We monitor the announcement of new open source security vulnerabilities and respond quickly when vulnerabilities occur. Open source vulnerability monitoring can be performed through vulnerability databases such as CVE and websites of security specialist organizations.
+- All vulnerability response records shall be retained for a minimum of 3 years from the date of the last distribution of the relevant supplied software. (ISO/IEC 18974 §3.3.2.2)
 
 ## 7. Open Source Contribution
 
@@ -294,6 +316,11 @@ However, if you are modifying existing code for purposes such as bug fixes, you 
 ### (6) Use of Company Email
 
 When contributing to an open source project, do not use personal email, use company email. Through this, (1) members have a sense of responsibility to communicate with the community on behalf of the company, and (2) the company can improve its recognition as a company that actively contributes to the open source community.
+
+### (7) Contribution Policy Awareness Procedure
+
+1. **Mandatory policy awareness**: All program participants must be aware of the existence and content of the external open source contribution policy (§7) and internal project release policy (§8). The OSPO shall notify new participants of the contribution policy during onboarding and reconfirm it through annual training. (ISO/IEC 5230 §3.1.3)
+2. **Awareness confirmation and records**: The OSPO shall confirm policy awareness and maintain the results as records. Awareness confirmation records shall be retained for a minimum of 3 years.
 
 ## 8. Open Source Release
 
@@ -362,6 +389,10 @@ The Open Source Program Manager provides contact information publicly so that ou
 ### (3) External Inquiry Response Procedure
 
 If you respond quickly and accurately to open source inquiries from outside, you can greatly reduce the risk of claims or legal litigation. To this end, the company complies with the external inquiry response procedure defined in the company's open source process to respond to external open source inquiries.
+
+### (4) Record Retention
+
+- External inquiry response records shall be retained for a minimum of 3 years from the date the inquiry is closed. (ISO/IEC 18974 §3.2.1.2)
 
 ## 10. Declaration and Maintenance of Compliance with ISO Standards
 
