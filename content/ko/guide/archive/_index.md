@@ -1,6 +1,6 @@
 ---
-title: "아카이브"
-linkTitle: "아카이브"
+title: "Archive"
+linkTitle: "Archive"
 weight: 900
 type: docs
 description: >
