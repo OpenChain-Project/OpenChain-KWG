@@ -35,6 +35,12 @@ In addition, LG Electronics has released the [FOSSLight Dependency Scanner](http
 <center><i>https://fosslight.org/ko/scanner/</i></center>
 {{< /imgproc >}}
 
+[cdxgen](https://github.com/CycloneDX/cdxgen), managed by OWASP, is an open source SBOM generation tool that supports 20+ languages and ecosystems (Java, Node.js, Python, Go, Rust, etc.) and outputs CycloneDX format SBOMs. It integrates easily with CI/CD pipelines. For installation and usage, refer to the [cdxgen guide](../../tools/5-cdxgen/).
+
+[Syft](https://github.com/anchore/syft), developed by Anchore, is an open source SBOM generation CLI tool that scans container images, filesystems, and archives to generate SBOMs in SPDX or CycloneDX format. It pairs naturally with Anchore's Grype vulnerability scanner for SBOM-based vulnerability analysis. For installation and usage, refer to the [Syft guide](../../tools/6-syft/).
+
+These dependency analysis tools help accurately identify open source components in distributed software and generate SBOMs, satisfying the requirements of ISO/IEC 5230 and ISO/IEC 18974.
+
 
 ## 3. SBOM Management Tools
 
@@ -73,6 +79,8 @@ LG Electronics has been managing the SBOM for all business units' distribution s
 <center><i>https://fosslight.org/</i></center>
 {{< /imgproc >}}
 
+[Dependency-Track](https://dependencytrack.org/), managed by OWASP, is an open source SBOM management and vulnerability analysis platform. It continuously monitors component-level vulnerabilities based on uploaded SBOMs and automatically evaluates policy violations. It integrates with NVD, OSV, and other vulnerability databases for automatic detection, and supports REST API for CI/CD pipeline integration. For installation and usage, refer to the [Dependency-Track guide](../../tools/7-dependency-track/).
+
 ## 4. Open Source Vulnerability Management Tools
 
 Companies need to track products/services that contain known vulnerabilities and resolve them. To do this, companies need to build a tool environment that automates this.
@@ -83,6 +91,9 @@ The method of managing security vulnerabilities with SW360 can be referred to in
 
 [FOSSLight](https://fosslight.org/ko/) also automatically acquires security vulnerability information and automatically checks project information where security vulnerabilities have been detected, providing notifications such as emails as needed.
 
+[OSV-SCALIBR](https://github.com/google/osv-scalibr), developed by Google, is an open source software composition analysis (SCA) library that extracts open source components from filesystems and container images and detects vulnerabilities by integrating with the OSV (Open Source Vulnerabilities) database. It supports Python, Go, Java, npm, and other major package ecosystems, and is suitable for integration into CI/CD pipelines to automatically detect vulnerabilities at build and deployment stages. For installation and usage, refer to the [OSV-SCALIBR guide](../../tools/4-osvscalibr/).
+
+These tools help companies effectively manage open source security vulnerabilities while satisfying the requirements of ISO/IEC 18974.
 
 
 ## 5. Open Source Compliance Artifact Generation Tool
