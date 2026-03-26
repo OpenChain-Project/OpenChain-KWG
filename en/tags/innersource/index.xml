@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>InnerSource on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/innersource/</link><description>Recent content in InnerSource on OpenChain KWG</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 27 Mar 2026 08:47:03 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/innersource/index.xml" rel="self" type="application/rss+xml"/><item><title>2024-12-04 OpenChain ISO 표준이 InnerSource를 지원하는 방법 이해하기</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/resource/webinar/2024-12-04/</link><pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/resource/webinar/2024-12-04/</guid><description>&lt;p&gt;source: &lt;a href="https://openchainproject.org/news/2024/12/04/full-recording-understanding-how-openchain-iso-iec-5230-and-iso-iec-18974-support-innersource-innersource-commons-summit-2024"&gt;https://openchainproject.org/news/2024/12/04/full-recording-understanding-how-openchain-iso-iec-5230-and-iso-iec-18974-support-innersource-innersource-commons-summit-2024&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="목차"&gt;목차&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;발표자 소개&lt;/li&gt;
+&lt;li&gt;웨비나 소개와 목적&lt;/li&gt;
+&lt;li&gt;OpenChain ISO/IEC 5230 및 ISO/IEC 18974의 개요&lt;/li&gt;
+&lt;li&gt;InnerSource와의 연관성&lt;/li&gt;
+&lt;li&gt;ISO 표준의 실제 적용 사례&lt;/li&gt;
+&lt;li&gt;커뮤니티와 지원 자료&lt;/li&gt;
+&lt;li&gt;결론 및 제안&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id="1-발표자-소개"&gt;1. 발표자 소개&lt;/h2&gt;
+&lt;p&gt;Shane Coughlan은 &lt;a href="https://openchainproject.org"&gt;OpenChain Project&lt;/a&gt;의 General Manager로, 오픈소스 표준화와 관련된 글로벌 리더십을 제공하고 있습니다. 그는 오픈소스 생태계에서의 라이선스 준수 및 보안 보증을 위한 국제 표준 개발에 주력하며, InnerSource와 같은 새로운 소프트웨어 개발 방식에도 이를 적용하는 방법을 모색하고 있습니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="2-웨비나-소개와-목적"&gt;2. 웨비나 소개와 목적&lt;/h2&gt;
+&lt;p&gt;이번 웨비나는 InnerSource Commons Summit 2024에서 진행된 세션으로, OpenChain ISO/IEC 5230(오픈소스 라이선스 준수 국제 표준)와 ISO/IEC 18974(오픈소스 보안 보증 국제 표준)가 InnerSource 프로그램에 어떻게 기여할 수 있는지를 다룹니다.&lt;/p&gt;</description></item></channel></rss>
