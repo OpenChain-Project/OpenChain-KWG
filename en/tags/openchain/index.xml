@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/openchain/</link><description>Recent content in OpenChain on OpenChain KWG</description><generator>Hugo</generator><language>en</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/openchain/index.xml" rel="self" type="application/rss+xml"/><item><title>0. Exploring OpenChain</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/opensource_for_enterprise/0-openchain/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/opensource_for_enterprise/0-openchain/</guid><description>&lt;h2 id="1-what-is-the-openchain-project"&gt;1. What is the OpenChain Project?&lt;/h2&gt;
+&lt;p&gt;Software today is growing ever larger and more complex. Developing a single piece of software may involve not only internally developed code but also open source, third-party software, vendor SDKs, and a wide variety of software across the software supply chain.&lt;/p&gt;
+&lt;p&gt;If even one organization in this complex software supply chain fails to comply with open source license obligations or does not provide accurate open source information, the company ultimately distributing the software will inevitably fail to meet its open source license compliance obligations. This can lead to lawsuits and the suspension of product sales.&lt;/p&gt;</description></item><item><title>ISO/IEC 5230 Conformance Guide</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/</guid><description>&lt;p&gt;This guide walks through each requirement clause of ISO/IEC 5230 (OpenChain License Compliance) one by one.
+It explains what verification materials each clause requires, how to comply, and what sample documents
+can be used directly.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Author : OpenChain Korea Work Group / &lt;a href="https://creativecommons.org/licenses/by/4.0/"&gt;CC BY 4.0&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="target-audience"&gt;Target Audience&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Open source compliance officers and open source program managers&lt;/li&gt;
+&lt;li&gt;Personnel at companies preparing for ISO/IEC 5230 certification&lt;/li&gt;
+&lt;li&gt;Practitioners who want to review their existing open source management framework against ISO standards&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="how-to-use-this-guide"&gt;How to Use This Guide&lt;/h2&gt;
+&lt;div class="alert alert-success" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;Relationship with the Enterprise Open Source Management Guide&lt;/div&gt;
+&lt;p&gt;The &lt;strong&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/opensource_for_enterprise/"&gt;Enterprise Open Source Management Guide&lt;/a&gt;&lt;/strong&gt; explains how to implement open
+source management in practice (policies, processes, tools, and organization).&lt;/p&gt;</description></item><item><title>ISO/IEC 18974 Conformance Guide</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso18974_guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso18974_guide/</guid><description>&lt;p&gt;This guide explains each requirement clause of ISO/IEC 18974 (OpenChain Security Assurance) one by one. It describes what Verification Materials each clause requires, how to comply, and what sample documents can be used immediately.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Author : OpenChain Korea Work Group / &lt;a href="https://creativecommons.org/licenses/by/4.0/"&gt;CC BY 4.0&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="target-audience"&gt;Target Audience&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Security managers and open source program managers at organizations establishing an open source security assurance framework for the first time&lt;/li&gt;
+&lt;li&gt;Engineers building open source vulnerability management processes in DevSecOps environments&lt;/li&gt;
+&lt;li&gt;Organization staff preparing to add ISO/IEC 18974 certification after obtaining ISO/IEC 5230 certification&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="relationship-with-isoiec-5230"&gt;Relationship with ISO/IEC 5230&lt;/h2&gt;
+&lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;ISO/IEC 18974 adds a security layer on top of ISO/IEC 5230&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;ISO/IEC 5230 (License Compliance)&lt;/strong&gt; covers the foundational program for systematically managing open source license obligations.&lt;/p&gt;</description></item></channel></rss>

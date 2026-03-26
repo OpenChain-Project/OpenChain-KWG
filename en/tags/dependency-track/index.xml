@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dependency-Track on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/dependency-track/</link><description>Recent content in Dependency-Track on OpenChain KWG</description><generator>Hugo</generator><language>en</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/dependency-track/index.xml" rel="self" type="application/rss+xml"/><item><title>Dependency-Track</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/tools/7-dependency-track/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/tools/7-dependency-track/</guid><description>&lt;p&gt;Dependency-Track is an open source SBOM management and vulnerability analysis platform managed by OWASP.
+It continuously monitors component-level vulnerabilities based on uploaded SBOMs (CycloneDX, SPDX) and automatically evaluates policy violations.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a href="https://github.com/DependencyTrack/dependency-track"&gt;https://github.com/DependencyTrack/dependency-track&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Official docs: &lt;a href="https://docs.dependencytrack.org/"&gt;https://docs.dependencytrack.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;License: Apache-2.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="features"&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SBOM-based continuous monitoring&lt;/strong&gt;: Automatically tracks the latest vulnerabilities per component after uploading SBOMs in SPDX or CycloneDX format&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multiple vulnerability data sources&lt;/strong&gt;: NVD, OSV, GitHub Advisories, VulnDB, and more&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Policy engine&lt;/strong&gt;: Define rules for license policies, vulnerability severity thresholds, and component allowlists for automatic evaluation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;REST API&lt;/strong&gt;: Integrate with CI/CD pipelines to automatically upload SBOMs and receive feedback at build time&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web UI dashboard&lt;/strong&gt;: View per-project risk scores, vulnerability status, and license distribution at a glance&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Notifications&lt;/strong&gt;: Send new vulnerability alerts via Slack, email, Webhook, and other channels&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="installation"&gt;Installation&lt;/h2&gt;
+&lt;p&gt;Using Docker Compose is the simplest approach:&lt;/p&gt;</description></item></channel></rss>

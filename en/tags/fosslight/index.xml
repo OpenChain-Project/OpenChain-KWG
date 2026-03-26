@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fosslight on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/fosslight/</link><description>Recent content in Fosslight on OpenChain KWG</description><generator>Hugo</generator><language>en</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/fosslight/index.xml" rel="self" type="application/rss+xml"/><item><title>FOSSLight</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/tools/3-fosslight/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/tools/3-fosslight/</guid><description>&lt;p&gt;FOSSLight is an open source project led by LG Electronics. It analyzes source code, binaries, and dependencies using various scanners to generate an SBOM (Software Bill of Materials). FOSSLight Hub provides open source management, license management, and vulnerability management features to support the compliance process.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Official website: &lt;a href="https://fosslight.org/"&gt;https://fosslight.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub: &lt;a href="https://github.com/fosslight/fosslight_hub"&gt;https://github.com/fosslight/fosslight_hub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;License: Apache-2.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="1-features"&gt;1. Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Multiple scanner integration&lt;/strong&gt;: Integrates ScanCode Toolkit, SPDX Tools, CycloneDX, FOSSology, and other open source scanners&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wide scan target support&lt;/strong&gt;: Source code, binaries, container images, Linux packages, and more&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SBOM generation and management&lt;/strong&gt;: Creates and manages SBOMs in various formats (SPDX, CycloneDX, Excel, Text)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License detection and management&lt;/strong&gt;: Accurately detects and manages open source license information&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vulnerability integration&lt;/strong&gt;: Links to external vulnerability databases such as NVD and CVE&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;FOSSLight Hub&lt;/strong&gt;: Web-based UI providing open source management, license management, and vulnerability management&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="2-installation"&gt;2. Installation&lt;/h3&gt;
+&lt;p&gt;FOSSLight consists of FOSSLight Scanner and FOSSLight Hub. The easiest way to install both is using Docker Compose.&lt;/p&gt;</description></item></channel></rss>

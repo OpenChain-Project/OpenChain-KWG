@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>License Obligations on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/license-obligations/</link><description>Recent content in License Obligations on OpenChain KWG</description><generator>Hugo</generator><language>en</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/license-obligations/index.xml" rel="self" type="application/rss+xml"/><item><title>§3.1.5 License Obligations</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/5-license-obligations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/5-license-obligations/</guid><description>&lt;h2 id="1-clause-overview"&gt;1. Clause Overview&lt;/h2&gt;
+&lt;p&gt;The most critical task when including open source components in software is accurately understanding
+the obligations, restrictions, and rights imposed by the licenses applied to those components. Distributing
+without reviewing license obligations can result in serious legal risks such as mandatory source code
+disclosure, missing copyright notices, and patent clause violations. §3.1.5 requires the establishment
+of a procedure for reviewing all identified licenses to determine their obligations, restrictions, and
+rights, and for recording the results. This procedure forms the foundation of the §3.3.2 License
+Compliance process.&lt;/p&gt;</description></item></channel></rss>
