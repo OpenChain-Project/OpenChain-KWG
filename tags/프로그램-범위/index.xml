@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>프로그램 범위 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EB%B2%94%EC%9C%84/</link><description>Recent content in 프로그램 범위 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EB%B2%94%EC%9C%84/index.xml" rel="self" type="application/rss+xml"/><item><title>§3.1.4 프로그램 범위</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/1-program-foundation/4-scope/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/1-program-foundation/4-scope/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;오픈소스 프로그램이 조직 전체에 적용되는지, 특정 제품군이나 사업 단위에만
+적용되는지 명확하지 않으면 컴플라이언스 활동의 경계가 모호해지고 책임 소재가
+불분명해진다. §3.1.4는 오픈소스 프로그램이 어떤 소프트웨어·조직 단위·배포
+채널에 적용되는지, 그리고 어디까지가 적용 범위 밖인지를 명확하게 정의한
+문서화된 진술을 요구한다. 적용 범위는 조직의 규모와 비즈니스 모델에 따라
+다를 수 있으며, 이 조항은 그 선택을 명시적으로 기록하도록 한다.&lt;/p&gt;
+&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;오픈소스 프로그램이 적용되는 소프트웨어 유형(외부 배포 제품, 서비스, 내부
+시스템 등)을 결정한다.&lt;/li&gt;
+&lt;li&gt;프로그램이 적용되는 조직 범위(전사, 특정 사업부, 특정 제품군 등)를 정의한다.&lt;/li&gt;
+&lt;li&gt;적용 범위에서 명시적으로 제외되는 항목이 있다면 해당 예외 사항과 그 근거를
+함께 기록한다.&lt;/li&gt;
+&lt;li&gt;적용 범위 진술을 문서화하여 오픈소스 정책 또는 별도 문서로 공식 관리한다.&lt;/li&gt;
+&lt;li&gt;비즈니스 환경 변화(신규 사업 진출, 인수합병 등) 시 적용 범위를 재검토하고
+갱신한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="3-요구사항-및-입증자료"&gt;3. 요구사항 및 입증자료&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;조항 번호&lt;/th&gt;
+ &lt;th&gt;요구사항 (KO)&lt;/th&gt;
+ &lt;th&gt;입증자료&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;§3.1.4&lt;/td&gt;
+ &lt;td&gt;공급자의 필요와 비즈니스 모델에 따라 프로그램의 적용 범위가 다를 수 있다. 범위는 전체 조직, 특정 사업 단위, 특정 제품군, 특정 제품, 또는 단일 오픈소스 컴포넌트가 될 수 있다. 범위의 정의는 명확해야 한다.&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;3.1.4.1&lt;/strong&gt; 프로그램의 적용 범위와 한계를 명확하게 정의한 문서화된 진술&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;details&gt;&lt;summary&gt;영문 원문 보기&lt;/summary&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;§3.1.4 Program Scope&lt;/strong&gt;
+Different programs may be designed to address different scopes depending on
+the supplier&amp;rsquo;s needs and business model. The scope might include the entire
+organization, a particular business unit, a particular product line, a
+specific product, or even a single open source component. The definition of
+the scope needs to be clear.&lt;/p&gt;</description></item></channel></rss>

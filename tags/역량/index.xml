@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>역량 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%97%AD%EB%9F%89/</link><description>Recent content in 역량 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%97%AD%EB%9F%89/index.xml" rel="self" type="application/rss+xml"/><item><title>§3.1.2 역량</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/1-program-foundation/2-competence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/1-program-foundation/2-competence/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;오픈소스 프로그램이 실제로 작동하려면 관련 역할을 맡은 사람들이 그 역할을 수행할
+역량을 갖추어야 한다. 역할과 책임이 문서에만 적혀 있고 담당자가 오픈소스 라이선스나
+보안 취약점 관리에 대한 기본 지식도 없다면, 정책과 프로세스는 유명무실해진다.
+§3.1.2는 프로그램에 관여하는 역할을 식별하고 각 역할에 필요한 역량을 정의하며,
+참여자가 실제로 그 역량을 갖추었는지 평가하고 기록하도록 요구한다. 이 조항은
+§3.1.1 정책에서 정의한 역할 구조를 구체적인 역량 체계로 발전시키는 단계다.&lt;/p&gt;
+&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;오픈소스 프로그램의 성과에 영향을 미치는 역할과 각 역할의 책임을 목록으로 작성한다.&lt;/li&gt;
+&lt;li&gt;각 역할을 수행하는 데 필요한 역량(지식·기술·경험)을 구체적으로 정의하고 문서화한다.&lt;/li&gt;
+&lt;li&gt;각 프로그램 참여자가 해당 역할에 필요한 역량을 갖추었는지 평가한다.&lt;/li&gt;
+&lt;li&gt;역량이 미흡한 경우 교육·훈련·멘토링 등 역량 확보 조치를 취한다.&lt;/li&gt;
+&lt;li&gt;역량 평가 결과와 후속 조치 이력을 문서화하여 보관한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="3-요구사항-및-입증자료"&gt;3. 요구사항 및 입증자료&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;조항 번호&lt;/th&gt;
+ &lt;th&gt;요구사항 (KO)&lt;/th&gt;
+ &lt;th&gt;입증자료&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;§3.1.2&lt;/td&gt;
+ &lt;td&gt;조직은 다음을 수행해야 한다: &lt;br&gt;- 프로그램의 성과와 효율에 영향을 미치는 역할과 그 책임을 확인한다 &lt;br&gt;- 각 역할을 수행할 프로그램 참여자가 갖춰야 할 필요 역량을 결정한다 &lt;br&gt;- 프로그램 참여자가 적절한 교육·훈련·경험을 바탕으로 자격을 갖춘 자임을 확인한다 &lt;br&gt;- 해당되는 경우 필요한 역량을 확보하기 위해 조치한다 &lt;br&gt;- 역량 보유를 증명하기 위한 정보를 문서화하여 유지한다&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;3.1.2.1&lt;/strong&gt; 프로그램의 여러 참여자에 대한 역할과 각 역할의 책임을 나열한 문서&lt;br&gt;&lt;strong&gt;3.1.2.2&lt;/strong&gt; 각 역할을 위해 필요한 역량을 기술한 문서&lt;br&gt;&lt;strong&gt;3.1.2.3&lt;/strong&gt; 각 프로그램 참여자의 역량을 평가한 문서화된 증거&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;details&gt;&lt;summary&gt;영문 원문 보기&lt;/summary&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;§3.1.2 Competence&lt;/strong&gt;
+The organization shall:&lt;/p&gt;</description></item></channel></rss>

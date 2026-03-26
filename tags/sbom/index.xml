@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBOM on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/sbom/</link><description>Recent content in SBOM on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Thu, 26 Mar 2026 07:34:43 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/sbom/index.xml" rel="self" type="application/rss+xml"/><item><title>OSV-SCALIBR</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/4-osvscalibr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/4-osvscalibr/</guid><description>&lt;p&gt;OSV-SCALIBR (Open Source Vulnerabilities - Software Composition Analysis LIBRary)은
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBOM on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/sbom/</link><description>Recent content in SBOM on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Thu, 26 Mar 2026 16:28:32 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/sbom/index.xml" rel="self" type="application/rss+xml"/><item><title>OSV-SCALIBR</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/4-osvscalibr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/4-osvscalibr/</guid><description>&lt;p&gt;OSV-SCALIBR (Open Source Vulnerabilities - Software Composition Analysis LIBRary)은
 Google이 개발한 오픈소스 소프트웨어 구성 분석 도구입니다.
 파일시스템, 컨테이너 이미지, 바이너리를 스캔하여 포함된 패키지를 식별하고,
 &lt;a href="https://osv.dev/"&gt;OSV(Open Source Vulnerabilities)&lt;/a&gt; 데이터베이스와 대조하여
@@ -109,7 +109,48 @@ SPDX 또는 CycloneDX 형식의 SBOM을 생성합니다.&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;알림&lt;/strong&gt;: Slack, 이메일, Webhook 등 다양한 채널로 신규 취약점 알림 발송&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="설치-방법"&gt;설치 방법&lt;/h2&gt;
-&lt;p&gt;Docker Compose를 사용하는 방법이 가장 간편합니다.&lt;/p&gt;</description></item><item><title>11st Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2021/11st/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2021/11st/</guid><description>&lt;div &gt;&lt;span class="image fit"&gt;
+&lt;p&gt;Docker Compose를 사용하는 방법이 가장 간편합니다.&lt;/p&gt;</description></item><item><title>§3.3.1 SBOM</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/3-content-review/1-sbom/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/3-content-review/1-sbom/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;공급 소프트웨어에 어떤 오픈소스 컴포넌트가 포함되어 있는지 파악하지 못하면
+라이선스 의무를 이행할 수 없고 보안 취약점 대응도 불가능하다. §3.3.1은 공급
+소프트웨어를 구성하는 오픈소스 컴포넌트를 식별·추적·검토·승인·보관하는
+절차를 수립하고, 그 절차가 실제로 이행되었음을 입증하는 컴포넌트 기록(SBOM)을
+유지하도록 요구한다. 이 조항은 오픈소스 라이선스 컴플라이언스와 보안 보증의
+핵심 인프라인 SBOM을 운영하는 기반이 된다.&lt;/p&gt;
+&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;공급 소프트웨어에 포함된 오픈소스 컴포넌트를 자동화 도구(FOSSology, ORT,
+Syft, cdxgen 등)를 활용하여 식별하고 목록화한다.&lt;/li&gt;
+&lt;li&gt;오픈소스 컴포넌트 정보(컴포넌트명, 버전, 라이선스, 출처 등)를 추적하고
+검토·승인·보관하는 절차를 문서화한다.&lt;/li&gt;
+&lt;li&gt;각 공급 소프트웨어 릴리스에 대한 SBOM을 생성하고 관리한다.&lt;/li&gt;
+&lt;li&gt;SBOM 데이터를 SPDX 또는 CycloneDX 표준 형식으로 작성하여 상호 운용성을
+확보한다.&lt;/li&gt;
+&lt;li&gt;소프트웨어 변경(신규 컴포넌트 추가, 버전 업그레이드, 컴포넌트 제거) 시
+SBOM을 즉시 갱신한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="3-요구사항-및-입증자료"&gt;3. 요구사항 및 입증자료&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;조항 번호&lt;/th&gt;
+ &lt;th&gt;요구사항 (KO)&lt;/th&gt;
+ &lt;th&gt;입증자료&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;§3.3.1&lt;/td&gt;
+ &lt;td&gt;공급 소프트웨어를 구성하는 각 오픈소스 컴포넌트(및 식별된 라이선스)를 포함하는 소프트웨어 구성 목록을 작성하고 관리하기 위한 프로세스가 존재해야 한다.&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;3.3.1.1&lt;/strong&gt; 공급 소프트웨어를 구성하는 오픈소스 컴포넌트에 대한 정보를 식별, 추적, 검토, 승인 및 보관하는 문서화된 절차&lt;br&gt;&lt;strong&gt;3.3.1.2&lt;/strong&gt; 문서화된 절차가 적절히 준수되었음을 보여주는 공급 소프트웨어에 대한 오픈소스 컴포넌트 기록&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;details&gt;&lt;summary&gt;영문 원문 보기&lt;/summary&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;§3.3.1 Bill of Materials&lt;/strong&gt;
+A process shall exist for creating and managing a bill of materials that
+includes each open source component (and its identified licenses) from
+which the supplied software is comprised.&lt;/p&gt;</description></item><item><title>11st Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2021/11st/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2021/11st/</guid><description>&lt;div &gt;&lt;span class="image fit"&gt;
  &lt;img src="kwg-sep.jpeg" width="50%"&gt;
  &lt;!-- &lt;img src="OpenChain_KWG_6th_1.png" width="42%"&gt; --&gt;
 &lt;/span&gt;&lt;/div&gt;

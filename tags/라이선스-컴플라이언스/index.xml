@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>라이선스 컴플라이언스 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4-%EC%BB%B4%ED%94%8C%EB%9D%BC%EC%9D%B4%EC%96%B8%EC%8A%A4/</link><description>Recent content in 라이선스 컴플라이언스 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4-%EC%BB%B4%ED%94%8C%EB%9D%BC%EC%9D%B4%EC%96%B8%EC%8A%A4/index.xml" rel="self" type="application/rss+xml"/><item><title>§3.3.2 라이선스 컴플라이언스</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/3-content-review/2-license-compliance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/3-content-review/2-license-compliance/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;오픈소스 컴포넌트는 배포 형태(바이너리·소스코드), 수정 여부, 다른 컴포넌트와의
+결합 방식에 따라 라이선스 의무가 달라진다. §3.3.2는 공급 소프트웨어에 포함된
+오픈소스 컴포넌트에 대해 자주 발생하는 라이선스 사용 사례들을 처리할 수 있는
+능력을 프로그램이 갖추도록 요구한다. 이 조항은 단순히 라이선스를 식별하는 것을
+넘어, 다양한 배포 시나리오별로 의무 이행 방법을 정의한 절차를 마련하도록 한다.&lt;/p&gt;
+&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;바이너리 형태 배포, 소스코드 형태 배포, 수정된 오픈소스 배포 등 주요 라이선스
+사용 사례를 식별하고 각 사례별 처리 절차를 수립한다.&lt;/li&gt;
+&lt;li&gt;라이선스 충돌(비호환 라이선스 컴포넌트 결합)이 발생했을 때의 처리 방법을
+절차에 포함한다.&lt;/li&gt;
+&lt;li&gt;고지 의무(저작권 고지문, 라이선스 전문 포함)가 필요한 라이선스에 대한
+처리 방법을 정의한다.&lt;/li&gt;
+&lt;li&gt;GPL 등 소스코드 공개 의무가 있는 라이선스가 포함된 소프트웨어의 배포 절차를
+수립한다.&lt;/li&gt;
+&lt;li&gt;절차를 문서화하고 정기적으로 검토하여 새로운 라이선스 유형에 대응한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="3-요구사항-및-입증자료"&gt;3. 요구사항 및 입증자료&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;조항 번호&lt;/th&gt;
+ &lt;th&gt;요구사항 (KO)&lt;/th&gt;
+ &lt;th&gt;입증자료&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;§3.3.2&lt;/td&gt;
+ &lt;td&gt;프로그램은 공급 소프트웨어의 오픈소스 컴포넌트에 대한 일반적인 오픈소스 라이선스 사용 사례를 처리할 수 있어야 한다. 처리해야 할 사용 사례는 바이너리 형태 배포 / 소스코드 형태 배포 / 추가 라이선스 의무를 유발할 수 있는 다른 오픈소스와의 통합 / 수정된 오픈소스 포함 / 공급 소프트웨어 내 다른 컴포넌트와 비호환 라이선스 포함 / 저작권 고지 요건이 있는 오픈소스 포함 등을 포함할 수 있다.&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;3.3.2.1&lt;/strong&gt; 공급 소프트웨어 내의 오픈소스 컴포넌트에 대해 일반적인 오픈소스 라이선스 사용 사례를 처리하기 위한 문서화된 절차&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;details&gt;&lt;summary&gt;영문 원문 보기&lt;/summary&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;§3.3.2 License Compliance&lt;/strong&gt;
+The program shall be capable of handling the common open source license use
+cases for the open source components of the supplied software, which may
+include the following use cases (note that the list is not exhaustive and
+some of the below use cases may not apply):&lt;/p&gt;</description></item><item><title>ISO/IEC 5230 준수 가이드</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/</guid><description>&lt;p&gt;이 가이드는 ISO/IEC 5230(OpenChain License Compliance)의 각 요구사항 조항을 하나씩
+풀어서 설명한다. 각 조항이 요구하는 입증자료가 무엇인지, 어떻게 준수할 수 있는지,
+바로 활용할 수 있는 샘플 문서는 무엇인지 안내한다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Author : OpenChain Korea Work Group / &lt;a href="https://creativecommons.org/licenses/by/4.0/"&gt;CC BY 4.0&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="대상-독자"&gt;대상 독자&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;오픈소스 컴플라이언스 담당자 및 오픈소스 프로그램 매니저&lt;/li&gt;
+&lt;li&gt;ISO/IEC 5230 인증 취득을 준비 중인 기업의 담당자&lt;/li&gt;
+&lt;li&gt;기존 오픈소스 관리 체계를 ISO 표준 기준으로 점검하고 싶은 실무자&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="이-가이드의-활용-방법"&gt;이 가이드의 활용 방법&lt;/h2&gt;
+&lt;div class="alert alert-success" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;기업 오픈소스 관리 가이드와의 관계&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/"&gt;기업 오픈소스 관리 가이드&lt;/a&gt;&lt;/strong&gt; 는 오픈소스를
+어떻게 관리할지 실무 구현 방법(정책·프로세스·도구·조직)을 설명한다.&lt;/p&gt;</description></item></channel></rss>

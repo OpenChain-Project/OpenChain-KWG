@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>인식 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%9D%B8%EC%8B%9D/</link><description>Recent content in 인식 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%9D%B8%EC%8B%9D/index.xml" rel="self" type="application/rss+xml"/><item><title>§3.1.3 인식</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/1-program-foundation/3-awareness/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/1-program-foundation/3-awareness/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;역할과 역량을 갖춘 참여자라도 오픈소스 프로그램의 목적과 자신의 기여가 전체
+컴플라이언스 체계에 어떤 의미를 갖는지 인식하지 못하면 형식적 참여에 그치게 된다.
+§3.1.3은 프로그램 참여자가 프로그램의 목표, 자신의 기여 방법, 그리고 프로그램을
+준수하지 않을 경우 발생하는 결과를 실제로 인식하고 있음을 평가하고 기록할 것을
+요구한다. 이 조항은 §3.1.2 역량(지식·기술 보유)의 다음 단계로, 참여자가 보유한
+역량을 프로그램 목적과 연결하여 실질적 동기를 형성하는 단계다.&lt;/p&gt;
+&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;프로그램 참여자가 오픈소스 프로그램의 목표(라이선스 컴플라이언스, 보안 보증 등)를
+이해하고 있는지 확인한다.&lt;/li&gt;
+&lt;li&gt;각 참여자가 자신의 역할이 전체 프로그램 운영에 어떻게 기여하는지 인식하고 있는지
+평가한다.&lt;/li&gt;
+&lt;li&gt;프로그램 요구사항을 미준수할 경우 발생할 수 있는 법적·사업적 영향에 대해
+참여자가 인식하고 있는지 확인한다.&lt;/li&gt;
+&lt;li&gt;인식 평가를 주기적으로 실시하고, 그 결과를 문서로 기록하여 보관한다.&lt;/li&gt;
+&lt;li&gt;인식이 미흡한 참여자에 대해서는 추가 교육을 실시하고 재평가 결과를 보관한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="3-요구사항-및-입증자료"&gt;3. 요구사항 및 입증자료&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;조항 번호&lt;/th&gt;
+ &lt;th&gt;요구사항 (KO)&lt;/th&gt;
+ &lt;th&gt;입증자료&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;§3.1.3&lt;/td&gt;
+ &lt;td&gt;조직은 프로그램 참여자가 다음 사항을 인식하도록 해야 한다: 오픈소스 정책의 존재와 위치 / 오픈소스 관련 목표 / 프로그램 효과에 대한 자신의 기여 방법 / 프로그램 요구사항을 따르지 않을 경우 발생하는 영향&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;3.1.3.1&lt;/strong&gt; 프로그램의 목표, 프로그램 내에서의 참여자 기여 방법 및 프로그램을 준수하지 않을 경우 미치는 영향에 대한 프로그램 참여자의 인식을 평가하였음을 나타내는 문서화된 증거&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;details&gt;&lt;summary&gt;영문 원문 보기&lt;/summary&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;§3.1.3 Awareness&lt;/strong&gt;
+The organization shall ensure that the program participants are aware of:&lt;/p&gt;</description></item></channel></rss>

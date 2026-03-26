@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>정책 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%A0%95%EC%B1%85/</link><description>Recent content in 정책 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%A0%95%EC%B1%85/index.xml" rel="self" type="application/rss+xml"/><item><title>Appendix</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/templates/1-policy/appendix/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/templates/1-policy/appendix/</guid><description>&lt;h2 id="appendix-1-담당자-현황"&gt;Appendix 1. 담당자 현황&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>정책 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%A0%95%EC%B1%85/</link><description>Recent content in 정책 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%A0%95%EC%B1%85/index.xml" rel="self" type="application/rss+xml"/><item><title>§3.1.1 정책</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/1-program-foundation/1-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/1-program-foundation/1-policy/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;오픈소스 정책이 없는 기업은 개발자가 오픈소스 라이선스 의무를 인지하지 못한 채
+소프트웨어를 배포하게 되며, 이는 저작권 침해 소송, 소스코드 강제 공개, 거래처 계약
+해지 등 심각한 법적·사업적 위험으로 이어질 수 있다. §3.1.1은 이러한 위험을 예방하기
+위해 오픈소스 라이선스 컴플라이언스를 관리하는 문서화된 정책을 수립하고, 조직 내
+모든 프로그램 참여자가 정책의 존재를 인식할 수 있도록 전파할 것을 요구한다. 이 조항은
+ISO/IEC 5230 프로그램 전체의 기반이 되며, 이후 모든 조항(역량·프로세스·산출물 등)은
+이 정책 위에서 작동한다.&lt;/p&gt;</description></item><item><title>Appendix</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/templates/1-policy/appendix/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/templates/1-policy/appendix/</guid><description>&lt;h2 id="appendix-1-담당자-현황"&gt;Appendix 1. 담당자 현황&lt;/h2&gt;
 &lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;
