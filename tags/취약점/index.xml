@@ -34,4 +34,10 @@ Google이 개발한 오픈소스 소프트웨어 구성 분석 도구입니다.
 &lt;li&gt;&lt;strong&gt;알림&lt;/strong&gt;: Slack, 이메일, Webhook 등 다양한 채널로 신규 취약점 알림 발송&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="설치-방법"&gt;설치 방법&lt;/h2&gt;
-&lt;p&gt;Docker Compose를 사용하는 방법이 가장 간편합니다.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Docker Compose를 사용하는 방법이 가장 간편합니다.&lt;/p&gt;</description></item><item><title>§4.3.2 보안 보증</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/3-content-review/2-security-assurance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/3-content-review/2-security-assurance/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;§4.3.2는 ISO/IEC 18974의 핵심 조항으로, ISO/IEC 5230에 없는 18974 전용 신규
+조항이다. SBOM에 포함된 각 오픈소스 컴포넌트에 대해 &lt;strong&gt;취약점 탐지 → 위험
+평가 → 조치 결정 → 고객 동의(필요 시) → 조치 수행 → 배포 후 신규 취약점
+대응 → 지속 모니터링&lt;/strong&gt; 의 전 과정을 절차로 수립하고 이행 기록을 유지하도록
+요구한다. §4.1.5가 취약점 처리 방법의 존재를 요구한다면, §4.3.2는 그 방법이
+각 컴포넌트에 실제로 적용되어 기록이 남아 있을 것을 요구한다.&lt;/p&gt;</description></item></channel></rss>

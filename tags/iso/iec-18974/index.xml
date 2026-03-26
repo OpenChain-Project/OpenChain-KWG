@@ -1,4 +1,170 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ISO/IEC 18974 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/iso/iec-18974/</link><description>Recent content in ISO/IEC 18974 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Thu, 26 Mar 2026 05:45:44 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/iso/iec-18974/index.xml" rel="self" type="application/rss+xml"/><item><title>0. OpenChain 살펴보기</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/0-openchain/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/0-openchain/</guid><description>&lt;h2 id="1-openchain-project란"&gt;1. OpenChain Project란?&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ISO/IEC 18974 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/iso/iec-18974/</link><description>Recent content in ISO/IEC 18974 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Thu, 26 Mar 2026 18:23:36 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/iso/iec-18974/index.xml" rel="self" type="application/rss+xml"/><item><title>§4.1 프로그램 기반</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/</guid><description/></item><item><title>§4.1.1 정책</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/1-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/1-policy/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;§4.1.1은 ISO/IEC 5230 §3.1.1(라이선스 컴플라이언스 정책)과 대응하는 조항이지만,
+초점이 &lt;strong&gt;보안 보증&lt;/strong&gt;으로 전환된다. 오픈소스 컴포넌트의 알려진 취약점과 새로
+발견되는 취약점을 체계적으로 관리하는 정책이 문서화되어 있어야 하며, 그 정책이
+조직 내부에 전파되어야 한다. ISO/IEC 5230 §3.1.1과의 핵심 차이점은 &lt;strong&gt;정책과
+전파 절차 자체에 대한 정기 검토 프로세스&lt;/strong&gt;를 요구한다는 점이다. 정책을 수립하는
+것에 그치지 않고, 정책이 항상 유효하고 최신 상태를 유지하도록 검토 체계를
+갖추어야 한다.&lt;/p&gt;
+&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;공급 소프트웨어에 포함된 오픈소스 컴포넌트의 보안 취약점을 관리하는 정책을
+문서화하고 공식화한다.&lt;/li&gt;
+&lt;li&gt;정책에 취약점 탐지·평가·대응·통보 원칙과 CVD(Coordinated Vulnerability
+Disclosure) 방침을 포함한다.&lt;/li&gt;
+&lt;li&gt;프로그램 참여자(개발자·보안 담당·법무·IT 등)에게 정책을 전파하는 절차를
+수립하고 문서화한다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;정책과 전파 절차 자체를 정기적으로 검토하여 최신 상태를 유지하는 검토
+프로세스&lt;/strong&gt;를 정책 내에 명시한다.&lt;/li&gt;
+&lt;li&gt;검토 완료 일자, 검토자, 변경 이력을 문서에 기록한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="3-요구사항-및-입증자료"&gt;3. 요구사항 및 입증자료&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;조항 번호&lt;/th&gt;
+ &lt;th&gt;요구사항 (KO)&lt;/th&gt;
+ &lt;th&gt;입증자료&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;§4.1.1&lt;/td&gt;
+ &lt;td&gt;배포용 소프트웨어의 오픈소스 소프트웨어 보안 보증을 관리하는 문서화된 오픈소스 정책이 있어야 한다. 이 정책은 조직 내부에 전파되어야 한다. &lt;strong&gt;정책과 전달 방법은 항상 유효하고 최신 상태를 유지하기 위한 검토 프로세스를 가져야 한다.&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;4.1.1.1&lt;/strong&gt; 문서화된 오픈소스 소프트웨어 보안 보증 정책&lt;br&gt;&lt;strong&gt;4.1.1.2&lt;/strong&gt; 프로그램 참여자가 보안 보증 정책을 인식하도록 하기 위한 문서화된 절차&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;details&gt;&lt;summary&gt;영문 원문 보기&lt;/summary&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;§4.1.1 Policy&lt;/strong&gt;
+A written open source software security assurance policy shall exist that
+governs open source software security assurance of the supplied software.
+The policy shall be internally communicated. The policy and its method of
+communication shall have a review process to ensure they remain current and
+valid.&lt;/p&gt;</description></item><item><title>§4.2.1 접근성</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/2-relevant-tasks/1-access/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/2-relevant-tasks/1-access/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;§4.2.1은 ISO/IEC 5230 §3.2.1(외부 문의 대응)과 구조가 동일하지만, 초점이
+&lt;strong&gt;라이선스 컴플라이언스 문의&lt;/strong&gt;에서 &lt;strong&gt;취약점 문의&lt;/strong&gt;로 전환된다. 제3자가 공급
+소프트웨어에서 알려진 취약점 또는 새로 발견한 취약점에 대해 문의할 수 있는
+공개 채널을 마련하고, 내부적으로는 이 문의에 체계적으로 대응하는 절차를
+문서화해야 한다. 보안 취약점 보고 채널은 CVD(Coordinated Vulnerability
+Disclosure) 절차와 연결되어 있으므로, 보안 연구자나 고객이 발견한 취약점을
+안전하게 접수하고 처리하는 체계가 필요하다.&lt;/p&gt;
+&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;제3자가 취약점 관련 문의를 보낼 수 있는 공개 연락처(이메일 주소, 웹폼 등)를
+제품 또는 웹사이트에 명시한다.&lt;/li&gt;
+&lt;li&gt;공개 채널을 통해 접수된 취약점 보고를 내부적으로 처리하는 절차를 문서화한다.&lt;/li&gt;
+&lt;li&gt;문의 접수·분류·담당자 배정·대응·종결까지의 처리 단계를 절차에 포함한다.&lt;/li&gt;
+&lt;li&gt;CVD 원칙(비공개 협력 후 공개)에 따른 처리 방침을 절차에 명시한다.&lt;/li&gt;
+&lt;li&gt;문의 접수 및 대응 이력을 기록하고 일정 기간 보관한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="3-요구사항-및-입증자료"&gt;3. 요구사항 및 입증자료&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;조항 번호&lt;/th&gt;
+ &lt;th&gt;요구사항 (KO)&lt;/th&gt;
+ &lt;th&gt;입증자료&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;§4.2.1&lt;/td&gt;
+ &lt;td&gt;외부의 취약점 문의에 효과적으로 대응하기 위한 프로세스를 유지해야 한다. 제3자가 알려진 취약점 또는 새로 발견된 취약점에 대한 문의를 할 수 있는 수단을 공개적으로 밝혀야 한다.&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;4.2.1.1&lt;/strong&gt; 제3자가 알려진 취약점 또는 새로 발견된 취약점에 대한 문의를 할 수 있도록 공개적으로 볼 수 있는 방법 (예: 프로그램 참여자가 모니터링하는 이메일 주소 또는 웹 포털)&lt;br&gt;&lt;strong&gt;4.2.1.2&lt;/strong&gt; 제3자의 알려진 취약점 또는 새로 발견된 취약점 문의에 응답하기 위한 내부 문서화된 절차&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;details&gt;&lt;summary&gt;영문 원문 보기&lt;/summary&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;§4.2.1 Access&lt;/strong&gt;
+Maintain a process to effectively respond to external vulnerability
+inquiries. Publicly identify a means by which a third party can make an
+inquiry about known vulnerabilities or newly discovered vulnerabilities.&lt;/p&gt;</description></item><item><title>§4.3.1 SBOM</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/3-content-review/1-sbom/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/3-content-review/1-sbom/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;§4.3.1은 ISO/IEC 5230 §3.3.1(SBOM)과 기본 구조는 동일하지만, 강조점이
+다르다. 5230은 오픈소스 컴포넌트의 라이선스 관리를 위한 SBOM을 다루는 반면,
+18974의 §4.3.1은 &lt;strong&gt;소프트웨어 수명주기 전반에 걸쳐 지속적으로 SBOM을
+기록하고 보관&lt;/strong&gt;하는 것을 강조한다. 특히 배포 후에도 SBOM을 유지하여 §4.3.2
+보안 보증의 취약점 모니터링과 연계되어야 한다. SBOM이 없으면 배포 후 새로
+공개된 CVE에 대한 영향 분석(§4.1.5 방법 5)을 수행할 수 없다.&lt;/p&gt;
+&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;공급 소프트웨어의 오픈소스 컴포넌트를 식별·추적·검토·승인하는 절차를
+수립한다 (5230과 동일).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;소프트웨어 수명주기 동안 지속적으로 SBOM을 기록하고 보관하는 절차&lt;/strong&gt;를
+수립한다 (18974 강조 사항).&lt;/li&gt;
+&lt;li&gt;배포된 소프트웨어 버전별로 SBOM을 보관하여 배포 후 취약점 영향 분석에
+활용한다.&lt;/li&gt;
+&lt;li&gt;SBOM 정보를 취약점 관리 도구(Dependency-Track 등)와 연동하여 신규 CVE
+발행 시 자동으로 영향 분석이 이루어지도록 구성한다.&lt;/li&gt;
+&lt;li&gt;컴포넌트 추가·변경·제거 시 SBOM을 즉시 갱신하는 트리거를 정의한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="3-요구사항-및-입증자료"&gt;3. 요구사항 및 입증자료&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;조항 번호&lt;/th&gt;
+ &lt;th&gt;요구사항 (KO)&lt;/th&gt;
+ &lt;th&gt;입증자료&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;§4.3.1&lt;/td&gt;
+ &lt;td&gt;공급 소프트웨어에 사용되는 모든 오픈소스 소프트웨어가 공급 소프트웨어의 수명주기 동안 지속적으로 기록되도록 보장하는 프로세스가 있어야 한다.&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;4.3.1.1&lt;/strong&gt; 공급 소프트웨어에 사용되는 모든 오픈소스 소프트웨어가 공급 소프트웨어의 수명주기 동안 지속적으로 기록되도록 보장하는 문서화된 절차 (아카이브 포함)&lt;br&gt;&lt;strong&gt;4.3.1.2&lt;/strong&gt; 문서화된 절차가 올바르게 수행되었음을 입증하는 공급 소프트웨어에 대한 오픈소스 소프트웨어 컴포넌트 기록&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;details&gt;&lt;summary&gt;영문 원문 보기&lt;/summary&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;§4.3.1 Software Bill of Materials&lt;/strong&gt;
+A process shall exist for creating and managing a software bill of materials
+that includes each open source software component (and its identified
+licenses) from which the supplied software is comprised, in a manner that
+ensures the supplied software&amp;rsquo;s open source software components are
+continuously recorded throughout the supplied software&amp;rsquo;s life cycle,
+including archiving.&lt;/p&gt;</description></item><item><title>§4.4.1 완전성</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/4-conformance/1-completeness/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/4-conformance/1-completeness/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;§4.4.1은 ISO/IEC 5230 §3.6.1(적합성)에 대응하는 조항이다. §4.1.4에서 정의한
+프로그램이 ISO/IEC 18974의 모든 요구사항을 충족함을 확인하는 문서를 작성해야
+한다. 5230 §3.6.1과 구조는 동일하지만, 확인 대상이 18974의 25개 입증자료
+항목 전체라는 점이 다르다. ISO/IEC 5230 인증과 18974 인증을 동시에 준비하는
+경우 두 규격의 공통 항목을 통합 점검하고, 18974 전용 9개 항목(★ 표시)을
+추가로 확인하는 방식이 효율적이다.&lt;/p&gt;
+&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;§4.1부터 §4.3까지 모든 조항의 입증자료(25개 항목)가 갖추어졌는지 자체
+점검한다.&lt;/li&gt;
+&lt;li&gt;프로그램이 §4.1.4에서 정의한 적용 범위 내에서 ISO/IEC 18974의 모든 요구사항을
+충족함을 확인하는 문서를 작성한다.&lt;/li&gt;
+&lt;li&gt;확인 문서에 검토자, 승인자, 확인 날짜를 기록한다.&lt;/li&gt;
+&lt;li&gt;ISO/IEC 5230과 18974를 동시에 준수하는 경우 통합 점검표를 활용하여 중복
+검토 부담을 줄인다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="3-요구사항-및-입증자료"&gt;3. 요구사항 및 입증자료&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;조항 번호&lt;/th&gt;
+ &lt;th&gt;요구사항 (KO)&lt;/th&gt;
+ &lt;th&gt;입증자료&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;§4.4.1&lt;/td&gt;
+ &lt;td&gt;프로그램이 이 규격을 준수하는 것으로 간주되려면, 조직은 프로그램이 이 문서의 모든 요구사항을 충족한다고 확인해야 한다.&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;4.4.1.1&lt;/strong&gt; §4.1.4에 명시된 프로그램이 이 문서의 모든 요구 사항을 충족함을 확인하는 문서화된 증거&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;details&gt;&lt;summary&gt;영문 원문 보기&lt;/summary&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;§4.4.1 Completeness&lt;/strong&gt;
+In order for a program to be deemed conformant with this specification, the
+organization shall affirm that the program satisfies the requirements
+presented in this specification.&lt;/p&gt;</description></item><item><title>0. OpenChain 살펴보기</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/0-openchain/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/0-openchain/</guid><description>&lt;h2 id="1-openchain-project란"&gt;1. OpenChain Project란?&lt;/h2&gt;
 &lt;p&gt;오늘날 소프트웨어는 갈수록 그 규모와 복잡도가 커지고 있습니다. 하나의 소프트웨어를 개발하기 위해서는 자체 개발한 소프트웨어뿐 아니라 오픈소스, 타사 소프트웨어&lt;sub&gt;3rd party software&lt;/sub&gt;, 벤더의 SDK 등 소프트웨어 공급망에 걸친 다양한 소프트웨어가 사용될 수 있습니다.&lt;/p&gt;
 &lt;p&gt;이러한 복잡한 소프트웨어 공급망의 여러 조직 중 한 곳이라도 오픈소스 라이선스 의무를 준수하지 않거나 올바른 오픈소스 사용 정보를 제공하지 않으면 최종 소프트웨어를 배포하는 기업은 오픈소스 라이선스 의무 준수에 실패할 수밖에 없습니다. 이로 인해 소송을 제기당해 제품 판매가 중단되는 상황이 발생할 수도 있습니다.&lt;/p&gt;</description></item><item><title>17th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2023/17th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2023/17th/</guid><description>&lt;h2 id="일정"&gt;일정&lt;/h2&gt;
 &lt;ul&gt;
@@ -96,7 +262,119 @@
 &lt;li&gt;리뷰 : &lt;a href="https://devocean.sk.com/opensource/techBoardDetail.do?ID=164691"&gt;https://devocean.sk.com/opensource/techBoardDetail.do?ID=164691&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="sponsor"&gt;Sponsor&lt;/h2&gt;
-&lt;p&gt;&lt;img src="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2023/17th/sponsor.png" alt="sponsor"&gt;&lt;/p&gt;</description></item><item><title>20th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2023/20th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2023/20th/</guid><description>&lt;h2 id="일정"&gt;일정&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2023/17th/sponsor.png" alt="sponsor"&gt;&lt;/p&gt;</description></item><item><title>§4.1.2 역량</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/2-competence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/2-competence/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;§4.1.2는 ISO/IEC 5230 §3.1.2(역량)와 기본 구조는 동일하지만, 입증자료 항목이
+3건 더 많다. 5230이 역할 목록·역량 정의·역량 평가 증거 3가지를 요구하는 반면,
+18974는 여기에 &lt;strong&gt;참여자 목록 및 역할 매핑(4.1.2.3)&lt;/strong&gt;, &lt;strong&gt;주기적 검토 및 프로세스
+변경 증거(4.1.2.5)&lt;/strong&gt;, &lt;strong&gt;내부 모범 사례와의 일치 검증(4.1.2.6)&lt;/strong&gt; 을 추가로
+요구한다. 이 세 가지 추가 항목은 역량 체계가 형식에 그치지 않고 실제로 최신
+상태를 유지하며 업계 표준과 정합성을 갖추고 있음을 입증하도록 요구한다.&lt;/p&gt;
+&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;프로그램 역할별 책임 목록을 작성한다 (5230과 동일).&lt;/li&gt;
+&lt;li&gt;각 역할에 필요한 역량을 정의하고 문서화한다 (5230과 동일).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;참여자 이름과 각자의 역할을 매핑한 목록&lt;/strong&gt;을 별도로 작성한다 (18974 추가).&lt;/li&gt;
+&lt;li&gt;각 참여자의 역량을 평가하고 기록한다 (5230과 동일).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;주기적으로 역량 체계를 검토하고 프로세스 변경 사항을 기록한다&lt;/strong&gt; (18974 추가).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;역량 체계가 회사 내부 모범 사례와 일치하는지 확인하고 담당자를 지정한다&lt;/strong&gt;
+(18974 추가).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="3-요구사항-및-입증자료"&gt;3. 요구사항 및 입증자료&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;조항 번호&lt;/th&gt;
+ &lt;th&gt;요구사항 (KO)&lt;/th&gt;
+ &lt;th&gt;입증자료&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;§4.1.2&lt;/td&gt;
+ &lt;td&gt;조직은 프로그램의 성과와 효율에 영향을 미치는 역할과 책임을 확인하고, 각 역할의 필요 역량을 결정하며, 참여자의 역량을 확인하고 필요 시 조치를 취하고, 역량 보유 증거를 문서화하여 유지해야 한다.&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;4.1.2.1&lt;/strong&gt; 여러 프로그램 참여자에 대한 해당 책임이 있는 문서화된 역할 목록&lt;br&gt;&lt;strong&gt;4.1.2.2&lt;/strong&gt; 각 역할에 대한 역량을 식별하는 문서&lt;br&gt;&lt;strong&gt;4.1.2.3&lt;/strong&gt; 참여자 목록 및 해당 역할 ★&lt;br&gt;&lt;strong&gt;4.1.2.4&lt;/strong&gt; 각 프로그램 참여자에 대해 평가된 역량에 대한 문서화된 증거&lt;br&gt;&lt;strong&gt;4.1.2.5&lt;/strong&gt; 주기적인 검토 및 프로세스 변경에 대한 문서화된 증거 ★&lt;br&gt;&lt;strong&gt;4.1.2.6&lt;/strong&gt; 이러한 프로세스가 회사 내부 모범 사례와 일치하며 최신 상태를 유지하고 있는지, 그리고 이를 확인하는 담당자가 지정되었는지에 대한 문서화된 증거 ★&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;★ = ISO/IEC 5230 §3.1.2 대비 추가 항목&lt;/p&gt;</description></item><item><title>§4.2 관련 업무</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/2-relevant-tasks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/2-relevant-tasks/</guid><description/></item><item><title>§4.2.2 효과적 리소스</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/2-relevant-tasks/2-resourced/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/2-relevant-tasks/2-resourced/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;§4.2.2는 ISO/IEC 5230 §3.2.2(효과적 리소스)에 대응하지만 두 가지 차이가 있다.
+첫째, 5230이 5개 입증자료를 요구하는 반면 18974는 4개를 요구한다. 5230의
+§3.2.2.5(미준수 사례 검토·시정 절차)가 18974에서는 §4.1.5 표준 관행 구현에
+흡수된다. 둘째, §3.2.2.3(법률 자문 접근 방법)이 §4.2.2.3에서는 &lt;strong&gt;취약점 해결
+전문성&lt;/strong&gt;으로 대체된다. 라이선스 법률 자문이 아니라, 알려진 취약점을 실제로
+해결할 수 있는 기술적·보안 전문성을 확보하고 그 접근 방법을 문서화해야 한다.&lt;/p&gt;
+&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;프로그램 내 각 역할을 담당하는 인원의 이름 또는 직무를 문서에 기재한다.&lt;/li&gt;
+&lt;li&gt;각 역할 담당자에게 충분한 시간과 예산이 배정되었음을 확인하고 기록한다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;알려진 취약점을 해결하기 위해 이용 가능한 내부 또는 외부 보안 전문성을
+식별하고 문서화한다&lt;/strong&gt; (5230과 초점이 다름).&lt;/li&gt;
+&lt;li&gt;보안 보증 컴플라이언스에 대한 내부 책임을 각 역할에 할당하는 절차를
+문서화한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="3-요구사항-및-입증자료"&gt;3. 요구사항 및 입증자료&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;조항 번호&lt;/th&gt;
+ &lt;th&gt;요구사항 (KO)&lt;/th&gt;
+ &lt;th&gt;입증자료&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;§4.2.2&lt;/td&gt;
+ &lt;td&gt;프로그램 업무를 식별하고 리소스를 제공한다: 역할별 책임을 할당하고 충분한 리소스를 제공하며, 취약점 해결 전문성에 접근할 수 있는 방법을 확보하고, 내부 책임 할당 절차를 마련한다.&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;4.2.2.1&lt;/strong&gt; 프로그램 역할에 지정된 개인, 그룹 또는 기능의 이름이 포함된 문서&lt;br&gt;&lt;strong&gt;4.2.2.2&lt;/strong&gt; 식별된 프로그램 역할이 적절히 인력 배치되었으며 충분한 예산이 제공되었음을 나타내는 문서&lt;br&gt;&lt;strong&gt;4.2.2.3&lt;/strong&gt; 식별된 알려진 취약점을 해결하기 위해 이용 가능한 전문성을 명시한 문서 ★&lt;br&gt;&lt;strong&gt;4.2.2.4&lt;/strong&gt; 보안 보증을 위해 내부 책임을 할당하는 절차를 문서화한 자료&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;★ = ISO/IEC 5230 §3.2.2.3(법률 자문)과 다름 — 보안 전문성으로 초점 전환&lt;/p&gt;</description></item><item><title>§4.3.2 보안 보증</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/3-content-review/2-security-assurance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/3-content-review/2-security-assurance/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;§4.3.2는 ISO/IEC 18974의 핵심 조항으로, ISO/IEC 5230에 없는 18974 전용 신규
+조항이다. SBOM에 포함된 각 오픈소스 컴포넌트에 대해 &lt;strong&gt;취약점 탐지 → 위험
+평가 → 조치 결정 → 고객 동의(필요 시) → 조치 수행 → 배포 후 신규 취약점
+대응 → 지속 모니터링&lt;/strong&gt; 의 전 과정을 절차로 수립하고 이행 기록을 유지하도록
+요구한다. §4.1.5가 취약점 처리 방법의 존재를 요구한다면, §4.3.2는 그 방법이
+각 컴포넌트에 실제로 적용되어 기록이 남아 있을 것을 요구한다.&lt;/p&gt;</description></item><item><title>§4.4.2 기간</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/4-conformance/2-duration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/4-conformance/2-duration/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;§4.4.2는 ISO/IEC 5230 §3.6.2(지속 기간)와 동일한 구조다. 적합성 인증을 취득한
+후 18개월 이내에 이 규격의 모든 요구사항을 충족하고 있음을 확인하는 문서를
+유지하도록 요구한다. 규격의 새 버전이 발행되면 18개월의 유예 기간 동안 이전
+버전 기준 인증이 유지되며, 유예 기간 내에 최신 버전 기준으로 갱신하는 것을
+권장한다.&lt;/p&gt;
+&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;적합성 인증 취득 날짜를 기록하고 관리한다.&lt;/li&gt;
+&lt;li&gt;인증 취득 후 최근 18개월 이내에 규격의 모든 요구사항을 충족하고 있음을
+재확인하고 문서화한다.&lt;/li&gt;
+&lt;li&gt;새로운 버전의 ISO/IEC 18974가 발행된 경우 18개월 이내에 최신 버전 기준으로
+프로그램을 갱신하고 재확인한다.&lt;/li&gt;
+&lt;li&gt;정기적인 내부 감사를 통해 25개 입증자료 항목의 지속적 준수 여부를 점검한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="3-요구사항-및-입증자료"&gt;3. 요구사항 및 입증자료&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;조항 번호&lt;/th&gt;
+ &lt;th&gt;요구사항 (KO)&lt;/th&gt;
+ &lt;th&gt;입증자료&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;§4.4.2&lt;/td&gt;
+ &lt;td&gt;이 규격을 준수하는 프로그램은 규격의 새 버전이 발행된 후 18개월이 경과할 때까지 이전 버전에 대해서도 계속 준수하는 것으로 간주된다. 준수 프로그램을 최신 버전으로 업데이트하는 것을 권장한다.&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;4.4.2.1&lt;/strong&gt; 프로그램이 적합성 검증을 획득한 후 지난 18개월 이내에 이 규격의 모든 요구 사항을 충족함을 확인하는 문서&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;details&gt;&lt;summary&gt;영문 원문 보기&lt;/summary&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;§4.4.2 Duration&lt;/strong&gt;
+A program that is conformant with this specification shall remain conformant
+even if the version of the specification it was conformant against is
+subsequently updated, for a period of 18 months after the new version of
+the specification is published. It is recommended that conformant programs
+be updated to be conformant with the latest version of the specification.&lt;/p&gt;</description></item><item><title>20th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2023/20th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2023/20th/</guid><description>&lt;h2 id="일정"&gt;일정&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;일정: 2023-11-15 (수) 오후2시~4시30분&lt;/li&gt;
 &lt;li&gt;장소: 삼성전자 서초사옥&lt;/li&gt;
@@ -231,7 +509,110 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id="sponsor"&gt;Sponsor&lt;/h2&gt;
-&lt;p&gt;&lt;img src="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2024/22nd/CI_logo_press_20220328_CJ_W.jpg" alt=""&gt;&lt;/p&gt;</description></item><item><title>2024-12-13 ISO 5230과 ISO 18974가 법률 전문가에게 미치는 영향과 2024년 전망</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/resource/webinar/2024-12-13/</link><pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/resource/webinar/2024-12-13/</guid><description>&lt;p&gt;source: &lt;a href="https://openchainproject.org/news/2024/12/04/webinar-enabling-sboms-across-the-linux-foundation"&gt;https://openchainproject.org/news/2024/12/04/webinar-enabling-sboms-across-the-linux-foundation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2024/22nd/CI_logo_press_20220328_CJ_W.jpg" alt=""&gt;&lt;/p&gt;</description></item><item><title>§4.1.3 인식</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/3-awareness/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/3-awareness/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;§4.1.3은 ISO/IEC 5230 §3.1.3(인식)과 입증자료 구조가 동일하다. 프로그램
+참여자가 프로그램의 목표, 자신의 기여 방법, 미준수 시 발생하는 영향을 인식하고
+있음을 평가하고 기록하도록 요구한다. 5230과의 차이는 인식 평가의 &lt;strong&gt;초점이
+보안 보증&lt;/strong&gt;으로 전환된다는 점이다. 참여자는 라이선스 컴플라이언스뿐 아니라
+취약점 관리 프로세스, CVD 절차, CVSS 기반 대응 기준을 인식하고 있어야 한다.&lt;/p&gt;
+&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;프로그램 참여자가 오픈소스 보안 보증 프로그램의 목표(취약점 탐지·평가·
+대응·통보)를 이해하고 있는지 확인한다.&lt;/li&gt;
+&lt;li&gt;각 참여자가 자신의 역할이 보안 보증 체계에 어떻게 기여하는지 인식하고 있는지
+평가한다.&lt;/li&gt;
+&lt;li&gt;취약점 대응 프로세스를 미준수할 경우 발생하는 법적·사업적·보안적 영향에
+대한 인식을 평가한다.&lt;/li&gt;
+&lt;li&gt;인식 평가 결과를 문서로 기록하고 보관한다.&lt;/li&gt;
+&lt;li&gt;미흡한 참여자에 대해 추가 교육을 실시하고 재평가 결과를 보관한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="3-요구사항-및-입증자료"&gt;3. 요구사항 및 입증자료&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;조항 번호&lt;/th&gt;
+ &lt;th&gt;요구사항 (KO)&lt;/th&gt;
+ &lt;th&gt;입증자료&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;§4.1.3&lt;/td&gt;
+ &lt;td&gt;조직은 프로그램 참여자가 다음 사항을 인식하도록 해야 한다: 보안 보증 정책의 존재와 위치 / 보안 보증 관련 목표 / 프로그램 효과에 대한 자신의 기여 방법 / 프로그램 요구사항을 따르지 않을 경우 발생하는 영향&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;4.1.3.1&lt;/strong&gt; 프로그램 목표, 프로그램 내에서의 개인 기여, 프로그램 미준수의 영향 등이 포함되어야 하는 프로그램 참여자에 대한 평가된 인식에 대한 문서화된 증거&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;details&gt;&lt;summary&gt;영문 원문 보기&lt;/summary&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;§4.1.3 Awareness&lt;/strong&gt;
+The organization shall ensure that the program participants are aware of:&lt;/p&gt;</description></item><item><title>§4.3 콘텐츠 검토 및 승인</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/3-content-review/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/3-content-review/</guid><description/></item><item><title>ISO/IEC 18974 준수 가이드</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/</guid><description>&lt;p&gt;이 가이드는 ISO/IEC 18974(OpenChain Security Assurance)의 각 요구사항 조항을
+하나씩 풀어서 설명한다. 각 조항이 요구하는 입증자료가 무엇인지, 어떻게 준수할
+수 있는지, 바로 활용할 수 있는 샘플 문서는 무엇인지 안내한다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Author : OpenChain Korea Work Group / &lt;a href="https://creativecommons.org/licenses/by/4.0/"&gt;CC BY 4.0&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="대상-독자"&gt;대상 독자&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;오픈소스 보안 보증 체계를 처음 수립하는 기업의 보안 담당자 및 오픈소스 프로그램 매니저&lt;/li&gt;
+&lt;li&gt;DevSecOps 환경에서 오픈소스 취약점 관리 프로세스를 구축하는 엔지니어&lt;/li&gt;
+&lt;li&gt;ISO/IEC 5230 인증 취득 후 ISO/IEC 18974 추가 인증을 준비하는 기업 담당자&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="isoiec-5230과의-관계"&gt;ISO/IEC 5230과의 관계&lt;/h2&gt;
+&lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;ISO/IEC 18974는 ISO/IEC 5230 위에 보안 레이어를 추가한다&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;ISO/IEC 5230(라이선스 컴플라이언스)&lt;/strong&gt; 은 오픈소스 라이선스 의무 이행을
+체계적으로 관리하는 기반 프로그램을 다룬다.&lt;/p&gt;</description></item><item><title>§4.1.4 프로그램 범위</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/4-scope/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/4-scope/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;§4.1.4는 ISO/IEC 5230 §3.1.4(프로그램 범위)에 입증자료 2건이 추가된 조항이다.
+5230이 프로그램 적용 범위를 명확히 정의한 진술만 요구하는 반면, 18974는
+여기에 &lt;strong&gt;프로그램이 달성해야 하는 성과 메트릭(4.1.4.2)&lt;/strong&gt; 과 &lt;strong&gt;지속적 개선을
+입증하는 검토·감사 증거(4.1.4.3)&lt;/strong&gt; 를 추가로 요구한다. 이 두 항목은 보안
+보증 프로그램이 정적인 규정 준수에 그치지 않고 측정 가능한 목표를 가지고
+지속적으로 개선되는 체계임을 입증하기 위한 것이다.&lt;/p&gt;
+&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;프로그램 적용 범위(대상 소프트웨어, 조직 단위, 제외 항목)를 명확히 정의한
+문서화된 진술을 작성한다 (5230과 동일).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;프로그램이 개선하기 위해 달성해야 하는 성과 메트릭을 정의한다&lt;/strong&gt; (18974 추가).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;정기 검토·업데이트·감사를 통해 지속적 개선이 이루어지고 있음을 증명하는
+기록을 유지한다&lt;/strong&gt; (18974 추가).&lt;/li&gt;
+&lt;li&gt;메트릭 목표 대비 실적을 주기적으로 측정하고 기록한다.&lt;/li&gt;
+&lt;li&gt;개선 필요 사항을 도출하고 후속 조치 이력을 문서화한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="3-요구사항-및-입증자료"&gt;3. 요구사항 및 입증자료&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;조항 번호&lt;/th&gt;
+ &lt;th&gt;요구사항 (KO)&lt;/th&gt;
+ &lt;th&gt;입증자료&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;§4.1.4&lt;/td&gt;
+ &lt;td&gt;프로그램의 적용 범위가 명확하게 정의되어야 하며, 프로그램 개선을 위한 메트릭과 지속적 개선 증거를 유지해야 한다.&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;4.1.4.1&lt;/strong&gt; 프로그램의 범위와 제한 사항을 명확하게 정의하는 서면 진술&lt;br&gt;&lt;strong&gt;4.1.4.2&lt;/strong&gt; 프로그램이 개선하기 위해 달성해야 하는 메트릭 세트 ★&lt;br&gt;&lt;strong&gt;4.1.4.3&lt;/strong&gt; 지속적인 개선을 입증하기 위한 각 검토, 업데이트 또는 감사에서 얻은 문서화된 증거 ★&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;★ = ISO/IEC 5230 §3.1.4 대비 추가 항목&lt;/p&gt;</description></item><item><title>§4.4 규격 준수</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/4-conformance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/4-conformance/</guid><description/></item><item><title>§4.1.5 표준 관행 구현</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/5-standard-practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/5-standard-practice/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;§4.1.5는 ISO/IEC 5230에 없는 18974 전용 신규 조항이다. 오픈소스 취약점을
+다루는 &lt;strong&gt;8가지 표준 처리 방법&lt;/strong&gt; 각각에 대해 문서화된 절차를 수립하도록 요구한다.
+이 조항은 단순히 취약점에 &amp;ldquo;대응한다&amp;quot;는 선언을 넘어, 위협 식별·탐지·후속 조치·
+고객 통보·배포 후 모니터링·지속적 보안 테스트·위험 검증·정보 수출까지 전체
+취약점 생명주기를 절차로 명문화할 것을 요구한다. 이 조항은 §4.3.2 보안 보증과
+함께 ISO/IEC 18974의 핵심을 이룬다.&lt;/p&gt;
+&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
+&lt;p&gt;8가지 방법 각각에 대한 문서화된 절차를 수립한다:&lt;/p&gt;</description></item><item><title>ISO/IEC 5230 vs 18974 비교</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/compare/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/compare/</guid><description>&lt;h2 id="1-두-표준의-관계"&gt;1. 두 표준의 관계&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 5230과 ISO/IEC 18974는 모두 OpenChain 프로젝트가 주도하는 오픈소스
+관련 국제 표준이지만, 서로 다른 문제를 다룬다. 5230은 오픈소스 라이선스
+컴플라이언스(저작권 의무 이행·SBOM 관리·컴플라이언스 산출물 배포)를 다루고,
+18974는 오픈소스 보안 보증(취약점 탐지·평가·대응·CVD)을 다룬다. 두 표준은
+완전한 상위·하위 집합 관계가 아니다. 정책·역량·SBOM 등 9개 공통 조항을
+공유하되, 5230에만 있는 조항(라이선스 컴플라이언스·산출물·기여)과 18974에만
+있는 조항(표준 관행 구현·보안 보증)이 각각 존재한다.&lt;/p&gt;
+&lt;p&gt;두 표준을 동시에 준수하면 라이선스 의무 이행과 보안 취약점 관리를 하나의
+통합 오픈소스 프로그램으로 운영할 수 있다. 공통 기반 문서(정책·역량 기록·SBOM
+절차)는 한 번 작성으로 두 표준에 동시 활용되므로, 5230 인증 후 18974를
+추가로 준비하는 데 드는 실질적 추가 작업량은 전체의 30~40% 수준이다.&lt;/p&gt;</description></item><item><title>2024-12-13 ISO 5230과 ISO 18974가 법률 전문가에게 미치는 영향과 2024년 전망</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/resource/webinar/2024-12-13/</link><pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/resource/webinar/2024-12-13/</guid><description>&lt;p&gt;source: &lt;a href="https://openchainproject.org/news/2024/12/04/webinar-enabling-sboms-across-the-linux-foundation"&gt;https://openchainproject.org/news/2024/12/04/webinar-enabling-sboms-across-the-linux-foundation&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="목차"&gt;목차&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;발표자 소개&lt;/li&gt;

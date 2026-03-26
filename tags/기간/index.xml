@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>기간 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EA%B8%B0%EA%B0%84/</link><description>Recent content in 기간 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EA%B8%B0%EA%B0%84/index.xml" rel="self" type="application/rss+xml"/><item><title>§4.4.2 기간</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/4-conformance/2-duration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/4-conformance/2-duration/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;§4.4.2는 ISO/IEC 5230 §3.6.2(지속 기간)와 동일한 구조다. 적합성 인증을 취득한
+후 18개월 이내에 이 규격의 모든 요구사항을 충족하고 있음을 확인하는 문서를
+유지하도록 요구한다. 규격의 새 버전이 발행되면 18개월의 유예 기간 동안 이전
+버전 기준 인증이 유지되며, 유예 기간 내에 최신 버전 기준으로 갱신하는 것을
+권장한다.&lt;/p&gt;
+&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;적합성 인증 취득 날짜를 기록하고 관리한다.&lt;/li&gt;
+&lt;li&gt;인증 취득 후 최근 18개월 이내에 규격의 모든 요구사항을 충족하고 있음을
+재확인하고 문서화한다.&lt;/li&gt;
+&lt;li&gt;새로운 버전의 ISO/IEC 18974가 발행된 경우 18개월 이내에 최신 버전 기준으로
+프로그램을 갱신하고 재확인한다.&lt;/li&gt;
+&lt;li&gt;정기적인 내부 감사를 통해 25개 입증자료 항목의 지속적 준수 여부를 점검한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="3-요구사항-및-입증자료"&gt;3. 요구사항 및 입증자료&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;조항 번호&lt;/th&gt;
+ &lt;th&gt;요구사항 (KO)&lt;/th&gt;
+ &lt;th&gt;입증자료&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;§4.4.2&lt;/td&gt;
+ &lt;td&gt;이 규격을 준수하는 프로그램은 규격의 새 버전이 발행된 후 18개월이 경과할 때까지 이전 버전에 대해서도 계속 준수하는 것으로 간주된다. 준수 프로그램을 최신 버전으로 업데이트하는 것을 권장한다.&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;4.4.2.1&lt;/strong&gt; 프로그램이 적합성 검증을 획득한 후 지난 18개월 이내에 이 규격의 모든 요구 사항을 충족함을 확인하는 문서&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;details&gt;&lt;summary&gt;영문 원문 보기&lt;/summary&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;§4.4.2 Duration&lt;/strong&gt;
+A program that is conformant with this specification shall remain conformant
+even if the version of the specification it was conformant against is
+subsequently updated, for a period of 18 months after the new version of
+the specification is published. It is recommended that conformant programs
+be updated to be conformant with the latest version of the specification.&lt;/p&gt;</description></item></channel></rss>

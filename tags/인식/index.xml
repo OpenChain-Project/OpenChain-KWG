@@ -36,4 +36,41 @@
 &lt;details&gt;&lt;summary&gt;영문 원문 보기&lt;/summary&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;§3.1.3 Awareness&lt;/strong&gt;
+The organization shall ensure that the program participants are aware of:&lt;/p&gt;</description></item><item><title>§4.1.3 인식</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/3-awareness/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/3-awareness/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;§4.1.3은 ISO/IEC 5230 §3.1.3(인식)과 입증자료 구조가 동일하다. 프로그램
+참여자가 프로그램의 목표, 자신의 기여 방법, 미준수 시 발생하는 영향을 인식하고
+있음을 평가하고 기록하도록 요구한다. 5230과의 차이는 인식 평가의 &lt;strong&gt;초점이
+보안 보증&lt;/strong&gt;으로 전환된다는 점이다. 참여자는 라이선스 컴플라이언스뿐 아니라
+취약점 관리 프로세스, CVD 절차, CVSS 기반 대응 기준을 인식하고 있어야 한다.&lt;/p&gt;
+&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;프로그램 참여자가 오픈소스 보안 보증 프로그램의 목표(취약점 탐지·평가·
+대응·통보)를 이해하고 있는지 확인한다.&lt;/li&gt;
+&lt;li&gt;각 참여자가 자신의 역할이 보안 보증 체계에 어떻게 기여하는지 인식하고 있는지
+평가한다.&lt;/li&gt;
+&lt;li&gt;취약점 대응 프로세스를 미준수할 경우 발생하는 법적·사업적·보안적 영향에
+대한 인식을 평가한다.&lt;/li&gt;
+&lt;li&gt;인식 평가 결과를 문서로 기록하고 보관한다.&lt;/li&gt;
+&lt;li&gt;미흡한 참여자에 대해 추가 교육을 실시하고 재평가 결과를 보관한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="3-요구사항-및-입증자료"&gt;3. 요구사항 및 입증자료&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;조항 번호&lt;/th&gt;
+ &lt;th&gt;요구사항 (KO)&lt;/th&gt;
+ &lt;th&gt;입증자료&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;§4.1.3&lt;/td&gt;
+ &lt;td&gt;조직은 프로그램 참여자가 다음 사항을 인식하도록 해야 한다: 보안 보증 정책의 존재와 위치 / 보안 보증 관련 목표 / 프로그램 효과에 대한 자신의 기여 방법 / 프로그램 요구사항을 따르지 않을 경우 발생하는 영향&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;4.1.3.1&lt;/strong&gt; 프로그램 목표, 프로그램 내에서의 개인 기여, 프로그램 미준수의 영향 등이 포함되어야 하는 프로그램 참여자에 대한 평가된 인식에 대한 문서화된 증거&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;details&gt;&lt;summary&gt;영문 원문 보기&lt;/summary&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;§4.1.3 Awareness&lt;/strong&gt;
 The organization shall ensure that the program participants are aware of:&lt;/p&gt;</description></item></channel></rss>

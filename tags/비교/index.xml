@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>비교 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EB%B9%84%EA%B5%90/</link><description>Recent content in 비교 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EB%B9%84%EA%B5%90/index.xml" rel="self" type="application/rss+xml"/><item><title>ISO/IEC 5230 vs 18974 비교</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/compare/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/compare/</guid><description>&lt;h2 id="1-두-표준의-관계"&gt;1. 두 표준의 관계&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 5230과 ISO/IEC 18974는 모두 OpenChain 프로젝트가 주도하는 오픈소스
+관련 국제 표준이지만, 서로 다른 문제를 다룬다. 5230은 오픈소스 라이선스
+컴플라이언스(저작권 의무 이행·SBOM 관리·컴플라이언스 산출물 배포)를 다루고,
+18974는 오픈소스 보안 보증(취약점 탐지·평가·대응·CVD)을 다룬다. 두 표준은
+완전한 상위·하위 집합 관계가 아니다. 정책·역량·SBOM 등 9개 공통 조항을
+공유하되, 5230에만 있는 조항(라이선스 컴플라이언스·산출물·기여)과 18974에만
+있는 조항(표준 관행 구현·보안 보증)이 각각 존재한다.&lt;/p&gt;
+&lt;p&gt;두 표준을 동시에 준수하면 라이선스 의무 이행과 보안 취약점 관리를 하나의
+통합 오픈소스 프로그램으로 운영할 수 있다. 공통 기반 문서(정책·역량 기록·SBOM
+절차)는 한 번 작성으로 두 표준에 동시 활용되므로, 5230 인증 후 18974를
+추가로 준비하는 데 드는 실질적 추가 작업량은 전체의 30~40% 수준이다.&lt;/p&gt;</description></item></channel></rss>

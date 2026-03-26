@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>취약점 대응 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%B7%A8%EC%95%BD%EC%A0%90-%EB%8C%80%EC%9D%91/</link><description>Recent content in 취약점 대응 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%B7%A8%EC%95%BD%EC%A0%90-%EB%8C%80%EC%9D%91/index.xml" rel="self" type="application/rss+xml"/><item><title>§4.1.5 표준 관행 구현</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/5-standard-practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/5-standard-practice/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;§4.1.5는 ISO/IEC 5230에 없는 18974 전용 신규 조항이다. 오픈소스 취약점을
+다루는 &lt;strong&gt;8가지 표준 처리 방법&lt;/strong&gt; 각각에 대해 문서화된 절차를 수립하도록 요구한다.
+이 조항은 단순히 취약점에 &amp;ldquo;대응한다&amp;quot;는 선언을 넘어, 위협 식별·탐지·후속 조치·
+고객 통보·배포 후 모니터링·지속적 보안 테스트·위험 검증·정보 수출까지 전체
+취약점 생명주기를 절차로 명문화할 것을 요구한다. 이 조항은 §4.3.2 보안 보증과
+함께 ISO/IEC 18974의 핵심을 이룬다.&lt;/p&gt;
+&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
+&lt;p&gt;8가지 방법 각각에 대한 문서화된 절차를 수립한다:&lt;/p&gt;</description></item></channel></rss>
