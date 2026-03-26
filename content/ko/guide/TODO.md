@@ -55,4 +55,35 @@ draft: true
 - [x] #22 4-tool에 Dependency-Track 소개 및 링크 추가
 - [x] #23 4-tool에 cdxgen 소개 및 링크 추가
 - [x] #24 4-tool에 Syft 소개 및 링크 추가
+
+---
+## iso5230_guide 작성 작업 (브랜치: guide/iso-compliance-guides)
+
+### 루트
+- [x] _index.md (가이드 소개 / 체크리스트 / 인증 절차)
+
+### §3.1 프로그램 기반
+- [x] 1-policy/_index.md (§3.1.1 정책)
+- [x] 2-competence/_index.md (§3.1.2 역량)
+- [x] 3-awareness/_index.md (§3.1.3 인식)
+- [x] 4-scope/_index.md (§3.1.4 프로그램 범위)
+- [x] 5-license-obligations/_index.md (§3.1.5 라이선스 의무)
+
+### §3.2 관련 업무
+- [x] 1-access/_index.md (§3.2.1 외부 문의 대응)
+- [x] 2-resourced/_index.md (§3.2.2 효과적 리소스)
+
+### §3.3 콘텐츠 검토 및 승인
+- [x] 1-sbom/_index.md (§3.3.1 SBOM)
+- [x] 2-license-compliance/_index.md (§3.3.2 라이선스 컴플라이언스)
+
+### §3.4 컴플라이언스 산출물
+- [x] 1-compliance-artifacts/_index.md (§3.4.1 산출물)
+
+### §3.5 커뮤니티 참여
+- [x] 1-contributions/_index.md (§3.5.1 기여)
+
+### §3.6 규격 준수
+- [x] 1-conformance/_index.md (§3.6.1 적합성)
+- [x] 2-duration/_index.md (§3.6.2 지속 기간)
 ---
