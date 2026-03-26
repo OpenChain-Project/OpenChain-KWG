@@ -80,6 +80,30 @@ Analyzer의 주요 기능:
 {{< /imgproc >}}
 
 
+### (3) cdxgen
+
+[cdxgen](https://github.com/CycloneDX/cdxgen)은 OWASP CycloneDX 프로젝트의 일환으로 개발된 오픈소스 SBOM 생성 도구입니다. 다양한 언어와 패키지 관리자를 지원하며, CI/CD 파이프라인에 쉽게 통합할 수 있습니다.
+
+주요 기능:
+- Java, JavaScript, Python, Go, Rust 등 20여 개 언어 및 패키지 생태계 지원
+- CycloneDX 및 SPDX 형식의 SBOM 생성
+- 컨테이너 이미지 및 바이너리 분석 지원
+- GitHub Actions, Jenkins 등 CI/CD 통합
+
+cdxgen의 설치 및 사용 방법은 [cdxgen 가이드](../../tools/5-cdxgen/)를 참조하시기 바랍니다.
+
+### (4) Syft
+
+[Syft](https://github.com/anchore/syft)는 Anchore에서 개발한 오픈소스 SBOM 생성 도구로, 컨테이너 이미지와 파일시스템을 분석하여 SBOM을 생성합니다.
+
+주요 기능:
+- 컨테이너 이미지, 파일시스템, 아카이브 등 다양한 소스 분석
+- SPDX, CycloneDX, Syft JSON 등 다양한 SBOM 형식 출력
+- Grype(취약점 스캐너)와 연동하여 취약점 분석 가능
+- Kubernetes, CI/CD 파이프라인 통합 지원
+
+Syft의 설치 및 사용 방법은 [Syft 가이드](../../tools/6-syft/)를 참조하시기 바랍니다.
+
 이러한 Dependency 분석 도구를 활용하여 공급 소프트웨어에 포함된 오픈소스 컴포넌트를 정확히 식별하고, SBOM을 생성할 수 있습니다. 이는 ISO/IEC 5230과 ISO/IEC 18974의 요구사항을 충족하는 데 도움이 됩니다.
 
 ## 3. 오픈소스 거버넌스 / SBOM 관리 도구
@@ -139,6 +163,18 @@ FOSSLight의 설치 및 사용 방법은 [FOSSLight 가이드](../../tools/3-fos
 <center><i>https://fosslight.org/</i></center>
 {{< /imgproc >}}
 
+### (3) Dependency-Track
+
+[Dependency-Track](https://dependencytrack.org/)은 OWASP에서 관리하는 오픈소스 SBOM 관리 및 취약점 분석 플랫폼입니다. SBOM을 수집·관리하고, 각 컴포넌트의 취약점을 지속적으로 모니터링합니다.
+
+주요 기능:
+- CycloneDX 및 SPDX 형식의 SBOM 수집 및 관리
+- NVD, OSV 등 취약점 데이터베이스와 연동한 자동 취약점 탐지
+- 프로젝트별 컴포넌트 및 라이선스 현황 대시보드
+- REST API 및 CI/CD 파이프라인 통합
+
+Dependency-Track의 설치 및 사용 방법은 [Dependency-Track 가이드](../../tools/7-dependency-track/)를 참조하시기 바랍니다.
+
 이러한 도구들을 활용하여 기업은 효과적으로 오픈소스 거버넌스를 수행하고 SBOM을 관리할 수 있으며, ISO/IEC 5230과 ISO/IEC 18974의 요구사항을 충족할 수 있습니다.
 
 ## 4. 오픈소스 보안취약점 관리 도구
@@ -171,6 +207,18 @@ SW360으로 보안취약점을 관리하는 방법은 [SW360 가이드](../../to
 
 [FOSSLight](https://fosslight.org/ko/)도 이와 유사하게 보안취약점 정보를 자동으로 취득하고, 보안취약점이 검출된 프로젝트 정보를 자동으로 확인하여 필요 시 메일 등 알림을 제공합니다.
 
+
+### (4) OSV-SCALIBR
+
+[OSV-SCALIBR](https://github.com/google/osv-scalibr)은 Google에서 개발한 오픈소스 소프트웨어 컴포지션 분석(SCA) 라이브러리로, 파일시스템과 컨테이너 이미지에서 오픈소스 컴포넌트를 추출하고 OSV(Open Source Vulnerabilities) 데이터베이스와 연동하여 취약점을 탐지합니다.
+
+주요 기능:
+- 파일시스템, 컨테이너 이미지, 아카이브에서 패키지 추출
+- OSV 데이터베이스 기반 취약점 탐지
+- Python, Go, Java, npm 등 주요 패키지 생태계 지원
+- 라이브러리 형태로 기존 도구에 통합 가능
+
+OSV-SCALIBR의 설치 및 사용 방법은 [OSV-SCALIBR 가이드](../../tools/4-osvscalibr/)를 참조하시기 바랍니다.
 
 이러한 도구들을 활용하여 기업은 ISO/IEC 18974의 요구사항을 충족하면서 효과적으로 오픈소스 보안 취약점을 관리할 수 있습니다.
 
