@@ -1,6 +1,6 @@
 ---
-title: "[2025] ISO 표준 기반 기업 오픈소스 관리 가이드"
-linkTitle: "2025 기업 오픈소스 관리 가이드"
+title: "[2026] ISO 표준 기반 기업 오픈소스 관리 가이드"
+linkTitle: "2026 기업 오픈소스 관리 가이드"
 weight: 10
 type: docs
 description: >
@@ -15,6 +15,13 @@ description: >
 이 가이드는 ISO 국제표준을 기반으로 기업이 오픈소스를 효과적으로 관리하기 위해 수행해야 할 핵심 요구사항과 구체적인 실행 방법을 제시합니다.
 
 **Author : OpenChain Korea Work Group / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**
+
+**최근 업데이트 사항 (2026.3.26):**
+- Tools: cdxgen, Syft, Dependency-Track, OSV-SCALIBR 도구 페이지 신규 추가
+- 정책 템플릿: ISO/IEC 5230·18974 누락 조항 보완
+  (컴플라이언스 산출물 보관기간, CVSS 조치기한, SBOM 표준형식 선언 등)
+- 프로세스 템플릿: SBOM 절차 보완 및 기여·공개·교육 프로세스 신규 추가
+- 가이드 본문: 내부 링크 정비 및 신규 도구 연계
 
 **최근 업데이트 사항 (2025.1.6):**
 - ISO/IEC 18974 (OpenChain Security Assurance Specification) 관련 내용 추가

@@ -84,6 +84,8 @@ The open source program manager finalizes the BOM to track the open source usage
 
 The IT manager registers the finalized BOM in the system. The BOM includes a list of open sources included in the software for distribution and the following information.
 
+SBOMs shall be written in SPDX or CycloneDX standard format, and format compliance shall be verified before registration.
+
 - Product (or service) name and version of the software for distribution
 - Open source list
   - Open source name / version
@@ -126,6 +128,8 @@ The open source program manager submits the compliance deliverables provided by 
 
 The IT manager registers the compliance deliverables on the company's open source distribution site.
 
+If customers request it, the IT manager shall prepare to provide the SBOM for the relevant supplied software to the customer.
+
 ### (10) Final Verifications
 
 The open source program manager comprehensively verifies whether the compliance deliverables have been properly registered on the company's open source portal and whether they can be downloaded without issues from outside.
@@ -133,6 +137,8 @@ The open source program manager comprehensively verifies whether the compliance 
 ### (11) Monitoring
 
 The open source program manager periodically checks for products with inadequate generation of open source compliance deliverables. They also operate a process to respond quickly to external inquiries. The detailed procedure for responding to external inquiries follows [2. External Inquiry Response Process].
+
+If an open source component is added, changed, or removed; a new vulnerability is discovered; or a license change is confirmed, the SBOM for the relevant supplied software shall be updated immediately.
 
 The security manager operates a process to monitor and respond to newly known vulnerabilities. The detailed procedure for responding to new security vulnerabilities follows [3. New Security Vulnerability Management Process].
 
@@ -180,6 +186,8 @@ The security manager reviews whether all serious vulnerabilities have been resol
 
 The IT manager registers the SBOM, which has resolved the open source security vulnerability, in the system.
 
+Vulnerability response records shall be retained for a minimum of 3 years from the date of the last distribution of the relevant supplied software. (ISO/IEC 18974 §3.3.2.2)
+
 ### (7) Notification
 
 The open source program manager generates an open source notice based on the SBOM that has resolved the open source security vulnerability and delivers it to the business department.
@@ -195,6 +203,21 @@ The business department redistributes the software version that has resolved the
 The security manager identifies whether there is risk information that needs to be disclosed to third parties, and if there is, it is delivered to the IT manager.
 
 The IT manager registers the identified risk information on the open source website so that third parties can check it.
+
+### (9) Vulnerability Disclosure Timing Procedure (CVD)
+
+For newly discovered vulnerabilities (discovered internally or reported by external researchers), the Coordinated Vulnerability Disclosure (CVD) procedure is followed:
+
+1. **Pre-disclosure coordination**:
+    - Immediately notify the maintainers of the affected open source project privately upon discovery.
+    - As a principle, disclose within 90 days of the initial notification to allow sufficient time for patch development and deployment.
+    - The disclosure schedule may be adjusted through negotiation with maintainers, and the agreed schedule shall be documented.
+2. **Immediate disclosure exceptions**:
+    - If the vulnerability is already publicly known and being exploited, or if there is an immediate threat, it may be disclosed immediately without a coordination period.
+    - Immediate disclosure decisions shall be jointly approved by the security manager and the open source program manager.
+3. **Disclosure content and channels**:
+    - Apply for CVE ID issuance (MITRE or CNA) in parallel with disclosure.
+    - Vulnerability details, scope of impact, and patch or mitigation methods shall be posted on the company's security advisory page and relevant public databases (e.g., NVD).
 
 ## 3. External Inquiry Response Process
 
@@ -213,6 +236,7 @@ The main contents of the inquiries and requests that require a response are as f
 - Explanation and source code disclosure request for open source found in the product but not specified in the open source notice
 - Request for provision of missing files and build methods in the source code disclosed due to obligations such as GPL, LGPL
 - Request for copyright notice
+- Inquiry about known or newly discovered vulnerabilities
 
 The open source program manager creates a Jira Issue for the received request and records all the response situations in detail.
 
@@ -244,3 +268,160 @@ After resolving the issue, they immediately notify the requester and provide the
 ### (7) Improve
 
 In case of a compliance issue, the case is reviewed through the OSRB meeting, the circumstances of the occurrence of the problem are identified, and the process is improved so that the problem does not recur.
+
+### (8) Record Retention
+
+The open source program manager records the entire external inquiry response process (receipt, investigation, response, resolution) in the issue tracking system. These records shall be retained for a minimum of 3 years from the date the inquiry is closed. (ISO/IEC 18974 §3.2.1.2)
+
+Records shall include the following:
+
+- Date and time of inquiry receipt and requester information
+- Inquiry content and classification (license compliance / security vulnerability)
+- Internal investigation results and response actions taken
+- Final resolution and completion date
+
+## 4. Open Source Contribution Process
+
+When program participants contribute to external open source projects, they must follow the procedures below to protect the company's intellectual property and ensure license compatibility. For detailed policy, refer to [Open Source Policy §7](../1-policy/).
+
+### (1) Intent Confirmation and Pre-Review Request
+
+Program participants must request a contribution review from the OSPO before contributing to an external open source project.
+
+Information to include in the request:
+- Name and repository URL of the target project
+- Summary of the contribution (bug fix, feature addition, etc.)
+- Source of the contributed code (self-authored or company-owned)
+- Whether any company patents are included
+
+### (2) OSPO Review and Approval
+
+The OSPO reviews the contribution request and verifies the following:
+
+1. **License compatibility**: Confirm whether the license of the contributed code is compatible with the target project's license.
+2. **Intellectual property review**: Confirm that the contributed code does not contain company patents or sensitive information. Request legal team advice if necessary.
+3. **CLA review**: If the target project requires signing a CLA (Contributor License Agreement), review the terms and confirm there are no copyright assignment clauses.
+
+After completing the review, the OSPO notifies the requester of the approval or rejection decision.
+
+### (3) Performing the Contribution
+
+For approved contributions, program participants must comply with the following when contributing:
+
+- Include the company copyright notice and SPDX license identifier at the top of each file.
+- Use the company email when contributing.
+- Contribute only code authored by the participant or code for which the company holds the rights.
+
+### (4) Contribution History Recording and Retention
+
+The OSPO records all approved contributions in the internal system.
+
+Record items:
+- Target project and date of contribution
+- Summary of contribution
+- Approver and approval date
+- Whether CLA was signed
+
+Contribution records shall be retained for a minimum of 3 years.
+
+## 5. Internal Project Release Process
+
+When releasing internally developed projects as open source, the following procedures must be followed to protect the company's intellectual property and ensure appropriate license selection. For detailed policy, refer to [Open Source Policy §8](../1-policy/).
+
+### (1) Release Review Request
+
+The department wishing to release must request a release review from the OSPO.
+
+Information to include in the request:
+- Project overview and purpose of release
+- Scope of release (code, documentation, etc.)
+- Whether any patents are included
+- List of dependent third-party libraries
+
+### (2) OSPO Review and Approval
+
+The OSPO reviews the following:
+
+1. **Intellectual property review**: Confirm that the release code does not contain company patents, trade secrets, or sensitive information. Request legal team advice if necessary.
+2. **License selection**: Select an appropriate open source license considering the purpose of release (community building, standards contribution, etc.) and intellectual property protection.
+3. **Dependency license compatibility**: Confirm that the licenses of included third-party components are compatible with the selected release license.
+
+### (3) Release Preparation
+
+After approval, the responsible department performs the following:
+
+- Remove sensitive information (API keys, internal server addresses, etc.) from the code.
+- Include copyright notice and SPDX license identifier at the top of each file.
+- Write README, contribution guide (CONTRIBUTING.md), and license file (LICENSE).
+- Register the project on a public repository such as GitHub.
+
+### (4) Post-Release Management
+
+The OSPO and responsible department perform the following for continuous maintenance of the released project:
+
+- Periodically review and respond to external contributions (Pull Requests, Issues).
+- When security vulnerabilities are reported, respond according to the §2 Security Vulnerability Management Process.
+- Periodically review the project status (active/maintenance/archived) and state it clearly in the README.
+
+### (5) Release Record Retention
+
+The OSPO retains release approval records and related review records for a minimum of 3 years.
+
+Retention items:
+- Request and approval date/time, approver
+- Selected license and rationale for selection
+- Intellectual property review results
+- Public repository URL
+
+## 6. Training and Evaluation Process
+
+To ensure that open source program participants sufficiently understand the policies and processes and maintain their competencies, training and competency evaluation are conducted according to the following procedures. For detailed policy, refer to [Open Source Policy §6](../1-policy/).
+
+### (1) Determining Training Targets and Schedule
+
+The open source program manager confirms training targets and establishes a training plan at least once a year.
+
+- **New participants**: Complete mandatory training during onboarding.
+- **Existing participants**: Complete regular training at least once a year.
+- **Role changes**: Complete additional training suited to the new role.
+
+### (2) Conducting Training
+
+The open source program manager provides training in the following ways:
+
+1. **Online training**: Complete mandatory courses on the Learning Portal; course completion is automatically recorded in the system.
+2. **Offline training**: Hold workshops or seminars when needed, recording the list of attendees and training materials.
+
+Training content must include the following topics:
+- Purpose and principles of the open source policy
+- License obligations and compliance procedures
+- SBOM creation and utilization
+- Vulnerability management procedures
+- External open source contribution policy and internal project release procedures
+
+### (3) Competency Evaluation
+
+After completing training, the open source program manager evaluates participants' competencies.
+
+- Evaluation is conducted through online tests or practical assignments.
+- Evaluation criteria (passing scores, etc.) are defined in advance when establishing the training plan.
+- Participants who do not pass are given supplemental training opportunities and re-evaluated.
+
+### (4) Recording and Retaining Evaluation Results
+
+The open source program manager records training completion and evaluation results.
+
+Record items:
+- Trainee name, role, and completion date
+- Evaluation results (score or pass/fail)
+- Supplemental training history (if applicable)
+
+Records shall be registered in the internal document management system or Learning Portal and retained for a minimum of 3 years. (ISO/IEC 5230 §3.1.3, ISO/IEC 18974 §3.1.3)
+
+### (5) Training Content Review and Improvement
+
+The open source program manager reviews training content and evaluation methods at least once a year and updates them to reflect the following:
+
+- Changes in open source-related laws and regulations
+- New vulnerability trends and case studies
+- Changes in internal policies and processes

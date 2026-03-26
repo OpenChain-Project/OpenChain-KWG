@@ -1,8 +1,8 @@
 
 ---
-title: "ISO Standard-Based Enterprise Open Source Management Guide"
-linkTitle: "Open Source Management Guide"
-weight: 20
+title: "[2026] ISO Standard-Based Enterprise Open Source Management Guide"
+linkTitle: "2026 Open Source Management Guide"
+weight: 10
 type: docs
 description: >
   This guide introduces ways for enterprises to effectively manage open source based on ISO international standards.
@@ -10,11 +10,25 @@ description: >
 
 {{% pageinfo %}}
 
-If an organisation fails to manage open source, it may encounter risks such as license non-compliance and security breaches. Therefore, what and how should we manage it?
+Open source is an essential element of modern software development. However, without proper management, organizations can face serious risks such as license compliance violations and security vulnerability exposures.
 
-In this article, we will examine the minimum core requirements and techniques that organisations need to implement for managing open source based on ISO international standards.
+This guide presents the core requirements and concrete implementation methods that enterprises need to perform to effectively manage open source, based on ISO international standards.
 
-**Author: Haksung Jang (haksung@sktelecom.com) / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**
+**Author: OpenChain Korea Work Group / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**
+
+**Recent Updates (2026.3.26):**
+- Tools: New tool pages added for cdxgen, Syft, Dependency-Track, and OSV-SCALIBR
+- Policy Template: Missing ISO/IEC 5230·18974 clauses supplemented
+  (compliance artifact retention period, CVSS action deadlines, SBOM standard format declaration, etc.)
+- Process Template: SBOM procedure improvements and new contribution, release, and training processes added
+- Guide: Internal link improvements and new tool integrations
+
+**Recent Updates (2025.1.6):**
+- Added ISO/IEC 18974 (OpenChain Security Assurance Specification) content
+- Detailed open source security assurance processes and requirements
+- Enhanced SBOM (Software Bill of Materials) management content
+- Improved open source contribution and release processes
+- Added program effectiveness measurement and continuous improvement methods
 
 {{% /pageinfo %}}
 
@@ -25,31 +39,29 @@ There are two global standards for open source management:
 1. [ISO/IEC 5230](https://www.iso.org/standard/81039.html): OpenChain Specification - International standard for open source compliance.
 2. [ISO/IEC 18974](https://www.iso.org/standard/86450.html): OpenChain Security Assurance Specification - International standard for Open Source Security
 
-## OpenChain Project
+## OpenChain and ISO/IEC 5230
 
-The international standard for managing these open sources was created by the OpenChain Project. For an introduction to this, please refer to the following page: [OpenChain Project](https://www.openchainproject.org/)
+ISO/IEC 5230 is the only international standard for open source compliance, defining the core requirements for organizations to build an effective open source program. For details, see the [OpenChain Overview](./0-openchain/) page.
 
-## What should companies do?
+## How Should Companies Manage Open Source?
 
-If a company complies with the requirements of the two standards (ISO/IEC 5230, ISO/IEC 18974), it can be seen as effectively managing open source.
+By complying with the requirements of ISO/IEC 5230 and ISO/IEC 18974, companies can establish an effective open source management system. To do this, companies need the following six core elements:
 
-So, what should companies do to comply with the standards? It needs to have the following six components:
+1. **Organization**: Dedicated team for open source management
+2. **Policy**: Clear open source policy established and documented
+3. **Process**: Systematic processes for open source use, contribution, and distribution
+4. **Tools**: Automated tools for open source inspection, tracking, and management
+5. **Education**: Awareness and capability-building training for employees
+6. **Conformance**: Maintaining standards compliance through continuous monitoring and improvement
 
-1. Organization
-2. Policy
-3. Process
-4. Tools
-5. Education
-6. Conformance
-
-To comply with the standards, companies must adhere to these six components:
-
+This guide provides detailed methods and examples for how companies can implement each element.
 
 ## References
 
 {{% pageinfo %}}
 1. [OpenChain Project Website](https://www.openchainproject.org/)
-2. [OpenChain Specification 2.0](https://wiki.linuxfoundation.org/_media/openchain/openchainspec-2.0.pdf)
-3. [OpenChain Open Source Policy Template](https://www.openchainproject.org/news/2019/01/17/openchain-open-source-policy-template-now-available)
-4. [Open Source Compliance In The Enterprise](https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/)
+2. [OpenChain ISO/IEC 5230](https://www.openchainproject.org/license-compliance)
+3. [OpenChain ISO/IEC 18974](https://www.openchainproject.org/security-assurance)
+4. [OpenChain Open Source Policy Template](https://www.openchainproject.org/news/2019/01/17/openchain-open-source-policy-template-now-available)
+5. [Open Source Compliance In The Enterprise](https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/)
 {{% /pageinfo %}}
