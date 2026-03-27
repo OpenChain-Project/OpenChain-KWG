@@ -84,3 +84,10 @@ ISO/IEC 5230과 ISO/IEC 18974는 또한 적합성 인증 획득 후 18개월 동
 
 ![](totalno.png)
 
+---
+
+> **ISO/IEC 5230 / 18974 준수 가이드** — 이 섹션과 관련된 조항:
+> - [§3.6.1 준수 선언](../../iso5230_guide/6-conformance/1-conformance/) — 표준 요구사항 충족 확인 문서
+> - [§3.6.2 지속적 준수](../../iso5230_guide/6-conformance/2-duration/) — 18개월 준수 유지 선언
+> - [§4.1.4 프로그램 범위(18974)](../../iso18974_guide/1-program-foundation/4-scope/) — 성과 메트릭 및 지속적 개선 증거
+
