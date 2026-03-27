@@ -212,5 +212,6 @@ description: >
 
 ## 5. 참고
 
-- 관련 가이드: [기업 오픈소스 관리 가이드 — 6. 기여](../../../opensource_for_enterprise/6-contribution/)
+- 관련 가이드: [기업 오픈소스 관리 가이드 — 2. 정책 §(9) 오픈소스 기여](../../../opensource_for_enterprise/2-policy/#9-오픈소스-기여)
+- 관련 가이드: [기업 오픈소스 관리 가이드 — 3. 프로세스 §4 오픈소스 기여 프로세스](../../../opensource_for_enterprise/3-process/#4-오픈소스-기여-프로세스)
 - 관련 템플릿: [오픈소스 정책 템플릿 — §3 오픈소스 기여](../../../templates/1-policy/)
