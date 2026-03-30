@@ -16,12 +16,13 @@ description: Tooling & Legal Subgroup 27th Meeting
 * TBD
 
 ## Invitee
-* TBD
+* SM Solutions
 
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Community Updates & New Issues | TBD | TBD |
+| 1  | Introduction to SentiON SCA | SM Solutions | TBD |
 | _  | Discussion on OSS Notice | LG Electronics, Park Wonjae | N/A |
 <!--
 

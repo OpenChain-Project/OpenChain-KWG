@@ -18,12 +18,13 @@ description: Tooling & Legal Subgroup 27th Meeting
 * TBD
 
 ## Invitee
-* TBD
+* 에스엠솔루션즈
 
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Community Updates & New Issues | TBD | TBD |
+| 1  | SentiON SCA 소개 | 에스엠솔루션즈 | TBD |
 | _  | OSS Notice 관련 논의 | LG전자, 박원재 | N/A |
 
 
