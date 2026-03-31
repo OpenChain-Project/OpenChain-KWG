@@ -13,7 +13,7 @@ aliases:
 ## 일정
 
 * 일정: 2026-06-09 (화) 오후 2시~5시
-* 장소: 카카오뱅크 (판교역 근방 - https://maps.app.goo.gl/qMVFrmhZ9z1TYgnD7 )
+* 장소: 카카오뱅크 (여의도 파크원 타워2 35층 - https://maps.app.goo.gl/kiA47oQHq3g2jkLd6 )
 
 
 ## Sponsor
