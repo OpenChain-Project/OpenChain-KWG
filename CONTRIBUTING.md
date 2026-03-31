@@ -52,8 +52,8 @@ Archetype 템플릿을 사용하여 ko/en 양쪽 페이지를 생성합니다.
 
 ```bash
 # 예시: 29번째 미팅
-hugo new content/ko/meeting/29th/_index.md --kind meeting
-hugo new content/en/meeting/29th/_index.md --kind meeting
+hugo new content/ko/meeting/2026/29th/_index.md --kind meeting
+hugo new content/en/meeting/2026/29th/_index.md --kind meeting
 ```
 
 생성된 파일을 열어 아래 항목을 채웁니다:
