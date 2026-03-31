@@ -2,12 +2,12 @@
 ---
 title: "Guide"
 linkTitle: "Guide"
-weight: 30
+weight: 20
 type: docs
 description: >
 menu:
   main:
-    weight: 30
+    weight: 20
 ---
 
 {{% pageinfo %}}
