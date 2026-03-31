@@ -2,13 +2,13 @@
 ---
 title: "Resource"
 linkTitle: "Resource"
-weight: 40
+weight: 30
 type: docs
 description: >
   OpenChain Project와 KWG에서 만든 자료들을 공개합니다.
 menu:
   main:
-    weight: 40
+    weight: 30
 ---
 
 ## OpenChain Project Resources

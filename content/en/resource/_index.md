@@ -2,13 +2,13 @@
 ---
 title: "Resource"
 linkTitle: "Resource"
-weight: 40
+weight: 30
 type: docs
 description: >
   Resources created by the OpenChain Project and KWG are released.
 menu:
   main:
-    weight: 40
+    weight: 30
 ---
 
 ## OpenChain Project Resources
