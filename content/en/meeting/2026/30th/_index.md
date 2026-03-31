@@ -13,7 +13,7 @@ aliases:
 ## Schedule
 
 - Date & Time: 2026-06-09 (Tue) 2:00 PM – 5:00 PM
-- Location: KakaoBank (Near Pangyo Station - https://maps.app.goo.gl/qMVFrmhZ9z1TYgnD7 )
+- Location: KakaoBank (Parc.1 Tower, 108 Yeoui-daero, Yeongdeungpo-gu, Seoul, Republic of Korea  - https://maps.app.goo.gl/kiA47oQHq3g2jkLd6 )
 
 
 ## Sponsor
