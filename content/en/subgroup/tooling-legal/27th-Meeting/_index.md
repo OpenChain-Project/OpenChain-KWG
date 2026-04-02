@@ -10,7 +10,7 @@ description: Tooling & Legal Subgroup 27th Meeting
 ## Schedule
 * Purpose: Tooling and Legal Subgroup 27th Meeting
 * Date: April 9, 2026 (THU) 14:00 ~ 18:00
-* Venue: KB kookmin Bank (Yeouido)
+* Venue: OpenUp Center > Ground 4
 
 ## Attendees
 * TBD

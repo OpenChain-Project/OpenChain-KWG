@@ -12,7 +12,7 @@ description: Tooling & Legal Subgroup 27th Meeting
 ## Schedule
 * 목적 : Tooling and Legal Subgroup 27차 회의
 * 일시 : 2026년 4월 9일(목) 14:00 ~ 18:00
-* 장소 : 여의도 KB국민은행 신관 3층 스타프렌즈1 (서울 영등포구 의사당대로 141)
+* 장소 : OpenUp 센터 (서울시 서초구 서초대로 40길 83 우제빌딩 2층) Ground 4
 
 ## Attendees
 * TBD
