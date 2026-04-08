@@ -3,7 +3,7 @@ title: "27th Meeting"
 weight: 27
 type: docs
 categories: ["meeting"]
-tags: [""]
+tags: ["OpenChain", "FOSSLight", "OSORI", "AI", "ETRI"]
 description: >
   October 21, 2025 (Tue) / ETRI Open Source Tech Day 2025
 aliases:

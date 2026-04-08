@@ -3,7 +3,7 @@ title: "§3.2.2 Effective Resources"
 weight: 20
 type: docs
 categories: ["guide"]
-tags: ["ISO/IEC 5230", "Resources"]
+tags: ["ISO/IEC 5230", "resources"]
 description: >
 ---
 

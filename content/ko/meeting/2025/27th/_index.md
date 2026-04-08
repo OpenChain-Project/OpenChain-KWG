@@ -3,7 +3,7 @@ title: "27th Meeting"
 weight: 27
 type: docs
 categories: ["meeting"]
-tags: [""]
+tags: ["OpenChain", "FOSSLight", "OSORI", "AI", "ETRI"]
 description: >
  2025년 10월 21일 (화) / 오픈소스 테크데이
 aliases:

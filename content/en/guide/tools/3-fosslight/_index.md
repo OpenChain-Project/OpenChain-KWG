@@ -3,7 +3,7 @@ title: "FOSSLight"
 weight: 3
 type: docs
 categories: ["guide"]
-tags: ["fosslight"]
+tags: ["FOSSLight"]
 ---
 
 FOSSLight is an open source project led by LG Electronics. It analyzes source code, binaries, and dependencies using various scanners to generate an SBOM (Software Bill of Materials). FOSSLight Hub provides open source management, license management, and vulnerability management features to support the compliance process.

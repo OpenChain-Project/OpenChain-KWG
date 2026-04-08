@@ -3,7 +3,7 @@ title: "30th Meeting"
 weight: 30
 type: docs
 categories: ["meeting"]
-tags: [""]
+tags: ["OpenChain"]
 description: >
  2026년 6월 9일 (화) / 카카오뱅크
 aliases:

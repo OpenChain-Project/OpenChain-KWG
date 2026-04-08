@@ -3,7 +3,7 @@ title: "26th Meeting"
 weight: 26
 type: docs
 categories: ["meeting"]
-tags: [""]
+tags: ["OpenChain", "삼성전자", "AI Compliance", "AI"]
 description: >
  June 16, 2025 (Monday) / Samsung Electronics
 aliases:

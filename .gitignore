@@ -9,3 +9,4 @@ package-lock.json
 ## claude
 .claudeignore
 utils/
+.claude/work/*.json

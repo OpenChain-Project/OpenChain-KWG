@@ -3,7 +3,7 @@ title: "§3.2.1 External Inquiry Response"
 weight: 10
 type: docs
 categories: ["guide"]
-tags: ["ISO/IEC 5230", "External Inquiry"]
+tags: ["ISO/IEC 5230", "external inquiry"]
 description: >
 ---
 

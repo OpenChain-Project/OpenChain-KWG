@@ -4,7 +4,7 @@ date: 2026-03-31T17:23:41+09:00
 weight: 31
 type: docs
 categories: ["meeting"]
-tags: [""]
+tags: ["OpenChain"]
 description: >
   September 8, 2026 (Tue) / CJ
 draft: false

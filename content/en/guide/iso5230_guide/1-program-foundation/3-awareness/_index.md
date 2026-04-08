@@ -3,7 +3,7 @@ title: "§3.1.3 Awareness"
 weight: 30
 type: docs
 categories: ["guide"]
-tags: ["ISO/IEC 5230", "Awareness"]
+tags: ["ISO/IEC 5230", "awareness"]
 description: >
 ---
 
