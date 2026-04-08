@@ -3,7 +3,7 @@ title: "§3.1.4 Program Scope"
 weight: 40
 type: docs
 categories: ["guide"]
-tags: ["ISO/IEC 5230", "Program Scope"]
+tags: ["ISO/IEC 5230", "program scope"]
 description: >
 ---
 

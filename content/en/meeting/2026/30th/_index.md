@@ -3,7 +3,7 @@ title: "30th Meeting"
 weight: 30
 type: docs
 categories: ["meeting"]
-tags: [""]
+tags: ["OpenChain"]
 description: >
  Tuesday, June 9, 2026 / KakaoBank
 aliases:

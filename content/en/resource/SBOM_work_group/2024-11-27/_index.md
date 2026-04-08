@@ -5,7 +5,7 @@ linkTitle: "2024-11-27"
 date: 2024-11-27
 type: docs
 categories: ["study"]
-tags: ["SBOM", "Vulnerability"]
+tags: ["SBOM", "vulnerability"]
 description: 2024-11-27 Vulnerabilities and the Future – Multilayered Software Vulnerabilities and Response Tactics
 ---
 

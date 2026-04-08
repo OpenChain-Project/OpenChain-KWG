@@ -3,7 +3,7 @@ title: "25th Meeting"
 weight: 25
 type: docs
 categories: ["meeting"]
-tags: [""]
+tags: ["OpenChain", "ISO/IEC 5230", "ISO/IEC 18974", "LGPL"]
 description: >
  2025년 3월 25일 (화) / 한국디지털인증협회
 aliases:

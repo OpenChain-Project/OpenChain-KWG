@@ -3,7 +3,7 @@ title: "29th Meeting"
 weight: 29
 type: docs
 categories: ["meeting"]
-tags: [""]
+tags: ["OpenChain", "AI", "license-compliance", "LINE"]
 description: >
   Tuesday, March 24, 2026 / Line Plus
 aliases:

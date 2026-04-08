@@ -3,7 +3,7 @@ title: "25th Meeting"
 weight: 25
 type: docs
 categories: ["meeting"]
-tags: [""]
+tags: ["OpenChain", "ISO/IEC 5230", "ISO/IEC 18974", "LGPL"]
 description: >
  Tue, March 25, 2025 / Raon Secure
 aliases:

@@ -3,7 +3,7 @@ title: "§3.1.1 Policy"
 weight: 10
 type: docs
 categories: ["guide"]
-tags: ["ISO/IEC 5230", "Policy"]
+tags: ["ISO/IEC 5230", "policy"]
 description: >
 ---
 

@@ -3,7 +3,7 @@ title: "§3.1.2 Competence"
 weight: 20
 type: docs
 categories: ["guide"]
-tags: ["ISO/IEC 5230", "Competence"]
+tags: ["ISO/IEC 5230", "competence"]
 description: >
 ---
 

@@ -3,7 +3,7 @@ title: "29th Meeting"
 weight: 29
 type: docs
 categories: ["meeting"]
-tags: [""]
+tags: ["OpenChain", "AI", "license-compliance", "LINE"]
 description: >
  2026년 3월 24일 (화) / 라인플러스
 aliases:

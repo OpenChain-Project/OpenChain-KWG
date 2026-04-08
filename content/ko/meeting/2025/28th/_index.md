@@ -3,7 +3,7 @@ title: "28th Meeting"
 weight: 28
 type: docs
 categories: ["meeting"]
-tags: [""]
+tags: ["OpenChain", "ISO/IEC 5230", "AI", "SBOM"]
 description: >
  2025년 12월 9일 (화) / 한컴
 aliases:

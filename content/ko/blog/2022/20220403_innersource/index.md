@@ -5,7 +5,7 @@ linkTitle: "이너소스 도입을 위한 과제와 효과"
 description: 
 author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
-tags: ["innersource"]
+tags: ["InnerSource"]
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
