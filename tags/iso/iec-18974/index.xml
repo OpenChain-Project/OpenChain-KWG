@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ISO/IEC 18974 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/iso/iec-18974/</link><description>Recent content in ISO/IEC 18974 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Thu, 26 Mar 2026 18:23:36 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/iso/iec-18974/index.xml" rel="self" type="application/rss+xml"/><item><title>§4.1 프로그램 기반</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/</guid><description/></item><item><title>§4.1.1 정책</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/1-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/1-policy/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ISO/IEC 18974 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/iso/iec-18974/</link><description>Recent content in ISO/IEC 18974 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Wed, 08 Apr 2026 21:29:13 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/iso/iec-18974/index.xml" rel="self" type="application/rss+xml"/><item><title>§4.1 프로그램 기반</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/</guid><description/></item><item><title>§4.1.1 정책</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/1-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/1-policy/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
 &lt;p&gt;§4.1.1은 ISO/IEC 5230 §3.1.1(라이선스 컴플라이언스 정책)과 대응하는 조항이지만,
 초점이 &lt;strong&gt;보안 보증&lt;/strong&gt;으로 전환된다. 오픈소스 컴포넌트의 알려진 취약점과 새로
 발견되는 취약점을 체계적으로 관리하는 정책이 문서화되어 있어야 하며, 그 정책이
@@ -509,7 +509,74 @@ be updated to be conformant with the latest version of the specification.&lt;/p&
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id="sponsor"&gt;Sponsor&lt;/h2&gt;
-&lt;p&gt;&lt;img src="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2024/22nd/CI_logo_press_20220328_CJ_W.jpg" alt=""&gt;&lt;/p&gt;</description></item><item><title>§4.1.3 인식</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/3-awareness/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/3-awareness/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2024/22nd/CI_logo_press_20220328_CJ_W.jpg" alt=""&gt;&lt;/p&gt;</description></item><item><title>25th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2025/25th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2025/25th/</guid><description>&lt;h2 id="일정"&gt;일정&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;일정: 2025-03-25 (화) 오후2시~5시&lt;/li&gt;
+&lt;li&gt;장소: 한국디지털인증협회 (여의도 파크원빌딩 타워2 48층) - &lt;a href="https://maps.app.goo.gl/YnxTkz8LjHPXFJBv6"&gt;https://maps.app.goo.gl/YnxTkz8LjHPXFJBv6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="아젠다"&gt;아젠다&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Time&lt;/th&gt;
+ &lt;th&gt;Agenda&lt;/th&gt;
+ &lt;th&gt;Speaker&lt;/th&gt;
+ &lt;th&gt;Slide&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;14:00~14:10&lt;/td&gt;
+ &lt;td&gt;Welcome &amp;amp; Opening&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;14:10~14:30&lt;/td&gt;
+ &lt;td&gt;OpenChain Global Update&lt;/td&gt;
+ &lt;td&gt;Shane Coughlan, Linux Foundation&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/korea-q1-2025.pptx"&gt;pptx&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;14:30~14:50&lt;/td&gt;
+ &lt;td&gt;OpenChain Korea Update&lt;/td&gt;
+ &lt;td&gt;SK텔레콤 장학성&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://gamma.app/docs/25-1-Update-9mahbv9p49opuvi"&gt;slide&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;14:50~15:00&lt;/td&gt;
+ &lt;td&gt;Lightning Talk 1 &lt;br&gt; - 오픈소스 테크데이 2025 개최 안내&lt;/td&gt;
+ &lt;td&gt;&lt;br&gt; - ETRI 박정숙&lt;/td&gt;
+ &lt;td&gt;&lt;br&gt; &lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/tech-day-event-intro-20250325-R1.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;15:00~15:30&lt;/td&gt;
+ &lt;td&gt;모바일신분증 적용 &amp;ldquo;DID&amp;rdquo;, 오픈소스 거버넌스 전략과 앞으로의 과제는?&lt;/td&gt;
+ &lt;td&gt;라온시큐어 이미경&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/OpenDID_20250325.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;15:30~16:00&lt;/td&gt;
+ &lt;td&gt;Networking&lt;/td&gt;
+ &lt;td&gt;All&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;16:00~16:30&lt;/td&gt;
+ &lt;td&gt;금융결제원의 ISO/IEC 5230:2020 준수 사례&lt;/td&gt;
+ &lt;td&gt;금융결제원 유대열&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/20250325_KFTC_OpenChain-KWG_25th_ko.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;16:30~17:00&lt;/td&gt;
+ &lt;td&gt;Lightning Talk 2 &lt;br&gt; - 개발자들도 알아야 할 2024년 오픈소스 결산 &lt;br&gt; - AVM 소송으로 본 오픈소스 사용자 권리 확대와 LGPL-2.1 설치정보 제공의 중요성&lt;br&gt; - ISO/IEC 18974 기업 도입 및 인증 전략&lt;/td&gt;
+ &lt;td&gt;&lt;br&gt; - 라인플러스 이서연 &lt;br&gt; - SK텔레콤 장학성&lt;br&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;br&gt; &lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/2024-opensource-issues.pdf"&gt;pdf&lt;/a&gt; &lt;br&gt; &lt;a href="https://gamma.app/docs/AVM-LGPL-21--wql4pmu3qwbd4up"&gt;AVM소송소개&lt;/a&gt; &lt;br&gt; &lt;a href="https://gamma.app/docs/ISOIEC-18974--tpfdaoz4bxhxhm2"&gt;ISO/IEC18974&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="sponsor"&gt;Sponsor&lt;/h2&gt;
+&lt;p&gt;&lt;img src="../../../images/content/about/logo/raon.png" alt=""&gt;&lt;/p&gt;</description></item><item><title>§4.1.3 인식</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/3-awareness/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/3-awareness/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
 &lt;p&gt;§4.1.3은 ISO/IEC 5230 §3.1.3(인식)과 입증자료 구조가 동일하다. 프로그램
 참여자가 프로그램의 목표, 자신의 기여 방법, 미준수 시 발생하는 영향을 인식하고
 있음을 평가하고 기록하도록 요구한다. 5230과의 차이는 인식 평가의 &lt;strong&gt;초점이
