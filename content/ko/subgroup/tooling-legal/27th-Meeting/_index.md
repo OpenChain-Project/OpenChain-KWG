@@ -15,7 +15,18 @@ description: Tooling & Legal Subgroup 27th Meeting
 * 장소 : OpenUp 센터 (서울시 서초구 서초대로 40길 83 우제빌딩 2층) Ground 4
 
 ## Attendees
-* TBD
+* ETRI
+* LG AI연구원
+* LG 전자
+* 두산 디지털이노베이션
+* 삼성전자
+* 안랩
+* 카카오
+* 텔레칩스
+* 티맵모빌리티
+* 한글과컴퓨터
+* 현대모비스
+* 현대오토에버
 
 ## Invitee
 * 에스엠솔루션즈
@@ -23,9 +34,9 @@ description: Tooling & Legal Subgroup 27th Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues | TBD | TBD |
-| 1  | SentiON SCA 소개 | 에스엠솔루션즈 | TBD |
-| _  | OSS Notice 관련 논의 | LG전자, 박원재 | N/A |
+| 0  | Community Updates & New Issues | LG전자, 박원재 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/tnl_2604_0_newIssues.pdf) |
+| 1  | OSS Notice 관련 논의 | LG전자, 박원재 | N/A |
+| 2  | SentiON SCA 소개 | 에스엠솔루션즈, 김상모 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/tnl_2604_2_smSolutions_SentiON.pdf) |
 
 
 <!--

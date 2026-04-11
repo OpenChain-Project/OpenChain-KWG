@@ -11,7 +11,7 @@ description: Tooling & Legal Subgroup 28th Meeting
 
 ## Schedule
 * 목적 : Tooling and Legal Subgroup 28차 회의
-* 일시 : 2026년 6월 11일(목) 14:00 ~ 18:00
+* 일시 : 2026년 6월 25일(목) 14:00 ~ 18:00
 * 장소 : 현대모비스 역삼
 
 ## Attendees

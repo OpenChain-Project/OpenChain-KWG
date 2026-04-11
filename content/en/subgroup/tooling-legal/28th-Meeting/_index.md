@@ -9,7 +9,7 @@ description: Tooling & Legal Subgroup 28th Meeting
 
 ## Schedule
 * Purpose: Tooling and Legal Subgroup 27th Meeting
-* Date: June 11, 2026 (THU) 14:00 ~ 18:00
+* Date: June 25, 2026 (THU) 14:00 ~ 18:00
 * Venue: Hyundai Mobis (Yeoksam)
 
 ## Attendees
