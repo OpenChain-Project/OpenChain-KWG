@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBOM on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/sbom/</link><description>Recent content in SBOM on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Wed, 08 Apr 2026 21:29:13 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/sbom/index.xml" rel="self" type="application/rss+xml"/><item><title>OSV-SCALIBR</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/4-osvscalibr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/4-osvscalibr/</guid><description>&lt;p&gt;OSV-SCALIBR (Open Source Vulnerabilities - Software Composition Analysis LIBRary)은
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBOM on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/sbom/</link><description>Recent content in SBOM on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Mon, 13 Apr 2026 22:57:37 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/sbom/index.xml" rel="self" type="application/rss+xml"/><item><title>OSV-SCALIBR</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/4-osvscalibr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/4-osvscalibr/</guid><description>&lt;p&gt;OSV-SCALIBR (Open Source Vulnerabilities - Software Composition Analysis LIBRary)은
 Google이 개발한 오픈소스 소프트웨어 구성 분석 도구입니다.
 파일시스템, 컨테이너 이미지, 바이너리를 스캔하여 포함된 패키지를 식별하고,
 &lt;a href="https://osv.dev/"&gt;OSV(Open Source Vulnerabilities)&lt;/a&gt; 데이터베이스와 대조하여
@@ -7,7 +7,7 @@ Google이 개발한 오픈소스 소프트웨어 구성 분석 도구입니다.
 &lt;li&gt;GitHub: &lt;a href="https://github.com/google/osv-scalibr"&gt;https://github.com/google/osv-scalibr&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;라이선스: Apache-2.0&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="1-주요-특징"&gt;1. 주요 특징&lt;/h3&gt;
+&lt;h2 id="1-주요-특징"&gt;1. 주요 특징&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;다양한 스캔 대상 지원&lt;/strong&gt;: 로컬 파일시스템, 컨테이너 이미지, 아카이브 파일&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;폭넓은 생태계 지원&lt;/strong&gt;: Go, Python, Java(Maven), JavaScript(npm), Rust, Ruby 등&lt;/li&gt;
@@ -15,7 +15,7 @@ Google이 개발한 오픈소스 소프트웨어 구성 분석 도구입니다.
 &lt;li&gt;&lt;strong&gt;SBOM 출력&lt;/strong&gt;: SPDX 2.3 형식으로 결과 내보내기 가능&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;CLI 및 라이브러리 이중 제공&lt;/strong&gt;: 독립 실행 바이너리(CLI)와 Go 라이브러리 모두 제공&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="2-설치-방법"&gt;2. 설치 방법&lt;/h3&gt;
+&lt;h2 id="2-설치-방법"&gt;2. 설치 방법&lt;/h2&gt;
 &lt;p&gt;Go 1.21 이상이 설치된 환경에서 아래 명령으로 빌드합니다.&lt;/p&gt;</description></item><item><title>cdxgen</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/5-cdxgen/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/5-cdxgen/</guid><description>&lt;p&gt;cdxgen은 OWASP(Open Web Application Security Project)가 관리하는 오픈소스 SBOM 생성 도구입니다.
 소스 코드, 빌드 결과물, 컨테이너 이미지를 분석하여 &lt;a href="https://cyclonedx.org/"&gt;CycloneDX&lt;/a&gt; 형식의
 SBOM을 자동으로 생성합니다.&lt;/p&gt;

@@ -7,7 +7,7 @@ Google이 개발한 오픈소스 소프트웨어 구성 분석 도구입니다.
 &lt;li&gt;GitHub: &lt;a href="https://github.com/google/osv-scalibr"&gt;https://github.com/google/osv-scalibr&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;라이선스: Apache-2.0&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="1-주요-특징"&gt;1. 주요 특징&lt;/h3&gt;
+&lt;h2 id="1-주요-특징"&gt;1. 주요 특징&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;다양한 스캔 대상 지원&lt;/strong&gt;: 로컬 파일시스템, 컨테이너 이미지, 아카이브 파일&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;폭넓은 생태계 지원&lt;/strong&gt;: Go, Python, Java(Maven), JavaScript(npm), Rust, Ruby 등&lt;/li&gt;
@@ -15,5 +15,5 @@ Google이 개발한 오픈소스 소프트웨어 구성 분석 도구입니다.
 &lt;li&gt;&lt;strong&gt;SBOM 출력&lt;/strong&gt;: SPDX 2.3 형식으로 결과 내보내기 가능&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;CLI 및 라이브러리 이중 제공&lt;/strong&gt;: 독립 실행 바이너리(CLI)와 Go 라이브러리 모두 제공&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="2-설치-방법"&gt;2. 설치 방법&lt;/h3&gt;
+&lt;h2 id="2-설치-방법"&gt;2. 설치 방법&lt;/h2&gt;
 &lt;p&gt;Go 1.21 이상이 설치된 환경에서 아래 명령으로 빌드합니다.&lt;/p&gt;</description></item></channel></rss>
