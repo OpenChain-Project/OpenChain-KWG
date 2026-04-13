@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(*)",
+      "Read(*)",
+      "Write(*)",
+      "Edit(*)",
+      "MultiEdit(*)",
+      "WebFetch(*)",
+      "TodoRead(*)",
+      "TodoWrite(*)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"const fs=require('fs');const now=new Date().toISOString();const file=process.env.CLAUDE_TOOL_OUTPUT||'';if(!file||!file.includes('output/'))process.exit(0);if(!fs.existsSync('output'))fs.mkdirSync('output',{recursive:true});let content=fs.existsSync('output/progress.md')?fs.readFileSync('output/progress.md','utf8'):'# 진행 현황\\n\\n';content+='- '+now+' | '+file+'\\n';fs.writeFileSync('output/progress.md',content);\""
+          }
+        ]
+      }
+    ]
+  }
+}
