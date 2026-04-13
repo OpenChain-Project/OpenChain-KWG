@@ -8,7 +8,7 @@ tags: ["FOSSLight"]
 
 FOSSLight는 LG Electronics에서 주도하는 오픈소스 프로젝트로, 다양한 스캐너를 활용하여 소스 코드, 바이너리, 의존성을 분석하고 SBOM(Software Bill of Materials, 소프트웨어 자재 명세서)을 생성하는 도구입니다. 특히 FOSSLight Hub는 오픈소스 관리, 라이선스 관리, 취약점 관리 기능을 제공하여 컴플라이언스 프로세스를 지원합니다.
 
-### 1 FOSSLight 소개
+## 1 FOSSLight 소개
 
 - **주요 기능**:
     - 다양한 스캐너 연동: ScanCode Toolkit, SPDX Tools, CycloneDX, 그리고 Fossology 등 다양한 오픈소스 스캐너를 통합하여 사용
@@ -26,7 +26,7 @@ FOSSLight는 LG Electronics에서 주도하는 오픈소스 프로젝트로, 다
     - 초기 설정 복잡: 다양한 스캐너를 연동해야 하므로 초기 설정이 다소 복잡할 수 있음
     - FOSSLight Hub 설치 필요: 웹 기반 UI를 사용하려면 FOSSLight Hub를 별도로 설치해야 함
 
-### 2 FOSSLight 설치
+## 2 FOSSLight 설치
 
 FOSSLight는 FOSSLight Scanner와 FOSSLight Hub로 구성됩니다. FOSSLight Scanner는 다양한 스캐너를 실행하여 분석 결과를 생성하는 역할을 하며, FOSSLight Hub는 스캐너 결과를 통합 관리하고 시각화하는 웹 기반 UI를 제공합니다.
 
@@ -109,7 +109,7 @@ FOSSLight는 FOSSLight Scanner와 FOSSLight Hub로 구성됩니다. FOSSLight Sc
     (FOSSLight Hub 웹 UI 화면 캡쳐 이미지 삽입)
     
 
-### 3 FOSSLight 사용 가이드
+## 3 FOSSLight 사용 가이드
 
 FOSSLight는 웹 UI(FOSSLight Hub)와 CLI(FOSSLight Scanner)를 통해 사용할 수 있습니다.
 
@@ -180,20 +180,20 @@ FOSSLight Scanner는 CLI를 통해 소스 코드, 바이너리, 컨테이너 이
     - 스캔이 완료되면 `result` 디렉토리에 스캔 결과 파일이 생성됩니다.
     - 스캔 결과 파일을 텍스트 편집기 또는 FOSSLight Hub를 사용하여 확인할 수 있습니다.
 
-### 4 FOSSLight 사용 시 주의사항
+## 4 FOSSLight 사용 시 주의사항
 
 - FOSSLight는 다양한 스캐너를 연동하여 사용하므로, 각 스캐너의 특징과 사용법을 이해해야 합니다.
 - FOSSLight Hub는 웹 서버와 데이터베이스를 필요로 하므로, 시스템 자원 요구사항을 고려하여 설치해야 합니다.
 - FOSSLight Scanner는 스캔 대상 파일 또는 디렉토리에 접근할 수 있는 권한이 필요합니다.
 
-### 5 문제 해결
+## 5 문제 해결
 
 - **Docker 실행 오류**: Docker가 제대로 설치되었는지 확인하고, 권한 문제가 없는지 확인합니다.
     - `sudo docker run ...` 명령어를 사용하여 관리자 권한으로 실행해봅니다.
 - **스캔 오류**: 스캔 대상 파일 또는 디렉토리 경로가 정확한지 확인하고, 해당 파일 또는 디렉토리에 접근 권한이 있는지 확인합니다.
 - **FOSSLight Hub 접속 오류**: Docker 컨테이너가 정상적으로 실행 중인지 확인하고, 포트 포워딩 설정이 제대로 되었는지 확인합니다.
 
-### 6 추가 정보
+## 6 추가 정보
 
 - FOSSLight 공식 웹사이트: https://fosslight.org/
 - FOSSLight GitHub 저장소: https://github.com/fosslight/fosslight_hub
