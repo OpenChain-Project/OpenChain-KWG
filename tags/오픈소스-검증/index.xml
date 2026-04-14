@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>오픈소스 검증 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B2%80%EC%A6%9D/</link><description>Recent content in 오픈소스 검증 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B2%80%EC%A6%9D/index.xml" rel="self" type="application/rss+xml"/><item><title>AI 공급망 검증</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/4-operation/3-supply-chain/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/4-operation/3-supply-chain/</guid><description>&lt;h2 id="1-개요"&gt;1. 개요&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 42001 §8.8은 외부에서 조달하는 AI 시스템(모델, API, 서비스)을 사용할 때
+적절한 평가와 검증을 수행할 것을 요구한다. 오픈소스 관점에서는 &lt;strong&gt;외부 오픈소스 AI 모델&lt;/strong&gt;을
+조달할 때 라이선스·보안·공급망 리스크를 검증하는 절차가 핵심이다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="2-외부-ai-조달의-세-가지-유형"&gt;2. 외부 AI 조달의 세 가지 유형&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;유형&lt;/th&gt;
+ &lt;th&gt;예시&lt;/th&gt;
+ &lt;th&gt;오픈소스 관련성&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;오픈소스 AI 모델 직접 사용&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Llama, Mistral, Falcon 모델 가중치 다운로드&lt;/td&gt;
+ &lt;td&gt;높음 — 라이선스 직접 적용&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;오픈소스 기반 AI 서비스&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Hugging Face Inference API, Ollama&lt;/td&gt;
+ &lt;td&gt;중간 — 기반 모델 라이선스 확인 필요&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;상용 AI API&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;OpenAI API, Google Vertex AI&lt;/td&gt;
+ &lt;td&gt;낮음 — 서비스 약관 적용 (OSS 라이선스 직접 적용 안 됨)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;이 가이드는 **유형 1(오픈소스 AI 모델 직접 사용)**과 **유형 2(오픈소스 기반 AI 서비스)**를 중심으로 다룬다.&lt;/p&gt;</description></item></channel></rss>

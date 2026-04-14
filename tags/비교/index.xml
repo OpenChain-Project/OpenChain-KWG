@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>비교 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EB%B9%84%EA%B5%90/</link><description>Recent content in 비교 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EB%B9%84%EA%B5%90/index.xml" rel="self" type="application/rss+xml"/><item><title>ISO/IEC 5230 vs 18974 비교</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/compare/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/compare/</guid><description>&lt;h2 id="1-두-표준의-관계"&gt;1. 두 표준의 관계&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>비교 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EB%B9%84%EA%B5%90/</link><description>Recent content in 비교 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EB%B9%84%EA%B5%90/index.xml" rel="self" type="application/rss+xml"/><item><title>ISO 5230 · 18974 · 42001 비교</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/compare/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/compare/</guid><description>&lt;h2 id="1-세-표준의-관계"&gt;1. 세 표준의 관계&lt;/h2&gt;
+&lt;p&gt;오픈소스를 사용하는 AI 시스템을 개발하는 기업은 세 가지 표준이 교차하는 지점에 있다.&lt;/p&gt;
+&lt;pre class="mermaid"&gt;flowchart LR
+ subgraph oss[&amp;#34;오픈소스 관리&amp;#34;]
+ A[&amp;#34;ISO/IEC 5230\n라이선스 컴플라이언스\n(라이선스·SBOM·산출물)&amp;#34;]
+ B[&amp;#34;ISO/IEC 18974\n보안 보증\n(취약점 탐지·대응·CVD)&amp;#34;]
+ end
+
+ subgraph ai[&amp;#34;AI 시스템 관리&amp;#34;]
+ C[&amp;#34;ISO/IEC 42001\nAI 관리 시스템\n(거버넌스·리스크·생애주기)&amp;#34;]
+ end
+
+ oss -- &amp;#34;AI 시스템 내\n오픈소스 컴플라이언스&amp;#34; --&amp;gt; ai&lt;/pre&gt;
+&lt;p&gt;ISO 5230과 18974는 &lt;strong&gt;오픈소스 자체&lt;/strong&gt;를 관리하는 표준이고,
+ISO 42001은 &lt;strong&gt;AI 시스템&lt;/strong&gt;을 관리하는 표준이다. 두 영역은 독립적이지만,
+AI 시스템이 오픈소스를 활용할 때 교차점이 발생한다.&lt;/p&gt;
+&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;ISO/IEC 42003 — AI 시스템 구현 가이드 (개발 중)&lt;/div&gt;
+&lt;p&gt;ISO/IEC 42001이 원칙적 요구사항을 제시하는 반면,
+&lt;strong&gt;ISO/IEC 42003&lt;/strong&gt;은 42001의 구체적 구현 방법을 안내하는 가이드(새롭게 승인된 work item)다.
+OpenChain AI Work Group은 &lt;strong&gt;AI SBOM&lt;/strong&gt;을 ISO 42003의 투명성·설명 가능성 조항
+(Appendix C.2.11 — Transparency and Explainability)에 반영하는 것을 추진 중이다.
+AI SBOM 의무화 관련 최신 동향은 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/resource/ai_work_group/"&gt;AI Work Group 활동&lt;/a&gt;을 참고한다.&lt;/p&gt;</description></item><item><title>ISO/IEC 5230 vs 18974 비교</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/compare/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/compare/</guid><description>&lt;h2 id="1-두-표준의-관계"&gt;1. 두 표준의 관계&lt;/h2&gt;
 &lt;p&gt;ISO/IEC 5230과 ISO/IEC 18974는 모두 OpenChain 프로젝트가 주도하는 오픈소스
 관련 국제 표준이지만, 서로 다른 문제를 다룬다. 5230은 오픈소스 라이선스
 컴플라이언스(저작권 의무 이행·SBOM 관리·컴플라이언스 산출물 배포)를 다루고,

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI 정책 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/ai-%EC%A0%95%EC%B1%85/</link><description>Recent content in AI 정책 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/ai-%EC%A0%95%EC%B1%85/index.xml" rel="self" type="application/rss+xml"/><item><title>1. 조직 맥락과 리더십</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/1-context-leadership/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/1-context-leadership/</guid><description>&lt;h2 id="1-개요"&gt;1. 개요&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 42001 §4와 §5는 AI 관리 시스템의 &lt;strong&gt;기반&lt;/strong&gt;이다. 조직이 어떤 AI 시스템을 운영하는지,
+이해관계자가 누구인지, 최고경영진이 어떤 원칙으로 AI를 관리할지를 결정한다.&lt;/p&gt;
+&lt;p&gt;오픈소스 담당자 관점에서 §5.2(AI 정책)가 가장 중요한 교차점이다.
+AI 정책에 오픈소스 사용에 관한 원칙을 포함하면 ISO 5230 정책과 통합 운영이 가능하다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="2-4-조직-맥락--오픈소스-관련-고려사항"&gt;2. §4 조직 맥락 — 오픈소스 관련 고려사항&lt;/h2&gt;
+&lt;h3 id="41-조직과-조직-맥락-이해"&gt;§4.1 조직과 조직 맥락 이해&lt;/h3&gt;
+&lt;p&gt;AI 관리 시스템의 목적에 영향을 미치는 내·외부 이슈를 파악할 때,
+오픈소스 관련 외부 이슈를 포함한다:&lt;/p&gt;</description></item></channel></rss>

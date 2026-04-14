@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>오픈소스 라이선스 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4/</link><description>Recent content in 오픈소스 라이선스 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4/index.xml" rel="self" type="application/rss+xml"/><item><title>AI 시스템의 오픈소스 관리</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/4-operation/1-oss-in-ai/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/4-operation/1-oss-in-ai/</guid><description>&lt;h2 id="1-개요"&gt;1. 개요&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 42001 §8.5(AI 시스템 생애주기)와 §8.6(AI 데이터 관리)는 AI 시스템 개발 단계에서
+관리해야 할 요구사항을 다룬다. 오픈소스 관점에서는 AI 시스템에 사용하는
+&lt;strong&gt;오픈소스 컴포넌트의 라이선스 컴플라이언스&lt;/strong&gt;가 핵심이다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="2-85-ai-시스템-생애주기--오픈소스-프레임워크--모델-관리"&gt;2. §8.5 AI 시스템 생애주기 — 오픈소스 프레임워크 · 모델 관리&lt;/h2&gt;
+&lt;h3 id="21-기획설계-단계"&gt;2.1 기획·설계 단계&lt;/h3&gt;
+&lt;p&gt;AI 시스템 기획 단계에서 사용할 오픈소스 프레임워크와 모델을 선정할 때
+라이선스를 사전에 검토한다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;라이선스 사전 검토 절차:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;1. 사용 후보 컴포넌트 목록 작성
+ (프레임워크명, 버전, 출처 URL)
+
+2. 라이선스 확인
+ - 프레임워크: PyPI, npm, GitHub README 확인
+ - AI 모델: Hugging Face Model Card, 공식 저장소 확인
+
+3. 라이선스 조건 검토 항목
+ □ 상업적 사용 허용 여부
+ □ 파생물(Fine-tuning 모델) 공개 의무 여부
+ □ 저작권 고지 의무 여부
+ □ 특허 조항 여부 (Apache 2.0의 명시적 특허 허여 등)
+ □ MAU 또는 매출 기반 사용 제한 여부
+
+4. 허용 불가 라이선스 식별 시 대안 컴포넌트 탐색
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="22-개발-단계"&gt;2.2 개발 단계&lt;/h3&gt;
+&lt;p&gt;개발 중 새로운 오픈소스 컴포넌트를 추가할 때마다 라이선스를 확인하고
+AI SBOM에 즉시 반영한다.&lt;/p&gt;</description></item></channel></rss>

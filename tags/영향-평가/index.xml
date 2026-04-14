@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>영향 평가 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%98%81%ED%96%A5-%ED%8F%89%EA%B0%80/</link><description>Recent content in 영향 평가 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%98%81%ED%96%A5-%ED%8F%89%EA%B0%80/index.xml" rel="self" type="application/rss+xml"/><item><title>2. 기획</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/2-planning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/2-planning/</guid><description>&lt;h2 id="1-개요"&gt;1. 개요&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 42001 §6은 AI 시스템과 관련된 리스크와 기회를 체계적으로 파악하고 대응하는 방법을 요구한다.
+특히 **§6.1.2(AI 리스크 평가)**와 **§6.1.4(AI 시스템 영향 평가)**는
+오픈소스 컴포넌트로 인해 발생할 수 있는 리스크를 포함하는 데 직접 활용된다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="2-612-ai-리스크-평가--오픈소스-리스크-포함-"&gt;2. §6.1.2 AI 리스크 평가 — 오픈소스 리스크 포함 ★&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 42001은 AI 시스템과 관련된 리스크를 식별·분석·평가하는 프로세스를 요구한다.
+오픈소스 담당자는 이 프로세스에 &lt;strong&gt;오픈소스 라이선스 리스크&lt;/strong&gt;와 &lt;strong&gt;보안 취약점 리스크&lt;/strong&gt;를
+명시적으로 포함해야 한다.&lt;/p&gt;
+&lt;h3 id="오픈소스-관련-ai-리스크-유형"&gt;오픈소스 관련 AI 리스크 유형&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;리스크 유형&lt;/th&gt;
+ &lt;th&gt;원인&lt;/th&gt;
+ &lt;th&gt;영향&lt;/th&gt;
+ &lt;th&gt;대응 방법&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;라이선스 비준수&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;AI 모델의 커스텀 라이선스 조건 미확인&lt;/td&gt;
+ &lt;td&gt;법적 분쟁, 서비스 중단&lt;/td&gt;
+ &lt;td&gt;사용 전 라이선스 검토 의무화&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;GPL 오염&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Copyleft 라이선스 AI 컴포넌트와 독점 코드 결합&lt;/td&gt;
+ &lt;td&gt;소스 코드 공개 의무 발생&lt;/td&gt;
+ &lt;td&gt;라이선스 호환성 사전 검토&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;모델 라이선스 조건 위반&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;MAU 제한, 용도 제한 조건 미충족&lt;/td&gt;
+ &lt;td&gt;라이선스 취소, 손해배상&lt;/td&gt;
+ &lt;td&gt;조건별 준수 여부 정기 점검&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;오픈소스 취약점&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;AI 프레임워크 또는 의존성의 CVE&lt;/td&gt;
+ &lt;td&gt;시스템 침해, 데이터 유출&lt;/td&gt;
+ &lt;td&gt;정기 SCA 스캔, 패치 적용&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;데이터셋 라이선스 위반&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;CC-BY-NC 데이터를 상업 서비스에 사용&lt;/td&gt;
+ &lt;td&gt;저작권 침해&lt;/td&gt;
+ &lt;td&gt;데이터셋 라이선스 재검토&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;공급망 리스크&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;외부 오픈소스 모델의 라이선스 변경&lt;/td&gt;
+ &lt;td&gt;서비스 연속성 위협&lt;/td&gt;
+ &lt;td&gt;공급망 모니터링 체계 구축&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="ai-리스크-평가서에-포함할-오픈소스-항목"&gt;AI 리스크 평가서에 포함할 오픈소스 항목&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#800080;font-weight:bold"&gt;## AI 리스크 평가서 — 오픈소스 리스크 섹션
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#800080;font-weight:bold"&gt;### 평가 대상 AI 시스템: [시스템명]
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#800080;font-weight:bold"&gt;### 평가 일자: YYYY-MM-DD
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;| # | 리스크 항목 | 현재 사용 컴포넌트 | 가능성 | 영향도 | 리스크 수준 | 대응 조치 |
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;|---|------------|-----------------|:----:|:----:|:---------:|---------|
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;| 1 | 라이선스 비준수 | [모델명 · 라이선스] | 중 | 상 | 높음 | 법무 검토 |
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;| 2 | OSS 취약점 | [프레임워크명 · 버전] | 중 | 상 | 높음 | SCA 스캔 |
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;| 3 | 데이터셋 라이선스 | [데이터셋명 · 라이선스] | 저 | 중 | 중간 | 라이선스 재확인 |
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;ISO/IEC 18974와의 연계&lt;/div&gt;
+&lt;p&gt;AI 시스템에 사용된 오픈소스 취약점 리스크는 ISO/IEC 18974의 §4.3.2(보안 보증) 요구사항과
+직접 연결된다. 18974의 취약점 탐지·평가 프로세스를 AI 시스템에도 적용하면 별도의
+리스크 평가 체계를 구축하지 않아도 된다.&lt;/p&gt;</description></item></channel></rss>

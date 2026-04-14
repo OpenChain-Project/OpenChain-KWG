@@ -523,14 +523,25 @@ SK텔레콤은 SK하이닉스, SK㈜C&amp;C, SK브로드밴드, SK플래닛 등 
 &lt;p&gt;There should be no margin above this first sentence.&lt;/p&gt;</description></item><item><title/><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/claude/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/claude/</guid><description>&lt;h1 id="2026-기업-오픈소스-관리-가이드-개선-프로젝트"&gt;2026 기업 오픈소스 관리 가이드 개선 프로젝트&lt;/h1&gt;
 &lt;h2 id="목적"&gt;목적&lt;/h2&gt;
 &lt;p&gt;이 디렉토리의 가이드를 2026년 기준으로 개선한다.
-ISO/IEC 5230(오픈소스 컴플라이언스)과 ISO/IEC 18974(보안 보증) 두 표준을 기반으로 한다.
+ISO/IEC 5230(오픈소스 컴플라이언스), ISO/IEC 18974(보안 보증), ISO/IEC 42001(AI 관리 시스템) 세 표준을 기반으로 한다.
 작업 브랜치: guide/2026-enterprise-oss-guide&lt;/p&gt;
 &lt;h2 id="디렉토리-구조"&gt;디렉토리 구조&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;opensource_for_enterprise/ : 메인 가이드 (6개 섹션)&lt;/li&gt;
+&lt;li&gt;opensource_for_enterprise/ : 메인 가이드 (7개 섹션, 7번째는 AI 컴플라이언스)&lt;/li&gt;
+&lt;li&gt;iso5230_guide/ : ISO/IEC 5230 준수 가이드 (조항별 상세)&lt;/li&gt;
+&lt;li&gt;iso18974_guide/ : ISO/IEC 18974 준수 가이드 (조항별 상세)&lt;/li&gt;
+&lt;li&gt;iso42001_guide/ : ISO/IEC 42001 가이드 (오픈소스 관점, 2026 신설)&lt;/li&gt;
 &lt;li&gt;templates/1-policy/ : 오픈소스 정책 템플릿&lt;/li&gt;
 &lt;li&gt;templates/2-process-template/ : 오픈소스 프로세스 템플릿&lt;/li&gt;
-&lt;li&gt;tools/ : 도구 페이지 (fossology, sw360, fosslight, osvscalibr)&lt;/li&gt;
+&lt;li&gt;tools/ : 도구 페이지 (fossology, sw360, fosslight, osvscalibr 등)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="iso-42001-가이드-특성"&gt;ISO 42001 가이드 특성&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;포지셔닝: &amp;ldquo;오픈소스 관점의 ISO 42001&amp;rdquo; — ISO 42001 전체가 아닌 오픈소스 교차 요구사항 중심&lt;/li&gt;
+&lt;li&gt;입증자료 번호 체계 없음 (ISO 5230/18974와 달리 shall 요구사항 방식)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;체크포인트&amp;rdquo; 형태로 준수 여부 안내&lt;/li&gt;
+&lt;li&gt;reference 파일: &lt;code&gt;.claude/reference/iso-42001.md&lt;/code&gt; (요구사항 요약, 저작권 준수 의역)&lt;/li&gt;
+&lt;li&gt;오픈소스 교차 조항: §5.2, §6.1.2, §6.1.4, §7.2, §7.5, §8.5, §8.6, §8.8, §9.1&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="작업-원칙"&gt;작업 원칙&lt;/h2&gt;
 &lt;ol&gt;

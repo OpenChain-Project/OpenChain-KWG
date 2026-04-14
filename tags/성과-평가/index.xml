@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>성과 평가 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%84%B1%EA%B3%BC-%ED%8F%89%EA%B0%80/</link><description>Recent content in 성과 평가 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%84%B1%EA%B3%BC-%ED%8F%89%EA%B0%80/index.xml" rel="self" type="application/rss+xml"/><item><title>5. 성과 평가와 개선</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/5-evaluation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/5-evaluation/</guid><description>&lt;h2 id="1-개요"&gt;1. 개요&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 42001 §9와 §10은 AI 관리 시스템이 의도한 결과를 달성하고 있는지 확인하고,
+부족한 점을 개선하는 사이클을 다룬다. 오픈소스 관점에서는
+**§9.1(모니터링·측정)**이 오픈소스 컴플라이언스 지표와 연계된다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="2-91-모니터링-및-측정--오픈소스-컴플라이언스-지표-"&gt;2. §9.1 모니터링 및 측정 — 오픈소스 컴플라이언스 지표 ★&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 42001은 AI 관리 시스템의 성과를 모니터링하고 측정할 것을 요구한다.
+기존 오픈소스 컴플라이언스 지표를 AI 관리 시스템의 성과 지표에 통합한다.&lt;/p&gt;
+&lt;h3 id="오픈소스-관련-ai-성과-지표-예시"&gt;오픈소스 관련 AI 성과 지표 예시&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;지표&lt;/th&gt;
+ &lt;th&gt;측정 방법&lt;/th&gt;
+ &lt;th&gt;목표&lt;/th&gt;
+ &lt;th&gt;측정 주기&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;AI SBOM 최신화율&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;AI 배포 대비 AI SBOM 갱신 완료율&lt;/td&gt;
+ &lt;td&gt;100%&lt;/td&gt;
+ &lt;td&gt;배포 시마다&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;모델 라이선스 검토율&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;신규 도입 모델 대비 라이선스 검토 완료율&lt;/td&gt;
+ &lt;td&gt;100%&lt;/td&gt;
+ &lt;td&gt;분기별&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Critical CVE 패치율&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Critical CVE 발견 후 14일 이내 패치 완료율&lt;/td&gt;
+ &lt;td&gt;95% 이상&lt;/td&gt;
+ &lt;td&gt;월별&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;데이터셋 라이선스 기록율&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;AI SBOM 내 데이터셋 라이선스 기록 완료율&lt;/td&gt;
+ &lt;td&gt;100%&lt;/td&gt;
+ &lt;td&gt;분기별&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;OSS 라이선스 위반 건수&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;라이선스 위반 발견 건수 및 해결 소요 시간&lt;/td&gt;
+ &lt;td&gt;0건 목표&lt;/td&gt;
+ &lt;td&gt;월별&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;AI 공급망 검증율&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;외부 모델 조달 시 공급망 검증 완료율&lt;/td&gt;
+ &lt;td&gt;100%&lt;/td&gt;
+ &lt;td&gt;조달 시마다&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class="alert alert-success" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;ISO/IEC 5230 · 18974 지표와 통합&lt;/div&gt;
+&lt;p&gt;이미 ISO/IEC 5230 또는 18974 기반의 오픈소스 컴플라이언스 지표를 운영 중이라면,
+AI 관련 지표를 &lt;strong&gt;기존 오픈소스 대시보드에 추가&lt;/strong&gt;하는 방식으로 통합 관리한다.
+별도의 AI 전용 측정 체계를 구축할 필요가 없다.&lt;/p&gt;</description></item></channel></rss>

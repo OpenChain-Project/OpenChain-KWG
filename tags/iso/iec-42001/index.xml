@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ISO/IEC 42001 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/iso/iec-42001/</link><description>Recent content in ISO/IEC 42001 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/iso/iec-42001/index.xml" rel="self" type="application/rss+xml"/><item><title>ISO 5230 · 18974 · 42001 비교</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/compare/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/compare/</guid><description>&lt;h2 id="1-세-표준의-관계"&gt;1. 세 표준의 관계&lt;/h2&gt;
+&lt;p&gt;오픈소스를 사용하는 AI 시스템을 개발하는 기업은 세 가지 표준이 교차하는 지점에 있다.&lt;/p&gt;
+&lt;pre class="mermaid"&gt;flowchart LR
+ subgraph oss[&amp;#34;오픈소스 관리&amp;#34;]
+ A[&amp;#34;ISO/IEC 5230\n라이선스 컴플라이언스\n(라이선스·SBOM·산출물)&amp;#34;]
+ B[&amp;#34;ISO/IEC 18974\n보안 보증\n(취약점 탐지·대응·CVD)&amp;#34;]
+ end
+
+ subgraph ai[&amp;#34;AI 시스템 관리&amp;#34;]
+ C[&amp;#34;ISO/IEC 42001\nAI 관리 시스템\n(거버넌스·리스크·생애주기)&amp;#34;]
+ end
+
+ oss -- &amp;#34;AI 시스템 내\n오픈소스 컴플라이언스&amp;#34; --&amp;gt; ai&lt;/pre&gt;
+&lt;p&gt;ISO 5230과 18974는 &lt;strong&gt;오픈소스 자체&lt;/strong&gt;를 관리하는 표준이고,
+ISO 42001은 &lt;strong&gt;AI 시스템&lt;/strong&gt;을 관리하는 표준이다. 두 영역은 독립적이지만,
+AI 시스템이 오픈소스를 활용할 때 교차점이 발생한다.&lt;/p&gt;
+&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;ISO/IEC 42003 — AI 시스템 구현 가이드 (개발 중)&lt;/div&gt;
+&lt;p&gt;ISO/IEC 42001이 원칙적 요구사항을 제시하는 반면,
+&lt;strong&gt;ISO/IEC 42003&lt;/strong&gt;은 42001의 구체적 구현 방법을 안내하는 가이드(새롭게 승인된 work item)다.
+OpenChain AI Work Group은 &lt;strong&gt;AI SBOM&lt;/strong&gt;을 ISO 42003의 투명성·설명 가능성 조항
+(Appendix C.2.11 — Transparency and Explainability)에 반영하는 것을 추진 중이다.
+AI SBOM 의무화 관련 최신 동향은 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/resource/ai_work_group/"&gt;AI Work Group 활동&lt;/a&gt;을 참고한다.&lt;/p&gt;</description></item><item><title>1. 조직 맥락과 리더십</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/1-context-leadership/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/1-context-leadership/</guid><description>&lt;h2 id="1-개요"&gt;1. 개요&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 42001 §4와 §5는 AI 관리 시스템의 &lt;strong&gt;기반&lt;/strong&gt;이다. 조직이 어떤 AI 시스템을 운영하는지,
+이해관계자가 누구인지, 최고경영진이 어떤 원칙으로 AI를 관리할지를 결정한다.&lt;/p&gt;
+&lt;p&gt;오픈소스 담당자 관점에서 §5.2(AI 정책)가 가장 중요한 교차점이다.
+AI 정책에 오픈소스 사용에 관한 원칙을 포함하면 ISO 5230 정책과 통합 운영이 가능하다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="2-4-조직-맥락--오픈소스-관련-고려사항"&gt;2. §4 조직 맥락 — 오픈소스 관련 고려사항&lt;/h2&gt;
+&lt;h3 id="41-조직과-조직-맥락-이해"&gt;§4.1 조직과 조직 맥락 이해&lt;/h3&gt;
+&lt;p&gt;AI 관리 시스템의 목적에 영향을 미치는 내·외부 이슈를 파악할 때,
+오픈소스 관련 외부 이슈를 포함한다:&lt;/p&gt;</description></item><item><title>AI 시스템의 오픈소스 관리</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/4-operation/1-oss-in-ai/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/4-operation/1-oss-in-ai/</guid><description>&lt;h2 id="1-개요"&gt;1. 개요&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 42001 §8.5(AI 시스템 생애주기)와 §8.6(AI 데이터 관리)는 AI 시스템 개발 단계에서
+관리해야 할 요구사항을 다룬다. 오픈소스 관점에서는 AI 시스템에 사용하는
+&lt;strong&gt;오픈소스 컴포넌트의 라이선스 컴플라이언스&lt;/strong&gt;가 핵심이다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="2-85-ai-시스템-생애주기--오픈소스-프레임워크--모델-관리"&gt;2. §8.5 AI 시스템 생애주기 — 오픈소스 프레임워크 · 모델 관리&lt;/h2&gt;
+&lt;h3 id="21-기획설계-단계"&gt;2.1 기획·설계 단계&lt;/h3&gt;
+&lt;p&gt;AI 시스템 기획 단계에서 사용할 오픈소스 프레임워크와 모델을 선정할 때
+라이선스를 사전에 검토한다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;라이선스 사전 검토 절차:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;1. 사용 후보 컴포넌트 목록 작성
+ (프레임워크명, 버전, 출처 URL)
+
+2. 라이선스 확인
+ - 프레임워크: PyPI, npm, GitHub README 확인
+ - AI 모델: Hugging Face Model Card, 공식 저장소 확인
+
+3. 라이선스 조건 검토 항목
+ □ 상업적 사용 허용 여부
+ □ 파생물(Fine-tuning 모델) 공개 의무 여부
+ □ 저작권 고지 의무 여부
+ □ 특허 조항 여부 (Apache 2.0의 명시적 특허 허여 등)
+ □ MAU 또는 매출 기반 사용 제한 여부
+
+4. 허용 불가 라이선스 식별 시 대안 컴포넌트 탐색
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="22-개발-단계"&gt;2.2 개발 단계&lt;/h3&gt;
+&lt;p&gt;개발 중 새로운 오픈소스 컴포넌트를 추가할 때마다 라이선스를 확인하고
+AI SBOM에 즉시 반영한다.&lt;/p&gt;</description></item><item><title>2. 기획</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/2-planning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/2-planning/</guid><description>&lt;h2 id="1-개요"&gt;1. 개요&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 42001 §6은 AI 시스템과 관련된 리스크와 기회를 체계적으로 파악하고 대응하는 방법을 요구한다.
+특히 **§6.1.2(AI 리스크 평가)**와 **§6.1.4(AI 시스템 영향 평가)**는
+오픈소스 컴포넌트로 인해 발생할 수 있는 리스크를 포함하는 데 직접 활용된다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="2-612-ai-리스크-평가--오픈소스-리스크-포함-"&gt;2. §6.1.2 AI 리스크 평가 — 오픈소스 리스크 포함 ★&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 42001은 AI 시스템과 관련된 리스크를 식별·분석·평가하는 프로세스를 요구한다.
+오픈소스 담당자는 이 프로세스에 &lt;strong&gt;오픈소스 라이선스 리스크&lt;/strong&gt;와 &lt;strong&gt;보안 취약점 리스크&lt;/strong&gt;를
+명시적으로 포함해야 한다.&lt;/p&gt;
+&lt;h3 id="오픈소스-관련-ai-리스크-유형"&gt;오픈소스 관련 AI 리스크 유형&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;리스크 유형&lt;/th&gt;
+ &lt;th&gt;원인&lt;/th&gt;
+ &lt;th&gt;영향&lt;/th&gt;
+ &lt;th&gt;대응 방법&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;라이선스 비준수&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;AI 모델의 커스텀 라이선스 조건 미확인&lt;/td&gt;
+ &lt;td&gt;법적 분쟁, 서비스 중단&lt;/td&gt;
+ &lt;td&gt;사용 전 라이선스 검토 의무화&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;GPL 오염&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Copyleft 라이선스 AI 컴포넌트와 독점 코드 결합&lt;/td&gt;
+ &lt;td&gt;소스 코드 공개 의무 발생&lt;/td&gt;
+ &lt;td&gt;라이선스 호환성 사전 검토&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;모델 라이선스 조건 위반&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;MAU 제한, 용도 제한 조건 미충족&lt;/td&gt;
+ &lt;td&gt;라이선스 취소, 손해배상&lt;/td&gt;
+ &lt;td&gt;조건별 준수 여부 정기 점검&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;오픈소스 취약점&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;AI 프레임워크 또는 의존성의 CVE&lt;/td&gt;
+ &lt;td&gt;시스템 침해, 데이터 유출&lt;/td&gt;
+ &lt;td&gt;정기 SCA 스캔, 패치 적용&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;데이터셋 라이선스 위반&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;CC-BY-NC 데이터를 상업 서비스에 사용&lt;/td&gt;
+ &lt;td&gt;저작권 침해&lt;/td&gt;
+ &lt;td&gt;데이터셋 라이선스 재검토&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;공급망 리스크&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;외부 오픈소스 모델의 라이선스 변경&lt;/td&gt;
+ &lt;td&gt;서비스 연속성 위협&lt;/td&gt;
+ &lt;td&gt;공급망 모니터링 체계 구축&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="ai-리스크-평가서에-포함할-오픈소스-항목"&gt;AI 리스크 평가서에 포함할 오픈소스 항목&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#800080;font-weight:bold"&gt;## AI 리스크 평가서 — 오픈소스 리스크 섹션
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#800080;font-weight:bold"&gt;### 평가 대상 AI 시스템: [시스템명]
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#800080;font-weight:bold"&gt;### 평가 일자: YYYY-MM-DD
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;| # | 리스크 항목 | 현재 사용 컴포넌트 | 가능성 | 영향도 | 리스크 수준 | 대응 조치 |
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;|---|------------|-----------------|:----:|:----:|:---------:|---------|
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;| 1 | 라이선스 비준수 | [모델명 · 라이선스] | 중 | 상 | 높음 | 법무 검토 |
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;| 2 | OSS 취약점 | [프레임워크명 · 버전] | 중 | 상 | 높음 | SCA 스캔 |
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;| 3 | 데이터셋 라이선스 | [데이터셋명 · 라이선스] | 저 | 중 | 중간 | 라이선스 재확인 |
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;ISO/IEC 18974와의 연계&lt;/div&gt;
+&lt;p&gt;AI 시스템에 사용된 오픈소스 취약점 리스크는 ISO/IEC 18974의 §4.3.2(보안 보증) 요구사항과
+직접 연결된다. 18974의 취약점 탐지·평가 프로세스를 AI 시스템에도 적용하면 별도의
+리스크 평가 체계를 구축하지 않아도 된다.&lt;/p&gt;</description></item><item><title>AI SBOM</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/4-operation/2-ai-sbom/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/4-operation/2-ai-sbom/</guid><description>&lt;h2 id="1-ai-sbom이란"&gt;1. AI SBOM이란?&lt;/h2&gt;
+&lt;p&gt;**AI SBOM(AI System Bill of Materials)**은 AI 시스템을 구성하는 모든 요소의 목록과
+그 출처·라이선스를 문서화한 것이다. 소프트웨어 SBOM(ISO/IEC 5230 §3.3.1)의 개념을
+AI 시스템으로 확장한 것으로, ISO/IEC 42001 §7.5(문서화된 정보) 요구사항의 핵심 산출물이다.&lt;/p&gt;
+&lt;h3 id="ai-sbom이-필요한-이유-투명성과-규제-대응"&gt;AI SBOM이 필요한 이유: 투명성과 규제 대응&lt;/h3&gt;
+&lt;p&gt;AI SBOM은 &lt;strong&gt;AI 시스템의 투명성과 설명 가능성&lt;/strong&gt;을 확보하는 핵심 수단이다.
+ISO/IEC 42001 Appendix C.2.11은 투명성과 설명 가능성을 AI 관리 시스템의 핵심 목표로 명시한다.&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;요구 주체&lt;/th&gt;
+ &lt;th&gt;근거&lt;/th&gt;
+ &lt;th&gt;AI SBOM 역할&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;ISO/IEC 42001&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Appendix C.2.11 (투명성·설명 가능성)&lt;/td&gt;
+ &lt;td&gt;AI 시스템 구성 투명성 확보&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;EU AI Act&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;고위험 AI 시스템 기술 문서 요건&lt;/td&gt;
+ &lt;td&gt;학습 데이터·모델 출처 명시&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;EU Cyber Resilience Act(CRA)&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;AI 제품의 투명성 의무&lt;/td&gt;
+ &lt;td&gt;컴포넌트 목록 및 취약점 추적&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;OpenChain AI Work Group&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;AI SBOM Compliance Guide&lt;/td&gt;
+ &lt;td&gt;공급망 내 AI SBOM 표준 절차&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;ISO/IEC 42003과 AI SBOM&lt;/div&gt;
+&lt;p&gt;ISO/IEC 42001의 구현 가이드인 &lt;strong&gt;ISO/IEC 42003&lt;/strong&gt;(개발 중)에 AI SBOM 관련 구체적 요구사항이
+포함될 예정이다. OpenChain AI Work Group은 AI SBOM 가이드를 42003의
+§6.2(AI 목표)와 Appendix C.2.11(투명성·설명 가능성)에 반영하는 것을 추진 중이다.&lt;/p&gt;</description></item><item><title>3. 지원</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/3-support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/3-support/</guid><description>&lt;h2 id="1-개요"&gt;1. 개요&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 42001 §7은 AI 관리 시스템을 운영하는 데 필요한 &lt;strong&gt;역량, 인식, 커뮤니케이션,
+문서화&lt;/strong&gt;를 다룬다. 오픈소스 담당자 관점에서는 **§7.2(역량)**과 **§7.5(문서화된 정보)**가
+핵심 교차점이다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="2-72-역량--ai-오픈소스-관리-역량-"&gt;2. §7.2 역량 — AI 오픈소스 관리 역량 ★&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 42001은 AI 관련 역할을 수행하는 인원이 필요한 역량을 갖추도록 요구한다.
+오픈소스 컴플라이언스 관점에서 AI 개발·운영 인원에게 다음 역량이 포함되어야 한다.&lt;/p&gt;
+&lt;h3 id="ai-오픈소스-관리-역량-요소"&gt;AI 오픈소스 관리 역량 요소&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;역량 영역&lt;/th&gt;
+ &lt;th&gt;내용&lt;/th&gt;
+ &lt;th&gt;관련 교육&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;AI 프레임워크 라이선스 이해&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;PyTorch·TensorFlow 등 주요 라이선스 조건 파악&lt;/td&gt;
+ &lt;td&gt;오픈소스 라이선스 교육&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;AI 모델 라이선스 검토&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;커스텀 라이선스 조건(사용 제한, 파생물 처리) 분석&lt;/td&gt;
+ &lt;td&gt;법무팀 협업 교육&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;AI SBOM 작성&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;SPDX 3.0 AI 프로파일 기반 AI SBOM 구성 방법&lt;/td&gt;
+ &lt;td&gt;AI SBOM 실습&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;오픈소스 취약점 관리&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;AI 시스템 의존성 SCA 스캔 및 CVE 대응&lt;/td&gt;
+ &lt;td&gt;DevSecOps 교육&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;오픈 데이터 라이선스&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;CC 계열 라이선스 조건 및 데이터셋 사용 규칙&lt;/td&gt;
+ &lt;td&gt;데이터 라이선스 교육&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="기존-오픈소스-역량-체계와의-통합"&gt;기존 오픈소스 역량 체계와의 통합&lt;/h3&gt;
+&lt;div class="alert alert-success" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;ISO/IEC 5230 역량 체계 확장&lt;/div&gt;
+&lt;p&gt;기업이 ISO/IEC 5230 기반의 역량·교육 체계를 이미 운영 중이라면,
+기존 오픈소스 교육 과정에 &lt;strong&gt;AI 특화 모듈&lt;/strong&gt;을 추가하는 방식으로 확장한다.&lt;/p&gt;</description></item><item><title>AI 공급망 검증</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/4-operation/3-supply-chain/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/4-operation/3-supply-chain/</guid><description>&lt;h2 id="1-개요"&gt;1. 개요&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 42001 §8.8은 외부에서 조달하는 AI 시스템(모델, API, 서비스)을 사용할 때
+적절한 평가와 검증을 수행할 것을 요구한다. 오픈소스 관점에서는 &lt;strong&gt;외부 오픈소스 AI 모델&lt;/strong&gt;을
+조달할 때 라이선스·보안·공급망 리스크를 검증하는 절차가 핵심이다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="2-외부-ai-조달의-세-가지-유형"&gt;2. 외부 AI 조달의 세 가지 유형&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;유형&lt;/th&gt;
+ &lt;th&gt;예시&lt;/th&gt;
+ &lt;th&gt;오픈소스 관련성&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;오픈소스 AI 모델 직접 사용&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Llama, Mistral, Falcon 모델 가중치 다운로드&lt;/td&gt;
+ &lt;td&gt;높음 — 라이선스 직접 적용&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;오픈소스 기반 AI 서비스&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Hugging Face Inference API, Ollama&lt;/td&gt;
+ &lt;td&gt;중간 — 기반 모델 라이선스 확인 필요&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;상용 AI API&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;OpenAI API, Google Vertex AI&lt;/td&gt;
+ &lt;td&gt;낮음 — 서비스 약관 적용 (OSS 라이선스 직접 적용 안 됨)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;이 가이드는 **유형 1(오픈소스 AI 모델 직접 사용)**과 **유형 2(오픈소스 기반 AI 서비스)**를 중심으로 다룬다.&lt;/p&gt;</description></item><item><title>4. 운영</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/4-operation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/4-operation/</guid><description>&lt;h2 id="개요"&gt;개요&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 42001 §8은 AI 관리 시스템의 &lt;strong&gt;실제 운영&lt;/strong&gt; 단계를 다룬다.
+오픈소스 관점에서 §8은 가장 많은 교차점을 포함하는 섹션이다.&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;하위 조항&lt;/th&gt;
+ &lt;th&gt;내용&lt;/th&gt;
+ &lt;th&gt;오픈소스 교차&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;§8.1&lt;/td&gt;
+ &lt;td&gt;운영 기획 및 통제&lt;/td&gt;
+ &lt;td&gt;오픈소스 검토 프로세스 운영&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;§8.2~8.3&lt;/td&gt;
+ &lt;td&gt;AI 리스크 평가·처리 (운영 시)&lt;/td&gt;
+ &lt;td&gt;OSS 취약점 리스크 대응&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;§8.4&lt;/td&gt;
+ &lt;td&gt;AI 시스템 영향 평가 (운영 시)&lt;/td&gt;
+ &lt;td&gt;OSS 취약점의 시스템 영향&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;§8.5&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;AI 시스템 생애주기&lt;/td&gt;
+ &lt;td&gt;★ OSS 프레임워크·모델 라이선스&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;§8.6&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;AI 시스템을 위한 데이터&lt;/td&gt;
+ &lt;td&gt;★ 오픈 데이터셋 라이선스&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;§8.7&lt;/td&gt;
+ &lt;td&gt;피드백 인터페이스&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;§8.8&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;외부 AI 시스템 조달&lt;/td&gt;
+ &lt;td&gt;★ 외부 OSS 모델 공급망 검증&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="세부-페이지"&gt;세부 페이지&lt;/h2&gt;
+&lt;p&gt;이 섹션의 오픈소스 교차 항목은 다음 세부 페이지에서 상세히 다룬다:&lt;/p&gt;</description></item><item><title>ISO/IEC 42001 가이드</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/</guid><description>&lt;p&gt;이 가이드는 &lt;strong&gt;오픈소스 담당자 관점&lt;/strong&gt;에서 ISO/IEC 42001(AI Management System)의 요구사항 중
+오픈소스 관리와 교차하는 핵심 항목을 풀어서 설명한다. AI 시스템에서 오픈소스 프레임워크,
+사전 훈련 모델, 학습 데이터셋을 사용할 때 무엇을 준수해야 하는지, AI SBOM은 어떻게 구성하는지
+실무 중심으로 안내한다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Author : OpenChain Korea Work Group / &lt;a href="https://creativecommons.org/licenses/by/4.0/"&gt;CC BY 4.0&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="isoiec-42001이란"&gt;ISO/IEC 42001이란?&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 42001:2023은 조직이 AI 시스템을 책임감 있고 투명하게 개발·운영·관리하기 위한
+&lt;strong&gt;AI 관리 시스템(AIMS, AI Management System)&lt;/strong&gt; 국제 표준이다.&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;항목&lt;/th&gt;
+ &lt;th&gt;내용&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;정식 명칭&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;ISO/IEC 42001:2023 Information technology — Artificial intelligence — Management system&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;제정 기관&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;ISO/IEC JTC 1/SC 42 (인공지능)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;제정 연도&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;2023&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;표준 계열&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;ISO 경영 시스템 표준 (ISO 9001, ISO 27001과 동일 구조)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;적용 대상&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;AI 제품·서비스를 개발, 제공, 사용하는 모든 조직&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;ISO/IEC 5230 · 18974와의 차이&lt;/div&gt;
+&lt;p&gt;ISO/IEC 5230(라이선스 컴플라이언스)과 ISO/IEC 18974(보안 보증)는 &lt;strong&gt;OpenChain 프로젝트&lt;/strong&gt;가
+먼저 스펙을 만들고 ISO가 표준으로 채택한 것으로, 오픈소스 소프트웨어 관리에 특화되어 있다.
+OpenChain이 무료 자가 인증 체크리스트를 제공한다.&lt;/p&gt;</description></item><item><title>5. 성과 평가와 개선</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/5-evaluation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/5-evaluation/</guid><description>&lt;h2 id="1-개요"&gt;1. 개요&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 42001 §9와 §10은 AI 관리 시스템이 의도한 결과를 달성하고 있는지 확인하고,
+부족한 점을 개선하는 사이클을 다룬다. 오픈소스 관점에서는
+**§9.1(모니터링·측정)**이 오픈소스 컴플라이언스 지표와 연계된다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="2-91-모니터링-및-측정--오픈소스-컴플라이언스-지표-"&gt;2. §9.1 모니터링 및 측정 — 오픈소스 컴플라이언스 지표 ★&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 42001은 AI 관리 시스템의 성과를 모니터링하고 측정할 것을 요구한다.
+기존 오픈소스 컴플라이언스 지표를 AI 관리 시스템의 성과 지표에 통합한다.&lt;/p&gt;
+&lt;h3 id="오픈소스-관련-ai-성과-지표-예시"&gt;오픈소스 관련 AI 성과 지표 예시&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;지표&lt;/th&gt;
+ &lt;th&gt;측정 방법&lt;/th&gt;
+ &lt;th&gt;목표&lt;/th&gt;
+ &lt;th&gt;측정 주기&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;AI SBOM 최신화율&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;AI 배포 대비 AI SBOM 갱신 완료율&lt;/td&gt;
+ &lt;td&gt;100%&lt;/td&gt;
+ &lt;td&gt;배포 시마다&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;모델 라이선스 검토율&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;신규 도입 모델 대비 라이선스 검토 완료율&lt;/td&gt;
+ &lt;td&gt;100%&lt;/td&gt;
+ &lt;td&gt;분기별&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Critical CVE 패치율&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Critical CVE 발견 후 14일 이내 패치 완료율&lt;/td&gt;
+ &lt;td&gt;95% 이상&lt;/td&gt;
+ &lt;td&gt;월별&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;데이터셋 라이선스 기록율&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;AI SBOM 내 데이터셋 라이선스 기록 완료율&lt;/td&gt;
+ &lt;td&gt;100%&lt;/td&gt;
+ &lt;td&gt;분기별&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;OSS 라이선스 위반 건수&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;라이선스 위반 발견 건수 및 해결 소요 시간&lt;/td&gt;
+ &lt;td&gt;0건 목표&lt;/td&gt;
+ &lt;td&gt;월별&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;AI 공급망 검증율&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;외부 모델 조달 시 공급망 검증 완료율&lt;/td&gt;
+ &lt;td&gt;100%&lt;/td&gt;
+ &lt;td&gt;조달 시마다&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class="alert alert-success" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;ISO/IEC 5230 · 18974 지표와 통합&lt;/div&gt;
+&lt;p&gt;이미 ISO/IEC 5230 또는 18974 기반의 오픈소스 컴플라이언스 지표를 운영 중이라면,
+AI 관련 지표를 &lt;strong&gt;기존 오픈소스 대시보드에 추가&lt;/strong&gt;하는 방식으로 통합 관리한다.
+별도의 AI 전용 측정 체계를 구축할 필요가 없다.&lt;/p&gt;</description></item><item><title>7. AI 컴플라이언스</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/7-ai-compliance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/7-ai-compliance/</guid><description>&lt;p&gt;AI 시스템은 오픈소스 프레임워크, 사전 훈련된 모델, 오픈 데이터셋을 광범위하게 활용한다.
+오픈소스 관리 체계(ISO/IEC 5230 · 18974)를 운영하는 기업은 AI 시스템 개발 단계에서도
+오픈소스 컴플라이언스 원칙을 적용해야 한다.&lt;/p&gt;
+&lt;p&gt;ISO/IEC 42001(AI 관리 시스템)은 AI 거버넌스 전반을 다루며, 그 중 일부 조항이
+오픈소스 관리와 직접 교차한다. 이 섹션은 그 교차점을 실무 관점에서 정리한다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="ai-시스템에서-오픈소스가-사용되는-세-가지-영역"&gt;AI 시스템에서 오픈소스가 사용되는 세 가지 영역&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;AI 시스템
+ ├── 1. AI 프레임워크 · 라이브러리
+ │ (PyTorch, TensorFlow, Hugging Face Transformers, LangChain 등)
+ │ → 일반 오픈소스 라이선스 컴플라이언스 적용
+ │
+ ├── 2. 사전 훈련 모델 (Pre-trained Model)
+ │ (Llama, Mistral, Falcon, BERT 등)
+ │ → 모델별 커스텀 라이선스 확인 필요
+ │
+ └── 3. 학습 데이터셋
+ (Common Crawl, Wikipedia, CC-BY 데이터셋 등)
+ → 오픈 데이터 라이선스 의무 이행
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;각 영역별로 기존 오픈소스 컴플라이언스 프로세스와 다른 지점이 있으므로 아래를 참고한다.&lt;/p&gt;</description></item></channel></rss>

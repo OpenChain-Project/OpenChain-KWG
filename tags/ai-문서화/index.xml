@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI 문서화 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/ai-%EB%AC%B8%EC%84%9C%ED%99%94/</link><description>Recent content in AI 문서화 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/ai-%EB%AC%B8%EC%84%9C%ED%99%94/index.xml" rel="self" type="application/rss+xml"/><item><title>AI SBOM</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/4-operation/2-ai-sbom/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/4-operation/2-ai-sbom/</guid><description>&lt;h2 id="1-ai-sbom이란"&gt;1. AI SBOM이란?&lt;/h2&gt;
+&lt;p&gt;**AI SBOM(AI System Bill of Materials)**은 AI 시스템을 구성하는 모든 요소의 목록과
+그 출처·라이선스를 문서화한 것이다. 소프트웨어 SBOM(ISO/IEC 5230 §3.3.1)의 개념을
+AI 시스템으로 확장한 것으로, ISO/IEC 42001 §7.5(문서화된 정보) 요구사항의 핵심 산출물이다.&lt;/p&gt;
+&lt;h3 id="ai-sbom이-필요한-이유-투명성과-규제-대응"&gt;AI SBOM이 필요한 이유: 투명성과 규제 대응&lt;/h3&gt;
+&lt;p&gt;AI SBOM은 &lt;strong&gt;AI 시스템의 투명성과 설명 가능성&lt;/strong&gt;을 확보하는 핵심 수단이다.
+ISO/IEC 42001 Appendix C.2.11은 투명성과 설명 가능성을 AI 관리 시스템의 핵심 목표로 명시한다.&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;요구 주체&lt;/th&gt;
+ &lt;th&gt;근거&lt;/th&gt;
+ &lt;th&gt;AI SBOM 역할&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;ISO/IEC 42001&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Appendix C.2.11 (투명성·설명 가능성)&lt;/td&gt;
+ &lt;td&gt;AI 시스템 구성 투명성 확보&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;EU AI Act&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;고위험 AI 시스템 기술 문서 요건&lt;/td&gt;
+ &lt;td&gt;학습 데이터·모델 출처 명시&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;EU Cyber Resilience Act(CRA)&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;AI 제품의 투명성 의무&lt;/td&gt;
+ &lt;td&gt;컴포넌트 목록 및 취약점 추적&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;OpenChain AI Work Group&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;AI SBOM Compliance Guide&lt;/td&gt;
+ &lt;td&gt;공급망 내 AI SBOM 표준 절차&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;ISO/IEC 42003과 AI SBOM&lt;/div&gt;
+&lt;p&gt;ISO/IEC 42001의 구현 가이드인 &lt;strong&gt;ISO/IEC 42003&lt;/strong&gt;(개발 중)에 AI SBOM 관련 구체적 요구사항이
+포함될 예정이다. OpenChain AI Work Group은 AI SBOM 가이드를 42003의
+§6.2(AI 목표)와 Appendix C.2.11(투명성·설명 가능성)에 반영하는 것을 추진 중이다.&lt;/p&gt;</description></item></channel></rss>
