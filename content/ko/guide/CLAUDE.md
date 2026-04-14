@@ -2,14 +2,24 @@
 
 ## 목적
 이 디렉토리의 가이드를 2026년 기준으로 개선한다.
-ISO/IEC 5230(오픈소스 컴플라이언스)과 ISO/IEC 18974(보안 보증) 두 표준을 기반으로 한다.
+ISO/IEC 5230(오픈소스 컴플라이언스), ISO/IEC 18974(보안 보증), ISO/IEC 42001(AI 관리 시스템) 세 표준을 기반으로 한다.
 작업 브랜치: guide/2026-enterprise-oss-guide
 
 ## 디렉토리 구조
-- opensource_for_enterprise/ : 메인 가이드 (6개 섹션)
+- opensource_for_enterprise/ : 메인 가이드 (7개 섹션, 7번째는 AI 컴플라이언스)
+- iso5230_guide/              : ISO/IEC 5230 준수 가이드 (조항별 상세)
+- iso18974_guide/             : ISO/IEC 18974 준수 가이드 (조항별 상세)
+- iso42001_guide/             : ISO/IEC 42001 가이드 (오픈소스 관점, 2026 신설)
 - templates/1-policy/        : 오픈소스 정책 템플릿
 - templates/2-process-template/ : 오픈소스 프로세스 템플릿
-- tools/                     : 도구 페이지 (fossology, sw360, fosslight, osvscalibr)
+- tools/                     : 도구 페이지 (fossology, sw360, fosslight, osvscalibr 등)
+
+## ISO 42001 가이드 특성
+- 포지셔닝: "오픈소스 관점의 ISO 42001" — ISO 42001 전체가 아닌 오픈소스 교차 요구사항 중심
+- 입증자료 번호 체계 없음 (ISO 5230/18974와 달리 shall 요구사항 방식)
+- "체크포인트" 형태로 준수 여부 안내
+- reference 파일: `.claude/reference/iso-42001.md` (요구사항 요약, 저작권 준수 의역)
+- 오픈소스 교차 조항: §5.2, §6.1.2, §6.1.4, §7.2, §7.5, §8.5, §8.6, §8.8, §9.1
 
 ## 작업 원칙
 1. 파일 수정 전 반드시 변경 내용을 diff 형식으로 먼저 제안한다
