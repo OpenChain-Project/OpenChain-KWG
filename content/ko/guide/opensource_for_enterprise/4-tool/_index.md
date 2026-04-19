@@ -175,6 +175,8 @@ FOSSLight의 설치 및 사용 방법은 [FOSSLight 가이드](../../tools/3-fos
 
 Dependency-Track의 설치 및 사용 방법은 [Dependency-Track 가이드](../../tools/7-dependency-track/)를 참조하시기 바랍니다.
 
+> **빠른 시작**: cdxgen으로 SBOM을 생성하고 Dependency-Track에 업로드하여 라이선스 정책 및 취약점 모니터링 환경을 처음부터 구축하려면 [오픈소스 관리 자동화 환경 구성: cdxgen + Dependency-Track](../../tools/8-cdxgen-dt/)을 참조하시기 바랍니다.
+
 이러한 도구들을 활용하여 기업은 효과적으로 오픈소스 거버넌스를 수행하고 SBOM을 관리할 수 있으며, ISO/IEC 5230과 ISO/IEC 18974의 요구사항을 충족할 수 있습니다.
 
 ## 4. 오픈소스 보안취약점 관리 도구
