@@ -1,79 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>외부 문의 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%99%B8%EB%B6%80-%EB%AC%B8%EC%9D%98/</link><description>Recent content in 외부 문의 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%99%B8%EB%B6%80-%EB%AC%B8%EC%9D%98/index.xml" rel="self" type="application/rss+xml"/><item><title>§3.2.1 외부 문의 대응</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/2-relevant-tasks/1-access/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/2-relevant-tasks/1-access/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>외부 문의 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%99%B8%EB%B6%80-%EB%AC%B8%EC%9D%98/</link><description>Recent content in 외부 문의 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%99%B8%EB%B6%80-%EB%AC%B8%EC%9D%98/index.xml" rel="self" type="application/rss+xml"/><item><title>§3.2.1 외부 문의 대응</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/2-relevant-tasks/1-access/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/2-relevant-tasks/1-access/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 4 — 운영 체계 수립&lt;/strong&gt; 단계에서 구축합니다.
+&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
 &lt;p&gt;소프트웨어를 배포하는 기업은 제3자(고객, 오픈소스 저작권자, 연구자 등)로부터
 오픈소스 라이선스 컴플라이언스에 관한 문의를 받을 수 있다. 이 문의에 제때
 응답하지 못하면 저작권 침해 분쟁으로 확대될 위험이 있다. §3.2.1은 외부
 문의를 접수할 수 있는 공개된 연락 수단을 마련하고, 내부적으로는 문의에 체계적으로
 대응하기 위한 절차를 문서화하도록 요구한다. 이 조항은 공개 채널(입증자료 3.2.1.1)과
-내부 대응 절차(입증자료 3.2.1.2) 두 가지를 모두 갖출 것을 요구한다.&lt;/p&gt;
-&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;제3자가 오픈소스 라이선스 컴플라이언스 문의를 보낼 수 있는 공개 연락처(이메일
-주소, 웹폼 등)를 제품 또는 웹사이트에 명시한다.&lt;/li&gt;
-&lt;li&gt;외부 문의 접수부터 검토·답변·종결까지의 내부 대응 절차를 문서화한다.&lt;/li&gt;
-&lt;li&gt;문의 유형별 담당자(오픈소스 프로그램 매니저, 법무 담당 등)와 에스컬레이션
-경로를 절차에 포함한다.&lt;/li&gt;
-&lt;li&gt;문의 접수 및 대응 이력을 기록하고 보관한다.&lt;/li&gt;
-&lt;li&gt;정기적으로 공개 연락처 유효성과 내부 절차의 최신성을 점검한다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="3-요구사항-및-입증자료"&gt;3. 요구사항 및 입증자료&lt;/h2&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;조항 번호&lt;/th&gt;
- &lt;th&gt;요구사항 (KO)&lt;/th&gt;
- &lt;th&gt;입증자료&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;§3.2.1&lt;/td&gt;
- &lt;td&gt;외부의 오픈소스 문의에 효과적으로 대응하기 위한 프로세스를 유지해야 한다. 제3자가 오픈소스 컴플라이언스 문의를 할 수 있는 수단을 공개적으로 밝혀야 한다.&lt;/td&gt;
- &lt;td&gt;&lt;strong&gt;3.2.1.1&lt;/strong&gt; 제3자가 오픈소스 라이선스 컴플라이언스에 대해 문의할 수 있는 공개된 방법&lt;br&gt;&lt;strong&gt;3.2.1.2&lt;/strong&gt; 제3자의 오픈소스 라이선스 컴플라이언스 문의에 대응하기 위한 내부의 문서화된 절차&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;details&gt;&lt;summary&gt;영문 원문 보기&lt;/summary&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;§3.2.1 Access&lt;/strong&gt;
-Maintain a process to effectively respond to external open source inquiries.
-Publicly identify a means by which a third party can make an open source
-compliance inquiry.&lt;/p&gt;</description></item><item><title>§4.2.1 접근성</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/2-relevant-tasks/1-access/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/2-relevant-tasks/1-access/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+내부 대응 절차(입증자료 3.2.1.2) 두 가지를 모두 갖출 것을 요구한다.&lt;/p&gt;</description></item><item><title>§4.2.1 접근성</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/2-relevant-tasks/1-access/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/2-relevant-tasks/1-access/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 4 — 운영 체계 수립&lt;/strong&gt; 단계에서 구축합니다.
+&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
 &lt;p&gt;§4.2.1은 ISO/IEC 5230 §3.2.1(외부 문의 대응)과 구조가 동일하지만, 초점이
 &lt;strong&gt;라이선스 컴플라이언스 문의&lt;/strong&gt;에서 &lt;strong&gt;취약점 문의&lt;/strong&gt;로 전환된다. 제3자가 공급
 소프트웨어에서 알려진 취약점 또는 새로 발견한 취약점에 대해 문의할 수 있는
 공개 채널을 마련하고, 내부적으로는 이 문의에 체계적으로 대응하는 절차를
 문서화해야 한다. 보안 취약점 보고 채널은 CVD(Coordinated Vulnerability
 Disclosure) 절차와 연결되어 있으므로, 보안 연구자나 고객이 발견한 취약점을
-안전하게 접수하고 처리하는 체계가 필요하다.&lt;/p&gt;
-&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;제3자가 취약점 관련 문의를 보낼 수 있는 공개 연락처(이메일 주소, 웹폼 등)를
-제품 또는 웹사이트에 명시한다.&lt;/li&gt;
-&lt;li&gt;공개 채널을 통해 접수된 취약점 보고를 내부적으로 처리하는 절차를 문서화한다.&lt;/li&gt;
-&lt;li&gt;문의 접수·분류·담당자 배정·대응·종결까지의 처리 단계를 절차에 포함한다.&lt;/li&gt;
-&lt;li&gt;CVD 원칙(비공개 협력 후 공개)에 따른 처리 방침을 절차에 명시한다.&lt;/li&gt;
-&lt;li&gt;문의 접수 및 대응 이력을 기록하고 일정 기간 보관한다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="3-요구사항-및-입증자료"&gt;3. 요구사항 및 입증자료&lt;/h2&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;조항 번호&lt;/th&gt;
- &lt;th&gt;요구사항 (KO)&lt;/th&gt;
- &lt;th&gt;입증자료&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;§4.2.1&lt;/td&gt;
- &lt;td&gt;외부의 취약점 문의에 효과적으로 대응하기 위한 프로세스를 유지해야 한다. 제3자가 알려진 취약점 또는 새로 발견된 취약점에 대한 문의를 할 수 있는 수단을 공개적으로 밝혀야 한다.&lt;/td&gt;
- &lt;td&gt;&lt;strong&gt;4.2.1.1&lt;/strong&gt; 제3자가 알려진 취약점 또는 새로 발견된 취약점에 대한 문의를 할 수 있도록 공개적으로 볼 수 있는 방법 (예: 프로그램 참여자가 모니터링하는 이메일 주소 또는 웹 포털)&lt;br&gt;&lt;strong&gt;4.2.1.2&lt;/strong&gt; 제3자의 알려진 취약점 또는 새로 발견된 취약점 문의에 응답하기 위한 내부 문서화된 절차&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;details&gt;&lt;summary&gt;영문 원문 보기&lt;/summary&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;§4.2.1 Access&lt;/strong&gt;
-Maintain a process to effectively respond to external vulnerability
-inquiries. Publicly identify a means by which a third party can make an
-inquiry about known vulnerabilities or newly discovered vulnerabilities.&lt;/p&gt;</description></item></channel></rss>
+안전하게 접수하고 처리하는 체계가 필요하다.&lt;/p&gt;</description></item></channel></rss>

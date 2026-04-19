@@ -1,73 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>역량 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%97%AD%EB%9F%89/</link><description>Recent content in 역량 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%97%AD%EB%9F%89/index.xml" rel="self" type="application/rss+xml"/><item><title>§3.1.2 역량</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/1-program-foundation/2-competence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/1-program-foundation/2-competence/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>역량 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%97%AD%EB%9F%89/</link><description>Recent content in 역량 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%97%AD%EB%9F%89/index.xml" rel="self" type="application/rss+xml"/><item><title>§3.1.2 역량</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/1-program-foundation/2-competence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/1-program-foundation/2-competence/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 2 — 역량 및 교육&lt;/strong&gt; 단계에서 구축합니다.
+&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
 &lt;p&gt;오픈소스 프로그램이 실제로 작동하려면 관련 역할을 맡은 사람들이 그 역할을 수행할
 역량을 갖추어야 한다. 역할과 책임이 문서에만 적혀 있고 담당자가 오픈소스 라이선스나
 보안 취약점 관리에 대한 기본 지식도 없다면, 정책과 프로세스는 유명무실해진다.
 §3.1.2는 프로그램에 관여하는 역할을 식별하고 각 역할에 필요한 역량을 정의하며,
 참여자가 실제로 그 역량을 갖추었는지 평가하고 기록하도록 요구한다. 이 조항은
-§3.1.1 정책에서 정의한 역할 구조를 구체적인 역량 체계로 발전시키는 단계다.&lt;/p&gt;
-&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;오픈소스 프로그램의 성과에 영향을 미치는 역할과 각 역할의 책임을 목록으로 작성한다.&lt;/li&gt;
-&lt;li&gt;각 역할을 수행하는 데 필요한 역량(지식·기술·경험)을 구체적으로 정의하고 문서화한다.&lt;/li&gt;
-&lt;li&gt;각 프로그램 참여자가 해당 역할에 필요한 역량을 갖추었는지 평가한다.&lt;/li&gt;
-&lt;li&gt;역량이 미흡한 경우 교육·훈련·멘토링 등 역량 확보 조치를 취한다.&lt;/li&gt;
-&lt;li&gt;역량 평가 결과와 후속 조치 이력을 문서화하여 보관한다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="3-요구사항-및-입증자료"&gt;3. 요구사항 및 입증자료&lt;/h2&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;조항 번호&lt;/th&gt;
- &lt;th&gt;요구사항 (KO)&lt;/th&gt;
- &lt;th&gt;입증자료&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;§3.1.2&lt;/td&gt;
- &lt;td&gt;조직은 다음을 수행해야 한다: &lt;br&gt;- 프로그램의 성과와 효율에 영향을 미치는 역할과 그 책임을 확인한다 &lt;br&gt;- 각 역할을 수행할 프로그램 참여자가 갖춰야 할 필요 역량을 결정한다 &lt;br&gt;- 프로그램 참여자가 적절한 교육·훈련·경험을 바탕으로 자격을 갖춘 자임을 확인한다 &lt;br&gt;- 해당되는 경우 필요한 역량을 확보하기 위해 조치한다 &lt;br&gt;- 역량 보유를 증명하기 위한 정보를 문서화하여 유지한다&lt;/td&gt;
- &lt;td&gt;&lt;strong&gt;3.1.2.1&lt;/strong&gt; 프로그램의 여러 참여자에 대한 역할과 각 역할의 책임을 나열한 문서&lt;br&gt;&lt;strong&gt;3.1.2.2&lt;/strong&gt; 각 역할을 위해 필요한 역량을 기술한 문서&lt;br&gt;&lt;strong&gt;3.1.2.3&lt;/strong&gt; 각 프로그램 참여자의 역량을 평가한 문서화된 증거&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;details&gt;&lt;summary&gt;영문 원문 보기&lt;/summary&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;§3.1.2 Competence&lt;/strong&gt;
-The organization shall:&lt;/p&gt;</description></item><item><title>§4.1.2 역량</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/2-competence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/2-competence/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+§3.1.1 정책에서 정의한 역할 구조를 구체적인 역량 체계로 발전시키는 단계다.&lt;/p&gt;</description></item><item><title>§4.1.2 역량</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/2-competence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/2-competence/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 2 — 역량 및 교육&lt;/strong&gt; 단계에서 구축합니다. ISO/IEC 5230 대비 참여자 목록(4.1.2.3), 주기적 검토 증거(4.1.2.5), 내부 모범 사례 일치 검증(4.1.2.6) 3개 항목이 추가됩니다.
+&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
 &lt;p&gt;§4.1.2는 ISO/IEC 5230 §3.1.2(역량)와 기본 구조는 동일하지만, 입증자료 항목이
 3건 더 많다. 5230이 역할 목록·역량 정의·역량 평가 증거 3가지를 요구하는 반면,
 18974는 여기에 &lt;strong&gt;참여자 목록 및 역할 매핑(4.1.2.3)&lt;/strong&gt;, &lt;strong&gt;주기적 검토 및 프로세스
 변경 증거(4.1.2.5)&lt;/strong&gt;, &lt;strong&gt;내부 모범 사례와의 일치 검증(4.1.2.6)&lt;/strong&gt; 을 추가로
 요구한다. 이 세 가지 추가 항목은 역량 체계가 형식에 그치지 않고 실제로 최신
-상태를 유지하며 업계 표준과 정합성을 갖추고 있음을 입증하도록 요구한다.&lt;/p&gt;
-&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;프로그램 역할별 책임 목록을 작성한다 (5230과 동일).&lt;/li&gt;
-&lt;li&gt;각 역할에 필요한 역량을 정의하고 문서화한다 (5230과 동일).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;참여자 이름과 각자의 역할을 매핑한 목록&lt;/strong&gt;을 별도로 작성한다 (18974 추가).&lt;/li&gt;
-&lt;li&gt;각 참여자의 역량을 평가하고 기록한다 (5230과 동일).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;주기적으로 역량 체계를 검토하고 프로세스 변경 사항을 기록한다&lt;/strong&gt; (18974 추가).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;역량 체계가 회사 내부 모범 사례와 일치하는지 확인하고 담당자를 지정한다&lt;/strong&gt;
-(18974 추가).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="3-요구사항-및-입증자료"&gt;3. 요구사항 및 입증자료&lt;/h2&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;조항 번호&lt;/th&gt;
- &lt;th&gt;요구사항 (KO)&lt;/th&gt;
- &lt;th&gt;입증자료&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;§4.1.2&lt;/td&gt;
- &lt;td&gt;조직은 프로그램의 성과와 효율에 영향을 미치는 역할과 책임을 확인하고, 각 역할의 필요 역량을 결정하며, 참여자의 역량을 확인하고 필요 시 조치를 취하고, 역량 보유 증거를 문서화하여 유지해야 한다.&lt;/td&gt;
- &lt;td&gt;&lt;strong&gt;4.1.2.1&lt;/strong&gt; 여러 프로그램 참여자에 대한 해당 책임이 있는 문서화된 역할 목록&lt;br&gt;&lt;strong&gt;4.1.2.2&lt;/strong&gt; 각 역할에 대한 역량을 식별하는 문서&lt;br&gt;&lt;strong&gt;4.1.2.3&lt;/strong&gt; 참여자 목록 및 해당 역할 ★&lt;br&gt;&lt;strong&gt;4.1.2.4&lt;/strong&gt; 각 프로그램 참여자에 대해 평가된 역량에 대한 문서화된 증거&lt;br&gt;&lt;strong&gt;4.1.2.5&lt;/strong&gt; 주기적인 검토 및 프로세스 변경에 대한 문서화된 증거 ★&lt;br&gt;&lt;strong&gt;4.1.2.6&lt;/strong&gt; 이러한 프로세스가 회사 내부 모범 사례와 일치하며 최신 상태를 유지하고 있는지, 그리고 이를 확인하는 담당자가 지정되었는지에 대한 문서화된 증거 ★&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;★ = ISO/IEC 5230 §3.1.2 대비 추가 항목&lt;/p&gt;</description></item><item><title>3. 지원</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/3-support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/3-support/</guid><description>&lt;h2 id="1-개요"&gt;1. 개요&lt;/h2&gt;
+상태를 유지하며 업계 표준과 정합성을 갖추고 있음을 입증하도록 요구한다.&lt;/p&gt;</description></item><item><title>3. 지원</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/3-support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/3-support/</guid><description>&lt;h2 id="1-개요"&gt;1. 개요&lt;/h2&gt;
 &lt;p&gt;ISO/IEC 42001 §7은 AI 관리 시스템을 운영하는 데 필요한 &lt;strong&gt;역량, 인식, 커뮤니케이션,
 문서화&lt;/strong&gt;를 다룬다. 오픈소스 담당자 관점에서는 **§7.2(역량)**과 **§7.5(문서화된 정보)**가
 핵심 교차점이다.&lt;/p&gt;

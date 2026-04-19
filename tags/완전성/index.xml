@@ -1,40 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>완전성 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%99%84%EC%A0%84%EC%84%B1/</link><description>Recent content in 완전성 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%99%84%EC%A0%84%EC%84%B1/index.xml" rel="self" type="application/rss+xml"/><item><title>§4.4.1 완전성</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/4-conformance/1-completeness/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/4-conformance/1-completeness/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>완전성 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%99%84%EC%A0%84%EC%84%B1/</link><description>Recent content in 완전성 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%99%84%EC%A0%84%EC%84%B1/index.xml" rel="self" type="application/rss+xml"/><item><title>§4.4.1 완전성</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/4-conformance/1-completeness/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/4-conformance/1-completeness/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 5 — 적합성 확인 및 유지&lt;/strong&gt; 단계에서 구축합니다. Phase 1~4의 모든 입증자료를 갖춘 후 진행합니다.
+&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
 &lt;p&gt;§4.4.1은 ISO/IEC 5230 §3.6.1(적합성)에 대응하는 조항이다. §4.1.4에서 정의한
 프로그램이 ISO/IEC 18974의 모든 요구사항을 충족함을 확인하는 문서를 작성해야
 한다. 5230 §3.6.1과 구조는 동일하지만, 확인 대상이 18974의 25개 입증자료
 항목 전체라는 점이 다르다. ISO/IEC 5230 인증과 18974 인증을 동시에 준비하는
 경우 두 규격의 공통 항목을 통합 점검하고, 18974 전용 9개 항목(★ 표시)을
-추가로 확인하는 방식이 효율적이다.&lt;/p&gt;
-&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;§4.1부터 §4.3까지 모든 조항의 입증자료(25개 항목)가 갖추어졌는지 자체
-점검한다.&lt;/li&gt;
-&lt;li&gt;프로그램이 §4.1.4에서 정의한 적용 범위 내에서 ISO/IEC 18974의 모든 요구사항을
-충족함을 확인하는 문서를 작성한다.&lt;/li&gt;
-&lt;li&gt;확인 문서에 검토자, 승인자, 확인 날짜를 기록한다.&lt;/li&gt;
-&lt;li&gt;ISO/IEC 5230과 18974를 동시에 준수하는 경우 통합 점검표를 활용하여 중복
-검토 부담을 줄인다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="3-요구사항-및-입증자료"&gt;3. 요구사항 및 입증자료&lt;/h2&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;조항 번호&lt;/th&gt;
- &lt;th&gt;요구사항 (KO)&lt;/th&gt;
- &lt;th&gt;입증자료&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;§4.4.1&lt;/td&gt;
- &lt;td&gt;프로그램이 이 규격을 준수하는 것으로 간주되려면, 조직은 프로그램이 이 문서의 모든 요구사항을 충족한다고 확인해야 한다.&lt;/td&gt;
- &lt;td&gt;&lt;strong&gt;4.4.1.1&lt;/strong&gt; §4.1.4에 명시된 프로그램이 이 문서의 모든 요구 사항을 충족함을 확인하는 문서화된 증거&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;details&gt;&lt;summary&gt;영문 원문 보기&lt;/summary&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;§4.4.1 Completeness&lt;/strong&gt;
-In order for a program to be deemed conformant with this specification, the
-organization shall affirm that the program satisfies the requirements
-presented in this specification.&lt;/p&gt;</description></item></channel></rss>
+추가로 확인하는 방식이 효율적이다.&lt;/p&gt;</description></item></channel></rss>

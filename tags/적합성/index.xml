@@ -1,38 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>적합성 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%A0%81%ED%95%A9%EC%84%B1/</link><description>Recent content in 적합성 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%A0%81%ED%95%A9%EC%84%B1/index.xml" rel="self" type="application/rss+xml"/><item><title>§3.6.1 적합성</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/6-conformance/1-conformance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/6-conformance/1-conformance/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>적합성 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%A0%81%ED%95%A9%EC%84%B1/</link><description>Recent content in 적합성 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%A0%81%ED%95%A9%EC%84%B1/index.xml" rel="self" type="application/rss+xml"/><item><title>§3.6.1 적합성</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/6-conformance/1-conformance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/6-conformance/1-conformance/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 5 — 적합성 확인 및 유지&lt;/strong&gt; 단계에서 구축합니다. Phase 1~4의 모든 입증자료를 갖춘 후 진행합니다.
+&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
 &lt;p&gt;ISO/IEC 5230 인증을 받으려면 §3.1.4에서 정의한 프로그램이 이 규격의 모든
 요구사항을 충족한다는 사실을 문서로 확인해야 한다. §3.6.1은 앞서 §3.1부터
 §3.5까지의 모든 조항을 충족하였음을 공식적으로 선언하는 단계다. 이 조항은
 규격 준수를 완결 짓는 최종 확인 절차로, 프로그램이 ISO/IEC 5230:2020 버전
-2.1의 모든 요구사항을 만족한다는 조직의 공식 확인이 필요하다.&lt;/p&gt;
-&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;§3.1부터 §3.5까지 모든 조항의 입증자료(24개 항목)가 갖추어졌는지 자체
-점검한다.&lt;/li&gt;
-&lt;li&gt;프로그램이 §3.1.4에서 정의한 적용 범위 내에서 ISO/IEC 5230의 모든 요구사항을
-충족함을 확인하는 문서를 작성한다.&lt;/li&gt;
-&lt;li&gt;확인 문서에 검토자, 승인자, 확인 날짜를 기록한다.&lt;/li&gt;
-&lt;li&gt;자가 인증, 독립 평가, 또는 제3자 인증 중 적합한 인증 방법을 선택하여 진행한다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="3-요구사항-및-입증자료"&gt;3. 요구사항 및 입증자료&lt;/h2&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;조항 번호&lt;/th&gt;
- &lt;th&gt;요구사항 (KO)&lt;/th&gt;
- &lt;th&gt;입증자료&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;§3.6.1&lt;/td&gt;
- &lt;td&gt;프로그램이 이 규격을 준수하는 것으로 간주되려면, 조직은 프로그램이 이 문서(버전 2.1)에 제시된 요구사항을 충족한다고 확인해야 한다.&lt;/td&gt;
- &lt;td&gt;&lt;strong&gt;3.6.1.1&lt;/strong&gt; §3.1.4에서 명시한 프로그램이 이 규격의 모든 요구사항을 충족함을 확인하는 문서&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;details&gt;&lt;summary&gt;영문 원문 보기&lt;/summary&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;§3.6.1 Conformance&lt;/strong&gt;
-In order for a program to be deemed conformant with this specification, the
-organization shall affirm that the program satisfies the requirements
-presented in this document (version 2.1).&lt;/p&gt;</description></item><item><title>§3.6 규격 준수</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/6-conformance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/6-conformance/</guid><description/></item></channel></rss>
+2.1의 모든 요구사항을 만족한다는 조직의 공식 확인이 필요하다.&lt;/p&gt;</description></item><item><title>§3.6 규격 준수</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/6-conformance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/6-conformance/</guid><description/></item></channel></rss>

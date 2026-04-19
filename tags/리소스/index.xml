@@ -1,73 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>리소스 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EB%A6%AC%EC%86%8C%EC%8A%A4/</link><description>Recent content in 리소스 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EB%A6%AC%EC%86%8C%EC%8A%A4/index.xml" rel="self" type="application/rss+xml"/><item><title>§3.2.2 효과적 리소스</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/2-relevant-tasks/2-resourced/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/2-relevant-tasks/2-resourced/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>리소스 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EB%A6%AC%EC%86%8C%EC%8A%A4/</link><description>Recent content in 리소스 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EB%A6%AC%EC%86%8C%EC%8A%A4/index.xml" rel="self" type="application/rss+xml"/><item><title>§3.2.2 효과적 리소스</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/2-relevant-tasks/2-resourced/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/2-relevant-tasks/2-resourced/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 1 — 기반 수립&lt;/strong&gt; 단계에서 구축합니다.
+&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
 &lt;p&gt;오픈소스 프로그램이 실제로 작동하려면 역할을 정의하는 것만으로는 부족하다.
 각 역할을 담당할 실제 인원이 배정되고, 업무 수행에 필요한 시간과 예산이
 충분히 지원되어야 한다. §3.2.2는 프로그램 역할별 담당자를 문서로 명시하고,
 인원 배치와 예산이 적절히 이루어졌음을 확인하며, 법률 자문 접근 방법과 내부
 책임 할당 절차, 미준수 사례 처리 절차를 갖출 것을 요구한다. 이 조항은 5개의
 입증자료 항목으로 구성되어 §3.1 프로그램 기반에서 정의한 역할 구조를 실제
-운영 체계로 구현하는 단계다.&lt;/p&gt;
-&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;프로그램 내 각 역할(오픈소스 프로그램 매니저, 법무 담당, IT 담당 등)을 맡은
-담당자의 이름 또는 직무를 문서에 기재한다.&lt;/li&gt;
-&lt;li&gt;각 역할 담당자가 업무를 수행할 수 있도록 충분한 시간과 예산이 배정되었음을
-확인하고 기록한다.&lt;/li&gt;
-&lt;li&gt;오픈소스 라이선스 컴플라이언스 관련 법적 문제 발생 시 이용할 수 있는 내부
-또는 외부 법률 자문 수단을 식별하고 문서화한다.&lt;/li&gt;
-&lt;li&gt;오픈소스 컴플라이언스 내부 책임을 각 역할에 할당하는 절차를 문서화한다.&lt;/li&gt;
-&lt;li&gt;컴플라이언스 미준수 사례를 발견했을 때 검토하고 시정하는 절차를 문서화한다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="3-요구사항-및-입증자료"&gt;3. 요구사항 및 입증자료&lt;/h2&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;조항 번호&lt;/th&gt;
- &lt;th&gt;요구사항 (KO)&lt;/th&gt;
- &lt;th&gt;입증자료&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;§3.2.2&lt;/td&gt;
- &lt;td&gt;프로그램 업무를 식별하고 리소스를 제공한다: 프로그램 업무의 성공적 수행을 위한 책임을 할당한다 / 프로그램 업무에 충분한 리소스(시간·예산)를 제공한다 / 법적 전문성에 접근할 수 있는 방법을 확보한다 / 미준수 사례 검토 및 시정 프로세스를 마련한다&lt;/td&gt;
- &lt;td&gt;&lt;strong&gt;3.2.2.1&lt;/strong&gt; 프로그램 내 각 역할을 담당하는 인원, 그룹 또는 직무의 이름을 기재한 문서&lt;br&gt;&lt;strong&gt;3.2.2.2&lt;/strong&gt; 프로그램 내 각 역할을 담당하는 인원이 적합하게 배치되고, 예산이 적절하게 지원되어야 함&lt;br&gt;&lt;strong&gt;3.2.2.3&lt;/strong&gt; 오픈소스 라이선스 컴플라이언스 문제 해결을 위해 내부 또는 외부의 전문 법률 자문을 이용할 수 있는 방법&lt;br&gt;&lt;strong&gt;3.2.2.4&lt;/strong&gt; 오픈소스 컴플라이언스에 대한 내부 책임을 할당하는 문서화된 절차&lt;br&gt;&lt;strong&gt;3.2.2.5&lt;/strong&gt; 미준수 사례를 검토하고 이를 수정하기 위한 문서화된 절차&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;details&gt;&lt;summary&gt;영문 원문 보기&lt;/summary&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;§3.2.2 Effectively Resourced&lt;/strong&gt;
-Identify and Resource Program Task(s):&lt;/p&gt;</description></item><item><title>§4.2.2 효과적 리소스</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/2-relevant-tasks/2-resourced/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/2-relevant-tasks/2-resourced/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+운영 체계로 구현하는 단계다.&lt;/p&gt;</description></item><item><title>§4.2.2 효과적 리소스</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/2-relevant-tasks/2-resourced/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/2-relevant-tasks/2-resourced/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 1 — 기반 수립&lt;/strong&gt; 단계에서 구축합니다.
+&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
 &lt;p&gt;§4.2.2는 ISO/IEC 5230 §3.2.2(효과적 리소스)에 대응하지만 두 가지 차이가 있다.
 첫째, 5230이 5개 입증자료를 요구하는 반면 18974는 4개를 요구한다. 5230의
 §3.2.2.5(미준수 사례 검토·시정 절차)가 18974에서는 §4.1.5 표준 관행 구현에
 흡수된다. 둘째, §3.2.2.3(법률 자문 접근 방법)이 §4.2.2.3에서는 &lt;strong&gt;취약점 해결
 전문성&lt;/strong&gt;으로 대체된다. 라이선스 법률 자문이 아니라, 알려진 취약점을 실제로
-해결할 수 있는 기술적·보안 전문성을 확보하고 그 접근 방법을 문서화해야 한다.&lt;/p&gt;
-&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;프로그램 내 각 역할을 담당하는 인원의 이름 또는 직무를 문서에 기재한다.&lt;/li&gt;
-&lt;li&gt;각 역할 담당자에게 충분한 시간과 예산이 배정되었음을 확인하고 기록한다.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;알려진 취약점을 해결하기 위해 이용 가능한 내부 또는 외부 보안 전문성을
-식별하고 문서화한다&lt;/strong&gt; (5230과 초점이 다름).&lt;/li&gt;
-&lt;li&gt;보안 보증 컴플라이언스에 대한 내부 책임을 각 역할에 할당하는 절차를
-문서화한다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="3-요구사항-및-입증자료"&gt;3. 요구사항 및 입증자료&lt;/h2&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;조항 번호&lt;/th&gt;
- &lt;th&gt;요구사항 (KO)&lt;/th&gt;
- &lt;th&gt;입증자료&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;§4.2.2&lt;/td&gt;
- &lt;td&gt;프로그램 업무를 식별하고 리소스를 제공한다: 역할별 책임을 할당하고 충분한 리소스를 제공하며, 취약점 해결 전문성에 접근할 수 있는 방법을 확보하고, 내부 책임 할당 절차를 마련한다.&lt;/td&gt;
- &lt;td&gt;&lt;strong&gt;4.2.2.1&lt;/strong&gt; 프로그램 역할에 지정된 개인, 그룹 또는 기능의 이름이 포함된 문서&lt;br&gt;&lt;strong&gt;4.2.2.2&lt;/strong&gt; 식별된 프로그램 역할이 적절히 인력 배치되었으며 충분한 예산이 제공되었음을 나타내는 문서&lt;br&gt;&lt;strong&gt;4.2.2.3&lt;/strong&gt; 식별된 알려진 취약점을 해결하기 위해 이용 가능한 전문성을 명시한 문서 ★&lt;br&gt;&lt;strong&gt;4.2.2.4&lt;/strong&gt; 보안 보증을 위해 내부 책임을 할당하는 절차를 문서화한 자료&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;★ = ISO/IEC 5230 §3.2.2.3(법률 자문)과 다름 — 보안 전문성으로 초점 전환&lt;/p&gt;</description></item></channel></rss>
+해결할 수 있는 기술적·보안 전문성을 확보하고 그 접근 방법을 문서화해야 한다.&lt;/p&gt;</description></item></channel></rss>

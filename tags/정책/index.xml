@@ -1,55 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>정책 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%A0%95%EC%B1%85/</link><description>Recent content in 정책 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%A0%95%EC%B1%85/index.xml" rel="self" type="application/rss+xml"/><item><title>§3.1.1 정책</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/1-program-foundation/1-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/1-program-foundation/1-policy/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>정책 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%A0%95%EC%B1%85/</link><description>Recent content in 정책 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%A0%95%EC%B1%85/index.xml" rel="self" type="application/rss+xml"/><item><title>§3.1.1 정책</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/1-program-foundation/1-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/1-program-foundation/1-policy/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 1 — 기반 수립&lt;/strong&gt; 단계에서 구축합니다.
+&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
 &lt;p&gt;오픈소스 정책이 없는 기업은 개발자가 오픈소스 라이선스 의무를 인지하지 못한 채
 소프트웨어를 배포하게 되며, 이는 저작권 침해 소송, 소스코드 강제 공개, 거래처 계약
 해지 등 심각한 법적·사업적 위험으로 이어질 수 있다. §3.1.1은 이러한 위험을 예방하기
 위해 오픈소스 라이선스 컴플라이언스를 관리하는 문서화된 정책을 수립하고, 조직 내
 모든 프로그램 참여자가 정책의 존재를 인식할 수 있도록 전파할 것을 요구한다. 이 조항은
 ISO/IEC 5230 프로그램 전체의 기반이 되며, 이후 모든 조항(역량·프로세스·산출물 등)은
-이 정책 위에서 작동한다.&lt;/p&gt;</description></item><item><title>§4.1.1 정책</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/1-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/1-policy/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+이 정책 위에서 작동한다.&lt;/p&gt;</description></item><item><title>§4.1.1 정책</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/1-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/1-policy/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 1 — 기반 수립&lt;/strong&gt; 단계에서 구축합니다.
+&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
 &lt;p&gt;§4.1.1은 ISO/IEC 5230 §3.1.1(라이선스 컴플라이언스 정책)과 대응하는 조항이지만,
 초점이 &lt;strong&gt;보안 보증&lt;/strong&gt;으로 전환된다. 오픈소스 컴포넌트의 알려진 취약점과 새로
 발견되는 취약점을 체계적으로 관리하는 정책이 문서화되어 있어야 하며, 그 정책이
 조직 내부에 전파되어야 한다. ISO/IEC 5230 §3.1.1과의 핵심 차이점은 &lt;strong&gt;정책과
 전파 절차 자체에 대한 정기 검토 프로세스&lt;/strong&gt;를 요구한다는 점이다. 정책을 수립하는
 것에 그치지 않고, 정책이 항상 유효하고 최신 상태를 유지하도록 검토 체계를
-갖추어야 한다.&lt;/p&gt;
-&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;공급 소프트웨어에 포함된 오픈소스 컴포넌트의 보안 취약점을 관리하는 정책을
-문서화하고 공식화한다.&lt;/li&gt;
-&lt;li&gt;정책에 취약점 탐지·평가·대응·통보 원칙과 CVD(Coordinated Vulnerability
-Disclosure) 방침을 포함한다.&lt;/li&gt;
-&lt;li&gt;프로그램 참여자(개발자·보안 담당·법무·IT 등)에게 정책을 전파하는 절차를
-수립하고 문서화한다.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;정책과 전파 절차 자체를 정기적으로 검토하여 최신 상태를 유지하는 검토
-프로세스&lt;/strong&gt;를 정책 내에 명시한다.&lt;/li&gt;
-&lt;li&gt;검토 완료 일자, 검토자, 변경 이력을 문서에 기록한다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="3-요구사항-및-입증자료"&gt;3. 요구사항 및 입증자료&lt;/h2&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;조항 번호&lt;/th&gt;
- &lt;th&gt;요구사항 (KO)&lt;/th&gt;
- &lt;th&gt;입증자료&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;§4.1.1&lt;/td&gt;
- &lt;td&gt;배포용 소프트웨어의 오픈소스 소프트웨어 보안 보증을 관리하는 문서화된 오픈소스 정책이 있어야 한다. 이 정책은 조직 내부에 전파되어야 한다. &lt;strong&gt;정책과 전달 방법은 항상 유효하고 최신 상태를 유지하기 위한 검토 프로세스를 가져야 한다.&lt;/strong&gt;&lt;/td&gt;
- &lt;td&gt;&lt;strong&gt;4.1.1.1&lt;/strong&gt; 문서화된 오픈소스 소프트웨어 보안 보증 정책&lt;br&gt;&lt;strong&gt;4.1.1.2&lt;/strong&gt; 프로그램 참여자가 보안 보증 정책을 인식하도록 하기 위한 문서화된 절차&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;details&gt;&lt;summary&gt;영문 원문 보기&lt;/summary&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;§4.1.1 Policy&lt;/strong&gt;
-A written open source software security assurance policy shall exist that
-governs open source software security assurance of the supplied software.
-The policy shall be internally communicated. The policy and its method of
-communication shall have a review process to ensure they remain current and
-valid.&lt;/p&gt;</description></item><item><title>Appendix</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/templates/1-policy/appendix/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/templates/1-policy/appendix/</guid><description>&lt;h2 id="appendix-1-담당자-현황"&gt;Appendix 1. 담당자 현황&lt;/h2&gt;
+갖추어야 한다.&lt;/p&gt;</description></item><item><title>Appendix</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/templates/1-policy/appendix/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/templates/1-policy/appendix/</guid><description>&lt;h2 id="appendix-1-담당자-현황"&gt;Appendix 1. 담당자 현황&lt;/h2&gt;
 &lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;

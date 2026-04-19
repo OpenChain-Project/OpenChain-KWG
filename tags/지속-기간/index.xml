@@ -1,41 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>지속 기간 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%A7%80%EC%86%8D-%EA%B8%B0%EA%B0%84/</link><description>Recent content in 지속 기간 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%A7%80%EC%86%8D-%EA%B8%B0%EA%B0%84/index.xml" rel="self" type="application/rss+xml"/><item><title>§3.6.2 지속 기간</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/6-conformance/2-duration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/6-conformance/2-duration/</guid><description>&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>지속 기간 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%A7%80%EC%86%8D-%EA%B8%B0%EA%B0%84/</link><description>Recent content in 지속 기간 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%A7%80%EC%86%8D-%EA%B8%B0%EA%B0%84/index.xml" rel="self" type="application/rss+xml"/><item><title>§3.6.2 지속 기간</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/6-conformance/2-duration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/6-conformance/2-duration/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 5 — 적합성 확인 및 유지&lt;/strong&gt; 단계에서 구축합니다.
+&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso5230_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
 &lt;p&gt;ISO/IEC 5230 인증은 한 번 취득으로 영구히 유효하지 않다. 규격의 새 버전이
 발행되면 이전 버전 기준으로 인증을 받은 프로그램은 새 버전 발행 후 18개월까지만
 적합성이 유지된다. §3.6.2는 프로그램이 적합성 인증을 취득한 날로부터 최근
 18개월 이내에 규격의 모든 요구사항을 충족하고 있음을 확인하는 문서를 유지하도록
 요구한다. 이 조항은 오픈소스 컴플라이언스 프로그램이 형식적 인증에 그치지 않고
-지속적으로 운영되는지 확인하는 장치다.&lt;/p&gt;
-&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;적합성 인증 취득 날짜를 기록하고 관리한다.&lt;/li&gt;
-&lt;li&gt;인증 취득 후 최근 18개월 이내에 규격의 모든 요구사항을 충족하고 있음을
-재확인하고 문서화한다.&lt;/li&gt;
-&lt;li&gt;새로운 버전의 규격이 발행된 경우 18개월 이내에 최신 버전 기준으로
-프로그램을 갱신하고 재확인한다.&lt;/li&gt;
-&lt;li&gt;정기적인 내부 감사를 통해 프로그램의 지속적 준수 여부를 점검한다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="3-요구사항-및-입증자료"&gt;3. 요구사항 및 입증자료&lt;/h2&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;조항 번호&lt;/th&gt;
- &lt;th&gt;요구사항 (KO)&lt;/th&gt;
- &lt;th&gt;입증자료&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;§3.6.2&lt;/td&gt;
- &lt;td&gt;이 규격을 준수하는 프로그램은, 규격의 새 버전이 발행된 후 18개월이 경과할 때까지 이전에 준수하던 규격 버전에 대해서도 계속 준수하는 것으로 간주된다. 준수 프로그램이 최신 버전의 규격을 준수하도록 업데이트하는 것을 권장한다.&lt;/td&gt;
- &lt;td&gt;&lt;strong&gt;3.6.2.1&lt;/strong&gt; 프로그램이 적합성 인증을 획득한 후 지난 18개월 동안 이 규격 버전의 모든 요구사항을 충족하고 있음을 확인하는 문서&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;details&gt;&lt;summary&gt;영문 원문 보기&lt;/summary&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;§3.6.2 Duration&lt;/strong&gt;
-A program that is conformant with this specification shall remain conformant
-even if the version of the specification it was conformant against is
-subsequently updated, for a period of 18 months after the new version of
-the specification is published. It is recommended that conformant programs
-be updated to be conformant with the latest version of the specification.&lt;/p&gt;</description></item></channel></rss>
+지속적으로 운영되는지 확인하는 장치다.&lt;/p&gt;</description></item></channel></rss>
