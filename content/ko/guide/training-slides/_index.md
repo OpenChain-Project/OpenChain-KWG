@@ -1,22 +1,22 @@
 ---
-title: "강의 슬라이드"
-linkTitle: "강의 슬라이드"
-weight: 80
+title: "교육 슬라이드"
+linkTitle: "교육 슬라이드"
+weight: 500
 type: docs
 categories: ["guide"]
 tags: ["교육자료", "슬라이드", "오픈소스 거버넌스", "ISO 5230", "ISO 18974"]
 description: >
-  기업 오픈소스 거버넌스 담당자를 위한 4시간 강의 슬라이드입니다.
+  기업 오픈소스 거버넌스 담당자를 위한 4시간 교육 슬라이드입니다.
   ISO/IEC 5230, ISO/IEC 18974, AI 컴플라이언스를 다룹니다.
 ---
 
-## 강의 슬라이드
+## 교육 슬라이드
 
-이 페이지에서는 기업 오픈소스 거버넌스 전 과정을 담은 강의 슬라이드를 제공합니다.
-[기업 오픈소스 관리 가이드](/guide/opensource_for_enterprise/) 내용을 4시간 강의용으로 구성한 자료입니다.
+이 페이지에서는 기업 오픈소스 거버넌스 전 과정을 담은 교육 슬라이드를 제공합니다.
+[기업 오픈소스 관리 가이드](/guide/opensource_for_enterprise/) 내용을 4시간 교육용으로 구성한 자료입니다.
 
 <div class="mx-auto" style="margin: 24px 0;">
-  <a class="btn btn-lg btn-primary mr-3 mb-4" href="../../../slides/enterprise-oss-governance.html" target="_blank">
+  <a class="btn btn-lg btn-primary mr-3 mb-4" href="../../slides/enterprise-oss-governance.html" target="_blank">
     슬라이드 보기 →
   </a>
 </div>
@@ -30,7 +30,7 @@ description: >
 | Part 3 | AI 컴플라이언스 | AI 모델 라이선스, 학습 데이터 관리, AI-BOM |
 
 - **슬라이드 수**: 약 93장
-- **예상 강의 시간**: 4시간
+- **예상 교육 시간**: 4시간
 - **대상**: 기업 오픈소스 컴플라이언스 담당자, 법무팀, OSPO
 
 ## 라이선스
