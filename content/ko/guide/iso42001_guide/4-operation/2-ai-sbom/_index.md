@@ -11,7 +11,7 @@ description: >
 
 ## 1. AI SBOM이란?
 
-**AI SBOM(AI System Bill of Materials)**은 AI 시스템을 구성하는 모든 요소의 목록과
+**AI SBOM(AI System Bill of Materials)** 은 AI 시스템을 구성하는 모든 요소의 목록과
 그 출처·라이선스를 문서화한 것이다. 소프트웨어 SBOM(ISO/IEC 5230 §3.3.1)의 개념을
 AI 시스템으로 확장한 것으로, ISO/IEC 42001 §7.5(문서화된 정보) 요구사항의 핵심 산출물이다.
 

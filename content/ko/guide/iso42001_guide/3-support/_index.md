@@ -56,7 +56,7 @@ ISO/IEC 42001은 AI 관련 역할을 수행하는 인원이 필요한 역량을 
 ## 3. §7.5 문서화된 정보 — AI SBOM ★
 
 ISO/IEC 42001 §7.5는 AI 관리 시스템 운영에 필요한 **문서화된 정보**를 수립·유지하도록 요구한다.
-오픈소스 관점에서 **AI SBOM(AI System Bill of Materials)**은 §7.5의 핵심 산출물이다.
+오픈소스 관점에서 **AI SBOM(AI System Bill of Materials)** 은 §7.5의 핵심 산출물이다.
 
 ### AI SBOM이란?
 
