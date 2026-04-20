@@ -1,0 +1,16 @@
+[   INFO] ### Version Info ###
+[WARNING] Newer version is available : v4.1.38
+[WARNING] You can update it with command ('pip install fosslight_dependency --upgrade --force-reinstall')
+[   INFO] [FOSSLIGHT_DEPENDENCY] Tool Info : fosslight_dependency v4.1.5
+[   INFO] [FOSSLIGHT_DEPENDENCY] Found the manifest file(/Users/1112821/projects/OpenChain-KWG/go.mod,/Users/1112821/projects/OpenChain-KWG/package.json) automatically.
+[WARNING] [FOSSLIGHT_DEPENDENCY] ### Set Package Manager = go, npm
+[   INFO] Execute 'go list -m -mod=mod -json all' to obtain package info.
+[   INFO] Parse oss information with file: tmp_go_list.json
+[WARNING] ### Complete to analyze: go
+[  ERROR] It returns the error: license-checker --production --json --out tmp_npm_license_output.json --customPath custom.json
+[  ERROR] Please check if the license-checker is installed.(sudo npm install -g license-checker)
+[  ERROR] ### Fail to analyze: npm
+[   INFO] [FOSSLIGHT_DEPENDENCY] Output file: /Users/1112821/projects/OpenChain-KWG/fosslight_report_dep_260421_0618.xlsx
+[   INFO] [FOSSLIGHT_DEPENDENCY] Analyzed Package manager: go (go.mod)
+[   INFO] [FOSSLIGHT_DEPENDENCY] Analysis failed Package manager: npm (package.json) (Check log file(fosslight_log*.txt) and https://fosslight.org/fosslight-guide-en/scanner/3_dependency.html#-prerequisite.)
+[WARNING] [FOSSLIGHT_DEPENDENCY] ### FINISH ###

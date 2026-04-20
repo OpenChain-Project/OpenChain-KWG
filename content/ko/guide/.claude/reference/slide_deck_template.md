@@ -793,7 +793,7 @@ style: |
 2. <span style="color:#1A73E8; font-weight:bold;">6대 핵심 요소</span>(조직·정책·프로세스·도구·교육·준수)로 체계를 어떻게 구축하는지 안다
 
 <div class="callout callout-green">
-→ 오늘 집에 가서 <strong>바로 시작할 수 있는 첫 번째 액션</strong>을 갖고 돌아간다
+→ 돌아 가서 <strong>바로 시작할 수 있는 첫 번째 액션</strong>을 갖고 돌아간다
 </div>
 
 ---
