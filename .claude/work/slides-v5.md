@@ -672,7 +672,7 @@ style: |
 </div>
 <div class="benefit-card">
 <div class="b-title">첫 번째 액션</div>
-<div class="b-body">오늘 집에 가서 바로 시작할 수 있는 첫 번째 실행 단계를 갖고 간다</div>
+<div class="b-body">돌아 가서 바로 시작할 수 있는 첫 번째 실행 단계를 갖고 간다</div>
 </div>
 </div>
 
