@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ISO 5230 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/iso-5230/</link><description>Recent content in ISO 5230 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/iso-5230/index.xml" rel="self" type="application/rss+xml"/><item><title>기업 오픈소스 거버넌스 강의 슬라이드</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/resource/slides/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/resource/slides/</guid><description>&lt;h2 id="기업-오픈소스-거버넌스-강의-슬라이드"&gt;기업 오픈소스 거버넌스 강의 슬라이드&lt;/h2&gt;
-&lt;p&gt;OpenChain KWG가 제작한 기업 오픈소스 거버넌스 담당자 대상 강의 슬라이드입니다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ISO 5230 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/iso-5230/</link><description>Recent content in ISO 5230 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/iso-5230/index.xml" rel="self" type="application/rss+xml"/><item><title>교육 슬라이드</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/training-slides/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/training-slides/</guid><description>&lt;h2 id="교육-슬라이드"&gt;교육 슬라이드&lt;/h2&gt;
+&lt;p&gt;이 페이지에서는 기업 오픈소스 거버넌스 전 과정을 담은 교육 슬라이드를 제공합니다.
+&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/"&gt;기업 오픈소스 관리 가이드&lt;/a&gt; 내용을 4시간 교육용으로 구성한 자료입니다.&lt;/p&gt;
 &lt;div class="mx-auto" style="margin: 24px 0;"&gt;
- &lt;a class="btn btn-lg btn-primary mr-3 mb-4" href="https://OpenChain-Project.github.io/OpenChain-KWG/slides/enterprise-oss-governance.html" target="_blank"&gt;
+ &lt;a class="btn btn-lg btn-primary mr-3 mb-4" href="../../slides/enterprise-oss-governance.html" target="_blank"&gt;
  슬라이드 보기 →
  &lt;/a&gt;
 &lt;/div&gt;
@@ -34,7 +35,7 @@
 &lt;/table&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;슬라이드 수&lt;/strong&gt;: 약 93장&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;예상 강의 시간&lt;/strong&gt;: 4시간&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;예상 교육 시간&lt;/strong&gt;: 4시간&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;대상&lt;/strong&gt;: 기업 오픈소스 컴플라이언스 담당자, 법무팀, OSPO&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="라이선스"&gt;라이선스&lt;/h2&gt;
