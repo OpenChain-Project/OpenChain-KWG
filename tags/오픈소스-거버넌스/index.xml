@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>오픈소스 거버넌스 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B1%B0%EB%B2%84%EB%84%8C%EC%8A%A4/</link><description>Recent content in 오픈소스 거버넌스 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B1%B0%EB%B2%84%EB%84%8C%EC%8A%A4/index.xml" rel="self" type="application/rss+xml"/><item><title>기업 오픈소스 거버넌스 강의 슬라이드</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/resource/slides/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/resource/slides/</guid><description>&lt;h2 id="기업-오픈소스-거버넌스-강의-슬라이드"&gt;기업 오픈소스 거버넌스 강의 슬라이드&lt;/h2&gt;
+&lt;p&gt;OpenChain KWG가 제작한 기업 오픈소스 거버넌스 담당자 대상 강의 슬라이드입니다.&lt;/p&gt;
+&lt;div class="mx-auto" style="margin: 24px 0;"&gt;
+ &lt;a class="btn btn-lg btn-primary mr-3 mb-4" href="https://OpenChain-Project.github.io/OpenChain-KWG/slides/enterprise-oss-governance.html" target="_blank"&gt;
+ 슬라이드 보기 →
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;h2 id="강의-구성"&gt;강의 구성&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;파트&lt;/th&gt;
+ &lt;th&gt;제목&lt;/th&gt;
+ &lt;th&gt;주요 내용&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Part 1&lt;/td&gt;
+ &lt;td&gt;오픈소스 컴플라이언스 기초&lt;/td&gt;
+ &lt;td&gt;오픈소스 라이선스, 컴플라이언스 프로세스, ISO/IEC 5230&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Part 2&lt;/td&gt;
+ &lt;td&gt;보안 보증&lt;/td&gt;
+ &lt;td&gt;취약점 관리, ISO/IEC 18974&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Part 3&lt;/td&gt;
+ &lt;td&gt;AI 컴플라이언스&lt;/td&gt;
+ &lt;td&gt;AI 모델 라이선스, 학습 데이터 관리, AI-BOM&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;슬라이드 수&lt;/strong&gt;: 약 93장&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;예상 강의 시간&lt;/strong&gt;: 4시간&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;대상&lt;/strong&gt;: 기업 오픈소스 컴플라이언스 담당자, 법무팀, OSPO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="라이선스"&gt;라이선스&lt;/h2&gt;
+&lt;p&gt;이 슬라이드는 &lt;a href="https://creativecommons.org/licenses/by/4.0/"&gt;CC-BY-4.0&lt;/a&gt; 라이선스로 공개됩니다.
+기업 내부 교육 자료로 자유롭게 활용할 수 있습니다.&lt;/p&gt;</description></item></channel></rss>

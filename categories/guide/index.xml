@@ -827,7 +827,7 @@ be updated to be conformant with the latest version of the specification.&lt;/p&
 &lt;h2 id="1-오픈소스-정책-문서화"&gt;1. 오픈소스 정책 문서화&lt;/h2&gt;
 &lt;p&gt;기업은 공급 소프트웨어 개발, 서비스, 배포에 관여하는 조직이 올바르게 오픈소스를 활용하기 위한 원칙으로 구성된 오픈소스 정책을 수립하여 문서화하고 이를 조직 내 전파해야 합니다.&lt;/p&gt;
 &lt;p&gt;이를 위해 ISO 표준은 공통적으로 다음과 같이 문서화된 오픈소스 정책 및 보안 보증 정책을 요구합니다.&lt;/p&gt;</description></item><item><title>AI SBOM</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/4-operation/2-ai-sbom/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/4-operation/2-ai-sbom/</guid><description>&lt;h2 id="1-ai-sbom이란"&gt;1. AI SBOM이란?&lt;/h2&gt;
-&lt;p&gt;**AI SBOM(AI System Bill of Materials)**은 AI 시스템을 구성하는 모든 요소의 목록과
+&lt;p&gt;&lt;strong&gt;AI SBOM(AI System Bill of Materials)&lt;/strong&gt; 은 AI 시스템을 구성하는 모든 요소의 목록과
 그 출처·라이선스를 문서화한 것이다. 소프트웨어 SBOM(ISO/IEC 5230 §3.3.1)의 개념을
 AI 시스템으로 확장한 것으로, ISO/IEC 42001 §7.5(문서화된 정보) 요구사항의 핵심 산출물이다.&lt;/p&gt;
 &lt;h3 id="ai-sbom이-필요한-이유-투명성과-규제-대응"&gt;AI SBOM이 필요한 이유: 투명성과 규제 대응&lt;/h3&gt;
