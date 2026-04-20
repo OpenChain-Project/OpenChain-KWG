@@ -16,7 +16,7 @@ description: >
 [기업 오픈소스 관리 가이드](/guide/opensource_for_enterprise/) 내용을 4시간 강의용으로 구성한 자료입니다.
 
 <div class="mx-auto" style="margin: 24px 0;">
-  <a class="btn btn-lg btn-primary mr-3 mb-4" href="/slides/enterprise-oss-governance.html" target="_blank">
+  <a class="btn btn-lg btn-primary mr-3 mb-4" href="../../../slides/enterprise-oss-governance.html" target="_blank">
     슬라이드 보기 →
   </a>
 </div>
