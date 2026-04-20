@@ -39,6 +39,10 @@ jobs:
           cache-dependency-path: '**/package-lock.json'
 
       - run: npm ci
+
+      - name: Build slides (Marp)
+        run: npx @marp-team/marp-cli@latest .claude/work/slides-v5.md -o static/slides/enterprise-oss-governance.html --allow-local-files
+
       - run: hugo --baseURL https://${REPO_OWNER}.github.io/${REPO_NAME} --minify
 
       - name: Deploy
