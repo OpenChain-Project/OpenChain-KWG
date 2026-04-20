@@ -1755,6 +1755,45 @@ ISO/IEC 5230의 역할 문서에서 한 걸음 더 — <strong>실제 이름이 
 
 ---
 
+<!-- 슬라이드 45: SBOM 수명주기 관리 절차 -->
+
+## SBOM 수명주기 관리 절차
+
+<div class="flow-row">
+<div class="flow-step">
+<span class="flow-num">①</span>
+<span class="flow-name">개발 단계</span>
+<span class="flow-desc">컴포넌트 도입 즉시 SBOM에 등록 (도구 자동화 권장)</span>
+</div>
+<div class="flow-arr">→</div>
+<div class="flow-step flow-step-ok">
+<span class="flow-num">②</span>
+<span class="flow-name">빌드 단계</span>
+<span class="flow-desc">빌드마다 최신 SBOM 자동 생성 (SPDX·CycloneDX)</span>
+</div>
+<div class="flow-arr">→</div>
+<div class="flow-step">
+<span class="flow-num">③</span>
+<span class="flow-name">배포 단계</span>
+<span class="flow-desc">릴리스 SBOM 확정 및 아카이브 보관</span>
+</div>
+<div class="flow-arr">→</div>
+<div class="flow-step flow-step-warn">
+<span class="flow-num">④</span>
+<span class="flow-name">배포 후 모니터링</span>
+<span class="flow-desc">신규 CVE 발행 시 아카이브 SBOM과 자동 대조</span>
+</div>
+</div>
+
+<div class="callout callout-blue" style="margin-top:20px; font-size:20px;">
+SBOM은 만들어 두는 문서가 아닌 <strong>살아있는 보안 자산</strong> — 배포 후에도 계속 활용
+</div>
+
+<div class="evidence">입증자료: <br>-ISO/IEC 5230 §3.3.1.1 SBOM 관리 절차<br>-ISO/IEC 5230 §3.3.1.2 오픈소스 컴포넌트 기록<br>-ISO/IEC 18974 §4.3.1.1 취약점 탐지 절차</div>
+<div class="url-link">🔗 <a href="https://openchain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/3-process/#3-sbom-%EC%8B%9D%EB%B3%84-%EA%B2%80%ED%86%A0-%EB%B3%B4%EA%B4%80">프로세스: SBOM 식별, 검토, 보관</a></div>
+
+---
+
 
 <!-- 슬라이드 39: 컴플라이언스 산출물 준비·배포 -->
 
@@ -1829,7 +1868,7 @@ ISO/IEC 5230의 역할 문서에서 한 걸음 더 — <strong>실제 이름이 
 </div>
 
 <div class="callout callout-orange" style="margin-top:16px; font-size:19px;">
-<strong>CVSS 기준 조치 기한</strong>: 9.0+ → 7일 이내 · 7.0–8.9 → 30일 이내 · ~6.9 → 다음 릴리스
+<strong>CVSS 기준 조치 기한</strong>: <br> · 9.0+ → 7일 이내 <br> · 7.0–8.9 → 30일 이내<br>  · ~6.9 → 다음 릴리스
 </div>
 
 <div class="evidence">입증자료: <br>-ISO/IEC 18974 §4.3.1.1 취약점 탐지·해결 절차<br>-ISO/IEC 18974 §4.3.2.1 취약점 및 조치 기록</div>
@@ -1939,6 +1978,42 @@ ISO/IEC 5230의 역할 문서에서 한 걸음 더 — <strong>실제 이름이 
 
 ---
 
+
+<!-- 슬라이드 46: 주기적 검토 및 변경 증거 (★18974 전용) -->
+
+## <span class="badge badge-orange">★ 18974 전용</span> 주기적 검토 및 변경 증거
+
+- **정기 검토 의무** — 프로그램의 역할·역량·절차·도구를 정기적으로 검토하고 변경 이력을 기록
+- **최소 검토 주기** — 연 1회 이상 (조직 변경·신규 표준 발행·보안 사고 발생 시 수시 검토)
+- **변경 사항 문서화** — 검토 일시, 참여자, 변경 내용, 변경 이유를 기록하여 보관
+
+<div class="callout callout-orange">
+"검토했다"는 구두 확인이 아닌 <strong>날짜·내용이 담긴 문서 증거</strong>가 필요
+</div>
+
+<div class="evidence">입증자료: <br>-ISO/IEC 18974 §4.1.2.5 프로그램 주기적 검토 및 변경 증거</div>
+<div class="url-link">🔗 <a href="https://openchain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/3-process/#5-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%ED%98%84%ED%96%89%ED%99%94">프로세스 현행화</a></div>
+
+---
+
+
+<!-- 슬라이드 21: 내부 모범 사례 일치 검증 (★18974 전용) -->
+
+## <span class="badge badge-orange">★ 18974 전용</span> 내부 모범 사례 일치 검증
+
+- **검증 대상** — 조직의 보안 관련 내부 모범 사례가 오픈소스 보안 보증 프로그램과 일치하는지 확인
+- **모범 사례 출처** — OpenChain 권고사항, NIST SSDF(Secure Software Development Framework), OWASP Top 10 등
+- **불일치 시 조정** — 내부 모범 사례와 표준 요구사항 간 차이가 발견되면 조정 절차와 결과를 문서화
+
+<div class="callout callout-orange">
+"우리 내부 보안 기준이 이미 있다"는 것과 "표준과 일치함을 검증했다"는 것은 다르다
+</div>
+
+<div class="evidence">입증자료: <br>-ISO/IEC 18974 §4.1.2.6 내부 모범 사례 일치 검증</div>
+<div class="url-link">🔗 <a href="https://openchain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/3-process/#5-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%ED%98%84%ED%96%89%ED%99%94">프로세스 현행화</a></div>
+
+---
+
 <!-- 슬라이드 44: 오픈소스 기여 프로세스 -->
 
 ## 오픈소스 기여 프로세스
@@ -1970,81 +2045,7 @@ ISO/IEC 5230의 역할 문서에서 한 걸음 더 — <strong>실제 이름이 
 </div>
 
 <div class="evidence">입증자료: <br>-ISO/IEC 5230 §3.5.1.1 기여 정책<br>-ISO/IEC 5230 §3.5.1.2 기여 관리 절차<br>-ISO/IEC 5230 §3.5.1.3 기여 정책 인식 절차</div>
-<div class="url-link">🔗 <a href="https://openchain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/3-process/">오픈소스 관리 가이드: 프로세스</a></div>
-
----
-
-<!-- 슬라이드 45: SBOM 수명주기 관리 절차 -->
-
-## SBOM 수명주기 관리 절차
-
-<div class="flow-row">
-<div class="flow-step">
-<span class="flow-num">①</span>
-<span class="flow-name">개발 단계</span>
-<span class="flow-desc">컴포넌트 도입 즉시 SBOM에 등록 (도구 자동화 권장)</span>
-</div>
-<div class="flow-arr">→</div>
-<div class="flow-step flow-step-ok">
-<span class="flow-num">②</span>
-<span class="flow-name">빌드 단계</span>
-<span class="flow-desc">빌드마다 최신 SBOM 자동 생성 (SPDX·CycloneDX)</span>
-</div>
-<div class="flow-arr">→</div>
-<div class="flow-step">
-<span class="flow-num">③</span>
-<span class="flow-name">배포 단계</span>
-<span class="flow-desc">릴리스 SBOM 확정 및 아카이브 보관</span>
-</div>
-<div class="flow-arr">→</div>
-<div class="flow-step flow-step-warn">
-<span class="flow-num">④</span>
-<span class="flow-name">배포 후 모니터링</span>
-<span class="flow-desc">신규 CVE 발행 시 아카이브 SBOM과 자동 대조</span>
-</div>
-</div>
-
-<div class="callout callout-blue" style="margin-top:20px; font-size:20px;">
-SBOM은 만들어 두는 문서가 아닌 <strong>살아있는 보안 자산</strong> — 배포 후에도 계속 활용
-</div>
-
-<div class="evidence">입증자료: <br>-ISO/IEC 5230 §3.3.1.1 SBOM 관리 절차<br>-ISO/IEC 5230 §3.3.1.2 오픈소스 컴포넌트 기록<br>-ISO/IEC 18974 §4.3.1.1 취약점 탐지 절차</div>
-<div class="url-link">🔗 <a href="https://openchain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/3-process/">오픈소스 관리 가이드: 프로세스</a></div>
-
----
-
-<!-- 슬라이드 46: 주기적 검토 및 변경 증거 (★18974 전용) -->
-
-## <span class="badge badge-orange">★ 18974 전용</span> 주기적 검토 및 변경 증거
-
-- **정기 검토 의무** — 프로그램의 역할·역량·절차·도구를 정기적으로 검토하고 변경 이력을 기록
-- **최소 검토 주기** — 연 1회 이상 (조직 변경·신규 표준 발행·보안 사고 발생 시 수시 검토)
-- **변경 사항 문서화** — 검토 일시, 참여자, 변경 내용, 변경 이유를 기록하여 보관
-
-<div class="callout callout-orange">
-"검토했다"는 구두 확인이 아닌 <strong>날짜·내용이 담긴 문서 증거</strong>가 필요
-</div>
-
-<div class="evidence">입증자료: <br>-ISO/IEC 18974 §4.1.2.5 프로그램 주기적 검토 및 변경 증거</div>
-<div class="url-link">🔗 <a href="https://openchain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/3-process/">오픈소스 관리 가이드: 프로세스</a></div>
-
----
-
-
-<!-- 슬라이드 21: 내부 모범 사례 일치 검증 (★18974 전용) -->
-
-## <span class="badge badge-orange">★ 18974 전용</span> 내부 모범 사례 일치 검증
-
-- **검증 대상** — 조직의 보안 관련 내부 모범 사례가 오픈소스 보안 보증 프로그램과 일치하는지 확인
-- **모범 사례 출처** — OpenChain 권고사항, NIST SSDF(Secure Software Development Framework), OWASP Top 10 등
-- **불일치 시 조정** — 내부 모범 사례와 표준 요구사항 간 차이가 발견되면 조정 절차와 결과를 문서화
-
-<div class="callout callout-orange">
-"우리 내부 보안 기준이 이미 있다"는 것과 "표준과 일치함을 검증했다"는 것은 다르다
-</div>
-
-<div class="evidence">입증자료: <br>-ISO/IEC 18974 §4.1.2.6 내부 모범 사례 일치 검증</div>
-<div class="url-link">🔗 <a href="https://openchain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/1-teams/">오픈소스 관리 가이드: 조직 구성</a></div>
+<div class="url-link">🔗 <a href="https://openchain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/3-process/#4-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B8%B0%EC%97%AC-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4">오픈소스 기여 프로세스</a></div>
 
 ---
 
@@ -2079,28 +2080,32 @@ SBOM은 만들어 두는 문서가 아닌 <strong>살아있는 보안 자산</st
 
 ## 4. 도구 — 수작업의 한계
 
-<div style="display:flex; gap:0; margin-top:16px;">
-<div class="col-left">
-
-**Before: 수작업 관리**
-
-- 개발자가 직접 라이선스 확인 → <span class="warn">누락 빈번</span>
-- 스프레드시트로 SBOM 관리 → 버전 불일치
-- 배포 후 취약점 발견 → <span class="warn">뒤늦은 대응</span>
-- 담당자 이직 시 지식 유실
-
-</div>
-<div class="col-right">
-
-**After: 도구 자동화**
-
-- SCA 도구로 자동 라이선스 검출
-- 빌드마다 SBOM 자동 생성
-- CVE 피드 자동 대조 → 실시간 알림
-- 이력이 시스템에 누적 보관
-
-</div>
-</div>
+<table style="width:100%; margin-top:16px; border-collapse:collapse;">
+<thead>
+<tr>
+  <th style="width:50%; text-align:left; padding:8px 12px; background:#f5f5f5;">Before: 수작업 관리</th>
+  <th style="width:50%; text-align:left; padding:8px 12px; background:#e8f5e9;">After: 도구 자동화</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="padding:6px 12px; vertical-align:top;">개발자가 직접 라이선스 확인 → <span class="warn">누락 빈번</span></td>
+  <td style="padding:6px 12px; vertical-align:top;">SCA 도구로 자동 라이선스 검출</td>
+</tr>
+<tr>
+  <td style="padding:6px 12px; vertical-align:top;">스프레드시트로 SBOM 관리 → 버전 불일치</td>
+  <td style="padding:6px 12px; vertical-align:top;">빌드마다 SBOM 자동 생성</td>
+</tr>
+<tr>
+  <td style="padding:6px 12px; vertical-align:top;">배포 후 취약점 발견 → <span class="warn">뒤늦은 대응</span></td>
+  <td style="padding:6px 12px; vertical-align:top;">CVE 피드 자동 대조 → 실시간 알림</td>
+</tr>
+<tr>
+  <td style="padding:6px 12px; vertical-align:top;">담당자 이직 시 지식 유실</td>
+  <td style="padding:6px 12px; vertical-align:top;">이력이 시스템에 누적 보관</td>
+</tr>
+</tbody>
+</table>
 
 <div class="key-message">
 도구 없이는 규모가 커질수록 사람이 감당할 수 없다 — 자동화가 체계의 지속 가능성을 만든다
@@ -2121,25 +2126,25 @@ SBOM은 만들어 두는 문서가 아닌 <strong>살아있는 보안 자산</st
 <tbody>
 <tr>
 <td><strong>소스코드 스캔</strong></td>
-<td>FOSSology · FOSSLight · SCANOSS</td>
+<td>FOSSology · SCANOSS</td>
 <td>라이선스 식별, 저작권 분석</td>
 <td>오픈소스</td>
 </tr>
 <tr>
 <td><strong>SBOM 생성</strong></td>
-<td>cdxgen · Syft</td>
+<td>cdxgen · Syft· FOSSLight</td>
 <td>패키지 의존성 → SBOM 자동 생성</td>
 <td>오픈소스</td>
 </tr>
 <tr>
 <td><strong>거버넌스·추적</strong></td>
-<td>SW360 · Dependency-Track</td>
+<td>SW360 · Dependency-Track· FOSSLight</td>
 <td>오픈소스 컴포넌트 관리·승인·추적</td>
 <td>오픈소스</td>
 </tr>
 <tr>
 <td><strong>취약점 탐지</strong></td>
-<td>OSV-SCALIBR · Dependency-Track</td>
+<td>OSV-SCALIBR · Dependency-Track· FOSSLight</td>
 <td>SBOM 기반 CVE 자동 대조</td>
 <td>오픈소스</td>
 </tr>
@@ -2156,7 +2161,7 @@ SBOM은 만들어 두는 문서가 아닌 <strong>살아있는 보안 자산</st
 
 <!-- 슬라이드 50: 소스코드 스캔 도구 -->
 
-## 소스코드 스캔: FOSSology & FOSSLight
+## 소스코드 스캔: FOSSology & SCANOSS
 
 <div class="benefit-row">
 <div class="benefit-card">
@@ -2169,17 +2174,17 @@ SW360과 연동 가능
 </div>
 </div>
 <div class="benefit-card">
-<div class="b-title">FOSSLight</div>
+<div class="b-title">SCANOSS</div>
 <div class="b-body">
-LG전자 개발, Apache 2.0<br>
-소스·바이너리·패키지 통합 스캔<br>
-고지문 자동 생성 포함<br>
-한국어 지원, 국내 기업 활용도 높음
+오픈소스 컴포넌트 스캔 전문<br>
+파일 단위 스니펫 매칭 지원<br>
+SBOM 자동 생성 기능 내장<br>
+REST API·CLI로 CI/CD 통합 용이
 </div>
 </div>
 </div>
 
-<div class="url-link">🔗 <a href="https://openchain-project.github.io/OpenChain-KWG/guide/tools/">도구 상세 가이드</a></div>
+<div class="url-link">🔗 <a href="https://openchain-project.github.io/OpenChain-KWG/guide/tools/1-fossology/">도구 가이드: FOSSology</a> | 🔗 <a href="https://openchain-project.github.io/OpenChain-KWG/guide/tools/1-fossology/">도구 가이드: SCANOSS</a></div>
 
 ---
 
@@ -2724,28 +2729,32 @@ ISO/IEC 42001 오픈소스 교차 요구사항 — 기존 거버넌스 체계가
 
 ## 파트 3: AI 컴플라이언스 — 기존 거버넌스로 충분한가?
 
-<div style="display:flex; gap:0; margin-top:16px;">
-<div class="col-left">
-
-**기존 거버넌스가 커버하는 것**
-
-- PyPI, npm, Maven 등 표준 패키지
-- GitHub 오픈소스 라이브러리
-- 컨테이너 이미지 내 패키지
-- CI/CD 파이프라인 의존성
-
-</div>
-<div class="col-right">
-
-**기존 거버넌스로 커버되지 않는 것**
-
-- <span class="warn">AI 모델 커스텀 라이선스</span> (Llama, Mistral 등)
-- <span class="warn">학습 데이터셋 라이선스</span> (CC-BY, CC-BY-NC 등)
-- AI 공급망 검증 (외부 모델 출처 확인)
-- AI-BOM (AI 구성요소 명세서)
-
-</div>
-</div>
+<table style="width:100%; margin-top:16px; border-collapse:collapse;">
+<thead>
+<tr>
+  <th style="width:50%; text-align:left; padding:8px 12px; background:#e8f5e9;">✅ 기존 거버넌스가 커버하는 것</th>
+  <th style="width:50%; text-align:left; padding:8px 12px; background:#fff3e0;">⚠️ 기존 거버넌스로 커버되지 않는 것</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="padding:6px 12px; vertical-align:top;">PyPI, npm, Maven 등 표준 패키지</td>
+  <td style="padding:6px 12px; vertical-align:top;"><span class="warn">AI 모델 커스텀 라이선스</span> (Llama, Mistral 등)</td>
+</tr>
+<tr>
+  <td style="padding:6px 12px; vertical-align:top;">GitHub 오픈소스 라이브러리</td>
+  <td style="padding:6px 12px; vertical-align:top;"><span class="warn">학습 데이터셋 라이선스</span> (CC-BY, CC-BY-NC 등)</td>
+</tr>
+<tr>
+  <td style="padding:6px 12px; vertical-align:top;">컨테이너 이미지 내 패키지</td>
+  <td style="padding:6px 12px; vertical-align:top;">AI 공급망 검증 (외부 모델 출처 확인)</td>
+</tr>
+<tr>
+  <td style="padding:6px 12px; vertical-align:top;">CI/CD 파이프라인 의존성</td>
+  <td style="padding:6px 12px; vertical-align:top;">AI-BOM (AI 구성요소 명세서)</td>
+</tr>
+</tbody>
+</table>
 
 <div class="callout callout-orange">
 AI 시스템에는 <strong>3가지 오픈소스 레이어</strong>가 존재한다 — 기존 체계를 확장해야 한다
