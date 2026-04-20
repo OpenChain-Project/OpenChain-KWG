@@ -3,10 +3,26 @@ marp: true
 theme: default
 paginate: true
 style: |
+  /* ===== 디자인 토큰 ===== */
+  section {
+    --c-blue:   #1A73E8;
+    --c-orange: #F4A020;
+    --c-purple: #6C3FC5;
+    --c-green:  #1E8E5A;
+    --c-warn:   #E8680A;
+    --c-dark:   #0D47A1;
+    --c-text:   #1C1C1E;
+    --c-muted:  #444444;
+    --c-bg:     #F5F7FA;
+    --c-border: #E0E0E0;
+    --r-card:   12px;
+    --shadow:   0 2px 8px rgba(0,0,0,0.07);
+  }
+
   /* ===== 기본 설정 ===== */
   section {
     font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
-    color: #1C1C1E;
+    color: var(--c-text);
     background: #FFFFFF;
     padding: 48px 56px;
   }
@@ -14,7 +30,7 @@ style: |
   h1 {
     font-size: 40px;
     font-weight: 700;
-    color: #1C1C1E;
+    color: var(--c-text);
     margin-bottom: 24px;
     line-height: 1.25;
   }
@@ -22,8 +38,10 @@ style: |
   h2 {
     font-size: 32px;
     font-weight: 700;
-    color: #1C1C1E;
+    color: var(--c-text);
     margin-bottom: 16px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid var(--c-blue);
   }
 
   p, li {
@@ -40,12 +58,12 @@ style: |
   }
 
   /* ===== 색상 유틸리티 ===== */
-  .blue { color: #1A73E8; }
-  .orange { color: #F4A020; }
-  .purple { color: #6C3FC5; }
-  .green { color: #1E8E5A; }
-  .warn { color: #E8680A; }
-  .accent { color: #0D47A1; font-weight: 700; }
+  .blue { color: var(--c-blue); }
+  .orange { color: var(--c-orange); }
+  .purple { color: var(--c-purple); }
+  .green { color: var(--c-green); }
+  .warn { color: var(--c-warn); }
+  .accent { color: var(--c-dark); font-weight: 700; }
 
   /* ===== 배지 ===== */
   .badge {
@@ -58,10 +76,10 @@ style: |
     margin-right: 10px;
     vertical-align: middle;
   }
-  .badge-blue   { background: #1A73E8; }
-  .badge-orange { background: #F4A020; }
-  .badge-purple { background: #6C3FC5; }
-  .badge-green  { background: #1E8E5A; }
+  .badge-blue   { background: var(--c-blue); }
+  .badge-orange { background: var(--c-orange); }
+  .badge-purple { background: var(--c-purple); }
+  .badge-green  { background: var(--c-green); }
 
   /* ===== Callout 박스 ===== */
   .callout {
@@ -73,21 +91,21 @@ style: |
   }
   .callout-blue {
     background: #E8F0FD;
-    border-left: 5px solid #1A73E8;
+    border-left: 5px solid var(--c-blue);
   }
   .callout-orange {
     background: #FFF3CD;
-    border-left: 5px solid #F4A020;
+    border-left: 5px solid var(--c-orange);
   }
   .callout-green {
     background: #E6F4EC;
-    border-left: 5px solid #1E8E5A;
-    color: #1C1C1E;
+    border-left: 5px solid var(--c-green);
+    color: var(--c-text);
   }
   .callout-purple-solid {
-    background: #6C3FC5;
+    background: var(--c-purple);
     color: #ffffff;
-    border-radius: 8px;
+    border-radius: var(--r-card);
     padding: 18px 22px;
     font-size: 22px;
     margin-top: 20px;
@@ -132,12 +150,13 @@ style: |
     margin-top: 20px;
   }
   .card {
-    background: #F5F7FA;
-    border-radius: 8px;
-    border-top: 4px solid #1A73E8;
+    background: var(--c-bg);
+    border-radius: var(--r-card);
+    border-top: 4px solid var(--c-blue);
     padding: 16px 18px;
     font-size: 20px;
     line-height: 1.45;
+    box-shadow: var(--shadow);
   }
   .card-green {
     border-top-color: #1E8E5A;
@@ -178,13 +197,14 @@ style: |
     margin-top: 24px;
   }
   .process-step {
-    background: #F5F7FA;
-    border-radius: 8px;
+    background: var(--c-bg);
+    border-radius: var(--r-card);
     padding: 20px 18px;
     text-align: center;
     flex: 1;
     font-size: 20px;
     line-height: 1.45;
+    box-shadow: var(--shadow);
   }
   .process-step .step-num {
     display: block;
@@ -269,13 +289,14 @@ style: |
     margin-top: 20px;
   }
   .benefit-card {
-    background: #F5F7FA;
-    border-radius: 10px;
+    background: var(--c-bg);
+    border-radius: var(--r-card);
     padding: 22px 18px;
     flex: 1;
     font-size: 20px;
     line-height: 1.5;
-    border-top: 4px solid #1A73E8;
+    border-top: 4px solid var(--c-blue);
+    box-shadow: var(--shadow);
   }
   .benefit-card .icon {
     font-size: 32px;
@@ -300,16 +321,17 @@ style: |
     margin-top: 20px;
   }
   .summary-card {
-    border-radius: 10px;
+    border-radius: var(--r-card);
     padding: 22px 18px;
     flex: 1;
     font-size: 20px;
     line-height: 1.5;
+    box-shadow: var(--shadow);
   }
-  .summary-card-blue   { background: #E8F0FD; border-left: 5px solid #1A73E8; }
-  .summary-card-purple { background: #EDE7F6; border-left: 5px solid #6C3FC5; }
-  .summary-card-green  { background: #E6F4EC; border-left: 5px solid #1E8E5A; }
-  .summary-card-orange { background: #FFF3E0; border-left: 5px solid #F4A020; }
+  .summary-card-blue   { background: #E8F0FD; border-left: 5px solid var(--c-blue); }
+  .summary-card-purple { background: #EDE7F6; border-left: 5px solid var(--c-purple); }
+  .summary-card-green  { background: #E6F4EC; border-left: 5px solid var(--c-green); }
+  .summary-card-orange { background: #FFF3E0; border-left: 5px solid var(--c-orange); }
   .summary-card .sc-icon { font-size: 28px; margin-bottom: 8px; display: block; }
   .summary-card .sc-title { font-weight: 700; font-size: 19px; margin-bottom: 6px; }
   .summary-card .sc-body  { font-size: 17px; color: #444; }
@@ -318,14 +340,14 @@ style: |
     text-align: center;
     margin-top: 22px;
     font-size: 22px;
-    color: #0D47A1;
+    color: var(--c-dark);
     font-weight: 700;
   }
 
   /* ===== 비교표 헤더 색상 ===== */
-  .th-5230   { background: #1A73E8 !important; }
-  .th-18974  { background: #F4A020 !important; }
-  .th-42001  { background: #6C3FC5 !important; }
+  .th-5230   { background: var(--c-blue)   !important; }
+  .th-18974  { background: var(--c-orange) !important; }
+  .th-42001  { background: var(--c-purple) !important; }
   .th-label  { background: #37474F !important; }
 
   /* ===== 하이라이트 박스 ===== */
@@ -353,13 +375,13 @@ style: |
   }
   .key-message {
     background: #E3F2FD;
-    color: #0D47A1;
+    color: var(--c-dark);
     font-weight: bold;
     padding: 10px 20px;
-    border-left: 4px solid #1A73E8;
+    border-left: 4px solid var(--c-blue);
     margin-top: 16px;
     font-size: 22px;
-    border-radius: 0 4px 4px 0;
+    border-radius: 0 var(--r-card) var(--r-card) 0;
   }
   .tag-warning {
     background: #FFF3E0;
@@ -455,8 +477,8 @@ style: |
   /* ===== 파트 3 전용 클래스 ===== */
   .callout-purple {
     background: #F3E8FF;
-    border-left: 5px solid #6C3FC5;
-    border-radius: 0 8px 8px 0;
+    border-left: 5px solid var(--c-purple);
+    border-radius: 0 var(--r-card) var(--r-card) 0;
     padding: 16px 20px;
     font-size: 22px;
     line-height: 1.5;
