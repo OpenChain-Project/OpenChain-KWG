@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>교육자료 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EA%B5%90%EC%9C%A1%EC%9E%90%EB%A3%8C/</link><description>Recent content in 교육자료 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Mon, 20 Apr 2026 21:28:24 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EA%B5%90%EC%9C%A1%EC%9E%90%EB%A3%8C/index.xml" rel="self" type="application/rss+xml"/><item><title>3. OpenChain 리소스</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/archive/nipa_openchain/i-openchainproject/3-openchain-curriculum/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/archive/nipa_openchain/i-openchainproject/3-openchain-curriculum/</guid><description>&lt;p&gt;OpenChain 프로젝트에서는 기업이 컴플라이언스 프로그램을 구축하는 데 필요한 정책 문서 템플릿, 교육 자료 등 다양한 리소스를 제공한다. 이 자료들은 OpenChain 표준 준수와 일반적인 오픈소스 컴플라이언스 활동을 지원하기 위해 고안됐으며, 누구나 자유롭게 사용할 수 있도록 CC-0 라이선스로 제공된다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>교육자료 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EA%B5%90%EC%9C%A1%EC%9E%90%EB%A3%8C/</link><description>Recent content in 교육자료 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Tue, 21 Apr 2026 06:24:08 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EA%B5%90%EC%9C%A1%EC%9E%90%EB%A3%8C/index.xml" rel="self" type="application/rss+xml"/><item><title>3. OpenChain 리소스</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/archive/nipa_openchain/i-openchainproject/3-openchain-curriculum/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/archive/nipa_openchain/i-openchainproject/3-openchain-curriculum/</guid><description>&lt;p&gt;OpenChain 프로젝트에서는 기업이 컴플라이언스 프로그램을 구축하는 데 필요한 정책 문서 템플릿, 교육 자료 등 다양한 리소스를 제공한다. 이 자료들은 OpenChain 표준 준수와 일반적인 오픈소스 컴플라이언스 활동을 지원하기 위해 고안됐으며, 누구나 자유롭게 사용할 수 있도록 CC-0 라이선스로 제공된다.&lt;/p&gt;
 &lt;div &gt;&lt;span class="image fit"&gt;
  &lt;img src="../resource.png" width="90%"&gt;
 &lt;/span&gt;&lt;/div&gt;
@@ -132,10 +132,20 @@
 &lt;/ul&gt;</description></item><item><title>교육 슬라이드</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/training-slides/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/training-slides/</guid><description>&lt;h2 id="교육-슬라이드"&gt;교육 슬라이드&lt;/h2&gt;
 &lt;p&gt;이 페이지에서는 기업 오픈소스 거버넌스 전 과정을 담은 교육 슬라이드를 제공합니다.
 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/"&gt;기업 오픈소스 관리 가이드&lt;/a&gt; 내용을 4시간 교육용으로 구성한 자료입니다.&lt;/p&gt;
-&lt;div class="mx-auto" style="margin: 24px 0;"&gt;
+&lt;!-- &lt;div class="mx-auto" style="margin: 24px 0;"&gt;
  &lt;a class="btn btn-lg btn-primary mr-3 mb-4" href="../../slides/enterprise-oss-governance.html" target="_blank"&gt;
  슬라이드 보기 →
  &lt;/a&gt;
+&lt;/div&gt; --&gt;
+&lt;p&gt;&lt;a href="../../slides/enterprise-oss-governance.html" target="_blank" rel="noopener"&gt;전체 화면으로 보기 →&lt;/a&gt;&lt;/p&gt;
+&lt;div style="margin-top: 16px;"&gt;
+&lt;iframe
+ src="../../slides/enterprise-oss-governance.html"
+ width="100%"
+ height="560"
+ style="border: 1px solid #E0E0E0; border-radius: 4px;"
+ allowfullscreen&gt;
+&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;h2 id="강의-구성"&gt;강의 구성&lt;/h2&gt;
 &lt;table&gt;
