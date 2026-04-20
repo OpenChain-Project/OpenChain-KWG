@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FOSSLight on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/fosslight/</link><description>Recent content in FOSSLight on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Mon, 13 Apr 2026 22:57:37 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/fosslight/index.xml" rel="self" type="application/rss+xml"/><item><title>17th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/17th-meeting/</link><pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/17th-meeting/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FOSSLight on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/fosslight/</link><description>Recent content in FOSSLight on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Tue, 21 Apr 2026 06:22:00 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/fosslight/index.xml" rel="self" type="application/rss+xml"/><item><title>17th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/17th-meeting/</link><pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling-legal/17th-meeting/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;목적 : Tooling and Legal Subgroup 17차 회의&lt;/li&gt;
 &lt;li&gt;일시 : 2024년 8월 13일(수) 14:00 ~ 16:30&lt;/li&gt;
@@ -114,36 +114,32 @@
  &lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/Session3_Samsung_Electronics.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>FOSSLight</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/3-fosslight/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/3-fosslight/</guid><description>&lt;p&gt;FOSSLight는 LG Electronics에서 주도하는 오픈소스 프로젝트로, 다양한 스캐너를 활용하여 소스 코드, 바이너리, 의존성을 분석하고 SBOM(Software Bill of Materials, 소프트웨어 자재 명세서)을 생성하는 도구입니다. 특히 FOSSLight Hub는 오픈소스 관리, 라이선스 관리, 취약점 관리 기능을 제공하여 컴플라이언스 프로세스를 지원합니다.&lt;/p&gt;
-&lt;h2 id="1-fosslight-소개"&gt;1 FOSSLight 소개&lt;/h2&gt;
+&lt;/table&gt;</description></item><item><title>FOSSLight</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/3-fosslight/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/3-fosslight/</guid><description>&lt;p&gt;FOSSLight는 LG Electronics가 주도하는 오픈소스 컴플라이언스 도구 모음입니다.
+소스 코드·의존성·바이너리를 분석하는 &lt;strong&gt;FOSSLight Scanner&lt;/strong&gt;와,
+분석 결과를 중앙에서 관리하는 웹 플랫폼 &lt;strong&gt;FOSSLight Hub&lt;/strong&gt;로 구성됩니다.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;주요 기능&lt;/strong&gt;:
+&lt;li&gt;GitHub (Hub): &lt;a href="https://github.com/fosslight/fosslight"&gt;https://github.com/fosslight/fosslight&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub (Scanner): &lt;a href="https://github.com/fosslight/fosslight_scanner"&gt;https://github.com/fosslight/fosslight_scanner&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;공식 문서: &lt;a href="https://fosslight.org/fosslight-guide/"&gt;https://fosslight.org/fosslight-guide/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;라이선스: AGPL-3.0-only&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="주요-특징"&gt;주요 특징&lt;/h2&gt;
+&lt;h3 id="fosslight-hub"&gt;FOSSLight Hub&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;다양한 스캐너 연동: ScanCode Toolkit, SPDX Tools, CycloneDX, 그리고 Fossology 등 다양한 오픈소스 스캐너를 통합하여 사용&lt;/li&gt;
-&lt;li&gt;다양한 분석 대상 지원: 소스 코드, 바이너리, 컨테이너 이미지, Linux 패키지 등 다양한 분석 대상 지원&lt;/li&gt;
-&lt;li&gt;SBOM 생성 및 관리: 다양한 형식(SPDX, CycloneDX, Excel, Text)으로 SBOM 생성 및 관리&lt;/li&gt;
-&lt;li&gt;라이선스 정보 탐지 및 관리: 오픈소스 라이선스 정보를 정확하게 탐지하고 관리&lt;/li&gt;
-&lt;li&gt;취약점 정보 연동: NVD, CVE 등 외부 취약점 데이터베이스와 연동하여 취약점 정보 제공&lt;/li&gt;
-&lt;li&gt;FOSSLight Hub: 웹 기반 UI를 통해 오픈소스 관리, 라이선스 관리, 취약점 관리 기능 제공&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;컴플라이언스 프로세스 통합 관리&lt;/strong&gt;: 프로젝트별 BOM 관리, 라이선스 의무사항 이행, 공지문 생성까지 일괄 처리&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;취약점 모니터링&lt;/strong&gt;: NVD·CVE 연동으로 사용 중인 오픈소스의 취약점 현황 추적&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3rd Party 관리&lt;/strong&gt;: 외부 소프트웨어 공급망의 오픈소스 현황 등록 및 관리&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SBOM 관리&lt;/strong&gt;: SPDX(ISO 표준) 형식 지원&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;장점&lt;/strong&gt;:
+&lt;h3 id="fosslight-dependency-scanner"&gt;FOSSLight Dependency Scanner&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;높은 확장성: 다양한 스캐너를 플러그인 형태로 통합하여 사용할 수 있음&lt;/li&gt;
-&lt;li&gt;웹 기반 UI 제공: FOSSLight Hub를 통해 사용자 친화적인 인터페이스 제공&lt;/li&gt;
-&lt;li&gt;다양한 보고서 형식 지원: SPDX, CycloneDX, Excel, Text 등 다양한 형식으로 보고서 생성 가능&lt;/li&gt;
-&lt;li&gt;오픈소스 라이선스&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;14개 이상의 패키지 매니저 지원&lt;/strong&gt;: NPM, Yarn, Maven, Gradle, PyPI, Go, Cargo, NuGet, CocoaPods 등&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;자동 감지&lt;/strong&gt;: manifest 파일을 자동으로 탐지하여 분석&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;직·간접 의존성 분석&lt;/strong&gt;: 전이적 의존성까지 재귀적으로 수집&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;다양한 출력 형식&lt;/strong&gt;: Excel, SPDX, CycloneDX, YAML, CSV&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;단점&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;초기 설정 복잡: 다양한 스캐너를 연동해야 하므로 초기 설정이 다소 복잡할 수 있음&lt;/li&gt;
-&lt;li&gt;FOSSLight Hub 설치 필요: 웹 기반 UI를 사용하려면 FOSSLight Hub를 별도로 설치해야 함&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="2-fosslight-설치"&gt;2 FOSSLight 설치&lt;/h2&gt;
-&lt;p&gt;FOSSLight는 FOSSLight Scanner와 FOSSLight Hub로 구성됩니다. FOSSLight Scanner는 다양한 스캐너를 실행하여 분석 결과를 생성하는 역할을 하며, FOSSLight Hub는 스캐너 결과를 통합 관리하고 시각화하는 웹 기반 UI를 제공합니다.&lt;/p&gt;</description></item><item><title>4th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/4th-meeting/</link><pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/4th-meeting/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
+&lt;h2 id="fosslight-hub-설치"&gt;FOSSLight Hub 설치&lt;/h2&gt;
+&lt;p&gt;Docker Compose를 사용합니다. 공식 저장소를 clone하여 실행합니다.&lt;/p&gt;</description></item><item><title>4th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/4th-meeting/</link><pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/4th-meeting/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;목적 : 공유 세미나&lt;/li&gt;
 &lt;li&gt;일시 : 2022. 07. 20(수), 오후 2:00~3:15&lt;/li&gt;
