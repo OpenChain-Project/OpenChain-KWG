@@ -15,11 +15,25 @@ description: >
 이 페이지에서는 기업 오픈소스 거버넌스 전 과정을 담은 교육 슬라이드를 제공합니다.
 [기업 오픈소스 관리 가이드](/guide/opensource_for_enterprise/) 내용을 4시간 교육용으로 구성한 자료입니다.
 
-<div class="mx-auto" style="margin: 24px 0;">
+<!-- <div class="mx-auto" style="margin: 24px 0;">
   <a class="btn btn-lg btn-primary mr-3 mb-4" href="../../slides/enterprise-oss-governance.html" target="_blank">
     슬라이드 보기 →
   </a>
+</div> -->
+
+
+<a href="../../slides/enterprise-oss-governance.html" target="_blank" rel="noopener">전체 화면으로 보기 →</a>
+
+<div style="margin-top: 16px;">
+<iframe
+  src="../../slides/enterprise-oss-governance.html"
+  width="100%"
+  height="560"
+  style="border: 1px solid #E0E0E0; border-radius: 4px;"
+  allowfullscreen>
+</iframe>
 </div>
+
 
 ## 강의 구성
 
