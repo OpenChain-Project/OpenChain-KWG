@@ -10,3 +10,6 @@ package-lock.json
 .claudeignore
 utils/
 .claude/work/*.json
+
+## generated files (built by CI)
+static/slides/enterprise-oss-governance.html
