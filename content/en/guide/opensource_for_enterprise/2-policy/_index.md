@@ -279,9 +279,9 @@ The ISO standard commonly requires a documented statement that clearly defines t
 
 {{% alert title="ISO/IEC 18974 - Security Assurance" color="warning" %}}
 
-* 3.1.4.1: A written statement that clearly defines the scope and limits of the Program
-* 3.1.4.2: A set of metrics the program shall achieve to improve
-* 3.1.4.3: Documented Evidence from each review, update, or audit to demonstrate continuous improvement.
+* 4.1.4.1: A written statement that clearly defines the scope and limits of the Program
+* 4.1.4.2: A set of metrics the program shall achieve to improve
+* 4.1.4.3: Documented Evidence from each review, update, or audit to demonstrate continuous improvement.
 
 {{% /alert %}}
 

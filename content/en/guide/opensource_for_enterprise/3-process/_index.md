@@ -474,8 +474,8 @@ The ISO/IEC 18974 standard requires periodic review and improvement of the proce
 
 {{% alert title="ISO/IEC 18974 - Security Assurance" color="warning" %}}
 
-* 3.1.2.5: Documented Evidence of periodic reviews and changes made to the process;
-* 3.1.2.6: Documented verification that these processes are current with company internal best practices and who is assigned to accomplish them.
+* 4.1.2.5: Documented Evidence of periodic reviews and changes made to the process;
+* 4.1.2.6: Documented verification that these processes are current with company internal best practices and who is assigned to accomplish them.
 
 {{% /alert %}}
 

@@ -124,7 +124,7 @@ Syft의 설치 및 사용 방법은 [Syft 가이드](../../tools/6-syft/)를 참
 
 {{% alert title="ISO/IEC 18974 - Security Assurance" color="warning" %}}
 
-* 3.3.1.2: Open Source Software Component Records for the Supplied Software that demonstrates the documented procedure was properly followed.<br>`문서화된 절차가 적절히 준수되었음을 보여주는 공급 소프트웨어에 대한 오픈소스 소프트웨어 컴포넌트 기록`
+* 4.3.1.2: Open Source Software Component Records for the Supplied Software that demonstrates the documented procedure was properly followed.<br>`문서화된 절차가 적절히 준수되었음을 보여주는 공급 소프트웨어에 대한 오픈소스 소프트웨어 컴포넌트 기록`
 
 {{% /alert %}}
 
