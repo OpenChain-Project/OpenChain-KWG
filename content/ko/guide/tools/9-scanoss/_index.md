@@ -50,7 +50,7 @@ scanoss-py scan . --output results.json
 
 ```bash
 # 스캔 결과를 CycloneDX JSON 형식의 SBOM으로 변환
-scanoss-py component crypto --input results.json --format cyclonedx --output sbom.json
+scanoss-py convert --input results.json --format cyclonedx --output sbom.json
 ```
 
 #### (3) 결과 확인
@@ -86,7 +86,7 @@ jobs:
       - name: Run scan
         run: scanoss-py scan . --output results.json
       - name: Generate SBOM
-        run: scanoss-py component crypto --input results.json --format cyclonedx --output sbom.json
+        run: scanoss-py convert --input results.json --format cyclonedx --output sbom.json
       - name: Upload SBOM
         uses: actions/upload-artifact@v4
         with:

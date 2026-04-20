@@ -78,7 +78,7 @@ docker --version
 mkdir ~/dependency-track && cd ~/dependency-track
 
 # 2. 공식 docker-compose.yml 다운로드
-curl -LO https://dependencytrack.org/docker-compose.yml
+curl -LO https://raw.githubusercontent.com/DependencyTrack/dependency-track/HEAD/src/main/docker/docker-compose.yml
 
 # 3. 실행 (처음 실행 시 이미지 다운로드로 1~2분 소요)
 docker compose up -d

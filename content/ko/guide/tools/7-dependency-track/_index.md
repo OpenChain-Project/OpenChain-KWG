@@ -29,7 +29,7 @@ Docker Compose를 사용하는 방법이 가장 간편합니다.
 
 ```bash
 # 공식 Docker Compose 파일 다운로드
-curl -LO https://dependencytrack.org/docker-compose.yml
+curl -LO https://raw.githubusercontent.com/DependencyTrack/dependency-track/HEAD/src/main/docker/docker-compose.yml
 
 # 실행
 docker compose up -d
