@@ -8,7 +8,7 @@ tags: ["교육"]
 description: >
 ---
 
-{{% alert title="이 섹션이 다루는 입증자료" color="success" %}}
+{{% alert title="이 섹션이 다루는 요구사항" color="success" %}}
 **ISO/IEC 5230**: 3.1.1.2 · 3.1.2.3 · 3.1.3.1 · 3.5.1.3  
 **ISO/IEC 18974**: 4.1.1.2 · 4.1.2.4 · 4.1.3.1
 {{% /alert %}}
