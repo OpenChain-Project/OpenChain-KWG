@@ -189,6 +189,71 @@ Dependency-Track의 정책 엔진(Policy Engine)을 사용하면
 > **정책 적용 범위**: 정책 생성 후 Projects 탭에서 특정 프로젝트에 적용하거나,
 > Portfolio 전체에 적용할 수 있습니다.
 
+## SKT SBOM Scanner로 빠르게 시작하기 (Easy Mode)
+
+cdxgen을 직접 설치하지 않고 Docker만으로 SBOM을 생성하는 방법입니다.
+**SK텔레콤이 공급망 관리를 위해 개발한 오픈소스 도구**로, Node.js 설치 없이
+소스코드·Docker 이미지·바이너리를 분석하여 CycloneDX JSON을 바로 출력합니다.
+
+{{% alert title="Dependency-Track 호환" color="success" %}}
+출력 형식이 CycloneDX JSON이므로 이 섹션의 Dependency-Track에 그대로 업로드할 수 있습니다.
+{{% /alert %}}
+
+### 사전 준비
+
+Docker v20.10 이상 및 약 4–5 GB 디스크 여유 공간이 필요합니다.
+첫 실행 시 Docker 이미지 다운로드로 5–10분 소요됩니다.
+
+### 설치 및 실행
+
+```bash
+# Linux / macOS
+curl -O https://raw.githubusercontent.com/sktelecom/sbom-tools/main/scripts/scan-sbom.sh
+chmod +x scan-sbom.sh
+
+# 소스코드 분석 (프로젝트 루트에서 실행)
+./scan-sbom.sh --project "MyApp" --version "1.0.0" --generate-only
+# 결과: MyApp_1.0.0_bom.json 생성
+```
+
+```cmd
+:: Windows
+curl -O https://raw.githubusercontent.com/sktelecom/sbom-tools/main/scripts/scan-sbom.bat
+scan-sbom.bat --project "MyApp" --version "1.0.0" --generate-only
+```
+
+Docker 이미지, 바이너리·펌웨어, RootFS 분석도 지원합니다.
+
+```bash
+# Docker 이미지 분석
+./scan-sbom.sh --target "myapp:v1.0" --project "MyApp" --version "1.0" --generate-only
+
+# 펌웨어 분석
+./scan-sbom.sh --target firmware.bin --project "RouterOS" --version "2.0" --generate-only
+```
+
+### Dependency-Track에 업로드
+
+생성된 `*_bom.json` 파일을 아래 명령으로 업로드합니다.
+
+```bash
+curl -X "POST" "http://localhost:8081/api/v1/bom" \
+  -H "X-Api-Key: ${DT_API_KEY}" \
+  -F "autoCreate=true" \
+  -F "projectName=MyApp" \
+  -F "projectVersion=1.0.0" \
+  -F "bom=@MyApp_1.0.0_bom.json"
+```
+
+### 지원 언어
+
+Java, Python, Node.js, Go, Rust, Ruby, PHP, .NET, C/C++(패키지 매니저 사용 시)를 한 번에 분석합니다.
+C/C++ 헤더 직접 관리 방식·정적 링크 바이너리는 감지에 한계가 있습니다.
+
+> **소스**: [github.com/sktelecom/sbom-tools](https://github.com/sktelecom/sbom-tools) (Apache-2.0)
+
+---
+
 ## cdxgen SBOM 생성 및 자동 업로드
 
 ### API Key 발급
