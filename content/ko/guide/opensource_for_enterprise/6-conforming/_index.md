@@ -9,7 +9,7 @@ description: >
 ---
 
 
-{{% alert title="이 섹션이 다루는 입증자료" color="success" %}}
+{{% alert title="이 섹션이 다루는 요구사항" color="success" %}}
 **ISO/IEC 5230**: 3.6.1.1 · 3.6.2.1  
 **ISO/IEC 18974**: 4.4.1.1 · 4.4.2.1
 {{% /alert %}}
