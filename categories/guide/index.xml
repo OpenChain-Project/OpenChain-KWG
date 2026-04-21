@@ -1285,24 +1285,11 @@ AI 관련 지표를 &lt;strong&gt;기존 오픈소스 대시보드에 추가&lt;
 &lt;/div&gt;
 &lt;p&gt;이를 위해 기업은 다음과 같은 내용을 포함하는 문서를 작성해야 합니다:&lt;/p&gt;</description></item><item><title>7. AI 컴플라이언스</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/7-ai-compliance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/7-ai-compliance/</guid><description>&lt;p&gt;AI 시스템은 오픈소스 프레임워크, 사전 훈련된 모델, 오픈 데이터셋을 광범위하게 활용한다.
 오픈소스 관리 체계(ISO/IEC 5230 · 18974)를 운영하는 기업은 AI 시스템 개발 단계에서도
-오픈소스 컴플라이언스 원칙을 적용해야 한다.&lt;/p&gt;
+오픈소스 컴플라이언스 원칙을 적용해야 한다.
+또한 AI 코딩 도구(GitHub Copilot, Claude Code, Cursor 등)를 활용하는 개발 환경에서도
+라이선스 혼입과 취약 패키지 도입에 대한 새로운 관리 체계가 필요하다.&lt;/p&gt;
 &lt;p&gt;ISO/IEC 42001(AI 관리 시스템)은 AI 거버넌스 전반을 다루며, 그 중 일부 조항이
-오픈소스 관리와 직접 교차한다. 이 섹션은 그 교차점을 실무 관점에서 정리한다.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="ai-시스템에서-오픈소스가-사용되는-세-가지-영역"&gt;AI 시스템에서 오픈소스가 사용되는 세 가지 영역&lt;/h2&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;AI 시스템
- ├── 1. AI 프레임워크 · 라이브러리
- │ (PyTorch, TensorFlow, Hugging Face Transformers, LangChain 등)
- │ → 일반 오픈소스 라이선스 컴플라이언스 적용
- │
- ├── 2. 사전 훈련 모델 (Pre-trained Model)
- │ (Llama, Mistral, Falcon, BERT 등)
- │ → 모델별 커스텀 라이선스 확인 필요
- │
- └── 3. 학습 데이터셋
- (Common Crawl, Wikipedia, CC-BY 데이터셋 등)
- → 오픈 데이터 라이선스 의무 이행
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;각 영역별로 기존 오픈소스 컴플라이언스 프로세스와 다른 지점이 있으므로 아래를 참고한다.&lt;/p&gt;</description></item><item><title>교육 슬라이드</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/training-slides/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/training-slides/</guid><description>&lt;h2 id="교육-슬라이드"&gt;교육 슬라이드&lt;/h2&gt;
+오픈소스 관리와 직접 교차한다. 이 섹션은 그 교차점을 실무 관점에서 정리한다.&lt;/p&gt;</description></item><item><title>교육 슬라이드</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/training-slides/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/training-slides/</guid><description>&lt;h2 id="교육-슬라이드"&gt;교육 슬라이드&lt;/h2&gt;
 &lt;p&gt;이 페이지에서는 기업 오픈소스 거버넌스 전 과정을 담은 교육 슬라이드를 제공합니다.
 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/"&gt;기업 오픈소스 관리 가이드&lt;/a&gt; 내용을 4시간 교육용으로 구성한 자료입니다.&lt;/p&gt;
 &lt;!-- &lt;div class="mx-auto" style="margin: 24px 0;"&gt;
