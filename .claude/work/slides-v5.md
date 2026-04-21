@@ -2315,7 +2315,7 @@ REST API·CLI로 CI/CD 통합 용이
 
 <!-- 슬라이드 51: SBOM 생성 도구 -->
 
-## SBOM 생성: cdxgen & Syft
+## SBOM 생성 도구
 
 <div class="benefit-row">
 <div class="benefit-card">
@@ -2336,9 +2336,18 @@ SPDX·CycloneDX 양 형식 지원<br>
 Grype(취약점 스캐너)와 연동
 </div>
 </div>
+<div class="benefit-card">
+<div class="b-title">SKT SBOM Scanner</div>
+<div class="b-body">
+SK텔레콤 개발, Apache 2.0<br>
+Docker 기반 — 별도 설치 불필요<br>
+9개 언어 동시 분석 (Easy Mode)<br>
+소스코드·Docker 이미지·펌웨어 지원
+</div>
+</div>
 </div>
 
-<div class="url-link"><a href="https://openchain-project.github.io/OpenChain-KWG/guide/tools/5-cdxgen/">도구 가이드: cdxgen</a> | <a href="https://openchain-project.github.io/OpenChain-KWG/guide/tools/6-syft/">도구 가이드: Syft</a></div>
+<div class="url-link"><a href="https://openchain-project.github.io/OpenChain-KWG/guide/tools/5-cdxgen/">도구 가이드: cdxgen</a> | <a href="https://openchain-project.github.io/OpenChain-KWG/guide/tools/6-syft/">도구 가이드: Syft</a> | <a href="https://openchain-project.github.io/OpenChain-KWG/guide/tools/8-cdxgen-dt/">cdxgen + Dependency-Track 자동화 가이드</a></div>
 
 ---
 
@@ -3180,6 +3189,58 @@ table { font-size: 0.66em; }
 
 ---
 
+<!-- 슬라이드 78: AI 코딩 도구의 새로운 위험 -->
+
+## AI 코딩 도구 — 새로운 컴플라이언스 위험
+
+<div class="col-left">
+
+**GitHub Copilot · Claude Code · Cursor · Windsurf**  
+AI 코딩 도구는 생산성을 높이지만 새로운 위험을 함께 가져온다
+
+- **라이선스 혼입 위험** — AI가 오픈소스를 학습해 유사 코드 생성 → GPL 코드가 무심코 혼입될 수 있다
+- **취약 패키지 추천** — 학습 데이터 기준의 오래된 버전 추천 → 알려진 CVE가 포함된 패키지 도입
+- **의존성 SBOM 누락** — AI가 제안하는 패키지도 SBOM·취약점 관리 대상
+
+</div>
+
+<div class="callout callout-orange">
+<strong>핵심 원칙</strong><br>
+AI가 코드를 빠르게 생성할수록<br>
+검증 자동화의 중요성은 더 커진다
+</div>
+
+
+<div class="url-link"><a href="https://trustedoss.github.io/ai-coding/intro">Trusted OSS: AI 코딩 도구와 오픈소스 컴플라이언스</a></div>
+
+
+
+---
+
+<!-- 슬라이드 79: 4단계 보장 전략 -->
+
+## AI 코딩 도구 — 보장 수준별 4단계 전략
+
+<style scoped>
+table { font-size: 0.72em; }
+</style>
+
+| 단계 | 핵심 수단 | 보장 수준 | 권장 대상 |
+|------|-----------|:---------:|-----------|
+| **1단계**: 프롬프트 의존 | 없음 (개인 기억) | 낮음 | 개인 실험 |
+| **2단계**: AI 규칙 내재화 | CLAUDE.md · .cursorrules 등 | 중간 | 팀 공동작업 |
+| **3단계**: CI/CD 자동 차단 | syft · grype · ORT | 높음 | 팀·조직 |
+| **4단계**: 지속적 모니터링 | Dependabot · Renovate + AI | 매우 높음 | 조직·전사 |
+
+<div class="callout callout-blue">
+<strong>2단계부터 팀 적용 가능</strong> — CLAUDE.md에 허용·금지 라이선스 목록을 명시하면 AI가 코드 생성 시 자동 인지<br>
+<strong>3단계부터 Hard Block</strong> — PR 병합 전 syft·grype로 SBOM 생성 및 CVE·금지 라이선스 자동 차단
+</div>
+
+<div class="url-link"><a href="https://trustedoss.github.io/ai-coding/strategy">Trusted OSS: 보장 수준별 4단계 전략</a></div>
+
+---
+
 <!-- 슬라이드 80: 파트 3 요약 -->
 
 ## 파트 3 요약
@@ -3196,6 +3257,10 @@ table { font-size: 0.66em; }
 <div class="summary-card summary-card-green">
 <div class="sc-title">데이터셋 + AI-BOM</div>
 <div class="sc-body">CC 라이선스 관리<br>AI-BOM 생성으로 ISO 42001 §7.5 충족</div>
+</div>
+<div class="summary-card summary-card-purple">
+<div class="sc-title">AI 코딩 도구</div>
+<div class="sc-body">라이선스 혼입·취약 패키지 위험<br>Rules 내재화 + CI/CD 자동 차단</div>
 </div>
 </div>
 
