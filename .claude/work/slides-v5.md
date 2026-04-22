@@ -2122,7 +2122,7 @@ CVSS 기준 조치 기한
 </div>
 
 <div class="evidence">입증자료: <br>-ISO/IEC 5230 §3.2.1.2 외부 문의 내부 대응 절차<br>-ISO/IEC 18974 §4.2.1.2 동일</div>
-<div class="url-link"><a href="https://openchain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/2-policy/#8-%EC%99%B8%EB%B6%80-%EB%AC%B8%EC%9D%98-%EB%8C%80%EC%9D%91">정책: 외부 문의 대응</a></div>
+<div class="url-link"><a href="https://openchain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/2-policy/#8-%EC%99%B8%EB%B6%80-%EB%AC%B8%EC%9D%98-%EB%8C%80%EC%9D%91">프로세스: 외부 문의 대응</a></div>
 
 ---
 
@@ -2347,7 +2347,7 @@ Docker 기반 — 별도 설치 불필요<br>
 </div>
 </div>
 
-<div class="url-link"><a href="https://openchain-project.github.io/OpenChain-KWG/guide/tools/5-cdxgen/">도구 가이드: cdxgen</a> | <a href="https://openchain-project.github.io/OpenChain-KWG/guide/tools/6-syft/">도구 가이드: Syft</a> | <a href="https://openchain-project.github.io/OpenChain-KWG/guide/tools/8-cdxgen-dt/">cdxgen + Dependency-Track 자동화 가이드</a></div>
+<div class="url-link"><a href="https://openchain-project.github.io/OpenChain-KWG/guide/tools/5-cdxgen/">도구 가이드: cdxgen</a> | <a href="https://openchain-project.github.io/OpenChain-KWG/guide/tools/6-syft/">도구 가이드: Syft</a> | <a href="https://sktelecom.github.io/guide/supply-chain/for-suppliers/skt-scanner/">SKT SBOM Scanner</a></div>
 
 ---
 
@@ -2359,7 +2359,7 @@ Docker 기반 — 별도 설치 불필요<br>
 <div class="benefit-card">
 <div class="b-title">FOSSLight</div>
 <div class="b-body">
-LG전자 개발, Apache 2.0<br>
+LG전자 개발, AGPL 3.0<br>
 소스·바이너리·패키지 통합 스캔<br>
 라이선스 검토·승인·고지문 생성<br>
 한국어 지원, 국내 기업 활용도 높음
