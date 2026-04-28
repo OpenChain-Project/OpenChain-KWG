@@ -120,20 +120,68 @@ docker compose ps
 기본값으로 다수의 취약점 소스가 활성화되어 있습니다. 처음부터 모두 켜면
 중복 알림이 과도하게 발생하여 관리 부담이 커집니다.
 
-**권장: NVD + GitHub Advisories만 활성화**
+**권장: 초기에는 NVD + GitHub Advisories 중심으로 시작**
 
 `Administration` → `Vulnerability Sources`에서 아래 표를 참고하여 설정합니다.
 
 | 소스 | 권장 설정 | 이유 |
 |------|----------|------|
-| **NVD** | 활성화 | CVE 기반 표준 DB. CVSS 점수 포함. 필수 |
-| **GitHub Advisories** | 활성화 | npm·Python·Go·Ruby 생태계 패키지 보안 권고. NVD와 보완적 |
+| **NVD** | 활성화 + API 미러링 ON | CVE 기반 표준 DB. CVSS 점수 포함. 필수 |
+| **GitHub Advisories** | 활성화 + PAT 입력 | npm·Python·Go·Ruby 생태계 패키지 보안 권고. NVD와 보완적 |
 | Google OSV | 초기 비활성화 | NVD·GitHub와 중복이 많아 알림 폭증 원인. 운영 안정 후 필요 시 추가 |
 | OSS Index | 초기 비활성화 | 계정 등록 필요. 중복 커버리지 |
 | VulnDB | 비활성화 | 유료 서비스 |
 
 > **운영 팁**: 6개월 이상 운영 후 탐지 누락이 있다고 판단되면 OSV를 추가 활성화하세요.
 > 처음부터 전부 켜는 것보다 점진적으로 확장하는 방식을 권장합니다.
+
+### NVD (필수): API 미러링으로 설정
+
+`Enable mirroring via API`가 OFF이면 구버전 feed 방식으로 동작할 수 있어 최신 환경에서는
+동기화 실패 또는 지연 가능성이 큽니다. 반드시 API 미러링을 사용하세요.
+
+- `Enable NVD mirroring`: ON
+- `Enable mirroring via API`: ON
+- `API endpoint`: `https://services.nvd.nist.gov/rest/json/cves/2.0` (기본값 유지)
+- `API key`: NVD에서 발급받은 키 입력
+- `Additionally download feeds`: OFF 유지 (일반 운영에서는 불필요)
+
+적용 후 `Last Modification`이 비어 있으면 초기 동기화가 진행 중일 수 있습니다.
+초기 동기화 완료 후 값이 채워지는지 확인하세요.
+
+### GitHub Advisories: PAT 없으면 동작하지 않음
+
+GitHub Advisory 미러링은 Personal Access Token(PAT) 입력이 필요합니다.
+
+- `Enable GitHub Advisory mirroring`: ON
+- `Enable vulnerability alias synchronization`: ON 유지
+- `Personal Access Token`: classic PAT(`ghp_...`) 입력
+
+> 참고: fine-grained PAT(`github_pat_...`)은 환경에 따라 인증 이슈가 보고되어
+> classic PAT 사용을 권장합니다.
+
+### Google OSV: Ecosystem 선택이 있어야 활성화
+
+OSV는 Ecosystem을 하나 이상 선택해야 실제 미러링이 동작합니다.
+
+- `Select ecosystem to enable Google OSV Advisory mirroring`: ON
+- `Enable vulnerability alias synchronization`: ON
+- `OSV Base URL`: 기본값 유지
+- Ecosystem(예시): `PyPI`, `npm`, `Maven`, `Go`, `Linux`
+  (환경에 따라 `NuGet`, `RubyGems`, `crates.io` 추가)
+
+### 적용 순서 (권장)
+
+```bash
+# 설정 저장 후 미러링 로그 확인
+docker compose logs -f dtrack-apiserver | grep -iE "nvd|github|osv|mirror"
+```
+
+필요 시 초기 설정 반영을 위해 API 서버를 재시작합니다.
+
+```bash
+docker compose restart dtrack-apiserver
+```
 
 ## 라이선스 정책 설정
 

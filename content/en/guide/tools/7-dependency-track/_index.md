@@ -37,6 +37,66 @@ docker compose up -d
 By default, the API server runs on port 8081 and the frontend on port 8080.
 Default admin credentials: `admin` / `admin` (change immediately after first login)
 
+## Recommended Vulnerability Source Settings
+
+`Administration` -> `Vulnerability Sources`
+
+Avoid enabling every source on day one. Start with a minimal set to reduce duplicate findings and alert noise.
+
+| Source | Recommended setting | Why |
+|------|----------|------|
+| **NVD** | Enabled + API mirroring ON | Primary CVE database with CVSS scoring |
+| **GitHub Advisories** | Enabled + PAT configured | Strong package ecosystem coverage that complements NVD |
+| Google OSV | Initially disabled | Often overlaps with NVD/GitHub and can increase duplicates |
+| OSS Index | Initially disabled | Requires account setup and has overlapping coverage |
+| VulnDB | Disabled | Commercial datasource |
+
+### NVD (required): use API mirroring
+
+If `Enable mirroring via API` is OFF, Dependency-Track may rely on legacy feed behavior.
+In current environments, API mirroring is the reliable default.
+
+- `Enable NVD mirroring`: ON
+- `Enable mirroring via API`: ON
+- `API endpoint`: `https://services.nvd.nist.gov/rest/json/cves/2.0` (keep default)
+- `API key`: set your NVD API key
+- `Additionally download feeds`: OFF for normal operation
+
+If `Last Modification` is empty right after applying settings, initial synchronization may still be running.
+
+### GitHub Advisories: requires PAT
+
+Without a Personal Access Token (PAT), GitHub Advisory mirroring will not run correctly after restart.
+
+- `Enable GitHub Advisory mirroring`: ON
+- `Enable vulnerability alias synchronization`: ON
+- `Personal Access Token`: use a classic token (`ghp_...`)
+
+> Note: fine-grained PAT (`github_pat_...`) may fail in some environments. A classic token is safer for Dependency-Track.
+
+### Google OSV: ecosystem selection is mandatory
+
+OSV mirroring is active only when one or more ecosystems are selected.
+
+- `Select ecosystem to enable Google OSV Advisory mirroring`: ON
+- `Enable vulnerability alias synchronization`: ON
+- `OSV Base URL`: keep default
+- Example ecosystems: `PyPI`, `npm`, `Maven`, `Go`, `Linux`
+  (add `NuGet`, `RubyGems`, `crates.io` only when needed)
+
+### Operational check
+
+```bash
+# Follow datasource mirroring progress
+docker compose logs -f dtrack-apiserver | grep -iE "nvd|github|osv|mirror"
+```
+
+If needed, restart once after configuration changes:
+
+```bash
+docker compose restart dtrack-apiserver
+```
+
 ## Basic Usage
 
 ### (1) Create a Project and Upload SBOM via Web UI
