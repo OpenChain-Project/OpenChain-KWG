@@ -12,6 +12,10 @@ description: >
 [전체 구축 로드맵 보기](../../#단계별-구축-로드맵)
 {{% /alert %}}
 
+{{% alert title="★ 18974 전용 항목 — Documented Evidence 강도" color="warning" %}}
+§4.1.2.3·§4.1.2.5·§4.1.2.6은 ISO 18974 전용(★) 항목으로 **Documented Evidence**(문서화된 증거)를 요구한다. 단순 절차 문서로는 부족하며, 실제 수행 기록(참여자 목록·검토 회의록·내부 모범 사례 비교 결과)을 함께 보관해야 한다. 강도 차이의 자세한 설명은 [§4.1.5 표준 관행 — Documented Evidence 안내](../5-standard-practice/#iso-18974-전용-항목의-강도--documented-evidence)를 참고한다.
+{{% /alert %}}
+
 ## 1. 조항 개요
 
 §4.1.2는 ISO/IEC 5230 §3.1.2(역량)와 기본 구조는 동일하지만, 입증자료 항목이
