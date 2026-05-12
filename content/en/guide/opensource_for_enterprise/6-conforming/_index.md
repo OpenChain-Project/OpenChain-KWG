@@ -6,7 +6,7 @@ type: docs
 description: >
 ---
 
-Companies that have built an open source program (open source policy / process / tools / organization) that complies with all requirements except ISO/IEC 5230 3.6, ISO/IEC 18974 3.4 can document and specify the following two things.
+Companies that have built an open source program (open source policy / process / tools / organization) that complies with all requirements except ISO/IEC 5230 §3.6, ISO/IEC 18974 §4.4 can document and specify the following two things.
 
 For this, ISO standards commonly require the following documented procedures to announce open source policies.
 
@@ -20,15 +20,15 @@ For this, ISO standards commonly require the following documented procedures to 
 
 {{% alert title="ISO/IEC 18974 - Security Assurance" color="warning" %}}
 
-* 3.4.1.1: Documented Evidence affirming the Program specified in §3.1.4 satisfies all the requirements of this document.
-* 3.4.2.1: A document affirming the Program meets all the requirements of this specification, within the past 18 months of obtaining conformance validation.
+* 4.4.1.1: Documented Evidence affirming the Program specified in §4.1.4 satisfies all the requirements of this document.
+* 4.4.2.1: A document affirming the Program meets all the requirements of this specification, within the past 18 months of obtaining conformance validation.
 
 {{% /alert %}}
 
 Therefore, you can document the following:
 
 1. The company's open source program complies with all the requirements of ISO/IEC 5230, ISO/IEC 18974
-2. Guarantee to maintain a state that meets all the requirements of ISO/IEC 5230, ISO/IEC 18974 for more than 18 months after obtaining conformance validation
+2. Confirm that the program **has met** all the requirements of ISO/IEC 5230 and ISO/IEC 18974 **during the past 18 months** since obtaining conformance validation (retrospective past-fact confirmation, not a future commitment)
 
 The company can include the above in its open source policy, or it can be posted through a publicly available website.
 

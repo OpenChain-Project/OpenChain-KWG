@@ -65,7 +65,7 @@ This OpenChain Specification was formally registered as [ISO/IEC 5230:2020](http
 
 The OpenChain Specification, which had been a de facto standard for the past four years, was converted into the formal international standard ISO/IEC 5230:2020 — the first international standard defining open source compliance and process management. This has heightened interest among global IT companies in complying with ISO/IEC 5230, and it is expected that more companies in the software supply chain will begin requiring suppliers to comply with ISO/IEC 5230.
 
-In 2023, a new standard for open source security assurance, [ISO/IEC 18974](https://www.iso.org/standard/81039.html), was announced. This standard is based on the OpenChain Security Assurance Specification and defines the core requirements for managing known security vulnerabilities in open source software. ISO/IEC 18974 covers the following key areas:
+In 2023, a new standard for open source security assurance, [ISO/IEC 18974](https://www.iso.org/standard/86450.html), was announced. This standard is based on the OpenChain Security Assurance Specification and defines the core requirements for managing known security vulnerabilities in open source software. ISO/IEC 18974 covers the following key areas:
 
 1. Identifying the key areas where security processes are needed
 2. How to assign roles and responsibilities

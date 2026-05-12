@@ -9,12 +9,12 @@ description: >
 
 ## 1. Clause Overview
 
-§4.4.2 has the same structure as ISO/IEC 5230 §3.6.2 (Duration). It requires organizations to maintain a document confirming that all requirements of the specification are met within the past 18 months of obtaining conformance. When a new version of the specification is published, conformance under the previous version is maintained for a grace period of 18 months, during which it is recommended to update to the latest version.
+§4.4.2 has the same structure as ISO/IEC 5230 §3.6.2 (Duration). It requires organizations to maintain a retrospective document confirming that all requirements of the specification **have been met during the past 18 months** of obtaining conformance (this is a past-fact confirmation, not a future commitment). When a new version of the specification is published, conformance under the previous version is maintained for a grace period of 18 months, during which it is recommended to update to the latest version.
 
 ## 2. What to Do
 
 - Record and manage the date on which conformance was obtained.
-- Within the past 18 months of obtaining conformance, re-confirm and document that all requirements of the specification are still met.
+- Re-confirm and document retrospectively that all requirements of the specification have been met during the past 18 months of obtaining conformance.
 - If a new version of ISO/IEC 18974 is published, update the program to meet the latest version and re-confirm within 18 months.
 - Conduct periodic internal audits to verify that all 25 verification material items remain continuously compliant.
 

@@ -160,4 +160,4 @@ PackageCopyrightText: Copyright (C) 1995-2022 Jean-loup Gailly and Mark Adler
 
 - Related guide: [Enterprise Open Source Management Guide — 3. Process](../../../opensource_for_enterprise/3-process/)
 - Related template: [Open Source Process Template](../../../templates/2-process-template/)
-- Related tools: [FOSSology](../../../tools/1-fossology/), [ORT](../../../tools/2-ort/), [Syft](../../../tools/6-syft/), [cdxgen](../../../tools/5-cdxgen/), [Dependency-Track](../../../tools/7-dependency-track/)
+- Related tools: [FOSSology](../../../tools/1-fossology/), [ORT](https://github.com/oss-review-toolkit/ort), [Syft](../../../tools/6-syft/), [cdxgen](../../../tools/5-cdxgen/), [Dependency-Track](../../../tools/7-dependency-track/)
