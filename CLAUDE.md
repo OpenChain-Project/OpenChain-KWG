@@ -83,7 +83,7 @@ OpenChain-KWG/
 - 태그 형식: YAML 인라인 배열 `tags: ["태그1", "태그2"]`
 - 태그 표준화 작업 스크립트: `.claude/work/` 디렉토리 참고
   - `extract_tags.py` — 전체 태그 현황 추출 → `current_tags.json` (gitignore)
-  - `analyze_tags.py` — 태그 분석 및 표준화 사전 생성 → `tag_mapping.json` (gitignore), `tag_analysis_report.md`
+  - `analyze_tags.py` — 태그 분석 및 표준화 사전 생성 → `tag_mapping.json` (gitignore)
   - `update_tags.py` — 태그 일괄 적용 (`--dry-run` 플래그로 미리보기)
 - 태그 수정 시 **본문과 다른 프론트매터 속성은 절대 변경하지 않는다**
 - 적용 전 반드시 `--dry-run` 먼저 실행하여 변경 목록 확인

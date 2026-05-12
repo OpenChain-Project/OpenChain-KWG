@@ -4,7 +4,8 @@
 ## 사용법
 
 ```
-/guide-improve audit [target]           # 가이드 완성도·일관성 감사
+/guide-improve audit [target]           # 가이드 완성도·일관성 감사 (형식·구조·교차링크)
+/guide-improve critic {파일|target}     # 가이드 콘텐츠 비판적 재검토 (Opus 4.7, 본문 정독)
 /guide-improve section {표준} {조항}    # 특정 조항 개선
 /guide-improve links [fix]              # 교차 참조 링크 점검 (fix: 수정 제안)
 /guide-improve evidence {표준} [항목]   # 입증자료 충족 여부 점검
@@ -25,6 +26,14 @@
 1. `guide-auditor` 에이전트를 호출한다. target을 전달한다.
 2. 에이전트가 반환한 감사 결과를 그대로 출력한다.
 3. "개선 우선순위" 목록을 바탕으로 다음 권장 명령을 제안한다.
+
+### `critic {파일|target}`
+1. 입력 해석:
+   - 파일 경로(`content/ko/guide/...` 또는 절대 경로)면 단일 파일 검토.
+   - target(`5230` | `18974` | `42001` | `enterprise` | `templates` | `tools`)이면 해당 그룹 일괄 검토. 그룹 검토는 파일 수가 많을 수 있으므로 시작 전 사용자 확인을 받는다.
+2. `guide-critic` 에이전트를 호출한다(모델: opus 고정). 대상을 전달한다.
+3. 에이전트가 반환한 리포트를 출력한다. 결과는 `content/ko/guide/CRITIC-REPORT.md`에 누적 기록된다.
+4. P1 약점이 있으면 `/guide-improve section`으로 보강 diff 작성을 제안한다. 단, diff 작성·적용은 별도 단계이며, 이 서브커맨드는 어떤 파일도 수정하지 않는다.
 
 ### `section {표준} {조항}`
 1. 조항 번호로 대상 파일 경로를 결정한다:

@@ -34,15 +34,26 @@ Hugo 기본 taxonomy 기능을 사용하며 별도 커스텀 taxonomy 설정은 
 - 다국어 파일에서 동일한 태그를 사용 (ko/en 공통)
 - 주로 blog, meeting 콘텐츠에 태그 사용
 
-## 현재 사용 중인 태그 샘플
+## 현재 사용 중인 상위 태그 (2026-05 기준, 빈도순)
 
-| 태그 | 사용 파일 예시 |
-|------|--------------|
-| `SPDX` | blog/2024/20240906_spdx_30 |
-| `AI Act` | blog/2024/20241112_eu_regulation |
-| `CRA` | blog/2024/20241112_eu_regulation |
-| `log4j` | blog/2021/20211212-log4shell |
-| `오픈소스보안` | blog/2021/20211212-log4shell |
+전체: 587개 파일 중 259개에 태그 적용, 고유 태그 184개. 상위 20개:
+
+| 빈도 | 태그 |
+|----:|------|
+| 62 | `ISO/IEC 5230` |
+| 46 | `ISO/IEC 18974` |
+| 40 | `SBOM` |
+| 26 | `OpenChain` |
+| 23 | `AI` |
+| 11 | `FOSSLight` |
+| 11 | `ISO/IEC 42001` |
+|  9 | `교육자료` |
+|  8 | `분쟁사례` |
+|  7 | `삼성전자` |
+|  6 | `CycloneDX` / `GPL` / `Olive` |
+|  5 | `vulnerability` / `SPDX` / `AI Compliance` / `ETRI` / `정책` |
+
+상위 태그 갱신 방법: `python3 .claude/work/extract_tags.py` 후 `current_tags.json` 집계.
 
 ## 콘텐츠 타입별 태그 현황
 
