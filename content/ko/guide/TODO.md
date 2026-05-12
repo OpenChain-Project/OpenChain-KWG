@@ -157,8 +157,8 @@ draft: true
 - [x] P1 규칙 명문화 — `.claude/rules/guide-writing.md`에 통일성 규칙 추가 (종결체·alert color·헤딩·약어·이미지·ISO 인용·용어 통일·코드 블록·링크·mermaid) [2026-05-12]
 - [ ] P2 구조적 보강 (다음 단계 — 큰 작업, session 분할):
   - [x] opensource_for_enterprise/7-ai-compliance 형식 리포밍 (도입 alert·H3 (N)·어조·Summary·교차링크 5종 적용) — Layer A·C PASS [2026-05-13]
-  - [ ] opensource_for_enterprise/2-policy H2 번호 재정렬
-  - [ ] opensource_for_enterprise/0-openchain 3종 세트 추가
+  - [x] opensource_for_enterprise/2-policy H2 번호 재정렬 — **변경 불필요** (sub-agent grep 분석 오류. 실제 본문 H2는 1·2·3 순차. ## 4·5·9·7은 코드 블록 안 정책 템플릿 인용으로 Hugo 파서가 H2로 처리하지 않음) [2026-05-13]
+  - [x] opensource_for_enterprise/0-openchain 3종 세트 추가 (도입 alert + Summary + 하단 교차 링크 blockquote) — hugo 빌드 PASS [2026-05-13]
   - [ ] iso5230_guide 5섹션 구조 회복 (2-license-compliance·1-conformance)
   - [ ] templates 두 템플릿 헤딩 체계·OSPM·Jira·플레이스홀더 통일
   - [ ] iso42001_guide 약어 표·라이선스명 통일·AI SBOM 정의 중복 정리
