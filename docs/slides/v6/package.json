@@ -1,0 +1,19 @@
+{
+  "name": "openchain-kwg-slides-v6",
+  "version": "0.1.0",
+  "private": true,
+  "description": "OpenChain KWG enterprise OSS governance training slides (Slidev v6).",
+  "license": "CC-BY-4.0",
+  "type": "module",
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /OpenChain-KWG/slides/enterprise-oss-governance/ --out ../../../static/slides/enterprise-oss-governance",
+    "export": "slidev export",
+    "preview": "slidev"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.50.0",
+    "@slidev/theme-default": "^0.25.0",
+    "vue": "^3.5.0"
+  }
+}
