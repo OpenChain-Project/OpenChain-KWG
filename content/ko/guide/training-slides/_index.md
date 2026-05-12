@@ -63,7 +63,7 @@ description: >
 슬라이드 원본은 [Marp](https://marp.app/) 형식의 Markdown 파일입니다.
 
 ```
-.claude/work/slides-v5.md
+docs/slides/enterprise-oss-governance.md
 ```
 
 ### 사용 도구
@@ -77,24 +77,24 @@ description: >
 
 ```bash
 # HTML 빌드 (웹 게시용) — static/slides/ 덮어쓰기
-npx @marp-team/marp-cli .claude/work/slides-v5.md --html \
+npx @marp-team/marp-cli docs/slides/enterprise-oss-governance.md --html \
   -o static/slides/enterprise-oss-governance.html
 
 # PDF 빌드 (배포·인쇄용)
-npx @marp-team/marp-cli .claude/work/slides-v5.md --pdf \
+npx @marp-team/marp-cli docs/slides/enterprise-oss-governance.md --pdf \
   -o enterprise-oss-governance.pdf
 ```
 
 ### 업데이트 절차
 
-1. `.claude/work/slides-v5.md` 수정 (VS Code Marp 확장으로 미리보기 확인)
+1. `docs/slides/enterprise-oss-governance.md` 수정 (VS Code Marp 확장으로 미리보기 확인)
 2. HTML 재빌드: 위 빌드 명령 실행
 3. `static/slides/enterprise-oss-governance.html` 커밋
 4. `master` 브랜치 push → GitHub Pages 자동 배포
 
 ### CSS 디자인 시스템
 
-슬라이드 CSS는 `slides-v5.md` 상단 `style: |` 블록(1~580줄)에 정의되어 있습니다.
+슬라이드 CSS는 `docs/slides/enterprise-oss-governance.md` 상단 `style: |` 블록(1~580줄)에 정의되어 있습니다.
 
 **디자인 토큰** (`section { }` 내 CSS 변수)
 
