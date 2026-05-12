@@ -37,6 +37,11 @@ draft: true
 | 2026-05-12 | opensource_for_enterprise/5-training/_index.md | 6 / 7 / 3 | 미진행 | 역할별 교육 매트릭스 부재·평가 미통과 처리 절차 누락 |
 | 2026-05-12 | opensource_for_enterprise/6-conforming/_index.md | 5 / 4 / 3 | 미진행 | "지난 18개월" 과거 사실 확인형 부재·자체/제3자 인증 구분 누락·cross-link 오류 |
 | 2026-05-12 | opensource_for_enterprise/7-ai-compliance/_index.md | 8 / 10 / 4 | 미진행 | EU AI Act §53·OSAID 1.0·AI 코드 저작권 귀속 부재·Llama 라이선스 의무 단순화 |
+| 2026-05-12 | templates/1-policy/_index.md | 9 / 13 / 3 | 미진행 | ISO 18974 §3.x→§4.x 번호 오기 5건·SBOM NTIA·SLA 자체 모순·코드블록 깨짐 |
+| 2026-05-12 | templates/2-process-template/_index.md | 11 / 15 / 3 | 미진행 | placeholder `(insert_link)`·외부 SK텔레콤 URL·통지 SLA 부재·CVD Safe Harbor 누락 |
+| 2026-05-12 | iso5230_guide/ (14개 파일, 2,400줄) | 19 / 47 / 24 | 미진행 | §3.6.1 "24개 입증자료" 오기재(실제 25)·도구 링크 다수 깨짐·권고 vs ISO 표준 미구분 패턴 |
+| 2026-05-12 | iso42001_guide/ (10개 파일, 1,398줄) | 68 / 21 / 1 | 미진행 | 7-ai-compliance P1 8건 100% 전파·EU AI Act §53 미반영·OSAID 1.0 미언급·SPDX 3.0 AI Profile 필드 누락·OpenSSF Model Signing 미언급 |
+| 2026-05-12 | iso18974_guide/ (13개 파일, ~2,075줄) | 38 / 48 / 14 | 미진행 | "24개" 오기재 2건 + ★ 9개 항목 모두 부분 충족 + 2026 보안 표준(CVSS 4.0·NVD 백로그·VEX·EU CRA) 미반영 |
 
 ---
 
@@ -469,6 +474,621 @@ draft: true
 - 본문 정독: 223줄
 - 참조: ISO/IEC 42001 §5.2·§6.1.2·§6.1.4·§7.5·§8.4·§8.5·§8.6·§8.8·§9.1, EU AI Act §50·§53, US Copyright Office AI Guidance (2023-03/2024), OSAID 1.0 (2024-10), SPDX 3.0 AI Profile
 - 비고: 2026-05 시점 산업 현실(EU AI Act §53 GPAI 의무 시행, Llama 라이선스 의무 다양화, OSAID 1.0) 기준선 적용
+
+---
+
+### 비판적 재검토 — templates/1-policy/_index.md (2026-05-12)
+
+#### 현 상태 평가
+11개 장 645줄로 구성된 실물 정책 문서로, ISO 5230·18974 양쪽을 통합 다룬다. 인증 심사 제출용 실물 문서라는 관점에서 (1) §3.4 SBOM 정의에 NTIA 7요소 미포함, (2) 보안 SLA가 Critical 1주·High 4주만 명시되어 Medium/Low 처리 기준 모호, (3) §5.2 새 취약점 절차가 §5.1과 SLA·조치 카탈로그 비대칭, (4) §11 ISO 표준 준수 선언이 5230 §3.6.1.1·§3.6.2.1을 명시하지 않음. §7.3 저작권 표기 샘플 마크다운 렌더링 오류(L429 "textCopyright")는 P1.
+
+#### 약점 목록 (우선순위 순)
+| 순위 | 위치 | 차원 | 약점 | 보강 방향 |
+|------|------|------|------|----------|
+| **P1** | L427-430 §7.3 (1) | 샘플 현실성/심사 함정 | 저작권 표기 샘플 코드 블록 깨짐 — `\`textCopyright (c) [Year] [Company Name]`로 렌더링되어 `text` 토큰이 코드에 섞임 | 정상 fenced code block + SPDX-License-Identifier 예시 + REUSE-3.0 참조 |
+| **P1** | L74-75 §2.1 (2) SBOM 정의 | 표준 정합성/누락 예외 | SBOM 정의가 "재료 목록"으로만 — NTIA 최소 요소 7개(supplier·component·version·unique ID·dependency relationship·author·timestamp) 미수록. SPDX/CycloneDX 형식 본문에 있으나 정의 절에 없음 | "NTIA 최소 요소를 포함하는 SPDX-2.3 또는 CycloneDX 1.5 형식" 구체화 |
+| **P1** | L288 §5.1 (3) SLA | 표준 정합성/자체 모순 | "(ISO/IEC 18974 §3.3.2.1)" — 18974는 §4.x 체계, §3.3.2.1 미존재. 시범 P1#1 ISO 번호 오기와 동일 유형 + Medium/Low SLA 미명시 + CVSS 4.0 미언급 | `§3.3.2.1` → `§4.3.2.1`. Medium/Low SLA 추가. CVSS 4.0 권장 |
+| **P1** | L292 §5.1 (4) 보관 | 표준 정합성 | "(ISO/IEC 18974 §3.3.2.2)" — 18974는 §4.3.2.2 | `§3.3.2.2` → `§4.3.2.2` |
+| **P1** | L378 §6.4 (2) 인식 평가 증거 | 표준 정합성 | "(ISO/IEC 18974 §3.1.3)" — 18974는 §4.1.3 | 정정 |
+| **P1** | L541 §9.3 (4) | 표준 정합성 | "(ISO/IEC 18974 §3.2.1.2)" — 18974는 §4.2.1.2 | 정정 |
+| **P1** | L242 §4.4 (1) | 표준 정합성 | "(ISO/IEC 18974 §3.3.1.2)" — 18974는 §4.3.1.2 | 정정 |
+| **P1** | §5.2 새 취약점 L294-304 | 누락 예외/심사 함정 | §5.2가 §5.1과 비대칭 — SLA 재명시·보관 3년·CVD 90일 룰 부재 | §5.1 SLA 동일 적용 + 보관 + CVD 절차 참조 |
+| **P1** | §11.1 (1) 준수 선언 L613-616 | 표준 정합성/심사 함정 | 5230 §3.6.1.1·§3.6.2.1, 18974 §4.4.1.1·§4.4.2.1 4개 입증자료 매핑 부재 | 입증자료 명시적 매핑 추가 |
+| P2 | L9-18 frontmatter 알림박스 | 표준 정합성 | OpenChain Template 2.1만 참조 — ISO 입증자료 매핑 표 부재 | 매핑 표 추가 |
+| P2 | §1.1 L31 사내 프로젝트 | 누락 예외 | 인바운드 기여·포크 후 사내 운영 부재 | "공개 후 관리" 명시 |
+| P2 | §3 OSPM L102-108 | 샘플 현실성 | 라이선스 외부 문의 vs 보안 외부 문의 분담 모호 | 분담 명시 |
+| P2 | §3 IT 담당 L115-120 | 모호성/실무 적용성 | SBOM 책임 OSPM과 중복 — RACI 부재 | RACI 매트릭스 참조 |
+| P2 | §4.2.1 라이선스 사용 사례 L213-222 | 누락 예외 | 4개만 명시 — 5개 추가(수정 포함·비호환 결합·저작권 고지·통합·이중 라이선스) 필요 | 사용 사례 확장 |
+| P2 | §5.1 (1) NVD/CVE 단독 L281 | 최신성 | OSV.dev·GHSA·KISA KVE·EPSS 미수록 | 다원화 |
+| P2 | §5.3 (1) "이상 징후" L310 | 모호성 | 보안 모니터링 용어 부적절 — 18974 "새로 공개된 알려진 취약점" 의미 | 표현 정정 |
+| P2 | §6.1 (1) 교육 내용 L340-346 | 누락 예외 | AI 코딩 도구·CVD·CLA 금지 사유 부재 | 추가 |
+| P2 | §10.1 (1) 성과 지표 L549-555 | 표준 정합성/모호성 | 6개 지표 정성 나열만 — 목표치·측정 주기 부재 | 목표치·주기·책임자 컬럼 |
+| P2 | §10.2 vs §11.2 vs §6.3 검토 주기 | 모호성/심사 함정 | 6개 위치에 표현 차이 — master 주기 불명 | §10.2를 master로 통일 |
+| P2 | §7.5 (1) 정책 인식 L447-449 | 표준 정합성 | "§3.1.3" → 기여 정책 인식은 §3.5.1.3 | 정정 |
+| P2 | §4.3 (3) 보관 기간 L235 | 표준 정합성 | written offer 3년 유효 요건·영구 보관 의무 부재 | 추가 |
+| P2 | §11.1 (1) "18개월" | 표준 정합성 | "선언 후 유효기간 18개월" 오해 — §3.6.2는 "지난 18개월 충족" retroactive | 표현 정정 |
+| P3 | L424-435 §7.3 (1) | 샘플 현실성 | SPDX-License-Identifier 실제 ID 예시 미수록 | 예시 추가 |
+| P3 | §2.1 (10) 컴플라이언스 산출물 L90-91 | 누락 예외 | SBOM 자체가 산출물 정의 미포함 | 추가 |
+| P3 | 본 정책 전반 AI 항목 | 최신성 | ISO 42001 미언급, AI 코딩 도구 처리 부재 | 7-ai-compliance 교차 링크 |
+
+#### 권장 액션
+1. (P1 일괄, 9건) ISO 번호 오기 5건 sed 일괄 정정 + §7.3 코드 블록 깨짐 + §11 입증자료 매핑. **단독 PR 권장**
+2. (P2 일괄, 13건) RACI·메트릭 목표치·교육 내용·정기 검토 주기·NVD 다원화. **2-process-template P2와 함께 한 PR**
+3. (P3 5건) AI 컴플라이언스 교차 링크·SPDX 예시·OSRB/OSPO 분담
+
+#### 차원별 약점 수
+- 모호성: 5 / 누락 예외: 9 / 샘플 현실성: 3 / 심사 함정: 5 / 실무 적용성: 3 / 표준 정합성: 13 / 최신성: 4
+
+#### 시범(2-policy)/3-process 검토 약점 전파 분석
+ISO 번호 오기 5건이 본 템플릿에 가장 짙게 누적. SBOM NTIA 7요소·NVD 단독·AI 교차 링크·정기 검토 주기 표현 불일치(6개 위치로 확산) 모두 전파. **동일 작성자·동일 시기 작성분의 약점 패턴이 템플릿에 가장 짙게 누적**되어 있어, 본 템플릿 보강이 인증 심사 합격선에 가장 큰 영향.
+
+#### 검토 메타
+- 검토 모델: claude-opus-4-7 | 본문 정독: 645줄
+- 참조: ISO 5230 §3.1.1·§3.1.3·§3.1.4·§3.2·§3.3·§3.4.1·§3.5.1·§3.6, ISO 18974 §4.1·§4.2·§4.3·§4.4, EVIDENCE-CHECK.md
+
+---
+
+### 비판적 재검토 — templates/2-process-template/_index.md (2026-05-12)
+
+#### 현 상태 평가
+6개 프로세스(11단계 OSS + 9단계 보안 + 8단계 외부 문의 + 4단계 기여 + 5단계 사내 공개 + 5단계 교육) 506줄. ISO 매핑 3건 + CVSS 표 + CVD 90일 + SBOM SPDX/CycloneDX 명시 등 일부 약점 선반영. 그러나 (1) L40·L52 외부 URL/placeholder, (2) ISO 18974 §4.x 절 번호 오기 3건, (3) §1 L19와 L23 중복 문장, (4) §1 단계 (1-11)와 §2 단계 (1-9) 부록 단계 번호 재사용 혼선, (5) 정책 §10.1과 메트릭 정합 미확보.
+
+#### 약점 목록 (우선순위 순)
+| 순위 | 위치 | 차원 | 약점 | 보강 방향 |
+|------|------|------|------|----------|
+| **P1** | L40 §1(1) | 실무 적용성/심사 함정 | "라이선스 가이드 ... `https://sktelecom.github.io/guide/use/obligation/`" 외부 회사 URL 직접 노출. 3-process P2#7 동일 약점 | placeholder `[회사 내부 라이선스 가이드 URL]` 또는 OpenChain 공식 자료 |
+| **P1** | L52 §1(1) | 실무 적용성/심사 함정 | "(insert_link)" placeholder 미작성. 3-process P1#1과 완전 동일 | SPDX·REUSE-3.0 명세 링크 또는 일반 표현 |
+| **P1** | L246 §2(6) | 표준 정합성 | "(ISO/IEC 18974 §3.3.2.2)" → §4.3.2.2 | 정정 |
+| **P1** | L354 §3(8) | 표준 정합성 | "(ISO/IEC 18974 §3.2.1.2)" → §4.2.1.2 | 정정 |
+| **P1** | L499 §6(4) | 표준 정합성 | "(ISO/IEC 18974 §3.1.3)" → §4.1.3 | 정정 |
+| **P1** | L19·L23 §1 도입부 | 샘플 현실성/심사 함정 | 두 줄 거의 동일 문장 중복 — 편집 오류 | 중복 문장 삭제 |
+| **P1** | §1(3) 부록 (6) 등록 L94-107 | 표준 정합성/누락 예외 | SBOM 항목에 NTIA 7요소 중 supplier·unique ID·dependency relationship·author·timestamp 누락 | NTIA 5개 항목 추가 |
+| **P1** | §1(2) L71 SLA | 표준 정합성/자체 모순 | Critical 1주 명시, ISO 매핑 부재 + Medium/Low SLA 부재 | "(ISO/IEC 18974 §4.3.2.1)" + Medium/Low SLA |
+| **P1** | §2 단계 (1-9) vs §1(2-5) | 심사 함정/표준 정합성 | 통합/별도 모호 — 3-process P2#27 동일 | 도입부에 "§1 (5)·(11) 보안 관점 상세 확장 + 출시 후 신규 취약점" |
+| **P1** | §2(8) 고객 통지 L257-266 | 누락 예외/심사 함정 | 위험도·기한 미명시. 3-process P1#6 완전 동일 | 통지 기준 표: Critical 48시간/High 7일/Medium 차기 릴리스 |
+| **P1** | §2(9) CVD L285-298 | 표준 정합성/누락 예외 | 90일은 보강됨. 그러나 보고자 응답 SLA·Safe Harbor·CISA/KrCERT 옵션 부재 | 3개 항목 추가 |
+| P2 | §1(1) L43-50 사용 사례 | 누락 예외/표준 정합성 | SaaS/AGPL·이중 라이선스 미수록 | 2개 추가 |
+| P2 | §2(3) CVSS 표 L201-206 | 최신성 | CVSS 4.0 누락 | CVSS 4.0 열 추가 |
+| P2 | §2(2) L185-195 NVD 단독 | 최신성 | NVD/OSV/GHSA/KVE 명시 부재 | 다원화 + EPSS |
+| P2 | §1(2) "오픈소스 분석 도구" L65-67 | 모호성/실무 적용성 | SCA 도구 구분 부재. tools/ 미연결 | tools/ 페이지 참조 |
+| P2 | §3 외부 문의 8단계 vs iso5230 5단계 | 샘플 현실성/표준 정합성 | 단계 수 불일치 | 두 가이드 정합 |
+| P2 | §3(1) 응답 시간 L310 | 모호성/심사 함정 | 정책 §10.1 메트릭 미연결. 3-process P1#7 동일 | 14영업일 명시 또는 §10.1 참조 |
+| P2 | §4 기여 L364-405 | 누락 예외/실무 적용성 | 인바운드 기여·DCO 누락 | (5) 인바운드 단계 + CLA/DCO |
+| P2 | §5 사내 공개 L443-450 | 누락 예외 | 공개 후 보안 사고·아카이브·거버넌스 부재 | 3건 추가 |
+| P2 | §6 교육 L460-501 | 누락 예외 | AI 코딩·CVD·SBOM 실습 부재 | 추가 + 7-ai-compliance 교차 |
+| P2 | §6(4) L499 보관 기간 표기 | 표준 정합성 | "§3.1.3"은 부정확 — §3.1.2.3·§3.1.3.1·§4.1.2.4·§4.1.3.1 4개 명시 | 4개 입증자료 명시 |
+| P2 | §2(8) "제3자 정보 공개" L267-273 | 최신성/누락 예외 | VEX 미수록 | CycloneDX VEX/CSAF VEX 추가 |
+| P2 | §2(2) 화면 없는 제품 | 누락 예외 | 임베디드·CLI·헤드리스 고지 부재. 3-process P2#10 부분 전파 | 제품 유형별 전달 방법 추가 |
+| P2 | §1(11) L154 SBOM 갱신 트리거 | 표준 정합성 | ISO 매핑 부재 + 버전 릴리스 트리거 부재 | 매핑 + 릴리스 트리거 추가 |
+| P2 | §1(11) L150-163 모니터링 | 모호성 | 빈도 미명시 | "매일 자동 스캔, Critical 30분 내 알림" |
+| P2 | §2(1) L171-181 보안 테스트 | 누락 예외/실무 적용성 | SAST/DAST/IAST/SCA 구분 부재. 3-process P2#22 동일 | 카테고리 5개 분류 |
+| P3 | §1 process.png L28 | 샘플 현실성 | 단계 요약 표 부재 — 이미지 미렌더링 환경 정보 손실 | 표 추가 |
+| P3 | 전수 오타 점검 | 샘플 현실성 | 3-process L444 "신별된" 발견 — 본 템플릿 유사 오타 가능성 | 전수 점검 |
+| P3 | §2 표 헤더 L201 | 최신성 | Low·Medium 셀 "-" 빈칸 | 명시 |
+
+#### 권장 액션
+1. (P1 일괄, 11건) placeholder/외부 URL + ISO 번호 오기 3건 + 중복 문장 + NTIA 7요소·CVD Safe Harbor·통지 SLA. **1-policy P1과 한 PR**
+2. (P2 일괄, 15건) SaaS·CVSS 4.0·VEX·AI 교차·인바운드 기여·교육. **1-policy P2와 묶음**
+3. (P3 3건) 오타 점검·이미지 fallback·CVSS 표 보강
+
+#### 차원별 약점 수
+- 모호성: 3 / 누락 예외: 10 / 샘플 현실성: 5 / 심사 함정: 5 / 실무 적용성: 5 / 표준 정합성: 9 / 최신성: 5
+
+#### 시범(2-policy)/3-process 검토 약점 전파 분석
+시범과 3-process 약점이 본 템플릿에 **거의 1:1 전파**. 3-process 약점 27건 중 약 11건이 동일 발견 — **동일 작성자가 같은 줄을 양 파일에 복사한 흔적**. 1-policy + 2-process-template 두 템플릿을 함께 보강해야 정합성 확보.
+
+#### 검토 메타
+- 검토 모델: claude-opus-4-7 | 본문 정독: 506줄
+- 참조: ISO 5230 §3.1.2·§3.1.3·§3.1.5·§3.2.1·§3.3·§3.4.1·§3.5.1, ISO 18974 §4.1·§4.2·§4.3, EVIDENCE-CHECK.md
+
+---
+
+## iso5230_guide 전체 검토 (14개 파일, 2,231줄)
+
+### iso5230_guide 전체 검토 요약 (2026-05-12)
+
+**총 약점 90건** (P1 19 / P2 47 / P3 24)
+
+#### 가장 시급한 P1 약점 (상위 5건)
+1. **`6-conformance/1-conformance/_index.md` L59·L69 "24개 입증자료" 오기재** — 가이드 내부 모든 다른 곳은 25개. 인증 심사 시 가이드 신뢰도 손상. CLAUDE.md에서도 25개 통일 지시
+2. **`1-program-foundation/3-awareness/_index.md` L16-33, L93-100 §3.1.3 인식 평가 항목 누락** — ISO 원문 §3.1.3은 4개 요소(정책 존재·위치 포함) 요구하나 가이드는 3개로 축소. 평가표 샘플도 3개만 — §3.1.3.1 ⚠️ 판정 위험
+3. **`3-content-review/1-sbom/_index.md` L140-176 SBOM NTIA 미정합** — 7요소(supplier·dependency relationship·author·timestamp 등) 누락. 2026 미국 조달·EU CRA 표준 요건
+4. **`4-artifacts/1-compliance-artifacts/_index.md` L118-137 written offer 부정확** — GPLv2/v3 의무 혼합, GPLv3 네트워크 옵션 누락. 잘못된 written offer는 GPL 위반 판정 위험
+5. **`3-content-review/2-license-compliance/_index.md` L95-104·L141·L143** — 도구 링크 깨짐(`tools/3-fossology`→실제 `1-`, `tools/4-fosslight`→실제 `3-`) + LGPL 동적/정적·GPL Apache 호환성 부정확
+
+#### iso5230_guide 내부 반복 패턴
+- **"본 가이드 권고"와 "ISO 표준 요구"의 미구분**: "최소 연 1회", "최소 3년", "OSRB 승인" 등이 §3.1.1, §3.1.3, §3.1.4, §3.1.5, §3.2.1, §3.4.1, §3.6.1, §3.6.2 거의 모든 파일에서 표준 요구처럼 기술. 시각적 구분(`[ISO 요구]`·`[본 가이드 권고]`) 필요
+- **"절차서(SOP)" vs "절차 수행 기록" 혼동**: §3.1.1.2, §3.1.5.1, §3.2.1.2, §3.2.2.4·5, §3.3.1.1, §3.4.1.2에서 절차서 5요소(트리거·역할·단계·산출물·기록) 미명확
+- **인증 단계화 권고 표준 외 전파**: `_index.md` 및 §3.6.1에서 "자가→독립→제3자" 권고 — ISO 표준 권고 아님
+- **2026 SBOM·기여 표준 미반영**: NTIA Minimum Elements, DCO, SPDX 3.0, GPG 커밋 서명, SLSA 등 누락
+- **도구 디렉토리 번호 오류**: `tools/2-ort`(미존재), `tools/3-fossology`(실제 1), `tools/4-fosslight`(실제 3) — `/guide-check-links` 일괄 점검 권장
+
+### 파일별 P1 약점 (압축)
+
+| 파일 | P1/P2/P3 | 핵심 P1 |
+|------|----------|---------|
+| `_index.md` (220줄) | 2/2/3 | Phase 1에 §3.2.2 5건 과부하·인증 단계화 표준 외 권고 |
+| `1-program-foundation/1-policy/` (184줄) | 2/3/1 | 정책 8요소 체크리스트 부재·전파 "절차서" 본질 누락 |
+| `1-program-foundation/2-competence/` (193줄) | 2/3/1 | §3.1.2.3 평가-역량 매핑 부재·교육 이수 ≠ 역량 평가 |
+| `1-program-foundation/3-awareness/` (123줄) | 2/3/1 | §3.1.3 4요소 중 "정책 존재·위치" 누락·자기 신고만으로 ⚠️ |
+| `1-program-foundation/4-scope/` (119줄) | 1/3/2 | "공급 소프트웨어" 정의 부재 |
+| `1-program-foundation/5-license-obligations/` (133줄) | 2/3/1 | LGPL/MPL 의무 단순화로 오해·"절차" vs "데이터" 혼동 |
+| `2-relevant-tasks/1-access/` (159줄) | 1/3/2 | "공개성" 충족 기준 — NOTICES 파일 단독은 ⚠️ |
+| `2-relevant-tasks/2-resourced/` (273줄) | 2/3/2 | §3.2.2.2 "적정성 판단 기준" 부재·§3.2.2.5 운영 증거 형식 약함 |
+| `3-content-review/1-sbom/` (183줄) | 2/3/2 | NTIA 7요소 누락·"approving" 의미 사용 승인으로 협소 해석 |
+| `3-content-review/2-license-compliance/` (172줄) | 2/2/1 | 라이선스 표 정확성·도구 링크 깨짐 |
+| `4-artifacts/1-compliance-artifacts/` (180줄) | 2/3/1 | written offer GPLv2/v3 혼합·보관 절차서 부재 |
+| `5-community/1-contributions/` (222줄) | 2/3/2 | 기여 허용 여부 결정 문서 부재·CLA만 다루고 DCO 누락 |
+| `6-conformance/1-conformance/` (148줄) | 2/3/1 | "24개" 오기재·인증 단계화 표준 외 권고 |
+| `6-conformance/2-duration/` (122줄) | 1/3/1 | "18개월" 의미 혼용(취득 후 vs 항상 18개월 이내 재확인) |
+
+### 핵심 보강 권장 (일괄)
+1. **권고 vs ISO 요구 시각적 분리** 일괄 작업 (14개 파일 거의 모두 해당)
+2. **`/guide-check-links` 실행** — 깨진 도구 링크 정리
+3. **§3.1.3 4요소·§3.3.1 NTIA 7요소·§3.4.1 written offer 정정** (3건이 P1 영향 가장 큼)
+4. **인증 단계화 표준 외 권고 정리** (`_index.md` + §3.6.1)
+5. **2026 SBOM·기여 표준 반영** (NTIA·DCO·SPDX 3.0·GPG 서명·SLSA)
+
+### 검토 메타
+- 검토 모델: claude-opus-4-7 (sub-agent #2, 단일 컨텍스트 14개 파일 정독)
+- 본문 정독: 2,231줄 (14개 파일 전체)
+- 참조: `content/ko/guide/.claude/reference/iso-5230.md` 전체
+
+---
+
+## iso42001_guide 전체 검토 (10개 파일, 1,398줄)
+
+### iso42001_guide 전체 검토 요약 (2026-05-12)
+
+**총 약점 90건** (P1 **68** / P2 21 / P3 1) — **P1 밀도 압도적으로 높음**
+
+#### 가장 시급한 P1 약점 (상위 5건)
+1. **`4-operation/1-oss-in-ai` L82-91 + `3-supply-chain` L106-114 + 전체** — **OSAID 1.0(2024-10) 미언급 + Llama 라이선스 의무 단순화**. Llama·Gemma를 "오픈소스 AI 모델"로 칭하나 OSAID 기준은 "Open Weight". Built with Llama 표기·파생 모델명·MAU·AUP·군사 사용 금지 누락
+2. **`1-context-leadership` L52-71 + `1-oss-in-ai` L107-138 + 전체** — **EU AI Act §53 GPAI 의무·옵트아웃(robots.txt·ai.txt) 미반영, 한국 AI 기본법(2026-01 시행) 미언급**
+3. **`4-operation/2-ai-sbom` L94-150 + `3-support` L94-120** — **SPDX 3.0 AI Profile 핵심 필드 다수 누락** (energyConsumption·safetyRiskAssessment·useSensitivePersonalInformation·typeOfModel·informationAboutTraining·limitation 등)
+4. **`4-operation/3-supply-chain` L22-28·L74-87 + 전체** — **상용 AI API §8.8 본질 누락** (IP indemnification·기업 데이터 학습 옵트아웃·모델 공급망 공격: pickle RCE·backdoor·typo-squatting), **AI 특화 취약점 DB**(OWASP LLM Top 10·MITRE ATLAS·AVID) 누락
+5. **`2-planning` L68-83 + `5-evaluation` L94-102** — **ISO 42005(AI 영향 평가 표준, 2025 발행) 미언급으로 §6.1.4·§8.4 영향 평가 3행 표로 빈약**, §10.1 시정 조치 "유사 부적합 확인" 단계 누락
+
+### 파일별 P1/P2/P3 (압축)
+
+| 파일 | 줄수 | P1/P2/P3 | 핵심 P1 |
+|------|------|----------|---------|
+| `_index.md` | 114 | 4/2/1 | 자가 인증 3방법 비교 표·ISO 42006(2026 발효)·자매 표준(23894·42005·5338·42003) 미언급 |
+| `1-context-leadership` | 116 | 5/2/0 | AI 정책 샘플에 EU AI Act §53(c)/한국 AI 기본법 §31 미반영·역할 표에 윤리/감독자/DPO 누락 |
+| `2-planning` | 106 | 6/2/0 | §6.1.4 영향평가 3행만(ISO 42005 미언급)·AI 특유 리스크 누락·리스크 매트릭스 부재 |
+| `3-support` | 145 | 5/3/0 | §7.5 AI SBOM만 다룸(의사결정 로그·모델 카드·영향 평가서 누락)·§7.4 통째로 누락 |
+| `4-operation/_index` | 66 | 5/2/0 | §8.2-§8.4 운영 시 재평가 부재·§8.7 "오픈소스 교차 없음"으로 잘못 표시 |
+| `4-operation/1-oss-in-ai` | 155 | **9**/2/0 | Llama 의무 단순화·OSAID 미언급·2025-2026 신규 모델(Qwen3·DeepSeek·Phi-4·Llama 3.3/4·Gemma 3) 부재·CDLA/ODC 누락·모델 무결성 검증(SHA256·Sigstore) 부재 |
+| `4-operation/2-ai-sbom` | 247 | **11**/2/0 | SPDX 3.0 AI Profile 핵심 필드 다수 누락·CycloneDX 1.6 ML-BOM 명세 미언급·OpenSSF Model Signing/Sigstore/SLSA for AI 부재·CC-BY-NC 예시 사용(부적합) |
+| `4-operation/3-supply-chain` | 156 | **8**/3/0 | 상용 AI API §8.8 본질 배제·모델 공급망 공격(pickle RCE·backdoor·typo-squatting) 미커버·AI 특화 취약점 DB 누락·IP indemnification 부재·EU AI Act §25 가치사슬 의무 누락 |
+| `5-evaluation` | 123 | 6/1/0 | 지표 측정 공식·분자/분모 부재·§9.3 입출력 매핑 부재·§10.1 7단계 미확장 |
+| `compare` | 170 | 9/2/0 | ISO 42001 인증 갱신 3년+사후심사 부정확·비용 컬럼 부재·SC 42 패밀리 매핑 부재 |
+
+### 2026 산업 현실 반영 격차
+
+- **EU AI Act**: ❌ 거의 없음 — §53(GPAI)·§50(투명성 라벨)·§40(에너지 소비)·§25(가치사슬)·§11+Annex IV(기술 문서) 모두 미반영
+- **OSAID 1.0** (2024-10): ❌ 전혀 없음 — Llama·Gemma 분류 미정합
+- **US Copyright Office AI 가이드** (2024): ❌ 없음
+- **SPDX 3.0 AI Profile 필드 정합성**: ⚠️ 부분 — 4개 필드만 사용, 10개+ 핵심 필드 누락
+- **CycloneDX 1.6 ML-BOM**: ❌ 1단어 언급뿐
+- **한국 AI 기본법** (2026-01 시행): ❌ 전혀 없음 — 한국 가이드인 만큼 가장 큰 격차
+- **OpenSSF Model Signing/Sigstore/SLSA for AI**: ❌ 없음
+- **NIST AI RMF 2.0, MITRE ATLAS, OWASP LLM Top 10**: ❌ 없음
+- **ISO 42005·23894·5338·42003·42006**: ⚠️ 42003만 compare에 1줄
+
+### enterprise/7-ai-compliance 약점 전파율: **8/8 (100%)**
+
+7-ai-compliance에서 식별된 P1 8건이 iso42001_guide에 모두 또는 더 깊게 전파됨. 두 섹션이 동일 컷오프 시점 동일 모델로 작성되어 동일 지식 격차 공유. **두 섹션 한 PR 묶음 보강 필수**.
+
+### 종합 권장 보강 순서
+1. **글로벌 규제·표준 매트릭스 박스 신설** (EU AI Act + 한국 AI 기본법 + US Copyright + NIST AI RMF + OSAID 1.0) → `1-context-leadership`에 게재, 전 페이지 cross-link — P1 8건 동시 해소
+2. **Llama·OSAID·2026 신규 모델 표 재작성** → `1-oss-in-ai` + `3-supply-chain` 정합 보강
+3. **SPDX 3.0 AI Profile·CycloneDX 1.6 ML-BOM·OpenSSF Model Signing** → `2-ai-sbom` + `3-support`
+4. **ISO 42005 기반 영향 평가 + SC 42 패밀리** → `2-planning` + `compare`
+5. **상용 AI API §8.8 + 모델 공급망 공격** → `3-supply-chain`
+6. **인증 메타데이터·매핑 정정** → `compare` + `_index.md`
+7. **§10.1 시정 조치 7단계·§9.3 입출력 매핑** → `5-evaluation`
+8. **§7.5 문서화 카탈로그·§7.4 신설** → `3-support`
+
+**관찰**: 90건 중 P1 68건은 단순 정정이 아니라 가이드 전반의 2026 현실화 작업. 6-8주 일정 7-8개 PR로 순차 처리 권장.
+
+### 검토 메타
+- 검토 모델: claude-opus-4-7 (knowledge cutoff 2026-01)
+- 본문 정독: 1,398줄 (10개 파일 전체)
+- 참조: ISO/IEC 42001 §5.2·§6.1·§7.2·§7.5·§8.4·§8.5·§8.6·§8.8·§9.1, EU AI Act §50·§53, US Copyright Office AI Guidance, OSAID 1.0, SPDX 3.0 AI Profile
+- 비고: 2026-05 시점 산업 현실(EU AI Act 단계별 발효·OSAID·Llama 의무 다양화) 기준선 적용
+
+---
+
+## iso18974_guide 3차 검토 결과 (4-conformance + compare, 3개 파일)
+
+### compare 페이지의 CLAUDE.md 정책 위반 발견
+
+**가장 중요한 발견**: `iso18974_guide/compare/_index.md` L58·L61에 "**5230 전체 입증자료 수 24개**"로 기재되어 있어 CLAUDE.md "ISO/IEC 5230 입증자료 번호는 25개. 24개로 잘못 기재된 경우 25개로 수정한다" 정책에 **명시적 위반**. iso5230_guide §3.6.1 "24개" 오기재와 함께 **같은 정책 위반 패턴이 2개 파일에서 발견**.
+
+### 비판적 재검토 — iso18974_guide/4-conformance/1-completeness/_index.md (2026-05-12)
+
+#### 약점 목록
+| 순위 | 위치 | 차원 | 약점 | 보강 방향 |
+|------|------|------|------|----------|
+| **P1** | L36 §4.4.1.1 한국어 입증자료 + L115-134 샘플 + L97 체크리스트 | 모호성·표준 정합성 | 영문 원문 **`Documented evidence`**(객체화 증거 묶음)를 모두 "확인 문서"·"확인서" 단수로 번역·구현 — 5230 §3.6.1.1 "A document"와 동일 수준으로 처리되어 18974 강도 차이 미반영. OpenChain Audited 어세서는 "affirmation + 25개 입증자료 추적 매트릭스 + 경영진 승인 기록" 3개 객체 요구 가능 | 4.4.1.1 준수 방법에 (a) 규격 준수 확인서, (b) 25개 입증자료별 추적 매트릭스, (c) 경영진 승인 기록 — 3개 객체 evidence pack 명시 |
+| P2 | L17 | 표준 정합성 | "5230 §3.6.1과 구조는 동일, 확인 대상이 25개" 단순화 — 영문 원문 키워드 차이(document vs documented evidence) 누락. compare L43과 교차 오류 | "명칭(Conformance→Completeness) + 원문 키워드 + 대상 입증자료 수" 3축 명시 |
+| P3 | L100 ★ 표기 | 정확성 | "★ = 5230 대비 추가 항목 (9건)"에 §4.2.2.3 포함 — 그러나 reference는 "성격 다름"(법률→취약점)으로 매핑. 추가 항목 아닌 성격 전환 | ★(신규) / ◇(성격 전환) 두 마커 분리 |
+| P3 | L154-159 | 실무 적용성·최신성 | "독립 평가(Independent Assessment)"가 OpenChain 공식 용어와 모호. Audited 미신청 외부 검증임을 명시 | "공식 인증서 미발급" 명시 |
+| P3 | L110·L119 | 최신성 | "버전 1.0" 표기 갱신 추적 메커니즘 부재 | OpenChain 공식 사이트 최신 published version 확인 안내 |
+| P3 | L67-101 체크리스트 | 심사 함정 | "□" 단일 마크 — EVIDENCE-CHECK 3단(충족/부분/누락)과 불일치 | ✓/△/✗ + 부분 충족 시 잔여 작업 ID 컬럼 |
+| P3 | L126-129 샘플 | 심사 함정·샘플 현실성 | "충족 ✓" 일괄 표기 — 25개 항목 각각 증거 ID·검토자·검토일 매트릭스 부재 | "별첨: 25개 추적 매트릭스" 명시 |
+
+#### 검토 메타
+- 분석 기준: ISO/IEC 18974:2023 §4.4.1, OpenChain SAS, reference/iso-18974.md
+- 영문 원문 키워드 차이 검증 완료 (`Documented evidence` vs `A document`)
+
+### 비판적 재검토 — iso18974_guide/4-conformance/2-duration/_index.md (2026-05-12)
+
+#### 약점 목록
+| 순위 | 위치 | 차원 | 약점 | 보강 방향 |
+|------|------|------|------|----------|
+| **P1** | L28·L36 시제 | 표준 정합성·심사 함정 | "**within the past 18 months**" 영문 원문은 회고형(과거 18개월 충족) — 본문 "충족하고 있음" 현재형 잔존. opensource_for_enterprise/6-conforming P1 패턴과 부분 정합 | "충족해 왔음" 회고형 정정 + "미래형 보장 선언 아닌 회고형 충족 확인" 주의문 |
+| P2 | L60 "최소 연 1회" | 실무 적용성·심사 함정 | 빈도 근거 부재 — OpenChain은 18개월 1회만 요구 | "연 1회 권장, 최소 요건 18개월 1회" 명시 |
+| P2 | 새 버전 갱신 절차 | 표준 정합성 | 새 버전 발행 시 18개월 카운트다운·효력 종료 시점·갱신 실패 처리 누락 | "새 버전 발행 시 운영 절차" 별도 소절 |
+| P2 | L75-78 샘플 | 샘플 현실성 | "변경 사항" 단일 텍스트 — 운영 변경 누적 시 비현실적. 두 날짜(재확인 예정·18개월 유효 기한) 차이 미설명 | 6분류 세분 + 각주 |
+| P2 | L87 | 최신성 | 18974 신버전 발행 추적 메커니즘 부재 | "규격 버전 모니터링 담당자" §4.1.2 교차 참조 |
+| P2 | L17-20·L60 | 모호성 | 4.4.2.1이 4.4.1.1의 시간적 연장인지 독립 증거인지 불명 | "4.4.2.1은 재확인 이력 기록, 4.4.1.1은 첨부" 관계 명시 |
+
+#### 검토 메타
+- 사전 P1 패턴(미래형 보장 선언) 정합성 검증: **부분 정합** — 검토 시제는 회피했으나 충족 상태 현재형 잔존
+
+### 비판적 재검토 — iso18974_guide/compare/_index.md (2026-05-12)
+
+#### 약점 목록
+| 순위 | 위치 | 차원 | 약점 | 보강 방향 |
+|------|------|------|------|----------|
+| **P1** | L58·L61 "24개" | 정확성·표준 정합성·**CLAUDE.md 위반** | "5230 전체 입증자료 수 24개 / 공통 입증자료 18개" — reference는 25개. CLAUDE.md "25개로 수정" 정책 명시 위반 | "24개" → "25개" + 공통 재카운트 |
+| **P1** | L48-51 입증자료 합계 | 정확성 | 16(공통)+6(5230)+3(18974)+6(확장) = 31 — 양 표준 합계 50, 공통 16 중복 제거 시 고유 34와 격차 3 | 4분면(5230만·공통·18974만·확장) 재구성 + 검산 |
+| **P1** | L43 "§3.6.1=§4.4.1 명칭만 변경, 내용 동일" | 표준 정합성 | 영문 원문 `A document` → `Documented evidence` 강도 차이. completeness P2와 교차 오류 | "명칭 변경 + 원문 강도 차이" 병기 |
+| **P1** | L44 "§3.6.2=§4.4.2 동일" | 표준 정합성 | 보안 표준 특성상 새 버전 발행 빈도·운영 영향 5230 대비 큼 — 미세 차이 누락 | 단서 추가 |
+| **P1** | L37 4.2.2.3 매핑 | 정확성 | 본 표는 "성격 전환", completeness는 "신규 ★" — 두 페이지 모순 | 일관 — "성격 전환(법률→취약점)이며 신규 항목 아님"으로 통일, completeness ★→◇ 변경 |
+| **P1** | L23·L85 "30~40% 추가 작업량" | 실무 적용성 | 산출 근거 부재 | 산출 내역 각주 |
+| **P1** | L43 §4.4.1 명칭 | 정확성 | "완전성" 명칭이 §4.4.1 컬럼에 빠짐 | 명칭 추가 |
+| P2 | 전반 | 누락 예외 | ISO 42006(2026 발효)·OpenChain Audited 갱신 주기 등 최신 정책 누락 | 갱신 정책 박스 |
+| P2 | L19-29 | 모호성 | "보안 보증 특화 영역" 정의 모호 | 5230 라이선스 컴플라이언스 ↔ 18974 보안 보증 영역 분리도 |
+
+#### 검토 메타
+- CLAUDE.md 충돌: "24개 → 25개 수정 지시" 명시적 위반
+- 교차 오류: completeness 가이드 P2·P3와 본 페이지 P3·P5의 직접 연관
+
+### iso18974_guide 3차 검토 요약 (3개 파일)
+
+#### "Documented Evidence" 강도 차이 반영 여부
+- **completeness**: ❌ 미반영 ("확인서" 단수 처리). P1
+- **duration**: §4.4.2.1 영문도 `A document`로 동일 강도 — 이슈 없음
+- **compare**: ❌ "명칭만 변경, 내용 동일"로 적극 은폐. P1
+- **종합**: completeness와 compare 두 페이지가 교차 오류 형성. 동시 정정 필요
+
+#### "within the past 18 months" 시제 정합성
+- duration 가이드: **부분 정합** — 검토 행위 시제 회피했으나 충족 상태 현재형 잔존
+
+#### 시범 검토 약점 패턴 전파
+- 6-conforming P1(미래형 보장) → duration 부분 잔존
+- 새로운 교차 오류 패턴 발견: completeness ↔ compare "§4.4.1 동일·4.2.2.3 신규" 충돌
+- CLAUDE.md "25개" 정책 위반이 2개 파일(iso5230_guide §3.6.1 + iso18974_guide compare)에서 발견
+
+### 검토 메타
+- 검토 모델: claude-opus-4-7 (sub-agent #6 — Part C)
+- 본문 정독: 362줄 (3개 파일)
+- 참조: ISO/IEC 18974:2023 §4.4, ISO/IEC 5230 §3.6 (비교 대조)
+
+---
+
+## iso18974_guide Part A 검토 결과 (_index + 1-program-foundation 4개, 5개 파일, 845줄)
+
+### Part A 핵심 발견
+
+**또 다른 "24개" 오기재 발견**: `iso18974_guide/_index.md` L38 "입증자료 \| 24개 \| 25개" — 5230을 24개로 오기재. CLAUDE.md "25개로 수정" 정책에 **3번째 위반 파일** (이전: iso5230_guide §3.6.1, iso18974_guide compare).
+
+**Part A 총 약점**: P1 12 / P2 18 / P3 9 = 39건
+
+### 파일별 P1/P2/P3 (압축)
+
+| 파일 | 줄수 | P1/P2/P3 | 핵심 P1 |
+|------|------|----------|---------|
+| `_index.md` | 251 | 3/3/2 | L38 5230 "24개" 오기재(CLAUDE.md 위반) + description 짧음·25개 분포 명시 부재 + 공통 16/5230전용 9/18974전용 9 양방향 정렬 부재 |
+| `1-program-foundation/1-policy/` | 158 | 2/4/2 | 검토 프로세스 입증 매핑 모호(4.1.1.1 vs 4.1.4.3) + 정책 §5 샘플에 CVD 임베고·EOL·에스컬레이션 누락 |
+| `1-program-foundation/2-competence/` | 188 | 3/4/1 | **★ 4.1.2.3·5·6 깊이 부족** — 4.1.2.3 샘플 단순(겸임·이동·해제일 누락), 4.1.2.6 "유지 책임(make sure they remain so)" 미반영, "직무명 허용"이 4.1.2.1과 차별 무력화 |
+| `1-program-foundation/3-awareness/` | 103 | 2/3/2 | "assessed awareness" — 자가 확인서만으로 평가(assessment) 불충족 → 객관식·시뮬레이션 평가지 필요. ISO 원문 4가지 인식 중 "정책 존재와 위치" 누락 |
+| `1-program-foundation/4-scope/` | 145 | 2/4/2 | **★ 4.1.4.2** 목표 100% 일색 — "seeks to improve upon" ISO 원문 의도와 모순. 베이스라인/개선 폭 컬럼 부재. 4.1.4.1을 5230 링크만 처리해 18974 고유 범위(OSS 한정/통합/SaaS/EOL) 누락 |
+
+### ★ 5개 항목(§4.1.2.3·5·6·§4.1.4.2·3) 깊이 평가
+
+| 항목 | 깊이 | 주요 약점 |
+|------|------|---------|
+| 4.1.2.3 참여자 목록 | 부분 충족 | 4.1.2.1과 차별성 모호·운영 흔적(겸임·이동) 부재 |
+| 4.1.2.5 주기적 검토 증거 | 부분 충족 | "변경 없음" 케이스 부재·"변경 이유" 컬럼 부재 |
+| 4.1.2.6 내부 모범 사례 일치 | 부분 충족 | **"유지 책임" 미반영** — 담당자 책임·권한·기한 명시 부재 |
+| 4.1.4.2 성과 메트릭 | 부분 충족 | 목표 100% 일색 — "improve upon" ISO 원문 의도와 충돌 |
+| 4.1.4.3 지속적 개선 증거 | 부분 충족 | "검토·업데이트·감사" OR 관계 미반영, 미해결 잔여 항목 부재 |
+
+### 시범 검토 약점 패턴 전파
+
+- **ISO 번호 오기 패턴**: ❌ 본 5개 파일에서는 발견되지 않음 (`§3.x`/`§4.x` 형식 유지)
+- **"24개" 오기재**: ✅ _index.md L38에서 발견 — CLAUDE.md 정책 위반 3번째 파일
+- **"Documented Evidence" 강도 차이**: ⚠️ 4.1.2.5·4.1.2.6·4.1.4.3 ISO 원문 "Documented evidence"임에도 가이드 샘플은 "표 형식 기록" 수준 — 강도 안내 박스 부재
+- **5230 가이드 단순 링크**: ⚠️ 4.1.2.1·.2·.4·4.1.4.1 등 앵커(#3-1-2-1) 부재 — 심사 동선 비효율
+- **인증 기관 명단 outdated**: ⚠️ `_index.md` L243 "2024년 기준" — Synopsys → Black Duck Software 분사 미반영 (iso5230_guide _index.md에도 동일 가능성)
+
+### 검토 메타
+- 검토 모델: claude-opus-4-7 (sub-agent #5 — Part A)
+- 본문 정독: 845줄 (5개 파일)
+- 참조: ISO/IEC 18974:2023, reference/iso-18974.md
+
+---
+
+## iso18974_guide Part B 검토 결과 (5-standard-practice + 2-relevant-tasks 2 + 3-content-review 2, 5개 파일, 868줄)
+
+### Part B 핵심 발견
+
+**Part B 총 약점**: P1 17 / P2 26 / P3 0 = 43건 (P3는 묶음 처리)
+
+가장 큰 발견 — 모든 5개 파일에서 **2026 보안 표준 미반영 패턴**:
+- CVSS 4.0(2023-11 공표) 단독 v3.1만 명시 (3개 파일)
+- NVD 백로그(2024-2025) 미인식, OSV.dev 우선 전략 부재 (2개 파일)
+- VEX 4가지 상태값 통합 부재 (3개 파일)
+- EU CRA 24시간 보고 의무·CISA KEV·EPSS 등 2026 우선순위 모델 부재 (다수)
+
+### 파일별 P1/P2/P3 (압축)
+
+| 파일 | 줄수 | P1/P2/P3 | 핵심 P1 |
+|------|------|----------|---------|
+| `1-program-foundation/5-standard-practice/` | 256 | **5**/7/0 | **★ 4.1.5.1 8가지 방법** — CVSS 4.0 미반영·NVD 백로그·위협 식별 절차 모호(STRIDE만 언급)·VEX 4상태값·CSAF·통보 면제 사유 분류 부재 |
+| `2-relevant-tasks/1-access/` | 148 | 2/5/0 | EU CRA 24시간 보고 의무 미반영(영업일 3일은 CRA 대응 불가)·Safe Harbor 조항 부재·GitHub PVR·PGP 키 부재 |
+| `2-relevant-tasks/2-resourced/` | 142 | 2/5/0 | **★ 4.2.2.3** 5230 §3.2.2.5 처리 해석 모호(가이드 주장 vs 18974 표준 명시 차이)·외부 계약 SLA·자격 요건(CISSP·CSSLP) 부재·PSIRT 표현 부정확 |
+| `3-content-review/1-sbom/` | 134 | 3/4/0 | NTIA Minimum Elements 7개 필드 미명시·SBOM 서명(Sigstore/SLSA) 부재·AI 모델/컨테이너/빌드 환경 SBOM 범위 누락 |
+| `3-content-review/2-security-assurance/` | 188 | **5**/5/0 | **★ 4.3.2.1·4.3.2.2** CVSS 4.0+EPSS+KEV 3축 부재·Reachability Analysis 부재·VEX `not_affected` justification 미통합·임계점 거버넌스 부재·회귀 테스트 누락·CWE 칼럼 부재 |
+
+### §4.1.5.1 8가지 방법 깊이 평가 (5-standard-practice)
+
+| 방법 | 절차 명시도 | 핵심 누락 |
+|------|------------|---------|
+| 1. 위협 식별 | △ | 트리거·산출물·승인 흐름 부재 |
+| 2. 취약점 탐지 | ○ | DB 우선순위·NVD 백로그·CVSS 4.0 미반영 |
+| 3. 후속 조치 | ○ | 위험 수용 기록 필드 부재 |
+| 4. 고객 통보 | △ | 통보 면제 사유 분류 부재 |
+| 5. 배포 후 분석 | ○ | EOL/지원 종료 정책 부재 |
+| 6. 지속 보안 테스트 | △ | DAST/IaC/시크릿 누락, 게이트 예외 절차 부재 |
+| 7. 위험 해결 검증 | △ | 위험 수용 시 필수 필드 부재 |
+| 8. 위험 정보 보고 | △ | VEX 상태값·발행 채널·CSAF vs CycloneDX 선택 기준 부재 |
+
+(○ 적정 / △ 보강 필요 / × 미흡)
+
+### Part B 가로지르는 약점 패턴
+
+1. **CVSS 4.0 미반영**: 5-standard-practice 방법 3·2-security-assurance 2단계 — 가이드 전체 일괄 갱신 필요
+2. **NVD 백로그 미인식**: 5-standard-practice 방법 2·2-security-assurance 1단계 — "OSV.dev 1차, NVD 보조" 전략으로 변경
+3. **VEX 통합 부재**: 3개 파일 — VEX 4가지 상태값(not_affected/affected/fixed/under_investigation) 일괄 도입
+4. **EU CRA·EO 14028 법규 시한 부재**: 1-access·2-security-assurance — 법규 의무와 사내 SLA 분리
+5. **검증 가능성(verifiability) 부족**: 5개 파일 전체 — 트리거 이벤트·승인자·예외 사유·재평가 주기 표준화
+6. **단일 보관 기간 단순화**: 1-access·1-sbom — 산업·규제별(ISO 21434·IEC 81001-5-1·EU CRA) 차이
+7. **EPSS·KEV·Reachability 등 2026 우선순위 모델 부재**: 5-standard-practice·2-security-assurance — CVSS 단일축 → 3차원 모델 진화
+
+### 검토 메타
+- 검토 모델: claude-opus-4-7 (sub-agent #6 — Part B)
+- 본문 정독: 868줄 (5개 파일)
+- 참조: ISO/IEC 18974:2023 §4.1.5·§4.2·§4.3, reference/iso-18974.md
+
+---
+
+## 🎯 전체 검토 완료 요약 (2026-05-12 기준)
+
+| 그룹 | 파일 수 | 줄 수 | P1 | P2 | P3 | 합계 |
+|------|---------|------|----|----|----|----|
+| opensource_for_enterprise | 9 | 2,960 | 55 | 77 | 34 | 166 |
+| templates | 2 | 1,151 | 20 | 28 | 6 | 54 |
+| iso5230_guide | 14 | 2,231 | 19 | 47 | 24 | 90 |
+| iso18974_guide | 13 | 2,075 | 38 | 48 | 14 | 100 |
+| iso42001_guide | 10 | 1,398 | 68 | 21 | 1 | 90 |
+| **합계** | **48** | **9,815** | **200** | **221** | **79** | **500** |
+
+## 🔥 핵심 발견 (즉시 조치 가치 큰 항목)
+
+### A. CLAUDE.md "25개 입증자료" 정책 위반 3개 파일
+1. `iso5230_guide/6-conformance/1-conformance/_index.md` L59·L69 "24개"
+2. `iso18974_guide/_index.md` L38 "24개"
+3. `iso18974_guide/compare/_index.md` L58·L61 "24개"
+
+### B. ISO 18974 §3.x → §4.x 번호 오기 패턴 (총 11건)
+- `opensource_for_enterprise/2-policy/_index.md` L289 (1건)
+- `opensource_for_enterprise/3-process/_index.md` L323·L339 (2건)
+- `templates/1-policy/_index.md` L242·L288·L292·L378·L541 (5건)
+- `templates/2-process-template/_index.md` L246·L354·L499 (3건)
+
+### C. 실행 불가·미작성·깨진 링크
+- `opensource_for_enterprise/3-process/_index.md` L98 `(insert_link)` placeholder
+- `templates/2-process-template/_index.md` L52 `(insert_link)` placeholder
+- `opensource_for_enterprise/0-openchain/_index.md` L68 18974 ISO URL이 5230 번호(81039)
+- `opensource_for_enterprise/4-tool/_index.md` L326-405 Jenkins/GitLab CI 가공 함수(`fossology()`·`fo_cli`·`sw360 update-project`) 실행 불가
+- `iso5230_guide/3-content-review/1-sbom/_index.md` L183 `tools/2-ort` 미존재
+- `iso5230_guide/3-content-review/2-license-compliance/_index.md` L141·L143 `tools/3-fossology` (실제 1)·`tools/4-fosslight` (실제 3)
+
+### D. 자체 모순 (인증 심사 흠집 가능)
+- `opensource_for_enterprise/2-policy/_index.md` §1.4 SLA(Critical 7일·High 30일) vs §5.1 대응 조치 SLA 부재
+- `opensource_for_enterprise/6-conforming/_index.md` "지난 18개월" 시제 오류 — ISO 원문 회고형(within the past 18 months)을 미래형 보장으로 오용
+- `iso18974_guide/4-conformance/2-duration/_index.md` "충족하고 있음" 현재형 잔존
+
+---
+
+## 📋 다음 단계 액션 카탈로그
+
+### Phase 1 — 긴급 사실 오류 (즉시, 1-2시간 작업)
+
+**목표**: 인증 심사 시 즉시 발각될 사실 오류·실행 불가 항목 제거. 가이드 신뢰도 즉시 회복.
+
+| ID | 작업 | 대상 파일 | 예상 소요 |
+|----|------|-----------|-----------|
+| URG-1 | "24개" → "25개" 일괄 정정 | 3개 파일 (위 A) | 10분 |
+| URG-2 | ISO 18974 `§3.x` → `§4.x` 일괄 정정 | 4개 파일 11건 (위 B) | 30분 |
+| URG-3 | placeholder `(insert_link)` 정정 | 2개 파일 (위 C) | 15분 |
+| URG-4 | 0-openchain L68 ISO URL 정정 | 1개 파일 | 5분 |
+| URG-5 | 도구 페이지 깨진 링크 정정 | 2개 파일 | 15분 |
+| URG-6 | 4-tool Jenkins/GitLab CI 코드 정정 또는 "개념도 예시" 라벨링 | 1개 파일 | 30분 |
+| URG-7 | "지난 18개월" 시제 회고형 정정 (6-conforming·duration) | 2개 파일 | 15분 |
+
+### Phase 2 — iso42001 + 7-ai-compliance 통합 보강 (1-2주)
+
+**목표**: P1 밀도가 가장 높은 AI 컴플라이언스 영역(누적 P1 76건)을 2026 시점 산업 현실에 맞게 일괄 보강.
+
+| ID | 작업 | 대상 |
+|----|------|------|
+| AI-1 | EU AI Act + 한국 AI 기본법 + US Copyright + NIST AI RMF + OSAID 1.0 매트릭스 박스 신설 | `1-context-leadership` (전 페이지 cross-link) |
+| AI-2 | Llama 라이선스 의무 체크리스트 + OSAID "Open Weight" 분류 컬럼 | `1-oss-in-ai`·`3-supply-chain`·`7-ai-compliance` |
+| AI-3 | SPDX 3.0 AI Profile 필드 12개 확장 + CycloneDX 1.6 ML-BOM 명세 | `2-ai-sbom`·`3-support` |
+| AI-4 | AI 생성 코드 저작권 처리 절차 신설 | `7-ai-compliance` |
+| AI-5 | 상용 AI API §8.8 평가 체크리스트 + IP indemnification + 모델 공급망 공격(pickle RCE·typo-squatting) | `3-supply-chain` |
+| AI-6 | OpenSSF Model Signing/Sigstore/SLSA for AI 통합 | `2-ai-sbom`·`3-supply-chain` |
+| AI-7 | ISO 42005 기반 영향 평가 템플릿 + SC 42 패밀리 매핑 | `2-planning`·`compare` |
+| AI-8 | 2026 신규 모델(Qwen·DeepSeek·Phi-4·Llama 3.3/4·Gemma 3) 표 갱신 | `1-oss-in-ai` |
+
+### Phase 3 — 가로축 일괄 보강 (3-5일)
+
+**목표**: 다수 파일에서 반복되는 동일 패턴 약점을 일괄 정정.
+
+| ID | 작업 | 영향 파일 |
+|----|------|----------|
+| HZ-1 | CVSS 4.0(2023-11) 병기 — "v3.1 또는 v4.0" | 다수 (3-process, 1-policy, 2-process-template, 5-standard-practice 등) |
+| HZ-2 | NVD 단독 → OSV.dev·GHSA·KISA KVE 다원화 + EPSS·KEV 보조 | 다수 (정책·프로세스·표준 관행·security-assurance) |
+| HZ-3 | VEX(CSAF/CycloneDX VEX) 발행 권장 추가 + 4가지 상태값(not_affected·affected·fixed·under_investigation) | 다수 |
+| HZ-4 | "본 가이드 권고" vs "ISO 표준 요구" 시각 분리 (`[ISO 요구]`/`[본 가이드 권고]` 태그) | iso5230_guide 거의 전부 |
+| HZ-5 | "Documented Evidence" vs "document" 강도 차이 안내 박스 (18974 신설 항목) | iso18974_guide 신설 ★ 항목 |
+| HZ-6 | EU CRA 24시간 보고 의무 + CISA EO 14028 등 법규 시한 분리 | 1-access, security-assurance |
+| HZ-7 | `/guide-improve links` 실행 — 깨진 도구 링크 일괄 점검·정리 | 가이드 전반 |
+| HZ-8 | AI 컴플라이언스 교차 링크 일괄 추가 (`7-ai-compliance/` cross-link) | 정책·프로세스·교육·기여·도구 페이지 |
+
+### Phase 4 — 그룹별 P1 잔여 보강 (1-3주)
+
+- enterprise 잔여 P1: opensource_for_enterprise/0·1·5·6 섹션 — 총 ~25건
+- iso5230_guide 잔여 P1: 정책·역량·인식·범위·라이선스 의무·SBOM·산출물·기여 — 총 ~14건
+- iso18974_guide 잔여 P1: ★ 9개 항목 외 일반 항목 — 총 ~20건
+- templates 잔여 P1: RACI·메트릭 목표치·CVD Safe Harbor·교육 항목 — 총 ~10건
+
+### Phase 5 — 통일성 검토 (별도 페이즈, 신규 추가)
+
+**목표**: 콘텐츠 깊이와 별개로 가이드 전체의 **단락 구성·문장·표현·markdown·mermaid 도식화 통일성** 검토.
+
+| 차원 | 점검 항목 예시 |
+|------|--------------|
+| 단락 구성 | 섹션 헤더 레벨 일관성·도입부 길이·결론 단락 유무·각 조항 페이지 5섹션 구조 준수 |
+| 문장 스타일 | 종결 어미 ("합니다" vs "한다") 통일·능동/수동·평어/존대 일관성 |
+| 표현 통일 | ISO 조항 인용 형식 (`ISO/IEC 5230 §3.4.1.2`)·영문 키워드 표기·약어 풀이 (`SBOM(Software Bill of Materials)`) |
+| markdown 사용 기준 | 표 정렬 일관성·alert 박스 색상 코딩(success/warning/info)·코드 블록 언어 태그·blockquote vs alert 사용 기준 |
+| mermaid 도식화 | 다이어그램 종류·스타일·노드 명명 규칙·방향(LR vs TD)·subgraph 사용 일관성 |
+| 이미지/캡션 | caption 형식(`<center><i>...</i></center>`)·출처 표기·alt text·imgproc Fit 크기 |
+
+**실행 방법**: `/guide-improve style [target]` 신설 — `guide-style-checker` 에이전트(`.claude/agents/guide-style-checker.md`) 호출. 결과는 `STYLE-REPORT.md`에 누적.
+
+### Phase 6 — 영어(en/) 동기화
+
+- ko/ 보강 후 en/ 대응 파일 일괄 동기화
+- `/sync-check` command 활용
+
+---
+
+## 🚦 권장 진행 순서
+
+1. **Phase 1 (긴급, 1-2시간)** → 즉시 진행. 가이드 신뢰도 즉시 회복
+2. **Phase 5 (통일성 검토, 1-2일)** → Phase 2-4 보강 전 통일성 점검 결과를 먼저 확보. 보강 시 일관성 기준 적용 가능
+3. **Phase 3 (가로축, 3-5일)** → 다수 파일 패턴 일괄 정정. 보강 PR 수 최소화
+4. **Phase 2 (iso42001+AI, 1-2주)** → 가장 가치 큰 영역 집중 보강
+5. **Phase 4 (잔여 P1, 1-3주)** → 그룹별 점진적 보강
+6. **Phase 6 (en/ 동기화, 1주)** → 마무리
+
+**총 예상 소요**: 5-8주
+
+---
+
+## 🔄 세션 재개 시 컨텍스트 복구
+
+다음 세션에서 작업 재개 시 아래 순서로 컨텍스트 복구:
+
+1. **이 파일(CRITIC-REPORT.md) 읽기** — 검토 결과 + 다음 단계 카탈로그
+2. `content/ko/guide/TODO.md` 읽기 — 작업 진행 상황
+3. 작업 시작 전 어느 Phase부터 진행할지 사용자 확인
+4. Phase 1 시작 시: 이 파일의 "핵심 발견" 섹션 A·B·C를 그대로 보강 대상으로 사용
+
+**중요**: 모든 검토 결과·다음 단계 액션은 이 파일에 영속화되어 있다. 세션 종료 시에도 보존된다.
+
+## 🛡️ 보강 작업 4층 검증 체계
+
+모든 P1 보강은 다음 4층을 반드시 거친다. 보강 시 새로운 오류·부수 효과를 사전 차단하기 위한 품질 관리 체계.
+
+```
+① guide-critic 약점 식별 (이 파일에 기록)
+② guide-writer diff 작성
+③ 사용자 승인
+④ Edit으로 적용
+   ↓
+Layer A — /guide-improve verify {파일} {약점ID}
+   에이전트: guide-fix-verifier (Opus 4.7, 독립 컨텍스트)
+   점검 5개 항목:
+     1. 의도 적합성 — 약점 설명과 실제 변경이 일치하는가
+     2. 완전성 — 같은 유형 약점이 잔존하지 않는가
+     3. 사실 정확성 — ISO reference·외부 사실과 정합한가
+     4. 부수 효과 없음 — 인용·교차링크 영향 없는가
+     5. 서식 무결성 — 코드 블록·alert·mermaid 손상 없는가
+   판정: PASS / CONDITIONAL PASS / FAIL
+   ↓
+Layer B — /guide-improve critic {파일}
+   같은 파일 회귀 검토 — 같은 P1 약점이 다시 나오면 안 됨
+   ↓
+Layer C — 자동 검증
+   - hugo --minify (빌드 성공)
+   - /guide-improve links (깨진 링크)
+   - /guide-improve evidence {표준} {입증자료} (영향받은 항목만)
+   ↓
+Layer D — Git commit (별도 commit, revert 단위 작게)
+```
+
+**판정별 조치**:
+- Layer A FAIL → revert 후 재작업
+- Layer A CONDITIONAL PASS → 사용자가 ⚠️ 항목 확인 후 진행
+- Layer B에서 새 P1 발견 → 별도 약점으로 CRITIC-REPORT에 추가, 별도 보강
+- Layer C 실패 → 원인 파악 후 Layer A부터 재실행
+
+**관련 인프라**:
+- `.claude/agents/guide-fix-verifier.md` — 본 에이전트 정의
+- `.claude/commands/guide-improve.md` — `verify` 서브커맨드
+
+---
+
+## iso18974_guide 전체 검토 요약 (13개 파일, ~2,075줄)
+
+**총 약점**: P1 38 / P2 48 / P3 14 = **100건**
+
+### 가장 시급한 P1 약점 (상위 5건)
+1. **`_index.md` L38 + `compare/_index.md` L58·L61 "24개" 오기재** — CLAUDE.md "25개" 정책 위반 (iso5230_guide §3.6.1과 함께 **3개 파일 누적**)
+2. **`1-program-foundation/5-standard-practice/` ★ 4.1.5.1 8가지 방법** — CVSS 4.0·NVD 백로그·VEX·EU CRA 등 2026 표준 미반영 (P1 5건)
+3. **`3-content-review/2-security-assurance/` ★ 4.3.2.1·4.3.2.2** — Reachability Analysis·EPSS·KEV·VEX justification·회귀 테스트·CWE 분류 부재 (P1 5건)
+4. **`4-conformance/1-completeness/` ★ 4.4.1.1** — "Documented Evidence" 강도 차이 미반영 ("확인서" 단수 처리, evidence pack 부재)
+5. **`compare/_index.md`** — completeness와 자체 모순(4.2.2.3 처리·§4.4.1 동일 단순화), 입증자료 합계 검산 오류(16+6+3+6=31 vs 실제 34)
+
+### ★ 18974 전용 9개 항목 깊이 평가
+
+| 항목 | 파일 | 깊이 |
+|------|------|------|
+| 4.1.2.3 참여자 목록 | 2-competence | △ |
+| 4.1.2.5 주기적 검토 증거 | 2-competence | △ |
+| 4.1.2.6 내부 모범 사례 일치 | 2-competence | △ (★ "유지 책임" 미반영) |
+| 4.1.4.2 성과 메트릭 | 4-scope | △ (목표 100% 일색) |
+| 4.1.4.3 지속적 개선 증거 | 4-scope | △ |
+| 4.1.5.1 8가지 방법 | 5-standard-practice | △ (P1 5건) |
+| 4.2.2.3 취약점 해결 전문성 | 2-resourced | △ (자격·계약 SLA 부재) |
+| 4.3.2.1 취약점 탐지·해결 | 2-security-assurance | △ (2026 표준 미반영) |
+| 4.3.2.2 취약점 기록 | 2-security-assurance | △ (CWE·위험 수용 양식 부재) |
+
+**모든 ★ 9개 항목이 "부분 충족" 상태** — 형식적 깊이는 갖추었으나 ISO 원문 강도·2026 산업 표준 반영이 부족
+
+### 검토 메타
+- 검토 모델: claude-opus-4-7 (sub-agent #5·6·7 — Part A·B·C 분할 병렬)
+- 본문 정독: 2,075줄 (13개 파일 전체)
+- 참조: ISO/IEC 18974:2023, reference/iso-18974.md, reference/iso-5230.md(준용 비교)
 
 ---
 

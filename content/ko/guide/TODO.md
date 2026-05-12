@@ -101,3 +101,117 @@ draft: true
 - [x] 1-conformance/_index.md (§3.6.1 적합성)
 - [x] 2-duration/_index.md (§3.6.2 지속 기간)
 ---
+
+## 2026-05 비판적 재검토 (Opus 4.7) 후속 작업
+
+검토 결과: `content/ko/guide/CRITIC-REPORT.md` (48개 파일·9,815줄·500건 약점, P1 200/P2 221/P3 79)
+검토 일자: 2026-05-11 ~ 2026-05-12
+검토 모델: claude-opus-4-7 (1M context)
+
+### Phase 1 — 긴급 사실 오류 (1-2시간)
+- [x] URG-1: "24개 입증자료" → "25개" 정정 (3개 파일·4개 위치) — Layer A PASS·Layer C(hugo·grep) PASS [2026-05-12]
+- [ ] URG-2: ISO 18974 `§3.x` → `§4.x` 번호 오기 정정 (4개 파일 11건)
+- [ ] URG-3: `(insert_link)` placeholder 정정 (3-process L98, 2-process-template L52)
+- [ ] URG-4: 0-openchain L68 18974 ISO URL 정정 (81039 → 86450 등)
+- [ ] URG-5: 도구 페이지 깨진 링크 정정 (iso5230 1-sbom L183, license-compliance L141·L143)
+- [ ] URG-6: 4-tool L326-405 Jenkins/GitLab CI 코드 정정 또는 "개념도 예시" 라벨링
+- [ ] URG-7: "지난 18개월" 시제 회고형 정정 (6-conforming, duration)
+
+### Phase 2 — iso42001 + 7-ai-compliance 통합 보강 (1-2주)
+- [ ] AI-1: 글로벌 AI 규제 매트릭스 박스 (EU AI Act §53 + 한국 AI 기본법 + US Copyright + NIST AI RMF + OSAID 1.0)
+- [ ] AI-2: Llama 의무 체크리스트 + OSAID "Open Weight" 분류 컬럼
+- [ ] AI-3: SPDX 3.0 AI Profile 12개 필드 + CycloneDX 1.6 ML-BOM 명세
+- [ ] AI-4: AI 생성 코드 저작권 처리 절차 신설 (7-ai-compliance)
+- [ ] AI-5: 상용 AI API §8.8 평가 + IP indemnification + 모델 공급망 공격
+- [ ] AI-6: OpenSSF Model Signing/Sigstore/SLSA for AI 통합
+- [ ] AI-7: ISO 42005 기반 영향 평가 + SC 42 패밀리 매핑
+- [ ] AI-8: 2026 신규 모델 표 갱신 (Qwen·DeepSeek·Phi-4·Llama 3.3/4·Gemma 3)
+
+### Phase 3 — 가로축 일괄 보강 (3-5일)
+- [ ] HZ-1: CVSS 4.0 병기 ("v3.1 또는 v4.0")
+- [ ] HZ-2: NVD 단독 → 다원화 (OSV.dev·GHSA·KVE) + EPSS·KEV
+- [ ] HZ-3: VEX 발행 권장 + 4가지 상태값
+- [ ] HZ-4: "본 가이드 권고" vs "ISO 표준 요구" 시각 분리 (iso5230_guide 전반)
+- [ ] HZ-5: "Documented Evidence" 강도 차이 안내 (iso18974 신설 항목)
+- [ ] HZ-6: EU CRA 24시간 + EO 14028 등 법규 시한 분리
+- [ ] HZ-7: `/guide-improve links` 실행 — 깨진 도구 링크 일괄 점검
+- [ ] HZ-8: AI 컴플라이언스 교차 링크 일괄 추가
+
+### Phase 4 — 그룹별 P1 잔여 보강 (1-3주)
+- [ ] enterprise 잔여 P1 (~25건)
+- [ ] iso5230_guide 잔여 P1 (~14건)
+- [ ] iso18974_guide 잔여 P1 (~20건)
+- [ ] templates 잔여 P1 (~10건)
+
+### Phase 5 — 통일성 검토 (별도 페이즈, 신설)
+- [ ] guide-style-checker 에이전트 정의 (`.claude/agents/guide-style-checker.md`)
+- [ ] `/guide-improve style [target]` 서브커맨드 추가
+- [ ] STYLE-REPORT.md 신설 — 통일성 검토 결과 누적
+- [ ] 통일성 검토 실행 (5개 차원: 단락 구성·문장 스타일·표현 통일·markdown 사용 기준·mermaid 도식화)
+  - [ ] iso5230_guide 통일성 검토
+  - [ ] iso18974_guide 통일성 검토
+  - [ ] iso42001_guide 통일성 검토
+  - [ ] opensource_for_enterprise 통일성 검토
+  - [ ] templates 통일성 검토
+- [ ] 통일성 보강 PR (검토 결과 기반)
+
+### Phase 6 — 영어(en/) 동기화
+- [ ] ko/ 보강 후 en/ 대응 파일 일괄 동기화
+- [ ] `/sync-check` 실행
+
+### 권장 진행 순서
+1. Phase 1 (긴급, 1-2시간) → 즉시
+2. Phase 5 인프라 (guide-style-checker 신설) → 즉시
+3. Phase 5 통일성 검토 실행 (1-2일)
+4. Phase 3 (가로축, 3-5일)
+5. Phase 2 (iso42001+AI, 1-2주)
+6. Phase 4 (잔여 P1, 1-3주)
+7. Phase 6 (en/ 동기화, 1주)
+
+총 예상 소요: 5-8주
+
+### 세션 재개 시 컨텍스트 복구
+1. `content/ko/guide/CRITIC-REPORT.md` 읽기 — 검토 결과 + 다음 단계 카탈로그
+2. 이 파일(TODO.md) 읽기 — 작업 진행 상황
+3. 사용자에게 어느 Phase부터 진행할지 확인
+
+### 보강 작업 4층 검증 체계 (필수 워크플로)
+
+모든 P1 보강은 다음 4층을 반드시 거친다:
+
+```
+① guide-critic이 약점 식별 (CRITIC-REPORT.md 기록)
+② guide-writer가 diff 작성
+③ 사용자 승인
+④ Edit으로 적용
+   ↓
+Layer A: /guide-improve verify {파일} {약점ID}
+   - guide-fix-verifier 에이전트로 diff 정확성 검증
+   - 5개 항목: 의도·완전성·사실 정확성·부수 효과·서식 무결성
+   - PASS / CONDITIONAL PASS / FAIL 판정
+   ↓
+Layer B: /guide-improve critic {파일}
+   - 같은 파일 회귀 검토
+   - 같은 P1 약점이 다시 나오면 안 됨
+   ↓
+Layer C: 자동 검증
+   - hugo --minify (빌드 성공)
+   - /guide-improve links (깨진 링크)
+   - /guide-improve evidence {표준} {입증자료} (영향받은 입증자료만)
+   ↓
+Layer D: Git commit (별도 commit, revert 단위 작게)
+```
+
+- Layer A FAIL 시: revert 후 재작업
+- Layer A CONDITIONAL PASS 시: 사용자 확인 후 진행
+- Layer B에서 새 P1 발견 시: 별도 약점으로 CRITIC-REPORT에 추가
+- Layer C 실패 시: 원인 파악 후 Layer A부터 재실행
+
+### 인프라 (구축 완료)
+- [x] `.claude/agents/guide-critic.md` (콘텐츠 깊이 검토)
+- [x] `.claude/agents/guide-style-checker.md` (통일성 검토)
+- [x] `.claude/agents/guide-fix-verifier.md` (보강 검증)
+- [x] `.claude/commands/guide-improve.md` 갱신 (critic·style·verify 서브커맨드)
+- [x] `content/ko/guide/CRITIC-REPORT.md` (검토 결과 영속화)
+
+---
