@@ -127,7 +127,7 @@ flowchart TD
 - **EPSS**(Exploit Prediction Scoring System) 점수와 **CISA KEV**(Known Exploited
   Vulnerabilities) 등재 여부를 보조 지표로 함께 평가한다 — 동일 CVSS 점수라도 KEV에
   등재된 CVE는 우선 조치 대상으로 분류한다.
-- 심각도 분류: Critical(9.0+) / High(7.0-8.9) / Medium(4.0-6.9) / Low(0.1-3.9) — v3.1·v4.0 동일
+- 심각도 분류: Critical(9.0+) / High(7.0-8.9) / Medium(4.0-6.9) / Low(0.1-3.9) — 기본 점수 등급 임계값은 v3.1·v4.0 동일. 다만 v4.0은 **Threat·Environmental 메트릭(BTE)** 적용 방식이 달라 동일 Base에서도 환경 점수 산정이 달라질 수 있다.
 
 3단계 — 조치 결정 및 문서화
 - 심각도와 고객 영향 범위에 따라 조치 방법을 결정한다:
@@ -142,13 +142,17 @@ flowchart TD
   · 고객사 보안 담당자에게 취약점 정보와 대응 계획을 사전 통보한다.
   · 패치 배포 일정과 완화 조치 방법을 공유한다.
 - **VEX 발행 권장**: 공급망 파트너·고객에게 영향 여부를 표준 형식으로 통지한다.
-  CSAF 2.0(OASIS) 또는 CycloneDX VEX 형식을 사용하며, 다음 4가지 상태값으로 표현한다.
+  **CSAF 2.0**(OASIS, `product_status` 4 카테고리) 또는 **CycloneDX VEX**(5 상태, `false_positive` 추가)
+  형식을 사용한다. 4가지 공통 상태값은 다음과 같다.
   · `not_affected` — CVE는 존재하나 사용 맥락상 영향 없음(justification 필수)
   · `affected` — 영향 있음(조치 진행 중)
   · `fixed` — 패치 적용 완료
   · `under_investigation` — 영향 조사 중
   특히 `not_affected` 상태는 고객의 불필요한 패치 작업을 차단하는 가치가 크므로
-  justification(예: `vulnerable_code_not_in_execute_path`)을 함께 기재한다.
+  [CSAF 2.0 §3.2.3.18 product_status](https://docs.oasis-open.org/csaf/csaf/v2.0/os/csaf-v2.0-os.html)에
+  정의된 5개 justification(`component_not_present`·`vulnerable_code_not_present`·
+  `vulnerable_code_cannot_be_controlled_by_adversary`·`vulnerable_code_not_in_execute_path`·
+  `inline_mitigations_already_exist`) 중 해당 항목을 함께 기재한다.
 
 5단계 — 조치 수행
 - 결정된 조치를 조치 기한 내에 수행한다.
