@@ -159,10 +159,10 @@ draft: true
   - [x] opensource_for_enterprise/7-ai-compliance 형식 리포밍 (도입 alert·H3 (N)·어조·Summary·교차링크 5종 적용) — Layer A·C PASS [2026-05-13]
   - [x] opensource_for_enterprise/2-policy H2 번호 재정렬 — **변경 불필요** (sub-agent grep 분석 오류. 실제 본문 H2는 1·2·3 순차. ## 4·5·9·7은 코드 블록 안 정책 템플릿 인용으로 Hugo 파서가 H2로 처리하지 않음) [2026-05-13]
   - [x] opensource_for_enterprise/0-openchain 3종 세트 추가 (도입 alert + Summary + 하단 교차 링크 blockquote) — hugo 빌드 PASS [2026-05-13]
-  - [ ] iso5230_guide 5섹션 구조 회복 (2-license-compliance·1-conformance)
-  - [ ] templates 두 템플릿 헤딩 체계·OSPM·Jira·플레이스홀더 통일
-  - [ ] iso42001_guide 약어 표·라이선스명 통일·AI SBOM 정의 중복 정리
-  - [ ] iso18974_guide §4.1.5 "방법 1~8" H3 격상
+  - [x] iso5230_guide 5섹션 구조 — **변형 인정** (자동화 도구 활용·인증 방법 선택 등 부가 가이드 §5 허용). `.claude/rules/guide-writing.md`에 6섹션 변형 규칙 명문화 [2026-05-13]
+  - [ ] templates 두 템플릿 헤딩 체계·OSPM·Jira·플레이스홀더 통일 (큰 작업, 다음 session)
+  - [ ] iso42001_guide 약어 표·라이선스명 통일·AI SBOM 정의 중복 정리 (큰 작업, 다음 session)
+  - [x] iso18974_guide §4.1.5 "방법 1~8" 굵게 → H4 격상 (### 4.1.5.1 입증자료 하위 H4로 위계 정합) [2026-05-13]
 - [ ] P3 그룹 간 정합 (장기): compare 양방향·Phase 단계 의미 차이·샘플 외부화
 
 ### Phase 6 — 영어(en/) 동기화
