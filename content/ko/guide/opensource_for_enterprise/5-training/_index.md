@@ -268,3 +268,8 @@ SK텔레콤의 오픈소스 가이드 내 [라이선스별 의무사항](https:/
 > - [§3.1.3 인식](../../iso5230_guide/1-program-foundation/3-awareness/) — 프로그램 참여자 인식 제고 절차
 > - [§3.1.4 프로그램 범위](../../iso5230_guide/1-program-foundation/4-scope/) — 교육 대상 범위 정의
 > - [§3.5.1 기여](../../iso5230_guide/5-community/1-contributions/) — 기여 정책 인식 절차(3.5.1.3)
+>
+> **AI 사용 시 추가 고려:**
+> - [§7. AI 컴플라이언스](../7-ai-compliance/) — AI 라이선스·AI 코딩 도구·AI SBOM 교육 항목 추가
+> - [ISO/IEC 42001 §7.2 역량](../../iso42001_guide/3-support/) — AI 거버넌스 역량 정의
+> - [SC 42 패밀리 매핑](../../iso42001_guide/compare/#3-sc-42-패밀리-매핑) — 22989 용어 기반 교육 자료 일관화

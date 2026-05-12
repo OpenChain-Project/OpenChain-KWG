@@ -12,6 +12,10 @@ description: >
 [전체 구축 로드맵 보기](../../#단계별-구축-로드맵)
 {{% /alert %}}
 
+{{% alert title="★ 18974 전용 항목 — Documented Evidence 강도" color="warning" %}}
+§4.1.4.2·§4.1.4.3은 ISO 18974 전용(★) 항목으로 **Documented Evidence**(문서화된 증거)를 요구한다. 메트릭은 측정 결과 데이터, 지속적 개선은 검토·감사 회의록이 실제 보관되어야 한다. 강도 차이의 자세한 설명은 [§4.1.5 표준 관행 — Documented Evidence 안내](../5-standard-practice/#iso-18974-전용-항목의-강도--documented-evidence)를 참고한다.
+{{% /alert %}}
+
 ## 1. 조항 개요
 
 §4.1.4는 ISO/IEC 5230 §3.1.4(프로그램 범위)에 입증자료 2건이 추가된 조항이다.

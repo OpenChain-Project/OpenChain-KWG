@@ -12,6 +12,10 @@ description: >
 [전체 구축 로드맵 보기](../../#단계별-구축-로드맵)
 {{% /alert %}}
 
+{{% alert title="★ 18974 전용 항목 — Documented Evidence 강도" color="warning" %}}
+§4.2.2.3은 ISO 18974 전용(★) 항목으로 **Documented Evidence**(문서화된 증거)를 요구한다. 취약점 해결 자원 접근 방법은 단순 절차 문서가 아니라 실제 자원 활용 이력(보안 자문 계약·계정 발급 기록·접근 로그 등)을 함께 보관해야 한다. 강도 차이의 자세한 설명은 [§4.1.5 표준 관행 — Documented Evidence 안내](../../1-program-foundation/5-standard-practice/#iso-18974-전용-항목의-강도--documented-evidence)를 참고한다.
+{{% /alert %}}
+
 ## 1. 조항 개요
 
 §4.2.2는 ISO/IEC 5230 §3.2.2(효과적 리소스)에 대응하지만 두 가지 차이가 있다.

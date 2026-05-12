@@ -51,6 +51,8 @@ FOSSology의 설치 및 사용 방법은 [FOSSology 가이드](../../tools/1-fos
 
 SCANOSS는 무료 버전과 유료 버전을 제공하며, 클라우드 기반 서비스와 온프레미스 솔루션을 모두 지원합니다.
 
+SCANOSS의 설치 및 사용 방법은 [SCANOSS 가이드](../../tools/9-scanoss/)를 참조하시기 바랍니다.
+
 이러한 소스 코드 스캔 도구를 활용하여 공급 소프트웨어의 오픈소스 컴포넌트를 효과적으로 식별하고 관리할 수 있습니다. 그러나 도구의 결과만을 전적으로 신뢰하기보다는, 프로그램 참여자의 전문적인 검토와 판단이 함께 이루어져야 합니다.
 
 ## 2. Dependency 분석 도구
@@ -250,6 +252,8 @@ OSV-SCALIBR의 설치 및 사용 방법은 [OSV-SCALIBR 가이드](../../tools/4
 ![](./noticesample.png)
 <center><i>onot 생성 오픈소스 고지문 샘플</i></center><br>
 
+onot의 설치 및 사용 방법은 [onot 가이드](../../tools/10-onot/)를 참조하시기 바랍니다.
+
 ### (2) FOSSLight
 
 [FOSSLight](https://fosslight.org/)도 취득한 SBOM을 기반으로 오픈소스 고지문을 자동으로 생성하는 기능을 제공합니다.
@@ -437,3 +441,8 @@ CI/CD 파이프라인에 이러한 프로세스를 통합함으로써, 오픈소
 > - [§3.4.1 컴플라이언스 산출물](../../iso5230_guide/4-artifacts/1-compliance-artifacts/) — 산출물 보관 기간·버전 관리 절차
 > - [§4.1.5 표준 관행 구현](../../iso18974_guide/1-program-foundation/5-standard-practice/) — SCA·SAST·DAST 도구 활용 방법
 > - [§4.3.2 보안 보증](../../iso18974_guide/3-content-review/2-security-assurance/) — SBOM 기반 취약점 탐지 및 기록
+>
+> **AI 사용 시 추가 고려:**
+> - [§7. AI 컴플라이언스](../7-ai-compliance/) — AI 코딩 도구 사용 정책·CI/CD 자동 차단
+> - [AI SBOM 가이드](../../iso42001_guide/4-operation/2-ai-sbom/) — cdxgen·Syft·Dependency-Track으로 AI SBOM 생성
+> - [§6.3 OpenSSF Model Signing](../../iso42001_guide/4-operation/3-supply-chain/#63-openssf-model-signing-도입-절차) — 모델 가중치 서명 도구
