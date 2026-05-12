@@ -88,6 +88,10 @@
   - `templates/1-policy/`: `### N.N 제목`
   - `templates/2-process-template/`: `### (N) 제목`
 - **5섹션 구조 (조항 페이지)**: `## 1. 조항 개요` → `## 2. 해야 할 활동` → `## 3. 요구사항 및 입증자료` → `## 4. 입증자료별 준수 방법 및 샘플` → `## 5. 참고` — 추가 섹션이 필요하면 §4 하위로 흡수
+- **6섹션 변형 허용**: 다음 경우 `## 5. 부가 가이드 제목` + `## 6. 참고` 형태로 6섹션 허용
+  - 자동화 도구·CI/CD 활용 등 입증자료와 관련된 부가 가이드 (예: `iso5230_guide/3-content-review/2-license-compliance` §5 "자동화 도구 활용", `iso18974_guide/1-program-foundation/5-standard-practice` §5 "자동화 도구 활용")
+  - 인증 방법 선택 등 별도 가이드 필요 항목 (예: `iso5230_guide/6-conformance/1-conformance` §5 "인증 방법 선택 가이드")
+  - 변형 적용 시 §6에 "참고" 위치를 일관 유지
 - **신설 섹션**(예: 7-ai-compliance·4-operation/_index)도 그룹 표준 헤딩 체계 준수
 
 ### 약어 풀이
