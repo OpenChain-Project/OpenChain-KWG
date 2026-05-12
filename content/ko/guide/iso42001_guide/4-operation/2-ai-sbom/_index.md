@@ -86,12 +86,44 @@ OpenChain AI Work Group은 이 Fact Sheet 정보를 AI SBOM의 표준 구성 요
 
 ---
 
-## 3. SPDX 3.0 AI 프로파일 활용
+## 3. AI SBOM 표준 형식 명세 (SPDX 3.0 · CycloneDX 1.6)
 
-[SPDX 3.0](https://spdx.github.io/spdx-spec/v3.0/)은 AI 시스템을 위한 **AI 프로파일**을 새롭게 포함한다.
-OpenChain Korea Work Group의 AI Work Group이 이 형식을 기반으로 AI SBOM 가이드를 개발했다.
+AI SBOM 표준 형식은 두 가지가 사실상 산업 표준으로 자리잡았다. 두 형식은 보완 관계이며,
+조직은 한쪽 또는 양쪽 모두를 채택할 수 있다.
 
-### AI SBOM SPDX 3.0 예시
+| 표준 | 발표 | AI 영역 명세 | 핵심 강점 |
+|------|------|------------|----------|
+| **SPDX 3.0** | 2024-04 | AI Profile (`AIPackage` 클래스) | 라이선스·저작권 표현 강함, ISO/IEC 5962:2021 후속 |
+| **CycloneDX 1.6** | 2024-04 | ML-BOM (`modelCard`) | 보안·윤리·성능 메타데이터 풍부, ECMA-424 표준 |
+
+OpenChain Korea Work Group의 AI Work Group은 두 형식을 모두 지원하는 AI SBOM 가이드를 개발했다.
+
+### 3.1 SPDX 3.0 AI Profile 핵심 필드 12종
+
+SPDX 3.0 AI Profile은 [`AIPackage`](https://spdx.github.io/spdx-spec/v3.0.1/model/AI/Classes/AIPackage/)
+클래스를 통해 AI 모델 메타데이터를 표현한다. AI 특화 필드 중 자주 사용되는 핵심 12개는 다음과 같다.
+
+| # | 필드 | 의미 | 예시 값 |
+|---|------|------|--------|
+| 1 | `typeOfModel` | 모델 유형 | "LLM", "Image Classification", "Reinforcement Learning" |
+| 2 | `modelArchitecture` | 모델 아키텍처 상세 | "Transformer Decoder", "Vision Transformer", "MoE" |
+| 3 | `hyperparameter` | 하이퍼파라미터(key/value) | `contextWindow: 131072`, `learningRate: 2e-5` |
+| 4 | `modelDataPreprocessing` | 학습 데이터 전처리 방법 | "BPE Tokenization", "Image normalization (224×224)" |
+| 5 | `informationAboutTraining` | 학습 절차 정보 | "Pretrained on 15T tokens, fine-tuned on KoAlpaca" |
+| 6 | `informationAboutApplication` | 의도된 응용 정보 | "Customer support chatbot, EN/KO" |
+| 7 | `metric` | 성능 메트릭 | "MMLU: 0.78", "HumanEval: 0.65" |
+| 8 | `metricDecisionThreshold` | 결정 임계값 | "Toxicity > 0.7 → reject" |
+| 9 | `limitation` | 알려진 한계·약점 | "Hallucinates on dates after 2024-12" |
+| 10 | `safetyRiskAssessment` | 안전성·보안 위험 평가 결과 | "Prompt injection 평가 완료 (PASS)" |
+| 11 | `modelExplainability` | 설명 가능성 기법 | "SHAP 분석 지원", "Attention map 시각화" |
+| 12 | `autonomyType` | 자율성 수준 | "Human-in-the-loop", "Fully autonomous" |
+
+보조 필드(필요 시): `domain`(적용 도메인), `energyConsumption`(에너지 소비량),
+`standardCompliance`(준수 표준 목록), `useSensitivePersonalInformation`(민감 개인정보 사용 여부).
+상속 필드(`name`, `packageVersion`, `downloadLocation`, `suppliedBy`, `primaryPurpose`,
+`releaseTime`)는 일반 SBOM과 동일하게 작성한다.
+
+### 3.2 SPDX 3.0 AI SBOM 작성 예시
 
 ```yaml
 spdxVersion: SPDX-3.0
@@ -156,6 +188,107 @@ relationships:
 
 이 예시는 AI SBOM 형식 설명을 위한 것이며, 상업 서비스에서는 Apache 2.0, MIT,
 CC-BY 4.0, CC0 등 상업적 사용이 가능한 라이선스의 데이터셋을 사용한다.
+{{% /alert %}}
+
+### 3.3 CycloneDX 1.6 ML-BOM 핵심 필드 (modelCard 4영역)
+
+[CycloneDX 1.6 ML-BOM](https://cyclonedx.org/capabilities/mlbom/)은 컴포넌트의
+`modelCard` 필드에 AI 모델 메타데이터를 표현한다. modelCard는 4개 영역으로 구성된다.
+
+**(1) `modelParameters` — 모델 구성 (7필드)**
+
+| 필드 | 의미 |
+|------|------|
+| `approach` | 학습 접근(Supervised / Unsupervised / Reinforcement / Semi-supervised) |
+| `task` | 모델 작업 유형(classification, regression, text-generation 등) |
+| `architectureFamily` | 아키텍처 계열(transformer, CNN, RNN, LSTM 등) |
+| `modelArchitecture` | 구체적 아키텍처(GPT-4o, ResNet-50, YOLOv8 등) |
+| `datasets` | 학습·평가에 사용한 데이터셋 참조 목록 |
+| `inputs` | 입력 형식(MIME type, 텐서 shape 등) |
+| `outputs` | 출력 형식 |
+
+**(2) `quantitativeAnalysis` — 성능 분석 (2필드)**
+
+| 필드 | 의미 |
+|------|------|
+| `performanceMetrics` | 성능 메트릭(accuracy, F1, MSE, top-k 등) |
+| `graphics` | 평가 결과 그래프·이미지 첨부 |
+
+**(3) `considerations` — 윤리·운영 고려사항 (7필드)**
+
+| 필드 | 의미 |
+|------|------|
+| `users` | 의도된 사용자 |
+| `useCases` | 의도된 사용 사례 |
+| `technicalLimitations` | 기술적 한계 |
+| `performanceTradeoffs` | 성능·정확도 트레이드오프 |
+| `ethicalConsiderations` | 윤리적 위험 평가 |
+| `environmentalConsiderations` ★ | 환경 영향(전력 소비·탄소 배출) — **1.6 신설** |
+| `fairnessAssessments` | 공정성 평가(영향받는 그룹별 편익·위험) |
+
+**(4) `properties` — 자유 형식 key-value**
+
+조직 내부 메타데이터(승인자·심사 일자 등)를 추가로 기록할 수 있다.
+
+### 3.4 CycloneDX 1.6 ML-BOM 작성 예시
+
+```json
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "components": [
+    {
+      "type": "machine-learning-model",
+      "bom-ref": "model-llama3.1-8b",
+      "name": "Meta Llama 3.1 8B Instruct",
+      "version": "3.1",
+      "supplier": { "name": "Meta AI" },
+      "licenses": [
+        { "license": { "name": "Llama 3.1 Community License" } }
+      ],
+      "modelCard": {
+        "bom-ref": "card-llama3.1-8b",
+        "modelParameters": {
+          "approach": { "type": "supervised" },
+          "task": "text-generation",
+          "architectureFamily": "transformer",
+          "modelArchitecture": "Decoder-only Transformer",
+          "datasets": [ { "ref": "ds-meta-pretrain-15T" } ],
+          "inputs": [ { "format": "text/plain" } ],
+          "outputs": [ { "format": "text/plain" } ]
+        },
+        "quantitativeAnalysis": {
+          "performanceMetrics": [
+            { "type": "MMLU", "value": "0.78" },
+            { "type": "HumanEval", "value": "0.65" }
+          ]
+        },
+        "considerations": {
+          "users": [ "Enterprise developers" ],
+          "useCases": [ "Customer support chatbot (EN/KO)" ],
+          "technicalLimitations": [ "Hallucinates on dates after 2024-12" ],
+          "ethicalConsiderations": [
+            { "name": "Prompt injection", "mitigation": "Input filtering" }
+          ],
+          "environmentalConsiderations": {
+            "energyConsumptions": [
+              {
+                "activity": "inference",
+                "energyMeasure": { "value": 0.5, "unit": "kWh" }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
+```
+
+{{% alert title="SPDX 3.0 · CycloneDX 1.6 동시 발행 권장" color="success" %}}
+EU AI Act 고위험 시스템 기술 문서 요건과 향후 ISO/IEC 42003 요구사항을 동시에 충족하기 위해
+SPDX 3.0(라이선스 추적용)과 CycloneDX 1.6 ML-BOM(보안·윤리 추적용)을 **동시 발행**하는 것을
+권장한다. 두 형식은 컴포넌트 ID(PURL 또는 `modelCard.bom-ref`)로 연결할 수 있다.
 {{% /alert %}}
 
 ---
@@ -224,6 +357,15 @@ AI 시스템 개발 착수
 - [ ] AI SBOM에 프레임워크·모델·데이터셋이 모두 포함되어 있는가?
 - [ ] 각 컴포넌트의 라이선스가 정확하게 기록되어 있는가?
 - [ ] AI SBOM을 기반으로 취약점 모니터링이 수행되고 있는가?
+- [ ] 모델 서명(OpenSSF Model Signing · Sigstore) 검증 결과가 AI SBOM에 기록되어 있는가?
+- [ ] 학습 빌드 provenance(SLSA for AI L1 이상)가 attestation으로 보관되어 있는가?
+
+{{% alert title="모델 서명 · 빌드 provenance" color="info" %}}
+모델 가중치 파일은 OpenSSF Model Signing(`model-signing` CLI)으로 서명하고,
+학습·파인튜닝 빌드는 SLSA for AI 레벨(L1~L3)에 따라 provenance를 첨부한다.
+구체 절차는 [공급망 검증 §6.3 OpenSSF Model Signing](../3-supply-chain/#63-openssf-model-signing-도입-절차)과
+[§6.4 SLSA for AI 빌드 레벨](../3-supply-chain/#64-slsa-for-ai-빌드-레벨)을 참고한다.
+{{% /alert %}}
 
 ---
 
