@@ -6,7 +6,9 @@
 ```
 /guide-improve audit [target]           # 가이드 완성도·일관성 감사 (형식·구조·교차링크)
 /guide-improve critic {파일|target}     # 가이드 콘텐츠 비판적 재검토 (Opus 4.7, 본문 정독)
+/guide-improve style {파일|target} [차원]  # 가이드 통일성 검토 (단락·문장·표현·markdown·mermaid·이미지)
 /guide-improve section {표준} {조항}    # 특정 조항 개선
+/guide-improve verify {파일} {약점ID}   # 보강 diff 정확성 검증 (4층 체계)
 /guide-improve links [fix]              # 교차 참조 링크 점검 (fix: 수정 제안)
 /guide-improve evidence {표준} [항목]   # 입증자료 충족 여부 점검
 /guide-improve status                   # 현재 작업 현황 요약
@@ -34,6 +36,35 @@
 2. `guide-critic` 에이전트를 호출한다(모델: opus 고정). 대상을 전달한다.
 3. 에이전트가 반환한 리포트를 출력한다. 결과는 `content/ko/guide/CRITIC-REPORT.md`에 누적 기록된다.
 4. P1 약점이 있으면 `/guide-improve section`으로 보강 diff 작성을 제안한다. 단, diff 작성·적용은 별도 단계이며, 이 서브커맨드는 어떤 파일도 수정하지 않는다.
+
+### `verify {파일} {약점ID}`
+1. 입력 해석:
+   - 파일 경로: 보강이 적용된 파일
+   - 약점 ID: CRITIC-REPORT.md의 약점 식별자 (예: URG-1, AI-2 등) 또는 약점 설명
+2. 적용된 diff 추출: `git diff HEAD~1 <파일>` 또는 `git diff --staged <파일>`. 또는 사용자가 직접 제공.
+3. `guide-fix-verifier` 에이전트를 호출한다(모델: opus). 파일·약점·diff를 전달.
+4. 에이전트가 5개 항목(의도 적합성·완전성·사실 정확성·부수 효과·서식 무결성)을 점검하고 PASS/CONDITIONAL PASS/FAIL 판정.
+5. PASS면 권고된 자동 검증(hugo 빌드·links·evidence) 실행 안내.
+6. FAIL이면 revert 또는 재작업 권고.
+
+이 서브커맨드는 **4층 검증 체계의 Layer A**에 해당한다. 보강 작업 1건당 다음 4층을 모두 거친다:
+
+```
+Layer A: guide-fix-verifier (이 서브커맨드)
+Layer B: guide-critic 재실행 (회귀 검토)
+Layer C: 자동 검증 (hugo --minify + /guide-improve links + /guide-improve evidence)
+Layer D: Git commit (별도 commit으로 revert 단위 작게 유지)
+```
+
+### `style {파일|target} [차원]`
+1. 입력 해석:
+   - 파일 경로면 단일 파일 통일성 검토
+   - target(`5230` | `18974` | `42001` | `enterprise` | `templates` | `tools` | `all`)이면 그룹 검토. `all`은 시작 전 사용자 확인 받는다 (~50개 파일·9,815줄).
+   - 차원(`paragraph` | `sentence` | `expression` | `markdown` | `mermaid` | `image` | `all`) — 기본값 `all`
+2. `guide-style-checker` 에이전트를 호출한다(모델: opus 고정). 대상·차원을 전달한다.
+3. 에이전트가 반환한 리포트를 출력한다. 결과는 `content/ko/guide/STYLE-REPORT.md`에 누적 기록된다.
+4. C1(높음) 약점이 있으면 `/guide-improve section`으로 보강 diff 작성을 제안한다.
+5. `guide-critic`(콘텐츠 깊이)과 역할이 분리되어 있어 두 검토는 독립적으로 진행 가능하다.
 
 ### `section {표준} {조항}`
 1. 조항 번호로 대상 파일 경로를 결정한다:
