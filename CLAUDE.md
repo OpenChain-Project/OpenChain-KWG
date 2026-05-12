@@ -130,6 +130,7 @@ hugo --minify
 | `/guide-check-sbom-process` | SBOM 프로세스 페이지 점검 |
 | `/guide-check-links` | 가이드 내 링크 유효성 검사 |
 | `/guide-verify-evidence` | 입증자료 충족 여부 검증 (단건) |
+| `/slides-resume` | 슬라이드 v6 (Slidev 기반 교육자료) 작업 세션 재개 |
 
 ---
 
