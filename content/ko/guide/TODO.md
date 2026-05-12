@@ -144,16 +144,26 @@ draft: true
 - [ ] templates 잔여 P1 (~10건)
 
 ### Phase 5 — 통일성 검토 (별도 페이즈, 신설)
-- [ ] guide-style-checker 에이전트 정의 (`.claude/agents/guide-style-checker.md`)
-- [ ] `/guide-improve style [target]` 서브커맨드 추가
-- [ ] STYLE-REPORT.md 신설 — 통일성 검토 결과 누적
-- [ ] 통일성 검토 실행 (5개 차원: 단락 구성·문장 스타일·표현 통일·markdown 사용 기준·mermaid 도식화)
-  - [ ] iso5230_guide 통일성 검토
-  - [ ] iso18974_guide 통일성 검토
-  - [ ] iso42001_guide 통일성 검토
-  - [ ] opensource_for_enterprise 통일성 검토
-  - [ ] templates 통일성 검토
-- [ ] 통일성 보강 PR (검토 결과 기반)
+- [x] guide-style-checker 에이전트 정의 (`.claude/agents/guide-style-checker.md`) [2026-05-12]
+- [x] `/guide-improve style [target]` 서브커맨드 추가 [2026-05-12]
+- [x] STYLE-REPORT.md 신설 — 통일성 검토 결과 누적 [2026-05-12]
+- [x] 통일성 검토 실행 (6개 차원: 단락 구성·문장 스타일·표현 통일·markdown·mermaid·이미지 캡션) — 170+ 약점 식별 [2026-05-12]
+  - [x] iso5230_guide 통일성 검토 (C1 9 / C2 9 / C3 4)
+  - [x] iso18974_guide 통일성 검토 (C1 2 / C2 16 / C3 9)
+  - [x] iso42001_guide 통일성 검토 (C1 8 / C2 18 / C3 9)
+  - [x] opensource_for_enterprise 통일성 검토 (C1 13 / C2 18 / C3 5+)
+  - [x] templates 통일성 검토 (C1 14 / C2 18 / C3 18+)
+- [x] P0 단순 정정 (마크다운 렌더링·헤딩 번호·표기 통일) — 9 files [2026-05-12]
+- [x] P1 규칙 명문화 — `.claude/rules/guide-writing.md`에 통일성 규칙 추가 (종결체·alert color·헤딩·약어·이미지·ISO 인용·용어 통일·코드 블록·링크·mermaid) [2026-05-12]
+- [ ] P2 구조적 보강 (다음 단계 — 큰 작업, session 분할):
+  - [ ] opensource_for_enterprise/7-ai-compliance 형식 리포밍 (도입 alert·H3 (N)·어조·Summary·교차링크)
+  - [ ] opensource_for_enterprise/2-policy H2 번호 재정렬
+  - [ ] opensource_for_enterprise/0-openchain 3종 세트 추가
+  - [ ] iso5230_guide 5섹션 구조 회복 (2-license-compliance·1-conformance)
+  - [ ] templates 두 템플릿 헤딩 체계·OSPM·Jira·플레이스홀더 통일
+  - [ ] iso42001_guide 약어 표·라이선스명 통일·AI SBOM 정의 중복 정리
+  - [ ] iso18974_guide §4.1.5 "방법 1~8" H3 격상
+- [ ] P3 그룹 간 정합 (장기): compare 양방향·Phase 단계 의미 차이·샘플 외부화
 
 ### Phase 6 — 영어(en/) 동기화
 - [ ] ko/ 보강 후 en/ 대응 파일 일괄 동기화
