@@ -118,7 +118,7 @@ draft: true
 - [x] URG-7: "지난 18개월" 회고형 시제 정정 (ko 6-conforming 2 + ko duration 2 + en duration 2 + en 6-conforming 추가 §3.4.x→§4.4.x 2건 + 미래형 보장 1건 = 9건) [2026-05-12]
 
 ### Phase 2 — iso42001 + 7-ai-compliance 통합 보강 (1-2주)
-- [ ] AI-1: 글로벌 AI 규제 매트릭스 박스 (EU AI Act §53 + 한국 AI 기본법 + US Copyright + NIST AI RMF + OSAID 1.0)
+- [x] AI-1: 글로벌 AI 규제 매트릭스 박스 — iso42001/1-context-leadership §4.1 안에 14개 규제·표준 매트릭스 신설 (EU AI Act §53·§50·§40·§25·§11+Annex IV / 한국 AI 기본법 / US Copyright Office AI 가이드 / US EO 14110 / NIST AI RMF 2.0 / OSAID 1.0 / ISO 42005·23894·5338·42003·42006) [2026-05-13]
 - [ ] AI-2: Llama 의무 체크리스트 + OSAID "Open Weight" 분류 컬럼
 - [ ] AI-3: SPDX 3.0 AI Profile 12개 필드 + CycloneDX 1.6 ML-BOM 명세
 - [ ] AI-4: AI 생성 코드 저작권 처리 절차 신설 (7-ai-compliance)
