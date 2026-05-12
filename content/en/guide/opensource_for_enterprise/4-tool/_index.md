@@ -55,7 +55,7 @@ ISO/IEC 5230 standard 3.3.1.2 requires that the SBOM list included in the distri
 
 {{% alert title="ISO/IEC 18974 - Security Assurance" color="warning" %}}
 
-* 3.3.1.2: Open Source Software Component Records for the Supplied Software that demonstrates the documented procedure was properly followed.
+* 4.3.1.2: Open Source Software Component Records for the Supplied Software that demonstrates the documented procedure was properly followed.
 
 {{% /alert %}}
 

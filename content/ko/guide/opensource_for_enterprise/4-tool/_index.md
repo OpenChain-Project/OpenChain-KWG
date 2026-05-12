@@ -323,7 +323,7 @@ GitHub Pages를 활용하여 오픈소스 컴플라이언스 산출물을 보관
 - [OWASP Dependency-Check Plugin](https://plugins.jenkins.io/dependency-check-jenkins-plugin/): 알려진 취약점 또는 새로 발견된 취약점 검사를 자동화합니다.
 - [SW360 Plugin](https://github.com/eclipse/sw360/tree/main/jenkins-pipeline): SW360와 Jenkins를 연동하여 SBOM 관리를 자동화합니다.
 
-Jenkins 파이프라인 예시:
+Jenkins 파이프라인 예시 (**개념도 — 실제 적용 시 각 플러그인의 공식 문서를 참조하여 검증된 step 이름과 파라미터로 교체 필요**):
 
 ```groovy
 pipeline {
@@ -364,7 +364,7 @@ pipeline {
 
 [GitLab CI/CD](https://docs.gitlab.com/ee/ci/)는 GitLab에 내장된 지속적 통합/배포 도구로, `.gitlab-ci.yml` 파일을 통해 파이프라인을 정의합니다.
 
-GitLab CI/CD 파이프라인 예시:
+GitLab CI/CD 파이프라인 예시 (**개념도 — 실제 적용 시 공식 이미지·CLI 명령을 참조하여 검증된 명령으로 교체 필요**):
 
 ```yaml
 stages:

@@ -180,4 +180,4 @@ PackageCopyrightText: Copyright (C) 1995-2022 Jean-loup Gailly and Mark Adler
 
 - 관련 가이드: [기업 오픈소스 관리 가이드 — 3. 프로세스](../../../opensource_for_enterprise/3-process/)
 - 관련 템플릿: [오픈소스 프로세스 템플릿](../../../templates/2-process-template/)
-- 관련 도구: [FOSSology](../../../tools/1-fossology/), [ORT](../../../tools/2-ort/), [Syft](../../../tools/6-syft/), [cdxgen](../../../tools/5-cdxgen/), [Dependency-Track](../../../tools/7-dependency-track/)
+- 관련 도구: [FOSSology](../../../tools/1-fossology/), [ORT](https://github.com/oss-review-toolkit/ort), [Syft](../../../tools/6-syft/), [cdxgen](../../../tools/5-cdxgen/), [Dependency-Track](../../../tools/7-dependency-track/)
