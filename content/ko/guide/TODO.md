@@ -156,7 +156,7 @@ draft: true
 - [x] P0 단순 정정 (마크다운 렌더링·헤딩 번호·표기 통일) — 9 files [2026-05-12]
 - [x] P1 규칙 명문화 — `.claude/rules/guide-writing.md`에 통일성 규칙 추가 (종결체·alert color·헤딩·약어·이미지·ISO 인용·용어 통일·코드 블록·링크·mermaid) [2026-05-12]
 - [ ] P2 구조적 보강 (다음 단계 — 큰 작업, session 분할):
-  - [ ] opensource_for_enterprise/7-ai-compliance 형식 리포밍 (도입 alert·H3 (N)·어조·Summary·교차링크)
+  - [x] opensource_for_enterprise/7-ai-compliance 형식 리포밍 (도입 alert·H3 (N)·어조·Summary·교차링크 5종 적용) — Layer A·C PASS [2026-05-13]
   - [ ] opensource_for_enterprise/2-policy H2 번호 재정렬
   - [ ] opensource_for_enterprise/0-openchain 3종 세트 추가
   - [ ] iso5230_guide 5섹션 구조 회복 (2-license-compliance·1-conformance)
