@@ -186,7 +186,7 @@ The security manager reviews whether all serious vulnerabilities have been resol
 
 The IT manager registers the SBOM, which has resolved the open source security vulnerability, in the system.
 
-Vulnerability response records shall be retained for a minimum of 3 years from the date of the last distribution of the relevant supplied software. (ISO/IEC 18974 §3.3.2.2)
+Vulnerability response records shall be retained for a minimum of 3 years from the date of the last distribution of the relevant supplied software. (ISO/IEC 18974 §4.3.2.2)
 
 ### (7) Notification
 
@@ -271,7 +271,7 @@ In case of a compliance issue, the case is reviewed through the OSRB meeting, th
 
 ### (8) Record Retention
 
-The open source program manager records the entire external inquiry response process (receipt, investigation, response, resolution) in the issue tracking system. These records shall be retained for a minimum of 3 years from the date the inquiry is closed. (ISO/IEC 18974 §3.2.1.2)
+The open source program manager records the entire external inquiry response process (receipt, investigation, response, resolution) in the issue tracking system. These records shall be retained for a minimum of 3 years from the date the inquiry is closed. (ISO/IEC 18974 §4.2.1.2)
 
 Records shall include the following:
 
@@ -416,7 +416,7 @@ Record items:
 - Evaluation results (score or pass/fail)
 - Supplemental training history (if applicable)
 
-Records shall be registered in the internal document management system or Learning Portal and retained for a minimum of 3 years. (ISO/IEC 5230 §3.1.3, ISO/IEC 18974 §3.1.3)
+Records shall be registered in the internal document management system or Learning Portal and retained for a minimum of 3 years. (ISO/IEC 5230 §3.1.3, ISO/IEC 18974 §4.1.3)
 
 ### (5) Training Content Review and Improvement
 

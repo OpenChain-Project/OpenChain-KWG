@@ -168,7 +168,7 @@ The education history and evaluation results are kept in the [Learning Portal] f
 
 ### Assessment Evidence Retention Procedure
 
-- Evidence of competency assessment shall be collected and retained in one or more of the following forms: test scores, training completion certificates, policy awareness confirmation signatures. (ISO/IEC 5230 §3.1.3, ISO/IEC 18974 §3.1.3)
+- Evidence of competency assessment shall be collected and retained in one or more of the following forms: test scores, training completion certificates, policy awareness confirmation signatures. (ISO/IEC 5230 §3.1.3, ISO/IEC 18974 §4.1.3)
 - Evidence shall be registered in the internal document management system (e.g., Learning Portal, HR system) and maintained in a state that can be immediately produced during audits.
 - After the retention period expires, records shall be destroyed in accordance with the personal data protection policy.
 
@@ -232,7 +232,7 @@ You can issue an open source notice and collect a source code package to be disc
 
 You must create and manage the status of open source included in distributed software (BOM: Bill of Materials).
 
-- SBOMs shall be generated in one of the following standard formats: SPDX or CycloneDX. (ISO/IEC 18974 §3.3.1.2)
+- SBOMs shall be generated in one of the following standard formats: SPDX or CycloneDX. (ISO/IEC 18974 §4.3.1.2)
 
 You can create and preserve SBOM using open source tools through the company's open source process.
 
@@ -251,9 +251,9 @@ If a compliance issue is raised, the open source program manager performs the fo
 
 - We identify open source vulnerabilities and evaluate their severity.
 - Based on the analysis of open source vulnerabilities, we either fix the vulnerability or apply a security patch. The decision to address vulnerabilities takes into account the severity of the vulnerability, the importance of the system, and the availability of vulnerability fixes or security patches.
-- Remediation actions shall be completed within the following deadlines based on vulnerability severity: Critical (CVSS 9.0 or above) within 1 week, High (CVSS 7.0–8.9) within 4 weeks. (ISO/IEC 18974 §3.3.2.1)
+- Remediation actions shall be completed within the following deadlines based on vulnerability severity: Critical (CVSS 9.0 or above) within 1 week, High (CVSS 7.0–8.9) within 4 weeks. (ISO/IEC 18974 §4.3.2.1)
 - We monitor the announcement of new open source security vulnerabilities and respond quickly when vulnerabilities occur. Open source vulnerability monitoring can be performed through vulnerability databases such as CVE and websites of security specialist organizations.
-- All vulnerability response records shall be retained for a minimum of 3 years from the date of the last distribution of the relevant supplied software. (ISO/IEC 18974 §3.3.2.2)
+- All vulnerability response records shall be retained for a minimum of 3 years from the date of the last distribution of the relevant supplied software. (ISO/IEC 18974 §4.3.2.2)
 
 ## 7. Open Source Contribution
 
@@ -392,7 +392,7 @@ If you respond quickly and accurately to open source inquiries from outside, you
 
 ### (4) Record Retention
 
-- External inquiry response records shall be retained for a minimum of 3 years from the date the inquiry is closed. (ISO/IEC 18974 §3.2.1.2)
+- External inquiry response records shall be retained for a minimum of 3 years from the date the inquiry is closed. (ISO/IEC 18974 §4.2.1.2)
 
 ## 10. Declaration and Maintenance of Compliance with ISO Standards
 
