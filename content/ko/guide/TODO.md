@@ -121,7 +121,7 @@ draft: true
 - [x] AI-1: 글로벌 AI 규제 매트릭스 박스 — iso42001/1-context-leadership §4.1 안에 14개 규제·표준 매트릭스 신설 (EU AI Act §53·§50·§40·§25·§11+Annex IV / 한국 AI 기본법 / US Copyright Office AI 가이드 / US EO 14110 / NIST AI RMF 2.0 / OSAID 1.0 / ISO 42005·23894·5338·42003·42006) [2026-05-13]
 - [x] AI-2: Llama 의무 체크리스트 + OSAID "Open Weight" 분류 컬럼 — 7-ai-compliance 모델 표에 OSAID 컬럼 추가, Llama 의무 7개 체크리스트 박스 신설 [2026-05-13]
 - [ ] AI-3: SPDX 3.0 AI Profile 12개 필드 + CycloneDX 1.6 ML-BOM 명세
-- [ ] AI-4: AI 생성 코드 저작권 처리 절차 신설 (7-ai-compliance)
+- [x] AI-4: AI 생성 코드 저작권 처리 절차 신설 — 7-ai-compliance §5에 (5) AI 생성 코드의 저작권 귀속 처리 5개 하위 섹션(5-1 귀속 기준·5-2 공급자 indemnification·5-3 표기 의무·5-4 사내 정책 문서화·5-5 매트릭스 cross-link) [2026-05-13]
 - [ ] AI-5: 상용 AI API §8.8 평가 + IP indemnification + 모델 공급망 공격
 - [ ] AI-6: OpenSSF Model Signing/Sigstore/SLSA for AI 통합
 - [ ] AI-7: ISO 42005 기반 영향 평가 + SC 42 패밀리 매핑
