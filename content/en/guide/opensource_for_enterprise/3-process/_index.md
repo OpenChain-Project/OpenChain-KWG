@@ -282,7 +282,7 @@ The ISO/IEC 18974 standard requires documented procedures and records of actions
 
 {{% alert title="ISO/IEC 18974 - Security Assurance" color="warning" %}}
 
-3.1.5 - Standard Practice Implementation
+4.1.5 - Standard Practice Implementation
 
 The Program demonstrates a sound and robust handling procedures of Known Vulnerabilities and Secure Software Development by defining and implementing following procedures:
 
@@ -295,13 +295,13 @@ The Program demonstrates a sound and robust handling procedures of Known Vulnera
 * Method to verify that identified risks will have been addressed before release of Supplied Software;
 * Method to export information about identified risks to third parties as appropriate.
 
-* 3.1.5.1: A documented procedure exists for each of the methods identified above.
+* 4.1.5.1: A documented procedure exists for each of the methods identified above.
 
 
-3.3.2 - Security Assurance
+4.3.2 - Security Assurance
 
-* 3.3.2.1: A documented procedure for handling detection and resolution of Known Vulnerabilities for the Open Source Software components of the Supplied Software;
-* 3.3.2.2: For each Open Source Software component a record is maintained of the identified Known Vulnerabilities and action(s) taken (including even if no action was required).
+* 4.3.2.1: A documented procedure for handling detection and resolution of Known Vulnerabilities for the Open Source Software components of the Supplied Software;
+* 4.3.2.2: For each Open Source Software component a record is maintained of the identified Known Vulnerabilities and action(s) taken (including even if no action was required).
 
 {{% /alert %}}
 

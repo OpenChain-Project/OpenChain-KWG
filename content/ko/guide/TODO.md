@@ -110,7 +110,7 @@ draft: true
 
 ### Phase 1 — 긴급 사실 오류 (1-2시간)
 - [x] URG-1: "24개 입증자료" → "25개" 정정 (3개 파일·4개 위치) — Layer A PASS·Layer C(hugo·grep) PASS [2026-05-12]
-- [ ] URG-2: ISO 18974 `§3.x` → `§4.x` 번호 오기 정정 (4개 파일 11건)
+- [x] URG-2: ISO 18974 `§3.x` → `§4.x` 번호 오기 정정 (ko 11건 + en 13건 = 24건, 7개 파일) — Layer A CONDITIONAL PASS(en 동기화 누락 발견 후 처리)·Layer C PASS [2026-05-12]
 - [ ] URG-3: `(insert_link)` placeholder 정정 (3-process L98, 2-process-template L52)
 - [ ] URG-4: 0-openchain L68 18974 ISO URL 정정 (81039 → 86450 등)
 - [ ] URG-5: 도구 페이지 깨진 링크 정정 (iso5230 1-sbom L183, license-compliance L141·L143)
