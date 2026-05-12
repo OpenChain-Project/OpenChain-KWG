@@ -139,14 +139,29 @@ SBOM은 소프트웨어 릴리스 버전별로 관리하고, 과거 버전의 SB
 
 **고려사항**
 
-- **필수 포함 항목**: 컴포넌트명, 버전, 라이선스 식별자(SPDX ID), 출처(패키지
-  레지스트리 URL 또는 소스 저장소), 저작권 고지를 포함한다.
+- **NTIA Minimum Elements 7요소** (2021-07 발행, US EO 14028 기반): 미국 연방 조달과
+  EU CRA(2024-12 발효) 모두 SBOM 최소 요건으로 채택. ISO/IEC 5230 §3.3.1.2의
+  "이름·버전·라이선스·출처"보다 강한 요건이며, 글로벌 공급망 대응 시 필수.
+
+  | # | 요소 | 내용 |
+  |---|------|------|
+  | 1 | **Supplier Name** | 컴포넌트 공급자(저자·조직) 이름 |
+  | 2 | **Component Name** | 컴포넌트 이름 |
+  | 3 | **Version of the Component** | 컴포넌트 버전 |
+  | 4 | **Other Unique Identifiers** | PURL, CPE, SWID 등 고유 식별자 |
+  | 5 | **Dependency Relationship** | 컴포넌트 간 의존 관계 (직접/전이) |
+  | 6 | **Author of SBOM Data** | SBOM 작성자(도구·사람) 정보 |
+  | 7 | **Timestamp** | SBOM 생성·수정 시각 |
+
+- **권장 형식**: SPDX 2.3+ (또는 SPDX 3.0) 또는 CycloneDX 1.5+ (또는 1.6) — 두 형식
+  모두 NTIA 7요소를 표현 가능. 본 가이드는 [opensource_for_enterprise/2-policy](../../../opensource_for_enterprise/2-policy/)
+  §4.4와 정합하여 두 표준 형식을 권장한다.
 - **버전별 관리**: 소프트웨어 릴리스 버전별로 SBOM을 별도 관리하고 과거 버전도
   보관한다.
 - **관리 도구 활용**: SW360, Dependency-Track 등 오픈소스 관리 시스템을 활용하면
   SBOM의 생성·추적·배포를 체계적으로 관리할 수 있다.
 - **고객 제공**: 고객 또는 공급망 파트너가 SBOM을 요청하는 경우 즉시 제공할 수
-  있도록 접근 가능한 형태로 보관한다.
+  있도록 접근 가능한 형태로 보관한다(VEX 형식 함께 발행 권장 — [§4.3.2 보안 보증](../../../iso18974_guide/3-content-review/2-security-assurance/) 참조).
 
 **샘플**
 

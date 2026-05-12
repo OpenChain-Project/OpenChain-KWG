@@ -76,6 +76,13 @@ ISO/IEC 5230 §3.3.1.1의 SBOM 관리 절차를 기반으로 하되, **수명주
 
 **고려사항**
 
+- **NTIA Minimum Elements 7요소** 충족: SBOM은 NTIA(2021-07) 최소 요건과 EU CRA
+  요건을 모두 만족해야 한다. 7요소 상세는
+  [ISO/IEC 5230 §3.3.1 SBOM 가이드](../../../iso5230_guide/3-content-review/1-sbom/#33-오픈소스-컴포넌트-기록)
+  의 NTIA 7요소 표를 참고한다.
+- **모델 서명 · 빌드 provenance**: 컨테이너·AI 모델을 포함한 SBOM은 OpenSSF
+  Model Signing(Sigstore)으로 서명하고 SLSA L1 이상 provenance를 첨부한다
+  (구체 절차는 [ISO/IEC 42001 §6.3 OpenSSF Model Signing](../../../iso42001_guide/4-operation/3-supply-chain/#63-openssf-model-signing-도입-절차)).
 - **수명주기 단계별 SBOM 유지**: 개발·빌드·배포·배포 후 모니터링 각 단계에서
   SBOM이 최신 상태를 유지하도록 절차를 정의한다.
 - **아카이브 정책**: 배포된 모든 버전의 SBOM을 버전별로 아카이브하고 보관
@@ -84,6 +91,9 @@ ISO/IEC 5230 §3.3.1.1의 SBOM 관리 절차를 기반으로 하되, **수명주
   발행될 때마다 자동 대조가 이루어지도록 설정한다.
 - **갱신 트리거**: 컴포넌트 추가·업그레이드·제거, 라이선스 변경, 새로운 취약점
   발견 시 SBOM 갱신을 의무화한다.
+- **SBOM 적용 범위 확장**: 애플리케이션 의존성 외에도 **컨테이너 이미지**(Syft 등),
+  **빌드 환경**(빌더 이미지·CI 도구 버전), **AI 모델 가중치·데이터셋**(AI SBOM)도
+  관리 대상에 포함한다.
 
 **샘플**
 

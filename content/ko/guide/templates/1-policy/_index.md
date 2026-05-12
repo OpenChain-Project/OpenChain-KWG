@@ -96,6 +96,18 @@ This sample open source policy was written with reference to the following two m
 
 이 섹션에서는 오픈소스 소프트웨어 관리와 관련된 주요 역할과 책임을 정의합니다. 각 역할은 조직의 오픈소스 라이선스 컴플라이언스와 보안 보증을 보장하기 위해 필수적입니다.
 
+{{% alert title="OSPO · OSPM · OSRB 용어 정의" color="info" %}}
+오픈소스 거버넌스에서 자주 혼용되는 세 용어를 다음과 같이 구분합니다.
+
+| 용어 | 영문 | 의미 | 본 정책에서의 역할 |
+|------|------|------|---------------|
+| **OSPO** | Open Source Program Office | 오픈소스 프로그램 운영 **조직 단위** | 본 정책 §3.1 모든 역할의 상위 운영 조직 (선택) |
+| **OSPM** | Open Source Program Manager | 오픈소스 프로그램 **총괄 책임자** (1인 또는 팀 리더) | §3.1.1 의 역할 — 일상 운영 책임 |
+| **OSRB** | Open Source Review Board | 오픈소스 **의사결정 협의체** (가상 조직, 분기 또는 월간 운영) | §3.1.7 의 역할 — 정책·예외 승인 권한 |
+
+작은 조직에서는 OSPM이 OSPO 기능까지 겸할 수 있으며, OSRB는 OSPM·법무·보안·사업 부서 대표로 구성된 의사결정 회의체로 운영합니다.
+{{% /alert %}}
+
 ### 3.1 역할 설명
 
 1. **오픈소스 프로그램 매니저 (OSPM)**
@@ -278,13 +290,15 @@ This sample open source policy was written with reference to the following two m
 
 1. **취약점 탐지**:
     - SCA(Software Composition Analysis) 도구를 활용하여 SBOM에 포함된 각 오픈소스 컴포넌트의 알려진 취약점을 탐지합니다.
-    - NVD(국가 취약점 데이터베이스), CVE(Common Vulnerabilities and Exposures) 등과 같은 취약점 데이터베이스를 정기적으로 업데이트하여 최신 정보를 확인합니다.
+    - 복수의 취약점 데이터베이스를 병행 조회하여 누락을 최소화합니다: NVD(미국 NIST), OSV.dev(Google), GitHub Security Advisories(GHSA), KISA KNVD(Korea National Vulnerability Database, 한국인터넷진흥원).
 2. **취약점 심각도 평가**:
-    - CVSS(Common Vulnerability Scoring System) 점수를 활용하여 취약점의 심각도를 평가합니다.
+    - CVSS(Common Vulnerability Scoring System) v3.1 또는 v4.0 점수를 활용하여 취약점의 심각도를 평가합니다.
+    - EPSS(Exploit Prediction Scoring System)와 CISA KEV(Known Exploited Vulnerabilities) 등재 여부를 보조 지표로 활용합니다.
     - 취약점의 익스플로잇 가능성, 영향 범위, 그리고 시스템에 미치는 잠재적인 영향을 고려하여 대응 우선순위를 결정합니다.
 3. **대응 조치**:
     - 고위험 취약점에 대해서는 즉시 패치를 적용하거나 완화 조치를 수행합니다.
     - 고객에게 영향을 미칠 수 있는 경우, 고객에게 통지하고 해결 방안을 제시합니다.
+    - 공급망 파트너·고객에게 영향 여부를 통지할 때는 **VEX**(Vulnerability Exploitability eXchange) 표준 형식(CSAF 2.0 또는 CycloneDX VEX)을 사용합니다. 4가지 상태값 — `not_affected`(영향 없음·justification 필수) / `affected`(영향 있음) / `fixed`(패치 완료) / `under_investigation`(조사 중).
     - 취약점 심각도에 따라 다음 기한 내에 조치합니다: Critical(CVSS 9.0 이상) 1주 이내, High(CVSS 7.0~8.9) 4주 이내. (ISO/IEC 18974 §4.3.2.1)
 4. **대응 기록 유지**:
     - 모든 취약점과 대응 조치는 데이터베이스에 기록되며, 정기적으로 보고서를 생성합니다.
@@ -615,8 +629,13 @@ This sample open source policy was written with reference to the following two m
 
 1. **준수 선언**:
     - 회사는 이 정책을 통해 ISO/IEC 5230(오픈소스 라이선스 컴플라이언스)와 ISO/IEC 18974(오픈소스 보안 보증)의 모든 요구사항을 충족함을 선언합니다.
-    - 선언 일자와 유효 기간(18개월)을 명확히 기재합니다.
+    - 선언 일자를 명확히 기재합니다. **갱신 주기는 18개월**이며, "지난 18개월 동안 요구사항을 충족해 왔음"을 회고형으로 확인하는 §3.6.2 / §4.4.2 의미입니다(미래형 보장 선언이 아님).
     - 준수 선언은 Linux Foundation의 OpenChain 프로젝트의 Self Certification을 통해 이루어질 수 있습니다.
+    - **충족 입증자료 매핑** (인증 심사 시 명시적으로 제출):
+      - ISO/IEC 5230 §3.6.1.1 — 모든 요구사항을 충족하였음을 확인하는 문서
+      - ISO/IEC 5230 §3.6.2.1 — 지난 18개월 이내 요구사항 충족을 확인하는 문서
+      - ISO/IEC 18974 §4.4.1.1 — 모든 요구사항을 충족하였음을 확인하는 문서
+      - ISO/IEC 18974 §4.4.2.1 — 지난 18개월 이내 요구사항 충족을 확인하는 문서
 2. **증거 문서화**:
     - 오픈소스 프로그램 매니저(OSPM)는 각 요구사항에 대한 충족 증거를 문서화하고 유지합니다.
     - 증거 문서에는 정책 문서, 프로세스 설명, 교육 기록, 컴플라이언스 산출물, 보안 취약점 관리 기록 등이 포함됩니다.

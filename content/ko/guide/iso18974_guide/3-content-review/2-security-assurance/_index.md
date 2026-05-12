@@ -12,6 +12,10 @@ description: >
 [전체 구축 로드맵 보기](../../#단계별-구축-로드맵)
 {{% /alert %}}
 
+{{% alert title="★ 18974 전용 항목 — Documented Evidence 강도" color="warning" %}}
+§4.3.2.1·§4.3.2.2는 ISO 18974 전용(★) 항목으로 **Documented Evidence**(문서화된 증거)를 요구한다. 단순 "취약점 대응 절차 문서"가 아니라 **각 CVE에 대한 실제 수행 기록**(스캔 결과·CVSS 점수·조치 이력·VEX 발행·고객 통보 이력 등)을 보관해야 한다. 강도 차이의 자세한 설명은 [§4.1.5 표준 관행 — Documented Evidence 안내](../../1-program-foundation/5-standard-practice/#iso-18974-전용-항목의-강도--documented-evidence)를 참고한다.
+{{% /alert %}}
+
 ## 1. 조항 개요
 
 §4.3.2는 ISO/IEC 18974의 핵심 조항으로, ISO/IEC 5230에 없는 18974 전용 신규
@@ -111,14 +115,19 @@ flowchart TD
 1단계 — 취약점 탐지
 - CI/CD 파이프라인 빌드 시 SCA 도구(Dependency-Track, OSV-SCALIBR 등)가
   SBOM을 기반으로 취약점을 자동 스캔한다.
-- NVD, OSV, GitHub Advisory Database 등 복수의 취약점 DB를 참조한다.
+- NVD, OSV.dev, GitHub Security Advisories(GHSA), KISA KNVD(Korea National Vulnerability Database, 한국인터넷진흥원) 등
+  복수의 취약점 DB를 참조한다(어느 한 출처의 누락·지연을 보완).
 - 배포 후에도 신규 CVE 발행 시 아카이브된 SBOM과 자동 대조한다.
 
 2단계 — 위험·영향 점수 산정
-- 탐지된 CVE에 대해 CVSS v3.1 기준 기본 점수를 산정한다.
+- 탐지된 CVE에 대해 CVSS v3.1 또는 v4.0 기준 기본 점수를 산정한다.
+  (신규 CVE는 v4.0 점수가 함께 부여되는 경우가 많아지고 있다 — 두 버전 모두 부여된 경우 **더 높은 점수**를 기준으로 적용한다.)
 - 당사 제품의 실제 사용 맥락(네트워크 노출도, 권한 필요 여부 등)을 고려하여
   환경 점수(Environmental Score)를 조정한다.
-- 심각도 분류: Critical(9.0+) / High(7.0-8.9) / Medium(4.0-6.9) / Low(0.1-3.9)
+- **EPSS**(Exploit Prediction Scoring System) 점수와 **CISA KEV**(Known Exploited
+  Vulnerabilities) 등재 여부를 보조 지표로 함께 평가한다 — 동일 CVSS 점수라도 KEV에
+  등재된 CVE는 우선 조치 대상으로 분류한다.
+- 심각도 분류: Critical(9.0+) / High(7.0-8.9) / Medium(4.0-6.9) / Low(0.1-3.9) — v3.1·v4.0 동일
 
 3단계 — 조치 결정 및 문서화
 - 심각도와 고객 영향 범위에 따라 조치 방법을 결정한다:
@@ -132,11 +141,20 @@ flowchart TD
 - Critical/High 취약점이 고객 배포 제품에 영향을 미치는 경우:
   · 고객사 보안 담당자에게 취약점 정보와 대응 계획을 사전 통보한다.
   · 패치 배포 일정과 완화 조치 방법을 공유한다.
+- **VEX 발행 권장**: 공급망 파트너·고객에게 영향 여부를 표준 형식으로 통지한다.
+  CSAF 2.0(OASIS) 또는 CycloneDX VEX 형식을 사용하며, 다음 4가지 상태값으로 표현한다.
+  · `not_affected` — CVE는 존재하나 사용 맥락상 영향 없음(justification 필수)
+  · `affected` — 영향 있음(조치 진행 중)
+  · `fixed` — 패치 적용 완료
+  · `under_investigation` — 영향 조사 중
+  특히 `not_affected` 상태는 고객의 불필요한 패치 작업을 차단하는 가치가 크므로
+  justification(예: `vulnerable_code_not_in_execute_path`)을 함께 기재한다.
 
 5단계 — 조치 수행
 - 결정된 조치를 조치 기한 내에 수행한다.
 - 패치 적용 후 재스캔을 실행하여 취약점 제거를 확인한다.
 - 조치 완료 결과를 §4.3.2.2 기록에 업데이트한다.
+- 조치 완료 시 VEX 상태값을 `fixed`로 갱신하여 재발행한다.
 
 6단계 — 지속 모니터링
 - Dependency-Track 등 도구를 통해 배포된 소프트웨어의 취약점 현황을
@@ -166,19 +184,33 @@ SBOM의 각 오픈소스 컴포넌트에 대해 식별된 취약점과 취해진
 - **조치 이력 추적**: 동일 컴포넌트의 취약점 발생·조치·재스캔 이력을 시계열로
   관리한다.
 - **보관 기간**: 해당 소프트웨어의 지원 기간 + 최소 3년간 보관한다.
+- **3차원 우선순위 모델 (CVSS · EPSS · KEV)**: CVSS 단일 점수로 우선순위를 정하지 말고
+  EPSS(악용 예측)·KEV(실제 악용 등재) 3축으로 평가한다. 동일 CVSS 7.0이라도 KEV
+  등재 + EPSS 0.9 이상이면 Critical과 동일 우선순위로 처리한다.
+- **Reachability Analysis 권장**: 단순 의존성 존재만으로 영향 판정하지 말고 취약 함수가
+  실제 호출 경로에 있는지(reachability) 분석하면 false positive를 90% 이상 줄일 수 있다.
+  도구: Snyk Reachability·Endor Labs·SCA reachability 분석 모듈.
+- **회귀 테스트 의무화**: 패치 적용 후 재스캔뿐 아니라 동일 패턴의 새 의존성이 추가될
+  때 동일 CVE가 재유입되지 않도록 CI 단계에서 deny-list 점검을 자동화한다.
+- **VEX `not_affected` justification**: 영향 없음으로 판정한 경우 justification(예:
+  `vulnerable_code_not_in_execute_path`, `inline_mitigations_already_exist`)을 기록하여
+  감사 추적성을 확보한다.
 
 **샘플**
 
 아래는 컴포넌트별 취약점 및 조치 기록부 샘플이다.
 
 ```
-| 소프트웨어 | 버전 | 컴포넌트 | 컴포넌트 버전 | CVE ID | CVSS | 심각도 | 조치 내용 | 조치일 | 담당자 | 비고 |
-|-----------|------|---------|--------------|--------|------|--------|-----------|--------|--------|------|
-| MyProduct | v1.2.0 | openssl | 3.0.7 | CVE-2023-0286 | 7.4 | High | 3.0.8로 업그레이드 | 2023-02-10 | 김철수 | 재스캔 확인 완료 |
-| MyProduct | v1.2.0 | zlib | 1.2.11 | CVE-2022-37434 | 9.8 | Critical | 1.2.13으로 업그레이드 | 2022-10-15 | 김철수 | 고객 통보 완료 |
-| MyProduct | v1.2.0 | libpng | 1.6.37 | 없음 | - | - | 조치 불필요 | 2023-03-01 | 김철수 | 정기 스캔 결과 |
-| FirmwareX | v2.3.0 | busybox | 1.35.0 | CVE-2022-28391 | 9.8 | Critical | 위험 수용 (네트워크 격리 완화) | 2022-11-20 | 김철수 | 패치 미존재, PM 승인 완료 |
+| 소프트웨어 | 버전 | 컴포넌트 | 컴포넌트 버전 | CVE ID | CWE | CVSS v3.1/v4.0 | EPSS (2026-05-12 기준) | KEV | 심각도 | Reachable? | 조치 내용 | VEX 상태 | 조치일 | 담당자 | 비고 |
+|-----------|------|---------|--------------|--------|-----|---------------|------|-----|--------|----------|-----------|----------|--------|--------|------|
+| MyProduct | v1.2.0 | openssl | 3.0.7 | CVE-2023-0286 | CWE-843 | 7.4 / — | 0.42 | No | High | Yes | 3.0.8로 업그레이드 | fixed | 2023-02-10 | 김철수 | v4.0 미부여(2023-11 이전 발행) — 재스캔 확인 완료 |
+| MyProduct | v1.2.0 | xz-utils | 5.6.0 | CVE-2024-3094 | CWE-506 | 10.0 / 10.0 | 0.94 | Yes | Critical | Yes | 5.6.2로 업그레이드 | fixed | 2024-04-01 | 김철수 | KEV 등재(supply chain backdoor) 즉시 우선 조치, 고객 통보 완료 |
+| MyProduct | v1.2.0 | libpng | 1.6.37 | 없음 | - | - | - | - | - | - | 조치 불필요 | not_affected | 2023-03-01 | 김철수 | 정기 스캔 결과 |
+| MyProduct | v1.2.0 | log4j | 2.14.0 | CVE-2021-44228 | CWE-917 | 10.0 / — | 0.97 | Yes | Critical | **No** | 영향 없음 | not_affected (justification: vulnerable_code_not_in_execute_path) | 2021-12-12 | 김철수 | NVD 공식 CWE-917(Expression Language Injection); v4.0 미부여 — reachability 분석으로 호출 경로 외 확인 |
+| FirmwareX | v2.3.0 | busybox | 1.35.0 | CVE-2022-28391 | CWE-78 | 9.8 / — | 0.31 | No | Critical | Yes | 위험 수용 (네트워크 격리 완화) | affected | 2022-11-20 | 김철수 | v4.0 미부여 — 패치 미존재, PM 승인 완료 |
 ```
+
+> **샘플 표 데이터 주의**: EPSS 점수와 KEV 등재 여부는 매일 갱신되므로 실제 운영 시 **측정 시점**(예: `EPSS(YYYY-MM-DD 기준)`)을 컬럼 헤더에 명시한다. CVSS v4.0(2023-11 발행) 이전 등록된 CVE는 NVD에 v4.0 공식 점수가 없으므로 `—`로 표기한다.
 
 ## 5. 참고
 
