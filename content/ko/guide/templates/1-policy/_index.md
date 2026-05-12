@@ -186,7 +186,7 @@ This sample open source policy was written with reference to the following two m
 
 ### 3.4 담당자 현황
 
-각 역할의 담당 조직과 담당자는 [[부록 A: 담당자 현황]](./appendix/_index.md)에서 확인할 수 있습니다. 필요에 따라 명단은 업데이트됩니다.
+각 역할의 담당 조직과 담당자는 [부록 A: 담당자 현황](./appendix/_index.md)에서 확인할 수 있습니다. 필요에 따라 명단은 업데이트됩니다.
 
 ## 4. 오픈소스 라이선스 컴플라이언스
 
@@ -425,10 +425,13 @@ This sample open source policy was written with reference to the following two m
 1. **저작권 표기**:
     - 프로그램 참여자가 외부 오픈소스 프로젝트에 코드를 기여할 때, 회사의 저작권을 명시해야 합니다.
     - 파일 상단에 다음과 같이 저작권과 라이선스를 표기합니다:
-        
-        `textCopyright (c) [Year] [Company Name]
-        SPDX-License-Identifier: [SPDX_license_name]`
-        
+
+        ```text
+        Copyright (c) [Year] [Company Name]
+        SPDX-License-Identifier: [SPDX_license_name]
+        ```
+
+
 2. **회사 이메일 사용**:
     - 오픈소스 프로젝트에 기여할 때는 개인 이메일을 사용하지 말고, 회사 이메일을 사용해야 합니다.
     - 이를 통해 회사를 대표하여 커뮤니티와 소통한다는 책임감을 갖게 됩니다.

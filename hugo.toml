@@ -13,6 +13,10 @@ enableRobotsTXT = true
 # Will give values to .Lastmod etc.
 enableGitInfo = true
 
+# 가이드 내부 작업 파일(검토 결과·작업 추적용)은 사이트 빌드에서 제외
+# CRITIC-REPORT, STYLE-REPORT는 검토 결과 영속화 목적이며 사이트 노출 대상 아님
+ignoreFiles = ["/content/ko/guide/CRITIC-REPORT\\.md$", "/content/ko/guide/STYLE-REPORT\\.md$", "/content/ko/guide/TODO\\.md$", "/content/ko/guide/EVIDENCE-CHECK\\.md$"]
+
 # Comment out to enable taxonomies in Docsy
 # disableKinds = ["taxonomy", "taxonomyTerm"]
 
