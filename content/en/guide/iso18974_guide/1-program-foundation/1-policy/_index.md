@@ -67,7 +67,8 @@ The company systematically identifies and responds to security vulnerabilities
 in open source components included in the supplied software to minimize security risks.
 
 ### 5.2 Vulnerability Response Principles
-Remediation timeline criteria for known vulnerabilities (CVEs) are as follows:
+Remediation timeline criteria for known vulnerabilities (CVEs) are as follows (apply CVSS v3.1 or v4.0
+scores; when both are assigned, use the higher score):
 - Critical (CVSS 9.0–10.0): Patch or mitigation within 7 days
 - High (CVSS 7.0–8.9): Patch or mitigation within 30 days
 - Medium (CVSS 4.0–6.9): Establish patch plan within 90 days

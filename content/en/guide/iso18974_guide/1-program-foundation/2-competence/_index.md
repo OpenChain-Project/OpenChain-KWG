@@ -7,6 +7,10 @@ tags: ["ISO/IEC 18974", "competence"]
 description: >
 ---
 
+{{% alert title="★ 18974 Exclusive Items — Documented Evidence Strength" color="warning" %}}
+§4.1.2.3·§4.1.2.5·§4.1.2.6 are ISO 18974 exclusive (★) items requiring **Documented Evidence**. A simple procedure document is insufficient — you must retain actual execution records (participant list, review meeting minutes, internal best practice comparison results). For a detailed explanation of the strength difference, see [§4.1.5 Standard Practices — Documented Evidence Notice](../5-standard-practice/#evidence-strength-for-iso-18974-exclusive--items--documented-evidence).
+{{% /alert %}}
+
 ## 1. Clause Overview
 
 §4.1.2 has the same basic structure as ISO/IEC 5230 §3.1.2 (Competence), but requires 3 additional Verification Material items. While 5230 requires three items — a list of roles, a definition of competencies per role, and evidence of competency assessment — 18974 additionally requires a **list of participants and their role mappings (4.1.2.3)**, **evidence of periodic review and process changes (4.1.2.5)**, and **verification of alignment with internal best practices (4.1.2.6)**. These three additional items require demonstrating that the competence framework is not merely formal, but is actively kept up to date and aligned with industry standards.

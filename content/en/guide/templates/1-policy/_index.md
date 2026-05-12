@@ -70,6 +70,18 @@ The Open Source Program Manager continuously reviews, updates, and inspects the 
 ## 4. Roles, Responsibilities, and Competencies
 The following roles, responsibilities, and competencies required for each role are defined to ensure the effectiveness of the policy.
 
+{{% alert title="OSPO · OSPM · OSRB Definitions" color="info" %}}
+The following three terms — often used interchangeably in open source governance — are distinguished as follows.
+
+| Term | Full Name | Meaning | Role in This Policy |
+|------|-----------|---------|---------------------|
+| **OSPO** | Open Source Program Office | An **organizational unit** running the open source program | The overarching unit for all roles in §4 (optional) |
+| **OSPM** | Open Source Program Manager | The **lead** of the open source program (one person or team leader) | Role §4(2) — daily operational responsibility |
+| **OSRB** | Open Source Review Board | An open source **decision-making body** (virtual organization, quarterly or monthly) | Role §4(1) — policy/exception approval authority |
+
+In small organizations, the OSPM may also serve the OSPO function, and the OSRB may operate as a decision-making meeting body composed of OSPM, legal, security, and business unit representatives.
+{{% /alert %}}
+
 The responsible organization/person and the level of required competencies for each role are defined in [Appendix 1. Status of Responsible Persons].
 
 * The Open Source Program Manager regularly updates the list according to the company's business situation.

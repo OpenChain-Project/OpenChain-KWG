@@ -19,13 +19,19 @@ participants hold to the program's purpose.
 
 ## 2. What to Do
 
-- Verify that Program Participants understand the objectives of the open source program (license compliance,
-  Security Assurance, etc.).
-- Evaluate whether each participant is aware of how their role contributes to the overall program operation.
-- Verify that participants are aware of the legal and business impacts that may arise from failing to comply
-  with the program's requirements.
-- Conduct awareness assessments periodically and document and retain the results.
-- For participants with insufficient awareness, provide additional training and retain re-evaluation results.
+ISO/IEC 5230 §3.1.3 requires **four** awareness elements (aligned with the four original bullets).
+
+- **(1) Existence and Location of the Open Source Policy**: Verify that participants know the company's
+  open source policy document exists and where to find it (internal portal URL, etc.).
+- **(2) Program Objectives**: Verify that Program Participants understand the objectives of the open source
+  program (license compliance, Security Assurance, etc.).
+- **(3) Their Contribution**: Evaluate whether each participant is aware of how their role contributes to
+  the overall program operation.
+- **(4) Implications of Non-compliance**: Verify that participants are aware of the legal and business
+  impacts that may arise from failing to comply with the program's requirements.
+
+Conduct the above four awareness assessments periodically and document and retain the results. For
+participants with insufficient awareness, provide additional training and retain re-evaluation results.
 
 ## 3. Requirements and Verification Materials
 
@@ -39,10 +45,12 @@ participants hold to the program's purpose.
 
 **How to Comply**
 
-Program Participants must be evaluated on three key areas of awareness, and the results must be recorded.
-The three key areas are: (1) the program's objectives (open source license compliance and Security
-Assurance), (2) how one's role contributes to the program, and (3) the legal and business impacts of
-not following the program.
+Program Participants must be evaluated on **four** key areas of awareness, and the results must be recorded.
+The four key areas are: (1) **existence and location of the open source policy** (internal portal URL, etc.),
+(2) the program's objectives (open source license compliance and Security Assurance), (3) how one's role
+contributes to the program, and (4) the legal and business impacts of not following the program. These
+align precisely with the four English bullets in the ISO source text; omitting (1) (existence and location)
+risks a ⚠️ rating on §3.1.3.1.
 
 Evaluation methods can be combined in various ways such as online quizzes, offline surveys, training
 completion confirmation, and interviews. The important thing is that the evaluation results must remain
@@ -53,8 +61,9 @@ together.
 
 **Considerations**
 
-- **Evaluation scope**: Design evaluation questions that cover all three key areas of awareness
-  (objectives, contributions, implications).
+- **Evaluation scope**: Design evaluation questions that cover all **four** key areas of awareness
+  (**policy existence/location**, objectives, contributions, implications). Omitting any of the four
+  ISO source bullets risks a ⚠️ rating on §3.1.3.1.
 - **Evaluation cycle**: Conduct a regular evaluation at least once a year, and new participants should
   be evaluated immediately upon joining.
 - **Evidence format**: Retain in a format that can be submitted during audits, such as quiz results,
@@ -72,10 +81,13 @@ training completion and stored in the LMS or document system.
 ```
 | Name | Role | Evaluation Item | Evaluation Method | Result | Evaluation Date | Notes |
 |------|------|-----------------|-------------------|--------|-----------------|-------|
-| Gil-dong Hong | Open Source Program Manager | Understanding of program objectives | Online quiz | Completed (90 points) | 2026-01-15 | - |
-| Gil-dong Hong | Open Source Program Manager | Awareness of non-compliance implications | Online quiz | Completed (90 points) | 2026-01-15 | - |
-| Chul-su Kim | Developer | Understanding of program objectives | Online quiz | Completed (85 points) | 2026-01-20 | - |
-| Young-hee Lee | Security Staff | Awareness of contribution method | Interview | Completed | 2026-01-22 | Interview record retained |
+| Gil-dong Hong | Open Source Program Manager | (1) Policy existence/location | Online quiz | Completed (100 points) | 2026-01-15 | Internal portal URL response |
+| Gil-dong Hong | Open Source Program Manager | (2) Understanding of program objectives | Online quiz | Completed (90 points) | 2026-01-15 | - |
+| Gil-dong Hong | Open Source Program Manager | (3) Contribution method | Interview | Completed | 2026-01-15 | Interview record |
+| Gil-dong Hong | Open Source Program Manager | (4) Awareness of non-compliance implications | Online quiz | Completed (90 points) | 2026-01-15 | - |
+| Chul-su Kim | Developer | (1) Policy existence/location | Online quiz | Completed (90 points) | 2026-01-20 | - |
+| Chul-su Kim | Developer | (2) Understanding of program objectives | Online quiz | Completed (85 points) | 2026-01-20 | - |
+| Young-hee Lee | Security Staff | (3) Awareness of contribution method | Interview | Completed | 2026-01-22 | Interview record retained |
 ```
 
 The following is a sample policy acknowledgment form. Obtaining a signature after training completion

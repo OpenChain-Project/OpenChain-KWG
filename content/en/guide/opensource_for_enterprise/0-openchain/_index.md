@@ -95,6 +95,17 @@ The [OpenChain Project](https://www.openchainproject.org/) proposes three method
 <center><i> https://www.openchainproject.org/get-started/conformance </i></center>
 {{< /imgproc >}}
 
+The three certification methods differ in cost, duration, deliverables, and market trust as follows.
+
+| Comparison Item | (1) Self-certification | (2) Independent Evaluation | (3) Third-party Certification |
+|----------------|-----------------------|---------------------------|------------------------------|
+| **Cost** | Free | Per evaluator (quote) | Per certifier (quote) — typically highest |
+| **Duration** | 1-2 weeks (checklist → submission → review → listing) | 2-4 weeks (pre-assessment + consulting included) | 4-12 weeks (documents · interviews · remediation rounds) |
+| **Deliverable** | OpenChain Conforming Submission Listing | Evaluation report + consulting opinion (no certificate) | OpenChain accredited certificate + Listing |
+| **Renewal Cycle** | 18 months (self re-declaration) | Per evaluator contract | Per certifier contract (typically 1-3 years) |
+| **Market Trust** | Baseline trust (most common) | Recommended to proceed to self or third-party after consulting | Highest — favorable for global supply chain · regulated tenders |
+| **Recommended For** | First adopters · sufficient internal capacity | Need to fill gaps after self-assessment | Global supply chain · OEM mandatory requirements |
+
 Let's look at each method.
 
 ### (1) Self-certification
@@ -105,7 +116,7 @@ Self-certification is the most recommended method by the OpenChain project, with
 <center>< Source: https://certification.openchainproject.org/></center>
 {{< /imgproc >}}
 
-If a company has established its open source compliance system well enough to answer Yes to all the questions in the OpenChain self-certification, it can submit those results on the website (Conforming Submission). After a simple confirmation procedure by the [Linux Foundation](https://www.linuxfoundation.org/), the company can then declare ISO/IEC 5230 conformance.
+If a company has established its open source compliance system well enough to answer Yes to all the questions in the OpenChain self-certification, it can submit those results on the website (Conforming Submission). After a review by the [Linux Foundation](https://www.linuxfoundation.org/), the company can then declare ISO/IEC 5230 conformance. The typical processing flow is **(1) checklist completion → (2) Conforming Submission → (3) Linux Foundation Review (5-10 business days) → (4) Listing**, with the entire process usually taking 1-2 weeks.
 
 {{< imgproc sktannounce Fit "900x600" >}}
 <center><Example: SK Telecom conformance declaration - Source: https://www.openchainproject.org/featured/2021/09/08/sk-telecom></center>
@@ -143,7 +154,7 @@ In Korea, the [Conformance Group](https://openchain-project.github.io/OpenChain-
 
 If a company wants to demonstrate a more credible and transparent level of open source compliance and security assurance to buyers in the software supply chain, it can obtain a certificate from a third-party certification body and use it for promotional purposes. Additionally, some buyers who require a more robust level of trust in open source compliance and security assurance may mandate third-party certification from their suppliers.
 
-As of 2024, the officially recognized OpenChain third-party certification bodies are [ORCRO](https://orcro.co.uk/), [PWC](https://www.pwc.de/en/opensource), [TÜV SÜD](https://www.tuvsud.com/), [Synopsys](https://www.synopsys.com/), and [Bureau Veritas](https://group.bureauveritas.com/).
+As of May 2026, the OpenChain accredited third-party certification bodies include [ORCRO](https://orcro.co.uk/), [PWC](https://www.pwc.de/en/opensource), [TÜV SÜD](https://www.tuvsud.com/), [Black Duck](https://www.blackduck.com/) (spun off from Synopsys SIG in 2024), and [Bureau Veritas](https://group.bureauveritas.com/), among others. For the latest list, see the [OpenChain official partner page](https://www.openchainproject.org/partners).
 
 {{< imgproc 3rdpartycertifiers Fit "900x600" >}}
 <center>< Third-Party Certifiers, Source - https://www.openchainproject.org/partners ></center>

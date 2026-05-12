@@ -6,7 +6,7 @@ type: docs
 categories: ["guide"]
 tags: ["ISO/IEC 5230", "License Compliance", "OpenChain"]
 description: >
-  A clause-by-clause conformance guide explaining all 24 verification material items of ISO/IEC 5230.
+  A clause-by-clause conformance guide explaining all 25 verification material items of ISO/IEC 5230.
 ---
 
 This guide walks through each requirement clause of ISO/IEC 5230 (OpenChain License Compliance) one by one.
@@ -127,4 +127,18 @@ This provides the highest level of credibility and is suitable for meeting globa
 For companies preparing for certification for the first time, it is recommended to proceed in stages:
 **Self-Certification → Independent Assessment → Third-party Certification**.
 Self-certification alone can satisfy the compliance level required by many supply chain partners.
+{{% /alert %}}
+
+{{% alert title="Relationship with Other Standards" color="info" %}}
+
+ISO/IEC 5230 can be operated in conjunction with ISO/IEC 18974 (Security Assurance) and ISO/IEC 42001 (AI Management System).
+
+- **Adding ISO/IEC 18974**: Only ★ 9 additional items need to be reinforced for 18974 self-certification.
+  See [ISO/IEC 18974 Conformance Guide](../iso18974_guide/) for details.
+- **ISO/IEC 42001 Integration**: Organizations developing/operating AI systems benefit from integrating
+  with the AI Management System standard ISO/IEC 42001. Cross-cutting areas such as AI SBOM, AI licenses,
+  and external AI model procurement are covered in the ISO/IEC 42001 Guide (Korean only).
+- **Three Standards Comparison**: The Korean guide provides an ISO 5230 · 18974 · 42001 Standards Comparison
+  page covering relationships, SC 42 family mapping, and common foundations for joint operation.
+
 {{% /alert %}}

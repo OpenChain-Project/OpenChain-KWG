@@ -110,6 +110,8 @@ SK Telecom has released an open source notice automatic generation tool (`onot`:
 ![](./noticesample.png)
 <center><i>onot generated open source notice sample</i></center><br>
 
+For onot installation and usage, see the [onot guide](../../tools/10-onot/).
+
 FOSSLight also provides a feature to automatically generate open source notices based on the acquired SBOM.
 
 {{< imgproc fosslightnotice Fit "900x600" >}}

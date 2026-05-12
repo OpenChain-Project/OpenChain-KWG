@@ -21,7 +21,7 @@ The open source program manager should review the process at least once a year t
 The business department complies with the following matters at the software design stage.
 
 - Identify the foreseeable open source usage status and check the license when designing the software.
-- Check the obligations of each open source license. The obligations of each license can be checked in the Company's open source license guide: https://sktelecom.github.io/guide/use/obligation/
+- Check the obligations of each open source license. The obligations of each license can be checked in the Company's open source license guide: [Company internal open source license guide URL] (Public reference: SPDX License List · OpenChain License Compliance Reference)
 - Design the software considering the source code disclosure range of each open source license.
 
 The open source program manager creates and publishes a guide on the obligations, restrictions, and rights of major open source licenses so that the business departments of the entire company can refer to it. This guide should include the following use cases so that general open source license use cases can be managed.
@@ -52,12 +52,17 @@ The open source program manager reviews whether the open source license obligati
 
 The security manager reviews the known vulnerabilities detected and provides a response guide to the business department according to the pre-defined Risk classification criteria. Risk is classified by CVSS (Common Vulnerability Scoring System) Score, and Critical Risk is advised to establish a plan that can be dealt with within 1 week.
 
-| Risk | CVSS 2.0 | CVSS 3.0 | Recommended action schedule |
+| Risk | CVSS 2.0 | CVSS 3.1 / 4.0 | Recommended action schedule |
 |---|:---:|:---:|:---:|
 | Low | 0.0 - 3.9 | 0.0 - 3.9 | - |
 | Medium | 4.0 - 6.9 | 4.0 - 6.9 | - |
-| High | 7.0 - 10.0 | 7.0 - 8.9 | Within 4 weeks | 
+| High | 7.0 - 10.0 | 7.0 - 8.9 | Within 4 weeks |
 | Critical | - | 9.0 - 10.0 | Within 1 week |
+
+> **CVSS 4.0 dual-scoring recommended**: [CVSS 4.0](https://www.first.org/cvss/v4-0/) (issued 2023-11)
+> complements CVSS 3.1. The score ranges are identical, so the table above applies to both versions.
+> When a new CVE is assigned both v3.1 and v4.0 scores, it is recommended to determine the action
+> priority based on the **higher score**.
 
 
 ### (3) Resolving Issues
@@ -159,12 +164,15 @@ The IT manager operates a system to monitor new security vulnerabilities. This s
 
 The security manager provides a response guide to the business department according to the predefined risk classification criteria. The risk is classified by the CVSS (Common Vulnerability Scoring System) score, and a plan that can be implemented within one week is recommended for Critical Risk.
 
-| Risk | CVSS 2.0 | CVSS 3.0 | Recommended Action Schedule |
+| Risk | CVSS 2.0 | CVSS 3.1 / 4.0 | Recommended Action Schedule |
 |---|:---:|:---:|:---:|
 | Low | 0.0 - 3.9 | 0.0 - 3.9 | - |
 | Medium | 4.0 - 6.9 | 4.0 - 6.9 | - |
-| High | 7.0 - 10.0 | 7.0 - 8.9 | Within 4 weeks | 
+| High | 7.0 - 10.0 | 7.0 - 8.9 | Within 4 weeks |
 | Critical | - | 9.0 - 10.0 | Within 1 week |
+
+> **CVSS 4.0 dual-scoring recommended**: When both v3.1 and v4.0 scores are assigned, use the
+> **higher score** as the basis for action priority.
 
 If a product/service that has already been released has a new security vulnerability, the business department establishes an action plan according to the response guide provided by the security manager.
 

@@ -53,10 +53,19 @@ From a security assurance perspective, the key to SBOM management is that the SB
 
 **Considerations**
 
+- **NTIA Minimum Elements (7 fields) compliance**: The SBOM must satisfy both the NTIA (2021-07)
+  minimum requirements and EU CRA requirements. See the NTIA 7-element table in the
+  [ISO/IEC 5230 §3.3.1 SBOM Guide](../../../iso5230_guide/3-content-review/1-sbom/#33-open-source-component-records-sbom)
+  for details.
+- **Model signing · build provenance**: SBOMs that include containers and AI models should be signed with
+  OpenSSF Model Signing (Sigstore) and accompanied by SLSA L1+ provenance (concrete procedures: see
+  the Korean ISO/IEC 42001 §6.3 OpenSSF Model Signing guide).
 - **Maintain SBOM at each lifecycle stage**: Define procedures to keep the SBOM current at each stage — development, build, deployment, and post-deployment monitoring.
 - **Archive policy**: Archive the SBOMs of all deployed versions by version and specify the retention period (minimum: support period of the relevant software + 3 years).
 - **Integration with vulnerability tools**: Import SBOMs into tools such as Dependency-Track so that automatic cross-referencing occurs every time new CVEs are published.
 - **Update triggers**: Mandate SBOM updates upon the following events: component addition, version upgrade, component removal, license change, and replacement due to newly discovered vulnerabilities.
+- **Extended SBOM scope**: In addition to application dependencies, also include **container images** (Syft, etc.),
+  **build environments** (builder images, CI tool versions), and **AI model weights · datasets** (AI SBOM).
 
 **Sample**
 

@@ -119,14 +119,31 @@ system (SW360, Dependency-Track, etc.).
 
 **Considerations**
 
-- **Required items**: Include component name, version, license identifier (SPDX ID), source (package
-  registry URL or source repository), and copyright notice.
+- **NTIA Minimum Elements (7 fields)** (issued 2021-07, based on US EO 14028): Adopted as the SBOM
+  minimum requirement by both US federal procurement and the EU CRA (effective 2024-12). Stronger than
+  the "name·version·license·source" requirements of ISO/IEC 5230 §3.3.1.2, and essential for global
+  supply chain compliance.
+
+  | # | Element | Description |
+  |---|---------|-------------|
+  | 1 | **Supplier Name** | Component supplier (author/organization) name |
+  | 2 | **Component Name** | Component name |
+  | 3 | **Version of the Component** | Component version |
+  | 4 | **Other Unique Identifiers** | Unique identifiers such as PURL, CPE, SWID |
+  | 5 | **Dependency Relationship** | Inter-component dependencies (direct/transitive) |
+  | 6 | **Author of SBOM Data** | SBOM creator (tool/person) information |
+  | 7 | **Timestamp** | SBOM creation/modification timestamp |
+
+- **Recommended formats**: SPDX 2.3+ (or SPDX 3.0) or CycloneDX 1.5+ (or 1.6) — both can express all
+  7 NTIA elements. This guide recommends both standard formats, aligned with
+  [opensource_for_enterprise/2-policy](../../../opensource_for_enterprise/2-policy/) §4.4.
 - **Version-by-version management**: Manage SBOMs separately for each software release version and
   retain past versions.
 - **Utilize management tools**: Using open source management systems such as SW360 and Dependency-Track
   allows for systematic management of SBOM generation, tracking, and distribution.
 - **Customer provision**: Retain in an accessible format so that the SBOM can be provided immediately
-  when requested by customers or supply chain partners.
+  when requested by customers or supply chain partners (issuing VEX alongside is recommended —
+  see [§4.3.2 Security Assurance](../../../iso18974_guide/3-content-review/2-security-assurance/)).
 
 **Sample**
 
