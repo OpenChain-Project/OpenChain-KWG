@@ -119,13 +119,13 @@ draft: true
 
 ### Phase 2 — iso42001 + 7-ai-compliance 통합 보강 (1-2주)
 - [x] AI-1: 글로벌 AI 규제 매트릭스 박스 — iso42001/1-context-leadership §4.1 안에 14개 규제·표준 매트릭스 신설 (EU AI Act §53·§50·§40·§25·§11+Annex IV / 한국 AI 기본법 / US Copyright Office AI 가이드 / US EO 14110 / NIST AI RMF 2.0 / OSAID 1.0 / ISO 42005·23894·5338·42003·42006) [2026-05-13]
-- [ ] AI-2: Llama 의무 체크리스트 + OSAID "Open Weight" 분류 컬럼
+- [x] AI-2: Llama 의무 체크리스트 + OSAID "Open Weight" 분류 컬럼 — 7-ai-compliance 모델 표에 OSAID 컬럼 추가, Llama 의무 7개 체크리스트 박스 신설 [2026-05-13]
 - [ ] AI-3: SPDX 3.0 AI Profile 12개 필드 + CycloneDX 1.6 ML-BOM 명세
 - [ ] AI-4: AI 생성 코드 저작권 처리 절차 신설 (7-ai-compliance)
 - [ ] AI-5: 상용 AI API §8.8 평가 + IP indemnification + 모델 공급망 공격
 - [ ] AI-6: OpenSSF Model Signing/Sigstore/SLSA for AI 통합
 - [ ] AI-7: ISO 42005 기반 영향 평가 + SC 42 패밀리 매핑
-- [ ] AI-8: 2026 신규 모델 표 갱신 (Qwen·DeepSeek·Phi-4·Llama 3.3/4·Gemma 3)
+- [x] AI-8: 2026 신규 모델 표 갱신 (Qwen 2.5/3·DeepSeek-V3/R1·Phi-4·Llama 3.3/4·Gemma 3·Falcon 7B/40B/180B 분리) — AI-2와 함께 7-ai-compliance에서 일괄 처리 [2026-05-13]
 
 ### Phase 3 — 가로축 일괄 보강 (3-5일)
 - [ ] HZ-1: CVSS 4.0 병기 ("v3.1 또는 v4.0")
