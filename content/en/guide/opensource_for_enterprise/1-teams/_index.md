@@ -53,6 +53,15 @@ Companies need to define the roles needed for the Open Source Program Office and
 
 In the case of small companies, it is possible for the Open Source Program Manager to perform all roles alone. Depending on the size of the company, there may also be a need for an IT officer to operate open source tools, and the role of a legal officer may be required to provide professional legal advice.
 
+{{% alert title="Considerations When One Person Holds Multiple Roles" color="warning" %}}
+ISO standards permit one person to hold multiple roles, but certification auditors will additionally check the following.
+
+- **Time allocation**: Specify the percentage of work time allocated to each role (weekly basis) in the §3.2.2.2 staffing adequacy verification material.
+- **Expertise verification**: Certifications, training records, and practical experience demonstrating that the same person possesses the competencies required for each role (especially §4.2.2.3 vulnerability resolution expertise).
+- **External supplementation**: Supplement expertise not personally held with external advisory contracts (legal, security, tool operation) and retain the contracts.
+- **Conflict with separation of duties**: In §3.2.2.4 responsibility allocation procedure, operate partial delegation (e.g., external OSRB advisors) to prevent decision/approval/execution authorities from being concentrated in the same person.
+{{% /alert %}}
+
 Generally, the following roles are needed to build a company's open source management system.
 
 - Legal officer
@@ -67,14 +76,15 @@ Generally, the following roles are needed to build a company's open source manag
 
 For this, companies should document the roles and responsibilities of the Open Source Program Office as follows.
 
-| No | Role | Responsibility |
-|---|:---|:---|
-| 1 | Open Source Program Manager | Responsible for the company's open source program. |
-| 2 | Legal Officer | Interprets open source licenses and obligations. Provides advice to mitigate legal risks that may arise from using open source. | 
-| 3 | IT Officer | Operates and automates open source analysis tools to ensure that open source analysis is smoothly performed for all software to be distributed. |
-| 4 | Security Officer | Operates open source vulnerability analysis tools to ensure that vulnerability analysis is performed for all software to be distributed, and takes measures to ensure that discovered vulnerabilities are remedied according to standards. |
-| 5 | Development Culture Officer | Supports company developers to actively use open source and participate in internal and external communities to acquire advanced development culture.  | 
-| 6 | Business Department | The software development/distribution organization complies with open source policies and processes for proper open source use.  | 
+| No | Role | Responsibility | ISO Mapping |
+|---|:---|:---|:---|
+| 1 | Open Source Program Manager | Responsible for the company's open source program. | §3.1.2.1 · §4.1.2.1 |
+| 2 | Legal Officer (in-house legal team or external attorney) | Interprets open source licenses and obligations. Provides advice to mitigate legal risks. **If no in-house legal team exists, can be substituted by external attorney/law firm advisory contract** (allowed by §3.2.2.3). | §3.2.2.3 |
+| 3 | IT Officer | Operates and automates open source analysis tools to ensure that open source analysis is smoothly performed for all software to be distributed. | §3.1.2.1 |
+| 4 | Security Officer (incl. PSIRT) | Operates open source vulnerability analysis tools and possesses **vulnerability resolution expertise** (PSIRT operation · CVE analysis · external security advisory access · CVD handling). Mere tool operation is insufficient — **vulnerability resolution capability** must be included to satisfy §4.2.2.3. | §4.2.2.3 |
+| 5 | Development Culture Officer | Supports company developers to actively use open source and participate in internal and external communities to acquire advanced development culture. | §3.1.3.1 |
+| 6 | Business Department (1 champion per team) | The software development/distribution organization complies with open source policies and processes for proper open source use. **Per-team 1-champion model** recommended — "everyone" notation does not satisfy §3.2.2.1 "name" requirement. | §3.2.2.1 |
+| 7 | **Internal Best Practices Verification Officer** ★ | **Periodically verifies that internal processes align with external best practices** (OpenChain · NIST SSDF · OWASP, etc.). Quarterly or semi-annual comparison reports are retained as §4.1.2.6 verification material. | **§4.1.2.6** ★ |
 
 ## 2. Definition of Required Competencies
 

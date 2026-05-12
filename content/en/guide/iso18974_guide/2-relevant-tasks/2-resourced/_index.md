@@ -7,6 +7,10 @@ tags: ["ISO/IEC 18974", "resources"]
 description: >
 ---
 
+{{% alert title="★ 18974 Exclusive Items — Documented Evidence Strength" color="warning" %}}
+§4.2.2.3 is an ISO 18974 exclusive (★) item requiring **Documented Evidence**. The method for accessing vulnerability resolution resources is not merely a procedure document — you must retain actual resource utilization records (security advisory contracts, account issuance records, access logs). For a detailed explanation of the strength difference, see [§4.1.5 Standard Practices — Documented Evidence Notice](../../1-program-foundation/5-standard-practice/#evidence-strength-for-iso-18974-exclusive--items--documented-evidence).
+{{% /alert %}}
+
 ## 1. Clause Overview
 
 §4.2.2 corresponds to ISO/IEC 5230 §3.2.2 (Effectively Resourced) but has two key differences. First, while 5230 requires 5 Verification Materials, 18974 requires 4. The §3.2.2.5 item from 5230 (procedure for reviewing and correcting non-compliance cases) is absorbed into §4.1.5 Standard Practice Implementation in 18974. Second, §3.2.2.3 (method for accessing legal expertise) is replaced in §4.2.2.3 by **vulnerability resolution expertise**. Rather than legal expertise for license matters, the organization must secure technical and security expertise capable of actually resolving known vulnerabilities and document how that expertise is accessed.

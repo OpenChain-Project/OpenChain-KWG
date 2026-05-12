@@ -110,6 +110,25 @@ A procedure for internally handling vulnerability reports received from external
      for a minimum of 3 years.
 ```
 
+{{% alert title="Regulatory Vulnerability Reporting Deadlines — Apply Separately from ISO Requirements" color="warning" %}}
+
+ISO/IEC 18974 §4.2.1.2 requires the organization to **set its own** processing deadlines, but
+applicable regulations impose mandatory deadlines separately. **Specify ISO procedures and
+regulatory deadlines distinctly in the procedure** to pass both certification audits and
+regulatory compliance reviews.
+
+| Regulation | Applicable Scope | Reporting Deadline | Reporting Authority |
+|------------|------------------|-------------------|---------------------|
+| **EU CRA** (Cyber Resilience Act, effective 2024-12, applicable 2027-12) | Digital products (incl. software) placed on the EU market | **Within 24 hours** (early warning) → **Within 72 hours** (detailed) → **Within 14 days** (final report) — for actively exploited vulnerabilities | ENISA + member state CSIRT |
+| **EU NIS 2** (Directive 2022/2555, in force 2024-10) | Essential/important sectors (energy, healthcare, finance, digital infrastructure, etc.) | **Within 24 hours** (early warning) → **Within 72 hours** (notification) → **Within 1 month** (final report) | Member state competent authority |
+| **US EO 14028** (Improving the Nation's Cybersecurity, 2021-05) | Software suppliers to US federal government | SBOM submission, vulnerability information sharing (M-22-18 memo) | CISA |
+| **Korea Information and Communications Network Act §48-3** | Information and communications service providers | **Immediately** upon awareness of an incident | MSIT · KISA |
+| **Korea Personal Information Protection Act §34** | Personal information controllers | **Within 72 hours** of awareness of personal information breach | Personal Information Protection Commission · KISA |
+
+**Application recommendation**: Attach an "Applicable Regulatory Reporting Obligations Table" as an appendix to the §4.2.1.2 procedure, and add a check item that automatically branches by regulatory applicability when a vulnerability is received.
+
+{{% /alert %}}
+
 ## 5. References
 
 - Corresponding ISO/IEC 5230 clause: [§3.2.1 External Inquiry Response](../../iso5230_guide/2-relevant-tasks/1-access/)

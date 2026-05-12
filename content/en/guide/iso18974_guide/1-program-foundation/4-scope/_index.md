@@ -7,6 +7,10 @@ tags: ["ISO/IEC 18974", "program scope"]
 description: >
 ---
 
+{{% alert title="★ 18974 Exclusive Items — Documented Evidence Strength" color="warning" %}}
+§4.1.4.2·§4.1.4.3 are ISO 18974 exclusive (★) items requiring **Documented Evidence**. Metrics must include actual measurement data; continuous improvement must retain review/audit meeting minutes. For a detailed explanation of the strength difference, see [§4.1.5 Standard Practices — Documented Evidence Notice](../5-standard-practice/#evidence-strength-for-iso-18974-exclusive--items--documented-evidence).
+{{% /alert %}}
+
 ## 1. Clause Overview
 
 §4.1.4 is the clause from ISO/IEC 5230 §3.1.4 (Program Scope) with 2 additional Verification Materials. While 5230 only requires a written statement that clearly defines the program's scope, 18974 additionally requires a **set of performance metrics the program seeks to improve upon (4.1.4.2)** and **documented evidence from each review, update, or audit demonstrating continuous improvement (4.1.4.3)**. These two items are intended to demonstrate that the security assurance program is not static compliance, but a system with measurable goals that continuously improves.

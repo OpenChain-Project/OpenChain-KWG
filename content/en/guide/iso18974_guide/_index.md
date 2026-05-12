@@ -143,3 +143,26 @@ A certification body approved by OpenChain conducts an audit and issues an offic
 {{% alert title="Phased Approach Recommended" color="success" %}}
 Organizations that have already obtained ISO/IEC 5230 can efficiently prepare for 18974 certification by leveraging their existing infrastructure (policy, competence, SBOM) and adding the security assurance-specific items (§4.1.5, §4.3.2).
 {{% /alert %}}
+
+{{% alert title="Notation Rule — [ISO Requirement] vs [Guide Recommendation]" color="info" %}}
+
+Content in each clause page is divided into two categories.
+
+- **[ISO Requirement]** — Explicitly required by ISO/IEC 18974:2023 (marked by `shall` or by Verification Material number). Omission is grounds for certification failure.
+- **[Guide Recommendation]** — Not in the ISO source text but recommended by OpenChain Korea Work Group based on practical experience, industry best practices, and other standards (NIST SSDF, ENISA, CSAF, VEX, EPSS, KEV, etc.). Adoption is at the organization's discretion; non-adoption is not grounds for certification failure.
+
+Activities and artifacts presented alongside Verification Material numbers (e.g., `4.3.2.1`) in the clause text are **[ISO Requirement]**. Expressions such as "is recommended" or this guide's additions for automation, EPSS, KEV, VEX 4 status values, etc., are **[Guide Recommendation]**.
+
+In particular, ISO 18974 requires **"Documented Evidence"** (a stronger evidence level than plain `document`) for its 9 exclusive items (`★`) — see [§4.1.5 Standard Practices](./1-program-foundation/5-standard-practice/) for details.
+
+{{% /alert %}}
+
+{{% alert title="Relationship with Other Standards" color="info" %}}
+
+ISO/IEC 18974 can be operated in conjunction with ISO/IEC 5230 (License Compliance) and ISO/IEC 42001 (AI Management System).
+
+- **ISO/IEC 5230 first recommended**: The 16 general items in 18974 are derived from corresponding items in ISO 5230. It is recommended to first build the foundation with the [ISO/IEC 5230 Conformance Guide](../iso5230_guide/).
+- **ISO/IEC 42001 integration**: AI system security assurance is directly linked to ISO 42001 §6.1.2 (AI risk assessment). For an integrated AI compliance perspective, see [Enterprise Guide — AI Compliance](../opensource_for_enterprise/7-ai-compliance/).
+- **Three Standards Comparison**: The Korean guide provides a comparison page on relationships and common foundations for joint operation.
+
+{{% /alert %}}

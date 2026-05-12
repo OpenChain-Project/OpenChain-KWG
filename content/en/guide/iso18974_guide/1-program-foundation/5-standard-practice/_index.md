@@ -7,6 +7,21 @@ tags: ["ISO/IEC 18974", "standard practice", "vulnerability response"]
 description: >
 ---
 
+{{% alert title="Evidence Strength for ISO 18974 Exclusive (★) Items — Documented Evidence" color="warning" %}}
+
+Unlike ISO/IEC 5230, ISO/IEC 18974 requires **"Documented Evidence"** for its 9 exclusive items (★: §4.1.2.3·4.1.2.5·4.1.2.6·4.1.4.2·4.1.4.3·**§4.1.5.1**·4.2.2.3·4.3.2.1·4.3.2.2).
+This is a stronger evidence level than the `documented procedure` or `document` required for general items.
+
+| Strength | ISO Expression | Compliance Level | Certification Audit |
+|----------|---------------|------------------|---------------------|
+| Weak | `document` | Artifact existence | Format review |
+| Medium | `documented procedure` | Documented procedure + intent to follow | Procedure body review |
+| **Strong** | **`Documented Evidence`** | **Procedure + records of actual execution (evidence pack)** | **Verification of actual execution evidence: logs, tickets, issue tracking results, etc.** |
+
+§4.1.5.1 requires not merely "procedure documents" for each of the 8 methods, but also **records of activities actually performed** (scan logs, tickets, approval history, VEX issuance records, etc.) to pass certification.
+
+{{% /alert %}}
+
 ## 1. Clause Overview
 
 §4.1.5 is a new clause exclusive to 18974 that does not exist in ISO/IEC 5230. It requires establishing documented procedures for each of the **8 standard handling methods** for open source vulnerabilities. This clause goes beyond a simple declaration of "responding" to vulnerabilities, requiring the formalization of the entire vulnerability lifecycle into procedures — from threat identification, detection, follow-up, customer notification, post-deployment monitoring, continuous security testing, risk verification, to information export. This clause, together with §4.3.2 Security Assurance, forms the core of ISO/IEC 18974.
@@ -82,8 +97,10 @@ Define a method to detect the existence of CVEs (Common Vulnerabilities and Expo
 [Vulnerability Detection Procedure Overview]
 - Integrate SCA (Software Composition Analysis) tools into the CI/CD pipeline.
 - Automatically run SBOM-based vulnerability scans on every build.
-- Reference multiple vulnerability databases such as OSV (Open Source Vulnerabilities),
-  NVD (National Vulnerability Database), and GitHub Advisory Database.
+- Reference multiple vulnerability databases in parallel: OSV.dev (Google), NVD (US NIST),
+  GitHub Security Advisories (GHSA), and KISA KVE (Korea Internet & Security Agency).
+- In addition to CVSS scores, also record EPSS (Exploit Prediction Scoring System) scores and
+  CISA KEV (Known Exploited Vulnerabilities) catalog entries for detected vulnerabilities.
 - Automatically notify the security team of detected vulnerabilities along with their severity.
 ```
 
@@ -93,7 +110,8 @@ Define a method to take follow-up actions on identified vulnerabilities, such as
 
 ```
 [Follow-up Procedure Overview]
-- Determine remediation priority and timelines based on CVSS score:
+- Determine remediation priority and timelines based on CVSS score (v3.1 or v4.0; when both versions are
+  assigned, use the higher score):
   Critical (9.0+): within 7 days / High (7.0-8.9): within 30 days
   Medium (4.0-6.9): within 90 days / Low (0.1-3.9): at next release
 - If no patch is available, implement mitigation measures (network isolation, WAF rule additions, etc.)
@@ -164,7 +182,15 @@ Define a method to export identified risk information to third parties (supply c
 [Risk Information Export Procedure Overview]
 - When a new vulnerability is independently discovered, report it to the upstream project
   or CERT following CVD procedures.
-- Use VEX format when sharing vulnerability impact information with supply chain partners.
+- Use VEX format (CSAF 2.0 or CycloneDX VEX) when sharing vulnerability impact information with
+  supply chain partners. VEX expresses impact status using four status values:
+  · `not_affected`     — CVE exists in SBOM component but contextually no impact (justification required)
+  · `affected`         — Impact confirmed (remediation in progress)
+  · `fixed`            — Patch applied
+  · `under_investigation` — Investigating impact
+  In particular, `not_affected` is a key signal that prevents unnecessary patching by customers and
+  supply chain partners, so include a justification (e.g., `vulnerable_code_not_in_execute_path`,
+  `inline_mitigations_already_exist`).
 - Before sharing with third parties, conduct a legal review to ensure no trade secrets
   or undisclosed information are included.
 - Record and retain a log of information exports (recipient, date, content summary).

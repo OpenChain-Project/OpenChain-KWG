@@ -7,6 +7,10 @@ tags: ["ISO/IEC 18974", "Security Assurance", "vulnerability", "CVE"]
 description: >
 ---
 
+{{% alert title="★ 18974 Exclusive Items — Documented Evidence Strength" color="warning" %}}
+§4.3.2.1·§4.3.2.2 are ISO 18974 exclusive (★) items requiring **Documented Evidence**. Not merely a "vulnerability response procedure document," but **actual execution records for each CVE** (scan results, CVSS scores, remediation history, VEX issuance, customer notification history) must be retained. For a detailed explanation of the strength difference, see [§4.1.5 Standard Practices — Documented Evidence Notice](../../1-program-foundation/5-standard-practice/#evidence-strength-for-iso-18974-exclusive--items--documented-evidence).
+{{% /alert %}}
+
 ## 1. Clause Overview
 
 §4.3.2 is the core clause of ISO/IEC 18974 and is a new clause exclusive to 18974 that does not exist in ISO/IEC 5230. It requires establishing a procedure covering the entire process — **vulnerability detection → risk assessment → remediation decision → customer consent (where applicable) → remediation → post-deployment newly disclosed vulnerability response → continuous monitoring** — for each open source component in the SBOM, and maintaining implementation records. If §4.1.5 requires the existence of vulnerability handling methods, §4.3.2 requires that those methods have actually been applied to each component with records retained.
@@ -95,15 +99,20 @@ The following is a sample describing each step of the flowchart in procedure doc
 Step 1 — Vulnerability Detection
 - At CI/CD pipeline build, SCA tools (Dependency-Track, OSV-SCALIBR, etc.)
   automatically scan for vulnerabilities based on the SBOM.
-- Reference multiple vulnerability DBs such as NVD, OSV, and GitHub Advisory Database.
+- Reference multiple vulnerability DBs in parallel: NVD, OSV.dev, GitHub Security Advisories (GHSA),
+  and KISA KVE (Korea Internet & Security Agency) — to compensate for omissions/delays in any single source.
 - Even after deployment, automatically cross-reference against archived SBOMs
   when new CVEs are published.
 
 Step 2 — Risk/Impact Score Assessment
-- Calculate the CVSS v3.1 base score for each detected CVE.
+- Calculate the CVSS v3.1 or v4.0 base score for each detected CVE.
+  (When both versions are assigned, use the higher score as the basis for action.)
 - Adjust the Environmental Score by considering the actual usage context of the
   company's product (network exposure, privilege requirements, etc.).
-- Severity classification: Critical (9.0+) / High (7.0-8.9) / Medium (4.0-6.9) / Low (0.1-3.9)
+- **Use EPSS** (Exploit Prediction Scoring System) scores and **CISA KEV** (Known Exploited
+  Vulnerabilities) catalog entries as supplementary indicators — even at the same CVSS score,
+  CVEs listed in KEV are classified as priority remediation targets.
+- Severity classification: Critical (9.0+) / High (7.0-8.9) / Medium (4.0-6.9) / Low (0.1-3.9) — same for v3.1·v4.0
 
 Step 3 — Remediation Decision and Documentation
 - Determine the remediation method based on severity and customer impact scope:
@@ -118,11 +127,20 @@ Step 4 — Customer Consent (where applicable)
   · Proactively notify the customer's security contact of vulnerability information
     and the response plan.
   · Share the patch deployment schedule and mitigation methods.
+- **VEX issuance recommended**: Notify supply chain partners and customers of impact status using a
+  standard format. Use CSAF 2.0 (OASIS) or CycloneDX VEX, with four status values:
+  · `not_affected` — CVE exists but no impact in usage context (justification required)
+  · `affected` — Impact confirmed (remediation in progress)
+  · `fixed` — Patch applied
+  · `under_investigation` — Investigating impact
+  In particular, `not_affected` has high value in preventing unnecessary customer patching, so include
+  a justification (e.g., `vulnerable_code_not_in_execute_path`).
 
 Step 5 — Remediation
 - Perform the determined remediation within the remediation deadline.
 - Run a rescan after patch application to confirm the vulnerability is eliminated.
 - Update the remediation completion result in the §4.3.2.2 record.
+- After remediation, update the VEX status to `fixed` and reissue.
 
 Step 6 — Continuous Monitoring
 - Continuously monitor the vulnerability status of deployed software using tools
@@ -146,18 +164,29 @@ Records can be managed using various tools such as Dependency-Track, a Jira secu
 - **Record "no detection" as well**: Record the scan date and result even for components where no vulnerability was detected.
 - **Track remediation history**: Manage the history of vulnerability occurrence, remediation, and rescan for the same component in chronological order.
 - **Retention period**: Retain for the support period of the relevant software plus a minimum of 3 years.
+- **Three-axis priority model (CVSS · EPSS · KEV)**: Do not prioritize by CVSS alone — evaluate using
+  EPSS (exploit prediction) and KEV (actually exploited) on three axes. Even at the same CVSS 7.0,
+  if KEV-listed and EPSS ≥ 0.9, treat at the same priority as Critical.
+- **Reachability Analysis recommended**: Do not judge impact by mere dependency presence — analyze whether
+  the vulnerable function is actually in the call path (reachability) to reduce false positives by 90%+.
+  Tools: Snyk Reachability, Endor Labs, SCA reachability analysis modules.
+- **Mandatory regression testing**: In addition to rescan after patch application, automate deny-list
+  checks at the CI stage so that the same CVE does not re-enter when a new dependency with the same pattern is added.
+- **VEX `not_affected` justification**: When determined as unaffected, record a justification (e.g.,
+  `vulnerable_code_not_in_execute_path`, `inline_mitigations_already_exist`) to ensure audit traceability.
 
 **Sample**
 
 The following is a sample per-component vulnerability and action record.
 
 ```
-| Software | Version | Component | Component Version | CVE ID | CVSS | Severity | Action | Action Date | Assignee | Notes |
-|----------|---------|-----------|-------------------|--------|------|----------|--------|-------------|----------|-------|
-| MyProduct | v1.2.0 | openssl | 3.0.7 | CVE-2023-0286 | 7.4 | High | Upgraded to 3.0.8 | 2023-02-10 | Chul-su Kim | Rescan confirmed |
-| MyProduct | v1.2.0 | zlib | 1.2.11 | CVE-2022-37434 | 9.8 | Critical | Upgraded to 1.2.13 | 2022-10-15 | Chul-su Kim | Customer notified |
-| MyProduct | v1.2.0 | libpng | 1.6.37 | None | - | - | No action required | 2023-03-01 | Chul-su Kim | Periodic scan result |
-| FirmwareX | v2.3.0 | busybox | 1.35.0 | CVE-2022-28391 | 9.8 | Critical | Risk acceptance (network isolation mitigation) | 2022-11-20 | Chul-su Kim | No patch available, PM approval obtained |
+| Software | Version | Component | Component Version | CVE ID | CWE | CVSS v3.1/v4.0 | EPSS | KEV | Severity | Reachable? | Action | VEX Status | Action Date | Assignee | Notes |
+|----------|---------|-----------|-------------------|--------|-----|---------------|------|-----|----------|-----------|--------|------------|-------------|----------|-------|
+| MyProduct | v1.2.0 | openssl | 3.0.7 | CVE-2023-0286 | CWE-843 | 7.4 / 7.5 | 0.42 | No | High | Yes | Upgraded to 3.0.8 | fixed | 2023-02-10 | Chul-su Kim | Rescan confirmed |
+| MyProduct | v1.2.0 | zlib | 1.2.11 | CVE-2022-37434 | CWE-787 | 9.8 / 9.8 | 0.78 | Yes | Critical | Yes | Upgraded to 1.2.13 | fixed | 2022-10-15 | Chul-su Kim | KEV-listed, prioritized; customer notified |
+| MyProduct | v1.2.0 | libpng | 1.6.37 | None | - | - | - | - | - | - | No action required | not_affected | 2023-03-01 | Chul-su Kim | Periodic scan result |
+| MyProduct | v1.2.0 | log4j | 2.14.0 | CVE-2021-44228 | CWE-502 | 10.0 / 10.0 | 0.97 | Yes | Critical | **No** | No impact | not_affected (justification: vulnerable_code_not_in_execute_path) | 2021-12-12 | Chul-su Kim | Reachability analysis — outside call path |
+| FirmwareX | v2.3.0 | busybox | 1.35.0 | CVE-2022-28391 | CWE-78 | 9.8 / - | 0.31 | No | Critical | Yes | Risk acceptance (network isolation mitigation) | affected | 2022-11-20 | Chul-su Kim | No patch available, PM approval obtained |
 ```
 
 ## 5. References
