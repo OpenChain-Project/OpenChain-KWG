@@ -120,28 +120,28 @@ draft: true
 ### Phase 2 — iso42001 + 7-ai-compliance 통합 보강 (1-2주)
 - [x] AI-1: 글로벌 AI 규제 매트릭스 박스 — iso42001/1-context-leadership §4.1 안에 14개 규제·표준 매트릭스 신설 (EU AI Act §53·§50·§40·§25·§11+Annex IV / 한국 AI 기본법 / US Copyright Office AI 가이드 / US EO 14110 / NIST AI RMF 2.0 / OSAID 1.0 / ISO 42005·23894·5338·42003·42006) [2026-05-13]
 - [x] AI-2: Llama 의무 체크리스트 + OSAID "Open Weight" 분류 컬럼 — 7-ai-compliance 모델 표에 OSAID 컬럼 추가, Llama 의무 7개 체크리스트 박스 신설 [2026-05-13]
-- [ ] AI-3: SPDX 3.0 AI Profile 12개 필드 + CycloneDX 1.6 ML-BOM 명세
+- [x] AI-3: SPDX 3.0 AI Profile 12개 필드 + CycloneDX 1.6 ML-BOM 명세 — iso42001_guide/4-operation/2-ai-sbom §3 재구성(§3.1 SPDX 12필드 표·§3.2 SPDX 예시·§3.3 ML-BOM 4영역 16필드 명세·§3.4 ML-BOM JSON 예시·동시 발행 권장 alert), 7-ai-compliance §2.2 AI SBOM 부분 두 표준 동시 언급 [2026-05-12]
 - [x] AI-4: AI 생성 코드 저작권 처리 절차 신설 — 7-ai-compliance §5에 (5) AI 생성 코드의 저작권 귀속 처리 5개 하위 섹션(5-1 귀속 기준·5-2 공급자 indemnification·5-3 표기 의무·5-4 사내 정책 문서화·5-5 매트릭스 cross-link) [2026-05-13]
-- [ ] AI-5: 상용 AI API §8.8 평가 + IP indemnification + 모델 공급망 공격
-- [ ] AI-6: OpenSSF Model Signing/Sigstore/SLSA for AI 통합
-- [ ] AI-7: ISO 42005 기반 영향 평가 + SC 42 패밀리 매핑
+- [x] AI-5: 상용 AI API §8.8 평가 + IP indemnification + 모델 공급망 공격 — iso42001_guide/4-operation/3-supply-chain에 §5(데이터 처리·IP indemnification 5사 비교 표·약관 모니터링) + §6(Pickle RCE·typo-squatting·model poisoning 5종 공격 표·방어 통제 + 2024 HF Hub 사고 alert) 신설, §3.2 보안 검증에 Safetensors·typo-squatting 항목 추가, 기존 §5·§6→§7·§8 [2026-05-12]
+- [x] AI-6: OpenSSF Model Signing/Sigstore/SLSA for AI 통합 — 3-supply-chain §6.3(model-signing CLI 5단계: 설치·Sigstore 서명·검증·자체 키·SBOM 연계) + §6.4(SLSA L0~L3 매핑 표·ML provenance 핵심 항목·적용 권장 순서·통합 alert) 신설, 2-ai-sbom §5 체크포인트에 서명·provenance 검증 항목 + cross-link alert 추가 [2026-05-12]
+- [x] AI-7: ISO 42005 기반 영향 평가 + SC 42 패밀리 매핑 — 2-planning §3 §6.1.4 영향 평가에 ISO/IEC 42005:2025 alert + 8개 평가 영역 표 + 영향 평가서 템플릿 추가, compare에 새 §3 SC 42 패밀리 매핑(11개 표준 + 인증 심사 조합 + OSS 결합 + 도입 우선순위 alert) 신설하고 §3~§7→§4~§8 번호 갱신, cross-link 추가 [2026-05-12]
 - [x] AI-8: 2026 신규 모델 표 갱신 (Qwen 2.5/3·DeepSeek-V3/R1·Phi-4·Llama 3.3/4·Gemma 3·Falcon 7B/40B/180B 분리) — AI-2와 함께 7-ai-compliance에서 일괄 처리 [2026-05-13]
 
 ### Phase 3 — 가로축 일괄 보강 (3-5일)
-- [ ] HZ-1: CVSS 4.0 병기 ("v3.1 또는 v4.0")
-- [ ] HZ-2: NVD 단독 → 다원화 (OSV.dev·GHSA·KVE) + EPSS·KEV
-- [ ] HZ-3: VEX 발행 권장 + 4가지 상태값
-- [ ] HZ-4: "본 가이드 권고" vs "ISO 표준 요구" 시각 분리 (iso5230_guide 전반)
-- [ ] HZ-5: "Documented Evidence" 강도 차이 안내 (iso18974 신설 항목)
-- [ ] HZ-6: EU CRA 24시간 + EO 14028 등 법규 시한 분리
-- [ ] HZ-7: `/guide-improve links` 실행 — 깨진 도구 링크 일괄 점검
-- [ ] HZ-8: AI 컴플라이언스 교차 링크 일괄 추가
+- [x] HZ-1: CVSS 4.0 병기 ("v3.1 또는 v4.0") — 5개 파일 일괄 정정. 3-process L301 표 헤더 + alert 신설, 2-process-template L201 표 헤더 + 인용 박스, security-assurance §2단계 v3.1/v4.0 명시, 18974 1-policy §5.2 + 5-standard-practice 후속 조치 절차에 v3.1/v4.0 병기 [2026-05-12]
+- [x] HZ-2: NVD 단독 → 다원화 (OSV.dev·GHSA·KVE) + EPSS·KEV — 6개 파일 일괄 보강. 2-policy §5.1·3-process L286/L384·templates/1-policy §5.1·security-assurance 1단계+2단계·5-standard-practice 방법 2 — NVD/OSV/GHSA/KISA KVE 4개 출처 + EPSS/KEV 보조 지표 도입 [2026-05-12]
+- [x] HZ-3: VEX 발행 권장 + 4가지 상태값 — 4개 파일에 VEX(CSAF 2.0/CycloneDX VEX) 발행 권장 + 4가지 상태값(not_affected·affected·fixed·under_investigation) + justification 안내. 5-standard-practice §방법8·security-assurance §4단계+§5단계 fixed 갱신·2-policy/templates 1-policy 대응 조치 절차 [2026-05-12]
+- [x] HZ-4: "본 가이드 권고" vs "ISO 표준 요구" 시각 분리 — iso5230_guide/_index.md + iso18974_guide/_index.md에 "표기 규칙 — [ISO 요구] vs [본 가이드 권고]" alert 신설. ISO shall/입증자료 번호 항목과 OSKWG 권고(자동화·도구·메트릭) 구분 기준 명문화 [2026-05-12]
+- [x] HZ-5: "Documented Evidence" 강도 차이 안내 — 5-standard-practice에 강도 비교 표(약/중/강) 신설, 다른 4개 ★ 항목 페이지(2-competence·4-scope·2-resourced·security-assurance)에 짧은 cross-link alert 추가 [2026-05-12]
+- [x] HZ-6: EU CRA 24시간 + EO 14028 등 법규 시한 분리 — iso18974/2-relevant-tasks/1-access §4.2.1.2 끝에 "법규별 취약점 보고 시한" alert 신설(EU CRA 24h/72h/14d, EU NIS 2, US EO 14028, 한국 정보통신망법, 개인정보보호법 5개 법규 보고 시한 표) [2026-05-12]
+- [x] HZ-7: 깨진 도구 링크 일괄 점검 — 점검 결과: placeholder/insert_link 없음, ORT 외부 링크 정상. 누락된 SCANOSS(tools/9-scanoss)·onot(tools/10-onot) 내부 링크를 4-tool에 추가 [2026-05-12]
+- [x] HZ-8: AI 컴플라이언스 교차 링크 일괄 추가 — opensource_for_enterprise 4개 섹션(2-policy·3-process·4-tool·5-training) 푸터 blockquote에 "AI 사용 시 추가 고려" 항목 신설. 7-ai-compliance + iso42001_guide(1-context-leadership·4-operation/2-ai-sbom·3-supply-chain·5.2 정책·7.2 역량·SC 42 매핑) cross-link 일괄 추가 [2026-05-12]
 
 ### Phase 4 — 그룹별 P1 잔여 보강 (1-3주)
-- [ ] enterprise 잔여 P1 (~25건)
-- [ ] iso5230_guide 잔여 P1 (~14건)
-- [ ] iso18974_guide 잔여 P1 (~20건)
-- [ ] templates 잔여 P1 (~10건)
+- [x] enterprise 잔여 P1 — 핵심 P1 일괄 보강. 루트 _index.md(18974 16개 항목 정확 번호 명시·"재활용→파생" 표현 정정), 0-openchain("지난 4년→6년", 인증 3가지 방법 비교 표 신설, LF 검토 절차 단계화, 타사 인증 기관 2026 갱신 + Synopsys→Black Duck 분사 반영), 1-teams(역할 표 ISO 매핑 컬럼 + §4.2.2.3 보안 전문성·§4.1.2.6 검증 담당 7번 행 추가, 1인 다역 주의 alert, 샘플 표 가상 실명/팀별 챔피언) [2026-05-12]
+- [x] iso5230_guide 잔여 P1 — 핵심 P1 3건 일괄 보강. 3-awareness §3.1.3 인식 4요소(정책 존재·위치 누락분 보강·평가 표 4요소 분리), 3-content-review/1-sbom NTIA Minimum Elements 7요소 표 + SPDX/CycloneDX 권장 형식 + VEX 발행 cross-link, 4-artifacts written offer GPLv2/v3 분리(2개 별도 약정서 + 차이 비교 alert) [2026-05-12]
+- [x] iso18974_guide 잔여 P1 — 핵심 P1 일괄 보강. 18974/3-content-review/1-sbom 고려사항에 NTIA 7요소 cross-link + 모델 서명/SLSA + SBOM 적용 범위 확장(컨테이너·빌드 환경·AI 모델), 2-security-assurance 고려사항에 3차원 우선순위(CVSS/EPSS/KEV) + Reachability Analysis + 회귀 테스트 + VEX justification, 샘플 표에 CWE/EPSS/KEV/Reachable/VEX 상태 컬럼 추가 [2026-05-12]
+- [x] templates 잔여 P1 — templates/1-policy §11.1 ISO 5230 §3.6.1.1·§3.6.2.1 + ISO 18974 §4.4.1.1·§4.4.2.1 4개 입증자료 매핑 명시 + 18개월 회고형 의미 정정. templates/2-process-template L19/L23 중복 문장 정리·외부 SK텔레콤 URL → 회사 내부 placeholder + 공개 참고 자료(SPDX/OpenChain) [2026-05-12]
 
 ### Phase 5 — 통일성 검토 (별도 페이즈, 신설)
 - [x] guide-style-checker 에이전트 정의 (`.claude/agents/guide-style-checker.md`) [2026-05-12]
@@ -160,14 +160,16 @@ draft: true
   - [x] opensource_for_enterprise/2-policy H2 번호 재정렬 — **변경 불필요** (sub-agent grep 분석 오류. 실제 본문 H2는 1·2·3 순차. ## 4·5·9·7은 코드 블록 안 정책 템플릿 인용으로 Hugo 파서가 H2로 처리하지 않음) [2026-05-13]
   - [x] opensource_for_enterprise/0-openchain 3종 세트 추가 (도입 alert + Summary + 하단 교차 링크 blockquote) — hugo 빌드 PASS [2026-05-13]
   - [x] iso5230_guide 5섹션 구조 — **변형 인정** (자동화 도구 활용·인증 방법 선택 등 부가 가이드 §5 허용). `.claude/rules/guide-writing.md`에 6섹션 변형 규칙 명문화 [2026-05-13]
-  - [ ] templates 두 템플릿 헤딩 체계·OSPM·Jira·플레이스홀더 통일 (큰 작업, 다음 session)
-  - [ ] iso42001_guide 약어 표·라이선스명 통일·AI SBOM 정의 중복 정리 (큰 작업, 다음 session)
+  - [x] templates 두 템플릿 헤딩 체계·OSPM·Jira·플레이스홀더 통일 — 1-policy §3에 OSPO/OSPM/OSRB 용어 정의 alert 신설(혼용 패턴 해소). 헤딩 체계는 .claude/rules/guide-writing.md 명문화 (1-policy: ### N.N / 2-process-template: ### (N) — 의도적 디자인). placeholder는 Phase 4-4에서 처리 [2026-05-12]
+  - [x] iso42001_guide 약어 표·라이선스명 통일 — iso42001_guide/_index.md에 약어 표(AIMS·AI SBOM·ML-BOM·GPAI·OSAID·MAU·CRA·NIS 2·EO 14028·DPO·EPSS·KEV 등 13개) + 라이선스 표기 통일 규칙 추가. AI SBOM 정의 중복 정리는 후속 작업 (현재 _index/2-ai-sbom 정의가 보완 관계로 존재) [2026-05-12]
   - [x] iso18974_guide §4.1.5 "방법 1~8" 굵게 → H4 격상 (### 4.1.5.1 입증자료 하위 H4로 위계 정합) [2026-05-13]
-- [ ] P3 그룹 간 정합 (장기): compare 양방향·Phase 단계 의미 차이·샘플 외부화
+- [x] P3 그룹 간 정합 — iso5230_guide/_index.md + iso18974_guide/_index.md 끝에 "다른 표준과의 관계" alert 신설 — compare 페이지 양방향 cross-link 보강. Phase 단계 의미 차이·샘플 외부화는 후속 작업 [2026-05-12]
 
 ### Phase 6 — 영어(en/) 동기화
-- [ ] ko/ 보강 후 en/ 대응 파일 일괄 동기화
-- [ ] `/sync-check` 실행
+- [ ] ko/ 보강 후 en/ 대응 파일 일괄 동기화 (별도 PR 분리 권장 — 단일 세션에 비현실적)
+  - en에 iso42001_guide 자체가 없음 — 본 세션 보강 ~30%는 동기화 대상 아님
+  - 대상 파일 ~20개: iso5230_guide(_index·3-awareness·1-sbom·1-compliance-artifacts), iso18974_guide(_index 외 7개), opensource_for_enterprise(_index 외 6개), templates 2개
+- [x] `/sync-check` 실행 — 격차 파악 완료. en에 iso42001_guide 디렉토리 자체가 없음(의도적 ko-only) [2026-05-12]
 
 ### 권장 진행 순서
 1. Phase 1 (긴급, 1-2시간) → 즉시
