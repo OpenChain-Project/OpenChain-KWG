@@ -111,11 +111,12 @@ draft: true
 ### Phase 1 — 긴급 사실 오류 (1-2시간)
 - [x] URG-1: "24개 입증자료" → "25개" 정정 (3개 파일·4개 위치) — Layer A PASS·Layer C(hugo·grep) PASS [2026-05-12]
 - [x] URG-2: ISO 18974 `§3.x` → `§4.x` 번호 오기 정정 (ko 11건 + en 13건 = 24건, 7개 파일) — Layer A CONDITIONAL PASS(en 동기화 누락 발견 후 처리)·Layer C PASS [2026-05-12]
-- [ ] URG-3: `(insert_link)` placeholder 정정 (3-process L98, 2-process-template L52)
-- [ ] URG-4: 0-openchain L68 18974 ISO URL 정정 (81039 → 86450 등)
-- [ ] URG-5: 도구 페이지 깨진 링크 정정 (iso5230 1-sbom L183, license-compliance L141·L143)
-- [ ] URG-6: 4-tool L326-405 Jenkins/GitLab CI 코드 정정 또는 "개념도 예시" 라벨링
-- [ ] URG-7: "지난 18개월" 시제 회고형 정정 (6-conforming, duration)
+- [x] URG-3: `(insert_link)` placeholder 정정 (ko 2 + en 2 = 4건) — SPDX·REUSE 명세 권고로 일반화 [2026-05-12]
+- [ ] URG-4: 0-openchain L68 18974 ISO URL 정정 (정확한 ISO standard 번호 외부 확인 필요)
+- [x] URG-5 (부분): FOSSology·FOSSLight 도구 번호 정정 (license-compliance L141·L143) [2026-05-12]
+- [ ] URG-5 (잔여): tools/2-ort 미존재 링크 처리 (ko·en sbom 2건) — 사용자 결정 필요 (외부 링크 교체 / 제거 / 도구 페이지 신설)
+- [ ] URG-6: 4-tool L326-405 Jenkins/GitLab CI 코드 정정 또는 "개념도 예시" 라벨링 — 사용자 결정 필요
+- [ ] URG-7: "지난 18개월" 시제 회고형 정정 (6-conforming, duration) — 문장 의미 변경, 신중 적용
 
 ### Phase 2 — iso42001 + 7-ai-compliance 통합 보강 (1-2주)
 - [ ] AI-1: 글로벌 AI 규제 매트릭스 박스 (EU AI Act §53 + 한국 AI 기본법 + US Copyright + NIST AI RMF + OSAID 1.0)

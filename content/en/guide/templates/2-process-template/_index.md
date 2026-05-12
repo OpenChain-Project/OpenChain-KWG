@@ -31,7 +31,7 @@ The open source program manager creates and publishes a guide on the obligations
 - Integration with other open sources that trigger additional license obligations
 - Inclusion of modified open source
 
-The business department marks copyright and licenses in the source code according to the company's rules. The company's rules for marking copyright and licenses in the source code can be checked on the following page. (insert_link)
+The business department marks copyright and licenses in the source code according to the company's rules. The marking rules refer to the company's internal guide, and the [SPDX-License-Identifier](https://spdx.dev/) or [REUSE-3.0](https://reuse.software/) specification is generally recommended.
 
 When the business department reviews the introduction of new open source, it first identifies the license. Check the license obligations, restrictions, and rights according to the company's open source license guide. If it is a license not explained in the company's open source license guide, ask the open source program manager about the possibility of introduction and precautions. Create a Jira Ticket for inquiries.
 
