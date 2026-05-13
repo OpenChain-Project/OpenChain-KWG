@@ -30,4 +30,5 @@
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;이 가이드는 **유형 1(오픈소스 AI 모델 직접 사용)**과 **유형 2(오픈소스 기반 AI 서비스)**를 중심으로 다룬다.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;유형 1·2가 오픈소스 라이선스 직접 적용 영역으로 §3~§4의 핵심 대상이며,
+유형 3(상용 AI API)도 ISO/IEC 42001 §8.8이 동일하게 요구하므로 §5에서 별도로 다룬다.&lt;/p&gt;</description></item></channel></rss>

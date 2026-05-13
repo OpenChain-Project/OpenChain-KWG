@@ -12,13 +12,8 @@
 &lt;p&gt;이 조항은 &lt;strong&gt;Phase 2 — 역량 및 교육&lt;/strong&gt; 단계에서 구축합니다. ISO/IEC 5230 대비 참여자 목록(4.1.2.3), 주기적 검토 증거(4.1.2.5), 내부 모범 사례 일치 검증(4.1.2.6) 3개 항목이 추가됩니다.
 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
-&lt;p&gt;§4.1.2는 ISO/IEC 5230 §3.1.2(역량)와 기본 구조는 동일하지만, 입증자료 항목이
-3건 더 많다. 5230이 역할 목록·역량 정의·역량 평가 증거 3가지를 요구하는 반면,
-18974는 여기에 &lt;strong&gt;참여자 목록 및 역할 매핑(4.1.2.3)&lt;/strong&gt;, &lt;strong&gt;주기적 검토 및 프로세스
-변경 증거(4.1.2.5)&lt;/strong&gt;, &lt;strong&gt;내부 모범 사례와의 일치 검증(4.1.2.6)&lt;/strong&gt; 을 추가로
-요구한다. 이 세 가지 추가 항목은 역량 체계가 형식에 그치지 않고 실제로 최신
-상태를 유지하며 업계 표준과 정합성을 갖추고 있음을 입증하도록 요구한다.&lt;/p&gt;</description></item><item><title>3. 지원</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/3-support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/3-support/</guid><description>&lt;h2 id="1-개요"&gt;1. 개요&lt;/h2&gt;
+&lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;★ 18974 전용 항목 — Documented Evidence 강도&lt;/div&gt;
+&lt;p&gt;§4.1.2.3·§4.1.2.5·§4.1.2.6은 ISO 18974 전용(★) 항목으로 &lt;strong&gt;Documented Evidence&lt;/strong&gt;(문서화된 증거)를 요구한다. 단순 절차 문서로는 부족하며, 실제 수행 기록(참여자 목록·검토 회의록·내부 모범 사례 비교 결과)을 함께 보관해야 한다. 강도 차이의 자세한 설명은 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/5-standard-practice/#iso-18974-%ec%a0%84%ec%9a%a9-%ed%95%ad%eb%aa%a9%ec%9d%98-%ea%b0%95%eb%8f%84--documented-evidence"&gt;§4.1.5 표준 관행 — Documented Evidence 안내&lt;/a&gt;를 참고한다.&lt;/p&gt;</description></item><item><title>3. 지원</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/3-support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/3-support/</guid><description>&lt;h2 id="1-개요"&gt;1. 개요&lt;/h2&gt;
 &lt;p&gt;ISO/IEC 42001 §7은 AI 관리 시스템을 운영하는 데 필요한 &lt;strong&gt;역량, 인식, 커뮤니케이션,
 문서화&lt;/strong&gt;를 다룬다. 오픈소스 담당자 관점에서는 **§7.2(역량)**과 **§7.5(문서화된 정보)**가
 핵심 교차점이다.&lt;/p&gt;

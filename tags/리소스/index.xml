@@ -13,6 +13,9 @@
 &lt;p&gt;이 조항은 &lt;strong&gt;Phase 1 — 기반 수립&lt;/strong&gt; 단계에서 구축합니다.
 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
+&lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;★ 18974 전용 항목 — Documented Evidence 강도&lt;/div&gt;
+&lt;p&gt;§4.2.2.3은 ISO 18974 전용(★) 항목으로 &lt;strong&gt;Documented Evidence&lt;/strong&gt;(문서화된 증거)를 요구한다. 취약점 해결 자원 접근 방법은 단순 절차 문서가 아니라 실제 자원 활용 이력(보안 자문 계약·계정 발급 기록·접근 로그 등)을 함께 보관해야 한다. 강도 차이의 자세한 설명은 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/5-standard-practice/#iso-18974-%ec%a0%84%ec%9a%a9-%ed%95%ad%eb%aa%a9%ec%9d%98-%ea%b0%95%eb%8f%84--documented-evidence"&gt;§4.1.5 표준 관행 — Documented Evidence 안내&lt;/a&gt;를 참고한다.&lt;/p&gt;
+&lt;/div&gt;
 &lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
 &lt;p&gt;§4.2.2는 ISO/IEC 5230 §3.2.2(효과적 리소스)에 대응하지만 두 가지 차이가 있다.
 첫째, 5230이 5개 입증자료를 요구하는 반면 18974는 4개를 요구한다. 5230의

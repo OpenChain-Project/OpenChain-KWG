@@ -67,7 +67,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;| 1 | 라이선스 비준수 | [모델명 · 라이선스] | 중 | 상 | 높음 | 법무 검토 |
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;| 2 | OSS 취약점 | [프레임워크명 · 버전] | 중 | 상 | 높음 | SCA 스캔 |
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;| 3 | 데이터셋 라이선스 | [데이터셋명 · 라이선스] | 저 | 중 | 중간 | 라이선스 재확인 |
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;ISO/IEC 18974와의 연계&lt;/div&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="alert alert-success" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;ISO/IEC 18974와의 연계&lt;/div&gt;
 &lt;p&gt;AI 시스템에 사용된 오픈소스 취약점 리스크는 ISO/IEC 18974의 §4.3.2(보안 보증) 요구사항과
 직접 연결된다. 18974의 취약점 탐지·평가 프로세스를 AI 시스템에도 적용하면 별도의
 리스크 평가 체계를 구축하지 않아도 된다.&lt;/p&gt;</description></item></channel></rss>

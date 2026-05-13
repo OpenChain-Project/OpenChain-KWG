@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI 운영 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/ai-%EC%9A%B4%EC%98%81/</link><description>Recent content in AI 운영 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/ai-%EC%9A%B4%EC%98%81/index.xml" rel="self" type="application/rss+xml"/><item><title>4. 운영</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/4-operation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/4-operation/</guid><description>&lt;h2 id="개요"&gt;개요&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI 운영 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/ai-%EC%9A%B4%EC%98%81/</link><description>Recent content in AI 운영 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/ai-%EC%9A%B4%EC%98%81/index.xml" rel="self" type="application/rss+xml"/><item><title>4. 운영</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/4-operation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/4-operation/</guid><description>&lt;h2 id="1-개요"&gt;1. 개요&lt;/h2&gt;
 &lt;p&gt;ISO/IEC 42001 §8은 AI 관리 시스템의 &lt;strong&gt;실제 운영&lt;/strong&gt; 단계를 다룬다.
 오픈소스 관점에서 §8은 가장 많은 교차점을 포함하는 섹션이다.&lt;/p&gt;
 &lt;table&gt;
@@ -48,5 +48,5 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;h2 id="세부-페이지"&gt;세부 페이지&lt;/h2&gt;
+&lt;h2 id="2-세부-페이지"&gt;2. 세부 페이지&lt;/h2&gt;
 &lt;p&gt;이 섹션의 오픈소스 교차 항목은 다음 세부 페이지에서 상세히 다룬다:&lt;/p&gt;</description></item></channel></rss>
