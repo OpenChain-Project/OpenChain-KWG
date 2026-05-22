@@ -102,9 +102,11 @@ The IT manager uses the open source analysis tool to check the open source and c
 
 The open source program manager reviews the possibility of complying with the open source license obligations, checks for conflicts between open source licenses, and if there are issues, requests the business unit to resolve them. Issues are created as Jira Tickets and assigned to the business unit.
 
-The security officer reviews the detected known vulnerabilities and provides a response guide to the business unit according to the pre-defined Risk classification criteria. Risk is classified by CVSS (Common Vulnerability Scoring System) Score, and Critical Risk is guided to establish a plan that can be addressed within 1 week.
+The security officer reviews the detected known vulnerabilities and provides a response guide to the business unit according to the pre-defined Risk classification criteria. Risk is classified by the CVSS (Common Vulnerability Scoring System) v3.1 or v4.0 Score, and Critical Risk is guided to establish a plan that can be addressed within 1 week.
 
 ```
+
+When detecting and evaluating known vulnerabilities, query multiple public vulnerability databases in parallel to minimize gaps: NVD (NIST, the standard CVE database), OSV.dev (Google, covering package ecosystems such as npm, PyPI, Go, and Maven), GitHub Security Advisories (GHSA), and KISA KVE (Korea Internet & Security Agency). When assessing severity, use the CVSS v3.1 or v4.0 score, and reflect real-world exploitability by also considering the EPSS (Exploit Prediction Scoring System) score and inclusion in the CISA KEV (Known Exploited Vulnerabilities) catalog as supplementary indicators.
 
 In the open source identification and inspection stage, source code scanning tools can be used. More details on this can be found in "[1. Source Code Scanning Tools](../4-tool/#1-source-code-scanning-tools)".
 
@@ -328,16 +330,16 @@ After a product/service is launched in the market, we adhere to the following pr
 
 The IT department operates a system that monitors new security vulnerabilities. This system performs the following functions:
 
-- Regularly collects information about newly disclosed security vulnerabilities.
+- Regularly collects information about newly disclosed security vulnerabilities from multiple public vulnerability databases (NVD, OSV.dev, GitHub Security Advisories, and KISA KVE), and reinforces prioritization using the EPSS (Exploit Prediction Scoring System) score and inclusion in the CISA KEV (Known Exploited Vulnerabilities) catalog.
 - If an open source with a new known vulnerability is used in a product/service that has already been released, it sends a notification to the business department in charge of the product/service. From notification to review, action, and resolution, everything is documented and recorded using the Jira Issue Tracker.
 
 (2) Initial Response
 
-The security officer provides a response guide to the business department according to the pre-defined risk classification criteria. Risks are classified by CVSS (Common Vulnerability Scoring System) scores, and Critical Risk is guided to establish a plan that can be implemented within 1 week.
+The security officer provides a response guide to the business department according to the pre-defined risk classification criteria. Risks are classified by the CVSS (Common Vulnerability Scoring System) v3.1 or v4.0 score, and Critical Risk is guided to establish a plan that can be implemented within 1 week.
 
 If a new security vulnerability is found in a product/service that has already been released, the business department establishes a response plan according to the response guide provided by the security officer.
 
-If there are customers who need assurance, the business department notifies the confirmed known vulnerabilities by email or other means as needed, depending on the risk level.
+If there are customers who need assurance, the business department notifies the confirmed known vulnerabilities by email or other means as needed, depending on the risk level. When notifying supply chain partners and customers of whether they are affected, use the VEX (Vulnerability Exploitability eXchange) standard format (CSAF 2.0 or CycloneDX VEX), which expresses the impact status with four status values: `not_affected` (justification required), `affected`, `fixed`, and `under_investigation`.
 
 (3) Problem Solving
 

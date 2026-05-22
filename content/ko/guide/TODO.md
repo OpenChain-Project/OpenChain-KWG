@@ -166,9 +166,13 @@ draft: true
 - [x] P3 그룹 간 정합 — iso5230_guide/_index.md + iso18974_guide/_index.md 끝에 "다른 표준과의 관계" alert 신설 — compare 페이지 양방향 cross-link 보강. Phase 단계 의미 차이·샘플 외부화는 후속 작업 [2026-05-12]
 
 ### Phase 6 — 영어(en/) 동기화
-- [ ] ko/ 보강 후 en/ 대응 파일 일괄 동기화 (별도 PR 분리 권장 — 단일 세션에 비현실적)
-  - en에 iso42001_guide 자체가 없음 — 본 세션 보강 ~30%는 동기화 대상 아님
-  - 대상 파일 ~20개: iso5230_guide(_index·3-awareness·1-sbom·1-compliance-artifacts), iso18974_guide(_index 외 7개), opensource_for_enterprise(_index 외 6개), templates 2개
+- [x] ko/ 보강 후 en/ 대응 파일 일괄 동기화 [2026-05-22]
+  - **A. 기존 en 파일 보강 동기화 4건**: iso5230 1-compliance-artifacts(GPLv2 §3(b)/GPLv3 §6(d) written offer 분리 + 비교표 + 보관 기록 표), opensource 2-policy·3-process + templates/1-policy(CVSS v3.1/v4.0 병기·NVD/OSV.dev/GHSA/KISA KVE 다원화·EPSS/KEV 보조 지표·VEX 4상태값)
+  - **B. en 신규 생성 5종**: opensource/7-ai-compliance(iso42001 cross-link 10개 `/ko/` 한국어판 처리), tools/8-cdxgen-dt(+이미지 5개 복사)·tools/9-scanoss, templates/1-policy/appendix, training-slides
+  - iso42001_guide는 의도적 ko-only 유지 (en 미생성)
+  - hugo --minify PASS (EN 871p)
+  - **후속 동기화 권장(이번 범위 밖)**: ① opensource/4-tool en 전반 낙후(ko 448 / en 152줄 — SCANOSS·Dependency-Check·DT quick-start·CI/CD·ISO footer 누락) ② templates/1-policy en에 독립 `## 5. 오픈소스 보안 보증`(5.1~5.4) 섹션 부재 → §6(6)에 핵심만 삽입함 ③ 3-process en에 `### (5) 보안 취약점 검사 및 평가` 서브섹션(CVSS risk table·alert) 미포팅 → 기존 섹션에 핵심 지표만 병합
+  - 사전 grep 한글 키워드("24시간" 등) 오탐 2건: iso18974/1-access·4-tool은 en에 영어("24h"/"24 hours")로 이미 존재
 - [x] `/sync-check` 실행 — 격차 파악 완료. en에 iso42001_guide 디렉토리 자체가 없음(의도적 ko-only) [2026-05-12]
 
 ### 권장 진행 순서

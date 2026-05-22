@@ -113,9 +113,11 @@ If a compliance issue is raised, the open source program manager performs the fo
 
 (6) Response to open source security vulnerabilities
 
-- Identify open source vulnerabilities and evaluate their severity.
+- Identify open source vulnerabilities and evaluate their severity. To minimize gaps, query multiple vulnerability databases in parallel: NVD (NIST, the standard CVE database), OSV.dev (Google, covering package ecosystems such as npm, PyPI, Go, and Maven), GitHub Security Advisories (GHSA), and KISA KVE (Korea Internet & Security Agency).
+- Evaluate severity using the CVSS (Common Vulnerability Scoring System) v3.1 or v4.0 score. Use the EPSS (Exploit Prediction Scoring System) score and inclusion in the CISA KEV (Known Exploited Vulnerabilities) catalog as supplementary indicators to reflect real-world exploitability.
 - Modify vulnerabilities or apply security patches according to the results of open source vulnerability analysis. The decision to take action on vulnerabilities considers the severity of the vulnerability, the importance of the system, the availability of vulnerability modifications or security patches, etc.
-- Monitor the announcement of new open source security vulnerabilities and respond quickly when vulnerabilities occur. Open source vulnerability monitoring can be performed through vulnerability databases such as CVE, websites of security professional organizations, etc.
+- When notifying supply chain partners and customers of whether they are affected, use the VEX (Vulnerability Exploitability eXchange) standard format (CSAF 2.0 or CycloneDX VEX). VEX expresses the impact status with the following four status values: `not_affected` (justification required), `affected`, `fixed`, and `under_investigation`.
+- Monitor the announcement of new open source security vulnerabilities and respond quickly when vulnerabilities occur. Open source vulnerability monitoring can be performed through the vulnerability databases mentioned above, websites of security professional organizations, etc.
 
 ```
 

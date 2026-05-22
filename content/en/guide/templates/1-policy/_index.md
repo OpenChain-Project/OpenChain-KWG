@@ -261,10 +261,12 @@ If a compliance issue is raised, the open source program manager performs the fo
 
 ### (6) Open Source Vulnerability Response
 
-- We identify open source vulnerabilities and evaluate their severity.
+- We identify open source vulnerabilities and evaluate their severity. To minimize gaps, we query multiple vulnerability databases in parallel: NVD (NIST), OSV.dev (Google), GitHub Security Advisories (GHSA), and KISA KNVD (Korea National Vulnerability Database, Korea Internet & Security Agency).
+- We evaluate severity using the CVSS (Common Vulnerability Scoring System) v3.1 or v4.0 score, and use the EPSS (Exploit Prediction Scoring System) score and inclusion in the CISA KEV (Known Exploited Vulnerabilities) catalog as supplementary indicators.
 - Based on the analysis of open source vulnerabilities, we either fix the vulnerability or apply a security patch. The decision to address vulnerabilities takes into account the severity of the vulnerability, the importance of the system, and the availability of vulnerability fixes or security patches.
 - Remediation actions shall be completed within the following deadlines based on vulnerability severity: Critical (CVSS 9.0 or above) within 1 week, High (CVSS 7.0–8.9) within 4 weeks. (ISO/IEC 18974 §4.3.2.1)
-- We monitor the announcement of new open source security vulnerabilities and respond quickly when vulnerabilities occur. Open source vulnerability monitoring can be performed through vulnerability databases such as CVE and websites of security specialist organizations.
+- When notifying supply chain partners and customers of whether they are affected, we use the VEX (Vulnerability Exploitability eXchange) standard format (CSAF 2.0 or CycloneDX VEX), expressed with four status values: `not_affected` (justification required), `affected`, `fixed`, and `under_investigation`.
+- We monitor the announcement of new open source security vulnerabilities and respond quickly when vulnerabilities occur. Open source vulnerability monitoring can be performed through the vulnerability databases mentioned above and websites of security specialist organizations.
 - All vulnerability response records shall be retained for a minimum of 3 years from the date of the last distribution of the relevant supplied software. (ISO/IEC 18974 §4.3.2.2)
 
 ## 7. Open Source Contribution
