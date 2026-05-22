@@ -38,9 +38,11 @@
 - [x] `components/CvssScoring.vue` — CVSS v3.1/4.0 + EPSS + KEV 통합 점수 [2026-05-22]
 - [x] `components/StandardCompare.vue` — ISO 5230/18974/42001 비교 표 [2026-05-22]
 
-### Deferred — 6종 (Phase 3 콘텐츠 작성 중 3회 반복 시 추출)
-- [ ] `components/CodeShowcase.vue` — Slidev 내장 코드 하이라이트로 우선 대체, 부족 시 추출
-- [ ] `components/HexCoreElements.vue` — 6대 핵심요소 (1~2회용)
+### PLAN 판정 추가 구현 2종 [2026-05-22]
+- [x] `components/HexCoreElements.vue` — PLAN 빈도 9회 → 추출 (6각형 clip-path, active 강조) [2026-05-22]
+- [x] `components/CodeShowcase.vue` — PLAN 빈도 5회 → 추출 (파일명 탭 + 언어 라벨 + slot) [2026-05-22]
+
+### Deferred — 4종 (Phase 3 중 3회 이상 반복 시 추출, 현재 각 1회 → 직접 작성)
 - [ ] `components/TimelineEvent.vue` — 사례 연대기 (Busybox·Vizio 등)
 - [ ] `components/RegulatoryMatrix.vue` — 글로벌 AI 규제 매트릭스 (가이드 AI-1)
 - [ ] `components/LlamaChecklist.vue` — Llama 라이선스 의무 체크리스트 (가이드 AI-2)

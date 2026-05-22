@@ -97,3 +97,28 @@ ISO 표준부터 AI 컴플라이언스까지
 ]" />
 
 <!-- demo: Phase 3 진입 시 제거 -->
+
+---
+
+# 컴포넌트 데모 — HexCoreElements
+
+<HexCoreElements :active="3" />
+
+<!-- demo: Phase 3 진입 시 제거 -->
+
+---
+
+# 컴포넌트 데모 — CodeShowcase
+
+<CodeShowcase lang="yaml" filename=".github/workflows/sca.yml">
+
+```yaml
+- uses: scanoss/scanoss-action@v1
+  with:
+    api-url: https://api.osskb.org/scan/direct
+    sbom: true
+```
+
+</CodeShowcase>
+
+<!-- demo: Phase 3 진입 시 제거 -->

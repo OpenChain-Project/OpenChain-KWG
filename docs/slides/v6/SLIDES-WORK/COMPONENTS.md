@@ -319,9 +319,14 @@
 4. **`CvssScoring`** — 보안 파트 반복 (scale·stat 토큰 검증).
 5. **`StandardCompare`** — 표준 비교 반복.
 
-### Deferred (Phase 3 중 필요 시 추출)
-- **`CodeShowcase`** — Slidev 내장 코드 하이라이트(`{2,5-7}`·파일명)로 우선 대체. 부족함이 드러나면 추출.
-- **`RegulatoryDeadline`·`HexCoreElements`·`LlamaChecklist`·`RegulatoryMatrix`·`TimelineEvent`** — 1~2회용 성격 → 해당 슬라이드에 직접 작성. 3회 이상 반복되면 그때 컴포넌트로 추출.
+### PLAN 판정 추가 구현 2종 (2026-05-22 — PLAN 빈도 집계로 추출)
+6. **`HexCoreElements`** — PLAN 빈도 **9회** (파트 표지·6대 요소 조망) → 추출 구현.
+7. **`CodeShowcase`** — PLAN 빈도 **5회** (도구·CI/CD 좌우분할) → 추출 구현.
+
+→ 따라서 **구현 7종** (핵심 5종 + 추가 2종). PLAN으로 "5종만으론 부족" 확인됨.
+
+### Deferred 4종 (Phase 3 중 3회 이상 반복 시 추출)
+- **`RegulatoryDeadline`·`LlamaChecklist`·`RegulatoryMatrix`·`TimelineEvent`** — PLAN 빈도 각 1회 → 해당 슬라이드에 직접 작성(COMPONENTS props 구조 따라 향후 즉시 추출 가능).
 
 각 컴포넌트 구현 직후 demo 1장 → `slidev build` 렌더 확인. **핵심 5종 + demo 검증 시 Phase 1 종료**(나머지는 Phase 3에서 자연 발생). 위 11종 인벤토리는 추출 시 참조할 설계 카탈로그로 유지한다.
 
