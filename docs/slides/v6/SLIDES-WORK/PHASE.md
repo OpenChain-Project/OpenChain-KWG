@@ -7,10 +7,10 @@
 
 ## 현재 상태
 
-- **Phase**: 4 (페이싱·다이어그램·강사 노트) — **진행 중** (Phase 3 본문 완료)
-- **상태**: 본문 ~105장(pages/ 5파일) src 분할 + dual theme + colorSchema dark, slidev build PASS(905 modules). 강사노트·페이싱 착수.
+- **Phase**: 5 (빌드·시각 검증) — **진행 중** (Phase 4 완료: 강사노트 99장 + PACING)
+- **상태**: 전체 slidev build PASS(905 modules). 시각·브라우저 호환성은 환경 한계로 로컬 `npm run dev` 검증 권장.
 - **마지막 갱신**: 2026-05-22
-- **다음 작업**: 강사노트(모든 슬라이드) + <v-click> 점검 + PACING.md(4h±10분, 105장 분량 조정) + 다이어그램 보강
+- **다음 작업**: 빌드 0에러 확정 → Phase 6 배포 전환(워크플로 Marp→Slidev, training-slides 페이지 갱신, master push는 사용자 확인)
 
 ---
 
@@ -103,6 +103,7 @@
 
 ## 마지막 완료 작업
 
+- [2026-05-22] **Phase 4 완료** — 강사노트 99장 전 슬라이드(5 에이전트 병렬, 본문 무변경 git diff 확인) + PACING.md(240분 배분·휴식 2회·Part 3 버퍼·압축 전략). 전체 slidev build PASS(905 modules).
 - [2026-05-22] **Phase 3 본문 완료** — pages/ 5파일(part01 19·part2a 25·part2b 20·part3 28·part45 12 ≈ 105장) 작성, 5 에이전트 병렬. slides.md src include 재편 + setup/shiki.ts dual theme(vitesse-dark/github-light) + colorSchema dark. 전체 slidev build PASS(905 modules). 컴포넌트 7종·Mermaid·v-click 활용, CRITIC P1/P2 약점 매핑 반영. 강사노트는 Phase 4.
 - [2026-05-22] **Phase 2 완료 + 컴포넌트 7종 확정** — GAP·CRITIC·EVIDENCE-MAP·PLAN(96장/240분, Part 3 AI 75분) 작성. PLAN 빈도 판정으로 HexCoreElements(9회)·CodeShowcase(5회) 추출 → 구현 7종(5종으론 부족 확인). slidev build PASS(4.56s).
 - [2026-05-22] **Phase 1 핵심 구현 완료** — `COMPONENTS.md`(11종 설계도) + 핵심 5종 `.vue`(Callout·EvidenceCard·VexStatus·CvssScoring·StandardCompare) 토큰 기반 구현 + slides.md demo 5장 + `slidev build` 렌더 통과(2.53s). 나머지 6종은 YAGNI 원칙으로 Phase 3 deferred.
