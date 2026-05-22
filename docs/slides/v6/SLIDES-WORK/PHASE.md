@@ -7,10 +7,10 @@
 
 ## 현재 상태
 
-- **Phase**: 1 (디자인 토큰 + 컴포넌트 라이브러리) — **마무리 단계**
-- **상태**: 디자인 토큰 + COMPONENTS.md + 핵심 5종 컴포넌트 + demo 빌드 검증 완료. 나머지 6종은 Phase 3로 deferred → **Phase 1 사실상 종료, Phase 2 진입 대기**
+- **Phase**: 2 (콘텐츠 기획) — **진행 중** (Phase 1 핵심 종료: 토큰 + 5종 컴포넌트 + demo)
+- **상태**: 2-a 격차 분석(GAP-REPORT) 착수 — v5 88장 vs 현재(2026-05) 가이드 대조
 - **마지막 갱신**: 2026-05-22
-- **다음 작업**: Phase 2 (콘텐츠 기획 — GAP·CRITIC·EVIDENCE-MAP·PLAN) 진입. deferred 컴포넌트는 Phase 3 작성 중 필요 시 추출
+- **다음 작업**: GAP-REPORT → CRITIC → EVIDENCE-MAP → PLAN(슬라이드별 시각 패턴 + 컴포넌트 빈도 집계 → 핵심 5종 충분성 판정)
 
 ---
 
