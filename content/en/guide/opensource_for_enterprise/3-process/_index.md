@@ -106,7 +106,7 @@ The security officer reviews the detected known vulnerabilities and provides a r
 
 ```
 
-When detecting and evaluating known vulnerabilities, query multiple public vulnerability databases in parallel to minimize gaps: NVD (NIST, the standard CVE database), OSV.dev (Google, covering package ecosystems such as npm, PyPI, Go, and Maven), GitHub Security Advisories (GHSA), and KISA KVE (Korea Internet & Security Agency). When assessing severity, use the CVSS v3.1 or v4.0 score, and reflect real-world exploitability by also considering the EPSS (Exploit Prediction Scoring System) score and inclusion in the CISA KEV (Known Exploited Vulnerabilities) catalog as supplementary indicators.
+When detecting and evaluating known vulnerabilities, query multiple public vulnerability databases in parallel to minimize gaps: NVD (NIST, the standard CVE database), OSV.dev (Google, covering package ecosystems such as npm, PyPI, Go, and Maven), GitHub Security Advisories (GHSA), and KISA KNVD (Korea Internet & Security Agency). When assessing severity, use the CVSS v3.1 or v4.0 score, and reflect real-world exploitability by also considering the EPSS (Exploit Prediction Scoring System) score and inclusion in the CISA KEV (Known Exploited Vulnerabilities) catalog as supplementary indicators.
 
 In the open source identification and inspection stage, source code scanning tools can be used. More details on this can be found in "[1. Source Code Scanning Tools](../4-tool/#1-source-code-scanning-tools)".
 
@@ -276,6 +276,53 @@ Therefore, compliance deliverables must be kept for more than 3 years, and a pro
 
 For this, companies can consider building an open source website. You can check the details in "[Open Source Compliance Artifact Storage](../4-tool/#6-open-source-compliance-artifact-storage)".
 
+### (5) Vulnerability Inspection and Assessment
+
+The security officer must establish a process for inspecting and assessing known vulnerabilities and newly discovered vulnerabilities in the open source software components of the supplied software. This process should include the following steps:
+
+1. Search vulnerability databases: Query the following public vulnerability databases **in parallel** to minimize gaps.
+   - [National Vulnerability Database (NVD)](https://nvd.nist.gov/) — the standard CVE database
+   - [OSV.dev](https://osv.dev/) — operated by Google, integrating package ecosystems such as npm, PyPI, Go, and Maven
+   - [GitHub Security Advisories (GHSA)](https://github.com/advisories) — package-ecosystem-first disclosures
+   - [KISA KNVD](https://knvd.krcert.or.kr/) — Korea Internet & Security Agency, Korean-language advisories
+
+2. Use automated vulnerability scanning tools: Use tools such as [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/) to scan the dependencies of the supplied software and identify known vulnerabilities.
+
+3. Assess vulnerability severity: Use [CVSS (Common Vulnerability Scoring System)](https://www.first.org/cvss/) v3.1 or v4.0 to assess the severity of the discovered vulnerabilities.
+   - As supplementary indicators, also consider the [EPSS](https://www.first.org/epss/) (Exploit Prediction Scoring System) score and inclusion in the [CISA KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) catalog to reflect real-world exploitability.
+
+4. Risk analysis: Analyze the potential impact of the identified vulnerabilities on the supplied software.
+
+5. Establish a response plan: Establish a response plan for each vulnerability based on the severity and the results of the risk analysis.
+
+```
+(2) Source Code Inspection
+
+The security officer reviews the detected known vulnerabilities and provides a response guide to the business department according to the pre-defined Risk classification criteria. Risk is classified by the CVSS (Common Vulnerability Scoring System) Score, and Critical Risk is guided to establish a plan that can be addressed within 1 week.
+
+| Risk | CVSS 2.0 | CVSS 3.1 / 4.0 | Recommended Remediation Timeline |
+|---|:---:|:---:|:---:|
+| Low | 0.0 - 3.9 | 0.0 - 3.9 | - |
+| Medium | 4.0 - 6.9 | 4.0 - 6.9 | - |
+| High | 7.0 - 10.0 | 7.0 - 8.9 | Within 4 weeks |
+| Critical | - | 9.0 - 10.0 | Within 1 week |
+```
+
+{{% alert title="CVSS 4.0 Adoption Recommended (released 2023-11)" color="info" %}}
+[CVSS 4.0](https://www.first.org/cvss/v4-0/) was released in 2023-11 to address the limitations of CVSS 3.1
+(insufficient effectiveness of the Temporal and Environmental metrics, and insufficient differentiation in
+environments with many vulnerable components). Since the score range (0-10) itself is identical, the table above
+applies to both v3.1 and v4.0. New CVEs are progressively being assigned v4.0 scores from 2026 onward, so it is
+recommended to assess using both versions in parallel and to determine remediation priority based on the
+**higher score**.
+{{% /alert %}}
+
+6. Reporting and documentation: Document the inspection results, assessment details, and response plan, and report them to the relevant stakeholders.
+
+7. Continuous monitoring: Since new vulnerabilities may be discovered or the severity of existing vulnerabilities may change, establish a continuous monitoring system.
+
+Through this process, you can effectively manage the security vulnerabilities of the supplied software and meet the requirements of ISO/IEC 18974.
+
 ## 2. Open Source Security Vulnerability Process
 
 Companies must perform activities for security assurance, such as detecting and resolving open source security vulnerabilities, while developing products/services.
@@ -330,7 +377,7 @@ After a product/service is launched in the market, we adhere to the following pr
 
 The IT department operates a system that monitors new security vulnerabilities. This system performs the following functions:
 
-- Regularly collects information about newly disclosed security vulnerabilities from multiple public vulnerability databases (NVD, OSV.dev, GitHub Security Advisories, and KISA KVE), and reinforces prioritization using the EPSS (Exploit Prediction Scoring System) score and inclusion in the CISA KEV (Known Exploited Vulnerabilities) catalog.
+- Regularly collects information about newly disclosed security vulnerabilities from multiple public vulnerability databases (NVD, OSV.dev, GitHub Security Advisories, and KISA KNVD), and reinforces prioritization using the EPSS (Exploit Prediction Scoring System) score and inclusion in the CISA KEV (Known Exploited Vulnerabilities) catalog.
 - If an open source with a new known vulnerability is used in a product/service that has already been released, it sends a notification to the business department in charge of the product/service. From notification to review, action, and resolution, everything is documented and recorded using the Jira Issue Tracker.
 
 (2) Initial Response

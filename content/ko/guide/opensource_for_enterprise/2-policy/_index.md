@@ -152,7 +152,7 @@ description: >
       - **NVD**(미국 NIST) — CVE 표준 DB, CVSS 점수 포함
       - **OSV.dev**(Google) — npm·PyPI·Go·Maven 등 패키지 생태계 통합 DB, NVD보다 빠른 업데이트
       - **GitHub Security Advisories(GHSA)** — npm·Python·Ruby 생태계 최우선 공개
-      - **KISA KVE**(한국인터넷진흥원) — 한국어 권고문, 국내 영향 컴포넌트
+      - **KISA KNVD**(한국인터넷진흥원) — 한국어 권고문, 국내 영향 컴포넌트
 2. **취약점 심각도 평가**:
     - CVSS(Common Vulnerability Scoring System) v3.1 또는 v4.0 점수를 활용하여 취약점의 심각도를 평가합니다.
     - **EPSS**(Exploit Prediction Scoring System, FIRST.org) 점수와 **CISA KEV**(Known Exploited Vulnerabilities Catalog) 등재 여부를 보조 지표로 활용하여 실제 익스플로잇 가능성을 반영합니다.

@@ -172,7 +172,68 @@ The Quality Assurance Officer, such as QA, checks whether the open source licens
 - It checks whether the open source notice and the source code to be disclosed are provided together when distributing software.
 - If there is an issue, it notifies the software development/distribution organization and guides them to correct the issue immediately.
 
-## 5. Education and Evaluation
+## 5. Open Source Security Assurance
+
+This section describes the procedures for ensuring the security of the open source components included in the supplied software. Through this, the company can effectively manage known vulnerabilities and newly discovered vulnerabilities and raise the security level of the software.
+
+### 5.1 Known Vulnerability Detection and Response Procedure
+
+1. **Vulnerability detection**:
+    - Use SCA (Software Composition Analysis) tools to detect known vulnerabilities in each open source component included in the SBOM.
+    - Query multiple vulnerability databases in parallel to minimize gaps: NVD (NIST, USA), OSV.dev (Google), GitHub Security Advisories (GHSA), KISA KNVD (Korea National Vulnerability Database, Korea Internet & Security Agency).
+2. **Vulnerability severity assessment**:
+    - Use the CVSS (Common Vulnerability Scoring System) v3.1 or v4.0 score to assess the severity of vulnerabilities.
+    - Use the EPSS (Exploit Prediction Scoring System) score and inclusion in the CISA KEV (Known Exploited Vulnerabilities) catalog as supplementary indicators.
+    - Determine the response priority by considering the exploitability of the vulnerability, the scope of impact, and the potential impact on the system.
+3. **Response measures**:
+    - For high-risk vulnerabilities, immediately apply patches or perform mitigation measures.
+    - If customers may be affected, notify the customers and present resolution measures.
+    - When notifying supply chain partners and customers of whether they are affected, use the **VEX** (Vulnerability Exploitability eXchange) standard format (CSAF 2.0 or CycloneDX VEX). The four status values — `not_affected` (no impact, justification required) / `affected` (impacted) / `fixed` (patched) / `under_investigation` (under investigation).
+    - Take action within the following deadlines based on vulnerability severity: Critical (CVSS 9.0 or above) within 1 week, High (CVSS 7.0–8.9) within 4 weeks. (ISO/IEC 18974 §4.3.2.1)
+4. **Response record retention**:
+    - All vulnerabilities and response measures are recorded in a database, and reports are generated periodically.
+    - Response records are used as reference material in case of similar problems in the future.
+    - Vulnerability response records are retained for a minimum of 3 years from the date of the last distribution of the relevant supplied software. (ISO/IEC 18974 §4.3.2.2)
+
+### 5.2 Newly Discovered Vulnerability Response Procedure
+
+1. **Detection of newly discovered vulnerabilities**:
+    - Identify and assess new security vulnerabilities that have not been previously discovered.
+    - Newly discovered vulnerabilities may be reported by external researchers or through internal testing.
+2. **Severity assessment and response**:
+    - Assess the severity of newly discovered vulnerabilities using the CVSS score.
+    - Determine the response priority based on the assessment results and perform the necessary measures.
+    - If customers may be affected, notify the customers and present resolution measures.
+3. **Response record retention**:
+    - Newly discovered vulnerabilities and response measures are recorded in a database, and reports are generated periodically.
+
+### 5.3 Continuous Monitoring and Response
+
+1. **Vulnerability monitoring**:
+    - Continuously monitor the software even after release to identify known vulnerabilities or newly discovered vulnerabilities.
+    - Use automated tools to detect anomalies based on the latest data.
+2. **Response preparation**:
+    - Security experts prepare the response, and seek help from external experts if necessary.
+    - The response plan is periodically reviewed and updated.
+3. **Reporting and improvement**:
+    - All monitoring and response activities are periodically reported and shared with program participants.
+    - Based on the monitoring results, the process is improved to continuously enhance the security level.
+
+### 5.4 Verification of Alignment with Internal Best Practices
+
+1. **Investigation of internal best practices**:
+    - Investigate security-related activities and processes successfully operated by other teams or departments within the company.
+    - Examples: the vulnerability management process of the information security team, the secure coding guidelines of the development team, etc.
+2. **Process comparison and analysis**:
+    - Compare and analyze the operating methods between the investigated best practices and the open source security assurance program.
+    - Identify differences, weaknesses, and improvement opportunities.
+3. **Process integration and improvement**:
+    - Adjust or integrate the open source security assurance program to align with the company's internal best practices.
+    - Example: applying the company-wide vulnerability management system to open source vulnerability management as well.
+4. **Assignment and management of responsible persons**:
+    - The OSPM is responsible for compliance with internal best practices, and periodically reviews the operating methods and proposes improvements.
+
+## 6. Education and Evaluation
 
 All members who are responsible for the roles defined in Chapter 4 must take the advanced open source education course provided by the [Learning Portal]. Through this, they will familiarize themselves with the open source policy, related education policy, and how to look it up.
 
@@ -184,7 +245,7 @@ The education history and evaluation results are kept in the [Learning Portal] f
 - Evidence shall be registered in the internal document management system (e.g., Learning Portal, HR system) and maintained in a state that can be immediately produced during audits.
 - After the retention period expires, records shall be destroyed in accordance with the personal data protection policy.
 
-## 6. Open Source Use
+## 7. Open Source Use
 
 When developing and distributing products and services using open source, you must comply with the obligations required by each open source license. This activity is called open source compliance.
 
@@ -269,7 +330,7 @@ If a compliance issue is raised, the open source program manager performs the fo
 - We monitor the announcement of new open source security vulnerabilities and respond quickly when vulnerabilities occur. Open source vulnerability monitoring can be performed through the vulnerability databases mentioned above and websites of security specialist organizations.
 - All vulnerability response records shall be retained for a minimum of 3 years from the date of the last distribution of the relevant supplied software. (ISO/IEC 18974 §4.3.2.2)
 
-## 7. Open Source Contribution
+## 8. Open Source Contribution
 
 The company encourages participation and contribution to external open source projects to create business value from open source. However, care must be taken to avoid unintentional exposure of the company's intellectual property or infringement of third-party rights during this process. To this end, members of the company must comply with the following when contributing to external open source projects:
 
@@ -333,10 +394,10 @@ When contributing to an open source project, do not use personal email, use comp
 
 ### (7) Contribution Policy Awareness Procedure
 
-1. **Mandatory policy awareness**: All program participants must be aware of the existence and content of the external open source contribution policy (§7) and internal project release policy (§8). The OSPO shall notify new participants of the contribution policy during onboarding and reconfirm it through annual training. (ISO/IEC 5230 §3.1.3)
+1. **Mandatory policy awareness**: All program participants must be aware of the existence and content of the external open source contribution policy (§8) and internal project release policy (§9). The OSPO shall notify new participants of the contribution policy during onboarding and reconfirm it through annual training. (ISO/IEC 5230 §3.1.3)
 2. **Awareness confirmation and records**: The OSPO shall confirm policy awareness and maintain the results as records. Awareness confirmation records shall be retained for a minimum of 3 years.
 
-## 8. Open Source Release
+## 9. Open Source Release
 
 The company respects the value of collaboration with the open source community and encourages the release of internal software to open source projects. However, there are a few rules to follow to protect the company's intellectual property and prevent unintended copyright infringement.
 
@@ -383,7 +444,7 @@ When conducting open source release activities, use company email instead of per
 - Members have a sense of responsibility to communicate with the community on behalf of the company.
 - The company can improve its recognition as a company that actively discloses to the open source community.
 
-## 9. Response to External Inquiries
+## 10. Response to External Inquiries
 
 ### (1) Responsibility for Responding to External Inquiries
 
@@ -408,7 +469,7 @@ If you respond quickly and accurately to open source inquiries from outside, you
 
 - External inquiry response records shall be retained for a minimum of 3 years from the date the inquiry is closed. (ISO/IEC 18974 §4.2.1.2)
 
-## 10. Declaration and Maintenance of Compliance with ISO Standards
+## 11. Declaration and Maintenance of Compliance with ISO Standards
 
 The company supports the spirit of the OpenChain project of the Linux Foundation for improving the level of open source compliance in the software supply chain and actively participates.
 
