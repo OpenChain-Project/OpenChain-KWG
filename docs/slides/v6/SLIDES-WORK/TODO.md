@@ -111,22 +111,22 @@
 
 ## Phase 5: 빌드·시각 검증
 
-- [ ] `npx slidev build --out ../../static/slides/enterprise-oss-governance/` 0 에러
-- [ ] Hugo `hugo server -D` 후 `/guide/training-slides/` 페이지 iframe 정상
-- [ ] 중요 슬라이드 10장 스크린샷 비교
-- [ ] Chrome / Safari / Firefox 호환성
-- [ ] 빌드 시간 측정 (CI 시간 영향 평가)
+- [x] `slidev build` 0 에러 — 905 modules, ~6초 [2026-05-22]
+- [x] Hugo 빌드 후 `/guide/training-slides/` iframe 정상 — Slidev 산출물 public 복사 + iframe src 경로 검증 [2026-05-22]
+- [~] 중요 슬라이드 10장 스크린샷 비교 — 환경 한계(브라우저 렌더 불가), 로컬 `npm run dev` 권장
+- [~] Chrome / Safari / Firefox 호환성 — 환경 한계, 로컬 검증 권장
+- [x] 빌드 시간 측정 — Slidev ~6초(CI 영향 경미) [2026-05-22]
 
 ---
 
 ## Phase 6: 배포 전환
 
-- [ ] `.github/workflows/deploy-github-pages.yml` 워크플로 갱신 (Marp 단계 → Slidev 빌드)
-- [ ] `content/ko/guide/training-slides/_index.md` iframe `src` 경로 갱신 (`.html` → `/`) + 안내문(슬라이드 제작 가이드) 재작성
-- [ ] 기존 `docs/slides/enterprise-oss-governance.md` 제거 (이미 archive에 보존됨)
-- [ ] PR 생성 또는 master 직접 push
-- [ ] GitHub Actions 빌드 통과 확인
-- [ ] GitHub Pages에서 신규 슬라이드 노출 확인
+- [x] `.github/workflows/deploy-github-pages.yml` 워크플로 갱신 (Marp 단계 → Slidev 빌드, working-directory docs/slides/v6) [2026-05-22]
+- [x] `content/ko/guide/training-slides/_index.md` + en iframe `src` 경로 갱신 (`.html` → `/`) + 제작 가이드 Slidev 전환 [2026-05-22]
+- [x] 기존 `docs/slides/enterprise-oss-governance.md` 제거 (archive/v5-marp-2026-05-12.md 보존) [2026-05-22]
+- [ ] **master 직접 push** ← 사용자 승인 대기
+- [ ] GitHub Actions 빌드 통과 확인 (push 후)
+- [ ] GitHub Pages에서 신규 슬라이드 노출 확인 (push 후)
 
 ---
 

@@ -40,8 +40,11 @@ jobs:
 
       - run: npm ci
 
-      - name: Build slides (Marp)
-        run: npx @marp-team/marp-cli@latest docs/slides/enterprise-oss-governance.md -o static/slides/enterprise-oss-governance.html --allow-local-files
+      - name: Build slides (Slidev)
+        working-directory: docs/slides/v6
+        run: |
+          npm ci
+          npm run build
 
       - run: hugo --baseURL https://${REPO_OWNER}.github.io/${REPO_NAME} --minify
 
