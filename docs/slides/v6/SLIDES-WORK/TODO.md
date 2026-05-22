@@ -74,9 +74,9 @@
 
 ---
 
-## Phase 3: 슬라이드 재작성 (파트별 묶음 승인)
+## Phase 3: 슬라이드 재작성
 
-각 파트는 diff 제시 → 사용자 승인 → `slides.md` 본문 누적.
+> ✅ **본문 완료 [2026-05-22]** — 위임 자율 작성(파트별 5 에이전트 병렬). pages/ 5파일 약 105장, slides.md src include 재편 + setup/shiki.ts dual theme + colorSchema dark. slidev build PASS(905 modules). 컴포넌트 7종·Mermaid·v-click 활용, CRITIC 약점 매핑 반영. 강사노트는 Phase 4.
 
 - [ ] Part 0 도입 (표지·강의 소개)
 - [ ] Part 1 표준 이해 (ISO 5230 / 18974 / 42001 + OpenChain 3종 세트)
