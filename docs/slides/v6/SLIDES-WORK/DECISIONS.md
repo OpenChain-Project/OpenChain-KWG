@@ -20,6 +20,8 @@
 | 9 | Part 3 분량 | **(a) 분량 확장 + 다른 파트 압축**으로 4h 유지 | AI 컴플라이언스 가이드 대폭 보강 반영 |
 | 10 | AI 신규 디테일 깊이 | **(a) 깊이 있게 (전문가용)** | 가이드 본문의 매트릭스·체크리스트 거의 그대로 차용 |
 | 11 | 빌드 출력 경로 | **(a) `static/slides/enterprise-oss-governance/`** (디렉토리) | URL 베이스 변경 없음, 끝에 `/` 추가만 |
+| 12 | 공통 메타 표기 (표준번호·출처·가이드링크) | **컴포넌트화 안 함.** 출처·가이드링크는 슬라이드 frontmatter + `global-bottom.vue`(전역 푸터, 자동 렌더). 본문 표준번호는 텍스트(+ 필요 시 색 배지 인라인 헬퍼 `Std`) | 거의 모든 슬라이드 공통 = 매번 삽입하는 컴포넌트가 아니라 전역/레이아웃의 영역. 출처 *노출 정책*(발표 vs 배포본 vs 강사노트)은 Phase 2 PLAN에서 확정 후 global-bottom 구현 |
+| 13 | 컴포넌트 범위 | **핵심 5종만 선제 구현**(Callout·EvidenceCard·VexStatus·CvssScoring·StandardCompare), 나머지 6종은 Phase 3 중 3회 반복 시 추출 | YAGNI — 추측 기반 과설계·검증 지연 회피. 충분성은 Phase 2 PLAN의 패턴 빈도 집계로 판정 |
 
 ---
 
