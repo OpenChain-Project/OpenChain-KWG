@@ -45,3 +45,55 @@ ISO 표준부터 AI 컴플라이언스까지
 <!--
 이 슬라이드는 Phase 1 시작 시 Hello World 역할이 끝나면 제거된다.
 -->
+
+---
+
+# 컴포넌트 데모 — Callout
+
+<Callout variant="success" title="권장 · ISO/IEC 5230 인용">ISO/IEC 5230 인용·권장 박스는 success.</Callout>
+
+<Callout variant="warn" title="ISO/IEC 18974 §4.3.2.1">보안 취약점 대응 기록은 최종 배포일로부터 3년 이상 보관한다.</Callout>
+
+<Callout variant="critical" title="법규 시한">EU CRA — 인지 후 24시간 내 조기 경보.</Callout>
+
+<Callout variant="info">구축 단계·참고 안내는 info.</Callout>
+
+<!-- demo: Phase 3 진입 시 제거 -->
+
+---
+
+# 컴포넌트 데모 — EvidenceCard
+
+<EvidenceCard number="3.1.1.1" title="오픈소스 정책 수립" standard="5230" clause="§3.1.1" status="full" />
+
+<!-- demo: Phase 3 진입 시 제거 -->
+
+---
+
+# 컴포넌트 데모 — VexStatus
+
+<VexStatus legend />
+
+<VexStatus status="not_affected" justification="vulnerable_code_not_in_execute_path" />
+
+<!-- demo: Phase 3 진입 시 제거 -->
+
+---
+
+# 컴포넌트 데모 — CvssScoring
+
+<CvssScoring :cvss="9.8" version="4.0" :epss="0.74" kev vector="CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N" />
+
+<!-- demo: Phase 3 진입 시 제거 -->
+
+---
+
+# 컴포넌트 데모 — StandardCompare
+
+<StandardCompare highlight="18974" :rows="[
+  { aspect: '대상', v5230: '라이선스 컴플라이언스', v18974: '보안 취약점 관리', v42001: 'AI 관리 시스템' },
+  { aspect: '입증자료', v5230: '25개', v18974: '25개', v42001: '체크포인트' },
+  { aspect: '발행', v5230: '2020', v18974: '2023', v42001: '2023' },
+]" />
+
+<!-- demo: Phase 3 진입 시 제거 -->

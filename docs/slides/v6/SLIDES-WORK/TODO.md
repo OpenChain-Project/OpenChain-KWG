@@ -29,25 +29,25 @@
 - [x] 가이드 통일성 규칙 반영 — DESIGN-TOKENS §5에 alert color 매핑(info/success/warn/critical) + ISO 인용 박스 규칙(5230=success·18974=warn) 계승 [2026-05-22]
 
 ### 컴포넌트 인벤토리
-- [ ] `COMPONENTS.md` 작성 — 11종 컴포넌트별 props·slot·예시 명시
+- [x] `COMPONENTS.md` 작성 — 11종 props·slot·사용 예시·사용 토큰·근거 가이드 + 공통 규칙 + 구현 순서 확정 [2026-05-22]
 
-### 핵심 컴포넌트 (6종)
-- [ ] `components/EvidenceCard.vue` — 입증자료 번호 + 요건 + 출처
-- [ ] `components/StandardCompare.vue` — ISO 5230/18974/42001 비교 표
-- [ ] `components/HexCoreElements.vue` — 6대 핵심요소 시각화 (인터랙티브)
-- [ ] `components/Callout.vue` — 강조·주의·정보 박스 (variant: info|warn|success|critical)
-- [ ] `components/CodeShowcase.vue` — Shiki 라인 하이라이트 + diff
-- [ ] `components/TimelineEvent.vue` — 사례 연대기 (Busybox·VMware·Vizio 등)
+### Phase 1 구현 — 핵심 5종 (재사용성 높음·중간) [2026-05-22 결정: 핵심 우선]
+- [x] `components/Callout.vue` — 강조·주의·정보 박스 (variant: info|success|warn|critical) [2026-05-22]
+- [x] `components/EvidenceCard.vue` — 입증자료 번호 + 요건 + 출처 + 충족도 [2026-05-22]
+- [x] `components/VexStatus.vue` — VEX 4상태값 (색+라벨 병기, legend/단일) [2026-05-22]
+- [x] `components/CvssScoring.vue` — CVSS v3.1/4.0 + EPSS + KEV 통합 점수 [2026-05-22]
+- [x] `components/StandardCompare.vue` — ISO 5230/18974/42001 비교 표 [2026-05-22]
 
-### AI·보안 특화 컴포넌트 (5종)
+### Deferred — 6종 (Phase 3 콘텐츠 작성 중 3회 반복 시 추출)
+- [ ] `components/CodeShowcase.vue` — Slidev 내장 코드 하이라이트로 우선 대체, 부족 시 추출
+- [ ] `components/HexCoreElements.vue` — 6대 핵심요소 (1~2회용)
+- [ ] `components/TimelineEvent.vue` — 사례 연대기 (Busybox·Vizio 등)
 - [ ] `components/RegulatoryMatrix.vue` — 글로벌 AI 규제 매트릭스 (가이드 AI-1)
 - [ ] `components/LlamaChecklist.vue` — Llama 라이선스 의무 체크리스트 (가이드 AI-2)
-- [ ] `components/VexStatus.vue` — VEX 4상태값 (affected / not_affected / fixed / under_investigation)
-- [ ] `components/CvssScoring.vue` — CVSS 4.0 + EPSS + KEV 통합 점수
-- [ ] `components/RegulatoryDeadline.vue` — EU CRA 24h 등 법규 시한 표
+- [ ] `components/RegulatoryDeadline.vue` — EU CRA 24h 등 법규 시한
 
 ### 검증
-- [ ] 각 컴포넌트별 demo 슬라이드 1장 → `slidev` 로컬에서 렌더링 확인
+- [x] 핵심 5종 demo 슬라이드(slides.md) → `slidev build` 렌더 통과 (2.53s, 0 에러) [2026-05-22]
 
 ---
 
