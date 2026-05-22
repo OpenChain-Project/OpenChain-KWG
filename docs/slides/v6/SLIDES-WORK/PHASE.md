@@ -7,10 +7,10 @@
 
 ## 현재 상태
 
-- **Phase**: 0 (기반 준비) — **완료**
-- **상태**: Phase 1 진입 대기
-- **마지막 갱신**: 2026-05-12
-- **다음 작업**: 사용자 승인("Phase 1 진행해줘") 후 Phase 1 진입 — 디자인 토큰 + 컴포넌트 라이브러리
+- **Phase**: 1 (디자인 토큰 + 컴포넌트 라이브러리) — **진행 중**
+- **상태**: `DESIGN-TOKENS.md` 작성 완료(사용자 확인 대기) → `tokens.css` 구현 예정
+- **마지막 갱신**: 2026-05-22
+- **다음 작업**: DESIGN-TOKENS 확인 후 → `styles/tokens.css` 구현 → `COMPONENTS.md` → 컴포넌트 11종
 
 ---
 
@@ -40,7 +40,7 @@
 **진입 명령**: "Phase 0 진행해줘"
 
 ### Phase 1 — 디자인 토큰 + 컴포넌트 라이브러리
-- [ ] `DESIGN-TOKENS.md` 작성 (컬러·여백·타이포·alert·코드 블록)
+- [x] `DESIGN-TOKENS.md` 작성 (디자인 철학 + 컬러·여백·타이포·alert·코드 블록) [2026-05-22]
 - [ ] `styles/tokens.css` 구현
 - [ ] `COMPONENTS.md`에 11종 컴포넌트 인벤토리·시그니처 정의
 - [ ] 핵심 컴포넌트 6종 구현 (`<EvidenceCard>`, `<StandardCompare>`, `<HexCoreElements>`, `<Callout>`, `<CodeShowcase>`, `<TimelineEvent>`)
@@ -103,6 +103,7 @@
 
 ## 마지막 완료 작업
 
+- [2026-05-22] **Phase 1 진입 + DESIGN-TOKENS 재설계** — 디자인 기준을 "명확성·집중·신뢰"로 확정(미니멀은 수단). 데이터 의미색 자유·파트 길찾기·핵심 숫자 강조 추가, 화면 모드 **다크 위주 + 라이트 export** 듀얼 토큰. 브랜드 색 사이트 `_variables_project.scss` 계승(틸 #01819a/#02abb8, 다크에선 밝게 조정). 손글씨·낙서는 배제 유지.
 - [2026-05-12] **Phase 0 완료** — Slidev 스캐폴드, archive 보존, npm install·build 통과, .gitignore 갱신.
   - 빌드 산출물: `static/slides/enterprise-oss-governance/index.html` (gitignore됨)
   - 빌드 시간: 7.24s / 의존성 684개
