@@ -23,9 +23,10 @@
 ## Phase 1: 디자인 토큰 + 컴포넌트 라이브러리
 
 ### 디자인 시스템
-- [ ] `DESIGN-TOKENS.md` 작성 — 컬러 팔레트(primary·secondary·warn·muted), 여백, 타이포, alert color 매핑, 코드 블록 스타일
-- [ ] `styles/tokens.css` 구현 (CSS variables)
-- [ ] 가이드 `STYLE-REPORT.md`의 통일성 규칙(alert color, 약어, ISO 인용) 반영
+- [x] **`DESIGN-TOKENS.md` "디자인 철학"** (2026-05-22): 도구 **Slidev 유지**. 1차 기준 = **명확성·집중·신뢰**("AI 냄새 회피"는 부수 효과로 재정의). 미니멀·일관성은 수단으로 유지하되 ★ 데이터 의미색 자유 + 파트 길찾기 + 절제된 강조(핵심 숫자) 강화. 손글씨·낙서 일러스트는 배제 [2026-05-22]
+- [x] `DESIGN-TOKENS.md` 작성 — 브랜드 색 사이트 계승(틸 #01819a/#02abb8), **다크 위주 + 라이트 export 듀얼 토큰**, 데이터 viz(순서형·범주형)·파트 길찾기·Callout 매핑·Shiki dual theme 정의 [2026-05-22]
+- [x] `styles/tokens.css` 구현 (다크 `:root` + 라이트 `.light`/print 오버라이드, 61종 토큰) + `style.css` 진입점(Slidev 자동 로드, 토큰 기반 base 스타일). slidev build PASS·번들 토큰 반영 확인 [2026-05-22]
+- [x] 가이드 통일성 규칙 반영 — DESIGN-TOKENS §5에 alert color 매핑(info/success/warn/critical) + ISO 인용 박스 규칙(5230=success·18974=warn) 계승 [2026-05-22]
 
 ### 컴포넌트 인벤토리
 - [ ] `COMPONENTS.md` 작성 — 11종 컴포넌트별 props·slot·예시 명시
