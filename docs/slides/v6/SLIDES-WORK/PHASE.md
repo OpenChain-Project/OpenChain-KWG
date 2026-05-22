@@ -7,10 +7,10 @@
 
 ## 현재 상태
 
-- **Phase**: 1 (디자인 토큰 + 컴포넌트 라이브러리) — **진행 중**
-- **상태**: `DESIGN-TOKENS.md` 작성 완료(사용자 확인 대기) → `tokens.css` 구현 예정
+- **Phase**: 1 (디자인 토큰 + 컴포넌트 라이브러리) — **마무리 단계**
+- **상태**: 디자인 토큰 + COMPONENTS.md + 핵심 5종 컴포넌트 + demo 빌드 검증 완료. 나머지 6종은 Phase 3로 deferred → **Phase 1 사실상 종료, Phase 2 진입 대기**
 - **마지막 갱신**: 2026-05-22
-- **다음 작업**: DESIGN-TOKENS 확인 후 → `styles/tokens.css` 구현 → `COMPONENTS.md` → 컴포넌트 11종
+- **다음 작업**: Phase 2 (콘텐츠 기획 — GAP·CRITIC·EVIDENCE-MAP·PLAN) 진입. deferred 컴포넌트는 Phase 3 작성 중 필요 시 추출
 
 ---
 
@@ -41,11 +41,11 @@
 
 ### Phase 1 — 디자인 토큰 + 컴포넌트 라이브러리
 - [x] `DESIGN-TOKENS.md` 작성 (디자인 철학 + 컬러·여백·타이포·alert·코드 블록) [2026-05-22]
-- [ ] `styles/tokens.css` 구현
-- [ ] `COMPONENTS.md`에 11종 컴포넌트 인벤토리·시그니처 정의
-- [ ] 핵심 컴포넌트 6종 구현 (`<EvidenceCard>`, `<StandardCompare>`, `<HexCoreElements>`, `<Callout>`, `<CodeShowcase>`, `<TimelineEvent>`)
-- [ ] AI·보안 특화 컴포넌트 5종 구현 (`<RegulatoryMatrix>`, `<LlamaChecklist>`, `<VexStatus>`, `<CvssScoring>`, `<RegulatoryDeadline>`)
-- [ ] 컴포넌트별 demo 슬라이드 1장씩 렌더링 통과
+- [x] `styles/tokens.css` + `style.css` 구현 (다크 위주 + 라이트 export 듀얼) [2026-05-22]
+- [x] `COMPONENTS.md` 11종 인벤토리·시그니처 정의 [2026-05-22]
+- [x] 핵심 5종 구현 (`<Callout>`·`<EvidenceCard>`·`<VexStatus>`·`<CvssScoring>`·`<StandardCompare>`) [2026-05-22]
+- [~] 나머지 6종 Deferred → Phase 3 중 3회 반복 시 추출 (CodeShowcase·HexCoreElements·TimelineEvent·RegulatoryMatrix·LlamaChecklist·RegulatoryDeadline)
+- [x] 핵심 5종 demo 슬라이드 `slidev build` 렌더 통과 [2026-05-22]
 
 **진입 명령**: "Phase 1 진행해줘"
 
@@ -103,6 +103,7 @@
 
 ## 마지막 완료 작업
 
+- [2026-05-22] **Phase 1 핵심 구현 완료** — `COMPONENTS.md`(11종 설계도) + 핵심 5종 `.vue`(Callout·EvidenceCard·VexStatus·CvssScoring·StandardCompare) 토큰 기반 구현 + slides.md demo 5장 + `slidev build` 렌더 통과(2.53s). 나머지 6종은 YAGNI 원칙으로 Phase 3 deferred.
 - [2026-05-22] **Phase 1 진입 + DESIGN-TOKENS 재설계** — 디자인 기준을 "명확성·집중·신뢰"로 확정(미니멀은 수단). 데이터 의미색 자유·파트 길찾기·핵심 숫자 강조 추가, 화면 모드 **다크 위주 + 라이트 export** 듀얼 토큰. 브랜드 색 사이트 `_variables_project.scss` 계승(틸 #01819a/#02abb8, 다크에선 밝게 조정). 손글씨·낙서는 배제 유지.
 - [2026-05-12] **Phase 0 완료** — Slidev 스캐폴드, archive 보존, npm install·build 통과, .gitignore 갱신.
   - 빌드 산출물: `static/slides/enterprise-oss-governance/index.html` (gitignore됨)
