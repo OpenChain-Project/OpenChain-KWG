@@ -142,7 +142,7 @@ and organizations may adopt either one or both.
 ```
 
 For the key field specifications of each standard (12 fields in SPDX 3.0 AI Profile / 4 modelCard areas in CycloneDX 1.6 ML-BOM)
-as well as authoring examples and tool usage, refer to the [AI SBOM Guide (Korean)](/ko/guide/iso42001_guide/4-operation/2-ai-sbom/).
+as well as authoring examples and tool usage, refer to the [AI SBOM Guide (Korean)](/OpenChain-KWG/guide/iso42001_guide/4-operation/2-ai-sbom/).
 
 
 ### (3) Managing Training Datasets
@@ -180,7 +180,7 @@ the following clauses connect directly to open source management.
 | §8.6 AI Data | Manage dataset licenses |
 | §8.8 External AI Procurement | Verify the supply chain of external open source models |
 
-Full guide on the open source cross-cutting requirements of ISO/IEC 42001: **[ISO/IEC 42001 Guide (Korean)](/ko/guide/iso42001_guide/)**
+Full guide on the open source cross-cutting requirements of ISO/IEC 42001: **[ISO/IEC 42001 Guide (Korean)](/OpenChain-KWG/guide/iso42001_guide/)**
 
 
 ## 4. Leveraging AI Work Group Deliverables
@@ -318,7 +318,7 @@ Specify the following items in your internal policy or AI coding tool guidelines
 #### 5-5. External Fact References
 
 This subsection corresponds to the obligations of the US Copyright Office AI guidance · EU AI Act §50 · Korea AI Basic Act
-in [§1 Global AI Regulation Matrix (Korean)](/ko/guide/iso42001_guide/1-context-leadership/#41-조직과-조직-맥락-이해).
+in [§1 Global AI Regulation Matrix (Korean)](/OpenChain-KWG/guide/iso42001_guide/1-context-leadership/#41-조직과-조직-맥락-이해).
 When regulations change, check the matrix above first.
 
 #### Checkpoints
@@ -347,11 +347,11 @@ Through this section, a company can gain the following benefits:
 ---
 
 > **ISO/IEC 5230 / 18974 / 42001 Compliance Guide** — Clauses related to this section:
-> - [ISO/IEC 42001 Guide Home (Korean)](/ko/guide/iso42001_guide/) — Overview of the entire AI management system
-> - [§5.2 Policy (Korean)](/ko/guide/iso42001_guide/1-context-leadership/) — Including OSS principles in the AI policy
-> - [§6.1.2 AI Risk Assessment (Korean)](/ko/guide/iso42001_guide/2-planning/) — OSS risk assessment
-> - [§7.5 Documentation (Korean)](/ko/guide/iso42001_guide/3-support/) — AI SBOM
-> - [§8.5 · §8.6 AI System · Data (Korean)](/ko/guide/iso42001_guide/4-operation/1-oss-in-ai/) — OSS management during operation
-> - [§8.8 External AI Procurement (Korean)](/ko/guide/iso42001_guide/4-operation/3-supply-chain/) — AI supply chain verification
-> - [AI SBOM Guide (Korean)](/ko/guide/iso42001_guide/4-operation/2-ai-sbom/) — SPDX 3.0 AI Profile
+> - [ISO/IEC 42001 Guide Home (Korean)](/OpenChain-KWG/guide/iso42001_guide/) — Overview of the entire AI management system
+> - [§5.2 Policy (Korean)](/OpenChain-KWG/guide/iso42001_guide/1-context-leadership/) — Including OSS principles in the AI policy
+> - [§6.1.2 AI Risk Assessment (Korean)](/OpenChain-KWG/guide/iso42001_guide/2-planning/) — OSS risk assessment
+> - [§7.5 Documentation (Korean)](/OpenChain-KWG/guide/iso42001_guide/3-support/) — AI SBOM
+> - [§8.5 · §8.6 AI System · Data (Korean)](/OpenChain-KWG/guide/iso42001_guide/4-operation/1-oss-in-ai/) — OSS management during operation
+> - [§8.8 External AI Procurement (Korean)](/OpenChain-KWG/guide/iso42001_guide/4-operation/3-supply-chain/) — AI supply chain verification
+> - [AI SBOM Guide (Korean)](/OpenChain-KWG/guide/iso42001_guide/4-operation/2-ai-sbom/) — SPDX 3.0 AI Profile
 > - [ISO/IEC 5230 Guide — §3.3.1 SBOM](../../iso5230_guide/3-content-review/1-sbom/) — General SBOM criteria

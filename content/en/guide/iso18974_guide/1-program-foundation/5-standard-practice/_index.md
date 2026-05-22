@@ -98,7 +98,7 @@ Define a method to detect the existence of CVEs (Common Vulnerabilities and Expo
 - Integrate SCA (Software Composition Analysis) tools into the CI/CD pipeline.
 - Automatically run SBOM-based vulnerability scans on every build.
 - Reference multiple vulnerability databases in parallel: OSV.dev (Google), NVD (US NIST),
-  GitHub Security Advisories (GHSA), and KISA KVE (Korea Internet & Security Agency).
+  GitHub Security Advisories (GHSA), and KISA KNVD (Korea Internet & Security Agency).
 - In addition to CVSS scores, also record EPSS (Exploit Prediction Scoring System) scores and
   CISA KEV (Known Exploited Vulnerabilities) catalog entries for detected vulnerabilities.
 - Automatically notify the security team of detected vulnerabilities along with their severity.
