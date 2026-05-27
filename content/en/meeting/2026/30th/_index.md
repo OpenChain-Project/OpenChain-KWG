@@ -53,8 +53,8 @@ sharing practical cases that practitioners can apply immediately.
   </div>
   <div style="border:1px solid #f0d860;border-radius:12px;padding:12px 14px;background:#fffef5;border-left:4px solid #ffd400;">
     <strong style="color:#8b6914;">Session 3</strong><br>
-    Open Source Checklist Analysis for Financial Sector Audits<br>
-    <span style="font-size:13px;color:#6b5a30;">KakaoBank</span>
+    Experience Report on Open Source Operations as a Financial Company<br>
+    <span style="font-size:13px;color:#6b5a30;">Minae Lee · KakaoBank</span>
   </div>
 </div>
 
@@ -89,7 +89,7 @@ sharing practical cases that practitioners can apply immediately.
   </div>
   <div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0d860;border-radius:12px;padding:12px 14px;background:#fff9db;border-left:4px solid #ffd400;">
     <div style="font-weight:800;color:#8b6914;">15:40-16:05</div>
-    <div><strong>Session 3. Open Source Checklist Analysis for Financial Sector Audits</strong><br><span style="font-size:13px;color:#6b5a30;">KakaoBank</span></div>
+    <div><strong>Session 3. Experience Report on Open Source Operations as a Financial Company</strong><br><span style="font-size:13px;color:#6b5a30;">Minae Lee · KakaoBank</span></div>
   </div>
   <div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0e8c0;border-radius:12px;padding:12px 14px;background:#fffef8;">
     <div style="font-weight:800;color:#8b6914;">16:05-16:50</div>
