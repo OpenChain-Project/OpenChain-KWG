@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Meeting on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/categories/meeting/</link><description>Recent content in Meeting on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Wed, 27 May 2026 21:41:33 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/categories/meeting/index.xml" rel="self" type="application/rss+xml"/><item><title>1st Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2019/1st/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2019/1st/</guid><description>&lt;img src="20190123_1406369.jpg" width="90%"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Meeting on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/categories/meeting/</link><description>Recent content in Meeting on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Wed, 27 May 2026 22:35:06 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/categories/meeting/index.xml" rel="self" type="application/rss+xml"/><item><title>1st Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2019/1st/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2019/1st/</guid><description>&lt;img src="20190123_1406369.jpg" width="90%"&gt;
 &lt;h2 id="organizer"&gt;Organizer&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;LG Electronics&lt;/li&gt;
@@ -3192,8 +3192,8 @@ _&lt;center&gt; &lt; designed by [@soimkim](https://github.com/soimkim) &gt; &lt
  &lt;/div&gt;
  &lt;div style="border:1px solid #f0d860;border-radius:12px;padding:12px 14px;background:#fffef5;border-left:4px solid #ffd400;"&gt;
  &lt;strong style="color:#8b6914;"&gt;Session 3&lt;/strong&gt;&lt;br&gt;
- 금융권 감사 대비 오픈소스 체크리스트 분석&lt;br&gt;
- &lt;span style="font-size:13px;color:#6b5a30;"&gt;카카오뱅크&lt;/span&gt;
+ 금융회사로서의 오픈소스 관련 업무 대응 후기&lt;br&gt;
+ &lt;span style="font-size:13px;color:#6b5a30;"&gt;이민애 · 카카오뱅크&lt;/span&gt;
  &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2 id="이런-분께-추천"&gt;이런 분께 추천&lt;/h2&gt;
@@ -3226,7 +3226,7 @@ _&lt;center&gt; &lt; designed by [@soimkim](https://github.com/soimkim) &gt; &lt
  &lt;/div&gt;
  &lt;div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0d860;border-radius:12px;padding:12px 14px;background:#fff9db;border-left:4px solid #ffd400;"&gt;
  &lt;div style="font-weight:800;color:#8b6914;"&gt;15:40-16:05&lt;/div&gt;
- &lt;div&gt;&lt;strong&gt;Session 3. 금융권 감사 대비 오픈소스 체크리스트 분석&lt;/strong&gt;&lt;br&gt;&lt;span style="font-size:13px;color:#6b5a30;"&gt;카카오뱅크&lt;/span&gt;&lt;/div&gt;
+ &lt;div&gt;&lt;strong&gt;Session 3. 금융회사로서의 오픈소스 관련 업무 대응 후기&lt;/strong&gt;&lt;br&gt;&lt;span style="font-size:13px;color:#6b5a30;"&gt;이민애 · 카카오뱅크&lt;/span&gt;&lt;/div&gt;
  &lt;/div&gt;
  &lt;div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0e8c0;border-radius:12px;padding:12px 14px;background:#fffef8;"&gt;
  &lt;div style="font-weight:800;color:#8b6914;"&gt;16:05-16:50&lt;/div&gt;
