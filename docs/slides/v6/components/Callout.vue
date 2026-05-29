@@ -15,22 +15,35 @@ defineProps<{
 </template>
 
 <style scoped>
+/* Vercel — 미세 보더 카드. 의미색은 제목 앞 점에만 (모노크롬 + 절제) */
 .oc-callout {
-  border-left: 4px solid var(--bar);
-  background: var(--bg);
-  border-radius: var(--oc-radius-md);
-  padding: var(--oc-space-md) var(--oc-space-lg);
-  margin: var(--oc-space-md) 0;
+  border: none;
+  border-left: 2px solid var(--bar);
+  background: transparent;
+  border-radius: 0;
+  padding: var(--oc-space-xs) 0 var(--oc-space-xs) var(--oc-space-lg);
+  margin: var(--oc-space-lg) 0;
   color: var(--oc-ink);
 }
-.oc-callout--info     { --bar: var(--oc-info);     --bg: var(--oc-info-bg); }
-.oc-callout--success  { --bar: var(--oc-success);  --bg: var(--oc-success-bg); }
-.oc-callout--warn     { --bar: var(--oc-warn);     --bg: var(--oc-warn-bg); }
-.oc-callout--critical { --bar: var(--oc-critical); --bg: var(--oc-critical-bg); }
+.oc-callout--info     { --bar: var(--oc-info); }
+.oc-callout--success  { --bar: var(--oc-success); }
+.oc-callout--warn     { --bar: var(--oc-warn); }
+.oc-callout--critical { --bar: var(--oc-critical); }
 .oc-callout__title {
   font-weight: var(--oc-weight-bold);
-  color: var(--bar);
+  color: var(--oc-ink);
   margin-bottom: var(--oc-space-xs);
+}
+/* 제목 앞 의미색 점 — 색 정보는 유지하되 면이 아닌 점으로 절제 */
+.oc-callout__title::before {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--bar);
+  margin-right: 0.5em;
+  vertical-align: middle;
 }
 .oc-callout__body { font-size: var(--oc-text-body); }
 .oc-callout__body :deep(p:last-child) { margin-bottom: 0; }

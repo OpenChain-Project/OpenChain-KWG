@@ -1,72 +1,90 @@
 /* =============================================================
-   슬라이드 v6 디자인 토큰 (tokens.css)
+   슬라이드 v6 디자인 토큰 (tokens.css) — Vercel 스타일 (라이트)
+   - 레퍼런스: 현재 vercel.com — 순백 배경 + near-black 텍스트 + Geist + 미세 회색 보더
+   - 모노크롬 환원: 색은 거의 쓰지 않고, 강조는 검정·굵기로. accent(블루)는 링크·극소 포인트만
    - 단일 기준: SLIDES-WORK/DESIGN-TOKENS.md
-   - 기본값 = 다크(발표용). 라이트(export·인쇄)는 html.light / @media print 에서 오버라이드.
    - 컴포넌트·슬라이드는 항상 var(--oc-*) 만 참조한다.
    ============================================================= */
 
 :root {
-  /* ---------- 브랜드 (다크) ---------- */
-  --oc-primary:        #16b3c9;              /* 사이트 #01819a 를 다크 대비용으로 밝게 */
-  --oc-primary-strong: #3cc8db;
-  --oc-secondary:      #02abb8;
-  --oc-primary-soft:   rgba(22, 179, 201, 0.14);
+  /* ---------- 중성 그레이 램프 (Vercel/Geist scale) ---------- */
+  --oc-gray-50:  #fafafa;
+  --oc-gray-100: #f5f5f5;
+  --oc-gray-200: #eaeaea;   /* Vercel 시그니처 보더 */
+  --oc-gray-300: #e1e1e1;
+  --oc-gray-400: #cacaca;
+  --oc-gray-500: #999999;
+  --oc-gray-600: #666666;
+  --oc-gray-700: #444444;
+  --oc-gray-800: #333333;
+  --oc-gray-900: #171717;
 
-  /* ---------- 표면·잉크 (다크) ---------- */
-  --oc-bg:        #0e1619;
-  --oc-surface:   #152126;
-  --oc-surface-2: #1c2a30;
-  --oc-ink:       #e9eef0;
-  --oc-ink-muted: #94a6ac;
-  --oc-line:      #2a373d;
+  /* ---------- 단일 강조 accent (Vercel 블루 — 극소 사용) ---------- */
+  --oc-primary:        #0070f3;   /* Vercel blue — 링크·극소 포인트 */
+  --oc-primary-strong: #0761d1;
+  --oc-secondary:      #0070f3;
+  --oc-primary-soft:   #e5f0ff;
 
-  /* ---------- 시맨틱 text (다크) ---------- */
-  --oc-info:     #3cc5db;
-  --oc-success:  #5fd08a;
-  --oc-warn:     #f0b552;
-  --oc-critical: #f0726a;
+  /* ---------- 표면·잉크 (순백 + near-black) ---------- */
+  --oc-bg:        #ffffff;
+  --oc-surface:   #fafafa;
+  --oc-surface-2: #f5f5f5;
+  --oc-ink:       #111111;        /* near-black — 제목·강조 */
+  --oc-ink-muted: #666666;        /* Vercel 보조 텍스트 */
+  --oc-line:      #eaeaea;        /* 미세 회색 보더 */
 
-  /* 시맨틱 배경/보더 파생 (다크: 저채도 fill + 보더) */
-  --oc-info-bg:      rgba(60, 197, 219, 0.12);  --oc-info-border:     rgba(60, 197, 219, 0.40);
-  --oc-success-bg:   rgba(95, 208, 138, 0.12);  --oc-success-border:  rgba(95, 208, 138, 0.40);
-  --oc-warn-bg:      rgba(240, 181, 82, 0.12);  --oc-warn-border:     rgba(240, 181, 82, 0.40);
-  --oc-critical-bg:  rgba(240, 114, 106, 0.12); --oc-critical-border: rgba(240, 114, 106, 0.40);
+  /* ---------- 시맨틱 (상태) — 의미색은 데이터·상태에만 ---------- */
+  --oc-info:     #0070f3;  --oc-info-bg:     #e5f0ff;  --oc-info-border:     #b3d4ff;
+  --oc-success:  #0f7b34;  --oc-success-bg:  #e6f4ea;  --oc-success-border:  #b8e0c2;
+  --oc-warn:     #b25000;  --oc-warn-bg:     #fdeede;  --oc-warn-border:     #f3cf9f;
+  --oc-critical: #e00000;  --oc-critical-bg: #fbe6e6;  --oc-critical-border: #f4b8b8;
 
-  /* ---------- 데이터 시각화 (다크) ---------- */
-  /* 순서형 (CVSS 계조) */
-  --oc-scale-1: #0a6b7a;
-  --oc-scale-2: #118ca0;
-  --oc-scale-3: #16b3c9;
-  --oc-scale-4: #5fd5e3;
-  /* 범주형 (VEX 상태·분류) */
-  --oc-cat-teal:   #16b3c9;
-  --oc-cat-amber:  #f0b552;
-  --oc-cat-red:    #f0726a;
-  --oc-cat-green:  #5fd08a;
-  --oc-cat-purple: #a78bfa;
-  --oc-cat-gray:   #94a6ac;
+  /* ---------- 데이터 시각화 ---------- */
+  /* 순서형 (CVSS 계조) — 무채색 단색 계조 (낮음→높음), 최고만 강조 */
+  --oc-scale-1: #eaeaea;
+  --oc-scale-2: #cacaca;
+  --oc-scale-3: #888888;
+  --oc-scale-4: #171717;
+  /* 범주형 (VEX 상태·분류) — 색이 곧 의미 (원칙: 데이터 의미색 유지) */
+  --oc-cat-teal:   #0070f3;
+  --oc-cat-amber:  #b25000;
+  --oc-cat-red:    #e00000;
+  --oc-cat-green:  #0f7b34;
+  --oc-cat-purple: #7c3aed;
+  --oc-cat-gray:   var(--oc-gray-500);
 
-  /* ---------- 파트 길찾기 (wayfinding) ---------- */
-  --oc-part-0: var(--oc-ink-muted);  /* 도입 */
-  --oc-part-1: var(--oc-primary);    /* 표준 이해 */
-  --oc-part-2: var(--oc-secondary);  /* 실무 (조직~준수) */
-  --oc-part-3: var(--oc-cat-purple); /* AI 컴플라이언스 */
-  --oc-part-4: var(--oc-cat-green);  /* 라이브 데모 */
-  --oc-part-5: var(--oc-cat-amber);  /* 마무리 */
+  /* ---------- 파트 길찾기 (섹션·인디케이터 전용, 본문은 무채색) ---------- */
+  --oc-part-0: var(--oc-ink-muted);
+  --oc-part-1: var(--oc-primary);
+  --oc-part-2: var(--oc-cat-teal);
+  --oc-part-3: var(--oc-cat-purple);
+  --oc-part-4: var(--oc-cat-green);
+  --oc-part-5: var(--oc-cat-amber);
 
-  /* ---------- 타이포그래피 ---------- */
-  --oc-font-sans: "Pretendard", -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", system-ui, sans-serif;
-  --oc-font-mono: "JetBrains Mono", "D2Coding", ui-monospace, "SFMono-Regular", monospace;
+  /* ---------- 타이포그래피 (Geist + Pretendard fallback) ---------- */
+  --oc-font-sans: "Geist", "Pretendard", -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", system-ui, sans-serif;
+  --oc-font-mono: "Geist Mono", "JetBrains Mono", "D2Coding", ui-monospace, "SFMono-Regular", monospace;
 
-  --oc-text-display: 3.5rem;
-  --oc-text-h1:      2.25rem;
-  --oc-text-h2:      1.75rem;
-  --oc-text-h3:      1.375rem;
-  --oc-text-body:    1.125rem;
-  --oc-text-small:   0.875rem;
-  --oc-text-caption: 0.75rem;
-  --oc-text-stat:    4.5rem;   /* 핵심 숫자 강조 */
-  --oc-weight-bold:  700;
+  /* 슬라이드 캔버스(16:9 고정)에 맞춘 스케일 — 한 화면에 fit */
+  --oc-text-display: 1.9rem;
+  --oc-text-h1:      1.5rem;
+  --oc-text-h2:      1.15rem;
+  --oc-text-h3:      0.95rem;
+  --oc-text-body:    0.88rem;
+  --oc-text-small:   0.74rem;
+  --oc-text-caption: 0.62rem;
+  --oc-text-stat:    2.1rem;
+  --oc-weight-bold:  600;
+
+  /* 자간 (Vercel — display 매우 tight) */
+  --oc-tracking-tight:  -0.04em;   /* display·h1 */
+  --oc-tracking-snug:   -0.02em;   /* h2·h3 */
+  --oc-tracking-normal: -0.01em;   /* 본문도 살짝 tight (Vercel) */
+
+  /* 라인하이트 */
+  --oc-leading-tight:  1.1;
+  --oc-leading-snug:   1.3;
+  --oc-leading-normal: 1.6;
 
   /* ---------- 간격 ---------- */
   --oc-space-xs:  0.25rem;
@@ -77,82 +95,28 @@
   --oc-space-2xl: 4rem;
   --oc-space-3xl: 6rem;
 
-  /* ---------- 형태 ---------- */
+  --oc-content-max: 62rem;
+
+  /* ---------- 형태 (Vercel — 작은 radius, 미세 보더, 미묘 그림자) ---------- */
   --oc-radius-sm: 4px;
-  --oc-radius-md: 8px;
-  --oc-radius-lg: 12px;
+  --oc-radius-md: 6px;
+  --oc-radius-lg: 10px;
   --oc-border: 1px solid var(--oc-line);
-  --oc-elevation: 0 1px 0 rgba(255, 255, 255, 0.04) inset, 0 8px 24px rgba(0, 0, 0, 0.35);
+  --oc-elevation: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --oc-elevation-hover: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+  /* ---------- 모션 ---------- */
+  --oc-motion-fast: 150ms;
+  --oc-motion-base: 250ms;
+  --oc-ease:        cubic-bezier(.2, .7, .3, 1);
 
   /* ---------- Slidev 테마 변수 매핑 ---------- */
   --slidev-theme-primary: var(--oc-primary);
 }
 
-/* =============================================================
-   라이트 모드 (export·인쇄) — 의미는 동일, 명도만 반전
-   Slidev 라이트일 때 html 에 .dark 가 없으므로 html:not(.dark) 로도 적용.
-   ============================================================= */
-html.light,
-html:not(.dark) {
-  /* 브랜드 */
-  --oc-primary:        #01819a;
-  --oc-primary-strong: #016072;
-  --oc-secondary:      #02abb8;
-  --oc-primary-soft:   #e8f4f6;
-
-  /* 표면·잉크 */
-  --oc-bg:        #ffffff;
-  --oc-surface:   #f6f9fa;
-  --oc-surface-2: #eef3f5;
-  --oc-ink:       #14181a;
-  --oc-ink-muted: #5a6b70;
-  --oc-line:      #e2e8ea;
-
-  /* 시맨틱 text */
-  --oc-info:     #01708a;
-  --oc-success:  #2f7d4f;
-  --oc-warn:     #9a6b00;
-  --oc-critical: #b3382f;
-
-  /* 시맨틱 배경/보더 (라이트: 연색 fill + 중채도 보더) */
-  --oc-info-bg:     #e8f4f6;  --oc-info-border:     #b8dde3;
-  --oc-success-bg:  #eaf5ee;  --oc-success-border:  #bfe0cc;
-  --oc-warn-bg:     #fbf3e0;  --oc-warn-border:     #ecd9a8;
-  --oc-critical-bg: #fbebe9;  --oc-critical-border: #f0c4be;
-
-  /* 데이터 시각화 (라이트) */
-  --oc-scale-1: #7fc9cf;
-  --oc-scale-2: #3aa3b3;
-  --oc-scale-3: #01819a;
-  --oc-scale-4: #015f72;
-  --oc-cat-teal:   #01819a;
-  --oc-cat-amber:  #b07d00;
-  --oc-cat-red:    #c2453a;
-  --oc-cat-green:  #2f8a52;
-  --oc-cat-purple: #7c5cd6;
-  --oc-cat-gray:   #5a6b70;
-
-  /* 형태 — 라이트는 그림자 없이 보더로 깊이 */
-  --oc-elevation: none;
-}
-
-/* 인쇄는 항상 라이트 토큰 강제 */
-@media print {
+@media (prefers-reduced-motion: reduce) {
   :root {
-    --oc-primary:        #01819a;
-    --oc-primary-strong: #016072;
-    --oc-primary-soft:   #e8f4f6;
-    --oc-bg:        #ffffff;
-    --oc-surface:   #f6f9fa;
-    --oc-surface-2: #eef3f5;
-    --oc-ink:       #14181a;
-    --oc-ink-muted: #5a6b70;
-    --oc-line:      #e2e8ea;
-    --oc-info: #01708a; --oc-success: #2f7d4f; --oc-warn: #9a6b00; --oc-critical: #b3382f;
-    --oc-info-bg: #e8f4f6; --oc-info-border: #b8dde3;
-    --oc-success-bg: #eaf5ee; --oc-success-border: #bfe0cc;
-    --oc-warn-bg: #fbf3e0; --oc-warn-border: #ecd9a8;
-    --oc-critical-bg: #fbebe9; --oc-critical-border: #f0c4be;
-    --oc-elevation: none;
+    --oc-motion-fast: 0ms;
+    --oc-motion-base: 0ms;
   }
 }

@@ -1,9 +1,11 @@
 /* =============================================================
-   슬라이드 v6 전역 스타일 (Slidev 자동 로드 진입점)
-   - 디자인 토큰을 import 하고, 토큰 기반 base 스타일을 슬라이드에 적용한다.
-   - 값은 직접 쓰지 않고 var(--oc-*) 만 참조한다 (단일 기준: tokens.css).
+   슬라이드 v6 전역 스타일 (Slidev 자동 로드 진입점) — Vercel 스타일
+   - Geist 폰트 로드 + 토큰 기반 base 스타일.
+   - 슬라이드는 고정 16:9 캔버스 → 콘텐츠가 한 화면에 fit 되도록 스케일 절제.
+   - 순백 배경 · near-black 텍스트 · tight 타이포 · 미세 회색 보더 · 모노 라벨
    ============================================================= */
 
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500;600&display=swap');
 @import './styles/tokens.css';
 
 /* ---------- 슬라이드 컨테이너 ---------- */
@@ -12,100 +14,304 @@
   color: var(--oc-ink);
   font-family: var(--oc-font-sans);
   font-size: var(--oc-text-body);
-  line-height: 1.6;
-  padding: var(--oc-space-2xl);
+  line-height: var(--oc-leading-normal);
+  letter-spacing: var(--oc-tracking-normal);
+  padding: 2rem 2.5rem 1.6rem;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
-/* ---------- 제목 ---------- */
+/* ---------- 제목 (Vercel 헤드라인 — tight, 밑줄 없음) ---------- */
 .slidev-layout h1 {
   font-size: var(--oc-text-h1);
   font-weight: 600;
-  line-height: 1.2;
+  line-height: var(--oc-leading-tight);
+  letter-spacing: var(--oc-tracking-tight);
   color: var(--oc-ink);
-  margin-bottom: var(--oc-space-lg);
+  margin: 0 0 var(--oc-space-md);
 }
 .slidev-layout h2 {
   font-size: var(--oc-text-h2);
   font-weight: 600;
-  line-height: 1.25;
+  line-height: var(--oc-leading-snug);
+  letter-spacing: var(--oc-tracking-snug);
   color: var(--oc-ink);
 }
 .slidev-layout h3 {
   font-size: var(--oc-text-h3);
   font-weight: 600;
-  line-height: 1.3;
+  line-height: var(--oc-leading-snug);
+  letter-spacing: var(--oc-tracking-snug);
   color: var(--oc-ink);
 }
 
 /* ---------- 본문·링크·강조 ---------- */
 .slidev-layout p,
-.slidev-layout li {
-  color: var(--oc-ink);
+.slidev-layout li { color: var(--oc-ink); }
+.slidev-layout p,
+.slidev-layout ul,
+.slidev-layout ol { max-width: var(--oc-content-max); }
+
+.slidev-layout a { color: var(--oc-primary); text-decoration: none; }
+.slidev-layout a:hover { color: var(--oc-primary-strong); }
+.slidev-layout strong { font-weight: var(--oc-weight-bold); color: var(--oc-ink); }
+
+/* 미니멀 리스트 — 회색 대시 마커 */
+.slidev-layout ul { list-style: none; padding-left: 0; }
+.slidev-layout ul > li {
+  position: relative;
+  padding-left: 1.1em;
+  margin: 0.35em 0;
 }
-.slidev-layout a {
-  color: var(--oc-secondary);
-  text-decoration: none;
+.slidev-layout ul > li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+  width: 0.55em;
+  height: 1.5px;
+  background: var(--oc-gray-400);
 }
-.slidev-layout a:hover {
-  color: var(--oc-primary-strong);
-}
-.slidev-layout strong {
-  font-weight: var(--oc-weight-bold);
-  color: var(--oc-primary);
-}
+.slidev-layout ol { padding-left: 1.4em; }
+.slidev-layout ol > li { margin: 0.35em 0; }
 
 /* ---------- 코드 ---------- */
 .slidev-layout :not(pre) > code {
   font-family: var(--oc-font-mono);
-  font-size: 0.95em;
-  background: var(--oc-primary-soft);
+  font-size: 0.9em;
+  background: var(--oc-surface-2);
   color: var(--oc-ink);
-  padding: 0.1em 0.35em;
+  padding: 0.1em 0.4em;
   border-radius: var(--oc-radius-sm);
+  border: 1px solid var(--oc-line);
 }
 .slidev-layout pre {
-  background: var(--oc-surface-2);
-  border: var(--oc-border);
-  border-radius: var(--oc-radius-md);
+  background: var(--oc-surface);
+  border: 1px solid var(--oc-line);
+  border-radius: var(--oc-radius-lg);
   padding: var(--oc-space-md);
+  font-size: var(--oc-text-small);
 }
-.slidev-layout pre code {
-  background: transparent;
-  padding: 0;
-}
+.slidev-layout pre code { background: transparent; padding: 0; border: none; }
 
-/* ---------- 표 ---------- */
+/* ---------- 표 (Vercel 데이터 테이블 — 미세 헤어라인) ---------- */
 .slidev-layout table {
   border-collapse: collapse;
   font-size: var(--oc-text-small);
+  width: 100%;
 }
 .slidev-layout th,
 .slidev-layout td {
-  border: var(--oc-border);
-  padding: var(--oc-space-sm) var(--oc-space-md);
+  border: none;
+  border-bottom: 1px solid var(--oc-line);
+  padding: 0.4rem 0.7rem;
   text-align: left;
 }
 .slidev-layout th {
-  background: var(--oc-surface);
-  color: var(--oc-ink);
+  color: var(--oc-ink-muted);
+  font-weight: 500;
+  font-size: var(--oc-text-caption);
+  letter-spacing: 0.02em;
+}
+.slidev-layout tbody tr:last-child td { border-bottom: none; }
+
+/* ---------- 표지 (Vercel cover) ---------- */
+.slidev-layout.oc-cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  padding: 2.5rem 3rem;
+  gap: var(--oc-space-md);
+  height: 100%;
+}
+.oc-cover__eyebrow {
+  font-family: var(--oc-font-mono);
+  font-size: var(--oc-text-small);
+  font-weight: 500;
+  color: var(--oc-ink-muted);
+}
+.slidev-layout.oc-cover h1 {
+  font-size: var(--oc-text-display);
   font-weight: 600;
+  line-height: var(--oc-leading-tight);
+  letter-spacing: var(--oc-tracking-tight);
+  margin: 0;
+  max-width: 22ch;
+  color: var(--oc-ink);
+}
+.oc-cover__sub {
+  font-size: var(--oc-text-h3);
+  color: var(--oc-ink-muted);
+  font-weight: 400;
+  letter-spacing: var(--oc-tracking-snug);
+}
+.oc-cover__meta {
+  margin-top: var(--oc-space-sm);
+  font-family: var(--oc-font-mono);
+  font-size: var(--oc-text-small);
+  color: var(--oc-ink-muted);
+  padding-top: var(--oc-space-md);
+  border-top: 1px solid var(--oc-line);
+}
+
+/* ---------- 콘텐츠 슬라이드 (모노 kicker + 헤드라인 + lead + 푸터) ---------- */
+.slidev-layout.oc-consult {
+  display: flex;
+  flex-direction: column;
+  padding: 1.8rem 2.5rem 1.3rem;
+  height: 100%;
+}
+.oc-consult__kicker {
+  font-family: var(--oc-font-mono);
+  font-size: var(--oc-text-small);
+  font-weight: 500;
+  color: var(--oc-ink-muted);
+  margin-bottom: 0.4rem;
+}
+.slidev-layout.oc-consult h1 {
+  font-size: var(--oc-text-h1);
+  font-weight: 600;
+  line-height: var(--oc-leading-tight);
+  letter-spacing: var(--oc-tracking-tight);
+  color: var(--oc-ink);
+  margin: 0 0 0.3rem;
+}
+.oc-consult__body { flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; justify-content: center; }
+.oc-consult__body > * { width: 100%; }
+/* body가 동시에 bento(grid)일 때: grid가 display를 이기므로 grid 정렬로 세로 중앙 */
+.oc-consult__body.oc-bento { align-content: center; }
+.oc-consult__source {
+  margin-top: var(--oc-space-md);
+  padding-top: var(--oc-space-sm);
+  border-top: 1px solid var(--oc-line);
+  font-family: var(--oc-font-mono);
+  font-size: var(--oc-text-caption);
+  color: var(--oc-ink-muted);
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ---------- Bento 그리드 + 카드 (Vercel 랜딩 섹션 구성) ---------- */
+.oc-bento {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--oc-space-lg) var(--oc-space-xl);
+  flex: 1 1 auto;
+  min-height: 0;
+  align-content: start;
+  margin-top: var(--oc-space-md);
+}
+/* 박스 제거 — 테두리·배경·그림자 없이 여백+라벨로 구분 (절제) */
+.oc-card {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--oc-space-xs);
+  min-height: 0;
+  overflow: hidden;
+}
+.oc-card--wide  { grid-column: 1 / -1; }
+.oc-card--span2 { grid-column: span 2; }
+/* 카드 라벨 아래 얇은 구분선으로 그룹 표시 (박스 대체) */
+.oc-card .oc-card__label {
+  padding-bottom: var(--oc-space-xs);
+  border-bottom: 1px solid var(--oc-line);
+  margin-bottom: var(--oc-space-xs);
+}
+.oc-card__label {
+  font-family: var(--oc-font-mono);
+  font-size: var(--oc-text-caption);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--oc-ink-muted);
+}
+.oc-card .oc-flow { margin: var(--oc-space-sm) 0 0; }
+.oc-bento--2 { grid-template-columns: 1fr 1fr; }
+.oc-card h3 { font-size: var(--oc-text-h3); font-weight: 600; margin: 0 0 0.3rem; color: var(--oc-ink); }
+.oc-card ul { margin: 0; }
+.oc-card ul > li { margin: 0.3em 0; font-size: var(--oc-text-small); }
+.oc-card ol { margin: 0; padding-left: 1.2em; }
+.oc-card ol > li { margin: 0.3em 0; font-size: var(--oc-text-small); }
+.oc-card :deep(.oc-evcard) { height: 100%; }
+.oc-card__text { font-size: var(--oc-text-small); line-height: 1.5; color: var(--oc-ink); }
+
+/* ---------- 섹션 디바이더 (Part 전환 — Vercel 다크 섹션) ---------- */
+.slidev-layout.oc-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--oc-ink);
+  color: #fff;
+  padding: 3rem;
+  height: 100%;
+}
+.slidev-layout.oc-section h1 {
+  font-size: var(--oc-text-display);
+  font-weight: 600;
+  letter-spacing: var(--oc-tracking-tight);
+  line-height: var(--oc-leading-tight);
+  color: #fff;
+  margin: var(--oc-space-sm) 0 0;
+}
+.oc-section__num {
+  font-family: var(--oc-font-mono);
+  font-size: var(--oc-text-small);
+  color: var(--oc-gray-500);
+  letter-spacing: 0.04em;
+}
+.oc-section__sub {
+  font-size: var(--oc-text-h3);
+  color: var(--oc-gray-400);
+  font-weight: 400;
+  margin-top: var(--oc-space-md);
+}
+
+/* ---------- 본문 상단 보조 (eyebrow 라벨 + lead 부제) ---------- */
+.oc-eyebrow {
+  font-family: var(--oc-font-mono);
+  font-size: var(--oc-text-small);
+  font-weight: 500;
+  color: var(--oc-ink-muted);
+  margin-bottom: 0.4rem;
+}
+.oc-lead {
+  font-size: var(--oc-text-h3);
+  color: var(--oc-ink-muted);
+  font-weight: 400;
+  line-height: var(--oc-leading-snug);
+  letter-spacing: var(--oc-tracking-snug);
+  margin-bottom: var(--oc-space-md);
+  max-width: var(--oc-content-max);
 }
 
 /* ---------- 유틸리티 ---------- */
-/* 핵심 숫자 강조 (절제된 강조) */
 .oc-stat {
   font-size: var(--oc-text-stat);
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1;
-  color: var(--oc-primary);
+  letter-spacing: var(--oc-tracking-tight);
+  color: var(--oc-ink);
+  font-feature-settings: "tnum" 1;
 }
-/* 강조 밑줄 */
-.oc-underline {
-  border-bottom: 2px solid var(--oc-primary);
-  padding-bottom: 1px;
-}
-/* 캡션·출처 */
-.oc-caption {
-  font-size: var(--oc-text-caption);
-  color: var(--oc-ink-muted);
-}
+.oc-accent { color: var(--oc-primary); font-weight: var(--oc-weight-bold); }
+.oc-caption { font-size: var(--oc-text-caption); color: var(--oc-ink-muted); }
+
+/* ---------- 페이지 번호 ---------- */
+/* slide 모드: $page 정상 → 표지(is-cover) 숨김, 본문은 $page 텍스트 표시 */
+.oc-pagenum.is-cover { display: none; }
+/* print 모드(export): $page가 1로 고정 → is-cover 일괄 복원 + counter로 실제 번호 */
+.print-slide-container { counter-increment: ocpage; }
+.print-slide-container .oc-pagenum.is-cover { display: block; }
+.print-slide-container .oc-pagenum__n { font-size: 0; }
+.print-slide-container .oc-pagenum__n::before { content: counter(ocpage); font-size: 0.58rem; }
+/* print 진짜 표지(첫 컨테이너)만 숨김 — 나중 선언으로 우선 적용 */
+.print-slide-container:first-child .oc-pagenum { display: none; }

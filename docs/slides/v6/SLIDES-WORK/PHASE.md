@@ -7,10 +7,15 @@
 
 ## 현재 상태
 
-- **Phase**: 6 (배포 전환) — **준비 완료, master push만 대기** (Phase 5 빌드 검증 완료)
-- **상태**: 워크플로 Marp→Slidev 교체 + training-slides ko/en iframe src(.html→/) 갱신 + v5 원본 archive 이관 완료. Hugo --minify PASS(KO 1239·EN 875), Slidev 산출물 public 복사·iframe 경로·unsafe=true 검증.
-- **마지막 갱신**: 2026-05-22
-- **다음 작업**: **사용자 승인 후 master push** → GitHub Actions 자동 Slidev 빌드 + Hugo 배포 → GitHub Pages 노출 확인. (시각·브라우저 검증은 환경 한계로 로컬 `npm run dev` 권장)
+- **Phase**: 6 (배포 전환) — **디자인 재작업 대기** (master push 보류)
+- **상태**: 사용자 로컬 시각 검토 결과 다크·청록·컴포넌트·Mermaid·가독성 전반 재설계 필요. **라이트 토큰 1차 적용(미커밋)** — `tokens.css`(화이트 배경 + 네이비 강조 + 큰 타이포 + 그림자 제거) + `slides.md` colorSchema light.
+- **마지막 갱신**: 2026-05-27
+- **다음 작업 (재개 시)**:
+  1. 라이트 1차 적용본 시각 확인 → 방향 OK 판정
+  2. 컴포넌트 모양 단순화 (육각형 clip-path 등 투박한 것 정리)
+  3. Mermaid 도식 대거 제거 → 단순 단계 박스/텍스트 대체 (화면 넘침·"저급" 지적 해소)
+  4. 하단 초소형 푸터 (`global-bottom.vue` + frontmatter 메타) — 표준번호·출처·가이드 링크
+  5. 빌드·커밋 → master push 재논의
 
 ---
 
