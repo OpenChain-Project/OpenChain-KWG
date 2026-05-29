@@ -38,11 +38,11 @@ const statusMeta: Record<string, { color: string; label: string }> = {
 
 <style scoped>
 .oc-evcard {
-  background: var(--oc-surface);
-  border: var(--oc-border);
-  border-radius: var(--oc-radius-md);
-  padding: var(--oc-space-md) var(--oc-space-lg);
-  box-shadow: var(--oc-elevation);
+  background: transparent;
+  border: none;
+  border-top: 2px solid var(--oc-line);
+  border-radius: 0;
+  padding: var(--oc-space-md) 0 0;
 }
 .oc-evcard__head { display: flex; justify-content: space-between; align-items: baseline; }
 .oc-evcard__num {
@@ -50,6 +50,8 @@ const statusMeta: Record<string, { color: string; label: string }> = {
   font-weight: 700;
   color: var(--oc-primary);
   font-size: var(--oc-text-h3);
+  letter-spacing: var(--oc-tracking-tight);
+  font-feature-settings: "tnum" 1;
 }
 .oc-evcard__meta { display: flex; gap: var(--oc-space-sm); font-size: var(--oc-text-small); }
 .oc-evcard__std { color: var(--oc-ink-muted); }

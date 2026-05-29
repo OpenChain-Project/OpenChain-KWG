@@ -21,18 +21,18 @@ defineProps<{
 
 <style scoped>
 .oc-code {
-  border: var(--oc-border);
-  border-radius: var(--oc-radius-md);
+  border: 1px solid var(--oc-line);
+  border-radius: var(--oc-radius-lg);
   overflow: hidden;
-  background: var(--oc-surface-2);
+  background: var(--oc-surface);
 }
 .oc-code__bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--oc-space-xs) var(--oc-space-md);
-  border-bottom: var(--oc-border);
-  background: var(--oc-surface);
+  padding: var(--oc-space-sm) var(--oc-space-md);
+  border-bottom: 1px solid var(--oc-line);
+  background: var(--oc-surface-2);
 }
 .oc-code__file { font-family: var(--oc-font-mono); font-size: var(--oc-text-caption); color: var(--oc-ink); }
 .oc-code__lang {

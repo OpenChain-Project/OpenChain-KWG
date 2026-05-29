@@ -38,13 +38,19 @@ function severity(s: number) {
   display: inline-flex;
   flex-direction: column;
   gap: var(--oc-space-sm);
-  padding: var(--oc-space-md);
-  background: var(--oc-surface);
-  border: var(--oc-border);
-  border-radius: var(--oc-radius-md);
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-radius: 0;
 }
 .oc-cvss__score { display: flex; align-items: baseline; gap: var(--oc-space-sm); }
-.oc-cvss__num { font-size: var(--oc-text-stat); font-weight: 700; line-height: 1; }
+.oc-cvss__num {
+  font-size: var(--oc-text-stat);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: var(--oc-tracking-tight);
+  font-feature-settings: "tnum" 1;
+}
 .oc-cvss__sev { font-size: var(--oc-text-h3); font-weight: 600; }
 .oc-cvss__meta { display: flex; gap: var(--oc-space-xs); flex-wrap: wrap; }
 .oc-cvss__tag {

@@ -8,6 +8,10 @@ dist/
 # Slidev cache
 .slidev/
 
+# Export 산출물 (시각 검증용 임시)
+exported-test/
+exported*/
+
 # OS
 .DS_Store
 

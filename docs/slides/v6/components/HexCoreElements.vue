@@ -17,46 +17,52 @@ const defaultEls = [
 </script>
 
 <template>
-  <div class="oc-hex">
+  <div class="oc-core">
     <div
       v-for="el in (elements ?? defaultEls)"
       :key="el.id"
-      class="oc-hex__cell"
+      class="oc-core__cell"
       :class="{ 'is-active': active === el.id }"
     >
-      <span class="oc-hex__num">{{ el.id }}</span>
-      <span class="oc-hex__label">{{ el.label }}</span>
+      <span class="oc-core__num">{{ el.id }}</span>
+      <span class="oc-core__label">{{ el.label }}</span>
     </div>
   </div>
 </template>
 
 <style scoped>
-.oc-hex {
-  display: flex;
-  flex-wrap: wrap;
+/* 정렬된 3×2 그리드 카드 (clip-path 육각형 제거 — SaaS 미니멀) */
+.oc-core {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: var(--oc-space-md);
-  justify-content: center;
-  align-items: center;
+  margin: var(--oc-space-lg) 0;
 }
-.oc-hex__cell {
-  width: 9rem;
-  height: 9rem;
+.oc-core__cell {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  gap: var(--oc-space-xs);
-  background: var(--oc-surface);
-  border: var(--oc-border);
-  clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+  align-items: flex-start;
+  gap: var(--oc-space-sm);
+  min-height: 3.5rem;
+  padding: var(--oc-space-sm) 0 0;
+  border-top: 2px solid var(--oc-line);
+  color: var(--oc-ink);
+}
+.oc-core__cell.is-active { border-top-color: var(--oc-primary); }
+.oc-core__cell.is-active .oc-core__label { color: var(--oc-primary); }
+.oc-core__num {
+  font-family: var(--oc-font-mono);
+  font-weight: 700;
+  font-size: var(--oc-text-small);
+  line-height: 1;
   color: var(--oc-ink-muted);
 }
-.oc-hex__cell.is-active {
-  background: var(--oc-primary);
-  color: var(--oc-bg);
-  border-color: var(--oc-primary);
+.oc-core__cell.is-active .oc-core__num { color: var(--oc-primary); }
+.oc-core__label {
+  font-size: var(--oc-text-body);
+  font-weight: 600;
+  line-height: var(--oc-leading-snug);
+  letter-spacing: var(--oc-tracking-snug);
+  white-space: pre-line;
 }
-.oc-hex__num { font-family: var(--oc-font-mono); font-weight: 700; font-size: var(--oc-text-h3); }
-.oc-hex__label { font-size: var(--oc-text-caption); white-space: pre-line; padding: 0 var(--oc-space-sm); }
 </style>
