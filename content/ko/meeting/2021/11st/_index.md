@@ -91,27 +91,27 @@ aliases:
 
 ### 오픈소스 라이선스 변화의 흐름 (Sean(김영환)/카카오)
 1. 라이선스 변경 이력
-   * 2018년 10월, MongoDB : AGPL 3.0 → SSPL 1.0
-   * 2019년 11월, Sentry : BSD 3-Clause → BUSL 1.1
-   * 2021년 1월, ElasticSearch : Apache 2.0 → EL 2.0 or SSPL 1.0
-   * 2021년 4월, Grafana : Apache 2.0 → AGPL 3.0
-2. Grafana : Apache 2.0 → AGPL 3.0
+   * 2018년 10월, MongoDB : `AGPL 3.0 → SSPL 1.0`
+   * 2019년 11월, Sentry : `BSD 3-Clause → BUSL 1.1`
+   * 2021년 1월, ElasticSearch : `Apache 2.0 → EL 2.0 or SSPL 1.0`
+   * 2021년 4월, Grafana : `Apache 2.0 → AGPL 3.0`
+2. Grafana : `Apache 2.0 → AGPL 3.0`
    * 변경 목적은 오픈소스 커뮤니티의 자유를 유지하면서, 오픈소스를 수정한 경우 기여 문화를 장려하기 위함
    * AGPL 특징
      * 네트워크로 서비스하더라도 소스코드 공개 필요
      * GPL 소프트웨어를 사용해서 SaaS로 서비스를 제공하면 공개 의무 없으나, AGPL은 소스코드 공개 의무 발생
    * Grafana 사용 가이드
      * Apache 2.0 적용 버전은 사용해도 이슈 없고, AGPL 3.0이 적용된 버전부터 사용 시 코드 공개 의무 있음
-3. MongoDB : AGPL 3.0 → SSPL 1.0
+3. MongoDB : `AGPL 3.0 → SSPL 1.0`
    * 변경 목적은 AGPL은 클라우드에서 제공이 배포인지, 아닌지에 대한 논란의 소지가 있어서 명확하게 라이선스를 SSPL로 변경한 것
    * 클라우드 서비스 업체가 커뮤니티에 기여하지 않고 대부분의 이익을 창출하고 있다고 비판
    * 클라우드 서비스에서 **Strip-Mining**을 하고 있다고 비판함 (Strip Mining: 산이라는 생태계는 파괴하고 필요한 자원만 캐는 행위)
    * SSPL v1.0 특징
-     * 클라우드 서비스의 경우에 대해서도 소스코드 공개 의무사항을 요구 (13조항) 
+     * 클라우드 서비스의 경우에도 소스코드 공개 의무사항을 요구 (13조항) 
      * 서비스 소스코드: 프로그램 및 관리 소프트웨어 (API, 모니터링, 백업, 저장 S/W 등)
    * MongoDB 사용 가이드 
      * MongoDB를 외부에 서비스로 제공하는 경우, 서비스 소스코드를 전부 공개해야 함
-4. ElasticSearch : Apache 2.0 → Elastic License 또는 SSPL 1.0
+4. ElasticSearch : `Apache 2.0 → Elastic License 또는 SSPL 1.0`
    * 변경 목적은 MongoDB와 사례와 동일
    * Elastic License 2.0 특징
      * 거의 모든 자유를 허용하지만 아래 2가지 제한사항만 있음
@@ -121,7 +121,7 @@ aliases:
    * Elastic Search 사용 가이드
      * 7.11 이후부터 ElasticSearch를 외부에 서비스하는 경우 적용된 라이선스에 따라 서비스 소스코드를 전부 공개하거나 Elastic과 계약 필요함
      * X-pack 디렉토리 하위는 Elastic 라이선스 적용
-5. Sentry : BSD 3-Clause → BUSL 1.1
+5. Sentry : `BSD 3-Clause → BUSL 1.1`
    * 변경 목적은 Sentry 초기 개발 때 1인 개발로 시작했으나, 프로젝트가 커지면서 수익 창출이 필요했고 Sentry를 판매하는 다른 회사로부터 보호하기 위해 라이선스 변경
    * BUSL 1.1 특징
      * 2016년 MariaDB에 적용된 라이선스

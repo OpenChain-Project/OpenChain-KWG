@@ -35,7 +35,7 @@ This paper was translated by Haksung Jang from the English version available at 
 
 GPLv3<sub>GNU General Public License version 3</sub> 에서 추가된 주요 특징 중 하나는 소프트웨어 배포 시 소스 코드뿐만 아니라 '설치 정보'를 제공해야 한다는 요구사항이다. 이는 GPLv2에 존재하는 loophole ([Tivoization](https://opensource.stackexchange.com/questions/7020/what-exactly-is-tivoization-and-why-did-linus-torvalds-not-like-it-in-gplv3))을 해결하기 위해 GPLv3에 새롭게 추가되었다. 그런데 최근에 이 설치 정보 요구 사항이 GPLv2에서도 요구한다고 봐야한다는 주장이 제기되었다. 
 
-이 글에서는 GPLv3에 '설치 정보' 요구 사항을 포함하게 된 역사적 근거를 검토하고, 이 요구 사항은 GPLv2가 아닌, GPLv3에서 새롭게 적용된 것임을 설명한다. 또한, GPLv2 텍스트 분석을 통해서도 같은 결과를 도출한다.
+이 글에서는 GPLv3에 '설치 정보' 요구 사항을 포함하게 된 역사적 근거를 검토하고, 이 요구 사항은 GPLv2가 아닌, GPLv3에서 새롭게 적용된 것임을 설명한다. 또한, GPLv2 텍스트 분석으로도 같은 결과를 도출한다.
 
 ## 1. Introduction
 
@@ -70,7 +70,7 @@ GPLv3<sub>GNU General Public License version 3</sub> 에서 추가된 주요 특
 
 ## 2. GPLv3의 '설치 정보' 요구 사항
 
-GPLv2가 광범위하게 사용되던 15년 동안 제기된 문제와 우려를 해결하기 위해 GPLv3에는 수많은 기능이 추가되었다. 그중에서도 가장 주목할만한 (그러면서도 가장 논란이 되는[^9]) 부분은 (1) '설치 정보'를 정의한 조항과 (2) GPLv3에 따라 라이센스가 부여된 소프트웨어를 '전달<sub>convey</sub>[^10]'할 때 어떤 상황에서 설치 정보를 제공해야 하는지를 명시한 조항이다. GPLv3에서의 '설치 정보' 요구 사항이 GPLv2에서 요구하는 요소를 어느 정도 포함하는지, 어느 것은 포함하지 않는지를 이해하려면 두 라이선스에서의 표현과 역사에 대한 자세한 검토가 필요하다. 
+GPLv2가 광범위하게 사용되던 15년 동안 제기된 문제와 우려를 해결하기 위해 GPLv3에는 수많은 기능이 추가되었다. 그중에서도 가장 주목할만한 (그러면서도 가장 논란이 되는[^9]) 부분은 (1) '설치 정보'를 정의한 조항과 (2) GPLv3에 따라 라이선스가 부여된 소프트웨어를 '전달<sub>convey</sub>[^10]'할 때 어떤 상황에서 설치 정보를 제공해야 하는지를 명시한 조항이다. GPLv3에서의 '설치 정보' 요구 사항이 GPLv2에서 요구하는 요소를 어느 정도 포함하는지, 어느 것은 포함하지 않는지를 이해하려면 두 라이선스에서의 표현과 역사에 대한 자세한 검토가 필요하다. 
 
 [^9]: Burnette, Ed, ‘Tivo and GPL: Beauty and the Beast?,’ ZDNet, (October 2, 2006) https://www.zdnet.com/article/tivo-and-gpl-beauty-and-the-beast/ (accessed March 29, 2021).
 
@@ -162,7 +162,7 @@ https://www.youtube.com/watch?v=bV3cKq26nKQ
 
 [^23]: Barr, Joe, ‘Torvalds versus GPLv3 DRM restrictions,’ Linux.com (February 2, 2006) https://www.linux.com/news/torvalds-versus-gplv3-drm-restrictions/ (accessed April 8, 2021).
 
-GPLv3의 '설치 정보' 요구사항에 대해 Torvalds의 의견은 여러 주요 커널 개발자들에 의해 아래와 같이 공유되었다[^24]. Torvalds는 10년이 지난 후에도 일관된 입장을 유지했으며, 이는 오늘날까지 Linux Kernel이 'GPLv2 only' 라이선스를 유지하고 있는 이유 중 하나이다[^25]. 
+GPLv3의 '설치 정보' 요구사항에 대한 Torvalds의 의견은 여러 주요 커널 개발자도 아래와 같이 공유했다[^24]. Torvalds는 10년이 지난 후에도 일관된 입장을 유지했으며, 이는 오늘날까지 Linux Kernel이 'GPLv2 only' 라이선스를 유지하고 있는 이유 중 하나이다[^25]. 
 
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>“I give you source code, you give me your changes back; we’re even. … That’s my take on GPL version 2 and it’s that simple. … <b>Version 3 extended that in ways that I personally am really uncomfortable with.</b> Namely I give you source code, that means if you use that source code, you can’t use it on your device unless you follow my rules. And to me that’s a violation of everything version 2 stood for. And I understand why the FSF did it, because I know what the FSF wants, <b>but to me it’s not the same license at all</b>. So I was very upset, and made it very clear, and this was months before version 3 was actually published.”</i>[^26]
 
@@ -303,7 +303,7 @@ Installation script[^44]는 일반적으로 특정 장치에 특정 프로그램
 
 따라서, 텍스트 해석의 관점에서, GPLv2의 ‘scripts used to control … installation of the executable’ 제공 의무가 GPLv2 executable code를 설치하는데 필요한 체크섬, 해시, 승인/서명키, 또는 기타 숫자 데이터를 포함하여 제공하는 것으로 해석될 수 없다는 것은 의심의 여지가 없어 보인다. 이러한 데이터는 'script'에 대한 일반적인 범위에 속하지 않는다. 
 
-차라리 이보다 흥미로운 해석상의 문제라고 한다면, 어떤 형태로든 executable의 유효성 검증을 위한 설치 프로그램을 실행하는 펌웨어가 하드웨어 디바이스 자체에 포함된 경우이다(예를 들어, executable에 수정을 가했을 경우, 유효하지 않은 것으로 판단하여 설치를 제한시키는 기능). 하지만 이런 경우라고 하더라도 GPLv3의 초안 작성 및 공개 과정 동안 FSF와 Linux Kernel 개발자 모두가 오랜 기간 동안 일관되게 GPLv2하에서는 (TiVo와 같이 PROM-loaded information을 사용한 경우 등) 어떠한 설치 유효성 검사도 허용된다는 입장을 고수했음을 고려하면, 펌웨어에서 즉시 검사하는 기능이 있더라도 이것이 GPLv2의 'scripts used to … installation of the executable' 요건에 의해 설치 정보를 제공해야 한다고 주장하기는 어려울 것이다. 
+차라리 이보다 흥미로운 해석상의 문제라고 한다면, 어떤 형태로든 executable의 유효성 검증을 위한 설치 프로그램을 실행하는 펌웨어가 하드웨어 디바이스 자체에 포함된 경우이다(예를 들어, executable에 수정을 가했을 경우, 유효하지 않은 것으로 판단하여 설치를 제한시키는 기능). 하지만 이런 경우라고 하더라도 GPLv3의 초안 작성 및 공개 과정 동안 FSF와 Linux Kernel 개발자 모두가 오랜 기간 동안 일관되게 GPLv2하에서는 (TiVo와 같이 PROM-loaded information을 사용한 경우 등) 어떠한 설치 유효성 검사도 허용된다는 입장을 고수했음을 고려하면, 펌웨어에서 즉시 검사하는 기능이 있더라도 이것이 GPLv2의 'scripts used to … installation of the executable' 요건에 따라 설치 정보를 제공해야 한다고 주장하기는 어려울 것이다. 
 
 ## 7. 설치 정보 요구 사항을 GPLv2로 Backporting
 

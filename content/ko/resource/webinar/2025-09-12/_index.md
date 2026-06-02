@@ -99,7 +99,7 @@ OSADL Base Image는 사용자의 상황에 맞춰 두 가지 버전을 제공합
 
 ---
 
-## 🔗 관련 링크
+## 관련 링크
 
 - 웨비나 다시보기: [YouTube 링크](https://www.youtube.com/watch?v=CyvuYyjCGaI)
 - OSADL 프로젝트 페이지: [https://www.osadl.org/base-image](https://www.osadl.org/base-image)
