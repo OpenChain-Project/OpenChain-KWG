@@ -1,6 +1,5 @@
 # Node
 node_modules/
-package-lock.json
 
 # Slidev build output (이 디렉토리 안에서 빌드 시)
 dist/
