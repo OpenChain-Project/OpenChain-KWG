@@ -25,7 +25,7 @@ source: https://openchainproject.org/news/2024/11/06/ai-study-group-2024-11-05-r
 OpenChain AI 스터디 그룹: 북미 및 유럽을 위한 월간 워크샵 - 2024년 11월 5일
 
 ### 발표자 소개
-이번 웨비나는 [OpenChain Project](https://www.openchainproject.org/)의 AI 스터디 그룹에 의해 진행되었습니다. 특정 발표자의 이름은 제공된 정보에 명시되어 있지 않습니다.
+이번 웨비나는 [OpenChain Project](https://www.openchainproject.org/)의 AI 스터디 그룹이 진행했습니다. 특정 발표자의 이름은 제공된 정보에 명시되어 있지 않습니다.
 
 ### 웨비나 소개와 목적
 이 워크샵은 OpenChain AI 스터디 그룹의 정기 모임으로, 2024년 11월 5일에 개최되었습니다. 주요 목적은 두 가지였습니다:

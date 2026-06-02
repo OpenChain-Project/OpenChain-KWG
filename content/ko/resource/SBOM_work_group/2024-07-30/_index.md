@@ -35,7 +35,7 @@ OpenChain SBOM Study Group 킥오프 웨비나
 
 [OpenChain 프로젝트](https://www.openchainproject.org/)는 2026년 설립 이후 지속적으로 컴플라이언스 및 보안 표준의 일환으로 SBOM을 요구해왔습니다. 프로젝트는 SBOM 분야에 다양한 방식으로 기여해왔으며, 특히 공급업체를 위한 간단한 SBOM 형식인 [SPDX Lite](https://spdx.dev/learn/areas-of-interest/lite/)의 개발과 SBOM 품질 평가 가이드 제작 등을 수행했습니다.
 
-Shane Coughlan은 SBOM의 중요성을 강조하며, 이는 단순한 기술적 도구가 아닌 비즈니스 프로세스의 핵심 요소라고 설명합니다. SBOM은 소프트웨어 구성 요소의 투명성을 제공하여 보안, 라이선스 준수, 품질 관리 등 다양한 영역에서 중요한 역할을 합니다.
+Shane Coughlan은 SBOM의 중요성을 강조하며, 이는 단순한 기술적 도구가 아닌 비즈니스 프로세스의 핵심 요소라고 설명합니다. SBOM은 소프트웨어 구성 요소의 투명성을 제공하여 보안, 라이선스 준수, 품질 관리 등 다양한 영역의 의사 결정을 뒷받침합니다.
 
 ## 3. SBOM 활용의 실제적 고려사항
 

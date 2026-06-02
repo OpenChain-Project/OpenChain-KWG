@@ -17,7 +17,7 @@ resources:
 > 
 > [SFC](https://sfconservancy.org/)(Software Freedom Conservancy)가 GPL 위반을 이유로 미국의 스마트 TV 제조사인 [Vizio](https://www.vizio.com/)에 소송을 제기하였는데요, 지난 2022년 5월 13일, 이와 관련한 미국 연방 법원의 [판결](https://storage.courtlistener.com/recap/gov.uscourts.cacd.837808/gov.uscourts.cacd.837808.30.0.pdf)이 있었습니다. 
 > 
-> 이번 판결의 배경과 시사점을 수박 겉핥기로 정리해보았습니다. 제가 법률 전문가가 아니기 때문에 용어나 해석에 있어서 오류가 있을 수 있습니다. 여러 전문가분께서 [피드백](https://github.com/haksungjang/haksungjang.github.io/issues/new) 주시면 고맙겠습니다. ^^
+> 이번 판결의 배경과 시사점을 수박 겉핥기로 정리해보았습니다. 제가 법률 전문가가 아니기 때문에 용어나 해석에 오류가 있을 수 있습니다. 여러 전문가분께서 [피드백](https://github.com/haksungjang/haksungjang.github.io/issues/new) 주시면 고맙겠습니다. ^^
 
 ## References
 
@@ -58,7 +58,7 @@ resources:
 - 계약(합의)의 효력으로서 부담하는 의무에 위반한 경우에는 채무불이행으로 인한 계약 책임만 부담
   - 저작권 침해처럼 형사처벌이나 금지 청구를 당할 염려는 없으며 약정된 손해배상액을 물어주어야 함
 - 오픈소스 라이선스 하의 저작물을 계약의 성립이 구성된다고 보는 것은 관할권마다 다툼의 여지가 있음
-- 손해배상의 액수나 구제 조치 등에 있어서 제한적
+- 손해배상의 액수나 구제 조치 등에서 제한적
 
 #### 사례
 - GPL software의 저작권자가 저작권 침해 주장으로 소송 제기
@@ -77,10 +77,10 @@ resources:
         - 지역 법원 (District Court), 항소 법원 (Appellate Court), 대법원 (Supreme Court)로 이루어져 있음
         - 제한된 사건만 다루고 있음 : 헌법, 연방 범죄, 군법, 지적재산권 등
         - 저작권법(Copyright Act)은 연방 법원에서 다룸
-- 미국에서는 연방 법원에서 저작권 주장에 대한 독점적인 관할권을 갖고 있다.
+- 미국에서는 연방 법원에 저작권 주장에 대한 독점적인 관할권이 있다.
     - 따라서, 과거 미국에서의 GPL 소송을 위한 거의 모든 주장은 저작권법에 대한 독점 관할권을 가진 연방 법원(Federal Court)에 제기됐다.
 - 소장을 엉뚱한 법원에 제출한다면, 사건은 기각되거나 다른 법원으로 이송된다.
-    - 즉, 주 법원(State Court)에 제기된 action이 연방 법원에 의해 선점(preempt)되는 경우 제거될 수 있음
+    - 즉, 주 법원(State Court)에 제기된 action을 연방 법원(Federal Court)이 선점(preempt)하는 경우 제거될 수 있음
 
 ## 2. SFC vs. Vizio 소송 히스토리
 
@@ -140,7 +140,7 @@ Fulfilling the requirements of a contract in exactly the way the contract specif
 {{< /alert >}}
 
 ### 3-2. Claim Brought in State Court
-- 미국에서는 연방 법원에서 저작권 주장에 대한 독점적인 관할권을 갖고 있음
+- 미국에서는 연방 법원에 저작권 주장에 대한 독점적인 관할권이 있음
 - 따라서, 과거 미국에서의 GPL 소송을 위한 거의 모든 주장은 저작권법에 대한 독점 관할권을 가진 연방 법원에 제기했다.
 - 하지만 이번 SFC가 제기한 소송은 Orange County, California 주 법원에 제기하였다.
 - 주 법원 소송은 연방 법원에 비해 예측 불가하고, 결과가 일관적이지 않으며, 새로운 법률 이론에 대해 예상치 못한 견해를 보일 가능성이 있다.
@@ -171,15 +171,15 @@ People who aren’t a party to a GPL agreement, but who would benefit from the
 법원은 우선 연방 법원에서 판단해야 할 주요 관건을 다음과 같이 설명하였습니다. 
 
 - 법원이 결정해야 할 유일한 문제는 federal Copyright Act (연방 저작권법)이 SFC의 claim (breach of contract and declaratory relief)을 완전히 선점(preempt)하여 연방 관할권을 생성하는지 여부이다. 
-- 만약 claim이 연방 저작권법에서 다루는 일반적인 저작권 범위 내의 권리(복제, 2차 저작물 배포 및 전시에 대한 배타적 권리 등)와 동등하다면 연방 저작권법에 의해 선점되기 때문에 연방 관할권을 생성한다.
-- 만약 사건이 연방 저작권법에 의해 선점되지 않는다고 주장하려면, 소송 원인이 저작권이 보호하는 권리 이외의 권리를 보호해야 하고, 이에 해당하는 “extra element”가 있어서 소송의 성격을 변경할 수 있어야 한다. 
+- 만약 claim이 연방 저작권법에서 다루는 일반적인 저작권 범위 내의 권리(복제, 2차 저작물 배포 및 전시에 대한 배타적 권리 등)와 동등하다면 연방 저작권법이 이를 선점하기 때문에 연방 관할권을 생성한다.
+- 만약 사건을 연방 저작권법이 선점하지 않는다고 주장하려면, 소송 원인이 저작권이 보호하는 권리 이외의 권리를 보호해야 하고, 이에 해당하는 “extra element”가 있어서 소송의 성격을 변경할 수 있어야 한다. 
 
 ### 4-2. 관련 판례 : "Versata Software vs. Ameriprise"
 
 - GPL이 derivative work에 대해 소스 공개를 요구하는 건 저작권 의무와는 별개이다.
 - 피고는 저작권 침해로 소송을 제기당한게 아니다.
     - 오픈소스 프로그램을 포함하는 파생 저작물에 대한 ‘additional obligation : 소스 공개 의무 미준수’을 위반했기 때문에 원고로부터 소송을 당한 것이다. 
-- 이처럼 저작권법에 의해 제공되는 권리에 해당하지 않는 “additional contractual promise”은 “extra element”에 해당한다.
+- 이처럼 저작권법이 제공하는 권리에 해당하지 않는 “additional contractual promise”은 “extra element”에 해당한다.
 
 ### 4-3. SFC의 Claim이 “extra element”인지 여부
 
@@ -193,16 +193,16 @@ People who aren’t a party to a GPL agreement, but who would benefit from the
 - Vizio는 오픈소스 라이선스 위반은 저작권 침해라고 주장하지만, SFC는 이번 소송에서 저작권 침해에 대한 claim을 하지 않았다. 
     - 원고가 claim하지 않은 사항을 법원이 판단할 이유는 없다. 
     - 게다가 SFC는 저작권자가 아니기 때문에 그런 주장조차 할 수 없다.
-    - SFC는 저작권법에 의해 Vizio의 복제, 파생저작물 제작 등을 하는 것을 제한하려는 것이 아니라, 소스 코드를 제공하도록 요청할 뿐이다.
+    - SFC는 저작권법에 따라 Vizio의 복제, 파생저작물 제작 등을 하는 것을 제한하려는 것이 아니라, 소스 코드를 제공하도록 요청할 뿐이다.
 - Vizio는 소스 코드 제공이 라이선스의 ‘condition’이므로 이를 위반하는 건 ‘계약 위반'이 아니라 ‘저작권 침해'에 해당한다고 주장하였다.
     - 따라서 SFC의 ‘contract claim’은 저작권 침해로 전환되어야 한다고 주장하였다.
-    - 하지만 “수행 의무가 발생하기 전에 반드시 발생해야 하는 행위 또는 사건" 이라는 condition 위반 만이 저작권 침해를 구성할 수 있으며, 이외 다른 모든 license terms, covenants의 위반은 계약법에 의해서만 소송이 가능하다
+    - 하지만 “수행 의무가 발생하기 전에 반드시 발생해야 하는 행위 또는 사건" 이라는 condition 위반 만이 저작권 침해를 구성할 수 있으며, 이외 다른 모든 license terms, covenants의 위반은 계약법으로만 소송이 가능하다
     - 또한, 모호한 계약 조항은 condition이 아니라 covenant로 해석한다
 
 
 ### 4-5 판결
 
-- SFC의 주장이 저작권법에 의해 완전히 선점되지 않았다.
+- 연방 저작권법이 SFC의 주장을 완전히 선점하지 않았다.
   - GPL 계약은 저작권 라이선스뿐만 아니라 계약(contractual agreement)의 기능을 모두 수행한다. 
 - 따라서, 연방 법원은 관할권이 없으며 주 법원으로의 환송 신청을 승인한다(the Motion to Remand is GRANTED). 
 

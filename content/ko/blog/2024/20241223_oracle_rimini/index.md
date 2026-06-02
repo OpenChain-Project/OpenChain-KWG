@@ -16,7 +16,7 @@ resources:
 
 ## **들어가며**
 
-소프트웨어 지식재산권 침해 논란에서 '파생저작물(derivative works)'이라는 개념은 매우 중요한 역할을 합니다. 특히 [GNU General Public License (GPL)](https://www.gnu.org/licenses/gpl-3.0.html)과 같은 오픈소스 라이선스를 다룰 때 이 개념은 핵심적인 쟁점이 됩니다. 최근 [Oracle](https://www.oracle.com/)과 [Rimini Street](https://www.riministreet.com/) 간의 소송은 파생저작물의 정의와 관련된 법적 해석을 다시금 주목하게 만들었습니다. 이번 글에서는 이 사건의 배경, 주요 판결 내용, 그리고 오픈소스 라이선스에 미칠 영향을 살펴보겠습니다.
+소프트웨어 지식재산권 침해 논란에서 '파생저작물(derivative works)'이라는 개념은 매우 중요합니다. 특히 [GNU General Public License (GPL)](https://www.gnu.org/licenses/gpl-3.0.html)과 같은 오픈소스 라이선스를 다룰 때 이 개념은 핵심적인 쟁점이 됩니다. 최근 [Oracle](https://www.oracle.com/)과 [Rimini Street](https://www.riministreet.com/) 간의 소송은 파생저작물의 정의와 관련된 법적 해석을 다시금 주목하게 만들었습니다. 이번 글에서는 이 사건의 배경, 주요 판결 내용, 그리고 오픈소스 라이선스에 미칠 영향을 살펴보겠습니다.
 
 ---
 

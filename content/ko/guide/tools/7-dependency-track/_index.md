@@ -43,9 +43,9 @@ docker compose up -d
 ### (1) 웹 UI에서 프로젝트 생성 및 SBOM 업로드
 
 1. `http://localhost:8080` 접속
-2. **Projects** → **Create Project** 클릭
+2. `Projects → Create Project` 클릭
 3. 프로젝트 이름·버전 입력 후 저장
-4. 해당 프로젝트 → **Components** 탭 → **Upload BOM** 클릭
+4. 해당 프로젝트에서 `Components 탭 → Upload BOM` 클릭
 5. SBOM 파일(`.cdx.json` 또는 `.spdx.json`) 업로드
 
 업로드 후 Dependency-Track이 자동으로 취약점 분석을 시작합니다.

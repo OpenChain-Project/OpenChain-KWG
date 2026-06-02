@@ -13,7 +13,7 @@ resources:
     byline: ""
 ---
 
-기업이 개발하는 제품 소프트웨어의 93% 이상이 오픈소스를 사용한다고 할 정도로 현대 소프트웨어 개발에 오픈소스를 사용하는 건 거의 필수적입니다. 그런데, 사용하는 오픈소스의 53%는 라이선스 컴플라이언스 이슈가 있고, 81%는 보안 취약점을 갖고 있다는 [보고가 있습니다](https://www.synopsys.com/blogs/software-security/open-source-trends-ossra-report/). 복잡한 현대 소프트웨어의 개발환경과 방대한 Software Supply Chain을 고려한다면, 기업이 오픈소스로 제품을 개발하면서 라이선스 컴플라이언스와 보안 취약점 리스크 최소화를 위한 오픈소스 관리 노력이 필요한데요, [Linux Foundation](https://www.linuxfoundation.org/)의 [OpenChain Project](openchainproject.org)는 이러한 노력을 커뮤니티 차원에서 여러 기업이 공유와 협업으로 함께 하기 위한 Project입니다. 
+기업이 개발하는 제품 소프트웨어의 93% 이상이 오픈소스를 사용한다고 할 정도로 현대 소프트웨어 개발에 오픈소스를 사용하는 건 거의 필수적입니다. 그런데, 사용하는 오픈소스의 53%는 라이선스 컴플라이언스 이슈가 있고, 81%는 보안 취약점이 있다는 [보고가 있습니다](https://www.synopsys.com/blogs/software-security/open-source-trends-ossra-report/). 복잡한 현대 소프트웨어의 개발환경과 방대한 Software Supply Chain을 고려한다면, 기업이 오픈소스로 제품을 개발하면서 라이선스 컴플라이언스와 보안 취약점 리스크 최소화를 위한 오픈소스 관리 노력이 필요한데요, [Linux Foundation](https://www.linuxfoundation.org/)의 [OpenChain Project](openchainproject.org)는 이러한 노력을 커뮤니티 차원에서 여러 기업이 공유와 협업으로 함께 하기 위한 Project입니다. 
 
 2023년 3월 27일, OpenChain Project의 General Manager인 [Shane Coughlan](https://github.com/shanecoughlan)이 SK텔레콤을 방문하여 OpenChain Project의 주요 활동, 오픈소스 관련 국제 표준 및 글로벌 동향에 관해 설명하는 시간을 가졌습니다. 
 

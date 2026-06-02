@@ -109,7 +109,7 @@ Copilot은 GitHub에 개발자의 코드 작성을 돕기 위해 공개된 sourc
 
 ![](./featured_procedure.png)
 
-먼저, Phase 1은 AI engineer에 의해 라이선스를 확인하는 과정입니다. 논문에서는 자세한 내용을 아래와 같이 설명합니다. 
+먼저, Phase 1은 AI engineer가 라이선스를 확인하는 과정입니다. 논문에서는 자세한 내용을 아래와 같이 설명합니다. 
 
 {{< alert color="success" title="Phase 1 : License identification" >}}
 #### (Step 1) License extraction
@@ -156,7 +156,7 @@ Copilot은 GitHub에 개발자의 코드 작성을 돕기 위해 공개된 sourc
 
 {{% /alert %}}
 
-여기까지가 Phase 1인데, 공개 Dataset을 사용하려는 AI engineer가 확인해야 할 내용이 적지 않습니다. 더 큰 문제는 아무리 노력을 기울인다고 해도 웹사이트에서 라이선스 정보를 제공하지 않거나, 틀린 정보를 제공한다면 AI engineer가 확인할 수 있는 범위는 제한적일 수 밖에 없을 것입니다. 아뭏든, 논문 내용을 더 살펴보겠습니다.  다음은, Phase 2이며, 변호사 등 법률전문가에 의해 라이선스의 권리와 의무를 확인하는 단계입니다. 
+여기까지가 Phase 1인데, 공개 Dataset을 사용하려는 AI engineer가 확인해야 할 내용이 적지 않습니다. 더 큰 문제는 아무리 노력을 기울인다고 해도 웹사이트에서 라이선스 정보를 제공하지 않거나, 틀린 정보를 제공한다면 AI engineer가 확인할 수 있는 범위는 제한적일 수 밖에 없을 것입니다. 아뭏든, 논문 내용을 더 살펴보겠습니다.  다음은, Phase 2이며, 변호사 등 법률전문가가 라이선스의 권리와 의무를 확인하는 단계입니다. 
 
 {{< alert color="success" title="Phase 2 : License compliance assessment" >}}
 #### (Step 1) License interpretation
@@ -207,7 +207,7 @@ Copilot은 GitHub에 개발자의 코드 작성을 돕기 위해 공개된 sourc
 
 {{% /alert %}}
 
-여기까지 Phase 2를 거치면서 법률 전문가에 의해 Enhanced MDL 포맷으로 라이선스 권리와 의무를 문서화하고 이를 활용하는 방법을 살펴 보았습니다. Dataset 뿐만 아니라 Data Source의 라이선스까지 확인해서 Data Source의 라이선스가 상업적 사용 등 제한을 가하면 Dataset을 상업용으로 사용하는 것도 리스크가 있음을 설명하고 있습니다. 
+여기까지 Phase 2를 거치면서 법률 전문가가 Enhanced MDL 포맷으로 라이선스 권리와 의무를 문서화하고 이를 활용하는 방법을 살펴 보았습니다. Dataset 뿐만 아니라 Data Source의 라이선스까지 확인해서 Data Source의 라이선스가 상업적 사용 등 제한을 가하면 Dataset을 상업용으로 사용하는 것도 리스크가 있음을 설명하고 있습니다. 
 
 논문에서는 위와 같은 방식으로 다른 Dataset에 대해서도 Case Study를 진행하였습니다. 그 내용을 살펴보겠습니다. 
 

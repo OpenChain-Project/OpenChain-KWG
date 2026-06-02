@@ -32,7 +32,7 @@ resources:
 
 - 오픈소스(Apache-2.0)이었던 Akka가 v2.7 부터 새로운 라이선스가 적용된다. 
 - 새로운 라이선스는 [BUSL-1.1](https://spdx.org/licenses/BUSL-1.1.html) (Business Source License)이다. 
-- 상업적 목적이 아닌 경우 무료로 사용할 수 있으나, 상업용에 대해서는 라이선스 비용을 지불해야 한다. 
+- 상업적 목적이 아닌 경우 무료로 사용할 수 있으나, 상업용은 라이선스 비용을 지불해야 한다. 
 
 Lightbend는 지난 십여 년간 Apache-2.0으로 Akka 오픈소스 프로젝트를 지원해 왔지만 이를 지속하기가 어려워졌다고 [밝혔습니다](https://www.lightbend.com/blog/why-we-are-changing-the-license-for-akka). 
 
@@ -78,7 +78,7 @@ BUSL-1.1 또 다른 특징은 `Change Date`와 `Change License`입니다. BUSL-1
 
 ### Additional Use Grant
 
-BUSL-1.1은 Licensor가 일정 조건 하에 상용 목적의 사용자에게 권리를 부여할 수 있도록 하는 `Additioanl Use Grant` 조항을 갖고 있습니다. 
+BUSL-1.1은 Licensor가 일정 조건 하에 상용 목적의 사용자에게 권리를 부여할 수 있도록 하는 `Additioanl Use Grant` 조항이 있습니다. 
 
 > The Licensor may make an Additional Use Grant, above, permitting limited production use.
 

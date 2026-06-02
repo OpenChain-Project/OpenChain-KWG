@@ -121,7 +121,7 @@ channels:
 
 한 가지 특이한 점은 conda-forge 운영에는 막대한 호스팅 비용이 필요한데 이를 Anaconda사가 지불하고 있다는 점입니다. Anaconda사는 conda-forge를 계속 무료로 유지하기 위해서라도 Anaconda Repository의 서비스 약관 변경을 통한 수익이 [필요했다](https://conda-forge.org/blog/posts/2020-11-20-anaconda-tos/)고 설명합니다. 
 
-결론적으로 개발 편의성과 안정성을 고려하여 가급적 Anaconda Pro를 구매하여 사용하는 것이 좋겠습니다. 구매 전까지 라이선스 이슈 방지를 위해 Miniconda + conda-forge 조합, 혹은 Miniforge를 대안으로 고려할 수 있을 것 같습니다. 🙂
+개발 편의성과 안정성을 고려하여 가급적 Anaconda Pro를 구매하여 사용하는 것이 좋겠습니다. 구매 전까지 라이선스 이슈 방지를 위해 Miniconda + conda-forge 조합, 혹은 Miniforge를 대안으로 고려할 수 있을 것 같습니다.
 
 혹시 틀린 내용이 있다면 알려주시면 감사하겠습니다. ^^
 

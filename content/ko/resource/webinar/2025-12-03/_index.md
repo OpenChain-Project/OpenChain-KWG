@@ -12,7 +12,7 @@ description: 2025-12-03 Software Hash ID you will not be able to live without it
 source: https://openchainproject.org/webinar/2025/12/03/webinar-software-hash-id-you-will-not-be-able-to-live-without-it
 
 
-2025년 12월 3일, OpenChain Project는 매우 중요한 주제로 웨비나를 개최했습니다. 바로 SWHID(Software Hash Identifier)입니다.
+2025년 12월 3일, OpenChain Project는 중요한 주제로 웨비나를 개최했습니다. 바로 SWHID(Software Hash Identifier)입니다.
 
 "소프트웨어 식별자? 그냥 URL이나 버전 넘버 쓰면 되는 거 아냐?"라고 생각하셨나요? 만약 그랬다면 오늘 이 글을 끝까지 읽으셔야 합니다. 2025년 4월, ISO/IEC 18670:2025 국제 표준으로 제정된 SWHID는 이제 소프트웨어 공급망 보안과 컴플라이언스의 새로운 기준(New Normal)이 되었기 때문입니다.
 

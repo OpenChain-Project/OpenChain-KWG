@@ -23,4 +23,4 @@ description: >
    - 자료 & 사진 : https://openchain-project.github.io/OpenChain-KWG/meeting/20th/
 2. Charter 내 Member 가입 조건 검토
 3. 21차 모임 준비
-4. 커뮤니케이션 채널 변경 논의 : Slack → Discord 변경
+4. 커뮤니케이션 채널 변경 논의 : `Slack → Discord` 변경

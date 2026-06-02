@@ -23,7 +23,7 @@ source: https://openchainproject.org/news/2025/11/27/recording-openchain-sbom-wo
 
 지난 11월 26일 열린 OpenChain SBOM Work Group 정기 미팅은 SBOM(Software Bill of Materials) 논의가 이제 새로운 국면에 접어들었음을 보여주는 중요한 자리였습니다. 그동안 업계의 논의가 "SBOM을 어떻게 생성할 것인가(How to generate)?"에 머물러 있었다면, 이번 미팅의 핵심 질문은 "생성된 SBOM을 실제 운영 환경(Production)과 복잡한 공급망에서 어떻게 활용할 것인가?"였습니다.
 
-특히, 제조 및 산업 자동화 분야의 거인인 지멘스(Siemens)의 Thomas Graf가 연사로 나서, 이론이 아닌 현장의 SBOM 구현 사례를 공유했다는 점에서 큰 의미가 있었습니다. 이 글에서는 미팅의 핵심 내용을 상세히 정리하여, SBOM 도입을 고민하는 실무자들에게 실질적인 인사이트를 제공하고자 합니다.
+특히, 제조 및 산업 자동화 분야의 거인인 지멘스(Siemens)의 Thomas Graf가 연사로 나서, 이론이 아닌 현장의 SBOM 구현 사례를 공유해 큰 의미가 있었습니다. 이 글에서는 미팅의 핵심 내용을 상세히 정리하여, SBOM 도입을 고민하는 실무자들에게 실질적인 인사이트를 제공하고자 합니다.
 
 ---
 
