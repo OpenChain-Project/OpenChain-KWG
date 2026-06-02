@@ -31,7 +31,7 @@ Go 1.21 이상이 설치된 환경에서 아래 명령으로 설치합니다.
 go install github.com/google/osv-scalibr/binary/scalibr@latest
 ```
 
-설치 후 바이너리는 `$(go env GOPATH)/bin/scalibr` 경로에 위치합니다.
+설치 후 바이너리는 `$(go env GOPATH)/bin/scalibr` 경로에 있습니다.
 PATH에 `$(go env GOPATH)/bin`이 포함되어 있으면 `scalibr` 명령으로 바로 실행할 수 있습니다.
 
 또는 소스에서 직접 빌드할 수 있습니다.
