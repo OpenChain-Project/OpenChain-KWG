@@ -69,7 +69,7 @@ sharing practical cases that practitioners can apply immediately.
 <div style="display:grid;gap:10px;">
   <div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0e8c0;border-radius:12px;padding:12px 14px;background:#fffef8;">
     <div style="font-weight:800;color:#8b6914;">14:00-14:10</div>
-    <div><strong>Welcome & Introduction</strong><br><span style="font-size:13px;color:#6b5a30;">Steering Committee</span></div>
+    <div><strong>Welcome & Greetings</strong><br><span style="font-size:13px;color:#6b5a30;">Jongseong Kim · KakaoBank</span></div>
   </div>
   <div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0e8c0;border-radius:12px;padding:12px 14px;background:#fffef8;">
     <div style="font-weight:800;color:#8b6914;">14:10-14:30</div>
@@ -98,6 +98,29 @@ sharing practical cases that practitioners can apply immediately.
   <div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0e8c0;border-radius:12px;padding:12px 14px;background:#fffef8;">
     <div style="font-weight:800;color:#8b6914;">16:50-17:00</div>
     <div><strong>Closing & Group Photo</strong><br><span style="font-size:13px;color:#6b5a30;">Steering Committee</span></div>
+  </div>
+</div>
+
+## Speakers
+
+<div style="display:flex;flex-wrap:wrap;gap:16px;margin-top:8px;">
+  <div style="flex:1 1 260px;border:1px solid #f0e8c0;border-radius:12px;padding:18px 16px;background:#fffef8;">
+    <img src="heonkwan-ha.png" alt="Heonkwan Ha" style="width:120px;height:120px;object-fit:cover;border-radius:50%;display:block;margin:0 auto 12px;">
+    <div style="text-align:center;font-weight:800;color:#8b6914;">Heonkwan Ha, Manager</div>
+    <div style="text-align:center;font-size:13px;color:#6b5a30;margin:2px 0 12px;">KakaoBank · Session 1</div>
+    <p style="font-size:14px;line-height:1.6;margin:0;">Open source governance, DevSecOps, and CMDB operations at KakaoBank.</p>
+  </div>
+  <div style="flex:1 1 260px;border:1px solid #f0e8c0;border-radius:12px;padding:18px 16px;background:#fffef8;">
+    <img src="kangbo-kim.png" alt="Kangbo Kim" style="width:120px;height:120px;object-fit:cover;border-radius:50%;display:block;margin:0 auto 12px;">
+    <div style="text-align:center;font-weight:800;color:#8b6914;">Kangbo Kim, Team Lead</div>
+    <div style="text-align:center;font-size:13px;color:#6b5a30;margin:2px 0 12px;">AhnLab · Session 2</div>
+    <p style="font-size:14px;line-height:1.6;margin:0;">Team Lead of the Research Infrastructure Team at AhnLab. He designs and operates R&D development-support environments — CI/CD infrastructure, OSS (Open Source Software) verification, static analysis, development-process standardization, build and signing, and patent and external-project management. His main focus is open source compliance and security-vulnerability response for security products, and building a static-analysis-centered CI/CD pipeline spanning development through release.</p>
+  </div>
+  <div style="flex:1 1 260px;border:1px solid #f0e8c0;border-radius:12px;padding:18px 16px;background:#fffef8;">
+    <img src="minae-lee.png" alt="Minae Lee" style="width:120px;height:120px;object-fit:cover;border-radius:50%;display:block;margin:0 auto 12px;">
+    <div style="text-align:center;font-weight:800;color:#8b6914;">Minae Lee, Manager</div>
+    <div style="text-align:center;font-size:13px;color:#6b5a30;margin:2px 0 12px;">KakaoBank · Session 3</div>
+    <p style="font-size:14px;line-height:1.6;margin:0;">Open source governance at KakaoBank, in-house IT policy, and internal/external audit response.</p>
   </div>
 </div>
 

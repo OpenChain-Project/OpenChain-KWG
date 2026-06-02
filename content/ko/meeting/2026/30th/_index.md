@@ -69,7 +69,7 @@ aliases:
 <div style="display:grid;gap:10px;">
   <div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0e8c0;border-radius:12px;padding:12px 14px;background:#fffef8;">
     <div style="font-weight:800;color:#8b6914;">14:00-14:10</div>
-    <div><strong>인사 및 참석자 소개</strong><br><span style="font-size:13px;color:#6b5a30;">운영진</span></div>
+    <div><strong>Welcome & Greetings</strong><br><span style="font-size:13px;color:#6b5a30;">카카오뱅크 기술기획팀장 김종성 팀장</span></div>
   </div>
   <div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0e8c0;border-radius:12px;padding:12px 14px;background:#fffef8;">
     <div style="font-weight:800;color:#8b6914;">14:10-14:30</div>
@@ -98,6 +98,29 @@ aliases:
   <div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0e8c0;border-radius:12px;padding:12px 14px;background:#fffef8;">
     <div style="font-weight:800;color:#8b6914;">16:50-17:00</div>
     <div><strong>마무리 및 단체 사진 촬영</strong><br><span style="font-size:13px;color:#6b5a30;">운영진</span></div>
+  </div>
+</div>
+
+## 발표자 소개
+
+<div style="display:flex;flex-wrap:wrap;gap:16px;margin-top:8px;">
+  <div style="flex:1 1 260px;border:1px solid #f0e8c0;border-radius:12px;padding:18px 16px;background:#fffef8;">
+    <img src="heonkwan-ha.png" alt="하헌관 매니저" style="width:120px;height:120px;object-fit:cover;border-radius:50%;display:block;margin:0 auto 12px;">
+    <div style="text-align:center;font-weight:800;color:#8b6914;">하헌관 매니저</div>
+    <div style="text-align:center;font-size:13px;color:#6b5a30;margin:2px 0 12px;">카카오뱅크 · Session 1</div>
+    <p style="font-size:14px;line-height:1.6;margin:0;">카카오뱅크 오픈소스 거버넌스, DevSecOps, CMDB 운영</p>
+  </div>
+  <div style="flex:1 1 260px;border:1px solid #f0e8c0;border-radius:12px;padding:18px 16px;background:#fffef8;">
+    <img src="kangbo-kim.png" alt="김강보 팀장" style="width:120px;height:120px;object-fit:cover;border-radius:50%;display:block;margin:0 auto 12px;">
+    <div style="text-align:center;font-weight:800;color:#8b6914;">김강보 팀장</div>
+    <div style="text-align:center;font-size:13px;color:#6b5a30;margin:2px 0 12px;">안랩 · Session 2</div>
+    <p style="font-size:14px;line-height:1.6;margin:0;">안랩 연구인프라팀에서 팀장으로 근무하며, CI/CD 인프라 구축을 비롯해 OSS(Open Source Software) 검증, 정적 분석, 개발 프로세스 정립, 배포 및 서명, 특허와 외부 과제 관리 등 R&D 전반의 개발 지원 환경을 설계·운영하고 있습니다. 특히 보안 제품을 구성하는 오픈소스의 컴플라이언스 준수와 보안 취약점 대응, 그리고 정적 분석을 중심으로 한 개발부터 배포까지 이어지는 CI/CD 체계 구축을 주요 업무로 담당하고 있습니다.</p>
+  </div>
+  <div style="flex:1 1 260px;border:1px solid #f0e8c0;border-radius:12px;padding:18px 16px;background:#fffef8;">
+    <img src="minae-lee.png" alt="이민애 매니저" style="width:120px;height:120px;object-fit:cover;border-radius:50%;display:block;margin:0 auto 12px;">
+    <div style="text-align:center;font-weight:800;color:#8b6914;">이민애 매니저</div>
+    <div style="text-align:center;font-size:13px;color:#6b5a30;margin:2px 0 12px;">카카오뱅크 · Session 3</div>
+    <p style="font-size:14px;line-height:1.6;margin:0;">카카오뱅크 오픈소스 거버넌스, 사내 IT 업무 관련 정책 담당, 내외부감사 대응</p>
   </div>
 </div>
 
