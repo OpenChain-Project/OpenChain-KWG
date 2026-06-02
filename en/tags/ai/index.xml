@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/ai/</link><description>Recent content in AI on OpenChain KWG</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 27 May 2026 22:35:06 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>26th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/meeting/2025/26th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/meeting/2025/26th/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/ai/</link><description>Recent content in AI on OpenChain KWG</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 02 Jun 2026 16:43:21 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>26th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/meeting/2025/26th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/meeting/2025/26th/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Date: 2025-06-16 (Mon) 2:00 PM ~ 5:00 PM&lt;/li&gt;
 &lt;li&gt;Venue: Samsung Electronics Seoul R&amp;amp;D Campus - &lt;a href="https://maps.app.goo.gl/ZsQWvnSc5MPXKVcN8"&gt;https://maps.app.goo.gl/ZsQWvnSc5MPXKVcN8&lt;/a&gt;&lt;/li&gt;
@@ -332,7 +332,7 @@ sharing practical cases that practitioners can apply immediately.
 &lt;div style="display:grid;gap:10px;"&gt;
  &lt;div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0e8c0;border-radius:12px;padding:12px 14px;background:#fffef8;"&gt;
  &lt;div style="font-weight:800;color:#8b6914;"&gt;14:00-14:10&lt;/div&gt;
- &lt;div&gt;&lt;strong&gt;Welcome &amp; Introduction&lt;/strong&gt;&lt;br&gt;&lt;span style="font-size:13px;color:#6b5a30;"&gt;Steering Committee&lt;/span&gt;&lt;/div&gt;
+ &lt;div&gt;&lt;strong&gt;Welcome &amp; Greetings&lt;/strong&gt;&lt;br&gt;&lt;span style="font-size:13px;color:#6b5a30;"&gt;Jongseong Kim · KakaoBank&lt;/span&gt;&lt;/div&gt;
  &lt;/div&gt;
  &lt;div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0e8c0;border-radius:12px;padding:12px 14px;background:#fffef8;"&gt;
  &lt;div style="font-weight:800;color:#8b6914;"&gt;14:10-14:30&lt;/div&gt;
@@ -363,10 +363,13 @@ sharing practical cases that practitioners can apply immediately.
  &lt;div&gt;&lt;strong&gt;Closing &amp; Group Photo&lt;/strong&gt;&lt;br&gt;&lt;span style="font-size:13px;color:#6b5a30;"&gt;Steering Committee&lt;/span&gt;&lt;/div&gt;
  &lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id="sponsor"&gt;Sponsor&lt;/h2&gt;
-&lt;div style="text-align:center;padding:16px 12px;border:1px solid #f0d860;border-radius:12px;background:linear-gradient(180deg,#fffef5 0%,#fff9db 100%);"&gt;
- &lt;img src="../../../../images/content/about/logo/kakaobank.png" alt="KakaoBank" style="max-width:220px;width:100%;height:auto;"&gt;
-&lt;/div&gt;</description></item><item><title>2025-12-02 AI SBOM 규정 준수 가이드의 완성도 제고와 조달용 AI 설문지 도입 논의</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/resource/ai_work_group/2025-12-02/</link><pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/resource/ai_work_group/2025-12-02/</guid><description>&lt;p&gt;source: &lt;a href="https://openchainproject.org/news/2025/12/11/recording-openchain-ai-work-group-monthly-workshop-for-north-america-and-europe-2025-12-02"&gt;https://openchainproject.org/news/2025/12/11/recording-openchain-ai-work-group-monthly-workshop-for-north-america-and-europe-2025-12-02&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="speakers"&gt;Speakers&lt;/h2&gt;
+&lt;div style="display:flex;flex-wrap:wrap;gap:16px;margin-top:8px;"&gt;
+ &lt;div style="flex:1 1 260px;border:1px solid #f0e8c0;border-radius:12px;padding:18px 16px;background:#fffef8;"&gt;
+ &lt;img src="heonkwan-ha.png" alt="Heonkwan Ha" style="width:120px;height:120px;object-fit:cover;border-radius:50%;display:block;margin:0 auto 12px;"&gt;
+ &lt;div style="text-align:center;font-weight:800;color:#8b6914;"&gt;Heonkwan Ha, Manager&lt;/div&gt;
+ &lt;div style="text-align:center;font-size:13px;color:#6b5a30;margin:2px 0 12px;"&gt;KakaoBank · Session 1&lt;/div&gt;
+ &lt;p style="font-size:14px;line-height:1.6;margin:0;"&gt;Open source governance, DevSecOps, and CMDB operations at KakaoBank.&lt;/p&gt;</description></item><item><title>2025-12-02 AI SBOM 규정 준수 가이드의 완성도 제고와 조달용 AI 설문지 도입 논의</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/resource/ai_work_group/2025-12-02/</link><pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/resource/ai_work_group/2025-12-02/</guid><description>&lt;p&gt;source: &lt;a href="https://openchainproject.org/news/2025/12/11/recording-openchain-ai-work-group-monthly-workshop-for-north-america-and-europe-2025-12-02"&gt;https://openchainproject.org/news/2025/12/11/recording-openchain-ai-work-group-monthly-workshop-for-north-america-and-europe-2025-12-02&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;OpenChain AI 워크그룹은 오픈 소스 컴플라이언스의 국제 표준인 OpenChain(ISO/IEC 5230)의 원칙을 인공지능(AI) 영역으로 확장하여, 신뢰할 수 있는 AI 공급망 구축을 목표로 매월 워크숍을 진행하고 있습니다. 이번 12월 2일 북미/유럽 세션은 Matthew Crawford(Arm) 와 Dave Marr(Qualcomm) 의 주재로 진행되었으며, 주로 AI 시스템 자재명세서(AI SBOM) 컴플라이언스 가이드의 세부 문구 조정과 AI 조달(Procurement)을 위한 표준 설문지 개발 필요성에 대한 논의가 이루어졌습니다.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id="1-주요-안건-개요"&gt;1. 주요 안건 개요&lt;/h2&gt;

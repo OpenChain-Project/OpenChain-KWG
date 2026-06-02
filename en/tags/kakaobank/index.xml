@@ -69,7 +69,7 @@ sharing practical cases that practitioners can apply immediately.
 &lt;div style="display:grid;gap:10px;"&gt;
  &lt;div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0e8c0;border-radius:12px;padding:12px 14px;background:#fffef8;"&gt;
  &lt;div style="font-weight:800;color:#8b6914;"&gt;14:00-14:10&lt;/div&gt;
- &lt;div&gt;&lt;strong&gt;Welcome &amp; Introduction&lt;/strong&gt;&lt;br&gt;&lt;span style="font-size:13px;color:#6b5a30;"&gt;Steering Committee&lt;/span&gt;&lt;/div&gt;
+ &lt;div&gt;&lt;strong&gt;Welcome &amp; Greetings&lt;/strong&gt;&lt;br&gt;&lt;span style="font-size:13px;color:#6b5a30;"&gt;Jongseong Kim · KakaoBank&lt;/span&gt;&lt;/div&gt;
  &lt;/div&gt;
  &lt;div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0e8c0;border-radius:12px;padding:12px 14px;background:#fffef8;"&gt;
  &lt;div style="font-weight:800;color:#8b6914;"&gt;14:10-14:30&lt;/div&gt;
@@ -100,7 +100,10 @@ sharing practical cases that practitioners can apply immediately.
  &lt;div&gt;&lt;strong&gt;Closing &amp; Group Photo&lt;/strong&gt;&lt;br&gt;&lt;span style="font-size:13px;color:#6b5a30;"&gt;Steering Committee&lt;/span&gt;&lt;/div&gt;
  &lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id="sponsor"&gt;Sponsor&lt;/h2&gt;
-&lt;div style="text-align:center;padding:16px 12px;border:1px solid #f0d860;border-radius:12px;background:linear-gradient(180deg,#fffef5 0%,#fff9db 100%);"&gt;
- &lt;img src="../../../../images/content/about/logo/kakaobank.png" alt="KakaoBank" style="max-width:220px;width:100%;height:auto;"&gt;
-&lt;/div&gt;</description></item></channel></rss>
+&lt;h2 id="speakers"&gt;Speakers&lt;/h2&gt;
+&lt;div style="display:flex;flex-wrap:wrap;gap:16px;margin-top:8px;"&gt;
+ &lt;div style="flex:1 1 260px;border:1px solid #f0e8c0;border-radius:12px;padding:18px 16px;background:#fffef8;"&gt;
+ &lt;img src="heonkwan-ha.png" alt="Heonkwan Ha" style="width:120px;height:120px;object-fit:cover;border-radius:50%;display:block;margin:0 auto 12px;"&gt;
+ &lt;div style="text-align:center;font-weight:800;color:#8b6914;"&gt;Heonkwan Ha, Manager&lt;/div&gt;
+ &lt;div style="text-align:center;font-size:13px;color:#6b5a30;margin:2px 0 12px;"&gt;KakaoBank · Session 1&lt;/div&gt;
+ &lt;p style="font-size:14px;line-height:1.6;margin:0;"&gt;Open source governance, DevSecOps, and CMDB operations at KakaoBank.&lt;/p&gt;</description></item></channel></rss>
