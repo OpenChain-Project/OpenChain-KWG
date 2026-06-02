@@ -2,6 +2,8 @@
 resources/
 node_modules/
 package-lock.json
+# Slidev(v6) 빌드는 CI에서 `npm ci`를 쓰므로 lock 파일을 추적해야 한다
+!docs/slides/v6/package-lock.json
 .hugo_build.lock
 .DS_Store
 .codesight/
