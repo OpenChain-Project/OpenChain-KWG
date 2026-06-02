@@ -83,7 +83,7 @@ CRA에서 가장 헷갈리면서도 중요한 부분은 "내가 어떤 역할로
 
 David Wheeler는 "지금 당장 준비하지 않으면 나중에 패닉에 빠질 것"이라고 경고하며 3가지 액션 플랜을 제시했습니다.
 
-### Step 1: 무료 교육 듣기 (강력 추천)
+### 무료 교육 듣기 (강력 추천)
 
 Linux Foundation과 OpenSSF가 만든 무료 교육 코스가 있습니다. 이 코스를 듣고 수료 배지를 따세요. 팀원들에게도 듣게 하세요.
 
@@ -91,15 +91,15 @@ Linux Foundation과 OpenSSF가 만든 무료 교육 코스가 있습니다. 이 
 - 비용: 무료
 - 링크: [https://training.linuxfoundation.org/express-learning/understanding-the-eu-cyber-resilience-act-cra-lfel1001/](https://training.linuxfoundation.org/express-learning/understanding-the-eu-cyber-resilience-act-cra-lfel1001/)
 
-### Step 2: 보안 교육 이수
+### 보안 교육 이수
 
 개발자들이 보안 코딩을 할 줄 알아야 합니다.
 
 - 추천 과정: Developing Secure Software (LFD121) - 역시 무료입니다.
 
-### Step 3: 표준 준수
+### 표준 준수
 
-CRA는 매우 높은 수준의 요구사항만 명시하고, 구체적인 기술적 방법은 "표준(Standards)"을 따르라고 합니다. 현재 CEN/CENELEC이 표준을 만들고 있습니다. 이 표준을 준수하면 법을 준수한 것으로 간주(Presumption of Conformity)되므로, 관련 표준 동향을 예의주시해야 합니다.
+CRA는 높은 수준의 요구사항만 명시하고, 구체적인 기술적 방법은 "표준(Standards)"을 따르라고 합니다. 현재 CEN/CENELEC이 표준을 만들고 있습니다. 이 표준을 준수하면 법을 준수한 것으로 간주(Presumption of Conformity)되므로, 관련 표준 동향을 예의주시해야 합니다.
 
 ---
 

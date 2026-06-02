@@ -107,7 +107,7 @@ MongoDB는 "[듀얼 라이선스](http://monty-says.blogspot.com/2009/08/thought
 
 ### SSPL
 
-매우 강한 카피레프트 접근 방식은 2018년 [SSPL](https://www.mongodb.com/licensing/server-side-public-license)<sub>Server Side Public License</sub>을 만든 MongoDB에 의해 시도되었다. 
+매우 강한 카피레프트 접근 방식은 2018년 [SSPL](https://www.mongodb.com/licensing/server-side-public-license)<sub>Server Side Public License</sub>을 만든 MongoDB가 시도하였다. 
 
 ~~~
 1.  Offering the Program as a Service.
@@ -140,19 +140,19 @@ MongoDB는 SSPL을 [OSI](https://opensource.org/approval)<sub>Open Source Initia
 
 ### 제한 조건을 갖는 소스 공개 라이선스
 
-다른 사람들은 또 다른 경로를 따랐다. 일부 회사는 Salil Deshpande가 주도한 [Commons Clause](https://commonsclause.com/)를 채택했으며, 어떤 회사는 Elastic이 Elastic License 1.0을 만든 것처럼 [Redis](https://redislabs.com/legal/licenses/), [Confluent](https://www.confluent.io/confluent-community-license), [CockroachDB](https://www.cockroachlabs.com/cockroachdb-community-license/)와 같은 자체 라이선스를 제작하였다. SSPL과는 달리, 이 라이선스들은 오픈소스 정의를 충족시키기 위한 것이 아니었다. 대신, 이들은 무상 사용을 겨냥한 제한 조건을 갖고 있다. 
+다른 사람들은 또 다른 경로를 따랐다. 일부 회사는 Salil Deshpande가 주도한 [Commons Clause](https://commonsclause.com/)를 채택했으며, 어떤 회사는 Elastic이 Elastic License 1.0을 만든 것처럼 [Redis](https://redislabs.com/legal/licenses/), [Confluent](https://www.confluent.io/confluent-community-license), [CockroachDB](https://www.cockroachlabs.com/cockroachdb-community-license/)와 같은 자체 라이선스를 제작하였다. SSPL과는 달리, 이 라이선스들은 오픈소스 정의를 충족시키기 위한 것이 아니었다. 대신, 이들에게는 무상 사용을 겨냥한 제한 조건이 있다. 
 
 왜 이렇게 두 가지 경로로 갈렸을까? 이는 [Freedom Zero](https://www.gnu.org/philosophy/free-sw.en.html), "어떤 목적으로든 원하는 대로 프로그램을 실행할 수 있는 자유"와 관련이 있다[^free].
 
 [^free]: The Free Software Definition is similar to the Open Source Definition, but shorter and clearer.
 
-오픈소스 또는 자유소프트웨어 라이선스의 주요 특징은 라이선스 제약이나 제한이 없다는 것이다[^limitation]. 일반적인 상용 소프트웨어 라이선스와 비교해보자. 개인용으로 사용하겠다는 라이선스 조건에 클릭하여 수락하는 형태의 최종 사용자 라이선스<sub>End User license Agreement</sub>는 소프트웨어를 사용하는 것만 허용하며, 변경하거나 배포할 수 없다. 엔터프라이즈 라이선스는 소프트웨어를 사용할 수 있는 사용자, 서버 또는 물리적 위치의 수에 대한 제한을 설정하고, 기업은 해당 사용을 감시해야 한다. 그러나 오픈소스 라이선스에는 그러한 제한이 없다. 따라서, 소스 코드를 무료로 제공한다고 하더라도 상업적 사용 불가와 같은 제한을 갖고 있다면 정의상 오픈소스가 아니다. 
+오픈소스 또는 자유소프트웨어 라이선스의 주요 특징은 라이선스 제약이나 제한이 없다는 것이다[^limitation]. 일반적인 상용 소프트웨어 라이선스와 비교해보자. 개인용으로 사용하겠다는 라이선스 조건에 클릭하여 수락하는 형태의 최종 사용자 라이선스<sub>End User license Agreement</sub>는 소프트웨어를 사용하는 것만 허용하며, 변경하거나 배포할 수 없다. 엔터프라이즈 라이선스는 소프트웨어를 사용할 수 있는 사용자, 서버 또는 물리적 위치의 수에 대한 제한을 설정하고, 기업은 해당 사용을 감시해야 한다. 그러나 오픈소스 라이선스에는 그러한 제한이 없다. 따라서, 소스 코드를 무료로 제공한다고 하더라도 상업적 사용 불가와 같은 제한이 있다면 정의상 오픈소스가 아니다. 
 
 [^limitation]: Open source licenses can contain conditions, such as notices or source code sharing. But these are not limitations that tell you what you cannot do with software, they only require that if you elect to do certain things, you also must do others.
 
 즉, 모든 라이선스 제한은 오픈소스 범주에서 벗어나게 한다. 
 
-2018년 이후 발생한 라이선스 변경의 물결 가운데 출시된 모든 라이선스는 거의 비슷한 제한을 갖고 있다. 각각 고유한 조건이 있지만, 이들은 모두 사용자가 소프트웨어를 무료로 사용할 수 있도록 허용하는 동시에 경쟁 호스팅 서비스 제공을 위한 소프트웨어 사용을 금지하는 데 초점을 맞추고 있다. 
+2018년 이후 발생한 라이선스 변경의 물결 가운데 출시된 모든 라이선스에는 거의 비슷한 제한이 있다. 각각 고유한 조건이 있지만, 이들은 모두 사용자가 소프트웨어를 무료로 사용할 수 있도록 허용하는 동시에 경쟁 호스팅 서비스 제공을 위한 소프트웨어 사용을 금지하는 데 초점을 맞추고 있다. 
 
 ## Elastic License 2.0
 
@@ -180,7 +180,7 @@ any functionality in the software that is protected by the license key.
 
 ## 왜 듀얼 라이선스를 사용하였는가?
 
-Elasticsearch는 사용자에게 SSPL과 Elastic License 중 하나를 선택할 수 있게 하는 특이한 경로를 택하였다. 오늘날 많은 기업이 "오픈 코어<sub>open core</sub>" 모델을 사용하고 있으며, 실제로 Elasticsearch도 전에는 이 모델을 사용하였다. 둘의 차이는 미묘하다고 할 수 있다. 오픈 코어 모델은 (대부분 Apache 2.0과 같은 허용적인<sub>permissive</sub>) 오픈소스 라이선스로 핵심 소프트웨어를 제공한다. 그런 다음 제한된 라이선스로 또는 서비스로만<sub>as a service</sub> 추가 기능(대개 기업이 대규모로 배포하는 데 유용한 기능)을 제공한다. 그러나 Elasticsearch는 동일한 소프트웨어를 두 개의 다른 라이선스로 사용할 수 있는 듀얼 라이선스 모델을 고수하였다. 이 듀얼 라이선스 모델은 MySQL에 의해 개척되었고, 일반적으로 무료 라이선스 선택지로 GPL, AGPL 또는 SSPL과 같은 카피레프트 라이선스를 사용한다. 그러나 이 모델은 오픈소스 라이선스와 클라우드 서비스 간의 충돌 때문에 최근 몇 년 동안 인기가 시들해졌다. 
+Elasticsearch는 사용자에게 SSPL과 Elastic License 중 하나를 선택할 수 있게 하는 특이한 경로를 택하였다. 오늘날 많은 기업이 "오픈 코어<sub>open core</sub>" 모델을 사용하고 있으며, 실제로 Elasticsearch도 전에는 이 모델을 사용하였다. 둘의 차이는 미묘하다고 할 수 있다. 오픈 코어 모델은 (대부분 Apache 2.0과 같은 허용적인<sub>permissive</sub>) 오픈소스 라이선스로 핵심 소프트웨어를 제공한다. 그런 다음 제한된 라이선스로 또는 서비스로만<sub>as a service</sub> 추가 기능(대개 기업이 대규모로 배포하는 데 유용한 기능)을 제공한다. 그러나 Elasticsearch는 동일한 소프트웨어를 두 개의 다른 라이선스로 사용할 수 있는 듀얼 라이선스 모델을 고수하였다. 이 듀얼 라이선스 모델은 MySQL이 개척하였고, 일반적으로 무료 라이선스 선택지로 GPL, AGPL 또는 SSPL과 같은 카피레프트 라이선스를 사용한다. 그러나 이 모델은 오픈소스 라이선스와 클라우드 서비스 간의 충돌 때문에 최근 몇 년 동안 인기가 시들해졌다. 
 
 Elastic의 선택은 SSPL과 Elastic License 2.0의 두 가지 무료 라이선스 선택권을 제공하였다는 점에서 더욱 이례적이었다. 듀얼 라이선스는 일반적으로 하나의 무료 옵션만 제공한다. 이러한 이례적인 방법을 통해 Elasticsearch는 거의 모든 사용자가 소프트웨어를 무료로 사용할 수 있도록 하는 유연성을 강조하였다. 
 
@@ -220,7 +220,7 @@ It describes a software model where software:
 
 이 계획은 아직 초기 단계에 있지만, 이로써 사용자와 개발자 모두에게 공정한 패러다임의 필요성을 업계가 인식하기 시작하고 있으며, 오픈소스 상용 기업이 오픈소스 모델보다 더 유연한 방식으로 둘 사이의 균형을 맞출 수 있도록 하고 있음은 분명하다. 한 전문가는 최근의 라이선스 발전을 "[오픈소스 이후 시대](https://monetize.substack.com/p/open-source-eras)"라고 부르기까지 하였다. 하지만 실제로는 이러한 소스 공개 라이선스는 비즈니스 및 라이선스 모델이 계속 발전함에 따라 일반적으로 오픈소스 라이선스와 함께 사용된다. 따라서 두 모델은 엄격한 대체품이 아니라 보완품이다. 
 
-또 다른 표준화된 라이선스 옵션도 있다. 2020년, 한 변호사 그룹은 [PolyForm Project](http://www.polyformproject.org/)를 시작하여 소스 공개 라이선스 템플릿 모음을 작성하였다. 이러한 라이선스는 오픈소스 라이선스와 독점 라이선스 모두에 경험이 있는 변호사에 의해 상호 리뷰되었다. 개방형 콘텐츠 라이선싱을 위한 [Creative Commons](https://creativecommons.org/)와 마찬가지로 비상업적, 평가 전용, 경쟁 방지 라이선스 등의 옵션 메뉴를 제공한다. Elastic License 2.0과 같이 모두 무료로 소스 코드에 대한 접근을 제공하며 필요한 특허 라이선스를 부여한다. PolyForm Perimeter 및 PolyForm Shield는 선조라고 할 수 있는 Confluent Community License와 유사하며, Elastic License 2.0은 이러한 추세에 따라 사용 가능한 옵션을 발전시켰다. 
+또 다른 표준화된 라이선스 옵션도 있다. 2020년, 한 변호사 그룹은 [PolyForm Project](http://www.polyformproject.org/)를 시작하여 소스 공개 라이선스 템플릿 모음을 작성하였다. 이러한 라이선스는 오픈소스 라이선스와 독점 라이선스 모두에 경험이 있는 변호사들이 상호 리뷰하였다. 개방형 콘텐츠 라이선싱을 위한 [Creative Commons](https://creativecommons.org/)와 마찬가지로 비상업적, 평가 전용, 경쟁 방지 라이선스 등의 옵션 메뉴를 제공한다. Elastic License 2.0과 같이 모두 무료로 소스 코드에 대한 접근을 제공하며 필요한 특허 라이선스를 부여한다. PolyForm Perimeter 및 PolyForm Shield는 선조라고 할 수 있는 Confluent Community License와 유사하며, Elastic License 2.0은 이러한 추세에 따라 사용 가능한 옵션을 발전시켰다. 
 
 질문이 있거나 더 자세한 내용을 알아가고 싶다면 다음과 같은 몇 가지 자료를 참조하라. 
 

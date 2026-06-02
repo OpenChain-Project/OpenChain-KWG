@@ -15,7 +15,7 @@ description: >
 이 페이지에서는 기업 오픈소스 거버넌스 전 과정을 담은 교육 슬라이드를 제공합니다.
 [기업 오픈소스 관리 가이드](/guide/opensource_for_enterprise/) 내용을 4시간 교육용으로 구성한 자료입니다.
 
-<a href="../../slides/enterprise-oss-governance/" target="_blank" rel="noopener">전체 화면으로 보기 →</a>
+<a href="../../slides/enterprise-oss-governance/" target="_blank" rel="noopener">전체 화면으로 보기</a>
 
 <div style="margin-top: 16px;">
 <iframe
@@ -85,7 +85,7 @@ npm run build        # 정적 빌드 → static/slides/enterprise-oss-governance
 
 1. `docs/slides/v6/pages/*.md` 수정 (`npm run dev`로 미리보기 확인)
 2. `npm run build`로 로컬 빌드 통과 확인
-3. `master` 브랜치 push → GitHub Actions 자동 빌드·배포
+3. `master` 브랜치에 push하면 GitHub Actions가 자동으로 빌드·배포
 
 ### 디자인 시스템
 

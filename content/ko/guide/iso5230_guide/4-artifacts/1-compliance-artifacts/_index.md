@@ -131,8 +131,8 @@ GPLv2와 GPLv3는 소스 코드 제공 옵션과 의무 표현이 다르므로 *
 | **AGPLv3 §13** | 네트워크 상호작용 사용자에게 **무상 다운로드** (수정된 버전을 사용하는 동안 내내) | — | **수정된 버전을 SaaS·네트워크 서비스로 제공 시**, 해당 서비스에 원격 접속하는 모든 사용자에게 **수정된 버전의 Corresponding Source를 네트워크를 통해 무상 다운로드**할 수 있도록 명시적 안내(서비스 UI·푸터·About 페이지 등)를 제공할 의무. written offer만으로는 부족 — **서비스 엔드포인트에 다운로드 링크 노출 필수** |
 
 **핵심 주의**:
-- **"Corresponding Source"**(GPLv3 §1 정의)는 GPLv2의 "complete corresponding source code"보다 범위가 넓다 — 빌드 스크립트·설치 정보·인터페이스 정의·공유 라이브러리 소스 모두 포함.
-- GPLv3는 §6(a)·(b)·(c)·(d)·(e) 5개 옵션 중 선택 가능. **§6(b)와 §6(d)는 별도 옵션**으로, "written offer 면제"라는 표현은 부정확.
+- **"Corresponding Source"**(GPLv3 §1 정의)는 GPLv2의 "complete corresponding source code"보다 범위가 넓다 — 빌드 스크립트, 설치 정보, 인터페이스 정의, 공유 라이브러리 소스 모두 포함.
+- GPLv3는 §6(a), (b), (c), (d), (e) 5개 옵션 중 선택 가능. **§6(b)와 §6(d)는 별도 옵션**으로, "written offer 면제"라는 표현은 부정확.
 - GPLv2 §3(b)는 **객체코드의 비상업적 배포에 한정**. 상업 배포는 §3(a) 동봉이 안전.
 - AGPL 컴포넌트를 SaaS로 사용하면 written offer만으로 부족 — 네트워크 사용자에게 **다운로드 링크** 노출 필수.
 {{% /alert %}}

@@ -272,7 +272,7 @@ Component는 다음과 같은 정보를 포함한다.
 
 Release는 Component에서 하나의 Version을 가리키는 단위이다. 따라서 하나의 Component는 여러 개의 Release를 가질 수 있다. Release는 하나의 Component 하위에 생성되어 관리된다. 
 
-Release는 다음과 같은 정보들을 포함한다. 
+Release는 다음과 같은 정보를 포함한다. 
 
 * Component Name
 * Version
@@ -334,7 +334,7 @@ SW360은 등록된 Release에 대해 보안 취약점이 있는지 자동으로 
 
 ![](https://lh5.googleusercontent.com/lGeLbWHIBk6y2OSOXskcp4A2c5od0eTH6n7U5YG0p4cwTrrX02b6TpeRqJ7VXg5aUE7qDP2X2f8o4Rj1JsPHhZ-CUdLiy80O532Cgw-h_P9r-jHdL61QaXhFOPxIjTlX1cg9XPk5)
 
-이와 같은 방법으로 기업에서 개발/배포하는 소프트웨어를 SW360에 등록하여 관리한다면, 오픈소스 컴플라이언스뿐만 아니라 보안 취약점에 대해서도 리스크를 최소화할 수 있는 형태로 관리가 가능하다. 
+이와 같은 방법으로 기업에서 개발/배포하는 소프트웨어를 SW360에 등록하여 관리한다면, 오픈소스 컴플라이언스뿐만 아니라 보안 취약점에 대해서도 리스크를 최소화하는 형태로 관리할 수 있다. 
 
 또한 SW360은 위와 같은 Web Interface 뿐만 아니라 대부분의 기능을 REST API로 제공하여서 FOSSology 등의 다른 도구와의 연동이 가능하다. : [https://github.com/eclipse/sw360/wiki/Dev-REST-API](https://github.com/eclipse/sw360/wiki/Dev-REST-API)
 

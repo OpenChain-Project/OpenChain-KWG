@@ -76,7 +76,7 @@ This sample open source policy was written with reference to the following two m
 3. **알려진 취약점 (Known Vulnerability)**:
     - 이전에 발견된 공개적으로 사용 가능한 보안 취약점을 의미합니다. 이는 NVD, CVE 등과 같은 데이터베이스에서 확인할 수 있습니다.
 4. **새로 발견된 취약점 (Newly Discovered Vulnerability)**:
-    - 이전에 발견되지 않았던 새로운 보안 취약점을 의미합니다. 이는 소프트웨어 사용 중에 발견되거나, 외부 연구자에 의해 보고될 수 있습니다.
+    - 이전에 발견되지 않았던 새로운 보안 취약점을 의미합니다. 이는 소프트웨어 사용 중에 발견되거나, 외부 연구자가 보고할 수 있습니다.
 5. **보안 보증 (Security Assurance)**:
     - 시스템이 보안 모범 사례에 대한 요구사항을 충족하고, 알려진 취약점에 대해 복원력을 갖추고 있다는 확신을 의미합니다.
 6. **검증 자료 (Verification Material)**:
@@ -105,7 +105,7 @@ This sample open source policy was written with reference to the following two m
 | **OSPM** | Open Source Program Manager | 오픈소스 프로그램 **총괄 책임자** (1인 또는 팀 리더) | §3.1.1 의 역할 — 일상 운영 책임 |
 | **OSRB** | Open Source Review Board | 오픈소스 **의사결정 협의체** (가상 조직, 분기 또는 월간 운영) | §3.1.7 의 역할 — 정책·예외 승인 권한 |
 
-작은 조직에서는 OSPM이 OSPO 기능까지 겸할 수 있으며, OSRB는 OSPM·법무·보안·사업 부서 대표로 구성된 의사결정 회의체로 운영합니다.
+작은 조직에서는 OSPM이 OSPO 기능까지 겸할 수 있으며, OSRB는 OSPM, 법무, 보안, 사업 부서 대표로 구성된 의사결정 회의체로 운영합니다.
 {{% /alert %}}
 
 ### 3.1 역할 설명
@@ -296,7 +296,7 @@ This sample open source policy was written with reference to the following two m
     - EPSS(Exploit Prediction Scoring System)와 CISA KEV(Known Exploited Vulnerabilities) 등재 여부를 보조 지표로 활용합니다.
     - 취약점의 익스플로잇 가능성, 영향 범위, 그리고 시스템에 미치는 잠재적인 영향을 고려하여 대응 우선순위를 결정합니다.
 3. **대응 조치**:
-    - 고위험 취약점에 대해서는 즉시 패치를 적용하거나 완화 조치를 수행합니다.
+    - 고위험 취약점은 즉시 패치를 적용하거나 완화 조치를 수행합니다.
     - 고객에게 영향을 미칠 수 있는 경우, 고객에게 통지하고 해결 방안을 제시합니다.
     - 공급망 파트너·고객에게 영향 여부를 통지할 때는 **VEX**(Vulnerability Exploitability eXchange) 표준 형식(CSAF 2.0 또는 CycloneDX VEX)을 사용합니다. 4가지 상태값 — `not_affected`(영향 없음·justification 필수) / `affected`(영향 있음) / `fixed`(패치 완료) / `under_investigation`(조사 중).
     - 취약점 심각도에 따라 다음 기한 내에 조치합니다: Critical(CVSS 9.0 이상) 1주 이내, High(CVSS 7.0~8.9) 4주 이내. (ISO/IEC 18974 §4.3.2.1)
@@ -597,7 +597,7 @@ This sample open source policy was written with reference to the following two m
     - 개선 활동의 진행 상황은 모니터링되고 문서화됩니다.
 3. **개선 결과 반영**:
     - 개선 결과를 다음 평가 주기에 반영하여 프로그램의 효과성을 지속적으로 향상시킵니다.
-    - 개선 결과는 프로그램 참여자에게 공유되어 지속적인 개선 의지를 고취시킵니다.
+    - 개선 결과는 프로그램 참여자에게 공유하여 지속적인 개선 의지를 고취시킵니다.
 
 ### 10.4 내부 모범 사례 통합 및 개선
 
@@ -651,7 +651,7 @@ This sample open source policy was written with reference to the following two m
 
 1. **정기적인 검토**:
     - OSRB는 최소 연 1회 이상 ISO/IEC 5230 및 ISO/IEC 18974의 모든 요구사항에 대한 내부 검토를 수행합니다.
-    - 검토 결과는 문서화하여 보관하며, 미충족 항목에 대해서는 개선 계획을 수립합니다.
+    - 검토 결과는 문서화하여 보관하며, 미충족 항목은 개선 계획을 수립합니다.
 2. **정기적인 내부 감사**:
     - 내부 감사는 프로그램 참여자의 역할 수행 여부, 컴플라이언스 산출물의 적합성, 그리고 보안 보증 활동의 효과성을 평가합니다.
     - 감사 결과에 따라 개선 영역을 식별하고, 필요한 조치를 취합니다.

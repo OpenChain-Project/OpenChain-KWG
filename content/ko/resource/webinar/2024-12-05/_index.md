@@ -29,7 +29,7 @@ source: https://openchainproject.org/news/2024/12/04/webinar-enabling-sboms-acro
 Gary O’Neall은 [SPDX](https://spdx.dev/about/overview) 표준에 기여한 전문가로, 오픈소스 소프트웨어의 구성요소, 라이선스, 저작권, 보안 참조 정보를 전달하는 데 중점을 둔 표준을 개발해왔습니다. 그는 Source Auditor Inc.에서 제품 개발 및 기술을 담당하며, 오픈소스 소프트웨어의 기술적 및 법적 위험 관리를 돕는 도구를 개발하고 있습니다.
 
 ### **Jeff Shapiro**  
-Jeff Shapiro는 [리눅스 재단](https://www.linuxfoundation.org)의 라이선스 스캐닝 디렉터로, 30년 이상의 소프트웨어 산업 경험을 보유하고 있습니다. 그는 오픈소스 스캐닝 및 OSS(오픈소스 소프트웨어) 라이선스 준수 교육에 전문성을 가지고 있으며, 현재 리눅스 재단에서 중요한 프로젝트들의 코드 관리와 SBOM 생성에 기여하고 있습니다.
+Jeff Shapiro는 [리눅스 재단](https://www.linuxfoundation.org)의 라이선스 스캐닝 디렉터로, 30년 이상의 소프트웨어 산업 경험을 보유하고 있습니다. 그는 오픈소스 스캐닝 및 OSS(오픈소스 소프트웨어) 라이선스 준수 교육에 전문성이 있으며, 현재 리눅스 재단에서 중요한 프로젝트들의 코드 관리와 SBOM 생성에 기여하고 있습니다.
 
 ---
 

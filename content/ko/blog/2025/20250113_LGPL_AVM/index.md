@@ -41,7 +41,7 @@ Sebastian Steck이라는 독일의 소프트웨어 개발자가 2021년 5월 AVM
 
 ### 소송의 법적 근거
 
-이 소송의 중요한 특징은 Sebastian Steck이 LGPL-2.1 소프트웨어의 저작권자가 아님에도 불구하고 소송을 제기할 수 있었다는 점입니다. 이는 LGPL-2.1 라이선스가 제3자를 위한 계약의 성격을 가지고 있기 때문입니다. [소장](https://sfconservancy.org/static/docs/avm-Complaint_Klageschrift_EN.pdf)에 따르면 사용자도 LGPL-2.1에 따라 소스 코드를 받을 권리를 갖게 됩니다:
+이 소송의 중요한 특징은 Sebastian Steck이 LGPL-2.1 소프트웨어의 저작권자가 아님에도 불구하고 소송을 제기할 수 있었다는 점입니다. 이는 LGPL-2.1 라이선스가 제3자를 위한 계약의 성격이 있기 때문입니다. [소장](https://sfconservancy.org/static/docs/avm-Complaint_Klageschrift_EN.pdf)에 따르면 사용자도 LGPL-2.1에 따라 소스 코드를 받을 권리를 갖게 됩니다:
 
 "This license agreement represents a genuine contract in favor of third parties in accordance with Section 328 of the German Civil Code (BGB), namely in favor of the users who receive the software in object code and, in accordance with the wording of the LGPL-2.1 license conditions to be handed over to them, have a direct right to the transfer of the complete corresponding source code."
 
