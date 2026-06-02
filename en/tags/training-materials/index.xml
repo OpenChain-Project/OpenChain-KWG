@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Training Materials on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/training-materials/</link><description>Recent content in Training Materials on OpenChain KWG</description><generator>Hugo</generator><language>en</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/training-materials/index.xml" rel="self" type="application/rss+xml"/><item><title>Training Slides</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/training-slides/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/training-slides/</guid><description>&lt;h2 id="training-slides"&gt;Training Slides&lt;/h2&gt;
+&lt;p&gt;This page provides a training deck covering the full enterprise open source governance process.
+It reorganizes the &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/opensource_for_enterprise/"&gt;Enterprise Open Source Management Guide&lt;/a&gt; into a 4-hour training format.&lt;/p&gt;
+&lt;p&gt;&lt;a href="../../slides/enterprise-oss-governance/" target="_blank" rel="noopener"&gt;Open in full screen →&lt;/a&gt;&lt;/p&gt;
+&lt;div style="margin-top: 16px;"&gt;
+&lt;iframe
+ src="../../slides/enterprise-oss-governance/"
+ width="100%"
+ height="560"
+ style="border: 1px solid #E0E0E0; border-radius: 4px;"
+ allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id="course-structure"&gt;Course Structure&lt;/h2&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Part&lt;/th&gt;
+					&lt;th&gt;Title&lt;/th&gt;
+					&lt;th&gt;Key Topics&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Part 0&lt;/td&gt;
+					&lt;td&gt;Introduction&lt;/td&gt;
+					&lt;td&gt;Course objectives · 4-hour roadmap&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Part 1&lt;/td&gt;
+					&lt;td&gt;Understanding the Standards&lt;/td&gt;
+					&lt;td&gt;ISO/IEC 5230 · 18974 · 42001 + OpenChain&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Part 2&lt;/td&gt;
+					&lt;td&gt;Six Core Elements&lt;/td&gt;
+					&lt;td&gt;Organization · policy · process · tools · training · conformance&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Part 3&lt;/td&gt;
+					&lt;td&gt;AI Compliance&lt;/td&gt;
+					&lt;td&gt;Global AI regulations · model licensing · AI SBOM · supply chain security&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Part 4&lt;/td&gt;
+					&lt;td&gt;Live Demo&lt;/td&gt;
+					&lt;td&gt;SBOM generation → Dependency-Track → VEX triage&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Part 5&lt;/td&gt;
+					&lt;td&gt;Closing&lt;/td&gt;
+					&lt;td&gt;Recap · next steps · Q&amp;amp;A&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Slide count&lt;/strong&gt;: ~99 slides&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Estimated duration&lt;/strong&gt;: 4 hours (Part 3 AI expanded to 75 minutes)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Audience&lt;/strong&gt;: Enterprise open source compliance officers, legal teams, OSPOs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="license"&gt;License&lt;/h2&gt;
+&lt;p&gt;These slides are released under the &lt;a href="https://creativecommons.org/licenses/by/4.0/"&gt;CC-BY-4.0&lt;/a&gt; license.
+You are free to use them as internal corporate training materials.&lt;/p&gt;</description></item></channel></rss>

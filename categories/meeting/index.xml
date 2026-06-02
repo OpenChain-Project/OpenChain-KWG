@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Meeting on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/categories/meeting/</link><description>Recent content in Meeting on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Wed, 27 May 2026 22:35:06 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/categories/meeting/index.xml" rel="self" type="application/rss+xml"/><item><title>1st Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2019/1st/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2019/1st/</guid><description>&lt;img src="20190123_1406369.jpg" width="90%"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Meeting on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/categories/meeting/</link><description>Recent content in Meeting on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Tue, 02 Jun 2026 11:08:34 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/categories/meeting/index.xml" rel="self" type="application/rss+xml"/><item><title>1st Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2019/1st/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2019/1st/</guid><description>&lt;img src="20190123_1406369.jpg" width="90%"&gt;
 &lt;h2 id="organizer"&gt;Organizer&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;LG Electronics&lt;/li&gt;
@@ -649,9 +649,9 @@ _&lt;center&gt; &lt; designed by [@soimkim](https://github.com/soimkim) &gt; &lt
 &lt;ul&gt;
 &lt;li&gt;주제 : 오픈소스 컴플라이언스 / 보안취약점 점검 대상 분류
 &lt;ul&gt;
-&lt;li&gt;폰트에 대해서도 오픈소스 컴플라이언스 활동을 수행하는지? (예: Open Font)&lt;/li&gt;
-&lt;li&gt;회사가 사내 직원용 모바일 앱(안드로이드, iOS)을 배포하는지? 그렇다면 이에 대해서도 오픈소스 컴플라이언스 활동을 수행하는지?&lt;/li&gt;
-&lt;li&gt;오픈소스 보안취약점 점검 대상은 어떻게 분류하는지? 배포하는 소프트웨어 뿐만 아니라, 인프라 용, 서버 용으로 사용 중인 소프트웨어에 대해서도 점검 대상으로 포함시키는지?&lt;/li&gt;
+&lt;li&gt;폰트도 오픈소스 컴플라이언스 활동을 수행하는지? (예: Open Font)&lt;/li&gt;
+&lt;li&gt;회사가 사내 직원용 모바일 앱(안드로이드, iOS)을 배포하는지? 그렇다면 이것도 오픈소스 컴플라이언스 활동을 수행하는지?&lt;/li&gt;
+&lt;li&gt;오픈소스 보안취약점 점검 대상은 어떻게 분류하는지? 배포하는 소프트웨어 뿐만 아니라, 인프라 용, 서버 용으로 사용 중인 소프트웨어도 점검 대상으로 포함시키는지?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1068,7 +1068,7 @@ _&lt;center&gt; &lt; designed by [@soimkim](https://github.com/soimkim) &gt; &lt
 &lt;h4 id="그-이후"&gt;그 이후&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;현재도 오픈소스 컴플라이언스 활동 지속&lt;/li&gt;
-&lt;li&gt;해외 퍼블리셔/지사에서 서비스하는 프로덕트에 대해서도 검증 및 고지 완료&lt;/li&gt;
+&lt;li&gt;해외 퍼블리셔/지사에서 서비스하는 프로덕트도 검증 및 고지 완료&lt;/li&gt;
 &lt;li&gt;사내 Stackoverflow 서비스에 [오픈소스 지식채널]을 만들어서 질의 응답하고 있음&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id="qa-2"&gt;Q&amp;amp;A&lt;/h4&gt;
@@ -1504,13 +1504,13 @@ _&lt;center&gt; &lt; designed by [@soimkim](https://github.com/soimkim) &gt; &lt
 &lt;ol&gt;
 &lt;li&gt;라이선스 변경 이력
 &lt;ul&gt;
-&lt;li&gt;2018년 10월, MongoDB : AGPL 3.0 → SSPL 1.0&lt;/li&gt;
-&lt;li&gt;2019년 11월, Sentry : BSD 3-Clause → BUSL 1.1&lt;/li&gt;
-&lt;li&gt;2021년 1월, ElasticSearch : Apache 2.0 → EL 2.0 or SSPL 1.0&lt;/li&gt;
-&lt;li&gt;2021년 4월, Grafana : Apache 2.0 → AGPL 3.0&lt;/li&gt;
+&lt;li&gt;2018년 10월, MongoDB : &lt;code&gt;AGPL 3.0 → SSPL 1.0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;2019년 11월, Sentry : &lt;code&gt;BSD 3-Clause → BUSL 1.1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;2021년 1월, ElasticSearch : &lt;code&gt;Apache 2.0 → EL 2.0 or SSPL 1.0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;2021년 4월, Grafana : &lt;code&gt;Apache 2.0 → AGPL 3.0&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Grafana : Apache 2.0 → AGPL 3.0
+&lt;li&gt;Grafana : &lt;code&gt;Apache 2.0 → AGPL 3.0&lt;/code&gt;
 &lt;ul&gt;
 &lt;li&gt;변경 목적은 오픈소스 커뮤니티의 자유를 유지하면서, 오픈소스를 수정한 경우 기여 문화를 장려하기 위함&lt;/li&gt;
 &lt;li&gt;AGPL 특징
@@ -1526,14 +1526,14 @@ _&lt;center&gt; &lt; designed by [@soimkim](https://github.com/soimkim) &gt; &lt
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;MongoDB : AGPL 3.0 → SSPL 1.0
+&lt;li&gt;MongoDB : &lt;code&gt;AGPL 3.0 → SSPL 1.0&lt;/code&gt;
 &lt;ul&gt;
 &lt;li&gt;변경 목적은 AGPL은 클라우드에서 제공이 배포인지, 아닌지에 대한 논란의 소지가 있어서 명확하게 라이선스를 SSPL로 변경한 것&lt;/li&gt;
 &lt;li&gt;클라우드 서비스 업체가 커뮤니티에 기여하지 않고 대부분의 이익을 창출하고 있다고 비판&lt;/li&gt;
 &lt;li&gt;클라우드 서비스에서 &lt;strong&gt;Strip-Mining&lt;/strong&gt;을 하고 있다고 비판함 (Strip Mining: 산이라는 생태계는 파괴하고 필요한 자원만 캐는 행위)&lt;/li&gt;
 &lt;li&gt;SSPL v1.0 특징
 &lt;ul&gt;
-&lt;li&gt;클라우드 서비스의 경우에 대해서도 소스코드 공개 의무사항을 요구 (13조항)&lt;/li&gt;
+&lt;li&gt;클라우드 서비스의 경우에도 소스코드 공개 의무사항을 요구 (13조항)&lt;/li&gt;
 &lt;li&gt;서비스 소스코드: 프로그램 및 관리 소프트웨어 (API, 모니터링, 백업, 저장 S/W 등)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -1544,7 +1544,7 @@ _&lt;center&gt; &lt; designed by [@soimkim](https://github.com/soimkim) &gt; &lt
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;ElasticSearch : Apache 2.0 → Elastic License 또는 SSPL 1.0
+&lt;li&gt;ElasticSearch : &lt;code&gt;Apache 2.0 → Elastic License 또는 SSPL 1.0&lt;/code&gt;
 &lt;ul&gt;
 &lt;li&gt;변경 목적은 MongoDB와 사례와 동일&lt;/li&gt;
 &lt;li&gt;Elastic License 2.0 특징
@@ -1571,7 +1571,7 @@ _&lt;center&gt; &lt; designed by [@soimkim](https://github.com/soimkim) &gt; &lt
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Sentry : BSD 3-Clause → BUSL 1.1
+&lt;li&gt;Sentry : &lt;code&gt;BSD 3-Clause → BUSL 1.1&lt;/code&gt;
 &lt;ul&gt;
 &lt;li&gt;변경 목적은 Sentry 초기 개발 때 1인 개발로 시작했으나, 프로젝트가 커지면서 수익 창출이 필요했고 Sentry를 판매하는 다른 회사로부터 보호하기 위해 라이선스 변경&lt;/li&gt;
 &lt;li&gt;BUSL 1.1 특징
@@ -1947,7 +1947,7 @@ _&lt;center&gt; &lt; designed by [@soimkim](https://github.com/soimkim) &gt; &lt
 &lt;li&gt;Libreplanet 토론
 &lt;ul&gt;
 &lt;li&gt;러시아에 우리 소프트웨어 access를 제한해야 하는가 라는 토론이 있었고,
-리차드 스톨만은 FSF의 4가지 자유에 의해 프로그램 실행의 자유를 제한해서는 안된다고 주장함&lt;/li&gt;
+리차드 스톨만은 FSF의 4가지 자유에 따라 프로그램 실행의 자유를 제한해서는 안된다고 주장함&lt;/li&gt;
 &lt;li&gt;리차드 스톨만과 다른 입장을 가진 여러 의견도 등장하였음&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;

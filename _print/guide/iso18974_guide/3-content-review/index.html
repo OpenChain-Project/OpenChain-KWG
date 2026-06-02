@@ -6,7 +6,7 @@
 18974의 §4.3.1은 <strong>소프트웨어 수명주기 전반에 걸쳐 지속적으로 SBOM을
 기록하고 보관</strong>하는 것을 강조한다. 특히 배포 후에도 SBOM을 유지하여 §4.3.2
 보안 보증의 취약점 모니터링과 연계되어야 한다. SBOM이 없으면 배포 후 새로
-공개된 CVE에 대한 영향 분석(§4.1.5 방법 5)을 수행할 수 없다.</p><h2 id=2-해야-할-활동>2. 해야 할 활동</h2><ul><li>공급 소프트웨어의 오픈소스 컴포넌트를 식별·추적·검토·승인하는 절차를
+공개된 CVE에 대한 영향 분석(§4.1.5 방법 5)을 수행할 수 없다.</p><h2 id=2-해야-할-활동>2. 해야 할 활동</h2><ul><li>공급 소프트웨어의 오픈소스 컴포넌트를 식별, 추적, 검토, 승인하는 절차를
 수립한다 (5230과 동일).</li><li><strong>소프트웨어 수명주기 동안 지속적으로 SBOM을 기록하고 보관하는 절차</strong>를
 수립한다 (18974 강조 사항).</li><li>배포된 소프트웨어 버전별로 SBOM을 보관하여 배포 후 취약점 영향 분석에
 활용한다.</li><li>SBOM 정보를 취약점 관리 도구(Dependency-Track 등)와 연동하여 신규 CVE
@@ -32,7 +32,7 @@ that demonstrates the documented procedure was followed.</p></blockquote></detai
 <a href=/OpenChain-KWG/guide/iso5230_guide/3-content-review/1-sbom/#33-%ec%98%a4%ed%94%88%ec%86%8c%ec%8a%a4-%ec%bb%b4%ed%8f%ac%eb%84%8c%ed%8a%b8-%ea%b8%b0%eb%a1%9d>ISO/IEC 5230 §3.3.1 SBOM 가이드</a>
 의 NTIA 7요소 표를 참고한다.</li><li><strong>모델 서명 · 빌드 provenance</strong>: 컨테이너·AI 모델을 포함한 SBOM은 OpenSSF
 Model Signing(Sigstore)으로 서명하고 SLSA L1 이상 provenance를 첨부한다
-(구체 절차는 <a href=/OpenChain-KWG/guide/iso42001_guide/4-operation/3-supply-chain/#63-openssf-model-signing-%eb%8f%84%ec%9e%85-%ec%a0%88%ec%b0%a8>ISO/IEC 42001 §6.3 OpenSSF Model Signing</a>).</li><li><strong>수명주기 단계별 SBOM 유지</strong>: 개발·빌드·배포·배포 후 모니터링 각 단계에서
+(구체 절차는 <a href=/OpenChain-KWG/guide/iso42001_guide/4-operation/3-supply-chain/#63-openssf-model-signing-%eb%8f%84%ec%9e%85-%ec%a0%88%ec%b0%a8>ISO/IEC 42001 §6.3 OpenSSF Model Signing</a>).</li><li><strong>수명주기 단계별 SBOM 유지</strong>: 개발, 빌드, 배포, 배포 후 모니터링 각 단계에서
 SBOM이 최신 상태를 유지하도록 절차를 정의한다.</li><li><strong>아카이브 정책</strong>: 배포된 모든 버전의 SBOM을 버전별로 아카이브하고 보관
 기간을 명시한다(최소 해당 소프트웨어 지원 기간 + 3년).</li><li><strong>취약점 도구 연동</strong>: Dependency-Track 등에 SBOM을 임포트하여 신규 CVE가
 발행될 때마다 자동 대조가 이루어지도록 설정한다.</li><li><strong>갱신 트리거</strong>: 컴포넌트 추가·업그레이드·제거, 라이선스 변경, 새로운 취약점
@@ -68,10 +68,8 @@ SBOM이 최신 상태를 유지하도록 절차를 정의한다.</li><li><strong
 외에 각 컴포넌트의 <strong>알려진 취약점 현황</strong> 또는 취약점 관리 도구 링크를 함께
 기록하면 §4.3.2와 연계가 용이하다. 작성 방법은
 <a href=../../iso5230_guide/3-content-review/1-sbom/>§3.3.1.2 오픈소스 컴포넌트 기록</a>을 참고한다.</p><h2 id=5-참고>5. 참고</h2><ul><li>대응 ISO/IEC 5230 조항: <a href=../../iso5230_guide/3-content-review/1-sbom/>§3.3.1 SBOM</a></li><li>관련 가이드: <a href=/OpenChain-KWG/guide/opensource_for_enterprise/3-process/>기업 오픈소스 관리 가이드 — 3. 프로세스</a></li><li>관련 도구: <a href=/OpenChain-KWG/guide/tools/6-syft/>Syft</a>, <a href=/OpenChain-KWG/guide/tools/5-cdxgen/>cdxgen</a>, <a href=/OpenChain-KWG/guide/tools/7-dependency-track/>Dependency-Track</a></li></ul></div><div class=td-content style=page-break-before:always><h1 id=pg-15b94f9e24957ada69c5f1ffb768650f>2 - §4.3.2 보안 보증</h1><div class="alert alert-info" role=alert><div class="h4 alert-heading" role=heading>구축 단계</div><p>이 조항은 <strong>Phase 3 — 프로세스 구축</strong> 단계에서 구축합니다. ISO/IEC 18974 전용 신규 조항으로, 취약점 탐지·해결 절차와 조치 기록을 수립합니다.
-<a href=/OpenChain-KWG/guide/iso18974_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5>전체 구축 로드맵 보기</a></p></div><div class="alert alert-warning" role=alert><div class="h4 alert-heading" role=heading>★ 18974 전용 항목 — Documented Evidence 강도</div><p>§4.3.2.1·§4.3.2.2는 ISO 18974 전용(★) 항목으로 <strong>Documented Evidence</strong>(문서화된 증거)를 요구한다. 단순 &ldquo;취약점 대응 절차 문서"가 아니라 <strong>각 CVE에 대한 실제 수행 기록</strong>(스캔 결과·CVSS 점수·조치 이력·VEX 발행·고객 통보 이력 등)을 보관해야 한다. 강도 차이의 자세한 설명은 <a href=/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/5-standard-practice/#iso-18974-%ec%a0%84%ec%9a%a9-%ed%95%ad%eb%aa%a9%ec%9d%98-%ea%b0%95%eb%8f%84--documented-evidence>§4.1.5 표준 관행 — Documented Evidence 안내</a>를 참고한다.</p></div><h2 id=1-조항-개요>1. 조항 개요</h2><p>§4.3.2는 ISO/IEC 18974의 핵심 조항으로, ISO/IEC 5230에 없는 18974 전용 신규
-조항이다. SBOM에 포함된 각 오픈소스 컴포넌트에 대해 <strong>취약점 탐지 → 위험
-평가 → 조치 결정 → 고객 동의(필요 시) → 조치 수행 → 배포 후 신규 취약점
-대응 → 지속 모니터링</strong> 의 전 과정을 절차로 수립하고 이행 기록을 유지하도록
+<a href=/OpenChain-KWG/guide/iso18974_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5>전체 구축 로드맵 보기</a></p></div><div class="alert alert-warning" role=alert><div class="h4 alert-heading" role=heading>★ 18974 전용 항목 — Documented Evidence 강도</div><p>§4.3.2.1과 §4.3.2.2는 ISO 18974 전용(★) 항목으로 <strong>Documented Evidence</strong>(문서화된 증거)를 요구한다. 단순 &ldquo;취약점 대응 절차 문서"가 아니라 <strong>각 CVE에 대한 실제 수행 기록</strong>(스캔 결과, CVSS 점수, 조치 이력, VEX 발행, 고객 통보 이력 등)을 보관해야 한다. 강도 차이의 자세한 설명은 <a href=/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/5-standard-practice/#iso-18974-%ec%a0%84%ec%9a%a9-%ed%95%ad%eb%aa%a9%ec%9d%98-%ea%b0%95%eb%8f%84--documented-evidence>§4.1.5 표준 관행 — Documented Evidence 안내</a>를 참고한다.</p></div><h2 id=1-조항-개요>1. 조항 개요</h2><p>§4.3.2는 ISO/IEC 18974의 핵심 조항으로, ISO/IEC 5230에 없는 18974 전용 신규
+조항이다. SBOM에 포함된 각 오픈소스 컴포넌트에 대해 <code>취약점 탐지 → 위험 평가 → 조치 결정 → 고객 동의(필요 시) → 조치 수행 → 배포 후 신규 취약점 대응 → 지속 모니터링</code> 의 전 과정을 절차로 수립하고 이행 기록을 유지하도록
 요구한다. §4.1.5가 취약점 처리 방법의 존재를 요구한다면, §4.3.2는 그 방법이
 각 컴포넌트에 실제로 적용되어 기록이 남아 있을 것을 요구한다.</p><h2 id=2-해야-할-활동>2. 해야 할 활동</h2><ul><li>SBOM의 각 오픈소스 컴포넌트에 대해 알려진 취약점 존재 여부를 탐지한다.</li><li>탐지된 각 취약점에 위험·영향 점수(CVSS)를 할당한다.</li><li>각 취약점에 대해 필요한 수정 또는 완화 단계를 결정하고 문서화한다.</li><li>필요한 경우 사전에 결정된 수준 이상에서 고객 동의를 획득한다.</li><li>위험·영향 점수에 따라 적절한 조치를 수행하고 기록한다.</li><li>배포된 소프트웨어에 새로 공개된 취약점이 있는 경우 적절한 조치를 수행한다.</li><li>출시 후에도 공급 소프트웨어의 취약점 공개를 모니터링하고 대응한다.</li><li>취약점별 탐지 및 조치 결과를 컴포넌트 기록으로 유지한다.</li></ul><h2 id=3-요구사항-및-입증자료>3. 요구사항 및 입증자료</h2><table><thead><tr><th>조항 번호</th><th>요구사항 (KO)</th><th>입증자료</th></tr></thead><tbody><tr><td>§4.3.2</td><td>SBOM에 포함될 각 오픈소스 소프트웨어 컴포넌트에 보안 보증 활동을 적용하는 프로세스가 있어야 한다: 알려진 취약점 탐지 / 위험·영향 점수 할당 / 수정 또는 완화 단계 결정·문서화 / 필요 시 고객 동의 획득 / 위험 점수에 따른 조치 수행 / 새로 발견된 취약점 조치 / 출시 후 모니터링 및 취약점 공개 대응</td><td><strong>4.3.2.1</strong> 공급 소프트웨어의 오픈소스 소프트웨어 컴포넌트에 대해 알려진 취약점의 탐지 및 해결을 처리하기 위한 문서화된 절차<br><strong>4.3.2.2</strong> 각 오픈소스 소프트웨어 컴포넌트에 대해 식별된 알려진 취약점 및 취해진 조치(조치가 필요하지 않은 경우도 포함)에 대한 기록이 유지 관리되어야 함</td></tr></tbody></table><details><summary>영문 원문 보기</summary><blockquote><p><strong>§4.3.2 Security Assurance</strong>
 There shall exist a process to apply security assurance activities to each

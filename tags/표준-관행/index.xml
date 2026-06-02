@@ -3,7 +3,7 @@
 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;ISO 18974 전용(★) 항목의 강도 — Documented Evidence&lt;/div&gt;
-&lt;p&gt;ISO/IEC 18974는 ISO/IEC 5230과 달리 9개 전용 항목(★: §4.1.2.3·4.1.2.5·4.1.2.6·4.1.4.2·4.1.4.3·&lt;strong&gt;§4.1.5.1&lt;/strong&gt;·4.2.2.3·4.3.2.1·4.3.2.2)에 대해 &lt;strong&gt;&amp;ldquo;Documented Evidence&amp;rdquo;&lt;/strong&gt;(문서화된 증거)를 요구한다.
+&lt;p&gt;ISO/IEC 18974는 ISO/IEC 5230과 달리 9개 전용 항목(★: §4.1.2.3, 4.1.2.5, 4.1.2.6, 4.1.4.2, 4.1.4.3, &lt;strong&gt;§4.1.5.1&lt;/strong&gt;, 4.2.2.3, 4.3.2.1, 4.3.2.2)에 대해 &lt;strong&gt;&amp;ldquo;Documented Evidence&amp;rdquo;&lt;/strong&gt;(문서화된 증거)를 요구한다.
 이는 일반 항목의 &lt;code&gt;documented procedure&lt;/code&gt;(문서화된 절차)·&lt;code&gt;document&lt;/code&gt;(문서)보다 강한 증거 수준이다.&lt;/p&gt;
 &lt;table&gt;
 	&lt;thead&gt;
@@ -35,4 +35,4 @@
 			&lt;/tr&gt;
 	&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;§4.1.5.1은 8가지 방법 각각에 대해 단순 &amp;ldquo;절차 문서&amp;quot;가 아니라 &lt;strong&gt;수행된 활동의 증거&lt;/strong&gt;(스캔 로그·티켓·승인 이력·VEX 발행 기록 등)를 함께 보관해야 인증 심사를 통과할 수 있다.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;§4.1.5.1은 8가지 방법 각각에 대해 단순 &amp;ldquo;절차 문서&amp;quot;가 아니라 &lt;strong&gt;수행된 활동의 증거&lt;/strong&gt;(스캔 로그, 티켓, 승인 이력, VEX 발행 기록 등)를 함께 보관해야 인증 심사를 통과할 수 있다.&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SCA on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/sca/</link><description>Recent content in SCA on OpenChain KWG</description><generator>Hugo</generator><language>en</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/sca/index.xml" rel="self" type="application/rss+xml"/><item><title>SCANOSS</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/tools/9-scanoss/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/tools/9-scanoss/</guid><description>&lt;p&gt;SCANOSS is a Software Composition Analysis (SCA) tool that can identify open source
+components not only at the file level but down to the &lt;strong&gt;snippet (code fragment) level&lt;/strong&gt;.
+It detects license and copyright information by matching against a knowledge base
+(OSSKB, Open Source Knowledge Base) that indexes more than 100 million files, and
+automatically generates SBOMs in CycloneDX and SPDX formats.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a href="https://github.com/scanoss"&gt;https://github.com/scanoss&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Official site: &lt;a href="https://www.scanoss.com"&gt;https://www.scanoss.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;License: Apache-2.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="1-key-features"&gt;1. Key features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Snippet-level matching&lt;/strong&gt;: Can trace the origin even when a portion of code, rather than an entire file, has been copied or modified&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Large-scale knowledge base&lt;/strong&gt;: OSSKB indexes more than 100 million open source files — covering major package repositories and GitHub&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automatic SBOM generation&lt;/strong&gt;: Supports CycloneDX (JSON/XML) and SPDX format output&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Both CLI &amp;amp; REST API&lt;/strong&gt;: Provides both the &lt;code&gt;scanoss-py&lt;/code&gt; (Python) CLI and a REST API, making automation integration easy&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CI/CD pipeline integration&lt;/strong&gt;: Can scan with a single command in CI environments such as GitHub Actions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2-installation"&gt;2. Installation&lt;/h2&gt;
+&lt;p&gt;Install via pip in a Python 3.8 or later environment.&lt;/p&gt;</description></item></channel></rss>

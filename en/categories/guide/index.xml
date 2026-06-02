@@ -119,7 +119,38 @@ It continuously monitors component-level vulnerabilities based on uploaded SBOMs
 &lt;li&gt;&lt;strong&gt;Notifications&lt;/strong&gt;: Send new vulnerability alerts via Slack, email, Webhook, and other channels&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="installation"&gt;Installation&lt;/h2&gt;
-&lt;p&gt;Using Docker Compose is the simplest approach:&lt;/p&gt;</description></item><item><title>§3.1 Program Foundation</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/</guid><description/></item><item><title>§3.1.1 Policy</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/1-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/1-policy/</guid><description>&lt;h2 id="1-clause-overview"&gt;1. Clause Overview&lt;/h2&gt;
+&lt;p&gt;Using Docker Compose is the simplest approach:&lt;/p&gt;</description></item><item><title>Building an Automated Open Source Management Environment: cdxgen + Dependency-Track</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/tools/8-cdxgen-dt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/tools/8-cdxgen-dt/</guid><description>&lt;p&gt;For companies just starting with open source management, we recommend the
+&lt;strong&gt;cdxgen + Dependency-Track&lt;/strong&gt; combination as a toolset that can establish a basic
+automation environment within a single day.&lt;/p&gt;
+&lt;p&gt;This guide walks you through every step, from installation and configuration to
+setting up a license and vulnerability inspection environment and running day-to-day operations.&lt;/p&gt;
+&lt;h2 id="why-cdxgen--dependency-track"&gt;Why cdxgen + Dependency-Track&lt;/h2&gt;
+&lt;p&gt;Open source management comes down to two essentials.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Know what is inside&lt;/strong&gt; — generating an SBOM (Software Bill of Materials)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Continuously monitor risk&lt;/strong&gt; — detecting vulnerabilities (CVEs) and license policy violations&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;cdxgen handles the first, and Dependency-Track handles the second.
+Both tools are &lt;strong&gt;free open source&lt;/strong&gt; under the Apache-2.0 license.&lt;/p&gt;</description></item><item><title>SCANOSS</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/tools/9-scanoss/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/tools/9-scanoss/</guid><description>&lt;p&gt;SCANOSS is a Software Composition Analysis (SCA) tool that can identify open source
+components not only at the file level but down to the &lt;strong&gt;snippet (code fragment) level&lt;/strong&gt;.
+It detects license and copyright information by matching against a knowledge base
+(OSSKB, Open Source Knowledge Base) that indexes more than 100 million files, and
+automatically generates SBOMs in CycloneDX and SPDX formats.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a href="https://github.com/scanoss"&gt;https://github.com/scanoss&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Official site: &lt;a href="https://www.scanoss.com"&gt;https://www.scanoss.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;License: Apache-2.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="1-key-features"&gt;1. Key features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Snippet-level matching&lt;/strong&gt;: Can trace the origin even when a portion of code, rather than an entire file, has been copied or modified&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Large-scale knowledge base&lt;/strong&gt;: OSSKB indexes more than 100 million open source files — covering major package repositories and GitHub&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automatic SBOM generation&lt;/strong&gt;: Supports CycloneDX (JSON/XML) and SPDX format output&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Both CLI &amp;amp; REST API&lt;/strong&gt;: Provides both the &lt;code&gt;scanoss-py&lt;/code&gt; (Python) CLI and a REST API, making automation integration easy&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CI/CD pipeline integration&lt;/strong&gt;: Can scan with a single command in CI environments such as GitHub Actions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2-installation"&gt;2. Installation&lt;/h2&gt;
+&lt;p&gt;Install via pip in a Python 3.8 or later environment.&lt;/p&gt;</description></item><item><title>§3.1 Program Foundation</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/</guid><description/></item><item><title>§3.1.1 Policy</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/1-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/1-policy/</guid><description>&lt;h2 id="1-clause-overview"&gt;1. Clause Overview&lt;/h2&gt;
 &lt;p&gt;A company without an Open Source Policy risks distributing software while developers are unaware of their
 open source license obligations. This can lead to serious legal and business risks, such as copyright
 infringement lawsuits, mandatory source code disclosure, and termination of business contracts. §3.1.1
@@ -162,7 +193,85 @@ official confirmation that the program satisfies all requirements of ISO/IEC 523
 &lt;p&gt;§4.3.1 has the same basic structure as ISO/IEC 5230 §3.3.1 (SBOM), but the emphasis differs. While 5230 covers the SBOM for license management of open source components, §4.3.1 of 18974 emphasizes &lt;strong&gt;continuously recording and retaining the SBOM throughout the entire software lifecycle&lt;/strong&gt;. In particular, the SBOM must be maintained even after deployment so it can be integrated with the vulnerability monitoring in §4.3.2 Security Assurance. Without an SBOM, post-deployment impact analysis for newly published CVEs (§4.1.5 Method 5) cannot be performed.&lt;/p&gt;</description></item><item><title>§4.4.1 Completeness</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso18974_guide/4-conformance/1-completeness/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso18974_guide/4-conformance/1-completeness/</guid><description>&lt;h2 id="1-clause-overview"&gt;1. Clause Overview&lt;/h2&gt;
 &lt;p&gt;§4.4.1 corresponds to ISO/IEC 5230 §3.6.1 (Conformance). A document must be prepared affirming that the program defined in §4.1.4 satisfies all requirements of ISO/IEC 18974. The structure is the same as 5230 §3.6.1, but the difference is that the subject of confirmation covers all 25 Verification Material items of 18974. When preparing for ISO/IEC 5230 and 18974 certification simultaneously, it is efficient to conduct an integrated review of the common items of both standards and then additionally confirm the 9 items exclusive to 18974 (marked with ★).&lt;/p&gt;</description></item><item><title>0. Exploring OpenChain</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/opensource_for_enterprise/0-openchain/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/opensource_for_enterprise/0-openchain/</guid><description>&lt;h2 id="1-what-is-the-openchain-project"&gt;1. What is the OpenChain Project?&lt;/h2&gt;
 &lt;p&gt;Software today is growing ever larger and more complex. Developing a single piece of software may involve not only internally developed code but also open source, third-party software, vendor SDKs, and a wide variety of software across the software supply chain.&lt;/p&gt;
-&lt;p&gt;If even one organization in this complex software supply chain fails to comply with open source license obligations or does not provide accurate open source information, the company ultimately distributing the software will inevitably fail to meet its open source license compliance obligations. This can lead to lawsuits and the suspension of product sales.&lt;/p&gt;</description></item><item><title>onot</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/tools/10-onot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/tools/10-onot/</guid><description>&lt;p&gt;An open source notice file is a compliance artifact that provides users with copyright and license information for open source components included in supplied software. Writing notice files manually is error-prone and time-consuming. onot automates this process.&lt;/p&gt;
+&lt;p&gt;If even one organization in this complex software supply chain fails to comply with open source license obligations or does not provide accurate open source information, the company ultimately distributing the software will inevitably fail to meet its open source license compliance obligations. This can lead to lawsuits and the suspension of product sales.&lt;/p&gt;</description></item><item><title>Appendix</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/templates/1-policy/appendix/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/templates/1-policy/appendix/</guid><description>&lt;h2 id="appendix-1-roster-of-responsible-personnel"&gt;Appendix 1. Roster of Responsible Personnel&lt;/h2&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;No&lt;/th&gt;
+					&lt;th&gt;Role&lt;/th&gt;
+					&lt;th&gt;Responsibility&lt;/th&gt;
+					&lt;th&gt;Required competencies&lt;/th&gt;
+					&lt;th&gt;Owning organization&lt;/th&gt;
+					&lt;th&gt;Owner&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;1&lt;/td&gt;
+					&lt;td&gt;Open Source Program Manager (OSPM)&lt;/td&gt;
+					&lt;td&gt;Holds overall responsibility for the company&amp;rsquo;s open source program.&lt;/td&gt;
+					&lt;td&gt;Understanding of the software development process&lt;br&gt;Understanding of copyright and patents&lt;br&gt;Expert knowledge of open source license compliance&lt;br&gt;Communication skills&lt;/td&gt;
+					&lt;td&gt;Open Source Management Team&lt;/td&gt;
+					&lt;td&gt;[Name]&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;2&lt;/td&gt;
+					&lt;td&gt;Legal&lt;/td&gt;
+					&lt;td&gt;Assesses legal risks related to open source licenses and provides legal counsel.&lt;/td&gt;
+					&lt;td&gt;Understanding of the open source ecosystem&lt;br&gt;Expert knowledge of software copyright&lt;br&gt;Expert knowledge of open source licenses&lt;br&gt;Ability to assess legal risk&lt;/td&gt;
+					&lt;td&gt;Legal Team&lt;/td&gt;
+					&lt;td&gt;[Name]&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;3&lt;/td&gt;
+					&lt;td&gt;IT&lt;/td&gt;
+					&lt;td&gt;Operates and automates open source analysis tools.&lt;/td&gt;
+					&lt;td&gt;Understanding of the open source license compliance process&lt;br&gt;Understanding of open source analysis tools&lt;br&gt;Expert knowledge of IT infrastructure&lt;br&gt;Understanding of automation and CI/CD pipelines&lt;/td&gt;
+					&lt;td&gt;IT Team&lt;/td&gt;
+					&lt;td&gt;[Name]&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;4&lt;/td&gt;
+					&lt;td&gt;Security&lt;/td&gt;
+					&lt;td&gt;Operates open source security vulnerability analysis tools.&lt;/td&gt;
+					&lt;td&gt;Understanding of DevSecOps&lt;br&gt;Understanding of open source security vulnerability analysis tools&lt;br&gt;Expert knowledge of known vulnerabilities and newly discovered vulnerabilities&lt;br&gt;Ability to assess and manage risk&lt;/td&gt;
+					&lt;td&gt;Security Team&lt;/td&gt;
+					&lt;td&gt;[Name]&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;5&lt;/td&gt;
+					&lt;td&gt;Development Culture&lt;/td&gt;
+					&lt;td&gt;Supports in-house developers in actively using open source.&lt;/td&gt;
+					&lt;td&gt;Understanding of the software development process&lt;br&gt;Basic knowledge of open source license compliance&lt;br&gt;Ability to design education and training&lt;br&gt;Experience participating in open source communities&lt;/td&gt;
+					&lt;td&gt;Development Team&lt;/td&gt;
+					&lt;td&gt;[Name]&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;6&lt;/td&gt;
+					&lt;td&gt;Quality&lt;/td&gt;
+					&lt;td&gt;Verifies open source license obligations when distributing Supplied Software.&lt;/td&gt;
+					&lt;td&gt;Understanding of the software development process&lt;br&gt;Basic knowledge of open source license compliance&lt;br&gt;Understanding of the open source policy&lt;br&gt;Basic knowledge of open source licenses&lt;/td&gt;
+					&lt;td&gt;Quality Assurance Team&lt;/td&gt;
+					&lt;td&gt;[Name]&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;7&lt;/td&gt;
+					&lt;td&gt;OSRB (Open Source Review Board)&lt;/td&gt;
+					&lt;td&gt;Establishes and improves policies and processes for open source management.&lt;/td&gt;
+					&lt;td&gt;Expert knowledge of open source policies and processes&lt;br&gt;Experience operating a review board&lt;/td&gt;
+					&lt;td&gt;OSRB&lt;/td&gt;
+					&lt;td&gt;[Name]&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;8&lt;/td&gt;
+					&lt;td&gt;OSPO (Open Source Program Office)&lt;/td&gt;
+					&lt;td&gt;Supports contributions to external open source projects and the release of in-house projects as open source.&lt;/td&gt;
+					&lt;td&gt;Experience participating in open source communities&lt;br&gt;Ability to manage open source projects&lt;/td&gt;
+					&lt;td&gt;OSPO&lt;/td&gt;
+					&lt;td&gt;[Name]&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;</description></item><item><title>onot</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/tools/10-onot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/tools/10-onot/</guid><description>&lt;p&gt;An open source notice file is a compliance artifact that provides users with copyright and license information for open source components included in supplied software. Writing notice files manually is error-prone and time-consuming. onot automates this process.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.sktelecom.com/"&gt;SK Telecom&lt;/a&gt; developed onot internally and released it as open source under the name &lt;a href="https://github.com/sktelecom/onot"&gt;onot&lt;/a&gt;. &lt;a href="https://www.kakaocorp.com/"&gt;Kakao&lt;/a&gt; also contributed major features through collaborative development.&lt;/p&gt;
 &lt;h2 id="features"&gt;Features&lt;/h2&gt;
 &lt;p&gt;onot takes an SBOM in &lt;a href="https://spdx.dev/"&gt;SPDX&lt;/a&gt; format as input and automatically converts it into an open source notice file. It is Python-based, lightweight, and easy to use.&lt;/p&gt;</description></item><item><title>§3.1.2 Competence</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/2-competence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/2-competence/</guid><description>&lt;h2 id="1-clause-overview"&gt;1. Clause Overview&lt;/h2&gt;
@@ -239,7 +348,12 @@ requires that choice to be explicitly recorded.&lt;/p&gt;</description></item><i
 &lt;p&gt;§4.1.4.2·§4.1.4.3 are ISO 18974 exclusive (★) items requiring &lt;strong&gt;Documented Evidence&lt;/strong&gt;. Metrics must include actual measurement data; continuous improvement must retain review/audit meeting minutes. For a detailed explanation of the strength difference, see &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso18974_guide/1-program-foundation/5-standard-practice/#evidence-strength-for-iso-18974-exclusive--items--documented-evidence"&gt;§4.1.5 Standard Practices — Documented Evidence Notice&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;h2 id="1-clause-overview"&gt;1. Clause Overview&lt;/h2&gt;
-&lt;p&gt;§4.1.4 is the clause from ISO/IEC 5230 §3.1.4 (Program Scope) with 2 additional Verification Materials. While 5230 only requires a written statement that clearly defines the program&amp;rsquo;s scope, 18974 additionally requires a &lt;strong&gt;set of performance metrics the program seeks to improve upon (4.1.4.2)&lt;/strong&gt; and &lt;strong&gt;documented evidence from each review, update, or audit demonstrating continuous improvement (4.1.4.3)&lt;/strong&gt;. These two items are intended to demonstrate that the security assurance program is not static compliance, but a system with measurable goals that continuously improves.&lt;/p&gt;</description></item><item><title>§4.4 Conformance</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso18974_guide/4-conformance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso18974_guide/4-conformance/</guid><description/></item><item><title>§3.1.5 License Obligations</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/5-license-obligations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/5-license-obligations/</guid><description>&lt;h2 id="1-clause-overview"&gt;1. Clause Overview&lt;/h2&gt;
+&lt;p&gt;§4.1.4 is the clause from ISO/IEC 5230 §3.1.4 (Program Scope) with 2 additional Verification Materials. While 5230 only requires a written statement that clearly defines the program&amp;rsquo;s scope, 18974 additionally requires a &lt;strong&gt;set of performance metrics the program seeks to improve upon (4.1.4.2)&lt;/strong&gt; and &lt;strong&gt;documented evidence from each review, update, or audit demonstrating continuous improvement (4.1.4.3)&lt;/strong&gt;. These two items are intended to demonstrate that the security assurance program is not static compliance, but a system with measurable goals that continuously improves.&lt;/p&gt;</description></item><item><title>§4.4 Conformance</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso18974_guide/4-conformance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso18974_guide/4-conformance/</guid><description/></item><item><title>4. Tools</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/opensource_for_enterprise/4-tool/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/opensource_for_enterprise/4-tool/</guid><description>&lt;div class="alert alert-success" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;Requirements covered by this section&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;ISO/IEC 5230&lt;/strong&gt;: 3.3.1.2&lt;br&gt;
+&lt;strong&gt;ISO/IEC 18974&lt;/strong&gt;: 4.3.1.2&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-source-code-scanning-tools"&gt;1. Source Code Scanning Tools&lt;/h2&gt;
+&lt;p&gt;In the open source identification and inspection stages of the open source process, you can use source code scanning tools. Source code scanning tools help identify the open source included in the supplied software and extract license and copyright information. These tools range from open source-based tools that can be used for free to commercial tools. Each tool has its strengths, but no tool provides a perfect solution to all problems. Therefore, companies should select the appropriate tool that fits the characteristics and requirements of their supplied software.&lt;/p&gt;</description></item><item><title>§3.1.5 License Obligations</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/5-license-obligations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/5-license-obligations/</guid><description>&lt;h2 id="1-clause-overview"&gt;1. Clause Overview&lt;/h2&gt;
 &lt;p&gt;The most critical task when including open source components in software is accurately understanding
 the obligations, restrictions, and rights imposed by the licenses applied to those components. Distributing
 without reviewing license obligations can result in serious legal risks such as mandatory source code
@@ -280,4 +394,73 @@ This is a stronger evidence level than the &lt;code&gt;documented procedure&lt;/
 	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;§4.1.5.1 requires not merely &amp;ldquo;procedure documents&amp;rdquo; for each of the 8 methods, but also &lt;strong&gt;records of activities actually performed&lt;/strong&gt; (scan logs, tickets, approval history, VEX issuance records, etc.) to pass certification.&lt;/p&gt;</description></item><item><title>ISO/IEC 5230 vs 18974 Comparison</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso18974_guide/compare/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso18974_guide/compare/</guid><description>&lt;h2 id="1-relationship-between-the-two-standards"&gt;1. Relationship Between the Two Standards&lt;/h2&gt;
-&lt;p&gt;ISO/IEC 5230 and ISO/IEC 18974 are both international open source standards led by the OpenChain Project, but they address different problems. 5230 covers open source license compliance (fulfillment of copyright obligations, SBOM management, and distribution of Compliance Artifacts), while 18974 covers open source security assurance (vulnerability detection, assessment, response, and CVD). The two standards do not have a complete superset/subset relationship. They share 9 common clauses covering policy, competence, SBOM, and similar areas, but each has its own exclusive clauses — 5230 has clauses for license compliance, artifacts, and contributions, while 18974 has clauses for Standard Practice Implementation and Security Assurance.&lt;/p&gt;</description></item><item><title>§3.6 Adherence to the Specification</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/6-conformance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/6-conformance/</guid><description/></item></channel></rss>
+&lt;p&gt;ISO/IEC 5230 and ISO/IEC 18974 are both international open source standards led by the OpenChain Project, but they address different problems. 5230 covers open source license compliance (fulfillment of copyright obligations, SBOM management, and distribution of Compliance Artifacts), while 18974 covers open source security assurance (vulnerability detection, assessment, response, and CVD). The two standards do not have a complete superset/subset relationship. They share 9 common clauses covering policy, competence, SBOM, and similar areas, but each has its own exclusive clauses — 5230 has clauses for license compliance, artifacts, and contributions, while 18974 has clauses for Standard Practice Implementation and Security Assurance.&lt;/p&gt;</description></item><item><title>§3.6 Adherence to the Specification</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/6-conformance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/6-conformance/</guid><description/></item><item><title>7. AI Compliance</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/opensource_for_enterprise/7-ai-compliance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/opensource_for_enterprise/7-ai-compliance/</guid><description>&lt;div class="alert alert-success" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;Requirements Covered in This Section&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;ISO/IEC 42001&lt;/strong&gt;: §5.2 (AI Policy) · §6.1.2 (AI Risk Assessment) · §7.5 (Documentation) · §8.5 (AI Lifecycle) · §8.6 (AI Data) · §8.8 (External AI Procurement)&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;AI systems make extensive use of open source frameworks, pre-trained models, and open datasets.
+Companies that operate an open source management system (ISO/IEC 5230 · 18974) must apply
+open source compliance principles during the AI system development phase as well.
+In addition, development environments that leverage AI coding tools (GitHub Copilot, Claude Code, Cursor, etc.)
+require a new management framework to address license contamination and the introduction of vulnerable packages.&lt;/p&gt;</description></item><item><title>Training Slides</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/training-slides/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/training-slides/</guid><description>&lt;h2 id="training-slides"&gt;Training Slides&lt;/h2&gt;
+&lt;p&gt;This page provides a training deck covering the full enterprise open source governance process.
+It reorganizes the &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/opensource_for_enterprise/"&gt;Enterprise Open Source Management Guide&lt;/a&gt; into a 4-hour training format.&lt;/p&gt;
+&lt;p&gt;&lt;a href="../../slides/enterprise-oss-governance/" target="_blank" rel="noopener"&gt;Open in full screen →&lt;/a&gt;&lt;/p&gt;
+&lt;div style="margin-top: 16px;"&gt;
+&lt;iframe
+ src="../../slides/enterprise-oss-governance/"
+ width="100%"
+ height="560"
+ style="border: 1px solid #E0E0E0; border-radius: 4px;"
+ allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id="course-structure"&gt;Course Structure&lt;/h2&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Part&lt;/th&gt;
+					&lt;th&gt;Title&lt;/th&gt;
+					&lt;th&gt;Key Topics&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Part 0&lt;/td&gt;
+					&lt;td&gt;Introduction&lt;/td&gt;
+					&lt;td&gt;Course objectives · 4-hour roadmap&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Part 1&lt;/td&gt;
+					&lt;td&gt;Understanding the Standards&lt;/td&gt;
+					&lt;td&gt;ISO/IEC 5230 · 18974 · 42001 + OpenChain&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Part 2&lt;/td&gt;
+					&lt;td&gt;Six Core Elements&lt;/td&gt;
+					&lt;td&gt;Organization · policy · process · tools · training · conformance&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Part 3&lt;/td&gt;
+					&lt;td&gt;AI Compliance&lt;/td&gt;
+					&lt;td&gt;Global AI regulations · model licensing · AI SBOM · supply chain security&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Part 4&lt;/td&gt;
+					&lt;td&gt;Live Demo&lt;/td&gt;
+					&lt;td&gt;SBOM generation → Dependency-Track → VEX triage&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Part 5&lt;/td&gt;
+					&lt;td&gt;Closing&lt;/td&gt;
+					&lt;td&gt;Recap · next steps · Q&amp;amp;A&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Slide count&lt;/strong&gt;: ~99 slides&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Estimated duration&lt;/strong&gt;: 4 hours (Part 3 AI expanded to 75 minutes)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Audience&lt;/strong&gt;: Enterprise open source compliance officers, legal teams, OSPOs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="license"&gt;License&lt;/h2&gt;
+&lt;p&gt;These slides are released under the &lt;a href="https://creativecommons.org/licenses/by/4.0/"&gt;CC-BY-4.0&lt;/a&gt; license.
+You are free to use them as internal corporate training materials.&lt;/p&gt;</description></item></channel></rss>

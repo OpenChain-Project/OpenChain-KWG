@@ -3,7 +3,7 @@
 <a href=# onclick="return print(),!1">여기를 클릭하여 프린트</a>.</p><p><a href=/OpenChain-KWG/guide/iso5230_guide/3-content-review/>이 페이지의 일반 화면으로 돌아가기</a>.</p></div><h1 class=title>§3.3 콘텐츠 검토 및 승인</h1><ul><li>1: <a href=#pg-a71b4956578caddcc53f7988a323bd68>§3.3.1 SBOM</a></li><ul></ul><li>2: <a href=#pg-82ac33420f47c2173a6dddf0d1c68cd4>§3.3.2 라이선스 컴플라이언스</a></li><ul></ul></ul><div class=content></div></div><div class=td-content><h1 id=pg-a71b4956578caddcc53f7988a323bd68>1 - §3.3.1 SBOM</h1><div class="alert alert-info" role=alert><div class="h4 alert-heading" role=heading>구축 단계</div><p>이 조항은 <strong>Phase 3 — 프로세스 구축</strong> 단계에서 구축합니다.
 <a href=/OpenChain-KWG/guide/iso5230_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5>전체 구축 로드맵 보기</a></p></div><h2 id=1-조항-개요>1. 조항 개요</h2><p>공급 소프트웨어에 어떤 오픈소스 컴포넌트가 포함되어 있는지 파악하지 못하면
 라이선스 의무를 이행할 수 없고 보안 취약점 대응도 불가능하다. §3.3.1은 공급
-소프트웨어를 구성하는 오픈소스 컴포넌트를 식별·추적·검토·승인·보관하는
+소프트웨어를 구성하는 오픈소스 컴포넌트를 식별, 추적, 검토, 승인, 보관하는
 절차를 수립하고, 그 절차가 실제로 이행되었음을 입증하는 컴포넌트 기록(SBOM)을
 유지하도록 요구한다. 이 조항은 오픈소스 라이선스 컴플라이언스와 보안 보증의
 핵심 인프라인 SBOM을 운영하는 기반이 된다.</p><h2 id=2-해야-할-활동>2. 해야 할 활동</h2><ul><li>공급 소프트웨어에 포함된 오픈소스 컴포넌트를 자동화 도구(FOSSology, ORT,
@@ -18,7 +18,7 @@ which the supplied software is comprised.</p><p><strong>Verification Material(s)
 approving, and archiving information about the collection of open source
 components from which the supplied software is comprised.
 3.3.1.2 Open source component records for the supplied software that
-demonstrates the documented procedure was followed.</p></blockquote></details><h2 id=4-입증자료별-준수-방법-및-샘플>4. 입증자료별 준수 방법 및 샘플</h2><h3 id=3311-오픈소스-컴포넌트-관리-절차>3.3.1.1 오픈소스 컴포넌트 관리 절차</h3><p><strong>준수 방법</strong></p><p>공급 소프트웨어에 포함된 오픈소스 컴포넌트를 식별·추적·검토·승인·보관하는
+demonstrates the documented procedure was followed.</p></blockquote></details><h2 id=4-입증자료별-준수-방법-및-샘플>4. 입증자료별 준수 방법 및 샘플</h2><h3 id=3311-오픈소스-컴포넌트-관리-절차>3.3.1.1 오픈소스 컴포넌트 관리 절차</h3><p><strong>준수 방법</strong></p><p>공급 소프트웨어에 포함된 오픈소스 컴포넌트를 식별, 추적, 검토, 승인, 보관하는
 일련의 절차를 문서화해야 한다. 절차는 소프트웨어 개발 주기 전반에 걸쳐
 오픈소스가 어떻게 관리되는지를 다루며, ①컴포넌트 식별, ②라이선스 확인,
 ③의무 검토, ④사용 승인, ⑤SBOM 생성 및 등록, ⑥배포 시 SBOM 제공,
@@ -67,7 +67,7 @@ SBOM 생성을 자동화한다.</li><li><strong>표준 형식 채택</strong>: S
 출력 결과를 그대로 활용하거나, 오픈소스 관리 시스템(SW360, Dependency-Track 등)에
 저장·관리하는 방식을 사용할 수 있다.</p><p><strong>고려사항</strong></p><ul><li><p><strong>NTIA Minimum Elements 7요소</strong> (2021-07 발행, US EO 14028 기반): 미국 연방 조달과
 EU CRA(2024-12 발효) 모두 SBOM 최소 요건으로 채택. ISO/IEC 5230 §3.3.1.2의
-&ldquo;이름·버전·라이선스·출처"보다 강한 요건이며, 글로벌 공급망 대응 시 필수.</p><table><thead><tr><th>#</th><th>요소</th><th>내용</th></tr></thead><tbody><tr><td>1</td><td><strong>Supplier Name</strong></td><td>컴포넌트 공급자(저자·조직) 이름</td></tr><tr><td>2</td><td><strong>Component Name</strong></td><td>컴포넌트 이름</td></tr><tr><td>3</td><td><strong>Version of the Component</strong></td><td>컴포넌트 버전</td></tr><tr><td>4</td><td><strong>Other Unique Identifiers</strong></td><td>PURL, CPE, SWID 등 고유 식별자</td></tr><tr><td>5</td><td><strong>Dependency Relationship</strong></td><td>컴포넌트 간 의존 관계 (직접/전이)</td></tr><tr><td>6</td><td><strong>Author of SBOM Data</strong></td><td>SBOM 작성자(도구·사람) 정보</td></tr><tr><td>7</td><td><strong>Timestamp</strong></td><td>SBOM 생성·수정 시각</td></tr></tbody></table></li><li><p><strong>권장 형식</strong>: SPDX 2.3+ (또는 SPDX 3.0) 또는 CycloneDX 1.5+ (또는 1.6) — 두 형식
+&ldquo;이름, 버전, 라이선스, 출처"보다 강한 요건이며, 글로벌 공급망 대응 시 필수.</p><table><thead><tr><th>#</th><th>요소</th><th>내용</th></tr></thead><tbody><tr><td>1</td><td><strong>Supplier Name</strong></td><td>컴포넌트 공급자(저자·조직) 이름</td></tr><tr><td>2</td><td><strong>Component Name</strong></td><td>컴포넌트 이름</td></tr><tr><td>3</td><td><strong>Version of the Component</strong></td><td>컴포넌트 버전</td></tr><tr><td>4</td><td><strong>Other Unique Identifiers</strong></td><td>PURL, CPE, SWID 등 고유 식별자</td></tr><tr><td>5</td><td><strong>Dependency Relationship</strong></td><td>컴포넌트 간 의존 관계 (직접/전이)</td></tr><tr><td>6</td><td><strong>Author of SBOM Data</strong></td><td>SBOM 작성자(도구·사람) 정보</td></tr><tr><td>7</td><td><strong>Timestamp</strong></td><td>SBOM 생성·수정 시각</td></tr></tbody></table></li><li><p><strong>권장 형식</strong>: SPDX 2.3+ (또는 SPDX 3.0) 또는 CycloneDX 1.5+ (또는 1.6) — 두 형식
 모두 NTIA 7요소를 표현 가능. 본 가이드는 <a href=/OpenChain-KWG/guide/opensource_for_enterprise/2-policy/>opensource_for_enterprise/2-policy</a>
 §4.4와 정합하여 두 표준 형식을 권장한다.</p></li><li><p><strong>버전별 관리</strong>: 소프트웨어 릴리스 버전별로 SBOM을 별도 관리하고 과거 버전도
 보관한다.</p></li><li><p><strong>관리 도구 활용</strong>: SW360, Dependency-Track 등 오픈소스 관리 시스템을 활용하면

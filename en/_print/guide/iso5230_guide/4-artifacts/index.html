@@ -39,6 +39,64 @@ artifacts before distribution.</li></ul><p><strong>Sample</strong></p><p>The fol
    - Enclose in the product package or include in the screen displayed during installation.
    - If posting on a website or providing upon request, specify the relevant URL or procedure.
    - If using a written offer, include a written commitment valid for 3 years.
+</code></pre><p>The following is a sample of fulfilling the GPL source code disclosure obligation through a
+written offer. It is enclosed with the product or posted on a website and kept valid for 3 years.</p><div class="alert alert-warning" role=alert><div class="h4 alert-heading" role=heading>GPLv2 vs GPLv3 Source Code Provision Options — Issue Them Strictly Separated</div><p>GPLv2 and GPLv3 differ in their source code provision options and obligation wording, so <strong>mixing them
+in a single document may constitute a violation</strong>. Issue a separate notice for each license, or clearly
+separate them within a single document.</p><table><thead><tr><th>License</th><th>Validity / Place</th><th>Cost</th><th>Constraints / Options</th></tr></thead><tbody><tr><td><strong>GPLv2 §3(a)</strong></td><td><strong>Accompanied</strong> with the object code</td><td>—</td><td>Applies to both commercial and non-commercial distribution. The safest option</td></tr><tr><td><strong>GPLv2 §3(b) (written offer)</strong></td><td><strong>At least 3 years</strong> from the last distribution date</td><td>May charge only the actual cost of media reproduction and shipping</td><td><strong>Applies only to non-commercial distribution of object code</strong>. Valid upon request by any third party. Must be provided on <strong><code>a medium customarily used for software interchange</code></strong> (the medium type must be specified)</td></tr><tr><td><strong>GPLv2 §3(c)</strong></td><td>Pass along the §3(b) offer as received</td><td>—</td><td>Only a <strong>non-commercial redistributor</strong> may satisfy the obligation by passing along the §3(b) offer</td></tr><tr><td><strong>GPLv3 §6(a)</strong></td><td><strong>Accompanied</strong> with the object code</td><td>—</td><td>The safest option</td></tr><tr><td><strong>GPLv3 §6(b) (written offer)</strong></td><td><strong>At least 3 years</strong> after the last model distribution, or the support period</td><td>May charge only the actual cost of media reproduction and shipping</td><td>Valid for any third party. <strong>A distinct option from (c)(d)(e)</strong></td></tr><tr><td><strong>GPLv3 §6(c)</strong></td><td>Pass along the §6(b) offer</td><td>—</td><td>Non-commercial redistribution only</td></tr><tr><td><strong>GPLv3 §6(d) (designated place)</strong></td><td>At the same place, <strong>for as long as the object code remains available</strong></td><td>—</td><td>Where the <strong>object code is offered free of charge</strong> (e.g., a network server), the <strong>Corresponding Source must also be offered free of charge at the same place</strong>. Peer-to-peer is §6(e)</td></tr><tr><td><strong>GPLv3 §6 Installation Information</strong></td><td><strong>Accompanying</strong> the shipment of the User Product</td><td>—</td><td>For <strong>consumer products</strong> (embedded), there is an obligation to provide Installation Information such as keys, signatures, and installation procedures</td></tr><tr><td><strong>AGPLv3 §13</strong></td><td><strong>Free download</strong> to network-interaction users (throughout the time the modified version is used)</td><td>—</td><td>When <strong>providing a modified version as a SaaS or network service</strong>, there is an obligation to provide explicit notice (in the service UI, footer, About page, etc.) so that all users who remotely access the service can <strong>download the Corresponding Source of the modified version free of charge over the network</strong>. A written offer alone is insufficient — <strong>a download link must be exposed at the service endpoint</strong></td></tr></tbody></table><p><strong>Key Cautions</strong>:</p><ul><li>The <strong>&ldquo;Corresponding Source&rdquo;</strong> (defined in GPLv3 §1) is broader in scope than GPLv2&rsquo;s &ldquo;complete corresponding source code&rdquo; — it includes build scripts, installation information, interface definitions, and shared library sources.</li><li>GPLv3 offers a choice among 5 options: §6(a), (b), (c), (d), and (e). <strong>§6(b) and §6(d) are distinct options</strong>, so the phrase &ldquo;written offer exemption&rdquo; is inaccurate.</li><li>GPLv2 §3(b) is <strong>limited to non-commercial distribution of object code</strong>. For commercial distribution, the §3(a) accompaniment is the safe choice.</li><li>If an AGPL component is used as a SaaS, a written offer alone is insufficient — a <strong>download link</strong> must be exposed to network users.</li></ul></div><pre tabindex=0><code>[GPLv2 Source Code Disclosure Written Offer — based on GPLv2 §3(b)]
+
+This product includes open source software distributed under the GNU General
+Public License version 2 (GPLv2).
+
+If you request the complete corresponding machine-readable source code of that
+software, please contact us in writing or by email at the address below. The
+source code will be delivered on **a medium customarily used for software
+interchange** (e.g., USB drive, DVD, or a download link), and we may charge the
+**actual cost** of media reproduction and shipping. This offer is valid to **any
+third party** for **at least 3 years** from the last distribution date of the
+product.
+
+(Note: GPLv2 §3(b) is an option that applies to non-commercial distribution of
+object code. For commercial distribution, accompaniment under §3(a) is
+recommended. A non-commercial redistributor may pass along this offer as received
+under §3(c).)
+
+Contact:
+  Company name: [Company Name]
+  Department: Open Source Compliance Team
+  Email: oss@company.com
+  Mailing address: [Company Address]
+  Provision medium: USB or download link (selectable upon request)
+
+Information to include in the request:
+  - Product name and model name
+  - Software version
+  - Name of the open source component requested (optional)
+</code></pre><pre tabindex=0><code>[GPLv3 Source Code Provision Notice — based on GPLv3 §6(d) (designated place)]
+
+This product includes open source software distributed under the GNU General
+Public License version 3 (GPLv3). You can obtain the **Corresponding Source**
+(as defined in GPLv3 §1 — including build scripts, installation information,
+interface definitions, and shared library sources) in one of the following two
+ways.
+
+(1) Network download (§6(d) designated place):
+    https://opensource.[company-domain]/products/[product-id]/v[version]/source.tar.xz
+    This URL is provided at the same place where the object code can be downloaded
+    free of charge, and is maintained for at least 3 years after the last model
+    distribution or for the customer support period.
+
+(2) Written Offer request (§6(b)):
+    If the above URL is unavailable, please contact oss@company.com. We may charge
+    the actual cost of media reproduction and shipping, and the offer is valid to
+    any third party for at least 3 years after the last model distribution or for
+    the customer support period.
+
+[Additional Notice for User Products (consumer devices / embedded) — GPLv3 §6 Installation Information]
+If this product is in a form that consumers can install themselves (embedded
+devices, etc.), we also provide the following Installation Information:
+  - Build procedure for the modified version
+  - Signing keys or authentication bypass methods required for installation
+  - Bootloader / firmware update procedures
 </code></pre><hr><h3 id=3412-compliance-artifacts-archiving-procedure>3.4.1.2 Compliance Artifacts Archiving Procedure</h3><p><strong>How to Comply</strong></p><p>A procedure for retaining copies of Compliance Artifacts for distributed supplied software for a certain
 period must be documented, and records must be maintained that prove the procedure was actually followed.
 This procedure document and archiving records are Verification Material 3.4.1.2.</p><p>The retention period must be a reasonable period from the last distribution of the software, and at
@@ -48,11 +106,14 @@ should be systematically managed by software version so that artifacts for a spe
 immediately retrieved and submitted.</p><p><strong>Considerations</strong></p><ul><li><strong>Specify retention period</strong>: Specify the retention period (at least 3 years) in the policy or
 procedure document.</li><li><strong>Version-by-version management</strong>: Link software release versions to artifacts and retain by version.</li><li><strong>Storage location</strong>: Store in an accessible and secure location such as an internal file server,
 document management system, or source code repository.</li><li><strong>Maintain archiving records</strong>: Record the history of when artifacts for which version were archived.</li><li><strong>Accessibility</strong>: Store in a searchable format so that artifacts can be immediately submitted when
-audits or external inquiries occur.</li></ul><p><strong>Sample</strong></p><p>The following is a sample Compliance Artifacts archiving record form.</p><pre tabindex=0><code>| Software Name | Version | Distribution Date | Artifact Type | Storage Location | Retention Deadline | Responsible |
-|---------------|---------|-------------------|---------------|-----------------|-------------------|-------------|
-| MyProduct | v1.0.0 | 2024-03-01 | NOTICES file, GPL source code package | /archive/myproduct/v1.0.0/ | 2027-03-01 | Gil-dong Hong |
-| MyProduct | v1.1.0 | 2024-09-15 | NOTICES file | /archive/myproduct/v1.1.0/ | 2027-09-15 | Gil-dong Hong |
-| FirmwareX | v2.3.0 | 2025-01-10 | NOTICES file, LGPL source code package, SBOM | /archive/firmwarex/v2.3.0/ | 2028-01-10 | Infra Lee |
-</code></pre><h2 id=5-references>5. References</h2><ul><li>Related guide: <a href=/OpenChain-KWG/en/guide/opensource_for_enterprise/3-process/>Enterprise Open Source Management Guide — 3. Process</a></li><li>Related template: <a href=/OpenChain-KWG/en/guide/templates/2-process-template/>Open Source Process Template</a></li></ul></div></main></div></div><footer class="td-footer row d-print-none"><div class=container-fluid><div class="row mx-md-2"><div class="td-footer__left col-6 col-sm-4 order-sm-1"><ul class=td-footer__links-list><li class=td-footer__links-item data-bs-toggle=tooltip title="User mailing list" aria-label="User mailing list"><a target=_blank rel=noopener href=https://lists.openchainproject.org/g/korea-wg aria-label="User mailing list"><i class="fa fa-envelope"></i></a></li></ul></div><div class="td-footer__right col-6 col-sm-4 order-sm-3"><ul class=td-footer__links-list><li class=td-footer__links-item data-bs-toggle=tooltip title=GitHub aria-label=GitHub><a target=_blank rel=noopener href=https://github.com/OpenChain-Project/OpenChain-KWG aria-label=GitHub><i class="fab fa-github"></i></a></li><li class=td-footer__links-item data-bs-toggle=tooltip title=Discord aria-label=Discord><a target=_blank rel=noopener href=https://discord.com/channels/1177116701561729104/ aria-label=Discord><i class="fab fa-discord"></i></a></li></ul></div><div class="td-footer__center col-12 col-sm-4 py-2 order-sm-2"><span class=td-footer__copyright>&copy;
+audits or external inquiries occur.</li></ul><p><strong>Sample</strong></p><p>The following is a sample Compliance Artifacts archiving record form.</p><pre tabindex=0><code>| Software Name | Version | First Distribution Date | Last Distribution Date | Artifact Type | Storage Location | Retention Deadline (Final) | Responsible |
+|---------------|---------|-------------------------|------------------------|---------------|-----------------|----------------------------|-------------|
+| MyProduct | v1.0.0 | 2024-03-01 | 2025-08-20 (patch v1.0.5 redistributed) | NOTICES file, GPL source code package | /archive/myproduct/v1.0.0/ | **2028-08-20** | Gil-dong Hong |
+| MyProduct | v1.1.0 | 2024-09-15 | 2024-09-15 | NOTICES file | /archive/myproduct/v1.1.0/ | 2027-09-15 | Gil-dong Hong |
+| FirmwareX | v2.3.0 | 2025-01-10 | 2025-06-12 (patch v2.3.2 redistributed) | NOTICES file, LGPL source code package, SBOM | /archive/firmwarex/v2.3.0/ | **2028-06-12** | Infra Lee |
+</code></pre><blockquote><p><strong>Retention Deadline Renewal Principle</strong>: The 3-year period of a GPL written offer is based on the
+<strong>&ldquo;last distribution&rdquo;</strong> date. When the same version is redistributed via a patch, the final deadline
+must also be renewed. The sample above records the &ldquo;First Distribution Date&rdquo; and &ldquo;Last Distribution
+Date&rdquo; separately so that the renewal can be tracked.</p></blockquote><h2 id=5-references>5. References</h2><ul><li>Related guide: <a href=/OpenChain-KWG/en/guide/opensource_for_enterprise/3-process/>Enterprise Open Source Management Guide — 3. Process</a></li><li>Related template: <a href=/OpenChain-KWG/en/guide/templates/2-process-template/>Open Source Process Template</a></li></ul></div></main></div></div><footer class="td-footer row d-print-none"><div class=container-fluid><div class="row mx-md-2"><div class="td-footer__left col-6 col-sm-4 order-sm-1"><ul class=td-footer__links-list><li class=td-footer__links-item data-bs-toggle=tooltip title="User mailing list" aria-label="User mailing list"><a target=_blank rel=noopener href=https://lists.openchainproject.org/g/korea-wg aria-label="User mailing list"><i class="fa fa-envelope"></i></a></li></ul></div><div class="td-footer__right col-6 col-sm-4 order-sm-3"><ul class=td-footer__links-list><li class=td-footer__links-item data-bs-toggle=tooltip title=GitHub aria-label=GitHub><a target=_blank rel=noopener href=https://github.com/OpenChain-Project/OpenChain-KWG aria-label=GitHub><i class="fab fa-github"></i></a></li><li class=td-footer__links-item data-bs-toggle=tooltip title=Discord aria-label=Discord><a target=_blank rel=noopener href=https://discord.com/channels/1177116701561729104/ aria-label=Discord><i class="fab fa-discord"></i></a></li></ul></div><div class="td-footer__center col-12 col-sm-4 py-2 order-sm-2"><span class=td-footer__copyright>&copy;
 2019&ndash;2026
 <span class=td-footer__authors>The OpenChain KWG Authors | Documentation distributed under <a href=https://creativecommons.org/licenses/by/4.0>CC BY 4.0</a> |</span></span><span class=td-footer__all_rights_reserved>All Rights Reserved</span></div></div></div></footer></div><script src=/OpenChain-KWG/js/main.min.335f0b6affd146f7f2b18fbb0e8557bdfc517dc1081a6ddfaa0e84a4c99a8835.js integrity="sha256-M18Lav/RRvfysY+7DoVXvfxRfcEIGm3fqg6EpMmaiDU=" crossorigin=anonymous></script><script defer src=/OpenChain-KWG/js/click-to-copy.min.73478a7d4807698aed7e355eb23f9890ca18fea3158604c8471746d046702bad.js integrity="sha256-c0eKfUgHaYrtfjVesj+YkMoY/qMVhgTIRxdG0EZwK60=" crossorigin=anonymous></script><script src=/OpenChain-KWG/js/tabpane-persist.js></script></body></html>

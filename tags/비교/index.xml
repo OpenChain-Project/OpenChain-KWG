@@ -22,9 +22,9 @@ OpenChain AI Work Group은 &lt;strong&gt;AI SBOM&lt;/strong&gt;을 ISO 42003의 
 AI SBOM 의무화 관련 최신 동향은 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/resource/ai_work_group/"&gt;AI Work Group 활동&lt;/a&gt;을 참고한다.&lt;/p&gt;</description></item><item><title>ISO/IEC 5230 vs 18974 비교</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/compare/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/compare/</guid><description>&lt;h2 id="1-두-표준의-관계"&gt;1. 두 표준의 관계&lt;/h2&gt;
 &lt;p&gt;ISO/IEC 5230과 ISO/IEC 18974는 모두 OpenChain 프로젝트가 주도하는 오픈소스
 관련 국제 표준이지만, 서로 다른 문제를 다룬다. 5230은 오픈소스 라이선스
-컴플라이언스(저작권 의무 이행·SBOM 관리·컴플라이언스 산출물 배포)를 다루고,
-18974는 오픈소스 보안 보증(취약점 탐지·평가·대응·CVD)을 다룬다. 두 표준은
-완전한 상위·하위 집합 관계가 아니다. 정책·역량·SBOM 등 9개 공통 조항을
+컴플라이언스(저작권 의무 이행, SBOM 관리, 컴플라이언스 산출물 배포)를 다루고,
+18974는 오픈소스 보안 보증(취약점 탐지, 평가, 대응, CVD)을 다룬다. 두 표준은
+완전한 상위·하위 집합 관계가 아니다. 정책, 역량, SBOM 등 9개 공통 조항을
 공유하되, 5230에만 있는 조항(라이선스 컴플라이언스·산출물·기여)과 18974에만
 있는 조항(표준 관행 구현·보안 보증)이 각각 존재한다.&lt;/p&gt;
 &lt;p&gt;두 표준을 동시에 준수하면 라이선스 의무 이행과 보안 취약점 관리를 하나의

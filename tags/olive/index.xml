@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Olive on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/olive/</link><description>Recent content in Olive on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Thu, 26 Mar 2026 05:45:44 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/olive/index.xml" rel="self" type="application/rss+xml"/><item><title>3rd Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/3rd-meeting/</link><pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/3rd-meeting/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Olive on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/olive/</link><description>Recent content in Olive on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Tue, 02 Jun 2026 11:08:34 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/olive/index.xml" rel="self" type="application/rss+xml"/><item><title>3rd Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/3rd-meeting/</link><pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/3rd-meeting/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;목적 : 공유 세미나&lt;/li&gt;
 &lt;li&gt;일시 : 2022. 05. 25(수), 오후 2시~3:30시&lt;/li&gt;
@@ -214,9 +214,9 @@ _&lt;center&gt; &lt; designed by [@soimkim](https://github.com/soimkim) &gt; &lt
 &lt;ul&gt;
 &lt;li&gt;주제 : 오픈소스 컴플라이언스 / 보안취약점 점검 대상 분류
 &lt;ul&gt;
-&lt;li&gt;폰트에 대해서도 오픈소스 컴플라이언스 활동을 수행하는지? (예: Open Font)&lt;/li&gt;
-&lt;li&gt;회사가 사내 직원용 모바일 앱(안드로이드, iOS)을 배포하는지? 그렇다면 이에 대해서도 오픈소스 컴플라이언스 활동을 수행하는지?&lt;/li&gt;
-&lt;li&gt;오픈소스 보안취약점 점검 대상은 어떻게 분류하는지? 배포하는 소프트웨어 뿐만 아니라, 인프라 용, 서버 용으로 사용 중인 소프트웨어에 대해서도 점검 대상으로 포함시키는지?&lt;/li&gt;
+&lt;li&gt;폰트도 오픈소스 컴플라이언스 활동을 수행하는지? (예: Open Font)&lt;/li&gt;
+&lt;li&gt;회사가 사내 직원용 모바일 앱(안드로이드, iOS)을 배포하는지? 그렇다면 이것도 오픈소스 컴플라이언스 활동을 수행하는지?&lt;/li&gt;
+&lt;li&gt;오픈소스 보안취약점 점검 대상은 어떻게 분류하는지? 배포하는 소프트웨어 뿐만 아니라, 인프라 용, 서버 용으로 사용 중인 소프트웨어도 점검 대상으로 포함시키는지?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;

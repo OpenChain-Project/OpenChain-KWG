@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBOM on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/sbom/</link><description>Recent content in SBOM on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Mon, 18 May 2026 15:21:05 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/sbom/index.xml" rel="self" type="application/rss+xml"/><item><title>FOSSLight</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/3-fosslight/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/3-fosslight/</guid><description>&lt;p&gt;FOSSLight는 LG Electronics가 주도하는 오픈소스 컴플라이언스 도구 모음입니다.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBOM on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/sbom/</link><description>Recent content in SBOM on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Tue, 02 Jun 2026 11:08:34 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/sbom/index.xml" rel="self" type="application/rss+xml"/><item><title>FOSSLight</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/3-fosslight/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/3-fosslight/</guid><description>&lt;p&gt;FOSSLight는 LG Electronics가 주도하는 오픈소스 컴플라이언스 도구 모음입니다.
 소스 코드·의존성·바이너리를 분석하는 &lt;strong&gt;FOSSLight Scanner&lt;/strong&gt;와,
 분석 결과를 중앙에서 관리하는 웹 플랫폼 &lt;strong&gt;FOSSLight Hub&lt;/strong&gt;로 구성됩니다.&lt;/p&gt;
 &lt;ul&gt;
@@ -218,45 +218,10 @@ SPDX 또는 CycloneDX 형식의 SBOM을 생성합니다.&lt;/p&gt;
 &lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
 &lt;p&gt;공급 소프트웨어에 어떤 오픈소스 컴포넌트가 포함되어 있는지 파악하지 못하면
 라이선스 의무를 이행할 수 없고 보안 취약점 대응도 불가능하다. §3.3.1은 공급
-소프트웨어를 구성하는 오픈소스 컴포넌트를 식별·추적·검토·승인·보관하는
+소프트웨어를 구성하는 오픈소스 컴포넌트를 식별, 추적, 검토, 승인, 보관하는
 절차를 수립하고, 그 절차가 실제로 이행되었음을 입증하는 컴포넌트 기록(SBOM)을
 유지하도록 요구한다. 이 조항은 오픈소스 라이선스 컴플라이언스와 보안 보증의
-핵심 인프라인 SBOM을 운영하는 기반이 된다.&lt;/p&gt;
-&lt;h2 id="2-해야-할-활동"&gt;2. 해야 할 활동&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;공급 소프트웨어에 포함된 오픈소스 컴포넌트를 자동화 도구(FOSSology, ORT,
-Syft, cdxgen 등)를 활용하여 식별하고 목록화한다.&lt;/li&gt;
-&lt;li&gt;오픈소스 컴포넌트 정보(컴포넌트명, 버전, 라이선스, 출처 등)를 추적하고
-검토·승인·보관하는 절차를 문서화한다.&lt;/li&gt;
-&lt;li&gt;각 공급 소프트웨어 릴리스에 대한 SBOM을 생성하고 관리한다.&lt;/li&gt;
-&lt;li&gt;SBOM 데이터를 SPDX 또는 CycloneDX 표준 형식으로 작성하여 상호 운용성을
-확보한다.&lt;/li&gt;
-&lt;li&gt;소프트웨어 변경(신규 컴포넌트 추가, 버전 업그레이드, 컴포넌트 제거) 시
-SBOM을 즉시 갱신한다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="3-요구사항-및-입증자료"&gt;3. 요구사항 및 입증자료&lt;/h2&gt;
-&lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;조항 번호&lt;/th&gt;
-					&lt;th&gt;요구사항 (KO)&lt;/th&gt;
-					&lt;th&gt;입증자료&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;§3.3.1&lt;/td&gt;
-					&lt;td&gt;공급 소프트웨어를 구성하는 각 오픈소스 컴포넌트(및 식별된 라이선스)를 포함하는 소프트웨어 구성 목록을 작성하고 관리하기 위한 프로세스가 존재해야 한다.&lt;/td&gt;
-					&lt;td&gt;&lt;strong&gt;3.3.1.1&lt;/strong&gt; 공급 소프트웨어를 구성하는 오픈소스 컴포넌트에 대한 정보를 식별, 추적, 검토, 승인 및 보관하는 문서화된 절차&lt;br&gt;&lt;strong&gt;3.3.1.2&lt;/strong&gt; 문서화된 절차가 적절히 준수되었음을 보여주는 공급 소프트웨어에 대한 오픈소스 컴포넌트 기록&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;details&gt;&lt;summary&gt;영문 원문 보기&lt;/summary&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;§3.3.1 Bill of Materials&lt;/strong&gt;
-A process shall exist for creating and managing a bill of materials that
-includes each open source component (and its identified licenses) from
-which the supplied software is comprised.&lt;/p&gt;</description></item><item><title>§4.3.1 SBOM</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/3-content-review/1-sbom/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/3-content-review/1-sbom/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+핵심 인프라인 SBOM을 운영하는 기반이 된다.&lt;/p&gt;</description></item><item><title>§4.3.1 SBOM</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/3-content-review/1-sbom/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/3-content-review/1-sbom/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
 &lt;p&gt;이 조항은 &lt;strong&gt;Phase 3 — 프로세스 구축&lt;/strong&gt; 단계에서 구축합니다.
 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -405,13 +370,13 @@ which the supplied software is comprised.&lt;/p&gt;</description></item><item><t
 &lt;ol&gt;
 &lt;li&gt;라이선스 변경 이력
 &lt;ul&gt;
-&lt;li&gt;2018년 10월, MongoDB : AGPL 3.0 → SSPL 1.0&lt;/li&gt;
-&lt;li&gt;2019년 11월, Sentry : BSD 3-Clause → BUSL 1.1&lt;/li&gt;
-&lt;li&gt;2021년 1월, ElasticSearch : Apache 2.0 → EL 2.0 or SSPL 1.0&lt;/li&gt;
-&lt;li&gt;2021년 4월, Grafana : Apache 2.0 → AGPL 3.0&lt;/li&gt;
+&lt;li&gt;2018년 10월, MongoDB : &lt;code&gt;AGPL 3.0 → SSPL 1.0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;2019년 11월, Sentry : &lt;code&gt;BSD 3-Clause → BUSL 1.1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;2021년 1월, ElasticSearch : &lt;code&gt;Apache 2.0 → EL 2.0 or SSPL 1.0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;2021년 4월, Grafana : &lt;code&gt;Apache 2.0 → AGPL 3.0&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Grafana : Apache 2.0 → AGPL 3.0
+&lt;li&gt;Grafana : &lt;code&gt;Apache 2.0 → AGPL 3.0&lt;/code&gt;
 &lt;ul&gt;
 &lt;li&gt;변경 목적은 오픈소스 커뮤니티의 자유를 유지하면서, 오픈소스를 수정한 경우 기여 문화를 장려하기 위함&lt;/li&gt;
 &lt;li&gt;AGPL 특징
@@ -427,14 +392,14 @@ which the supplied software is comprised.&lt;/p&gt;</description></item><item><t
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;MongoDB : AGPL 3.0 → SSPL 1.0
+&lt;li&gt;MongoDB : &lt;code&gt;AGPL 3.0 → SSPL 1.0&lt;/code&gt;
 &lt;ul&gt;
 &lt;li&gt;변경 목적은 AGPL은 클라우드에서 제공이 배포인지, 아닌지에 대한 논란의 소지가 있어서 명확하게 라이선스를 SSPL로 변경한 것&lt;/li&gt;
 &lt;li&gt;클라우드 서비스 업체가 커뮤니티에 기여하지 않고 대부분의 이익을 창출하고 있다고 비판&lt;/li&gt;
 &lt;li&gt;클라우드 서비스에서 &lt;strong&gt;Strip-Mining&lt;/strong&gt;을 하고 있다고 비판함 (Strip Mining: 산이라는 생태계는 파괴하고 필요한 자원만 캐는 행위)&lt;/li&gt;
 &lt;li&gt;SSPL v1.0 특징
 &lt;ul&gt;
-&lt;li&gt;클라우드 서비스의 경우에 대해서도 소스코드 공개 의무사항을 요구 (13조항)&lt;/li&gt;
+&lt;li&gt;클라우드 서비스의 경우에도 소스코드 공개 의무사항을 요구 (13조항)&lt;/li&gt;
 &lt;li&gt;서비스 소스코드: 프로그램 및 관리 소프트웨어 (API, 모니터링, 백업, 저장 S/W 등)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -445,7 +410,7 @@ which the supplied software is comprised.&lt;/p&gt;</description></item><item><t
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;ElasticSearch : Apache 2.0 → Elastic License 또는 SSPL 1.0
+&lt;li&gt;ElasticSearch : &lt;code&gt;Apache 2.0 → Elastic License 또는 SSPL 1.0&lt;/code&gt;
 &lt;ul&gt;
 &lt;li&gt;변경 목적은 MongoDB와 사례와 동일&lt;/li&gt;
 &lt;li&gt;Elastic License 2.0 특징
@@ -472,7 +437,7 @@ which the supplied software is comprised.&lt;/p&gt;</description></item><item><t
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Sentry : BSD 3-Clause → BUSL 1.1
+&lt;li&gt;Sentry : &lt;code&gt;BSD 3-Clause → BUSL 1.1&lt;/code&gt;
 &lt;ul&gt;
 &lt;li&gt;변경 목적은 Sentry 초기 개발 때 1인 개발로 시작했으나, 프로젝트가 커지면서 수익 창출이 필요했고 Sentry를 판매하는 다른 회사로부터 보호하기 위해 라이선스 변경&lt;/li&gt;
 &lt;li&gt;BUSL 1.1 특징
@@ -766,11 +731,11 @@ which the supplied software is comprised.&lt;/p&gt;</description></item><item><t
 &lt;/table&gt;
 &lt;h2 id="sponsor"&gt;Sponsor&lt;/h2&gt;
 &lt;p&gt;&lt;img src="../../../images/content/about/logo/hancom.png" alt=""&gt;&lt;/p&gt;</description></item><item><title>EU 사이버 복원력법(CRA) 취약점 보고 의무 — 2026-09-11 시행 대비 조사보고서</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2026/05/18/eu-%EC%82%AC%EC%9D%B4%EB%B2%84-%EB%B3%B5%EC%9B%90%EB%A0%A5%EB%B2%95cra-%EC%B7%A8%EC%95%BD%EC%A0%90-%EB%B3%B4%EA%B3%A0-%EC%9D%98%EB%AC%B4-2026-09-11-%EC%8B%9C%ED%96%89-%EB%8C%80%EB%B9%84-%EC%A1%B0%EC%82%AC%EB%B3%B4%EA%B3%A0%EC%84%9C/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2026/05/18/eu-%EC%82%AC%EC%9D%B4%EB%B2%84-%EB%B3%B5%EC%9B%90%EB%A0%A5%EB%B2%95cra-%EC%B7%A8%EC%95%BD%EC%A0%90-%EB%B3%B4%EA%B3%A0-%EC%9D%98%EB%AC%B4-2026-09-11-%EC%8B%9C%ED%96%89-%EB%8C%80%EB%B9%84-%EC%A1%B0%EC%82%AC%EB%B3%B4%EA%B3%A0%EC%84%9C/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;이 보고서에 대해&lt;/div&gt;
-&lt;p&gt;이 보고서는 Claude Code 하네스를 통해 다수의 전문 AI 에이전트가 협업해 생성되었습니다 — 1차 출처 조사부터 배경·동향 보강, 사실 검증까지. 검증 단계에서 위임법 (EU) 2026/881의 CSIRT 통지 지연 조건 기술 오류 1건이 발견·정정됐고, 과징금 근거에 CRA 원문이 1차 출처로 보강됐습니다. 모든 사실 주장은 EU 1차 출처(CRA 원문·유럽위원회·ENISA·표준)에 근거합니다.&lt;/p&gt;
+&lt;p&gt;이 보고서는 Claude Code 하네스를 통해 다수의 전문 AI 에이전트가 협업해 생성되었습니다 — 1차 출처 조사부터 배경과 동향 보강, 사실 검증까지. 검증 단계에서 위임법 (EU) 2026/881의 CSIRT 통지 지연 조건 기술 오류 1건이 발견되어 정정됐고, 과징금 근거에 CRA 원문이 1차 출처로 보강됐습니다. 모든 사실 주장은 EU 1차 출처(CRA 원문, 유럽위원회, ENISA, 표준)에 근거합니다.&lt;/p&gt;
 &lt;/div&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;요약&lt;/strong&gt;
-EU 사이버 복원력법(Cyber Resilience Act, CRA — Regulation (EU) 2024/2847)은 EU 시장에 출시되는 모든 &amp;ldquo;디지털 요소를 가진 제품(product with digital elements, PDE)&amp;ldquo;에 수평적 사이버보안 의무를 부과하는, EU 역사상 첫 포괄적 제품 보안 규정이다. 2024년 12월 10일 발효된 이 규정은 단계적으로 적용되며, 2026년 9월 11일부터는 제14조 보고 의무가 발효되어 제조사·수입사·유통사가 실제 악용 중인 취약점과 중대한 보안 사고를 24시간·72시간·14일 시한 안에 ENISA(유럽 사이버보안청)와 회원국 CSIRT에 통지해야 한다. 이 날짜까지 보고 워크플로우가 가동되지 않으면 최대 1,500만 유로 또는 전 세계 연간 매출 2.5%의 과징금 위험이 발생하며, 한국 기업이라도 EU 시장에 제품을 출시하면 즉시 적용 대상이 된다. &lt;a id="a1-ref-1"&gt;&lt;/a&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/blog/2026/05/18/eu-%EC%82%AC%EC%9D%B4%EB%B2%84-%EB%B3%B5%EC%9B%90%EB%A0%A5%EB%B2%95cra-%EC%B7%A8%EC%95%BD%EC%A0%90-%EB%B3%B4%EA%B3%A0-%EC%9D%98%EB%AC%B4-2026-09-11-%EC%8B%9C%ED%96%89-%EB%8C%80%EB%B9%84-%EC%A1%B0%EC%82%AC%EB%B3%B4%EA%B3%A0%EC%84%9C/#a1"&gt;A1&lt;/a&gt;·&lt;a id="b1-ref-1"&gt;&lt;/a&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/blog/2026/05/18/eu-%EC%82%AC%EC%9D%B4%EB%B2%84-%EB%B3%B5%EC%9B%90%EB%A0%A5%EB%B2%95cra-%EC%B7%A8%EC%95%BD%EC%A0%90-%EB%B3%B4%EA%B3%A0-%EC%9D%98%EB%AC%B4-2026-09-11-%EC%8B%9C%ED%96%89-%EB%8C%80%EB%B9%84-%EC%A1%B0%EC%82%AC%EB%B3%B4%EA%B3%A0%EC%84%9C/#b1"&gt;B1&lt;/a&gt;·&lt;a id="e1-ref-1"&gt;&lt;/a&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/blog/2026/05/18/eu-%EC%82%AC%EC%9D%B4%EB%B2%84-%EB%B3%B5%EC%9B%90%EB%A0%A5%EB%B2%95cra-%EC%B7%A8%EC%95%BD%EC%A0%90-%EB%B3%B4%EA%B3%A0-%EC%9D%98%EB%AC%B4-2026-09-11-%EC%8B%9C%ED%96%89-%EB%8C%80%EB%B9%84-%EC%A1%B0%EC%82%AC%EB%B3%B4%EA%B3%A0%EC%84%9C/#e1"&gt;E1&lt;/a&gt;&lt;/p&gt;</description></item><item><title>2025-12-04 SBOM 표준화와 최신 이슈들</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/resource/telco_work_group/2025-12-04/</link><pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/resource/telco_work_group/2025-12-04/</guid><description>&lt;p&gt;source: &lt;a href="https://openchainproject.org/news/2025/12/12/recording-openchain-telco-work-group-2025-12-04"&gt;https://openchainproject.org/news/2025/12/12/recording-openchain-telco-work-group-2025-12-04&lt;/a&gt;&lt;/p&gt;
+EU 사이버 복원력법(Cyber Resilience Act, CRA — Regulation (EU) 2024/2847)은 EU 시장에 출시되는 모든 &amp;ldquo;디지털 요소를 가진 제품(product with digital elements, PDE)&amp;ldquo;에 수평적 사이버보안 의무를 부과하는, EU 역사상 첫 포괄적 제품 보안 규정이다. 2024년 12월 10일 발효된 이 규정은 단계적으로 적용되며, 2026년 9월 11일부터는 제14조 보고 의무가 발효되어 제조사, 수입사, 유통사가 실제 악용 중인 취약점과 중대한 보안 사고를 각각 24시간, 72시간, 14일 시한 안에 ENISA(유럽 사이버보안청)와 회원국 CSIRT에 통지해야 한다. 이 날짜까지 보고 워크플로우가 가동되지 않으면 최대 1,500만 유로 또는 전 세계 연간 매출 2.5%의 과징금 위험이 발생하며, 한국 기업이라도 EU 시장에 제품을 출시하면 즉시 적용 대상이 된다. &lt;a id="a1-ref-1"&gt;&lt;/a&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/blog/2026/05/18/eu-%EC%82%AC%EC%9D%B4%EB%B2%84-%EB%B3%B5%EC%9B%90%EB%A0%A5%EB%B2%95cra-%EC%B7%A8%EC%95%BD%EC%A0%90-%EB%B3%B4%EA%B3%A0-%EC%9D%98%EB%AC%B4-2026-09-11-%EC%8B%9C%ED%96%89-%EB%8C%80%EB%B9%84-%EC%A1%B0%EC%82%AC%EB%B3%B4%EA%B3%A0%EC%84%9C/#a1"&gt;A1&lt;/a&gt;, &lt;a id="b1-ref-1"&gt;&lt;/a&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/blog/2026/05/18/eu-%EC%82%AC%EC%9D%B4%EB%B2%84-%EB%B3%B5%EC%9B%90%EB%A0%A5%EB%B2%95cra-%EC%B7%A8%EC%95%BD%EC%A0%90-%EB%B3%B4%EA%B3%A0-%EC%9D%98%EB%AC%B4-2026-09-11-%EC%8B%9C%ED%96%89-%EB%8C%80%EB%B9%84-%EC%A1%B0%EC%82%AC%EB%B3%B4%EA%B3%A0%EC%84%9C/#b1"&gt;B1&lt;/a&gt;, &lt;a id="e1-ref-1"&gt;&lt;/a&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/blog/2026/05/18/eu-%EC%82%AC%EC%9D%B4%EB%B2%84-%EB%B3%B5%EC%9B%90%EB%A0%A5%EB%B2%95cra-%EC%B7%A8%EC%95%BD%EC%A0%90-%EB%B3%B4%EA%B3%A0-%EC%9D%98%EB%AC%B4-2026-09-11-%EC%8B%9C%ED%96%89-%EB%8C%80%EB%B9%84-%EC%A1%B0%EC%82%AC%EB%B3%B4%EA%B3%A0%EC%84%9C/#e1"&gt;E1&lt;/a&gt;&lt;/p&gt;</description></item><item><title>2025-12-04 SBOM 표준화와 최신 이슈들</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/resource/telco_work_group/2025-12-04/</link><pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/resource/telco_work_group/2025-12-04/</guid><description>&lt;p&gt;source: &lt;a href="https://openchainproject.org/news/2025/12/12/recording-openchain-telco-work-group-2025-12-04"&gt;https://openchainproject.org/news/2025/12/12/recording-openchain-telco-work-group-2025-12-04&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;일시: 2025년 12월 4일&lt;/p&gt;
 &lt;p&gt;참석자: Jimmy Ahlberg (Ericsson), Takashi Ninjouji (Honda), Marc-Etienne Vargenau (Nokia)&lt;/p&gt;
 &lt;p&gt;주요 의제: CycloneDX 이슈, OpenChain 운영진 변경, CISA 규제 현황, 신규 툴 소개, SPDX 3.0 전환 이슈&lt;/p&gt;
@@ -791,7 +756,7 @@ EU 사이버 복원력법(Cyber Resilience Act, CRA — Regulation (EU) 2024/284
 &lt;p&gt;작성일: 2025년 10월 27일&lt;/p&gt;
 &lt;p&gt;주제: OpenChain SBOM Work Group Monthly Meeting (2025-10-22) 상세 리뷰&lt;/p&gt;
 &lt;p&gt;안녕하세요. 오늘은 지난 10월 22일에 진행된 OpenChain SBOM 워크 그룹(OpenChain SBOM Work Group) 정기 미팅의 핵심 내용을 정리해 드립니다.&lt;/p&gt;
-&lt;p&gt;이번 미팅은 지난 9월 &amp;lsquo;스터디 그룹(Study Group)&amp;lsquo;에서 &amp;lsquo;워크 그룹(Working Group)&amp;lsquo;으로 승격된 이후 본격적으로 진행된 논의라는 점에서 큰 의미가 있었습니다. 특히, 현재 업계의 가장 큰 화두인 &amp;ldquo;단순히 SBOM을 만드는 것을 넘어, 어떻게 고품질의 SBOM을 만들고 규제에 대응할 것인가?&amp;ldquo;에 대한 구체적인 가이드라인 작업 현황이 공개되었습니다.&lt;/p&gt;</description></item><item><title>2024-12-06 SBOM 가이드라인 업데이트 논의</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/resource/telco_work_group/2024-12-06/</link><pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/resource/telco_work_group/2024-12-06/</guid><description>&lt;p&gt;source: &lt;a href="https://openchainproject.org/news/2024/12/12/telco-work-group-2024-12-06"&gt;https://openchainproject.org/news/2024/12/12/telco-work-group-2024-12-06&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;이번 미팅은 지난 9월 &amp;lsquo;스터디 그룹(Study Group)&amp;lsquo;에서 &amp;lsquo;워크 그룹(Working Group)&amp;lsquo;으로 승격된 이후 본격적으로 진행된 논의여서 큰 의미가 있었습니다. 특히, 현재 업계의 가장 큰 화두인 &amp;ldquo;단순히 SBOM을 만드는 것을 넘어, 어떻게 고품질의 SBOM을 만들고 규제에 대응할 것인가?&amp;ldquo;에 대한 구체적인 가이드라인 작업 현황이 공개되었습니다.&lt;/p&gt;</description></item><item><title>2024-12-06 SBOM 가이드라인 업데이트 논의</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/resource/telco_work_group/2024-12-06/</link><pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/resource/telco_work_group/2024-12-06/</guid><description>&lt;p&gt;source: &lt;a href="https://openchainproject.org/news/2024/12/12/telco-work-group-2024-12-06"&gt;https://openchainproject.org/news/2024/12/12/telco-work-group-2024-12-06&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="목차"&gt;목차&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;인도의 SBOM 기술 가이드라인 검토&lt;/li&gt;
@@ -821,7 +786,7 @@ EU 사이버 복원력법(Cyber Resilience Act, CRA — Regulation (EU) 2024/284
 &lt;h3 id="gary-oneall"&gt;&lt;strong&gt;Gary O’Neall&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;Gary O’Neall은 &lt;a href="https://spdx.dev/about/overview"&gt;SPDX&lt;/a&gt; 표준에 기여한 전문가로, 오픈소스 소프트웨어의 구성요소, 라이선스, 저작권, 보안 참조 정보를 전달하는 데 중점을 둔 표준을 개발해왔습니다. 그는 Source Auditor Inc.에서 제품 개발 및 기술을 담당하며, 오픈소스 소프트웨어의 기술적 및 법적 위험 관리를 돕는 도구를 개발하고 있습니다.&lt;/p&gt;
 &lt;h3 id="jeff-shapiro"&gt;&lt;strong&gt;Jeff Shapiro&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Jeff Shapiro는 &lt;a href="https://www.linuxfoundation.org"&gt;리눅스 재단&lt;/a&gt;의 라이선스 스캐닝 디렉터로, 30년 이상의 소프트웨어 산업 경험을 보유하고 있습니다. 그는 오픈소스 스캐닝 및 OSS(오픈소스 소프트웨어) 라이선스 준수 교육에 전문성을 가지고 있으며, 현재 리눅스 재단에서 중요한 프로젝트들의 코드 관리와 SBOM 생성에 기여하고 있습니다.&lt;/p&gt;</description></item><item><title>2024-11-27 취약점과 미래 - 다층적 소프트웨어 취약점과 대응 전략</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/resource/sbom_work_group/2024-11-27/</link><pubDate>Wed, 27 Nov 2024 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/resource/sbom_work_group/2024-11-27/</guid><description>&lt;p&gt;source: &lt;a href="https://openchainproject.org/news/2024/12/04/sbom-study-group-2024-11-27"&gt;https://openchainproject.org/news/2024/12/04/sbom-study-group-2024-11-27&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Jeff Shapiro는 &lt;a href="https://www.linuxfoundation.org"&gt;리눅스 재단&lt;/a&gt;의 라이선스 스캐닝 디렉터로, 30년 이상의 소프트웨어 산업 경험을 보유하고 있습니다. 그는 오픈소스 스캐닝 및 OSS(오픈소스 소프트웨어) 라이선스 준수 교육에 전문성이 있으며, 현재 리눅스 재단에서 중요한 프로젝트들의 코드 관리와 SBOM 생성에 기여하고 있습니다.&lt;/p&gt;</description></item><item><title>2024-11-27 취약점과 미래 - 다층적 소프트웨어 취약점과 대응 전략</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/resource/sbom_work_group/2024-11-27/</link><pubDate>Wed, 27 Nov 2024 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/resource/sbom_work_group/2024-11-27/</guid><description>&lt;p&gt;source: &lt;a href="https://openchainproject.org/news/2024/12/04/sbom-study-group-2024-11-27"&gt;https://openchainproject.org/news/2024/12/04/sbom-study-group-2024-11-27&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="목차"&gt;목차&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;소개&lt;/li&gt;

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>삼성전자 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90/</link><description>Recent content in 삼성전자 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Wed, 08 Apr 2026 21:29:13 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90/index.xml" rel="self" type="application/rss+xml"/><item><title>2nd Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/2nd-meeting/</link><pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/2nd-meeting/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>삼성전자 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90/</link><description>Recent content in 삼성전자 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Tue, 02 Jun 2026 11:08:34 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90/index.xml" rel="self" type="application/rss+xml"/><item><title>2nd Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/2nd-meeting/</link><pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/subgroup/tooling/2nd-meeting/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;목적 : 공유 세미나&lt;/li&gt;
 &lt;li&gt;일시 : 2022. 04. 27(수), 오후 2시~3:30시&lt;/li&gt;
@@ -312,13 +312,13 @@
 &lt;ol&gt;
 &lt;li&gt;라이선스 변경 이력
 &lt;ul&gt;
-&lt;li&gt;2018년 10월, MongoDB : AGPL 3.0 → SSPL 1.0&lt;/li&gt;
-&lt;li&gt;2019년 11월, Sentry : BSD 3-Clause → BUSL 1.1&lt;/li&gt;
-&lt;li&gt;2021년 1월, ElasticSearch : Apache 2.0 → EL 2.0 or SSPL 1.0&lt;/li&gt;
-&lt;li&gt;2021년 4월, Grafana : Apache 2.0 → AGPL 3.0&lt;/li&gt;
+&lt;li&gt;2018년 10월, MongoDB : &lt;code&gt;AGPL 3.0 → SSPL 1.0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;2019년 11월, Sentry : &lt;code&gt;BSD 3-Clause → BUSL 1.1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;2021년 1월, ElasticSearch : &lt;code&gt;Apache 2.0 → EL 2.0 or SSPL 1.0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;2021년 4월, Grafana : &lt;code&gt;Apache 2.0 → AGPL 3.0&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Grafana : Apache 2.0 → AGPL 3.0
+&lt;li&gt;Grafana : &lt;code&gt;Apache 2.0 → AGPL 3.0&lt;/code&gt;
 &lt;ul&gt;
 &lt;li&gt;변경 목적은 오픈소스 커뮤니티의 자유를 유지하면서, 오픈소스를 수정한 경우 기여 문화를 장려하기 위함&lt;/li&gt;
 &lt;li&gt;AGPL 특징
@@ -334,14 +334,14 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;MongoDB : AGPL 3.0 → SSPL 1.0
+&lt;li&gt;MongoDB : &lt;code&gt;AGPL 3.0 → SSPL 1.0&lt;/code&gt;
 &lt;ul&gt;
 &lt;li&gt;변경 목적은 AGPL은 클라우드에서 제공이 배포인지, 아닌지에 대한 논란의 소지가 있어서 명확하게 라이선스를 SSPL로 변경한 것&lt;/li&gt;
 &lt;li&gt;클라우드 서비스 업체가 커뮤니티에 기여하지 않고 대부분의 이익을 창출하고 있다고 비판&lt;/li&gt;
 &lt;li&gt;클라우드 서비스에서 &lt;strong&gt;Strip-Mining&lt;/strong&gt;을 하고 있다고 비판함 (Strip Mining: 산이라는 생태계는 파괴하고 필요한 자원만 캐는 행위)&lt;/li&gt;
 &lt;li&gt;SSPL v1.0 특징
 &lt;ul&gt;
-&lt;li&gt;클라우드 서비스의 경우에 대해서도 소스코드 공개 의무사항을 요구 (13조항)&lt;/li&gt;
+&lt;li&gt;클라우드 서비스의 경우에도 소스코드 공개 의무사항을 요구 (13조항)&lt;/li&gt;
 &lt;li&gt;서비스 소스코드: 프로그램 및 관리 소프트웨어 (API, 모니터링, 백업, 저장 S/W 등)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -352,7 +352,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;ElasticSearch : Apache 2.0 → Elastic License 또는 SSPL 1.0
+&lt;li&gt;ElasticSearch : &lt;code&gt;Apache 2.0 → Elastic License 또는 SSPL 1.0&lt;/code&gt;
 &lt;ul&gt;
 &lt;li&gt;변경 목적은 MongoDB와 사례와 동일&lt;/li&gt;
 &lt;li&gt;Elastic License 2.0 특징
@@ -379,7 +379,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Sentry : BSD 3-Clause → BUSL 1.1
+&lt;li&gt;Sentry : &lt;code&gt;BSD 3-Clause → BUSL 1.1&lt;/code&gt;
 &lt;ul&gt;
 &lt;li&gt;변경 목적은 Sentry 초기 개발 때 1인 개발로 시작했으나, 프로젝트가 커지면서 수익 창출이 필요했고 Sentry를 판매하는 다른 회사로부터 보호하기 위해 라이선스 변경&lt;/li&gt;
 &lt;li&gt;BUSL 1.1 특징

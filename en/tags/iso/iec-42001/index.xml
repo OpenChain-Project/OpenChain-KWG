@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ISO/IEC 42001 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/iso/iec-42001/</link><description>Recent content in ISO/IEC 42001 on OpenChain KWG</description><generator>Hugo</generator><language>en</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/iso/iec-42001/index.xml" rel="self" type="application/rss+xml"/><item><title>7. AI Compliance</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/opensource_for_enterprise/7-ai-compliance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/opensource_for_enterprise/7-ai-compliance/</guid><description>&lt;div class="alert alert-success" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;Requirements Covered in This Section&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;ISO/IEC 42001&lt;/strong&gt;: §5.2 (AI Policy) · §6.1.2 (AI Risk Assessment) · §7.5 (Documentation) · §8.5 (AI Lifecycle) · §8.6 (AI Data) · §8.8 (External AI Procurement)&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;AI systems make extensive use of open source frameworks, pre-trained models, and open datasets.
+Companies that operate an open source management system (ISO/IEC 5230 · 18974) must apply
+open source compliance principles during the AI system development phase as well.
+In addition, development environments that leverage AI coding tools (GitHub Copilot, Claude Code, Cursor, etc.)
+require a new management framework to address license contamination and the introduction of vulnerable packages.&lt;/p&gt;</description></item></channel></rss>

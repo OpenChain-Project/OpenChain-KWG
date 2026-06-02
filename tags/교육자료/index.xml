@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>교육자료 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EA%B5%90%EC%9C%A1%EC%9E%90%EB%A3%8C/</link><description>Recent content in 교육자료 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Tue, 12 May 2026 09:16:25 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EA%B5%90%EC%9C%A1%EC%9E%90%EB%A3%8C/index.xml" rel="self" type="application/rss+xml"/><item><title>3. OpenChain 리소스</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/archive/nipa_openchain/i-openchainproject/3-openchain-curriculum/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/archive/nipa_openchain/i-openchainproject/3-openchain-curriculum/</guid><description>&lt;p&gt;OpenChain 프로젝트에서는 기업이 컴플라이언스 프로그램을 구축하는 데 필요한 정책 문서 템플릿, 교육 자료 등 다양한 리소스를 제공한다. 이 자료들은 OpenChain 표준 준수와 일반적인 오픈소스 컴플라이언스 활동을 지원하기 위해 고안됐으며, 누구나 자유롭게 사용할 수 있도록 CC-0 라이선스로 제공된다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>교육자료 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EA%B5%90%EC%9C%A1%EC%9E%90%EB%A3%8C/</link><description>Recent content in 교육자료 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Tue, 02 Jun 2026 11:08:34 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EA%B5%90%EC%9C%A1%EC%9E%90%EB%A3%8C/index.xml" rel="self" type="application/rss+xml"/><item><title>3. OpenChain 리소스</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/archive/nipa_openchain/i-openchainproject/3-openchain-curriculum/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/archive/nipa_openchain/i-openchainproject/3-openchain-curriculum/</guid><description>&lt;p&gt;OpenChain 프로젝트에서는 기업이 컴플라이언스 프로그램을 구축하는 데 필요한 정책 문서 템플릿, 교육 자료 등 다양한 리소스를 제공한다. 이 자료들은 OpenChain 표준 준수와 일반적인 오픈소스 컴플라이언스 활동을 지원하기 위해 고안됐으며, 누구나 자유롭게 사용할 수 있도록 CC-0 라이선스로 제공된다.&lt;/p&gt;
 &lt;div &gt;&lt;span class="image fit"&gt;
  &lt;img src="../resource.png" width="90%"&gt;
 &lt;/span&gt;&lt;/div&gt;
@@ -132,15 +132,10 @@
 &lt;/ul&gt;</description></item><item><title>교육 슬라이드</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/training-slides/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/training-slides/</guid><description>&lt;h2 id="교육-슬라이드"&gt;교육 슬라이드&lt;/h2&gt;
 &lt;p&gt;이 페이지에서는 기업 오픈소스 거버넌스 전 과정을 담은 교육 슬라이드를 제공합니다.
 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/"&gt;기업 오픈소스 관리 가이드&lt;/a&gt; 내용을 4시간 교육용으로 구성한 자료입니다.&lt;/p&gt;
-&lt;!-- &lt;div class="mx-auto" style="margin: 24px 0;"&gt;
- &lt;a class="btn btn-lg btn-primary mr-3 mb-4" href="../../slides/enterprise-oss-governance.html" target="_blank"&gt;
- 슬라이드 보기 →
- &lt;/a&gt;
-&lt;/div&gt; --&gt;
-&lt;p&gt;&lt;a href="../../slides/enterprise-oss-governance.html" target="_blank" rel="noopener"&gt;전체 화면으로 보기 →&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../../slides/enterprise-oss-governance/" target="_blank" rel="noopener"&gt;전체 화면으로 보기&lt;/a&gt;&lt;/p&gt;
 &lt;div style="margin-top: 16px;"&gt;
 &lt;iframe
- src="../../slides/enterprise-oss-governance.html"
+ src="../../slides/enterprise-oss-governance/"
  width="100%"
  height="560"
  style="border: 1px solid #E0E0E0; border-radius: 4px;"
@@ -158,25 +153,40 @@
 	&lt;/thead&gt;
 	&lt;tbody&gt;
 			&lt;tr&gt;
+					&lt;td&gt;Part 0&lt;/td&gt;
+					&lt;td&gt;도입&lt;/td&gt;
+					&lt;td&gt;강의 목적·4시간 로드맵&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
 					&lt;td&gt;Part 1&lt;/td&gt;
-					&lt;td&gt;오픈소스 컴플라이언스 기초&lt;/td&gt;
-					&lt;td&gt;오픈소스 라이선스, 컴플라이언스 프로세스, ISO/IEC 5230&lt;/td&gt;
+					&lt;td&gt;표준 이해&lt;/td&gt;
+					&lt;td&gt;ISO/IEC 5230·18974·42001 + OpenChain&lt;/td&gt;
 			&lt;/tr&gt;
 			&lt;tr&gt;
 					&lt;td&gt;Part 2&lt;/td&gt;
-					&lt;td&gt;보안 보증&lt;/td&gt;
-					&lt;td&gt;취약점 관리, ISO/IEC 18974&lt;/td&gt;
+					&lt;td&gt;6대 핵심 요소&lt;/td&gt;
+					&lt;td&gt;조직·정책·프로세스·도구·교육·준수&lt;/td&gt;
 			&lt;/tr&gt;
 			&lt;tr&gt;
 					&lt;td&gt;Part 3&lt;/td&gt;
 					&lt;td&gt;AI 컴플라이언스&lt;/td&gt;
-					&lt;td&gt;AI 모델 라이선스, 학습 데이터 관리, AI-BOM&lt;/td&gt;
+					&lt;td&gt;글로벌 AI 규제·모델 라이선스·AI SBOM·공급망 보안&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Part 4&lt;/td&gt;
+					&lt;td&gt;라이브 데모&lt;/td&gt;
+					&lt;td&gt;SBOM 생성 → Dependency-Track → VEX Triage&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Part 5&lt;/td&gt;
+					&lt;td&gt;마무리&lt;/td&gt;
+					&lt;td&gt;회고·다음 단계·Q&amp;amp;A&lt;/td&gt;
 			&lt;/tr&gt;
 	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;슬라이드 수&lt;/strong&gt;: 약 93장&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;예상 교육 시간&lt;/strong&gt;: 4시간&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;슬라이드 수&lt;/strong&gt;: 약 99장&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;예상 교육 시간&lt;/strong&gt;: 4시간 (Part 3 AI 75분 확장)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;대상&lt;/strong&gt;: 기업 오픈소스 컴플라이언스 담당자, 법무팀, OSPO&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="라이선스"&gt;라이선스&lt;/h2&gt;
@@ -185,7 +195,7 @@
 &lt;p&gt;공개소프트웨어 가이드 4종의 내용은 아래와 같습니다.
 참고로 기업 공개소프트웨어 거버넌스 가이드는 현재 OpenChain KWG 운영진이신 장학성, 이서연, 황민호님이 집필에 참여했습니다.&lt;/p&gt;
 &lt;h2 id="공개소프트웨어-라이선스-가이드-개정판"&gt;공개소프트웨어 라이선스 가이드 (개정판)&lt;/h2&gt;
-&lt;p&gt;📖&lt;a href="https://www.oss.kr/oss_guide/show/a17c94f3-a470-4e1d-8cfe-d5d15d6535f7"&gt;공개 소프트웨어 라이선스 다운로드&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.oss.kr/oss_guide/show/a17c94f3-a470-4e1d-8cfe-d5d15d6535f7"&gt;공개 소프트웨어 라이선스 다운로드&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;공개소프트웨어 라이선스 개요 및 소개, 의무사항 준수 방법, 저작권 및 특허권 관련 검토사항, 라이선스 관련 체크리스트, 관리방안, 주요 분쟁사례, 자주하는 질문 등 기업이나 조직에 적용할 핵심 내용을 파악하여 다양한 환경에서 활용 가능하도록 구성&lt;/p&gt;</description></item><item><title>카카오 교육 자료 공개</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/11/24/%EC%B9%B4%EC%B9%B4%EC%98%A4-%EA%B5%90%EC%9C%A1-%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C/</link><pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/11/24/%EC%B9%B4%EC%B9%B4%EC%98%A4-%EA%B5%90%EC%9C%A1-%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C/</guid><description>&lt;p&gt;&lt;a href="https://www.kakaocorp.com/"&gt;Kakao&lt;/a&gt; 오픈소스 기술파트에서는 사내 개발자를 위한 오픈소스 교육자료를 누구나 열람할 수 있도록 공개하였습니다.&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/11/24/%EC%B9%B4%EC%B9%B4%EC%98%A4-%EA%B5%90%EC%9C%A1-%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C/featured-kakao-guide.png" alt="featured-kakao-guide"&gt;&lt;/p&gt;
 &lt;h2 id="download"&gt;Download&lt;/h2&gt;

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBOM on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/sbom/</link><description>Recent content in SBOM on OpenChain KWG</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 12 May 2026 21:31:52 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/sbom/index.xml" rel="self" type="application/rss+xml"/><item><title>OSV-SCALIBR</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/tools/4-osvscalibr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/tools/4-osvscalibr/</guid><description>&lt;p&gt;OSV-SCALIBR (Open Source Vulnerabilities - Software Composition Analysis LIBRary) is an open source software composition analysis tool developed by Google.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBOM on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/sbom/</link><description>Recent content in SBOM on OpenChain KWG</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 22 May 2026 12:41:53 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/sbom/index.xml" rel="self" type="application/rss+xml"/><item><title>OSV-SCALIBR</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/tools/4-osvscalibr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/tools/4-osvscalibr/</guid><description>&lt;p&gt;OSV-SCALIBR (Open Source Vulnerabilities - Software Composition Analysis LIBRary) is an open source software composition analysis tool developed by Google.
 It scans filesystems, container images, and binaries to identify included packages and detects known vulnerabilities by cross-referencing the &lt;a href="https://osv.dev/"&gt;OSV (Open Source Vulnerabilities)&lt;/a&gt; database. It also supports SBOM generation in SPDX format.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;GitHub: &lt;a href="https://github.com/google/osv-scalibr"&gt;https://github.com/google/osv-scalibr&lt;/a&gt;&lt;/li&gt;
@@ -103,7 +103,38 @@ It continuously monitors component-level vulnerabilities based on uploaded SBOMs
 &lt;li&gt;&lt;strong&gt;Notifications&lt;/strong&gt;: Send new vulnerability alerts via Slack, email, Webhook, and other channels&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="installation"&gt;Installation&lt;/h2&gt;
-&lt;p&gt;Using Docker Compose is the simplest approach:&lt;/p&gt;</description></item><item><title>§3.3.1 SBOM</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/3-content-review/1-sbom/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/3-content-review/1-sbom/</guid><description>&lt;h2 id="1-clause-overview"&gt;1. Clause Overview&lt;/h2&gt;
+&lt;p&gt;Using Docker Compose is the simplest approach:&lt;/p&gt;</description></item><item><title>Building an Automated Open Source Management Environment: cdxgen + Dependency-Track</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/tools/8-cdxgen-dt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/tools/8-cdxgen-dt/</guid><description>&lt;p&gt;For companies just starting with open source management, we recommend the
+&lt;strong&gt;cdxgen + Dependency-Track&lt;/strong&gt; combination as a toolset that can establish a basic
+automation environment within a single day.&lt;/p&gt;
+&lt;p&gt;This guide walks you through every step, from installation and configuration to
+setting up a license and vulnerability inspection environment and running day-to-day operations.&lt;/p&gt;
+&lt;h2 id="why-cdxgen--dependency-track"&gt;Why cdxgen + Dependency-Track&lt;/h2&gt;
+&lt;p&gt;Open source management comes down to two essentials.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Know what is inside&lt;/strong&gt; — generating an SBOM (Software Bill of Materials)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Continuously monitor risk&lt;/strong&gt; — detecting vulnerabilities (CVEs) and license policy violations&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;cdxgen handles the first, and Dependency-Track handles the second.
+Both tools are &lt;strong&gt;free open source&lt;/strong&gt; under the Apache-2.0 license.&lt;/p&gt;</description></item><item><title>SCANOSS</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/tools/9-scanoss/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/tools/9-scanoss/</guid><description>&lt;p&gt;SCANOSS is a Software Composition Analysis (SCA) tool that can identify open source
+components not only at the file level but down to the &lt;strong&gt;snippet (code fragment) level&lt;/strong&gt;.
+It detects license and copyright information by matching against a knowledge base
+(OSSKB, Open Source Knowledge Base) that indexes more than 100 million files, and
+automatically generates SBOMs in CycloneDX and SPDX formats.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a href="https://github.com/scanoss"&gt;https://github.com/scanoss&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Official site: &lt;a href="https://www.scanoss.com"&gt;https://www.scanoss.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;License: Apache-2.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="1-key-features"&gt;1. Key features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Snippet-level matching&lt;/strong&gt;: Can trace the origin even when a portion of code, rather than an entire file, has been copied or modified&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Large-scale knowledge base&lt;/strong&gt;: OSSKB indexes more than 100 million open source files — covering major package repositories and GitHub&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automatic SBOM generation&lt;/strong&gt;: Supports CycloneDX (JSON/XML) and SPDX format output&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Both CLI &amp;amp; REST API&lt;/strong&gt;: Provides both the &lt;code&gt;scanoss-py&lt;/code&gt; (Python) CLI and a REST API, making automation integration easy&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CI/CD pipeline integration&lt;/strong&gt;: Can scan with a single command in CI environments such as GitHub Actions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2-installation"&gt;2. Installation&lt;/h2&gt;
+&lt;p&gt;Install via pip in a Python 3.8 or later environment.&lt;/p&gt;</description></item><item><title>§3.3.1 SBOM</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/3-content-review/1-sbom/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/3-content-review/1-sbom/</guid><description>&lt;h2 id="1-clause-overview"&gt;1. Clause Overview&lt;/h2&gt;
 &lt;p&gt;Without knowing what open source components are included in the supplied software, it is impossible to
 fulfill license obligations or respond to security vulnerabilities. §3.3.1 requires the establishment
 of a procedure for identifying, tracking, reviewing, approving, and archiving the open source components

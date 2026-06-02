@@ -402,7 +402,7 @@ OpenChain이 무료 자가 인증 체크리스트를 제공한다.&lt;/p&gt;</de
 &lt;p&gt;이미 ISO/IEC 5230 또는 18974 기반의 오픈소스 컴플라이언스 지표를 운영 중이라면,
 AI 관련 지표를 &lt;strong&gt;기존 오픈소스 대시보드에 추가&lt;/strong&gt;하는 방식으로 통합 관리한다.
 별도의 AI 전용 측정 체계를 구축할 필요가 없다.&lt;/p&gt;</description></item><item><title>7. AI 컴플라이언스</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/7-ai-compliance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/7-ai-compliance/</guid><description>&lt;div class="alert alert-success" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;이 섹션이 다루는 요구사항&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;ISO/IEC 42001&lt;/strong&gt;: §5.2 (AI 정책) · §6.1.2 (AI 리스크 평가) · §7.5 (문서화) · §8.5 (AI 생애주기) · §8.6 (AI 데이터) · §8.8 (외부 AI 조달)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ISO/IEC 42001&lt;/strong&gt;: §5.2 (AI 정책), §6.1.2 (AI 리스크 평가), §7.5 (문서화), §8.5 (AI 생애주기), §8.6 (AI 데이터), §8.8 (외부 AI 조달)&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;AI 시스템은 오픈소스 프레임워크, 사전 훈련된 모델, 오픈 데이터셋을 광범위하게 활용합니다.
 오픈소스 관리 체계(ISO/IEC 5230 · 18974)를 운영하는 기업은 AI 시스템 개발 단계에서도
