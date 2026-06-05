@@ -1,0 +1,10 @@
+/*
+  OpenChain-KWG 커스텀 스타일 — main.scss 맨 끝에서 로드된다.
+  Phase 1: 다크 모드 색 대비 보정 import(opt-in).
+  네비바/사이드바/카드/히어로 등 시각 규칙은 이후 Phase에서 이 파일에 추가한다.
+*/
+
+// Docsy 다크 모드 보정(EXPERIMENTAL) — $enable-dark-mode 가 true일 때만 효과.
+@import 'td/color-adjustments-dark';
+@import 'td/code-dark';
+@import 'td/gcs-search-dark';

@@ -148,6 +148,8 @@ prism_syntax_highlighting = false
 
 # User interface configuration
 [params.ui]
+# 라이트/다크/자동 테마 토글 메뉴 표시(Docsy 내장, 플래시 방지 스크립트 자동 포함)
+showLightDarkModeMenu = true
 #  Set to true to disable breadcrumb navigation.
 breadcrumb_disable = false
 # Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top navbar
