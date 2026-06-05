@@ -139,3 +139,342 @@ h1.td-title { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
     a { font-weight: 500; }
   }
 }
+
+// ── 홈 랜딩 (layouts/index.html) — ai.google.dev풍 ──────────────
+.kwg-home { overflow-x: hidden; }
+// 홈 body 자체를 다크로 — 100vw 히어로의 좌우 가장자리에 흰 배경이 비치지 않게
+.td-home { background-color: #060b11; }
+// Docsy .td-outer(container-fluid + td-block-padding)의 좌우 패딩 제거 → 콘텐츠가 진짜 풀폭
+.td-home .td-outer {
+  padding-left: 0;
+  padding-right: 0;
+  max-width: none;
+}
+// 본문 콘텐츠 폭(블록·카드를 적당한 폭으로 가운데). 히어로만 100vw 풀폭
+.kwg-home .container { max-width: 1280px; }
+
+// 히어로: 단체사진 배경 + 다크 그라데이션 오버레이(배경은 layouts inline style)
+.kwg-hero {
+  position: relative;
+  // Docsy 컨테이너 패딩을 벗어나 뷰포트 풀폭으로(배경이 좌우 끝까지)
+  width: 100vw;
+  left: 50%;
+  margin-left: -50vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  padding: 9.5rem 0 5rem;
+  text-align: center;
+  background-color: #06141b;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.kwg-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(55% 45% at 50% 8%, rgba(2, 171, 184, 0.2), transparent 60%);
+  z-index: 0;
+  pointer-events: none;
+}
+.kwg-hero__inner { position: relative; z-index: 1; width: 100%; }
+.kwg-hero__badge {
+  display: inline-block;
+  padding: 0.45rem 1.1rem;
+  margin-bottom: 1.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 2rem;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(8px);
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 0.82);
+}
+.kwg-hero__title {
+  font-size: 4.25rem;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  line-height: 1.04;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(120deg, #ffffff 35%, #9fecf3 70%, #c3b1f7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+.kwg-hero__sub {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.75);
+  max-width: 620px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.6;
+}
+.kwg-hero__cta { display: flex; gap: 0.85rem; justify-content: center; flex-wrap: wrap; }
+.kwg-hero__cta .btn-primary {
+  border-radius: 2rem;
+  padding: 0.75rem 1.7rem;
+  font-weight: 500;
+  background: linear-gradient(135deg, $primary, $secondary);
+  border: none;
+  box-shadow: 0 8px 24px rgba(2, 171, 184, 0.3);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.kwg-hero__cta .btn-primary:hover {
+  box-shadow: 0 10px 30px rgba(2, 171, 184, 0.45);
+  transform: translateY(-1px);
+}
+.kwg-hero__cta .btn-outline-primary {
+  border-radius: 2rem;
+  padding: 0.75rem 1.7rem;
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(8px);
+}
+.kwg-hero__cta .btn-outline-primary:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: #fff;
+  color: #fff;
+}
+
+// 홈 네비바: 투명 위 흰 글씨(스크롤 시 Docsy navbar-bg-onscroll 가 솔리드 처리)
+.td-home .td-navbar.td-navbar-cover {
+  background: transparent;
+  box-shadow: none;
+}
+
+// 섹션 — 넉넉한 여백(ai.google.dev식 시원함)
+.kwg-section { padding: 6.5rem 0; }
+.kwg-section--alt { background: var(--bs-tertiary-bg); }
+.kwg-section__title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+.kwg-section__lead {
+  text-align: center;
+  font-size: 1.1rem;
+  color: var(--bs-secondary-color);
+  margin-bottom: 3.5rem;
+}
+
+// 큰 컨테이너 블록 (ai.google.dev식 섹션 카드: 피처 + 서브카드를 함께 감쌈)
+// 가이드 탭 패널(max-width 1140)과 폭을 맞춘다
+.kwg-block {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 3rem 3.25rem;
+  border-radius: 1.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background:
+    radial-gradient(100% 100% at 100% 0%, rgba(2, 171, 184, 0.07), transparent 55%),
+    linear-gradient(160deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.008));
+  overflow: hidden;
+}
+
+// 피처(상단): 좌측 텍스트 + 우측 추상 glow 비주얼. 블록은 풀폭이라 내부 콘텐츠만 가운데로 모음
+.kwg-feature {
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  gap: 2.5rem;
+  align-items: center;
+  max-width: 1140px;
+  margin: 0 auto 2.5rem;
+}
+.kwg-feature__title {
+  font-size: 2.1rem;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  color: #fff;
+  margin-bottom: 1.1rem;
+}
+.kwg-feature__desc {
+  font-size: 1.02rem;
+  color: rgba(255, 255, 255, 0.62);
+  line-height: 1.7;
+  margin-bottom: 1.75rem;
+  max-width: 460px;
+}
+.kwg-btn-pill {
+  display: inline-block;
+  padding: 0.7rem 1.6rem;
+  border-radius: 2rem;
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: #fff;
+  text-decoration: none;
+  background: linear-gradient(135deg, $primary, $secondary);
+  box-shadow: 0 8px 24px rgba(2, 171, 184, 0.3);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.kwg-btn-pill:hover {
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 30px rgba(2, 171, 184, 0.45);
+}
+
+// 피처 우측 비주얼 컨테이너 (SVG art img를 담는다)
+.kwg-feature__visual {
+  position: relative;
+  min-height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kwg-feature__visual .kwg-tabs__art { max-width: 360px; }
+
+// 가이드 탭 (순수 CSS radio, 세그먼트 컨트롤 스타일)
+.kwg-tabs { position: relative; text-align: center; }
+.kwg-tabs__radio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+// 탭바: 하나의 둥근 묶음 안에서 선택된 탭이 채워짐 → '탭' 인지가 명확
+.kwg-tabs__nav {
+  display: inline-flex;
+  gap: 0.25rem;
+  padding: 0.35rem;
+  margin-bottom: 1.75rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 2rem;
+}
+.kwg-tabs__nav label {
+  padding: 0.55rem 1.3rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.55);
+  white-space: nowrap;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+.kwg-tabs__nav label:hover { color: #fff; }
+.kwg-tabs__panel {
+  display: none;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 3rem 3.25rem;
+  border-radius: 1.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background:
+    radial-gradient(100% 100% at 100% 0%, rgba(2, 171, 184, 0.07), transparent 55%),
+    linear-gradient(160deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.008));
+  text-decoration: none;
+  text-align: left;
+}
+.kwg-tabs__panel .kwg-btn-pill { align-self: flex-start; }
+.kwg-tabs__visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 170px;
+}
+.kwg-tabs__art {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  display: block;
+}
+#gt-1:checked ~ .kwg-tabs__nav label[for="gt-1"],
+#gt-2:checked ~ .kwg-tabs__nav label[for="gt-2"],
+#gt-3:checked ~ .kwg-tabs__nav label[for="gt-3"],
+#gt-4:checked ~ .kwg-tabs__nav label[for="gt-4"] {
+  color: #fff;
+  background: linear-gradient(135deg, $primary, $secondary);
+}
+#gt-1:checked ~ #gp-1,
+#gt-2:checked ~ #gp-2,
+#gt-3:checked ~ #gp-3,
+#gt-4:checked ~ #gp-4 { display: grid; }
+
+// 서브카드(하단): 아이콘 박스 + 텍스트 + pill 링크 (가로형, ai.google.dev식)
+.kwg-subcard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.kwg-subcard-grid--3 { grid-template-columns: repeat(3, 1fr); }
+.kwg-subcard {
+  display: flex;
+  gap: 1.25rem;
+  padding: 1.25rem;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  text-decoration: none;
+  transition: background 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
+}
+.kwg-subcard:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(2, 171, 184, 0.4);
+  transform: translateY(-2px);
+}
+.kwg-subcard__body { display: flex; flex-direction: column; min-width: 0; }
+.kwg-subcard__title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 0.35rem;
+}
+.kwg-subcard__desc {
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.55;
+  margin-bottom: 0.85rem;
+  flex-grow: 1;
+}
+.kwg-subcard__link {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.9rem;
+  border-radius: 2rem;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.85);
+  transition: background 0.18s ease, border-color 0.18s ease;
+}
+.kwg-subcard:hover .kwg-subcard__link {
+  background: rgba(2, 171, 184, 0.18);
+  border-color: rgba(2, 171, 184, 0.4);
+}
+
+// ── 홈 다크 테마 통일 (ai.google.dev풍) — 라이트 규칙 위에 덮어쓴다 ──
+.kwg-home {
+  background: #060b11;
+  color: rgba(255, 255, 255, 0.85);
+
+  .kwg-section--alt { background: rgba(255, 255, 255, 0.03); }
+  .kwg-section__title { color: #fff; }
+  .kwg-section__lead { color: rgba(255, 255, 255, 0.55); }
+}
+
+@media (max-width: 768px) {
+  .kwg-hero { padding: 7rem 0 3.5rem; }
+  .kwg-hero__title { font-size: 2.4rem; }
+  .kwg-block { padding: 1.75rem; }
+  .kwg-feature { grid-template-columns: 1fr; }
+  .kwg-feature__visual { min-height: 220px; }
+  .kwg-feature__title { font-size: 1.7rem; }
+  #gt-1:checked ~ #gp-1,
+  #gt-2:checked ~ #gp-2,
+  #gt-3:checked ~ #gp-3,
+  #gt-4:checked ~ #gp-4 { grid-template-columns: 1fr; padding: 2rem; }
+  .kwg-subcard-grid { grid-template-columns: 1fr; }
+}

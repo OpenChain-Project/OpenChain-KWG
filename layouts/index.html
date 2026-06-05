@@ -1,0 +1,133 @@
+{{/*
+  OpenChain-KWG 커스텀 홈 랜딩 — Docsy baseof("main" 블록) 상속.
+  히어로(텍스트) → 단체사진(풀폭) → 가이드 카드 → 참여 → 참여기업 로고.
+  단체사진은 배경이 아니라 독립 섹션으로 두어 얼굴이 가려지지 않게 한다.
+  스타일은 assets/scss/_styles_project.scss(.kwg-*).
+*/}}
+{{ define "main" }}
+{{ $ko := eq .Site.Language.Lang "ko" }}
+<div class="kwg-home">
+
+  {{/* 1. 히어로 — 단체사진 배경 + 다크 그라데이션 오버레이 */}}
+  {{ $bg := "" }}
+  {{ with .Resources.GetMatch "featured-background.jpg" }}{{ $bg = .RelPermalink }}{{ end }}
+  <section class="kwg-hero"{{ with $bg }} style="background-image: linear-gradient(180deg, rgba(6,20,27,0.92) 0%, rgba(6,20,27,0.6) 34%, rgba(6,20,27,0.35) 58%, rgba(6,20,27,0.6) 100%), url('{{ . }}')"{{ end }}>
+    <div class="container kwg-hero__inner">
+      <span class="kwg-hero__badge">Linux Foundation · OpenChain Project</span>
+      <h1 class="kwg-hero__title">OpenChain Korea<br>Work Group</h1>
+      <p class="kwg-hero__sub">
+        {{ if $ko }}한국 기업의 오픈소스 컴플라이언스 담당자들이 모여 지식과 경험을 나누는 커뮤니티입니다.{{ else }}A community where open source compliance practitioners at Korean companies share knowledge and experience.{{ end }}
+      </p>
+      <div class="kwg-hero__cta">
+        <a class="btn btn-lg btn-primary" href="{{ "about/" | relLangURL }}">{{ if $ko }}소개 보기{{ else }}About{{ end }} <i class="fa-solid fa-arrow-right ms-1"></i></a>
+        <a class="btn btn-lg btn-outline-primary" href="https://discord.com/channels/1177116701561729104/" target="_blank" rel="noopener">Discord</a>
+      </div>
+    </div>
+  </section>
+
+  {{/* 2. 커뮤니티 참여 */}}
+  <section class="kwg-section container">
+    <div class="kwg-block">
+      <div class="kwg-feature">
+        <div class="kwg-feature__text">
+          <h2 class="kwg-feature__title">{{ if $ko }}커뮤니티 참여{{ else }}Join the community{{ end }}</h2>
+          <p class="kwg-feature__desc">{{ if $ko }}정기 미팅과 온라인 채널에서 한국 기업 오픈소스 컴플라이언스 담당자들과 지식과 경험을 나눕니다.{{ else }}Share knowledge and experience with open source compliance practitioners at Korean companies, through regular meetings and online channels.{{ end }}</p>
+          <a class="kwg-btn-pill" href="{{ "about/" | relLangURL }}">{{ if $ko }}참여 방법 보기{{ else }}How to join{{ end }} <i class="fa-solid fa-arrow-right ms-1"></i></a>
+        </div>
+        <div class="kwg-feature__visual" aria-hidden="true">
+          <img class="kwg-tabs__art" src="{{ "images/kwg-viz-community.svg" | relURL }}" alt="">
+        </div>
+      </div>
+      <div class="kwg-subcard-grid kwg-subcard-grid--3">
+        <a class="kwg-subcard" href="{{ "meeting/" | relLangURL }}">
+          <div class="kwg-subcard__body">
+            <h3 class="kwg-subcard__title">{{ if $ko }}정기 미팅{{ else }}Meetings{{ end }}</h3>
+            <p class="kwg-subcard__desc">{{ if $ko }}정기 미팅에서 기업들의 사례와 인사이트를 공유합니다.{{ else }}Regular meetings to share company cases and insights.{{ end }}</p>
+            <span class="kwg-subcard__link">{{ if $ko }}일정 보기{{ else }}Schedule{{ end }} <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </a>
+        <a class="kwg-subcard" href="{{ "about/subscribe/" | relLangURL }}">
+          <div class="kwg-subcard__body">
+            <h3 class="kwg-subcard__title">{{ if $ko }}메일링 리스트{{ else }}Mailing List{{ end }}</h3>
+            <p class="kwg-subcard__desc">{{ if $ko }}오픈소스 컴플라이언스 담당자라면 누구나 참여할 수 있습니다.{{ else }}Open to anyone working on OSS compliance.{{ end }}</p>
+            <span class="kwg-subcard__link">{{ if $ko }}가입하기{{ else }}Subscribe{{ end }} <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </a>
+        <a class="kwg-subcard" href="https://discord.com/channels/1177116701561729104/" target="_blank" rel="noopener">
+          <div class="kwg-subcard__body">
+            <h3 class="kwg-subcard__title">Discord</h3>
+            <p class="kwg-subcard__desc">{{ if $ko }}가벼운 대화와 멤버 간 실시간 소통 공간.{{ else }}Casual, real-time conversation among members.{{ end }}</p>
+            <span class="kwg-subcard__link">{{ if $ko }}참여하기{{ else }}Join{{ end }} <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  {{/* 3. 핵심 가이드 — 탭 인터페이스(순수 CSS radio) */}}
+  <section class="kwg-section container">
+    <h2 class="kwg-section__title">{{ if $ko }}핵심 가이드{{ else }}Guides{{ end }}</h2>
+    <p class="kwg-section__lead">{{ if $ko }}ISO 국제표준 기반의 기업 오픈소스 컴플라이언스 가이드 — 탭을 눌러 살펴보세요.{{ else }}Enterprise open source compliance guides built on ISO standards — click a tab to explore.{{ end }}</p>
+
+    <div class="kwg-tabs">
+      <input class="kwg-tabs__radio" type="radio" name="kwg-guide" id="gt-1" checked>
+      <input class="kwg-tabs__radio" type="radio" name="kwg-guide" id="gt-2">
+      <input class="kwg-tabs__radio" type="radio" name="kwg-guide" id="gt-3">
+      <input class="kwg-tabs__radio" type="radio" name="kwg-guide" id="gt-4">
+
+      <div class="kwg-tabs__nav">
+        <label for="gt-1">{{ if $ko }}기업 관리 가이드{{ else }}OSS Management{{ end }}</label>
+        <label for="gt-2">ISO/IEC 5230</label>
+        <label for="gt-3">ISO/IEC 18974</label>
+        <label for="gt-4">ISO/IEC 42001</label>
+      </div>
+
+      <a class="kwg-tabs__panel" id="gp-1" href="{{ "guide/opensource_for_enterprise/" | relLangURL }}">
+        <div class="kwg-feature__text">
+          <h3 class="kwg-feature__title">{{ if $ko }}2026 기업 오픈소스 관리 가이드{{ else }}Enterprise OSS Management Guide{{ end }}</h3>
+          <p class="kwg-feature__desc">{{ if $ko }}ISO 국제표준에 기반해 기업이 오픈소스를 도입·관리·배포하는 전 과정을 조직·정책·프로세스 관점에서 단계별로 안내합니다.{{ else }}A step-by-step guide to adopting, managing, and distributing open source across organization, policy, and process — grounded in ISO standards.{{ end }}</p>
+          <span class="kwg-btn-pill">{{ if $ko }}가이드 보기{{ else }}View guide{{ end }} <i class="fa-solid fa-arrow-right ms-1"></i></span>
+        </div>
+        <div class="kwg-tabs__visual" aria-hidden="true">
+          <img class="kwg-tabs__art" src="{{ "images/kwg-tab-visual.svg" | relURL }}" alt="">
+        </div>
+      </a>
+
+      <a class="kwg-tabs__panel" id="gp-2" href="{{ "guide/iso5230_guide/" | relLangURL }}">
+        <div class="kwg-feature__text">
+          <h3 class="kwg-feature__title">ISO/IEC 5230</h3>
+          <p class="kwg-feature__desc">{{ if $ko }}오픈소스 라이선스 컴플라이언스 국제표준(OpenChain). 25개 입증자료 항목을 조항별로 풀어 실무 적용을 돕습니다.{{ else }}The international standard for open source license compliance (OpenChain). We break down all 25 evidence items clause by clause.{{ end }}</p>
+          <span class="kwg-btn-pill">{{ if $ko }}가이드 보기{{ else }}View guide{{ end }} <i class="fa-solid fa-arrow-right ms-1"></i></span>
+        </div>
+        <div class="kwg-tabs__visual" aria-hidden="true">
+          <img class="kwg-tabs__art" src="{{ "images/kwg-viz-license.svg" | relURL }}" alt="">
+        </div>
+      </a>
+
+      <a class="kwg-tabs__panel" id="gp-3" href="{{ "guide/iso18974_guide/" | relLangURL }}">
+        <div class="kwg-feature__text">
+          <h3 class="kwg-feature__title">ISO/IEC 18974</h3>
+          <p class="kwg-feature__desc">{{ if $ko }}오픈소스 보안 보증(OSS Security Assurance) 국제표준. 보안 취약점 대응 체계를 조항별 입증자료로 안내합니다.{{ else }}The international standard for open source security assurance, guiding vulnerability response with clause-level evidence.{{ end }}</p>
+          <span class="kwg-btn-pill">{{ if $ko }}가이드 보기{{ else }}View guide{{ end }} <i class="fa-solid fa-arrow-right ms-1"></i></span>
+        </div>
+        <div class="kwg-tabs__visual" aria-hidden="true">
+          <img class="kwg-tabs__art" src="{{ "images/kwg-viz-security.svg" | relURL }}" alt="">
+        </div>
+      </a>
+
+      <a class="kwg-tabs__panel" id="gp-4" href="{{ "guide/iso42001_guide/" | relLangURL }}">
+        <div class="kwg-feature__text">
+          <h3 class="kwg-feature__title">ISO/IEC 42001</h3>
+          <p class="kwg-feature__desc">{{ if $ko }}AI 관리 시스템(AIMS) 국제표준을 오픈소스 관점에서 풀어, AI 시스템 개발·운영의 핵심 요구사항을 다룹니다.{{ else }}The AI management system (AIMS) standard from an open source perspective, covering key requirements for AI development and operations.{{ end }}</p>
+          <span class="kwg-btn-pill">{{ if $ko }}가이드 보기{{ else }}View guide{{ end }} <i class="fa-solid fa-arrow-right ms-1"></i></span>
+        </div>
+        <div class="kwg-tabs__visual" aria-hidden="true">
+          <img class="kwg-tabs__art" src="{{ "images/kwg-viz-ai.svg" | relURL }}" alt="">
+        </div>
+      </a>
+    </div>
+  </section>
+
+
+</div>
+{{ end }}

@@ -5,8 +5,9 @@
   페이지 테마(라이트/다크)를 상속하게 한다 → 화이트 네비바. 배경/보더는 _styles_project.scss.
   ⚠ 업그레이드 회귀 점검: Docsy 새 버전 navbar.html과 diff 후 변경분(아래 nav 한 줄)만 유지.
 */ -}}
+{{/* 홈(커스텀 다크 히어로)과 blocks/cover 페이지에서 네비바를 투명+흰글씨로 둔다. */}}
 {{ $cover := and
-    (.HasShortcode "blocks/cover")
+    (or (.HasShortcode "blocks/cover") .IsHome)
     (not .Site.Params.ui.navbar_translucent_over_cover_disable)
 -}}
 {{ $baseURL := urls.Parse $.Site.Params.Baseurl -}}
