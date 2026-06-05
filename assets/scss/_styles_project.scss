@@ -8,3 +8,15 @@
 @import 'td/color-adjustments-dark';
 @import 'td/code-dark';
 @import 'td/gcs-search-dark';
+
+// ── 타이포 위계: Inter에 맞춘 또렷한 제목(Gemini/AI Studio 풍) ──
+// Inter는 큰 글자에서 살짝 좁은 자간이 깔끔하다.
+.td-content {
+  h1 { font-weight: 700; letter-spacing: -0.022em; }
+  h2,
+  h3 { font-weight: 600; letter-spacing: -0.018em; }
+  h4,
+  h5 { font-weight: 600; letter-spacing: -0.012em; }
+}
+.td-navbar .navbar-brand,
+.td-navbar .navbar-brand__name { font-weight: 600; letter-spacing: -0.01em; }
