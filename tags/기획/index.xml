@@ -57,11 +57,11 @@
 	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h3 id="ai-리스크-평가서에-포함할-오픈소스-항목"&gt;AI 리스크 평가서에 포함할 오픈소스 항목&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#800080;font-weight:bold"&gt;## AI 리스크 평가서 — 오픈소스 리스크 섹션
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#800080;font-weight:bold"&gt;### 평가 대상 AI 시스템: [시스템명]
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#800080;font-weight:bold"&gt;### 평가 일자: YYYY-MM-DD
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;## AI 리스크 평가서 — 오픈소스 리스크 섹션
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;### 평가 대상 AI 시스템: [시스템명]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;### 평가 일자: YYYY-MM-DD
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;| # | 리스크 항목 | 현재 사용 컴포넌트 | 가능성 | 영향도 | 리스크 수준 | 대응 조치 |
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;|---|------------|-----------------|:----:|:----:|:---------:|---------|
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;| 1 | 라이선스 비준수 | [모델명 · 라이선스] | 중 | 상 | 높음 | 법무 검토 |
