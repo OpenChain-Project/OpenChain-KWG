@@ -1,22 +1,141 @@
 /*
   OpenChain-KWG 커스텀 스타일 — main.scss 맨 끝에서 로드된다.
-  Phase 1: 다크 모드 색 대비 보정 import(opt-in).
-  네비바/사이드바/카드/히어로 등 시각 규칙은 이후 Phase에서 이 파일에 추가한다.
+  Phase 1: 다크 보정 import. Phase 2: 제목 자간. Phase 3: Gemini 정렬(네비바·조판·검색·TOC 등).
 */
 
-// Docsy 다크 모드 보정(EXPERIMENTAL) — $enable-dark-mode 가 true일 때만 효과.
+// ── Docsy 다크 모드 보정(EXPERIMENTAL) — $enable-dark-mode 가 true일 때만 효과 ──
 @import 'td/color-adjustments-dark';
 @import 'td/code-dark';
 @import 'td/gcs-search-dark';
 
-// ── 타이포 위계: Inter에 맞춘 또렷한 제목(Gemini/AI Studio 풍) ──
-// Inter는 큰 글자에서 살짝 좁은 자간이 깔끔하다.
+// ── 본문 조판: Gemini식 여유로운 가독성 + 제목 크기/굵기 정상화 ──
+// Inter는 Google Sans보다 묵직해 보이므로 제목 크기를 Gemini 수준으로 낮춘다.
 .td-content {
-  h1 { font-weight: 700; letter-spacing: -0.022em; }
-  h2,
-  h3 { font-weight: 600; letter-spacing: -0.018em; }
+  line-height: 1.7;
+
+  p,
+  li { line-height: 1.7; }
+  > p { margin-bottom: 1.1rem; }
+
+  // Google devsite 표준 px(16px base): h1 28 / h2 22 / h3 16 / h4 14
+  h1 { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
+  h2 {
+    font-size: 1.375rem;
+    font-weight: 500;
+    letter-spacing: -0.018em;
+    margin-top: 2.5rem;
+  }
+  h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: -0.012em;
+    margin-top: 2rem;
+  }
   h4,
-  h5 { font-weight: 600; letter-spacing: -0.012em; }
+  h5 { font-size: 0.875rem; font-weight: 500; letter-spacing: -0.008em; }
 }
-.td-navbar .navbar-brand,
-.td-navbar .navbar-brand__name { font-weight: 600; letter-spacing: -0.01em; }
+
+.td-content > h1:first-child,
+h1.td-title { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
+
+// 네비바 텍스트 — Gemini 상단 메뉴는 14px. 브랜드만 약간 키움
+.td-navbar {
+  .navbar-brand__name { font-size: 1.125rem; font-weight: 500; letter-spacing: -0.01em; }
+  // Roboto는 x-height가 작아 14px가 작아 보임 → 15px로 보정(Gemini 체감 크기)
+  .nav-link { font-size: 0.9375rem; font-weight: 400; }
+}
+
+// ── 네비바: 화이트 반투명 + 얇은 보더(홈 cover 위는 기존 투명 유지) ──
+.td-navbar:not(.td-navbar-cover) {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: saturate(180%) blur(12px);
+  -webkit-backdrop-filter: saturate(180%) blur(12px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: none;
+
+  .nav-link.active { color: $primary; font-weight: 500; }
+}
+[data-bs-theme="dark"] .td-navbar:not(.td-navbar-cover) {
+  background: rgba(20, 22, 24, 0.85);
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+// ── 검색: Gemini식 둥근 연회색 박스 ──
+.td-search__input {
+  border-radius: 2rem;
+  border: 1px solid var(--bs-border-color);
+  background-color: var(--bs-tertiary-bg);
+  padding-left: 2.4rem;
+}
+.td-search__input:focus {
+  background-color: var(--bs-body-bg);
+  box-shadow: 0 0 0 3px rgba($primary, 0.15);
+}
+
+// ── 우측 TOC: Gemini 14px + active는 색만(굵기 키우지 않음) ──
+.td-sidebar-toc {
+  font-size: 0.875rem;
+
+  .td-toc {
+    a {
+      border-left: 2px solid transparent;
+      padding-left: 0.75rem;
+      font-weight: 400;
+    }
+    a:hover { color: $primary; }
+    li.active > a,
+    a.active {
+      color: $primary;
+      background: none;
+      border-left-color: $primary;
+      font-weight: 500;
+    }
+  }
+}
+
+// ── 좌측 사이드바: Roboto 보정 15px + 굵기 정상화(항목 regular, 그룹헤더만 medium) ──
+.td-sidebar-nav {
+  font-size: 0.9375rem;
+
+  .td-sidebar-nav__section-title {
+    font-weight: 500;
+    font-size: 0.9375rem;
+    letter-spacing: -0.01em;
+    margin-top: 0.4rem;
+  }
+  .td-sidebar-link {
+    padding-top: 0.18rem;
+    padding-bottom: 0.18rem;
+    font-weight: 400;
+  }
+  .td-sidebar-nav-active-item { color: $primary; font-weight: 500; }
+}
+
+// ── 본문 상단 Tags/Categories 배지: 화살표(clip-path) 제거 → 둥근 pill ──
+.taxonomy-term {
+  -webkit-clip-path: none;
+  clip-path: none;
+  border-radius: 1rem;
+  padding: 0.05rem 0.65rem;
+}
+
+// ── 우측 편집 액션(페이지 보기/편집/이슈 생성/프린트) 숨김 — Gemini식 미니멀 ──
+.td-page-meta { display: none; }
+
+// ── 우측 Tag Cloud 숨김 ──
+// Docsy는 taxonomyCloud=[] 를 falsy로 보고 오히려 전체 taxonomy를 렌더하고,
+// 빈 partial 오버라이드도 폴백되는 경우가 있어 SCSS로 확실히 숨긴다.
+// (본문 상단 Tags 배지 .taxonomy-terms-article 는 유지)
+.td-sidebar-toc .taxonomy-terms-cloud { display: none; }
+
+// ── 섹션 인덱스(하위 페이지 목록) 카드 제목 ──
+// Docsy는 항목 제목을 .section-index .entry h5 로 출력하는데, 본문 h5 축소(14px)의
+// 영향을 받아 작아지므로 카드 제목용 크기(18px)를 별도로 지정한다.
+.section-index .entry {
+  h5 {
+    font-size: 1.125rem;
+    margin-bottom: 0.25rem;
+
+    a { font-weight: 500; }
+  }
+}

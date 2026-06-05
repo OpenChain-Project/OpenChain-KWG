@@ -18,10 +18,9 @@ $link-hover-decoration: none !default;
 // 웹폰트 로딩은 layouts/_partials/hooks/head-end.html 에서 수행한다.
 // Inter를 앞에 두어 영문·숫자는 Inter, 한글은 Pretendard로 폴백된다.
 // _variables_forward.scss 기본값을 덮어쓰려면 !default 를 붙이지 않는다.
-$td-fonts-serif: "Inter", "Pretendard Variable", Pretendard, -apple-system,
-  BlinkMacSystemFont, "Apple SD Gothic Neo", "Segoe UI", "Noto Sans KR",
-  Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-  "Segoe UI Emoji", "Segoe UI Symbol";
+$td-fonts-serif: "Roboto", "Pretendard Variable", Pretendard, -apple-system,
+  BlinkMacSystemFont, "Apple SD Gothic Neo", "Segoe UI", "Helvetica Neue",
+  Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $td-font-family-monospace: "JetBrains Mono", SFMono-Regular, Menlo, Monaco,
   Consolas, "Liberation Mono", "Courier New", monospace;
 
@@ -42,3 +41,7 @@ $enable-shadows: true;
 $box-shadow-sm: 0 1px 2px rgba(16, 24, 40, 0.06), 0 1px 3px rgba(16, 24, 40, 0.1);
 $box-shadow: 0 2px 8px rgba(16, 24, 40, 0.08), 0 4px 16px rgba(16, 24, 40, 0.06);
 $box-shadow-lg: 0 8px 24px rgba(16, 24, 40, 0.1), 0 12px 40px rgba(16, 24, 40, 0.08);
+
+// ── 본문 글자색: 순검정 대신 부드러운 진회색(Gemini식 가독성) ──
+// 다크 모드 글자색은 Bootstrap/Docsy 다크 보정이 자동 처리한다.
+$body-color: #2b2f33;
