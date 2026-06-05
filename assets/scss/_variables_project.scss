@@ -1,13 +1,47 @@
 /*
-
-Add styles or override variables from the theme here.
-
+  OpenChain-KWG 디자인 토큰 — Bootstrap import 이전 단계.
+  Docsy/Bootstrap 표준 변수만 오버라이드한다(업그레이드 안전 등급).
+  실제 CSS 규칙은 _styles_project.scss, 다크 게이트는 _variables_project_after_bs.scss 참고.
 */
 
+// ── 브랜드 색 ───────────────────────────────────────────────
 $primary: #01819a;
 $secondary: #02abb8;
 
+// 링크
 $link-color: darken($secondary, 5%) !default;
 $link-decoration: none !default;
 $link-hover-color: darken($link-color, 15%) !default;
 $link-hover-decoration: none !default;
+
+// ── 타이포그래피: 영문 Inter + 한글 Pretendard ──────────────
+// 웹폰트 로딩은 layouts/_partials/hooks/head-end.html 에서 수행한다.
+// Inter를 앞에 두어 영문·숫자는 Inter, 한글은 Pretendard로 폴백된다.
+// _variables_forward.scss 기본값을 덮어쓰려면 !default 를 붙이지 않는다.
+$td-fonts-serif: "Roboto", "Pretendard Variable", Pretendard, -apple-system,
+  BlinkMacSystemFont, "Apple SD Gothic Neo", "Segoe UI", "Helvetica Neue",
+  Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$td-font-family-monospace: "JetBrains Mono", SFMono-Regular, Menlo, Monaco,
+  Consolas, "Liberation Mono", "Courier New", monospace;
+
+// Docsy는 $td-enable-google-fonts=true 일 때만 위 스택을 Bootstrap 본문 폰트에
+// 연결한다. Open Sans 자동 로드를 피하려고 google-fonts를 끈 상태이므로,
+// Bootstrap 폰트 변수에 직접 연결한다(_variables.scss 이전 단계라 안전).
+$font-family-sans-serif: $td-fonts-serif;
+$font-family-monospace: $td-font-family-monospace;
+
+// ── 형태: Gemini/AI Studio식 둥근 모서리 ─────────────────────
+$border-radius: 0.75rem;
+$border-radius-sm: 0.5rem;
+$border-radius-lg: 1rem;
+$border-radius-xl: 1.5rem;
+
+// ── 그림자: 얕고 부드럽게(중첩 레이어) ───────────────────────
+$enable-shadows: true;
+$box-shadow-sm: 0 1px 2px rgba(16, 24, 40, 0.06), 0 1px 3px rgba(16, 24, 40, 0.1);
+$box-shadow: 0 2px 8px rgba(16, 24, 40, 0.08), 0 4px 16px rgba(16, 24, 40, 0.06);
+$box-shadow-lg: 0 8px 24px rgba(16, 24, 40, 0.1), 0 12px 40px rgba(16, 24, 40, 0.08);
+
+// ── 본문 글자색: 순검정 대신 부드러운 진회색(Gemini식 가독성) ──
+// 다크 모드 글자색은 Bootstrap/Docsy 다크 보정이 자동 처리한다.
+$body-color: #2b2f33;

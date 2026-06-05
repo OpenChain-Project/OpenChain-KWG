@@ -1,0 +1,24 @@
+<svg viewBox="0 0 400 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <defs>
+    <radialGradient id="sGlow" cx="50%" cy="46%" r="55%">
+      <stop offset="0%" stop-color="#06c8da" stop-opacity="0.5"/>
+      <stop offset="55%" stop-color="#1466d4" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#1466d4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sFace" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#6fe6f0"/>
+      <stop offset="100%" stop-color="#1c5fd0"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="200" cy="170" rx="175" ry="135" fill="url(#sGlow)"/>
+  <g fill="#7ff0fa" fill-opacity="0.18">
+    <circle cx="80" cy="120" r="2"/><circle cx="320" cy="120" r="2"/>
+    <circle cx="90" cy="240" r="2"/><circle cx="310" cy="240" r="2"/>
+  </g>
+  <!-- 방패 -->
+  <path d="M200,62 L300,104 L300,184 C300,238 254,266 200,284 C146,266 100,238 100,184 L100,104 Z"
+        fill="url(#sFace)" fill-opacity="0.92" stroke="#9ff4fc" stroke-opacity="0.5" stroke-width="1.5"/>
+  <path d="M200,62 L200,284 C146,266 100,238 100,184 L100,104 Z" fill="#0c3578" fill-opacity="0.28"/>
+  <!-- 체크 -->
+  <path d="M168,172 L192,198 L240,140" stroke="#ffffff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/>
+</svg>

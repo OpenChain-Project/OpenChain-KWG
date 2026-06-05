@@ -1,0 +1,36 @@
+<svg viewBox="0 0 400 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <defs>
+    <radialGradient id="cmGlow" cx="50%" cy="46%" r="55%">
+      <stop offset="0%" stop-color="#06c8da" stop-opacity="0.5"/>
+      <stop offset="55%" stop-color="#1466d4" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#1466d4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cmFront" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#7fe9f3"/>
+      <stop offset="100%" stop-color="#2071de"/>
+    </linearGradient>
+    <linearGradient id="cmBack" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#3ea8e8"/>
+      <stop offset="100%" stop-color="#163d96"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="200" cy="172" rx="178" ry="138" fill="url(#cmGlow)"/>
+  <g fill="#7ff0fa" fill-opacity="0.18">
+    <circle cx="74" cy="110" r="2"/><circle cx="326" cy="112" r="2"/>
+    <circle cx="92" cy="252" r="2"/><circle cx="312" cy="248" r="2"/>
+  </g>
+
+  <!-- 뒤쪽 두 사람 -->
+  <g fill="url(#cmBack)" opacity="0.9">
+    <circle cx="118" cy="150" r="26"/>
+    <path d="M76,232 a42,42 0 0 1 84,0 Z"/>
+    <circle cx="282" cy="150" r="26"/>
+    <path d="M240,232 a42,42 0 0 1 84,0 Z"/>
+  </g>
+
+  <!-- 가운데 사람(앞, 강조) -->
+  <g fill="url(#cmFront)" stroke="#bff6fc" stroke-opacity="0.35" stroke-width="1.5">
+    <circle cx="200" cy="134" r="34"/>
+    <path d="M146,236 a54,54 0 0 1 108,0 Z"/>
+  </g>
+</svg>
