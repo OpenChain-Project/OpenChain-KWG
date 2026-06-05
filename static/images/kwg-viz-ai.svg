@@ -1,0 +1,36 @@
+<svg viewBox="0 0 400 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <defs>
+    <radialGradient id="aGlow" cx="50%" cy="48%" r="55%">
+      <stop offset="0%" stop-color="#06c8da" stop-opacity="0.5"/>
+      <stop offset="55%" stop-color="#1466d4" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#1466d4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="aNode" cx="40%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#8af0fa"/>
+      <stop offset="100%" stop-color="#1c5fd0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="200" cy="170" rx="175" ry="135" fill="url(#aGlow)"/>
+  <!-- 연결선 -->
+  <g stroke="#7ff0fa" stroke-opacity="0.4" stroke-width="1.5">
+    <line x1="200" y1="170" x2="92" y2="96"/>
+    <line x1="200" y1="170" x2="312" y2="104"/>
+    <line x1="200" y1="170" x2="84" y2="232"/>
+    <line x1="200" y1="170" x2="318" y2="238"/>
+    <line x1="200" y1="170" x2="200" y2="70"/>
+    <line x1="92" y1="96" x2="200" y2="70"/>
+    <line x1="312" y1="104" x2="318" y2="238"/>
+  </g>
+  <!-- 위성 노드 -->
+  <g>
+    <circle cx="92" cy="96" r="13" fill="url(#aNode)"/>
+    <circle cx="312" cy="104" r="11" fill="url(#aNode)"/>
+    <circle cx="84" cy="232" r="11" fill="url(#aNode)"/>
+    <circle cx="318" cy="238" r="14" fill="url(#aNode)"/>
+    <circle cx="200" cy="70" r="10" fill="url(#aNode)"/>
+  </g>
+  <!-- 중앙 노드 -->
+  <circle cx="200" cy="170" r="30" fill="url(#aNode)" stroke="#9ff4fc" stroke-opacity="0.6" stroke-width="1.5"/>
+  <circle cx="200" cy="170" r="30" fill="none" stroke="#7ff0fa" stroke-opacity="0.35" stroke-width="1" transform="translate(0,0)"/>
+  <circle cx="200" cy="170" r="44" fill="none" stroke="#7ff0fa" stroke-opacity="0.25" stroke-width="1"/>
+</svg>
