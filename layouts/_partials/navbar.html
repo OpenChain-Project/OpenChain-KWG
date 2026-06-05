@@ -1,0 +1,81 @@
+{{/*
+  OpenChain-KWG navbar 오버라이드 — Docsy v0.13.0 _partials/navbar.html 복사본.
+  유일한 변경: 원본은 nav에 data-bs-theme="dark"를 항상 박아 네비바를 teal+흰글씨로 고정한다.
+  여기서는 홈 cover(히어로) 위에서만 dark를 유지하고, 일반 문서 페이지에서는 제거해
+  페이지 테마(라이트/다크)를 상속하게 한다 → 화이트 네비바. 배경/보더는 _styles_project.scss.
+  ⚠ 업그레이드 회귀 점검: Docsy 새 버전 navbar.html과 diff 후 변경분(아래 nav 한 줄)만 유지.
+*/ -}}
+{{ $cover := and
+    (.HasShortcode "blocks/cover")
+    (not .Site.Params.ui.navbar_translucent_over_cover_disable)
+-}}
+{{ $baseURL := urls.Parse $.Site.Params.Baseurl -}}
+
+<nav class="td-navbar js-navbar-scroll
+            {{- if $cover }} td-navbar-cover {{- end }}"{{ if $cover }} data-bs-theme="dark"{{ end }}>
+<div class="td-navbar-container container-fluid flex-column flex-md-row">
+  <a class="navbar-brand" href="{{ .Site.Home.RelPermalink }}">
+    {{- /**/ -}}
+    <span class="navbar-brand__logo navbar-logo">
+      {{- if ne .Site.Params.ui.navbar_logo false -}}
+        {{ with resources.Get "icons/logo.svg" -}}
+          {{ ( . | minify).Content | safeHTML -}}
+        {{ end -}}
+      {{ end -}}
+    </span>
+    {{- /**/ -}}
+    <span class="navbar-brand__name">
+      {{- .Site.Title -}}
+    </span>
+    {{- /**/ -}}
+  </a>
+  <div class="td-navbar-nav-scroll td-navbar-nav-scroll--indicator" id="main_navbar">
+    <div class="scroll-indicator scroll-left"></div>
+    <ul class="navbar-nav">
+      {{ $p := . -}}
+      {{ range .Site.Menus.main -}}
+      <li class="nav-item">
+        {{ $active := or ($p.IsMenuCurrent "main" .) ($p.HasMenuCurrent "main" .) -}}
+        {{ $href := "" -}}
+        {{ with .Page -}}
+          {{ $active = or $active ( $.IsDescendant .) -}}
+          {{ $href = .RelPermalink -}}
+        {{ else -}}
+          {{ $href = .URL | relLangURL -}}
+        {{ end -}}
+        {{ $isExternal := ne $baseURL.Host (urls.Parse .URL).Host -}}
+        <a {{/**/ -}}
+          class="nav-link {{- if $active }} active {{- end }}" {{/**/ -}}
+          href="{{ $href }}"
+          {{- if $isExternal }} target="_blank" rel="noopener" {{- end -}}
+        >
+            {{- .Pre -}}
+            <span>{{ .Name }}</span>
+            {{- .Post -}}
+        </a>
+      </li>
+      {{ end -}}
+      {{ if .Site.Params.versions -}}
+      <li class="nav-item dropdown d-none d-lg-block td-navbar__version-menu">
+        {{ partial "navbar-version-selector.html" . -}}
+      </li>
+      {{ end -}}
+      {{ if (gt (len .Site.Home.Translations) 0) -}}
+      <li class="nav-item td-navbar__lang-menu">
+        {{ partial "navbar-lang-selector.html" . -}}
+      </li>
+      {{ end -}}
+      {{- $darkMode := partialCached "dark-mode-config.html" "dark-mode-global" -}}
+      {{ if $darkMode.showMenu -}}
+      <li class="nav-item td-navbar__light-dark-menu">
+        {{ partial "theme-toggler" . }}
+      </li>
+      {{ end -}}
+    </ul>
+    <div class="scroll-indicator scroll-right"></div>
+  </div>
+  <div class="d-none d-lg-block td-navbar__search">
+    {{ partial "search-input.html" . }}
+  </div>
+</div>
+</nav>
