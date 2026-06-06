@@ -290,13 +290,19 @@ h1.td-title { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
   color: #fff;
 }
 
-// 신뢰 요소 — 통계 띠(미팅·참여 기관·시작 연도)
+// 신뢰 요소 — 통계 띠(미팅·참여 기관·시작 연도). 커뮤니티 블록 안 피처와 채널 사이 배치
 .kwg-stats {
   display: flex;
   gap: 3rem;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 3rem;
+}
+.kwg-stats--block {
+  max-width: 1140px;
+  margin: 0 auto 2.5rem;
+  padding: 1.75rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 .kwg-stats__item { text-align: center; }
 .kwg-stats__num {
