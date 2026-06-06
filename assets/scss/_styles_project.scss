@@ -140,6 +140,56 @@ h1.td-title { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
   }
 }
 
+// ── 문서 본문 — 홈 톤 이식(라이트 유지 + radius·그림자·transition·teal 액센트) ──
+// 홈과 문서의 '마감' 톤을 이어 단절감을 줄인다. 라이트/다크 양쪽에서 동작하도록 var(--bs-*) 사용.
+.td-content {
+  // 코드블록 — 둥근 모서리 + 얇은 보더 + 부드러운 그림자
+  .highlight {
+    border-radius: $border-radius;
+    border: 1px solid var(--bs-border-color);
+    box-shadow: $box-shadow-sm;
+  }
+
+  // 본문 링크 — hover 색 전환
+  a:not(.btn) { transition: color 0.15s ease; }
+
+  // 본문 이미지 — 둥근 모서리 + 미묘한 그림자
+  img {
+    border-radius: $border-radius-sm;
+  }
+
+  // 인용구 — 좌측 teal 액센트 + 연한 배경
+  blockquote {
+    border-left: 3px solid $primary;
+    background: var(--bs-tertiary-bg);
+    border-radius: 0 $border-radius-sm $border-radius-sm 0;
+    padding: 0.6rem 1.2rem;
+  }
+
+  // 표 — header 강조 + row hover (radius는 border-collapse 때문에 생략)
+  table {
+    th { background: var(--bs-tertiary-bg); font-weight: 600; }
+    tbody tr { transition: background 0.12s ease; }
+    tbody tr:hover { background: var(--bs-tertiary-bg); }
+  }
+}
+
+// alert/pageinfo 박스 — 홈 카드 톤(둥근 모서리)
+.td-content .alert,
+.pageinfo {
+  border-radius: $border-radius;
+}
+
+// 문서 내 primary 버튼 — 홈 pill·lift 톤과 통일
+.td-content .btn-primary {
+  border-radius: 2rem;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.td-content .btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: $box-shadow;
+}
+
 // ── 홈 랜딩 (layouts/index.html) — ai.google.dev풍 ──────────────
 .kwg-home { overflow-x: hidden; }
 // 홈 body 자체를 다크로 — 100vw 히어로의 좌우 가장자리에 흰 배경이 비치지 않게
