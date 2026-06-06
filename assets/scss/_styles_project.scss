@@ -297,13 +297,14 @@ h1.td-title { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
   justify-content: center;
   flex-wrap: wrap;
 }
-.kwg-stats--block {
-  max-width: 1140px;
-  margin: 0 auto 2.5rem;
-  padding: 1.75rem 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+// 피처(소개) 텍스트 안에 통합 — 좌측 정렬, 작게
+.kwg-stats--inline {
+  justify-content: flex-start;
+  gap: 2rem;
+  margin: 1.5rem 0;
 }
+.kwg-stats--inline .kwg-stats__num { font-size: 1.8rem; }
+.kwg-stats--inline .kwg-stats__label { font-size: 0.78rem; }
 .kwg-stats__item { text-align: center; }
 .kwg-stats__num {
   display: block;
