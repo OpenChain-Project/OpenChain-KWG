@@ -290,6 +290,33 @@ h1.td-title { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
   color: #fff;
 }
 
+// 신뢰 요소 — 통계 띠(미팅·참여 기관·시작 연도)
+.kwg-stats {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+.kwg-stats__item { text-align: center; }
+.kwg-stats__num {
+  display: block;
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  background: linear-gradient(135deg, #9fecf3, #c3b1f7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.kwg-stats__label {
+  display: block;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 0.4rem;
+}
+
 // 홈 네비바: 투명 위 흰 글씨(스크롤 시 Docsy navbar-bg-onscroll 가 솔리드 처리)
 .td-home .td-navbar.td-navbar-cover {
   background: transparent;
