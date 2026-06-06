@@ -10,7 +10,7 @@
 
   {{/* 1. 히어로 — 단체사진 배경 + 다크 그라데이션 오버레이 */}}
   {{ $bg := "" }}
-  {{ with .Resources.GetMatch "featured-background.jpg" }}{{ $bg = .RelPermalink }}{{ end }}
+  {{ with .Resources.GetMatch "featured-background.jpg" }}{{ $bg = (.Resize "2048x webp q80").RelPermalink }}{{ end }}
   <section class="kwg-hero"{{ with $bg }} style="background-image: linear-gradient(180deg, rgba(6,20,27,0.92) 0%, rgba(6,20,27,0.6) 34%, rgba(6,20,27,0.35) 58%, rgba(6,20,27,0.6) 100%), url('{{ . }}')"{{ end }}>
     <div class="container kwg-hero__inner">
       <span class="kwg-hero__badge">Linux Foundation · OpenChain Project</span>
