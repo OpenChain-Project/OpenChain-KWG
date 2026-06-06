@@ -211,6 +211,7 @@ h1.td-title { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
   left: 50%;
   margin-left: -50vw;
   min-height: 100vh;
+  min-height: 100svh; // 모바일 주소창 변동 대응(small viewport height)
   display: flex;
   align-items: flex-start;
   padding: 9.5rem 0 5rem;
@@ -523,17 +524,36 @@ h1.td-title { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
   .kwg-section__lead { color: rgba(255, 255, 255, 0.72); }
 }
 
+// 태블릿 — 좌우 분할(피처·탭 패널)을 세로로 전환해 좁아짐 방지
+@media (max-width: 1024px) {
+  .kwg-feature {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .kwg-feature__visual { min-height: 240px; }
+  #gt-1:checked ~ #gp-1,
+  #gt-2:checked ~ #gp-2,
+  #gt-3:checked ~ #gp-3,
+  #gt-4:checked ~ #gp-4 {
+    grid-template-columns: 1fr;
+    padding: 2.5rem;
+  }
+}
+
+// 모바일
 @media (max-width: 768px) {
-  .kwg-hero { padding: 7rem 0 3.5rem; }
+  .kwg-hero {
+    min-height: 80svh; // 풀스크린 강제 완화 — 콘텐츠 영역 확보
+    padding: 7rem 0 3.5rem;
+  }
   .kwg-hero__title { font-size: 2.4rem; }
   .kwg-block { padding: 1.75rem; }
-  .kwg-feature { grid-template-columns: 1fr; }
   .kwg-feature__visual { min-height: 220px; }
   .kwg-feature__title { font-size: 1.7rem; }
   #gt-1:checked ~ #gp-1,
   #gt-2:checked ~ #gp-2,
   #gt-3:checked ~ #gp-3,
-  #gt-4:checked ~ #gp-4 { grid-template-columns: 1fr; padding: 1.75rem; }
+  #gt-4:checked ~ #gp-4 { padding: 1.75rem; }
   .kwg-subcard-grid { grid-template-columns: 1fr; }
   // 탭바: 모바일에서 4개 세그먼트가 폭을 넘쳐 잘리므로 가로 스크롤(스와이프) + 라벨 축소
   .kwg-tabs__nav {
@@ -547,4 +567,16 @@ h1.td-title { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
     padding: 0.5rem 0.9rem;
     font-size: 0.82rem;
   }
+}
+
+// 작은 폰
+@media (max-width: 480px) {
+  .kwg-hero { padding: 6rem 0 3rem; }
+  .kwg-hero__title { font-size: 2rem; }
+  .kwg-hero__sub { font-size: 1.1rem; }
+  .kwg-hero__badge { font-size: 0.75rem; }
+  .kwg-section { padding: 4rem 0; }
+  .kwg-section__title { font-size: 1.85rem; }
+  .kwg-block { padding: 1.35rem; }
+  .kwg-feature__title { font-size: 1.5rem; }
 }
