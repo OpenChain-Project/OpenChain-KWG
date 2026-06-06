@@ -380,12 +380,12 @@ h1.td-title { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
 
 // 가이드 탭 (순수 CSS radio, 세그먼트 컨트롤 스타일)
 .kwg-tabs { position: relative; text-align: center; }
+// 시각적으로 숨기되 키보드 포커스는 가능(visually-hidden) — 접근성
 .kwg-tabs__radio {
   position: absolute;
   width: 1px;
   height: 1px;
   opacity: 0;
-  pointer-events: none;
 }
 // 탭바: 하나의 둥근 묶음 안에서 선택된 탭이 채워짐 → '탭' 인지가 명확
 .kwg-tabs__nav {
@@ -403,11 +403,19 @@ h1.td-title { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
   cursor: pointer;
   font-size: 0.9rem;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(255, 255, 255, 0.72);
   white-space: nowrap;
   transition: color 0.15s ease, background 0.15s ease;
 }
 .kwg-tabs__nav label:hover { color: #fff; }
+// 키보드 포커스 시 해당 탭 라벨에 outline(접근성)
+#gt-1:focus-visible ~ .kwg-tabs__nav label[for="gt-1"],
+#gt-2:focus-visible ~ .kwg-tabs__nav label[for="gt-2"],
+#gt-3:focus-visible ~ .kwg-tabs__nav label[for="gt-3"],
+#gt-4:focus-visible ~ .kwg-tabs__nav label[for="gt-4"] {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
 .kwg-tabs__panel {
   display: none;
   grid-template-columns: 1fr 1fr;
@@ -512,7 +520,7 @@ h1.td-title { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
 
   .kwg-section--alt { background: rgba(255, 255, 255, 0.03); }
   .kwg-section__title { color: #fff; }
-  .kwg-section__lead { color: rgba(255, 255, 255, 0.55); }
+  .kwg-section__lead { color: rgba(255, 255, 255, 0.72); }
 }
 
 @media (max-width: 768px) {
