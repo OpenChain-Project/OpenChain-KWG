@@ -32,25 +32,24 @@
         <div class="kwg-feature__text">
           <h2 class="kwg-feature__title">{{ if $ko }}커뮤니티 참여{{ else }}Join the community{{ end }}</h2>
           <p class="kwg-feature__desc">{{ if $ko }}정기 미팅과 온라인 채널에서 한국 기업 오픈소스 컴플라이언스 담당자들과 지식과 경험을 나눕니다.{{ else }}Share knowledge and experience with open source compliance practitioners at Korean companies, through regular meetings and online channels.{{ end }}</p>
+          <div class="kwg-stats kwg-stats--inline">
+            <div class="kwg-stats__item">
+              <span class="kwg-stats__num">31</span>
+              <span class="kwg-stats__label">{{ if $ko }}정기 미팅{{ else }}Meetings{{ end }}</span>
+            </div>
+            <div class="kwg-stats__item">
+              <span class="kwg-stats__num">20+</span>
+              <span class="kwg-stats__label">{{ if $ko }}참여 기업·기관{{ else }}Organizations{{ end }}</span>
+            </div>
+            <div class="kwg-stats__item">
+              <span class="kwg-stats__num">2019</span>
+              <span class="kwg-stats__label">{{ if $ko }}함께한 시작{{ else }}Since{{ end }}</span>
+            </div>
+          </div>
           <a class="kwg-btn-pill" href="{{ "about/" | relLangURL }}">{{ if $ko }}참여 방법 보기{{ else }}How to join{{ end }} <i class="fa-solid fa-arrow-right ms-1"></i></a>
         </div>
         <div class="kwg-feature__visual" aria-hidden="true">
           <img class="kwg-tabs__art" src="{{ "images/kwg-viz-community.svg" | relURL }}" alt="">
-        </div>
-      </div>
-
-      <div class="kwg-stats kwg-stats--block">
-        <div class="kwg-stats__item">
-          <span class="kwg-stats__num">31</span>
-          <span class="kwg-stats__label">{{ if $ko }}정기 미팅{{ else }}Meetings{{ end }}</span>
-        </div>
-        <div class="kwg-stats__item">
-          <span class="kwg-stats__num">20+</span>
-          <span class="kwg-stats__label">{{ if $ko }}참여 기업·기관{{ else }}Organizations{{ end }}</span>
-        </div>
-        <div class="kwg-stats__item">
-          <span class="kwg-stats__num">2019</span>
-          <span class="kwg-stats__label">{{ if $ko }}함께한 시작{{ else }}Since{{ end }}</span>
         </div>
       </div>
 
