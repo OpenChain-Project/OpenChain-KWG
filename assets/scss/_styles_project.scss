@@ -475,6 +475,18 @@ h1.td-title { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
   #gt-1:checked ~ #gp-1,
   #gt-2:checked ~ #gp-2,
   #gt-3:checked ~ #gp-3,
-  #gt-4:checked ~ #gp-4 { grid-template-columns: 1fr; padding: 2rem; }
+  #gt-4:checked ~ #gp-4 { grid-template-columns: 1fr; padding: 1.75rem; }
   .kwg-subcard-grid { grid-template-columns: 1fr; }
+  // 탭바: 모바일에서 4개 세그먼트가 폭을 넘쳐 잘리므로 가로 스크롤(스와이프) + 라벨 축소
+  .kwg-tabs__nav {
+    max-width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .kwg-tabs__nav::-webkit-scrollbar { display: none; }
+  .kwg-tabs__nav label {
+    flex-shrink: 0;
+    padding: 0.5rem 0.9rem;
+    font-size: 0.82rem;
+  }
 }
