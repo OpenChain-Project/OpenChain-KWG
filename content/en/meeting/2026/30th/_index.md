@@ -1,7 +1,8 @@
 ---
 title: "30th Meeting"
 weight: 30
-type: docs
+type: meeting
+layout: landing
 categories: ["meeting"]
 tags: ["OpenChain", "AI", "governance", "Finance", "KakaoBank"]
 description: >
@@ -10,53 +11,32 @@ aliases:
   - /en/meeting/30th/
 ---
 
-<div style="padding:26px;border-radius:18px;background:linear-gradient(135deg,#ffe812 0%,#ffd400 45%,#ffb800 100%);color:#1a1500;margin-bottom:14px;box-shadow:0 12px 28px rgba(255,184,0,.35);">
-  <p style="margin:0 0 8px 0;letter-spacing:.08em;font-size:12px;font-weight:700;opacity:.75;">OPENCHAIN KOREA WORK GROUP</p>
-  <h1 style="margin:0 0 8px 0;color:#1a1500;">30th Meeting</h1>
-  <p style="margin:0;font-size:18px;"><strong>AI Governance and Open Source Compliance in Finance</strong></p>
-  <p style="margin:12px 0 0 0;font-size:14px;opacity:.85;">2026.06.09 (Tue) 14:00-17:00 · KakaoBank</p>
-</div>
+<style>
+/* Per-meeting sponsor color — for the next meeting, change just these two values. */
+.td-content { --accent: #ffd400; --ink: #1a1500; }
+</style>
 
-<div style="margin:0 0 20px 0;display:flex;flex-wrap:wrap;gap:8px;">
-  <span style="padding:6px 10px;border-radius:999px;border:1px solid #e8c840;background:#fffde7;font-size:12px;font-weight:700;color:#6b5200;"># OpenChain</span>
-  <span style="padding:6px 10px;border-radius:999px;border:1px solid #e8c840;background:#fffde7;font-size:12px;font-weight:700;color:#6b5200;"># AI Governance</span>
-  <span style="padding:6px 10px;border-radius:999px;border:1px solid #e8c840;background:#fffde7;font-size:12px;font-weight:700;color:#6b5200;"># Financial Audit</span>
-  <span style="padding:6px 10px;border-radius:999px;border:1px solid #e8c840;background:#fffde7;font-size:12px;font-weight:700;color:#6b5200;"># OSS Compliance</span>
-</div>
-
-<div style="border:1px solid #f0d860;border-left:4px solid #ffb800;border-radius:10px;padding:12px 14px;background:#fffbeb;margin-bottom:20px;">
-This meeting focuses on <strong>open source governance in the AI era</strong> and <strong>audit readiness checkpoints for the financial sector</strong>,
-sharing practical cases that practitioners can apply immediately.
-</div>
-
-## Event Info
-
-| Item | Details |
-|---|---|
-| Date & Time | **2026-06-09 (Tue) 14:00 – 17:00** |
-| Venue | KakaoBank (Parc.1 Tower 2, 35F, Yeouido) |
-| Location | [Open in Google Maps](https://maps.app.goo.gl/kiA47oQHq3g2jkLd6) |
-| Keywords | `OpenChain` `AI` `Governance` `Finance` |
-
-## Program Highlights
-
-<div style="display:grid;gap:10px;margin-bottom:8px;">
-  <div style="border:1px solid #f0d860;border-radius:12px;padding:12px 14px;background:#fffef5;border-left:4px solid #ffd400;">
-    <strong style="color:#8b6914;">Session 1</strong><br>
-    AI-driven Open Source Governance<br>
-    <span style="font-size:13px;color:#6b5a30;">Heonkwan Ha · KakaoBank</span>
+<div class="kwg-conf-hero">
+  <p class="kwg-conf-hero__eyebrow">30th Meeting · Tue, June 9, 2026</p>
+  <h1 class="kwg-conf-hero__title">AI Governance and Open Source Compliance in Finance</h1>
+  <p class="kwg-conf-hero__sub">Practical cases on open source governance in the AI era and audit-readiness checkpoints for the financial sector.</p>
+  <div class="kwg-conf-hero__meta">
+    <span><strong>Date</strong> 2026-06-09 (Tue) 14:00–17:00</span>
+    <span><strong>Venue</strong> KakaoBank · Parc.1 Tower 2, 35F, Yeouido</span>
   </div>
-  <div style="border:1px solid #f0d860;border-radius:12px;padding:12px 14px;background:#fffef5;border-left:4px solid #ffd400;">
-    <strong style="color:#8b6914;">Session 2</strong><br>
-    The Impact of Claude Mythos on Open Source<br>
-    <span style="font-size:13px;color:#6b5a30;">Kangbo Kim · AhnLab</span>
-  </div>
-  <div style="border:1px solid #f0d860;border-radius:12px;padding:12px 14px;background:#fffef5;border-left:4px solid #ffd400;">
-    <strong style="color:#8b6914;">Session 3</strong><br>
-    Experience Report on Open Source Operations as a Financial Company<br>
-    <span style="font-size:13px;color:#6b5a30;">Minae Lee · KakaoBank</span>
+  <p class="kwg-conf-hero__note">Registration is announced via the OpenChain KWG mailing list. Subscribe to receive the sign-up link.</p>
+  <div class="kwg-conf-hero__cta">
+    <a class="kwg-conf-cta" href="../../../about/subscribe/">Join the mailing list</a>
+    <a class="kwg-conf-cta kwg-conf-cta--ghost" href="https://maps.app.goo.gl/kiA47oQHq3g2jkLd6" target="_blank" rel="noopener">Open in Google Maps</a>
   </div>
 </div>
+
+<ul class="kwg-conf-chips">
+  <li class="kwg-conf-chip">OpenChain</li>
+  <li class="kwg-conf-chip">AI Governance</li>
+  <li class="kwg-conf-chip">Financial Audit</li>
+  <li class="kwg-conf-chip">OSS Compliance</li>
+</ul>
 
 ## Who Should Attend
 
@@ -66,66 +46,99 @@ sharing practical cases that practitioners can apply immediately.
 
 ## Agenda
 
-<div style="display:grid;gap:10px;">
-  <div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0e8c0;border-radius:12px;padding:12px 14px;background:#fffef8;">
-    <div style="font-weight:800;color:#8b6914;">14:00-14:10</div>
-    <div><strong>Welcome & Greetings</strong><br><span style="font-size:13px;color:#6b5a30;">Jongseong Kim · KakaoBank</span></div>
+<div class="kwg-conf-timeline">
+  <div class="kwg-conf-tl">
+    <div class="kwg-conf-tl__time">14:00–14:10</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Welcome &amp; Greetings</div>
+      <div class="kwg-conf-tl__by">Jongseong Kim · KakaoBank</div>
+    </div>
   </div>
-  <div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0e8c0;border-radius:12px;padding:12px 14px;background:#fffef8;">
-    <div style="font-weight:800;color:#8b6914;">14:10-14:30</div>
-    <div><strong>OpenChain Updates</strong><br><span style="font-size:13px;color:#6b5a30;">Steering Committee</span></div>
+  <div class="kwg-conf-tl">
+    <div class="kwg-conf-tl__time">14:10–14:30</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">OpenChain Updates</div>
+      <div class="kwg-conf-tl__by">Steering Committee</div>
+    </div>
   </div>
-  <div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0d860;border-radius:12px;padding:12px 14px;background:#fff9db;border-left:4px solid #ffd400;">
-    <div style="font-weight:800;color:#8b6914;">14:30-14:55</div>
-    <div><strong>Session 1. AI-driven Open Source Governance</strong><br><span style="font-size:13px;color:#6b5a30;">Heonkwan Ha · KakaoBank</span></div>
+  <div class="kwg-conf-tl kwg-conf-tl--session">
+    <div class="kwg-conf-tl__time">14:30–14:55</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Session 1. AI-driven Open Source Governance</div>
+      <div class="kwg-conf-tl__by">Heonkwan Ha · KakaoBank</div>
+    </div>
   </div>
-  <div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px dashed #e8d880;border-radius:12px;padding:12px 14px;background:#fffef0;">
-    <div style="font-weight:800;color:#8b6914;">14:55-15:15</div>
-    <div><strong>Break & Networking</strong><br><span style="font-size:13px;color:#6b5a30;">Coffee break</span></div>
+  <div class="kwg-conf-tl kwg-conf-tl--muted">
+    <div class="kwg-conf-tl__time">14:55–15:15</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Break &amp; Networking</div>
+      <div class="kwg-conf-tl__by">Coffee break</div>
+    </div>
   </div>
-  <div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0d860;border-radius:12px;padding:12px 14px;background:#fff9db;border-left:4px solid #ffd400;">
-    <div style="font-weight:800;color:#8b6914;">15:15-15:40</div>
-    <div><strong>Session 2. The Impact of Claude Mythos on Open Source</strong><br><span style="font-size:13px;color:#6b5a30;">Kangbo Kim · AhnLab</span></div>
+  <div class="kwg-conf-tl kwg-conf-tl--session">
+    <div class="kwg-conf-tl__time">15:15–15:40</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Session 2. The Impact of Claude Mythos on Open Source</div>
+      <div class="kwg-conf-tl__by">Kangbo Kim · AhnLab</div>
+    </div>
   </div>
-  <div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0d860;border-radius:12px;padding:12px 14px;background:#fff9db;border-left:4px solid #ffd400;">
-    <div style="font-weight:800;color:#8b6914;">15:40-16:05</div>
-    <div><strong>Session 3. Experience Report on Open Source Operations as a Financial Company</strong><br><span style="font-size:13px;color:#6b5a30;">Minae Lee · KakaoBank</span></div>
+  <div class="kwg-conf-tl kwg-conf-tl--session">
+    <div class="kwg-conf-tl__time">15:40–16:05</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Session 3. Experience Report on Open Source Operations as a Financial Company</div>
+      <div class="kwg-conf-tl__by">Minae Lee · KakaoBank</div>
+    </div>
   </div>
-  <div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0e8c0;border-radius:12px;padding:12px 14px;background:#fffef8;">
-    <div style="font-weight:800;color:#8b6914;">16:05-16:50</div>
-    <div><strong>Group Discussion</strong><br><span style="font-size:13px;color:#6b5a30;">All Participants</span></div>
+  <div class="kwg-conf-tl">
+    <div class="kwg-conf-tl__time">16:05–16:50</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Group Discussion</div>
+      <div class="kwg-conf-tl__by">All Participants</div>
+    </div>
   </div>
-  <div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0e8c0;border-radius:12px;padding:12px 14px;background:#fffef8;">
-    <div style="font-weight:800;color:#8b6914;">16:50-17:00</div>
-    <div><strong>Closing & Group Photo</strong><br><span style="font-size:13px;color:#6b5a30;">Steering Committee</span></div>
+  <div class="kwg-conf-tl">
+    <div class="kwg-conf-tl__time">16:50–17:00</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Closing &amp; Group Photo</div>
+      <div class="kwg-conf-tl__by">Steering Committee</div>
+    </div>
   </div>
 </div>
 
 ## Speakers
 
-<div style="display:flex;flex-wrap:wrap;gap:16px;margin-top:8px;">
-  <div style="flex:1 1 260px;border:1px solid #f0e8c0;border-radius:12px;padding:18px 16px;background:#fffef8;">
-    <img src="heonkwan-ha.png" alt="Heonkwan Ha" style="width:120px;height:120px;object-fit:cover;border-radius:50%;display:block;margin:0 auto 12px;">
-    <div style="text-align:center;font-weight:800;color:#8b6914;">Heonkwan Ha, Manager</div>
-    <div style="text-align:center;font-size:13px;color:#6b5a30;margin:2px 0 12px;">KakaoBank · Session 1</div>
-    <p style="font-size:14px;line-height:1.6;margin:0;">Open source governance, DevSecOps, and CMDB operations at KakaoBank.</p>
+<div class="kwg-conf-speakers">
+  <div class="kwg-conf-speaker">
+    <img class="kwg-conf-speaker__photo" src="heonkwan-ha.png" alt="Heonkwan Ha">
+    <div class="kwg-conf-speaker__name">Heonkwan Ha, Manager</div>
+    <div class="kwg-conf-speaker__role">KakaoBank · Session 1</div>
+    <p class="kwg-conf-speaker__bio">Open source governance, DevSecOps, and CMDB operations at KakaoBank.</p>
   </div>
-  <div style="flex:1 1 260px;border:1px solid #f0e8c0;border-radius:12px;padding:18px 16px;background:#fffef8;">
-    <img src="kangbo-kim.png" alt="Kangbo Kim" style="width:120px;height:120px;object-fit:cover;border-radius:50%;display:block;margin:0 auto 12px;">
-    <div style="text-align:center;font-weight:800;color:#8b6914;">Kangbo Kim, Team Lead</div>
-    <div style="text-align:center;font-size:13px;color:#6b5a30;margin:2px 0 12px;">AhnLab · Session 2</div>
-    <p style="font-size:14px;line-height:1.6;margin:0;">Team Lead of the Research Infrastructure Team at AhnLab. He designs and operates R&D development-support environments — CI/CD infrastructure, OSS (Open Source Software) verification, static analysis, development-process standardization, build and signing, and patent and external-project management. His main focus is open source compliance and security-vulnerability response for security products, and building a static-analysis-centered CI/CD pipeline spanning development through release.</p>
+  <div class="kwg-conf-speaker">
+    <img class="kwg-conf-speaker__photo" src="kangbo-kim.png" alt="Kangbo Kim">
+    <div class="kwg-conf-speaker__name">Kangbo Kim, Team Lead</div>
+    <div class="kwg-conf-speaker__role">AhnLab · Session 2</div>
+    <p class="kwg-conf-speaker__bio">Team Lead of the Research Infrastructure Team at AhnLab. He designs and operates R&amp;D development-support environments — CI/CD infrastructure, OSS (Open Source Software) verification, static analysis, development-process standardization, build and signing, and patent and external-project management. His main focus is open source compliance and security-vulnerability response for security products, and building a static-analysis-centered CI/CD pipeline spanning development through release.</p>
   </div>
-  <div style="flex:1 1 260px;border:1px solid #f0e8c0;border-radius:12px;padding:18px 16px;background:#fffef8;">
-    <img src="minae-lee.png" alt="Minae Lee" style="width:120px;height:120px;object-fit:cover;border-radius:50%;display:block;margin:0 auto 12px;">
-    <div style="text-align:center;font-weight:800;color:#8b6914;">Minae Lee, Manager</div>
-    <div style="text-align:center;font-size:13px;color:#6b5a30;margin:2px 0 12px;">KakaoBank · Session 3</div>
-    <p style="font-size:14px;line-height:1.6;margin:0;">Open source governance at KakaoBank, in-house IT policy, and internal/external audit response.</p>
+  <div class="kwg-conf-speaker">
+    <img class="kwg-conf-speaker__photo" src="minae-lee.png" alt="Minae Lee">
+    <div class="kwg-conf-speaker__name">Minae Lee, Manager</div>
+    <div class="kwg-conf-speaker__role">KakaoBank · Session 3</div>
+    <p class="kwg-conf-speaker__bio">Open source governance at KakaoBank, in-house IT policy, and internal/external audit response.</p>
   </div>
 </div>
 
 ## Sponsor
 
-<div style="text-align:center;padding:16px 12px;border:1px solid #f0d860;border-radius:12px;background:linear-gradient(180deg,#fffef5 0%,#fff9db 100%);">
-  <img src="../../../../images/content/about/logo/kakaobank.png" alt="KakaoBank" style="max-width:220px;width:100%;height:auto;">
+<div class="kwg-conf-sponsor">
+  <span class="kwg-conf-sponsor__label">Sponsored by</span>
+  <img src="../../../../images/content/about/logo/kakaobank.png" alt="KakaoBank">
 </div>
