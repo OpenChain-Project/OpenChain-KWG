@@ -21,7 +21,7 @@ jobs:
       pages: write
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
@@ -32,7 +32,7 @@ jobs:
           extended: true
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: '22'
           cache: 'npm'
@@ -49,7 +49,7 @@ jobs:
       # Hugo 이미지 변환 결과(resources/_gen) 캐싱 — 콜드 빌드 이미지 재처리 방지.
       # 매 커밋(sha)마다 새로 저장하고, restore-keys 로 직전 캐시를 복원해 변경분만 재처리한다.
       - name: Cache Hugo resources
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: resources/_gen
           key: hugo-resources-${{ runner.os }}-${{ github.sha }}
