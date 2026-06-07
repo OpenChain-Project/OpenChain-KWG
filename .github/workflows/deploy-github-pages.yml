@@ -46,6 +46,16 @@ jobs:
           npm ci
           npm run build
 
+      # Hugo 이미지 변환 결과(resources/_gen) 캐싱 — 콜드 빌드 이미지 재처리 방지.
+      # 매 커밋(sha)마다 새로 저장하고, restore-keys 로 직전 캐시를 복원해 변경분만 재처리한다.
+      - name: Cache Hugo resources
+        uses: actions/cache@v4
+        with:
+          path: resources/_gen
+          key: hugo-resources-${{ runner.os }}-${{ github.sha }}
+          restore-keys: |
+            hugo-resources-${{ runner.os }}-
+
       - run: hugo --baseURL https://${REPO_OWNER}.github.io/${REPO_NAME} --minify
 
       - name: Deploy
