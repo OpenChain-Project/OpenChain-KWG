@@ -1,5 +1,6 @@
 ---
 title: "22nd Meeting"
+linkTitle: "22nd · 2024.06 CJ Talent Training Center"
 weight: 22
 type: docs
 description: >

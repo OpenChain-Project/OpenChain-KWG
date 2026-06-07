@@ -1,5 +1,6 @@
 ---
 title: "21st Meeting"
+linkTitle: "21st · 2024.03 카카오 판교아지트"
 weight: 21
 type: docs
 categories: ["meeting"]
