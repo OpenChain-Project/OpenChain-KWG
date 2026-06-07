@@ -1,6 +1,6 @@
 ---
 title: "23rd Meeting"
-linkTitle: "23rd · 2024.09 ETRI Seoul Office"
+linkTitle: "23rd · 2024.09 ETRI"
 weight: 23
 type: docs
 # categories: ["meeting"]

@@ -1,6 +1,6 @@
 ---
 title: "21st Meeting"
-linkTitle: "21st · 2024.03 Kakao Pangyo Azit"
+linkTitle: "21st · 2024.03 Kakao"
 weight: 21
 type: docs
 description: >
