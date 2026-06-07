@@ -1,5 +1,6 @@
 ---
 title: "27th Meeting"
+linkTitle: "27th · 2025.10 ETRI Open Source Tech Day 2025"
 weight: 27
 type: docs
 categories: ["meeting"]

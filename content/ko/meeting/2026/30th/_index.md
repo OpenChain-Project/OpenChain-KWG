@@ -1,5 +1,6 @@
 ---
 title: "30th Meeting"
+linkTitle: "30th · 2026.06 카카오뱅크"
 weight: 30
 type: meeting
 layout: landing

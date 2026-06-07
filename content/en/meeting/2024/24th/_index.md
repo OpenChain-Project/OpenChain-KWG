@@ -1,5 +1,6 @@
 ---
 title: "24th Meeting"
+linkTitle: "24th · 2024.11 LG AI Research"
 weight: 24
 type: docs
 # categories: ["meeting"]

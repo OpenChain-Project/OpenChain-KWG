@@ -1,5 +1,6 @@
 ---
 title: "20th Meeting"
+linkTitle: "20th · 2023.11 삼성전자 서초사옥"
 weight: 20
 type: docs
 categories: ["meeting"]
