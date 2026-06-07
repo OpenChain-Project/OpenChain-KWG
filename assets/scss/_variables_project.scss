@@ -45,3 +45,27 @@ $box-shadow-lg: 0 8px 24px rgba(16, 24, 40, 0.1), 0 12px 40px rgba(16, 24, 40, 0
 // ── 본문 글자색: 순검정 대신 부드러운 진회색(Gemini식 가독성) ──
 // 다크 모드 글자색은 Bootstrap/Docsy 다크 보정이 자동 처리한다.
 $body-color: #2b2f33;
+
+// ── 간격 스케일(4/8pt 그리드) ────────────────────────────────
+// 컴포넌트 padding·margin·gap 은 이 토큰을 쓴다. 임의 rem 값 대신 정렬된 값으로.
+$space-1: 0.25rem; //  4
+$space-2: 0.5rem; //  8
+$space-3: 0.75rem; // 12
+$space-4: 1rem; // 16
+$space-5: 1.5rem; // 24
+$space-6: 2rem; // 32
+$space-7: 2.5rem; // 40
+$space-8: 3rem; // 48
+$space-9: 4rem; // 64
+$space-10: 6rem; // 96
+
+// ── 타입 스케일 ──────────────────────────────────────────────
+// font-size 는 이 토큰을 쓴다. (반응형이 필요한 큰 제목만 clamp 예외)
+$text-xs: 0.75rem; //   12
+$text-sm: 0.875rem; //  14
+$text-base: 1rem; //    16
+$text-lg: 1.125rem; //  18
+$text-xl: 1.25rem; //   20
+$text-2xl: 1.5rem; //   24
+$text-3xl: 2rem; //     32
+$text-4xl: 2.5rem; //   40
