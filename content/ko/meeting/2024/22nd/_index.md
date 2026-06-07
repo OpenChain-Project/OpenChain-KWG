@@ -1,6 +1,6 @@
 ---
 title: "22nd Meeting"
-linkTitle: "22nd · 2024.06 CJ Talent Training Center"
+linkTitle: "22nd · 2024.06 CJ"
 weight: 22
 type: docs
 categories: ["meeting"]

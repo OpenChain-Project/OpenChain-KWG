@@ -1,6 +1,6 @@
 ---
 title: "20th Meeting"
-linkTitle: "20th · 2023.11 Samsung Electronics Seocho Headquarters"
+linkTitle: "20th · 2023.11 Samsung Electronics"
 weight: 20
 type: docs
 description: >
