@@ -1,5 +1,6 @@
 ---
 title: "29th Meeting"
+linkTitle: "29th · 2026.03 라인플러스"
 weight: 29
 type: docs
 categories: ["meeting"]

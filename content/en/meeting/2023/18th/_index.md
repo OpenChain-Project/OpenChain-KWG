@@ -1,5 +1,6 @@
 ---
 title: "18th Meeting"
+linkTitle: "18th · 2023.06 Kakao"
 weight: 18
 type: docs
 description: >

@@ -1,5 +1,6 @@
 ---
 title: "31th Meeting"
+linkTitle: "31th · 2026.09 CJ"
 date: 2026-03-31T17:23:41+09:00
 weight: 31
 type: docs
