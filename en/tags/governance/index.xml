@@ -3,7 +3,8 @@
 .td-content { --accent: #ffd400; --ink: #1a1500; }
 &lt;/style&gt;
 &lt;div class="kwg-conf-hero"&gt;
- &lt;p class="kwg-conf-hero__eyebrow"&gt;30th Meeting · Tue, June 9, 2026&lt;/p&gt;
+ &lt;div class="kwg-conf-hero__body"&gt;
+ &lt;p class="kwg-conf-hero__eyebrow"&gt;30th Meeting&lt;/p&gt;
  &lt;h1 class="kwg-conf-hero__title"&gt;AI Governance and Open Source Compliance in Finance&lt;/h1&gt;
  &lt;p class="kwg-conf-hero__sub"&gt;Practical cases on open source governance in the AI era and audit-readiness checkpoints for the financial sector.&lt;/p&gt;
  &lt;div class="kwg-conf-hero__meta"&gt;
