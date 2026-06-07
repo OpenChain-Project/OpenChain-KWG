@@ -1,7 +1,12 @@
 {{ define "main" -}}
-<div class="td-content">
-  <h1>Not found</h1>
-  <p>Oops! This page doesn't exist. Try going back to the <a href="{{ "" | relURL }}">home page</a>.</p>
-  <p>You can learn how to make a 404 page like this in <a href="https://gohugo.io/templates/404/">Custom 404 Pages</a>.</p>
+{{ $ko := eq .Site.Language.Lang "ko" -}}
+<div class="td-content kwg-404">
+  <p class="kwg-404__code" aria-hidden="true">404</p>
+  <h1 class="kwg-404__title">{{ if $ko }}페이지를 찾을 수 없습니다{{ else }}Page not found{{ end }}</h1>
+  <p class="kwg-404__desc">{{ if $ko }}요청하신 페이지가 없거나 다른 곳으로 옮겨졌습니다.{{ else }}The page you're looking for doesn't exist or has moved.{{ end }}</p>
+  <div class="kwg-404__actions">
+    <a class="kwg-404__btn" href="{{ "" | relLangURL }}">{{ if $ko }}홈으로{{ else }}Back to home{{ end }}</a>
+    <a class="kwg-404__btn kwg-404__btn--ghost" href="{{ "meeting/" | relLangURL }}">{{ if $ko }}정기 미팅 보기{{ else }}Meetings{{ end }}</a>
+  </div>
 </div>
 {{- end }}

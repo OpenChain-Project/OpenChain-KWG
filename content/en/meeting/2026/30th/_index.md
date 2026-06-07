@@ -124,19 +124,19 @@ aliases:
 
 <div class="kwg-conf-speakers">
   <div class="kwg-conf-speaker">
-    <img class="kwg-conf-speaker__photo" src="heonkwan-ha.png" alt="Heonkwan Ha">
+    <img class="kwg-conf-speaker__photo" loading="lazy" src="heonkwan-ha.png" alt="Heonkwan Ha">
     <div class="kwg-conf-speaker__name">Heonkwan Ha, Manager</div>
     <div class="kwg-conf-speaker__role">KakaoBank · Session 1</div>
     <p class="kwg-conf-speaker__bio">Open source governance, DevSecOps, and CMDB operations at KakaoBank.</p>
   </div>
   <div class="kwg-conf-speaker">
-    <img class="kwg-conf-speaker__photo" src="kangbo-kim.png" alt="Kangbo Kim">
+    <img class="kwg-conf-speaker__photo" loading="lazy" src="kangbo-kim.png" alt="Kangbo Kim">
     <div class="kwg-conf-speaker__name">Kangbo Kim, Team Lead</div>
     <div class="kwg-conf-speaker__role">AhnLab · Session 2</div>
     <p class="kwg-conf-speaker__bio">Team Lead of the Research Infrastructure Team at AhnLab. He designs and operates R&amp;D development-support environments — CI/CD infrastructure, OSS (Open Source Software) verification, static analysis, development-process standardization, build and signing, and patent and external-project management. His main focus is open source compliance and security-vulnerability response for security products, and building a static-analysis-centered CI/CD pipeline spanning development through release.</p>
   </div>
   <div class="kwg-conf-speaker">
-    <img class="kwg-conf-speaker__photo" src="minae-lee.png" alt="Minae Lee">
+    <img class="kwg-conf-speaker__photo" loading="lazy" src="minae-lee.png" alt="Minae Lee">
     <div class="kwg-conf-speaker__name">Minae Lee, Manager</div>
     <div class="kwg-conf-speaker__role">KakaoBank · Session 3</div>
     <p class="kwg-conf-speaker__bio">Open source governance at KakaoBank, in-house IT policy, and internal/external audit response.</p>

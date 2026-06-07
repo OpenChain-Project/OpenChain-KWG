@@ -125,19 +125,19 @@ aliases:
 
 <div class="kwg-conf-speakers">
   <div class="kwg-conf-speaker">
-    <img class="kwg-conf-speaker__photo" src="heonkwan-ha.png" alt="하헌관 매니저">
+    <img class="kwg-conf-speaker__photo" loading="lazy" src="heonkwan-ha.png" alt="하헌관 매니저">
     <div class="kwg-conf-speaker__name">하헌관 매니저</div>
     <div class="kwg-conf-speaker__role">카카오뱅크 · Session 1</div>
     <p class="kwg-conf-speaker__bio">카카오뱅크 오픈소스 거버넌스, DevSecOps, CMDB 운영</p>
   </div>
   <div class="kwg-conf-speaker">
-    <img class="kwg-conf-speaker__photo" src="kangbo-kim.png" alt="김강보 팀장">
+    <img class="kwg-conf-speaker__photo" loading="lazy" src="kangbo-kim.png" alt="김강보 팀장">
     <div class="kwg-conf-speaker__name">김강보 팀장</div>
     <div class="kwg-conf-speaker__role">안랩 · Session 2</div>
     <p class="kwg-conf-speaker__bio">안랩 연구인프라팀에서 팀장으로 근무하며, CI/CD 인프라 구축을 비롯해 OSS(Open Source Software) 검증, 정적 분석, 개발 프로세스 정립, 배포 및 서명, 특허와 외부 과제 관리 등 R&D 전반의 개발 지원 환경을 설계·운영하고 있습니다. 특히 보안 제품을 구성하는 오픈소스의 컴플라이언스 준수와 보안 취약점 대응, 그리고 정적 분석을 중심으로 한 개발부터 배포까지 이어지는 CI/CD 체계 구축을 주요 업무로 담당하고 있습니다.</p>
   </div>
   <div class="kwg-conf-speaker">
-    <img class="kwg-conf-speaker__photo" src="minae-lee.png" alt="이민애 매니저">
+    <img class="kwg-conf-speaker__photo" loading="lazy" src="minae-lee.png" alt="이민애 매니저">
     <div class="kwg-conf-speaker__name">이민애 매니저</div>
     <div class="kwg-conf-speaker__role">카카오뱅크 · Session 3</div>
     <p class="kwg-conf-speaker__bio">카카오뱅크 오픈소스 거버넌스, 사내 IT 업무 관련 정책 담당, 내외부감사 대응</p>
