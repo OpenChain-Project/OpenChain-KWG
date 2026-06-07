@@ -1,7 +1,8 @@
 ---
 title: "30th Meeting"
 weight: 30
-type: docs
+type: meeting
+layout: landing
 categories: ["meeting"]
 tags: ["OpenChain", "AI", "governance", "금융", "KakaoBank"]
 description: >
@@ -10,122 +11,135 @@ aliases:
   - /meeting/30th/
 ---
 
-<div style="padding:26px;border-radius:18px;background:linear-gradient(135deg,#ffe812 0%,#ffd400 45%,#ffb800 100%);color:#1a1500;margin-bottom:14px;box-shadow:0 12px 28px rgba(255,184,0,.35);">
-  <p style="margin:0 0 8px 0;letter-spacing:.08em;font-size:12px;font-weight:700;opacity:.75;">OPENCHAIN KOREA WORK GROUP</p>
-  <h1 style="margin:0 0 8px 0;color:#1a1500;">30th Meeting</h1>
-  <p style="margin:0;font-size:18px;"><strong>AI 거버넌스와 금융권 오픈소스 컴플라이언스</strong></p>
-  <p style="margin:12px 0 0 0;font-size:14px;opacity:.85;">2026.06.09 (화) 14:00-17:00 · 카카오뱅크</p>
-</div>
+<style>
+/* 회차별 스폰서 색 — 다음 회차는 이 두 값만 그 스폰서 색으로 교체. */
+.td-content { --accent: #ffd400; --ink: #1a1500; }
+</style>
 
-<div style="margin:0 0 20px 0;display:flex;flex-wrap:wrap;gap:8px;">
-  <span style="padding:6px 10px;border-radius:999px;border:1px solid #e8c840;background:#fffde7;font-size:12px;font-weight:700;color:#6b5200;"># OpenChain</span>
-  <span style="padding:6px 10px;border-radius:999px;border:1px solid #e8c840;background:#fffde7;font-size:12px;font-weight:700;color:#6b5200;"># AI Governance</span>
-  <span style="padding:6px 10px;border-radius:999px;border:1px solid #e8c840;background:#fffde7;font-size:12px;font-weight:700;color:#6b5200;"># 금융권 Audit</span>
-  <span style="padding:6px 10px;border-radius:999px;border:1px solid #e8c840;background:#fffde7;font-size:12px;font-weight:700;color:#6b5200;"># OSS Compliance</span>
-</div>
-
-<div style="border:1px solid #f0d860;border-left:4px solid #ffb800;border-radius:10px;padding:12px 14px;background:#fffbeb;margin-bottom:20px;">
-이번 미팅은 <strong>AI 시대의 오픈소스 거버넌스 실무</strong>와 <strong>금융권 감사 대응 체크포인트</strong>를 중심으로,
-현업 담당자들이 바로 적용할 수 있는 사례를 공유합니다.
-</div>
-
-## 행사 정보
-
-| 항목 | 내용 |
-|---|---|
-| 일시 | **2026-06-09 (화) 14:00 ~ 17:00** |
-| 장소 | 카카오뱅크 (여의도 파크원 타워2 35층) |
-| 위치 | [Google Maps 바로가기](https://maps.app.goo.gl/kiA47oQHq3g2jkLd6) |
-| 키워드 | `OpenChain` `AI` `Governance` `금융` |
-
-## 프로그램 하이라이트
-
-<div style="display:grid;gap:10px;margin-bottom:8px;">
-  <div style="border:1px solid #f0d860;border-radius:12px;padding:12px 14px;background:#fffef5;border-left:4px solid #ffd400;">
-    <strong style="color:#8b6914;">Session 1</strong><br>
-    AI-driven Open Source Governance<br>
-    <span style="font-size:13px;color:#6b5a30;">하헌관 · 카카오뱅크</span>
+<div class="kwg-conf-hero">
+  <p class="kwg-conf-hero__eyebrow">30th Meeting · 2026.06.09 (화)</p>
+  <h1 class="kwg-conf-hero__title">AI 거버넌스와 금융권 오픈소스 컴플라이언스</h1>
+  <p class="kwg-conf-hero__sub">AI 시대의 오픈소스 거버넌스 실무와 금융권 감사 대응 체크포인트를 현업 사례로 공유합니다.</p>
+  <div class="kwg-conf-hero__meta">
+    <span><strong>일시</strong> 2026-06-09 (화) 14:00–17:00</span>
+    <span><strong>장소</strong> 카카오뱅크 · 여의도 파크원 타워2 35층</span>
   </div>
-  <div style="border:1px solid #f0d860;border-radius:12px;padding:12px 14px;background:#fffef5;border-left:4px solid #ffd400;">
-    <strong style="color:#8b6914;">Session 2</strong><br>
-    Claude Mythos가 Open Source에 미치는 영향<br>
-    <span style="font-size:13px;color:#6b5a30;">김강보 · 안랩</span>
-  </div>
-  <div style="border:1px solid #f0d860;border-radius:12px;padding:12px 14px;background:#fffef5;border-left:4px solid #ffd400;">
-    <strong style="color:#8b6914;">Session 3</strong><br>
-    금융회사로서의 오픈소스 관련 업무 대응 후기<br>
-    <span style="font-size:13px;color:#6b5a30;">이민애 · 카카오뱅크</span>
+  <p class="kwg-conf-hero__note">참가 신청은 OpenChain KWG 메일링리스트로 안내됩니다. 가입하시면 신청 링크를 받아보실 수 있습니다.</p>
+  <div class="kwg-conf-hero__cta">
+    <a class="kwg-conf-cta" href="../../../about/subscribe/">메일링리스트 가입</a>
+    <a class="kwg-conf-cta kwg-conf-cta--ghost" href="https://map.naver.com/p/search/%ED%8C%8C%ED%81%AC%EC%9B%90%20%ED%83%80%EC%9B%8C2" target="_blank" rel="noopener">네이버지도</a>
+    <a class="kwg-conf-cta kwg-conf-cta--ghost" href="https://map.kakao.com/link/search/%ED%8C%8C%ED%81%AC%EC%9B%90%20%ED%83%80%EC%9B%8C2" target="_blank" rel="noopener">카카오맵</a>
   </div>
 </div>
+
+<ul class="kwg-conf-chips">
+  <li class="kwg-conf-chip">OpenChain</li>
+  <li class="kwg-conf-chip">AI Governance</li>
+  <li class="kwg-conf-chip">금융권 Audit</li>
+  <li class="kwg-conf-chip">OSS Compliance</li>
+</ul>
 
 ## 이런 분께 추천
 
-- 금융/규제 산업에서 오픈소스 컴플라이언스 정책을 운영하는 담당자
+- 금융·규제 산업에서 오픈소스 컴플라이언스 정책을 운영하는 담당자
 - AI 도입 이후 오픈소스 거버넌스 범위를 재정의해야 하는 조직
-- 감사/점검 대응을 위한 체크리스트와 증적 관리가 필요한 팀
+- 감사·점검 대응을 위한 체크리스트와 증적 관리가 필요한 팀
 
 ## 아젠다
 
-<div style="display:grid;gap:10px;">
-  <div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0e8c0;border-radius:12px;padding:12px 14px;background:#fffef8;">
-    <div style="font-weight:800;color:#8b6914;">14:00-14:10</div>
-    <div><strong>Welcome & Greetings</strong><br><span style="font-size:13px;color:#6b5a30;">카카오뱅크 기술기획팀장 김종성 팀장</span></div>
+<div class="kwg-conf-timeline">
+  <div class="kwg-conf-tl">
+    <div class="kwg-conf-tl__time">14:00–14:10</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Welcome &amp; Greetings</div>
+      <div class="kwg-conf-tl__by">카카오뱅크 기술기획팀장 김종성</div>
+    </div>
   </div>
-  <div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0e8c0;border-radius:12px;padding:12px 14px;background:#fffef8;">
-    <div style="font-weight:800;color:#8b6914;">14:10-14:30</div>
-    <div><strong>OpenChain Updates</strong><br><span style="font-size:13px;color:#6b5a30;">운영진</span></div>
+  <div class="kwg-conf-tl">
+    <div class="kwg-conf-tl__time">14:10–14:30</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">OpenChain Updates</div>
+      <div class="kwg-conf-tl__by">운영진</div>
+    </div>
   </div>
-  <div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0d860;border-radius:12px;padding:12px 14px;background:#fff9db;border-left:4px solid #ffd400;">
-    <div style="font-weight:800;color:#8b6914;">14:30-14:55</div>
-    <div><strong>Session 1. AI-driven Open Source Governance</strong><br><span style="font-size:13px;color:#6b5a30;">하헌관 · 카카오뱅크</span></div>
+  <div class="kwg-conf-tl kwg-conf-tl--session">
+    <div class="kwg-conf-tl__time">14:30–14:55</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Session 1. AI-driven Open Source Governance</div>
+      <div class="kwg-conf-tl__by">하헌관 · 카카오뱅크</div>
+    </div>
   </div>
-  <div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px dashed #e8d880;border-radius:12px;padding:12px 14px;background:#fffef0;">
-    <div style="font-weight:800;color:#8b6914;">14:55-15:15</div>
-    <div><strong>휴식 및 네트워킹</strong><br><span style="font-size:13px;color:#6b5a30;">Coffee break</span></div>
+  <div class="kwg-conf-tl kwg-conf-tl--muted">
+    <div class="kwg-conf-tl__time">14:55–15:15</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">휴식 및 네트워킹</div>
+      <div class="kwg-conf-tl__by">Coffee break</div>
+    </div>
   </div>
-  <div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0d860;border-radius:12px;padding:12px 14px;background:#fff9db;border-left:4px solid #ffd400;">
-    <div style="font-weight:800;color:#8b6914;">15:15-15:40</div>
-    <div><strong>Session 2. Claude Mythos가 Open Source에 미치는 영향</strong><br><span style="font-size:13px;color:#6b5a30;">김강보 · 안랩</span></div>
+  <div class="kwg-conf-tl kwg-conf-tl--session">
+    <div class="kwg-conf-tl__time">15:15–15:40</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Session 2. Claude Mythos가 Open Source에 미치는 영향</div>
+      <div class="kwg-conf-tl__by">김강보 · 안랩</div>
+    </div>
   </div>
-  <div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0d860;border-radius:12px;padding:12px 14px;background:#fff9db;border-left:4px solid #ffd400;">
-    <div style="font-weight:800;color:#8b6914;">15:40-16:05</div>
-    <div><strong>Session 3. 금융회사로서의 오픈소스 관련 업무 대응 후기</strong><br><span style="font-size:13px;color:#6b5a30;">이민애 · 카카오뱅크</span></div>
+  <div class="kwg-conf-tl kwg-conf-tl--session">
+    <div class="kwg-conf-tl__time">15:40–16:05</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Session 3. 금융회사로서의 오픈소스 관련 업무 대응 후기</div>
+      <div class="kwg-conf-tl__by">이민애 · 카카오뱅크</div>
+    </div>
   </div>
-  <div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0e8c0;border-radius:12px;padding:12px 14px;background:#fffef8;">
-    <div style="font-weight:800;color:#8b6914;">16:05-16:50</div>
-    <div><strong>그룹 토의</strong><br><span style="font-size:13px;color:#6b5a30;">All Participants</span></div>
+  <div class="kwg-conf-tl">
+    <div class="kwg-conf-tl__time">16:05–16:50</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">그룹 토의</div>
+      <div class="kwg-conf-tl__by">All Participants</div>
+    </div>
   </div>
-  <div style="display:grid;grid-template-columns:110px 1fr;gap:12px;border:1px solid #f0e8c0;border-radius:12px;padding:12px 14px;background:#fffef8;">
-    <div style="font-weight:800;color:#8b6914;">16:50-17:00</div>
-    <div><strong>마무리 및 단체 사진 촬영</strong><br><span style="font-size:13px;color:#6b5a30;">운영진</span></div>
+  <div class="kwg-conf-tl">
+    <div class="kwg-conf-tl__time">16:50–17:00</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">마무리 및 단체 사진 촬영</div>
+      <div class="kwg-conf-tl__by">운영진</div>
+    </div>
   </div>
 </div>
 
 ## 발표자 소개
 
-<div style="display:flex;flex-wrap:wrap;gap:16px;margin-top:8px;">
-  <div style="flex:1 1 260px;border:1px solid #f0e8c0;border-radius:12px;padding:18px 16px;background:#fffef8;">
-    <img src="heonkwan-ha.png" alt="하헌관 매니저" style="width:120px;height:120px;object-fit:cover;border-radius:50%;display:block;margin:0 auto 12px;">
-    <div style="text-align:center;font-weight:800;color:#8b6914;">하헌관 매니저</div>
-    <div style="text-align:center;font-size:13px;color:#6b5a30;margin:2px 0 12px;">카카오뱅크 · Session 1</div>
-    <p style="font-size:14px;line-height:1.6;margin:0;">카카오뱅크 오픈소스 거버넌스, DevSecOps, CMDB 운영</p>
+<div class="kwg-conf-speakers">
+  <div class="kwg-conf-speaker">
+    <img class="kwg-conf-speaker__photo" src="heonkwan-ha.png" alt="하헌관 매니저">
+    <div class="kwg-conf-speaker__name">하헌관 매니저</div>
+    <div class="kwg-conf-speaker__role">카카오뱅크 · Session 1</div>
+    <p class="kwg-conf-speaker__bio">카카오뱅크 오픈소스 거버넌스, DevSecOps, CMDB 운영</p>
   </div>
-  <div style="flex:1 1 260px;border:1px solid #f0e8c0;border-radius:12px;padding:18px 16px;background:#fffef8;">
-    <img src="kangbo-kim.png" alt="김강보 팀장" style="width:120px;height:120px;object-fit:cover;border-radius:50%;display:block;margin:0 auto 12px;">
-    <div style="text-align:center;font-weight:800;color:#8b6914;">김강보 팀장</div>
-    <div style="text-align:center;font-size:13px;color:#6b5a30;margin:2px 0 12px;">안랩 · Session 2</div>
-    <p style="font-size:14px;line-height:1.6;margin:0;">안랩 연구인프라팀에서 팀장으로 근무하며, CI/CD 인프라 구축을 비롯해 OSS(Open Source Software) 검증, 정적 분석, 개발 프로세스 정립, 배포 및 서명, 특허와 외부 과제 관리 등 R&D 전반의 개발 지원 환경을 설계·운영하고 있습니다. 특히 보안 제품을 구성하는 오픈소스의 컴플라이언스 준수와 보안 취약점 대응, 그리고 정적 분석을 중심으로 한 개발부터 배포까지 이어지는 CI/CD 체계 구축을 주요 업무로 담당하고 있습니다.</p>
+  <div class="kwg-conf-speaker">
+    <img class="kwg-conf-speaker__photo" src="kangbo-kim.png" alt="김강보 팀장">
+    <div class="kwg-conf-speaker__name">김강보 팀장</div>
+    <div class="kwg-conf-speaker__role">안랩 · Session 2</div>
+    <p class="kwg-conf-speaker__bio">안랩 연구인프라팀에서 팀장으로 근무하며, CI/CD 인프라 구축을 비롯해 OSS(Open Source Software) 검증, 정적 분석, 개발 프로세스 정립, 배포 및 서명, 특허와 외부 과제 관리 등 R&D 전반의 개발 지원 환경을 설계·운영하고 있습니다. 특히 보안 제품을 구성하는 오픈소스의 컴플라이언스 준수와 보안 취약점 대응, 그리고 정적 분석을 중심으로 한 개발부터 배포까지 이어지는 CI/CD 체계 구축을 주요 업무로 담당하고 있습니다.</p>
   </div>
-  <div style="flex:1 1 260px;border:1px solid #f0e8c0;border-radius:12px;padding:18px 16px;background:#fffef8;">
-    <img src="minae-lee.png" alt="이민애 매니저" style="width:120px;height:120px;object-fit:cover;border-radius:50%;display:block;margin:0 auto 12px;">
-    <div style="text-align:center;font-weight:800;color:#8b6914;">이민애 매니저</div>
-    <div style="text-align:center;font-size:13px;color:#6b5a30;margin:2px 0 12px;">카카오뱅크 · Session 3</div>
-    <p style="font-size:14px;line-height:1.6;margin:0;">카카오뱅크 오픈소스 거버넌스, 사내 IT 업무 관련 정책 담당, 내외부감사 대응</p>
+  <div class="kwg-conf-speaker">
+    <img class="kwg-conf-speaker__photo" src="minae-lee.png" alt="이민애 매니저">
+    <div class="kwg-conf-speaker__name">이민애 매니저</div>
+    <div class="kwg-conf-speaker__role">카카오뱅크 · Session 3</div>
+    <p class="kwg-conf-speaker__bio">카카오뱅크 오픈소스 거버넌스, 사내 IT 업무 관련 정책 담당, 내외부감사 대응</p>
   </div>
 </div>
 
 ## Sponsor
 
-<div style="text-align:center;padding:16px 12px;border:1px solid #f0d860;border-radius:12px;background:linear-gradient(180deg,#fffef5 0%,#fff9db 100%);">
-  <img src="../../../images/content/about/logo/kakaobank.png" alt="KakaoBank" style="max-width:220px;width:100%;height:auto;">
+<div class="kwg-conf-sponsor">
+  <span class="kwg-conf-sponsor__label">이번 미팅 후원</span>
+  <img src="../../../images/content/about/logo/kakaobank.png" alt="KakaoBank">
 </div>
