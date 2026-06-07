@@ -630,7 +630,7 @@ h1.td-title { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
   word-break: keep-all; // 한국어 단어 단위 줄바꿈(조사 끊김 방지)
 }
 
-// 히어로 — 우상단 은은한 accent 글로우(절제). 큰 타이포 위계.
+// 히어로 — 우상단 은은한 accent 글로우(절제). 좌(본문) + 우(날짜 블록) 2열.
 .kwg-conf-hero {
   margin: 0 0 2.5rem;
   padding: clamp(2rem, 5vw, 3.5rem);
@@ -639,6 +639,40 @@ h1.td-title { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
   background:
     radial-gradient(80% 95% at 100% 0%, color-mix(in srgb, var(--accent, #ffd400) 13%, var(--bs-body-bg)), transparent 52%),
     var(--bs-body-bg);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1.5rem 2.5rem;
+  align-items: start;
+}
+.kwg-conf-hero__body { min-width: 0; }
+// 우측 날짜 블록 — 빈 공간 보강. 큰 '일' + 작은 연월/요일.
+.kwg-conf-hero__date {
+  text-align: center;
+  align-self: start;
+  padding: 1.1rem 1.4rem;
+  border-radius: 1rem;
+  background: var(--bs-body-bg);
+  border: 1px solid var(--bs-border-color);
+  box-shadow: 0 2px 8px rgba(16, 24, 40, 0.06);
+}
+.kwg-conf-hero__date-d {
+  display: block;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--accent-ink);
+}
+.kwg-conf-hero__date-my {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.82rem;
+  color: var(--bs-secondary-color);
+  white-space: nowrap;
+}
+@media (max-width: 600px) {
+  .kwg-conf-hero { grid-template-columns: 1fr; }
+  .kwg-conf-hero__date { justify-self: start; }
 }
 .kwg-conf-hero__eyebrow {
   font-size: 0.8rem;
