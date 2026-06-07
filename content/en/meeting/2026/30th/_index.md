@@ -18,17 +18,23 @@ aliases:
 </style>
 
 <div class="kwg-conf-hero">
-  <p class="kwg-conf-hero__eyebrow">30th Meeting · Tue, June 9, 2026</p>
-  <h1 class="kwg-conf-hero__title">AI Governance and Open Source Compliance in Finance</h1>
-  <p class="kwg-conf-hero__sub">Practical cases on open source governance in the AI era and audit-readiness checkpoints for the financial sector.</p>
-  <div class="kwg-conf-hero__meta">
-    <span><strong>Date</strong> 2026-06-09 (Tue) 14:00–17:00</span>
-    <span><strong>Venue</strong> KakaoBank · Parc.1 Tower 2, 35F, Yeouido</span>
+  <div class="kwg-conf-hero__body">
+    <p class="kwg-conf-hero__eyebrow">30th Meeting</p>
+    <h1 class="kwg-conf-hero__title">AI Governance and Open Source Compliance in Finance</h1>
+    <p class="kwg-conf-hero__sub">Practical cases on open source governance in the AI era and audit-readiness checkpoints for the financial sector.</p>
+    <div class="kwg-conf-hero__meta">
+      <span><strong>Date</strong> 2026-06-09 (Tue) 14:00–17:00</span>
+      <span><strong>Venue</strong> KakaoBank · Parc.1 Tower 2, 35F, Yeouido</span>
+    </div>
+    <p class="kwg-conf-hero__note">Registration is announced via the OpenChain KWG mailing list. Subscribe to receive the sign-up link.</p>
+    <div class="kwg-conf-hero__cta">
+      <a class="kwg-conf-cta" href="../../../about/subscribe/">Join the mailing list</a>
+      <a class="kwg-conf-cta kwg-conf-cta--ghost" href="https://maps.app.goo.gl/kiA47oQHq3g2jkLd6" target="_blank" rel="noopener">Open in Google Maps</a>
+    </div>
   </div>
-  <p class="kwg-conf-hero__note">Registration is announced via the OpenChain KWG mailing list. Subscribe to receive the sign-up link.</p>
-  <div class="kwg-conf-hero__cta">
-    <a class="kwg-conf-cta" href="../../../about/subscribe/">Join the mailing list</a>
-    <a class="kwg-conf-cta kwg-conf-cta--ghost" href="https://maps.app.goo.gl/kiA47oQHq3g2jkLd6" target="_blank" rel="noopener">Open in Google Maps</a>
+  <div class="kwg-conf-hero__date">
+    <span class="kwg-conf-hero__date-d">09</span>
+    <span class="kwg-conf-hero__date-my">Jun 2026 · Tue</span>
   </div>
 </div>
 

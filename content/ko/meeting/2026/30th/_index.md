@@ -18,18 +18,24 @@ aliases:
 </style>
 
 <div class="kwg-conf-hero">
-  <p class="kwg-conf-hero__eyebrow">30th Meeting · 2026.06.09 (화)</p>
-  <h1 class="kwg-conf-hero__title">AI 거버넌스와 금융권 오픈소스 컴플라이언스</h1>
-  <p class="kwg-conf-hero__sub">AI 시대의 오픈소스 거버넌스 실무와 금융권 감사 대응 체크포인트를 현업 사례로 공유합니다.</p>
-  <div class="kwg-conf-hero__meta">
-    <span><strong>일시</strong> 2026-06-09 (화) 14:00–17:00</span>
-    <span><strong>장소</strong> 카카오뱅크 · 여의도 파크원 타워2 35층</span>
+  <div class="kwg-conf-hero__body">
+    <p class="kwg-conf-hero__eyebrow">30th Meeting</p>
+    <h1 class="kwg-conf-hero__title">AI 거버넌스와 금융권 오픈소스 컴플라이언스</h1>
+    <p class="kwg-conf-hero__sub">AI 시대의 오픈소스 거버넌스 실무와 금융권 감사 대응 체크포인트를 현업 사례로 공유합니다.</p>
+    <div class="kwg-conf-hero__meta">
+      <span><strong>일시</strong> 2026-06-09 (화) 14:00–17:00</span>
+      <span><strong>장소</strong> 카카오뱅크 · 여의도 파크원 타워2 35층</span>
+    </div>
+    <p class="kwg-conf-hero__note">참가 신청은 OpenChain KWG 메일링리스트로 안내됩니다. 가입하시면 신청 링크를 받아보실 수 있습니다.</p>
+    <div class="kwg-conf-hero__cta">
+      <a class="kwg-conf-cta" href="../../../about/subscribe/">메일링리스트 가입</a>
+      <a class="kwg-conf-cta kwg-conf-cta--ghost" href="https://map.naver.com/p/search/%ED%8C%8C%ED%81%AC%EC%9B%90%20%ED%83%80%EC%9B%8C2" target="_blank" rel="noopener">네이버지도</a>
+      <a class="kwg-conf-cta kwg-conf-cta--ghost" href="https://map.kakao.com/link/search/%ED%8C%8C%ED%81%AC%EC%9B%90%20%ED%83%80%EC%9B%8C2" target="_blank" rel="noopener">카카오맵</a>
+    </div>
   </div>
-  <p class="kwg-conf-hero__note">참가 신청은 OpenChain KWG 메일링리스트로 안내됩니다. 가입하시면 신청 링크를 받아보실 수 있습니다.</p>
-  <div class="kwg-conf-hero__cta">
-    <a class="kwg-conf-cta" href="../../../about/subscribe/">메일링리스트 가입</a>
-    <a class="kwg-conf-cta kwg-conf-cta--ghost" href="https://map.naver.com/p/search/%ED%8C%8C%ED%81%AC%EC%9B%90%20%ED%83%80%EC%9B%8C2" target="_blank" rel="noopener">네이버지도</a>
-    <a class="kwg-conf-cta kwg-conf-cta--ghost" href="https://map.kakao.com/link/search/%ED%8C%8C%ED%81%AC%EC%9B%90%20%ED%83%80%EC%9B%8C2" target="_blank" rel="noopener">카카오맵</a>
+  <div class="kwg-conf-hero__date">
+    <span class="kwg-conf-hero__date-d">09</span>
+    <span class="kwg-conf-hero__date-my">2026년 6월 · 화</span>
   </div>
 </div>
 
