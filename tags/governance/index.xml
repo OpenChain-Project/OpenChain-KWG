@@ -105,7 +105,7 @@
 &lt;h2 id="발표자-소개"&gt;발표자 소개&lt;/h2&gt;
 &lt;div class="kwg-conf-speakers"&gt;
  &lt;div class="kwg-conf-speaker"&gt;
- &lt;img class="kwg-conf-speaker__photo" src="heonkwan-ha.png" alt="하헌관 매니저"&gt;
+ &lt;img class="kwg-conf-speaker__photo" loading="lazy" src="heonkwan-ha.png" alt="하헌관 매니저"&gt;
  &lt;div class="kwg-conf-speaker__name"&gt;하헌관 매니저&lt;/div&gt;
  &lt;div class="kwg-conf-speaker__role"&gt;카카오뱅크 · Session 1&lt;/div&gt;
  &lt;p class="kwg-conf-speaker__bio"&gt;카카오뱅크 오픈소스 거버넌스, DevSecOps, CMDB 운영&lt;/p&gt;</description></item></channel></rss>
