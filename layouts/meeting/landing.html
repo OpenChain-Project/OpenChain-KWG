@@ -1,0 +1,12 @@
+{{/*
+  OpenChain-KWG 미팅 홍보형 랜딩 — Docsy 풀폭 baseof("main" 블록) 상속.
+  문서용 chrome(좌측 사이드바·우측 TOC·breadcrumb·Tags/Categories·lastmod)을 걷어내고
+  본문(.Content)만 적정 폭으로 가운데 배치한다.
+  프런트매터 `type: meeting` + `layout: landing` 로 원하는 미팅에만 선택 적용한다.
+  본문 스타일은 assets/scss/_styles_project.scss(.kwg-conf-*).
+*/}}
+{{ define "main" }}
+<div class="td-content kwg-conf-landing">
+  {{ .Content }}
+</div>
+{{ end }}
