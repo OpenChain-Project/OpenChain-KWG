@@ -104,10 +104,10 @@ The following is a sample overview of an SBOM management procedure enhanced from
 
 ### 4.3.1.2 Open Source Component Records (SBOM)
 
-This is the same as ISO/IEC 5230 §3.3.1.2. From a security assurance perspective, recording the **known vulnerability status** of each component or a link to the vulnerability management tool alongside license information in the SBOM makes integration with §4.3.2 easier. Refer to [§3.3.1.2 Open Source Component Records](../../iso5230_guide/3-content-review/1-sbom/) for how to prepare this.
+This is the same as ISO/IEC 5230 §3.3.1.2. From a security assurance perspective, recording the **known vulnerability status** of each component or a link to the vulnerability management tool alongside license information in the SBOM makes integration with §4.3.2 easier. Refer to [§3.3.1.2 Open Source Component Records](../../../iso5230_guide/3-content-review/1-sbom/) for how to prepare this.
 
 ## 5. References
 
-- Corresponding ISO/IEC 5230 clause: [§3.3.1 SBOM](../../iso5230_guide/3-content-review/1-sbom/)
+- Corresponding ISO/IEC 5230 clause: [§3.3.1 SBOM](../../../iso5230_guide/3-content-review/1-sbom/)
 - Related guide: [Enterprise Open Source Management Guide — 3. Process](../../../opensource_for_enterprise/3-process/)
 - Related tools: [Syft](../../../tools/6-syft/), [cdxgen](../../../tools/5-cdxgen/), [Dependency-Track](../../../tools/7-dependency-track/)

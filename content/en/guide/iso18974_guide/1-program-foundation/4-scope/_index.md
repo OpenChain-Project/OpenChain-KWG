@@ -46,7 +46,7 @@ description: >
 
 ### 4.1.4.1 Written Statement of Program Scope
 
-This is the same as ISO/IEC 5230 §3.1.4.1. Refer to [§3.1.4.1 Written Statement of Program Scope](../../iso5230_guide/1-program-foundation/4-scope/) for how to prepare this. From a security assurance perspective, explicitly state that "response to known and newly discovered vulnerabilities" is included within the scope.
+This is the same as ISO/IEC 5230 §3.1.4.1. Refer to [§3.1.4.1 Written Statement of Program Scope](../../../iso5230_guide/1-program-foundation/4-scope/) for how to prepare this. From a security assurance perspective, explicitly state that "response to known and newly discovered vulnerabilities" is included within the scope.
 
 ---
 
@@ -115,6 +115,6 @@ Next review scheduled: 2027-01-09
 
 ## 5. References
 
-- Corresponding ISO/IEC 5230 clause: [§3.1.4 Program Scope](../../iso5230_guide/1-program-foundation/4-scope/)
+- Corresponding ISO/IEC 5230 clause: [§3.1.4 Program Scope](../../../iso5230_guide/1-program-foundation/4-scope/)
 - Related guide: [Enterprise Open Source Management Guide — 2. Policy](../../../opensource_for_enterprise/2-policy/)
 - Related template: [Open Source Policy Template — §1.4 Scope](../../../templates/1-policy/)
