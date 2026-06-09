@@ -176,6 +176,6 @@ OpenChain이 승인한 인증 기관을 통해 공식 인증서를 취득하는 
 
 ## 6. 참고
 
-- 대응 ISO/IEC 5230 조항: [§3.6.1 적합성](../../iso5230_guide/6-conformance/1-conformance/)
+- 대응 ISO/IEC 5230 조항: [§3.6.1 적합성](../../../iso5230_guide/6-conformance/1-conformance/)
 - ISO/IEC 18974 자가 인증: [https://certification.openchainproject.org/](https://certification.openchainproject.org/)
 - 전체 조항 체크리스트: [ISO/IEC 18974 준수 가이드](../../)

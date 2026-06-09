@@ -98,6 +98,6 @@ ISO/IEC 5230 §3.1.3.1과 기본 방법은 동일하나, 인식 평가 문항이
 
 ## 5. 참고
 
-- 대응 ISO/IEC 5230 조항: [§3.1.3 인식](../../iso5230_guide/1-program-foundation/3-awareness/)
+- 대응 ISO/IEC 5230 조항: [§3.1.3 인식](../../../iso5230_guide/1-program-foundation/3-awareness/)
 - 관련 가이드: [기업 오픈소스 관리 가이드 — 5. 교육](../../../opensource_for_enterprise/5-training/)
 - 관련 템플릿: [오픈소스 정책 템플릿 — §6 교육 및 인식 제고](../../../templates/1-policy/)

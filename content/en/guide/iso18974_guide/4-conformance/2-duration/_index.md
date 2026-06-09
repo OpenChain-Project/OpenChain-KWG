@@ -69,5 +69,5 @@ Next re-confirmation scheduled: YYYY-MM-DD
 
 ## 5. References
 
-- Corresponding ISO/IEC 5230 clause: [§3.6.2 Duration](../../iso5230_guide/6-conformance/2-duration/)
+- Corresponding ISO/IEC 5230 clause: [§3.6.2 Duration](../../../iso5230_guide/6-conformance/2-duration/)
 - Check latest OpenChain specification version: [https://www.openchainproject.org/security-assurance](https://www.openchainproject.org/security-assurance)
