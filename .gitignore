@@ -12,7 +12,14 @@ package-lock.json
 .claudeignore
 utils/
 .claude/
+# CLAUDE.md 류는 공개 저장소에서 제외(로컬 전용)
+CLAUDE.md
+**/CLAUDE.md
 
 ## generated files (built by CI)
 static/slides/enterprise-oss-governance.html
 static/slides/enterprise-oss-governance/
+
+# 환경변수·토큰 (커밋 금지)
+.env
+.env.local
