@@ -59,13 +59,13 @@ description: >
 
 ### 4.1.2.1 Documented List of Roles and Responsibilities
 
-This is the same as ISO/IEC 5230 §3.1.2.1. From a security assurance perspective, the roles of security personnel (DevSecOps, vulnerability analysis) must be clearly included. Refer to [§3.1.2.1 Documented List of Roles and Responsibilities](../../iso5230_guide/1-program-foundation/2-competence/) for how to prepare this.
+This is the same as ISO/IEC 5230 §3.1.2.1. From a security assurance perspective, the roles of security personnel (DevSecOps, vulnerability analysis) must be clearly included. Refer to [§3.1.2.1 Documented List of Roles and Responsibilities](../../../iso5230_guide/1-program-foundation/2-competence/) for how to prepare this.
 
 ---
 
 ### 4.1.2.2 Document Identifying Competencies per Role
 
-This is the same as ISO/IEC 5230 §3.1.2.2. The security personnel role should include competencies in **CVSS score interpretation, operation of vulnerability analysis tools (OSV-SCALIBR, Dependency-Track, etc.), and DevSecOps understanding**. Refer to [§3.1.2.2 Document Identifying Competencies per Role](../../iso5230_guide/1-program-foundation/2-competence/) for how to prepare this.
+This is the same as ISO/IEC 5230 §3.1.2.2. The security personnel role should include competencies in **CVSS score interpretation, operation of vulnerability analysis tools (OSV-SCALIBR, Dependency-Track, etc.), and DevSecOps understanding**. Refer to [§3.1.2.2 Document Identifying Competencies per Role](../../../iso5230_guide/1-program-foundation/2-competence/) for how to prepare this.
 
 ---
 
@@ -96,7 +96,7 @@ Unlike the list of roles in 4.1.2.1, this item requires a list mapping **actual 
 
 ### 4.1.2.4 Evidence of Assessed Competence
 
-This is the same as ISO/IEC 5230 §3.1.2.3. Refer to [§3.1.2.3 Evidence of Assessed Competence](../../iso5230_guide/1-program-foundation/2-competence/) for how to prepare this.
+This is the same as ISO/IEC 5230 §3.1.2.3. Refer to [§3.1.2.3 Evidence of Assessed Competence](../../../iso5230_guide/1-program-foundation/2-competence/) for how to prepare this.
 
 ---
 
@@ -153,6 +153,6 @@ Review results:
 
 ## 5. References
 
-- Corresponding ISO/IEC 5230 clause: [§3.1.2 Competence](../../iso5230_guide/1-program-foundation/2-competence/)
+- Corresponding ISO/IEC 5230 clause: [§3.1.2 Competence](../../../iso5230_guide/1-program-foundation/2-competence/)
 - Related guide: [Enterprise Open Source Management Guide — 1. Organization](../../../opensource_for_enterprise/1-teams/)
 - Related template: [Open Source Policy Template — Appendix 1. Personnel Status](../../../templates/1-policy/appendix/)

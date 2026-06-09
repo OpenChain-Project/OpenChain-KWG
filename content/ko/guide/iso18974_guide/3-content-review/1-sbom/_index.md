@@ -135,10 +135,10 @@ ISO/IEC 5230 §3.3.1.1의 SBOM 관리 절차를 기반으로 하되, **수명주
 ISO/IEC 5230 §3.3.1.2와 동일하다. 보안 보증 관점에서 SBOM에는 라이선스 정보
 외에 각 컴포넌트의 **알려진 취약점 현황** 또는 취약점 관리 도구 링크를 함께
 기록하면 §4.3.2와 연계가 용이하다. 작성 방법은
-[§3.3.1.2 오픈소스 컴포넌트 기록](../../iso5230_guide/3-content-review/1-sbom/)을 참고한다.
+[§3.3.1.2 오픈소스 컴포넌트 기록](../../../iso5230_guide/3-content-review/1-sbom/)을 참고한다.
 
 ## 5. 참고
 
-- 대응 ISO/IEC 5230 조항: [§3.3.1 SBOM](../../iso5230_guide/3-content-review/1-sbom/)
+- 대응 ISO/IEC 5230 조항: [§3.3.1 SBOM](../../../iso5230_guide/3-content-review/1-sbom/)
 - 관련 가이드: [기업 오픈소스 관리 가이드 — 3. 프로세스](../../../opensource_for_enterprise/3-process/)
 - 관련 도구: [Syft](../../../tools/6-syft/), [cdxgen](../../../tools/5-cdxgen/), [Dependency-Track](../../../tools/7-dependency-track/)

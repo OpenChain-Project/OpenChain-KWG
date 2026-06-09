@@ -112,6 +112,6 @@ Approval date: YYYY-MM-DD
 
 ## 5. References
 
-- Corresponding ISO/IEC 5230 clause: [§3.6.1 Conformance](../../iso5230_guide/6-conformance/1-conformance/)
+- Corresponding ISO/IEC 5230 clause: [§3.6.1 Conformance](../../../iso5230_guide/6-conformance/1-conformance/)
 - ISO/IEC 18974 self-certification: [https://certification.openchainproject.org/](https://certification.openchainproject.org/)
 - Full clause checklist: [ISO/IEC 18974 Conformance Guide](../../)

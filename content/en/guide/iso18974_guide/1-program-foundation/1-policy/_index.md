@@ -121,6 +121,6 @@ Inquiries: Open Source Program Manager (oss@company.com)
 
 ## 5. References
 
-- Corresponding ISO/IEC 5230 clause: [§3.1.1 Policy](../../iso5230_guide/1-program-foundation/1-policy/)
+- Corresponding ISO/IEC 5230 clause: [§3.1.1 Policy](../../../iso5230_guide/1-program-foundation/1-policy/)
 - Related guide: [Enterprise Open Source Management Guide — 2. Policy](../../../opensource_for_enterprise/2-policy/)
 - Related template: [Open Source Policy Template](../../../templates/1-policy/)

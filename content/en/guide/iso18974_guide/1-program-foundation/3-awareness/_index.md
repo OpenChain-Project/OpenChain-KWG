@@ -76,6 +76,6 @@ Signature: ________________  Date: ________________
 
 ## 5. References
 
-- Corresponding ISO/IEC 5230 clause: [§3.1.3 Awareness](../../iso5230_guide/1-program-foundation/3-awareness/)
+- Corresponding ISO/IEC 5230 clause: [§3.1.3 Awareness](../../../iso5230_guide/1-program-foundation/3-awareness/)
 - Related guide: [Enterprise Open Source Management Guide — 5. Training](../../../opensource_for_enterprise/5-training/)
 - Related template: [Open Source Policy Template — §6 Training and Awareness](../../../templates/1-policy/)

@@ -49,13 +49,13 @@ description: >
 
 ### 4.2.2.1 Document Identifying Role Assignees
 
-This is the same as ISO/IEC 5230 §3.2.2.1. Security assurance roles (DevSecOps engineer, vulnerability analysis personnel, etc.) must be specified. Refer to [§3.2.2.1 Document Identifying Role Assignees](../../iso5230_guide/2-relevant-tasks/2-resourced/) for how to prepare this.
+This is the same as ISO/IEC 5230 §3.2.2.1. Security assurance roles (DevSecOps engineer, vulnerability analysis personnel, etc.) must be specified. Refer to [§3.2.2.1 Document Identifying Role Assignees](../../../iso5230_guide/2-relevant-tasks/2-resourced/) for how to prepare this.
 
 ---
 
 ### 4.2.2.2 Confirmation of Staffing and Budget Support
 
-This is the same as ISO/IEC 5230 §3.2.2.2. Security-related budget items such as vulnerability scanning tools, security training, and external security consulting should be included. Refer to [§3.2.2.2 Confirmation of Staffing and Budget Support](../../iso5230_guide/2-relevant-tasks/2-resourced/) for how to prepare this.
+This is the same as ISO/IEC 5230 §3.2.2.2. Security-related budget items such as vulnerability scanning tools, security training, and external security consulting should be included. Refer to [§3.2.2.2 Confirmation of Staffing and Budget Support](../../../iso5230_guide/2-relevant-tasks/2-resourced/) for how to prepare this.
 
 ---
 
@@ -93,7 +93,7 @@ External organizations:
 
 ### 4.2.2.4 Internal Responsibility Assignment Procedure
 
-This has the same structure as ISO/IEC 5230 §3.2.2.4, but must include the assignment of security assurance-specific responsibilities (vulnerability detection, CVSS assessment, customer notification, CVD management, etc.) to each role. Refer to [§3.2.2.4 Internal Responsibility Assignment Procedure](../../iso5230_guide/2-relevant-tasks/2-resourced/) for preparation, and reflect security tasks as shown in the sample below.
+This has the same structure as ISO/IEC 5230 §3.2.2.4, but must include the assignment of security assurance-specific responsibilities (vulnerability detection, CVSS assessment, customer notification, CVD management, etc.) to each role. Refer to [§3.2.2.4 Internal Responsibility Assignment Procedure](../../../iso5230_guide/2-relevant-tasks/2-resourced/) for preparation, and reflect security tasks as shown in the sample below.
 
 **Sample**
 
@@ -113,5 +113,5 @@ R: Responsible / A: Accountable / C: Consulted / I: Informed
 
 ## 5. References
 
-- Corresponding ISO/IEC 5230 clause: [§3.2.2 Effectively Resourced](../../iso5230_guide/2-relevant-tasks/2-resourced/)
+- Corresponding ISO/IEC 5230 clause: [§3.2.2 Effectively Resourced](../../../iso5230_guide/2-relevant-tasks/2-resourced/)
 - Related guide: [Enterprise Open Source Management Guide — 1. Organization](../../../opensource_for_enterprise/1-teams/)

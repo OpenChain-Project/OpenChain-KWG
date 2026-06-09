@@ -131,5 +131,5 @@ regulatory compliance reviews.
 
 ## 5. References
 
-- Corresponding ISO/IEC 5230 clause: [§3.2.1 External Inquiry Response](../../iso5230_guide/2-relevant-tasks/1-access/)
+- Corresponding ISO/IEC 5230 clause: [§3.2.1 External Inquiry Response](../../../iso5230_guide/2-relevant-tasks/1-access/)
 - Related guide: [Enterprise Open Source Management Guide — 3. Process](../../../opensource_for_enterprise/3-process/)
