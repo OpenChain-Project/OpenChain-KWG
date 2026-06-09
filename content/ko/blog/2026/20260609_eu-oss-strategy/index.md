@@ -8,8 +8,8 @@ categories: ["blog"]
 tags: ["오픈소스", "EU 오픈소스 전략", "기술 주권", "Open Source Strategy", "디지털 주권", "OSPO", "public code"]
 ---
 
-{{% alert title="이 보고서에 대해" color="info" %}}
-이 보고서는 Claude Code 하네스를 통해 다수의 전문 AI 에이전트가 협업해 생성되었습니다 — 원본 COM(2026) 503 PDF 번역부터 배경과 동향, 근거 보강, 사실 검증까지. 모든 사실 주장은 EU 1차 출처(COM(2026) 503 원문, 유럽위원회, EUR-Lex)에 근거합니다.
+{{% alert title="이 글에 대해" color="info" %}}
+이 글은 Claude Code를 이용해 작성했고, 인용한 핵심 사실은 1차 출처로 교차 검증했습니다.
 {{% /alert %}}
 
 > **요약**
@@ -46,10 +46,6 @@ flowchart TD
 **기술 주권을 위한 활용(목표 i).** 위원회는 오픈 인터넷 스택(Open Internet Stack)을 유럽 오픈소스 빌딩블록의 공유 카탈로그로 확장하고, 호라이즌 유럽 2026–2027 작업 프로그램에서 세 건 공모로 4,130만 유로를 동원했다.<a id="a1-ref-6"></a>[A1](#a1) EU 디지털 신원 생태계의 오픈소스화가 핵심 축이다. EU 디지털 신원 규정(EUDIR)이 EUDI 지갑(Wallet) 응용 구성요소를 오픈소스로 하도록 법적 기본값을 정한 것을 토대로, 신원 지갑(EUID)과 유럽 비즈니스 지갑(European Business Wallet, EBW)의 참조 구현을 오픈소스로 개발하고 그 장기 스튜어드십을 유럽 디지털 공공 인프라 재단으로 이전한다.<a id="a1-ref-7"></a>[A1](#a1) 회원국과는 디지털 공유재(Digital Commons)에 관한 유럽 디지털 인프라 컨소시엄(EDIC)을 통해 협력하며, 2030년까지 오픈소스 협업과 생산성 도구, 보안 이메일의 활성 사용자 3,000만 명 도달을 목표로 삼는다.<a id="a1-ref-8"></a>[A1](#a1)
 
 **생태계 강화(목표 ii).** 오픈소스 빌딩블록은 대부분 재단을 통해 유지되며 자금의 다수를 미국과 중국 빅테크가 댄다.<a id="a1-ref-9"></a>[A1](#a1) 사이버 복원력법(Cyber Resilience Act, CRA)이 도입한 오픈소스 소프트웨어 스튜어드(steward) 개념이 이 목표의 규제 축이다. 위원회는 재단 설립을 돕는 스튜어드십 툴킷(stewardship toolkit)을 개발하고, EU가 자금 지원한 전략 자산을 단일 거점에서 거버넌스하는 유럽 디지털 공공 인프라 스튜어드 조직 설립을 지원한다. 핵심 구성요소의 유지와 보안을 위해 오픈소스 유지보수 수단(Open Source Maintenance Instrument)을 만들어, 필요 시 프로젝트를 포크(fork)할 유럽 역량을 구축한다.<a id="a1-ref-10"></a>[A1](#a1)
-
-{{% alert title="검증 메모: 환각 수치 차단" color="warning" %}}
-외부 분석에서 자주 인용되는 "오픈소스 유지보수 수단 3억 5,000만 유로"는 COM(2026) 503 원문 수치가 아니다. TechPolicy.Press 저자들이 이 수단에 필요하다고 본 자체 추정치이며, 원문은 금액을 붙이지 않는다.<a id="a1-ref-11"></a>[A1](#a1)·<a id="e1-ref-1"></a>[E1](#e1) 반면 "RISC-V 약 5억 유로"는 부속서 II에 실제 기재되어 있으나, 칩스 공동사업(Chips Joint Undertaking) 투자로 표기되며 오픈소스 전략의 20억 유로 예산과는 별개 항목이다.<a id="a1-ref-12"></a>[A1](#a1)
-{{% /alert %}}
 
 **공공행정의 개방화(목표 iii).** "공공 자금, 공공 코드(public money, public code)" 원칙이 전략에 명시적으로 들어왔다.<a id="a1-ref-13"></a>[A1](#a1)·<a id="b2-ref-1"></a>[B2](#b2) 위원회는 매트릭스(Matrix) 기반 통신 플랫폼, 오픈데스크(openDesk) 협업 환경, 300개 이상 europa.eu 사이트의 드루팔(Drupal)을 이미 운영한다.<a id="a1-ref-14"></a>[A1](#a1) 조달에서 오픈소스가 독점 솔루션과 경쟁할 수 있도록 입찰 가이드라인을 개편하고, 오픈소스 프로그램 사무소(Open Source Programme Office, OSPO)와 EU 공공부문 OSPO 네트워크를 중심 허브로 강화한다.<a id="a1-ref-15"></a>[A1](#a1)·<a id="b2-ref-2"></a>[B2](#b2)
 
@@ -160,7 +156,3 @@ EU 공공조달의 개방화가 가장 현실적인 변수다. 입찰 사양이 
 <a id="e3"></a>**E3.** Covington & Burling (2026). *EU Tech Sovereignty Package*. Global Policy Watch, 2026-06-04. <https://www.globalpolicywatch.com/2026/06/eu-tech-sovereignty-package/> (접속: 2026-06-05). <a href="#e3-ref-1" onclick="event.preventDefault(); history.back(); return false;" title="본문으로 돌아가기">↩</a>
 
 <a id="e4"></a>**E4.** Agence Europe (2026). *European Commission seeks to harness open source in its tech sovereignty strategy and develop European alternatives*. 2026-06. <https://agenceurope.eu/en/bulletin/article/13877/4/european-commission-seeks-to-harness-open-source-in-its-tech-sovereignty-strategy-and-develop-european-alternatives> (접속: 2026-06-05).
-
----
-
-*조사 기준일: 2026-06-05 · 검증: 2026-06-05 (PASS)*
