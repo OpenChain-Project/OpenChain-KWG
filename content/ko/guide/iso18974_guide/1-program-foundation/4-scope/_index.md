@@ -63,7 +63,7 @@ description: >
 ### 4.1.4.1 프로그램 적용 범위 진술
 
 ISO/IEC 5230 §3.1.4.1과 동일하다. 작성 방법은
-[§3.1.4.1 프로그램 적용 범위 진술](../../iso5230_guide/1-program-foundation/4-scope/)을 참고한다.
+[§3.1.4.1 프로그램 적용 범위 진술](../../../iso5230_guide/1-program-foundation/4-scope/)을 참고한다.
 보안 보증 관점에서 "알려진 취약점 및 새로 발견된 취약점 대응"이 적용 범위
 내에 포함됨을 명시한다.
 
@@ -144,6 +144,6 @@ ISO/IEC 5230 §3.1.4.1과 동일하다. 작성 방법은
 
 ## 5. 참고
 
-- 대응 ISO/IEC 5230 조항: [§3.1.4 프로그램 범위](../../iso5230_guide/1-program-foundation/4-scope/)
+- 대응 ISO/IEC 5230 조항: [§3.1.4 프로그램 범위](../../../iso5230_guide/1-program-foundation/4-scope/)
 - 관련 가이드: [기업 오픈소스 관리 가이드 — 2. 정책](../../../opensource_for_enterprise/2-policy/)
 - 관련 템플릿: [오픈소스 정책 템플릿 — §1.4 적용 범위](../../../templates/1-policy/)

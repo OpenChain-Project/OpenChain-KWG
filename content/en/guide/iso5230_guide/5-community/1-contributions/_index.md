@@ -202,5 +202,5 @@ Open Source Program Manager
 
 ## 5. References
 
-- Related guide: [Enterprise Open Source Management Guide — 6. Contributions](../../../opensource_for_enterprise/6-contribution/)
+- Related guide: [Enterprise Open Source Management Guide — Contribution Process](../../../opensource_for_enterprise/3-process/)
 - Related template: [Open Source Policy Template — §3 Open Source Contributions](../../../templates/1-policy/)

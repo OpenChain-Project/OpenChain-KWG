@@ -83,5 +83,5 @@ ISO/IEC 5230과 18974를 동시에 운영하는 경우, 두 규격의 정기 재
 
 ## 5. 참고
 
-- 대응 ISO/IEC 5230 조항: [§3.6.2 지속 기간](../../iso5230_guide/6-conformance/2-duration/)
+- 대응 ISO/IEC 5230 조항: [§3.6.2 지속 기간](../../../iso5230_guide/6-conformance/2-duration/)
 - OpenChain 규격 최신 버전 확인: [https://www.openchainproject.org/security-assurance](https://www.openchainproject.org/security-assurance)

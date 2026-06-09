@@ -154,6 +154,6 @@ ISO/IEC 5230의 정책 전파 절차(§3.1.1.2)와 동일한 방식으로 보안
 
 ## 5. 참고
 
-- 대응 ISO/IEC 5230 조항: [§3.1.1 정책](../../iso5230_guide/1-program-foundation/1-policy/)
+- 대응 ISO/IEC 5230 조항: [§3.1.1 정책](../../../iso5230_guide/1-program-foundation/1-policy/)
 - 관련 가이드: [기업 오픈소스 관리 가이드 — 2. 정책](../../../opensource_for_enterprise/2-policy/)
 - 관련 템플릿: [오픈소스 정책 템플릿](../../../templates/1-policy/)

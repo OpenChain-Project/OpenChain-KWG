@@ -163,5 +163,5 @@ ISO/IEC 18974 §4.2.1.2는 처리 기한을 **조직이 자율적으로** 정하
 
 ## 5. 참고
 
-- 대응 ISO/IEC 5230 조항: [§3.2.1 외부 문의 대응](../../iso5230_guide/2-relevant-tasks/1-access/)
+- 대응 ISO/IEC 5230 조항: [§3.2.1 외부 문의 대응](../../../iso5230_guide/2-relevant-tasks/1-access/)
 - 관련 가이드: [기업 오픈소스 관리 가이드 — 3. 프로세스](../../../opensource_for_enterprise/3-process/)
