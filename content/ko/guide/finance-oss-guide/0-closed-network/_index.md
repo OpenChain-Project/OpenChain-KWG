@@ -245,10 +245,12 @@ SBOM 생성에는 Syft, cdxgen, OSV-SCALIBR을, 라이선스 점검에는 FOSSol
 
 표준별 입증자료와 안내서 절차의 전체 대조는 [가이드 개요의 매핑표](../)에서 확인한다.
 
-{{% alert title="현장 사례 (게재 예정)" color="warning" %}}
-폐쇄망에서 명령줄 도구로 컴플라이언스를 자동화한 국내 금융권 사례를 이 자리에 싣는다.
-KWG 정기 미팅 발표 자료를 근거로 하며, 발표자 인용 동의를 받은 뒤 기관명·발표 내용을 확정한다.
-(인용 동의 대기)
+{{% alert title="현장 사례 — 카카오뱅크의 컴플라이언스 자동화" color="success" %}}
+카카오뱅크는 KWG 12차 정기 미팅(2021-12)에서 컴플라이언스 검사를 개발 단계로 앞당기는
+자동화 사례를 공유했다. 웹 서비스로만 제공되는 검사 도구는 금융권 보안 요건상 사내망에서
+쓰기 어려워, 명령줄 도구로 대응하는 방향을 제시했다. 폐쇄망의 도구 제약을 보여 주는 사례다.
+
+출처: 하헌관(카카오뱅크), "Shift-left and Automate Compliance Checks", [KWG 12차 미팅(2021-12) 발표자료](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2021/Shift-Left_and_Automate_Compliance_Checks.pdf).
 {{% /alert %}}
 
 ---

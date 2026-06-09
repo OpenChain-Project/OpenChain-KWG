@@ -93,9 +93,11 @@ description: >
 승인 프로세스의 일반 실무는 기존 [기업 오픈소스 관리 가이드의 프로세스 섹션](../../opensource_for_enterprise/3-process/)에서
 더 자세히 다룬다. 정책·절차 양식은 [정책·절차 템플릿](../../templates/)을 금융 맥락으로 보강해 쓴다.
 
-{{% alert title="현장 사례 (게재 예정)" color="warning" %}}
-국내 금융권의 오픈소스 사용 승인 거버넌스와 외주 계약 관리 사례를 이 자리에 싣는다.
-KWG 정기 미팅 발표 자료를 근거로 하며, 발표자 인용 동의를 받은 뒤 확정한다. (인용 동의 대기)
+{{% alert title="현장 사례 — 카카오뱅크의 인증과 승인 체계" color="success" %}}
+카카오뱅크는 KWG 13차 정기 미팅(2022-03)에서 ISO/IEC 5230 인증 사례를 공유하며, 오픈소스
+사용을 검토하고 승인하는 체계를 함께 소개했다. 금융권에서 승인 거버넌스를 세운 사례다.
+
+출처: 하헌관·이민애(카카오뱅크), "카카오뱅크의 ISO/IEC 5230 인증 사례", [KWG 13차 미팅(2022-03) 발표자료](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2022/KakaoBank_ISO_IEC_5230_certification_case.pdf).
 {{% /alert %}}
 
 ---

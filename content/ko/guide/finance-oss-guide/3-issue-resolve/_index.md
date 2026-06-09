@@ -131,9 +131,11 @@ FSEC 안내서도 외부 배포 시 GPL 계열 사용에 대한 소스 공개정
 8가지 처리 방법은 [표준 관행 구현 조항](../../iso18974_guide/1-program-foundation/5-standard-practice/)에서
 더 자세히 다룬다.
 
-{{% alert title="현장 사례 (게재 예정)" color="warning" %}}
-국내 금융권의 오픈소스 보안 보증과 취약점 대응 사례를 이 자리에 싣는다. KWG 정기 미팅
-발표 자료를 근거로 하며, 발표자 인용 동의를 받은 뒤 확정한다. (인용 동의 대기)
+{{% alert title="현장 사례 — 카카오뱅크의 보안 보증 준비" color="success" %}}
+카카오뱅크는 KWG 20차 정기 미팅(2023-11)에서 ISO/IEC 18974 오픈소스 보안 보증을 준비한
+사례를 공유했다. 취약점 탐지와 대응을 체계화한 금융권 보안 보증 사례다.
+
+출처: 하헌관·이민애(카카오뱅크), "카카오뱅크 오픈소스 보안 보증 준비 사례", [KWG 20차 미팅(2023-11) 발표자료](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/kakaobank-ISO18974-conformance-case-study.pdf).
 {{% /alert %}}
 
 ---
