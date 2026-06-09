@@ -151,3 +151,7 @@ aliases:
   <span class="kwg-conf-sponsor__label">Sponsored by</span>
   <img src="../../../../images/content/about/logo/kakaobank.png" alt="KakaoBank">
 </div>
+
+## Album
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/198570149@N05/albums/72177720334110321" title="[2026 June] OpenChain Korea Work Group in Kakao Bank"><img src="https://live.staticflickr.com/65535/55324287806_9c07d82ddc_h.jpg" width="1600" height="1200" alt="[2026 June] OpenChain Korea Work Group in Kakao Bank"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
