@@ -31,6 +31,24 @@ ISO/IEC 18974는 SBOM(Software Bill of Materials)에 담긴 각 오픈소스 컴
 - 조치 수행: 위험 점수에 따라 패치, 버전 교체, 완화 설정 등을 수행한다.
 - 지속 대응: 운영 중 새로 공개되는 취약점을 모니터링하고 영향받는 시스템에 대응한다.
 
+```mermaid
+flowchart LR
+    A["탐지<br>(SBOM 대조)"] --> B["평가<br>(CVSS 점수)"]
+    B --> C{"조치가<br>필요한가?"}
+    C -- 예 --> D["조치 수행<br>패치·교체·완화"]
+    C -- 아니오 --> E["불필요 판단 근거 기록<br>(VEX)"]
+    D --> F["조치 기록"]
+    E --> G["지속 대응<br>(신규 취약점 모니터링)"]
+    F --> G
+    G --> A
+
+    style A fill:#2b6cb0,color:#fff
+    style D fill:#c53030,color:#fff
+    style E fill:#744210,color:#fff
+    style F fill:#276749,color:#fff
+    style G fill:#2d3748,color:#fff
+```
+
 이 절차가 ISO/IEC 18974의 취약점 탐지·해결 절차(4.3.2.1)이고, 그 수행 기록이 취약점·조치
 기록(4.3.2.2)이다. 조치가 필요 없다고 판단한 경우의 기록까지 포함해야 한다는 점이 중요하다.
 취약점이 실제로 영향을 주는지 판단한 결과를 VEX(Vulnerability Exploitability eXchange)

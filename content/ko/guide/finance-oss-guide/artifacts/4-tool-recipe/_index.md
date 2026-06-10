@@ -79,6 +79,12 @@ docker compose ps
 하이픈 명령(구버전 v1)은 예제의 `deploy.resources` 메모리 제한을 무시하므로, 제한을
 적용하려면 `--compatibility` 옵션을 함께 준다.
 
+![구축 후 Dependency-Track 대시보드 화면](./dt-dashboard.png)
+
+*그림: 구축을 마치고 SBOM을 등록하면 보게 되는 Dependency-Track 대시보드. 화면은
+[cdxgen·Dependency-Track 튜토리얼](../../../tools/8-cdxgen-dt/)의 캡처를 재사용했다.
+계정 설정과 API 키 발급의 단계별 화면도 그 튜토리얼에 있다.*
+
 ## SBOM 생성과 등록 연동
 
 cdxgen으로 프로젝트의 SBOM을 만들고, 그 결과를 Dependency-Track에 업로드한다. 업로드된 SBOM은
