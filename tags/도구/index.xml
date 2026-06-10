@@ -13,6 +13,7 @@
 구성한다. 반입 절차는 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/0-closed-network/#%eb%b0%98%ec%9e%85-%ed%86%b5%ec%a0%9c"&gt;폐쇄망 운영&lt;/a&gt;을 참고한다.&lt;/p&gt;
 &lt;/div&gt;
 &lt;h2 id="dependency-track-구축"&gt;Dependency-Track 구축&lt;/h2&gt;
-&lt;p&gt;Dependency-Track은 SBOM을 등록해 두면 취약점 데이터베이스가 갱신될 때마다 영향받는 컴포넌트를
+&lt;p&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/7-dependency-track/"&gt;Dependency-Track&lt;/a&gt;은 SBOM을 등록해 두면 취약점
+데이터베이스가 갱신될 때마다 영향받는 컴포넌트를
 자동으로 다시 평가한다. 운영 시스템의 지속 모니터링에 쓴다. 아래는 API 서버와 프런트엔드를
 함께 띄우는 docker-compose 예제다.&lt;/p&gt;</description></item></channel></rss>

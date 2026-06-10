@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>오픈소스 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4/</link><description>Recent content in 오픈소스 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Wed, 10 Jun 2026 16:36:27 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4/index.xml" rel="self" type="application/rss+xml"/><item><title>폐쇄망 운영과 망분리 전환</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/0-closed-network/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/0-closed-network/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;이 페이지의 위치&lt;/div&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>오픈소스 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4/</link><description>Recent content in 오픈소스 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Wed, 10 Jun 2026 16:54:56 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4/index.xml" rel="self" type="application/rss+xml"/><item><title>폐쇄망 운영과 망분리 전환</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/0-closed-network/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/0-closed-network/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;이 페이지의 위치&lt;/div&gt;
 &lt;p&gt;이 가이드는 금융권의 오픈소스 활용·관리를 다룬다. 그 출발점이 폐쇄망이다.
 반입·사내 미러·오프라인 취약점 관리는 식별, 사용 승인, 관리 등 모든 단계의 전제가 되므로,
 여기에서 한 번 설명하고 각 단계 페이지에서는 &amp;ldquo;폐쇄망 적용 시&amp;rdquo; 박스로 이 페이지를 가리킨다.&lt;/p&gt;
@@ -226,7 +226,8 @@ FSEC 안내서의 첫 절차이고, ISO/IEC 5230의 SBOM 관리(3.3.1)가 요구
 구성한다. 반입 절차는 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/0-closed-network/#%eb%b0%98%ec%9e%85-%ed%86%b5%ec%a0%9c"&gt;폐쇄망 운영&lt;/a&gt;을 참고한다.&lt;/p&gt;
 &lt;/div&gt;
 &lt;h2 id="dependency-track-구축"&gt;Dependency-Track 구축&lt;/h2&gt;
-&lt;p&gt;Dependency-Track은 SBOM을 등록해 두면 취약점 데이터베이스가 갱신될 때마다 영향받는 컴포넌트를
+&lt;p&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/7-dependency-track/"&gt;Dependency-Track&lt;/a&gt;은 SBOM을 등록해 두면 취약점
+데이터베이스가 갱신될 때마다 영향받는 컴포넌트를
 자동으로 다시 평가한다. 운영 시스템의 지속 모니터링에 쓴다. 아래는 API 서버와 프런트엔드를
 함께 띄우는 docker-compose 예제다.&lt;/p&gt;</description></item><item><title>금융분야 오픈소스 관리 실무 가이드</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
 &lt;p&gt;금융권은 오픈소스를 점점 더 많이 쓰면서도 폐쇄망, 망분리 규제, 공급망 보안, 감사 대응이라는
@@ -270,7 +271,8 @@ FSEC 안내서의 첫 절차이고, ISO/IEC 5230의 SBOM 관리(3.3.1)가 요구
 무엇을 할지 찾는 도구다. FSEC 안내서가 비규제 자율 점검이듯, 이 점검표도 모범 실무 기준이다.
 &lt;strong&gt;[FSEC 안내서]&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;각 항목은 관련 ISO 입증자료, 권장 도구, 자세히 다루는 가이드 섹션과 연결돼 있다. 충족하지
-못한 항목이 있으면 연결된 섹션으로 가서 방법을 확인한다. FSEC 안내서가 쓰는 다섯 분류, 곧
+못한 항목이 있으면 연결된 섹션으로 가서 방법을 확인한다. 권장 도구는 예시이며 도구 이름의
+첫 등장에 사용법 페이지를 링크했다. FSEC 안내서가 쓰는 다섯 분류, 곧
 식별, 이슈 파악 및 해결, 승인, 관리, 기타의 순서를 따른다.&lt;/p&gt;</description></item><item><title>산출물: 바로 쓰는 양식과 레시피</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/</guid><description>&lt;p&gt;이 가이드는 본문과 함께 바로 쓸 수 있는 네 가지 산출물을 제공한다. 본문이 &amp;ldquo;무엇을 왜
 하는지&amp;quot;를 설명한다면, 산출물은 &amp;ldquo;그것을 어떤 양식으로 남기는지&amp;quot;를 채워 준다. 각 산출물은
 조직 상황에 맞게 고쳐 쓰는 것을 전제로 한다.&lt;/p&gt;
