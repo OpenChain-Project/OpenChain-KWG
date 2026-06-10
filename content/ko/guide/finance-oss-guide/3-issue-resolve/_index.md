@@ -100,8 +100,8 @@ FSEC 안내서도 외부 배포 시 GPL 계열 사용에 대한 소스 공개정
 배포 소프트웨어와 사내 운영 시스템의 범위 구분은 [관리](../5-manage/)에서 더 다룬다.
 
 라이선스 점검에는 FOSSology, SCANOSS 같은 오픈소스 도구를 쓸 수 있다. 다만 도구 자체의
-라이선스도 확인한다. 예를 들어 FOSSLight는 AGPL-3.0이므로 사내에서 개조하거나 네트워크로
-기능을 제공하면 소스 공개 의무가 생길 수 있어 법무 검토 항목으로 둔다.
+라이선스도 확인한다. 예를 들어 FOSSLight는 AGPL-3.0이므로 개조한 버전을 네트워크로 기능을
+제공하면 소스 공개 의무가 생길 수 있어 법무 검토 항목으로 둔다.
 
 {{% alert title="제3자·외주 적용 시" color="info" %}}
 외주 산출물에서 발견한 취약점과 라이선스 이슈는 책임 소재를 먼저 정한다. 계약에 취약점
@@ -135,7 +135,7 @@ FSEC 안내서도 외부 배포 시 GPL 계열 사용에 대한 소스 공개정
 카카오뱅크는 KWG 20차 정기 미팅(2023-11)에서 ISO/IEC 18974 오픈소스 보안 보증을 준비한
 사례를 공유했다. 취약점 탐지와 대응을 체계화한 금융권 보안 보증 사례다.
 
-출처: 하헌관·이민애(카카오뱅크), "카카오뱅크 오픈소스 보안 보증 준비 사례", [KWG 20차 미팅(2023-11) 발표자료](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/kakaobank-ISO18974-conformance-case-study.pdf).
+출처: 하헌관·이민애(카카오뱅크), "카카오뱅크 오픈소스 보안 보증 준비 사례 공유", [KWG 20차 미팅(2023-11) 발표자료](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/kakaobank-ISO18974-conformance-case-study.pdf).
 {{% /alert %}}
 
 ---
