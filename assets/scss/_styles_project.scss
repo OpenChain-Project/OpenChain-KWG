@@ -894,10 +894,15 @@ a.kwg-hero__badge:hover {
   margin-top: $space-1;
 }
 .kwg-conf-tl__slide {
-  display: inline-block;
+  display: block;
+  width: fit-content;
   margin-top: $space-2;
   font-size: $text-sm;
   font-weight: 600;
+}
+.kwg-conf-tl__slide::before {
+  content: "\2193\00a0"; // 다운로드 화살표 + 공백
+  opacity: 0.7;
 }
 .kwg-conf-tl__slide:hover { text-decoration: underline; }
 // 세션 강조 — 채운 accent 노드(약간 크게)
