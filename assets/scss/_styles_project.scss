@@ -180,6 +180,31 @@ h1.td-title { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
   border-radius: $border-radius;
 }
 
+// 본문 줄 길이 80% 제한 해제 — pageinfo와 폭 통일
+// (Docsy _content.scss가 .td-content 직계 자식에 거는 .td-max-width-on-larger-screens 무효화.
+//  유틸리티 클래스 자체는 tabbed-pane 등 다른 쇼트코드가 쓰므로 건드리지 않고,
+//  같은 선택자 목록을 미러링해 동일 특이도로 뒤에서 덮는다)
+@include media-breakpoint-up(lg) {
+  .td-content {
+    .footnotes,
+    > .alert,
+    > .highlight,
+    > .katex-display,
+    > .lead,
+    > .td-table,
+    > blockquote,
+    > dl dd,
+    > h1,
+    > h2,
+    > ol,
+    > p,
+    > pre,
+    > ul {
+      max-width: none;
+    }
+  }
+}
+
 // 문서 내 primary 버튼 — 홈 pill·lift 톤과 통일
 .td-content .btn-primary {
   border-radius: 2rem;
