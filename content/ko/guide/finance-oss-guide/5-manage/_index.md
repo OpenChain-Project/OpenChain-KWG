@@ -55,6 +55,12 @@ SBOM(Software Bill of Materials)으로 식별한다. 도입 기록이 없는 레
 등록하면, 취약점 데이터베이스가 갱신될 때마다 등록된 모든 SBOM이 다시 평가돼 신규 취약점이
 자동으로 드러난다. 서버와 컨테이너, 파일시스템은 Trivy로 주기적으로 스캔한다.
 
+![Dependency-Track에 시스템별로 SBOM을 등록한 프로젝트 목록](./dt-projects.png)
+
+*그림: 운영 시스템별로 SBOM을 등록한 Dependency-Track 프로젝트 목록. 신규 취약점이 공개되면
+이 목록에서 영향받는 시스템이 드러난다. 화면은 [cdxgen·Dependency-Track
+튜토리얼](../../tools/8-cdxgen-dt/)의 캡처를 재사용했다.*
+
 ### 주기 스캔 예제
 
 운영 서버를 정기적으로 스캔해 결과를 남기는 흐름을 예로 든다. 도구는 예시이며 동급 도구로
@@ -140,6 +146,11 @@ IT리스크 계량평가와 경영실태평가, 한국은행의 연간 금융정
 
 같은 미팅에서 AI 코딩 에이전트로 라이선스 식별과 호환성 분석, SBOM 생성, 고지문 작성을
 자동화해 릴리스마다 반복되던 검증 작업을 줄인 사례도 소개했다.
+
+![AI 코딩 에이전트를 오픈소스 거버넌스에 활용한 발표 슬라이드](./30th-s1-claude-code.png)
+
+*그림: AI 코딩 에이전트의 오픈소스 거버넌스 활용. 하헌관(카카오뱅크) 발표자료 7쪽.
+슬라이드 이미지는 발표자 저작물로, 본문의 CC BY 4.0 적용 대상이 아니다.*
 
 출처: 이민애(카카오뱅크), "금융회사로서의 오픈소스 관련 업무 대응 후기", [발표자료](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/30th-session3-finance-oss-report.pdf);
 하헌관(카카오뱅크), "AI-driven Open Source Governance", [발표자료](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/30th-session1-ai-driven-oss-governance.pdf). KWG 30차 미팅(2026-06).

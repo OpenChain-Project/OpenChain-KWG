@@ -68,6 +68,27 @@ description: >
 폐쇄망에서 오픈소스를 들여오는 경로는 외부 구간에서 받아 검증하고 격리한 뒤 망연계 시스템(망간
 자료전송)으로 내부망에 이관하는 흐름이다. 안내서의 식별 단계보다 먼저 부딪히는 실질적 첫 관문이다.
 
+```mermaid
+flowchart LR
+    subgraph EXT["외부 구간 (인터넷 연결)"]
+        A["공식 배포처에서 수령"] --> B["무결성 검증<br>(체크섬 대조)"]
+        B --> C["SBOM 생성<br>취약점 사전 점검"]
+    end
+    C --> D["반입 묶음 구성<br>악성코드 검사"]
+    D --> E["망간 자료전송"]
+    subgraph INT["내부망"]
+        F["해시 재확인<br>결과 검토"] --> G["사내 미러 등록"]
+        G --> H["반입 승인 기록<br>(감사 증적)"]
+    end
+    E --> F
+
+    style EXT fill:#f7fafc,stroke:#a0aec0
+    style INT fill:#f7fafc,stroke:#a0aec0
+    style D fill:#744210,color:#fff
+    style E fill:#2d3748,color:#fff
+    style H fill:#276749,color:#fff
+```
+
 반입 절차는 다음을 포함한다.
 
 - 무결성 검증: 내려받은 산출물의 해시값을 공식 배포처가 게시한 값과 대조한다.
