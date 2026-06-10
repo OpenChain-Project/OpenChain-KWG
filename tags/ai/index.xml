@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/ai/</link><description>Recent content in AI on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Wed, 10 Jun 2026 09:52:34 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>26th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2025/26th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2025/26th/</guid><description>&lt;h2 id="일정"&gt;일정&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/ai/</link><description>Recent content in AI on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Wed, 10 Jun 2026 15:28:25 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>26th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2025/26th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2025/26th/</guid><description>&lt;h2 id="일정"&gt;일정&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;일정: 2025-06-16 (월) 오후2시~5시&lt;/li&gt;
 &lt;li&gt;장소: 삼성전자 서울R&amp;amp;D캠퍼스 - &lt;a href="https://maps.app.goo.gl/ZsQWvnSc5MPXKVcN8"&gt;https://maps.app.goo.gl/ZsQWvnSc5MPXKVcN8&lt;/a&gt;&lt;/li&gt;
@@ -350,6 +350,7 @@
  &lt;div class="kwg-conf-tl__body"&gt;
  &lt;div class="kwg-conf-tl__title"&gt;Session 1. AI-driven Open Source Governance&lt;/div&gt;
  &lt;div class="kwg-conf-tl__by"&gt;하헌관 · 카카오뱅크&lt;/div&gt;
+ &lt;a class="kwg-conf-tl__slide" href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/30th-session1-ai-driven-oss-governance.pdf" target="_blank" rel="noopener"&gt;발표자료 (PDF)&lt;/a&gt;
  &lt;/div&gt;
  &lt;/div&gt;
  &lt;div class="kwg-conf-tl kwg-conf-tl--muted"&gt;
@@ -366,6 +367,7 @@
  &lt;div class="kwg-conf-tl__body"&gt;
  &lt;div class="kwg-conf-tl__title"&gt;Session 2. Claude Mythos가 Open Source에 미치는 영향&lt;/div&gt;
  &lt;div class="kwg-conf-tl__by"&gt;김강보 · 안랩&lt;/div&gt;
+ &lt;a class="kwg-conf-tl__slide" href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/30th-session2-claude-mythos.pdf" target="_blank" rel="noopener"&gt;발표자료 (PDF)&lt;/a&gt;
  &lt;/div&gt;
  &lt;/div&gt;
  &lt;div class="kwg-conf-tl kwg-conf-tl--session"&gt;
@@ -374,6 +376,7 @@
  &lt;div class="kwg-conf-tl__body"&gt;
  &lt;div class="kwg-conf-tl__title"&gt;Session 3. 금융회사로서의 오픈소스 관련 업무 대응 후기&lt;/div&gt;
  &lt;div class="kwg-conf-tl__by"&gt;이민애 · 카카오뱅크&lt;/div&gt;
+ &lt;a class="kwg-conf-tl__slide" href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/30th-session3-finance-oss-report.pdf" target="_blank" rel="noopener"&gt;발표자료 (PDF)&lt;/a&gt;
  &lt;/div&gt;
  &lt;/div&gt;
  &lt;div class="kwg-conf-tl"&gt;

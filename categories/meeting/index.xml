@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Meeting on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/categories/meeting/</link><description>Recent content in Meeting on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Wed, 10 Jun 2026 09:52:34 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/categories/meeting/index.xml" rel="self" type="application/rss+xml"/><item><title>1st Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2019/1st/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2019/1st/</guid><description>&lt;img src="20190123_1406369.jpg" width="90%"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Meeting on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/categories/meeting/</link><description>Recent content in Meeting on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Wed, 10 Jun 2026 15:28:25 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/categories/meeting/index.xml" rel="self" type="application/rss+xml"/><item><title>1st Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2019/1st/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2019/1st/</guid><description>&lt;img src="20190123_1406369.jpg" width="90%"&gt;
 &lt;h2 id="organizer"&gt;Organizer&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;LG Electronics&lt;/li&gt;
@@ -3198,6 +3198,7 @@ _&lt;center&gt; &lt; designed by [@soimkim](https://github.com/soimkim) &gt; &lt
  &lt;div class="kwg-conf-tl__body"&gt;
  &lt;div class="kwg-conf-tl__title"&gt;Session 1. AI-driven Open Source Governance&lt;/div&gt;
  &lt;div class="kwg-conf-tl__by"&gt;하헌관 · 카카오뱅크&lt;/div&gt;
+ &lt;a class="kwg-conf-tl__slide" href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/30th-session1-ai-driven-oss-governance.pdf" target="_blank" rel="noopener"&gt;발표자료 (PDF)&lt;/a&gt;
  &lt;/div&gt;
  &lt;/div&gt;
  &lt;div class="kwg-conf-tl kwg-conf-tl--muted"&gt;
@@ -3214,6 +3215,7 @@ _&lt;center&gt; &lt; designed by [@soimkim](https://github.com/soimkim) &gt; &lt
  &lt;div class="kwg-conf-tl__body"&gt;
  &lt;div class="kwg-conf-tl__title"&gt;Session 2. Claude Mythos가 Open Source에 미치는 영향&lt;/div&gt;
  &lt;div class="kwg-conf-tl__by"&gt;김강보 · 안랩&lt;/div&gt;
+ &lt;a class="kwg-conf-tl__slide" href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/30th-session2-claude-mythos.pdf" target="_blank" rel="noopener"&gt;발표자료 (PDF)&lt;/a&gt;
  &lt;/div&gt;
  &lt;/div&gt;
  &lt;div class="kwg-conf-tl kwg-conf-tl--session"&gt;
@@ -3222,6 +3224,7 @@ _&lt;center&gt; &lt; designed by [@soimkim](https://github.com/soimkim) &gt; &lt
  &lt;div class="kwg-conf-tl__body"&gt;
  &lt;div class="kwg-conf-tl__title"&gt;Session 3. 금융회사로서의 오픈소스 관련 업무 대응 후기&lt;/div&gt;
  &lt;div class="kwg-conf-tl__by"&gt;이민애 · 카카오뱅크&lt;/div&gt;
+ &lt;a class="kwg-conf-tl__slide" href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/30th-session3-finance-oss-report.pdf" target="_blank" rel="noopener"&gt;발표자료 (PDF)&lt;/a&gt;
  &lt;/div&gt;
  &lt;/div&gt;
  &lt;div class="kwg-conf-tl"&gt;
