@@ -79,6 +79,7 @@ aliases:
     <div class="kwg-conf-tl__body">
       <div class="kwg-conf-tl__title">Session 1. AI-driven Open Source Governance</div>
       <div class="kwg-conf-tl__by">하헌관 · 카카오뱅크</div>
+      <a class="kwg-conf-tl__slide" href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/30th-session1-ai-driven-oss-governance.pdf" target="_blank" rel="noopener">발표자료 (PDF)</a>
     </div>
   </div>
   <div class="kwg-conf-tl kwg-conf-tl--muted">
@@ -95,6 +96,7 @@ aliases:
     <div class="kwg-conf-tl__body">
       <div class="kwg-conf-tl__title">Session 2. Claude Mythos가 Open Source에 미치는 영향</div>
       <div class="kwg-conf-tl__by">김강보 · 안랩</div>
+      <a class="kwg-conf-tl__slide" href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/30th-session2-claude-mythos.pdf" target="_blank" rel="noopener">발표자료 (PDF)</a>
     </div>
   </div>
   <div class="kwg-conf-tl kwg-conf-tl--session">
@@ -103,6 +105,7 @@ aliases:
     <div class="kwg-conf-tl__body">
       <div class="kwg-conf-tl__title">Session 3. 금융회사로서의 오픈소스 관련 업무 대응 후기</div>
       <div class="kwg-conf-tl__by">이민애 · 카카오뱅크</div>
+      <a class="kwg-conf-tl__slide" href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/30th-session3-finance-oss-report.pdf" target="_blank" rel="noopener">발표자료 (PDF)</a>
     </div>
   </div>
   <div class="kwg-conf-tl">
