@@ -14,7 +14,7 @@ resources:
 ---
 
 
-{{% alert title="이 글에 대해" color="info" %}}
+{{% alert color="info" %}}
 이 글은 Claude Code를 이용해 작성했고, 인용한 핵심 사실은 공개 출처로 교차 검증했습니다.
 {{% /alert %}}
 
