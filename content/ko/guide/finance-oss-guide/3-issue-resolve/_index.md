@@ -58,8 +58,8 @@ eXchange) 형식으로 남기면, 같은 취약점을 반복 검토하지 않아
 ### 취약점 점검과 지속 감시 예제
 
 SBOM을 취약점 관리 도구에 등록하면, 도구가 새로운 취약점이 공개될 때마다 영향받는 컴포넌트를
-다시 알려 준다. Dependency-Track에 운영 시스템의 SBOM을 등록하는 방식을 예로 든다. 도구는
-예시이며 동급 도구로 바꿔도 된다.
+다시 알려 준다. [Dependency-Track](../../tools/7-dependency-track/)에 운영 시스템의 SBOM을
+등록하는 방식을 예로 든다. 도구는 예시이며 동급 도구로 바꿔도 된다.
 
 ```bash
 # SBOM을 Dependency-Track 프로젝트에 업로드한다 (API 예시)
@@ -74,7 +74,8 @@ curl -X POST "https://dtrack.internal/api/v1/bom" \
 갱신할 때마다 이미 등록된 SBOM이 다시 평가돼 신규 취약점이 자동으로 드러난다. 운영 시스템의
 지속 모니터링은 [관리](../5-manage/)에서 더 다룬다.
 
-명령줄에서 한 번 점검할 때는 Grype나 Trivy를 쓸 수 있다.
+명령줄에서 한 번 점검할 때는 [Grype](https://github.com/anchore/grype)나
+[Trivy](https://trivy.dev/)를 쓸 수 있다.
 
 ```bash
 # SBOM을 입력으로 취약점을 점검한다
@@ -117,7 +118,8 @@ grype sbom:foo-1.2.3.sbom.json
 FSEC 안내서도 외부 배포 시 GPL 계열 사용에 대한 소스 공개정책 마련을 점검 항목으로 둔다.
 배포 소프트웨어와 사내 운영 시스템의 범위 구분은 [관리](../5-manage/)에서 더 다룬다.
 
-라이선스 점검에는 FOSSology, SCANOSS 같은 오픈소스 도구를 쓸 수 있다. 다만 도구 자체의
+라이선스 점검에는 [FOSSology](../../tools/1-fossology/), [SCANOSS](../../tools/9-scanoss/)
+같은 오픈소스 도구를 쓸 수 있다. 다만 도구 자체의
 라이선스도 확인한다. FOSSLight(AGPL-3.0)의 사례는 [폐쇄망 운영의 도구
 선택](../0-closed-network/#폐쇄망에-맞는-도구-선택)에서 다룬다.
 
