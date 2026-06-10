@@ -23,7 +23,8 @@ description: >
 
 ## Dependency-Track 구축
 
-Dependency-Track은 SBOM을 등록해 두면 취약점 데이터베이스가 갱신될 때마다 영향받는 컴포넌트를
+[Dependency-Track](../../../tools/7-dependency-track/)은 SBOM을 등록해 두면 취약점
+데이터베이스가 갱신될 때마다 영향받는 컴포넌트를
 자동으로 다시 평가한다. 운영 시스템의 지속 모니터링에 쓴다. 아래는 API 서버와 프런트엔드를
 함께 띄우는 docker-compose 예제다.
 
@@ -87,7 +88,7 @@ docker compose ps
 
 ## SBOM 생성과 등록 연동
 
-cdxgen으로 프로젝트의 SBOM을 만들고, 그 결과를 Dependency-Track에 업로드한다. 업로드된 SBOM은
+[cdxgen](../../../tools/5-cdxgen/)으로 프로젝트의 SBOM을 만들고, 그 결과를 Dependency-Track에 업로드한다. 업로드된 SBOM은
 이후 취약점 데이터베이스가 갱신될 때마다 자동으로 재평가된다. cdxgen은 언어 생태계에 따라
 의존성을 해석하면서 빌드 도구와 패키지 저장소에 접근하므로, 폐쇄망에서는 npm·Maven 등의
 저장소 설정이 사내 미러를 가리키도록 해 둔 상태에서 실행한다.
