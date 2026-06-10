@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Meeting on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/categories/meeting/</link><description>Recent content in Meeting on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Tue, 09 Jun 2026 23:29:54 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/categories/meeting/index.xml" rel="self" type="application/rss+xml"/><item><title>1st Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2019/1st/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2019/1st/</guid><description>&lt;img src="20190123_1406369.jpg" width="90%"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Meeting on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/categories/meeting/</link><description>Recent content in Meeting on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Wed, 10 Jun 2026 09:52:34 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/categories/meeting/index.xml" rel="self" type="application/rss+xml"/><item><title>1st Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2019/1st/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2019/1st/</guid><description>&lt;img src="20190123_1406369.jpg" width="90%"&gt;
 &lt;h2 id="organizer"&gt;Organizer&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;LG Electronics&lt;/li&gt;
@@ -3187,8 +3187,9 @@ _&lt;center&gt; &lt; designed by [@soimkim](https://github.com/soimkim) &gt; &lt
  &lt;div class="kwg-conf-tl__marker"&gt;&lt;/div&gt;
  &lt;div class="kwg-conf-tl__body"&gt;
  &lt;div class="kwg-conf-tl__title"&gt;OpenChain Updates&lt;/div&gt;
- &lt;div class="kwg-conf-tl__by"&gt;운영진&lt;/div&gt;
- &lt;a class="kwg-conf-tl__slide" href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/30th-kwg-update-2026q2.pdf" target="_blank" rel="noopener"&gt;발표자료 (PDF)&lt;/a&gt;
+ &lt;div class="kwg-conf-tl__by"&gt;운영진 · Mary Wang (OpenChain Project 총괄 디렉터, 원격)&lt;/div&gt;
+ &lt;a class="kwg-conf-tl__slide" href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/30th-kwg-update-2026q2.pdf" target="_blank" rel="noopener"&gt;KWG 업데이트 (PDF)&lt;/a&gt;
+ &lt;a class="kwg-conf-tl__slide" href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/30th-openchain-updates.pdf" target="_blank" rel="noopener"&gt;OpenChain 글로벌 업데이트 · Mary Wang (PDF)&lt;/a&gt;
  &lt;/div&gt;
  &lt;/div&gt;
  &lt;div class="kwg-conf-tl kwg-conf-tl--session"&gt;
@@ -3241,13 +3242,8 @@ _&lt;center&gt; &lt; designed by [@soimkim](https://github.com/soimkim) &gt; &lt
  &lt;/div&gt;
  &lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id="발표자-소개"&gt;발표자 소개&lt;/h2&gt;
-&lt;div class="kwg-conf-speakers"&gt;
- &lt;div class="kwg-conf-speaker"&gt;
- &lt;img class="kwg-conf-speaker__photo" loading="lazy" src="heonkwan-ha.png" alt="하헌관 매니저"&gt;
- &lt;div class="kwg-conf-speaker__name"&gt;하헌관 매니저&lt;/div&gt;
- &lt;div class="kwg-conf-speaker__role"&gt;카카오뱅크 · Session 1&lt;/div&gt;
- &lt;p class="kwg-conf-speaker__bio"&gt;카카오뱅크 오픈소스 거버넌스, DevSecOps, CMDB 운영&lt;/p&gt;</description></item><item><title>31th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2026/31th/</link><pubDate>Tue, 31 Mar 2026 17:19:04 +0900</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2026/31th/</guid><description>&lt;h2 id="일정"&gt;일정&lt;/h2&gt;
+&lt;h2 id="openchain-updates-글로벌-동향"&gt;OpenChain Updates: 글로벌 동향&lt;/h2&gt;
+&lt;p&gt;OpenChain Updates 시간에는 OpenChain Project 총괄 디렉터 Mary Wang이 원격으로 참여해 글로벌 동향을 공유했습니다. 표준 운영 현황과 함께, OpenChain을 CRA(EU 사이버 복원력법)와 AI 규제 대응을 연결하는 핵심 기반으로 설명했습니다.&lt;/p&gt;</description></item><item><title>31th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2026/31th/</link><pubDate>Tue, 31 Mar 2026 17:19:04 +0900</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2026/31th/</guid><description>&lt;h2 id="일정"&gt;일정&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;일정: 2026-09-08 (화) 오후 2시~5시&lt;/li&gt;
 &lt;li&gt;장소: CJ인재원 (서울시 중구 - &lt;a href="https://maps.app.goo.gl/nQUogVHPvF4VuapX9"&gt;https://maps.app.goo.gl/nQUogVHPvF4VuapX9&lt;/a&gt; )&lt;/li&gt;

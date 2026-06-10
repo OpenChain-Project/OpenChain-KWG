@@ -50,8 +50,9 @@
  &lt;div class="kwg-conf-tl__marker"&gt;&lt;/div&gt;
  &lt;div class="kwg-conf-tl__body"&gt;
  &lt;div class="kwg-conf-tl__title"&gt;OpenChain Updates&lt;/div&gt;
- &lt;div class="kwg-conf-tl__by"&gt;운영진&lt;/div&gt;
- &lt;a class="kwg-conf-tl__slide" href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/30th-kwg-update-2026q2.pdf" target="_blank" rel="noopener"&gt;발표자료 (PDF)&lt;/a&gt;
+ &lt;div class="kwg-conf-tl__by"&gt;운영진 · Mary Wang (OpenChain Project 총괄 디렉터, 원격)&lt;/div&gt;
+ &lt;a class="kwg-conf-tl__slide" href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/30th-kwg-update-2026q2.pdf" target="_blank" rel="noopener"&gt;KWG 업데이트 (PDF)&lt;/a&gt;
+ &lt;a class="kwg-conf-tl__slide" href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/30th-openchain-updates.pdf" target="_blank" rel="noopener"&gt;OpenChain 글로벌 업데이트 · Mary Wang (PDF)&lt;/a&gt;
  &lt;/div&gt;
  &lt;/div&gt;
  &lt;div class="kwg-conf-tl kwg-conf-tl--session"&gt;
@@ -104,10 +105,5 @@
  &lt;/div&gt;
  &lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id="발표자-소개"&gt;발표자 소개&lt;/h2&gt;
-&lt;div class="kwg-conf-speakers"&gt;
- &lt;div class="kwg-conf-speaker"&gt;
- &lt;img class="kwg-conf-speaker__photo" loading="lazy" src="heonkwan-ha.png" alt="하헌관 매니저"&gt;
- &lt;div class="kwg-conf-speaker__name"&gt;하헌관 매니저&lt;/div&gt;
- &lt;div class="kwg-conf-speaker__role"&gt;카카오뱅크 · Session 1&lt;/div&gt;
- &lt;p class="kwg-conf-speaker__bio"&gt;카카오뱅크 오픈소스 거버넌스, DevSecOps, CMDB 운영&lt;/p&gt;</description></item></channel></rss>
+&lt;h2 id="openchain-updates-글로벌-동향"&gt;OpenChain Updates: 글로벌 동향&lt;/h2&gt;
+&lt;p&gt;OpenChain Updates 시간에는 OpenChain Project 총괄 디렉터 Mary Wang이 원격으로 참여해 글로벌 동향을 공유했습니다. 표준 운영 현황과 함께, OpenChain을 CRA(EU 사이버 복원력법)와 AI 규제 대응을 연결하는 핵심 기반으로 설명했습니다.&lt;/p&gt;</description></item></channel></rss>
