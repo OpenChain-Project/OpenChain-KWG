@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>자가점검 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%9E%90%EA%B0%80%EC%A0%90%EA%B2%80/</link><description>Recent content in 자가점검 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%9E%90%EA%B0%80%EC%A0%90%EA%B2%80/index.xml" rel="self" type="application/rss+xml"/><item><title>자가점검 워크북</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/1-workbook/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/1-workbook/</guid><description>&lt;p&gt;이 워크북은 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/6-self-check/"&gt;자가점검&lt;/a&gt; 페이지의 점검 항목을 기록용 양식으로 옮긴 것이다.
+점검만 하고 끝내지 않고, 부족한 부분의 담당자와 기한을 적어 개선 계획으로 잇기 위한 것이다.&lt;/p&gt;
+&lt;h2 id="쓰는-방법"&gt;쓰는 방법&lt;/h2&gt;
+&lt;p&gt;각 항목의 충족 상태를 세 단계로 표시한다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;미충족: 관련 활동이나 문서가 없다.&lt;/li&gt;
+&lt;li&gt;부분 충족: 활동은 있으나 문서나 기록이 부족하다.&lt;/li&gt;
+&lt;li&gt;충족: 활동과 근거 문서를 모두 갖췄다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;부분 충족이나 미충족 항목에는 근거 문서가 무엇이어야 하는지, 누가 언제까지 갖출지를 적는다.
+충족 항목에는 근거 문서의 이름과 위치를 적어, 그대로 ISO 자가 인증의 입증자료로 쓸 수 있게 한다.&lt;/p&gt;</description></item><item><title>자가점검: 우리 체계의 빈 곳 찾기</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/6-self-check/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/6-self-check/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;이 페이지의 위치&lt;/div&gt;
+&lt;p&gt;앞의 여섯 단계를 점검표로 모은 자리다. 항목을 하나씩 짚어 자사 체계의 빈 곳을 찾고, 부족한
+부분을 다루는 섹션으로 이동한다. 분류는 FSEC 안내서의 자가점검 체크리스트(별첨1)를 참고했다.&lt;/p&gt;
+&lt;p&gt;여기서 만드는 문서: 자가점검 워크북(점검 결과와 개선 계획).&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="자가점검을-쓰는-방법"&gt;자가점검을 쓰는 방법&lt;/h2&gt;
+&lt;p&gt;이 점검표는 통과·불합격을 가리는 시험이 아니다. 자사가 어디까지 갖췄는지 가늠하고 다음에
+무엇을 할지 찾는 도구다. FSEC 안내서가 비규제 자율 점검이듯, 이 점검표도 모범 실무 기준이다.
+&lt;strong&gt;[FSEC 안내서]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;각 항목은 관련 ISO 입증자료, 권장 도구, 자세히 다루는 가이드 섹션과 연결돼 있다. 충족하지
+못한 항목이 있으면 연결된 섹션으로 가서 방법을 확인한다. FSEC 안내서가 쓰는 다섯 분류, 곧
+식별, 이슈 파악 및 해결, 승인, 관리, 기타의 순서를 따른다.&lt;/p&gt;</description></item></channel></rss>

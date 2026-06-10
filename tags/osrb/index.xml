@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OSRB on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/osrb/</link><description>Recent content in OSRB on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/osrb/index.xml" rel="self" type="application/rss+xml"/><item><title>거버넌스: 관리 조직과 승인 체계</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/1-governance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/1-governance/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;이 페이지의 위치&lt;/div&gt;
+&lt;p&gt;거버넌스는 오픈소스 관리의 기반이다. 누가 책임지고, 누가 검토하며, 누가 승인하는지를 먼저
+정해야 식별, 사용 승인, 관리 단계가 작동한다. FSEC 안내서도 관리 절차에 앞서 관리 조직
+구성과 역할을 별도로 다룬다.&lt;/p&gt;
+&lt;p&gt;여기서 만드는 문서: 오픈소스 정책, 역할·책임 목록과 담당자 지정 기록.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="금융권-거버넌스의-출발점"&gt;금융권 거버넌스의 출발점&lt;/h2&gt;
+&lt;p&gt;금융분야 오픈소스 소프트웨어 활용·관리 안내서(금융감독원·금융보안원, 2022, 이하 FSEC
+안내서)는 관리 조직의 구성과
+운영, 역할 사례를 제시한다. ISO/IEC 5230은 이를 입증자료로 요구한다. 문서화된 정책(3.1.1.1),
+역할과 책임 목록(3.1.2.1), 역할 담당자 명시(3.2.2.1), 법률 자문 접근 방법(3.2.2.3)이 그것이다.
+거버넌스는 이 입증자료들을 만들어 내는 활동이다.&lt;/p&gt;</description></item></channel></rss>

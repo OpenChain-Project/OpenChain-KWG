@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBOM on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/sbom/</link><description>Recent content in SBOM on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Wed, 10 Jun 2026 16:35:44 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/sbom/index.xml" rel="self" type="application/rss+xml"/><item><title>FOSSLight</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/3-fosslight/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/3-fosslight/</guid><description>&lt;p&gt;FOSSLight는 LG Electronics가 주도하는 오픈소스 컴플라이언스 도구 모음입니다.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBOM on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/sbom/</link><description>Recent content in SBOM on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Wed, 10 Jun 2026 16:36:27 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/sbom/index.xml" rel="self" type="application/rss+xml"/><item><title>FOSSLight</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/3-fosslight/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/3-fosslight/</guid><description>&lt;p&gt;FOSSLight는 LG Electronics가 주도하는 오픈소스 컴플라이언스 도구 모음입니다.
 소스 코드·의존성·바이너리를 분석하는 &lt;strong&gt;FOSSLight Scanner&lt;/strong&gt;와,
 분석 결과를 중앙에서 관리하는 웹 플랫폼 &lt;strong&gt;FOSSLight Hub&lt;/strong&gt;로 구성됩니다.&lt;/p&gt;
 &lt;ul&gt;
@@ -730,7 +730,22 @@ SPDX 또는 CycloneDX 형식의 SBOM을 생성합니다.&lt;/p&gt;
 	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id="sponsor"&gt;Sponsor&lt;/h2&gt;
-&lt;p&gt;&lt;img src="../../../images/content/about/logo/hancom.png" alt=""&gt;&lt;/p&gt;</description></item><item><title>미국 AI 행정명령(2026-06-02)이 기업 오픈소스 관리자에게 의미하는 것</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2026/06/10/%EB%AF%B8%EA%B5%AD-ai-%ED%96%89%EC%A0%95%EB%AA%85%EB%A0%B92026-06-02%EC%9D%B4-%EA%B8%B0%EC%97%85-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B4%80%EB%A6%AC%EC%9E%90%EC%97%90%EA%B2%8C-%EC%9D%98%EB%AF%B8%ED%95%98%EB%8A%94-%EA%B2%83/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2026/06/10/%EB%AF%B8%EA%B5%AD-ai-%ED%96%89%EC%A0%95%EB%AA%85%EB%A0%B92026-06-02%EC%9D%B4-%EA%B8%B0%EC%97%85-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B4%80%EB%A6%AC%EC%9E%90%EC%97%90%EA%B2%8C-%EC%9D%98%EB%AF%B8%ED%95%98%EB%8A%94-%EA%B2%83/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;
+&lt;p&gt;&lt;img src="../../../images/content/about/logo/hancom.png" alt=""&gt;&lt;/p&gt;</description></item><item><title>식별: 쓰고 있는 오픈소스를 빠짐없이 찾기</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/2-identify/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/2-identify/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;이 페이지의 위치&lt;/div&gt;
+&lt;p&gt;식별은 관리의 출발점이다. 무엇을 쓰는지 모르면 취약점도 라이선스 의무도 관리할 수 없다.
+FSEC 안내서의 첫 절차이고, ISO/IEC 5230의 SBOM 관리(3.3.1)가 요구하는 활동이다.&lt;/p&gt;
+&lt;p&gt;여기서 만드는 문서: SBOM, 운영 자산 인벤토리.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="무엇을-식별하는가"&gt;무엇을 식별하는가&lt;/h2&gt;
+&lt;p&gt;오픈소스를 식별한다는 것은 세 종류를 모두 찾아낸다는 뜻이다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;신규로 들여오는 오픈소스. 개발자가 새로 도입하는 라이브러리와 그 의존성.&lt;/li&gt;
+&lt;li&gt;이미 운영 중인 시스템에 들어 있는 오픈소스. 도입 시점에 기록하지 못한 레거시.&lt;/li&gt;
+&lt;li&gt;외주 개발사나 전자금융보조업자가 만든 산출물에 포함된 오픈소스. 외주 개발사(업무를 위탁받은
+수탁자)와 전자금융보조업자(전자금융거래법상 금융회사를 위해 전자금융거래를 보조하는 자)는
+법적으로 다른 범주지만, 산출물의 오픈소스를 식별해야 한다는 점은 같다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;직접 선언한 의존성만이 아니라 그것이 끌어오는 전이 의존성까지 펼쳐야 한다. 실제 위험은
+대부분 직접 보지 않는 하위 의존성에 숨어 있다.&lt;/p&gt;</description></item><item><title>미국 AI 행정명령(2026-06-02)이 기업 오픈소스 관리자에게 의미하는 것</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2026/06/10/%EB%AF%B8%EA%B5%AD-ai-%ED%96%89%EC%A0%95%EB%AA%85%EB%A0%B92026-06-02%EC%9D%B4-%EA%B8%B0%EC%97%85-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B4%80%EB%A6%AC%EC%9E%90%EC%97%90%EA%B2%8C-%EC%9D%98%EB%AF%B8%ED%95%98%EB%8A%94-%EA%B2%83/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2026/06/10/%EB%AF%B8%EA%B5%AD-ai-%ED%96%89%EC%A0%95%EB%AA%85%EB%A0%B92026-06-02%EC%9D%B4-%EA%B8%B0%EC%97%85-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B4%80%EB%A6%AC%EC%9E%90%EC%97%90%EA%B2%8C-%EC%9D%98%EB%AF%B8%ED%95%98%EB%8A%94-%EA%B2%83/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;
 &lt;p&gt;이 글은 Claude Code를 이용해 작성했고, 인용한 핵심 사실은 1차 출처로 교차 검증했습니다.&lt;/p&gt;
 &lt;/div&gt;
 &lt;blockquote&gt;

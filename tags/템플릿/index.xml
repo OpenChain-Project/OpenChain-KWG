@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>템플릿 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%ED%85%9C%ED%94%8C%EB%A6%BF/</link><description>Recent content in 템플릿 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%ED%85%9C%ED%94%8C%EB%A6%BF/index.xml" rel="self" type="application/rss+xml"/><item><title>정책·절차 템플릿</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/2-policy-templates/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/2-policy-templates/</guid><description>&lt;p&gt;여기 담은 양식은 금융권 고유 항목을 보강한 골격이다. 일반 오픈소스 정책과 프로세스 양식은
+기존 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/templates/"&gt;정책·절차 템플릿&lt;/a&gt; 가이드를 쓰고, 금융권에서 추가로 필요한 반입
+통제, 망분리 예외 위험평가, 외주 SBOM 요구는 아래 양식으로 채운다.&lt;/p&gt;
+&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;활용 안내&lt;/div&gt;
+&lt;p&gt;아래 골격은 그대로 쓰는 완성본이 아니라 채워 넣을 틀이다. 대괄호로 표시한 부분은 조직
+상황에 맞게 바꾼다. 발행 전 사내 법무·보안 검토를 거친다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="금융-오픈소스-정책-보강-항목"&gt;금융 오픈소스 정책 (보강 항목)&lt;/h2&gt;
+&lt;p&gt;기존 오픈소스 정책에 금융권 고유 항목을 더한다. 아래는 정책에 포함할 항목의 골격이다.&lt;/p&gt;</description></item><item><title>산출물: 바로 쓰는 양식과 레시피</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/</guid><description>&lt;p&gt;이 가이드는 본문과 함께 바로 쓸 수 있는 네 가지 산출물을 제공한다. 본문이 &amp;ldquo;무엇을 왜
+하는지&amp;quot;를 설명한다면, 산출물은 &amp;ldquo;그것을 어떤 양식으로 남기는지&amp;quot;를 채워 준다. 각 산출물은
+조직 상황에 맞게 고쳐 쓰는 것을 전제로 한다.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;산출물&lt;/th&gt;
+					&lt;th&gt;쓰임&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/1-workbook/"&gt;자가점검 워크북&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;점검 항목, ISO 입증자료, 충족 상태·담당자·기한을 한 시트로 묶어 자사 체계의 빈 곳을 찾는다&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/2-policy-templates/"&gt;정책·절차 템플릿&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;금융 변형 정책, 반입 절차, 사용 승인 양식, 망분리 예외 자체 위험평가서의 골격을 제공한다&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/3-audit-evidence/"&gt;감사 증적 목록&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;내외부감사와 감독 검사에서 요구되는 증적과 보관 위치를 체크리스트로 정리한다&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/4-tool-recipe/"&gt;도구 구축 레시피&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;폐쇄망 온프레미스 SBOM·취약점 도구를 docker-compose로 구축·연동하는 예제를 제공한다&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;활용 안내&lt;/div&gt;
+&lt;p&gt;산출물은 기존 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/templates/"&gt;정책·절차 템플릿&lt;/a&gt; 가이드를 금융 맥락으로 보강한 것이다.
+일반 실무 양식은 기존 템플릿을, 금융권 고유 항목(반입 통제, 망분리 예외 위험평가, 외주
+SBOM 요구)은 이 산출물을 함께 쓴다.&lt;/p&gt;</description></item></channel></rss>

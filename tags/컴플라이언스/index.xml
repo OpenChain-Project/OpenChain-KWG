@@ -23,4 +23,17 @@
 &lt;li&gt;&lt;strong&gt;다양한 출력 형식&lt;/strong&gt;: Excel, SPDX, CycloneDX, YAML, CSV&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="fosslight-hub-설치"&gt;FOSSLight Hub 설치&lt;/h2&gt;
-&lt;p&gt;Docker Compose를 사용합니다. 공식 저장소를 clone하여 실행합니다.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Docker Compose를 사용합니다. 공식 저장소를 clone하여 실행합니다.&lt;/p&gt;</description></item><item><title>금융분야 오픈소스 관리 실무 가이드</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
+&lt;p&gt;금융권은 오픈소스를 점점 더 많이 쓰면서도 폐쇄망, 망분리 규제, 공급망 보안, 감사 대응이라는
+고유한 조건 아래에서 관리해야 한다. 이 가이드는 금융분야 오픈소스 소프트웨어 활용·관리
+안내서(금융감독원·금융보안원, 2022)가 제시한 관리 절차를 국제표준 ISO/IEC 5230·18974의
+입증자료, 그리고 기존 KWG 실무 가이드와 연결해, 담당자가 무엇을 어떤 순서로 갖춰야 하는지를
+실행 가능한 형태로 안내한다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Author : OpenChain Korea Work Group / &lt;a href="https://creativecommons.org/licenses/by/4.0/"&gt;CC BY 4.0&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;본 가이드의 성격과 범위&lt;/div&gt;
+&lt;p&gt;이 가이드는 금융분야 오픈소스 소프트웨어 활용·관리 안내서(이하 FSEC 안내서)를 대체하지
+않는다. 안내서가 정한 절차를 실제로 운영하도록 돕는 보조 자료다. 안내서가 비규제 자율
+안내이듯, 이 가이드의 권고도 법적 의무가 아니라 모범 실무다.&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>폐쇄망 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%ED%8F%90%EC%87%84%EB%A7%9D/</link><description>Recent content in 폐쇄망 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%ED%8F%90%EC%87%84%EB%A7%9D/index.xml" rel="self" type="application/rss+xml"/><item><title>폐쇄망 운영과 망분리 전환</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/0-closed-network/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/0-closed-network/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;이 페이지의 위치&lt;/div&gt;
+&lt;p&gt;이 가이드는 금융권의 오픈소스 활용·관리를 다룬다. 그 출발점이 폐쇄망이다.
+반입·사내 미러·오프라인 취약점 관리는 식별, 사용 승인, 관리 등 모든 단계의 전제가 되므로,
+여기에서 한 번 설명하고 각 단계 페이지에서는 &amp;ldquo;폐쇄망 적용 시&amp;rdquo; 박스로 이 페이지를 가리킨다.&lt;/p&gt;
+&lt;p&gt;여기서 만드는 문서: 반입 절차서와 반입 승인 기록, 망분리 예외 자체 위험평가서.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="왜-폐쇄망을-먼저-다루는가"&gt;왜 폐쇄망을 먼저 다루는가&lt;/h2&gt;
+&lt;p&gt;일반적인 오픈소스 실무는 인터넷 연결을 전제한다. 패키지 관리자로 의존성을 내려받고,
+온라인 취약점 데이터베이스를 조회하며, 클라우드 기반 스캐너를 쓴다. 금융권의 중요 업무망과
+핵심 시스템에서는 이 전제가 성립하지 않는다. 외부 통신이 차단된 환경에서는 오픈소스를
+들여오는 일 자체가 통제 대상이 되고, 취약점 정보를 어떻게 얻을지가 먼저 풀어야 할 문제가 된다.&lt;/p&gt;</description></item><item><title>도구 구축 레시피</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/4-tool-recipe/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/4-tool-recipe/</guid><description>&lt;p&gt;이 레시피는 폐쇄망에서 SBOM(Software Bill of Materials) 생성과 지속 취약점 감시를 구축하는
+예제다. 빠른 출발점으로 기존 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/8-cdxgen-dt/"&gt;cdxgen과 Dependency-Track 파이프라인 튜토리얼&lt;/a&gt;을
+금융권 기준으로 정리했다. 특정 제품을 권하기보다, 오픈소스·온프레미스 도구로 구축하는 방법을
+보여 주는 것이 목적이다.&lt;/p&gt;
+&lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;폐쇄망 전제&lt;/div&gt;
+&lt;p&gt;아래 예제는 도구 이미지를 내려받는 단계를 포함한다. 폐쇄망에서는 이미지와 취약점
+데이터베이스를 외부에서 받아 사내 컨테이너 레지스트리와 미러로 옮긴 뒤 내부에서만 받도록
+구성한다. 반입 절차는 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/0-closed-network/#%eb%b0%98%ec%9e%85-%ed%86%b5%ec%a0%9c"&gt;폐쇄망 운영&lt;/a&gt;을 참고한다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="dependency-track-구축"&gt;Dependency-Track 구축&lt;/h2&gt;
+&lt;p&gt;Dependency-Track은 SBOM을 등록해 두면 취약점 데이터베이스가 갱신될 때마다 영향받는 컴포넌트를
+자동으로 다시 평가한다. 운영 시스템의 지속 모니터링에 쓴다. 아래는 API 서버와 프런트엔드를
+함께 띄우는 docker-compose 예제다.&lt;/p&gt;</description></item></channel></rss>

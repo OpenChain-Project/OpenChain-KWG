@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>사용 승인 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%82%AC%EC%9A%A9-%EC%8A%B9%EC%9D%B8/</link><description>Recent content in 사용 승인 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%82%AC%EC%9A%A9-%EC%8A%B9%EC%9D%B8/index.xml" rel="self" type="application/rss+xml"/><item><title>사용 승인: 무엇을 어떤 근거로 허용하는가</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/4-approve/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/4-approve/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;이 페이지의 위치&lt;/div&gt;
+&lt;p&gt;식별과 이슈 해결을 거친 오픈소스를 실제로 쓸지 결정하는 단계다. 승인은 한 사람의 판단이
+아니라 정해진 절차와 기록으로 이뤄져야 한다. FSEC 안내서의 세 번째 절차이고, ISO/IEC 5230의
+라이선스 의무 검토(3.1.5)와 거버넌스에 연결된다.&lt;/p&gt;
+&lt;p&gt;여기서 만드는 문서: 승인 신청·검토·결정 기록, 외주 계약의 오픈소스 요구 조항.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="사용-승인-워크플로"&gt;사용 승인 워크플로&lt;/h2&gt;
+&lt;p&gt;사용 승인은 &amp;ldquo;이 오픈소스를 이 용도로 써도 되는가&amp;quot;에 답하는 절차다. 답의 근거는 앞 단계에서
+나온다. 식별로 무엇인지 알고, 이슈 파악·해결로 취약점과 라이선스 의무를 파악한 뒤, 그 결과를
+놓고 승인 여부를 정한다.&lt;/p&gt;</description></item></channel></rss>

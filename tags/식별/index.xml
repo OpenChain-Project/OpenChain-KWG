@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>식별 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%8B%9D%EB%B3%84/</link><description>Recent content in 식별 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%8B%9D%EB%B3%84/index.xml" rel="self" type="application/rss+xml"/><item><title>식별: 쓰고 있는 오픈소스를 빠짐없이 찾기</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/2-identify/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/2-identify/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;이 페이지의 위치&lt;/div&gt;
+&lt;p&gt;식별은 관리의 출발점이다. 무엇을 쓰는지 모르면 취약점도 라이선스 의무도 관리할 수 없다.
+FSEC 안내서의 첫 절차이고, ISO/IEC 5230의 SBOM 관리(3.3.1)가 요구하는 활동이다.&lt;/p&gt;
+&lt;p&gt;여기서 만드는 문서: SBOM, 운영 자산 인벤토리.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="무엇을-식별하는가"&gt;무엇을 식별하는가&lt;/h2&gt;
+&lt;p&gt;오픈소스를 식별한다는 것은 세 종류를 모두 찾아낸다는 뜻이다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;신규로 들여오는 오픈소스. 개발자가 새로 도입하는 라이브러리와 그 의존성.&lt;/li&gt;
+&lt;li&gt;이미 운영 중인 시스템에 들어 있는 오픈소스. 도입 시점에 기록하지 못한 레거시.&lt;/li&gt;
+&lt;li&gt;외주 개발사나 전자금융보조업자가 만든 산출물에 포함된 오픈소스. 외주 개발사(업무를 위탁받은
+수탁자)와 전자금융보조업자(전자금융거래법상 금융회사를 위해 전자금융거래를 보조하는 자)는
+법적으로 다른 범주지만, 산출물의 오픈소스를 식별해야 한다는 점은 같다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;직접 선언한 의존성만이 아니라 그것이 끌어오는 전이 의존성까지 펼쳐야 한다. 실제 위험은
+대부분 직접 보지 않는 하위 의존성에 숨어 있다.&lt;/p&gt;</description></item></channel></rss>

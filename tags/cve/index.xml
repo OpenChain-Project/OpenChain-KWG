@@ -3,4 +3,13 @@
 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;★ 18974 전용 항목 — Documented Evidence 강도&lt;/div&gt;
-&lt;p&gt;§4.3.2.1과 §4.3.2.2는 ISO 18974 전용(★) 항목으로 &lt;strong&gt;Documented Evidence&lt;/strong&gt;(문서화된 증거)를 요구한다. 단순 &amp;ldquo;취약점 대응 절차 문서&amp;quot;가 아니라 &lt;strong&gt;각 CVE에 대한 실제 수행 기록&lt;/strong&gt;(스캔 결과, CVSS 점수, 조치 이력, VEX 발행, 고객 통보 이력 등)을 보관해야 한다. 강도 차이의 자세한 설명은 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/5-standard-practice/#iso-18974-%ec%a0%84%ec%9a%a9-%ed%95%ad%eb%aa%a9%ec%9d%98-%ea%b0%95%eb%8f%84--documented-evidence"&gt;§4.1.5 표준 관행 — Documented Evidence 안내&lt;/a&gt;를 참고한다.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;§4.3.2.1과 §4.3.2.2는 ISO 18974 전용(★) 항목으로 &lt;strong&gt;Documented Evidence&lt;/strong&gt;(문서화된 증거)를 요구한다. 단순 &amp;ldquo;취약점 대응 절차 문서&amp;quot;가 아니라 &lt;strong&gt;각 CVE에 대한 실제 수행 기록&lt;/strong&gt;(스캔 결과, CVSS 점수, 조치 이력, VEX 발행, 고객 통보 이력 등)을 보관해야 한다. 강도 차이의 자세한 설명은 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/5-standard-practice/#iso-18974-%ec%a0%84%ec%9a%a9-%ed%95%ad%eb%aa%a9%ec%9d%98-%ea%b0%95%eb%8f%84--documented-evidence"&gt;§4.1.5 표준 관행 — Documented Evidence 안내&lt;/a&gt;를 참고한다.&lt;/p&gt;</description></item><item><title>이슈 파악과 해결: 취약점과 라이선스</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/3-issue-resolve/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/3-issue-resolve/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;이 페이지의 위치&lt;/div&gt;
+&lt;p&gt;식별로 무엇을 쓰는지 파악했다면, 그다음은 거기서 나오는 이슈를 풀어야 한다. 이슈는 두
+종류다. 보안 취약점과 라이선스 의무다. FSEC 안내서의 두 번째 절차이고, ISO/IEC 18974의
+취약점 탐지·해결(4.3.2)과 ISO/IEC 5230의 라이선스 사용 사례 처리(3.3.2)에 대응한다.&lt;/p&gt;
+&lt;p&gt;여기서 만드는 문서: 취약점 조치 기록(VEX 포함), 심각도별 대응 기한 기준.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="취약점-탐지에서-조치까지"&gt;취약점 탐지에서 조치까지&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 18974는 SBOM(Software Bill of Materials)에 담긴 각 오픈소스 컴포넌트에 보안 보증
+활동을 적용하도록 요구한다. 탐지부터 해결까지의 전 과정을 절차로 만들고, 각 취약점에 대한
+수행 기록을 남겨야 한다. 절차는 다음 흐름을 따른다. &lt;strong&gt;[ISO 요구]&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

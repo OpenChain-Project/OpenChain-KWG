@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>워크북 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%9B%8C%ED%81%AC%EB%B6%81/</link><description>Recent content in 워크북 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%9B%8C%ED%81%AC%EB%B6%81/index.xml" rel="self" type="application/rss+xml"/><item><title>자가점검 워크북</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/1-workbook/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/1-workbook/</guid><description>&lt;p&gt;이 워크북은 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/6-self-check/"&gt;자가점검&lt;/a&gt; 페이지의 점검 항목을 기록용 양식으로 옮긴 것이다.
+점검만 하고 끝내지 않고, 부족한 부분의 담당자와 기한을 적어 개선 계획으로 잇기 위한 것이다.&lt;/p&gt;
+&lt;h2 id="쓰는-방법"&gt;쓰는 방법&lt;/h2&gt;
+&lt;p&gt;각 항목의 충족 상태를 세 단계로 표시한다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;미충족: 관련 활동이나 문서가 없다.&lt;/li&gt;
+&lt;li&gt;부분 충족: 활동은 있으나 문서나 기록이 부족하다.&lt;/li&gt;
+&lt;li&gt;충족: 활동과 근거 문서를 모두 갖췄다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;부분 충족이나 미충족 항목에는 근거 문서가 무엇이어야 하는지, 누가 언제까지 갖출지를 적는다.
+충족 항목에는 근거 문서의 이름과 위치를 적어, 그대로 ISO 자가 인증의 입증자료로 쓸 수 있게 한다.&lt;/p&gt;</description></item><item><title>산출물: 바로 쓰는 양식과 레시피</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/</guid><description>&lt;p&gt;이 가이드는 본문과 함께 바로 쓸 수 있는 네 가지 산출물을 제공한다. 본문이 &amp;ldquo;무엇을 왜
+하는지&amp;quot;를 설명한다면, 산출물은 &amp;ldquo;그것을 어떤 양식으로 남기는지&amp;quot;를 채워 준다. 각 산출물은
+조직 상황에 맞게 고쳐 쓰는 것을 전제로 한다.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;산출물&lt;/th&gt;
+					&lt;th&gt;쓰임&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/1-workbook/"&gt;자가점검 워크북&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;점검 항목, ISO 입증자료, 충족 상태·담당자·기한을 한 시트로 묶어 자사 체계의 빈 곳을 찾는다&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/2-policy-templates/"&gt;정책·절차 템플릿&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;금융 변형 정책, 반입 절차, 사용 승인 양식, 망분리 예외 자체 위험평가서의 골격을 제공한다&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/3-audit-evidence/"&gt;감사 증적 목록&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;내외부감사와 감독 검사에서 요구되는 증적과 보관 위치를 체크리스트로 정리한다&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/4-tool-recipe/"&gt;도구 구축 레시피&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;폐쇄망 온프레미스 SBOM·취약점 도구를 docker-compose로 구축·연동하는 예제를 제공한다&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;활용 안내&lt;/div&gt;
+&lt;p&gt;산출물은 기존 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/templates/"&gt;정책·절차 템플릿&lt;/a&gt; 가이드를 금융 맥락으로 보강한 것이다.
+일반 실무 양식은 기존 템플릿을, 금융권 고유 항목(반입 통제, 망분리 예외 위험평가, 외주
+SBOM 요구)은 이 산출물을 함께 쓴다.&lt;/p&gt;</description></item></channel></rss>

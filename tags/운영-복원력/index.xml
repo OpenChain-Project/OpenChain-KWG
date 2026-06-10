@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>운영 복원력 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%9A%B4%EC%98%81-%EB%B3%B5%EC%9B%90%EB%A0%A5/</link><description>Recent content in 운영 복원력 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%9A%B4%EC%98%81-%EB%B3%B5%EC%9B%90%EB%A0%A5/index.xml" rel="self" type="application/rss+xml"/><item><title>관리: 사내 운영 시스템의 지속 점검과 감사 대응</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/5-manage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/5-manage/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;이 페이지의 위치&lt;/div&gt;
+&lt;p&gt;도입 시점에 한 번 점검하고 끝내면 관리가 아니다. 오픈소스 위험은 운영 내내 이어지고,
+새 취약점은 도입 뒤에 공개된다. FSEC 안내서의 마지막 절차인 관리(모니터링) 단계이고, ISO/IEC
+18974의 지속 모니터링에 대응한다. 금융권에서 비중이 가장 큰 단계다.&lt;/p&gt;
+&lt;p&gt;여기서 만드는 문서: 정기 재평가 기록, 감사 증적 묶음.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="배포-소프트웨어와-사내-운영-시스템의-구분"&gt;배포 소프트웨어와 사내 운영 시스템의 구분&lt;/h2&gt;
+&lt;p&gt;오픈소스 관리의 초점은 흔히 외부로 배포하는 소프트웨어에 맞춰진다. 배포가 라이선스 의무를
+일으키기 때문이다. 그러나 금융권에서 오픈소스가 가장 많이 쓰이는 곳은 외부로 배포되지 않는
+사내 운영 시스템이다. 계정계와 정보계, 사내 금융 관리 시스템, 내부 서버가 그렇다. 이 가이드는
+두 범위를 나눠 다룬다.&lt;/p&gt;</description></item></channel></rss>

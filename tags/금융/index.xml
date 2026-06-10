@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>금융 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EA%B8%88%EC%9C%B5/</link><description>Recent content in 금융 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EA%B8%88%EC%9C%B5/index.xml" rel="self" type="application/rss+xml"/><item><title>30th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2026/30th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2026/30th/</guid><description>&lt;style&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>금융 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EA%B8%88%EC%9C%B5/</link><description>Recent content in 금융 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EA%B8%88%EC%9C%B5/index.xml" rel="self" type="application/rss+xml"/><item><title>폐쇄망 운영과 망분리 전환</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/0-closed-network/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/0-closed-network/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;이 페이지의 위치&lt;/div&gt;
+&lt;p&gt;이 가이드는 금융권의 오픈소스 활용·관리를 다룬다. 그 출발점이 폐쇄망이다.
+반입·사내 미러·오프라인 취약점 관리는 식별, 사용 승인, 관리 등 모든 단계의 전제가 되므로,
+여기에서 한 번 설명하고 각 단계 페이지에서는 &amp;ldquo;폐쇄망 적용 시&amp;rdquo; 박스로 이 페이지를 가리킨다.&lt;/p&gt;
+&lt;p&gt;여기서 만드는 문서: 반입 절차서와 반입 승인 기록, 망분리 예외 자체 위험평가서.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="왜-폐쇄망을-먼저-다루는가"&gt;왜 폐쇄망을 먼저 다루는가&lt;/h2&gt;
+&lt;p&gt;일반적인 오픈소스 실무는 인터넷 연결을 전제한다. 패키지 관리자로 의존성을 내려받고,
+온라인 취약점 데이터베이스를 조회하며, 클라우드 기반 스캐너를 쓴다. 금융권의 중요 업무망과
+핵심 시스템에서는 이 전제가 성립하지 않는다. 외부 통신이 차단된 환경에서는 오픈소스를
+들여오는 일 자체가 통제 대상이 되고, 취약점 정보를 어떻게 얻을지가 먼저 풀어야 할 문제가 된다.&lt;/p&gt;</description></item><item><title>자가점검 워크북</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/1-workbook/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/1-workbook/</guid><description>&lt;p&gt;이 워크북은 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/6-self-check/"&gt;자가점검&lt;/a&gt; 페이지의 점검 항목을 기록용 양식으로 옮긴 것이다.
+점검만 하고 끝내지 않고, 부족한 부분의 담당자와 기한을 적어 개선 계획으로 잇기 위한 것이다.&lt;/p&gt;
+&lt;h2 id="쓰는-방법"&gt;쓰는 방법&lt;/h2&gt;
+&lt;p&gt;각 항목의 충족 상태를 세 단계로 표시한다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;미충족: 관련 활동이나 문서가 없다.&lt;/li&gt;
+&lt;li&gt;부분 충족: 활동은 있으나 문서나 기록이 부족하다.&lt;/li&gt;
+&lt;li&gt;충족: 활동과 근거 문서를 모두 갖췄다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;부분 충족이나 미충족 항목에는 근거 문서가 무엇이어야 하는지, 누가 언제까지 갖출지를 적는다.
+충족 항목에는 근거 문서의 이름과 위치를 적어, 그대로 ISO 자가 인증의 입증자료로 쓸 수 있게 한다.&lt;/p&gt;</description></item><item><title>거버넌스: 관리 조직과 승인 체계</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/1-governance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/1-governance/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;이 페이지의 위치&lt;/div&gt;
+&lt;p&gt;거버넌스는 오픈소스 관리의 기반이다. 누가 책임지고, 누가 검토하며, 누가 승인하는지를 먼저
+정해야 식별, 사용 승인, 관리 단계가 작동한다. FSEC 안내서도 관리 절차에 앞서 관리 조직
+구성과 역할을 별도로 다룬다.&lt;/p&gt;
+&lt;p&gt;여기서 만드는 문서: 오픈소스 정책, 역할·책임 목록과 담당자 지정 기록.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="금융권-거버넌스의-출발점"&gt;금융권 거버넌스의 출발점&lt;/h2&gt;
+&lt;p&gt;금융분야 오픈소스 소프트웨어 활용·관리 안내서(금융감독원·금융보안원, 2022, 이하 FSEC
+안내서)는 관리 조직의 구성과
+운영, 역할 사례를 제시한다. ISO/IEC 5230은 이를 입증자료로 요구한다. 문서화된 정책(3.1.1.1),
+역할과 책임 목록(3.1.2.1), 역할 담당자 명시(3.2.2.1), 법률 자문 접근 방법(3.2.2.3)이 그것이다.
+거버넌스는 이 입증자료들을 만들어 내는 활동이다.&lt;/p&gt;</description></item><item><title>정책·절차 템플릿</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/2-policy-templates/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/2-policy-templates/</guid><description>&lt;p&gt;여기 담은 양식은 금융권 고유 항목을 보강한 골격이다. 일반 오픈소스 정책과 프로세스 양식은
+기존 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/templates/"&gt;정책·절차 템플릿&lt;/a&gt; 가이드를 쓰고, 금융권에서 추가로 필요한 반입
+통제, 망분리 예외 위험평가, 외주 SBOM 요구는 아래 양식으로 채운다.&lt;/p&gt;
+&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;활용 안내&lt;/div&gt;
+&lt;p&gt;아래 골격은 그대로 쓰는 완성본이 아니라 채워 넣을 틀이다. 대괄호로 표시한 부분은 조직
+상황에 맞게 바꾼다. 발행 전 사내 법무·보안 검토를 거친다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="금융-오픈소스-정책-보강-항목"&gt;금융 오픈소스 정책 (보강 항목)&lt;/h2&gt;
+&lt;p&gt;기존 오픈소스 정책에 금융권 고유 항목을 더한다. 아래는 정책에 포함할 항목의 골격이다.&lt;/p&gt;</description></item><item><title>식별: 쓰고 있는 오픈소스를 빠짐없이 찾기</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/2-identify/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/2-identify/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;이 페이지의 위치&lt;/div&gt;
+&lt;p&gt;식별은 관리의 출발점이다. 무엇을 쓰는지 모르면 취약점도 라이선스 의무도 관리할 수 없다.
+FSEC 안내서의 첫 절차이고, ISO/IEC 5230의 SBOM 관리(3.3.1)가 요구하는 활동이다.&lt;/p&gt;
+&lt;p&gt;여기서 만드는 문서: SBOM, 운영 자산 인벤토리.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="무엇을-식별하는가"&gt;무엇을 식별하는가&lt;/h2&gt;
+&lt;p&gt;오픈소스를 식별한다는 것은 세 종류를 모두 찾아낸다는 뜻이다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;신규로 들여오는 오픈소스. 개발자가 새로 도입하는 라이브러리와 그 의존성.&lt;/li&gt;
+&lt;li&gt;이미 운영 중인 시스템에 들어 있는 오픈소스. 도입 시점에 기록하지 못한 레거시.&lt;/li&gt;
+&lt;li&gt;외주 개발사나 전자금융보조업자가 만든 산출물에 포함된 오픈소스. 외주 개발사(업무를 위탁받은
+수탁자)와 전자금융보조업자(전자금융거래법상 금융회사를 위해 전자금융거래를 보조하는 자)는
+법적으로 다른 범주지만, 산출물의 오픈소스를 식별해야 한다는 점은 같다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;직접 선언한 의존성만이 아니라 그것이 끌어오는 전이 의존성까지 펼쳐야 한다. 실제 위험은
+대부분 직접 보지 않는 하위 의존성에 숨어 있다.&lt;/p&gt;</description></item><item><title>30th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2026/30th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2026/30th/</guid><description>&lt;style&gt;
 /* 회차별 스폰서 색 — 다음 회차는 이 두 값만 그 스폰서 색으로 교체. */
 .td-content { --accent: #ffd400; --ink: #1a1500; }
 &lt;/style&gt;
@@ -109,4 +163,204 @@
  &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2 id="openchain-updates-글로벌-동향"&gt;OpenChain Updates: 글로벌 동향&lt;/h2&gt;
-&lt;p&gt;OpenChain Updates 시간에는 OpenChain Project 총괄 디렉터 Mary Wang이 원격으로 참여해 글로벌 동향을 공유했습니다. 표준 운영 현황과 함께, OpenChain을 CRA(EU 사이버 복원력법)와 AI 규제 대응을 연결하는 핵심 기반으로 설명했습니다.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;OpenChain Updates 시간에는 OpenChain Project 총괄 디렉터 Mary Wang이 원격으로 참여해 글로벌 동향을 공유했습니다. 표준 운영 현황과 함께, OpenChain을 CRA(EU 사이버 복원력법)와 AI 규제 대응을 연결하는 핵심 기반으로 설명했습니다.&lt;/p&gt;</description></item><item><title>감사 증적 목록</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/3-audit-evidence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/3-audit-evidence/</guid><description>&lt;p&gt;금융권은 내외부감사와 금융감독원의 정보기술(IT) 검사에 대비해 오픈소스 관리 활동의 증적을
+보관해야 한다. 관리 단계의 점검 기록이 그대로 증적이 되므로, 따로 만들지 말고 평소 활동에서
+나오는 기록을 체계적으로 모은다. 자세한 맥락은 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/5-manage/#%ea%b0%90%ec%82%ac-%ec%a6%9d%ec%a0%81-%ea%b4%80%eb%a6%ac"&gt;관리&lt;/a&gt;를 참고한다.&lt;/p&gt;
+&lt;h2 id="증적-체크리스트"&gt;증적 체크리스트&lt;/h2&gt;
+&lt;p&gt;아래 증적은 ISO/IEC 5230·18974의 입증자료와 겹친다. ISO 자가 인증을 준비하며 만든 문서가
+그대로 감사 증적이 된다. 보관 위치와 기간은 조직 규정에 맞게 정한다.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;증적&lt;/th&gt;
+					&lt;th&gt;생성 활동&lt;/th&gt;
+					&lt;th&gt;관련 ISO 입증자료&lt;/th&gt;
+					&lt;th&gt;보관 위치(예시)&lt;/th&gt;
+					&lt;th&gt;비고&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;오픈소스 정책 문서와 개정 이력&lt;/td&gt;
+					&lt;td&gt;거버넌스&lt;/td&gt;
+					&lt;td&gt;5230 3.1.1.1&lt;/td&gt;
+					&lt;td&gt;문서 관리 시스템&lt;/td&gt;
+					&lt;td&gt;버전 이력 포함&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;역할·책임 문서, 담당자 지정 기록&lt;/td&gt;
+					&lt;td&gt;거버넌스&lt;/td&gt;
+					&lt;td&gt;5230 3.1.2.1, 3.2.2.1&lt;/td&gt;
+					&lt;td&gt;문서 관리 시스템&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;SBOM과 갱신 이력&lt;/td&gt;
+					&lt;td&gt;식별&lt;/td&gt;
+					&lt;td&gt;5230 3.3.1.1, 3.3.1.2&lt;/td&gt;
+					&lt;td&gt;SBOM 관리 도구&lt;/td&gt;
+					&lt;td&gt;시스템별&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;취약점 점검 결과&lt;/td&gt;
+					&lt;td&gt;이슈 파악·해결&lt;/td&gt;
+					&lt;td&gt;18974 4.3.2.1, 4.3.2.2&lt;/td&gt;
+					&lt;td&gt;취약점 관리 도구&lt;/td&gt;
+					&lt;td&gt;날짜별&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;취약점 조치 기록(조치 불필요 판단 포함)&lt;/td&gt;
+					&lt;td&gt;이슈 파악·해결&lt;/td&gt;
+					&lt;td&gt;18974 4.3.2.2&lt;/td&gt;
+					&lt;td&gt;취약점 관리 도구&lt;/td&gt;
+					&lt;td&gt;VEX 포함&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;라이선스 검토 기록&lt;/td&gt;
+					&lt;td&gt;이슈 파악·해결&lt;/td&gt;
+					&lt;td&gt;5230 3.3.2.1&lt;/td&gt;
+					&lt;td&gt;문서 관리 시스템&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;사용 승인 신청·검토·결정 기록&lt;/td&gt;
+					&lt;td&gt;사용 승인&lt;/td&gt;
+					&lt;td&gt;5230 3.1.5.1&lt;/td&gt;
+					&lt;td&gt;승인 관리 도구&lt;/td&gt;
+					&lt;td&gt;위원회 결정 근거&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;망분리 예외 자체 위험평가서&lt;/td&gt;
+					&lt;td&gt;사용 승인&lt;/td&gt;
+					&lt;td&gt;(전자금융감독규정)&lt;/td&gt;
+					&lt;td&gt;문서 관리 시스템&lt;/td&gt;
+					&lt;td&gt;정보보호위원회(CISO) 승인 이력, 재평가 이력&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;반입 승인 기록&lt;/td&gt;
+					&lt;td&gt;폐쇄망 운영&lt;/td&gt;
+					&lt;td&gt;—&lt;/td&gt;
+					&lt;td&gt;문서 관리 시스템&lt;/td&gt;
+					&lt;td&gt;검증 결과 포함&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;정기 재평가 결과&lt;/td&gt;
+					&lt;td&gt;관리&lt;/td&gt;
+					&lt;td&gt;18974 4.1.2.5&lt;/td&gt;
+					&lt;td&gt;문서 관리 시스템&lt;/td&gt;
+					&lt;td&gt;주기별&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;컴플라이언스 산출물(고지문 등)&lt;/td&gt;
+					&lt;td&gt;관리&lt;/td&gt;
+					&lt;td&gt;5230 3.4.1.1, 3.4.1.2&lt;/td&gt;
+					&lt;td&gt;배포 산출물 저장소&lt;/td&gt;
+					&lt;td&gt;배포 소프트웨어&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;외주 계약의 오픈소스 요구 조항과 제출 SBOM&lt;/td&gt;
+					&lt;td&gt;사용 승인&lt;/td&gt;
+					&lt;td&gt;(전자금융감독규정 제21조 내부통제)&lt;/td&gt;
+					&lt;td&gt;계약 관리 시스템&lt;/td&gt;
+					&lt;td&gt;전자금융보조업자&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="보관관리-원칙"&gt;보관·관리 원칙&lt;/h2&gt;
+&lt;p&gt;증적은 만드는 것만큼 지키는 것이 중요하다.&lt;/p&gt;</description></item><item><title>이슈 파악과 해결: 취약점과 라이선스</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/3-issue-resolve/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/3-issue-resolve/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;이 페이지의 위치&lt;/div&gt;
+&lt;p&gt;식별로 무엇을 쓰는지 파악했다면, 그다음은 거기서 나오는 이슈를 풀어야 한다. 이슈는 두
+종류다. 보안 취약점과 라이선스 의무다. FSEC 안내서의 두 번째 절차이고, ISO/IEC 18974의
+취약점 탐지·해결(4.3.2)과 ISO/IEC 5230의 라이선스 사용 사례 처리(3.3.2)에 대응한다.&lt;/p&gt;
+&lt;p&gt;여기서 만드는 문서: 취약점 조치 기록(VEX 포함), 심각도별 대응 기한 기준.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="취약점-탐지에서-조치까지"&gt;취약점 탐지에서 조치까지&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 18974는 SBOM(Software Bill of Materials)에 담긴 각 오픈소스 컴포넌트에 보안 보증
+활동을 적용하도록 요구한다. 탐지부터 해결까지의 전 과정을 절차로 만들고, 각 취약점에 대한
+수행 기록을 남겨야 한다. 절차는 다음 흐름을 따른다. &lt;strong&gt;[ISO 요구]&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>도구 구축 레시피</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/4-tool-recipe/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/4-tool-recipe/</guid><description>&lt;p&gt;이 레시피는 폐쇄망에서 SBOM(Software Bill of Materials) 생성과 지속 취약점 감시를 구축하는
+예제다. 빠른 출발점으로 기존 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/8-cdxgen-dt/"&gt;cdxgen과 Dependency-Track 파이프라인 튜토리얼&lt;/a&gt;을
+금융권 기준으로 정리했다. 특정 제품을 권하기보다, 오픈소스·온프레미스 도구로 구축하는 방법을
+보여 주는 것이 목적이다.&lt;/p&gt;
+&lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;폐쇄망 전제&lt;/div&gt;
+&lt;p&gt;아래 예제는 도구 이미지를 내려받는 단계를 포함한다. 폐쇄망에서는 이미지와 취약점
+데이터베이스를 외부에서 받아 사내 컨테이너 레지스트리와 미러로 옮긴 뒤 내부에서만 받도록
+구성한다. 반입 절차는 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/0-closed-network/#%eb%b0%98%ec%9e%85-%ed%86%b5%ec%a0%9c"&gt;폐쇄망 운영&lt;/a&gt;을 참고한다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="dependency-track-구축"&gt;Dependency-Track 구축&lt;/h2&gt;
+&lt;p&gt;Dependency-Track은 SBOM을 등록해 두면 취약점 데이터베이스가 갱신될 때마다 영향받는 컴포넌트를
+자동으로 다시 평가한다. 운영 시스템의 지속 모니터링에 쓴다. 아래는 API 서버와 프런트엔드를
+함께 띄우는 docker-compose 예제다.&lt;/p&gt;</description></item><item><title>금융분야 오픈소스 관리 실무 가이드</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
+&lt;p&gt;금융권은 오픈소스를 점점 더 많이 쓰면서도 폐쇄망, 망분리 규제, 공급망 보안, 감사 대응이라는
+고유한 조건 아래에서 관리해야 한다. 이 가이드는 금융분야 오픈소스 소프트웨어 활용·관리
+안내서(금융감독원·금융보안원, 2022)가 제시한 관리 절차를 국제표준 ISO/IEC 5230·18974의
+입증자료, 그리고 기존 KWG 실무 가이드와 연결해, 담당자가 무엇을 어떤 순서로 갖춰야 하는지를
+실행 가능한 형태로 안내한다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Author : OpenChain Korea Work Group / &lt;a href="https://creativecommons.org/licenses/by/4.0/"&gt;CC BY 4.0&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;본 가이드의 성격과 범위&lt;/div&gt;
+&lt;p&gt;이 가이드는 금융분야 오픈소스 소프트웨어 활용·관리 안내서(이하 FSEC 안내서)를 대체하지
+않는다. 안내서가 정한 절차를 실제로 운영하도록 돕는 보조 자료다. 안내서가 비규제 자율
+안내이듯, 이 가이드의 권고도 법적 의무가 아니라 모범 실무다.&lt;/p&gt;</description></item><item><title>사용 승인: 무엇을 어떤 근거로 허용하는가</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/4-approve/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/4-approve/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;이 페이지의 위치&lt;/div&gt;
+&lt;p&gt;식별과 이슈 해결을 거친 오픈소스를 실제로 쓸지 결정하는 단계다. 승인은 한 사람의 판단이
+아니라 정해진 절차와 기록으로 이뤄져야 한다. FSEC 안내서의 세 번째 절차이고, ISO/IEC 5230의
+라이선스 의무 검토(3.1.5)와 거버넌스에 연결된다.&lt;/p&gt;
+&lt;p&gt;여기서 만드는 문서: 승인 신청·검토·결정 기록, 외주 계약의 오픈소스 요구 조항.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="사용-승인-워크플로"&gt;사용 승인 워크플로&lt;/h2&gt;
+&lt;p&gt;사용 승인은 &amp;ldquo;이 오픈소스를 이 용도로 써도 되는가&amp;quot;에 답하는 절차다. 답의 근거는 앞 단계에서
+나온다. 식별로 무엇인지 알고, 이슈 파악·해결로 취약점과 라이선스 의무를 파악한 뒤, 그 결과를
+놓고 승인 여부를 정한다.&lt;/p&gt;</description></item><item><title>관리: 사내 운영 시스템의 지속 점검과 감사 대응</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/5-manage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/5-manage/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;이 페이지의 위치&lt;/div&gt;
+&lt;p&gt;도입 시점에 한 번 점검하고 끝내면 관리가 아니다. 오픈소스 위험은 운영 내내 이어지고,
+새 취약점은 도입 뒤에 공개된다. FSEC 안내서의 마지막 절차인 관리(모니터링) 단계이고, ISO/IEC
+18974의 지속 모니터링에 대응한다. 금융권에서 비중이 가장 큰 단계다.&lt;/p&gt;
+&lt;p&gt;여기서 만드는 문서: 정기 재평가 기록, 감사 증적 묶음.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="배포-소프트웨어와-사내-운영-시스템의-구분"&gt;배포 소프트웨어와 사내 운영 시스템의 구분&lt;/h2&gt;
+&lt;p&gt;오픈소스 관리의 초점은 흔히 외부로 배포하는 소프트웨어에 맞춰진다. 배포가 라이선스 의무를
+일으키기 때문이다. 그러나 금융권에서 오픈소스가 가장 많이 쓰이는 곳은 외부로 배포되지 않는
+사내 운영 시스템이다. 계정계와 정보계, 사내 금융 관리 시스템, 내부 서버가 그렇다. 이 가이드는
+두 범위를 나눠 다룬다.&lt;/p&gt;</description></item><item><title>자가점검: 우리 체계의 빈 곳 찾기</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/6-self-check/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/6-self-check/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;이 페이지의 위치&lt;/div&gt;
+&lt;p&gt;앞의 여섯 단계를 점검표로 모은 자리다. 항목을 하나씩 짚어 자사 체계의 빈 곳을 찾고, 부족한
+부분을 다루는 섹션으로 이동한다. 분류는 FSEC 안내서의 자가점검 체크리스트(별첨1)를 참고했다.&lt;/p&gt;
+&lt;p&gt;여기서 만드는 문서: 자가점검 워크북(점검 결과와 개선 계획).&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="자가점검을-쓰는-방법"&gt;자가점검을 쓰는 방법&lt;/h2&gt;
+&lt;p&gt;이 점검표는 통과·불합격을 가리는 시험이 아니다. 자사가 어디까지 갖췄는지 가늠하고 다음에
+무엇을 할지 찾는 도구다. FSEC 안내서가 비규제 자율 점검이듯, 이 점검표도 모범 실무 기준이다.
+&lt;strong&gt;[FSEC 안내서]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;각 항목은 관련 ISO 입증자료, 권장 도구, 자세히 다루는 가이드 섹션과 연결돼 있다. 충족하지
+못한 항목이 있으면 연결된 섹션으로 가서 방법을 확인한다. FSEC 안내서가 쓰는 다섯 분류, 곧
+식별, 이슈 파악 및 해결, 승인, 관리, 기타의 순서를 따른다.&lt;/p&gt;</description></item><item><title>산출물: 바로 쓰는 양식과 레시피</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/</guid><description>&lt;p&gt;이 가이드는 본문과 함께 바로 쓸 수 있는 네 가지 산출물을 제공한다. 본문이 &amp;ldquo;무엇을 왜
+하는지&amp;quot;를 설명한다면, 산출물은 &amp;ldquo;그것을 어떤 양식으로 남기는지&amp;quot;를 채워 준다. 각 산출물은
+조직 상황에 맞게 고쳐 쓰는 것을 전제로 한다.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;산출물&lt;/th&gt;
+					&lt;th&gt;쓰임&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/1-workbook/"&gt;자가점검 워크북&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;점검 항목, ISO 입증자료, 충족 상태·담당자·기한을 한 시트로 묶어 자사 체계의 빈 곳을 찾는다&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/2-policy-templates/"&gt;정책·절차 템플릿&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;금융 변형 정책, 반입 절차, 사용 승인 양식, 망분리 예외 자체 위험평가서의 골격을 제공한다&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/3-audit-evidence/"&gt;감사 증적 목록&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;내외부감사와 감독 검사에서 요구되는 증적과 보관 위치를 체크리스트로 정리한다&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/artifacts/4-tool-recipe/"&gt;도구 구축 레시피&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;폐쇄망 온프레미스 SBOM·취약점 도구를 docker-compose로 구축·연동하는 예제를 제공한다&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;활용 안내&lt;/div&gt;
+&lt;p&gt;산출물은 기존 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/templates/"&gt;정책·절차 템플릿&lt;/a&gt; 가이드를 금융 맥락으로 보강한 것이다.
+일반 실무 양식은 기존 템플릿을, 금융권 고유 항목(반입 통제, 망분리 예외 위험평가, 외주
+SBOM 요구)은 이 산출물을 함께 쓴다.&lt;/p&gt;</description></item></channel></rss>

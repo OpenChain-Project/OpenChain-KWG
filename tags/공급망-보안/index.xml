@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>공급망 보안 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EA%B3%B5%EA%B8%89%EB%A7%9D-%EB%B3%B4%EC%95%88/</link><description>Recent content in 공급망 보안 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EA%B3%B5%EA%B8%89%EB%A7%9D-%EB%B3%B4%EC%95%88/index.xml" rel="self" type="application/rss+xml"/><item><title>폐쇄망 운영과 망분리 전환</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/0-closed-network/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/0-closed-network/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;이 페이지의 위치&lt;/div&gt;
+&lt;p&gt;이 가이드는 금융권의 오픈소스 활용·관리를 다룬다. 그 출발점이 폐쇄망이다.
+반입·사내 미러·오프라인 취약점 관리는 식별, 사용 승인, 관리 등 모든 단계의 전제가 되므로,
+여기에서 한 번 설명하고 각 단계 페이지에서는 &amp;ldquo;폐쇄망 적용 시&amp;rdquo; 박스로 이 페이지를 가리킨다.&lt;/p&gt;
+&lt;p&gt;여기서 만드는 문서: 반입 절차서와 반입 승인 기록, 망분리 예외 자체 위험평가서.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="왜-폐쇄망을-먼저-다루는가"&gt;왜 폐쇄망을 먼저 다루는가&lt;/h2&gt;
+&lt;p&gt;일반적인 오픈소스 실무는 인터넷 연결을 전제한다. 패키지 관리자로 의존성을 내려받고,
+온라인 취약점 데이터베이스를 조회하며, 클라우드 기반 스캐너를 쓴다. 금융권의 중요 업무망과
+핵심 시스템에서는 이 전제가 성립하지 않는다. 외부 통신이 차단된 환경에서는 오픈소스를
+들여오는 일 자체가 통제 대상이 되고, 취약점 정보를 어떻게 얻을지가 먼저 풀어야 할 문제가 된다.&lt;/p&gt;</description></item><item><title>금융분야 오픈소스 관리 실무 가이드</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
+&lt;p&gt;금융권은 오픈소스를 점점 더 많이 쓰면서도 폐쇄망, 망분리 규제, 공급망 보안, 감사 대응이라는
+고유한 조건 아래에서 관리해야 한다. 이 가이드는 금융분야 오픈소스 소프트웨어 활용·관리
+안내서(금융감독원·금융보안원, 2022)가 제시한 관리 절차를 국제표준 ISO/IEC 5230·18974의
+입증자료, 그리고 기존 KWG 실무 가이드와 연결해, 담당자가 무엇을 어떤 순서로 갖춰야 하는지를
+실행 가능한 형태로 안내한다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Author : OpenChain Korea Work Group / &lt;a href="https://creativecommons.org/licenses/by/4.0/"&gt;CC BY 4.0&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;본 가이드의 성격과 범위&lt;/div&gt;
+&lt;p&gt;이 가이드는 금융분야 오픈소스 소프트웨어 활용·관리 안내서(이하 FSEC 안내서)를 대체하지
+않는다. 안내서가 정한 절차를 실제로 운영하도록 돕는 보조 자료다. 안내서가 비규제 자율
+안내이듯, 이 가이드의 권고도 법적 의무가 아니라 모범 실무다.&lt;/p&gt;</description></item></channel></rss>
