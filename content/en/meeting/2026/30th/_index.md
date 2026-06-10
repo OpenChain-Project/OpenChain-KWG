@@ -78,6 +78,7 @@ aliases:
     <div class="kwg-conf-tl__body">
       <div class="kwg-conf-tl__title">Session 1. AI-driven Open Source Governance</div>
       <div class="kwg-conf-tl__by">Heonkwan Ha · KakaoBank</div>
+      <a class="kwg-conf-tl__slide" href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/30th-session1-ai-driven-oss-governance.pdf" target="_blank" rel="noopener">Slides (PDF)</a>
     </div>
   </div>
   <div class="kwg-conf-tl kwg-conf-tl--muted">
@@ -94,6 +95,7 @@ aliases:
     <div class="kwg-conf-tl__body">
       <div class="kwg-conf-tl__title">Session 2. The Impact of Claude Mythos on Open Source</div>
       <div class="kwg-conf-tl__by">Kangbo Kim · AhnLab</div>
+      <a class="kwg-conf-tl__slide" href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/30th-session2-claude-mythos.pdf" target="_blank" rel="noopener">Slides (PDF)</a>
     </div>
   </div>
   <div class="kwg-conf-tl kwg-conf-tl--session">
@@ -102,6 +104,7 @@ aliases:
     <div class="kwg-conf-tl__body">
       <div class="kwg-conf-tl__title">Session 3. Experience Report on Open Source Operations as a Financial Company</div>
       <div class="kwg-conf-tl__by">Minae Lee · KakaoBank</div>
+      <a class="kwg-conf-tl__slide" href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/30th-session3-finance-oss-report.pdf" target="_blank" rel="noopener">Slides (PDF)</a>
     </div>
   </div>
   <div class="kwg-conf-tl">
