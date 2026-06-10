@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Meeting on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/categories/meeting/</link><description>Recent content in Meeting on OpenChain KWG</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 10 Jun 2026 15:28:25 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/en/categories/meeting/index.xml" rel="self" type="application/rss+xml"/><item><title>25th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/meeting/2025/25th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/meeting/2025/25th/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Meeting on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/categories/meeting/</link><description>Recent content in Meeting on OpenChain KWG</description><generator>Hugo</generator><language>en</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/en/categories/meeting/index.xml" rel="self" type="application/rss+xml"/><item><title>25th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/meeting/2025/25th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/meeting/2025/25th/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Schedule: 2025-03-25 (Tue) 2:00 PM - 5:00 PM&lt;/li&gt;
 &lt;li&gt;Location: Korea Digital Certification Association (Yeouido Park One Building Tower 2, 48th floor) - &lt;a href="https://maps.app.goo.gl/YnxTkz8LjHPXFJBv6"&gt;https://maps.app.goo.gl/YnxTkz8LjHPXFJBv6&lt;/a&gt;&lt;/li&gt;
@@ -341,10 +341,17 @@
  &lt;span&gt;&lt;strong&gt;Date&lt;/strong&gt; 2026-06-09 (Tue) 14:00–17:00&lt;/span&gt;
  &lt;span&gt;&lt;strong&gt;Venue&lt;/strong&gt; KakaoBank · Parc.1 Tower 2, 35F, Yeouido&lt;/span&gt;
  &lt;/div&gt;
- &lt;p class="kwg-conf-hero__note"&gt;Registration is announced via the OpenChain KWG mailing list. Subscribe to receive the sign-up link.&lt;/p&gt;</description></item><item><title>31th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/meeting/2026/31th/</link><pubDate>Tue, 31 Mar 2026 17:23:41 +0900</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/meeting/2026/31th/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Schedule: 2026-09-08 (Tue) 2:00 PM ~ 5:00 PM&lt;/li&gt;
-&lt;li&gt;Venue: CJ Human Resources Development Center (Jung-gu, Seoul - &lt;a href="https://maps.app.goo.gl/nQUogVHPvF4VuapX9"&gt;https://maps.app.goo.gl/nQUogVHPvF4VuapX9&lt;/a&gt; )&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="sponsor"&gt;Sponsor&lt;/h2&gt;
-&lt;p&gt;&lt;img src="../../../../images/content/about/logo/cj.png" alt=""&gt;&lt;/p&gt;</description></item></channel></rss>
+ &lt;p class="kwg-conf-hero__note"&gt;Registration is announced via the OpenChain KWG mailing list. Subscribe to receive the sign-up link.&lt;/p&gt;</description></item><item><title>31th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/meeting/2026/31th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/meeting/2026/31th/</guid><description>&lt;style&gt;
+/* Per-meeting sponsor color — for the next meeting, change just these two values. */
+.td-content { --accent: #e30613; --ink: #fff5f3; }
+&lt;/style&gt;
+&lt;div class="kwg-conf-hero"&gt;
+ &lt;div class="kwg-conf-hero__body"&gt;
+ &lt;p class="kwg-conf-hero__eyebrow"&gt;31st Meeting&lt;/p&gt;
+ &lt;h1 class="kwg-conf-hero__title"&gt;OpenChain KWG 31st Meeting&lt;/h1&gt;
+ &lt;p class="kwg-conf-hero__sub"&gt;We are preparing the autumn 2026 meeting together with CJ. The detailed program will be announced on this page and via the mailing list once confirmed.&lt;/p&gt;
+ &lt;div class="kwg-conf-hero__meta"&gt;
+ &lt;span&gt;&lt;strong&gt;Date&lt;/strong&gt; 2026-09-08 (Tue) 14:00–17:00&lt;/span&gt;
+ &lt;span&gt;&lt;strong&gt;Venue&lt;/strong&gt; CJ Human Resources Development Center · Jung-gu, Seoul&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;p class="kwg-conf-hero__note"&gt;Registration and the detailed program are announced via the OpenChain KWG mailing list. Subscribe to receive the sign-up link.&lt;/p&gt;</description></item></channel></rss>

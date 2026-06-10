@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Meeting on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/categories/meeting/</link><description>Recent content in Meeting on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Wed, 10 Jun 2026 15:28:25 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/categories/meeting/index.xml" rel="self" type="application/rss+xml"/><item><title>1st Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2019/1st/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2019/1st/</guid><description>&lt;img src="20190123_1406369.jpg" width="90%"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Meeting on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/categories/meeting/</link><description>Recent content in Meeting on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/categories/meeting/index.xml" rel="self" type="application/rss+xml"/><item><title>1st Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2019/1st/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2019/1st/</guid><description>&lt;img src="20190123_1406369.jpg" width="90%"&gt;
 &lt;h2 id="organizer"&gt;Organizer&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;LG Electronics&lt;/li&gt;
@@ -3246,36 +3246,42 @@ _&lt;center&gt; &lt; designed by [@soimkim](https://github.com/soimkim) &gt; &lt
  &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2 id="openchain-updates-글로벌-동향"&gt;OpenChain Updates: 글로벌 동향&lt;/h2&gt;
-&lt;p&gt;OpenChain Updates 시간에는 OpenChain Project 총괄 디렉터 Mary Wang이 원격으로 참여해 글로벌 동향을 공유했습니다. 표준 운영 현황과 함께, OpenChain을 CRA(EU 사이버 복원력법)와 AI 규제 대응을 연결하는 핵심 기반으로 설명했습니다.&lt;/p&gt;</description></item><item><title>31th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2026/31th/</link><pubDate>Tue, 31 Mar 2026 17:19:04 +0900</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2026/31th/</guid><description>&lt;h2 id="일정"&gt;일정&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;일정: 2026-09-08 (화) 오후 2시~5시&lt;/li&gt;
-&lt;li&gt;장소: CJ인재원 (서울시 중구 - &lt;a href="https://maps.app.goo.gl/nQUogVHPvF4VuapX9"&gt;https://maps.app.goo.gl/nQUogVHPvF4VuapX9&lt;/a&gt; )&lt;/li&gt;
+&lt;p&gt;OpenChain Updates 시간에는 OpenChain Project 총괄 디렉터 Mary Wang이 원격으로 참여해 글로벌 동향을 공유했습니다. 표준 운영 현황과 함께, OpenChain을 CRA(EU 사이버 복원력법)와 AI 규제 대응을 연결하는 핵심 기반으로 설명했습니다.&lt;/p&gt;</description></item><item><title>31th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2026/31th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2026/31th/</guid><description>&lt;style&gt;
+/* 회차별 스폰서 색 — 다음 회차는 이 두 값만 그 스폰서 색으로 교체. */
+.td-content { --accent: #e30613; --ink: #fff5f3; }
+&lt;/style&gt;
+&lt;div class="kwg-conf-hero"&gt;
+ &lt;div class="kwg-conf-hero__body"&gt;
+ &lt;p class="kwg-conf-hero__eyebrow"&gt;31st Meeting&lt;/p&gt;
+ &lt;h1 class="kwg-conf-hero__title"&gt;OpenChain KWG 31차 정기 모임&lt;/h1&gt;
+ &lt;p class="kwg-conf-hero__sub"&gt;2026년 가을 정기 모임을 CJ와 함께 준비하고 있습니다. 세부 프로그램은 확정되는 대로 이 페이지와 메일링리스트로 안내드립니다.&lt;/p&gt;
+ &lt;div class="kwg-conf-hero__meta"&gt;
+ &lt;span&gt;&lt;strong&gt;일시&lt;/strong&gt; 2026-09-08 (화) 14:00–17:00&lt;/span&gt;
+ &lt;span&gt;&lt;strong&gt;장소&lt;/strong&gt; CJ인재원 · 서울 중구&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;p class="kwg-conf-hero__note"&gt;참가 신청과 세부 프로그램은 OpenChain KWG 메일링리스트로 안내됩니다. 가입하시면 신청 링크를 받아보실 수 있습니다.&lt;/p&gt;
+ &lt;div class="kwg-conf-hero__cta"&gt;
+ &lt;a class="kwg-conf-cta" href="../../../about/subscribe/"&gt;메일링리스트 가입&lt;/a&gt;
+ &lt;a class="kwg-conf-cta kwg-conf-cta--ghost" href="https://map.naver.com/p/search/CJ%EC%9D%B8%EC%9E%AC%EC%9B%90" target="_blank" rel="noopener"&gt;네이버지도&lt;/a&gt;
+ &lt;a class="kwg-conf-cta kwg-conf-cta--ghost" href="https://map.kakao.com/link/search/CJ%EC%9D%B8%EC%9E%AC%EC%9B%90" target="_blank" rel="noopener"&gt;카카오맵&lt;/a&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="kwg-conf-hero__date"&gt;
+ &lt;span class="kwg-conf-hero__date-d"&gt;08&lt;/span&gt;
+ &lt;span class="kwg-conf-hero__date-my"&gt;2026년 9월 · 화&lt;/span&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+&lt;ul class="kwg-conf-chips"&gt;
+ &lt;li class="kwg-conf-chip"&gt;OpenChain&lt;/li&gt;
+ &lt;li class="kwg-conf-chip"&gt;OSS Compliance&lt;/li&gt;
+ &lt;li class="kwg-conf-chip"&gt;Korea Work Group&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- ## 아젠다
-
-| Time | Agenda | Speaker | Slide |
-|-------------|-------------------------------|----------------------------------|-------|
-| 00:00~00:00 | 웰컴 &amp; 오프닝 | 발표자, 소속 | - |
-| 00:00~00:00 | 발표 제목 | 발표자, 소속 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-YYYY/파일명.pdf) |
-| 00:00~00:00 | 네트워킹 | All | - |
-
-## 발표자료
-
-| 제목 | 발표자 | 자료 |
-|---|---|---|
-| 발표 제목 | 발표자명 | [PDF](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-YYYY/파일명.pdf) | --&gt;
-&lt;!--
-첨부파일 업로드 방법:
-1. GitHub Releases 페이지 접속:
- https://github.com/OpenChain-Project/OpenChain-KWG/releases/tag/meeting-slides-YYYY
- (YYYY를 해당 연도로 변경. 태그가 없으면 새로 생성)
-2. 파일명 규칙 준수:
- - 영문, 숫자, 하이픈(-), 언더스코어(_), 점(.)만 사용
- - 공백·한글·특수문자 사용 금지
- - 권장 형식: YYYYMMDD-발표자-주제키워드.pdf
-3. 업로드 후 다운로드 URL 복사:
- https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-YYYY/파일명.pdf
-4. 위 표의 링크 URL을 복사한 URL로 교체
---&gt;
-&lt;h2 id="sponsor"&gt;Sponsor&lt;/h2&gt;
-&lt;p&gt;&lt;img src="../../../images/content/about/logo/cj.png" alt=""&gt;&lt;/p&gt;</description></item></channel></rss>
+&lt;h2 id="이런-분께-추천"&gt;이런 분께 추천&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;기업에서 오픈소스 컴플라이언스 정책을 운영하거나 새로 도입하려는 담당자&lt;/li&gt;
+&lt;li&gt;OpenChain(ISO 5230), SBOM, 보안 취약점 대응 실무를 고민하는 조직&lt;/li&gt;
+&lt;li&gt;다른 회사의 사례를 듣고 실무 네트워크를 넓히고 싶은 분&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="아젠다"&gt;아젠다&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;세부 프로그램은 준비 중입니다. 확정되는 대로 이 페이지에 공개하고 메일링리스트로 안내드립니다. 발표하거나 함께 논의하고 싶은 주제가 있으면 메일링리스트로 제안해 주세요.&lt;/p&gt;</description></item></channel></rss>

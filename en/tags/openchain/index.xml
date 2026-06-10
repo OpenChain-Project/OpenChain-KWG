@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/openchain/</link><description>Recent content in OpenChain on OpenChain KWG</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 10 Jun 2026 15:28:25 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/openchain/index.xml" rel="self" type="application/rss+xml"/><item><title>0. Exploring OpenChain</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/opensource_for_enterprise/0-openchain/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/opensource_for_enterprise/0-openchain/</guid><description>&lt;h2 id="1-what-is-the-openchain-project"&gt;1. What is the OpenChain Project?&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/openchain/</link><description>Recent content in OpenChain on OpenChain KWG</description><generator>Hugo</generator><language>en</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/en/tags/openchain/index.xml" rel="self" type="application/rss+xml"/><item><title>0. Exploring OpenChain</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/opensource_for_enterprise/0-openchain/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/opensource_for_enterprise/0-openchain/</guid><description>&lt;h2 id="1-what-is-the-openchain-project"&gt;1. What is the OpenChain Project?&lt;/h2&gt;
 &lt;p&gt;Software today is growing ever larger and more complex. Developing a single piece of software may involve not only internally developed code but also open source, third-party software, vendor SDKs, and a wide variety of software across the software supply chain.&lt;/p&gt;
 &lt;p&gt;If even one organization in this complex software supply chain fails to comply with open source license obligations or does not provide accurate open source information, the company ultimately distributing the software will inevitably fail to meet its open source license compliance obligations. This can lead to lawsuits and the suspension of product sales.&lt;/p&gt;</description></item><item><title>ISO/IEC 5230 Conformance Guide</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/guide/iso5230_guide/</guid><description>&lt;p&gt;This guide walks through each requirement clause of ISO/IEC 5230 (OpenChain License Compliance) one by one.
 It explains what verification materials each clause requires, how to comply, and what sample documents
@@ -366,10 +366,17 @@ source management in practice (policies, processes, tools, and organization).&lt
 &lt;/ul&gt;
 &lt;h2 id="relationship-with-isoiec-5230"&gt;Relationship with ISO/IEC 5230&lt;/h2&gt;
 &lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;ISO/IEC 18974 adds a security layer on top of ISO/IEC 5230&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;ISO/IEC 5230 (License Compliance)&lt;/strong&gt; covers the foundational program for systematically managing open source license obligations.&lt;/p&gt;</description></item><item><title>31th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/meeting/2026/31th/</link><pubDate>Tue, 31 Mar 2026 17:23:41 +0900</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/meeting/2026/31th/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Schedule: 2026-09-08 (Tue) 2:00 PM ~ 5:00 PM&lt;/li&gt;
-&lt;li&gt;Venue: CJ Human Resources Development Center (Jung-gu, Seoul - &lt;a href="https://maps.app.goo.gl/nQUogVHPvF4VuapX9"&gt;https://maps.app.goo.gl/nQUogVHPvF4VuapX9&lt;/a&gt; )&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="sponsor"&gt;Sponsor&lt;/h2&gt;
-&lt;p&gt;&lt;img src="../../../../images/content/about/logo/cj.png" alt=""&gt;&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;ISO/IEC 5230 (License Compliance)&lt;/strong&gt; covers the foundational program for systematically managing open source license obligations.&lt;/p&gt;</description></item><item><title>31th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/en/meeting/2026/31th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/en/meeting/2026/31th/</guid><description>&lt;style&gt;
+/* Per-meeting sponsor color — for the next meeting, change just these two values. */
+.td-content { --accent: #e30613; --ink: #fff5f3; }
+&lt;/style&gt;
+&lt;div class="kwg-conf-hero"&gt;
+ &lt;div class="kwg-conf-hero__body"&gt;
+ &lt;p class="kwg-conf-hero__eyebrow"&gt;31st Meeting&lt;/p&gt;
+ &lt;h1 class="kwg-conf-hero__title"&gt;OpenChain KWG 31st Meeting&lt;/h1&gt;
+ &lt;p class="kwg-conf-hero__sub"&gt;We are preparing the autumn 2026 meeting together with CJ. The detailed program will be announced on this page and via the mailing list once confirmed.&lt;/p&gt;
+ &lt;div class="kwg-conf-hero__meta"&gt;
+ &lt;span&gt;&lt;strong&gt;Date&lt;/strong&gt; 2026-09-08 (Tue) 14:00–17:00&lt;/span&gt;
+ &lt;span&gt;&lt;strong&gt;Venue&lt;/strong&gt; CJ Human Resources Development Center · Jung-gu, Seoul&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;p class="kwg-conf-hero__note"&gt;Registration and the detailed program are announced via the OpenChain KWG mailing list. Subscribe to receive the sign-up link.&lt;/p&gt;</description></item></channel></rss>
