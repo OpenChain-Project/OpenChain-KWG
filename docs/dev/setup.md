@@ -14,13 +14,11 @@ OpenChain KWG 웹사이트를 개발하는데 [Docsy](https://www.docsy.dev/docs
 | [Navidrome Music Server](https://www.navidrome.org) | https://github.com/navidrome/website |
 | https://docs.agilebase.co.uk/ | https://github.com/okohll/abdocs |
 
-## Install Hugo
+## Install Node.js
 
-개발환경 구성을 위해서 먼저 [Hugo](https://gohugo.io/)를 설치해야 합니다. 자신의 로컬 OS 환경에 맞게 **Extended** version을 설치하세요. : [Install Hugo](https://www.docsy.dev/docs/get-started/docsy-as-module/installation-prerequisites/)
+이 웹사이트는 Hugo Extended와 [PostCSS](https://postcss.org/)로 빌드하며, 둘 다 npm으로 설치됩니다. 따라서 [Node.js](https://nodejs.org/)가 설치되어 있어야 합니다. 로컬 환경에 맞게 [설치](https://nodejs.org/ko/download/)하세요.
 
-## Install NodeJS
-
-Docsy의 CSS 리소스를 빌드하기 위해서는 [PostCSS](https://postcss.org/)가 필요한데요, PostCSS는 **npm install**로 설치하게 됩니다. 따라서, 먼저 [NodeJS](https://nodejs.org/en/)가 설치되어 있어야 합니다. 로컬 환경에 맞게 NodeJS를 [설치](https://nodejs.org/ko/download/)하세요.
+Hugo는 따로 설치하지 않아도 됩니다. 정확한 Hugo Extended 버전이 `package.json`에 고정되어 있어, 다음 단계의 `npm ci`를 실행할 때 함께 설치됩니다.
 
 이제 로컬에서 OpenChain-KWG 웹사이트의 코드를 빌드하고, 로컬 브라우저에서 열 수 있는 준비가 됐습니다.
 

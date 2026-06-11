@@ -10,7 +10,7 @@ OpenChain KWG 웹사이트 > 메뉴 > **Meeting** 에는 정기 미팅 내용을
 
 ## Meeting 코드 위치
 
-Meeting 내용에 대한 코드는 다음 디렉토리에 위치합니다.
+Meeting 내용에 대한 코드는 다음 디렉토리에 있습니다.
 
 ```
 $ cd content/ko/meeting/
@@ -34,8 +34,8 @@ _index.md  1st  2nd  3rd  ...
 
 ```bash
 # 예시: 29번째 미팅
-hugo new content/ko/meeting/29th/_index.md --kind meeting
-hugo new content/en/meeting/29th/_index.md --kind meeting
+npx hugo new content/ko/meeting/29th/_index.md --kind meeting
+npx hugo new content/en/meeting/29th/_index.md --kind meeting
 ```
 
 - `title`, `weight`는 디렉터리명에서 자동으로 추출됩니다.
@@ -73,8 +73,8 @@ Archetype 템플릿을 사용하여 ko/en 양쪽 페이지를 생성합니다.
 
 ```bash
 # 예시: 29번째 미팅
-hugo new content/ko/meeting/29th/_index.md --kind meeting
-hugo new content/en/meeting/29th/_index.md --kind meeting
+npx hugo new content/ko/meeting/29th/_index.md --kind meeting
+npx hugo new content/en/meeting/29th/_index.md --kind meeting
 ```
 
 생성된 파일을 열어 아래 항목을 채웁니다:
