@@ -14,34 +14,29 @@ Windows, Linux, macOS 모두 가능합니다.
 
 이 중 [Step 4](../workflow/git-workflow.md#step-4-개발용-branch-생성)까지 수행하면 됩니다.
 
-## 3. Install PostCSS
+## 3. 의존성 설치
 
-Docsy의 CSS 리소스를 빌드하기 위해서는 [PostCSS](https://postcss.org/)가 필요합니다. OpenChain-KWG 웹사이트 코드의 루트 디렉토리로 이동 후 postcss-cli를 설치합니다.
+웹사이트 빌드에 필요한 Hugo Extended와 [PostCSS](https://postcss.org/)는 `package.json`에 고정되어 있습니다. 루트 디렉토리로 이동해 `npm ci`로 한 번에 설치합니다.
 
 ```bash
 $ cd OpenChain-KWG
-$ sudo npm install -D --save autoprefixer
-$ sudo npm install -D --save postcss-cli
+$ npm ci
 ```
+
+> `npm ci`는 `package.json`에 고정된 정확한 버전을 설치하므로, Hugo를 별도로 설치할 필요가 없습니다.
 
 ## 4. Build
 
-다운로드한 코드의 Root 디렉토리에서 hugo 명령어로 빌드를 수행합니다.
+다운로드한 코드의 Root 디렉토리에서 `npm run build`로 빌드를 수행합니다.
 
 ```bash
 $ cd OpenChain-KWG
-$ hugo
+$ npm run build
 Building sites …
                    | KO | EN
 -------------------+----+-----
   Pages            | 82 | 81
-  Paginator pages  |  0 |  0
-  Non-page files   | 99 | 99
-  Static files     | 36 | 36
-  Processed images |  7 |  6
-  Aliases          |  4 |  3
-  Sitemaps         |  2 |  1
-  Cleaned          |  0 |  0
+  ...
 
 Total in 3656 ms
 ```
@@ -52,28 +47,12 @@ Total in 3656 ms
 
 ## 5. Build Serve
 
-**hugo serve** 명령어를 수행하면 웹사이트가 로컬에서 구동됩니다.
+`npm run serve` 명령을 수행하면 웹사이트가 로컬에서 구동됩니다(Draft 포함).
 
 ```bash
-$ hugo serve
+$ npm run serve
 Building sites …
-                   | KO | EN
--------------------+----+-----
-  Pages            | 82 | 81
-  Paginator pages  |  0 |  0
-  Non-page files   | 99 | 99
-  Static files     | 36 | 36
-  Processed images |  7 |  6
-  Aliases          |  4 |  3
-  Sitemaps         |  2 |  1
-  Cleaned          |  0 |  0
-
-Built in 1050 ms
-Watching for changes in {assets,content,layouts,static,themes}
-Watching for config changes in hugo.toml
-Environment: "development"
-Serving pages from memory
-Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+...
 Web Server is available at http://localhost:1313/OpenChain-KWG/ (bind address 127.0.0.1)
 Press Ctrl+C to stop
 ```

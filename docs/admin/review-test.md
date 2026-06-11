@@ -10,7 +10,7 @@ flowchart TD
   C -- 문제 발견 --> E[기여자에게 수정 요청]
   E --> C
   D --> F[로컬 develop branch로 fetch & rebase]
-  F --> G[hugo serve로 로컬 확인]
+  F --> G[npm run serve로 로컬 확인]
   G -- 정상 동작 --> H([master branch 반영 → Deployment])
   G -- 문제 발견 --> E
 ```
@@ -30,7 +30,7 @@ $ git fetch
 $ git rebase origin/develop
 ```
 
-로컬의 develop branch에서 **hugo serve**하여 Pull Request 수정 사항이 정상적으로 동작하는지 확인한다. : http://localhost:1313/OpenChain-KWG/
+로컬의 develop branch에서 **npm run serve**하여 Pull Request 수정 사항이 정상적으로 동작하는지 확인한다. : http://localhost:1313/OpenChain-KWG/
 
 (국문과 영문을 함께 확인한다.)
 
