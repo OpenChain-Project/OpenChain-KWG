@@ -11,10 +11,11 @@
 // ── 본문 조판: Gemini식 여유로운 가독성 + 제목 크기/굵기 정상화 ──
 // Inter는 Google Sans보다 묵직해 보이므로 제목 크기를 Gemini 수준으로 낮춘다.
 .td-content {
-  line-height: 1.7;
+  line-height: 1.65;
+  letter-spacing: -0.011em;   // sktelecom 본문 자간과 동일
 
   p,
-  li { line-height: 1.7; }
+  li { line-height: 1.65; }
   > p { margin-bottom: 1.1rem; }
 
   // Google devsite 표준 px(16px base): h1 28 / h2 22 / h3 16 / h4 14
