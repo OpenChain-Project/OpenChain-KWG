@@ -186,7 +186,7 @@ SPDX 3.0을 쓴다면 AI 프로파일(AI Profile)과 데이터셋 프로파일(D
 **고려사항**
 
 - **생성 이력 보존**: 공급한 AI 시스템의 버전별로 그 시점의 AI SBOM을 보관해 추적성을 확보한다.
-- **승인 기록**: 검토와 승인을 누가 했는지 기록한다. 거버넌스(3.10, 작성 예정)의
+- **승인 기록**: 검토와 승인을 누가 했는지 기록한다. [거버넌스(3.10)](../../4-governance/1-governance/)의
   수명주기 검토와 연결된다.
 
 ## 5. 참고
@@ -194,4 +194,4 @@ SPDX 3.0을 쓴다면 AI 프로파일(AI Profile)과 데이터셋 프로파일(D
 - 라이선스 의무 검토 절차: [3.5 라이선스 의무](../1-license-obligations/)
 - AI SBOM 형식·생성 도구 기술 상세: [ISO/IEC 42001 가이드 — AI SBOM](../../../iso42001_guide/4-operation/2-ai-sbom/)
 - SBOM 관리 도구: [Dependency-Track](../../../tools/7-dependency-track/), [cdxgen + Dependency-Track 연동](../../../tools/8-cdxgen-dt/)
-- 거버넌스와 수명주기 검토: 3.10 거버넌스 (작성 예정)
+- 거버넌스와 수명주기 검토: [3.10 거버넌스](../../4-governance/1-governance/)
