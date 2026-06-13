@@ -10,4 +10,5 @@
 대상에는 학습·테스트·검증 데이터셋이 포함되며, 모델의 의도된 용도를 고려한다. 학습 데이터의
 사용 사례가 투명성 쟁점(예: 다운스트림 수령자에 대한 공개 의무)을 야기하면 적절한 위험 완화
 조치를 취해야 한다. EU 인공지능법이 2026년 8월부터 투명성 의무를 본격 적용하면서 이 조항의
-실무 비중이 커지고 있다.&lt;/p&gt;</description></item></channel></rss>
+실무 비중이 커지고 있다.&lt;/p&gt;</description></item><item><title>AI 확장 프로세스</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/</guid><description>&lt;p&gt;구축 로드맵의 2단계다. AI SBOM 가이드가 ISO/IEC 5230에서 가장 크게 확장된 영역으로, 라이선스
+의무(3.5)와 투명성 의무(3.6), AI SBOM 생성·관리(3.9)를 다룬다.&lt;/p&gt;</description></item></channel></rss>

@@ -19,11 +19,11 @@ Hugging Face Space를 쓰거나, 저장소를 받아 로컬에서 띄운다.&lt;
 지원하고, 최신 버전에서 AI BOM 전용 모드를 제공한다. AI 애플리케이션의 의존성(PyTorch,
 Transformers 등)을 자동으로 식별하며, CI/CD 파이프라인에 연동하기 좋다.&lt;/p&gt;
 &lt;p&gt;AI SBOM 관점에서 cdxgen의 강점은 속도와 자동화다. 약점은 라이선스 정보를 기본 실행에서 채우지
-않는다는 점이다. 아래 실측에서 이 특성이 드러난다. OWASP AIBOM Generator가 모델 카드 메타데이터
+않는다는 점이다. 아래 실행 결과에서 이 특성이 드러난다. OWASP AIBOM Generator가 모델 카드 메타데이터
 중심이라면, cdxgen은 코드와 의존성 중심이다. 둘을 함께 쓰면 모델과 의존성을 모두 다룬다.&lt;/p&gt;</description></item><item><title>모델·컨테이너 스캐너 (Lab700x, Trivy, Syft)</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/5-tools/3-scanners/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/5-tools/3-scanners/</guid><description>&lt;p&gt;이 페이지는 AI SBOM 생성을 보완하는 분석·식별 도구를 소개한다. 생성 도구(OWASP AIBOM
 Generator, cdxgen)가 &amp;ldquo;무엇이 들어 있는가&amp;quot;를 기록한다면, 이 도구들은 &amp;ldquo;그것이 안전한가&amp;quot;와 &amp;ldquo;어떤
 버전인가&amp;quot;를 본다. 아래 명령과 기능은 각 도구의 공식 문서를 기준으로 정리했다(이 가이드에서
-실측한 도구는 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/5-tools/1-aibom-generator/"&gt;OWASP AIBOM Generator&lt;/a&gt;와 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/5-tools/2-cdxgen/"&gt;cdxgen&lt;/a&gt;이다).&lt;/p&gt;
+직접 실행한 도구는 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/5-tools/1-aibom-generator/"&gt;OWASP AIBOM Generator&lt;/a&gt;와 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/5-tools/2-cdxgen/"&gt;cdxgen&lt;/a&gt;이다).&lt;/p&gt;
 &lt;h2 id="lab700x-ai-sbom-scanner--모델-바이너리-정적-분석"&gt;Lab700x AI SBOM Scanner — 모델 바이너리 정적 분석&lt;/h2&gt;
 &lt;p&gt;AI 모델 파일 자체를 정적 분석해 정보를 추출하는 도구다. &lt;code&gt;.safetensors&lt;/code&gt;, &lt;code&gt;.pt&lt;/code&gt;(PyTorch),
 &lt;code&gt;.pkl&lt;/code&gt;(Pickle) 같은 모델 바이너리를 실행하지 않고 직접 들여다본다(deep introspection).&lt;/p&gt;

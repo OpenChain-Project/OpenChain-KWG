@@ -78,5 +78,5 @@ SBOM을 자동으로 생성합니다.&lt;/p&gt;
 지원하고, 최신 버전에서 AI BOM 전용 모드를 제공한다. AI 애플리케이션의 의존성(PyTorch,
 Transformers 등)을 자동으로 식별하며, CI/CD 파이프라인에 연동하기 좋다.&lt;/p&gt;
 &lt;p&gt;AI SBOM 관점에서 cdxgen의 강점은 속도와 자동화다. 약점은 라이선스 정보를 기본 실행에서 채우지
-않는다는 점이다. 아래 실측에서 이 특성이 드러난다. OWASP AIBOM Generator가 모델 카드 메타데이터
+않는다는 점이다. 아래 실행 결과에서 이 특성이 드러난다. OWASP AIBOM Generator가 모델 카드 메타데이터
 중심이라면, cdxgen은 코드와 의존성 중심이다. 둘을 함께 쓰면 모델과 의존성을 모두 다룬다.&lt;/p&gt;</description></item></channel></rss>

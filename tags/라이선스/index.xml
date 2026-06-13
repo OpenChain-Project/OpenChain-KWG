@@ -91,7 +91,8 @@
 컴플라이언스가 코드의 라이선스를 검토했다면, AI에서는 검토 대상이 네 갈래로 늘어난다. AI
 시스템의 코드, 모델 가중치, 데이터셋(학습·테스트·검증 데이터셋을 포함), 그리고 AI 시스템 자체의
 라이선스다. 한 모델이 다른 여러 모델에서 파생되는 일이 흔해, 모델 트리(Model Tree)에 놓인 각
-상위 모델이 저마다 고유한 라이선스를 가진다.&lt;/p&gt;</description></item><item><title>이슈 파악과 해결: 취약점과 라이선스</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/3-issue-resolve/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/3-issue-resolve/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;이 페이지의 위치&lt;/div&gt;
+상위 모델이 저마다 고유한 라이선스를 가진다.&lt;/p&gt;</description></item><item><title>AI 확장 프로세스</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/</guid><description>&lt;p&gt;구축 로드맵의 2단계다. AI SBOM 가이드가 ISO/IEC 5230에서 가장 크게 확장된 영역으로, 라이선스
+의무(3.5)와 투명성 의무(3.6), AI SBOM 생성·관리(3.9)를 다룬다.&lt;/p&gt;</description></item><item><title>이슈 파악과 해결: 취약점과 라이선스</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/3-issue-resolve/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/finance-oss-guide/3-issue-resolve/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;이 페이지의 위치&lt;/div&gt;
 &lt;p&gt;식별로 무엇을 쓰는지 파악했다면, 그다음은 거기서 나오는 이슈를 풀어야 한다. 이슈는 두
 종류다. 보안 취약점과 라이선스 의무다. FSEC 안내서의 두 번째 절차이고, ISO/IEC 18974의
 취약점 탐지·해결(4.3.2)과 ISO/IEC 5230의 라이선스 사용 사례 처리(3.3.2)에 대응한다.&lt;/p&gt;
