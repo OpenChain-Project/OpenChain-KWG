@@ -104,6 +104,10 @@ flowchart TD
 | 관리 | SBOM 저장·취약점 모니터링 | 성숙 | Dependency-Track, SW360 |
 | 검토 | 라이선스·출처 정확성 판단 | 사람·정책 | 도구 보완 단계 |
 
+각 도구의 설치와 사용법, 실행 화면은 [도구](../../5-tools/) 절에서 자세히 다룬다([OWASP AIBOM
+Generator](../../5-tools/1-aibom-generator/), [cdxgen](../../5-tools/2-cdxgen/),
+[모델·컨테이너 스캐너](../../5-tools/3-scanners/)).
+
 cdxgen으로 AI BOM을 생성하는 명령은 다음과 같다. Hugging Face 모델 URL과 purl, Modelfile,
 GGUF 아티팩트를 직접 입력할 수 있다([cdxgen AI-BOM 문서](https://github.com/cdxgen/cdxgen/blob/master/docs/AI_BOM.md)).
 
@@ -119,7 +123,7 @@ OWASP AIBOM Generator는 Hugging Face 모델을 입력받아 CycloneDX 형식 AI
 점수를 매긴다. OWASP Gen AI Security Project가 관리하며 Hugging Face Space로도 제공된다
 ([OWASP AIBOM Generator](https://genai.owasp.org/resource/owasp-aibom-generator/)).
 
-**실측 — cdxgen으로 생성해 보기**
+**직접 실행 — cdxgen으로 생성해 보기**
 
 사전학습 모델(`facebook/bart-large-cnn`)을 불러오는 요약 앱(`transformers`, `torch` 의존)에
 cdxgen을 실제로 돌린 결과다. 도구가 의존성 5건을 자동으로 식별해 CycloneDX 1.7 형식 BOM을
@@ -155,9 +159,9 @@ CycloneDX Generator 12.5.1 (Node.js)
 }
 ```
 
-**그림 2.** cdxgen 12.5.1 실측 출력 *(실행일 2026-06-13, `-t python --include-formulation`)*
+**그림 2.** cdxgen 12.5.1 실행 출력 *(실행일 2026-06-13, `-t python --include-formulation`)*
 
-{{% alert title="실측이 보여주는 것 — 생성은 도구, 검증은 사람" color="warning" %}}
+{{% alert title="실행 결과가 보여주는 것 — 생성은 도구, 검증은 사람" color="warning" %}}
 - 도구는 `requirements.txt`에서 의존성 5건을 자동 식별해 BOM을 만들었다. 생성은 자동화된다.
 - 그러나 각 컴포넌트의 `licenses` 필드가 비어 있다. 라이선스 정확성은 사람이 확인해 채워야 한다.
 - 앱이 불러오는 사전학습 모델 `facebook/bart-large-cnn`은 코드 스캔만으로는 BOM에 잡히지

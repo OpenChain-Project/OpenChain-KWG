@@ -6,7 +6,7 @@ categories: ["guide"]
 tags: ["AI SBOM", "OWASP", "CycloneDX", "도구"]
 description: >
   Hugging Face 모델에서 CycloneDX 형식 AI SBOM을 생성하고 완전성 점수를 매기는 OWASP 도구의
-  사용법을 실측 화면과 함께 안내한다.
+  사용법을 실행 화면과 함께 안내한다.
 ---
 
 ## 개요
@@ -78,7 +78,7 @@ $ aibom facebook/bart-large-cnn -o aibom.json
    - External References:    10/10
 ```
 
-**그림 3.** CLI 실측 출력 *(aibom CLI, 모델 facebook/bart-large-cnn, 실행 2026-06-13)*
+**그림 3.** CLI 실행 출력 *(aibom CLI, 모델 facebook/bart-large-cnn, 실행 2026-06-13)*
 
 생성된 BOM의 모델 컴포넌트는 라이선스와 모델 카드가 채워진다. cdxgen 출력과 달리 `licenses`
 필드가 비어 있지 않다.
@@ -94,10 +94,10 @@ $ aibom facebook/bart-large-cnn -o aibom.json
 }
 ```
 
-## 실측이 보여주는 것
+## 실행 결과가 보여주는 것
 
 {{% alert title="완전성 점수는 입력 메타데이터 품질에 좌우된다" color="info" %}}
-실측에서 완전성 점수는 58.7/100(Basic)이었다. Required Fields와 External References는 만점이지만
+실제 실행에서 완전성 점수는 58.7/100(Basic)이었다. Required Fields와 External References는 만점이지만
 모델 카드 점수가 6.7/30으로 낮다. 이는 도구의 한계가 아니라, 모델 제공자가 Hugging Face 모델
 카드에 정보를 충분히 채우지 않았기 때문이다. 도구는 있는 메타데이터를 충실히 가져오지만, 없는
 정보를 만들어 내지는 못한다. 모델 카드가 부실하면 사람이 출처를 확인해 보강해야 한다.
