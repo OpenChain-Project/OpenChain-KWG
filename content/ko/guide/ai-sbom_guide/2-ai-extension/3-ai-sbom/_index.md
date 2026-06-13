@@ -119,6 +119,54 @@ OWASP AIBOM Generator는 Hugging Face 모델을 입력받아 CycloneDX 형식 AI
 점수를 매긴다. OWASP Gen AI Security Project가 관리하며 Hugging Face Space로도 제공된다
 ([OWASP AIBOM Generator](https://genai.owasp.org/resource/owasp-aibom-generator/)).
 
+**실측 — cdxgen으로 생성해 보기**
+
+사전학습 모델(`facebook/bart-large-cnn`)을 불러오는 요약 앱(`transformers`, `torch` 의존)에
+cdxgen을 실제로 돌린 결과다. 도구가 의존성 5건을 자동으로 식별해 CycloneDX 1.7 형식 BOM을
+만든다.
+
+```text
+$ cdxgen -t python --include-formulation -o aibom.json .
+CycloneDX Generator 12.5.1 (Node.js)
+
+생성된 components — 5건 (CycloneDX 1.7):
+  transformers     4.44.2    pkg:pypi/transformers@4.44.2      license: 비어 있음
+  torch            2.4.0     pkg:pypi/torch@2.4.0             license: 비어 있음
+  numpy            1.26.4    pkg:pypi/numpy@1.26.4            license: 비어 있음
+  tokenizers       0.19.1    pkg:pypi/tokenizers@0.19.1       license: 비어 있음
+  huggingface-hub  0.24.6    pkg:pypi/huggingface-hub@0.24.6   license: 비어 있음
+```
+
+생성된 BOM의 컴포넌트 한 건은 다음과 같다. 식별 근거(evidence)는 채워지지만 `licenses`
+필드는 비어 있다.
+
+```json
+{
+  "name": "transformers",
+  "version": "4.44.2",
+  "purl": "pkg:pypi/transformers@4.44.2",
+  "type": "library",
+  "evidence": {
+    "identity": [
+      { "field": "purl", "confidence": 0.5,
+        "methods": [{ "technique": "manifest-analysis", "value": "requirements.txt" }] }
+    ]
+  }
+}
+```
+
+**그림 2.** cdxgen 12.5.1 실측 출력 *(실행일 2026-06-13, `-t python --include-formulation`)*
+
+{{% alert title="실측이 보여주는 것 — 생성은 도구, 검증은 사람" color="warning" %}}
+- 도구는 `requirements.txt`에서 의존성 5건을 자동 식별해 BOM을 만들었다. 생성은 자동화된다.
+- 그러나 각 컴포넌트의 `licenses` 필드가 비어 있다. 라이선스 정확성은 사람이 확인해 채워야 한다.
+- 앱이 불러오는 사전학습 모델 `facebook/bart-large-cnn`은 코드 스캔만으로는 BOM에 잡히지
+  않았다. 인바운드 자재로 별도 수집해 추가해야 한다(아래 고려사항 참고).
+
+이 절이 말하는 "생성은 도구가, 정확성과 완전성은 사람이"라는 경계가 실제 도구 출력에서 그대로
+드러난다.
+{{% /alert %}}
+
 **형식 샘플 (CycloneDX ML-BOM)**
 
 아래는 CycloneDX 1.6 ML-BOM의 모델 컴포넌트 구조를 줄인 예시다. 키 구조는
