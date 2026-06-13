@@ -5,7 +5,7 @@ type: docs
 categories: ["guide"]
 tags: ["AI SBOM", "cdxgen", "CycloneDX", "도구"]
 description: >
-  프로젝트와 모델에서 CycloneDX SBOM을 생성하는 OWASP cdxgen의 AI BOM 모드 사용법을 실측
+  프로젝트와 모델에서 CycloneDX SBOM을 생성하는 OWASP cdxgen의 AI BOM 모드 사용법을 실행
   출력과 함께 안내한다.
 ---
 
@@ -16,7 +16,7 @@ cdxgen은 OWASP CycloneDX 프로젝트의 공식 SBOM 생성기다. 20개 이상
 Transformers 등)을 자동으로 식별하며, CI/CD 파이프라인에 연동하기 좋다.
 
 AI SBOM 관점에서 cdxgen의 강점은 속도와 자동화다. 약점은 라이선스 정보를 기본 실행에서 채우지
-않는다는 점이다. 아래 실측에서 이 특성이 드러난다. OWASP AIBOM Generator가 모델 카드 메타데이터
+않는다는 점이다. 아래 실행 결과에서 이 특성이 드러난다. OWASP AIBOM Generator가 모델 카드 메타데이터
 중심이라면, cdxgen은 코드와 의존성 중심이다. 둘을 함께 쓰면 모델과 의존성을 모두 다룬다.
 
 ## 주요 기능
@@ -63,7 +63,7 @@ CycloneDX Generator 12.5.1 (Node.js)
   huggingface-hub  0.24.6    pkg:pypi/huggingface-hub@0.24.6   license: 비어 있음
 ```
 
-**그림 1.** cdxgen 실측 출력 *(cdxgen 12.5.1, 실행 2026-06-13)*
+**그림 1.** cdxgen 실행 출력 *(cdxgen 12.5.1, 실행 2026-06-13)*
 
 생성된 컴포넌트 한 건은 다음과 같다. 식별 근거(evidence)는 채워지지만 `licenses` 필드는 비어
 있다.
@@ -83,7 +83,7 @@ CycloneDX Generator 12.5.1 (Node.js)
 }
 ```
 
-## 실측이 보여주는 것
+## 실행 결과가 보여주는 것
 
 {{% alert title="cdxgen은 식별이 빠르되 라이선스는 사람이 보강한다" color="warning" %}}
 cdxgen은 `requirements.txt`에서 의존성 5건을 빠르게 식별했지만, 각 컴포넌트의 `licenses` 필드가
