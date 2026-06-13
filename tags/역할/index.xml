@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>역할 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%97%AD%ED%95%A0/</link><description>Recent content in 역할 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%97%AD%ED%95%A0/index.xml" rel="self" type="application/rss+xml"/><item><title>3.2 역량</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/1-program-foundation/2-competence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/1-program-foundation/2-competence/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 1 — 프로그램 기반&lt;/strong&gt; 단계에서 구축한다.
+&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;정책(3.1)이 무엇을 해야 하는지 정한다면, 역량은 그 일을 할 수 있는 사람을 보장한다. AI SBOM
+컴플라이언스는 코드 라이선스만 다루던 오픈소스 컴플라이언스보다 넓은 지식을 요구한다. 모델
+가중치와 데이터셋의 라이선스, 모델 카드 해석, 신흥 AI 규제, 비표준 라이선스의 사용 제한까지
+판단해야 한다.&lt;/p&gt;
+&lt;p&gt;3.2는 프로그램의 성과에 영향을 미치는 역할과 책임을 식별하고, 각 역할에 필요한 역량을 정해
+참여자가 그 역량을 갖추도록 보장할 것을 요구한다. 규격은 사용 사례와 관련된 경우 거버넌스, 보안,
+안전, 프라이버시, 개발, 공급자 관리 기능의 역량을 갖추도록 명시한다.&lt;/p&gt;</description></item></channel></rss>

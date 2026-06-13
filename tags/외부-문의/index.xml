@@ -19,4 +19,14 @@
 공개 채널을 마련하고, 내부적으로는 이 문의에 체계적으로 대응하는 절차를
 문서화해야 한다. 보안 취약점 보고 채널은 CVD(Coordinated Vulnerability
 Disclosure) 절차와 연결되어 있으므로, 보안 연구자나 고객이 발견한 취약점을
-안전하게 접수하고 처리하는 체계가 필요하다.&lt;/p&gt;</description></item></channel></rss>
+안전하게 접수하고 처리하는 체계가 필요하다.&lt;/p&gt;</description></item><item><title>3.7 접근</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/3-relevant-tasks/1-access/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/3-relevant-tasks/1-access/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 3 — 운영 체계&lt;/strong&gt; 단계에서 구축한다.
+&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;공급망에서 AI 시스템을 주고받는 조직은 서로의 컴플라이언스를 확인해야 한다. 그러려면 외부에서
+문의할 창구가 공개되어 있고, 그 문의에 조직이 대응할 준비가 되어 있어야 한다. 접근은 이
+양방향을 보장한다.&lt;/p&gt;
+&lt;p&gt;3.7은 두 가지를 요구한다. 제3자가 AI SBOM 컴플라이언스 문의를 할 수 있는 수단을 공개적으로
+명시하는 것과, 그 문의에 효과적으로 대응하는 내부 절차를 유지하는 것이다. AI에서는 모델과
+데이터셋의 라이선스, 학습 데이터 출처, 모델 카드 같은 AI 고유 정보가 문의 대상에 더해진다.&lt;/p&gt;</description></item></channel></rss>

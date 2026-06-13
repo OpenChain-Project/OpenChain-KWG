@@ -91,4 +91,15 @@ SPDX 또는 CycloneDX 형식의 SBOM을 생성합니다.&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;알림&lt;/strong&gt;: Slack, 이메일, Webhook 등 다양한 채널로 신규 취약점 알림 발송&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="설치-방법"&gt;설치 방법&lt;/h2&gt;
-&lt;p&gt;Docker Compose를 사용하는 방법이 가장 간편합니다.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Docker Compose를 사용하는 방법이 가장 간편합니다.&lt;/p&gt;</description></item><item><title>3.9 AI SBOM</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/3-ai-sbom/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/3-ai-sbom/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 2 — AI 확장 프로세스&lt;/strong&gt; 단계에서 구축한다.
+&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;AI SBOM(AI System Bill of Materials)은 AI 시스템을 구성하는 요소와 그 정보를 담은 목록이다.
+전통적 SBOM이 소프트웨어 컴포넌트를 기록한다면, AI SBOM은 여기에 모델, 가중치, 데이터셋,
+하이퍼파라미터를 더한다. 3.9는 AI SBOM을 생성하고 관리하는 절차를 갖출 것을 요구한다.&lt;/p&gt;
+&lt;p&gt;형식은 정해두지 않는다. 규격은 SPDX, CycloneDX, 또는 그 밖의 형식 등 어떤 것이든 무방하다고
+명시한다. 다만 한 가지 의무가 있다. AI SBOM은 제3자로부터 유입되는 자재(inbound materials)를
+반영해야 한다. 외부에서 도입한 사전학습 모델과 데이터셋이 빠지면 라이선스 의무(&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/1-license-obligations/"&gt;3.5&lt;/a&gt;)와
+투명성 의무를 추적할 근거가 사라지기 때문이다.&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>범위 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EB%B2%94%EC%9C%84/</link><description>Recent content in 범위 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EB%B2%94%EC%9C%84/index.xml" rel="self" type="application/rss+xml"/><item><title>3.4 프로그램 범위</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/1-program-foundation/4-scope/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/1-program-foundation/4-scope/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 1 — 프로그램 기반&lt;/strong&gt; 단계에서 구축한다.
+&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;프로그램 범위는 컴플라이언스가 어디까지 적용되는지를 정한다. 범위가 모호하면 어떤 AI 시스템에
+SBOM을 만들어야 하는지, 어떤 모델의 라이선스를 검토해야 하는지가 불분명해진다. 범위를 먼저
+선언해야 이후의 모든 조항이 적용 대상을 안다.&lt;/p&gt;
+&lt;p&gt;3.4는 각 프로그램에 대해 적용 범위를 선언할 것을 요구한다. 범위는 조직마다 다를 수 있다. 어떤
+조직은 단일 제품 라인을, 어떤 조직은 부서 전체나 조직 전체를 대상으로 삼는다. AI에서는 자체
+개발 모델뿐 아니라 외부에서 도입한 모델과 데이터셋, 사내 모델의 외부 공개까지 범위 판단에
+들어온다.&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>투명성 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%ED%88%AC%EB%AA%85%EC%84%B1/</link><description>Recent content in 투명성 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%ED%88%AC%EB%AA%85%EC%84%B1/index.xml" rel="self" type="application/rss+xml"/><item><title>3.6 투명성 의무</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/2-transparency-obligations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/2-transparency-obligations/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 2 — AI 확장 프로세스&lt;/strong&gt; 단계에서 구축한다.
+&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;라이선스 의무(3.5)가 &amp;ldquo;이 자재를 쓸 권리가 있는가&amp;quot;를 묻는다면, 투명성 의무는 &amp;ldquo;이 자재에 대해
+무엇을 공개해야 하는가&amp;quot;를 묻는다. 두 의무는 다른 출처에서 온다. 라이선스 의무는 저작권자가
+계약으로 부과하고, 투명성 의무는 규제가 법으로 부과한다.&lt;/p&gt;
+&lt;p&gt;3.6은 규제로부터 부과되는 투명성 의무가 있는지 검토하는 절차를 갖출 것을 요구한다. 검토
+대상에는 학습·테스트·검증 데이터셋이 포함되며, 모델의 의도된 용도를 고려한다. 학습 데이터의
+사용 사례가 투명성 쟁점(예: 다운스트림 수령자에 대한 공개 의무)을 야기하면 적절한 위험 완화
+조치를 취해야 한다. EU 인공지능법이 2026년 8월부터 투명성 의무를 본격 적용하면서 이 조항의
+실무 비중이 커지고 있다.&lt;/p&gt;</description></item></channel></rss>

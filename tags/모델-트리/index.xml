@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>모델 트리 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EB%AA%A8%EB%8D%B8-%ED%8A%B8%EB%A6%AC/</link><description>Recent content in 모델 트리 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EB%AA%A8%EB%8D%B8-%ED%8A%B8%EB%A6%AC/index.xml" rel="self" type="application/rss+xml"/><item><title>3.5 라이선스 의무</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/1-license-obligations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/1-license-obligations/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 2 — AI 확장 프로세스&lt;/strong&gt; 단계에서 구축한다.
+&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;라이선스 의무는 AI SBOM 가이드가 ISO/IEC 5230에서 가장 크게 확장된 지점이다. 전통적 오픈소스
+컴플라이언스가 코드의 라이선스를 검토했다면, AI에서는 검토 대상이 네 갈래로 늘어난다. AI
+시스템의 코드, 모델 가중치, 데이터셋(학습·테스트·검증 데이터셋을 포함), 그리고 AI 시스템 자체의
+라이선스다. 한 모델이 다른 여러 모델에서 파생되는 일이 흔해, 모델 트리(Model Tree)에 놓인 각
+상위 모델이 저마다 고유한 라이선스를 가진다.&lt;/p&gt;</description></item></channel></rss>

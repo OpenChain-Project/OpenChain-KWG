@@ -13,7 +13,18 @@
 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;★ 18974 전용 항목 — Documented Evidence 강도&lt;/div&gt;
-&lt;p&gt;§4.1.2.3, §4.1.2.5, §4.1.2.6은 ISO 18974 전용(★) 항목으로 &lt;strong&gt;Documented Evidence&lt;/strong&gt;(문서화된 증거)를 요구한다. 단순 절차 문서로는 부족하며, 실제 수행 기록(참여자 목록, 검토 회의록, 내부 모범 사례 비교 결과)을 함께 보관해야 한다. 강도 차이의 자세한 설명은 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/5-standard-practice/#iso-18974-%ec%a0%84%ec%9a%a9-%ed%95%ad%eb%aa%a9%ec%9d%98-%ea%b0%95%eb%8f%84--documented-evidence"&gt;§4.1.5 표준 관행 — Documented Evidence 안내&lt;/a&gt;를 참고한다.&lt;/p&gt;</description></item><item><title>3. 지원</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/3-support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/3-support/</guid><description>&lt;h2 id="1-개요"&gt;1. 개요&lt;/h2&gt;
+&lt;p&gt;§4.1.2.3, §4.1.2.5, §4.1.2.6은 ISO 18974 전용(★) 항목으로 &lt;strong&gt;Documented Evidence&lt;/strong&gt;(문서화된 증거)를 요구한다. 단순 절차 문서로는 부족하며, 실제 수행 기록(참여자 목록, 검토 회의록, 내부 모범 사례 비교 결과)을 함께 보관해야 한다. 강도 차이의 자세한 설명은 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/5-standard-practice/#iso-18974-%ec%a0%84%ec%9a%a9-%ed%95%ad%eb%aa%a9%ec%9d%98-%ea%b0%95%eb%8f%84--documented-evidence"&gt;§4.1.5 표준 관행 — Documented Evidence 안내&lt;/a&gt;를 참고한다.&lt;/p&gt;</description></item><item><title>3.2 역량</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/1-program-foundation/2-competence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/1-program-foundation/2-competence/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 1 — 프로그램 기반&lt;/strong&gt; 단계에서 구축한다.
+&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;정책(3.1)이 무엇을 해야 하는지 정한다면, 역량은 그 일을 할 수 있는 사람을 보장한다. AI SBOM
+컴플라이언스는 코드 라이선스만 다루던 오픈소스 컴플라이언스보다 넓은 지식을 요구한다. 모델
+가중치와 데이터셋의 라이선스, 모델 카드 해석, 신흥 AI 규제, 비표준 라이선스의 사용 제한까지
+판단해야 한다.&lt;/p&gt;
+&lt;p&gt;3.2는 프로그램의 성과에 영향을 미치는 역할과 책임을 식별하고, 각 역할에 필요한 역량을 정해
+참여자가 그 역량을 갖추도록 보장할 것을 요구한다. 규격은 사용 사례와 관련된 경우 거버넌스, 보안,
+안전, 프라이버시, 개발, 공급자 관리 기능의 역량을 갖추도록 명시한다.&lt;/p&gt;</description></item><item><title>3. 지원</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/3-support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/iso42001_guide/3-support/</guid><description>&lt;h2 id="1-개요"&gt;1. 개요&lt;/h2&gt;
 &lt;p&gt;ISO/IEC 42001 §7은 AI 관리 시스템을 운영하는 데 필요한 &lt;strong&gt;역량, 인식, 커뮤니케이션,
 문서화&lt;/strong&gt;를 다룬다. 오픈소스 담당자 관점에서는 **§7.2(역량)**과 **§7.5(문서화된 정보)**가
 핵심 교차점이다.&lt;/p&gt;
