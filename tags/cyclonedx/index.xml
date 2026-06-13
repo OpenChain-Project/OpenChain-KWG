@@ -91,7 +91,29 @@ SPDX 또는 CycloneDX 형식의 SBOM을 생성합니다.&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;알림&lt;/strong&gt;: Slack, 이메일, Webhook 등 다양한 채널로 신규 취약점 알림 발송&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="설치-방법"&gt;설치 방법&lt;/h2&gt;
-&lt;p&gt;Docker Compose를 사용하는 방법이 가장 간편합니다.&lt;/p&gt;</description></item><item><title>3.9 AI SBOM</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/3-ai-sbom/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/3-ai-sbom/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;Docker Compose를 사용하는 방법이 가장 간편합니다.&lt;/p&gt;</description></item><item><title>OWASP AIBOM Generator</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/5-tools/1-aibom-generator/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/5-tools/1-aibom-generator/</guid><description>&lt;h2 id="개요"&gt;개요&lt;/h2&gt;
+&lt;p&gt;OWASP AIBOM Generator는 Hugging Face 모델 ID를 입력받아 모델 카드 메타데이터를 가져오고,
+CycloneDX 형식의 AI SBOM을 생성하는 오픈소스 도구다. OWASP Gen AI Security Project가 관리하며,
+생성된 BOM이 얼마나 완전한지를 점수로 평가하는 기능이 특징이다.&lt;/p&gt;
+&lt;p&gt;cdxgen이 의존성을 빠르게 식별하되 라이선스를 비워 두는 것과 달리, 이 도구는 모델 카드에 적힌
+라이선스와 작성자, 외부 참조를 채운다. &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/1-license-obligations/"&gt;3.5 라이선스 의무&lt;/a&gt;가
+요구하는 라이선스 검토의 출발점으로 쓰기 좋다.&lt;/p&gt;
+&lt;h2 id="주요-기능"&gt;주요 기능&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hugging Face 모델의 메타데이터를 가져와 CycloneDX 1.6과 1.7 형식 AIBOM을 생성한다.&lt;/li&gt;
+&lt;li&gt;생성된 BOM의 완전성을 점수(0~100)와 프로파일로 평가하고 섹션별로 분해해 보여준다.&lt;/li&gt;
+&lt;li&gt;모델 정보, 모델 카드, 라이선스, 외부 참조를 사람이 읽기 쉬운 화면으로 보여준다.&lt;/li&gt;
+&lt;li&gt;웹 UI와 명령줄(CLI) 두 가지로 쓸 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="사용법-a--웹-ui"&gt;사용법 A — 웹 UI&lt;/h2&gt;
+&lt;p&gt;브라우저에서 모델 ID만 넣으면 되어 가장 간단하다. OWASP Gen AI Security Project가 제공하는
+Hugging Face Space를 쓰거나, 저장소를 받아 로컬에서 띄운다.&lt;/p&gt;</description></item><item><title>cdxgen</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/5-tools/2-cdxgen/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/5-tools/2-cdxgen/</guid><description>&lt;h2 id="개요"&gt;개요&lt;/h2&gt;
+&lt;p&gt;cdxgen은 OWASP CycloneDX 프로젝트의 공식 SBOM 생성기다. 20개 이상의 언어와 패키지 매니저를
+지원하고, 최신 버전에서 AI BOM 전용 모드를 제공한다. AI 애플리케이션의 의존성(PyTorch,
+Transformers 등)을 자동으로 식별하며, CI/CD 파이프라인에 연동하기 좋다.&lt;/p&gt;
+&lt;p&gt;AI SBOM 관점에서 cdxgen의 강점은 속도와 자동화다. 약점은 라이선스 정보를 기본 실행에서 채우지
+않는다는 점이다. 아래 실측에서 이 특성이 드러난다. OWASP AIBOM Generator가 모델 카드 메타데이터
+중심이라면, cdxgen은 코드와 의존성 중심이다. 둘을 함께 쓰면 모델과 의존성을 모두 다룬다.&lt;/p&gt;</description></item><item><title>3.9 AI SBOM</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/3-ai-sbom/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/3-ai-sbom/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
 &lt;p&gt;이 조항은 &lt;strong&gt;Phase 2 — AI 확장 프로세스&lt;/strong&gt; 단계에서 구축한다.
 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;

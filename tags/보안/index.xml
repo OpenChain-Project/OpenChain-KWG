@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>보안 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EB%B3%B4%EC%95%88/</link><description>Recent content in 보안 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EB%B3%B4%EC%95%88/index.xml" rel="self" type="application/rss+xml"/><item><title>모델·컨테이너 스캐너 (Lab700x, Trivy, Syft)</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/5-tools/3-scanners/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/5-tools/3-scanners/</guid><description>&lt;p&gt;이 페이지는 AI SBOM 생성을 보완하는 분석·식별 도구를 소개한다. 생성 도구(OWASP AIBOM
+Generator, cdxgen)가 &amp;ldquo;무엇이 들어 있는가&amp;quot;를 기록한다면, 이 도구들은 &amp;ldquo;그것이 안전한가&amp;quot;와 &amp;ldquo;어떤
+버전인가&amp;quot;를 본다. 아래 명령과 기능은 각 도구의 공식 문서를 기준으로 정리했다(이 가이드에서
+실측한 도구는 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/5-tools/1-aibom-generator/"&gt;OWASP AIBOM Generator&lt;/a&gt;와 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/5-tools/2-cdxgen/"&gt;cdxgen&lt;/a&gt;이다).&lt;/p&gt;
+&lt;h2 id="lab700x-ai-sbom-scanner--모델-바이너리-정적-분석"&gt;Lab700x AI SBOM Scanner — 모델 바이너리 정적 분석&lt;/h2&gt;
+&lt;p&gt;AI 모델 파일 자체를 정적 분석해 정보를 추출하는 도구다. &lt;code&gt;.safetensors&lt;/code&gt;, &lt;code&gt;.pt&lt;/code&gt;(PyTorch),
+&lt;code&gt;.pkl&lt;/code&gt;(Pickle) 같은 모델 바이너리를 실행하지 않고 직접 들여다본다(deep introspection).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;주요 기능&lt;/strong&gt;: 모델을 실행(Execute)하지 않고 내부 구조를 파악하므로, 모델 파일에 숨겨진 악성
+코드(Pickle 인젝션 등)나 취약점, 라이선스 위반 요소를 배포 전에 검출한다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI SBOM에서의 역할&lt;/strong&gt;: 외부에서 도입한 모델을 인입 게이트에서 검사하는 데 쓴다.
+&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/1-license-obligations/"&gt;3.5 라이선스 의무&lt;/a&gt;의 인입 메타데이터 강제와
+결합하면, 메타데이터 검증과 바이너리 안전성 검사를 함께 수행할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pickle 형식 모델은 역직렬화 시 임의 코드가 실행될 수 있어 공급망 위험이 크다. 모델을 실행하지
+않고 검사한다는 점이 이 도구의 핵심이다.&lt;/p&gt;</description></item></channel></rss>

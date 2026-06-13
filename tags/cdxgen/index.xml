@@ -73,4 +73,10 @@ SBOM을 자동으로 생성합니다.&lt;/p&gt;
 &lt;p&gt;다른 도구와의 비교: FOSSology, SW360 등도 강력한 도구이지만 초기 설정 복잡도가 높습니다.
 이 가이드의 조합은 &lt;strong&gt;하루 안에&lt;/strong&gt; 기본 환경을 갖출 수 있도록 최소화했습니다.
 각 도구의 상세 기능은 &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/5-cdxgen/"&gt;cdxgen 가이드&lt;/a&gt;와
-&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/7-dependency-track/"&gt;Dependency-Track 가이드&lt;/a&gt;를 참고하세요.&lt;/p&gt;</description></item></channel></rss>
+&lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/guide/tools/7-dependency-track/"&gt;Dependency-Track 가이드&lt;/a&gt;를 참고하세요.&lt;/p&gt;</description></item><item><title>cdxgen</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/5-tools/2-cdxgen/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/5-tools/2-cdxgen/</guid><description>&lt;h2 id="개요"&gt;개요&lt;/h2&gt;
+&lt;p&gt;cdxgen은 OWASP CycloneDX 프로젝트의 공식 SBOM 생성기다. 20개 이상의 언어와 패키지 매니저를
+지원하고, 최신 버전에서 AI BOM 전용 모드를 제공한다. AI 애플리케이션의 의존성(PyTorch,
+Transformers 등)을 자동으로 식별하며, CI/CD 파이프라인에 연동하기 좋다.&lt;/p&gt;
+&lt;p&gt;AI SBOM 관점에서 cdxgen의 강점은 속도와 자동화다. 약점은 라이선스 정보를 기본 실행에서 채우지
+않는다는 점이다. 아래 실측에서 이 특성이 드러난다. OWASP AIBOM Generator가 모델 카드 메타데이터
+중심이라면, cdxgen은 코드와 의존성 중심이다. 둘을 함께 쓰면 모델과 의존성을 모두 다룬다.&lt;/p&gt;</description></item></channel></rss>
