@@ -1,4 +1,4 @@
-﻿---
+---
 title: "28th Meeting"
 linkTitle: "28th Meeting"
 weight: 10
@@ -18,13 +18,15 @@ description: Tooling & Legal Subgroup 28th Meeting
 * TBD
 
 ## Invitee
-* TBD
+* N/A
 
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues | TBD | TBD |
-| _  | OSS Notice 관련 논의 | LG전자, 박원재 | N/A |
+| 0  | Community Updates & New Issues | LG전자, 박원재 | N/A |
+| 1  | 바이너리 파일 SCA툴의 필요성 | 안랩, 김강보 | TBD |
+| 2  | 오픈소스/AI 검증 체계 및 자동화 설문 공유 및 토론 | LG전자, 박원재 | N/A |
+| 3  | OSS Notice 관련 논의 | LG전자, 박원재 | N/A |
 
 <!--
 
