@@ -22,9 +22,8 @@ description: Tooling & Legal Subgroup 28th Meeting
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Community Updates & New Issues | LG Electronics, Park Wonjae | N/A |
-| 1  | Necessity of Binary File SCA Tools | Ahnlab, Kim Gangbo | TBD |
+| 1  | Necessity of Binary File SCA Tools | Ahnlab, Kim Gangbo | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/tnl_2606_2_anlab_binarySCA.pdf) |
 | 2  | Sharing and Discussion of Open Source/AI Verification System and Automation Survey | LG Electronics, Park Wonjae | N/A |
-| 3  | Discussion on OSS Notice | LG Electronics, Park Wonjae | N/A |
 <!--
 
 ## Attendees

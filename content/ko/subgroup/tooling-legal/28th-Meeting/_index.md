@@ -15,7 +15,18 @@ description: Tooling & Legal Subgroup 28th Meeting
 * 장소 : 현대모비스 역삼
 
 ## Attendees
-* TBD
+* CJ 올리브영
+* ETRI
+* LG AI연구원
+* LG전자
+* SK Telecom
+* 삼성전자
+* 안랩
+* 카카오
+* 텔레칩스
+* 한글과컴퓨터
+* 현대모비스
+* 현대오토에버
 
 ## Invitee
 * N/A
@@ -24,9 +35,8 @@ description: Tooling & Legal Subgroup 28th Meeting
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Community Updates & New Issues | LG전자, 박원재 | N/A |
-| 1  | 바이너리 파일 SCA툴의 필요성 | 안랩, 김강보 | TBD |
+| 1  | 바이너리 파일 SCA툴의 필요성 | 안랩, 김강보 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/tnl_2606_2_anlab_binarySCA.pdf) |
 | 2  | 오픈소스/AI 검증 체계 및 자동화 설문 공유 및 토론 | LG전자, 박원재 | N/A |
-| 3  | OSS Notice 관련 논의 | LG전자, 박원재 | N/A |
 
 <!--
 
