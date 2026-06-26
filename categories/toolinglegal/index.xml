@@ -731,7 +731,18 @@
 &lt;/ul&gt;
 &lt;h2 id="attendees"&gt;Attendees&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;TBD&lt;/li&gt;
+&lt;li&gt;CJ 올리브영&lt;/li&gt;
+&lt;li&gt;ETRI&lt;/li&gt;
+&lt;li&gt;LG AI연구원&lt;/li&gt;
+&lt;li&gt;LG전자&lt;/li&gt;
+&lt;li&gt;SK Telecom&lt;/li&gt;
+&lt;li&gt;삼성전자&lt;/li&gt;
+&lt;li&gt;안랩&lt;/li&gt;
+&lt;li&gt;카카오&lt;/li&gt;
+&lt;li&gt;텔레칩스&lt;/li&gt;
+&lt;li&gt;한글과컴퓨터&lt;/li&gt;
+&lt;li&gt;현대모비스&lt;/li&gt;
+&lt;li&gt;현대오토에버&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="invitee"&gt;Invitee&lt;/h2&gt;
 &lt;ul&gt;
@@ -783,10 +794,30 @@
 &lt;li&gt;일시 : 2026년 8월 27일(목) 14:00 ~ 18:00&lt;/li&gt;
 &lt;li&gt;장소 : TBD (추후 공지 예정)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="안내"&gt;안내&lt;/h2&gt;
-&lt;p&gt;2026년 8월에 개최될 Tooling &amp;amp; Legal Subgroup 29차 회의를 준비하고 있습니다.
-회의 장소 및 세부 프로그램(아젠다), 참석자 정보는 확정되는 대로 본 페이지와 메일링리스트를 통해 안내해 드릴 예정입니다.&lt;/p&gt;
-&lt;h2 id="아젠다"&gt;아젠다&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;세부 프로그램은 준비 중입니다. 발표 또는 토론하고 싶으신 주제가 있다면 메일링리스트를 통해 자유롭게 제안해 주세요.&lt;/p&gt;
-&lt;/blockquote&gt;</description></item></channel></rss>
+&lt;h2 id="attendees"&gt;Attendees&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;TBD&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="invitee"&gt;Invitee&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;TBD&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="agenda"&gt;Agenda&lt;/h2&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;No&lt;/th&gt;
+					&lt;th&gt;Subject&lt;/th&gt;
+					&lt;th&gt;Speaker&lt;/th&gt;
+					&lt;th&gt;Slide&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;0&lt;/td&gt;
+					&lt;td&gt;Community Updates &amp;amp; New Issues&lt;/td&gt;
+					&lt;td&gt;TBD&lt;/td&gt;
+					&lt;td&gt;N/A&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;</description></item></channel></rss>
