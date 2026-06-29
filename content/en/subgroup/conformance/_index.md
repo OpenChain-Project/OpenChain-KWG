@@ -8,7 +8,7 @@ description: >
 
 ## Prpose
 
-The OpenChain Project publishes ISO/IEC 5230, the standard for open source license compliance, and ISO/IEC 18974, the standard for open source security assurance. It provides an [online self-authentication](https://certification.openchainproject.org/) that allows companies to self-verify whether they meet either standard.
+The OpenChain Project publishes ISO/IEC 5230, the standard for open source license compliance, and ISO/IEC 18974, the standard for open source security assurance. It provides [self-certification checklists and a conformance process](https://www.openchainproject.org/get-started/conformance) that allow companies to self-verify whether they meet either standard.
 
 With self-certification, companies can determine what is missing and what additional activities are required. If a company with a well-established open source compliance system can answer Yes to all inquries in the ISO/IEC 5230 or ISO/IEC 18974 self-certification questionnaire, this can be submitted on the website (Conforming Submission). This will allow you to be recognized as a Conformant company for that standard, as well as add your company's logo to the list of companies with conformant programs on the website of the OpenChain project.
 
