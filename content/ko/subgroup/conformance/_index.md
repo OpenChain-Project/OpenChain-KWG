@@ -8,7 +8,7 @@ description: >
 
 ## 목적
 
-OpenChain Project는 오픈소스 라이선스 컴플라이언스 표준인 ISO/IEC 5230과 오픈소스 보안 보증 표준인 ISO/IEC 18974를 발행하고 있습니다. 기업이 두 표준을 충족하는지 자체적으로 확인할 수 있도록 [온라인 자체 인증 방법](https://certification.openchainproject.org/)을 제공합니다.
+OpenChain Project는 오픈소스 라이선스 컴플라이언스 표준인 ISO/IEC 5230과 오픈소스 보안 보증 표준인 ISO/IEC 18974를 발행하고 있습니다. 기업이 두 표준을 충족하는지 자체적으로 확인할 수 있도록 [자체 인증 체크리스트와 컨포먼스 절차](https://www.openchainproject.org/get-started/conformance)를 제공합니다.
 
 기업은 자체 인증을 통해 부족한 부분이 무엇인지, 추가로 필요한 활동이 무엇인지 판단할 수 있습니다. 만약, 오픈소스 컴플라이언스 체계가 잘 구축된 기업이 ISO/IEC 5230 또는 ISO/IEC 18974 자체 인증 질문지의 모든 항목을 Yes로 대답할 수 있다면 이 결과를 웹사이트상에 제출할 수 있습니다(Conforming Submission). 그러면 해당 표준 준수(Conformant) 기업으로 인정됨과 동시에, OpenChain 프로젝트의 웹사이트에서 준수 프로그램을 갖춘 기업 목록에 기업의 로고를 등록할 수 있게 됩니다.
 
