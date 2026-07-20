@@ -21,7 +21,7 @@ aliases:
   <div class="kwg-conf-hero__body">
     <p class="kwg-conf-hero__eyebrow">31st Meeting</p>
     <h1 class="kwg-conf-hero__title">OpenChain KWG 31st Meeting</h1>
-    <p class="kwg-conf-hero__sub">We are preparing the autumn 2026 meeting together with CJ. We are currently collecting topics to share at the meeting.</p>
+    <p class="kwg-conf-hero__sub">We are preparing the autumn 2026 meeting together with CJ. The detailed program will be announced on this page and via the mailing list once confirmed.</p>
     <div class="kwg-conf-hero__meta">
       <span><strong>Date</strong> 2026-09-08 (Tue) 14:00–17:00</span>
       <span><strong>Venue</strong> CJ Human Resources Development Center · Jung-gu, Seoul</span>
@@ -52,22 +52,7 @@ aliases:
 
 ## Agenda
 
-The detailed program is in preparation. It will be published on this page and announced via the mailing list once confirmed.
-
-<div class="kwg-conf-callout">
-  <p class="kwg-conf-callout__title">Call for topics</p>
-  <p class="kwg-conf-callout__desc">We are looking for topics to share at the 31st meeting. It does not have to be a finished case study. Work still in progress often makes for the liveliest discussion, and if company details are sensitive, you are welcome to present anonymously or in generalized form.</p>
-  <ul class="kwg-conf-callout__list">
-    <li><strong>Session talk</strong> about 25 minutes, with separate time for Q&amp;A</li>
-    <li><strong>Topics you want to hear</strong> subjects you hope someone else will share, even if you cannot present</li>
-    <li><strong>Lightning talk</strong> a brief 5 to 10 minute introduction to a topic</li>
-    <li><strong>Group discussion topic</strong> something to take up during the discussion session</li>
-  </ul>
-  <div class="kwg-conf-hero__cta">
-    <a class="kwg-conf-cta" href="https://github.com/OpenChain-KWG/meeting/discussions/15" target="_blank" rel="noopener">Propose a topic</a>
-  </div>
-  <p class="kwg-conf-callout__deadline">Proposals submitted by August 14, 2026 (Fri) will be considered for the program. The discussion thread is written in Korean.</p>
-</div>
+> The detailed program is in preparation. It will be published on this page and announced via the mailing list once confirmed. If you have a topic you would like to present or discuss, please propose it through the mailing list.
 
 ## Sponsor
 
