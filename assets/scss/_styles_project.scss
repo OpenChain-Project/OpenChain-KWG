@@ -991,38 +991,6 @@ a.kwg-hero__badge:hover {
 }
 .kwg-conf-sponsor img { max-width: 170px; width: 100%; height: auto; }
 
-// 모집 안내(발표 주제 공모 등) — 아젠다가 미확정인 회차에서 그 자리를 채운다.
-// 카드는 뉴트럴하게 두고 accent 는 CTA 버튼에만(스폰서 카드와 같은 위계).
-.kwg-conf-callout {
-  padding: clamp($space-5, 4vw, $space-7);
-  border-radius: 1rem;
-  background: var(--bs-body-bg);
-  border: 1px solid var(--bs-border-color);
-  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
-}
-.kwg-conf-callout__title {
-  font-size: $text-lg;
-  font-weight: 600;
-  color: var(--bs-emphasis-color);
-  margin: 0 0 $space-3;
-}
-.kwg-conf-callout__desc {
-  color: var(--bs-secondary-color);
-  line-height: 1.6;
-  margin: 0 0 $space-4;
-}
-.kwg-conf-callout__list {
-  margin: 0 0 $space-5;
-  padding-left: 1.1rem;
-  color: var(--bs-body-color);
-  li { margin-bottom: $space-2; }
-}
-.kwg-conf-callout__deadline {
-  margin: $space-4 0 0;
-  font-size: $text-sm;
-  color: var(--bs-secondary-color);
-}
-
 @media (max-width: 480px) {
   .kwg-conf-tl { grid-template-columns: 76px 24px 1fr; gap: 0 $space-3; }
   .kwg-conf-tl__time { font-size: $text-sm; }
@@ -1043,7 +1011,6 @@ a.kwg-hero__badge:hover {
     .kwg-subcard,
     .kwg-conf-speaker,
     .kwg-conf-tl,
-    .kwg-conf-callout,
     .kwg-conf-sponsor {
       animation: kwg-reveal-up both linear;
       animation-timeline: view();
@@ -1115,13 +1082,11 @@ a.kwg-hero__badge:hover {
   .kwg-conf-hero,
   .kwg-conf-hero__date,
   .kwg-conf-speaker,
-  .kwg-conf-callout,
   .kwg-conf-sponsor {
     box-shadow: none;
   }
   .kwg-conf-hero__date,
   .kwg-conf-speaker,
-  .kwg-conf-callout,
   .kwg-conf-sponsor {
     background: var(--bs-tertiary-bg);
   }
