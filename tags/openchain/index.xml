@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/openchain/</link><description>Recent content in OpenChain on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Mon, 20 Jul 2026 13:45:54 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/openchain/index.xml" rel="self" type="application/rss+xml"/><item><title>1. OpenChain 표준</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/archive/nipa_openchain/i-openchainproject/1-openchain-specification/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/archive/nipa_openchain/i-openchainproject/1-openchain-specification/</guid><description>&lt;h2 id="isoiec-5230"&gt;ISO/IEC 5230&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenChain on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/openchain/</link><description>Recent content in OpenChain on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Mon, 20 Jul 2026 15:34:47 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/openchain/index.xml" rel="self" type="application/rss+xml"/><item><title>1. OpenChain 표준</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/archive/nipa_openchain/i-openchainproject/1-openchain-specification/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/archive/nipa_openchain/i-openchainproject/1-openchain-specification/</guid><description>&lt;h2 id="isoiec-5230"&gt;ISO/IEC 5230&lt;/h2&gt;
 &lt;p&gt;OpenChain 프로젝트는 2016년 OpenChain 규격 1.0을 제작하여 배포했다. OpenChain 규격은 오픈소스 컴플라이언스를 위한 핵심 요구사항을 정의한 12페이지 분량의 규격으로, 기업의 규모나 업종과 관계없이 모든 분야의 회사에 적합하도록 고안되었다. 2020년 12월 Openchain 규격 2.1은 ISO/IEC 5230 국제표준으로 등록되었다.&lt;/p&gt;
 &lt;p&gt;ISO/IEC 5230은 기업이 오픈소스 컴플라이언스 달성을 위해 꼭 수행해야 할 여섯 가지 주요 요구사항과 이를 입증하기 위해 필요한 자료 목록을 정의하고 있다.&lt;/p&gt;
 &lt;ol&gt;
@@ -664,7 +664,7 @@ OpenChain 프로젝트는 기업이 자체적으로 OpenChain 규격을 충족�
  &lt;div class="kwg-conf-hero__body"&gt;
  &lt;p class="kwg-conf-hero__eyebrow"&gt;31st Meeting&lt;/p&gt;
  &lt;h1 class="kwg-conf-hero__title"&gt;OpenChain KWG 31차 정기 모임&lt;/h1&gt;
- &lt;p class="kwg-conf-hero__sub"&gt;2026년 가을 정기 모임을 CJ와 함께 준비하고 있습니다. 지금은 함께 나눌 발표 주제를 모집하고 있습니다.&lt;/p&gt;
+ &lt;p class="kwg-conf-hero__sub"&gt;2026년 가을 정기 모임을 CJ와 함께 준비하고 있습니다. 세부 프로그램은 확정되는 대로 이 페이지와 메일링리스트로 안내드립니다.&lt;/p&gt;
  &lt;div class="kwg-conf-hero__meta"&gt;
  &lt;span&gt;&lt;strong&gt;일시&lt;/strong&gt; 2026-09-08 (화) 14:00–17:00&lt;/span&gt;
  &lt;span&gt;&lt;strong&gt;장소&lt;/strong&gt; CJ인재원 · 서울 중구&lt;/span&gt;
@@ -693,7 +693,8 @@ OpenChain 프로젝트는 기업이 자체적으로 OpenChain 규격을 충족�
 &lt;li&gt;다른 회사의 사례를 듣고 실무 네트워크를 넓히고 싶은 분&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="아젠다"&gt;아젠다&lt;/h2&gt;
-&lt;p&gt;세부 프로그램은 준비 중입니다. 확정되는 대로 이 페이지에 공개하고 메일링리스트로 안내드립니다.&lt;/p&gt;</description></item><item><title>AI SBOM 컴플라이언스 가이드</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/</guid><description>&lt;p&gt;이 가이드는 OpenChain AI Work Group이 펴낸 &lt;em&gt;AI System Bill of Materials — Compliance
+&lt;blockquote&gt;
+&lt;p&gt;세부 프로그램은 준비 중입니다. 확정되는 대로 이 페이지에 공개하고 메일링리스트로 안내드립니다. 발표하거나 함께 논의하고 싶은 주제가 있으면 메일링리스트로 제안해 주세요.&lt;/p&gt;</description></item><item><title>AI SBOM 컴플라이언스 가이드</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/guide/ai-sbom_guide/</guid><description>&lt;p&gt;이 가이드는 OpenChain AI Work Group이 펴낸 &lt;em&gt;AI System Bill of Materials — Compliance
 Management Guide for the Supply Chain&lt;/em&gt;(Version 1.0)의 각 요구사항을 하나씩 풀어서 설명한다.
 각 조항이 요구하는 입증자료가 무엇인지, 어떻게 준수할 수 있는지, 바로 활용할 수 있는 샘플과
 도구는 무엇인지 안내한다.&lt;/p&gt;
