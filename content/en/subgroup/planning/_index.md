@@ -19,12 +19,13 @@ The Steering Committee is the organization that manages the OpenChain KWG and pe
 
 <img src="../../../images/content/about/openchain_planning25.png" alt="Planning_25">
 
-* Haksung Jang, SK telecom (Lead)
-* Seoyeon Lee, Line Plus
-* Soim Kim, LG Electronics
-* Violet Hwang, Kakao
-* Yunhwan Jung, Samesung Electronics
-* Darae Ahn, Samesung Electronics
+* Haksung Jang, SK telecom (Lead, ~2026.12)
+* Violet Hwang, Kakao (~2026.12)
+* Yunhwan Jung, Samesung Electronics (~2026.12)
+* Seoyeon Lee, Line Plus (~2027.12)
+* Soim Kim, LG Electronics (~2027.12)
+* Darae Ahn, Samesung Electronics (~2027.12)
+* Yalli Lee, Kakao (~2027.12)
 
 ## Contact
 
