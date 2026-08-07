@@ -18,7 +18,7 @@
   li { line-height: 1.65; }
   > p { margin-bottom: 1.1rem; }
 
-  // Google devsite 표준 px(16px base): h1 28 / h2 22 / h3 16 / h4 14
+  // Google devsite 표준 px(16px base): h1 28 / h2 22 / h3 16 / h4 16(본문과 동일, 굵기로만 구분 — devsite의 14px는 본문 14px 기준값이라 본문 16px인 이 사이트에 그대로 적용하면 제목이 본문보다 작아 보임)
   h1 { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
   h2 {
     font-size: 1.375rem;
@@ -33,7 +33,7 @@
     margin-top: 2rem;
   }
   h4,
-  h5 { font-size: 0.875rem; font-weight: 500; letter-spacing: -0.008em; }
+  h5 { font-size: 1rem; font-weight: 500; letter-spacing: -0.008em; }
 }
 
 .td-content > h1:first-child,
