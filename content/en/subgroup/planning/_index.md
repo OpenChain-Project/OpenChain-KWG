@@ -25,7 +25,7 @@ The Steering Committee is the organization that manages the OpenChain KWG and pe
 * Seoyeon Lee, Line Plus (~2027.12)
 * Soim Kim, LG Electronics (~2027.12)
 * Darae Ahn, Samesung Electronics (~2027.12)
-* Yalli Lee, Kakao (~2027.12)
+* Yally Lee, Kakao (~2027.12)
 
 ## Contact
 
