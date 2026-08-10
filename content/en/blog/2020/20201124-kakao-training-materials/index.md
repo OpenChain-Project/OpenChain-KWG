@@ -4,6 +4,8 @@ title: "Kakao Training Material"
 linkTitle: "Kakao Training Material"
 description: "Kakao has released open source educational materials for in-house developers so that anyone can read it."
 author: Robin Hwang ([@revfactory](https://github.com/revfactory) 
+categories: ["blog"]
+tags: ["Kakao", "Training Material"]
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
