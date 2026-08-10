@@ -13,7 +13,7 @@ resources:
     byline: "Photo: Robin Hwang"
 ---
 
-Apache Log4j 2에서 발생한 취약점([CVE-2021-44228, NVD](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44228))을 통해 악성코드 감염 등 추가 피해가 발생할 수 있어 전 세계적으로 긴급 보안 업데이트 조치 (2021.11.10)가 있었으며, 관련 내용을 정리합니다.  
+Apache Log4j 2에서 발생한 취약점([CVE-2021-44228, NVD](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44228))을 통해 악성코드 감염 등 추가 피해가 발생할 수 있어 전 세계적으로 긴급 보안 업데이트 조치 (2021.12.10)가 있었으며, 관련 내용을 정리합니다.  
 
 ### Log4j
 Log4j는 로그를 목적으로 Java 기반의 웹서비스에서 대부분 사용되는 Apache 재단의 오픈소스입니다.
