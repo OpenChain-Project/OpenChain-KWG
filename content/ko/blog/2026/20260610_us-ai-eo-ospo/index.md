@@ -41,7 +41,7 @@ flowchart TD
     style E fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
 ```
 
-**그림 1.** 행정명령 전후의 정책 타임라인 *(출처: 백악관 공식 문서 <a id="a1-ref-6"></a>[A1](#a1)·<a id="a2-ref-1"></a>[A2](#a2)·<a id="a3-ref-1"></a>[A3](#a3)·<a id="a4-ref-1"></a>[A4](#a4)·<a id="a5-ref-1"></a>[A5](#a5), Anthropic <a id="a6-ref-2"></a>[A6](#a6), Wiley 기한 계산 <a id="b1-ref-1"></a>[B1](#b1). 2026-06-10 기준)*
+**그림 1.** 행정명령 전후의 정책 타임라인 *(출처: 백악관 공식 문서 <a id="a1-ref-6"></a>[A1](#a1), <a id="a2-ref-1"></a>[A2](#a2), <a id="a3-ref-1"></a>[A3](#a3), <a id="a4-ref-1"></a>[A4](#a4), <a id="a5-ref-1"></a>[A5](#a5), Anthropic <a id="a6-ref-2"></a>[A6](#a6), Wiley 기한 계산 <a id="b1-ref-1"></a>[B1](#b1). 2026-06-10 기준)*
 
 주관 기관 선정은 의외라는 평가가 나옵니다. 취약점 조정이라는 기능만 보면 CISA나 국가사이버국장실이 맡는 것이 자연스러운데, 클리어링하우스는 재무부가 이끕니다. 외교협회(Council on Foreign Relations, CFR)는 재무부가 "제도적 역량이 남아 있는 몇 안 되는 곳"이기 때문일 수 있다고 해석했고, 대서양위원회(Atlantic Council)는 기존 취약점 조정 체계와 겹칠 위험을 지적했습니다 <a id="b4-ref-1"></a>[B4](#b4)·<a id="b5-ref-1"></a>[B5](#b5). 핵심 용어인 대상 프런티어 모델의 기준도 본문에 정의되지 않았습니다. 기밀 벤치마킹의 결과로 정해지며, WilmerHale은 이 기준 정의가 향후 수개월간 기관 규칙 제정(rulemaking)의 초점이 될 것으로 내다봤습니다 <a id="b2-ref-1"></a>[B2](#b2).
 
