@@ -13,7 +13,7 @@ resources:
     byline: "Photo: Robin Hwang"
 ---
 
-A vulnerability in Apache Log4j 2 ([CVE-2021-44228, NVD](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44228)) could lead to further damage such as malware infection, prompting urgent security update measures worldwide (2021.11.10). This post summarizes the related details.
+A vulnerability in Apache Log4j 2 ([CVE-2021-44228, NVD](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44228)) could lead to further damage such as malware infection, prompting urgent security update measures worldwide (2021.12.10). This post summarizes the related details.
 
 ### Log4j
 Log4j is an open source project from the Apache Software Foundation, used for logging purposes in most Java-based web services.
