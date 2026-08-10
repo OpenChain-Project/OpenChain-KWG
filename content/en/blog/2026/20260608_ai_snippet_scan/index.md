@@ -4,7 +4,7 @@ title: "AI-Generated Code: How Far Should Open-Source Scanning Go?"
 linkTitle: "AI Code and Snippet Scanning"
 description: >-
   Whether AI-generated code needs snippet-level open-source license scanning — the decision factors, grounded in public sources, and how this differs from security-vulnerability scanning.
-author: Haksung Jang
+author: Haksung Jang / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
 tags: ["AI coding", "SCA", "snippet scanning", "license compliance", "security"]
 resources:
@@ -81,13 +81,15 @@ The more these two overlap, the more likely a latent obligation turns into a rea
 
 ## Looking at it by company type
 
-| Company type | Weight on snippet scanning | Why |
-|---|---|---|
-| Hands no code outside (pure SaaS, no AGPL components) | Low | Not distribution, so copyleft obligations rarely arise |
-| Hands code or binaries to customers, but no external audit | Depends | An obligation may exist, but there is no occasion for anyone to look |
-| Hands over code + M&A due diligence, customer audit, regulation | High | The point where origin is actually examined externally |
+Placing the two conditions above on two axes yields four quadrants.
 
-The table is a starting point, not the answer. Even within the same cell, the choice can differ by the nature of the code, the licenses involved, and the company's risk appetite.
+![A quadrant chart with two axes: whether code is delivered outside the company, and whether it undergoes external verification. Snippet scanning matters most only when both apply; when code is not delivered, it matters little regardless of verification](./snippet-decision-matrix.png)
+
+**Figure 1.** How much weight snippet scanning deserves, by condition
+
+The top-right quadrant carries the greatest burden: code leaves the company, creating a license obligation, and there is also a trigger — such as M&A due diligence or a customer audit — that actually looks into that obligation. In the top-left, even if an obligation arises, there is no one to check it, so it stays latent. In the bottom two quadrants, there is no distribution at all, so an obligation rarely arises to begin with.
+
+This diagram is a starting point for judgment, not a definitive answer. Even within the same quadrant, the choice can vary depending on the nature of the code involved, the licenses used, and the company's risk tolerance.
 
 ## Embedded is a different story
 
@@ -102,6 +104,14 @@ So in embedded, snippet scanning is closer to a basic means of finding undeclare
 Apart from after-the-fact scanning, there is also a way to block problematic code before it comes in. GitHub Copilot has a setting that blocks suggestions matching public code: it does not show suggestions that match public code at or above a certain length (about 150 characters on average) <a id="b2-ref-1"></a>[B2](#b2)·<a id="c2-ref-1"></a>[C2](#c2). GitHub has stated that verbatim copying of more than 150 characters happens about 1% of the time, while independent studies report higher rates depending on context. Either way it is not zero, but turning the setting on reduces the inflow of fragments of unclear origin. It costs almost nothing, and it is also a precondition for the vendor indemnity mentioned earlier.
 
 This setting overlaps in purpose with after-the-fact snippet scanning. One finds code after it is in; the other blocks it before it gets in. Which one to use, and how much, is something to decide together with the conditions and costs above.
+
+Putting the inflow paths and inspection methods covered so far in one place looks like this.
+
+![Three paths through which code enters, and the methods that catch each one. Code declared through a package manager is caught by dependency-level SCA, but fragments that entered via copy-paste or AI generation, and embedded code copied in as raw source without a manifest, are caught only by snippet matching](./code-inflow-coverage.png)
+
+**Figure 2.** Code inflow paths and the methods that catch them
+
+Where the blind spot of dependency-level SCA lies, and how snippet matching fills that spot, is the starting point for this judgment.
 
 ## Criteria for the decision
 
