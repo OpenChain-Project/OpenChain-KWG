@@ -4,6 +4,8 @@ title: "Open Source Compliance in the Enterprise"
 linkTitle: "Open Source Compliance in the Enterprise"
 description: "NCSOFT summarized the Open Source Compliance in the Enterprise book and released it on GitHub for anyone to read."
 author: Jiho Han ([@PeterHanJiho](https://github.com/PeterHanJiho))
+categories: ["blog"]
+tags: ["Training Material", "NCSOFT"]
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"

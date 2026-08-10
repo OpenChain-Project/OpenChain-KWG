@@ -7,7 +7,7 @@ description: >-
   17 other agencies. The data fields grew from 7 to 17, and licensing entered the minimum
   baseline for the first time. Covers what an OSPO must decide before selecting a tool, how
   SBOM formats differ in their support, and how far the open source tool BomLens gets today.
-author: Haksung Jang
+author: Haksung Jang / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
 tags: ["SBOM", "CISA", "Software Supply Chain", "OSPO", "CycloneDX", "SPDX", "BomLens"]
 resources:

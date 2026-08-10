@@ -3,7 +3,7 @@ date: 2026-06-08
 title: "AI가 만든 코드, 오픈소스 검사를 어디까지 해야 할까"
 linkTitle: "AI 코드와 스니펫 검사"
 description: 
-author: 장학성
+author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
 tags: ["AI 코딩", "SCA", "스니펫 검사", "라이선스 컴플라이언스", "보안 취약점"]
 resources:

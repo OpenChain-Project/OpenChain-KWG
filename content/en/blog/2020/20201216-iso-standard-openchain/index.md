@@ -4,6 +4,8 @@ title: "ISO Standard, OpenChain"
 linkTitle: "ISO Standard"
 description: "The International Standard For Open Source Compliance"
 author: OpenChain Project
+categories: ["blog"]
+tags: ["ISO/IEC 5230"]
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
