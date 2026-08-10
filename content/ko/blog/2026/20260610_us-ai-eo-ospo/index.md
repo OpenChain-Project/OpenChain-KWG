@@ -2,10 +2,13 @@
 date: 2026-06-10
 title: "미국 AI 행정명령(2026-06-02)이 기업 오픈소스 관리자에게 의미하는 것"
 linkTitle: "미국 AI 행정명령과 오픈소스 관리"
+slug: us-ai-eo-ospo
 description: 2026년 6월 2일 서명된 미국 AI 행정명령을 1차 출처로 분석한다. AI 사이버보안 클리어링하우스와 자발적 프런티어 모델 체계가 기업 오픈소스 관리자에게 갖는 의미, EU CRA 의무 보고와의 대비, 지금 할 일과 지켜볼 일을 정리한다.
 author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
 tags: ["AI 행정명령", "오픈소스 보안", "취약점 관리", "SBOM", "EOL", "EU CRA", "OSPO"]
+aliases:
+  - /blog/2026/06/10/미국-ai-행정명령2026-06-02이-기업-오픈소스-관리자에게-의미하는-것/
 ---
 
 {{% alert color="info" %}}

@@ -2,6 +2,7 @@
 date: 2026-08-09
 title: "CISA 2026 SBOM Minimum Elements: What to Prepare and Which Tools Fill the Gaps"
 linkTitle: "CISA 2026 SBOM Minimum Elements"
+slug: cisa-sbom-minimum-elements
 description: >-
   An analysis of the revised SBOM minimum elements published on July 29, 2026 by CISA and
   17 other agencies. The data fields grew from 7 to 17, and licensing entered the minimum
@@ -15,6 +16,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: ""
+aliases:
+  - /blog/2026/08/09/cisa-2026-sbom-minimum-elements-what-to-prepare-and-which-tools-fill-the-gaps/
 ---
 
 {{% alert color="info" %}}

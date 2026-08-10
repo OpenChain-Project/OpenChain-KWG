@@ -2,6 +2,7 @@
 date: 2021-12-12
 title: "Log4j 2 보안 취약점 사태 (Log4Shell)"
 linkTitle: "Log4Shell RCE"
+slug: log4shell
 description: "오픈소스 보안 이슈 Log4Shell과 관련된 내용을 정리합니다."
 author: Robin Hwang ([@revfactory](https://github.com/revfactory))
 categories: ["blog"]
@@ -11,6 +12,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: "Photo: Robin Hwang"
+aliases:
+  - /blog/2021/12/12/log4j-2-보안-취약점-사태-log4shell/
 ---
 
 Apache Log4j 2에서 발생한 취약점([CVE-2021-44228, NVD](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44228))을 통해 악성코드 감염 등 추가 피해가 발생할 수 있어 전 세계적으로 긴급 보안 업데이트 조치 (2021.12.10)가 있었으며, 관련 내용을 정리합니다.  

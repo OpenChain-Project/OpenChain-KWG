@@ -2,6 +2,7 @@
 date: 2021-12-20
 title: "SaaS로 서비스를 제공할 때에도 오픈소스 컴플라이언스가 필요한가요?"
 linkTitle: "SaaS와 컴플라이언스"
+slug: saas-compliance
 description: "Open Source Compliance for SaaS Vendors"
 author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
@@ -11,6 +12,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: ""
+aliases:
+  - /blog/2021/12/20/saas로-서비스를-제공할-때에도-오픈소스-컴플라이언스가-필요한가요/
 ---
 
 대부분의 오픈소스 라이선스는 오픈소스를 실행시키는 것에는 아무 제한을 두지 않으며, 오픈소스를 재배포할 때 소스 코드 공개, 고지 등의 의무 준수를 요구합니다. 여기서 배포라고 하면, 소프트웨어를 탑재한 임베디드 디바이스의 판매, 앱 마켓을 통한 모바일 앱의 배포 등 일반적으로 소프트웨어의 물리적인 전달을 의미합니다.  

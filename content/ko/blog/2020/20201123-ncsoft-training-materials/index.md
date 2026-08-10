@@ -2,6 +2,7 @@
 date: 2020-11-23
 title: "NCSOFT 교육자료 공개"
 linkTitle: "NCSOFT 교육자료"
+slug: ncsoft-training-materials
 description: "NCSOFT에서 오픈소스 라이선스에 대한 개념, 오픈소스 컴플라이언스 절차, 코드 작성 시 주의해야 할 점 등에 대한 교육자료를 공개하였습니다"
 author: Jiho Han ([@PeterHanJiho](https://github.com/PeterHanJiho))
 categories: ["blog"]
@@ -11,6 +12,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: "Photo: Jiho Han  / CC-BY"
+aliases:
+  - /blog/2020/11/23/ncsoft-교육자료-공개/
 ---
 
 [NCSOFT](https://global.ncsoft.com/)에서는 오픈소스의 공유 정신에 따라 사내 오픈소스 교육자료를 누구나 사용할 수 있도록 강의 교안(PPT)과 강의 스크립트를 [GitHub](https://github.com/ncsoft/oss-basic-training)에 공개하였습니다. 

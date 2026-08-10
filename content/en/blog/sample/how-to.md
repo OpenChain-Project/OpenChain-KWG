@@ -1,9 +1,12 @@
 ---
 title: "How to blog"
 linkTitle: "How to blog"
+slug: how-to
 date: 2020-08-29
 description: >
   Anyone member can write a blog.
+aliases:
+  - /blog/2020/08/29/how-to-blog/
 ---
 
 {{% pageinfo %}}

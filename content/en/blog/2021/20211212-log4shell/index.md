@@ -2,6 +2,7 @@
 date: 2021-12-12
 title: "The Log4j 2 Security Vulnerability Incident (Log4Shell)"
 linkTitle: "Log4Shell RCE"
+slug: log4shell
 description: "A summary of the open source security issue known as Log4Shell."
 author: Robin Hwang ([@revfactory](https://github.com/revfactory))
 categories: ["blog"]

@@ -198,8 +198,8 @@ Mailing list member only
   - Contributor: Jongho Hong (LG Electronics)
   - The draft translation has been completed, but review is still required. We appreciate your contributions.
 - Release of in-house educational materials for Kakao/NCSoft
-  - Kakao: https://openchain-project.github.io/OpenChain-KWG/en/blog/2020/11/24/kakao-training-material/
-  - NCSOFT: https://openchain-project.github.io/OpenChain-KWG/en/blog/2020/11/23/oss-basic-training-slide/
+  - Kakao: https://openchain-project.github.io/OpenChain-KWG/en/blog/2020/11/24/kakao-training-materials/
+  - NCSOFT: https://openchain-project.github.io/OpenChain-KWG/en/blog/2020/11/23/ncsoft-training-materials/
 - Planning Group activity start: https://openchain-project.github.io/OpenChain-KWG/en/subgroup/planning/
 - Received a citation from the Minister of Science, Technology, Information and Communication (in the field of merit in the development of the open SW industry): Haksung Jang, SK telecom - https://www.oss.kr/festival/award
 

@@ -2,6 +2,7 @@
 date: 2024-09-06
 title: "Introduction to SPDX 3.0 and Enterprise Adoption Strategy"
 linkTitle: "SPDX 3.0 Enterprise Adoption Strategy"
+slug: spdx-30
 description: 
 author: Haksung Jang / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]

@@ -2,6 +2,7 @@
 date: 2024-11-06
 title: "To Mine or Not To Mine: 독일 법원이 AI 시대의 저작권 딜레마에 내린 판결"
 linkTitle: "독일 법원 AI 저작권 판결"
+slug: germany-ai-lawsuit
 description:
 author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
@@ -11,6 +12,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: ""
+aliases:
+  - /blog/2024/11/06/to-mine-or-not-to-mine-독일-법원이-ai-시대의-저작권-딜레마에-내린-판결/
 ---
 
 이 글은 JBB Rechtsanwält:innen의 블로그 포스트 "To Mine or Not To Mine"([https://jbb.de/to-mine-or-not-to-mine/](https://jbb.de/to-mine-or-not-to-mine/))를 기반으로 작성하였으며, 텍스트 및 데이터 마이닝(TDM)에 관한 최근 독일 법원의 판결을 설명하고 관련 지식을 공유하기 위한 목적으로 공개합니다. 

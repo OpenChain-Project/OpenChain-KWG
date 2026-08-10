@@ -2,6 +2,7 @@
 date: 2023-04-03
 title: "Effective Open Source Management Practices for Companies (2): OpenChain Korea Work Group"
 linkTitle: "Effective Open Source Management Practices for Companies (2): OpenChain Korea Work Group"
+slug: openchain-kwg
 description: 
 author: Haksung Jang / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 resources:

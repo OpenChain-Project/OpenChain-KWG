@@ -2,6 +2,7 @@
 date: 2021-03-28
 title: "Elastic License 2.0 and the Evolution of Open Source Licensing"
 linkTitle: "Elastic License 2.0"
+slug: elastic-license
 description: "Explains the background behind the drafting of Elastic License 2.0"
 author: Haksung Jang ([@haksungjang](https://haksungjang.github.io/)) / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]

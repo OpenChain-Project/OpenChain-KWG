@@ -2,6 +2,7 @@
 date: 2020-11-23
 title: "NCSOFT Training Material"
 linkTitle: "NCSOFT Training Material"
+slug: ncsoft-training-materials
 description: "NCSOFT has released lecture slides and scripts, which are open source educational materials in-house, on GitHub based on the spirit of sharing open source so that anyone can use them."
 author: Jiho Han ([@PeterHanJiho](https://github.com/PeterHanJiho)) 
 categories: ["blog"]
@@ -11,6 +12,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: "Photo: Jiho Han  / CC-BY-CA"
+aliases:
+  - /blog/2020/11/23/ncsoft-training-material/
 ---
 
 [NCSOFT](https://global.ncsoft.com/) has released lecture slides and scripts, which are open source educational materials in-house, on [GitHub](https://github.com/ncsoft/oss-basic-training) based on the spirit of sharing open source so that anyone can use them.
