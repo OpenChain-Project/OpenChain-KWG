@@ -1,9 +1,12 @@
 ---
 title: "블로그 작성 방법"
 linkTitle: "블로그 작성 방법"
+slug: how-to
 date: 2020-08-29
 description: >
   블로그는 모든 멤버가 작성할 수 있습니다. 
+aliases:
+  - /blog/2020/08/29/블로그-작성-방법/
 ---
 
 {{% pageinfo %}}

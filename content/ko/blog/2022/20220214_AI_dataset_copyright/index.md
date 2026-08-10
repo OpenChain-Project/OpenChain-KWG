@@ -2,6 +2,7 @@
 date: 2022-02-14
 title: "상용 AI 서비스에 공개 Dataset을 사용해도 되나요?"
 linkTitle: "상용 AI 서비스에 공개 Dataset을 사용해도 되나요?"
+slug: ai-dataset-copyright
 description: "Can I use this publicly available dataset to build commercial AI software?"
 author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
@@ -11,6 +12,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: ""
+aliases:
+  - /blog/2022/02/14/상용-ai-서비스에-공개-dataset을-사용해도-되나요/
 ---
 
 안녕하세요, 장학성입니다. 

@@ -93,7 +93,7 @@ aliases:
 5. 법원 판결
    * 중국은 영문을 기반으로 한 오픈소스 라이선스의 법적 효력을 인정하고, 라이선스 위반을 저작권 침해로 판결
 <br>
-> 상세한 내용은 [링크](https://openchain-project.github.io/OpenChain-KWG/blog/2021/20211115-virtualapp_gpl/)에서 확인할 수 있음
+> 상세한 내용은 [링크](https://openchain-project.github.io/OpenChain-KWG/blog/2021/11/15/virtualapp-gpl/)에서 확인할 수 있음
 
 
 

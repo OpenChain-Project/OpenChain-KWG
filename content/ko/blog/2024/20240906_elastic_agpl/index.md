@@ -2,6 +2,7 @@
 date: 2024-09-06
 title: "또 다시 Elasticsearch 라이선스 변경, 기업의 대응 방안은?"
 linkTitle: "Elasticsearch 라이선스 변경"
+slug: elastic-agpl
 description: 
 author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
@@ -11,6 +12,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: ""
+aliases:
+  - /blog/2024/09/06/또-다시-elasticsearch-라이선스-변경-기업의-대응-방안은/
 ---
 
 ## 서론: Elasticsearch 라이선스 배경
@@ -31,7 +34,7 @@ Elasticsearch는 처음에 Apache 2.0 라이선스를 사용했으나, 2021년 1
 
 Elastic License 2.0은 소스 코드를 공개하지만 상업적인 클라우드 서비스에서의 사용을 제한하는 라이선스로, Elastic의 기술적 자산을 보호하는 수단으로 활용되었습니다. AWS는 이에 대응해 [OpenSearch](https://opensearch.org/) 프로젝트를 시작하며 Apache 2.0 라이선스를 계속 유지했습니다. 
 
-이에 대해서는 이전 블로그, "**[Elastic License 2.0 그리고 진화하는 오픈소스 라이선스](https://openchain-project.github.io/OpenChain-KWG/blog/2021/03/28/elastic-license-2.0-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%A7%84%ED%99%94%ED%95%98%EB%8A%94-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4/)**"에서 자세히 다룬 바 있습니다. 
+이에 대해서는 이전 블로그, "**[Elastic License 2.0 그리고 진화하는 오픈소스 라이선스](https://openchain-project.github.io/OpenChain-KWG/blog/2021/03/28/elastic-license/)**"에서 자세히 다룬 바 있습니다. 
 
 ### 1.2 Elastic License 2.0는 오픈소스 라이선스가 아니다
 그러나 Elastic License 2.0은 **Open Source Initiative (OSI)**에서 인정하는 오픈소스 라이선스가 아니었습니다. 이는 오픈소스 커뮤니티에서 논란을 불러일으켜습니다. Elastic의 결정은 오픈소스의 자유로운 사용과 상업적 이익 사이에서 갈등을 불러일으켰고, 기업들이 오픈소스를 도입할 때 라이선스 문제에 대한 경각심을 높이는 계기가 되었습니다.

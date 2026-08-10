@@ -2,6 +2,7 @@
 date: 2021-01-14
 title: "Opensource license used by IT Companies"
 linkTitle: "Opensource license used by IT Companies"
+slug: opensource-license-used-by-it-companies
 description: "Share the usage of the Opensource by major IT companies"
 author: Robin Hwang ([@revfactory](https://github.com/revfactory))
 resources:
@@ -9,6 +10,8 @@ resources:
   title: "Image #:counter"
   params:
   byline: "Photo: Robin Hwang"
+aliases:
+  - /blog/2021/01/14/opensource-license-used-by-it-companies/
 ---
 
 ## EPAM, Github Activity Ranking and License Status by Enterprise in 2020 (OSCI)

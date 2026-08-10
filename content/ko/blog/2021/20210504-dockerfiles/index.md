@@ -2,6 +2,7 @@
 date: 2021-05-04
 title: "Dockerfile 배포 시 컴플라이언스 책임은 누구에게?"
 linkTitle: "Dockerfile 배포"
+slug: dockerfiles
 description: "Distribution of Dockerfiles: Who is responsible for FOSS Licence Compliance?"
 author: Haksung Jang ([@haksungjang](https://haksungjang.github.io/)) / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
@@ -11,6 +12,8 @@ resources:
   title: "Image #:counter"
   params:
 
+aliases:
+  - /blog/2021/05/04/dockerfile-배포-시-컴플라이언스-책임은-누구에게/
 ---
 
 > 안녕하세요!  

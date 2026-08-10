@@ -3,6 +3,7 @@ date: 2026-06-09
 lastmod: 2026-06-10
 title: "The EU Open Source Strategy: Institutionalizing Open Source for Tech Sovereignty"
 linkTitle: "EU Open Source Strategy"
+slug: eu-oss-strategy
 description: An analysis of the EU Open Source Strategy (COM(2026) 503), published by the European Commission on June 3, 2026, based on primary sources. Covers the four objectives, the seven-year EUR 2 billion mobilization, the governance structure, civil-society criticism, and implications for Korean public-sector and enterprise practice.
 author: Haksung Jang / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]

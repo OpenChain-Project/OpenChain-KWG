@@ -2,6 +2,7 @@
 date: 2024-09-06
 title: "Elasticsearch Changes Its License Again: How Should Companies Respond?"
 linkTitle: "Elasticsearch License Change"
+slug: elastic-agpl
 description: 
 author: Haksung Jang / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
@@ -31,7 +32,7 @@ Elasticsearch initially used the Apache 2.0 license, but in January 2021 Elastic
 
 Elastic License 2.0 discloses source code but restricts its use in commercial cloud services, and was used as a means of protecting Elastic's technical assets. In response, AWS started the [OpenSearch](https://opensearch.org/) project and kept the Apache 2.0 license.
 
-This was covered in detail in a previous blog post, "**[Elastic License 2.0 and the Evolving Open Source License](https://openchain-project.github.io/OpenChain-KWG/blog/2021/03/28/elastic-license-2.0-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%A7%84%ED%99%94%ED%95%98%EB%8A%94-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4/)."
+This was covered in detail in a previous blog post, "**[Elastic License 2.0 and the Evolving Open Source License](https://openchain-project.github.io/OpenChain-KWG/blog/2021/03/28/elastic-license/)."
 
 ### 1.2 Elastic License 2.0 Is Not an Open Source License
 However, Elastic License 2.0 was not an open source license recognized by the **Open Source Initiative (OSI)**. This sparked controversy in the open source community. Elastic's decision created tension between the free use of open source and commercial interests, and became an occasion for companies to raise their awareness of licensing issues when adopting open source.

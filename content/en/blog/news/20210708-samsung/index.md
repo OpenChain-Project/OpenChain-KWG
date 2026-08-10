@@ -1,6 +1,7 @@
 ---
 date: 2021-07-08
 title: "Samsung Electronics Announces OpenChain ISO 5230 Conformance"
+slug: samsung
 description:
 author: OpenChain
 resources:
@@ -8,6 +9,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: "Samsung"
+aliases:
+  - /blog/2021/07/08/samsung-electronics-announces-openchain-iso-5230-conformance/
 ---
 
 Samsung Electronics announces adoption of OpenChain ISO 5230, the International Standard for open source compliance. They join a growing community of companies in the consumer electronics, automotive, cloud computing and telecommunications field in using this standard to manage supply chains.

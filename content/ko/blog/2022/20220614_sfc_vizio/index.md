@@ -2,6 +2,7 @@
 date: 2022-06-14
 title: "SFC vs. Vizio 판결 겉핥기"
 linkTitle: "SFC vs. Vizio 판결 겉핥기"
+slug: sfc-vizio
 description: SFC와 Vizio의 GPL 소송에 대한 배경과 쟁점을 살펴 보겠습니다.
 author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
@@ -11,6 +12,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: ""
+aliases:
+  - /blog/2022/06/14/sfc-vs.-vizio-판결-겉핥기/
 ---
 
 > 안녕하세요, [장학성](https://haksungjang.github.io/)입니다. 

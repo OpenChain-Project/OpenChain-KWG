@@ -88,7 +88,7 @@ aliases:
     - 2분기 모임에서 확정 후 시행 예정
     - [https://openchain-project.github.io/OpenChain-KWG/about/charter/](https://openchain-project.github.io/OpenChain-KWG/about/charter/)
 6. Blog Update
-    - [상용 AI 서비스에 공개 Dataset을 사용해도 되나요?](https://openchain-project.github.io/OpenChain-KWG/blog/2022/20220214_ai_dataset_copyright/)
+    - [상용 AI 서비스에 공개 Dataset을 사용해도 되나요?](https://openchain-project.github.io/OpenChain-KWG/blog/2022/02/14/ai-dataset-copyright/)
 
 
 ## 오픈소스 최신 동향 (Robin(황민호) / Kakao)

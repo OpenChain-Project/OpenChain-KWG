@@ -2,6 +2,7 @@
 date: 2021-08-01
 title: "Does GPLv2 Also Require Installation Information?"
 linkTitle: "Does GPLv2 Also Require Installation Information?"
+slug: gplv2-installation-information
 description: "Explains the author's analysis of whether GPLv2 also requires installation information."
 author: Original author - P. McCoy Smith, Translation - Haksung Jang / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]

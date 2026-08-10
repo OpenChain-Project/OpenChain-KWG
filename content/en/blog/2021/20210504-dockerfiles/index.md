@@ -2,6 +2,7 @@
 date: 2021-05-04
 title: "Distribution of Dockerfiles: Who Is Responsible for Compliance?"
 linkTitle: "Distribution of Dockerfiles"
+slug: dockerfiles
 description: "Distribution of Dockerfiles: Who is responsible for FOSS Licence Compliance?"
 author: Haksung Jang ([@haksungjang](https://haksungjang.github.io/)) / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]

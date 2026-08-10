@@ -2,6 +2,7 @@
 date: 2024-12-23
 title: "Oracle과 Rimini Street 소송 사례로 알아보는 GPL 파생저작물 범위"
 linkTitle: "Oracle과 Rimini Street 소송 사례"
+slug: oracle-rimini
 description: 
 author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 license: Apache-2.0
@@ -12,6 +13,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: ""
+aliases:
+  - /blog/2024/12/23/oracle과-rimini-street-소송-사례로-알아보는-gpl-파생저작물-범위/
 ---
 
 ## **들어가며**

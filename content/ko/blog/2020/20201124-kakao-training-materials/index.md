@@ -2,6 +2,7 @@
 date: 2020-11-24
 title: "카카오 교육 자료 공개"
 linkTitle: "카카오 교육 자료"
+slug: kakao-training-materials
 description: "카카오에서 사내 개발자를 위한 오픈소스 교육자료를 누구나 열람할 수 있도록 공개하였습니다"
 author: Robin Hwang ([@revfactory](https://github.com/revfactory))
 categories: ["blog"]
@@ -11,6 +12,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: "Photo: Robin Hwang"
+aliases:
+  - /blog/2020/11/24/카카오-교육-자료-공개/
 ---
 
 [Kakao](https://www.kakaocorp.com/) 오픈소스 기술파트에서는 사내 개발자를 위한 오픈소스 교육자료를 누구나 열람할 수 있도록 공개하였습니다. 

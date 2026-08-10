@@ -1,6 +1,7 @@
 ---
 date: 2021-07-08
 title: "삼성전자, 오픈소스 국제 표준 인증 획득"
+slug: samsung
 description: 오픈소스 활용 역량 인정… 소프트웨어 공신력 제고 기대
 author: Samsung Newsroom
 categories: ["blog"]
@@ -10,6 +11,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: "OpenChain"
+aliases:
+  - /blog/2021/07/08/삼성전자-오픈소스-국제-표준-인증-획득/
 ---
 
 삼성전자가 ‘오픈체인(OpenChain) 프로젝트’의 표준 준수 기업으로 국제 인증(ISO/IEC 5230:2020)을 획득했다.

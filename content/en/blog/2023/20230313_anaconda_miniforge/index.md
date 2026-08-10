@@ -2,6 +2,7 @@
 date: 2023-03-13
 title: "Buy Anaconda If You Use It. If Not, Use conda-forge!"
 linkTitle: "Buy Anaconda If You Use It. If Not, Use conda-forge!"
+slug: anaconda-miniforge
 description: To use Anaconda for commercial purposes, you must purchase a paid version. A developer at a company with 200 or more employees using Anaconda counts as commercial use.
 author: Haksung Jang / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]

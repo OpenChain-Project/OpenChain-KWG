@@ -2,6 +2,7 @@
 date: 2025-01-13
 title: "AVM 소송: LGPL-2.1 사용자 권리와 설치정보 제공 의무의 재조명"
 linkTitle: "AVM 소송: LGPL-2.1 사용자 권리와 설치정보 제공 의무의 재조명"
+slug: lgpl-avm
 description: 
 author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
@@ -11,6 +12,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: ""
+aliases:
+  - /blog/2025/01/13/avm-소송-lgpl-2.1-사용자-권리와-설치정보-제공-의무의-재조명/
 ---
 
 

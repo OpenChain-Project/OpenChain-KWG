@@ -2,6 +2,7 @@
 date: 2024-11-12
 title: "한국 소프트웨어 기업이 알아야 할 EU의 3대 디지털 규제 핵심 내용"
 linkTitle: "EU 3대 디지털 규제 핵심 내용"
+slug: eu-regulation
 description: 
 author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
@@ -11,6 +12,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: ""
+aliases:
+  - /blog/2024/11/12/한국-소프트웨어-기업이-알아야-할-eu의-3대-디지털-규제-핵심-내용/
 ---
 
 ## 서론

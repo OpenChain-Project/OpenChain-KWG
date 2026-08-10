@@ -3,10 +3,13 @@ date: 2026-06-09
 lastmod: 2026-06-10
 title: "EU 오픈소스 전략: 기술 주권을 위한 오픈소스의 제도화"
 linkTitle: "EU 오픈소스 전략"
+slug: eu-oss-strategy
 description: 유럽연합 집행위원회가 2026년 6월 3일 발표한 EU 오픈소스 전략(COM(2026) 503)을 1차 출처로 정리한다. 네 가지 목표와 7년 20억 유로, 거버넌스 구조, 시민사회 비판, 한국 공공·기업 실무 시사점을 다룬다.
 author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
 tags: ["오픈소스", "EU 오픈소스 전략", "기술 주권", "Open Source Strategy", "디지털 주권", "OSPO", "public code"]
+aliases:
+  - /blog/2026/06/09/eu-오픈소스-전략-기술-주권을-위한-오픈소스의-제도화/
 ---
 
 {{% alert color="info" %}}

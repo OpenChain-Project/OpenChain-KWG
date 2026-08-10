@@ -1,6 +1,7 @@
 ---
 date: 2021-06-14
 title: "SK텔레콤, 개발자와 소통하는 커뮤니티 ‘DEVOCEAN’ 론칭"
+slug: devocean
 description: "SK ICT 패밀리사 개발자와 외부 개발자 간 소통 채널<br>
 ICT 지식 공유 및 문답·멘토링 제공<br>
 외부강연 통해 양방향 교류 촉진"
@@ -10,6 +11,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: "SK텔레콤"
+aliases:
+  - /blog/2021/06/14/sk텔레콤-개발자와-소통하는-커뮤니티-devocean-론칭/
 ---
 
 SK텔레콤이 스타트업·대학 등 외부 개발자들과 소통하는 오픈 커뮤니티를 론칭하며 SK의 ICT 역량을 적극 공유에 나선다.
