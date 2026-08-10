@@ -4,7 +4,7 @@ lastmod: 2026-07-23
 title: "Rockchip과 FFmpeg의 라이선스 분쟁 사례"
 linkTitle: "Rockchip과 FFmpeg의 라이선스 분쟁 사례"
 description: FFmpeg 코드를 저작권 고지 없이 Apache-2.0으로 재배포한 Rockchip MPP 사건의 경과와 코드 증거, 그리고 22개월이 걸린 시정의 원인을 정리했습니다.
-author: 장학성
+author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
 tags: ["분쟁사례", "LGPL", "FFmpeg"]
 resources:
