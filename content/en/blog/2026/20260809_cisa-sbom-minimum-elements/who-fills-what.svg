@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" font-family="system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">
+  <defs>
+    <filter id="sh2" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+    <marker id="ar2" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0,1 L7,4.5 L0,8 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect width="1000" height="600" fill="#ffffff"/>
+
+  <!-- top -->
+  <rect x="300" y="24" width="400" height="58" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#sh2)"/>
+  <text x="500" y="50" text-anchor="middle" font-size="19" font-weight="700" fill="#0f172a">Filling the 23 minimum elements</text>
+  <text x="500" y="71" text-anchor="middle" font-size="14" fill="#64748b">takes four domains working together</text>
+
+  <path d="M500,82 L500,104" stroke="#94a3b8" stroke-width="1.4" fill="none"/>
+  <path d="M260,104 L740,104" stroke="#94a3b8" stroke-width="1.4" fill="none"/>
+  <path d="M260,104 L260,150" stroke="#94a3b8" stroke-width="1.4" fill="none" marker-end="url(#ar2)"/>
+  <path d="M740,104 L740,150" stroke="#94a3b8" stroke-width="1.4" fill="none" marker-end="url(#ar2)"/>
+
+  <!-- eyebrow labels -->
+  <text x="244" y="136" text-anchor="end" font-size="12" font-weight="700" fill="#c0392b" letter-spacing="1.2">FILLED BY THE TOOL</text>
+  <text x="724" y="136" text-anchor="end" font-size="12" font-weight="700" fill="#64748b" letter-spacing="1.2">FILLED OUTSIDE THE TOOL</text>
+
+  <!-- left: generation tool -->
+  <rect x="60" y="156" width="400" height="392" rx="10" fill="#ffffff" stroke="#c0392b" stroke-width="1.8" filter="url(#sh2)"/>
+  <text x="260" y="192" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">SBOM Generation Tool</text>
+  <path d="M100,208 L420,208" stroke="#f1d4d0" stroke-width="1"/>
+  <text x="260" y="236" text-anchor="middle" font-size="14" fill="#334155">Component name and version</text>
+  <text x="260" y="262" text-anchor="middle" font-size="14" fill="#334155">Component identifier</text>
+  <text x="260" y="288" text-anchor="middle" font-size="14" fill="#334155">Dependency relationships</text>
+  <text x="260" y="314" text-anchor="middle" font-size="14" fill="#334155">License</text>
+  <text x="260" y="340" text-anchor="middle" font-size="14" fill="#334155">Data format name and version</text>
+  <text x="260" y="366" text-anchor="middle" font-size="14" fill="#334155">Timestamp</text>
+  <path d="M100,392 L420,392" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="260" y="422" text-anchor="middle" font-size="13" fill="#64748b">Producer is filled only when package</text>
+  <text x="260" y="442" text-anchor="middle" font-size="13" fill="#64748b">metadata carries it</text>
+  <text x="260" y="480" text-anchor="middle" font-size="13" fill="#64748b">A source scan has no built artifact,</text>
+  <text x="260" y="500" text-anchor="middle" font-size="13" fill="#64748b">so no hash can be computed</text>
+  <text x="260" y="528" text-anchor="middle" font-size="13" fill="#94a3b8">Explicit unknown notation is the prescribed fallback</text>
+
+  <!-- right 1: build pipeline -->
+  <rect x="520" y="156" width="420" height="118" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#sh2)"/>
+  <text x="548" y="186" font-size="16" font-weight="700" fill="#0f172a">Build Pipeline</text>
+  <text x="548" y="214" font-size="14" fill="#334155">Generation context — pre-build or post-build</text>
+  <text x="548" y="238" font-size="14" fill="#334155">Hash of the executable artifact</text>
+  <text x="548" y="262" font-size="13" fill="#94a3b8">Set by when the scan runs, not by what it scans</text>
+
+  <!-- right 2: signing infrastructure -->
+  <rect x="520" y="292" width="420" height="98" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#sh2)"/>
+  <text x="548" y="322" font-size="16" font-weight="700" fill="#0f172a">Signing Infrastructure</text>
+  <text x="548" y="350" font-size="14" fill="#334155">SBOM author signature</text>
+  <text x="548" y="374" font-size="13" fill="#94a3b8">Presumes key management, outside a generation tool</text>
+
+  <!-- right 3: organizational policy -->
+  <rect x="520" y="408" width="420" height="140" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#sh2)"/>
+  <text x="548" y="438" font-size="16" font-weight="700" fill="#0f172a">Organizational Policy and Settings</text>
+  <text x="548" y="466" font-size="14" fill="#334155">SBOM author — whoever operates the tool</text>
+  <text x="548" y="490" font-size="14" fill="#334155">Coverage scope and update frequency</text>
+  <text x="548" y="514" font-size="14" fill="#334155">Delivery method, unknown notation convention</text>
+  <text x="548" y="538" font-size="13" fill="#94a3b8">Decide these before choosing a tool</text>
+
+  <!-- bottom summary -->
+  <path d="M60,568 L940,568" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="500" y="591" text-anchor="middle" font-size="15" fill="#334155">Adopt a tool without deciding these, and the tool's defaults become the organization's policy.</text>
+</svg>
