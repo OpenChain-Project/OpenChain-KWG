@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>카카오 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%B9%B4%EC%B9%B4%EC%98%A4/</link><description>Recent content in 카카오 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Tue, 02 Jun 2026 11:08:34 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%B9%B4%EC%B9%B4%EC%98%A4/index.xml" rel="self" type="application/rss+xml"/><item><title>6th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2020/6th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2020/6th/</guid><description>&lt;img src="OpenChain_KWG_6th_2.png" width="90%"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>카카오 on OpenChain KWG</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%B9%B4%EC%B9%B4%EC%98%A4/</link><description>Recent content in 카카오 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Mon, 10 Aug 2026 11:20:08 +0900</lastBuildDate><atom:link href="https://OpenChain-Project.github.io/OpenChain-KWG/tags/%EC%B9%B4%EC%B9%B4%EC%98%A4/index.xml" rel="self" type="application/rss+xml"/><item><title>6th Meeting</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2020/6th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/meeting/2020/6th/</guid><description>&lt;img src="OpenChain_KWG_6th_2.png" width="90%"&gt;
 &lt;h2 id="intro"&gt;Intro&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Schedule: 2020-06-16 (Tue) 2:00~ pm&lt;/li&gt;
@@ -225,7 +225,7 @@
 &lt;/li&gt;
 &lt;li&gt;Blog Update
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://openchain-project.github.io/OpenChain-KWG/blog/2022/20220214_ai_dataset_copyright/"&gt;상용 AI 서비스에 공개 Dataset을 사용해도 되나요?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://openchain-project.github.io/OpenChain-KWG/blog/2022/02/14/ai-dataset-copyright/"&gt;상용 AI 서비스에 공개 Dataset을 사용해도 되나요?&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
@@ -280,10 +280,10 @@
 &lt;h2 id="카카오와-카카오뱅크의-isoiec-5230-인증사례-공유-violet황은경--kakao-arlo하헌관-may이민애--kakaobank"&gt;카카오와 카카오뱅크의 ISO/IEC 5230 인증사례 공유 (Violet(황은경) / Kakao, Arlo(하헌관), May(이민애) / KakaoBank)&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;카카오의 인증사례&lt;/p&gt;</description></item><item><title>한 달 걸리던 카카오톡 오픈소스 관리, 이틀이면 충분</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2021/06/28/%ED%95%9C-%EB%8B%AC-%EA%B1%B8%EB%A6%AC%EB%8D%98-%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B4%80%EB%A6%AC-%EC%9D%B4%ED%8B%80%EC%9D%B4%EB%A9%B4-%EC%B6%A9%EB%B6%84/</link><pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2021/06/28/%ED%95%9C-%EB%8B%AC-%EA%B1%B8%EB%A6%AC%EB%8D%98-%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B4%80%EB%A6%AC-%EC%9D%B4%ED%8B%80%EC%9D%B4%EB%A9%B4-%EC%B6%A9%EB%B6%84/</guid><description>&lt;p&gt;“한 달이 걸리던 카카오톡 오픈소스 관리 작업을 올리브를 사용하면 하루 이틀이면 충분할 것이다.”&lt;/p&gt;
+&lt;p&gt;카카오의 인증사례&lt;/p&gt;</description></item><item><title>한 달 걸리던 카카오톡 오픈소스 관리, 이틀이면 충분</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2021/06/28/olive/</link><pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2021/06/28/olive/</guid><description>&lt;p&gt;“한 달이 걸리던 카카오톡 오픈소스 관리 작업을 올리브를 사용하면 하루 이틀이면 충분할 것이다.”&lt;/p&gt;
 &lt;p&gt;카카오의 황은경 오픈소스기술파트장은 오픈소스 관리 서비스 &amp;lsquo;올리브&amp;rsquo;의 정식 버전에 대해 소개하며 위와 같이 말했다.&lt;/p&gt;
 &lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 643px"&gt;
-&lt;img class="card-img-top" src="https://OpenChain-Project.github.io/OpenChain-KWG/blog/2021/06/28/%ED%95%9C-%EB%8B%AC-%EA%B1%B8%EB%A6%AC%EB%8D%98-%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B4%80%EB%A6%AC-%EC%9D%B4%ED%8B%80%EC%9D%B4%EB%A9%B4-%EC%B6%A9%EB%B6%84/featured-olive_hu_e69cb74416f9d315.jpeg" width="633" height="429"&gt;
+&lt;img class="card-img-top" src="https://OpenChain-Project.github.io/OpenChain-KWG/blog/2021/06/28/olive/featured-olive_hu_e69cb74416f9d315.jpeg" width="633" height="429"&gt;
 &lt;figcaption class="card-body px-0 pt-2 pb-0"&gt;
 &lt;p class="card-text"&gt;
 
@@ -296,8 +296,8 @@
 
 &lt;p&gt;&lt;a href="https://olive.kakao.com/intro"&gt;올리브&lt;/a&gt;는 복잡한 오픈소스 라이선스 관리를 자동화하는 개발 지원 도구다. 자동으로 소프트웨어를 분석해 오픈소스를 사용했는지, 오픈소스 사용 조건이나 의무사항 등을 목록별로 정리해 제공한다.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;자세한 내용은 기사 원문에서 확인하세요. : &lt;a href="https://zdnet.co.kr/view/?no=20210628143239"&gt;https://zdnet.co.kr/view/?no=20210628143239&lt;/a&gt;&lt;/p&gt;</description></item><item><title>카카오 교육 자료 공개</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/11/24/%EC%B9%B4%EC%B9%B4%EC%98%A4-%EA%B5%90%EC%9C%A1-%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C/</link><pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/11/24/%EC%B9%B4%EC%B9%B4%EC%98%A4-%EA%B5%90%EC%9C%A1-%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C/</guid><description>&lt;p&gt;&lt;a href="https://www.kakaocorp.com/"&gt;Kakao&lt;/a&gt; 오픈소스 기술파트에서는 사내 개발자를 위한 오픈소스 교육자료를 누구나 열람할 수 있도록 공개하였습니다.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/11/24/%EC%B9%B4%EC%B9%B4%EC%98%A4-%EA%B5%90%EC%9C%A1-%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C/featured-kakao-guide.png" alt="featured-kakao-guide"&gt;&lt;/p&gt;
+&lt;p&gt;자세한 내용은 기사 원문에서 확인하세요. : &lt;a href="https://zdnet.co.kr/view/?no=20210628143239"&gt;https://zdnet.co.kr/view/?no=20210628143239&lt;/a&gt;&lt;/p&gt;</description></item><item><title>카카오 교육 자료 공개</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/11/24/kakao-training-materials/</link><pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/11/24/kakao-training-materials/</guid><description>&lt;p&gt;&lt;a href="https://www.kakaocorp.com/"&gt;Kakao&lt;/a&gt; 오픈소스 기술파트에서는 사내 개발자를 위한 오픈소스 교육자료를 누구나 열람할 수 있도록 공개하였습니다.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/11/24/kakao-training-materials/featured-kakao-guide.png" alt="featured-kakao-guide"&gt;&lt;/p&gt;
 &lt;h2 id="download"&gt;Download&lt;/h2&gt;
 &lt;p&gt;교육자료는 다음 페이지에서 다운로드 받을 수 있습니다.&lt;/p&gt;
 &lt;ul&gt;

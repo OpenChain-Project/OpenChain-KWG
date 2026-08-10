@@ -26,13 +26,13 @@
 &lt;h2 id="기여자-현황"&gt;기여자 현황&lt;/h2&gt;
 &lt;p&gt;OpenChain Curriculum 한국어 번역의 주요 기여자 현황은 다음과 같습니다.&lt;/p&gt;</description></item><item><title>External Resources</title><link>https://OpenChain-Project.github.io/OpenChain-KWG/resource/external/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://OpenChain-Project.github.io/OpenChain-KWG/resource/external/</guid><description>&lt;h2 id="교육-자료"&gt;교육 자료&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;NCSOFT 오픈소스 교육 자료 : &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/20201123-ncsoft-training-materials/"&gt;LINK&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Kakao 오픈소스 교육 자료 : &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/20201124-kakao-training-materials/"&gt;LINK&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;NCSOFT 오픈소스 교육 자료 : &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/11/23/ncsoft-training-materials/"&gt;LINK&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Kakao 오픈소스 교육 자료 : &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/11/24/kakao-training-materials/"&gt;LINK&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="학습-자료"&gt;학습 자료&lt;/h2&gt;
 &lt;h3 id="open-source-compliance-in-the-enterprise-책-소개"&gt;Open Source Compliance in the Enterprise 책 소개&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://global.ncsoft.com/"&gt;NCSOFT&lt;/a&gt;에서는 이 책의 주요 내용을 한글로 요약하였고 저자인 Ibrahim으로부터 허가를 받은 후 국내 기업의 오픈소스 담당자들이 참고할 수 있도록 &lt;a href="https://github.com/ncsoft/osc-enterprise-ko/"&gt;GitHub&lt;/a&gt;에 공개하였습니다.&lt;/p&gt;
-&lt;p&gt;자세한 내용은 다음 링크를 참고하세요 : &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/20201123-ncsoft-compliance-book/"&gt;LINK&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;자세한 내용은 다음 링크를 참고하세요 : &lt;a href="https://OpenChain-Project.github.io/OpenChain-KWG/blog/2020/11/23/ncsoft-compliance-book/"&gt;LINK&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="오픈소스-도구"&gt;오픈소스 도구&lt;/h2&gt;
 &lt;h3 id="소스코드-스캐닝-도구"&gt;소스코드 스캐닝 도구&lt;/h3&gt;
 &lt;ul&gt;
