@@ -2,6 +2,7 @@
 date: 2021-01-14
 title: "기업별 Github 활동 순위와 라이선스 현황"
 linkTitle: "기업별 Github 활동 순위와 라이선스 현황"
+slug: opensource-license-used-by-it-companies
 description: "주요 IT 기업들의 Opensource 사용 현황을 공유합니다."
 author: Robin Hwang ([@revfactory](https://github.com/revfactory))
 resources:
@@ -9,6 +10,8 @@ resources:
   title: "Image #:counter"
   params:
   byline: "Photo: Robin Hwang"
+aliases:
+  - /blog/2021/01/14/기업별-github-활동-순위와-라이선스-현황/
 ---
 
 ## EPAM, 2020년도 기업별 Github 활동 순위와 라이선스 현황 (OSCI)

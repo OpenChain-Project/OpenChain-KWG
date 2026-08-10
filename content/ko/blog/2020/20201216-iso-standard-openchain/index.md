@@ -2,6 +2,7 @@
 date: 2020-12-16
 title: "OpenChain, ISO 표준 등록"
 linkTitle: "ISO 표준 등록"
+slug: iso-standard-openchain
 description: "오픈소스 컴플라이언스에 대한 국제 표준, ISO/IEC 5230:2020"
 author: OpenChain Project
 categories: ["blog"]
@@ -11,6 +12,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: "Photo: OpenChain Project"
+aliases:
+  - /blog/2020/12/16/openchain-iso-표준-등록/
 ---
 
 ![featured-cover](featured-openchain-logo.png)

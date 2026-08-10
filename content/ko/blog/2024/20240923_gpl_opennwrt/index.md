@@ -2,6 +2,7 @@
 date: 2024-09-23
 title: "중국 저작권 침해 소송 사례 “GPL 기반 소프트웨어 제품은 어차피 소스 공개 의무가 있으니 배껴도 되는 것 아닌가요?"
 linkTitle: "중국 저작권 침해 소송 사례"
+slug: gpl-openwrt
 description: 
 author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
@@ -11,6 +12,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: ""
+aliases:
+  - /blog/2024/09/23/중국-저작권-침해-소송-사례-gpl-기반-소프트웨어-제품은-어차피-소스-공개-의무가-있으니-배껴도-되는-것-아닌가요/
 ---
 
 오픈소스 소프트웨어의 사용이 널리 퍼지면서, 이와 관련된 법적 문제들도 점점 더 복잡해지고 있습니다. 특히 GPL(GNU General Public License)과 같은 copyleft 라이선스를 사용하는 오픈소스 프로젝트를 기반으로 한 2차적 저작물의 저작권 문제는 많은 기업들에게 골치 아픈 주제입니다. 최근 중국에서 있었던 한 소프트웨어 저작권 침해 소송은 이러한 문제에 대한 중요한 시사점을 제공합니다.

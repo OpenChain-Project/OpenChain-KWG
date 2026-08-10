@@ -2,6 +2,7 @@
 date: 2022-04-03
 title: "이너소스 도입을 위한 과제와 효과"
 linkTitle: "이너소스 도입을 위한 과제와 효과"
+slug: innersource
 description: 
 author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
@@ -11,6 +12,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: ""
+aliases:
+  - /blog/2022/04/03/이너소스-도입을-위한-과제와-효과/
 ---
 
 안녕하세요, 장학성입니다. 

@@ -2,6 +2,7 @@
 date: 2021-12-20
 title: "Is Open Source Compliance Necessary Even When Providing a Service as SaaS?"
 linkTitle: "SaaS and Compliance"
+slug: saas-compliance
 description: "Open Source Compliance for SaaS Vendors"
 author: Haksung Jang / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]

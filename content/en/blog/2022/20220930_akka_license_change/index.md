@@ -2,6 +2,7 @@
 date: 2022-09-30
 title: "Akka Is No Longer Open Source."
 linkTitle: "Akka Is No Longer Open Source."
+slug: akka-license-change
 description: Akka's license, which was Apache-2.0, changed from version 2.7 to the Business Source License, which companies can no longer use for free.
 author: Haksung Jang / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]

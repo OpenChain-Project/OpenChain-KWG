@@ -197,8 +197,8 @@ _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_ -->
   - 기여자: 홍종호님(LG전자)
   - 1차 번역은 완료됐지만, 어색한 표현이나 문장에 대한 의견이 필요합니다. 많은 기여 부탁 드립니다. 
 - 카카오/엔씨소프트 사내 교육자료 공개
-  - 카카오 : https://openchain-project.github.io/OpenChain-KWG/blog/2020/11/24/kakao-training-material/  
-  - NCSOFT : https://openchain-project.github.io/OpenChain-KWG/blog/2020/11/23/oss-basic-training-slide/ 
+  - 카카오 : https://openchain-project.github.io/OpenChain-KWG/blog/2020/11/24/kakao-training-materials/  
+  - NCSOFT : https://openchain-project.github.io/OpenChain-KWG/blog/2020/11/23/ncsoft-training-materials/ 
 - Planning Group 활동 시작 : https://openchain-project.github.io/OpenChain-KWG/subgroup/planning/ 
 - 과학기술정보통신부 장관상 표창 수상 (공개SW 산업발전 유공자부문) : 장학성 - https://www.oss.kr/festival/award 
 

@@ -2,6 +2,7 @@
 date: 2020-08-29
 title: "샘플 블로그입니다."
 linkTitle: "샘플 블로그"
+slug: sample-post
 description: "The Docsy Hugo theme lets project maintainers and contributors focus on content, not on reinventing a website infrastructure from scratch"
 author: Riona MacNamara ([@rionam](https://twitter.com/bepsays))
 resources:
@@ -9,6 +10,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: "Photo: Riona MacNamara / CC-BY-CA"
+aliases:
+  - /blog/2020/08/29/샘플-블로그입니다./
 ---
 
 

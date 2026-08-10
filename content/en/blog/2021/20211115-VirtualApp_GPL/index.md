@@ -2,6 +2,7 @@
 date: 2021-11-15
 title: "China's First GPL Lawsuit Case: VirtualApp"
 linkTitle: "China's First GPL Lawsuit Case"
+slug: virtualapp-gpl
 description: "Defendant ordered to pay the plaintiff RMB 500,000 in damages for violating the GPL"
 author: Haksung Jang / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]

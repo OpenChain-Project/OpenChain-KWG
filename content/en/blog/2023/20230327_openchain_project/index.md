@@ -2,6 +2,7 @@
 date: 2023-03-28
 title: "Effective Corporate Open Source Management (1): The OpenChain Project for Global Collaboration"
 linkTitle: "Effective Corporate Open Source Management (1): The OpenChain Project for Global Collaboration"
+slug: openchain-project
 description: 
 author: Haksung Jang / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]

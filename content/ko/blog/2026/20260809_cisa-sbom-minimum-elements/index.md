@@ -2,6 +2,7 @@
 date: 2026-08-09
 title: "CISA 2026 SBOM 최소 요소: 데이터 필드 7개에서 17개로, 무엇을 준비할 것인가"
 linkTitle: "CISA 2026 SBOM 최소 요소"
+slug: cisa-sbom-minimum-elements
 description: CISA를 비롯한 18개 기관이 2026년 7월 29일 발행한 SBOM 최소 요소 개정판을 분석한다. 데이터 필드가 7개에서 17개로 늘고 라이선스가 처음 최소 기준에 들어왔다. OSPO가 도구를 고르기 전에 정할 항목, SBOM 형식별 지원 차이, 오픈소스 도구 BomLens의 충족 현황을 다룬다.
 author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
@@ -11,6 +12,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: ""
+aliases:
+  - /blog/2026/08/09/cisa-2026-sbom-최소-요소-데이터-필드-7개에서-17개로-무엇을-준비할-것인가/
 ---
 
 {{% alert color="info" %}}

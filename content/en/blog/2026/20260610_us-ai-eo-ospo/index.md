@@ -2,6 +2,7 @@
 date: 2026-06-10
 title: "What the US AI Executive Order (2026-06-02) Means for Enterprise Open Source Managers"
 linkTitle: "US AI Executive Order and Open Source Management"
+slug: us-ai-eo-ospo
 description: An analysis of the US AI executive order signed on June 2, 2026, based on primary sources. Covers what the AI Cybersecurity Clearinghouse and the voluntary frontier model framework mean for enterprise open source managers, how they contrast with the EU CRA's mandatory reporting, and what to do now versus what to watch.
 author: Haksung Jang / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]

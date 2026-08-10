@@ -2,6 +2,7 @@
 date: 2021-04-18
 title: "What Is an OSPO?"
 linkTitle: "What Is an OSPO?"
+slug: ospo-definition
 description: "The definition and guide for the OSPO<sub>Open Source Program Office</sub>"
 author: Haksung Jang ([@haksungjang](https://haksungjang.github.io/)) / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]

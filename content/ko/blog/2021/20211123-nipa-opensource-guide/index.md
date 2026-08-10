@@ -2,6 +2,7 @@
 date: 2021-11-23
 title: "NIPA, 공개소프트웨어의 활용을 위한 가이드 4종 발간"
 linkTitle: "NIPA, 공개소프트웨어 가이드"
+slug: nipa-opensource-guide
 description: "정보통신산업진흥원(이하 NIPA)은 기업과 기관, 단체(이하 기관)에서 공개소프트웨어를 안전하게 활용할 수 있도록 ‘NIPA 공개소프트웨어 가이드 4종’을 발간하였습니다."
 author: Robin Hwang ([@revfactory](https://github.com/revfactory))
 categories: ["blog"]
@@ -11,6 +12,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: "Photo: Robin Hwang"
+aliases:
+  - /blog/2021/11/23/nipa-공개소프트웨어의-활용을-위한-가이드-4종-발간/
 ---
 
 NIPA에서 공개소프트웨어 활용을 위한 4종의 가이드를 발간했습니다. (출처 : https://www.oss.kr/news/show/ef0900db-f5b4-40fb-8745-f1b937fbd8d0)

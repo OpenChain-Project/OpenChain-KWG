@@ -2,6 +2,7 @@
 date: 2022-09-30
 title: "Akka는 더 이상 오픈소스가 아닙니다."
 linkTitle: "Akka는 더 이상 오픈소스가 아닙니다."
+slug: akka-license-change
 description: Apache-2.0이었던 Akka의 라이선스가 2.7 버전부터 기업이 무료로 사용할 수 없는 Business Source License로 변경되었습니다. 
 author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
@@ -11,6 +12,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: ""
+aliases:
+  - /blog/2022/09/30/akka는-더-이상-오픈소스가-아닙니다./
 ---
 
 > 오픈소스로 시작한 소프트웨어 기업이 라이선스 정책을 변경하는 사례가 증가하고 있는데요, 그동안 Apache-2.0으로 오픈소스 라이선스 정책을 유지해오던 미국의 Lightbend사도 2022년 9월, Akka의 라이선스를 BUSL-1.1 (Business Source License)로 변경한다고 발표하였습니다.  

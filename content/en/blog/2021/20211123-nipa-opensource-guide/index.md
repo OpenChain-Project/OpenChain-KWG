@@ -2,6 +2,7 @@
 date: 2021-11-23
 title: "NIPA Publishes Four Guides for Using Open Source Software"
 linkTitle: "NIPA Open Source Guides"
+slug: nipa-opensource-guide
 description: "The National IT Industry Promotion Agency (NIPA) has published four 'NIPA Open Source Software Guides' to help enterprises, institutions, and organizations use open source software safely."
 author: Robin Hwang ([@revfactory](https://github.com/revfactory))
 categories: ["blog"]

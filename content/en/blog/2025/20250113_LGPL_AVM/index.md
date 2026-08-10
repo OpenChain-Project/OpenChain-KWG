@@ -2,6 +2,7 @@
 date: 2025-01-13
 title: "The AVM Lawsuit: Revisiting LGPL-2.1 User Rights and the Obligation to Provide Installation Information"
 linkTitle: "The AVM Lawsuit: Revisiting LGPL-2.1 User Rights and the Obligation to Provide Installation Information"
+slug: lgpl-avm
 description: 
 author: Haksung Jang / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]

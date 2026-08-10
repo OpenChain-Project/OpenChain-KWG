@@ -2,6 +2,7 @@
 date: 2022-02-14
 title: "Can I Use a Publicly Available Dataset to Build a Commercial AI Service?"
 linkTitle: "Can I Use a Publicly Available Dataset to Build a Commercial AI Service?"
+slug: ai-dataset-copyright
 description: "Can I use this publicly available dataset to build commercial AI software?"
 author: Haksung Jang / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
