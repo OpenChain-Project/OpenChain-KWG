@@ -3,6 +3,7 @@ date: 2026-02-20
 lastmod: 2026-07-23
 title: "Rockchip and FFmpeg: A License Dispute Case Study"
 linkTitle: "Rockchip and FFmpeg: A License Dispute Case Study"
+slug: ffmpeg
 description: 
 author: Haksung Jang / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]

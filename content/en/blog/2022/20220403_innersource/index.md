@@ -2,6 +2,7 @@
 date: 2022-04-03
 title: "Challenges and Effects of Adopting InnerSource"
 linkTitle: "Challenges and Effects of Adopting InnerSource"
+slug: innersource
 description: 
 author: Haksung Jang / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]

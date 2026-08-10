@@ -2,6 +2,7 @@
 date: 2023-04-05
 title: "Checklist for Preparing an In-Person Meeting"
 linkTitle: "Checklist for Preparing an In-Person Meeting"
+slug: offline-checklist
 description: "A checklist of what's needed to prepare an in-person OpenChain Korea Workgroup meeting."
 author: Seoyeon Lee / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 resources:

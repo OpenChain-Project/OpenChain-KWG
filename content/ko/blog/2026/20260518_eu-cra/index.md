@@ -3,10 +3,13 @@ date: 2026-05-18
 lastmod: 2026-06-10
 title: "EU 사이버 복원력법(CRA) 취약점 보고 의무 — 2026-09-11 시행 대비 조사보고서"
 linkTitle: "EU CRA 취약점 보고 의무"
+slug: eu-cra
 description: EU 사이버 복원력법(CRA)은 2026년 9월 11일부터 제14조 보고 의무를 시행한다. 한국 기업이 24시간·72시간·14일 통지 시한과 SBOM·적합성 평가에 어떻게 대비해야 하는지 1차 출처 중심으로 정리한다.
 author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
 tags: ["CRA", "Cyber Resilience Act", "취약점 보고", "SBOM", "사이버보안", "소프트웨어 공급망"]
+aliases:
+  - /blog/2026/05/18/eu-사이버-복원력법cra-취약점-보고-의무-2026-09-11-시행-대비-조사보고서/
 ---
 
 

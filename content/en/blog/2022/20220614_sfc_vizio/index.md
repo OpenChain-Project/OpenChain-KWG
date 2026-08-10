@@ -2,6 +2,7 @@
 date: 2022-06-14
 title: "A Quick Look at the SFC v. Vizio Ruling"
 linkTitle: "A Quick Look at the SFC v. Vizio Ruling"
+slug: sfc-vizio
 description: Let's look at the background and issues of the SFC and Vizio GPL lawsuit.
 author: Haksung Jang / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]

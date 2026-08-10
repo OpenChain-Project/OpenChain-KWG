@@ -2,6 +2,7 @@
 date: 2020-12-16
 title: "ISO Standard, OpenChain"
 linkTitle: "ISO Standard"
+slug: iso-standard-openchain
 description: "The International Standard For Open Source Compliance"
 author: OpenChain Project
 categories: ["blog"]
@@ -11,6 +12,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: "Photo: OpenChain Project"
+aliases:
+  - /blog/2020/12/16/iso-standard-openchain/
 ---
 
 ![featured-cover](featured-openchain-logo.png)

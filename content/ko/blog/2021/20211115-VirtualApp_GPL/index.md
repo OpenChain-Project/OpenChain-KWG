@@ -2,6 +2,7 @@
 date: 2021-11-15
 title: "중국 첫 GPL 소송 사례, VirtualApp"
 linkTitle: "중국 첫 GPL 소송 사례"
+slug: virtualapp-gpl
 description: "피고는 GPL 위반으로 원고에게 배상금 50만 위안 지급 선고"
 author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
@@ -11,6 +12,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: ""
+aliases:
+  - /blog/2021/11/15/중국-첫-gpl-소송-사례-virtualapp/
 ---
 
 

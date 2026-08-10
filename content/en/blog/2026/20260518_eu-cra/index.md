@@ -3,6 +3,7 @@ date: 2026-05-18
 lastmod: 2026-06-10
 title: "EU Cyber Resilience Act (CRA) Vulnerability Reporting Obligations — A Research Report for the 2026-09-11 Compliance Date"
 linkTitle: "EU CRA Vulnerability Reporting Obligations"
+slug: eu-cra
 description: The EU Cyber Resilience Act (CRA) brings its Article 14 reporting obligations into force on September 11, 2026. This article draws primarily on primary sources to lay out how Korean companies should prepare for the 24-hour, 72-hour, and 14-day notification deadlines, along with SBOM and conformity assessment requirements.
 author: Haksung Jang / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]

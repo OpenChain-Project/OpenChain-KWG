@@ -2,6 +2,7 @@
 date: 2024-11-12
 title: "Key Points of the EU's Three Major Digital Regulations That Korean Software Companies Need to Know"
 linkTitle: "Key Points of the EU's Three Major Digital Regulations"
+slug: eu-regulation
 description: 
 author: Haksung Jang / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]

@@ -2,6 +2,7 @@
 date: 2024-11-06
 title: "To Mine or Not To Mine: A German Court's Ruling on the Copyright Dilemma of the AI Era"
 linkTitle: "German Court's AI Copyright Ruling"
+slug: germany-ai-lawsuit
 description: 
 author: Haksung Jang / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]

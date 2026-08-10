@@ -2,6 +2,7 @@
 date: 2023-03-28
 title: "기업의 효과적인 오픈소스 관리 방안 (1) 글로벌 협력을 위한 OpenChain Project"
 linkTitle: "기업의 효과적인 오픈소스 관리 방안 (1) 글로벌 협력을 위한 OpenChain Project"
+slug: openchain-project
 description: 
 author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
@@ -11,6 +12,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: ""
+aliases:
+  - /blog/2023/03/28/기업의-효과적인-오픈소스-관리-방안-1-글로벌-협력을-위한-openchain-project/
 ---
 
 기업이 개발하는 제품 소프트웨어의 93% 이상이 오픈소스를 사용한다고 할 정도로 현대 소프트웨어 개발에 오픈소스를 사용하는 건 거의 필수적입니다. 그런데, 사용하는 오픈소스의 53%는 라이선스 컴플라이언스 이슈가 있고, 81%는 보안 취약점이 있다는 [보고가 있습니다](https://www.synopsys.com/blogs/software-security/open-source-trends-ossra-report/). 복잡한 현대 소프트웨어의 개발환경과 방대한 Software Supply Chain을 고려한다면, 기업이 오픈소스로 제품을 개발하면서 라이선스 컴플라이언스와 보안 취약점 리스크 최소화를 위한 오픈소스 관리 노력이 필요한데요, [Linux Foundation](https://www.linuxfoundation.org/)의 [OpenChain Project](openchainproject.org)는 이러한 노력을 커뮤니티 차원에서 여러 기업이 공유와 협업으로 함께 하기 위한 Project입니다. 

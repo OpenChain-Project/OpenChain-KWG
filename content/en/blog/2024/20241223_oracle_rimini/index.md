@@ -2,6 +2,7 @@
 date: 2024-12-23
 title: "What the Oracle v. Rimini Street Case Tells Us About the Scope of GPL Derivative Works"
 linkTitle: "Oracle v. Rimini Street Case"
+slug: oracle-rimini
 description: 
 author: Haksung Jang / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 license: Apache-2.0

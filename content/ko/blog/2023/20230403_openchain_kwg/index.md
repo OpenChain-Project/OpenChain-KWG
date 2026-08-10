@@ -2,6 +2,7 @@
 date: 2023-04-03
 title: "기업의 효과적인 오픈소스 관리 방안 (2) OpenChain Korea Work Group"
 linkTitle: "기업의 효과적인 오픈소스 관리 방안 (2) OpenChain Korea Work Group"
+slug: openchain-kwg
 description: 
 author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 resources:
@@ -9,6 +10,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: ""
+aliases:
+  - /blog/2023/04/03/기업의-효과적인-오픈소스-관리-방안-2-openchain-korea-work-group/
 ---
 
 이전 글에서는 기업의 효과적인 오픈소스 관리 방안으로 [글로벌 협력을 위한 OpenChain Project](https://devocean.sk.com/blog/techBoardDetail.do?ID=164676)를 소개했습니다. 이번에는 한국 기업이 오픈소스를 효과적으로 관리하기 위한 협업 커뮤니티인 [OpenChain Korea Work Group](https://openchain-project.github.io/OpenChain-KWG/)에 대해 소개하려고 합니다.

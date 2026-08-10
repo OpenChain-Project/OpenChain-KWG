@@ -90,9 +90,9 @@ aliases:
   * [https://openchain-project.github.io/OpenChain-KWG/subgroup/planning/2021/2nd-meeting/](https://openchain-project.github.io/OpenChain-KWG/subgroup/planning/2021/2nd-meeting/)
 * OpenChain ISO 5230 Supplier Education Pack 한국어 리뷰가 필요함
 * Blog 개설
-  * Elastic License 2.0 & 진화하는 오픈소스 라이선스: [https://openchain-project.github.io/OpenChain-KWG/blog/2021/20210328-elasticlicense](https://openchain-project.github.io/OpenChain-KWG/blog/2021/20210328-elasticlicense)
-  * OSPO란?: [https://openchain-project.github.io/OpenChain-KWG/blog/2021/20210418-ospo-definition/](https://openchain-project.github.io/OpenChain-KWG/blog/2021/20210418-ospo-definition/)
-  * Dockerfile 배포 시 컴플라이언스 책임은 누구에게?:[https://openchain-project.github.io/OpenChain-KWG/blog/2021/20210504-dockerfiles/](https://openchain-project.github.io/OpenChain-KWG/blog/2021/20210504-dockerfiles/)
+  * Elastic License 2.0 & 진화하는 오픈소스 라이선스: [https://openchain-project.github.io/OpenChain-KWG/blog/2021/03/28/elastic-license/](https://openchain-project.github.io/OpenChain-KWG/blog/2021/03/28/elastic-license/)
+  * OSPO란?: [https://openchain-project.github.io/OpenChain-KWG/blog/2021/04/18/ospo-definition/](https://openchain-project.github.io/OpenChain-KWG/blog/2021/04/18/ospo-definition/)
+  * Dockerfile 배포 시 컴플라이언스 책임은 누구에게?:[https://openchain-project.github.io/OpenChain-KWG/blog/2021/05/04/dockerfiles/](https://openchain-project.github.io/OpenChain-KWG/blog/2021/05/04/dockerfiles/)
 
 ### FOSSLight Open Source Project 소개 (김경애/LG전자)
 * FOSSLight Open Source Project 란?

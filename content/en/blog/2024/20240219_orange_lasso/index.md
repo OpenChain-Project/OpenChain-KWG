@@ -2,6 +2,7 @@
 date: 2024-02-19
 title: "French Court Orders Major Telecom Orange to Pay Damages for GPL Violation"
 linkTitle: "French Court Orders Major Telecom Orange to Pay Damages for GPL Violation"
+slug: orange-lasso
 description: 
 author: Haksung Jang / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]

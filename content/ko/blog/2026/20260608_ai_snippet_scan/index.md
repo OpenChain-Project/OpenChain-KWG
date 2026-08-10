@@ -2,6 +2,7 @@
 date: 2026-06-08
 title: "AI가 만든 코드, 오픈소스 검사를 어디까지 해야 할까"
 linkTitle: "AI 코드와 스니펫 검사"
+slug: ai-snippet-scan
 description: 
 author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
@@ -11,6 +12,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: ""
+aliases:
+  - /blog/2026/06/08/ai가-만든-코드-오픈소스-검사를-어디까지-해야-할까/
 ---
 
 

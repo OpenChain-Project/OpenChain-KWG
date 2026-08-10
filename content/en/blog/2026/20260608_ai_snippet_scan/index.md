@@ -2,6 +2,7 @@
 date: 2026-06-08
 title: "AI-Generated Code: How Far Should Open-Source Scanning Go?"
 linkTitle: "AI Code and Snippet Scanning"
+slug: ai-snippet-scan
 description: >-
   Whether AI-generated code needs snippet-level open-source license scanning — the decision factors, grounded in public sources, and how this differs from security-vulnerability scanning.
 author: Haksung Jang / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
@@ -12,6 +13,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: ""
+aliases:
+  - /blog/2026/06/08/ai-generated-code-how-far-should-open-source-scanning-go/
 ---
 
 

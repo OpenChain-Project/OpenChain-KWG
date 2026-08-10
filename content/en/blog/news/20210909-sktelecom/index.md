@@ -1,6 +1,7 @@
 ---
 date: 2021-09-09
 title: "SK Telecom is the first Telecommunications Operator to adopt OpenChain ISO 5230"
+slug: sktelecom
 description: 
 author: OpenChain
 resources:
@@ -8,6 +9,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: "SK telecom"
+aliases:
+  - /blog/2021/09/09/sk-telecom-is-the-first-telecommunications-operator-to-adopt-openchain-iso-5230/
 ---
 SK Telecom, South Korea’s largest wireless carrier, is the first telecommunications operator to adopt OpenChain ISO 5230. This leap forward in governance builds on their long-term mission to lead in technological capabilities in 5G, AI, big data analysis, IoT and quantum cryptography communications as a global ICT leader.
 

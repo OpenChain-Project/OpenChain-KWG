@@ -2,6 +2,7 @@
 date: 2023-04-05
 title: "오프라인 모임 준비 checklist"
 linkTitle: "오프라인 모임 준비 checklist"
+slug: offline-checklist
 description: "OpenChain Korea Workgroup 오프라인 모임 준비에 필요한 체크리스트를 정리합니다."
 author: 이서연 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 resources:
@@ -9,6 +10,8 @@ resources:
   title: "Image #:counter"
   params:
     byline: ""
+aliases:
+  - /blog/2023/04/05/오프라인-모임-준비-checklist/
 ---
 
 안녕하세요. 지난 3월 28일은 모두에게 기억에 남을 시간을 가졌습니다. 바로 3년 만에 COVID를 지나고 처음 갖는 오프라인 모임이었는데요. 너무 오랜만에 오프라인 모임을 가지면서 생각보다 장소 제공에 많은 ~~잡다한~~준비가 필요하다는 것을 알게 되었습니다. 

@@ -2,6 +2,7 @@
 date: 2024-09-23
 title: "A Chinese Copyright Infringement Case: \"Since GPL-Based Software Products Already Have an Obligation to Disclose Source Anyway, Isn't It Fine to Copy Them?\""
 linkTitle: "A Chinese Copyright Infringement Case"
+slug: gpl-openwrt
 description: 
 author: Haksung Jang / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
