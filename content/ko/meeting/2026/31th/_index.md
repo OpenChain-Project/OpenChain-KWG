@@ -26,12 +26,14 @@ aliases:
       <span><strong>일시</strong> 2026-09-08 (화) 14:00–17:00</span>
       <span><strong>장소</strong> CJ인재원 · 서울 중구</span>
     </div>
+    <p class="kwg-conf-hero__maps">길찾기
+      <a href="https://map.naver.com/p/search/CJ%EC%9D%B8%EC%9E%AC%EC%9B%90" target="_blank" rel="noopener">네이버지도</a>
+      <a href="https://map.kakao.com/link/search/CJ%EC%9D%B8%EC%9E%AC%EC%9B%90" target="_blank" rel="noopener">카카오맵</a>
+      <a href="https://maps.app.goo.gl/nQUogVHPvF4VuapX9" target="_blank" rel="noopener">구글맵</a>
+    </p>
     <p class="kwg-conf-hero__note">참가 신청과 세부 프로그램은 OpenChain KWG 메일링리스트로 안내됩니다. 가입하시면 신청 링크를 받아보실 수 있습니다.</p>
     <div class="kwg-conf-hero__cta">
       <a class="kwg-conf-cta" href="../../../about/subscribe/">메일링리스트 가입</a>
-      <a class="kwg-conf-cta kwg-conf-cta--ghost" href="https://map.naver.com/p/search/CJ%EC%9D%B8%EC%9E%AC%EC%9B%90" target="_blank" rel="noopener">네이버지도</a>
-      <a class="kwg-conf-cta kwg-conf-cta--ghost" href="https://map.kakao.com/link/search/CJ%EC%9D%B8%EC%9E%AC%EC%9B%90" target="_blank" rel="noopener">카카오맵</a>
-      <a class="kwg-conf-cta kwg-conf-cta--ghost" href="https://maps.app.goo.gl/nQUogVHPvF4VuapX9" target="_blank" rel="noopener">구글맵</a>
     </div>
   </div>
   <div class="kwg-conf-hero__date">
