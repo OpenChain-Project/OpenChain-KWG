@@ -1,0 +1,86 @@
+{{- /*
+  참여 회사 목록. 원본은 data/members.yaml 하나이고 ko/en 페이지가 함께 쓴다.
+  회사 수와 산업군 수는 데이터에서 세므로 본문에 숫자를 적지 않는다.
+
+  본문에서 members 셰이프를 부르면 된다.
+*/ -}}
+{{- $ko := eq site.Language.Lang "ko" -}}
+{{- $data := site.Data.members -}}
+{{- $logoBase := "images/content/about/logo/" -}}
+
+{{- $total := 0 -}}
+{{- range $data.industries -}}
+  {{- $total = add $total (len .companies) -}}
+{{- end -}}
+
+<div class="kwg-members">
+
+  <p class="kwg-members-summary">
+    {{- if $ko -}}
+      <b>{{ $total }}</b>개 회사의 담당자가 <b>{{ len $data.industries }}</b>개 산업군에서 참여하고 있습니다.
+    {{- else -}}
+      <b>{{ $total }}</b> companies across <b>{{ len $data.industries }}</b> industries take part.
+    {{- end -}}
+  </p>
+
+  {{- range $data.industries }}
+    {{- $withLogo := where .companies "logo" "!=" nil -}}
+    {{- $noLogo := where .companies "logo" nil -}}
+    <section class="kwg-mem-group">
+      <h3 class="kwg-mem-title">
+        {{ if $ko }}{{ .ko }}{{ else }}{{ .en }}{{ end }}
+        <span>{{ len .companies }}</span>
+      </h3>
+
+      {{- with $withLogo }}
+        <ul class="kwg-mem-logos">
+          {{- range . }}
+            {{- $name := cond $ko .ko .en }}
+            <li>
+              <span class="kwg-mem-logo"><img src="{{ (printf "%s%s" $logoBase .logo) | relURL }}" alt="{{ $name }}" loading="lazy" width="120" height="40"></span>
+              <span class="kwg-mem-name">{{ $name }}</span>
+            </li>
+          {{- end }}
+        </ul>
+      {{- end }}
+
+      {{- with $noLogo }}
+        <ul class="kwg-mem-chips">
+          {{- range . }}
+            <li>{{ if $ko }}{{ .ko }}{{ else }}{{ .en }}{{ end }}</li>
+          {{- end }}
+        </ul>
+      {{- end }}
+    </section>
+  {{- end }}
+
+  {{- with $data.international }}
+    {{- $withLogo := where .companies "logo" "!=" nil -}}
+    {{- $noLogo := where .companies "logo" nil -}}
+    <section class="kwg-mem-group kwg-mem-intl">
+      <h3 class="kwg-mem-title">
+        {{ if $ko }}{{ .ko }}{{ else }}{{ .en }}{{ end }}
+        <span>{{ len .companies }}</span>
+      </h3>
+      {{- with $withLogo }}
+        <ul class="kwg-mem-logos">
+          {{- range . }}
+            {{- $name := cond $ko .ko .en }}
+            <li>
+              <span class="kwg-mem-logo"><img src="{{ (printf "%s%s" $logoBase .logo) | relURL }}" alt="{{ $name }}" loading="lazy" width="120" height="40"></span>
+              <span class="kwg-mem-name">{{ $name }}</span>
+            </li>
+          {{- end }}
+        </ul>
+      {{- end }}
+      {{- with $noLogo }}
+        <ul class="kwg-mem-chips">
+          {{- range . }}
+            <li>{{ if $ko }}{{ .ko }}{{ else }}{{ .en }}{{ end }}</li>
+          {{- end }}
+        </ul>
+      {{- end }}
+    </section>
+  {{- end }}
+
+</div>
