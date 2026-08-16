@@ -76,7 +76,7 @@ aliases:
     <div class="kwg-conf-tl__time">14:30–14:55</div>
     <div class="kwg-conf-tl__marker"></div>
     <div class="kwg-conf-tl__body">
-      <div class="kwg-conf-tl__title">Session 1. Open Source Management Best Practices at CJ Group</div>
+      <div class="kwg-conf-tl__title">Session 1. Open Source Management Best Practices at CJ Group (working title)</div>
       <div class="kwg-conf-tl__by">Kiyoung Sung, Patent Attorney · CJ</div>
       <p class="kwg-conf-tl__desc">CJ Group's open source management framework, including its experience joining the OSSORI project and its activities in response to the EU Cyber Resilience Act (CRA).</p>
     </div>
@@ -102,7 +102,7 @@ aliases:
     <div class="kwg-conf-tl__time">15:55–16:20</div>
     <div class="kwg-conf-tl__marker"></div>
     <div class="kwg-conf-tl__body">
-      <div class="kwg-conf-tl__title">Session 2. Automating Open Source Management</div>
+      <div class="kwg-conf-tl__title">Session 2. Automating Open Source Management (working title)</div>
       <div class="kwg-conf-tl__by">Olive Networks</div>
       <p class="kwg-conf-tl__desc">How an operations team automated its open source management work, and the results of applying it.</p>
     </div>

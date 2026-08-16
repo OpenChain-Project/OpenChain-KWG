@@ -77,7 +77,7 @@ aliases:
     <div class="kwg-conf-tl__time">14:30–14:55</div>
     <div class="kwg-conf-tl__marker"></div>
     <div class="kwg-conf-tl__body">
-      <div class="kwg-conf-tl__title">Session 1. CJ 그룹 오픈소스 관리 우수 사례</div>
+      <div class="kwg-conf-tl__title">Session 1. CJ 그룹 오픈소스 관리 우수 사례 (가제)</div>
       <div class="kwg-conf-tl__by">성기영 변리사 · CJ</div>
       <p class="kwg-conf-tl__desc">오소리(OSSORI) 프로젝트 가입 경험과 EU 사이버 복원력법(CRA) 대응 활동을 포함해 CJ 그룹의 오픈소스 관리 체계를 공유합니다.</p>
     </div>
@@ -103,7 +103,7 @@ aliases:
     <div class="kwg-conf-tl__time">15:55–16:20</div>
     <div class="kwg-conf-tl__marker"></div>
     <div class="kwg-conf-tl__body">
-      <div class="kwg-conf-tl__title">Session 2. 오픈소스 관리 자동화 방안</div>
+      <div class="kwg-conf-tl__title">Session 2. 오픈소스 관리 자동화 방안 (가제)</div>
       <div class="kwg-conf-tl__by">올리브네트웍스</div>
       <p class="kwg-conf-tl__desc">운영팀 관점에서 오픈소스 관리 업무를 자동화한 방식과 적용 결과를 공유합니다.</p>
     </div>
