@@ -8,7 +8,7 @@ tags: ["trusca", "sca", "sbom", "cve", "vulnerability"]
 
 Managing the vulnerabilities and licenses of open source components calls for an SCA (Software Composition Analysis) tool. Several commercial products exist, but some organizations look for an open source tool they can install and run on their own infrastructure.
 
-TRUSCA is a self-hosted SCA portal published for that purpose. Released under Apache 2.0, it brings vulnerabilities (CVE), license compliance, and SBOM management into a single screen. It is developed by [TrustedOSS](../../trustedoss/), a project that grew out of KWG community work.
+TRUSCA is a self-hosted SCA portal published for that purpose. Released under Apache 2.0, it brings vulnerabilities (CVE), license compliance, and SBOM management into a single screen. It is developed by [Trusted OSS](../../trustedoss/), a project that grew out of KWG community work.
 
 ## Features
 
