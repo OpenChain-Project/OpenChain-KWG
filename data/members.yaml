@@ -1,0 +1,221 @@
+# OpenChain KWG 참여 회사 목록
+#
+# 이 파일 하나가 About > Member 페이지의 원본이다. 한국어와 영어 페이지가 같은
+# 데이터를 쓰고, 회사 수와 산업군 집계는 렌더 시 계산하므로 따로 적지 않는다.
+#
+# 갱신 방법
+#   1. 메일링리스트(korea-wg) 가입자의 소속을 확인한다.
+#   2. 해당 산업군의 companies 에 ko / en 을 추가한다.
+#   3. 로고 파일이 있으면 static/images/content/about/logo/ 에 넣고 logo 에 파일명만 적는다.
+#      logo 가 없으면 이름 칩으로 표시되므로 비워 두어도 페이지는 깨지지 않는다.
+#
+# 산업군 구분은 정기 모임 사전 설문의 '소속 산업군' 보기를 따른다.
+
+industries:
+  - id: it
+    ko: "IT · 인터넷 · 플랫폼"
+    en: "IT / Internet / Platform"
+    companies:
+      - ko: 카카오
+        en: Kakao
+        logo: kakao.png
+      - ko: 네이버
+        en: NAVER
+        logo: naver.png
+      - ko: 라인플러스
+        en: LINE Plus
+        logo: line.png
+      - ko: NHN
+        en: NHN
+        logo: nhn.svg
+      - ko: SK텔레콤
+        en: SK Telecom
+        logo: skt.png
+      - ko: SK주식회사
+        en: SK Inc.
+        logo: sk.png
+      - ko: KT
+        en: KT
+        logo: kt.png
+      - ko: kt ds
+        en: kt ds
+        logo: ktds.jpg
+      - ko: 삼성SDS
+        en: Samsung SDS
+        logo: samsungsds.png
+      - ko: 안랩
+        en: AhnLab
+        logo: ahnlab.svg
+      - ko: 한글과컴퓨터
+        en: Hancom
+        logo: hancom.png
+      - ko: LG AI연구원
+        en: LG AI Research
+        logo: lgai.png
+      - ko: 라온시큐어
+        en: Raonsecure
+        logo: raon.png
+      - ko: 두산디지털이노베이션
+        en: Doosan Digital Innovation
+        logo: doosan.svg
+      - ko: 신한DS
+        en: Shinhan DS
+        logo: shinhands.png
+      - ko: KB데이타시스템
+        en: KB Data Systems
+        logo: kbds.svg
+      - ko: CJ올리브네트웍스
+        en: CJ OliveNetworks
+        logo: cj_olivenetworks.svg
+      - ko: 디아이웨어
+        en: DIWARE
+      - ko: ATCI
+        en: ATCI
+
+  - id: finance
+    ko: "금융 · 핀테크"
+    en: "Finance / Fintech"
+    companies:
+      - ko: KB국민은행
+        en: KB Kookmin Bank
+        logo: kb.svg
+      - ko: 신한은행
+        en: Shinhan Bank
+        logo: shinhanbank.svg
+      - ko: 신한금융지주회사
+        en: Shinhan Financial Group
+        logo: shinhangroup.svg
+      - ko: 우리은행
+        en: Woori Bank
+        logo: wooribank.svg
+      - ko: 부산은행
+        en: Busan Bank
+        logo: busanbank.png
+      - ko: 카카오뱅크
+        en: KakaoBank
+        logo: kakaobank.png
+      - ko: 토스뱅크
+        en: Toss Bank
+        logo: tossbank.png
+      - ko: 금융결제원
+        en: KFTC
+        logo: kftc.png
+      - ko: 비씨카드
+        en: BC Card
+        logo: bccard.svg
+      - ko: 메리츠화재
+        en: Meritz Fire & Marine Insurance
+        logo: meritz.jpg
+
+  - id: mobility
+    ko: "자동차 · 모빌리티"
+    en: "Automotive / Mobility"
+    companies:
+      - ko: 현대자동차
+        en: Hyundai Motor Company
+        logo: hd.png
+      - ko: 기아
+        en: Kia
+        logo: kia.svg
+      - ko: 현대모비스
+        en: Hyundai Mobis
+        logo: hd_mobis.png
+      - ko: 현대오토에버
+        en: Hyundai AutoEver
+        logo: hd_autoever.png
+      - ko: 티맵모빌리티
+        en: TMAP Mobility
+        logo: tmap.svg
+      - ko: 텔레칩스
+        en: Telechips
+        logo: telechips.jpg
+      - ko: 42dot
+        en: 42dot
+        logo: 42dot.svg
+
+  - id: retail
+    ko: "유통 · 콘텐츠"
+    en: "Retail / Content"
+    companies:
+      - ko: CJ주식회사
+        en: CJ Corporation
+        logo: cj.png
+      - ko: CJ CGV
+        en: CJ CGV
+        logo: cj_cgv.svg
+      - ko: CJ ENM
+        en: CJ ENM
+        logo: cj_enm.svg
+      - ko: CJ대한통운
+        en: CJ Logistics
+        logo: cj_logistics.png
+      - ko: CJ올리브영
+        en: CJ Olive Young
+        logo: cj_oliveyoung.svg
+      - ko: CJ제일제당
+        en: CJ CheilJedang
+        logo: cj_cheiljedang.png
+      - ko: 엔씨소프트
+        en: NCSOFT
+        logo: nc.jpg
+
+  - id: public
+    ko: "공공 · 연구 · 학계"
+    en: "Public / Research / Academia"
+    companies:
+      - ko: 한국전자통신연구원(ETRI)
+        en: ETRI
+        logo: etri.png
+      - ko: 한국과학기술정보연구원(KISTI)
+        en: KISTI
+        logo: kisti.svg
+      - ko: 한국에너지기술연구원
+        en: KIER
+        logo: kier.png
+      - ko: 한국도로공사
+        en: Korea Expressway Corporation
+        logo: ex.svg
+      - ko: 한전KDN
+        en: KEPCO KDN
+        logo: kdn.png
+      - ko: 한국디지털인증협회
+        en: DID Alliance Korea
+        logo: did.png
+      - ko: 한남대학교
+        en: Hannam University
+        logo: hannam.svg
+
+  - id: manufacturing
+    ko: "전자 · 제조"
+    en: "Electronics / Manufacturing"
+    companies:
+      - ko: 삼성전자
+        en: Samsung Electronics
+        logo: samsung.png
+      - ko: LG전자
+        en: LG Electronics
+        logo: lge.png
+      - ko: SK하이닉스
+        en: SK hynix
+        logo: skhynix.svg
+      - ko: LS일렉트릭
+        en: LS Electric
+        logo: lselectric.svg
+      - ko: 고영테크놀러지
+        en: Koh Young Technology
+        logo: kohyoung.png
+      - ko: LIG넥스원
+        en: LIG Nex1
+        logo: lignex1.svg
+
+# 국내 회원사와 성격이 달라 목록 아래에 따로 둔다.
+international:
+  ko: "함께하는 국제 기관"
+  en: "International organizations"
+  companies:
+    - ko: Linux Foundation
+      en: Linux Foundation
+      logo: linuxfoundation.svg
+    - ko: Open Invention Network
+      en: Open Invention Network
+      logo: oin.svg

@@ -1115,3 +1115,115 @@ a.kwg-hero__badge:hover {
     border-color: color-mix(in srgb, var(--accent, #ffd400) 35%, var(--bs-border-color));
   }
 }
+
+// ── About > Member: 참여 회사 목록 ───────────────────────────
+// 원본 데이터는 data/members.yaml, 렌더는 layouts/_shortcodes/members.html.
+// 산업군별로 묶고 로고가 있는 회사는 그리드, 없는 회사는 이름 칩으로 잇는다.
+.kwg-members {
+  margin-top: $space-5;
+  margin-bottom: $space-7;
+}
+.kwg-members-summary {
+  margin-bottom: $space-6;
+  padding-bottom: $space-4;
+  border-bottom: 1px solid var(--bs-border-color);
+  color: var(--bs-secondary-color);
+  font-size: $text-lg;
+
+  b {
+    color: $primary;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.kwg-mem-group + .kwg-mem-group {
+  margin-top: $space-7;
+}
+.kwg-mem-title {
+  display: flex;
+  align-items: baseline;
+  gap: $space-2;
+  margin-bottom: $space-4;
+  font-size: $text-lg;
+  font-weight: 650;
+
+  span {
+    font-size: $text-sm;
+    font-weight: 400;
+    color: var(--bs-secondary-color);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.kwg-mem-logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+  gap: $space-4 $space-3;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: flex;
+    flex-direction: column;
+    gap: $space-2;
+  }
+
+  // 로고는 흰 면 위에 둔다. 다크 모드에서도 이 면은 유지해야 로고가 읽힌다.
+  .kwg-mem-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6rem;
+    padding: $space-4 $space-5;
+    background: #fff;
+    border: 1px solid var(--bs-border-color);
+    border-radius: $border-radius-sm;
+  }
+
+  // 원본 크기가 아니라 카드 안쪽을 기준으로 키운다. 가로로 긴 로고는 너비에,
+  // 정사각에 가까운 로고는 높이에 맞춰 차므로 시각적 무게 차이가 줄어든다.
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .kwg-mem-name {
+    text-align: center;
+    font-size: $text-sm;
+    line-height: 1.35;
+    color: var(--bs-secondary-color);
+    word-break: keep-all;
+  }
+}
+
+.kwg-mem-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-2;
+  margin: $space-2 0 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    padding: $space-1 $space-3;
+    background: var(--bs-tertiary-bg);
+    border-radius: 999px;
+    color: var(--bs-secondary-color);
+    font-size: $text-sm;
+  }
+}
+
+.kwg-mem-intl {
+  margin-top: $space-8;
+  padding-top: $space-6;
+  border-top: 1px solid var(--bs-border-color);
+}
+
+// 다크에서도 로고는 밝은 면 위에 두어야 읽힌다. 순백 대신 살짝 낮춘 흰색.
+[data-bs-theme="dark"] .kwg-mem-logos .kwg-mem-logo {
+  background: #f2f4f5;
+  border-color: transparent;
+}
