@@ -56,7 +56,7 @@ By complying with the requirements of ISO/IEC 5230 and ISO/IEC 18974, companies 
 
 This guide provides detailed methods and examples for how companies can implement each element.
 
-You can also work through these six elements with an AI agent producing the deliverables as you go. See [TrustedOSS](../trustedoss/), published by the author of this guide out of KWG community work.
+You can also work through these six elements with an AI agent producing the deliverables as you go. See [Trusted OSS](../trustedoss/), published by the author of this guide out of KWG community work.
 
 ## References
 

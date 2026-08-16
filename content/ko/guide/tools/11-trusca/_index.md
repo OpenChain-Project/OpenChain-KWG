@@ -8,7 +8,7 @@ tags: ["trusca", "sca", "sbom", "cve", "취약점"]
 
 기업이 오픈소스 컴포넌트의 취약점과 라이선스를 관리하려면 SCA(Software Composition Analysis) 도구가 필요하다. 상용 제품이 여럿 있으나, 사내에 직접 설치해 운영할 수 있는 오픈소스 도구를 찾는 경우도 있다.
 
-TRUSCA는 이러한 용도로 공개된 자체 호스팅 SCA 포털이다. Apache 2.0 라이선스로 배포하며, 취약점(CVE), 라이선스 컴플라이언스, SBOM 관리를 하나의 화면에서 다룬다. KWG 커뮤니티 활동에서 출발한 [TrustedOSS](../../trustedoss/) 프로젝트가 개발하고 있다.
+TRUSCA는 이러한 용도로 공개된 자체 호스팅 SCA 포털이다. Apache 2.0 라이선스로 배포하며, 취약점(CVE), 라이선스 컴플라이언스, SBOM 관리를 하나의 화면에서 다룬다. KWG 커뮤니티 활동에서 출발한 [Trusted OSS](../../trustedoss/) 프로젝트가 개발하고 있다.
 
 ## 주요 특징
 

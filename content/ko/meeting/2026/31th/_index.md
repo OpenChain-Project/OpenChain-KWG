@@ -5,7 +5,7 @@ weight: 31
 type: meeting
 layout: landing
 categories: ["meeting"]
-tags: ["OpenChain"]
+tags: ["OpenChain", "CRA", "SBOM", "공급망보안", "자동화", "CJ"]
 description: >
   2026년 9월 8일 (화) / CJ
 aliases:
@@ -20,8 +20,8 @@ aliases:
 <div class="kwg-conf-hero">
   <div class="kwg-conf-hero__body">
     <p class="kwg-conf-hero__eyebrow">31st Meeting</p>
-    <h1 class="kwg-conf-hero__title">OpenChain KWG 31차 정기 모임</h1>
-    <p class="kwg-conf-hero__sub">2026년 가을 정기 모임을 CJ와 함께 준비하고 있습니다. 세부 프로그램은 확정되는 대로 이 페이지와 메일링리스트로 안내드립니다.</p>
+    <h1 class="kwg-conf-hero__title">소프트웨어 공급망 보안과 오픈소스 관리 자동화</h1>
+    <p class="kwg-conf-hero__sub">CJ 그룹의 오픈소스 관리 사례와 EU 사이버 복원력법(CRA) 대응 활동, 운영팀 관점의 관리 자동화, 소프트웨어 공급망 보안을 위한 도구를 함께 살펴봅니다.</p>
     <div class="kwg-conf-hero__meta">
       <span><strong>일시</strong> 2026-09-08 (화) 14:00–17:00</span>
       <span><strong>장소</strong> CJ인재원 · 서울 중구</span>
@@ -41,19 +41,97 @@ aliases:
 
 <ul class="kwg-conf-chips">
   <li class="kwg-conf-chip">OpenChain</li>
-  <li class="kwg-conf-chip">OSS Compliance</li>
-  <li class="kwg-conf-chip">Korea Work Group</li>
+  <li class="kwg-conf-chip">EU CRA</li>
+  <li class="kwg-conf-chip">관리 자동화</li>
+  <li class="kwg-conf-chip">공급망 보안</li>
+  <li class="kwg-conf-chip">SBOM</li>
 </ul>
 
 ## 이런 분께 추천
 
-- 기업에서 오픈소스 컴플라이언스 정책을 운영하거나 새로 도입하려는 담당자
-- OpenChain(ISO 5230), SBOM, 보안 취약점 대응 실무를 고민하는 조직
+- EU 사이버 복원력법(CRA) 대응 범위를 정리하고 있는 담당자
+- 오픈소스 관리 업무를 자동화해 운영 부담을 줄이려는 조직
+- 공급사에서 받는 SBOM을 검증해야 하거나 소프트웨어 공급망 보안 대응이 필요한 팀
 - 다른 회사의 사례를 듣고 실무 네트워크를 넓히고 싶은 분
 
 ## 아젠다
 
-> 세부 프로그램은 준비 중입니다. 확정되는 대로 이 페이지에 공개하고 메일링리스트로 안내드립니다. 발표하거나 함께 논의하고 싶은 주제가 있으면 메일링리스트로 제안해 주세요.
+<div class="kwg-conf-timeline">
+  <div class="kwg-conf-tl">
+    <div class="kwg-conf-tl__time">14:00–14:10</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Welcome &amp; Greetings</div>
+      <div class="kwg-conf-tl__by">CJ</div>
+    </div>
+  </div>
+  <div class="kwg-conf-tl">
+    <div class="kwg-conf-tl__time">14:10–14:30</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">OpenChain Updates</div>
+      <div class="kwg-conf-tl__by">운영진 · OpenChain Project (글로벌 업데이트)</div>
+    </div>
+  </div>
+  <div class="kwg-conf-tl kwg-conf-tl--session">
+    <div class="kwg-conf-tl__time">14:30–14:55</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Session 1. CJ 그룹 오픈소스 관리 우수 사례</div>
+      <div class="kwg-conf-tl__by">성기영 변리사 · CJ</div>
+      <p class="kwg-conf-tl__desc">오소리(OSSORI) 프로젝트 가입 경험과 EU 사이버 복원력법(CRA) 대응 활동을 포함해 CJ 그룹의 오픈소스 관리 체계를 공유합니다.</p>
+    </div>
+  </div>
+  <div class="kwg-conf-tl kwg-conf-tl--muted">
+    <div class="kwg-conf-tl__time">14:55–15:10</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">휴식 및 네트워킹</div>
+      <div class="kwg-conf-tl__by">Coffee break</div>
+    </div>
+  </div>
+  <div class="kwg-conf-tl">
+    <div class="kwg-conf-tl__time">15:10–15:55</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">그룹 토의</div>
+      <div class="kwg-conf-tl__by">All Participants</div>
+      <p class="kwg-conf-tl__desc">이번 회차부터 그룹 토의를 중간 시간대에 배치합니다. 발표를 듣고 생긴 질문을 바로 나눌 수 있도록 하기 위해서입니다.</p>
+    </div>
+  </div>
+  <div class="kwg-conf-tl kwg-conf-tl--session">
+    <div class="kwg-conf-tl__time">15:55–16:20</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Session 2. 오픈소스 관리 자동화 방안</div>
+      <div class="kwg-conf-tl__by">올리브네트웍스</div>
+      <p class="kwg-conf-tl__desc">운영팀 관점에서 오픈소스 관리 업무를 자동화한 방식과 적용 결과를 공유합니다.</p>
+    </div>
+  </div>
+  <div class="kwg-conf-tl kwg-conf-tl--session">
+    <div class="kwg-conf-tl__time">16:20–16:45</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Session 3. 오픈소스 공급망 보안 도구: Trusted OSS, TRUSCA, BomLens</div>
+      <div class="kwg-conf-tl__by">장학성 · SK텔레콤</div>
+      <p class="kwg-conf-tl__desc">KWG 커뮤니티에서 시작한 이니셔티브 <a href="../../../guide/trustedoss/">Trusted OSS</a>와 SK텔레콤이 공개한 <a href="https://sktelecom.github.io/bomlens/" target="_blank" rel="noopener">BomLens</a>를 소개합니다. ISO 5230·ISO 18974 자체 인증 산출물 생성(Trusted OSS Agents), 자체 호스팅 오픈소스 구성 분석 포털(<a href="../../../guide/tools/11-trusca/">TRUSCA</a>), 공급사 SBOM 생성·확인(BomLens)까지 도구로 처리하는 방법을 다룹니다.</p>
+    </div>
+  </div>
+  <div class="kwg-conf-tl">
+    <div class="kwg-conf-tl__time">16:45–17:00</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">마무리 및 단체 사진 촬영</div>
+      <div class="kwg-conf-tl__by">운영진</div>
+    </div>
+  </div>
+</div>
+
+<p class="kwg-conf-note">세션 제목과 시간은 준비 상황에 따라 조정될 수 있습니다. 확정 내용은 이 페이지와 메일링리스트로 안내드립니다.</p>
+
+## 모임 후 저녁 식사
+
+정기 모임이 끝난 뒤 저녁 식사 자리를 마련합니다. 참석은 자유이며, 신청 방법은 메일링리스트로 안내드립니다.
 
 ## Sponsor
 

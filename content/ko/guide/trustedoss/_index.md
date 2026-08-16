@@ -1,24 +1,24 @@
 ---
-title: "TrustedOSS"
-linkTitle: "TrustedOSS"
+title: "Trusted OSS"
+linkTitle: "Trusted OSS"
 weight: 50
 type: docs
 categories: ["guide"]
-tags: ["TrustedOSS", "TRUSCA", "자체 인증", "DevSecOps", "AI 코딩"]
+tags: ["Trusted OSS", "TRUSCA", "자체 인증", "DevSecOps", "AI 코딩"]
 description: >
   이 가이드가 설명하는 오픈소스 관리 체계를 산출물로 만드는 것을 돕는 커뮤니티 자료입니다.
 ---
 
 {{% pageinfo %}}
 
-TrustedOSS는 KWG 커뮤니티 활동에서 출발한 프로젝트로, 이 가이드의 저자가 공개했습니다.
+Trusted OSS는 KWG 커뮤니티 활동에서 출발한 프로젝트로, 이 가이드의 저자가 공개했습니다.
 문서는 CC BY 4.0, 코드는 MIT와 Apache 2.0으로 배포합니다.
 
 **사이트: [https://trustedoss.github.io/](https://trustedoss.github.io/)**
 
 {{% /pageinfo %}}
 
-TrustedOSS는 다음 네 가지를 다룹니다.
+Trusted OSS는 다음 네 가지를 다룹니다.
 
 ## 자체 인증 산출물 생성
 
