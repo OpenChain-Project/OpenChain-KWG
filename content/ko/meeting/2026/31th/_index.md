@@ -114,7 +114,7 @@ aliases:
     <div class="kwg-conf-tl__body">
       <div class="kwg-conf-tl__title">Session 3. 오픈소스 공급망 보안 도구: Trusted OSS, TRUSCA, BomLens</div>
       <div class="kwg-conf-tl__by">장학성 · SK텔레콤</div>
-      <p class="kwg-conf-tl__desc">KWG 커뮤니티에서 시작한 이니셔티브 <a href="../../../guide/trustedoss/">Trusted OSS</a>와 SK텔레콤이 공개한 <a href="https://sktelecom.github.io/bomlens/" target="_blank" rel="noopener">BomLens</a>를 소개합니다. ISO 5230·ISO 18974 자체 인증 산출물 생성(Trusted OSS Agents), 자체 호스팅 오픈소스 구성 분석 포털(<a href="../../../guide/tools/11-trusca/">TRUSCA</a>), 공급사 SBOM 생성·확인(BomLens)까지 도구로 처리하는 방법을 다룹니다.</p>
+      <p class="kwg-conf-tl__desc">KWG 커뮤니티에서 시작한 이니셔티브 <a href="https://trustedoss.github.io/" target="_blank" rel="noopener">Trusted OSS</a>와 SK텔레콤이 공개한 <a href="https://github.com/sktelecom/bomlens" target="_blank" rel="noopener">BomLens</a>를 소개합니다. ISO 5230·ISO 18974 자체 인증 산출물 생성(<a href="https://github.com/trustedoss/trustedoss-agents" target="_blank" rel="noopener">Trusted OSS Agents</a>), 자체 호스팅 오픈소스 구성 분석 포털(<a href="https://github.com/trustedoss/trusca" target="_blank" rel="noopener">TRUSCA</a>), 공급사 SBOM 생성·확인(BomLens)까지 도구로 처리하는 방법을 다룹니다.</p>
     </div>
   </div>
   <div class="kwg-conf-tl">
