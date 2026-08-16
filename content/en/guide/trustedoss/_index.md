@@ -1,24 +1,24 @@
 ---
-title: "TrustedOSS"
-linkTitle: "TrustedOSS"
+title: "Trusted OSS"
+linkTitle: "Trusted OSS"
 weight: 50
 type: docs
 categories: ["guide"]
-tags: ["TrustedOSS", "TRUSCA", "self-certification", "DevSecOps", "AI coding"]
+tags: ["Trusted OSS", "TRUSCA", "self-certification", "DevSecOps", "AI coding"]
 description: >
   A community resource that helps you turn the management framework described in this guide into actual deliverables.
 ---
 
 {{% pageinfo %}}
 
-TrustedOSS grew out of KWG community work and was published by the author of this guide.
+Trusted OSS grew out of KWG community work and was published by the author of this guide.
 Its documentation is released under CC BY 4.0 and its code under MIT and Apache 2.0.
 
 **Site: [https://trustedoss.github.io/en/](https://trustedoss.github.io/en/)**
 
 {{% /pageinfo %}}
 
-TrustedOSS covers four areas.
+Trusted OSS covers four areas.
 
 ## Generating self-certification deliverables
 

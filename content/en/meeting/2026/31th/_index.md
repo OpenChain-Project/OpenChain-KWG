@@ -5,7 +5,7 @@ weight: 31
 type: meeting
 layout: landing
 categories: ["meeting"]
-tags: ["OpenChain"]
+tags: ["OpenChain", "CRA", "SBOM", "SupplyChainSecurity", "Automation", "CJ"]
 description: >
   September 8, 2026 (Tue) / CJ
 aliases:
@@ -20,8 +20,8 @@ aliases:
 <div class="kwg-conf-hero">
   <div class="kwg-conf-hero__body">
     <p class="kwg-conf-hero__eyebrow">31st Meeting</p>
-    <h1 class="kwg-conf-hero__title">OpenChain KWG 31st Meeting</h1>
-    <p class="kwg-conf-hero__sub">We are preparing the autumn 2026 meeting together with CJ. The detailed program will be announced on this page and via the mailing list once confirmed.</p>
+    <h1 class="kwg-conf-hero__title">Software Supply Chain Security and Open Source Management Automation</h1>
+    <p class="kwg-conf-hero__sub">We look at CJ Group's open source management practices and its response to the EU Cyber Resilience Act (CRA), automation from an operations team's perspective, and tools for software supply chain security.</p>
     <div class="kwg-conf-hero__meta">
       <span><strong>Date</strong> 2026-09-08 (Tue) 14:00–17:00</span>
       <span><strong>Venue</strong> CJ Human Resources Development Center · Jung-gu, Seoul</span>
@@ -40,19 +40,97 @@ aliases:
 
 <ul class="kwg-conf-chips">
   <li class="kwg-conf-chip">OpenChain</li>
-  <li class="kwg-conf-chip">OSS Compliance</li>
-  <li class="kwg-conf-chip">Korea Work Group</li>
+  <li class="kwg-conf-chip">EU CRA</li>
+  <li class="kwg-conf-chip">Automation</li>
+  <li class="kwg-conf-chip">Supply Chain Security</li>
+  <li class="kwg-conf-chip">SBOM</li>
 </ul>
 
 ## Who Should Attend
 
-- Practitioners running or newly introducing open source compliance policies at their company
-- Organizations working through OpenChain (ISO 5230), SBOM, and security-vulnerability response
+- Practitioners working out the scope of their EU Cyber Resilience Act (CRA) response
+- Organizations looking to reduce operational load by automating open source management
+- Teams that need to verify SBOMs received from suppliers or respond to software supply chain security requirements
 - Anyone who wants to hear other companies' cases and expand their practitioner network
 
 ## Agenda
 
-> The detailed program is in preparation. It will be published on this page and announced via the mailing list once confirmed. If you have a topic you would like to present or discuss, please propose it through the mailing list.
+<div class="kwg-conf-timeline">
+  <div class="kwg-conf-tl">
+    <div class="kwg-conf-tl__time">14:00–14:10</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Welcome &amp; Greetings</div>
+      <div class="kwg-conf-tl__by">CJ</div>
+    </div>
+  </div>
+  <div class="kwg-conf-tl">
+    <div class="kwg-conf-tl__time">14:10–14:30</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">OpenChain Updates</div>
+      <div class="kwg-conf-tl__by">KWG Steering Committee · OpenChain Project (global update)</div>
+    </div>
+  </div>
+  <div class="kwg-conf-tl kwg-conf-tl--session">
+    <div class="kwg-conf-tl__time">14:30–14:55</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Session 1. Open Source Management Best Practices at CJ Group</div>
+      <div class="kwg-conf-tl__by">Kiyoung Sung, Patent Attorney · CJ</div>
+      <p class="kwg-conf-tl__desc">CJ Group's open source management framework, including its experience joining the OSSORI project and its activities in response to the EU Cyber Resilience Act (CRA).</p>
+    </div>
+  </div>
+  <div class="kwg-conf-tl kwg-conf-tl--muted">
+    <div class="kwg-conf-tl__time">14:55–15:10</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Break &amp; Networking</div>
+      <div class="kwg-conf-tl__by">Coffee break</div>
+    </div>
+  </div>
+  <div class="kwg-conf-tl">
+    <div class="kwg-conf-tl__time">15:10–15:55</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Group Discussion</div>
+      <div class="kwg-conf-tl__by">All Participants</div>
+      <p class="kwg-conf-tl__desc">Starting with this meeting, the group discussion moves to the middle of the program so that questions raised by the talks can be shared right away.</p>
+    </div>
+  </div>
+  <div class="kwg-conf-tl kwg-conf-tl--session">
+    <div class="kwg-conf-tl__time">15:55–16:20</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Session 2. Automating Open Source Management</div>
+      <div class="kwg-conf-tl__by">Olive Networks</div>
+      <p class="kwg-conf-tl__desc">How an operations team automated its open source management work, and the results of applying it.</p>
+    </div>
+  </div>
+  <div class="kwg-conf-tl kwg-conf-tl--session">
+    <div class="kwg-conf-tl__time">16:20–16:45</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Session 3. Open Source Supply Chain Security Tools: Trusted OSS, TRUSCA, and BomLens</div>
+      <div class="kwg-conf-tl__by">Haksung Jang · SK telecom</div>
+      <p class="kwg-conf-tl__desc">An introduction to <a href="../../../../guide/trustedoss/">Trusted OSS</a>, an initiative that began in the KWG community, and <a href="https://sktelecom.github.io/bomlens/" target="_blank" rel="noopener">BomLens</a>, released by SK telecom. The talk covers what tools can take over: producing ISO 5230 and ISO 18974 self-certification artifacts (Trusted OSS Agents), running a self-hosted software composition analysis portal (<a href="../../../../guide/tools/11-trusca/">TRUSCA</a>), and generating and checking supplier SBOMs (BomLens).</p>
+    </div>
+  </div>
+  <div class="kwg-conf-tl">
+    <div class="kwg-conf-tl__time">16:45–17:00</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Closing &amp; Group Photo</div>
+      <div class="kwg-conf-tl__by">KWG Steering Committee</div>
+    </div>
+  </div>
+</div>
+
+<p class="kwg-conf-note">Session titles and times may change as preparation continues. Confirmed details will be published on this page and announced via the mailing list.</p>
+
+## Dinner After the Meeting
+
+A dinner gathering follows the regular meeting. Attendance is optional, and details will be announced via the mailing list.
 
 ## Sponsor
 

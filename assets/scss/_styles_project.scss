@@ -894,6 +894,13 @@ a.kwg-hero__badge:hover {
   color: var(--bs-secondary-color);
   margin-top: $space-1;
 }
+.kwg-conf-tl__desc {
+  font-size: $text-sm;
+  color: var(--bs-body-color);
+  line-height: 1.6;
+  margin: $space-2 0 0;
+  max-width: 60ch;
+}
 .kwg-conf-tl__slide {
   display: block;
   width: fit-content;
@@ -921,6 +928,12 @@ a.kwg-hero__badge:hover {
 .kwg-conf-tl--muted .kwg-conf-tl__title {
   font-weight: 500;
   color: var(--bs-secondary-color);
+}
+// 타임라인 아래 안내 문구
+.kwg-conf-note {
+  font-size: $text-sm;
+  color: var(--bs-secondary-color);
+  margin-top: $space-4;
 }
 
 // 발표자 카드 — 원형 프로필(중립 테두리) + 균일 카드 + hover elevation
