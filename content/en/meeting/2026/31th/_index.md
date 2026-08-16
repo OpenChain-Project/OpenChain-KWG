@@ -52,9 +52,9 @@ aliases:
 
 ## Who Should Attend
 
-- Practitioners working out the scope of their EU Cyber Resilience Act (CRA) response
-- Organizations looking to reduce operational load by automating open source management
-- Teams that need to verify SBOMs received from suppliers or respond to software supply chain security requirements
+- Practitioners preparing for ISO 5230 or ISO 18974 self-certification, or working out the scope of their EU Cyber Resilience Act (CRA) response
+- Organizations looking to automate open source management and cut operational load with tooling
+- Teams starting on software supply chain security or needing to verify SBOMs received from suppliers
 - Anyone who wants to hear other companies' cases and expand their practitioner network
 
 ## Agenda
