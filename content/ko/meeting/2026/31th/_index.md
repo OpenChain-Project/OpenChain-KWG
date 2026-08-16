@@ -31,6 +31,7 @@ aliases:
       <a class="kwg-conf-cta" href="../../../about/subscribe/">메일링리스트 가입</a>
       <a class="kwg-conf-cta kwg-conf-cta--ghost" href="https://map.naver.com/p/search/CJ%EC%9D%B8%EC%9E%AC%EC%9B%90" target="_blank" rel="noopener">네이버지도</a>
       <a class="kwg-conf-cta kwg-conf-cta--ghost" href="https://map.kakao.com/link/search/CJ%EC%9D%B8%EC%9E%AC%EC%9B%90" target="_blank" rel="noopener">카카오맵</a>
+      <a class="kwg-conf-cta kwg-conf-cta--ghost" href="https://maps.app.goo.gl/nQUogVHPvF4VuapX9" target="_blank" rel="noopener">구글맵</a>
     </div>
   </div>
   <div class="kwg-conf-hero__date">
@@ -96,7 +97,6 @@ aliases:
     <div class="kwg-conf-tl__body">
       <div class="kwg-conf-tl__title">그룹 토의</div>
       <div class="kwg-conf-tl__by">All Participants</div>
-      <p class="kwg-conf-tl__desc">이번 회차부터 그룹 토의를 중간 시간대에 배치합니다. 발표를 듣고 생긴 질문을 바로 나눌 수 있도록 하기 위해서입니다.</p>
     </div>
   </div>
   <div class="kwg-conf-tl kwg-conf-tl--session">
