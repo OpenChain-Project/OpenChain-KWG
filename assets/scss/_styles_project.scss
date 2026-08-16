@@ -765,6 +765,13 @@ a.kwg-hero__badge:hover {
   margin: 0 0 $space-6;
 }
 .kwg-conf-hero__meta strong { font-weight: 600; color: var(--bs-emphasis-color); margin-right: $space-2; }
+// 지도 링크 — CTA가 아니라 장소 정보에 딸린 보조 링크
+.kwg-conf-hero__maps {
+  margin: -$space-4 0 $space-6;
+  font-size: $text-sm;
+  color: var(--bs-secondary-color);
+}
+.kwg-conf-hero__maps a { margin-right: $space-3; }
 
 // CTA — accent 배경 + 어두운 ink 글자(노랑 위 흰 글자 금지)
 .kwg-conf-cta {

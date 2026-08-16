@@ -26,12 +26,14 @@ aliases:
       <span><strong>Date</strong> 2026-09-08 (Tue) 14:00–17:00</span>
       <span><strong>Venue</strong> CJ Human Resources Development Center · Jung-gu, Seoul</span>
     </div>
+    <p class="kwg-conf-hero__maps">Directions
+      <a href="https://maps.app.goo.gl/nQUogVHPvF4VuapX9" target="_blank" rel="noopener">Google Maps</a>
+      <a href="https://map.naver.com/p/search/CJ%EC%9D%B8%EC%9E%AC%EC%9B%90" target="_blank" rel="noopener">Naver Map</a>
+      <a href="https://map.kakao.com/link/search/CJ%EC%9D%B8%EC%9E%AC%EC%9B%90" target="_blank" rel="noopener">Kakao Map</a>
+    </p>
     <p class="kwg-conf-hero__note">Registration and the detailed program are announced via the OpenChain KWG mailing list. Subscribe to receive the sign-up link.</p>
     <div class="kwg-conf-hero__cta">
       <a class="kwg-conf-cta" href="../../../about/subscribe/">Join the mailing list</a>
-      <a class="kwg-conf-cta kwg-conf-cta--ghost" href="https://maps.app.goo.gl/nQUogVHPvF4VuapX9" target="_blank" rel="noopener">Google Maps</a>
-      <a class="kwg-conf-cta kwg-conf-cta--ghost" href="https://map.naver.com/p/search/CJ%EC%9D%B8%EC%9E%AC%EC%9B%90" target="_blank" rel="noopener">Naver Map</a>
-      <a class="kwg-conf-cta kwg-conf-cta--ghost" href="https://map.kakao.com/link/search/CJ%EC%9D%B8%EC%9E%AC%EC%9B%90" target="_blank" rel="noopener">Kakao Map</a>
     </div>
   </div>
   <div class="kwg-conf-hero__date">
