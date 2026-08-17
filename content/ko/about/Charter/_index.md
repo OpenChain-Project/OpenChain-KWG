@@ -1,6 +1,6 @@
 ---
 title: "OpenChain Korea Work Group 정관"
-linkTitle: "정관"
+linkTitle: "Charter"
 weight: 2
 type: docs
 categories: ["about"]
