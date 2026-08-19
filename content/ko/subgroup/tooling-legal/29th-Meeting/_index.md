@@ -12,15 +12,18 @@ description: Tooling & Legal Subgroup 29th Meeting
 ## Schedule
 * 목적 : Tooling and Legal Subgroup 29차 회의
 * 일시 : 2026년 8월 27일(목) 14:00 ~ 18:00
-* 장소 : TBD (추후 공지 예정)
+* 장소 : OpenUp 센터 (서울시 서초구 서초대로 40길 83 우제빌딩 2층) Ground 4
 
 ## Attendees
 * TBD
 
 ## Invitee
-* TBD
+* Sony Group Corporation
+* Insignary Inc.
 
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues | TBD | N/A |
+| 0  | Community Updates & New Issues | LG전자, 박원재 | TBD |
+| 1  | ESSTRA: A Software Suite To Enhance Software Transparency and Traceability in Software Supply Chain | Sony Group Corporation, Takuya Namae | TBD |
+| 2  | 알아두면 유용한 Open Source (AI) 분석 Tools | LG전자, 최혜성 | TBD |
