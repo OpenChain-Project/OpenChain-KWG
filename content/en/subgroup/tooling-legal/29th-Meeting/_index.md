@@ -10,7 +10,7 @@ description: Tooling & Legal Subgroup 29th Meeting
 ## Schedule
 * Purpose: Tooling and Legal Subgroup 29th Meeting
 * Date: August 27, 2026 (THU) 14:00 ~ 18:00
-* Venue: TBD
+* Venue: OpenUp Center > Ground 4
 
 ## Attendees
 * TBD
@@ -21,7 +21,9 @@ description: Tooling & Legal Subgroup 29th Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues | TBD | TBD |
+| 0  | Community Updates & New Issues | LG Electronics, Park Wonjae | N/A |
+| 1  | ESSTRA: A Software Suite To Enhance Software Transparency and Traceability in Software Supply Chain | Sony Group Corporation, Takuya Namae | TBD |
+| 2  | Useful Open Source (AI) Analysis Tools You Should Know| LG Electronics, Choi Hyesung | TBD |
 <!--
 
 ## Attendees
