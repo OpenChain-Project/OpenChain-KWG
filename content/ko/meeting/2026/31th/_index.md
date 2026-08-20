@@ -5,7 +5,7 @@ weight: 31
 type: meeting
 layout: landing
 categories: ["meeting"]
-tags: ["OpenChain", "CRA", "SBOM", "공급망보안", "자동화", "CJ"]
+tags: ["OpenChain", "CRA", "SBOM", "공급망보안", "거버넌스", "CJ"]
 description: >
   2026년 9월 8일 (화) / CJ
 aliases:
@@ -20,8 +20,8 @@ aliases:
 <div class="kwg-conf-hero">
   <div class="kwg-conf-hero__body">
     <p class="kwg-conf-hero__eyebrow">31st Meeting</p>
-    <h1 class="kwg-conf-hero__title">소프트웨어 공급망 보안과 오픈소스 관리 자동화</h1>
-    <p class="kwg-conf-hero__sub">CJ 그룹의 오픈소스 관리 사례와 EU 사이버 복원력법(CRA) 대응 활동, 운영팀 관점의 관리 자동화, 소프트웨어 공급망 보안을 위한 도구를 함께 살펴봅니다.</p>
+    <h1 class="kwg-conf-hero__title">소프트웨어 공급망 보안과 오픈소스 관리 운영체계</h1>
+    <p class="kwg-conf-hero__sub">CJ 그룹의 오픈소스 거버넌스 현황과 운영팀 관점의 오픈소스 관리 운영체계, 소프트웨어 공급망 보안을 위한 도구를 함께 살펴봅니다.</p>
     <div class="kwg-conf-hero__meta">
       <span><strong>일시</strong> 2026-09-08 (화) 14:00–17:00</span>
       <span><strong>장소</strong> CJ인재원 · 서울 중구</span>
@@ -45,7 +45,7 @@ aliases:
 <ul class="kwg-conf-chips">
   <li class="kwg-conf-chip">OpenChain</li>
   <li class="kwg-conf-chip">EU CRA</li>
-  <li class="kwg-conf-chip">관리 자동화</li>
+  <li class="kwg-conf-chip">OSS 거버넌스</li>
   <li class="kwg-conf-chip">공급망 보안</li>
   <li class="kwg-conf-chip">SBOM</li>
 </ul>
@@ -53,7 +53,7 @@ aliases:
 ## 이런 분께 추천
 
 - ISO 5230·ISO 18974 자체 인증을 준비하거나 EU 사이버 복원력법(CRA) 대응 범위를 정리하고 있는 담당자
-- 오픈소스 관리 업무를 자동화하고 도구로 운영 부담을 줄이려는 조직
+- 오픈소스 관리 업무를 효율화하고 도구로 운영 부담을 줄이려는 조직
 - 소프트웨어 공급망 보안 대응을 시작했거나 공급사에서 받는 SBOM을 검증해야 하는 팀
 - 다른 회사의 사례를 듣고 실무 네트워크를 넓히고 싶은 분
 
@@ -80,9 +80,9 @@ aliases:
     <div class="kwg-conf-tl__time">14:30–14:55</div>
     <div class="kwg-conf-tl__marker"></div>
     <div class="kwg-conf-tl__body">
-      <div class="kwg-conf-tl__title">Session 1. CJ 그룹 오픈소스 관리 우수 사례 (가제)</div>
+      <div class="kwg-conf-tl__title">Session 1. CJ 그룹 오픈소스 거버넌스 현황</div>
       <div class="kwg-conf-tl__by">성기영 변리사 · CJ</div>
-      <p class="kwg-conf-tl__desc">오소리(OSSORI) 프로젝트 가입 경험과 EU 사이버 복원력법(CRA) 대응 활동을 포함해 CJ 그룹의 오픈소스 관리 체계를 공유합니다.</p>
+      <p class="kwg-conf-tl__desc">그룹 내 오픈소스 인증 현황, 오소리(OSSORI) 데이터 기여 현황, EU 사이버 복원력법(CRA) 대응 현황 등 세 가지 핵심 주제를 바탕으로 CJ 그룹의 오픈소스 거버넌스 체계를 공유합니다.</p>
     </div>
   </div>
   <div class="kwg-conf-tl kwg-conf-tl--muted">
@@ -105,9 +105,9 @@ aliases:
     <div class="kwg-conf-tl__time">15:55–16:20</div>
     <div class="kwg-conf-tl__marker"></div>
     <div class="kwg-conf-tl__body">
-      <div class="kwg-conf-tl__title">Session 2. 오픈소스 관리 자동화 방안 (가제)</div>
+      <div class="kwg-conf-tl__title">Session 2. 사람을 중심으로, 시스템과 함께 성장하는 OSS Governance</div>
       <div class="kwg-conf-tl__by">올리브네트웍스</div>
-      <p class="kwg-conf-tl__desc">운영팀 관점에서 오픈소스 관리 업무를 자동화한 방식과 적용 결과를 공유합니다.</p>
+      <p class="kwg-conf-tl__desc">CJ 그룹의 다양한 조직과 계열사를 연결하는 OSS Governance 운영 경험과, 사람이 바뀌어도 이어지는 운영체계로 발전시킨 과정을 공유합니다.</p>
     </div>
   </div>
   <div class="kwg-conf-tl kwg-conf-tl--session">
