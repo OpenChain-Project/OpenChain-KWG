@@ -6,6 +6,18 @@
 */}}
 {{ define "main" }}
 {{ $ko := eq .Site.Language.Lang "ko" }}
+
+{{/* 참여 기업 로고 표본 — 산업군마다 로고 보유 회사를 최대 2곳씩 뽑아 다양성을 확보 */}}
+{{ $logoBase := "images/content/about/logo/" }}
+{{ $memberData := .Site.Data.members }}
+{{ $logoPicks := slice }}
+{{ range $memberData.industries }}
+  {{ $withLogo := where .companies "logo" "!=" nil }}
+  {{ range first 2 $withLogo }}
+    {{ $logoPicks = $logoPicks | append . }}
+  {{ end }}
+{{ end }}
+
 <div class="kwg-home">
 
   {{/* 1. 히어로 — 단체사진 배경 + 다크 그라데이션 오버레이 */}}
@@ -48,9 +60,15 @@
           </div>
           <a class="kwg-btn-pill" href="{{ "about/" | relLangURL }}">{{ if $ko }}참여 방법 보기{{ else }}How to join{{ end }} {{ partial "icon-arrow.html" . }}</a>
         </div>
-        <div class="kwg-feature__visual" aria-hidden="true">
-          <img class="kwg-tabs__art" src="{{ "images/kwg-viz-community.svg" | relURL }}" alt="">
-        </div>
+        <a class="kwg-feature__visual" href="{{ "about/member/" | relLangURL }}">
+          <ul class="kwg-logo-grid">
+            {{ range $logoPicks }}
+              {{ $name := cond $ko .ko .en }}
+              <li><img src="{{ (printf "%s%s" $logoBase .logo) | relURL }}" alt="{{ $name }}" loading="lazy" width="96" height="32"></li>
+            {{ end }}
+          </ul>
+          <span class="kwg-logo-grid__cta">{{ if $ko }}참여 기업 전체 보기{{ else }}View all companies{{ end }} {{ partial "icon-arrow.html" . }}</span>
+        </a>
       </div>
 
       <div class="kwg-subcard-grid kwg-subcard-grid--3">
@@ -72,7 +90,7 @@
           <div class="kwg-subcard__body">
             <h3 class="kwg-subcard__title">Discord</h3>
             <p class="kwg-subcard__desc">{{ if $ko }}가벼운 대화와 멤버 간 실시간 소통 공간.{{ else }}Casual, real-time conversation among members.{{ end }}</p>
-            <span class="kwg-subcard__link">{{ if $ko }}참여하기{{ else }}Join{{ end }} {{ partial "icon-arrow.html" . }}</span>
+            <span class="kwg-subcard__link">{{ if $ko }}멤버는 여기로{{ else }}For members{{ end }} {{ partial "icon-arrow.html" . }}</span>
           </div>
         </a>
       </div>
@@ -103,9 +121,6 @@
           <p class="kwg-feature__desc">{{ if $ko }}ISO 국제표준에 기반해 기업이 오픈소스를 도입·관리·배포하는 전 과정을 조직·정책·프로세스 관점에서 단계별로 안내합니다.{{ else }}A step-by-step guide to adopting, managing, and distributing open source across organization, policy, and process — grounded in ISO standards.{{ end }}</p>
           <span class="kwg-btn-pill">{{ if $ko }}가이드 보기{{ else }}View guide{{ end }} {{ partial "icon-arrow.html" . }}</span>
         </div>
-        <div class="kwg-tabs__visual" aria-hidden="true">
-          <img class="kwg-tabs__art" src="{{ "images/kwg-tab-visual.svg" | relURL }}" alt="">
-        </div>
       </a>
 
       <a class="kwg-tabs__panel" id="gp-2" href="{{ "guide/iso5230_guide/" | relLangURL }}">
@@ -113,9 +128,6 @@
           <h3 class="kwg-feature__title">ISO/IEC 5230</h3>
           <p class="kwg-feature__desc">{{ if $ko }}오픈소스 라이선스 컴플라이언스 국제표준(OpenChain). 25개 입증자료 항목을 조항별로 풀어 실무 적용을 돕습니다.{{ else }}The international standard for open source license compliance (OpenChain). We break down all 25 evidence items clause by clause.{{ end }}</p>
           <span class="kwg-btn-pill">{{ if $ko }}가이드 보기{{ else }}View guide{{ end }} {{ partial "icon-arrow.html" . }}</span>
-        </div>
-        <div class="kwg-tabs__visual" aria-hidden="true">
-          <img class="kwg-tabs__art" src="{{ "images/kwg-viz-license.svg" | relURL }}" alt="">
         </div>
       </a>
 
@@ -125,9 +137,6 @@
           <p class="kwg-feature__desc">{{ if $ko }}오픈소스 보안 보증(OSS Security Assurance) 국제표준. 보안 취약점 대응 체계를 조항별 입증자료로 안내합니다.{{ else }}The international standard for open source security assurance, guiding vulnerability response with clause-level evidence.{{ end }}</p>
           <span class="kwg-btn-pill">{{ if $ko }}가이드 보기{{ else }}View guide{{ end }} {{ partial "icon-arrow.html" . }}</span>
         </div>
-        <div class="kwg-tabs__visual" aria-hidden="true">
-          <img class="kwg-tabs__art" src="{{ "images/kwg-viz-security.svg" | relURL }}" alt="">
-        </div>
       </a>
 
       <a class="kwg-tabs__panel" id="gp-4" href="{{ "guide/iso42001_guide/" | relLangURL }}">
@@ -135,9 +144,6 @@
           <h3 class="kwg-feature__title">ISO/IEC 42001</h3>
           <p class="kwg-feature__desc">{{ if $ko }}AI 관리 시스템(AIMS) 국제표준을 오픈소스 관점에서 풀어, AI 시스템 개발·운영의 핵심 요구사항을 다룹니다.{{ else }}The AI management system (AIMS) standard from an open source perspective, covering key requirements for AI development and operations.{{ end }}</p>
           <span class="kwg-btn-pill">{{ if $ko }}가이드 보기{{ else }}View guide{{ end }} {{ partial "icon-arrow.html" . }}</span>
-        </div>
-        <div class="kwg-tabs__visual" aria-hidden="true">
-          <img class="kwg-tabs__art" src="{{ "images/kwg-viz-ai.svg" | relURL }}" alt="">
         </div>
       </a>
     </div>
