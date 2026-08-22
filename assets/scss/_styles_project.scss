@@ -448,13 +448,16 @@ a.kwg-hero__badge:hover {
   box-shadow: 0 10px 30px rgba(2, 171, 184, 0.45);
 }
 
-// 피처 우측 비주얼 컨테이너 (참여 기업 로고 표본을 담는다)
+// 피처 우측 비주얼 컨테이너 (참여 기업 로고 표본을 담는다) — Member 페이지로 링크
 .kwg-feature__visual {
   position: relative;
   min-height: 280px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: $space-3;
+  text-decoration: none;
 }
 
 // 참여 기업 로고 표본 그리드 — 실제 로고로 커뮤니티 규모를 보여준다(장식용 아이콘 대체)
@@ -476,6 +479,7 @@ a.kwg-hero__badge:hover {
     padding: $space-3;
     background: #f2f4f5;
     border-radius: $border-radius-sm;
+    transition: box-shadow 0.15s ease;
   }
 
   img {
@@ -484,6 +488,17 @@ a.kwg-hero__badge:hover {
     object-fit: contain;
   }
 }
+
+.kwg-logo-grid__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: $space-2;
+  font-size: $text-sm;
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 0.15s ease;
+}
+a.kwg-feature__visual:hover .kwg-logo-grid__cta { color: #fff; }
+a.kwg-feature__visual:hover .kwg-logo-grid li { box-shadow: 0 0 0 1px rgba(2, 171, 184, 0.4); }
 
 // 가이드 탭 (순수 CSS radio, 세그먼트 컨트롤 스타일)
 .kwg-tabs { position: relative; text-align: center; }

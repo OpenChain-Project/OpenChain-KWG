@@ -60,14 +60,15 @@
           </div>
           <a class="kwg-btn-pill" href="{{ "about/" | relLangURL }}">{{ if $ko }}참여 방법 보기{{ else }}How to join{{ end }} {{ partial "icon-arrow.html" . }}</a>
         </div>
-        <div class="kwg-feature__visual">
+        <a class="kwg-feature__visual" href="{{ "about/member/" | relLangURL }}">
           <ul class="kwg-logo-grid">
             {{ range $logoPicks }}
               {{ $name := cond $ko .ko .en }}
               <li><img src="{{ (printf "%s%s" $logoBase .logo) | relURL }}" alt="{{ $name }}" loading="lazy" width="96" height="32"></li>
             {{ end }}
           </ul>
-        </div>
+          <span class="kwg-logo-grid__cta">{{ if $ko }}참여 기업 전체 보기{{ else }}View all companies{{ end }} {{ partial "icon-arrow.html" . }}</span>
+        </a>
       </div>
 
       <div class="kwg-subcard-grid kwg-subcard-grid--3">
