@@ -448,7 +448,7 @@ a.kwg-hero__badge:hover {
   box-shadow: 0 10px 30px rgba(2, 171, 184, 0.45);
 }
 
-// 피처 우측 비주얼 컨테이너 (SVG art img를 담는다)
+// 피처 우측 비주얼 컨테이너 (참여 기업 로고 표본을 담는다)
 .kwg-feature__visual {
   position: relative;
   min-height: 280px;
@@ -456,7 +456,34 @@ a.kwg-hero__badge:hover {
   align-items: center;
   justify-content: center;
 }
-.kwg-feature__visual .kwg-tabs__art { max-width: 360px; }
+
+// 참여 기업 로고 표본 그리드 — 실제 로고로 커뮤니티 규모를 보여준다(장식용 아이콘 대체)
+.kwg-logo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: $space-3;
+  width: 100%;
+  max-width: 420px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    padding: $space-3;
+    background: #f2f4f5;
+    border-radius: $border-radius-sm;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
 
 // 가이드 탭 (순수 CSS radio, 세그먼트 컨트롤 스타일)
 .kwg-tabs { position: relative; text-align: center; }
@@ -498,10 +525,7 @@ a.kwg-hero__badge:hover {
 }
 .kwg-tabs__panel {
   display: none;
-  grid-template-columns: 1fr 1fr;
-  gap: $space-8;
-  align-items: center;
-  max-width: 1140px;
+  max-width: 680px;
   margin: 0 auto;
   padding: $space-8;
   border-radius: 1.75rem;
@@ -512,19 +536,8 @@ a.kwg-hero__badge:hover {
   text-decoration: none;
   text-align: left;
 }
+.kwg-tabs__panel .kwg-feature__desc { max-width: none; }
 .kwg-tabs__panel .kwg-btn-pill { align-self: flex-start; }
-.kwg-tabs__visual {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 170px;
-}
-.kwg-tabs__art {
-  width: 100%;
-  max-width: 320px;
-  height: auto;
-  display: block;
-}
 #gt-1:checked ~ .kwg-tabs__nav label[for="gt-1"],
 #gt-2:checked ~ .kwg-tabs__nav label[for="gt-2"],
 #gt-3:checked ~ .kwg-tabs__nav label[for="gt-3"],
@@ -535,7 +548,7 @@ a.kwg-hero__badge:hover {
 #gt-1:checked ~ #gp-1,
 #gt-2:checked ~ #gp-2,
 #gt-3:checked ~ #gp-3,
-#gt-4:checked ~ #gp-4 { display: grid; }
+#gt-4:checked ~ #gp-4 { display: block; }
 
 // 서브카드(하단): 아이콘 박스 + 텍스트 + pill 링크 (가로형, ai.google.dev식)
 .kwg-subcard-grid {
@@ -638,7 +651,6 @@ a.kwg-hero__badge:hover {
   #gt-2:checked ~ #gp-2,
   #gt-3:checked ~ #gp-3,
   #gt-4:checked ~ #gp-4 {
-    grid-template-columns: 1fr;
     padding: 2.5rem;
   }
 }
