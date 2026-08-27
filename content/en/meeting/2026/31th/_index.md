@@ -106,7 +106,7 @@ aliases:
     <div class="kwg-conf-tl__marker"></div>
     <div class="kwg-conf-tl__body">
       <div class="kwg-conf-tl__title">Session 2. OSS Governance That Centers People and Grows with the System</div>
-      <div class="kwg-conf-tl__by">Olive Networks</div>
+      <div class="kwg-conf-tl__by">Byeongseok Choi, General Manager · Olive Networks</div>
       <p class="kwg-conf-tl__desc">Experience running OSS Governance across CJ Group's many organizations and affiliates, and how it grew into a framework that carries on even when the people change.</p>
     </div>
   </div>
@@ -134,6 +134,29 @@ aliases:
 ## Dinner After the Meeting
 
 A dinner gathering follows the regular meeting. Attendance is optional, and details will be announced via the mailing list.
+
+## Speakers
+
+<div class="kwg-conf-speakers">
+  <div class="kwg-conf-speaker">
+    <img class="kwg-conf-speaker__photo" loading="lazy" src="kiyoung-sung.png" alt="Kiyoung Sung">
+    <div class="kwg-conf-speaker__name">Kiyoung Sung, Patent Attorney</div>
+    <div class="kwg-conf-speaker__role">CJ Corporation · Session 1</div>
+    <p class="kwg-conf-speaker__bio">Open source and patent management for CJ Group.</p>
+  </div>
+  <div class="kwg-conf-speaker">
+    <img class="kwg-conf-speaker__photo" loading="lazy" src="byeongseok-choi.png" alt="Byeongseok Choi">
+    <div class="kwg-conf-speaker__name">Byeongseok Choi, General Manager</div>
+    <div class="kwg-conf-speaker__role">CJ OliveNetworks · Session 2</div>
+    <p class="kwg-conf-speaker__bio">Runs the open source management system for CJ Group.</p>
+  </div>
+  <div class="kwg-conf-speaker">
+    <img class="kwg-conf-speaker__photo" loading="lazy" src="haksung-jang.png" alt="Haksung Jang">
+    <div class="kwg-conf-speaker__name">Haksung Jang, Manager</div>
+    <div class="kwg-conf-speaker__role">SK telecom · Session 3</div>
+    <p class="kwg-conf-speaker__bio">Open Source Program Manager at SK telecom and OpenChain Ambassador.</p>
+  </div>
+</div>
 
 ## Sponsor
 

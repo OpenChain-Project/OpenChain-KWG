@@ -106,7 +106,7 @@ aliases:
     <div class="kwg-conf-tl__marker"></div>
     <div class="kwg-conf-tl__body">
       <div class="kwg-conf-tl__title">Session 2. 사람을 중심으로, 시스템과 함께 성장하는 OSS Governance</div>
-      <div class="kwg-conf-tl__by">올리브네트웍스</div>
+      <div class="kwg-conf-tl__by">최병석 부장 · 올리브네트웍스</div>
       <p class="kwg-conf-tl__desc">CJ 그룹의 다양한 조직과 계열사를 연결하는 OSS Governance 운영 경험과, 사람이 바뀌어도 이어지는 운영체계로 발전시킨 과정을 공유합니다.</p>
     </div>
   </div>
@@ -134,6 +134,29 @@ aliases:
 ## 모임 후 저녁 식사
 
 정기 모임이 끝난 뒤 저녁 식사 자리를 마련합니다. 참석은 자유이며, 신청 방법은 메일링리스트로 안내드립니다.
+
+## 발표자 소개
+
+<div class="kwg-conf-speakers">
+  <div class="kwg-conf-speaker">
+    <img class="kwg-conf-speaker__photo" loading="lazy" src="kiyoung-sung.png" alt="성기영 변리사">
+    <div class="kwg-conf-speaker__name">성기영 변리사</div>
+    <div class="kwg-conf-speaker__role">CJ주식회사 · Session 1</div>
+    <p class="kwg-conf-speaker__bio">CJ그룹 오픈소스/특허 관리</p>
+  </div>
+  <div class="kwg-conf-speaker">
+    <img class="kwg-conf-speaker__photo" loading="lazy" src="byeongseok-choi.png" alt="최병석 부장">
+    <div class="kwg-conf-speaker__name">최병석 부장</div>
+    <div class="kwg-conf-speaker__role">CJ올리브네트웍스 · Session 2</div>
+    <p class="kwg-conf-speaker__bio">CJ그룹 오픈소스 관리 시스템 운영담당</p>
+  </div>
+  <div class="kwg-conf-speaker">
+    <img class="kwg-conf-speaker__photo" loading="lazy" src="haksung-jang.png" alt="장학성 매니저">
+    <div class="kwg-conf-speaker__name">장학성 매니저</div>
+    <div class="kwg-conf-speaker__role">SK텔레콤 · Session 3</div>
+    <p class="kwg-conf-speaker__bio">SK텔레콤 오픈소스 프로그램 매니저, OpenChain Ambassador</p>
+  </div>
+</div>
 
 ## Sponsor
 
