@@ -69,8 +69,16 @@ industries:
         logo: cj_olivenetworks.svg
       - ko: 디아이웨어
         en: DIWARE
+        logo: diware.png
+      - ko: 노타
+        en: Nota AI
+        logo: nota.png
+      - ko: KC-ML2
+        en: KC-ML2
+        logo: kcml2.png
       - ko: ATCI
         en: ATCI
+        logo: atci.png
 
   - id: finance
     ko: "금융 · 핀테크"
