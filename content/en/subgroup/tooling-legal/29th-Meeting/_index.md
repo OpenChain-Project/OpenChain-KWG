@@ -22,7 +22,7 @@ description: Tooling & Legal Subgroup 29th Meeting
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Community Updates & New Issues | LG Electronics, Park Wonjae | N/A |
-| 1  | ESSTRA: A Software Suite To Enhance Software Transparency and Traceability in Software Supply Chain | Sony Group Corporation, Takuya Namae | TBD |
+| 1  | ESSTRA: A Software Suite To Enhance Software Transparency and Traceability in Software Supply Chain | Sony Group Corporation, Takuya Namae | [pdf1](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/tnl_2608_1-1_20250825_OSSEU2025_ESSTRA.pdf) [pdf2](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/tnl_2608_1-2_2Enhancing.SBOM.Quality-OCS-2025.pdf)  |
 | 2  | Useful Open Source (AI) Analysis Tools You Should Know| LG Electronics, Choi Hyesung | TBD |
 <!--
 
