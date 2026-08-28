@@ -1,0 +1,29 @@
+{{- /*
+  다음(최신) 정기 미팅 바로가기 카드. /meeting/ 목록 페이지 맨 위에 쓴다.
+  각 미팅 _index.md의 weight(=회차 번호, 예: 31th → weight: 31)로 최신 회차를 찾는다.
+  새 회차가 생겨도 이 페이지를 손으로 고칠 필요가 없다.
+*/ -}}
+{{- $ko := eq site.Language.Lang "ko" -}}
+{{- $meetingRoot := site.GetPage "meeting" -}}
+{{- $latest := "" -}}
+{{- $latestWeight := -1 -}}
+{{- with $meetingRoot -}}
+  {{- range .Sections -}}
+    {{- range .Sections -}}
+      {{- $w := .Params.weight | default 0 -}}
+      {{- if gt $w $latestWeight -}}
+        {{- $latest = . -}}
+        {{- $latestWeight = $w -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- with $latest }}
+<a class="kwg-latest-meeting" href="{{ .RelPermalink }}">
+  <span class="kwg-latest-meeting__eyebrow">{{ if $ko }}다음 정기 미팅{{ else }}Upcoming meeting{{ end }}</span>
+  <span class="kwg-latest-meeting__title">{{ .LinkTitle | default .Title }}</span>
+  {{ with .Params.description }}<span class="kwg-latest-meeting__desc">{{ . }}</span>{{ end }}
+  <span class="kwg-latest-meeting__cta">{{ if $ko }}자세히 보기{{ else }}View details{{ end }} {{ partial "icon-arrow.html" . }}</span>
+</a>
+{{- end }}

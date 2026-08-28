@@ -8,7 +8,7 @@ description: >
   OpenChain KWG의 거버넌스를 위한 문서입니다.
 ---
 
- ![kwg-logo.gif](../kwg-logo.gif) 
+ ![OpenChain KWG 로고](../kwg-logo.gif) 
 
 OpenChain Korea Work Group(이하 KWG)은 [Linux Foundation OpenChain Project](https://openchainproject.org/)의 Subgroup입니다. 이 정관에서 다루지 않는 내용은 [OpenChain Project Charter](https://github.com/OpenChain-Project/Project-Charter-And-Agreements/tree/master/Project-Charter)를 따릅니다.
 

@@ -10,7 +10,7 @@ menu:
   main:
     weight: 10
 ---
- ![openchain-kwg-calli.jpeg](openchain-kwg-calli.jpeg) 
+ ![OpenChain KWG 캘리그라피 로고](openchain-kwg-calli.jpeg) 
 _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
 
 Linux Foundation [OpenChain Project](https://openchainproject.org/)의 Subgroup인 OpenChain KWG(Korea Work Group)은 Open Source 정신인 협업과 공유를 통해 모두가 효과적으로 Open Source Compliance를 달성하기 위한 방법을 고민하고 공유하기 위한 모임입니다!

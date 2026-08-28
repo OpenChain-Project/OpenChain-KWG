@@ -919,6 +919,6 @@ SPDX 3.0은 기업의 오픈소스 관리자에게 오픈소스 생태계를 효
 
 *SKT고객은 Perplexicy Pro를 1년간 무료로 이용할 수 있습니다.: [https://perplexity.sktadotevent.com/](https://perplexity.sktadotevent.com/)*
 
-![image.png](./image.png)
+![Perplexity Pro SKT 고객 프로모션 배너](./image.png)
 
 {{% /pageinfo %}}
