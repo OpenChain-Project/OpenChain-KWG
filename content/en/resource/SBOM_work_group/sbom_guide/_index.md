@@ -27,7 +27,7 @@ description: >
 {{% /pageinfo %}}
 
 
-![image.png](img/image.png)
+![SBOM 기술 가이드라인 표지](img/image.png)
 
 
 ## 1. Executive Summary
@@ -382,7 +382,7 @@ SBOM 데이터를 활용하기 위해서는 일관된 데이터 형식과 구현
 
 SBOM을 구현하기 위해서는 필요한 역할과 책임을 식별해야 합니다. 여기에는 관리 후원자, 프로젝트 리더, 시스템 엔지니어, 설계 엔지니어, 조달 전문가 및 운영 담당자가 포함되어야 합니다. 프로젝트 일정과 보안 요구사항에 따라 IT, 사이버보안 및 유지보수 인력과 같은 추가 지원을 포함시켜야 합니다. 이러한 역할들 간의 명확한 소유권과 협력을 보장하여 SBOM 구현과 기존 프로세스와의 통합을 추진해야 합니다.
 
-![image.png](img/image%203.png)
+![SBOM 구현 역할과 책임 표](img/image%203.png)
 
 *Figure 6: 역할 및 책임 수립 단계*
 
@@ -493,7 +493,7 @@ a) VEX Document 설계: Vulnerability Exchange Document (VEX)는 취약점이 �
 
 b) Common Security Advisory Framework (CSAF) 채택: VEX document 이후에 supplier는 취약점에 대한 설명, 영향을 받는 제품 버전, 심각도 평가 및 권장되는 완화 단계와 같은 자세한 정보가 포함된 CSAF 권고사항을 제공해야 합니다. 이는 다음 예시를 통해 이해할 수 있습니다:
 
-![image.png](img/image%204.png)
+![CSAF 취약점 권고사항 예시](img/image%204.png)
 *Figure 7: SBOM의 취약점 추적 및 분석 단계 시퀀스 예시*
 
 Log4j 취약점은 위 그림에 설명된 개념을 매핑하고 설명하는 예시로 사용됩니다:

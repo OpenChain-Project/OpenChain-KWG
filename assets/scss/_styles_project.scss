@@ -3,6 +3,44 @@
   Phase 1: 다크 보정 import. Phase 2: 제목 자간. Phase 3: Gemini 정렬(네비바·조판·검색·TOC 등).
 */
 
+// ── 로컬 웹폰트: Roboto·JetBrains Mono ──
+// 기업 방화벽 뒤 실무자가 주 독자라 fonts.googleapis.com이 막히면 서체가 통째로
+// 시스템 폰트로 대체되는 문제 대응. latin/latin-ext 서브셋만 받아 두고(그 외
+// 언어 서브셋은 이 사이트에 쓰이지 않음) unicode-range로 필요할 때만 내려받게 한다.
+// 파일: static/fonts/. Pretendard(한글)는 이미 CDN이 동적 서브셋을 제공해 그대로 둔다.
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url('../fonts/roboto/roboto-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url('../fonts/roboto/roboto-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400 500;
+  font-display: swap;
+  src: url('../fonts/jetbrains-mono/jetbrains-mono-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400 500;
+  font-display: swap;
+  src: url('../fonts/jetbrains-mono/jetbrains-mono-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
 // ── Docsy 다크 모드 보정(EXPERIMENTAL) — $enable-dark-mode 가 true일 때만 효과 ──
 @import 'td/color-adjustments-dark';
 @import 'td/code-dark';
@@ -39,11 +77,34 @@
 .td-content > h1:first-child,
 h1.td-title { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
 
+// 본문 바로가기(스킵 링크) — 평소엔 화면 밖, 키보드 포커스를 받으면 좌상단에 나타남
+.kwg-skip-link {
+  position: absolute;
+  top: -3rem;
+  left: $space-3;
+  z-index: 2000;
+  padding: $space-2 $space-4;
+  background: $primary;
+  color: #fff;
+  border-radius: 0 0 0.375rem 0.375rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: top 0.15s ease;
+}
+.kwg-skip-link:focus {
+  top: 0;
+  color: #fff;
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
 // 네비바 텍스트 — Gemini 상단 메뉴는 14px. 브랜드만 약간 키움
 .td-navbar {
   .navbar-brand__name { font-size: 1.125rem; font-weight: 500; letter-spacing: -0.01em; }
   // Roboto는 x-height가 작아 14px가 작아 보임 → 15px로 보정(Gemini 체감 크기)
   .nav-link { font-size: 0.9375rem; font-weight: 400; }
+  // Docsy 원본은 svg 로고만 30px로 맞춤(_nav.scss). 로고를 <img>로 바꾼 곳(navbar.html)도 동일 높이로.
+  .navbar-brand img { height: 30px; margin: 0 10px; }
 }
 
 // ── 네비바: 화이트 반투명 + 얇은 보더(홈 cover 위는 기존 투명 유지) ──
@@ -93,6 +154,17 @@ h1.td-title { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
     }
   }
 }
+// TOC가 비어 있으면(헤딩 1개 이하) 컬럼째로 접고 본문이 그 폭을 채우게 한다(UI #25).
+// Docsy는 ScrollSpy 때문에 .td-toc를 항상 렌더하므로 헤딩이 없을 때 이 div가 정말 비어(:empty)
+// 있다 — 그 사실을 그대로 셀렉터로 쓴다. :has() 미지원 브라우저는 기존처럼 빈 칸이 남을 뿐
+// 레이아웃이 깨지지는 않는다(점진적 향상).
+.td-sidebar-toc:has(.td-toc:empty) { display: none; }
+.row:has(> .td-sidebar-toc .td-toc:empty) > main {
+  @include media-breakpoint-up(xl) {
+    flex: 1 1 auto;
+    max-width: 100%;
+  }
+}
 
 // ── 좌측 사이드바: Roboto 보정 15px + 굵기 정상화(항목 regular, 그룹헤더만 medium) ──
 .td-sidebar-nav {
@@ -139,6 +211,49 @@ h1.td-title { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
 
     a { font-weight: 500; }
   }
+}
+
+// ── 다음 정기 미팅 바로가기 카드(/meeting/ 목록 맨 위) ──
+// Meeting 섹션에서 최신 회차까지 3단계 클릭이 걸리던 문제 대응(UI #22).
+.kwg-latest-meeting {
+  display: flex;
+  flex-direction: column;
+  gap: $space-1;
+  margin: $space-4 0 $space-6;
+  padding: $space-5 $space-6;
+  border-radius: 0.75rem;
+  background: linear-gradient(135deg, $primary, $secondary);
+  color: #fff;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.kwg-latest-meeting:hover {
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(2, 171, 184, 0.3);
+}
+.kwg-latest-meeting__eyebrow {
+  font-size: $text-xs;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.85);
+}
+.kwg-latest-meeting__title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.kwg-latest-meeting__desc {
+  font-size: $text-sm;
+  color: rgba(255, 255, 255, 0.9);
+}
+.kwg-latest-meeting__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-top: $space-2;
+  font-size: $text-sm;
+  font-weight: 500;
 }
 
 // ── 문서 본문 — 홈 톤 이식(라이트 유지 + radius·그림자·transition·teal 액센트) ──
@@ -240,7 +355,16 @@ h1.td-title { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
 // 본문 콘텐츠 폭(블록·카드를 적당한 폭으로 가운데). 히어로만 100vw 풀폭
 .kwg-home .container { max-width: 1280px; }
 
-// 히어로: 단체사진 배경 + 다크 그라데이션 오버레이(배경은 layouts inline style)
+// 히어로: 단체사진 배경 + 다크 그라데이션 오버레이.
+// 배경 이미지 자체는 layouts/index.html이 --kwg-hero-bg-sm/md/lg 커스텀 프로퍼티로 3단계
+// 해상도를 넘기고, 실제로 어느 것을 쓸지는 아래 미디어쿼리가 고른다(뷰포트별 반응형).
+$kwg-hero-overlay: linear-gradient(
+  180deg,
+  rgba(6, 20, 27, 0.92) 0%,
+  rgba(6, 20, 27, 0.65) 34%,
+  rgba(6, 20, 27, 0.55) 58%,
+  rgba(6, 20, 27, 0.65) 100%
+);
 .kwg-hero {
   position: relative;
   // Docsy 컨테이너 패딩을 벗어나 뷰포트 풀폭으로(배경이 좌우 끝까지)
@@ -254,10 +378,40 @@ h1.td-title { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
   padding: 9.5rem 0 5rem;
   text-align: center;
   background-color: #06141b;
+  background-image: $kwg-hero-overlay, var(--kwg-hero-bg-sm);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
+
+  @include media-breakpoint-up(md) {
+    background-image: $kwg-hero-overlay, var(--kwg-hero-bg-md);
+  }
+  @include media-breakpoint-up(lg) {
+    background-image: $kwg-hero-overlay, var(--kwg-hero-bg-lg);
+  }
+}
+// 스크롤 유도 — 100svh 히어로 아래에 더 있다는 신호(디자인 #31). prefers-reduced-motion 존중.
+// 위치·바운스(translateX/Y)는 링크에, 화살표를 아래로 돌리는 회전은 아이콘에 따로 둬서
+// transform 합성 순서 문제(회전 좌표계에서 translateY가 옆으로 새는 문제) 없앰.
+.kwg-hero__scroll-cue {
+  position: absolute;
+  left: 50%;
+  bottom: $space-6;
+  z-index: 1;
+  display: inline-flex;
+  transform: translateX(-50%);
+  color: rgba(255, 255, 255, 0.65);
+  animation: kwg-scroll-cue-bounce 2s ease-in-out infinite;
+}
+.kwg-hero__scroll-cue .kwg-icon { transform: rotate(90deg); }
+.kwg-hero__scroll-cue:hover { color: #fff; }
+@keyframes kwg-scroll-cue-bounce {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50% { transform: translateX(-50%) translateY(6px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .kwg-hero__scroll-cue { animation: none; }
 }
 .kwg-hero::after {
   content: "";
@@ -301,12 +455,22 @@ a.kwg-hero__badge:hover {
   -webkit-text-fill-color: transparent;
   color: transparent;
 }
+// 고대비(forced-colors) 모드·인쇄에서는 그라데이션 클립이 무시돼 글자가 통째로 안 보일 수 있어 되돌림
+@media (forced-colors: active), print {
+  .kwg-hero__title {
+    background: none;
+    -webkit-text-fill-color: currentColor;
+    color: CanvasText;
+  }
+}
 .kwg-hero__sub {
   font-size: $text-xl;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.92);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.45); // 밝은 옷 등 사진의 밝은 구간 위에서도 읽히게
   max-width: 620px;
   margin: 0 auto $space-7;
   line-height: 1.6;
+  word-break: keep-all; // 한국어 단어 단위 줄바꿈(조사 끊김 방지)
 }
 .kwg-hero__cta { display: flex; gap: $space-3; justify-content: center; flex-wrap: wrap; }
 .kwg-hero__cta .btn-primary {
@@ -326,7 +490,8 @@ a.kwg-hero__badge:hover {
   border-radius: 2rem;
   padding: $space-3 $space-5;
   color: #fff;
-  border-color: rgba(255, 255, 255, 0.35);
+  background: rgba(6, 20, 27, 0.35); // 테두리만으론 사진 위에서 버튼처럼 안 보여 옅은 배경 추가
+  border-color: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(8px);
 }
 .kwg-hero__cta .btn-outline-primary:hover {
@@ -361,6 +526,14 @@ a.kwg-hero__badge:hover {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: #fff; // 그라데이션 클립 미지원/무시 시 폴백(고대비·인쇄는 아래에서 한 번 더 보정)
+}
+@media (forced-colors: active), print {
+  .kwg-stats__num {
+    background: none;
+    -webkit-text-fill-color: currentColor;
+    color: CanvasText;
+  }
 }
 .kwg-stats__label {
   display: block;
@@ -375,8 +548,9 @@ a.kwg-hero__badge:hover {
   box-shadow: none;
 }
 
-// 섹션 — 넉넉한 여백(ai.google.dev식 시원함)
-.kwg-section { padding: 6.5rem 0; }
+// 섹션 — 넉넉한 여백(ai.google.dev식 시원함). 다만 인접 섹션끼리 겹치면 13rem까지
+// 벌어져 화면 하나가 통째로 빈 공간이 돼 4.5rem으로 낮춤(디자인 #27).
+.kwg-section { padding: 4.5rem 0; }
 .kwg-section--alt { background: var(--bs-tertiary-bg); }
 .kwg-section__title {
   font-size: 2.4rem; // 섹션 제목 디스플레이(예외)

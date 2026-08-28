@@ -1,0 +1,46 @@
+{{/*
+  OpenChain-KWG footer/copyright 오버라이드 — Docsy v0.13.0 _partials/footer/copyright.html 복사본.
+  유일한 변경: 원본이 저작권 표시 뒤에 항상 붙이는 "All Rights Reserved" 문구를 뺐다.
+  이 사이트는 CC BY 4.0으로 배포한다고 params.copyright.authors에 명시하는데 바로 뒤에
+  "All Rights Reserved"가 붙으면 표기가 서로 모순된다. i18n 키를 비우는 방식은
+  enableMissingTranslationPlaceholders 때문에 "[i18n] footer_all_rights_reserved"가
+  그대로 노출돼(빈 문자열도 "누락"으로 처리) 대신 이 블록 자체를 지웠다.
+  ⚠ 업그레이드 회귀 점검: Docsy 새 버전 copyright.html과 diff 후 이 차이(all_rights_reserved
+  블록 삭제)만 유지.
+*/ -}}
+{{ $page := .Page -}}
+{{ with .Site.Params.copyright -}}
+  {{ $fromYear := "" -}}
+  {{ $toYear := "" -}}
+  {{ $authors := "" -}}
+  {{ if reflect.IsMap . -}}
+    {{ $fromYear = .from_year -}}
+    {{ $toYear = .to_year -}}
+    {{ $authors = .authors -}}
+  {{ else -}}
+    {{ $authors = . -}}
+  {{ end -}}
+
+  <span class="td-footer__copyright">&copy;
+    {{ with $fromYear -}}
+      {{ . }}&ndash;
+    {{- end -}}
+    {{ $toYear | default now.Year }}
+    <span class="td-footer__authors">
+      {{- $authors
+            | default (printf "%s Authors" ($.Site.Title | default "Site"))
+            | $page.RenderString -}}
+    </span>
+    {{- /* Trim WS */ -}}
+  </span>
+
+{{- else -}}
+
+  {{ with .Site.Copyright -}}
+    {{/* For historical reasons we process this as HTML rather than markdown. */ -}}
+    <span class="td-footer__copyright">
+      {{- . | safeHTML -}}
+    </span>
+  {{- end -}}
+
+{{ end -}}

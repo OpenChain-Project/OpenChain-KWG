@@ -87,7 +87,7 @@ Verification Material(s):
 
 Linux Foundation은 기업이 오픈소스 담당자의 연락처를 공개할 수 있도록 Open Compliance Directory라는 공간을 마련하였다.
 
-![directory.png](../directory.png) 
+![Open Compliance Directory 화면](../directory.png) 
 
 _<center>< https://compliance.linuxfoundation.org/references/open-compliance-directory/ ></center>_
 
@@ -261,7 +261,7 @@ Verification Material(s):
 
 참고로, OpenChain 프로젝트에서는 파트너 프로그램을 통해 오픈소스 관련 자문을 제공하는 글로벌 법무법인 리스트를 제공한다.
 
- ![partners.png](../partners.png) 
+ ![OpenChain 파트너 프로그램 법무법인 목록](../partners.png) 
 
  _<center>< https://www.openchainproject.org/partners ></center>_
 

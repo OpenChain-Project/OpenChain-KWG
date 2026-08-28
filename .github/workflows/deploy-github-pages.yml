@@ -7,10 +7,6 @@ on:
       - master
   pull_request:
 
-env:
-  REPO_NAME: ${{ github.event.repository.name }}
-  REPO_OWNER: ${{ github.repository_owner }}
-
 jobs:
   deploy:
     runs-on: ubuntu-22.04
@@ -28,7 +24,9 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          # package.json의 hugo-extended 버전과 맞춘다 — 'latest'였을 땐 로컬 빌드와 버전이
+          # 어긋나 프로덕션 빌드가 재현되지 않고, Hugo가 올라갈 때마다 예고 없이 깨질 수 있었다.
+          hugo-version: '0.164.0'
           extended: true
 
       - name: Setup Node
@@ -56,7 +54,10 @@ jobs:
           restore-keys: |
             hugo-resources-${{ runner.os }}-
 
-      - run: hugo --baseURL https://${REPO_OWNER}.github.io/${REPO_NAME} --minify
+      # baseURL은 hugo.toml 값을 그대로 쓴다. REPO_OWNER(=github.repository_owner)로 덮어쓰면
+      # 실제 서빙 호스트(소문자 openchain-project.github.io)와 대소문자가 달라져 sitemap·canonical·
+      # og:url이 서로 다른 표기 3종으로 흩어졌다.
+      - run: hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4

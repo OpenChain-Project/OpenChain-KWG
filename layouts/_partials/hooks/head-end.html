@@ -2,9 +2,18 @@
   OpenChain-KWG 웹폰트 주입 — Docsy 공식 head 훅(hooks/head-end.html).
   영문·숫자: Roboto(Google Sans와 가까운 계열) / 한글: Pretendard / 코드: JetBrains Mono.
   폰트 스택은 assets/scss/_variables_project.scss($td-fonts-serif)에서 지정한다.
+  Roboto·JetBrains Mono는 static/fonts/에 로컬 호스팅(assets/scss/_styles_project.scss의
+  @font-face 참고) — 기업 방화벽 뒤 실무자가 주 독자라 외부 CDN 차단 시 서체가 통째로
+  깨지는 문제 대응. Pretendard(한글)만 동적 서브셋 CDN을 그대로 쓴다.
 */ -}}
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500&display=swap">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+
+{{- /* canonical + hreflang — ko/en 대응 페이지가 검색엔진에 서로의 관계를 알리도록 */ -}}
+<link rel="canonical" href="{{ .Permalink }}">
+{{- if .IsTranslated }}
+<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+{{- range .Translations }}
+<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+{{- end }}
+{{- end }}
