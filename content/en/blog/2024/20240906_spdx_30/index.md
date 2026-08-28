@@ -917,6 +917,6 @@ SPDX 3.0 provides enterprise open source managers with a powerful tool for effec
 
 *SK telecom customers can use Perplexity Pro free for one year: [https://perplexity.sktadotevent.com/](https://perplexity.sktadotevent.com/)*
 
-![image.png](./image.png)
+![Perplexity Pro SKT 고객 프로모션 배너](./image.png)
 
 {{% /pageinfo %}}

@@ -1,0 +1,13 @@
+{{- /*
+  마크다운 ![]() 이미지 렌더 훅. width/height/loading을 파일마다 손으로 적지 않고
+  여기서 한 번에 채운다(본문 이미지 144곳 CLS·지연로딩 문제 대응).
+  같은 페이지 번들의 로컬 이미지면 리소스에서 실제 픽셀 크기를 읽어 width/height를 채우고,
+  외부 URL이면 크기 없이 loading="lazy"만 붙인다(레이아웃 밀림은 못 막지만 지연 로딩은 됨).
+*/ -}}
+{{- $src := .Destination -}}
+{{- $isRemote := or (strings.HasPrefix $src "http://") (strings.HasPrefix $src "https://") -}}
+{{- $resource := "" -}}
+{{- if not $isRemote -}}
+  {{- with .Page.Resources.GetMatch (strings.TrimPrefix "./" $src) -}}{{ $resource = . }}{{- end -}}
+{{- end -}}
+<img src="{{ $src | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ with $resource }} width="{{ .Width }}" height="{{ .Height }}"{{ end }} loading="lazy" decoding="async">

@@ -10,7 +10,7 @@ aliases:
 ---
 <!-- <img src="OpenChain-KWG-7th-1.png" width="90%"> -->
 
-![kwg-logo.gif](openchain-xmas-2.gif)
+![OpenChain KWG 크리스마스 기념 애니메이션](openchain-xmas-2.gif)
 _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_
 
 <img src="kwg8-2.png" width="90%">
@@ -223,5 +223,5 @@ Mailing list member only
 https://www.openchainproject.org/featured/2020/12/09/openchain-korea-work-group-meeting-8-full-recording
 
 
-![kwg-logo.gif](openchain-xmas.gif)
+![OpenChain KWG 크리스마스 기념 애니메이션](openchain-xmas.gif)
 _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_

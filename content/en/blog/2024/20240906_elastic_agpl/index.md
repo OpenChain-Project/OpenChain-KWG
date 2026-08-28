@@ -117,6 +117,6 @@ Changes in open source licenses are an unavoidable reality, but a company that r
 
 *SKT customers can use Perplexity Pro for free for one year: [https://perplexity.sktadotevent.com/](https://perplexity.sktadotevent.com/)*
 
-![image.png](./image.png)
+![Perplexity Pro SKT 고객 프로모션 배너](./image.png)
 
 {{% /pageinfo %}}

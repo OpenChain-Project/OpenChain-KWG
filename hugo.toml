@@ -1,4 +1,4 @@
-baseURL = "https://openChain-project.github.io/OpenChain-KWG/"
+baseURL = "https://openchain-project.github.io/OpenChain-KWG/"
 title = "OpenChain KWG"
 
 # Language settings
@@ -13,9 +13,6 @@ enableRobotsTXT = true
 # Will give values to .Lastmod etc.
 enableGitInfo = true
 
-# 가이드 내부 작업 파일(검토 결과·작업 추적용)은 사이트 빌드에서 제외
-# CRITIC-REPORT, STYLE-REPORT는 검토 결과 영속화 목적이며 사이트 노출 대상 아님
-ignoreFiles = ["/content/ko/guide/CRITIC-REPORT\\.md$", "/content/ko/guide/STYLE-REPORT\\.md$", "/content/ko/guide/TODO\\.md$", "/content/ko/guide/EVIDENCE-CHECK\\.md$"]
 
 # Comment out to enable taxonomies in Docsy
 # disableKinds = ["taxonomy", "taxonomyTerm"]
@@ -95,9 +92,11 @@ description = "An OpenChain KWG site"
 
 # Everything below this are Site Params
 
-# Comment out if you don't want the "print entire section" link enabled.
+# print 출력을 껐다 — _styles_project.scss의 .td-page-meta { display: none }가 print 링크를
+# 포함한 페이지 메타 영역 전체를 이미 숨기고 있어 어차피 아무도 도달할 수 없는데, 섹션마다
+# 다중 페이지 출력물을 만드느라 배포 용량만 50MB가량 차지했다. 다시 노출하려면 위 SCSS 규칙부터 풀 것.
 [outputs]
-section = ["HTML", "print", "RSS"]
+section = ["HTML", "RSS"]
 
 [params]
 # privacy_policy = "https://policies.google.com/privacy"
@@ -121,7 +120,8 @@ version = "0.0"
 
 # A link to latest version of the docs. Used in the "version-banner" partial to
 # point people to the main doc site.
-url_latest_version = "https://example.com"
+# archived_version = false라 현재 렌더링되지 않음. 버전 배너를 쓰게 되면 실제 주소로 채울 것.
+# url_latest_version = "https://example.com"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
 github_repo = "https://github.com/OpenChain-Project/OpenChain-KWG"
@@ -145,7 +145,7 @@ offlineSearch = false
 prism_syntax_highlighting = false
 
 [params.copyright]
-  authors = "The OpenChain KWG Authors | Documentation distributed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | "
+  authors = "The OpenChain KWG Authors | Documentation distributed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0)"
   from_year = 2019
 
 # User interface configuration
@@ -154,7 +154,7 @@ prism_syntax_highlighting = false
 showLightDarkModeMenu = true
 #  Set to true to disable breadcrumb navigation.
 breadcrumb_disable = false
-# Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top navbar
+# Set to false if you don't want to display a logo (static/images/kwg-logo-nav.webp) in the top navbar
 navbar_logo = true
 # Set to true if you don't want the top navbar to be translucent when over a `block/cover`, like on the homepage.
 navbar_translucent_over_cover_disable = false
@@ -173,8 +173,8 @@ sidebar_search_disable = true
 [params.ui.feedback]
 enable = false
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
-yes = 'Glad to hear it! Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
-no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
+yes = 'Glad to hear it! Please <a href="https://github.com/OpenChain-Project/OpenChain-KWG/issues/new">tell us how we can improve</a>.'
+no = 'Sorry to hear that. Please <a href="https://github.com/OpenChain-Project/OpenChain-KWG/issues/new">tell us how we can improve</a>.'
 
 # Adds a reading time to the top of each doc.
 # If you want this feature, but occasionally need to remove the Reading time from a single page,

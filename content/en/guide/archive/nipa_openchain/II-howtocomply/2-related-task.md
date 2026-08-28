@@ -39,7 +39,7 @@ Maintain a process to effectively respond to external Open Source inquiries. Pub
 
 오픈소스 개발자들이 기업의 오픈소스 컴플라이언스 관련 이슈를 논의하기 위해 기업 담당자에게 연락하고 싶어도 연락 방법을 찾지 못하다가 결국 법적 클레임까지 제기하는 경우가 있다. Linux Foundation은 이러한 경우를 최소화 하기 위해 기업들에게 오픈소스 관련 문의를 받을 수 있는 연락처를 공개할 수 있도록 Open Compliance Directory라는 공간을 마련하였다.
 
- ![directory.png](../directory.png) 
+ ![Open Compliance Directory 화면](../directory.png) 
 
  _<center>< https://compliance.linuxfoundation.org/references/open-compliance-directory/ ></center>_
 
@@ -48,7 +48,7 @@ Maintain a process to effectively respond to external Open Source inquiries. Pub
  이를 통해 오픈소스 개발자들은 원하는 기업의 컨택 포인트 정보를 쉽게 확인할 수 있고, 법적 클레임까지 제기하기 이전에 기업의 오픈소스 담당자와 오픈소스 컴플라이언스 이슈를 논의하여 문제를 해결할 수 있다. 기업의 오픈소스 담당자는 Open Compliance Directory에 기업 정보 및 연락 방법을 등록하는 것이 소송 리스크를 줄일 수 있는 방법 중 하나이다.
 
  
- ![addrequest.png](../addrequest.png) 
+ ![Open Compliance Directory 등록 요청 화면](../addrequest.png) 
 
  _<center>< https://www.linuxsources.org/content/open-compliance-directory-add-organization-request ></center>_
 
@@ -65,7 +65,7 @@ Maintain a process to effectively respond to external Open Source inquiries. Pub
 외부로부터의 이러한 오픈소스 컴플라이언스 문의에 신속하고 정확하게 대응한다면 소송까지 진행되는 위험을 크게 줄일 수 있다. 따라서, 기업은 외부의 오픈소스 컴플라이언스 문의에 대응하기 위한 절차를 갖고 있어야 한다. 컴플라이언스 문의를 대응하기 위한 일반적인 절차는 다음과 같다.
 
  
- ![process.png](../process.png) 
+ ![오픈소스 컴플라이언스 문의 대응 절차 다이어그램](../process.png) 
 
  _<center>< https://www.linuxsources.org/content/open-compliance-directory-add-organization-request ></center>_
 
@@ -141,7 +141,7 @@ Identify and Resource Program Task\(s\):
 기업은 프로그램 참여자가 이슈 해결을 위해 법률적인 검토가 필요할 경우, 이에 대해 법률 자문을 요청할 수 있는 방법을 제공해야 한다. 회사 내의 법무팀을 통해 우선 제공하고, 이슈가 첨예한 경우, 오픈소스 전문 변호사를 보유한 외부 법무 법인을 이용할 수 있다. OpenChain Project에서는 파트너 프로그램을 통해 오픈소스 관련 자문을 제공하는 글로벌 법무법인 리스트를 제공한다.
 
 
- ![partners.png](../partners.png) 
+ ![OpenChain 파트너 프로그램 법무법인 목록](../partners.png) 
 
  _<center>< https://www.openchainproject.org/partners ></center>_
 

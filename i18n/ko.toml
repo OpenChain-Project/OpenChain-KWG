@@ -16,15 +16,15 @@ other = "사이트에서 검색…"
 
 # Used in sentences such as "Posted in News"
 [ui_in]
-other = "in"
+other = "·"
 
 # Used in sentences such as "All Tags"
 [ui_all]
-other = "all"
+other = "전체"
 
 # Footer text
-[footer_all_rights_reserved]
-other = "All Rights Reserved"
+# footer_all_rights_reserved는 쓰지 않는다 — CC BY 4.0 표기와 모순돼 layouts/_partials/footer/copyright.html에서
+# 아예 뺐다(i18n 값을 비우면 enableMissingTranslationPlaceholders 때문에 오히려 "[i18n] ..."가 노출됨).
 
 [footer_privacy_policy]
 other = "개인정보 보호 정책"
@@ -32,7 +32,7 @@ other = "개인정보 보호 정책"
 
 # Post (blog, articles etc.)
 [post_byline_by]
-other = "By"
+other = "작성"
 [post_created]
 other = "작성"
 [post_last_mod]
@@ -48,11 +48,11 @@ other = "문서에 이슈 생성"
 [post_create_project_issue]
 other = "프로젝트에 이슈 생성"
 [post_posts_in]
-other = "Posts in"
+other = "게시물"
 [post_reading_time]
-other = "minute read"
+other = "분 분량"
 [post_less_than_a_minute_read]
-other = "less than a minute"
+other = "1분 미만"
 
 # Print support
 [print_printable_section]
@@ -66,21 +66,24 @@ other = "전체 섹션 프린트"
 
 # Community
 [community_join]
-other = "Join the {{ .Site.Title }} community"
+other = "{{ .Site.Title }} 커뮤니티에 참여하기"
 [community_introduce]
-other = "{{ .Site.Title }} is an open source project that anyone in the community can use, improve, and enjoy. We'd love you to join us! Here's a few ways to find out what's happening and get involved."
+other = "{{ .Site.Title }}는 커뮤니티 누구나 쓰고 개선하고 즐길 수 있는 오픈소스 프로젝트입니다. 함께해 주세요! 아래 방법으로 소식을 확인하고 참여할 수 있습니다."
 [community_learn]
-other = "Learn and Connect"
+other = "알아보고 연결하기"
 [community_using]
-other = "Using or want to use {{ .Site.Title }}? Find out more here:"
+other = "{{ .Site.Title }}를 쓰고 있거나 써 보고 싶다면 여기서 더 알아보세요."
 [community_develop]
-other = "Develop and Contribute"
+other = "개발하고 기여하기"
 [community_contribute]
-other = "If you want to get more involved by contributing to {{ .Site.Title }}, join us here:"
+other = "{{ .Site.Title }}에 기여하며 더 적극적으로 참여하고 싶다면 여기에 참여하세요."
 [community_how_to]
-other = "You can find out how to contribute to {{ .Site.Title }} in our"
+other = "{{ .Site.Title }}에 기여하는 방법은 아래에서 확인할 수 있습니다."
 [community_guideline]
-other = "Contribution Guidelines"
+other = "기여 가이드라인"
 
 [toc_on_this_page]
-other = "On this page"
+other = "이 페이지에서"
+
+[toc_top_of_page]
+other = "맨 위로"

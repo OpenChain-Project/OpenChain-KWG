@@ -11,6 +11,8 @@ menu:
     weight: 40
 ---
 
+{{< latest-meeting >}}
+
 <div ><span class="image fit">
   <img src="openchain_meeting.png" width="50%">
 </div>
