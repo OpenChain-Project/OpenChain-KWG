@@ -64,3 +64,8 @@ jobs:
         if: ${{ github.ref == 'refs/heads/master' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          # force_orphan: 배포마다 새 커밋을 쌓지 않고 매번 커밋 1개로 새로 만든다.
+          # 원래 옵션이 없어 gh-pages에 배포 이력 913개(빌드 산출물 전체 중복)가 쌓여
+          # 저장소 용량의 큰 부분을 차지했다. gh-pages는 순수 빌드 산출물이라 이력을
+          # 보존할 이유가 없다.
+          force_orphan: true
