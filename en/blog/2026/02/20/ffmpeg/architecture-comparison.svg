@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="418" viewBox="0 0 820 418">
+  <defs>
+    <filter id="sh2" x="-20%" y="-40%" width="140%" height="180%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.6" flood-color="#000" flood-opacity="0.10"/>
+    </filter>
+    <marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#9ca3af"/>
+    </marker>
+  </defs>
+  <rect width="820" height="418" fill="#ffffff"/>
+  <g font-family="system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">
+
+    <!-- column divider -->
+    <line x1="410" y1="14" x2="410" y2="306" stroke="#e5e7eb" stroke-width="1" stroke-dasharray="3 4"/>
+
+    <!-- column labels -->
+    <text x="215" y="28" text-anchor="middle" font-size="12" letter-spacing="1.6" fill="#c2410c">THE STRUCTURE AT ISSUE</text>
+    <text x="605" y="28" text-anchor="middle" font-size="12" letter-spacing="1.6" fill="#6b7280">THE STANDARD STRUCTURE</text>
+
+    <!-- left: application -->
+    <rect x="70" y="50" width="290" height="52" rx="8" fill="#fff" stroke="#d1d5db" filter="url(#sh2)"/>
+    <text x="215" y="82" text-anchor="middle" font-size="15" fill="#111827">Application</text>
+
+    <line x1="215" y1="102" x2="215" y2="136" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#a2)"/>
+
+    <!-- left: MPP (highlight) -->
+    <rect x="70" y="144" width="290" height="66" rx="8" fill="#fff" stroke="#c2410c" stroke-width="1.8" filter="url(#sh2)"/>
+    <text x="215" y="172" text-anchor="middle" font-size="15" fill="#111827">MPP library</text>
+    <text x="215" y="194" text-anchor="middle" font-size="12.5" fill="#c2410c">FFmpeg code copied in</text>
+
+    <line x1="215" y1="210" x2="215" y2="310" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#a2)"/>
+
+    <!-- right: application -->
+    <rect x="460" y="50" width="290" height="52" rx="8" fill="#fff" stroke="#d1d5db" filter="url(#sh2)"/>
+    <text x="605" y="82" text-anchor="middle" font-size="15" fill="#111827">Application</text>
+
+    <line x1="605" y1="102" x2="605" y2="136" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#a2)"/>
+
+    <!-- right: FFmpeg -->
+    <rect x="460" y="144" width="290" height="66" rx="8" fill="#fff" stroke="#d1d5db" filter="url(#sh2)"/>
+    <text x="605" y="172" text-anchor="middle" font-size="15" fill="#111827">FFmpeg</text>
+    <text x="605" y="194" text-anchor="middle" font-size="12.5" fill="#6b7280">Used as is, unmodified</text>
+
+    <line x1="605" y1="210" x2="605" y2="222" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#a2)"/>
+
+    <!-- right: V4L2 -->
+    <rect x="460" y="230" width="290" height="66" rx="8" fill="#fff" stroke="#d1d5db" filter="url(#sh2)"/>
+    <text x="605" y="258" text-anchor="middle" font-size="15" fill="#111827">Kernel V4L2 interface</text>
+    <text x="605" y="280" text-anchor="middle" font-size="12.5" fill="#6b7280">Calls hardware through a standard API</text>
+
+    <line x1="605" y1="296" x2="605" y2="310" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#a2)"/>
+
+    <!-- shared hardware -->
+    <rect x="70" y="318" width="680" height="52" rx="8" fill="#f9fafb" stroke="#d1d5db" filter="url(#sh2)"/>
+    <text x="410" y="350" text-anchor="middle" font-size="15" fill="#111827">Rockchip VPU hardware</text>
+  </g>
+</svg>

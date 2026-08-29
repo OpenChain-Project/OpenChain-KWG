@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" font-family="'Apple SD Gothic Neo','Noto Sans CJK KR','Malgun Gothic',sans-serif">
+  <defs>
+    <filter id="sh2" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+    <marker id="ar2" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0,1 L7,4.5 L0,8 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect width="1000" height="600" fill="#ffffff"/>
+
+  <!-- 최상위 -->
+  <rect x="320" y="24" width="360" height="58" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#sh2)"/>
+  <text x="500" y="50" text-anchor="middle" font-size="19" font-weight="700" fill="#0f172a">최소 요소 23개를 채우려면</text>
+  <text x="500" y="71" text-anchor="middle" font-size="14" fill="#64748b">네 갈래가 함께 맞물려야 합니다</text>
+
+  <path d="M500,82 L500,104" stroke="#94a3b8" stroke-width="1.4" fill="none"/>
+  <path d="M260,104 L740,104" stroke="#94a3b8" stroke-width="1.4" fill="none"/>
+  <path d="M260,104 L260,150" stroke="#94a3b8" stroke-width="1.4" fill="none" marker-end="url(#ar2)"/>
+  <path d="M740,104 L740,150" stroke="#94a3b8" stroke-width="1.4" fill="none" marker-end="url(#ar2)"/>
+
+  <!-- eyebrow 라벨 -->
+  <text x="260" y="136" text-anchor="middle" font-size="12" font-weight="700" fill="#c0392b" letter-spacing="1.6">도구가 채웁니다</text>
+  <text x="740" y="136" text-anchor="middle" font-size="12" font-weight="700" fill="#64748b" letter-spacing="1.6">도구 밖에서 옵니다</text>
+
+  <!-- 왼쪽: 생성 도구 (강조) -->
+  <rect x="60" y="156" width="400" height="392" rx="10" fill="#ffffff" stroke="#c0392b" stroke-width="1.8" filter="url(#sh2)"/>
+  <text x="260" y="192" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">SBOM 생성 도구</text>
+  <path d="M100,208 L420,208" stroke="#f1d4d0" stroke-width="1"/>
+  <text x="260" y="236" text-anchor="middle" font-size="14" fill="#334155">컴포넌트 이름과 버전</text>
+  <text x="260" y="262" text-anchor="middle" font-size="14" fill="#334155">컴포넌트 식별자</text>
+  <text x="260" y="288" text-anchor="middle" font-size="14" fill="#334155">의존 관계</text>
+  <text x="260" y="314" text-anchor="middle" font-size="14" fill="#334155">라이선스</text>
+  <text x="260" y="340" text-anchor="middle" font-size="14" fill="#334155">데이터 형식 이름과 버전</text>
+  <text x="260" y="366" text-anchor="middle" font-size="14" fill="#334155">타임스탬프</text>
+  <path d="M100,392 L420,392" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="260" y="422" text-anchor="middle" font-size="13" fill="#64748b">생산자는 패키지 메타데이터가</text>
+  <text x="260" y="442" text-anchor="middle" font-size="13" fill="#64748b">있어야 채워집니다</text>
+  <text x="260" y="480" text-anchor="middle" font-size="13" fill="#64748b">소스 스캔 시점에는 산출물이 없어</text>
+  <text x="260" y="500" text-anchor="middle" font-size="13" fill="#64748b">해시를 만들 수 없습니다</text>
+  <text x="260" y="528" text-anchor="middle" font-size="13" fill="#94a3b8">이 경우 미상 표시가 규정된 대안</text>
+
+  <!-- 오른쪽 1: 빌드 파이프라인 -->
+  <rect x="520" y="156" width="420" height="118" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#sh2)"/>
+  <text x="548" y="186" font-size="16" font-weight="700" fill="#0f172a">빌드 파이프라인</text>
+  <text x="548" y="214" font-size="14" fill="#334155">생성 맥락 — 빌드 이전인가 이후인가</text>
+  <text x="548" y="238" font-size="14" fill="#334155">실행 산출물의 해시</text>
+  <text x="548" y="262" font-size="13" fill="#94a3b8">스캔 대상이 아니라 스캔 시점이 정합니다</text>
+
+  <!-- 오른쪽 2: 서명 인프라 -->
+  <rect x="520" y="292" width="420" height="98" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#sh2)"/>
+  <text x="548" y="322" font-size="16" font-weight="700" fill="#0f172a">서명 인프라</text>
+  <text x="548" y="350" font-size="14" fill="#334155">SBOM 작성자 서명</text>
+  <text x="548" y="374" font-size="13" fill="#94a3b8">키 관리가 전제이며 생성 도구의 범위 밖입니다</text>
+
+  <!-- 오른쪽 3: 조직 정책 -->
+  <rect x="520" y="408" width="420" height="140" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#sh2)"/>
+  <text x="548" y="438" font-size="16" font-weight="700" fill="#0f172a">조직 정책과 설정</text>
+  <text x="548" y="466" font-size="14" fill="#334155">SBOM 작성자 — 도구를 운영하는 주체</text>
+  <text x="548" y="490" font-size="14" fill="#334155">커버리지 범위와 갱신 주기</text>
+  <text x="548" y="514" font-size="14" fill="#334155">전달 방식, 미상 표기 규약</text>
+  <text x="548" y="538" font-size="13" fill="#94a3b8">도구를 고르기 전에 정해야 합니다</text>
+
+  <!-- 하단 요지 -->
+  <path d="M60,568 L940,568" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="500" y="591" text-anchor="middle" font-size="15" fill="#334155">정하지 않은 채 도구부터 도입하면, 도구의 기본값이 그대로 조직의 정책이 됩니다.</text>
+</svg>

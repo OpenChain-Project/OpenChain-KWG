@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>거버넌스 on OpenChain KWG</title><link>https://openchain-project.github.io/OpenChain-KWG/tags/%EA%B1%B0%EB%B2%84%EB%84%8C%EC%8A%A4/</link><description>Recent content in 거버넌스 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://openchain-project.github.io/OpenChain-KWG/tags/%EA%B1%B0%EB%B2%84%EB%84%8C%EC%8A%A4/index.xml" rel="self" type="application/rss+xml"/><item><title>3.10 거버넌스</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/4-governance/1-governance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/4-governance/1-governance/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 4 — 거버넌스&lt;/strong&gt; 단계에서 구축한다.
+&lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;거버넌스는 앞선 모든 조항을 하나로 묶어 AI 시스템 수명주기 전반에서 책임 있는 개발과 배포,
+관리를 보장하는 틀이다. 정책(3.1)이 원칙을 세우고 라이선스 의무(3.5)와 AI SBOM(3.9)이 개별
+프로세스를 만든다면, 거버넌스는 이들이 규제 변화와 모델 교체에도 일관되게 작동하도록 관리한다.&lt;/p&gt;
+&lt;p&gt;3.10은 AI 거버넌스 프레임워크, 정책, 관행을 갖출 것을 요구한다. 규격은 EU 인공지능법(EU AI
+Act), 히로시마 AI 프로세스(Hiroshima AI Process), 중국 글로벌 AI 거버넌스 이니셔티브(Global
+AI Governance Initiative) 같은 신흥 AI 법령의 준수를 강조하며, 윤리적 고려사항과 위험 관리,
+투명성을 함께 다룬다. 핵심은 한 번 만든 프레임워크를 정기적으로 검토해 최신 규제와 모델 변화를
+반영하는 것이다.&lt;/p&gt;</description></item><item><title>거버넌스: 관리 조직과 승인 체계</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/finance-oss-guide/1-governance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/finance-oss-guide/1-governance/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;이 페이지의 위치&lt;/div&gt;
+&lt;p&gt;거버넌스는 오픈소스 관리의 기반이다. 누가 책임지고, 누가 검토하며, 누가 승인하는지를 먼저
+정해야 식별, 사용 승인, 관리 단계가 작동한다. FSEC 안내서도 관리 절차에 앞서 관리 조직
+구성과 역할을 별도로 다룬다.&lt;/p&gt;
+&lt;p&gt;여기서 만드는 문서: 오픈소스 정책, 역할·책임 목록과 담당자 지정 기록.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="금융권-거버넌스의-출발점"&gt;금융권 거버넌스의 출발점&lt;/h2&gt;
+&lt;p&gt;금융분야 오픈소스 소프트웨어 활용·관리 안내서(금융감독원·금융보안원, 2022, 이하 FSEC
+안내서)는 관리 조직의 구성과
+운영, 역할 사례를 제시한다. ISO/IEC 5230은 이를 입증자료로 요구한다. 문서화된 정책(3.1.1.1),
+역할과 책임 목록(3.1.2.1), 역할 담당자 명시(3.2.2.1), 법률 자문 접근 방법(3.2.2.3)이 그것이다.
+거버넌스는 이 입증자료들을 만들어 내는 활동이다.&lt;/p&gt;</description></item><item><title>31th Meeting</title><link>https://openchain-project.github.io/OpenChain-KWG/meeting/2026/31th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/meeting/2026/31th/</guid><description>&lt;style&gt;
+/* 회차별 스폰서 색 — 다음 회차는 이 두 값만 그 스폰서 색으로 교체. */
+.td-content { --accent: #e30613; --ink: #fff5f3; }
+&lt;/style&gt;
+&lt;div class="kwg-conf-hero"&gt;
+ &lt;div class="kwg-conf-hero__body"&gt;
+ &lt;p class="kwg-conf-hero__eyebrow"&gt;31st Meeting&lt;/p&gt;
+ &lt;h1 class="kwg-conf-hero__title"&gt;소프트웨어 공급망 보안과 오픈소스 관리 운영체계&lt;/h1&gt;
+ &lt;p class="kwg-conf-hero__sub"&gt;CJ 그룹의 오픈소스 거버넌스 현황과 운영팀 관점의 오픈소스 관리 운영체계, 소프트웨어 공급망 보안을 위한 도구를 함께 살펴봅니다.&lt;/p&gt;
+ &lt;div class="kwg-conf-hero__meta"&gt;
+ &lt;span&gt;&lt;strong&gt;일시&lt;/strong&gt; 2026-09-08 (화) 14:00–17:00&lt;/span&gt;
+ &lt;span&gt;&lt;strong&gt;장소&lt;/strong&gt; CJ인재원 · 서울 중구&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;p class="kwg-conf-hero__maps"&gt;길찾기
+ &lt;a href="https://map.naver.com/p/search/CJ%EC%9D%B8%EC%9E%AC%EC%9B%90" target="_blank" rel="noopener"&gt;네이버지도&lt;/a&gt;
+ &lt;a href="https://map.kakao.com/link/search/CJ%EC%9D%B8%EC%9E%AC%EC%9B%90" target="_blank" rel="noopener"&gt;카카오맵&lt;/a&gt;
+ &lt;a href="https://maps.app.goo.gl/nQUogVHPvF4VuapX9" target="_blank" rel="noopener"&gt;구글맵&lt;/a&gt;
+ &lt;/p&gt;
+ &lt;p class="kwg-conf-hero__note"&gt;참가 신청과 세부 프로그램은 OpenChain KWG 메일링리스트로 안내됩니다. 가입하시면 신청 링크를 받아보실 수 있습니다.&lt;/p&gt;
+ &lt;div class="kwg-conf-hero__cta"&gt;
+ &lt;a class="kwg-conf-cta" href="../../../about/subscribe/"&gt;메일링리스트 가입&lt;/a&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="kwg-conf-hero__date"&gt;
+ &lt;span class="kwg-conf-hero__date-d"&gt;08&lt;/span&gt;
+ &lt;span class="kwg-conf-hero__date-my"&gt;2026년 9월 · 화&lt;/span&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+&lt;ul class="kwg-conf-chips"&gt;
+ &lt;li class="kwg-conf-chip"&gt;OpenChain&lt;/li&gt;
+ &lt;li class="kwg-conf-chip"&gt;EU CRA&lt;/li&gt;
+ &lt;li class="kwg-conf-chip"&gt;OSS 거버넌스&lt;/li&gt;
+ &lt;li class="kwg-conf-chip"&gt;공급망 보안&lt;/li&gt;
+ &lt;li class="kwg-conf-chip"&gt;SBOM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="이런-분께-추천"&gt;이런 분께 추천&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ISO 5230·ISO 18974 자체 인증을 준비하거나 EU 사이버 복원력법(CRA) 대응 범위를 정리하고 있는 담당자&lt;/li&gt;
+&lt;li&gt;오픈소스 관리 업무를 효율화하고 도구로 운영 부담을 줄이려는 조직&lt;/li&gt;
+&lt;li&gt;소프트웨어 공급망 보안 대응을 시작했거나 공급사에서 받는 SBOM을 검증해야 하는 팀&lt;/li&gt;
+&lt;li&gt;다른 회사의 사례를 듣고 실무 네트워크를 넓히고 싶은 분&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="아젠다"&gt;아젠다&lt;/h2&gt;
+&lt;div class="kwg-conf-timeline"&gt;
+ &lt;div class="kwg-conf-tl"&gt;
+ &lt;div class="kwg-conf-tl__time"&gt;14:00–14:10&lt;/div&gt;
+ &lt;div class="kwg-conf-tl__marker"&gt;&lt;/div&gt;
+ &lt;div class="kwg-conf-tl__body"&gt;
+ &lt;div class="kwg-conf-tl__title"&gt;Welcome &amp;amp; Greetings&lt;/div&gt;
+ &lt;div class="kwg-conf-tl__by"&gt;CJ&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="kwg-conf-tl"&gt;
+ &lt;div class="kwg-conf-tl__time"&gt;14:10–14:30&lt;/div&gt;
+ &lt;div class="kwg-conf-tl__marker"&gt;&lt;/div&gt;
+ &lt;div class="kwg-conf-tl__body"&gt;
+ &lt;div class="kwg-conf-tl__title"&gt;OpenChain Updates&lt;/div&gt;
+ &lt;div class="kwg-conf-tl__by"&gt;운영진 · OpenChain Project (글로벌 업데이트)&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="kwg-conf-tl kwg-conf-tl--session"&gt;
+ &lt;div class="kwg-conf-tl__time"&gt;14:30–14:55&lt;/div&gt;
+ &lt;div class="kwg-conf-tl__marker"&gt;&lt;/div&gt;
+ &lt;div class="kwg-conf-tl__body"&gt;
+ &lt;div class="kwg-conf-tl__title"&gt;Session 1. CJ 그룹 오픈소스 거버넌스 현황&lt;/div&gt;
+ &lt;div class="kwg-conf-tl__by"&gt;성기영 변리사 · CJ&lt;/div&gt;
+ &lt;p class="kwg-conf-tl__desc"&gt;그룹 내 오픈소스 인증 현황, 오소리(OSSORI) 데이터 기여 현황, EU 사이버 복원력법(CRA) 대응 현황 등 세 가지 핵심 주제를 바탕으로 CJ 그룹의 오픈소스 거버넌스 체계를 공유합니다.&lt;/p&gt;</description></item><item><title>거버넌스</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/4-governance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/4-governance/</guid><description>&lt;p&gt;구축 로드맵의 4단계다. 앞선 조항을 하나로 묶어 AI 시스템 수명주기 전반의 거버넌스 프레임워크를
+갖추고, 신흥 AI 규제를 반영해 정기적으로 검토한다(3.10).&lt;/p&gt;</description></item></channel></rss>

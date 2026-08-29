@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ISO/IEC 5230 on OpenChain KWG</title><link>https://openchain-project.github.io/OpenChain-KWG/en/tags/iso/iec-5230/</link><description>Recent content in ISO/IEC 5230 on OpenChain KWG</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 29 Aug 2026 15:41:06 +0900</lastBuildDate><atom:link href="https://openchain-project.github.io/OpenChain-KWG/en/tags/iso/iec-5230/index.xml" rel="self" type="application/rss+xml"/><item><title>§3.1 Program Foundation</title><link>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/</guid><description/></item><item><title>§3.1.1 Policy</title><link>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/1-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/1-policy/</guid><description>&lt;h2 id="1-clause-overview"&gt;1. Clause Overview&lt;/h2&gt;
+&lt;p&gt;A company without an Open Source Policy risks distributing software while developers are unaware of their
+open source license obligations. This can lead to serious legal and business risks, such as copyright
+infringement lawsuits, mandatory source code disclosure, and termination of business contracts. §3.1.1
+requires organizations to establish a documented policy governing open source license compliance for
+supplied software and to communicate it so that all Program Participants within the organization are
+aware of the policy&amp;rsquo;s existence. This clause forms the foundation of the entire ISO/IEC 5230 program;
+all subsequent clauses (competence, processes, artifacts, etc.) operate on top of this policy.&lt;/p&gt;</description></item><item><title>§3.2.1 External Inquiry Response</title><link>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/2-relevant-tasks/1-access/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/2-relevant-tasks/1-access/</guid><description>&lt;h2 id="1-clause-overview"&gt;1. Clause Overview&lt;/h2&gt;
+&lt;p&gt;Companies distributing software may receive inquiries from third parties (customers, open source copyright
+holders, researchers, etc.) regarding open source license compliance. Failure to respond to these
+inquiries in a timely manner risks escalation into copyright infringement disputes. §3.2.1 requires
+organizations to establish a publicly available means of contact for receiving external inquiries and to
+document a procedure internally for systematically responding to those inquiries. This clause requires
+both a public channel (Verification Material 3.2.1.1) and an internal response procedure (Verification
+Material 3.2.1.2).&lt;/p&gt;</description></item><item><title>§3.3.1 SBOM</title><link>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/3-content-review/1-sbom/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/3-content-review/1-sbom/</guid><description>&lt;h2 id="1-clause-overview"&gt;1. Clause Overview&lt;/h2&gt;
+&lt;p&gt;Without knowing what open source components are included in the supplied software, it is impossible to
+fulfill license obligations or respond to security vulnerabilities. §3.3.1 requires the establishment
+of a procedure for identifying, tracking, reviewing, approving, and archiving the open source components
+that make up supplied software, and maintaining component records (SBOM) that demonstrate the procedure
+has actually been followed. This clause forms the foundation for operating the SBOM, which is the core
+infrastructure of open source license compliance and Security Assurance.&lt;/p&gt;</description></item><item><title>§3.4.1 Artifacts</title><link>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/4-artifacts/1-compliance-artifacts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/4-artifacts/1-compliance-artifacts/</guid><description>&lt;h2 id="1-clause-overview"&gt;1. Clause Overview&lt;/h2&gt;
+&lt;p&gt;To fulfill license obligations, Compliance Artifacts such as notices and source code packages must
+actually be prepared and provided with the software. §3.4.1 requires the establishment of a procedure
+for preparing the Compliance Artifacts required by the identified licenses and distributing them with
+the supplied software, as well as a procedure for retaining copies of the artifacts for a certain period.
+This clause connects the results of the §3.3 review and approval stage to actual distribution and archiving.&lt;/p&gt;</description></item><item><title>§3.5.1 Contributions</title><link>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/5-community/1-contributions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/5-community/1-contributions/</guid><description>&lt;h2 id="1-clause-overview"&gt;1. Clause Overview&lt;/h2&gt;
+&lt;p&gt;Many companies contribute code, documentation, bug reports, and more to external open source projects.
+Contribution activities build community trust and expand technical influence, but they also carry the
+risk of unintentionally disclosing company code or patents. §3.5.1 requires organizations that allow
+external open source contributions to establish a documented policy and procedure governing contributions,
+and to ensure that Program Participants are aware of their existence. This clause does not apply to
+organizations that do not allow contributions, but if they do, all three verification materials must
+be in place.&lt;/p&gt;</description></item><item><title>§3.6.1 Conformance</title><link>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/6-conformance/1-conformance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/6-conformance/1-conformance/</guid><description>&lt;h2 id="1-clause-overview"&gt;1. Clause Overview&lt;/h2&gt;
+&lt;p&gt;To receive official recognition of ISO/IEC 5230 conformance, the program defined in §3.1.4 must be
+confirmed in a document as satisfying all requirements of this specification. §3.6.1 is the stage for
+officially affirming that all clauses from §3.1 through §3.5 have been satisfied. This clause is the
+final confirmation procedure that completes adherence to the specification, requiring the organization&amp;rsquo;s
+official confirmation that the program satisfies all requirements of ISO/IEC 5230:2020 version 2.1.&lt;/p&gt;</description></item><item><title>0. Exploring OpenChain</title><link>https://openchain-project.github.io/OpenChain-KWG/en/guide/opensource_for_enterprise/0-openchain/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/guide/opensource_for_enterprise/0-openchain/</guid><description>&lt;h2 id="1-what-is-the-openchain-project"&gt;1. What is the OpenChain Project?&lt;/h2&gt;
+&lt;p&gt;Software today is growing ever larger and more complex. Developing a single piece of software may involve not only internally developed code but also open source, third-party software, vendor SDKs, and a wide variety of software across the software supply chain.&lt;/p&gt;
+&lt;p&gt;If even one organization in this complex software supply chain fails to comply with open source license obligations or does not provide accurate open source information, the company ultimately distributing the software will inevitably fail to meet its open source license compliance obligations. This can lead to lawsuits and the suspension of product sales.&lt;/p&gt;</description></item><item><title>§3.1.2 Competence</title><link>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/2-competence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/2-competence/</guid><description>&lt;h2 id="1-clause-overview"&gt;1. Clause Overview&lt;/h2&gt;
+&lt;p&gt;For an open source program to actually function, the people assigned to relevant roles must have the
+competence to perform those roles. If roles and responsibilities are only written in documents and the
+people responsible have no basic knowledge of open source license or security vulnerability management,
+the policies and processes will be nominal. §3.1.2 requires the organization to identify the roles
+involved in the program, define the competence required for each role, evaluate and record whether
+participants actually possess that competence. This clause advances the role structure defined in §3.1.1
+Policy into a concrete competence framework.&lt;/p&gt;</description></item><item><title>§3.2 Relevant Tasks</title><link>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/2-relevant-tasks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/2-relevant-tasks/</guid><description/></item><item><title>§3.2.2 Effective Resources</title><link>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/2-relevant-tasks/2-resourced/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/2-relevant-tasks/2-resourced/</guid><description>&lt;h2 id="1-clause-overview"&gt;1. Clause Overview&lt;/h2&gt;
+&lt;p&gt;For an open source program to actually function, it is not enough to just define roles. Actual personnel
+must be assigned to each role, and sufficient time and budget must be provided to carry out the work.
+§3.2.2 requires organizations to document the persons responsible for each program role, confirm that
+staffing and budget are appropriately allocated, and to have a method for accessing legal expertise, a
+procedure for assigning internal responsibilities, and a procedure for handling non-compliance cases.
+This clause consists of five verification material items and is the stage that implements the role
+structure defined in §3.1 Program Foundation into an actual operational framework.&lt;/p&gt;</description></item><item><title>§3.3.2 License Compliance</title><link>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/3-content-review/2-license-compliance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/3-content-review/2-license-compliance/</guid><description>&lt;h2 id="1-clause-overview"&gt;1. Clause Overview&lt;/h2&gt;
+&lt;p&gt;License obligations for open source components vary depending on the distribution format (binary, source
+code), whether modifications were made, and how they are combined with other components. §3.3.2 requires
+the program to have the capability to handle the common open source license use cases for open source
+components in the supplied software. This clause goes beyond simply identifying licenses to establishing
+procedures that define how to fulfill obligations for various distribution scenarios.&lt;/p&gt;</description></item><item><title>§3.6.2 Duration</title><link>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/6-conformance/2-duration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/6-conformance/2-duration/</guid><description>&lt;h2 id="1-clause-overview"&gt;1. Clause Overview&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 5230 conformance does not remain valid indefinitely once obtained. When a new version of the specification is published, a program that was conformant against the previous version retains its conformance for only 18 months after the new version is published. §3.6.2 requires organizations to maintain a document confirming that the program meets all requirements of the specification within the past 18 months of obtaining conformance. This clause serves as a mechanism to ensure that open source compliance programs remain continuously operational rather than stopping at formal certification.&lt;/p&gt;</description></item><item><title>ISO/IEC 5230 Conformance Guide</title><link>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/</guid><description>&lt;p&gt;This guide walks through each requirement clause of ISO/IEC 5230 (OpenChain License Compliance) one by one.
+It explains what verification materials each clause requires, how to comply, and what sample documents
+can be used directly.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Author : OpenChain Korea Work Group / &lt;a href="https://creativecommons.org/licenses/by/4.0/"&gt;CC BY 4.0&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="target-audience"&gt;Target Audience&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Open source compliance officers and open source program managers&lt;/li&gt;
+&lt;li&gt;Personnel at companies preparing for ISO/IEC 5230 certification&lt;/li&gt;
+&lt;li&gt;Practitioners who want to review their existing open source management framework against ISO standards&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="how-to-use-this-guide"&gt;How to Use This Guide&lt;/h2&gt;
+&lt;div class="alert alert-success" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;Relationship with the Enterprise Open Source Management Guide&lt;/div&gt;
+&lt;p&gt;The &lt;strong&gt;&lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/opensource_for_enterprise/"&gt;Enterprise Open Source Management Guide&lt;/a&gt;&lt;/strong&gt; explains how to implement open
+source management in practice (policies, processes, tools, and organization).&lt;/p&gt;</description></item><item><title>25th Meeting</title><link>https://openchain-project.github.io/OpenChain-KWG/en/meeting/2025/25th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/meeting/2025/25th/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Schedule: 2025-03-25 (Tue) 2:00 PM - 5:00 PM&lt;/li&gt;
+&lt;li&gt;Location: Korea Digital Certification Association (Yeouido Park One Building Tower 2, 48th floor) - &lt;a href="https://maps.app.goo.gl/YnxTkz8LjHPXFJBv6"&gt;https://maps.app.goo.gl/YnxTkz8LjHPXFJBv6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="agenda"&gt;Agenda&lt;/h2&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Time&lt;/th&gt;
+					&lt;th&gt;Agenda&lt;/th&gt;
+					&lt;th&gt;Speaker&lt;/th&gt;
+					&lt;th&gt;Slide&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;14:00~14:10&lt;/td&gt;
+					&lt;td&gt;Welcome &amp;amp; Opening&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;14:10~14:30&lt;/td&gt;
+					&lt;td&gt;OpenChain Global Update&lt;/td&gt;
+					&lt;td&gt;Shane Coughlan, Linux Foundation&lt;/td&gt;
+					&lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/korea-q1-2025.pptx"&gt;pptx&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;14:30~14:50&lt;/td&gt;
+					&lt;td&gt;OpenChain Korea Update&lt;/td&gt;
+					&lt;td&gt;Haksung Jang, SK Telecom&lt;/td&gt;
+					&lt;td&gt;&lt;a href="https://gamma.app/docs/25-1-Update-9mahbv9p49opuvi"&gt;slide&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;14:50~15:00&lt;/td&gt;
+					&lt;td&gt;Lightning Talk 1 &lt;br&gt; - Open Source Tech Day 2025 Announcement&lt;/td&gt;
+					&lt;td&gt;&lt;br&gt; - Jeong-sook Par, ETRI&lt;/td&gt;
+					&lt;td&gt;&lt;br&gt; &lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/tech-day-event-intro-20250325-R1.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;15:00~15:30&lt;/td&gt;
+					&lt;td&gt;Mobile ID application &amp;ldquo;DID&amp;rdquo;, open source governance strategy and future tasks?&lt;/td&gt;
+					&lt;td&gt;Mikyoung Lee, Raon Secure&lt;/td&gt;
+					&lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/OpenDID_20250325.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;15:30~16:00&lt;/td&gt;
+					&lt;td&gt;Networking&lt;/td&gt;
+					&lt;td&gt;All&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;16:00~16:30&lt;/td&gt;
+					&lt;td&gt;ISO/IEC 5230:2020 Conformance in KFTC&lt;/td&gt;
+					&lt;td&gt;Daeyeol Ryu, KFTC&lt;/td&gt;
+					&lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/20250325_KFTC_OpenChain-KWG_25th_ko.pdf"&gt;pdf(ko)&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;16:30~17:00&lt;/td&gt;
+					&lt;td&gt;Lightning Talk 2 &lt;br&gt; - 2024 Open Source Settlement that Developers Should Know &lt;br&gt; - Expansion of Open Source User Rights and Importance of Providing LGPL-2.1 Installation Information as Seen in the AVM Litigation &lt;br&gt; - ISO/IEC 18974 Corporate Introduction and Certification Strategy&lt;/td&gt;
+					&lt;td&gt;&lt;br&gt; - Seo-yeon Lee, Line Plus&lt;br&gt; - Haksung Jang, SK Telecom &lt;br&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;br&gt; &lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/2024-opensource-issues.pdf"&gt;pdf&lt;/a&gt; &lt;br&gt; &lt;a href="https://gamma.app/docs/AVM-LGPL-21--wql4pmu3qwbd4up"&gt;AVM소송소개&lt;/a&gt; &lt;br&gt; &lt;a href="https://gamma.app/docs/ISOIEC-18974--tpfdaoz4bxhxhm2"&gt;ISO/IEC18974&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="sponsor"&gt;Sponsor&lt;/h2&gt;
+&lt;p&gt;&lt;img src="../../../../images/content/about/logo/raon.png" alt="" loading="lazy" decoding="async"&gt;
+&lt;/p&gt;</description></item><item><title>28th Meeting</title><link>https://openchain-project.github.io/OpenChain-KWG/en/meeting/2025/28th/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/meeting/2025/28th/</guid><description>&lt;p&gt;&lt;img src="../../../../images/2025_goodbye.png" alt="" loading="lazy" decoding="async"&gt;
+&lt;/p&gt;
+&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Date and Time: December 9, 2025 (Tuesday), 2:00 PM – 4:50 PM&lt;/li&gt;
+&lt;li&gt;Venue: Hancom Tower (Pangyo - &lt;a href="https://maps.app.goo.gl/Nq3XHZtPrg9Zvtzn7"&gt;https://maps.app.goo.gl/Nq3XHZtPrg9Zvtzn7&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="agenda"&gt;Agenda&lt;/h2&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Time&lt;/th&gt;
+					&lt;th&gt;Agenda&lt;/th&gt;
+					&lt;th&gt;Speaker&lt;/th&gt;
+					&lt;th&gt;Slide&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;14:00~14:05&lt;/td&gt;
+					&lt;td&gt;Welcome &amp;amp; Opening&lt;/td&gt;
+					&lt;td&gt;Jihwan Jeong CTO, Hancom&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;14:05~14:20&lt;/td&gt;
+					&lt;td&gt;OpenChain Update&lt;/td&gt;
+					&lt;td&gt;Haksung Jang, SK Telecom&lt;/td&gt;
+					&lt;td&gt;&lt;a href="https://gamma.app/docs/rgelezj6nhbbw4u?following_id=r2th6vhw2e0c6us&amp;amp;follow_on_start=true"&gt;slide&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;14:20~14:45&lt;/td&gt;
+					&lt;td&gt;Sharing Hancom&amp;rsquo;s OpenChain Certification Declaration Preparation&lt;/td&gt;
+					&lt;td&gt;Hyunjoo Ryu, Hancom&lt;/td&gt;
+					&lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/hancom_iso_20251209.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;14:45~15:10&lt;/td&gt;
+					&lt;td&gt;Introduction to OpenPDF Data Loader and Tips for Open Source Disclosure Using AI&lt;/td&gt;
+					&lt;td&gt;Bundo Lee, Hancom&lt;/td&gt;
+					&lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/hancom_openpdf_20251209.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;15:10~15:50&lt;/td&gt;
+					&lt;td&gt;Networking (Group Discussion)&lt;/td&gt;
+					&lt;td&gt;All&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;15:50~16:00&lt;/td&gt;
+					&lt;td&gt;Telechips&amp;rsquo; OpenChain Certification and Remaining Challenges&lt;/td&gt;
+					&lt;td&gt;Jiyoung Yeon, Telechips&lt;/td&gt;
+					&lt;td&gt;&lt;a href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-legacy/telechips_iso_20251209.pdf"&gt;pdf&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;16:00~16:10&lt;/td&gt;
+					&lt;td&gt;About Cryptography Bill of Materials (CBOM)&lt;/td&gt;
+					&lt;td&gt;Jinyoung Chae, Samsung SDS&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;16:10~16:25&lt;/td&gt;
+					&lt;td&gt;Tooling &amp;amp; Legal Group Major Activities and Review&lt;/td&gt;
+					&lt;td&gt;Wonjae Park, LG Electronics&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;16:25~16:50&lt;/td&gt;
+					&lt;td&gt;2025 Review &amp;amp; Awards&lt;/td&gt;
+					&lt;td&gt;Darae Ahn, Samsung Electronics&lt;/td&gt;
+					&lt;td&gt;&lt;a href="https://gamma.app/docs/KWG-2025--1fl75t69rtf77u0"&gt;slide&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="sponsor"&gt;Sponsor&lt;/h2&gt;
+&lt;p&gt;&lt;img src="../../../../images/content/about/logo/hancom.png" alt="" loading="lazy" decoding="async"&gt;
+&lt;/p&gt;</description></item><item><title>§3.1.3 Awareness</title><link>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/3-awareness/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/3-awareness/</guid><description>&lt;h2 id="1-clause-overview"&gt;1. Clause Overview&lt;/h2&gt;
+&lt;p&gt;Even participants with the right roles and competencies will only participate in a perfunctory manner
+if they do not understand the purpose of the open source program and the meaning of their own contribution
+to the overall compliance framework. §3.1.3 requires the organization to evaluate and record that Program
+Participants actually understand the program&amp;rsquo;s objectives, how they contribute, and the consequences of
+failing to follow the program&amp;rsquo;s requirements. This clause is the next step after §3.1.2 Competence
+(possessing knowledge and skills), forming the practical motivation by connecting the competence
+participants hold to the program&amp;rsquo;s purpose.&lt;/p&gt;</description></item><item><title>§3.3 Content Review and Approval</title><link>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/3-content-review/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/3-content-review/</guid><description/></item><item><title>§3.1.4 Program Scope</title><link>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/4-scope/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/4-scope/</guid><description>&lt;h2 id="1-clause-overview"&gt;1. Clause Overview&lt;/h2&gt;
+&lt;p&gt;If it is unclear whether the open source program applies to the entire organization or only to specific
+product lines or business units, the boundaries of compliance activities become vague and accountability
+becomes unclear. §3.1.4 requires a documented written statement that clearly defines which software,
+organizational units, and distribution channels the open source program applies to, and what is outside
+the scope. The scope may vary depending on the organization&amp;rsquo;s size and business model, and this clause
+requires that choice to be explicitly recorded.&lt;/p&gt;</description></item><item><title>§3.4 Compliance Artifacts</title><link>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/4-artifacts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/4-artifacts/</guid><description/></item><item><title>§3.1.5 License Obligations</title><link>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/5-license-obligations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/1-program-foundation/5-license-obligations/</guid><description>&lt;h2 id="1-clause-overview"&gt;1. Clause Overview&lt;/h2&gt;
+&lt;p&gt;The most critical task when including open source components in software is accurately understanding
+the obligations, restrictions, and rights imposed by the licenses applied to those components. Distributing
+without reviewing license obligations can result in serious legal risks such as mandatory source code
+disclosure, missing copyright notices, and patent clause violations. §3.1.5 requires the establishment
+of a procedure for reviewing all identified licenses to determine their obligations, restrictions, and
+rights, and for recording the results. This procedure forms the foundation of the §3.3.2 License
+Compliance process.&lt;/p&gt;</description></item><item><title>§3.5 Community Engagement</title><link>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/5-community/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/5-community/</guid><description/></item><item><title>ISO/IEC 5230 vs 18974 Comparison</title><link>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso18974_guide/compare/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso18974_guide/compare/</guid><description>&lt;h2 id="1-relationship-between-the-two-standards"&gt;1. Relationship Between the Two Standards&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 5230 and ISO/IEC 18974 are both international open source standards led by the OpenChain Project, but they address different problems. 5230 covers open source license compliance (fulfillment of copyright obligations, SBOM management, and distribution of Compliance Artifacts), while 18974 covers open source security assurance (vulnerability detection, assessment, response, and CVD). The two standards do not have a complete superset/subset relationship. They share 9 common clauses covering policy, competence, SBOM, and similar areas, but each has its own exclusive clauses — 5230 has clauses for license compliance, artifacts, and contributions, while 18974 has clauses for Standard Practice Implementation and Security Assurance.&lt;/p&gt;</description></item><item><title>§3.6 Adherence to the Specification</title><link>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/6-conformance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/guide/iso5230_guide/6-conformance/</guid><description/></item><item><title>2024-12-13 ISO 5230과 ISO 18974가 법률 전문가에게 미치는 영향과 2024년 전망</title><link>https://openchain-project.github.io/OpenChain-KWG/en/resource/webinar/2024-12-13/</link><pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/resource/webinar/2024-12-13/</guid><description>&lt;p&gt;source: &lt;a href="https://openchainproject.org/news/2024/12/04/webinar-enabling-sboms-across-the-linux-foundation"&gt;https://openchainproject.org/news/2024/12/04/webinar-enabling-sboms-across-the-linux-foundation&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="목차"&gt;목차&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;발표자 소개&lt;/li&gt;
+&lt;li&gt;웨비나 소개와 목적&lt;/li&gt;
+&lt;li&gt;ISO 5230과 ISO 18974의 주요 내용&lt;/li&gt;
+&lt;li&gt;법률 전문가에게 미치는 영향&lt;/li&gt;
+&lt;li&gt;청중과의 질의응답&lt;/li&gt;
+&lt;li&gt;앞으로의 전망&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id="1-발표자-소개"&gt;1. 발표자 소개&lt;/h2&gt;
+&lt;p&gt;이번 웨비나의 발표자는 OpenChain 프로젝트의 주요 멤버로, 오픈소스 라이선스 준수 및 보안 표준화에 깊은 전문성을 가진 전문가입니다. 그는 ISO/IEC 5230:2020 및 ISO/IEC 18974:2023 표준 개발 과정에 직접 참여했으며, 관련 법률 및 산업적 적용에 대한 풍부한 경험을 보유하고 있습니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="2-웨비나-소개와-목적"&gt;2. 웨비나 소개와 목적&lt;/h2&gt;
+&lt;p&gt;이 웨비나는 &lt;strong&gt;ISO/IEC 5230&lt;/strong&gt;(오픈소스 라이선스 준수)와 &lt;strong&gt;ISO/IEC 18974&lt;/strong&gt;(오픈소스 보안 보증)가 법률 전문가들에게 미칠 영향을 중심으로 진행되었습니다. 특히, &lt;strong&gt;2024년&lt;/strong&gt;을 기준으로 이 표준들이 기업의 조달 협상, 인수합병(M&amp;amp;A), 공급망 관리에 어떤 변화를 가져올지에 대해 다루었습니다.&lt;/p&gt;</description></item><item><title>2024-12-04 OpenChain ISO 표준이 InnerSource를 지원하는 방법 이해하기</title><link>https://openchain-project.github.io/OpenChain-KWG/en/resource/webinar/2024-12-04/</link><pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/resource/webinar/2024-12-04/</guid><description>&lt;p&gt;source: &lt;a href="https://openchainproject.org/news/2024/12/04/full-recording-understanding-how-openchain-iso-iec-5230-and-iso-iec-18974-support-innersource-innersource-commons-summit-2024"&gt;https://openchainproject.org/news/2024/12/04/full-recording-understanding-how-openchain-iso-iec-5230-and-iso-iec-18974-support-innersource-innersource-commons-summit-2024&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="목차"&gt;목차&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;발표자 소개&lt;/li&gt;
+&lt;li&gt;웨비나 소개와 목적&lt;/li&gt;
+&lt;li&gt;OpenChain ISO/IEC 5230 및 ISO/IEC 18974의 개요&lt;/li&gt;
+&lt;li&gt;InnerSource와의 연관성&lt;/li&gt;
+&lt;li&gt;ISO 표준의 실제 적용 사례&lt;/li&gt;
+&lt;li&gt;커뮤니티와 지원 자료&lt;/li&gt;
+&lt;li&gt;결론 및 제안&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id="1-발표자-소개"&gt;1. 발표자 소개&lt;/h2&gt;
+&lt;p&gt;Shane Coughlan은 &lt;a href="https://openchainproject.org"&gt;OpenChain Project&lt;/a&gt;의 General Manager로, 오픈소스 표준화와 관련된 글로벌 리더십을 제공하고 있습니다. 그는 오픈소스 생태계에서의 라이선스 준수 및 보안 보증을 위한 국제 표준 개발에 주력하며, InnerSource와 같은 새로운 소프트웨어 개발 방식에도 이를 적용하는 방법을 모색하고 있습니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="2-웨비나-소개와-목적"&gt;2. 웨비나 소개와 목적&lt;/h2&gt;
+&lt;p&gt;이번 웨비나는 InnerSource Commons Summit 2024에서 진행된 세션으로, OpenChain ISO/IEC 5230(오픈소스 라이선스 준수 국제 표준)와 ISO/IEC 18974(오픈소스 보안 보증 국제 표준)가 InnerSource 프로그램에 어떻게 기여할 수 있는지를 다룹니다.&lt;/p&gt;</description></item><item><title>ISO Standard, OpenChain</title><link>https://openchain-project.github.io/OpenChain-KWG/en/blog/2020/12/16/iso-standard-openchain/</link><pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/blog/2020/12/16/iso-standard-openchain/</guid><description>&lt;p&gt;&lt;img src="featured-openchain-logo.png" alt="featured-cover" width="300" height="167" loading="lazy" decoding="async"&gt;
+&lt;/p&gt;
+&lt;p&gt;On December 15, 2020, OpenChain Specification 2.1 was officially published as an international standard &lt;a href="https://www.iso.org/standard/81039.html"&gt;ISO/IEC 5230:2020&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For more information on this, please refer to the following article. : &lt;a href="https://world.einnews.com/pr_news/532725924/iso-iec-5230-2020-is-the-international-standard-for-open-source-compliance"&gt;https://world.einnews.com/pr_news/532725924/iso-iec-5230-2020-is-the-international-standard-for-open-source-compliance&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

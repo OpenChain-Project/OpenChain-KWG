@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI 코딩 on OpenChain KWG</title><link>https://openchain-project.github.io/OpenChain-KWG/tags/ai-%EC%BD%94%EB%94%A9/</link><description>Recent content in AI 코딩 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Sun, 16 Aug 2026 20:23:26 +0900</lastBuildDate><atom:link href="https://openchain-project.github.io/OpenChain-KWG/tags/ai-%EC%BD%94%EB%94%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>Trusted OSS</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/trustedoss/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/trustedoss/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
+&lt;p&gt;Trusted OSS는 KWG 커뮤니티 활동에서 출발한 프로젝트로, 이 가이드의 저자가 공개했습니다.
+문서는 CC BY 4.0, 코드는 MIT와 Apache 2.0으로 배포합니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;사이트: &lt;a href="https://trustedoss.github.io/"&gt;https://trustedoss.github.io/&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Trusted OSS는 다음 네 가지를 다룹니다.&lt;/p&gt;
+&lt;h2 id="자체-인증-산출물-생성"&gt;자체 인증 산출물 생성&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 5230과 ISO/IEC 18974 자체 인증에 필요한 문서를 AI 에이전트와 대화하며 만듭니다.
+조직 구성, 정책, 프로세스, SBOM 분석, 취약점 리포트, 교육 커리큘럼, 준수 선언문 초안까지
+단계별로 생성합니다. &lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/"&gt;기업 오픈소스 관리 가이드&lt;/a&gt;가 설명하는
+여섯 단계와 같은 순서를 따릅니다.&lt;/p&gt;
+&lt;h2 id="devsecops-파이프라인"&gt;DevSecOps 파이프라인&lt;/h2&gt;
+&lt;p&gt;CI/CD 파이프라인에 보안 검사를 넣는 방법을 다룹니다. SAST, DAST, SCA, 시크릿 탐지,
+컨테이너 보안, IaC 보안을 단계별로 안내하고, 각 항목이 ISO/IEC 18974의 어느 조항과
+연결되는지 매핑합니다.&lt;/p&gt;</description></item><item><title>AI가 만든 코드, 오픈소스 검사를 어디까지 해야 할까</title><link>https://openchain-project.github.io/OpenChain-KWG/blog/2026/06/08/ai-snippet-scan/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/blog/2026/06/08/ai-snippet-scan/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;
+&lt;p&gt;이 글은 Claude Code를 이용해 작성했고, 인용한 핵심 사실은 공개 출처로 교차 검증했습니다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;고지&lt;/div&gt;
+&lt;p&gt;이 글은 작성자 개인의 분석과 정리이며, 법률 자문이 아닙니다. 인용한 사실은 공개 출처에 근거해 확인했으나, 구체적 사안의 판단은 변호사 등 전문가의 검토를 받으시기 바랍니다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="한-가지-먼저-짚을-점"&gt;한 가지 먼저 짚을 점&lt;/h2&gt;
+&lt;p&gt;이 질문에 곧바로 &amp;ldquo;예&amp;quot;나 &amp;ldquo;아니오&amp;quot;로 답하기는 어렵습니다. 뒤에서 하나씩 짚겠지만, 답을 좌우하는 것은 AI 자체가 아니기 때문입니다. AI 코딩은 패키지로 선언되지 않은 코드 조각의 유입 속도를 높이지만, 라이선스 의무가 생기는 조건 자체를 바꾸지는 않습니다. 그래서 &amp;ldquo;AI 시대에 스캔이 의미 있나&amp;quot;보다는 &amp;ldquo;어떤 조건에서 스니펫 단위 검사가 더 중요해지고, 어떤 조건에서 덜 중요해지나&amp;quot;로 나눠 보는 편이 판단에 도움이 됩니다.&lt;/p&gt;</description></item></channel></rss>

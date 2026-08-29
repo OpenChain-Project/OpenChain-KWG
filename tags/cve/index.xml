@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cve on OpenChain KWG</title><link>https://openchain-project.github.io/OpenChain-KWG/tags/cve/</link><description>Recent content in Cve on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://openchain-project.github.io/OpenChain-KWG/tags/cve/index.xml" rel="self" type="application/rss+xml"/><item><title>TRUSCA</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/tools/11-trusca/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/tools/11-trusca/</guid><description>&lt;p&gt;기업이 오픈소스 컴포넌트의 취약점과 라이선스를 관리하려면 SCA(Software Composition Analysis) 도구가 필요하다. 상용 제품이 여럿 있으나, 사내에 직접 설치해 운영할 수 있는 오픈소스 도구를 찾는 경우도 있다.&lt;/p&gt;
+&lt;p&gt;TRUSCA는 이러한 용도로 공개된 자체 호스팅 SCA 포털이다. Apache 2.0 라이선스로 배포하며, 취약점(CVE), 라이선스 컴플라이언스, SBOM 관리를 하나의 화면에서 다룬다. KWG 커뮤니티 활동에서 출발한 &lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/trustedoss/"&gt;Trusted OSS&lt;/a&gt; 프로젝트가 개발하고 있다.&lt;/p&gt;
+&lt;h2 id="주요-특징"&gt;주요 특징&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;30여 개 언어 생태계의 컴포넌트 검출(cdxgen 기반), 직접 의존성과 전이 의존성 구분&lt;/li&gt;
+&lt;li&gt;Trivy 통합 데이터베이스(NVD, OSV, GitHub Advisory, EPSS, KEV) 기반 취약점 검출과 7단계 VEX 분류 절차, EPSS 점수 기반 우선순위 지정&lt;/li&gt;
+&lt;li&gt;라이선스 분류(허용, 조건부, 금지)와 의무사항 추적, 고지문(NOTICE) 자동 생성&lt;/li&gt;
+&lt;li&gt;SBOM 내보내기(CycloneDX JSON·XML, SPDX JSON·Tag-Value)와 외부에서 만든 SBOM 가져오기&lt;/li&gt;
+&lt;li&gt;컴포넌트 승인 절차(검토 대기, 검토 중, 승인, 반려), 감사 로그, 역할 기반 권한 관리&lt;/li&gt;
+&lt;li&gt;GitHub Action, GitLab CI 템플릿, Jenkinsfile 예시 제공. 심각한 취약점이나 금지 라이선스가 검출되면 빌드를 중단하도록 설정할 수 있다&lt;/li&gt;
+&lt;li&gt;한국어와 영어 화면 지원&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="설치"&gt;설치&lt;/h2&gt;
+&lt;p&gt;Docker Compose로 개발 환경을 띄울 수 있다.&lt;/p&gt;</description></item><item><title>§4.3.2 보안 보증</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/iso18974_guide/3-content-review/2-security-assurance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/iso18974_guide/3-content-review/2-security-assurance/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 3 — 프로세스 구축&lt;/strong&gt; 단계에서 구축합니다. ISO/IEC 18974 전용 신규 조항으로, 취약점 탐지·해결 절차와 조치 기록을 수립합니다.
+&lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/iso18974_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;★ 18974 전용 항목 — Documented Evidence 강도&lt;/div&gt;
+&lt;p&gt;§4.3.2.1과 §4.3.2.2는 ISO 18974 전용(★) 항목으로 &lt;strong&gt;Documented Evidence&lt;/strong&gt;(문서화된 증거)를 요구한다. 단순 &amp;ldquo;취약점 대응 절차 문서&amp;quot;가 아니라 &lt;strong&gt;각 CVE에 대한 실제 수행 기록&lt;/strong&gt;(스캔 결과, CVSS 점수, 조치 이력, VEX 발행, 고객 통보 이력 등)을 보관해야 한다. 강도 차이의 자세한 설명은 &lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/5-standard-practice/#iso-18974-%ec%a0%84%ec%9a%a9-%ed%95%ad%eb%aa%a9%ec%9d%98-%ea%b0%95%eb%8f%84--documented-evidence"&gt;§4.1.5 표준 관행 — Documented Evidence 안내&lt;/a&gt;를 참고한다.&lt;/p&gt;</description></item><item><title>이슈 파악과 해결: 취약점과 라이선스</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/finance-oss-guide/3-issue-resolve/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/finance-oss-guide/3-issue-resolve/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;이 페이지의 위치&lt;/div&gt;
+&lt;p&gt;식별로 무엇을 쓰는지 파악했다면, 그다음은 거기서 나오는 이슈를 풀어야 한다. 이슈는 두
+종류다. 보안 취약점과 라이선스 의무다. FSEC 안내서의 두 번째 절차이고, ISO/IEC 18974의
+취약점 탐지·해결(4.3.2)과 ISO/IEC 5230의 라이선스 사용 사례 처리(3.3.2)에 대응한다.&lt;/p&gt;
+&lt;p&gt;여기서 만드는 문서: 취약점 조치 기록(VEX 포함), 심각도별 대응 기한 기준.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="취약점-탐지에서-조치까지"&gt;취약점 탐지에서 조치까지&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 18974는 SBOM(Software Bill of Materials)에 담긴 각 오픈소스 컴포넌트에 보안 보증
+활동을 적용하도록 요구한다. 탐지부터 해결까지의 전 과정을 절차로 만들고, 각 취약점에 대한
+수행 기록을 남겨야 한다. 절차는 다음 흐름을 따른다. &lt;strong&gt;[ISO 요구]&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

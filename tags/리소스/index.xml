@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>리소스 on OpenChain KWG</title><link>https://openchain-project.github.io/OpenChain-KWG/tags/%EB%A6%AC%EC%86%8C%EC%8A%A4/</link><description>Recent content in 리소스 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://openchain-project.github.io/OpenChain-KWG/tags/%EB%A6%AC%EC%86%8C%EC%8A%A4/index.xml" rel="self" type="application/rss+xml"/><item><title>§3.2.2 효과적 리소스</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/iso5230_guide/2-relevant-tasks/2-resourced/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/iso5230_guide/2-relevant-tasks/2-resourced/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 1 — 기반 수립&lt;/strong&gt; 단계에서 구축합니다.
+&lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/iso5230_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;오픈소스 프로그램이 실제로 작동하려면 역할을 정의하는 것만으로는 부족하다.
+각 역할을 담당할 실제 인원이 배정되고, 업무 수행에 필요한 시간과 예산이
+충분히 지원되어야 한다. §3.2.2는 프로그램 역할별 담당자를 문서로 명시하고,
+인원 배치와 예산이 적절히 이루어졌음을 확인하며, 법률 자문 접근 방법과 내부
+책임 할당 절차, 미준수 사례 처리 절차를 갖출 것을 요구한다. 이 조항은 5개의
+입증자료 항목으로 구성되어 §3.1 프로그램 기반에서 정의한 역할 구조를 실제
+운영 체계로 구현하는 단계다.&lt;/p&gt;</description></item><item><title>§4.2.2 효과적 리소스</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/iso18974_guide/2-relevant-tasks/2-resourced/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/iso18974_guide/2-relevant-tasks/2-resourced/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 1 — 기반 수립&lt;/strong&gt; 단계에서 구축합니다.
+&lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/iso18974_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;★ 18974 전용 항목 — Documented Evidence 강도&lt;/div&gt;
+&lt;p&gt;§4.2.2.3은 ISO 18974 전용(★) 항목으로 &lt;strong&gt;Documented Evidence&lt;/strong&gt;(문서화된 증거)를 요구한다. 취약점 해결 자원 접근 방법은 단순 절차 문서가 아니라 실제 자원 활용 이력(보안 자문 계약·계정 발급 기록·접근 로그 등)을 함께 보관해야 한다. 강도 차이의 자세한 설명은 &lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/5-standard-practice/#iso-18974-%ec%a0%84%ec%9a%a9-%ed%95%ad%eb%aa%a9%ec%9d%98-%ea%b0%95%eb%8f%84--documented-evidence"&gt;§4.1.5 표준 관행 — Documented Evidence 안내&lt;/a&gt;를 참고한다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;§4.2.2는 ISO/IEC 5230 §3.2.2(효과적 리소스)에 대응하지만 두 가지 차이가 있다.
+첫째, 5230이 5개 입증자료를 요구하는 반면 18974는 4개를 요구한다. 5230의
+§3.2.2.5(미준수 사례 검토·시정 절차)가 18974에서는 §4.1.5 표준 관행 구현에
+흡수된다. 둘째, §3.2.2.3(법률 자문 접근 방법)이 §4.2.2.3에서는 &lt;strong&gt;취약점 해결
+전문성&lt;/strong&gt;으로 대체된다. 라이선스 법률 자문이 아니라, 알려진 취약점을 실제로
+해결할 수 있는 기술적·보안 전문성을 확보하고 그 접근 방법을 문서화해야 한다.&lt;/p&gt;</description></item></channel></rss>
