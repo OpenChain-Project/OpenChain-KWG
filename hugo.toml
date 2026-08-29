@@ -213,3 +213,27 @@ enable = false
   [[module.imports]]
     path = "github.com/google/docsy"
     disable = false
+
+  # content 마운트를 명시적으로 선언하면 Hugo가 이 컴포넌트(content)의 암묵적 기본
+  # 마운트를 더 이상 쓰지 않는다(static·layouts 등 다른 컴포넌트는 그대로 암묵적 기본을 씀).
+  # ko/en 양쪽에 바이트가 완전히 같은 이미지 395개(약 140MB)가 중복 저장돼 있던 문제를
+  # content/shared/ 하나로 모으고 두 언어 모두에 마운트해 해결한다. 같은 상대경로 파일이
+  # 언어별 디렉터리와 content/shared 양쪽에 있으면 언어별 디렉터리가 우선한다.
+  # sites.matrix 설정(신형 문법)은 이 Hugo 버전에서 언어별 마운트를 제대로 못 찾는 문제가
+  # 있어(빈 사이트로 빌드됨, 실측 확인) deprecated된 lang 키를 그대로 쓴다.
+  [[module.mounts]]
+    source = "content/ko"
+    target = "content"
+    lang = "ko"
+  [[module.mounts]]
+    source = "content/en"
+    target = "content"
+    lang = "en"
+  [[module.mounts]]
+    source = "content/shared"
+    target = "content"
+    lang = "ko"
+  [[module.mounts]]
+    source = "content/shared"
+    target = "content"
+    lang = "en"
