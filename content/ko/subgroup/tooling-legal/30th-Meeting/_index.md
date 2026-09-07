@@ -24,4 +24,5 @@ description: Tooling & Legal Subgroup 30th Meeting
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Community Updates & New Issues | TBD | TBD |
-| 1  | 오픈소스 관리 도구 소개 및 데모 (BomLens/TRUSCA) | SK Telecom, 장학성 | TBD |
+| 1  | TBD | Tjaldur Software, Armijn Hemel | TBD |
+| 2  | 오픈소스 관리 도구 소개 및 데모 (BomLens/TRUSCA) | SK Telecom, 장학성 | TBD |
