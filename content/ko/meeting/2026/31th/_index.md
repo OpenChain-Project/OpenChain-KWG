@@ -74,6 +74,7 @@ aliases:
     <div class="kwg-conf-tl__body">
       <div class="kwg-conf-tl__title">OpenChain Updates</div>
       <div class="kwg-conf-tl__by">운영진 · OpenChain Project (글로벌 업데이트)</div>
+      <a class="kwg-conf-tl__slide" href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/31th-kwg-update-2026q3.pdf" target="_blank" rel="noopener">KWG 업데이트 (PDF)</a>
     </div>
   </div>
   <div class="kwg-conf-tl kwg-conf-tl--session">
