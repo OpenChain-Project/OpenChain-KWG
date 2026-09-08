@@ -118,6 +118,7 @@ aliases:
       <div class="kwg-conf-tl__title">Session 3. Open Source Supply Chain Security Tools: Trusted OSS, TRUSCA, and BomLens</div>
       <div class="kwg-conf-tl__by">Haksung Jang · SK telecom</div>
       <p class="kwg-conf-tl__desc">An introduction to <a href="https://trustedoss.github.io/" target="_blank" rel="noopener">Trusted OSS</a>, an initiative that began in the KWG community, and <a href="https://github.com/sktelecom/bomlens" target="_blank" rel="noopener">BomLens</a>, released by SK telecom. The talk covers what tools can take over: producing ISO 5230 and ISO 18974 self-certification artifacts (<a href="https://github.com/trustedoss/trustedoss-agents" target="_blank" rel="noopener">Trusted OSS Agents</a>), running a self-hosted software composition analysis portal (<a href="https://github.com/trustedoss/trusca" target="_blank" rel="noopener">TRUSCA</a>), and generating and checking supplier SBOMs (BomLens).</p>
+      <a class="kwg-conf-tl__slide" href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/31th-session3-supplychain-tools.pdf" target="_blank" rel="noopener">Slides (PDF)</a>
     </div>
   </div>
   <div class="kwg-conf-tl">
