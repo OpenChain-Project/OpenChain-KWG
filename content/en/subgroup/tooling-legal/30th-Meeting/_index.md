@@ -22,7 +22,8 @@ description: Tooling & Legal Subgroup 30th Meeting
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
 | 0  | Community Updates & New Issues | TBD | TBD |
-| 1  | In-Depth Look at Open Source Management Tools (BomLens/TRUSCA) | SK Telecom, Jang Haksung | TBD |
+| 1  | TBD | Tjaldur Software, Armijn Hemel | TBD |
+| 2  | In-Depth Look at Open Source Management Tools (BomLens/TRUSCA) | SK Telecom, Jang Haksung | TBD |
 
 <!--
 
