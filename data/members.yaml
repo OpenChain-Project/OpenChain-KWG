@@ -114,6 +114,9 @@ industries:
       - ko: 메리츠화재
         en: Meritz Fire & Marine Insurance
         logo: meritz.jpg
+      - ko: 현대카드
+        en: Hyundai Card
+        logo: hd_card.svg
 
   - id: mobility
     ko: "자동차 · 모빌리티"
