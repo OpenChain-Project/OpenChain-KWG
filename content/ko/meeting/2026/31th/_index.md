@@ -118,6 +118,7 @@ aliases:
       <div class="kwg-conf-tl__title">Session 3. 오픈소스 공급망 보안 도구: Trusted OSS, TRUSCA, BomLens</div>
       <div class="kwg-conf-tl__by">장학성 · SK텔레콤</div>
       <p class="kwg-conf-tl__desc">KWG 커뮤니티에서 시작한 이니셔티브 <a href="https://trustedoss.github.io/" target="_blank" rel="noopener">Trusted OSS</a>와 SK텔레콤이 공개한 <a href="https://github.com/sktelecom/bomlens" target="_blank" rel="noopener">BomLens</a>를 소개합니다. ISO 5230·ISO 18974 자체 인증 산출물 생성(<a href="https://github.com/trustedoss/trustedoss-agents" target="_blank" rel="noopener">Trusted OSS Agents</a>), 자체 호스팅 오픈소스 구성 분석 포털(<a href="https://github.com/trustedoss/trusca" target="_blank" rel="noopener">TRUSCA</a>), 공급사 SBOM 생성·확인(BomLens)까지 도구로 처리하는 방법을 다룹니다.</p>
+      <a class="kwg-conf-tl__slide" href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/31th-session3-supplychain-tools.pdf" target="_blank" rel="noopener">발표자료 (PDF)</a>
     </div>
   </div>
   <div class="kwg-conf-tl">
@@ -131,6 +132,28 @@ aliases:
 </div>
 
 <p class="kwg-conf-note">세션 제목과 시간은 준비 상황에 따라 조정될 수 있습니다. 확정 내용은 이 페이지와 메일링리스트로 안내드립니다.</p>
+
+## 그룹 토의 주제 {#group-topics}
+
+15:10–15:55 그룹 토의에서 다루는 공통 주제입니다. 조별로 관심 높은 1~2개를 골라 깊게 논의해도 됩니다.
+
+### 주제 A. AI 라이선스와 AI 시대 오픈소스 거버넌스
+
+- 개방형 모델(Llama 등)의 가중치·데이터셋 라이선스 의무를 실제로 어떻게 검토하는가?
+- AI 코딩 어시스턴트가 생성한 코드의 저작권·라이선스·보안 리스크를 사내에서 어떻게 처리하는가?
+- AI 시대에 맞는 거버넌스 체계(정책·점검·증적)는 기존 오픈소스 거버넌스와 무엇이 다른가?
+
+### 주제 B. 사내 오픈소스 컴플라이언스 프로세스·인증
+
+- 프로세스를 처음 세우는 조직과 고도화하는 조직의 다음 한 걸음은 무엇인가? 부서별 역할과 책임(R&R)을 어떻게 나누는가?
+- ISO/IEC 5230(OpenChain) 인증 준비, 또는 금융·규제 산업의 감사·점검 대응 체크포인트는 무엇인가?
+- 릴리즈 일정에 쫓겨 검토 품질이 떨어지는 문제, 라이선스 식별이 어려운 경우(LICENSE 파일 부재, dual license의 or/and 구분 등)를 어떻게 다루는가?
+
+### 주제 C. SBOM·보안 취약점 관리와 도구 자동화
+
+- 오픈소스 점검 파이프라인은 어디까지 자동화돼 있고, 수작업으로 남는 구간은 어디인가?
+- SBOM 추출 목록에서 실제 고지 대상을 구분하는 기준은 무엇인가? 리스크 대응 시 참고할 만한 사례를 구하기 어려운 문제를 어떻게 보완하는가?
+- 취약점 관리 방안과 도구 도입의 장벽(오탐·성능·운영 리소스)을 어떻게 넘었는가?
 
 ## 모임 후 저녁 식사
 
