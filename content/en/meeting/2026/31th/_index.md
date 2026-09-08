@@ -73,7 +73,7 @@ aliases:
     <div class="kwg-conf-tl__marker"></div>
     <div class="kwg-conf-tl__body">
       <div class="kwg-conf-tl__title">OpenChain Updates</div>
-      <div class="kwg-conf-tl__by">Mary Wang, Executive Director · Linux Foundation / KWG Steering Committee · OpenChain Project (global update)</div>
+      <div class="kwg-conf-tl__by">Mary Wang, Executive Director · Linux Foundation / KWG Steering Committee</div>
       <a class="kwg-conf-tl__slide" href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/31th-kwg-update-2026q3.pdf" target="_blank" rel="noopener">KWG Update (PDF)</a>
     </div>
   </div>
@@ -133,6 +133,29 @@ aliases:
 
 <p class="kwg-conf-note">Session titles and times may change as preparation continues. Confirmed details will be published on this page and announced via the mailing list.</p>
 
+## Speakers
+
+<div class="kwg-conf-speakers">
+  <div class="kwg-conf-speaker">
+    <img class="kwg-conf-speaker__photo" loading="lazy" src="kiyoung-sung.png" alt="Kiyoung Sung">
+    <div class="kwg-conf-speaker__name">Kiyoung Sung, Patent Attorney</div>
+    <div class="kwg-conf-speaker__role">CJ Corporation · Session 1</div>
+    <p class="kwg-conf-speaker__bio">Open source and patent management for CJ Group.</p>
+  </div>
+  <div class="kwg-conf-speaker">
+    <img class="kwg-conf-speaker__photo" loading="lazy" src="byeongseok-choi.png" alt="Byeongseok Choi">
+    <div class="kwg-conf-speaker__name">Byeongseok Choi, General Manager</div>
+    <div class="kwg-conf-speaker__role">CJ OliveNetworks · Session 2</div>
+    <p class="kwg-conf-speaker__bio">Runs the open source management system for CJ Group.</p>
+  </div>
+  <div class="kwg-conf-speaker">
+    <img class="kwg-conf-speaker__photo" loading="lazy" src="haksung-jang.png" alt="Haksung Jang">
+    <div class="kwg-conf-speaker__name">Haksung Jang, Manager</div>
+    <div class="kwg-conf-speaker__role">SK telecom · Session 3</div>
+    <p class="kwg-conf-speaker__bio">Open Source Program Manager at SK telecom and OpenChain Ambassador.</p>
+  </div>
+</div>
+
 ## Group Discussion Topics {#group-topics}
 
 Common topics for the 15:10–15:55 group discussion. Each group may pick one or two topics of most interest and go deeper.
@@ -158,29 +181,6 @@ Common topics for the 15:10–15:55 group discussion. Each group may pick one or
 ## Dinner After the Meeting
 
 A dinner gathering follows the regular meeting. Attendance is optional, and details will be announced via the mailing list.
-
-## Speakers
-
-<div class="kwg-conf-speakers">
-  <div class="kwg-conf-speaker">
-    <img class="kwg-conf-speaker__photo" loading="lazy" src="kiyoung-sung.png" alt="Kiyoung Sung">
-    <div class="kwg-conf-speaker__name">Kiyoung Sung, Patent Attorney</div>
-    <div class="kwg-conf-speaker__role">CJ Corporation · Session 1</div>
-    <p class="kwg-conf-speaker__bio">Open source and patent management for CJ Group.</p>
-  </div>
-  <div class="kwg-conf-speaker">
-    <img class="kwg-conf-speaker__photo" loading="lazy" src="byeongseok-choi.png" alt="Byeongseok Choi">
-    <div class="kwg-conf-speaker__name">Byeongseok Choi, General Manager</div>
-    <div class="kwg-conf-speaker__role">CJ OliveNetworks · Session 2</div>
-    <p class="kwg-conf-speaker__bio">Runs the open source management system for CJ Group.</p>
-  </div>
-  <div class="kwg-conf-speaker">
-    <img class="kwg-conf-speaker__photo" loading="lazy" src="haksung-jang.png" alt="Haksung Jang">
-    <div class="kwg-conf-speaker__name">Haksung Jang, Manager</div>
-    <div class="kwg-conf-speaker__role">SK telecom · Session 3</div>
-    <p class="kwg-conf-speaker__bio">Open Source Program Manager at SK telecom and OpenChain Ambassador.</p>
-  </div>
-</div>
 
 ## Sponsor
 
