@@ -137,6 +137,7 @@ aliases:
 
 <div class="kwg-conf-speakers">
   <div class="kwg-conf-speaker">
+    <img class="kwg-conf-speaker__photo" loading="lazy" src="mary-wang.png" alt="Mary Wang">
     <div class="kwg-conf-speaker__name">Mary Wang, Executive Director</div>
     <div class="kwg-conf-speaker__role">Linux Foundation · OpenChain Updates</div>
     <p class="kwg-conf-speaker__bio">OpenChain Project 표준과 글로벌 커뮤니티를 총괄합니다.</p>

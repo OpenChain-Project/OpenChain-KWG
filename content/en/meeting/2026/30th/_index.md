@@ -130,6 +130,7 @@ aliases:
 
 <div class="kwg-conf-speakers">
   <div class="kwg-conf-speaker">
+    <img class="kwg-conf-speaker__photo" loading="lazy" src="mary-wang.png" alt="Mary Wang">
     <div class="kwg-conf-speaker__name">Mary Wang, Executive Director</div>
     <div class="kwg-conf-speaker__role">OpenChain Project · OpenChain Updates</div>
     <p class="kwg-conf-speaker__bio">Leads OpenChain Project standards and the global community.</p>
