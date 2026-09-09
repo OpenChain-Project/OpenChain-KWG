@@ -188,3 +188,7 @@ A dinner gathering follows the regular meeting. Attendance is optional, and deta
   <span class="kwg-conf-sponsor__label">Sponsored by</span>
   <img src="../../../../images/content/about/logo/cj.png" alt="CJ">
 </div>
+
+## Album
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/198570149@N05/albums/72177720335516117" title="[2026 September] OpenChain Korea Work Group in CJ"><img src="https://live.staticflickr.com/65535/55516924083_4b364c5ce4_h.jpg" width="1200" height="1600" alt="[2026 September] OpenChain Korea Work Group in CJ"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
