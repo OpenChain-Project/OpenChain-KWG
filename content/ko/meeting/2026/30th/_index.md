@@ -52,6 +52,13 @@ aliases:
 - AI 도입 이후 오픈소스 거버넌스 범위를 재정의해야 하는 조직
 - 감사·점검 대응을 위한 체크리스트와 증적 관리가 필요한 팀
 
+## Sponsor
+
+<div class="kwg-conf-sponsor">
+  <span class="kwg-conf-sponsor__label">이번 미팅 후원</span>
+  <img src="../../../images/content/about/logo/kakaobank.png" alt="KakaoBank">
+</div>
+
 ## 아젠다
 
 <div class="kwg-conf-timeline">
@@ -165,13 +172,6 @@ OpenChain Updates 시간에 Mary Wang이 공유한 내용입니다. OpenChain을
 - EU 사이버 복원력법(CRA, Cyber Resilience Act)은 설계 단계부터의 보안(Secure by Design), 오픈소스 구성요소 투명성, 지속적인 취약점 관리, 보안 사고의 신속한 보고를 요구합니다. OpenChain은 Business Operation Work Group을 신설해 조직별 CRA 준수 격차를 조사하고 지원 방안을 찾고 있습니다.
 - AI 영역에서는 EU AI Act 대응, ISO 42001·42002·42003과의 연계, OpenChain AI Work Group 운영, OpenChain AI SBOM 자가 인증(Self Certification) 추진을 진행하고 있습니다.
 - 12월 OCS(Open Compliance Summit)에서 OpenChain 소개 영상을 제작할 예정이며, 'Adopt our standards' 웹페이지를 개편했습니다. OpenChain and Friends 웨비나도 진행 중입니다. 표준 채택을 시작하려는 조직은 [OpenChain 안내 페이지](https://openchainproject.org/get-started)를 참고하시기 바랍니다.
-
-## Sponsor
-
-<div class="kwg-conf-sponsor">
-  <span class="kwg-conf-sponsor__label">이번 미팅 후원</span>
-  <img src="../../../images/content/about/logo/kakaobank.png" alt="KakaoBank">
-</div>
 
 ## Album
 

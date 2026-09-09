@@ -57,6 +57,13 @@ aliases:
 - 소프트웨어 공급망 보안 대응을 시작했거나 공급사에서 받는 SBOM을 검증해야 하는 팀
 - 다른 회사의 사례를 듣고 실무 네트워크를 넓히고 싶은 분
 
+## Sponsor
+
+<div class="kwg-conf-sponsor">
+  <span class="kwg-conf-sponsor__label">이번 미팅 후원</span>
+  <img src="../../../images/content/about/logo/cj.png" alt="CJ">
+</div>
+
 ## 아젠다
 
 <div class="kwg-conf-timeline">
@@ -196,13 +203,6 @@ OpenChain Updates 시간에 Mary Wang이 공유한 내용입니다.
 ## 모임 후 저녁 식사
 
 정기 모임이 끝난 뒤 저녁 식사 자리를 마련합니다. 참석은 자유이며, 신청 방법은 메일링리스트로 안내드립니다.
-
-## Sponsor
-
-<div class="kwg-conf-sponsor">
-  <span class="kwg-conf-sponsor__label">이번 미팅 후원</span>
-  <img src="../../../images/content/about/logo/cj.png" alt="CJ">
-</div>
 
 ## Album
 

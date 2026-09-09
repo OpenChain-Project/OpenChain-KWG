@@ -57,6 +57,13 @@ aliases:
 - Teams starting on software supply chain security or needing to verify SBOMs received from suppliers
 - Anyone who wants to hear other companies' cases and expand their practitioner network
 
+## Sponsor
+
+<div class="kwg-conf-sponsor">
+  <span class="kwg-conf-sponsor__label">Sponsored by</span>
+  <img src="../../../../images/content/about/logo/cj.png" alt="CJ">
+</div>
+
 ## Agenda
 
 <div class="kwg-conf-timeline">
@@ -196,13 +203,6 @@ Common topics for the 15:10–15:55 group discussion. Each group may pick one or
 ## Dinner After the Meeting
 
 A dinner gathering follows the regular meeting. Attendance is optional, and details will be announced via the mailing list.
-
-## Sponsor
-
-<div class="kwg-conf-sponsor">
-  <span class="kwg-conf-sponsor__label">Sponsored by</span>
-  <img src="../../../../images/content/about/logo/cj.png" alt="CJ">
-</div>
 
 ## Album
 
