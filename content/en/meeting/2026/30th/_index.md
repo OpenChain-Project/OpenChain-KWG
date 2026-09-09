@@ -126,33 +126,14 @@ aliases:
   </div>
 </div>
 
-## OpenChain Updates: Global Highlights
-
-During the OpenChain Updates segment, Mary Wang, Executive Director of the OpenChain Project, joined remotely to share global highlights. Alongside the current status of the standards, she positioned OpenChain as a key foundation linking compliance with the EU Cyber Resilience Act (CRA) and AI regulation.
-
-### Standards and Community Status
-
-OpenChain maintains two international standards, ISO 5230 and ISO 18974, adopted by more than 100 companies worldwide. It runs a 25-member governance board, and in 2026 Renesas joined as a new board member. The OpenChain China Work Group is set to launch, and new partners including OSCHINA have joined.
-
-### ISO 5230 Revision Status
-
-Under ISO rules, every standard must be renewed every five years. Five years on from ISO 5230:2020, the standard has been officially renewed without any change. Separately, the latest version reflecting minor modifications made over the past three years is 3.0; at the Q2 board meeting, the project decided to formally submit these to ISO. The designation 5230 will be retained, with a revision label applied only if necessary.
-
-### Next Chapter: CRA
-
-The EU Cyber Resilience Act (CRA) requires four things of companies selling software in the EU: Secure by Design, transparency over all open source components, continuous vulnerability management, and rapid reporting of security incidents. To respond, OpenChain formed a Business Operation Work Group, whose current topic is CRA. It is researching CRA-compliance gaps across organizations and identifying how OpenChain can support them.
-
-### Next Chapter: AI Governance
-
-OpenChain is also expanding into AI. It addresses the EU AI Act, integrates with ISO 42001, 42002, and 42003, and runs the OpenChain AI Work Group. The OpenChain AI SBOM Self Certification is also under way.
-
-### Also Worth Noting
-
-An OpenChain introduction video is planned for OCS (Open Compliance Summit) in December, and the "Adopt our standards" webpage has been updated. The OpenChain and Friends webinar series is ongoing. Organizations looking to adopt the standards can refer to the [OpenChain get-started page](https://openchainproject.org/get-started).
-
 ## Speakers
 
 <div class="kwg-conf-speakers">
+  <div class="kwg-conf-speaker">
+    <div class="kwg-conf-speaker__name">Mary Wang, Executive Director</div>
+    <div class="kwg-conf-speaker__role">OpenChain Project · OpenChain Updates</div>
+    <p class="kwg-conf-speaker__bio">Leads OpenChain Project standards and the global community.</p>
+  </div>
   <div class="kwg-conf-speaker">
     <img class="kwg-conf-speaker__photo" loading="lazy" src="heonkwan-ha.png" alt="Heonkwan Ha">
     <div class="kwg-conf-speaker__name">Heonkwan Ha, Manager</div>
@@ -172,6 +153,16 @@ An OpenChain introduction video is planned for OCS (Open Compliance Summit) in D
     <p class="kwg-conf-speaker__bio">Open source governance at KakaoBank, in-house IT policy, and internal/external audit response.</p>
   </div>
 </div>
+
+### OpenChain Updates: Global Highlights
+
+Highlights Mary Wang shared during the OpenChain Updates segment. She positioned OpenChain as a key foundation linking compliance with the EU Cyber Resilience Act (CRA) and AI regulation.
+
+- OpenChain maintains two international standards, ISO 5230 and ISO 18974, adopted by more than 100 companies worldwide. It runs a 25-member governance board, and in 2026 Renesas joined as a new board member. The OpenChain China Work Group is set to launch, and new partners including OSCHINA have joined.
+- Under ISO rules, every standard must be renewed every five years. ISO 5230:2020 has been officially renewed without any change, and the project decided at its Q2 board meeting to submit version 3.0, which reflects minor modifications made over the past three years, to ISO. The designation 5230 will be retained, with a revision label applied only if necessary.
+- The EU Cyber Resilience Act (CRA) requires Secure by Design, transparency over all open source components, continuous vulnerability management, and rapid reporting of security incidents. OpenChain formed a Business Operation Work Group to research CRA-compliance gaps across organizations and identify how it can help.
+- In the AI space, OpenChain is addressing the EU AI Act, integrating with ISO 42001, 42002, and 42003, running the OpenChain AI Work Group, and advancing the OpenChain AI SBOM Self Certification.
+- An OpenChain introduction video is planned for OCS (Open Compliance Summit) in December, and the "Adopt our standards" webpage has been updated. The OpenChain and Friends webinar series is ongoing. Organizations looking to adopt the standards can refer to the [OpenChain get-started page](https://openchainproject.org/get-started).
 
 ## Sponsor
 

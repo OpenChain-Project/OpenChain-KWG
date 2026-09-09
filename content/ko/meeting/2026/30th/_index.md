@@ -127,33 +127,14 @@ aliases:
   </div>
 </div>
 
-## OpenChain Updates: 글로벌 동향
-
-OpenChain Updates 시간에는 OpenChain Project 총괄 디렉터 Mary Wang이 원격으로 참여해 글로벌 동향을 공유했습니다. 표준 운영 현황과 함께, OpenChain을 CRA(EU 사이버 복원력법)와 AI 규제 대응을 연결하는 핵심 기반으로 설명했습니다.
-
-### 표준과 커뮤니티 현황
-
-ISO 5230과 ISO 18974 두 국제표준을 운영하며 전 세계 100여 개 기업이 채택했습니다. 25인 거버넌스 보드를 두고 있고, 2026년에는 Renesas가 신규 보드 멤버로 합류했습니다. OpenChain China Work Group 출범이 예정돼 있으며, OSCHINA를 포함한 신규 파트너도 합류했습니다.
-
-### ISO 5230 개정 현황
-
-ISO 규정상 모든 표준은 5년마다 갱신해야 합니다. ISO 5230:2020이 5년을 지나 내용 변경 없이 공식 갱신됐습니다. 한편 지난 3년간 반영한 소규모 수정사항을 담은 최신본은 3.0이며, 2분기 보드 회의에서 이를 ISO에 공식 제출하기로 결정했습니다. 표준 명칭은 5230을 그대로 유지하고, 필요한 경우에만 개정 라벨을 붙이기로 했습니다.
-
-### 다음 과제: CRA 대응
-
-EU 사이버 복원력법(CRA, Cyber Resilience Act)은 EU에 소프트웨어를 판매하는 기업에 네 가지를 요구합니다. 설계 단계부터의 보안(Secure by Design), 모든 오픈소스 구성요소에 대한 투명성, 지속적인 취약점 관리, 보안 사고의 신속한 보고입니다. OpenChain은 이에 대응하기 위해 Business Operation Work Group을 신설했고, 현재 주제가 CRA입니다. 조직별 CRA 준수 격차를 조사하고 OpenChain이 지원할 수 있는 방안을 찾고 있습니다.
-
-### 다음 과제: AI 거버넌스
-
-AI 영역으로도 범위를 넓히고 있습니다. EU AI Act에 대응하고 ISO 42001, 42002, 42003과 연계하며 OpenChain AI Work Group을 운영합니다. OpenChain AI SBOM 자가 인증(Self Certification)도 추진하고 있습니다.
-
-### 그 밖의 소식
-
-12월 OCS(Open Compliance Summit)에서 OpenChain 소개 영상을 제작할 예정이며, 'Adopt our standards' 웹페이지를 개편했습니다. OpenChain and Friends 웨비나도 진행 중입니다. 표준 채택을 시작하려는 조직은 [OpenChain 안내 페이지](https://openchainproject.org/get-started)를 참고하시기 바랍니다.
-
 ## 발표자 소개
 
 <div class="kwg-conf-speakers">
+  <div class="kwg-conf-speaker">
+    <div class="kwg-conf-speaker__name">Mary Wang, Executive Director</div>
+    <div class="kwg-conf-speaker__role">OpenChain Project · OpenChain Updates</div>
+    <p class="kwg-conf-speaker__bio">OpenChain Project 표준과 글로벌 커뮤니티를 총괄합니다.</p>
+  </div>
   <div class="kwg-conf-speaker">
     <img class="kwg-conf-speaker__photo" loading="lazy" src="heonkwan-ha.png" alt="하헌관 매니저">
     <div class="kwg-conf-speaker__name">하헌관 매니저</div>
@@ -173,6 +154,16 @@ AI 영역으로도 범위를 넓히고 있습니다. EU AI Act에 대응하고 I
     <p class="kwg-conf-speaker__bio">카카오뱅크 오픈소스 거버넌스, 사내 IT 업무 관련 정책 담당, 내외부감사 대응</p>
   </div>
 </div>
+
+### OpenChain Updates: 글로벌 동향
+
+OpenChain Updates 시간에 Mary Wang이 공유한 내용입니다. OpenChain을 CRA(EU 사이버 복원력법)와 AI 규제 대응을 연결하는 핵심 기반으로 설명했습니다.
+
+- ISO 5230과 ISO 18974 두 국제표준을 운영하며 전 세계 100여 개 기업이 채택했습니다. 25인 거버넌스 보드를 두고 있고, 2026년 Renesas가 신규 보드 멤버로 합류했습니다. OpenChain China Work Group 출범이 예정돼 있으며, OSCHINA를 포함한 신규 파트너도 합류했습니다.
+- ISO 규정상 모든 표준은 5년마다 갱신해야 합니다. ISO 5230:2020이 내용 변경 없이 공식 갱신됐고, 지난 3년간 반영한 소규모 수정사항을 담은 3.0을 2분기 보드 회의에서 ISO에 공식 제출하기로 결정했습니다. 표준 명칭은 5230을 유지하고, 필요한 경우에만 개정 라벨을 붙이기로 했습니다.
+- EU 사이버 복원력법(CRA, Cyber Resilience Act)은 설계 단계부터의 보안(Secure by Design), 오픈소스 구성요소 투명성, 지속적인 취약점 관리, 보안 사고의 신속한 보고를 요구합니다. OpenChain은 Business Operation Work Group을 신설해 조직별 CRA 준수 격차를 조사하고 지원 방안을 찾고 있습니다.
+- AI 영역에서는 EU AI Act 대응, ISO 42001·42002·42003과의 연계, OpenChain AI Work Group 운영, OpenChain AI SBOM 자가 인증(Self Certification) 추진을 진행하고 있습니다.
+- 12월 OCS(Open Compliance Summit)에서 OpenChain 소개 영상을 제작할 예정이며, 'Adopt our standards' 웹페이지를 개편했습니다. OpenChain and Friends 웨비나도 진행 중입니다. 표준 채택을 시작하려는 조직은 [OpenChain 안내 페이지](https://openchainproject.org/get-started)를 참고하시기 바랍니다.
 
 ## Sponsor
 
