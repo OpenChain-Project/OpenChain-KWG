@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OSPO on OpenChain KWG</title><link>https://openchain-project.github.io/OpenChain-KWG/tags/ospo/</link><description>Recent content in OSPO on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Mon, 10 Aug 2026 11:20:08 +0900</lastBuildDate><atom:link href="https://openchain-project.github.io/OpenChain-KWG/tags/ospo/index.xml" rel="self" type="application/rss+xml"/><item><title>거버넌스: 관리 조직과 승인 체계</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/finance-oss-guide/1-governance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/finance-oss-guide/1-governance/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;이 페이지의 위치&lt;/div&gt;
+&lt;p&gt;거버넌스는 오픈소스 관리의 기반이다. 누가 책임지고, 누가 검토하며, 누가 승인하는지를 먼저
+정해야 식별, 사용 승인, 관리 단계가 작동한다. FSEC 안내서도 관리 절차에 앞서 관리 조직
+구성과 역할을 별도로 다룬다.&lt;/p&gt;
+&lt;p&gt;여기서 만드는 문서: 오픈소스 정책, 역할·책임 목록과 담당자 지정 기록.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="금융권-거버넌스의-출발점"&gt;금융권 거버넌스의 출발점&lt;/h2&gt;
+&lt;p&gt;금융분야 오픈소스 소프트웨어 활용·관리 안내서(금융감독원·금융보안원, 2022, 이하 FSEC
+안내서)는 관리 조직의 구성과
+운영, 역할 사례를 제시한다. ISO/IEC 5230은 이를 입증자료로 요구한다. 문서화된 정책(3.1.1.1),
+역할과 책임 목록(3.1.2.1), 역할 담당자 명시(3.2.2.1), 법률 자문 접근 방법(3.2.2.3)이 그것이다.
+거버넌스는 이 입증자료들을 만들어 내는 활동이다.&lt;/p&gt;</description></item><item><title>CISA 2026 SBOM 최소 요소: 데이터 필드 7개에서 17개로, 무엇을 준비할 것인가</title><link>https://openchain-project.github.io/OpenChain-KWG/blog/2026/08/09/cisa-sbom-minimum-elements/</link><pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/blog/2026/08/09/cisa-sbom-minimum-elements/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;
+&lt;p&gt;이 글은 Claude Code를 이용해 작성했고, 인용한 핵심 사실은 1차 출처로 교차 검증했습니다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="요약"&gt;요약&lt;/h2&gt;
+&lt;p&gt;2026년 7월 29일, 미국 사이버보안·인프라보안국(Cybersecurity and Infrastructure Security Agency, CISA)을 비롯한 18개 기관이 소프트웨어 자재 명세서(Software Bill of Materials, SBOM)가 최소한 담아야 할 요소(Minimum Elements) 개정판을 발행했습니다&lt;a id="a2-ref-1"&gt;&lt;/a&gt;&lt;a href="https://openchain-project.github.io/OpenChain-KWG/blog/2026/08/09/cisa-sbom-minimum-elements/#a2"&gt;A2&lt;/a&gt;. 2021년 미국 통신정보관리청(National Telecommunications and Information Administration, NTIA)이 만든 기준을 개정한 것이 아니라 대체(replaces)한다고 문서가 직접 밝힙니다.&lt;/p&gt;
+&lt;p&gt;요구 수준이 눈에 띄게 올라갔습니다. 데이터 필드가 7개에서 17개로 늘었고 운영 원칙 6개가 함께 규정됐습니다. 신규 요소만 10개입니다.&lt;/p&gt;</description></item><item><title>미국 AI 행정명령(2026-06-02)이 기업 오픈소스 관리자에게 의미하는 것</title><link>https://openchain-project.github.io/OpenChain-KWG/blog/2026/06/10/us-ai-eo-ospo/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/blog/2026/06/10/us-ai-eo-ospo/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;
+&lt;p&gt;이 글은 Claude Code를 이용해 작성했고, 인용한 핵심 사실은 1차 출처로 교차 검증했습니다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;요약&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;2026년 6월 2일 서명된 행정명령 &amp;ldquo;Promoting Advanced Artificial Intelligence Innovation and Security&amp;quot;는 기업에 어떤 의무도 부과하지 않습니다. 재무부가 이끄는 AI 사이버보안 클리어링하우스(취약점 정보를 한곳에 모아 검증하고 배분하는 중계 기구, 30일 내 구성)와 프런티어 모델의 자발적 사전 공유 체계(60일 내 설계)가 골자이고, 의무 라이선싱과 사전심사는 명시적으로 배제됐습니다 &lt;a id="a1-ref-1"&gt;&lt;/a&gt;&lt;a href="https://openchain-project.github.io/OpenChain-KWG/blog/2026/06/10/us-ai-eo-ospo/#a1"&gt;A1&lt;/a&gt;. 기업 오픈소스 관리자에게 직접 적용되는 조항도 없습니다. 그런데도 이 명령을 읽어야 하는 이유는 배경에 있습니다. AI가 오픈소스 취약점을 사람보다 빠르게 찾아내는 상황이 이미 현실이 됐기 때문입니다. 행정명령에 앞서 앤트로픽의 미공개 모델은 두 달 만에 오픈소스 프로젝트에서 높음 또는 치명 등급 취약점 6,202건을 찾아냈고, 패치가 그 속도를 따라가지 못하고 있습니다 &lt;a id="a6-ref-1"&gt;&lt;/a&gt;&lt;a href="https://openchain-project.github.io/OpenChain-KWG/blog/2026/06/10/us-ai-eo-ospo/#a6"&gt;A6&lt;/a&gt;·&lt;a id="c1-ref-1"&gt;&lt;/a&gt;&lt;a href="https://openchain-project.github.io/OpenChain-KWG/blog/2026/06/10/us-ai-eo-ospo/#c1"&gt;C1&lt;/a&gt;. 오픈소스 관리자가 준비할 것은 행정명령 컴플라이언스가 아니라 패치 처리 능력 점검과 EOL 컴포넌트 정리, 그리고 2026년 9월 11일 시행되는 EU 사이버 복원력법 보고 의무까지 한꺼번에 감당할 대응 체계입니다.&lt;/p&gt;</description></item><item><title>EU 오픈소스 전략: 기술 주권을 위한 오픈소스의 제도화</title><link>https://openchain-project.github.io/OpenChain-KWG/blog/2026/06/09/eu-oss-strategy/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/blog/2026/06/09/eu-oss-strategy/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;
+&lt;p&gt;이 글은 Claude Code를 이용해 작성했고, 인용한 핵심 사실은 1차 출처로 교차 검증했습니다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;요약&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;유럽연합 집행위원회가 2026년 6월 3일 발표한 「유럽 기술 주권에 관한 통신」(COM(2026) 503 final)에는 EU 오픈소스 전략(EU Open Source Strategy)이 첨부되어 있습니다. 오픈소스를 EU 디지털 정책의 중심에 놓은 첫 사례입니다. 전략은 주권을 위한 활용, 생태계 강화, 공공행정의 개방화, 표준과 국제 협력이라는 네 가지 목표를 제시하고, 향후 7년간 오픈소스 관련 조치에 약 20억 유로를 공공과 민간이 동원하도록 합니다. EU가 미국산 독점 IT에 매년 2,640억 유로를 지출하는 의존 구조를 줄이려는 것입니다. 시민사회(FSFE)와 정책 분석가들은 방향을 환영하면서도 재정 충분성, 오픈 표준과 오픈소스의 관계, 오픈 하드웨어 경시, 실무자 스킬 격차를 한계로 지적했습니다. 한국 공공과 기업 실무자에게는 EU 조달 개방화와 오픈소스 스튜어드 규제, EUDI 지갑의 오픈소스 기본값이 직접 지켜볼 지점입니다.&lt;/p&gt;</description></item><item><title>OSPO란?</title><link>https://openchain-project.github.io/OpenChain-KWG/blog/2021/04/18/ospo-definition/</link><pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/blog/2021/04/18/ospo-definition/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
+&lt;p&gt;This paper was translated by Haksung Jang from the English version available at the &lt;a href="https://github.com/todogroup/ospodefinition.org"&gt;OSPO Definition&lt;/a&gt;. The original document is licensed under &lt;a href="https://github.com/todogroup/ospodefinition.org/blob/master/LICENSE"&gt;CC-BY-SA-4.0&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;안녕하세요!&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://todogroup.org/"&gt;TODO Group&lt;/a&gt;&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;은 Talk Openly, Develop Openly를 표방하며 협업을 통해 성공적인 오픈소스 프로젝트와 프로그램을 만들어가고자 하는 Linux Foundation 산하의 &lt;a href="https://todogroup.org/members/"&gt;그룹&lt;/a&gt;&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;입니다. TODO 그룹에서는 오픈소스 &lt;a href="https://todogroup.org/guides/"&gt;가이드&lt;/a&gt;&lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;, &lt;a href="https://github.com/todogroup/repolinter"&gt;도구&lt;/a&gt;&lt;sup id="fnref:4"&gt;&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref"&gt;4&lt;/a&gt;&lt;/sup&gt; 등을 함께 만들어서 공개하며 오픈소스에 관심 있는 누구나 활용할 수 있게 하고 있습니다.&lt;/p&gt;
+&lt;p&gt;기업 등의 조직이 오픈소스를 효과적으로 관리하고 사용하기 위해서는 OSPO&lt;sub&gt;Open Source Program Office&lt;/sub&gt;를 설립하여 개발자 교육, 컴플라이언스 보장, 커뮤니티 참여 및 구축, 오픈소스 공개, 코드 점검 등의 활동이 필요하다고 합니다. 이 글에서는 OSPO가 무엇이고, 어떤 역할을 하는지에 대해 TODO Group에서 &lt;a href="https://todogroup.org/blog/ospo-definition/"&gt;정의한 글&lt;/a&gt;&lt;sup id="fnref:5"&gt;&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref"&gt;5&lt;/a&gt;&lt;/sup&gt;을 옮겼습니다.&lt;/p&gt;</description></item></channel></rss>

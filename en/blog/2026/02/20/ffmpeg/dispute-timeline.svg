@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="668" viewBox="0 0 880 668">
+  <defs>
+    <filter id="sh" x="-20%" y="-40%" width="140%" height="180%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.6" flood-color="#000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <rect width="880" height="668" fill="#ffffff"/>
+  <g font-family="system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">
+
+    <!-- axis -->
+    <line x1="163" y1="46" x2="163" y2="622" stroke="#d1d5db" stroke-width="1.5"/>
+
+    <!-- disabled period highlighted -->
+    <line x1="163" y1="268" x2="163" y2="514" stroke="#c2410c" stroke-width="3.5"/>
+
+    <!-- 1. 2024-02-23 -->
+    <text x="140" y="73" text-anchor="end" font-size="13" fill="#374151">2024-02-23</text>
+    <circle cx="163" cy="68" r="5" fill="#ffffff" stroke="#6b7280" stroke-width="2"/>
+    <rect x="192" y="40" width="500" height="56" rx="8" fill="#fff" stroke="#d1d5db" filter="url(#sh)"/>
+    <text x="212" y="64" font-size="15" fill="#111827">FFmpeg raises it publicly</text>
+    <text x="212" y="84" font-size="12.5" fill="#6b7280">MPP issue 530 opened — relayed by a fork maintainer</text>
+
+    <!-- stalled period -->
+    <line x1="163" y1="96" x2="163" y2="158" stroke="#9ca3af" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <text x="212" y="122" font-size="13.5" fill="#4b5563">About 22 months</text>
+    <text x="212" y="142" font-size="12.5" fill="#9ca3af">There were replies, but nothing was fixed</text>
+
+    <!-- 2. 2025-12-18 -->
+    <text x="140" y="191" text-anchor="end" font-size="13" fill="#374151">2025-12-18</text>
+    <circle cx="163" cy="186" r="5" fill="#ffffff" stroke="#6b7280" stroke-width="2"/>
+    <rect x="192" y="158" width="500" height="56" rx="8" fill="#fff" stroke="#d1d5db" filter="url(#sh)"/>
+    <text x="212" y="182" font-size="15" fill="#111827">DMCA notice filed</text>
+    <text x="212" y="202" font-size="12.5" fill="#6b7280">An FFmpeg contributor names 12 infringing files</text>
+
+    <!-- 3. around 2025-12-26 -->
+    <text x="140" y="273" text-anchor="end" font-size="13" fill="#374151">around 2025-12-26</text>
+    <circle cx="163" cy="268" r="5" fill="#c2410c" stroke="#c2410c" stroke-width="2"/>
+    <rect x="192" y="240" width="500" height="56" rx="8" fill="#fff" stroke="#d1d5db" filter="url(#sh)"/>
+    <text x="212" y="264" font-size="15" fill="#111827">Repository disabled</text>
+    <text x="212" y="284" font-size="12.5" fill="#6b7280">GitHub blocks rockchip-linux/mpp</text>
+
+    <!-- 4. 2025-12-29 -->
+    <text x="140" y="355" text-anchor="end" font-size="13" fill="#374151">2025-12-29</text>
+    <circle cx="163" cy="350" r="5" fill="#ffffff" stroke="#c2410c" stroke-width="2"/>
+    <rect x="192" y="322" width="500" height="56" rx="8" fill="#fff" stroke="#d1d5db" filter="url(#sh)"/>
+    <text x="212" y="346" font-size="15" fill="#111827">LGPL headers restored</text>
+    <text x="212" y="366" font-size="12.5" fill="#6b7280">FFmpeg copyright notices put back in the 12 files</text>
+
+    <!-- 5. 2026-01-15 to 02-12 -->
+    <text x="140" y="427" text-anchor="end" font-size="13" fill="#374151">2026-01-15</text>
+    <text x="140" y="445" text-anchor="end" font-size="13" fill="#374151">– 02-12</text>
+    <circle cx="163" cy="432" r="5" fill="#ffffff" stroke="#c2410c" stroke-width="2"/>
+    <rect x="192" y="404" width="500" height="56" rx="8" fill="#fff" stroke="#d1d5db" filter="url(#sh)"/>
+    <text x="212" y="428" font-size="15" fill="#111827">Three codec parsers replaced</text>
+    <text x="212" y="448" font-size="12.5" fill="#6b7280">VP9, AV1 and H.265 land in the public repository</text>
+
+    <!-- 6. 2026-03-06 to 03-11 -->
+    <text x="140" y="509" text-anchor="end" font-size="13" fill="#374151">2026-03-06</text>
+    <text x="140" y="527" text-anchor="end" font-size="13" fill="#374151">– 03-11</text>
+    <circle cx="163" cy="514" r="5" fill="#c2410c" stroke="#c2410c" stroke-width="2"/>
+    <rect x="192" y="486" width="500" height="56" rx="8" fill="#fff" stroke="#d1d5db" filter="url(#sh)"/>
+    <text x="212" y="510" font-size="15" fill="#111827">Repository restored</text>
+    <text x="212" y="530" font-size="12.5" fill="#6b7280">The exact date was never made public</text>
+
+    <!-- 7. now -->
+    <text x="140" y="601" text-anchor="end" font-size="13" fill="#374151">as of 2026-07</text>
+    <circle cx="163" cy="596" r="5" fill="#ffffff" stroke="#6b7280" stroke-width="2"/>
+    <rect x="192" y="568" width="500" height="56" rx="8" fill="#fff" stroke="#d1d5db" filter="url(#sh)"/>
+    <text x="212" y="592" font-size="15" fill="#111827">No record of acceptance by FFmpeg</text>
+    <text x="212" y="612" font-size="12.5" fill="#6b7280">Issue 530 was closed by a third-party fork maintainer</text>
+
+    <!-- disabled period bracket -->
+    <path d="M 716 268 L 734 268 L 734 514 L 716 514" fill="none" stroke="#c2410c" stroke-width="1.6"/>
+    <text x="748" y="374" font-size="13.5" fill="#c2410c">The repository</text>
+    <text x="748" y="393" font-size="13.5" fill="#c2410c">stayed down for</text>
+    <text x="748" y="413" font-size="15" font-weight="600" fill="#c2410c">about 10 weeks</text>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sca on OpenChain KWG</title><link>https://openchain-project.github.io/OpenChain-KWG/en/tags/sca/</link><description>Recent content in Sca on OpenChain KWG</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 16 Aug 2026 20:23:26 +0900</lastBuildDate><atom:link href="https://openchain-project.github.io/OpenChain-KWG/en/tags/sca/index.xml" rel="self" type="application/rss+xml"/><item><title>SCANOSS</title><link>https://openchain-project.github.io/OpenChain-KWG/en/guide/tools/9-scanoss/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/guide/tools/9-scanoss/</guid><description>&lt;p&gt;SCANOSS is a Software Composition Analysis (SCA) tool that can identify open source
+components not only at the file level but down to the &lt;strong&gt;snippet (code fragment) level&lt;/strong&gt;.
+It detects license and copyright information by matching against a knowledge base
+(OSSKB, Open Source Knowledge Base) that indexes more than 100 million files, and
+automatically generates SBOMs in CycloneDX and SPDX formats.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a href="https://github.com/scanoss"&gt;https://github.com/scanoss&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Official site: &lt;a href="https://www.scanoss.com"&gt;https://www.scanoss.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;License: Apache-2.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="1-key-features"&gt;1. Key features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Snippet-level matching&lt;/strong&gt;: Can trace the origin even when a portion of code, rather than an entire file, has been copied or modified&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Large-scale knowledge base&lt;/strong&gt;: OSSKB indexes more than 100 million open source files — covering major package repositories and GitHub&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automatic SBOM generation&lt;/strong&gt;: Supports CycloneDX (JSON/XML) and SPDX format output&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Both CLI &amp;amp; REST API&lt;/strong&gt;: Provides both the &lt;code&gt;scanoss-py&lt;/code&gt; (Python) CLI and a REST API, making automation integration easy&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CI/CD pipeline integration&lt;/strong&gt;: Can scan with a single command in CI environments such as GitHub Actions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2-installation"&gt;2. Installation&lt;/h2&gt;
+&lt;p&gt;Install via pip in a Python 3.8 or later environment.&lt;/p&gt;</description></item><item><title>TRUSCA</title><link>https://openchain-project.github.io/OpenChain-KWG/en/guide/tools/11-trusca/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/guide/tools/11-trusca/</guid><description>&lt;p&gt;Managing the vulnerabilities and licenses of open source components calls for an SCA (Software Composition Analysis) tool. Several commercial products exist, but some organizations look for an open source tool they can install and run on their own infrastructure.&lt;/p&gt;
+&lt;p&gt;TRUSCA is a self-hosted SCA portal published for that purpose. Released under Apache 2.0, it brings vulnerabilities (CVE), license compliance, and SBOM management into a single screen. It is developed by &lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/trustedoss/"&gt;Trusted OSS&lt;/a&gt;, a project that grew out of KWG community work.&lt;/p&gt;</description></item><item><title>AI-Generated Code: How Far Should Open-Source Scanning Go?</title><link>https://openchain-project.github.io/OpenChain-KWG/en/blog/2026/06/08/ai-snippet-scan/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/blog/2026/06/08/ai-snippet-scan/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;About this article&lt;/div&gt;
+&lt;p&gt;This article was written with the help of Claude Code, and its key facts were cross-checked against public sources.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;Disclaimer&lt;/div&gt;
+&lt;p&gt;This article reflects the author&amp;rsquo;s personal analysis and is not legal advice. The cited facts were verified against public sources, but for any specific situation please consult a qualified professional such as an attorney.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="first-one-thing-to-get-straight"&gt;First, one thing to get straight&lt;/h2&gt;
+&lt;p&gt;There is no quick yes-or-no answer to this question, because the deciding factor is not AI itself — as we will see. AI coding raises the rate at which code fragments enter a codebase without being declared as packages, but it does not change the conditions under which a license obligation arises. So instead of asking &amp;ldquo;does scanning still matter in the AI era,&amp;rdquo; it helps to ask &amp;ldquo;under what conditions does snippet-level scanning matter more, and under what conditions less.&amp;rdquo;&lt;/p&gt;</description></item></channel></rss>

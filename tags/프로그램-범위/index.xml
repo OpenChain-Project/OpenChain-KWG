@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>프로그램 범위 on OpenChain KWG</title><link>https://openchain-project.github.io/OpenChain-KWG/tags/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EB%B2%94%EC%9C%84/</link><description>Recent content in 프로그램 범위 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://openchain-project.github.io/OpenChain-KWG/tags/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EB%B2%94%EC%9C%84/index.xml" rel="self" type="application/rss+xml"/><item><title>§3.1.4 프로그램 범위</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/iso5230_guide/1-program-foundation/4-scope/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/iso5230_guide/1-program-foundation/4-scope/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 1 — 기반 수립&lt;/strong&gt; 단계에서 구축합니다. 범위를 먼저 정해야 이후 정책·조직 구성의 적용 대상이 결정됩니다.
+&lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/iso5230_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;오픈소스 프로그램이 조직 전체에 적용되는지, 특정 제품군이나 사업 단위에만
+적용되는지 명확하지 않으면 컴플라이언스 활동의 경계가 모호해지고 책임 소재가
+불분명해진다. §3.1.4는 오픈소스 프로그램이 어떤 소프트웨어·조직 단위·배포
+채널에 적용되는지, 그리고 어디까지가 적용 범위 밖인지를 명확하게 정의한
+문서화된 진술을 요구한다. 적용 범위는 조직의 규모와 비즈니스 모델에 따라
+다를 수 있으며, 이 조항은 그 선택을 명시적으로 기록하도록 한다.&lt;/p&gt;</description></item><item><title>§4.1.4 프로그램 범위</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/4-scope/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/4-scope/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 1 — 기반 수립&lt;/strong&gt; 단계에서 구축합니다. 범위를 먼저 정해야 이후 정책·조직 구성의 적용 대상이 결정됩니다. ISO/IEC 5230 대비 성과 메트릭(4.1.4.2)과 지속적 개선 증거(4.1.4.3) 2개 항목이 추가됩니다.
+&lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/iso18974_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;★ 18974 전용 항목 — Documented Evidence 강도&lt;/div&gt;
+&lt;p&gt;§4.1.4.2·§4.1.4.3은 ISO 18974 전용(★) 항목으로 &lt;strong&gt;Documented Evidence&lt;/strong&gt;(문서화된 증거)를 요구한다. 메트릭은 측정 결과 데이터, 지속적 개선은 검토·감사 회의록이 실제 보관되어야 한다. 강도 차이의 자세한 설명은 &lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/5-standard-practice/#iso-18974-%ec%a0%84%ec%9a%a9-%ed%95%ad%eb%aa%a9%ec%9d%98-%ea%b0%95%eb%8f%84--documented-evidence"&gt;§4.1.5 표준 관행 — Documented Evidence 안내&lt;/a&gt;를 참고한다.&lt;/p&gt;</description></item></channel></rss>

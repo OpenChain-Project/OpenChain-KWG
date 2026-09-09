@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DevSecOps on OpenChain KWG</title><link>https://openchain-project.github.io/OpenChain-KWG/en/tags/devsecops/</link><description>Recent content in DevSecOps on OpenChain KWG</description><generator>Hugo</generator><language>en</language><atom:link href="https://openchain-project.github.io/OpenChain-KWG/en/tags/devsecops/index.xml" rel="self" type="application/rss+xml"/><item><title>Trusted OSS</title><link>https://openchain-project.github.io/OpenChain-KWG/en/guide/trustedoss/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/guide/trustedoss/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
+&lt;p&gt;Trusted OSS grew out of KWG community work and was published by the author of this guide.
+Its documentation is released under CC BY 4.0 and its code under MIT and Apache 2.0.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Site: &lt;a href="https://trustedoss.github.io/en/"&gt;https://trustedoss.github.io/en/&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Trusted OSS covers four areas.&lt;/p&gt;
+&lt;h2 id="generating-self-certification-deliverables"&gt;Generating self-certification deliverables&lt;/h2&gt;
+&lt;p&gt;It produces the documents required for ISO/IEC 5230 and ISO/IEC 18974 self-certification
+through a conversation with an AI agent: organizational setup, policy, processes, SBOM
+analysis, vulnerability reports, training curricula, and a draft conformance statement.
+It follows the same six steps described in the
+&lt;a href="https://openchain-project.github.io/OpenChain-KWG/en/guide/opensource_for_enterprise/"&gt;open source management guide&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>

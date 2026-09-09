@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Trusca on OpenChain KWG</title><link>https://openchain-project.github.io/OpenChain-KWG/tags/trusca/</link><description>Recent content in Trusca on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://openchain-project.github.io/OpenChain-KWG/tags/trusca/index.xml" rel="self" type="application/rss+xml"/><item><title>TRUSCA</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/tools/11-trusca/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/tools/11-trusca/</guid><description>&lt;p&gt;기업이 오픈소스 컴포넌트의 취약점과 라이선스를 관리하려면 SCA(Software Composition Analysis) 도구가 필요하다. 상용 제품이 여럿 있으나, 사내에 직접 설치해 운영할 수 있는 오픈소스 도구를 찾는 경우도 있다.&lt;/p&gt;
+&lt;p&gt;TRUSCA는 이러한 용도로 공개된 자체 호스팅 SCA 포털이다. Apache 2.0 라이선스로 배포하며, 취약점(CVE), 라이선스 컴플라이언스, SBOM 관리를 하나의 화면에서 다룬다. KWG 커뮤니티 활동에서 출발한 &lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/trustedoss/"&gt;Trusted OSS&lt;/a&gt; 프로젝트가 개발하고 있다.&lt;/p&gt;
+&lt;h2 id="주요-특징"&gt;주요 특징&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;30여 개 언어 생태계의 컴포넌트 검출(cdxgen 기반), 직접 의존성과 전이 의존성 구분&lt;/li&gt;
+&lt;li&gt;Trivy 통합 데이터베이스(NVD, OSV, GitHub Advisory, EPSS, KEV) 기반 취약점 검출과 7단계 VEX 분류 절차, EPSS 점수 기반 우선순위 지정&lt;/li&gt;
+&lt;li&gt;라이선스 분류(허용, 조건부, 금지)와 의무사항 추적, 고지문(NOTICE) 자동 생성&lt;/li&gt;
+&lt;li&gt;SBOM 내보내기(CycloneDX JSON·XML, SPDX JSON·Tag-Value)와 외부에서 만든 SBOM 가져오기&lt;/li&gt;
+&lt;li&gt;컴포넌트 승인 절차(검토 대기, 검토 중, 승인, 반려), 감사 로그, 역할 기반 권한 관리&lt;/li&gt;
+&lt;li&gt;GitHub Action, GitLab CI 템플릿, Jenkinsfile 예시 제공. 심각한 취약점이나 금지 라이선스가 검출되면 빌드를 중단하도록 설정할 수 있다&lt;/li&gt;
+&lt;li&gt;한국어와 영어 화면 지원&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="설치"&gt;설치&lt;/h2&gt;
+&lt;p&gt;Docker Compose로 개발 환경을 띄울 수 있다.&lt;/p&gt;</description></item><item><title>Trusted OSS</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/trustedoss/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/trustedoss/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
+&lt;p&gt;Trusted OSS는 KWG 커뮤니티 활동에서 출발한 프로젝트로, 이 가이드의 저자가 공개했습니다.
+문서는 CC BY 4.0, 코드는 MIT와 Apache 2.0으로 배포합니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;사이트: &lt;a href="https://trustedoss.github.io/"&gt;https://trustedoss.github.io/&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Trusted OSS는 다음 네 가지를 다룹니다.&lt;/p&gt;
+&lt;h2 id="자체-인증-산출물-생성"&gt;자체 인증 산출물 생성&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 5230과 ISO/IEC 18974 자체 인증에 필요한 문서를 AI 에이전트와 대화하며 만듭니다.
+조직 구성, 정책, 프로세스, SBOM 분석, 취약점 리포트, 교육 커리큘럼, 준수 선언문 초안까지
+단계별로 생성합니다. &lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/"&gt;기업 오픈소스 관리 가이드&lt;/a&gt;가 설명하는
+여섯 단계와 같은 순서를 따릅니다.&lt;/p&gt;
+&lt;h2 id="devsecops-파이프라인"&gt;DevSecOps 파이프라인&lt;/h2&gt;
+&lt;p&gt;CI/CD 파이프라인에 보안 검사를 넣는 방법을 다룹니다. SAST, DAST, SCA, 시크릿 탐지,
+컨테이너 보안, IaC 보안을 단계별로 안내하고, 각 항목이 ISO/IEC 18974의 어느 조항과
+연결되는지 매핑합니다.&lt;/p&gt;</description></item></channel></rss>
