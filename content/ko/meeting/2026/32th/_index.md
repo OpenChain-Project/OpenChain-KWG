@@ -1,12 +1,14 @@
 ---
 title: "32th Meeting"
-date: 2026-09-09T10:22:23+09:00
+linkTitle: "32th · 2026.12 현대오토에버"
 weight: 32
 type: docs
 categories: ["meeting"]
-tags: [""]
+tags: ["OpenChain", "HyundaiAutoEver"]
 description: >
   2026년 12월 8일 (화) (예정) / 현대오토에버
+aliases:
+  - /meeting/32th/
 draft: false
 ---
 
@@ -46,7 +48,7 @@ draft: false
 
 ## Sponsor
 
-![](../../../images/content/about/logo/hd_autoever.png)
+![](../../../images/content/about/logo/hd_autoever.svg)
 
 <!--
 미팅 후 Flickr 앨범이 생성되면 아래 embed 코드를 교체하세요.

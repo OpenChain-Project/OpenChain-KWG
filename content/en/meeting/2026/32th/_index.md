@@ -1,12 +1,14 @@
 ---
 title: "32th Meeting"
-date: 2026-09-09T10:22:23+09:00
+linkTitle: "32th · 2026.12 Hyundai AutoEver"
 weight: 32
 type: docs
 categories: ["meeting"]
-tags: [""]
+tags: ["OpenChain", "HyundaiAutoEver"]
 description: >
   December 8, 2026 (Tue) (tentative) / Hyundai AutoEver
+aliases:
+  - /en/meeting/32th/
 draft: false
 ---
 
@@ -31,7 +33,7 @@ Slide upload instructions:
 
 ## Sponsor
 
-![](../../../../images/content/about/logo/hd_autoever.png)
+![](../../../../images/content/about/logo/hd_autoever.svg)
 
 <!--
 Replace with the Flickr album embed code once it's created after the meeting.
