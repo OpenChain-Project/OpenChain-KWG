@@ -15,7 +15,7 @@ draft: false
 ## Schedule
 
 * Schedule: 2026-12-08 (Tue) (tentative), time TBD
-* Venue: Hyundai AutoEver (Samseong-dong, Gangnam-gu, Seoul - https://www.google.com/maps/search/?api=1&query=Hyundai+AutoEver+Samseong-dong )
+* Venue: Hyundai AutoEver (Samseong-dong, Gangnam-gu, Seoul)
 
 <!--
 Slide upload instructions:
