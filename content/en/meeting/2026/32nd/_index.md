@@ -1,6 +1,6 @@
 ---
-title: "32th Meeting"
-linkTitle: "32th · 2026.12 Hyundai AutoEver"
+title: "32nd Meeting"
+linkTitle: "32nd · 2026.12 Hyundai AutoEver"
 weight: 32
 type: docs
 categories: ["meeting"]
@@ -9,6 +9,7 @@ description: >
   December 8, 2026 (Tue) (tentative) / Hyundai AutoEver
 aliases:
   - /en/meeting/32th/
+  - /en/meeting/2026/32th/
 draft: false
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: "31th Meeting"
-linkTitle: "31th · 2026.09 CJ"
+title: "31st Meeting"
+linkTitle: "31st · 2026.09 CJ"
 weight: 31
 type: meeting
 layout: landing
@@ -10,6 +10,7 @@ description: >
   September 8, 2026 (Tue) / CJ
 aliases:
   - /en/meeting/31th/
+  - /en/meeting/2026/31th/
 ---
 
 <style>

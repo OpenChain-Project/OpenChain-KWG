@@ -1,6 +1,6 @@
 ---
-title: "32th Meeting"
-linkTitle: "32th · 2026.12 현대오토에버"
+title: "32nd Meeting"
+linkTitle: "32nd · 2026.12 현대오토에버"
 weight: 32
 type: docs
 categories: ["meeting"]
@@ -9,6 +9,7 @@ description: >
   2026년 12월 8일 (화) (예정) / 현대오토에버
 aliases:
   - /meeting/32th/
+  - /meeting/2026/32th/
 draft: false
 ---
 
