@@ -133,6 +133,22 @@ aliases:
 
 <p class="kwg-conf-note">세션 제목과 시간은 준비 상황에 따라 조정될 수 있습니다. 확정 내용은 이 페이지와 메일링리스트로 안내드립니다.</p>
 
+## OpenChain Updates: 글로벌 동향
+
+OpenChain Updates 시간에는 Linux Foundation 총괄 디렉터 Mary Wang이 원격으로 참여해 글로벌 동향을 공유했습니다.
+
+### 최근 행사와 커뮤니티 소식
+
+OpenChain Community Day가 성공적으로 열렸고, 뒤이어 OSPOlogy와 OSPO Summit도 마무리됐습니다.
+
+### OpenChain CRA Requirement & Checklist
+
+EU 사이버 복원력법(CRA, Cyber Resilience Act) 대응을 위한 [OpenChain CRA Requirement & Checklist](https://openchainproject.org/cracompliance)의 RC1(Release Candidate 1)이 공개돼 검토를 받고 있으며, 9월 11일 버전 1.0 출시를 목표로 하고 있습니다. 많은 기업과 OpenChain 파트너가 이 체크리스트에 강한 관심을 보이며 다음 단계로 협업을 희망하고 있습니다. 문서는 [GitHub CRA-Compliance 저장소](https://github.com/OpenChain-Project/CRA-Compliance)에서 확인할 수 있습니다.
+
+### SBOM 품질 가이드와 자동차 SBOM 프레임워크
+
+[SBOM 품질 가이드](https://github.com/OpenChain-Project/SBOM-wg/blob/main/Cross-Industry-SBOM-Quality-Guide/en/Cross-Industry-SBOM-Quality-Guide.md)는 공개 검토 의견을 받은 뒤 여러 건의 PR이 올라왔고, Kobotasan을 비롯한 커뮤니티가 계속 작업하고 있습니다. [Automotive SBOM 프레임워크](https://github.com/OpenChain-Project/Automotive-SBOM) 1.1 버전은 공개 검토가 진행 중이며, 10월 중 PR 릴리스가 예정돼 있습니다.
+
 ## 발표자 소개
 
 <div class="kwg-conf-speakers">

@@ -133,6 +133,22 @@ aliases:
 
 <p class="kwg-conf-note">Session titles and times may change as preparation continues. Confirmed details will be published on this page and announced via the mailing list.</p>
 
+## OpenChain Updates: Global Highlights
+
+During the OpenChain Updates segment, Mary Wang, Executive Director of the Linux Foundation, joined remotely to share global highlights.
+
+### Recent Events and Community News
+
+The OpenChain Community Day was successfully held, followed by OSPOlogy and the OSPO Summit.
+
+### OpenChain CRA Requirement & Checklist
+
+RC1 (Release Candidate 1) of the [OpenChain CRA Requirement & Checklist](https://openchainproject.org/cracompliance), which supports compliance with the EU Cyber Resilience Act (CRA), has been released for review, with Version 1.0 targeted for September 11. Many companies and OpenChain partners have shown strong interest in the checklist and would like to collaborate as a next step. The document is available in the [GitHub CRA-Compliance repository](https://github.com/OpenChain-Project/CRA-Compliance).
+
+### SBOM Quality Guide and Automotive SBOM Framework
+
+The [SBOM Quality Guide](https://github.com/OpenChain-Project/SBOM-wg/blob/main/Cross-Industry-SBOM-Quality-Guide/en/Cross-Industry-SBOM-Quality-Guide.md) has received several PRs after the public review comment period, and Kobotasan and the community continue to work on it. The [Automotive SBOM framework](https://github.com/OpenChain-Project/Automotive-SBOM) 1.1 is open for public review, with a PR release planned for October.
+
 ## Speakers
 
 <div class="kwg-conf-speakers">
