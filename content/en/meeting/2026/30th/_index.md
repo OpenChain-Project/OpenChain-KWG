@@ -51,6 +51,13 @@ aliases:
 - Organizations redefining open source governance scope after AI adoption
 - Teams preparing checklists and evidence for audits and inspections
 
+## Sponsor
+
+<div class="kwg-conf-sponsor">
+  <span class="kwg-conf-sponsor__label">Sponsored by</span>
+  <img src="../../../../images/content/about/logo/kakaobank.png" alt="KakaoBank">
+</div>
+
 ## Agenda
 
 <div class="kwg-conf-timeline">
@@ -164,13 +171,6 @@ Highlights Mary Wang shared during the OpenChain Updates segment. She positioned
 - The EU Cyber Resilience Act (CRA) requires Secure by Design, transparency over all open source components, continuous vulnerability management, and rapid reporting of security incidents. OpenChain formed a Business Operation Work Group to research CRA-compliance gaps across organizations and identify how it can help.
 - In the AI space, OpenChain is addressing the EU AI Act, integrating with ISO 42001, 42002, and 42003, running the OpenChain AI Work Group, and advancing the OpenChain AI SBOM Self Certification.
 - An OpenChain introduction video is planned for OCS (Open Compliance Summit) in December, and the "Adopt our standards" webpage has been updated. The OpenChain and Friends webinar series is ongoing. Organizations looking to adopt the standards can refer to the [OpenChain get-started page](https://openchainproject.org/get-started).
-
-## Sponsor
-
-<div class="kwg-conf-sponsor">
-  <span class="kwg-conf-sponsor__label">Sponsored by</span>
-  <img src="../../../../images/content/about/logo/kakaobank.png" alt="KakaoBank">
-</div>
 
 ## Album
 
