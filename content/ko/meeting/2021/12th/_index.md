@@ -1,5 +1,5 @@
 ---
-title: "12nd Meeting"
+title: "12th Meeting"
 weight: 12
 type: docs
 categories: ["meeting"]
@@ -8,6 +8,7 @@ description: >
  Online Meeting, December 2021
 aliases:
   - /meeting/12nd/
+  - /meeting/2021/12nd/
 ---
 <div ><span class="image fit">
   <img src="christmas_game.png" width="50%">

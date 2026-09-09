@@ -1,6 +1,6 @@
 ---
-title: "11st Meeting"
-linkTitle: "11st Meeting"
+title: "11th Meeting"
+linkTitle: "11th Meeting"
 weight: 11
 type: docs
 categories: ["meeting"]
@@ -9,6 +9,7 @@ description: >
  Online Meeting, September 2021
 aliases:
   - /meeting/11st/
+  - /meeting/2021/11st/
 ---
 <div ><span class="image fit">
   <img src="kwg-sep.jpeg" width="50%">

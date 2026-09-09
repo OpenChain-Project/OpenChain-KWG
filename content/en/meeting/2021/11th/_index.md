@@ -5,6 +5,8 @@ weight: 11
 type: docs
 description: >
  Online Meeting, September 2021
+aliases:
+  - /en/meeting/11th/
 ---
 
 <div ><span class="image fit">
