@@ -1,19 +1,21 @@
 ---
 title: "32th Meeting"
-date: 2026-09-09T10:22:23+09:00
+linkTitle: "32th · 2026.12 현대오토에버"
 weight: 32
 type: docs
 categories: ["meeting"]
-tags: [""]
+tags: ["OpenChain", "HyundaiAutoEver"]
 description: >
   2026년 12월 8일 (화) (예정) / 현대오토에버
+aliases:
+  - /meeting/32th/
 draft: false
 ---
 
 ## 일정
 
 * 일정: 2026-12-08 (화) (예정), 시간 미정
-* 장소: 현대오토에버 (서울시 강남구 삼성동 - https://www.google.com/maps/search/?api=1&query=%ED%98%84%EB%8C%80%EC%98%A4%ED%86%A0%EC%97%90%EB%B2%84+%EC%82%BC%EC%84%B1%EB%8F%99 )
+* 장소: 현대오토에버 (서울시 강남구 삼성동)
 
 <!-- ## 아젠다
 
@@ -46,7 +48,7 @@ draft: false
 
 ## Sponsor
 
-![](../../../images/content/about/logo/hd_autoever.png)
+![](../../../images/content/about/logo/hd_autoever.svg)
 
 <!--
 미팅 후 Flickr 앨범이 생성되면 아래 embed 코드를 교체하세요.
