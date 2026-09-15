@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HyundaiAutoEver on OpenChain KWG</title><link>https://openchain-project.github.io/OpenChain-KWG/en/tags/hyundaiautoever/</link><description>Recent content in HyundaiAutoEver on OpenChain KWG</description><generator>Hugo</generator><language>en</language><atom:link href="https://openchain-project.github.io/OpenChain-KWG/en/tags/hyundaiautoever/index.xml" rel="self" type="application/rss+xml"/><item><title>32nd Meeting</title><link>https://openchain-project.github.io/OpenChain-KWG/en/meeting/2026/32nd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/en/meeting/2026/32nd/</guid><description>&lt;h2 id="schedule"&gt;Schedule&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Schedule: 2026-12-08 (Tue) (tentative), time TBD&lt;/li&gt;
+&lt;li&gt;Venue: Hyundai AutoEver (Samseong-dong, Gangnam-gu, Seoul)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--
+Slide upload instructions:
+1. Go to the GitHub Releases page:
+ https://github.com/OpenChain-Project/OpenChain-KWG/releases/tag/meeting-slides-2026
+ (create the tag if it doesn't exist yet)
+2. File naming rules:
+ - Letters, numbers, hyphens (-), underscores (_), and dots (.) only
+ - No spaces, Korean characters, or other special characters
+ - Recommended format: YYYYMMDD-speaker-topic-keyword.pdf
+3. Copy the download URL after uploading:
+ https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/filename.pdf
+4. Replace the link URL in the table above with the copied URL
+--&gt;
+&lt;h2 id="sponsor"&gt;Sponsor&lt;/h2&gt;
+&lt;p&gt;&lt;img src="../../../../images/content/about/logo/hd_autoever.svg" alt="" loading="lazy" decoding="async"&gt;
+&lt;/p&gt;</description></item></channel></rss>

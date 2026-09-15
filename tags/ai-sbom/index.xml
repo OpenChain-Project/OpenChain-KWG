@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI SBOM on OpenChain KWG</title><link>https://openchain-project.github.io/OpenChain-KWG/tags/ai-sbom/</link><description>Recent content in AI SBOM on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://openchain-project.github.io/OpenChain-KWG/tags/ai-sbom/index.xml" rel="self" type="application/rss+xml"/><item><title>3.1 정책</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/1-program-foundation/1-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/1-program-foundation/1-policy/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 1 — 프로그램 기반&lt;/strong&gt; 단계에서 구축한다.
+&lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;AI SBOM 정책이 없는 조직은 개발자가 모델과 데이터셋의 라이선스 의무를 인지하지 못한 채
+AI 시스템을 배포하게 된다. AI에서는 추적할 대상이 코드를 넘어선다. 모델 가중치, 학습
+데이터셋, 다른 모델에서 파생된 모델 트리가 각자 고유한 라이선스를 가지며, Llama 커뮤니티
+라이선스나 RAIL 계열처럼 사용 목적을 제한하는 비표준 라이선스도 흔하다. 이런 의무를 놓치면
+저작권 분쟁, 사용 제한 위반, 거래처 계약 해지로 이어진다.&lt;/p&gt;</description></item><item><title>3.10 거버넌스</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/4-governance/1-governance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/4-governance/1-governance/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 4 — 거버넌스&lt;/strong&gt; 단계에서 구축한다.
+&lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;거버넌스는 앞선 모든 조항을 하나로 묶어 AI 시스템 수명주기 전반에서 책임 있는 개발과 배포,
+관리를 보장하는 틀이다. 정책(3.1)이 원칙을 세우고 라이선스 의무(3.5)와 AI SBOM(3.9)이 개별
+프로세스를 만든다면, 거버넌스는 이들이 규제 변화와 모델 교체에도 일관되게 작동하도록 관리한다.&lt;/p&gt;
+&lt;p&gt;3.10은 AI 거버넌스 프레임워크, 정책, 관행을 갖출 것을 요구한다. 규격은 EU 인공지능법(EU AI
+Act), 히로시마 AI 프로세스(Hiroshima AI Process), 중국 글로벌 AI 거버넌스 이니셔티브(Global
+AI Governance Initiative) 같은 신흥 AI 법령의 준수를 강조하며, 윤리적 고려사항과 위험 관리,
+투명성을 함께 다룬다. 핵심은 한 번 만든 프레임워크를 정기적으로 검토해 최신 규제와 모델 변화를
+반영하는 것이다.&lt;/p&gt;</description></item><item><title>3.5 라이선스 의무</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/1-license-obligations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/1-license-obligations/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 2 — AI 확장 프로세스&lt;/strong&gt; 단계에서 구축한다.
+&lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;라이선스 의무는 AI SBOM 가이드가 ISO/IEC 5230에서 가장 크게 확장된 지점이다. 전통적 오픈소스
+컴플라이언스가 코드의 라이선스를 검토했다면, AI에서는 검토 대상이 네 갈래로 늘어난다. AI
+시스템의 코드, 모델 가중치, 데이터셋(학습·테스트·검증 데이터셋을 포함), 그리고 AI 시스템 자체의
+라이선스다. 한 모델이 다른 여러 모델에서 파생되는 일이 흔해, 모델 트리(Model Tree)에 놓인 각
+상위 모델이 저마다 고유한 라이선스를 가진다.&lt;/p&gt;</description></item><item><title>3.7 접근</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/3-relevant-tasks/1-access/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/3-relevant-tasks/1-access/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 3 — 운영 체계&lt;/strong&gt; 단계에서 구축한다.
+&lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;공급망에서 AI 시스템을 주고받는 조직은 서로의 컴플라이언스를 확인해야 한다. 그러려면 외부에서
+문의할 창구가 공개되어 있고, 그 문의에 조직이 대응할 준비가 되어 있어야 한다. 접근은 이
+양방향을 보장한다.&lt;/p&gt;
+&lt;p&gt;3.7은 두 가지를 요구한다. 제3자가 AI SBOM 컴플라이언스 문의를 할 수 있는 수단을 공개적으로
+명시하는 것과, 그 문의에 효과적으로 대응하는 내부 절차를 유지하는 것이다. AI에서는 모델과
+데이터셋의 라이선스, 학습 데이터 출처, 모델 카드 같은 AI 고유 정보가 문의 대상에 더해진다.&lt;/p&gt;</description></item><item><title>OWASP AIBOM Generator</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/5-tools/1-aibom-generator/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/5-tools/1-aibom-generator/</guid><description>&lt;h2 id="개요"&gt;개요&lt;/h2&gt;
+&lt;p&gt;OWASP AIBOM Generator는 Hugging Face 모델 ID를 입력받아 모델 카드 메타데이터를 가져오고,
+CycloneDX 형식의 AI SBOM을 생성하는 오픈소스 도구다. OWASP Gen AI Security Project가 관리하며,
+생성된 BOM이 얼마나 완전한지를 점수로 평가하는 기능이 특징이다.&lt;/p&gt;
+&lt;p&gt;cdxgen이 의존성을 빠르게 식별하되 라이선스를 비워 두는 것과 달리, 이 도구는 모델 카드에 적힌
+라이선스와 작성자, 외부 참조를 채운다. &lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/1-license-obligations/"&gt;3.5 라이선스 의무&lt;/a&gt;가
+요구하는 라이선스 검토의 출발점으로 쓰기 좋다.&lt;/p&gt;
+&lt;h2 id="주요-기능"&gt;주요 기능&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hugging Face 모델의 메타데이터를 가져와 CycloneDX 1.6과 1.7 형식 AIBOM을 생성한다.&lt;/li&gt;
+&lt;li&gt;생성된 BOM의 완전성을 점수(0~100)와 프로파일로 평가하고 섹션별로 분해해 보여준다.&lt;/li&gt;
+&lt;li&gt;모델 정보, 모델 카드, 라이선스, 외부 참조를 사람이 읽기 쉬운 화면으로 보여준다.&lt;/li&gt;
+&lt;li&gt;웹 UI와 명령줄(CLI) 두 가지로 쓸 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="사용법-a--웹-ui"&gt;사용법 A — 웹 UI&lt;/h2&gt;
+&lt;p&gt;브라우저에서 모델 ID만 넣으면 되어 가장 간단하다. OWASP Gen AI Security Project가 제공하는
+Hugging Face Space를 쓰거나, 저장소를 받아 로컬에서 띄운다.&lt;/p&gt;</description></item><item><title>프로그램 기반</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/1-program-foundation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/1-program-foundation/</guid><description>&lt;p&gt;구축 로드맵의 1단계다. 프로그램의 범위를 정하고(3.4), 정책을 수립하며(3.1), 참여자의 역량과
+인지를 확보한다(3.2, 3.3). 이후의 모든 조항이 이 기반 위에서 작동한다.&lt;/p&gt;</description></item><item><title>3.2 역량</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/1-program-foundation/2-competence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/1-program-foundation/2-competence/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 1 — 프로그램 기반&lt;/strong&gt; 단계에서 구축한다.
+&lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;정책(3.1)이 무엇을 해야 하는지 정한다면, 역량은 그 일을 할 수 있는 사람을 보장한다. AI SBOM
+컴플라이언스는 코드 라이선스만 다루던 오픈소스 컴플라이언스보다 넓은 지식을 요구한다. 모델
+가중치와 데이터셋의 라이선스, 모델 카드 해석, 신흥 AI 규제, 비표준 라이선스의 사용 제한까지
+판단해야 한다.&lt;/p&gt;
+&lt;p&gt;3.2는 프로그램의 성과에 영향을 미치는 역할과 책임을 식별하고, 각 역할에 필요한 역량을 정해
+참여자가 그 역량을 갖추도록 보장할 것을 요구한다. 규격은 사용 사례와 관련된 경우 거버넌스, 보안,
+안전, 프라이버시, 개발, 공급자 관리 기능의 역량을 갖추도록 명시한다.&lt;/p&gt;</description></item><item><title>3.6 투명성 의무</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/2-transparency-obligations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/2-transparency-obligations/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 2 — AI 확장 프로세스&lt;/strong&gt; 단계에서 구축한다.
+&lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;라이선스 의무(3.5)가 &amp;ldquo;이 자재를 쓸 권리가 있는가&amp;quot;를 묻는다면, 투명성 의무는 &amp;ldquo;이 자재에 대해
+무엇을 공개해야 하는가&amp;quot;를 묻는다. 두 의무는 다른 출처에서 온다. 라이선스 의무는 저작권자가
+계약으로 부과하고, 투명성 의무는 규제가 법으로 부과한다.&lt;/p&gt;
+&lt;p&gt;3.6은 규제로부터 부과되는 투명성 의무가 있는지 검토하는 절차를 갖출 것을 요구한다. 검토
+대상에는 학습·테스트·검증 데이터셋이 포함되며, 모델의 의도된 용도를 고려한다. 학습 데이터의
+사용 사례가 투명성 쟁점(예: 다운스트림 수령자에 대한 공개 의무)을 야기하면 적절한 위험 완화
+조치를 취해야 한다. EU 인공지능법이 2026년 8월부터 투명성 의무를 본격 적용하면서 이 조항의
+실무 비중이 커지고 있다.&lt;/p&gt;</description></item><item><title>3.8 효과적 자원 배분</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/3-relevant-tasks/2-resourced/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/3-relevant-tasks/2-resourced/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 3 — 운영 체계&lt;/strong&gt; 단계에서 구축한다.
+&lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;역량(3.2)이 &amp;ldquo;누가 무엇을 할 수 있어야 하는가&amp;quot;를 정의한다면, 효과적 자원 배분은 그 역할에 실제로
+사람과 시간, 예산을 붙여 프로그램이 작동하게 만든다. 정책과 절차가 문서로만 존재하고 자원이
+없으면 컴플라이언스는 이름뿐이다.&lt;/p&gt;
+&lt;p&gt;3.8은 프로그램 과제에 책임을 배정하고 충분한 자원을 배분할 것을 요구한다. 입증자료는 다섯
+가지로, 역할 담당자 명시, 인력과 재원 제공, 법률 전문성 접근, 내부 책임 배정 절차, 부적합 시정
+절차를 다룬다. 규격은 ISO/IEC 42001 부속서 B(Annex B)의 자원 관련 절(B.4.2, B.4.6)과 인간 감독
+판단 절(B.9.3)을 참조로 든다.&lt;/p&gt;</description></item><item><title>AI SBOM</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/iso42001_guide/4-operation/2-ai-sbom/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/iso42001_guide/4-operation/2-ai-sbom/</guid><description>&lt;h2 id="1-ai-sbom이란"&gt;1. AI SBOM이란?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;AI SBOM(AI System Bill of Materials)&lt;/strong&gt; 은 AI 시스템을 구성하는 모든 요소의 목록과
+그 출처·라이선스를 문서화한 것이다. 소프트웨어 SBOM(ISO/IEC 5230 §3.3.1)의 개념을
+AI 시스템으로 확장한 것으로, ISO/IEC 42001 §7.5(문서화된 정보) 요구사항의 핵심 산출물이다.&lt;/p&gt;
+&lt;h3 id="ai-sbom이-필요한-이유-투명성과-규제-대응"&gt;AI SBOM이 필요한 이유: 투명성과 규제 대응&lt;/h3&gt;
+&lt;p&gt;AI SBOM은 &lt;strong&gt;AI 시스템의 투명성과 설명 가능성&lt;/strong&gt;을 확보하는 핵심 수단이다.
+ISO/IEC 42001 Appendix C.2.11은 투명성과 설명 가능성을 AI 관리 시스템의 핵심 목표로 명시한다.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;요구 주체&lt;/th&gt;
+					&lt;th&gt;근거&lt;/th&gt;
+					&lt;th&gt;AI SBOM 역할&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;ISO/IEC 42001&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Appendix C.2.11 (투명성·설명 가능성)&lt;/td&gt;
+					&lt;td&gt;AI 시스템 구성 투명성 확보&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;EU AI Act&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;고위험 AI 시스템 기술 문서 요건&lt;/td&gt;
+					&lt;td&gt;학습 데이터·모델 출처 명시&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;EU Cyber Resilience Act(CRA)&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;AI 제품의 투명성 의무&lt;/td&gt;
+					&lt;td&gt;컴포넌트 목록 및 취약점 추적&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;OpenChain AI Work Group&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;AI SBOM Compliance Guide&lt;/td&gt;
+					&lt;td&gt;공급망 내 AI SBOM 표준 절차&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;ISO/IEC 42003과 AI SBOM&lt;/div&gt;
+&lt;p&gt;ISO/IEC 42001의 구현 가이드인 &lt;strong&gt;ISO/IEC 42003&lt;/strong&gt;(개발 중)에 AI SBOM 관련 구체적 요구사항이
+포함될 예정이다. OpenChain AI Work Group은 AI SBOM 가이드를 42003의
+§6.2(AI 목표)와 Appendix C.2.11(투명성·설명 가능성)에 반영하는 것을 추진 중이다.&lt;/p&gt;</description></item><item><title>AI 확장 프로세스</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/</guid><description>&lt;p&gt;구축 로드맵의 2단계다. AI SBOM 가이드가 ISO/IEC 5230에서 가장 크게 확장된 영역으로, 라이선스
+의무(3.5)와 투명성 의무(3.6), AI SBOM 생성·관리(3.9)를 다룬다.&lt;/p&gt;</description></item><item><title>cdxgen</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/5-tools/2-cdxgen/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/5-tools/2-cdxgen/</guid><description>&lt;h2 id="개요"&gt;개요&lt;/h2&gt;
+&lt;p&gt;cdxgen은 OWASP CycloneDX 프로젝트의 공식 SBOM 생성기다. 20개 이상의 언어와 패키지 매니저를
+지원하고, 최신 버전에서 AI BOM 전용 모드를 제공한다. AI 애플리케이션의 의존성(PyTorch,
+Transformers 등)을 자동으로 식별하며, CI/CD 파이프라인에 연동하기 좋다.&lt;/p&gt;
+&lt;p&gt;AI SBOM 관점에서 cdxgen의 강점은 속도와 자동화다. 약점은 라이선스 정보를 기본 실행에서 채우지
+않는다는 점이다. 아래 실행 결과에서 이 특성이 드러난다. OWASP AIBOM Generator가 모델 카드 메타데이터
+중심이라면, cdxgen은 코드와 의존성 중심이다. 둘을 함께 쓰면 모델과 의존성을 모두 다룬다.&lt;/p&gt;</description></item><item><title>3. 지원</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/iso42001_guide/3-support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/iso42001_guide/3-support/</guid><description>&lt;h2 id="1-개요"&gt;1. 개요&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 42001 §7은 AI 관리 시스템을 운영하는 데 필요한 &lt;strong&gt;역량, 인식, 커뮤니케이션,
+문서화&lt;/strong&gt;를 다룬다. 오픈소스 담당자 관점에서는 **§7.2(역량)**과 **§7.5(문서화된 정보)**가
+핵심 교차점이다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="2-72-역량--ai-오픈소스-관리-역량-"&gt;2. §7.2 역량 — AI 오픈소스 관리 역량 ★&lt;/h2&gt;
+&lt;p&gt;ISO/IEC 42001은 AI 관련 역할을 수행하는 인원이 필요한 역량을 갖추도록 요구한다.
+오픈소스 컴플라이언스 관점에서 AI 개발·운영 인원에게 다음 역량이 포함되어야 한다.&lt;/p&gt;
+&lt;h3 id="ai-오픈소스-관리-역량-요소"&gt;AI 오픈소스 관리 역량 요소&lt;/h3&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;역량 영역&lt;/th&gt;
+					&lt;th&gt;내용&lt;/th&gt;
+					&lt;th&gt;관련 교육&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;AI 프레임워크 라이선스 이해&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;PyTorch·TensorFlow 등 주요 라이선스 조건 파악&lt;/td&gt;
+					&lt;td&gt;오픈소스 라이선스 교육&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;AI 모델 라이선스 검토&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;커스텀 라이선스 조건(사용 제한, 파생물 처리) 분석&lt;/td&gt;
+					&lt;td&gt;법무팀 협업 교육&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;AI SBOM 작성&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;SPDX 3.0 AI 프로파일 기반 AI SBOM 구성 방법&lt;/td&gt;
+					&lt;td&gt;AI SBOM 실습&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;오픈소스 취약점 관리&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;AI 시스템 의존성 SCA 스캔 및 CVE 대응&lt;/td&gt;
+					&lt;td&gt;DevSecOps 교육&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;오픈 데이터 라이선스&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;CC 계열 라이선스 조건 및 데이터셋 사용 규칙&lt;/td&gt;
+					&lt;td&gt;데이터 라이선스 교육&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="기존-오픈소스-역량-체계와의-통합"&gt;기존 오픈소스 역량 체계와의 통합&lt;/h3&gt;
+&lt;div class="alert alert-success" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;ISO/IEC 5230 역량 체계 확장&lt;/div&gt;
+&lt;p&gt;기업이 ISO/IEC 5230 기반의 역량·교육 체계를 이미 운영 중이라면,
+기존 오픈소스 교육 과정에 &lt;strong&gt;AI 특화 모듈&lt;/strong&gt;을 추가하는 방식으로 확장한다.&lt;/p&gt;</description></item><item><title>3.3 인지</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/1-program-foundation/3-awareness/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/1-program-foundation/3-awareness/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 1 — 프로그램 기반&lt;/strong&gt; 단계에서 구축한다.
+&lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;역량(3.2)이 &amp;ldquo;할 수 있는가&amp;quot;를 다룬다면, 인지는 &amp;ldquo;왜 해야 하는지 아는가&amp;quot;를 다룬다. 참여자가 정책의
+존재만 아는 것으로는 부족하다. 자신의 일이 프로그램에 어떻게 기여하는지, 지키지 않으면 무슨 일이
+생기는지까지 알아야 컴플라이언스가 실제로 작동한다.&lt;/p&gt;
+&lt;p&gt;3.3은 프로그램 참여자가 네 가지를 인지하도록 보장할 것을 요구한다. AI SBOM 정책, 관련 사업 목표,
+프로그램 효과성에 대한 자신의 기여, 그리고 프로그램 요구사항을 따르지 않을 경우의 영향이다. AI
+에서는 미준수의 영향이 저작권 분쟁을 넘어 규제 위반과 사용 제한 위반으로 확장되므로, 참여자가
+이 점을 분명히 인지하게 한다.&lt;/p&gt;</description></item><item><title>3.9 AI SBOM</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/3-ai-sbom/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/3-ai-sbom/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 2 — AI 확장 프로세스&lt;/strong&gt; 단계에서 구축한다.
+&lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;AI SBOM(AI System Bill of Materials)은 AI 시스템을 구성하는 요소와 그 정보를 담은 목록이다.
+전통적 SBOM이 소프트웨어 컴포넌트를 기록한다면, AI SBOM은 여기에 모델, 가중치, 데이터셋,
+하이퍼파라미터를 더한다. 3.9는 AI SBOM을 생성하고 관리하는 절차를 갖출 것을 요구한다.&lt;/p&gt;
+&lt;p&gt;형식은 정해두지 않는다. 규격은 SPDX, CycloneDX, 또는 그 밖의 형식 등 어떤 것이든 무방하다고
+명시한다. 다만 한 가지 의무가 있다. AI SBOM은 제3자로부터 유입되는 자재(inbound materials)를
+반영해야 한다. 외부에서 도입한 사전학습 모델과 데이터셋이 빠지면 라이선스 의무(&lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/1-license-obligations/"&gt;3.5&lt;/a&gt;)와
+투명성 의무를 추적할 근거가 사라지기 때문이다.&lt;/p&gt;</description></item><item><title>모델·컨테이너 스캐너 (Lab700x, Trivy, Syft)</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/5-tools/3-scanners/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/5-tools/3-scanners/</guid><description>&lt;p&gt;이 페이지는 AI SBOM 생성을 보완하는 분석·식별 도구를 소개한다. 생성 도구(OWASP AIBOM
+Generator, cdxgen)가 &amp;ldquo;무엇이 들어 있는가&amp;quot;를 기록한다면, 이 도구들은 &amp;ldquo;그것이 안전한가&amp;quot;와 &amp;ldquo;어떤
+버전인가&amp;quot;를 본다. 아래 명령과 기능은 각 도구의 공식 문서를 기준으로 정리했다(이 가이드에서
+직접 실행한 도구는 &lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/5-tools/1-aibom-generator/"&gt;OWASP AIBOM Generator&lt;/a&gt;와 &lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/5-tools/2-cdxgen/"&gt;cdxgen&lt;/a&gt;이다).&lt;/p&gt;
+&lt;h2 id="lab700x-ai-sbom-scanner--모델-바이너리-정적-분석"&gt;Lab700x AI SBOM Scanner — 모델 바이너리 정적 분석&lt;/h2&gt;
+&lt;p&gt;AI 모델 파일 자체를 정적 분석해 정보를 추출하는 도구다. &lt;code&gt;.safetensors&lt;/code&gt;, &lt;code&gt;.pt&lt;/code&gt;(PyTorch),
+&lt;code&gt;.pkl&lt;/code&gt;(Pickle) 같은 모델 바이너리를 실행하지 않고 직접 들여다본다(deep introspection).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;주요 기능&lt;/strong&gt;: 모델을 실행(Execute)하지 않고 내부 구조를 파악하므로, 모델 파일에 숨겨진 악성
+코드(Pickle 인젝션 등)나 취약점, 라이선스 위반 요소를 배포 전에 검출한다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI SBOM에서의 역할&lt;/strong&gt;: 외부에서 도입한 모델을 인입 게이트에서 검사하는 데 쓴다.
+&lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/1-license-obligations/"&gt;3.5 라이선스 의무&lt;/a&gt;의 인입 메타데이터 강제와
+결합하면, 메타데이터 검증과 바이너리 안전성 검사를 함께 수행할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pickle 형식 모델은 역직렬화 시 임의 코드가 실행될 수 있어 공급망 위험이 크다. 모델을 실행하지
+않고 검사한다는 점이 이 도구의 핵심이다.&lt;/p&gt;</description></item><item><title>운영</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/3-relevant-tasks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/3-relevant-tasks/</guid><description>&lt;p&gt;구축 로드맵의 3단계다. 외부의 AI SBOM 컴플라이언스 문의에 대응하는 창구를 만들고(3.7),
+프로그램에 책임과 인력, 재원을 배정한다(3.8).&lt;/p&gt;</description></item><item><title>AI SBOM 컴플라이언스 가이드</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/</guid><description>&lt;p&gt;이 가이드는 OpenChain AI Work Group이 펴낸 &lt;em&gt;AI System Bill of Materials — Compliance
+Management Guide for the Supply Chain&lt;/em&gt;(Version 1.0)의 각 요구사항을 하나씩 풀어서 설명한다.
+각 조항이 요구하는 입증자료가 무엇인지, 어떻게 준수할 수 있는지, 바로 활용할 수 있는 샘플과
+도구는 무엇인지 안내한다.&lt;/p&gt;
+&lt;p&gt;이 규격은 오픈소스 라이선스 컴플라이언스 표준 ISO/IEC 5230과 같은 구조(요구사항, 검증 자료,
+근거)를 AI 공급망으로 옮긴 것이다. 코드뿐 아니라 모델 가중치, 학습 데이터셋, 모델 트리(Model
+Tree)의 라이선스와 투명성 의무까지 컴플라이언스 대상으로 끌어들인다.&lt;/p&gt;</description></item><item><title>3.4 프로그램 범위</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/1-program-foundation/4-scope/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/1-program-foundation/4-scope/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 1 — 프로그램 기반&lt;/strong&gt; 단계에서 구축한다.
+&lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="1-조항-개요"&gt;1. 조항 개요&lt;/h2&gt;
+&lt;p&gt;프로그램 범위는 컴플라이언스가 어디까지 적용되는지를 정한다. 범위가 모호하면 어떤 AI 시스템에
+SBOM을 만들어야 하는지, 어떤 모델의 라이선스를 검토해야 하는지가 불분명해진다. 범위를 먼저
+선언해야 이후의 모든 조항이 적용 대상을 안다.&lt;/p&gt;
+&lt;p&gt;3.4는 각 프로그램에 대해 적용 범위를 선언할 것을 요구한다. 범위는 조직마다 다를 수 있다. 어떤
+조직은 단일 제품 라인을, 어떤 조직은 부서 전체나 조직 전체를 대상으로 삼는다. AI에서는 자체
+개발 모델뿐 아니라 외부에서 도입한 모델과 데이터셋, 사내 모델의 외부 공개까지 범위 판단에
+들어온다.&lt;/p&gt;</description></item><item><title>거버넌스</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/4-governance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/4-governance/</guid><description>&lt;p&gt;구축 로드맵의 4단계다. 앞선 조항을 하나로 묶어 AI 시스템 수명주기 전반의 거버넌스 프레임워크를
+갖추고, 신흥 AI 규제를 반영해 정기적으로 검토한다(3.10).&lt;/p&gt;</description></item><item><title>도구</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/5-tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/5-tools/</guid><description>&lt;p&gt;이 절은 AI SBOM 컴플라이언스를 자동화하는 오픈소스 도구를 다룬다. 각 도구의 주요 기능과
+설치, 사용법을 실제 실행 결과와 함께 정리했다. &lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/ai-sbom_guide/2-ai-extension/3-ai-sbom/"&gt;3.9 AI SBOM&lt;/a&gt;의
+자동화 성숙도 맵에서 본 구분을 도구별로 구체화한 것이다.&lt;/p&gt;
+&lt;p&gt;정직하게 짚어 둘 경계가 있다. 도구는 BOM을 자동으로 생성하지만, 생성된 BOM의 라이선스가
+정확한지, 누락된 자재는 없는지를 보장하지는 못한다. 아래 도구 비교에서 OWASP AIBOM
+Generator는 모델 카드의 라이선스를 채우고, cdxgen은 의존성을 빠르게 식별하되 라이선스 필드를
+비워 둔다. 도구를 고를 때 이 차이를 본다.&lt;/p&gt;</description></item><item><title>7. AI 컴플라이언스</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/7-ai-compliance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/7-ai-compliance/</guid><description>&lt;div class="alert alert-success" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;이 섹션이 다루는 요구사항&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;ISO/IEC 42001&lt;/strong&gt;: §5.2 (AI 정책), §6.1.2 (AI 리스크 평가), §7.5 (문서화), §8.5 (AI 생애주기), §8.6 (AI 데이터), §8.8 (외부 AI 조달)&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;AI 시스템은 오픈소스 프레임워크, 사전 훈련된 모델, 오픈 데이터셋을 광범위하게 활용합니다.
+오픈소스 관리 체계(ISO/IEC 5230 · 18974)를 운영하는 기업은 AI 시스템 개발 단계에서도
+오픈소스 컴플라이언스 원칙을 적용해야 합니다.
+또한 AI 코딩 도구(GitHub Copilot, Claude Code, Cursor 등)를 활용하는 개발 환경에서도
+라이선스 혼입과 취약 패키지 도입에 대한 새로운 관리 체계가 필요합니다.&lt;/p&gt;</description></item></channel></rss>

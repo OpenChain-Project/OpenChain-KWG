@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>보안 보증 on OpenChain KWG</title><link>https://openchain-project.github.io/OpenChain-KWG/tags/%EB%B3%B4%EC%95%88-%EB%B3%B4%EC%A6%9D/</link><description>Recent content in 보안 보증 on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://openchain-project.github.io/OpenChain-KWG/tags/%EB%B3%B4%EC%95%88-%EB%B3%B4%EC%A6%9D/index.xml" rel="self" type="application/rss+xml"/><item><title>§4.3.2 보안 보증</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/iso18974_guide/3-content-review/2-security-assurance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/iso18974_guide/3-content-review/2-security-assurance/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;구축 단계&lt;/div&gt;
+&lt;p&gt;이 조항은 &lt;strong&gt;Phase 3 — 프로세스 구축&lt;/strong&gt; 단계에서 구축합니다. ISO/IEC 18974 전용 신규 조항으로, 취약점 탐지·해결 절차와 조치 기록을 수립합니다.
+&lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/iso18974_guide/#%eb%8b%a8%ea%b3%84%eb%b3%84-%ea%b5%ac%ec%b6%95-%eb%a1%9c%eb%93%9c%eb%a7%b5"&gt;전체 구축 로드맵 보기&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;★ 18974 전용 항목 — Documented Evidence 강도&lt;/div&gt;
+&lt;p&gt;§4.3.2.1과 §4.3.2.2는 ISO 18974 전용(★) 항목으로 &lt;strong&gt;Documented Evidence&lt;/strong&gt;(문서화된 증거)를 요구한다. 단순 &amp;ldquo;취약점 대응 절차 문서&amp;quot;가 아니라 &lt;strong&gt;각 CVE에 대한 실제 수행 기록&lt;/strong&gt;(스캔 결과, CVSS 점수, 조치 이력, VEX 발행, 고객 통보 이력 등)을 보관해야 한다. 강도 차이의 자세한 설명은 &lt;a href="https://openchain-project.github.io/OpenChain-KWG/guide/iso18974_guide/1-program-foundation/5-standard-practice/#iso-18974-%ec%a0%84%ec%9a%a9-%ed%95%ad%eb%aa%a9%ec%9d%98-%ea%b0%95%eb%8f%84--documented-evidence"&gt;§4.1.5 표준 관행 — Documented Evidence 안내&lt;/a&gt;를 참고한다.&lt;/p&gt;</description></item><item><title>ISO/IEC 18974 준수 가이드</title><link>https://openchain-project.github.io/OpenChain-KWG/guide/iso18974_guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/guide/iso18974_guide/</guid><description>&lt;p&gt;이 가이드는 ISO/IEC 18974(OpenChain Security Assurance)의 각 요구사항 조항을
+하나씩 풀어서 설명한다. 각 조항이 요구하는 입증자료가 무엇인지, 어떻게 준수할
+수 있는지, 바로 활용할 수 있는 샘플 문서는 무엇인지 안내한다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Author : OpenChain Korea Work Group / &lt;a href="https://creativecommons.org/licenses/by/4.0/"&gt;CC BY 4.0&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="대상-독자"&gt;대상 독자&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;오픈소스 보안 보증 체계를 처음 수립하는 기업의 보안 담당자 및 오픈소스 프로그램 매니저&lt;/li&gt;
+&lt;li&gt;DevSecOps 환경에서 오픈소스 취약점 관리 프로세스를 구축하는 엔지니어&lt;/li&gt;
+&lt;li&gt;ISO/IEC 5230 인증 취득 후 ISO/IEC 18974 추가 인증을 준비하는 기업 담당자&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="isoiec-5230과의-관계"&gt;ISO/IEC 5230과의 관계&lt;/h2&gt;
+&lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;ISO/IEC 18974는 ISO/IEC 5230 위에 보안 레이어를 추가한다&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;ISO/IEC 5230(라이선스 컴플라이언스)&lt;/strong&gt; 은 오픈소스 라이선스 의무 이행을
+체계적으로 관리하는 기반 프로그램을 다룬다.&lt;/p&gt;</description></item></channel></rss>
