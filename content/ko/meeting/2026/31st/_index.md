@@ -92,6 +92,7 @@ aliases:
       <div class="kwg-conf-tl__title">Session 1. CJ 그룹 오픈소스 거버넌스 현황</div>
       <div class="kwg-conf-tl__by">성기영 변리사 · CJ</div>
       <p class="kwg-conf-tl__desc">그룹 내 오픈소스 인증 현황, 오소리(OSSORI) 데이터 기여 현황, EU 사이버 복원력법(CRA) 대응 현황 등 세 가지 핵심 주제를 바탕으로 CJ 그룹의 오픈소스 거버넌스 체계를 공유합니다.</p>
+      <a class="kwg-conf-tl__slide" href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/31th-session1-cj-governance.pdf" target="_blank" rel="noopener">발표자료 (PDF)</a>
     </div>
   </div>
   <div class="kwg-conf-tl kwg-conf-tl--muted">
@@ -117,6 +118,7 @@ aliases:
       <div class="kwg-conf-tl__title">Session 2. 사람을 중심으로, 시스템과 함께 성장하는 OSS Governance</div>
       <div class="kwg-conf-tl__by">최병석 부장 · 올리브네트웍스</div>
       <p class="kwg-conf-tl__desc">CJ 그룹의 다양한 조직과 계열사를 연결하는 OSS Governance 운영 경험과, 사람이 바뀌어도 이어지는 운영체계로 발전시킨 과정을 공유합니다.</p>
+      <a class="kwg-conf-tl__slide" href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/31th-session2-cj-oss-operations.pdf" target="_blank" rel="noopener">발표자료 (PDF)</a>
     </div>
   </div>
   <div class="kwg-conf-tl kwg-conf-tl--session">
