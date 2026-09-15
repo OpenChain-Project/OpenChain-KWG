@@ -92,6 +92,7 @@ aliases:
       <div class="kwg-conf-tl__title">Session 1. The State of Open Source Governance at CJ Group</div>
       <div class="kwg-conf-tl__by">Kiyoung Sung, Patent Attorney · CJ</div>
       <p class="kwg-conf-tl__desc">CJ Group's open source governance framework, told through three core topics: certification status across the group, data contributions to the OSSORI project, and the response to the EU Cyber Resilience Act (CRA).</p>
+      <a class="kwg-conf-tl__slide" href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/31th-session1-cj-governance.pdf" target="_blank" rel="noopener">Slides (PDF)</a>
     </div>
   </div>
   <div class="kwg-conf-tl kwg-conf-tl--muted">
@@ -117,6 +118,7 @@ aliases:
       <div class="kwg-conf-tl__title">Session 2. OSS Governance That Centers People and Grows with the System</div>
       <div class="kwg-conf-tl__by">Byeongseok Choi, General Manager · Olive Networks</div>
       <p class="kwg-conf-tl__desc">Experience running OSS Governance across CJ Group's many organizations and affiliates, and how it grew into a framework that carries on even when the people change.</p>
+      <a class="kwg-conf-tl__slide" href="https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/31th-session2-cj-oss-operations.pdf" target="_blank" rel="noopener">Slides (PDF)</a>
     </div>
   </div>
   <div class="kwg-conf-tl kwg-conf-tl--session">
