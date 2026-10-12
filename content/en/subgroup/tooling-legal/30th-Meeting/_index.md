@@ -23,7 +23,7 @@ description: Tooling & Legal Subgroup 30th Meeting
 |----|-----------------|------|------|
 | 0  | Community Updates & New Issues | LG Electronics, Wonjae Park | TBD |
 | 1  | Introduction and Demo of Open Source Management Tools (BomLens/TRUSCA) | SK Telecom, Jang Haksung | TBD |
-| 2  | (Draft) Tool to Check OIN Linux System Definition | Tjaldur Software, Armijn Hemel | TBD |
+| 2  | Automating checking your package lists to the OIN Linux System Definition | Tjaldur Software, Armijn Hemel | TBD |
 
 <!--
 

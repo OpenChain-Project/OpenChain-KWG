@@ -25,4 +25,4 @@ description: Tooling & Legal Subgroup 30th Meeting
 |----|-----------------|------|------|
 | 0  | Community Updates & New Issues | LG전자, 박원재 | TBD |
 | 1  | 오픈소스 관리 도구 소개 및 데모 (BomLens/TRUSCA) | SK Telecom, 장학성 | TBD |
-| 2  | (가제) Tool to Check OIN Linux System Definition | Tjaldur Software, Armijn Hemel | TBD |
+| 2  | Automating checking your package lists to the OIN Linux System Definition | Tjaldur Software, Armijn Hemel | TBD |
