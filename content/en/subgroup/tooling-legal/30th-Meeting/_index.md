@@ -21,9 +21,9 @@ description: Tooling & Legal Subgroup 30th Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates & New Issues | TBD | TBD |
-| 1  | TBD | Tjaldur Software, Armijn Hemel | TBD |
-| 2  | In-Depth Look at Open Source Management Tools (BomLens/TRUSCA) | SK Telecom, Jang Haksung | TBD |
+| 0  | Community Updates & New Issues | LG Electronics, Wonjae Park | TBD |
+| 1  | Introduction and Demo of Open Source Management Tools (BomLens/TRUSCA) | SK Telecom, Jang Haksung | TBD |
+| 2  | (Draft) Tool to Check OIN Linux System Definition | Tjaldur Software, Armijn Hemel | TBD |
 
 <!--
 
