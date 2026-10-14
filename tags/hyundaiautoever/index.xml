@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HyundaiAutoEver on OpenChain KWG</title><link>https://openchain-project.github.io/OpenChain-KWG/tags/hyundaiautoever/</link><description>Recent content in HyundaiAutoEver on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><atom:link href="https://openchain-project.github.io/OpenChain-KWG/tags/hyundaiautoever/index.xml" rel="self" type="application/rss+xml"/><item><title>32nd Meeting</title><link>https://openchain-project.github.io/OpenChain-KWG/meeting/2026/32nd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/meeting/2026/32nd/</guid><description>&lt;h2 id="일정"&gt;일정&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;일정: 2026-12-08 (화) (예정), 시간 미정&lt;/li&gt;
+&lt;li&gt;장소: 현대오토에버 (서울시 강남구 삼성동)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- ## 아젠다
+
+| Time | Agenda | Speaker | Slide |
+|-------------|-------------------------------|----------------------------------|-------|
+| 00:00~00:00 | 웰컴 &amp; 오프닝 | 발표자, 소속 | - |
+| 00:00~00:00 | 발표 제목 | 발표자, 소속 | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-YYYY/파일명.pdf) |
+| 00:00~00:00 | 네트워킹 | All | - |
+
+## 발표자료
+
+| 제목 | 발표자 | 자료 |
+|---|---|---|
+| 발표 제목 | 발표자명 | [PDF](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-YYYY/파일명.pdf) |
+--&gt;
+&lt;!--
+첨부파일 업로드 방법:
+1. GitHub Releases 페이지 접속:
+ https://github.com/OpenChain-Project/OpenChain-KWG/releases/tag/meeting-slides-2026
+ (태그가 없으면 새로 생성)
+2. 파일명 규칙 준수:
+ - 영문, 숫자, 하이픈(-), 언더스코어(_), 점(.)만 사용
+ - 공백·한글·특수문자 사용 금지
+ - 권장 형식: YYYYMMDD-발표자-주제키워드.pdf
+3. 업로드 후 다운로드 URL 복사:
+ https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2026/파일명.pdf
+4. 위 표의 링크 URL을 복사한 URL로 교체
+--&gt;
+&lt;h2 id="sponsor"&gt;Sponsor&lt;/h2&gt;
+&lt;p&gt;&lt;img src="../../../images/content/about/logo/hd_autoever.svg" alt="" loading="lazy" decoding="async"&gt;
+&lt;/p&gt;</description></item></channel></rss>

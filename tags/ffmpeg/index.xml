@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FFmpeg on OpenChain KWG</title><link>https://openchain-project.github.io/OpenChain-KWG/tags/ffmpeg/</link><description>Recent content in FFmpeg on OpenChain KWG</description><generator>Hugo</generator><language>ko</language><lastBuildDate>Mon, 10 Aug 2026 11:20:08 +0900</lastBuildDate><atom:link href="https://openchain-project.github.io/OpenChain-KWG/tags/ffmpeg/index.xml" rel="self" type="application/rss+xml"/><item><title>Rockchip과 FFmpeg의 라이선스 분쟁 사례</title><link>https://openchain-project.github.io/OpenChain-KWG/blog/2026/02/20/ffmpeg/</link><pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate><guid>https://openchain-project.github.io/OpenChain-KWG/blog/2026/02/20/ffmpeg/</guid><description>&lt;div class="alert alert-info" role="alert"&gt;
+&lt;p&gt;이 글은 Claude Code를 이용해 작성했고, 인용한 핵심 사실은 1차 출처로 교차 검증했습니다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;고지&lt;/div&gt;
+&lt;p&gt;이 글은 작성자 개인의 분석과 정리이며, 법률 자문이 아닙니다. 인용한 사실은 공개 출처에 근거해 확인했으나, 침해 성립 여부와 같은 법적 판단은 다투어질 수 있는 사안이므로 구체적 사안의 판단은 변호사 등 전문가의 검토를 받으시기 바랍니다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;안녕하세요.&lt;/p&gt;
+&lt;p&gt;임베디드 리눅스 업계에서 화제가 된 Rockchip과 FFmpeg의 라이선스 분쟁을 정리해 보았습니다.
+2025년 12월 저장소가 내려간 시점에 처음 썼던 글인데, 그 뒤 Rockchip이 대응에 나서면서
+저장소가 복구되었습니다. 경과를 반영해 전면 개정하고, 저장소가 다시 열린 덕분에 확인할 수
+있게 된 실제 코드로 근거를 바꿨습니다.&lt;/p&gt;</description></item></channel></rss>

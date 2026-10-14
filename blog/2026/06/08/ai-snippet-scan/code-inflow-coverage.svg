@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="392" viewBox="0 0 820 392">
+  <defs>
+    <filter id="c1" x="-20%" y="-30%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.6" flood-color="#000" flood-opacity="0.10"/>
+    </filter>
+    <marker id="ca" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#9ca3af"/>
+    </marker>
+  </defs>
+  <rect width="820" height="392" fill="#ffffff"/>
+  <g font-family="'Apple SD Gothic Neo','Noto Sans CJK KR','Malgun Gothic',sans-serif">
+
+    <!-- 열 라벨 -->
+    <text x="40" y="30" font-size="12" letter-spacing="1.6" fill="#6b7280">코드가 들어오는 경로</text>
+    <text x="530" y="30" font-size="12" letter-spacing="1.6" fill="#6b7280">무엇이 잡아내나</text>
+
+    <!-- 경로 1 -->
+    <rect x="40" y="56" width="340" height="66" rx="8" fill="#fff" stroke="#d1d5db" filter="url(#c1)"/>
+    <text x="60" y="84" font-size="15" fill="#111827">패키지 매니저로 선언</text>
+    <text x="60" y="106" font-size="12.5" fill="#6b7280">package.json, pom.xml 등 매니페스트에 기재</text>
+
+    <!-- 경로 2 -->
+    <rect x="40" y="142" width="340" height="66" rx="8" fill="#fff" stroke="#d1d5db" filter="url(#c1)"/>
+    <text x="60" y="170" font-size="15" fill="#111827">복사·붙여넣기, AI 생성</text>
+    <text x="60" y="192" font-size="12.5" fill="#6b7280">선언되지 않은 채 본문에 섞여 들어옴</text>
+
+    <!-- 경로 3 -->
+    <rect x="40" y="228" width="340" height="76" rx="8" fill="#fff" stroke="#d1d5db" filter="url(#c1)"/>
+    <text x="60" y="256" font-size="15" fill="#111827">소스째 복사</text>
+    <text x="60" y="278" font-size="12.5" fill="#6b7280">임베디드·펌웨어. 읽을 매니페스트가</text>
+    <text x="60" y="296" font-size="12.5" fill="#6b7280">아예 없음</text>
+
+    <!-- 연결선 -->
+    <line x1="380" y1="89" x2="524" y2="89" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#ca)"/>
+
+    <path d="M 380 175 L 452 175 L 452 230" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+    <path d="M 380 266 L 452 266 L 452 230" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+    <line x1="452" y1="230" x2="524" y2="230" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#ca)"/>
+
+    <!-- 검사 수단 1 -->
+    <rect x="532" y="56" width="248" height="66" rx="8" fill="#fff" stroke="#d1d5db" filter="url(#c1)"/>
+    <text x="552" y="84" font-size="15" fill="#111827">의존성 단위 SCA</text>
+    <text x="552" y="106" font-size="12.5" fill="#6b7280">선언된 것만 봅니다</text>
+
+    <!-- 검사 수단 2 (강조) -->
+    <rect x="532" y="182" width="248" height="96" rx="8" fill="#fff" stroke="#c2410c" stroke-width="1.8" filter="url(#c1)"/>
+    <text x="552" y="212" font-size="15" font-weight="600" fill="#c2410c">스니펫 매칭</text>
+    <text x="552" y="236" font-size="12.5" fill="#6b7280">선언되지 않은 조각을</text>
+    <text x="552" y="254" font-size="12.5" fill="#6b7280">찾아내는 사실상 유일한 수단</text>
+
+    <!-- 하단 주석 -->
+    <line x1="40" y1="336" x2="780" y2="336" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="40" y="358" font-size="12.5" fill="#4b5563">사후 검사와 별개로, AI 도구의 공개 코드 차단 설정은 두 번째 경로의 유입 자체를 줄입니다.</text>
+    <text x="40" y="378" font-size="12.5" fill="#4b5563">세 번째 경로에서는 스니펫 매칭이 조건부 보조가 아니라 기본 수단이 됩니다.</text>
+  </g>
+</svg>
