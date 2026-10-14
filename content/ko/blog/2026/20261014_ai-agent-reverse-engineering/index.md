@@ -6,6 +6,7 @@ slug: ai-agent-reverse-engineering
 description: 코딩 에이전트에 디컴파일러를 연결하는 역분석 도구가 퍼지고 있다. REA를 사례로 한국 저작권법 제101조의4와 제104조의2에 비춰 호환성 확보, 보안 점검, 기능 복제의 허용 범위를 판정하고, chardet 사례와 비교한 뒤 기업 내부 관리 기준을 제안한다.
 author: 장학성 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 categories: ["blog"]
+canonical: https://haksungjang.github.io/research/2026-ai-agent-reverse-engineering/
 tags: ["역분석", "저작권법", "클린룸", "AI 에이전트", "MCP", "OSPO", "오픈소스 컴플라이언스"]
 resources:
 - src: "**.{png,jpg}"

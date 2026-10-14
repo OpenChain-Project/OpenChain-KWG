@@ -10,7 +10,8 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 
 {{- /* canonical + hreflang — ko/en 대응 페이지가 검색엔진에 서로의 관계를 알리도록 */ -}}
-<link rel="canonical" href="{{ .Permalink }}">
+{{- /* 다른 사이트에 먼저 게시한 글은 frontmatter의 canonical로 원본 주소를 지정한다(검색엔진 중복 처리) */}}
+<link rel="canonical" href="{{ .Params.canonical | default .Permalink }}">
 {{- if .IsTranslated }}
 <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
 {{- range .Translations }}
