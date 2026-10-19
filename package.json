@@ -36,7 +36,7 @@
   "devDependencies": {
     "autoprefixer": "^10.6.1",
     "cross-env": "^10.0.0",
-    "hugo-extended": "0.167.0",
+    "hugo-extended": "0.168.0",
     "postcss": "^8.5.30",
     "postcss-cli": "^12.0.0"
   }
