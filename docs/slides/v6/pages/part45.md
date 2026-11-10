@@ -316,7 +316,7 @@ class: oc-consult
 
 </div>
 
-<div class="oc-consult__source">OpenChain Korea Work Group · openchain-project.github.io/OpenChain-KWG</div>
+<div class="oc-consult__source">OpenChain Korea Work Group · korea-wg.openchainproject.org</div>
 
 <!--
 마지막 슬라이드입니다. 거창하게 끝내기보다 "내일 당장 할 수 있는 것"으로 착지시키세요 — 담당자 1명 지정, 정책 템플릿으로 초안 작성, cdxgen+Dependency-Track으로 한 프로젝트 SBOM 생성, 입증자료 50개 표를 체크리스트로 활용. "전사로 한 번에 가지 말고 작은 프로젝트 하나로 먼저 체계를 검증하라"는 현실적인 조언을 꼭 덧붙이세요. 그다음 OpenChain KWG를 소개하면서 "혼자 끙끙대지 말고 커뮤니티에 와서 사례를 나누자" — 정기 미팅·공개 가이드·서브그룹(SBOM·AI·Telco) — 로 자연스럽게 연결하고, 오늘 강의의 모든 근거 자료가 KWG에 공개돼 있다는 점을 알려 주세요. 마지막으로 감사 인사와 함께 Q&A로 열어 청중 질문을 받으면 됩니다. 질문이 없으면 "가장 막막한 단계가 어디였나요?"처럼 먼저 던져 대화를 유도하세요.

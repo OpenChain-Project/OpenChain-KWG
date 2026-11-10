@@ -98,7 +98,7 @@ aliases:
      - 운영 위원회: 그룹을 운영하는 운영진 역할 (7명으로 제한)
     - 선거
      - 운영위원회 선출
-    - 상세 내용은 [링크](https://openchain-project.github.io/OpenChain-KWG/about/charter/)에서 확인 가능
+    - 상세 내용은 [링크](https://korea-wg.openchainproject.org/about/charter/)에서 확인 가능
 
 6. 운영위원회 선출
     - 역할: 정책 수립, Charter 작성, 정기 미팅 운영, 주요 의사결정 수행, 예산 집행 등

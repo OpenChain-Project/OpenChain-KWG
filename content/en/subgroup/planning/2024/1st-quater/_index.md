@@ -20,7 +20,7 @@ description: >
 ## Agenda
 
 1. 20th meeting review
-    - Data & Photos: https://openchain-project.github.io/OpenChain-KWG/meeting/20th/
+    - Data & Photos: https://korea-wg.openchainproject.org/meeting/20th/
 2. Review membership conditions within Charter
 3. Preparation for the 21st meeting
 4. Discussion on change of communication channel: Slack → Discord

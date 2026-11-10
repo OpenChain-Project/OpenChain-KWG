@@ -15,5 +15,5 @@ OpenChain KWG는 회사가 가입하는 협회가 아니라 오픈소스 담당�
 
 ## 함께하시겠습니까
 
-참가비도 회원 자격 심사도 없습니다. [메일링리스트 가입](/OpenChain-KWG/about/subscribe/) 안내를 확인하시고,
-[다음 정기 모임](/OpenChain-KWG/meeting/)에서 뵙겠습니다.
+참가비도 회원 자격 심사도 없습니다. [메일링리스트 가입](/about/subscribe/) 안내를 확인하시고,
+[다음 정기 모임](/meeting/)에서 뵙겠습니다.

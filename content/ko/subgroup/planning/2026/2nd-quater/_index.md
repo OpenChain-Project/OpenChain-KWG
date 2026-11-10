@@ -27,7 +27,7 @@ description: >
    - 2분기: 카카오뱅크 여의도 (6/9)
    - 3분기: CJ인재원 서울 중구 (9/8)
 3. 29차 모임(라인플러스) 리뷰
-   - 자료 & 사진 : https://openchain-project.github.io/OpenChain-KWG/meeting/2026/29th/
+   - 자료 & 사진 : https://korea-wg.openchainproject.org/meeting/2026/29th/
 4. 2026년 2분기 모임 준비
    - 발표 세션 구성 및 발표 자원 확인
    - 그룹토의 / 패널토크 진행 방식 논의

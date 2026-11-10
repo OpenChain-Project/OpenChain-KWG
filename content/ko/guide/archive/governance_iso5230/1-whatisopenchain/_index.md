@@ -140,9 +140,9 @@ OpenChain 프로젝트는 자체 인증 방식을 권장한다. 참고로, OpenC
 [^AlektoMetis]: AlektoMetis - https://alektometis.com/, 
 [^SourceCodeControl]: Source Code Control - https://sourcecodecontrol.co/
 
-국내에서는 OpenChain Korea Work Group의 Subgroup인 [Conformance Group](https://openchain-project.github.io/OpenChain-KWG/subgroup/conformance/)[^conformancegroup]에서 기업간에 자체적으로 ISO/IEC 5230 준수를 위한 방법을 논의하고 공유하는 커뮤니티가 있다. OpenChain Korea Work Group 멤버라면 누구나 참여하여 도움을 받을 수 있다. 
+국내에서는 OpenChain Korea Work Group의 Subgroup인 [Conformance Group](https://korea-wg.openchainproject.org/subgroup/conformance/)[^conformancegroup]에서 기업간에 자체적으로 ISO/IEC 5230 준수를 위한 방법을 논의하고 공유하는 커뮤니티가 있다. OpenChain Korea Work Group 멤버라면 누구나 참여하여 도움을 받을 수 있다. 
 
-[^conformancegroup]: Conformance Group - https://openchain-project.github.io/OpenChain-KWG/subgroup/conformance/
+[^conformancegroup]: Conformance Group - https://korea-wg.openchainproject.org/subgroup/conformance/
 
 
 ### 3. 타사 인증 (Third-Party Certification)
@@ -173,7 +173,7 @@ OpenChain 프로젝트는 자체 인증 방식을 권장한다. 참고로, OpenC
 
 또한, 자세한 자체 인증 방법은 다음 슬라이드를 참고할 수 있다. 
 
-* [https://openchain-project.github.io/OpenChain-KWG/meeting/9th/OpenChain_Korea_20210311_howto.pptx](https://openchain-project.github.io/OpenChain-KWG/meeting/9th/OpenChain_Korea_20210311_howto.pptx)
+* [https://korea-wg.openchainproject.org/meeting/9th/OpenChain_Korea_20210311_howto.pptx](https://korea-wg.openchainproject.org/meeting/9th/OpenChain_Korea_20210311_howto.pptx)
 
 
 ## OpenChain Resources
@@ -184,11 +184,11 @@ OpenChain 프로젝트에서는 기업이 컴플라이언스 프로그램을 구
 <center>< OpenChain Curriculum, 출처 - https://www.openchainproject.org/resources ></center>
 {{< /imgproc >}}
 
-이 가이드의 많은 내용도 OpenChain에서 공개한 자료를 기반으로 작성하였다. 각 기업의 오픈소스 담당자는 정책, 프로세스, 교육자료가 필요하다면 OpenChain Resources를 먼저 찾아보기 바란다. 또한 이 자료는 한국어로도 번역되어 공개되고 있다. [OpenChain Korea Work Group](https://openchain-project.github.io/OpenChain-KWG/)[^KWG]에서 이러한 번역 작업을 주도하고 있다. 한국어 번역은 관심 있는 누구나 [참여](https://openchain-project.github.io/OpenChain-KWG/resource/)할 수 있다[^translate].
+이 가이드의 많은 내용도 OpenChain에서 공개한 자료를 기반으로 작성하였다. 각 기업의 오픈소스 담당자는 정책, 프로세스, 교육자료가 필요하다면 OpenChain Resources를 먼저 찾아보기 바란다. 또한 이 자료는 한국어로도 번역되어 공개되고 있다. [OpenChain Korea Work Group](https://korea-wg.openchainproject.org/)[^KWG]에서 이러한 번역 작업을 주도하고 있다. 한국어 번역은 관심 있는 누구나 [참여](https://korea-wg.openchainproject.org/resource/)할 수 있다[^translate].
 
-[^KWG]: OpenChain Korea Work Group - https://openchain-project.github.io/OpenChain-KWG/
+[^KWG]: OpenChain Korea Work Group - https://korea-wg.openchainproject.org/
 
-[^translate]: 한국어 번역 작업 - https://openchain-project.github.io/OpenChain-KWG/resource/
+[^translate]: 한국어 번역 작업 - https://korea-wg.openchainproject.org/resource/
 
 ## ISO/IEC 5230 추세
 

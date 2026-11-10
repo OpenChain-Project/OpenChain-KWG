@@ -10,20 +10,20 @@ description: >
 ## Training materials
 
 ### NCSOFT open source training materials
-* NCSOFT training materials : [LINK](/OpenChain-KWG/blog/2020/11/23/ncsoft-training-materials/)
-* Kakao training materials : [LINK](/OpenChain-KWG/blog/2020/11/24/kakao-training-materials/)
+* NCSOFT training materials : [LINK](/blog/2020/11/23/ncsoft-training-materials/)
+* Kakao training materials : [LINK](/blog/2020/11/24/kakao-training-materials/)
 
 ## Study materials
 
 ### Open Source Compliance in the Enterprise book summary
 [NCSOFT](https://global.ncsoft.com/) summarizes the main contents of this book in Korean, and after obtaining permission from the author, Ibrahim, published on [GitHub](https://github.com/ncsoft/osc-enterprise-en/).
 
-For more information, refer to the following link: [LINK](/OpenChain-KWG/blog/2020/11/23/ncsoft-compliance-book/)
+For more information, refer to the following link: [LINK](/blog/2020/11/23/ncsoft-compliance-book/)
 
 ## Open Source Tools
 
 ### Source Code Scanning Tools
-- FOSSology: [FOSSology Introduction and Usage](/OpenChain-KWG/guide/tools/1-fossology/)
+- FOSSology: [FOSSology Introduction and Usage](/guide/tools/1-fossology/)
 
 ### Dependency Analysis Tools
 - ORT (OSS Review Toolkit) : https://github.com/oss-review-toolkit/ort#analyzer
@@ -31,7 +31,7 @@ For more information, refer to the following link: [LINK](/OpenChain-KWG/blog/20
 - FOSSLight Dependency Scanner : https://github.com/fosslight/fosslight_dependency_scanner
 
 ### SBOM Management Tools
-- SW360: [SW360 Introduction and Usage](/OpenChain-KWG/guide/tools/2-sw360/)
+- SW360: [SW360 Introduction and Usage](/guide/tools/2-sw360/)
 - FOSSLight: https://fosslight.org
 
 ### Open Source Compliance Artifact Generation Tools

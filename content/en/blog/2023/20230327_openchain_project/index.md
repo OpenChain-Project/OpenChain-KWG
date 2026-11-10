@@ -101,7 +101,7 @@ In collaboration with [TODO Group](https://todogroup.org/), OSPO events are also
 
 ### Current Situation
 
-The [OpenChain Korea Work Group](https://openchain-project.github.io/OpenChain-KWG/) is an excellent Work Group that ranks second in the world in scale and enthusiasm, after Japan. Major companies such as SK telecom, LG Electronics, Samsung Electronics, and Hyundai Motor participate, and NIPA is also involved through sponsorship and other means.
+The [OpenChain Korea Work Group](https://korea-wg.openchainproject.org/) is an excellent Work Group that ranks second in the world in scale and enthusiasm, after Japan. Major companies such as SK telecom, LG Electronics, Samsung Electronics, and Hyundai Motor participate, and NIPA is also involved through sponsorship and other means.
 
 That said, Korea is not immune to the risk posed by the global economic downturn. It is also a shame that there is no Korean corporate member on the [OpenChain Board](https://www.openchainproject.org/community).
 
@@ -113,7 +113,7 @@ Lastly, if a Korean company joins the OpenChain Board, it would increase the str
 
 ## Closing
 
-The OpenChain Project is a community for applying the open source approach of sharing and collaboration to the field of corporate open source management itself, so that everyone can together achieve a high level of risk management practice with lower cost and fewer resources. The [OpenChain Korea Work Group](https://openchain-project.github.io/OpenChain-KWG/) is where companies that share this purpose gather. Nearly 100 open source managers from various companies have joined the OpenChain Korea Work Group's mailing list and are active there. As it happens, an offline meetup was held on March 28, the first in three years since COVID. I will cover this in detail in the next article.
+The OpenChain Project is a community for applying the open source approach of sharing and collaboration to the field of corporate open source management itself, so that everyone can together achieve a high level of risk management practice with lower cost and fewer resources. The [OpenChain Korea Work Group](https://korea-wg.openchainproject.org/) is where companies that share this purpose gather. Nearly 100 open source managers from various companies have joined the OpenChain Korea Work Group's mailing list and are active there. As it happens, an offline meetup was held on March 28, the first in three years since COVID. I will cover this in detail in the next article.
 
 After the meeting session with Shane, we enjoyed a nice lunch sponsored by SK telecom's Tech HR team. (Thank you, [Sangki](https://kr.linkedin.com/in/ksangki)~ ^^)
 

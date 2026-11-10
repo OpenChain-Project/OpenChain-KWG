@@ -30,7 +30,7 @@ $ git fetch
 $ git rebase origin/develop
 ```
 
-로컬의 develop branch에서 **npm run serve**하여 Pull Request 수정 사항이 정상적으로 동작하는지 확인한다. : http://localhost:1313/OpenChain-KWG/
+로컬의 develop branch에서 **npm run serve**하여 Pull Request 수정 사항이 정상적으로 동작하는지 확인한다. : http://localhost:1313/
 
 (국문과 영문을 함께 확인한다.)
 

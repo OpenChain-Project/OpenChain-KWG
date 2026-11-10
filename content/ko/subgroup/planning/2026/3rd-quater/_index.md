@@ -30,7 +30,7 @@ description: >
    - 4분기: 현대오토에버 삼성동
    - 2027년 장소는 메일링리스트로 모집
 3. 30차 모임(카카오뱅크) 리뷰
-   - 자료 & 사진 : https://openchain-project.github.io/OpenChain-KWG/meeting/2026/30th/
+   - 자료 & 사진 : https://korea-wg.openchainproject.org/meeting/2026/30th/
    - 그룹 토의 소감 공유 및 조 편성 방식 개선 논의
 4. 31차 모임(CJ) 준비
    - 일시 / 장소: 2026-09-08 (화) @ CJ인재원

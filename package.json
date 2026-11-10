@@ -4,7 +4,7 @@
   "version.next": "0.10.1-dev.0-unreleased",
   "description": "OpenChain Korea Work Group.",
   "repository": "github:OpenChain-Project/OpenChain-KWG",
-  "homepage": "https://openchain-project.github.io/OpenChain-KWG",
+  "homepage": "https://korea-wg.openchainproject.org/",
   "author": "OpenChain Korea Work Group Authors",
   "license": "Apache-2.0",
   "bugs": "https://github.com/OpenChain-Project/OpenChain-KWG/issues",

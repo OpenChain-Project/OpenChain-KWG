@@ -104,7 +104,7 @@ The table below is a sample representative that specifies the roles of open sour
 
 ![](rolelist.png)
 
-This can also be found on this page. : [appendix-1-list-of-persons-in-charge](https://openchain-project.github.io/OpenChain-KWG/en/guide/governance_iso5230/appendix/1-policy-template/#appendix-1-list-of-persons-in-charge)
+This can also be found on this page. : [appendix-1-list-of-persons-in-charge](https://korea-wg.openchainproject.org/en/guide/governance_iso5230/appendix/1-policy-template/#appendix-1-list-of-persons-in-charge)
 
 
 If you organize in this way, you will now meet the following three requirements among the requirements of ISO/IEC 5230.

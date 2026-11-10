@@ -16,5 +16,5 @@ grouped by industry.
 ## Join us
 
 There is no membership fee and no approval process. See how to
-[join the mailing list](/OpenChain-KWG/en/about/subscribe/), and we hope to see you at the
-[next meeting](/OpenChain-KWG/en/meeting/).
+[join the mailing list](/en/about/subscribe/), and we hope to see you at the
+[next meeting](/en/meeting/).

@@ -21,15 +21,15 @@ KWG는 [다음과 같은 배경에서 설립](https://www.oss.kr/community_suppo
 2. 소프트웨어 공급망 내 모든 기업의 오픈소스 관리 수준 향상의 필요성.
 3. 기업 간 오픈소스 관리 노하우 공유의 중요성.
 
-KWG는 Linux Foundation의 OpenChain Project의 하위 그룹으로, 한국 기업들의 오픈소스 컴플라이언스를 지원하기 위해 [설립되었습니다](https://devocean.sk.com/opensource/techBoardDetail.do?ID=164691). 주요 대기업들의 오픈소스 담당자들이 참여하여 LG전자에서 2019년 1월 [첫 번째 모임](https://openchain-project.github.io/OpenChain-KWG/meeting/1st/)을 개최하면서 공식적으로 활동을 시작했습니다.
+KWG는 Linux Foundation의 OpenChain Project의 하위 그룹으로, 한국 기업들의 오픈소스 컴플라이언스를 지원하기 위해 [설립되었습니다](https://devocean.sk.com/opensource/techBoardDetail.do?ID=164691). 주요 대기업들의 오픈소스 담당자들이 참여하여 LG전자에서 2019년 1월 [첫 번째 모임](https://korea-wg.openchainproject.org/meeting/1st/)을 개최하면서 공식적으로 활동을 시작했습니다.
 
 ### 주요 성과
 
 KWG는 설립 이후 다음과 같은 주요 성과와 마일스톤을 달성했습니다:
 
-1. **정기 모임 개최**: 매 분기마다 [정기 모임](https://openchain-project.github.io/OpenChain-KWG/meeting/)을 진행하며, 코로나 이후에는 3년 만에 오프라인 모임을 재개했습니다.
+1. **정기 모임 개최**: 매 분기마다 [정기 모임](https://korea-wg.openchainproject.org/meeting/)을 진행하며, 코로나 이후에는 3년 만에 오프라인 모임을 재개했습니다.
 2. **기업 간 협력 강화**: LG전자, SK텔레콤, 카카오, 현대자동차, 삼성전자 등 주요 기업들의 오픈소스 담당자들이 참여하여 협력을 강화했습니다.
-3. **오픈소스 관리 가이드 개발**: 기업들이 효과적으로 오픈소스를 관리할 수 있도록 상세한 [가이드](https://openchain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/)를 개발하고 공유했습니다.
+3. **오픈소스 관리 가이드 개발**: 기업들이 효과적으로 오픈소스를 관리할 수 있도록 상세한 [가이드](https://korea-wg.openchainproject.org/guide/opensource_for_enterprise/)를 개발하고 공유했습니다.
 4. **커뮤니티 확장**: 현재 약 70명의 멤버가 활발히 활동하며, 5-6년 이상의 지속적인 커뮤니티 활동을 통해 높은 수준의 전문성을 갖추게 되었습니다.
 5. **온라인 플랫폼 구축**: [GitHub](https://github.com/OpenChain-KWG)를 통해 문서와 자료를 공유하고, Discord 채널을 통해 멤버 간 소통을 활성화했습니다.
 
@@ -43,19 +43,19 @@ OpenChain Korea Work Group(KWG)은 오픈소스 컴플라이언스에 관심 있
 
 #### 모임 일정
 
-1. **주기**: KWG는 분기별로 [정기 모임](https://openchain-project.github.io/OpenChain-KWG/meeting/)을 개최합니다. 즉, 연 4회 모임이 있습니다.
+1. **주기**: KWG는 분기별로 [정기 모임](https://korea-wg.openchainproject.org/meeting/)을 개최합니다. 즉, 연 4회 모임이 있습니다.
 2. **일정 공지**: 다음 모임의 구체적인 날짜와 장소는 KWG 웹사이트와 메일링 리스트를 통해 공지됩니다.
 3. **최근 모임**:
-    - [21차 모임](https://openchain-project.github.io/OpenChain-KWG/meeting/21st/): 2024년 3월 26일 (화) / 카카오 판교아지트
-    - [22차 모임](https://openchain-project.github.io/OpenChain-KWG/meeting/22nd/): 2024년 6월 20일 (목) / CJ Talent Training Center
-    - [23차 모임](https://openchain-project.github.io/OpenChain-KWG/meeting/23rd/): 2024년 9월 10일 (화) / ETRI 서울사옥
+    - [21차 모임](https://korea-wg.openchainproject.org/meeting/21st/): 2024년 3월 26일 (화) / 카카오 판교아지트
+    - [22차 모임](https://korea-wg.openchainproject.org/meeting/22nd/): 2024년 6월 20일 (목) / CJ Talent Training Center
+    - [23차 모임](https://korea-wg.openchainproject.org/meeting/23rd/): 2024년 9월 10일 (화) / ETRI 서울사옥
 
 #### 참여 방법
 
 1. **가입 자격**: 소프트웨어를 개발하여 배포하는 한국 기업/기관에서 오픈소스 컴플라이언스 업무를 담당하는 분이라면 누구나 참여 가능합니다.
 2. **메일링 리스트 가입**:
     - KWG의 주요 소통 채널인 메일링 리스트에 가입해야 합니다.
-    - 가입 방법은 [KWG 웹사이트에](https://openchain-project.github.io/OpenChain-KWG/about/subscribe/)서 확인할 수 있습니다.
+    - 가입 방법은 [KWG 웹사이트에](https://korea-wg.openchainproject.org/about/subscribe/)서 확인할 수 있습니다.
 3. **사전 등록**:
     - 각 모임 전에 사전 등록 절차가 있을 수 있습니다.
     - 등록 방법은 메일링 리스트를 통해 공지됩니다.
@@ -66,7 +66,7 @@ OpenChain Korea Work Group(KWG)은 오픈소스 컴플라이언스에 관심 있
     - 주로 오프라인으로 진행되고 있습니다. (COVID-19에는 온라인으로 진행)
     - 참여 방식은 각 모임 공지 시 메일링 리스트로 안내됩니다.
 6. **자료 공유**:
-    - 모임에서 공유된 발표 자료는 대부분 [KWG 웹사이트](https://openchain-project.github.io/OpenChain-KWG/meeting/)나 [GitHub 저장소](https://github.com/OpenChain-KWG)를 통해 공개됩니다.
+    - 모임에서 공유된 발표 자료는 대부분 [KWG 웹사이트](https://korea-wg.openchainproject.org/meeting/)나 [GitHub 저장소](https://github.com/OpenChain-KWG)를 통해 공개됩니다.
     - 참가자들은 이를 통해 모임 내용을 복습하고 추가 학습할 수 있습니다.
 
 KWG 정기 모임은 오픈소스 컴플라이언스에 관심 있는 모든 이들에게 열려 있는 귀중한 학습과 네트워킹의 장입니다. 적극적인 참여를 통해 기업 간 협력을 도모하고, 오픈소스 관리 역량을 높일 수 있는 기회를 제공합니다.
@@ -79,7 +79,7 @@ OpenChain Korea Work Group(KWG)은 멤버들 간의 원활한 소통과 정보 �
 
 메일링 리스트는 KWG의 주요 공식 소통 채널입니다. 이 채널은 공식 공지, 모임 안내, 중요 토론, 자료 공유 등에 사용됩니다. 이 메일링 리스트를 통해 OpenChain KWG의 최신 소식, 이벤트 정보, 그리고 다른 멤버들과의 소통을 경험하실 수 있습니다. 오픈소스 컴플라이언스에 관심 있는 전문가들과 지식과 경험을 공유할 수 있는 좋은 기회가 될 것입니다.
 
-* [메일링 리스트](https://openchain-project.github.io/OpenChain-KWG/about/subscribe/) 주소: [korea-wg@lists.openchainproject.org](mailto:korea-wg@lists.openchainproject.org)
+* [메일링 리스트](https://korea-wg.openchainproject.org/about/subscribe/) 주소: [korea-wg@lists.openchainproject.org](mailto:korea-wg@lists.openchainproject.org)
 
 ##### 가입 방법:
 
@@ -97,7 +97,7 @@ OpenChain Korea Work Group(KWG)은 멤버들 간의 원활한 소통과 정보 �
 
 ##### 가입 문의:
 
-OpenChain KWG 가입과 관련하여 추가적인 문의사항이 있으시면 [Steering Committee](http://localhost:1313/OpenChain-KWG/subgroup/planning/)로 연락 주시기 바랍니다.
+OpenChain KWG 가입과 관련하여 추가적인 문의사항이 있으시면 [Steering Committee](https://korea-wg.openchainproject.org/subgroup/planning/)로 연락 주시기 바랍니다.
 
 
 ##### 메일링 리스트 사용 가이드:
@@ -153,7 +153,7 @@ Discord는 보다 가벼운 대화와 실시간 소통을 위한 채널입니다
     - Pull Request를 통해 직접 문서 수정을 제안할 수 있습니다.
     - Issues 섹션에서 새로운 아이디어나 문제점을 제기할 수 있습니다.
 2. 공식 웹사이트:
-    - 주소: [https://openchain-project.github.io/OpenChain-KWG/](https://openchain-project.github.io/OpenChain-KWG/)
+    - 주소: [https://korea-wg.openchainproject.org/](https://korea-wg.openchainproject.org/)
     - KWG의 공식 정보와 자료를 제공하는 웹사이트입니다.
     - 정기 모임 일정, 발표 자료, 활동 내역 등을 확인할 수 있습니다.
     - 웹사이트는 정기적으로 업데이트되므로, 자주 방문하여 최신 정보를 확인하세요.
@@ -233,30 +233,30 @@ OpenChain Korea Work Group(KWG)은 회원들의 오픈소스 관리 역량 강�
 
 ### KWG 웹사이트 주요 섹션 안내
 
-KWG 웹사이트([https://openchain-project.github.io/OpenChain-KWG/](https://openchain-project.github.io/OpenChain-KWG/))는 다음과 같은 주요 섹션으로 구성되어 있습니다:
+KWG 웹사이트([https://korea-wg.openchainproject.org/](https://korea-wg.openchainproject.org/))는 다음과 같은 주요 섹션으로 구성되어 있습니다:
 
-1. [About](https://openchain-project.github.io/OpenChain-KWG/about/): KWG의 소개, 가입 방법, 멤버 목록 등을 확인할 수 있습니다.
-2. [Meeting](https://openchain-project.github.io/OpenChain-KWG/meeting/): 정기 모임 일정과 과거 모임의 발표 자료를 제공합니다.
-3. [Resource](https://openchain-project.github.io/OpenChain-KWG/resource/): 오픈소스 관리에 필요한 각종 문서와 도구를 소개합니다.
-4. [Blog](https://openchain-project.github.io/OpenChain-KWG/blog/): KWG 멤버들의 오픈소스 관련 경험과 인사이트를 공유하는 공간입니다.
-5. [Subgroup](https://openchain-project.github.io/OpenChain-KWG/subgroup/): 특정 주제에 대해 심도 있게 다루는 소그룹 활동 정보를 제공합니다.
+1. [About](https://korea-wg.openchainproject.org/about/): KWG의 소개, 가입 방법, 멤버 목록 등을 확인할 수 있습니다.
+2. [Meeting](https://korea-wg.openchainproject.org/meeting/): 정기 모임 일정과 과거 모임의 발표 자료를 제공합니다.
+3. [Resource](https://korea-wg.openchainproject.org/resource/): 오픈소스 관리에 필요한 각종 문서와 도구를 소개합니다.
+4. [Blog](https://korea-wg.openchainproject.org/blog/): KWG 멤버들의 오픈소스 관련 경험과 인사이트를 공유하는 공간입니다.
+5. [Subgroup](https://korea-wg.openchainproject.org/subgroup/): 특정 주제에 대해 심도 있게 다루는 소그룹 활동 정보를 제공합니다.
 
 ### 기업 오픈소스 관리 가이드 활용법
 
-KWG에서 제공하는 "[기업 오픈소스 관리 가이드](https://openchain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/)"는 기업이 오픈소스를 효과적으로 관리하기 위한 종합적인 지침서입니다. 이 가이드의 활용 방법은 다음과 같습니다:
+KWG에서 제공하는 "[기업 오픈소스 관리 가이드](https://korea-wg.openchainproject.org/guide/opensource_for_enterprise/)"는 기업이 오픈소스를 효과적으로 관리하기 위한 종합적인 지침서입니다. 이 가이드의 활용 방법은 다음과 같습니다:
 
-1. 오픈소스 관리 조직 구축: 가이드의 “[조직](https://openchain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/1-teams/)” 섹션을 참고하여 자사의 상황에 맞는 조직을 구축합니다. 
-2. 오픈소스 정책 수립: 가이드의 "[정책](https://openchain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/2-policy/)" 섹션을 참고하여 자사의 상황에 맞는 정책을 수립합니다.
-3. 프로세스 구축: "[프로세스](https://openchain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/3-process/)" 부분을 활용하여 자사의 개발 환경에 맞는 프로세스를 설계합니다.
-4. 도구 선택: "[도구](https://openchain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/4-tool/)" 섹션에서 소개하는 다양한 도구 중 자사에 적합한 것을 선택합니다.
-5. 교육 프로그램 개발: "[교육](https://openchain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/5-training/)" 부분을 참고하여 임직원 대상 교육 프로그램을 개발합니다.
-6. 준수 선언: "[준수](https://openchain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/5-training/)" 섹션을 통해 자사의 컴플라이언스 수준을 점검하고, 준수 하고 있음을 선언합니다.
+1. 오픈소스 관리 조직 구축: 가이드의 “[조직](https://korea-wg.openchainproject.org/guide/opensource_for_enterprise/1-teams/)” 섹션을 참고하여 자사의 상황에 맞는 조직을 구축합니다. 
+2. 오픈소스 정책 수립: 가이드의 "[정책](https://korea-wg.openchainproject.org/guide/opensource_for_enterprise/2-policy/)" 섹션을 참고하여 자사의 상황에 맞는 정책을 수립합니다.
+3. 프로세스 구축: "[프로세스](https://korea-wg.openchainproject.org/guide/opensource_for_enterprise/3-process/)" 부분을 활용하여 자사의 개발 환경에 맞는 프로세스를 설계합니다.
+4. 도구 선택: "[도구](https://korea-wg.openchainproject.org/guide/opensource_for_enterprise/4-tool/)" 섹션에서 소개하는 다양한 도구 중 자사에 적합한 것을 선택합니다.
+5. 교육 프로그램 개발: "[교육](https://korea-wg.openchainproject.org/guide/opensource_for_enterprise/5-training/)" 부분을 참고하여 임직원 대상 교육 프로그램을 개발합니다.
+6. 준수 선언: "[준수](https://korea-wg.openchainproject.org/guide/opensource_for_enterprise/5-training/)" 섹션을 통해 자사의 컴플라이언스 수준을 점검하고, 준수 하고 있음을 선언합니다.
 
 ### 추천 외부 리소스 및 학습 자료 목록
 
 1. OpenChain Project 공식 자료:
-    - [OpenChain Specification](https://openchain-project.github.io/OpenChain-KWG/resource/specification/): 오픈소스 컴플라이언스 프로그램의 핵심 요구사항을 제공합니다.
-    - [OpenChain Curriculum](https://openchain-project.github.io/OpenChain-KWG/resource/curriculum/): 오픈소스 라이선스와 컴플라이언스에 대한 기본 교육 자료입니다.
+    - [OpenChain Specification](https://korea-wg.openchainproject.org/resource/specification/): 오픈소스 컴플라이언스 프로그램의 핵심 요구사항을 제공합니다.
+    - [OpenChain Curriculum](https://korea-wg.openchainproject.org/resource/curriculum/): 오픈소스 라이선스와 컴플라이언스에 대한 기본 교육 자료입니다.
 2. Linux Foundation 교육 과정:
     - [Open Source License Compliance Management (LFC193)](https://training.linuxfoundation.org/training/introduction-to-open-source-license-compliance-management-lfc193/): 기업의 오픈소스 컴플라이언스에 대한 종합적인 온라인 과정입니다.
 3. 오픈소스 라이선스 관련 자료:
@@ -357,7 +357,7 @@ OpenChain Korea Work Group(KWG)은 다양한 Subgroup을 통해 특정 분야에
 
 ### Tooling & Legal Subgroup
 
-2024년 8월, 기존의 [Tooling Subgroup](https://openchain-project.github.io/OpenChain-KWG/subgroup/tooling/)과 [Legal Subgroup](https://openchain-project.github.io/OpenChain-KWG/subgroup/legal/)이 통합되어 [Tooling & Legal Subgroup](https://openchain-project.github.io/OpenChain-KWG/subgroup/tooling-legal/)이 출범했습니다. 이 통합은 오픈소스 관리 도구와 법적 이슈를 함께 다룸으로써 더욱 효과적인 오픈소스 컴플라이언스를 달성하기 위한 목적으로 이루어졌습니다.
+2024년 8월, 기존의 [Tooling Subgroup](https://korea-wg.openchainproject.org/subgroup/tooling/)과 [Legal Subgroup](https://korea-wg.openchainproject.org/subgroup/legal/)이 통합되어 [Tooling & Legal Subgroup](https://korea-wg.openchainproject.org/subgroup/tooling-legal/)이 출범했습니다. 이 통합은 오픈소스 관리 도구와 법적 이슈를 함께 다룸으로써 더욱 효과적인 오픈소스 컴플라이언스를 달성하기 위한 목적으로 이루어졌습니다.
 
 #### 주요 활동:
 
@@ -379,7 +379,7 @@ OpenChain Korea Work Group(KWG)은 다양한 Subgroup을 통해 특정 분야에
 
 ### Conformance Subgroup
 
-[Conformance Subgroup](https://openchain-project.github.io/OpenChain-KWG/subgroup/conformance/)은 OpenChain 표준 준수를 위한 활동을 중점적으로 진행합니다.
+[Conformance Subgroup](https://korea-wg.openchainproject.org/subgroup/conformance/)은 OpenChain 표준 준수를 위한 활동을 중점적으로 진행합니다.
 
 OpenChain Project는 기업이 ISO/IEC 5230을 충족하는지 자체적으로 확인할 수 있도록 [온라인 자체 인증 방법](https://certification.openchainproject.org/)을 제공합니다. 
 
@@ -391,7 +391,7 @@ Conformance Group은 기업이 이러한 ISO/IEC 5230 Conformant 프로그램을
 
 각 Subgroup은 특정 분야에 관심 있는 KWG 회원 누구나 참여할 수 있습니다. 참여 방법은 다음과 같습니다:
 
-1. KWG 웹사이트([https://openchain-project.github.io/OpenChain-KWG/subgroup/](https://openchain-project.github.io/OpenChain-KWG/subgroup/))에서 Subgroup 정보 확인
+1. KWG 웹사이트([https://korea-wg.openchainproject.org/subgroup/](https://korea-wg.openchainproject.org/subgroup/))에서 Subgroup 정보 확인
 2. 관심 있는 Subgroup의 메일링 리스트에 가입
 3. Subgroup 리더에게 이메일로 참여 의사 전달
 4. 첫 미팅 참석 및 자기소개
@@ -400,7 +400,7 @@ Subgroup 활동을 통해 회원들은 자신의 전문 분야에서 더욱 깊�
 
 ## 7. OpenChain KWG 운영위원회 소개
 
-OpenChain Korea Work Group(KWG)의 [운영위원회(Steering Committee)](https://openchain-project.github.io/OpenChain-KWG/subgroup/planning/)는 KWG의 핵심 운영 조직으로, 그룹의 전반적인 방향성과 활동을 이끌어가는 중요한 역할을 담당합니다.
+OpenChain Korea Work Group(KWG)의 [운영위원회(Steering Committee)](https://korea-wg.openchainproject.org/subgroup/planning/)는 KWG의 핵심 운영 조직으로, 그룹의 전반적인 방향성과 활동을 이끌어가는 중요한 역할을 담당합니다.
 
 ### 운영위원회의 목적
 
@@ -457,7 +457,7 @@ OpenChain Korea Work Group(KWG)의 [운영위원회(Steering Committee)](https:/
 
 ### 운영위원회 임기 및 선발 절차
 
-운영위원회 임기와 선발 절차는 [Charter](https://openchain-project.github.io/OpenChain-KWG/about/charter/)에 따라 아래와 같습니다. 
+운영위원회 임기와 선발 절차는 [Charter](https://korea-wg.openchainproject.org/about/charter/)에 따라 아래와 같습니다. 
 
 1. 임기:
     - 운영위원회 위원의 임기는 2년입니다.
@@ -541,7 +541,7 @@ OpenChain 프로젝트는 오픈소스 소프트웨어의 효과적인 관리와
 2. [독립 평가](https://endjin.com/blog/2023/01/what-is-openchain-and-why-is-it-useful-part-three-the-openchain-specification-explained): OpenChain 공인 파트너를 통해 독립적인 평가를 받습니다.
 3. [제3자 인증](https://en.wikipedia.org/wiki/ISO/IEC_5230): 공인된 인증 기관을 통해 공식 인증을 획득합니다.
 
-표준 준수를 위한 자세한 방법은 다음의 [발표 자료](https://openchain-project.github.io/OpenChain-KWG/meeting/9th/OpenChain_Korea_20210311_howto.pptx)와 영상을 참고하실 수 있습니다.
+표준 준수를 위한 자세한 방법은 다음의 [발표 자료](https://korea-wg.openchainproject.org/meeting/9th/OpenChain_Korea_20210311_howto.pptx)와 영상을 참고하실 수 있습니다.
 
 {{< youtube id="ifauIfkRLT8" >}}
 
@@ -554,7 +554,7 @@ OpenChain 프로젝트는 오픈소스 소프트웨어의 효과적인 관리와
 5. 교육 및 인식 제고: 관련 직원들에게 새로운 프로세스에 대한 교육을 제공합니다.
 6. 모니터링 및 개선: 지속적으로 프로세스를 모니터링하고 개선합니다.
 
-이를 위한 자세한 방법은 [기업 오픈소스 관리 가이드](https://openchain-project.github.io/OpenChain-KWG/guide/opensource_for_enterprise/)를 참고할 수 있습니다. 
+이를 위한 자세한 방법은 [기업 오픈소스 관리 가이드](https://korea-wg.openchainproject.org/guide/opensource_for_enterprise/)를 참고할 수 있습니다. 
 
 OpenChain 표준을 준수함으로써, 기업은 오픈소스 소프트웨어를 더욱 효과적이고 안전하게 관리할 수 있으며, 이는 궁극적으로 기업의 혁신과 성장에 기여할 것입니다.
 

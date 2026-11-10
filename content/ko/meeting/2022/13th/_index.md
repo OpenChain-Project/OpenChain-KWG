@@ -86,9 +86,9 @@ aliases:
 5. OpenChain KWG Charter 초안 작성
     - 주요 내용으로는 Membership, Organization, 선거 등의 내용으로 정관 문서 작성 중
     - 2분기 모임에서 확정 후 시행 예정
-    - [https://openchain-project.github.io/OpenChain-KWG/about/charter/](https://openchain-project.github.io/OpenChain-KWG/about/charter/)
+    - [https://korea-wg.openchainproject.org/about/charter/](https://korea-wg.openchainproject.org/about/charter/)
 6. Blog Update
-    - [상용 AI 서비스에 공개 Dataset을 사용해도 되나요?](https://openchain-project.github.io/OpenChain-KWG/blog/2022/02/14/ai-dataset-copyright/)
+    - [상용 AI 서비스에 공개 Dataset을 사용해도 되나요?](https://korea-wg.openchainproject.org/blog/2022/02/14/ai-dataset-copyright/)
 
 
 ## 오픈소스 최신 동향 (Robin(황민호) / Kakao)

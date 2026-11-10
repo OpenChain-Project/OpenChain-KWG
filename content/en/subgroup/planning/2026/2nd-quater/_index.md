@@ -27,7 +27,7 @@ description: >
    - Q2: Kakao Bank, Yeouido (Jun 9)
    - Q3: CJ Institute of Human Resources, Jung-gu, Seoul (Sep 8)
 3. Review of the 29th meeting (LINE Plus)
-   - Slides & Photos : https://openchain-project.github.io/OpenChain-KWG/meeting/2026/29th/
+   - Slides & Photos : https://korea-wg.openchainproject.org/meeting/2026/29th/
 4. Preparation for the 2026 Q2 meeting
    - Session lineup and confirming presenters
    - Discussion format (group discussion / panel talk)

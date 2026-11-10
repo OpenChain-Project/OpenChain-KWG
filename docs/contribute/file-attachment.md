@@ -98,4 +98,4 @@ resources:
 {{< /imgproc >}}
 ```
 
-가이드 페이지에서 보여지는 이미지를 참고하세요. : [Guide](https://openchain-project.github.io/OpenChain-KWG/guide/)
+가이드 페이지에서 보여지는 이미지를 참고하세요. : [Guide](https://korea-wg.openchainproject.org/guide/)

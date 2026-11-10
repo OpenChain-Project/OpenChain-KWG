@@ -53,8 +53,8 @@ Total in 3656 ms
 $ npm run serve
 Building sites …
 ...
-Web Server is available at http://localhost:1313/OpenChain-KWG/ (bind address 127.0.0.1)
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
 Press Ctrl+C to stop
 ```
 
-이제 브라우저를 열고 http://localhost:1313/OpenChain-KWG/ 로 접속하세요. OpenChain KWG 웹사이트의 초기화면을 볼 수 있습니다!
+이제 브라우저를 열고 http://localhost:1313/ 로 접속하세요. OpenChain KWG 웹사이트의 초기화면을 볼 수 있습니다!

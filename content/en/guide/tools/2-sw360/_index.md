@@ -42,7 +42,7 @@ SW360은 다음 두 가지의 설치 방법을 제공한다. 사용자는 이 �
 1. Docker를 통해 Deploy 할 수 있다. : https://github.com/eclipse-sw360/sw360/blob/main/README_DOCKER.md 
 2. SW360의 구성요소를 개별적으로 설치할 수 있다. : [https://github.com/eclipse/sw360](https://github.com/eclipse/sw360)
 3. Vagrant \([https://www.vagrantup.com/](https://www.vagrantup.com/)\) 기반 설치 : Vagrant는 가상화 인스턴스를 관리하는 도구로서 sw360vagrant에서는 SW360을 한 번에 Deploy 하기 위한 환경을 제공한다. : [https://github.com/sw360/sw360vagrant](https://github.com/sw360/sw360vagrant)
-   - Vagrant 기반 설치 가이드는 [여기](https://openchain-project.github.io/OpenChain-KWG/guide/nipa_openchain/appendix/3-tools/sw360/#%EC%84%A4%EC%B9%98)에서 확인할 수 있다. (단, 가이드 작성 시점과 현재 코드가 상이하여 정상동작하지 않을 가능성이 있습니다.)
+   - Vagrant 기반 설치 가이드는 [여기](https://korea-wg.openchainproject.org/guide/nipa_openchain/appendix/3-tools/sw360/#%EC%84%A4%EC%B9%98)에서 확인할 수 있다. (단, 가이드 작성 시점과 현재 코드가 상이하여 정상동작하지 않을 가능성이 있습니다.)
 
 이 가이드에서는 `Docker`로 Deploy하는 방법을 소개한다. 자세한 사항은 README를 참고한다. : https://github.com/eclipse-sw360/sw360/blob/main/README_DOCKER.md
 

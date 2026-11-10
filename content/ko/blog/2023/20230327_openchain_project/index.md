@@ -103,7 +103,7 @@ OpenChain China Work Group에는 Huawie, Honor 및 OPPO와 같은 기업도 활�
 
 ### Current situation
 
-[OpenChain Korea Work Group](https://openchain-project.github.io/OpenChain-KWG/)은 규모나 열정 측면에서 일본에 이어 세계에서 두 번째로 영향력 있는 훌륭한 Work Group입니다. SK텔레콤, LG전자, 삼성전자, 현대자동차 등 주요 기업이 참여하고 있으며, NIPA에서도 후원 등의 방식으로 참여하고 있습니다. 
+[OpenChain Korea Work Group](https://korea-wg.openchainproject.org/)은 규모나 열정 측면에서 일본에 이어 세계에서 두 번째로 영향력 있는 훌륭한 Work Group입니다. SK텔레콤, LG전자, 삼성전자, 현대자동차 등 주요 기업이 참여하고 있으며, NIPA에서도 후원 등의 방식으로 참여하고 있습니다. 
 
 그러나 글로벌 경기 침체에서 한국도 자유롭지 못하다는 위기는 있습니다. 또한, [OpenChain Board](https://www.openchainproject.org/community)에 한국 기업 멤버가 없다는 점도 아쉽습니다. 
 
@@ -115,7 +115,7 @@ OpenChain Korea Work Group이 지금처럼 커뮤니티 미팅과 활동을 지�
 
 ## 글을 마치며
 
-OpenChain Project는 기업의 오픈소스 관리 영역도 오픈소스의 공유와 협업 방식을 적용하여 모두 함께 적은 비용과 리소스로 높은 수준의 리스크 관리 practice를 달성하기 위한 커뮤니티입니다. 이러한 취지에 공감하는 기업들이 모여 있는 곳이 [OpenChain Korea Work Group](https://openchain-project.github.io/OpenChain-KWG/)입니다. OpenChain Korea Work Group에는 100명에 가까운 기업의 오픈소스 담당자들이 메일링리스트에 가입하여 활동하고 있습니다. 마침 코로나 이후 3년만에 오프라인 모임이 3월 28일에 있었습니다. 다음 글에서 이에 대해 자세히 다루겠습니다. 
+OpenChain Project는 기업의 오픈소스 관리 영역도 오픈소스의 공유와 협업 방식을 적용하여 모두 함께 적은 비용과 리소스로 높은 수준의 리스크 관리 practice를 달성하기 위한 커뮤니티입니다. 이러한 취지에 공감하는 기업들이 모여 있는 곳이 [OpenChain Korea Work Group](https://korea-wg.openchainproject.org/)입니다. OpenChain Korea Work Group에는 100명에 가까운 기업의 오픈소스 담당자들이 메일링리스트에 가입하여 활동하고 있습니다. 마침 코로나 이후 3년만에 오프라인 모임이 3월 28일에 있었습니다. 다음 글에서 이에 대해 자세히 다루겠습니다. 
 
 Shane과의 미팅 세션 이후에는 SK텔레콤 Tech HR팀의 후원으로 맛있는 점심을 즐겼습니다. ([상기](https://kr.linkedin.com/in/ksangki)님 감사합니다~ ^^ )
 

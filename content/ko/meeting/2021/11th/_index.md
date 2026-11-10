@@ -84,7 +84,7 @@ aliases:
 4. OpenChain KWG Charter 
    * 거버넌스 문서화 진행 중
    * 초안을 작성하고 있으나 많은 분들의 의견이 필요합니다.
-5. Blog Update : [https://openchain-project.github.io/OpenChain-KWG/blog/]
+5. Blog Update : [https://korea-wg.openchainproject.org/blog/]
    * SK 텔레콤 개발자 소통 커뮤니티 DEVOCEON 론칭 뉴스
    * LG전자의 Fosslight 공개 뉴스
    * 카카오의 OLIVE 출시 뉴스
