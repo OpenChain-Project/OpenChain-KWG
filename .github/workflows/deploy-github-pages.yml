@@ -26,7 +26,7 @@ jobs:
         with:
           # package.json의 hugo-extended 버전과 맞춘다 — 'latest'였을 땐 로컬 빌드와 버전이
           # 어긋나 프로덕션 빌드가 재현되지 않고, Hugo가 올라갈 때마다 예고 없이 깨질 수 있었다.
-          hugo-version: '0.164.0'
+          hugo-version: '0.169.0'
           extended: true
 
       - name: Setup Node
@@ -69,3 +69,7 @@ jobs:
           # 저장소 용량의 큰 부분을 차지했다. gh-pages는 순수 빌드 산출물이라 이력을
           # 보존할 이유가 없다.
           force_orphan: true
+          # cname: gh-pages 루트에 CNAME 파일을 넣어 사용자 지정 도메인을 유지한다.
+          # force_orphan 으로 gh-pages를 매번 새로 만들기 때문에, 이 옵션이 없으면
+          # Settings > Pages 에서 넣은 도메인 설정이 다음 배포 때 지워진다.
+          cname: korea-wg.openchainproject.org

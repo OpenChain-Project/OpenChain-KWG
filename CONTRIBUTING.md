@@ -16,12 +16,12 @@ OpenChain KWG는 [Hugo](https://gohugo.io/) static site generator의 Theme인 [D
 
 ## 웹사이트 자료 추가
 
-OpenChain KWG의 모든 활동은 누구나 열람하고 사용할 수 있도록 웹사이트에 공개하고 있습니다. : https://openchain-project.github.io/OpenChain-KWG/
+OpenChain KWG의 모든 활동은 누구나 열람하고 사용할 수 있도록 웹사이트에 공개하고 있습니다. : https://korea-wg.openchainproject.org/
 
 이 웹사이트에는 주기적으로 생성되는 다음과 같은 자료를 추가하고 있습니다. 
 
-* [Resource](https://openchain-project.github.io/OpenChain-KWG/resource/) : OpenChain KWG에서 번역/생성한 자료 공개
-* [Meeting](https://openchain-project.github.io/OpenChain-KWG/meeting/) : OpenChain KWG 정기 모임 공지, 발표자료, 참석자, 회의록 등 자료 공개  (작성 방법 : [Meeting 내용 작성하기](docs/contribute/meeting.md))
+* [Resource](https://korea-wg.openchainproject.org/resource/) : OpenChain KWG에서 번역/생성한 자료 공개
+* [Meeting](https://korea-wg.openchainproject.org/meeting/) : OpenChain KWG 정기 모임 공지, 발표자료, 참석자, 회의록 등 자료 공개  (작성 방법 : [Meeting 내용 작성하기](docs/contribute/meeting.md))
 
 ### 새 미팅 페이지 생성 방법
 
@@ -72,8 +72,8 @@ git push origin master
 > 주의: `static/` 또는 `content/` 폴더에 PDF, PPTX 등 대용량 파일을
 > 직접 커밋하지 마세요. GitHub Pages 1GB 용량 한도를 초과할 수 있습니다.
 
-* [Subgroup](https://openchain-project.github.io/OpenChain-KWG/subgroup/) : OpenChain KWG Subgroup의 활동 자료 공개 (작성 방법 : [Subgroup 내용 작성하기](docs/contribute/subgroup.md))
-* [Blog](https://openchain-project.github.io/OpenChain-KWG/blog/) : OpenChain KWG 멤버가 작성하는 뉴스, 기술블로그 공개 (작성 방법 : [Blog 작성하기](docs/contribute/blog.md))
+* [Subgroup](https://korea-wg.openchainproject.org/subgroup/) : OpenChain KWG Subgroup의 활동 자료 공개 (작성 방법 : [Subgroup 내용 작성하기](docs/contribute/subgroup.md))
+* [Blog](https://korea-wg.openchainproject.org/blog/) : OpenChain KWG 멤버가 작성하는 뉴스, 기술블로그 공개 (작성 방법 : [Blog 작성하기](docs/contribute/blog.md))
 
 이러한 자료를 추가하는 데 기여하실 분을 모십니다. 자료를 추가하는 방법은 다음 페이지를 참고하세요!
 
@@ -85,7 +85,7 @@ git push origin master
 
 이러한 문서 번역에 기여해주세요. 
 
-문서 번역과 관련한 세부 사은 다음 페이지를 참고하세요. : https://openchain-project.github.io/OpenChain-KWG/resource/
+문서 번역과 관련한 세부 사은 다음 페이지를 참고하세요. : https://korea-wg.openchainproject.org/resource/
 
 ## 오픈소스 Tool 조사 및 사용법 공개
 
@@ -93,15 +93,15 @@ Open Source Compliance를 효율적으로 수행하기 위해서는 자동화 �
 
 여러 분들의 많은 기여를 부탁 드립니다. 
 
-기여 방법은 Tool 사용법을 작성하여 [Blog](https://openchain-project.github.io/OpenChain-KWG/blog/) 형태의 문서로 공개할 수 있고, [OpenChain KWG 정기 미팅](https://openchain-project.github.io/OpenChain-KWG/meeting/) 시 세미나 형태로 발표할 수도 있습니다. 
+기여 방법은 Tool 사용법을 작성하여 [Blog](https://korea-wg.openchainproject.org/blog/) 형태의 문서로 공개할 수 있고, [OpenChain KWG 정기 미팅](https://korea-wg.openchainproject.org/meeting/) 시 세미나 형태로 발표할 수도 있습니다. 
 
-또한, OpenChain KWG에는 [Tooling Subgroup](https://openchain-project.github.io/OpenChain-KWG/subgroup/tooling/)에서 오픈소스 도구에 대해 함께 연구하고 공유하고 있으니 참고하세요. 
+또한, OpenChain KWG에는 [Tooling Subgroup](https://korea-wg.openchainproject.org/subgroup/tooling/)에서 오픈소스 도구에 대해 함께 연구하고 공유하고 있으니 참고하세요. 
 
 ## 이외
 
 이외 다양한 형태의 기여를 필요로 합니다. 
 
-* 오픈소스 트렌드 조사 및 공유 ([Blog](https://openchain-project.github.io/OpenChain-KWG/blog/) 활용 가능)
+* 오픈소스 트렌드 조사 및 공유 ([Blog](https://korea-wg.openchainproject.org/blog/) 활용 가능)
 * 로고 제작
 * 정기 모임 준비
 * 회의록 작성

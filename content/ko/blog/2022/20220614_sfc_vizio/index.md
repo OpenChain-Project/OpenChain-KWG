@@ -104,7 +104,7 @@ SFC는 2021년 10월에 Vizio를 상대로 소송을 제기하였습니다. 당�
         1. breach of contract and 
         2. declaratory relief (선언적 판결)
             - 선언적 판결이란 미국의 민사소송법 내 절차로 판사가 민사소송에서 당사자들의 권리, 의무, 책임 등을 선언하는 것을 말하며 이때 어떤 이행 명령이나 조치, 또는 배상을 명령하지는 않음. 특허 등의 소송의 경우, 침해혐의자가 특허권자를 상대로 비침해, 무효, 권리 불행사의 확인을 구하는 소 또는 반소 등으로 사용됨.
-- 참고 : “[최근 소송 사례 : Stockfish v. ChessBase, SFC v. Vizio (박원재)](https://openchain-project.github.io/OpenChain-KWG/meeting/12th/)”
+- 참고 : “[최근 소송 사례 : Stockfish v. ChessBase, SFC v. Vizio (박원재)](https://korea-wg.openchainproject.org/meeting/12th/)”
 
 ### 2021-11-29
 

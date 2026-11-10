@@ -148,7 +148,7 @@ Ultimately, the company reaches the level where it can obtain ISO/IEC 5230 and I
 
 Companies offering independent evaluation include [AlektoMetis](https://alektometis.com/), [Source Code Control](https://sourcecodecontrol.co/), and others.
 
-In Korea, the [Conformance Group](https://openchain-project.github.io/OpenChain-KWG/subgroup/conformance/), a subgroup of the OpenChain Korea Work Group, operates as a community where companies discuss and share methods for complying with ISO/IEC 5230 and ISO/IEC 18974 independently. Any OpenChain Korea Work Group member is welcome to participate and receive assistance.
+In Korea, the [Conformance Group](https://korea-wg.openchainproject.org/subgroup/conformance/), a subgroup of the OpenChain Korea Work Group, operates as a community where companies discuss and share methods for complying with ISO/IEC 5230 and ISO/IEC 18974 independently. Any OpenChain Korea Work Group member is welcome to participate and receive assistance.
 
 ### (3) Third-party Certification
 
@@ -170,7 +170,7 @@ As of 2024, there are still few buyers or organizations that mandatorily require
 
 For detailed information on the self-certification process, you can refer to the following slides:
 
-* [OpenChain Korea 9th Meeting - How to Self Certify](https://openchain-project.github.io/OpenChain-KWG/meeting/9th/OpenChain_Korea_20210311_howto.pptx)
+* [OpenChain Korea 9th Meeting - How to Self Certify](https://korea-wg.openchainproject.org/meeting/9th/OpenChain_Korea_20210311_howto.pptx)
 
 
 
@@ -182,7 +182,7 @@ The [OpenChain Project](https://www.openchainproject.org/) provides a variety of
 <center>< OpenChain Curriculum, Source - https://www.openchainproject.org/resources ></center>
 {{< /imgproc >}}
 
-Much of the content in this guide is also based on materials published by OpenChain. Open source officers at each company are encouraged to look to OpenChain Resources first when they need policies, processes, or educational materials. These materials are also being translated into Korean. The [OpenChain Korea Work Group](https://openchain-project.github.io/OpenChain-KWG/) is leading these translation efforts. Anyone interested can [participate](https://openchain-project.github.io/OpenChain-KWG/resource/) in the Korean translation.
+Much of the content in this guide is also based on materials published by OpenChain. Open source officers at each company are encouraged to look to OpenChain Resources first when they need policies, processes, or educational materials. These materials are also being translated into Korean. The [OpenChain Korea Work Group](https://korea-wg.openchainproject.org/) is leading these translation efforts. Anyone interested can [participate](https://korea-wg.openchainproject.org/resource/) in the Korean translation.
 
 The OpenChain Project also runs various webinars and study groups to provide additional resources:
 
@@ -215,6 +215,6 @@ In 2023, a new standard for open source security assurance, ISO/IEC 18974, was a
 
 As of 2024, this trend is accelerating further. For example, [KT](https://www.kt.com/) announced in October 2024 that it had obtained ISO/IEC 18974 certification. This demonstrates that domestic companies are also actively adopting international standards for open source security management.
 
-The activities of the [OpenChain Korea Work Group](https://openchain-project.github.io/OpenChain-KWG/) are also becoming more vibrant. At the 22nd regular meeting held in June 2024, discussions were held on the current state of preparations for the ISO/IEC 18974 open source security standard and guidelines for SBOM-based SW supply chain management. This shows that domestic companies are actively embracing the ISO/IEC 5230 and ISO/IEC 18974 standards.
+The activities of the [OpenChain Korea Work Group](https://korea-wg.openchainproject.org/) are also becoming more vibrant. At the 22nd regular meeting held in June 2024, discussions were held on the current state of preparations for the ISO/IEC 18974 open source security standard and guidelines for SBOM-based SW supply chain management. This shows that domestic companies are actively embracing the ISO/IEC 5230 and ISO/IEC 18974 standards.
 
 This trend is expected to continue in the future. As the complexity of software supply chains increases and security threats grow, the importance of international standards such as ISO/IEC 5230 and ISO/IEC 18974 will only become greater. By complying with these standards, companies will be able to enhance the transparency of open source use and effectively manage security risks.

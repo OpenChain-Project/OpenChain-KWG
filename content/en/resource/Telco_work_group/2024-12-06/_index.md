@@ -35,7 +35,7 @@ Indian Computer Emergency Response Team (CERT-In)에서 2023년 10월에 발표�
 
 
 ### (참고) 인도 정부 발간 SBOM 가이드라인 한국어 번역
-- [인도 SBOM 가이드라인](https://openchain-project.github.io/OpenChain-KWG/guide/sbom_guide/)
+- [인도 SBOM 가이드라인](https://korea-wg.openchainproject.org/guide/sbom_guide/)
 
 ## 3. OpenChain Telco SBOM 가이드 개선 방안
 ### 버전 1.1 업데이트 제안사항

@@ -430,5 +430,5 @@ By effectively using open source management tools, companies can minimize the le
 >
 > **Additional considerations when using AI:**
 > - [§7. AI Compliance](../7-ai-compliance/) — AI coding tool usage policy and automatic CI/CD blocking
-> - [AI SBOM Guide](/OpenChain-KWG/guide/iso42001_guide/4-operation/2-ai-sbom/) — Generating AI SBOMs with cdxgen, Syft, and Dependency-Track (Korean)
-> - [§6.3 OpenSSF Model Signing](/OpenChain-KWG/guide/iso42001_guide/4-operation/3-supply-chain/#63-openssf-model-signing-도입-절차) — Model weight signing tools (Korean)
+> - [AI SBOM Guide](/guide/iso42001_guide/4-operation/2-ai-sbom/) — Generating AI SBOMs with cdxgen, Syft, and Dependency-Track (Korean)
+> - [§6.3 OpenSSF Model Signing](/guide/iso42001_guide/4-operation/3-supply-chain/#63-openssf-model-signing-도입-절차) — Model weight signing tools (Korean)

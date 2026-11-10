@@ -29,7 +29,7 @@ description: >
       - 우수 기여자 시상
 2. 굿즈 제작
 3. 2023년 운영위원회 Lead 선출
-   * 근거 조항 : [https://openchain-project.github.io/OpenChain-KWG/about/charter/#운영위원회](https://openchain-project.github.io/OpenChain-KWG/about/charter/#운영위원회)
+   * 근거 조항 : [https://korea-wg.openchainproject.org/about/charter/#운영위원회](https://korea-wg.openchainproject.org/about/charter/#운영위원회)
    * 임기 : ~2023년말
    * 결과 : 장학성 연임
 

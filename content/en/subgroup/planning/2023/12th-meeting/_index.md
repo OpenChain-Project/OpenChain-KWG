@@ -24,7 +24,7 @@ description: >
     - Election of steering committee members: Jiho Han, Seoyeon Lee, Haksung Jang, Soim Kim, Darae Ahn
     - Term: 2024.1~2025.12
 2. Review of the 19th KWG meeting
-   - Data & Photos: https://openchain-project.github.io/OpenChain-KWG/meeting/19th/
+   - Data & Photos: https://korea-wg.openchainproject.org/meeting/19th/
    - News: https://youtu.be/3-Rtyejx4vw?si=_8kDHgDT0bzE-upc
 3. Preparation for the 20th meeting
 4. Discussion of goods production

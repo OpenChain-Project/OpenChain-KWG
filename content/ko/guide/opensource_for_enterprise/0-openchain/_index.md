@@ -157,7 +157,7 @@ OpenChain 프로젝트는 자체 인증 방식을 권장합니다. 참고로, Op
 
 독립 평가를 제공하는 업체는 [AlektoMetis](https://alektometis.com/), [Source Code Control](https://sourcecodecontrol.co/) 등이 있습니다.
 
-국내에서는 OpenChain Korea Work Group의 Subgroup인 [Conformance Group](https://openchain-project.github.io/OpenChain-KWG/subgroup/conformance/)에서 기업간에 자체적으로 ISO/IEC 5230과 ISO/IEC 18974 준수를 위한 방법을 논의하고 공유하는 커뮤니티가 있습니다. OpenChain Korea Work Group 멤버라면 누구나 참여하여 도움을 받을 수 있습니다.
+국내에서는 OpenChain Korea Work Group의 Subgroup인 [Conformance Group](https://korea-wg.openchainproject.org/subgroup/conformance/)에서 기업간에 자체적으로 ISO/IEC 5230과 ISO/IEC 18974 준수를 위한 방법을 논의하고 공유하는 커뮤니티가 있습니다. OpenChain Korea Work Group 멤버라면 누구나 참여하여 도움을 받을 수 있습니다.
 
 ### (3) 타사 인증
 
@@ -179,7 +179,7 @@ OpenChain 프로젝트는 자체 인증 방식을 권장합니다. 참고로, Op
 
 또한, 자세한 자체 인증 방법은 다음 슬라이드를 참고할 수 있습니다:
 
-* [OpenChain Korea 9th Meeting - How to Self Certify](https://openchain-project.github.io/OpenChain-KWG/meeting/9th/OpenChain_Korea_20210311_howto.pptx)
+* [OpenChain Korea 9th Meeting - How to Self Certify](https://korea-wg.openchainproject.org/meeting/9th/OpenChain_Korea_20210311_howto.pptx)
 
 
 
@@ -191,7 +191,7 @@ OpenChain 프로젝트는 자체 인증 방식을 권장합니다. 참고로, Op
 <center>< OpenChain Curriculum, 출처 - https://www.openchainproject.org/resources ></center>
 {{< /imgproc >}}
 
-이 가이드의 많은 내용도 OpenChain에서 공개한 자료를 기반으로 작성하였습니다. 각 기업의 오픈소스 담당자는 정책, 프로세스, 교육자료가 필요하다면 OpenChain Resources를 먼저 찾아보기 바랍니다. 또한 이 자료는 한국어로도 번역되어 공개되고 있습니다. [OpenChain Korea Work Group](https://openchain-project.github.io/OpenChain-KWG/)에서 이러한 번역 작업을 주도하고 있습니다. 한국어 번역은 관심 있는 누구나 [참여](https://openchain-project.github.io/OpenChain-KWG/resource/)할 수 있습니다.
+이 가이드의 많은 내용도 OpenChain에서 공개한 자료를 기반으로 작성하였습니다. 각 기업의 오픈소스 담당자는 정책, 프로세스, 교육자료가 필요하다면 OpenChain Resources를 먼저 찾아보기 바랍니다. 또한 이 자료는 한국어로도 번역되어 공개되고 있습니다. [OpenChain Korea Work Group](https://korea-wg.openchainproject.org/)에서 이러한 번역 작업을 주도하고 있습니다. 한국어 번역은 관심 있는 누구나 [참여](https://korea-wg.openchainproject.org/resource/)할 수 있습니다.
 
 OpenChain 프로젝트는 또한 다양한 웨비나와 스터디 그룹을 운영하여 추가적인 리소스를 제공하고 있습니다:
 
@@ -224,7 +224,7 @@ ISO/IEC 5230과 ISO/IEC 18974 표준의 적용은 글로벌 소프트웨어 공�
 
 2024년 현재, 이러한 추세는 더욱 가속화되고 있습니다. 예를 들어, [KT](https://www.kt.com/)는 2024년 10월에 ISO/IEC 18974 인증을 획득했다고 발표했습니다. 이는 국내 기업들도 오픈소스 보안 관리에 대한 국제 표준을 적극적으로 도입하고 있음을 보여줍니다.
 
-또한, [OpenChain Korea Work Group](https://openchain-project.github.io/OpenChain-KWG/)의 활동도 활발해지고 있습니다. 2024년 6월에 열린 제22차 정기 모임에서는 ISO/IEC 18974 오픈소스 보안 표준 준비 현황과 SBOM 기반 SW공급망 관리 가이드라인에 대한 논의가 이루어졌습니다. 이는 국내 기업들이 ISO/IEC 5230과 ISO/IEC 18974 표준을 적극적으로 수용하고 있음을 보여줍니다.
+또한, [OpenChain Korea Work Group](https://korea-wg.openchainproject.org/)의 활동도 활발해지고 있습니다. 2024년 6월에 열린 제22차 정기 모임에서는 ISO/IEC 18974 오픈소스 보안 표준 준비 현황과 SBOM 기반 SW공급망 관리 가이드라인에 대한 논의가 이루어졌습니다. 이는 국내 기업들이 ISO/IEC 5230과 ISO/IEC 18974 표준을 적극적으로 수용하고 있음을 보여줍니다.
 
 이러한 추세는 앞으로도 계속될 것으로 예상됩니다. 소프트웨어 공급망의 복잡성이 증가하고 보안 위협이 늘어남에 따라, ISO/IEC 5230과 ISO/IEC 18974와 같은 국제 표준의 중요성은 더욱 커질 것으로 보입니다. 기업들은 이러한 표준을 준수함으로써 오픈소스 사용의 투명성을 높이고, 보안 리스크를 효과적으로 관리할 수 있을 것입니다.
 

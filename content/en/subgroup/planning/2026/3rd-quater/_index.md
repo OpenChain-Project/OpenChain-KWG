@@ -30,7 +30,7 @@ description: >
    - Q4: Hyundai AutoEver, Samseong-dong
    - Venues for 2027 to be sourced through the mailing list
 3. Review of the 30th meeting (Kakao Bank)
-   - Slides & Photos : https://openchain-project.github.io/OpenChain-KWG/meeting/2026/30th/
+   - Slides & Photos : https://korea-wg.openchainproject.org/meeting/2026/30th/
    - Feedback on the group discussion and how to organize the groups
 4. Preparation for the 31st meeting (CJ)
    - Date / Venue: September 8, 2026 (Tue) @ CJ Institute of Human Resources

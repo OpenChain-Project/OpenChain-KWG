@@ -29,7 +29,7 @@ description: Tooling & Legal Subgroup 19th Meeting
 ## Agenda
 | No | Subject           | Speaker | Slide |
 |----|-----------------|------|------|
-| 0  | Community Updates | SK Telecom, Jang Haksung | [LINK](https://openchain-project.github.io/OpenChain-KWG/resource/) |
+| 0  | Community Updates | SK Telecom, Jang Haksung | [LINK](https://korea-wg.openchainproject.org/resource/) |
 | 1  | Discussion on How to Write a License Notice | ETRI, Shin Hak-Chul | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2024/1_NoticeDocument_ETRI.pdf) |
 | 2  | Open Discussion : Open Source Analysis Tools | LG Electronics, Park Wonjae | N/A |
 | 3  | Build Tracing | Tjaldur Software, Armijn Hemel | [pdf](https://github.com/OpenChain-Project/OpenChain-KWG/releases/download/meeting-slides-2024/3_BuildTracing_TjaldurSoftware.pdf) |

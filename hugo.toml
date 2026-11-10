@@ -1,4 +1,4 @@
-baseURL = "https://openchain-project.github.io/OpenChain-KWG/"
+baseURL = "https://korea-wg.openchainproject.org/"
 title = "OpenChain KWG"
 
 # Language settings
@@ -219,21 +219,25 @@ enable = false
   # ko/en 양쪽에 바이트가 완전히 같은 이미지 395개(약 140MB)가 중복 저장돼 있던 문제를
   # content/shared/ 하나로 모으고 두 언어 모두에 마운트해 해결한다. 같은 상대경로 파일이
   # 언어별 디렉터리와 content/shared 양쪽에 있으면 언어별 디렉터리가 우선한다.
-  # sites.matrix 설정(신형 문법)은 이 Hugo 버전에서 언어별 마운트를 제대로 못 찾는 문제가
-  # 있어(빈 사이트로 빌드됨, 실측 확인) deprecated된 lang 키를 그대로 쓴다.
+  # 언어별 마운트는 sites.matrix로 지정한다. 예전 lang 키는 Hugo 0.168에서 제거되었다.
+  # (0.164 이하에서는 sites.matrix로 빈 사이트가 빌드되는 문제가 있었으니 버전을 내리지 말 것)
   [[module.mounts]]
     source = "content/ko"
     target = "content"
-    lang = "ko"
+    [module.mounts.sites.matrix]
+      languages = ["ko"]
   [[module.mounts]]
     source = "content/en"
     target = "content"
-    lang = "en"
+    [module.mounts.sites.matrix]
+      languages = ["en"]
   [[module.mounts]]
     source = "content/shared"
     target = "content"
-    lang = "ko"
+    [module.mounts.sites.matrix]
+      languages = ["ko"]
   [[module.mounts]]
     source = "content/shared"
     target = "content"
-    lang = "en"
+    [module.mounts.sites.matrix]
+      languages = ["en"]

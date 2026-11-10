@@ -102,7 +102,7 @@ SFC filed suit against Vizio in October 2021. The contents of the suit at the ti
         1. breach of contract and
         2. declaratory relief
             - Declaratory relief is a procedure within US civil procedure whereby a judge declares the rights, obligations, and responsibilities of the parties in a civil suit, without ordering any performance, action, or compensation. In patent and similar litigation, it is used by an alleged infringer as a claim or counterclaim against a patent holder to seek a declaration of non-infringement, invalidity, or unenforceability.
-    - See: "[Recent litigation cases: Stockfish v. ChessBase, SFC v. Vizio (Wonjae Park)](https://openchain-project.github.io/OpenChain-KWG/meeting/12th/)"
+    - See: "[Recent litigation cases: Stockfish v. ChessBase, SFC v. Vizio (Wonjae Park)](https://korea-wg.openchainproject.org/meeting/12th/)"
 
 ### 2021-11-29
 

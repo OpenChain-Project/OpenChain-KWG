@@ -14,8 +14,8 @@ Open source managers from companies that develop software products/services, or 
 You can sign up for [MAILING LIST](https://lists.openchainproject.org/g/korea-wg) of OpenChain KWG in the following way.
 
 * Please write your name / email / company / work in charge / motivation to join and send it by e-mail. : korea-sg-planning@lists.openchainproject.org
-* Applications are reviewed and approved by the﻿ [Steering Committee](/OpenChain-KWG/subgroup/planning/). 
+* Applications are reviewed and approved by the﻿ [Steering Committee](/subgroup/planning/). 
 
 ## Inquiry
-If you have any inquiries about joining the OpenChain KWG, please contact [Planning Group](/OpenChain-KWG/subgroup/planning/).
+If you have any inquiries about joining the OpenChain KWG, please contact [Planning Group](/subgroup/planning/).
 * Email: korea-sg-planning@lists.openchainproject.org

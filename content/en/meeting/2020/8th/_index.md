@@ -198,9 +198,9 @@ Mailing list member only
   - Contributor: Jongho Hong (LG Electronics)
   - The draft translation has been completed, but review is still required. We appreciate your contributions.
 - Release of in-house educational materials for Kakao/NCSoft
-  - Kakao: https://openchain-project.github.io/OpenChain-KWG/en/blog/2020/11/24/kakao-training-materials/
-  - NCSOFT: https://openchain-project.github.io/OpenChain-KWG/en/blog/2020/11/23/ncsoft-training-materials/
-- Planning Group activity start: https://openchain-project.github.io/OpenChain-KWG/en/subgroup/planning/
+  - Kakao: https://korea-wg.openchainproject.org/en/blog/2020/11/24/kakao-training-materials/
+  - NCSOFT: https://korea-wg.openchainproject.org/en/blog/2020/11/23/ncsoft-training-materials/
+- Planning Group activity start: https://korea-wg.openchainproject.org/en/subgroup/planning/
 - Received a citation from the Minister of Science, Technology, Information and Communication (in the field of merit in the development of the open SW industry): Haksung Jang, SK telecom - https://www.oss.kr/festival/award
 
 ### How will the OpenChain KWG meeting be held in the future?
@@ -208,7 +208,7 @@ Mailing list member only
   - There are a lot of sub-group meetings in Japan, and it would be nice if we could develop a sub-group or study group, but it will be possible only after the corona pendemic ends.
   - If you have any opinions on how KWG proceeds, please feel free to tell us!
 - Tooling Group Plan (Wonjae Park, LG Electronics)
-  - https://openchain-project.github.io/OpenChain-KWG/en/subgroup/tooling/
+  - https://korea-wg.openchainproject.org/en/subgroup/tooling/
   - I am personally studying an open source tool, and I want to induce participation by sharing the study contents in advance.
   - LG Electronics' fossology will be reviewed internally and disclosed by KWG.
 

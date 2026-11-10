@@ -197,9 +197,9 @@ _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_ -->
   - 기여자: 홍종호님(LG전자)
   - 1차 번역은 완료됐지만, 어색한 표현이나 문장에 대한 의견이 필요합니다. 많은 기여 부탁 드립니다. 
 - 카카오/엔씨소프트 사내 교육자료 공개
-  - 카카오 : https://openchain-project.github.io/OpenChain-KWG/blog/2020/11/24/kakao-training-materials/  
-  - NCSOFT : https://openchain-project.github.io/OpenChain-KWG/blog/2020/11/23/ncsoft-training-materials/ 
-- Planning Group 활동 시작 : https://openchain-project.github.io/OpenChain-KWG/subgroup/planning/ 
+  - 카카오 : https://korea-wg.openchainproject.org/blog/2020/11/24/kakao-training-materials/  
+  - NCSOFT : https://korea-wg.openchainproject.org/blog/2020/11/23/ncsoft-training-materials/ 
+- Planning Group 활동 시작 : https://korea-wg.openchainproject.org/subgroup/planning/ 
 - 과학기술정보통신부 장관상 표창 수상 (공개SW 산업발전 유공자부문) : 장학성 - https://www.oss.kr/festival/award 
 
 ### 기타: 앞으로 KWG 미팅 진행 방식을 어떻게 할까?
@@ -207,7 +207,7 @@ _<center> < designed by [@soimkim](https://github.com/soimkim) > </center>_ -->
   - 일본은 sub-group 모임이 많은데, 우리도 sub-group이나 스터디 그룹을 발전시켜보면 좋겠지만 코로나 상황이 진전되야 가능할 것
   - KWG 진행 방식에 대해 의견 있으시면 자유롭게 말씀해 주세요!
 - Tooling Group 진행 방향 (LG전자 박원재)
-  - https://openchain-project.github.io/OpenChain-KWG/subgroup/tooling/ 
+  - https://korea-wg.openchainproject.org/subgroup/tooling/ 
   - 새로 컨택이 온 오픈소스 툴을 개인적으로 공부 중이며, 공부한 내용을 선 공유하면서 참여를 유도하고자 함
   - LG전자에서 Fossology를 개선해서 사용하고 있는 부분을 내부적으로 검토해서 KWG에서 공개하겠음
 
