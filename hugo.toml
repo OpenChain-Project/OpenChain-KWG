@@ -145,7 +145,7 @@ offlineSearch = false
 prism_syntax_highlighting = false
 
 [params.copyright]
-  authors = """
+authors = """
 Copyright © The Linux Foundation®. All rights reserved. The Linux Foundation has 
 registered trademarks and uses trademarks. For more information, including terms 
 of use, privacy policy, and trademark usage, please see our 
@@ -154,7 +154,6 @@ of use, privacy policy, and trademark usage, please see our
 [Privacy Policy](http://www.linuxfoundation.org/privacy).
 Documentation distributed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0)
 """
-  from_year = 2019
 
 # User interface configuration
 [params.ui]
