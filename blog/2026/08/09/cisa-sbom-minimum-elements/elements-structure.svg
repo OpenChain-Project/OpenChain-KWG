@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" font-family="'Apple SD Gothic Neo','Noto Sans CJK KR','Malgun Gothic',sans-serif">
+  <defs>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+    <marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0,1 L7,4.5 L0,8 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect width="1000" height="560" fill="#ffffff"/>
+
+  <!-- 최상위 -->
+  <rect x="340" y="28" width="320" height="62" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#sh)"/>
+  <text x="500" y="55" text-anchor="middle" font-size="19" font-weight="700" fill="#0f172a">CISA 2026 SBOM 최소 요소</text>
+  <text x="500" y="77" text-anchor="middle" font-size="15" fill="#64748b">모두 23개 요소</text>
+
+  <!-- 분기선 -->
+  <path d="M500,90 L500,118" stroke="#94a3b8" stroke-width="1.4" fill="none"/>
+  <path d="M290,118 L710,118" stroke="#94a3b8" stroke-width="1.4" fill="none"/>
+  <path d="M290,118 L290,146" stroke="#94a3b8" stroke-width="1.4" fill="none" marker-end="url(#ar)"/>
+  <path d="M710,118 L710,146" stroke="#94a3b8" stroke-width="1.4" fill="none" marker-end="url(#ar)"/>
+
+  <!-- 2단 좌: 데이터 필드 -->
+  <rect x="70" y="152" width="440" height="72" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#sh)"/>
+  <text x="290" y="180" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">데이터 필드 17개</text>
+  <text x="290" y="204" text-anchor="middle" font-size="14" fill="#64748b">SBOM 문서에 실제로 담기는 값</text>
+
+  <!-- 2단 우: 운영 원칙 -->
+  <rect x="540" y="152" width="390" height="72" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#sh)"/>
+  <text x="735" y="180" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">운영 원칙 6개</text>
+  <text x="735" y="204" text-anchor="middle" font-size="14" fill="#64748b">조직이 정해야 하는 방식</text>
+
+  <!-- 3단 연결선 -->
+  <path d="M290,224 L290,248" stroke="#94a3b8" stroke-width="1.4" fill="none"/>
+  <path d="M170,248 L410,248" stroke="#94a3b8" stroke-width="1.4" fill="none"/>
+  <path d="M170,248 L170,276" stroke="#94a3b8" stroke-width="1.4" fill="none" marker-end="url(#ar)"/>
+  <path d="M410,248 L410,276" stroke="#94a3b8" stroke-width="1.4" fill="none" marker-end="url(#ar)"/>
+  <path d="M735,224 L735,276" stroke="#94a3b8" stroke-width="1.4" fill="none" marker-end="url(#ar)"/>
+
+  <!-- 3단 좌1: SBOM 메타데이터 -->
+  <rect x="70" y="282" width="200" height="188" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#sh)"/>
+  <text x="170" y="309" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">SBOM 메타데이터</text>
+  <text x="170" y="330" text-anchor="middle" font-size="15" fill="#334155">9개</text>
+  <rect x="112" y="343" width="116" height="26" rx="13" fill="#fdecea" stroke="#c0392b" stroke-width="1.1"/>
+  <text x="170" y="361" text-anchor="middle" font-size="14" font-weight="700" fill="#c0392b">이 중 신규 7개</text>
+  <text x="170" y="394" text-anchor="middle" font-size="13" fill="#64748b">작성자, 서명, 형식 이름</text>
+  <text x="170" y="414" text-anchor="middle" font-size="13" fill="#64748b">형식 버전, 생성 맥락</text>
+  <text x="170" y="434" text-anchor="middle" font-size="13" fill="#64748b">도구 이름, 도구 버전</text>
+  <text x="170" y="454" text-anchor="middle" font-size="13" fill="#64748b">타임스탬프, SBOM 버전</text>
+
+  <!-- 3단 좌2: 컴포넌트 데이터 -->
+  <rect x="310" y="282" width="200" height="188" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#sh)"/>
+  <text x="410" y="309" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">컴포넌트 데이터</text>
+  <text x="410" y="330" text-anchor="middle" font-size="15" fill="#334155">8개</text>
+  <rect x="352" y="343" width="116" height="26" rx="13" fill="#fdecea" stroke="#c0392b" stroke-width="1.1"/>
+  <text x="410" y="361" text-anchor="middle" font-size="14" font-weight="700" fill="#c0392b">이 중 신규 3개</text>
+  <text x="410" y="394" text-anchor="middle" font-size="13" fill="#64748b">해시 값, 해시 알고리즘</text>
+  <text x="410" y="414" text-anchor="middle" font-size="13" fill="#64748b">라이선스, 생산자, 이름</text>
+  <text x="410" y="434" text-anchor="middle" font-size="13" fill="#64748b">버전, 식별자</text>
+  <text x="410" y="454" text-anchor="middle" font-size="13" fill="#64748b">의존 관계</text>
+
+  <!-- 3단 우: 운영 원칙 항목 -->
+  <rect x="540" y="282" width="390" height="188" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#sh)"/>
+  <text x="735" y="309" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">여섯 가지 원칙</text>
+  <text x="735" y="330" text-anchor="middle" font-size="13" fill="#94a3b8">신규 없음. 모두 2021년 요소의 개정</text>
+  <text x="570" y="362" font-size="14" fill="#334155">커버리지 — 어디까지 훑을 것인가</text>
+  <text x="570" y="386" font-size="14" fill="#334155">주기 — 언제 다시 만들 것인가</text>
+  <text x="570" y="410" font-size="14" fill="#334155">미상 표기 — 모르는 것을 어떻게 적을 것인가</text>
+  <text x="570" y="434" font-size="14" fill="#334155">기계 처리 가능성 — 어떤 형식을 받을 것인가</text>
+  <text x="570" y="458" font-size="14" fill="#334155">배포와 전달, 갱신 수용</text>
+
+  <!-- 하단 요지 -->
+  <path d="M70,500 L930,500" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="500" y="527" text-anchor="middle" font-size="15" fill="#334155">신규 요소 10개 가운데 7개가 SBOM 문서 자체를 설명하는 항목입니다.</text>
+  <text x="500" y="548" text-anchor="middle" font-size="15" fill="#334155">누가, 어떤 도구로, 어느 단계에서 만들었는지를 문서가 스스로 밝히도록 요구합니다.</text>
+</svg>
