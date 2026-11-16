@@ -90,8 +90,9 @@ draft: false
     <div class="kwg-conf-tl__time">14:45–15:10</div>
     <div class="kwg-conf-tl__marker"></div>
     <div class="kwg-conf-tl__body">
-      <div class="kwg-conf-tl__title">Session 2. AI 코딩 도구 환경에서의 오픈소스 컴플라이언스 관리 실무</div>
-      <div class="kwg-conf-tl__by">백송하 · 현대자동차</div>
+      <div class="kwg-conf-tl__title">Session 2. 오픈소스로 보는 PQC 전환</div>
+      <div class="kwg-conf-tl__by">채진영 프로 · 삼성SDS</div>
+      <p class="kwg-conf-tl__desc">양자내성암호(PQC, Post-Quantum Cryptography)로 왜 바꿔야 하는지, 새 알고리즘과 오픈소스 현황, 전환 방법을 살펴봅니다.</p>
     </div>
   </div>
   <div class="kwg-conf-tl kwg-conf-tl--muted">
@@ -106,9 +107,9 @@ draft: false
     <div class="kwg-conf-tl__time">15:25–15:50</div>
     <div class="kwg-conf-tl__marker"></div>
     <div class="kwg-conf-tl__body">
-      <div class="kwg-conf-tl__title">Session 3. 오픈소스로 보는 PQC 전환</div>
-      <div class="kwg-conf-tl__by">채진영 프로 · 삼성SDS</div>
-      <p class="kwg-conf-tl__desc">양자내성암호(PQC, Post-Quantum Cryptography)로 왜 바꿔야 하는지, 새 알고리즘과 오픈소스 현황, 전환 방법을 살펴봅니다.</p>
+      <div class="kwg-conf-tl__title">Session 3. AI 코딩 도구 환경에서의 오픈소스 컴플라이언스 관리 실무</div>
+      <div class="kwg-conf-tl__by">백송하 책임 · 현대자동차</div>
+      <p class="kwg-conf-tl__desc">AI 코딩 도구를 쓰는 개발 환경에서 오픈소스 컴플라이언스를 관리하는 실무를 공유합니다.</p>
     </div>
   </div>
   <div class="kwg-conf-tl kwg-conf-tl--session">
@@ -116,7 +117,7 @@ draft: false
     <div class="kwg-conf-tl__marker"></div>
     <div class="kwg-conf-tl__body">
       <div class="kwg-conf-tl__title">Session 4. 2026, 3살 오소리 성장일기</div>
-      <div class="kwg-conf-tl__by">김소임 · LG전자</div>
+      <div class="kwg-conf-tl__by">김소임 책임 · LG전자</div>
       <p class="kwg-conf-tl__desc">오소리(OSORI)의 2026년 업데이트를 공유합니다.</p>
     </div>
   </div>
