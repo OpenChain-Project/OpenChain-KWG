@@ -90,8 +90,9 @@ draft: false
     <div class="kwg-conf-tl__time">14:45–15:10</div>
     <div class="kwg-conf-tl__marker"></div>
     <div class="kwg-conf-tl__body">
-      <div class="kwg-conf-tl__title">Session 2. Practical Open Source Compliance Management in the Age of AI Coding Tools</div>
-      <div class="kwg-conf-tl__by">Songha Baek · Hyundai Motor Company</div>
+      <div class="kwg-conf-tl__title">Session 2. The PQC Transition Through Open Source</div>
+      <div class="kwg-conf-tl__by">Jinyoung Chae · Samsung SDS</div>
+      <p class="kwg-conf-tl__desc">Why we need to switch to post-quantum cryptography (PQC), the new algorithms, the state of open source implementations, and how to migrate.</p>
     </div>
   </div>
   <div class="kwg-conf-tl kwg-conf-tl--muted">
@@ -106,9 +107,9 @@ draft: false
     <div class="kwg-conf-tl__time">15:25–15:50</div>
     <div class="kwg-conf-tl__marker"></div>
     <div class="kwg-conf-tl__body">
-      <div class="kwg-conf-tl__title">Session 3. The PQC Transition Through Open Source</div>
-      <div class="kwg-conf-tl__by">Jinyoung Chae · Samsung SDS</div>
-      <p class="kwg-conf-tl__desc">Why we need to switch to post-quantum cryptography (PQC), the new algorithms, the state of open source implementations, and how to migrate.</p>
+      <div class="kwg-conf-tl__title">Session 3. Practical Open Source Compliance Management in the Age of AI Coding Tools</div>
+      <div class="kwg-conf-tl__by">Song-ha Baek, Senior Manager · Hyundai Motor Company</div>
+      <p class="kwg-conf-tl__desc">Shares practical experience in managing open source compliance in development environments that use AI coding tools.</p>
     </div>
   </div>
   <div class="kwg-conf-tl kwg-conf-tl--session">
@@ -116,7 +117,7 @@ draft: false
     <div class="kwg-conf-tl__marker"></div>
     <div class="kwg-conf-tl__body">
       <div class="kwg-conf-tl__title">Session 4. 2026, A Growth Diary of the 3-Year-Old OSORI</div>
-      <div class="kwg-conf-tl__by">Soim Kim · LG Electronics</div>
+      <div class="kwg-conf-tl__by">Soim Kim, Senior Manager · LG Electronics</div>
       <p class="kwg-conf-tl__desc">Shares the 2026 updates of OSORI.</p>
     </div>
   </div>
