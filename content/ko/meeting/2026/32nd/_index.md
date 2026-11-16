@@ -60,7 +60,94 @@ draft: false
 
 ## 아젠다
 
-세부 아젠다와 발표자는 확정되는 대로 안내합니다. 메일링리스트와 이 페이지에서 확인하실 수 있습니다.
+<div class="kwg-conf-timeline">
+  <div class="kwg-conf-tl">
+    <div class="kwg-conf-tl__time">14:00–14:05</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Welcome &amp; Greetings</div>
+      <div class="kwg-conf-tl__by">현대오토에버</div>
+    </div>
+  </div>
+  <div class="kwg-conf-tl">
+    <div class="kwg-conf-tl__time">14:05–14:20</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">OpenChain Updates</div>
+      <div class="kwg-conf-tl__by">운영진</div>
+    </div>
+  </div>
+  <div class="kwg-conf-tl kwg-conf-tl--session">
+    <div class="kwg-conf-tl__time">14:20–14:45</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Session 1. 개발환경 &amp; 오픈소스</div>
+      <div class="kwg-conf-tl__by">이지현 책임 · 현대오토에버</div>
+      <p class="kwg-conf-tl__desc">개발 단계의 오픈소스 점검 환경을 개선하면서 얻은 고민을 공유합니다.</p>
+    </div>
+  </div>
+  <div class="kwg-conf-tl kwg-conf-tl--session">
+    <div class="kwg-conf-tl__time">14:45–15:10</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Session 2. AI 코딩 도구 환경에서의 오픈소스 컴플라이언스 관리 실무</div>
+      <div class="kwg-conf-tl__by">백송하 · 현대자동차</div>
+    </div>
+  </div>
+  <div class="kwg-conf-tl kwg-conf-tl--muted">
+    <div class="kwg-conf-tl__time">15:10–15:25</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">휴식 및 네트워킹</div>
+      <div class="kwg-conf-tl__by">Coffee break</div>
+    </div>
+  </div>
+  <div class="kwg-conf-tl kwg-conf-tl--session">
+    <div class="kwg-conf-tl__time">15:25–15:50</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Session 3. 오픈소스로 보는 PQC 전환</div>
+      <div class="kwg-conf-tl__by">채진영 프로 · 삼성SDS</div>
+      <p class="kwg-conf-tl__desc">양자내성암호(PQC, Post-Quantum Cryptography)로 왜 바꿔야 하는지, 새 알고리즘과 오픈소스 현황, 전환 방법을 살펴봅니다.</p>
+    </div>
+  </div>
+  <div class="kwg-conf-tl kwg-conf-tl--session">
+    <div class="kwg-conf-tl__time">15:50–16:15</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Session 4. 2026, 3살 오소리 성장일기</div>
+      <div class="kwg-conf-tl__by">김소임 · LG전자</div>
+      <p class="kwg-conf-tl__desc">오소리(OSORI)의 2026년 업데이트를 공유합니다.</p>
+    </div>
+  </div>
+  <div class="kwg-conf-tl">
+    <div class="kwg-conf-tl__time">16:15–16:40</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">패널 토크</div>
+      <div class="kwg-conf-tl__by">발표자 전원 · 진행 운영진</div>
+      <p class="kwg-conf-tl__desc">오늘 발표해 주신 분들을 패널로 모시고, 참석자의 질문을 받아 이야기를 나눕니다.</p>
+    </div>
+  </div>
+  <div class="kwg-conf-tl">
+    <div class="kwg-conf-tl__time">16:40–16:50</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">2026 시상식</div>
+      <div class="kwg-conf-tl__by">운영진</div>
+    </div>
+  </div>
+  <div class="kwg-conf-tl">
+    <div class="kwg-conf-tl__time">16:50–17:00</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">마무리 및 단체 사진 촬영</div>
+      <div class="kwg-conf-tl__by">운영진</div>
+    </div>
+  </div>
+</div>
+
+<p class="kwg-conf-note">세션 제목과 시간은 준비 상황에 따라 조정될 수 있습니다. 확정 내용은 이 페이지와 메일링리스트로 안내드립니다.</p>
 
 <!--
 첨부파일 업로드 방법:
