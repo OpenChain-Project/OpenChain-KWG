@@ -60,7 +60,94 @@ draft: false
 
 ## Agenda
 
-The detailed agenda and speakers will be announced once confirmed, via the mailing list and this page.
+<div class="kwg-conf-timeline">
+  <div class="kwg-conf-tl">
+    <div class="kwg-conf-tl__time">14:00–14:05</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Welcome &amp; Greetings</div>
+      <div class="kwg-conf-tl__by">Hyundai AutoEver</div>
+    </div>
+  </div>
+  <div class="kwg-conf-tl">
+    <div class="kwg-conf-tl__time">14:05–14:20</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">OpenChain Updates</div>
+      <div class="kwg-conf-tl__by">KWG Steering Committee</div>
+    </div>
+  </div>
+  <div class="kwg-conf-tl kwg-conf-tl--session">
+    <div class="kwg-conf-tl__time">14:20–14:45</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Session 1. Development Environment &amp; Open Source</div>
+      <div class="kwg-conf-tl__by">Jihyun Lee, Senior Manager · Hyundai AutoEver</div>
+      <p class="kwg-conf-tl__desc">Shares the challenges encountered while improving the open source check environment at the development stage.</p>
+    </div>
+  </div>
+  <div class="kwg-conf-tl kwg-conf-tl--session">
+    <div class="kwg-conf-tl__time">14:45–15:10</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Session 2. Practical Open Source Compliance Management in the Age of AI Coding Tools</div>
+      <div class="kwg-conf-tl__by">Songha Baek · Hyundai Motor Company</div>
+    </div>
+  </div>
+  <div class="kwg-conf-tl kwg-conf-tl--muted">
+    <div class="kwg-conf-tl__time">15:10–15:25</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Break &amp; Networking</div>
+      <div class="kwg-conf-tl__by">Coffee break</div>
+    </div>
+  </div>
+  <div class="kwg-conf-tl kwg-conf-tl--session">
+    <div class="kwg-conf-tl__time">15:25–15:50</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Session 3. The PQC Transition Through Open Source</div>
+      <div class="kwg-conf-tl__by">Jinyoung Chae · Samsung SDS</div>
+      <p class="kwg-conf-tl__desc">Why we need to switch to post-quantum cryptography (PQC), the new algorithms, the state of open source implementations, and how to migrate.</p>
+    </div>
+  </div>
+  <div class="kwg-conf-tl kwg-conf-tl--session">
+    <div class="kwg-conf-tl__time">15:50–16:15</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Session 4. 2026, A Growth Diary of the 3-Year-Old OSORI</div>
+      <div class="kwg-conf-tl__by">Soim Kim · LG Electronics</div>
+      <p class="kwg-conf-tl__desc">Shares the 2026 updates of OSORI.</p>
+    </div>
+  </div>
+  <div class="kwg-conf-tl">
+    <div class="kwg-conf-tl__time">16:15–16:40</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Panel Talk</div>
+      <div class="kwg-conf-tl__by">All Speakers · Moderated by the Steering Committee</div>
+      <p class="kwg-conf-tl__desc">Today's speakers join a panel and take questions from the audience.</p>
+    </div>
+  </div>
+  <div class="kwg-conf-tl">
+    <div class="kwg-conf-tl__time">16:40–16:50</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">2026 Awards</div>
+      <div class="kwg-conf-tl__by">Steering Committee</div>
+    </div>
+  </div>
+  <div class="kwg-conf-tl">
+    <div class="kwg-conf-tl__time">16:50–17:00</div>
+    <div class="kwg-conf-tl__marker"></div>
+    <div class="kwg-conf-tl__body">
+      <div class="kwg-conf-tl__title">Wrap-up &amp; Group Photo</div>
+      <div class="kwg-conf-tl__by">Steering Committee</div>
+    </div>
+  </div>
+</div>
+
+<p class="kwg-conf-note">Session titles and times may change depending on preparation. Confirmed details will be announced on this page and via the mailing list.</p>
 
 <!--
 Slide upload instructions:
