@@ -1,0 +1,62 @@
+version = 1
+
+# 1. Default rule: Everything in the repository (and all new content from Nov 12, 2026)
+# is dedicated to the public domain under CC0-1.0 unless overridden below.
+[[annotations]]
+path = "**"
+precedence = "closest"
+SPDX-FileCopyrightText = "The OpenChain KWG Authors"
+SPDX-License-Identifier = "CC0-1.0"
+
+# 2. Guides (and all sub-pages/assets) remaining under CC-BY-4.0 (Korean & English)
+[[annotations]]
+path = [
+    "content/*/guide/iso5230_guide/**",
+    "content/*/guide/iso18974_guide/**",
+    "content/*/guide/opensource_for_enterprise/**",
+    "content/*/guide/finance-oss-guide/**",
+    "content/*/guide/iso42001_guide/**",
+    "content/*/guide/ai-sbom_guide/**",
+    "content/*/guide/templates/**",
+    "content/*/guide/tools/**",
+    "content/*/guide/training-slides/**",
+    "content/*/guide/archive/governance_iso5230/**",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "The OpenChain KWG Authors"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# 3. Korean translations of third-party CC-BY-4.0 resources
+[[annotations]]
+path = [
+    "content/*/resource/sbom_work_group/sbom_guide/**",
+    "content/*/resource/telco_work_group/telco_sbom/**",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "Original Authors and The OpenChain KWG Authors"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# 4. Pre-November 12, 2026 blog posts
+[[annotations]]
+path = [
+    "content/*/blog/2019/**",
+    "content/*/blog/2020/**",
+    "content/*/blog/2021/**",
+    "content/*/blog/2022/**",
+    "content/*/blog/2023/**",
+    "content/*/blog/2024/**",
+    "content/*/blog/2025/**",
+    "content/*/blog/2026/01/**",
+    "content/*/blog/2026/02/**",
+    "content/*/blog/2026/03/**",
+    "content/*/blog/2026/04/**",
+    "content/*/blog/2026/05/**",
+    "content/*/blog/2026/06/**",
+    "content/*/blog/2026/07/**",
+    "content/*/blog/2026/08/**",
+    "content/*/blog/2026/09/**",
+    "content/*/blog/2026/10/**",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "The OpenChain KWG Authors"
+SPDX-License-Identifier = "CC-BY-4.0"

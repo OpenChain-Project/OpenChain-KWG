@@ -30,3 +30,13 @@ OpenChain KWG always welcomes your contributions. We develop and grow with each 
 
 If you have any inquiries/requests to OpenChain KWG, please contact us through the Mailing List. : [Contact](https://korea-wg.openchainproject.org/about/contact/)  
 
+
+## License
+
+Unless otherwise noted, all materials in this repository—and all new content published on or after **November 12, 2026**—are dedicated to the public domain under **[CC0 1.0 Universal](LICENSES/CC0-1.0.txt)**.
+
+The following legacy guides, third-party translations, and pre-November 12, 2026 blog posts remain licensed under **[CC BY 4.0](LICENSES/CC-BY-4.0.txt)** (see [`REUSE.toml`](REUSE.toml) for machine-readable path mappings):
+
+- **Guides** (including all sub-pages): `iso5230_guide`, `iso18974_guide`, `opensource_for_enterprise`, `finance-oss-guide`, `iso42001_guide`, `ai-sbom_guide`, `templates`, `tools`, `training-slides`, and `archive/governance_iso5230`
+- **Resources (Korean translations)**: `resource/sbom_work_group/sbom_guide` and `resource/telco_work_group/telco_sbom`
+- **Blog posts**: All 31 blog posts published prior to November 12, 2026
