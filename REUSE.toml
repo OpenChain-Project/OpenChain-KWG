@@ -1,37 +1,17 @@
 version = 1
 
 # Later annotations take precedence over earlier ones when several match the same file.
-#
-# Licensing history: documentation published before November 12, 2026 was
-# released under CC-BY-4.0. Documentation published on or after that date is
-# dedicated to the public domain under CC0-1.0. Existing CC-BY-4.0 material
-# cannot be moved to CC0-1.0 without the agreement of its copyright holders,
-# so the default below stays CC-BY-4.0 and CC0-1.0 is applied only to new
-# content.
 
-# 1. Default rule: everything not matched below is CC-BY-4.0.
-# precedence = "closest" lets a file's own SPDX header win, so a new page
-# outside the blog is placed under CC0-1.0 by adding to its front matter:
-#   SPDX-FileCopyrightText: The OpenChain KWG Authors
-#   SPDX-License-Identifier: CC0-1.0
+# 1. Default rule: documentation and all new content published on or after
+# November 12, 2026 is dedicated to the public domain under CC0-1.0.
+# Specific older materials that remain under CC-BY-4.0 are listed below.
 [[annotations]]
 path = "**"
 precedence = "closest"
 SPDX-FileCopyrightText = "The OpenChain KWG Authors"
-SPDX-License-Identifier = "CC-BY-4.0"
-
-# 2. Blog posts are CC0-1.0 by default; posts published before
-# November 12, 2026 are returned to CC-BY-4.0 in rule 7.
-# No CC0-1.0 content exists yet, so LICENSES/CC0-1.0.txt is not in the repo
-# (REUSE rejects unused license texts). When the first CC0-1.0 file is added,
-# `reuse lint` will report it as missing; add it with `reuse download CC0-1.0`.
-[[annotations]]
-path = "content/*/blog/**"
-precedence = "override"
-SPDX-FileCopyrightText = "The OpenChain KWG Authors"
 SPDX-License-Identifier = "CC0-1.0"
 
-# 3. Website code stays under Apache-2.0.
+# 2. Website code stays under Apache-2.0.
 [[annotations]]
 path = [
     "layouts/**",
@@ -71,7 +51,7 @@ precedence = "override"
 SPDX-FileCopyrightText = ["The OpenChain KWG Authors", "The Docsy Authors"]
 SPDX-License-Identifier = "Apache-2.0"
 
-# 4. Bundled third-party assets keep their upstream licenses.
+# 3. Bundled third-party assets keep their upstream licenses.
 [[annotations]]
 path = "static/vendor/jquery/**"
 precedence = "override"
@@ -84,9 +64,7 @@ precedence = "override"
 SPDX-FileCopyrightText = "The Roboto Project Authors and The JetBrains Mono Project Authors"
 SPDX-License-Identifier = "OFL-1.1"
 
-# 5. Guides (and all sub-pages/assets) remaining under CC-BY-4.0 (Korean & English).
-# These are already covered by the default, but are listed explicitly so they
-# stay CC-BY-4.0 if the default ever changes.
+# 4. Guides (and all sub-pages/assets) remaining under CC-BY-4.0 (Korean & English).
 [[annotations]]
 path = [
     "content/*/guide/_index.md",
@@ -105,7 +83,7 @@ precedence = "override"
 SPDX-FileCopyrightText = "The OpenChain KWG Authors"
 SPDX-License-Identifier = "CC-BY-4.0"
 
-# 6. Korean translations of third-party CC-BY-4.0 resources.
+# 5. Korean translations of third-party CC-BY-4.0 resources.
 # Directory names are case-sensitive.
 [[annotations]]
 path = [
@@ -116,14 +94,10 @@ precedence = "override"
 SPDX-FileCopyrightText = "Original Authors and The OpenChain KWG Authors"
 SPDX-License-Identifier = "CC-BY-4.0"
 
-# 7. Blog posts published before November 12, 2026
-# (post directories are named YYYYMMDD_slug), plus blog index and sample pages
-# that predate the change.
+# 6. Blog posts published before November 12, 2026
+# (post directories are named YYYYMMDD_slug)
 [[annotations]]
 path = [
-    "content/*/blog/_index.md",
-    "content/*/blog/2026/_index.md",
-    "content/*/blog/sample/**",
     "content/*/blog/2019/**",
     "content/*/blog/2020/**",
     "content/*/blog/2021/**",
@@ -149,7 +123,7 @@ precedence = "override"
 SPDX-FileCopyrightText = "The OpenChain KWG Authors"
 SPDX-License-Identifier = "CC-BY-4.0"
 
-# 8. Logos, trademarks, and quoted press materials belong to their owners
+# 7. Logos, trademarks, and quoted press materials belong to their owners
 # and are not licensed by the OpenChain KWG.
 [[annotations]]
 path = [
