@@ -108,7 +108,7 @@ draft: false
     <div class="kwg-conf-tl__marker"></div>
     <div class="kwg-conf-tl__body">
       <div class="kwg-conf-tl__title">Session 3. Practical Open Source Compliance Management in the Age of AI Coding Tools</div>
-      <div class="kwg-conf-tl__by">Song-ha Baek, Senior Manager · Hyundai Motor Company</div>
+      <div class="kwg-conf-tl__by">Song-ha Baek, Group Leader · Hyundai Motor Company</div>
       <p class="kwg-conf-tl__desc">Shares practical experience in managing open source compliance in development environments that use AI coding tools.</p>
     </div>
   </div>
@@ -161,17 +161,19 @@ draft: false
   <div class="kwg-conf-speaker">
     <div class="kwg-conf-speaker__name">Jinyoung Chae</div>
     <div class="kwg-conf-speaker__role">Samsung SDS · Session 2</div>
-    <p class="kwg-conf-speaker__bio">Presented the ISO/IEC 18974 preparation status at the 22nd meeting in 2024 and the Cryptography Bill of Materials (CBOM) at the 28th meeting in 2025.</p>
+    <p class="kwg-conf-speaker__bio">Works in open source software security and compliance. Has experience running an open source security verification process by integrating Black Duck Hub scripts into the Jenkins build pipelines of the internal CI/CD environment.</p>
   </div>
   <div class="kwg-conf-speaker">
-    <div class="kwg-conf-speaker__name">Song-ha Baek, Senior Manager</div>
+    <img class="kwg-conf-speaker__photo" loading="lazy" src="song-ha-baek.jpg" alt="Song-ha Baek">
+    <div class="kwg-conf-speaker__name">Song-ha Baek, Group Leader</div>
     <div class="kwg-conf-speaker__role">Hyundai Motor Company · Session 3</div>
-    <p class="kwg-conf-speaker__bio">Presented Hyundai Motor's open source governance framework at the 8th meeting in 2020 and the Hyundai Motor Group ISO/IEC certification at the 15th meeting in 2022.</p>
+    <p class="kwg-conf-speaker__bio">Leads the Open Source Group at Hyundai Motor Company (Senior Research Engineer, Advanced IP Team), overseeing open source management in the automotive software supply chain and intellectual property strategy. Vice Chair of the Open Source Subcommittee at the Korea Intellectual Property Association (KINPA), leading cooperation between large companies and their suppliers on the open source ecosystem.</p>
   </div>
   <div class="kwg-conf-speaker">
+    <img class="kwg-conf-speaker__photo" loading="lazy" src="soim-kim.png" alt="Soim Kim">
     <div class="kwg-conf-speaker__name">Soim Kim, Senior Manager</div>
     <div class="kwg-conf-speaker__role">LG Electronics · Session 4</div>
-    <p class="kwg-conf-speaker__bio">Introduced OSORI at the 17th meeting in 2023 and the 27th meeting in 2025.</p>
+    <p class="kwg-conf-speaker__bio">Senior Research Engineer in the Open Source Task at the LG Electronics Software Engineering Lab, and an Open Source Program Manager (OSPM). Works on open source consulting and tool development, and on improving and integrating FOSSLight, LG Electronics' open source compliance system.</p>
   </div>
 </div>
 
