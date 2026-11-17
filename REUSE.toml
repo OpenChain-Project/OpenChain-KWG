@@ -1,14 +1,62 @@
 version = 1
 
-# 1. Default rule: Everything in the repository (and all new content from Nov 12, 2026)
-# is dedicated to the public domain under CC0-1.0 unless overridden below.
+# Later annotations take precedence over earlier ones when several match the same file.
+
+# 1. Default rule: documentation and all new content published on or after
+# November 12, 2026 is dedicated to the public domain under CC0-1.0.
 [[annotations]]
 path = "**"
 precedence = "closest"
 SPDX-FileCopyrightText = "The OpenChain KWG Authors"
 SPDX-License-Identifier = "CC0-1.0"
 
-# 2. Guides (and all sub-pages/assets) remaining under CC-BY-4.0 (Korean & English)
+# 2. Website code stays under Apache-2.0. Several files in layouts/ are
+# modified copies of Docsy templates, which are licensed under Apache-2.0.
+[[annotations]]
+path = [
+    "layouts/**",
+    "assets/scss/**",
+    "archetypes/**",
+    "i18n/**",
+    "docs/slides/v6/components/**",
+    "docs/slides/v6/setup/**",
+    "docs/slides/v6/styles/**",
+    "docs/slides/v6/*.json",
+    "docs/slides/v6/*.ts",
+    ".github/**",
+    ".vscode/**",
+    ".gitignore",
+    ".gitmodules",
+    ".hugo_build.lock",
+    "Dockerfile",
+    "docker-compose.yaml",
+    "package.json",
+    "package-lock.json",
+    "go.mod",
+    "go.sum",
+    "docsy.work",
+    "docsy.work.sum",
+    "hugo.toml",
+    "config.yaml",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "The OpenChain KWG Authors"
+SPDX-License-Identifier = "Apache-2.0"
+
+# 3. Bundled third-party assets keep their upstream licenses.
+[[annotations]]
+path = "static/vendor/jquery/**"
+precedence = "override"
+SPDX-FileCopyrightText = "OpenJS Foundation and other contributors"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "static/fonts/**"
+precedence = "override"
+SPDX-FileCopyrightText = "The Roboto Project Authors and The JetBrains Mono Project Authors"
+SPDX-License-Identifier = "OFL-1.1"
+
+# 4. Guides (and all sub-pages/assets) remaining under CC-BY-4.0 (Korean & English)
 [[annotations]]
 path = [
     "content/*/guide/iso5230_guide/**",
@@ -26,7 +74,7 @@ precedence = "override"
 SPDX-FileCopyrightText = "The OpenChain KWG Authors"
 SPDX-License-Identifier = "CC-BY-4.0"
 
-# 3. Korean translations of third-party CC-BY-4.0 resources
+# 5. Korean translations of third-party CC-BY-4.0 resources
 [[annotations]]
 path = [
     "content/*/resource/sbom_work_group/sbom_guide/**",
@@ -36,7 +84,8 @@ precedence = "override"
 SPDX-FileCopyrightText = "Original Authors and The OpenChain KWG Authors"
 SPDX-License-Identifier = "CC-BY-4.0"
 
-# 4. Pre-November 12, 2026 blog posts
+# 6. Blog posts published before November 12, 2026
+# (post directories are named YYYYMMDD_slug)
 [[annotations]]
 path = [
     "content/*/blog/2019/**",
@@ -46,17 +95,39 @@ path = [
     "content/*/blog/2023/**",
     "content/*/blog/2024/**",
     "content/*/blog/2025/**",
-    "content/*/blog/2026/01/**",
-    "content/*/blog/2026/02/**",
-    "content/*/blog/2026/03/**",
-    "content/*/blog/2026/04/**",
-    "content/*/blog/2026/05/**",
-    "content/*/blog/2026/06/**",
-    "content/*/blog/2026/07/**",
-    "content/*/blog/2026/08/**",
-    "content/*/blog/2026/09/**",
-    "content/*/blog/2026/10/**",
+    "content/*/blog/2026/202601*/**",
+    "content/*/blog/2026/202602*/**",
+    "content/*/blog/2026/202603*/**",
+    "content/*/blog/2026/202604*/**",
+    "content/*/blog/2026/202605*/**",
+    "content/*/blog/2026/202606*/**",
+    "content/*/blog/2026/202607*/**",
+    "content/*/blog/2026/202608*/**",
+    "content/*/blog/2026/202609*/**",
+    "content/*/blog/2026/202610*/**",
+    "content/*/blog/2026/2026110*/**",
+    "content/*/blog/2026/20261110*/**",
+    "content/*/blog/2026/20261111*/**",
 ]
 precedence = "override"
 SPDX-FileCopyrightText = "The OpenChain KWG Authors"
 SPDX-License-Identifier = "CC-BY-4.0"
+
+# 7. Logos, trademarks, and quoted press materials belong to their owners
+# and are not licensed by the OpenChain KWG.
+[[annotations]]
+path = [
+    "content/*/blog/news/**",
+    "static/images/content/about/logo/**",
+    "static/favicons/**",
+    "static/images/kwg-logo-nav.webp",
+    "static/kakao.png",
+    "static/lge.png",
+    "static/line.png",
+    "static/nipg-logo.png",
+    "static/samsung.png",
+    "assets/icons/logo-oc.svg",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "Respective trademark and copyright owners"
+SPDX-License-Identifier = "LicenseRef-ThirdParty"
