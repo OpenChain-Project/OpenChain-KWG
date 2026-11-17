@@ -150,6 +150,31 @@ draft: false
 
 <p class="kwg-conf-note">Session titles and times may change depending on preparation. Confirmed details will be announced on this page and via the mailing list.</p>
 
+## Speakers
+
+<div class="kwg-conf-speakers">
+  <div class="kwg-conf-speaker">
+    <div class="kwg-conf-speaker__name">Jihyun Lee, Senior Manager</div>
+    <div class="kwg-conf-speaker__role">Hyundai AutoEver · Session 1</div>
+    <p class="kwg-conf-speaker__bio">Presented the Hyundai Motor Group open source management system case (Hyundai AutoEver) at the 19th meeting in 2023.</p>
+  </div>
+  <div class="kwg-conf-speaker">
+    <div class="kwg-conf-speaker__name">Jinyoung Chae</div>
+    <div class="kwg-conf-speaker__role">Samsung SDS · Session 2</div>
+    <p class="kwg-conf-speaker__bio">Presented the ISO/IEC 18974 preparation status at the 22nd meeting in 2024 and the Cryptography Bill of Materials (CBOM) at the 28th meeting in 2025.</p>
+  </div>
+  <div class="kwg-conf-speaker">
+    <div class="kwg-conf-speaker__name">Song-ha Baek, Senior Manager</div>
+    <div class="kwg-conf-speaker__role">Hyundai Motor Company · Session 3</div>
+    <p class="kwg-conf-speaker__bio">Presented Hyundai Motor's open source governance framework at the 8th meeting in 2020 and the Hyundai Motor Group ISO/IEC certification at the 15th meeting in 2022.</p>
+  </div>
+  <div class="kwg-conf-speaker">
+    <div class="kwg-conf-speaker__name">Soim Kim, Senior Manager</div>
+    <div class="kwg-conf-speaker__role">LG Electronics · Session 4</div>
+    <p class="kwg-conf-speaker__bio">Introduced OSORI at the 17th meeting in 2023 and the 27th meeting in 2025.</p>
+  </div>
+</div>
+
 <!--
 Slide upload instructions:
 1. Go to the GitHub Releases page:

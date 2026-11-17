@@ -150,6 +150,31 @@ draft: false
 
 <p class="kwg-conf-note">세션 제목과 시간은 준비 상황에 따라 조정될 수 있습니다. 확정 내용은 이 페이지와 메일링리스트로 안내드립니다.</p>
 
+## 발표자 소개
+
+<div class="kwg-conf-speakers">
+  <div class="kwg-conf-speaker">
+    <div class="kwg-conf-speaker__name">이지현 책임</div>
+    <div class="kwg-conf-speaker__role">현대오토에버 · Session 1</div>
+    <p class="kwg-conf-speaker__bio">2023년 19차 모임에서 현대차그룹 오픈소스 관리시스템 구축 사례(현대오토에버)를 발표했습니다.</p>
+  </div>
+  <div class="kwg-conf-speaker">
+    <div class="kwg-conf-speaker__name">채진영 프로</div>
+    <div class="kwg-conf-speaker__role">삼성SDS · Session 2</div>
+    <p class="kwg-conf-speaker__bio">2024년 22차 모임에서 ISO/IEC 18974 준비 현황을, 2025년 28차 모임에서 CBOM(Cryptography Bill of Materials)을 발표했습니다.</p>
+  </div>
+  <div class="kwg-conf-speaker">
+    <div class="kwg-conf-speaker__name">백송하 책임</div>
+    <div class="kwg-conf-speaker__role">현대자동차 · Session 3</div>
+    <p class="kwg-conf-speaker__bio">2020년 8차 모임에서 현대자동차 오픈소스 거버넌스 체계 구축을, 2022년 15차 모임에서 현대차그룹 ISO/IEC 인증을 발표했습니다.</p>
+  </div>
+  <div class="kwg-conf-speaker">
+    <div class="kwg-conf-speaker__name">김소임 책임</div>
+    <div class="kwg-conf-speaker__role">LG전자 · Session 4</div>
+    <p class="kwg-conf-speaker__bio">2023년 17차와 2025년 27차 모임에서 OSORI를 소개했습니다.</p>
+  </div>
+</div>
+
 <!--
 첨부파일 업로드 방법:
 1. GitHub Releases 페이지 접속:
