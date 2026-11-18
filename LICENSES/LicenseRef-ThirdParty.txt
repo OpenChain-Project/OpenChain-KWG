@@ -1,0 +1,8 @@
+Third-party materials
+
+The files marked with this identifier are logos, trademarks, or quoted press
+materials that belong to their respective owners. They are included only to
+identify organizations or to quote and reference published articles.
+
+They are not licensed under CC0-1.0, CC-BY-4.0, or Apache-2.0 by the OpenChain
+Korea Work Group. All rights remain with their respective owners.
