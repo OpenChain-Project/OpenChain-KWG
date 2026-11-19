@@ -159,6 +159,7 @@ draft: false
     <p class="kwg-conf-speaker__bio">Presented the Hyundai Motor Group open source management system case (Hyundai AutoEver) at the 19th meeting in 2023.</p>
   </div>
   <div class="kwg-conf-speaker">
+    <img class="kwg-conf-speaker__photo" loading="lazy" src="jinyoung-chae.jpg" alt="Jinyoung Chae">
     <div class="kwg-conf-speaker__name">Jinyoung Chae</div>
     <div class="kwg-conf-speaker__role">Samsung SDS · Session 2</div>
     <p class="kwg-conf-speaker__bio">Works in open source software security and compliance. Has experience running an open source security verification process by integrating Black Duck Hub scripts into the Jenkins build pipelines of the internal CI/CD environment.</p>

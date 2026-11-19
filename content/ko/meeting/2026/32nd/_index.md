@@ -159,6 +159,7 @@ draft: false
     <p class="kwg-conf-speaker__bio">2023년 19차 모임에서 현대차그룹 오픈소스 관리시스템 구축 사례(현대오토에버)를 발표했습니다.</p>
   </div>
   <div class="kwg-conf-speaker">
+    <img class="kwg-conf-speaker__photo" loading="lazy" src="jinyoung-chae.jpg" alt="채진영 프로">
     <div class="kwg-conf-speaker__name">채진영 프로</div>
     <div class="kwg-conf-speaker__role">삼성SDS · Session 2</div>
     <p class="kwg-conf-speaker__bio">오픈소스 소프트웨어 보안과 컴플라이언스 분야에서 활동합니다. 사내 CI/CD 환경의 Jenkins 빌드 파이프라인에 Black Duck Hub 스크립트를 연동해 오픈소스 보안 검증 체계를 운영한 경험이 있습니다.</p>
