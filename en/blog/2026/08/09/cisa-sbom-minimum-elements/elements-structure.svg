@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="580" viewBox="0 0 1000 580" font-family="system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">
+  <defs>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+    <marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0,1 L7,4.5 L0,8 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect width="1000" height="580" fill="#ffffff"/>
+
+  <!-- top -->
+  <rect x="330" y="28" width="340" height="62" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#sh)"/>
+  <text x="500" y="55" text-anchor="middle" font-size="19" font-weight="700" fill="#0f172a">CISA 2026 SBOM Minimum Elements</text>
+  <text x="500" y="77" text-anchor="middle" font-size="15" fill="#64748b">23 elements in total</text>
+
+  <!-- branches -->
+  <path d="M500,90 L500,118" stroke="#94a3b8" stroke-width="1.4" fill="none"/>
+  <path d="M290,118 L710,118" stroke="#94a3b8" stroke-width="1.4" fill="none"/>
+  <path d="M290,118 L290,146" stroke="#94a3b8" stroke-width="1.4" fill="none" marker-end="url(#ar)"/>
+  <path d="M710,118 L710,146" stroke="#94a3b8" stroke-width="1.4" fill="none" marker-end="url(#ar)"/>
+
+  <!-- tier 2 left: data fields -->
+  <rect x="70" y="152" width="440" height="72" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#sh)"/>
+  <text x="290" y="180" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">17 Data Fields</text>
+  <text x="290" y="204" text-anchor="middle" font-size="14" fill="#64748b">Values actually carried in the SBOM document</text>
+
+  <!-- tier 2 right: operational practices -->
+  <rect x="540" y="152" width="390" height="72" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#sh)"/>
+  <text x="735" y="180" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">6 Operational Practices</text>
+  <text x="735" y="204" text-anchor="middle" font-size="14" fill="#64748b">Practices the organization must define</text>
+
+  <!-- tier 3 connectors -->
+  <path d="M290,224 L290,248" stroke="#94a3b8" stroke-width="1.4" fill="none"/>
+  <path d="M170,248 L410,248" stroke="#94a3b8" stroke-width="1.4" fill="none"/>
+  <path d="M170,248 L170,276" stroke="#94a3b8" stroke-width="1.4" fill="none" marker-end="url(#ar)"/>
+  <path d="M410,248 L410,276" stroke="#94a3b8" stroke-width="1.4" fill="none" marker-end="url(#ar)"/>
+  <path d="M735,224 L735,276" stroke="#94a3b8" stroke-width="1.4" fill="none" marker-end="url(#ar)"/>
+
+  <!-- tier 3 left 1: SBOM metadata -->
+  <rect x="70" y="282" width="200" height="210" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#sh)"/>
+  <text x="170" y="309" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">SBOM Metadata</text>
+  <text x="170" y="330" text-anchor="middle" font-size="15" fill="#334155">9 fields</text>
+  <rect x="112" y="343" width="116" height="26" rx="13" fill="#fdecea" stroke="#c0392b" stroke-width="1.1"/>
+  <text x="170" y="361" text-anchor="middle" font-size="14" font-weight="700" fill="#c0392b">7 of them new</text>
+  <text x="170" y="394" text-anchor="middle" font-size="13" fill="#64748b">Author, signature</text>
+  <text x="170" y="414" text-anchor="middle" font-size="13" fill="#64748b">Format name, version</text>
+  <text x="170" y="434" text-anchor="middle" font-size="13" fill="#64748b">Generation context</text>
+  <text x="170" y="454" text-anchor="middle" font-size="13" fill="#64748b">Tool name, tool version</text>
+  <text x="170" y="474" text-anchor="middle" font-size="13" fill="#64748b">Timestamp, SBOM version</text>
+
+  <!-- tier 3 left 2: component data -->
+  <rect x="310" y="282" width="200" height="210" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#sh)"/>
+  <text x="410" y="309" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">Component Data</text>
+  <text x="410" y="330" text-anchor="middle" font-size="15" fill="#334155">8 fields</text>
+  <rect x="352" y="343" width="116" height="26" rx="13" fill="#fdecea" stroke="#c0392b" stroke-width="1.1"/>
+  <text x="410" y="361" text-anchor="middle" font-size="14" font-weight="700" fill="#c0392b">3 of them new</text>
+  <text x="410" y="394" text-anchor="middle" font-size="13" fill="#64748b">Hash value, algorithm</text>
+  <text x="410" y="414" text-anchor="middle" font-size="13" fill="#64748b">License, producer</text>
+  <text x="410" y="434" text-anchor="middle" font-size="13" fill="#64748b">Name, version</text>
+  <text x="410" y="454" text-anchor="middle" font-size="13" fill="#64748b">Identifier</text>
+  <text x="410" y="474" text-anchor="middle" font-size="13" fill="#64748b">Dependency relationships</text>
+
+  <!-- tier 3 right: the six practices -->
+  <rect x="540" y="282" width="390" height="210" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#sh)"/>
+  <text x="735" y="309" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">The Six Practices</text>
+  <text x="735" y="330" text-anchor="middle" font-size="13" fill="#94a3b8">None new — all revised from the 2021 elements</text>
+  <text x="566" y="362" font-size="14" fill="#334155">Coverage — how far to scan</text>
+  <text x="566" y="388" font-size="14" fill="#334155">Frequency — when to regenerate</text>
+  <text x="566" y="414" font-size="14" fill="#334155">Unknowns — how to record what isn't known</text>
+  <text x="566" y="440" font-size="14" fill="#334155">Machine readability — which formats to accept</text>
+  <text x="566" y="466" font-size="14" fill="#334155">Distribution and delivery, accepting updates</text>
+
+  <!-- bottom summary -->
+  <path d="M70,520 L930,520" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="500" y="547" text-anchor="middle" font-size="15" fill="#334155">Seven of the 10 new elements describe the SBOM document itself.</text>
+  <text x="500" y="568" text-anchor="middle" font-size="15" fill="#334155">The document must declare who made it, with which tool, and at what stage.</text>
+</svg>
