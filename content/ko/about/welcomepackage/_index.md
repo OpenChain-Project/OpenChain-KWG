@@ -1,6 +1,6 @@
 ---
-title: "Welcome Package"
-linkTitle: "Welcome Package"
+title: "웰컴 패키지"
+linkTitle: "웰컴 패키지"
 weight: 1
 type: docs
 description: >

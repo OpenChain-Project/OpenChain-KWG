@@ -2,6 +2,8 @@
 title: "오픈소스 프로세스"
 weight: 20
 type: docs
+description: >
+  라이선스 의무를 준수하고 보안 취약점을 해결하기 위해 개발 단계별로 수행할 11단계 오픈소스 프로세스 템플릿입니다.
 categories: ["guide"]
 tags: ["프로세스"]
 ---

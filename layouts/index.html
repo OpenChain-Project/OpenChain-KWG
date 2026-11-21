@@ -86,7 +86,7 @@
   <section class="kwg-hero js-td-cover"{{ with $bgLg }} style="--kwg-hero-bg-sm: url('{{ $bgSm }}'); --kwg-hero-bg-md: url('{{ $bgMd }}'); --kwg-hero-bg-lg: url('{{ $bgLg }}')"{{ end }}>
     <div class="container kwg-hero__inner">
       <a class="kwg-hero__badge" href="https://openchainproject.org/" target="_blank" rel="noopener">Linux Foundation · OpenChain Project</a>
-      <h1 class="kwg-hero__title">OpenChain Korea<br>Work Group</h1>
+      <h1 class="kwg-hero__title">OpenChain Korea<br class="kwg-hero__br"> Work Group</h1>
       <p class="kwg-hero__sub">
         {{ if $ko }}한국 기업의 오픈소스 컴플라이언스 담당자들이 모여 지식과 경험을 나누는 커뮤니티입니다.{{ else }}A community where open source compliance practitioners at Korean companies share knowledge and experience.{{ end }}
       </p>
@@ -101,7 +101,8 @@
        "Session N. 제목" 형식의 .kwg-conf-tl__title 만 뽑아 쓴다. 본문에 없으면 목록만 생략한다. */}}
   {{ with $latest }}
   {{ $sessions := findRESubmatch `kwg-conf-tl__title">\s*Session\s+(\d+)\.\s*([^<]+?)\s*<` .Content }}
-  <section class="kwg-sec kwg-meeting">
+  <div class="kwg-glow">
+  <section class="kwg-meeting">
     <div class="kwg-meeting__info">
       <span class="kwg-eyebrow">{{ if $ko }}다음 정기 미팅{{ else }}Upcoming meeting{{ end }}</span>
       <h2 class="kwg-meeting__title">{{ if $ko }}{{ printf "%d차 정기 미팅" $latestWeight }}{{ else }}{{ .Title }}{{ end }}</h2>
@@ -117,6 +118,7 @@
     </ul>
     {{ end }}
   </section>
+  </div>
   {{ end }}
 
   {{/* 3. 가이드: 국제표준 / 실무와 분야별 두 묶음의 목록 */}}

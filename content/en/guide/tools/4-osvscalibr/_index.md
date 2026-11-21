@@ -2,6 +2,8 @@
 title: "OSV-SCALIBR"
 weight: 4
 type: docs
+description: >
+  A tool that identifies packages in file systems and container images and detects known vulnerabilities using the OSV database.
 categories: ["guide"]
 tags: ["OSV-SCALIBR", "SBOM", "vulnerability"]
 ---

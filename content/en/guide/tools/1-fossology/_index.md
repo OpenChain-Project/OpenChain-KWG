@@ -2,6 +2,8 @@
 title: "FOSSology"
 weight: 1
 type: docs
+description: >
+  A web-based scanner that detects license texts and copyright information in uploaded source code.
 ---
 
 오픈소스 컴플라이언스를 위해 소프트웨어 내에 포함된 오픈소스와 라이선스 정보를 검출하기 위해 소스코드 스캔 도구를 사용할 수 있다. 

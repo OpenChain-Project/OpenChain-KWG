@@ -2,6 +2,8 @@
 title: "cdxgen"
 weight: 5
 type: docs
+description: >
+  A tool that analyzes source code, build artifacts, and container images to generate SBOMs in CycloneDX format.
 categories: ["guide"]
 tags: ["cdxgen", "SBOM", "CycloneDX"]
 ---

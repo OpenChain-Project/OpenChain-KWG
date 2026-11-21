@@ -2,6 +2,8 @@
 title: "SCANOSS"
 weight: 9
 type: docs
+description: >
+  An SCA tool that identifies open source components at the file and snippet level to detect license and copyright information.
 categories: ["guide"]
 tags: ["SCANOSS", "SCA", "SBOM"]
 ---

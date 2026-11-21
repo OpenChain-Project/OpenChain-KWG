@@ -4,5 +4,5 @@ linkTitle: "2022"
 weight: 7978
 type: docs
 description: >
-  2022년에 개최된 OpenChain KWG 미팅 (13th ~ 16th)
+  2022년에 개최된 OpenChain KWG 미팅 (13차 ~ 16차)
 ---

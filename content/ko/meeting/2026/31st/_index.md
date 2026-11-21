@@ -1,6 +1,6 @@
 ---
-title: "31st Meeting"
-linkTitle: "31st · 2026.09 CJ"
+title: "31차 정기 미팅"
+linkTitle: "31차 · 2026.09 CJ"
 weight: 31
 type: meeting
 layout: landing

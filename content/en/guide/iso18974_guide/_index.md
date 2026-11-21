@@ -1,7 +1,7 @@
 ---
 title: "ISO/IEC 18974 Conformance Guide"
 linkTitle: "ISO/IEC 18974 Conformance Guide"
-weight: 30
+weight: 20
 type: docs
 categories: ["guide"]
 tags: ["ISO/IEC 18974", "Security Assurance", "OpenChain"]

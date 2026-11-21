@@ -2,6 +2,8 @@
 title: "FOSSLight"
 weight: 3
 type: docs
+description: >
+  A compliance toolkit made up of FOSSLight Scanner, which analyzes source code, dependencies, and binaries, and FOSSLight Hub, which manages the results.
 categories: ["guide"]
 tags: ["FOSSLight"]
 ---

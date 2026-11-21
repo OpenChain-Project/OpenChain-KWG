@@ -2,6 +2,8 @@
 title: "FOSSology"
 weight: 1
 type: docs
+description: >
+  업로드한 소스 코드에서 라이선스 텍스트와 Copyright 정보를 검출하는 웹 기반 스캔 도구입니다.
 categories: ["guide"]
 tags: ["fossology"]
 ---

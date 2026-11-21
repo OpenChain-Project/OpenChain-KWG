@@ -2,6 +2,8 @@
 title: "OSV-SCALIBR"
 weight: 4
 type: docs
+description: >
+  파일시스템과 컨테이너 이미지에서 패키지를 식별하고 OSV 데이터베이스로 알려진 취약점을 검출하는 도구입니다.
 categories: ["guide"]
 tags: ["OSV-SCALIBR", "SBOM", "취약점"]
 ---

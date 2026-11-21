@@ -1,9 +1,10 @@
 ---
-title: "Tools"
-linkTitle: "Tools"
+title: "도구"
+linkTitle: "도구"
 weight: 100
 type: docs
 description: >
+  오픈소스 관리에 필요한 라이선스 검출, SBOM 생성, 취약점 관리 도구를 소개하고 사용법을 안내합니다.
 ---
 
 

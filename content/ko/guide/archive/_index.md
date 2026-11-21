@@ -1,6 +1,6 @@
 ---
-title: "Archive"
-linkTitle: "Archive"
+title: "이전 버전 가이드"
+linkTitle: "이전 버전 가이드"
 weight: 900
 type: docs
 description: >

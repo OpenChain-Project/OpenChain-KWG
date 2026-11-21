@@ -2,6 +2,8 @@
 title: "Open Source Policy"
 weight: 10
 type: docs
+description: >
+  An open source policy template that sets out the principles and procedures for using open source safely and effectively.
 ---
 
 {{< alert title="Note:" >}}

@@ -2,6 +2,8 @@
 title: "SCANOSS"
 weight: 9
 type: docs
+description: >
+  오픈소스 컴포넌트를 파일과 코드 조각 단위로 식별해 라이선스와 저작권 정보를 검출하는 SCA 도구입니다.
 categories: ["guide"]
 tags: ["SCANOSS", "SCA", "SBOM"]
 ---

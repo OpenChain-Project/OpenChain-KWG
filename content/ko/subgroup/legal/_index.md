@@ -3,6 +3,9 @@ title: "Legal Group(미운영)"
 weight: 100
 type: docs
 description: Legal Group은 오픈소스 컴플라이언스와 관련된 분쟁 사례, 라이선스, 법률 쟁점에 대해 함께 학습하고 논의하기 위한 그룹입니다.
+# 운영을 마친 그룹: 사이드바와 서브그룹 목록에서 빼고 subgroup/_index.md 하단에 링크만 둔다
+toc_hide: true
+hide_summary: true
 ---
 
 {{% alert title="Tip" %}}

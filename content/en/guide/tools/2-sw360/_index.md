@@ -2,6 +2,8 @@
 title: "SW360"
 weight: 2
 type: docs
+description: >
+  A web application that tracks the open source components, licenses, and vulnerabilities used in each product and release.
 ---
 
 (Updated on August 29, 2023.)

@@ -2,6 +2,8 @@
 title: "오픈소스 정책"
 weight: 10
 type: docs
+description: >
+  회사가 오픈소스를 안전하고 효과적으로 활용하기 위한 원칙과 절차를 정한 오픈소스 정책 템플릿입니다.
 categories: ["guide"]
 tags: ["정책"]
 ---

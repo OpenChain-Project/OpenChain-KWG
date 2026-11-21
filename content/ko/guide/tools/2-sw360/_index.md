@@ -2,6 +2,8 @@
 title: "SW360"
 weight: 2
 type: docs
+description: >
+  제품과 릴리스별로 사용한 오픈소스 컴포넌트와 라이선스, 취약점 정보를 추적하는 웹 애플리케이션입니다.
 categories: ["guide"]
 tags: ["sw360"]
 ---

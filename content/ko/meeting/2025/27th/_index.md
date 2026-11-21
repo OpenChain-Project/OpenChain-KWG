@@ -1,6 +1,6 @@
 ---
-title: "27th Meeting"
-linkTitle: "27th · 2025.10 오픈소스 테크데이"
+title: "27차 정기 미팅"
+linkTitle: "27차 · 2025.10 오픈소스 테크데이"
 weight: 27
 type: docs
 categories: ["meeting"]

@@ -1,6 +1,6 @@
 ---
-title: "Curriculum"
-linkTitle: "Curriculum"
+title: "교육 과정"
+linkTitle: "교육 과정"
 weight: 3
 type: docs
 categories: ["resource"]
