@@ -342,22 +342,20 @@ h1.td-title { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
   box-shadow: $box-shadow;
 }
 
-// ── 홈 랜딩 (layouts/index.html) — ai.google.dev풍 ──────────────
+// ── 홈 랜딩 (layouts/index.html) ──────────────
+// 히어로(단체사진)만 어둡고, 그 아래는 본문 배경(라이트/다크 테마 변수)에 목록형으로 둔다.
 .kwg-home { overflow-x: hidden; }
-// 홈 body 자체를 다크로 — 100vw 히어로의 좌우 가장자리에 흰 배경이 비치지 않게
-.td-home { background-color: #060b11; }
-// Docsy .td-outer(container-fluid + td-block-padding)의 좌우 패딩 제거 → 콘텐츠가 진짜 풀폭
+// Docsy .td-outer(container-fluid + td-block-padding)의 좌우 패딩 제거 → 히어로가 진짜 풀폭
 .td-home .td-outer {
   padding-left: 0;
   padding-right: 0;
   max-width: none;
 }
-// 본문 콘텐츠 폭(블록·카드를 적당한 폭으로 가운데). 히어로만 100vw 풀폭
-.kwg-home .container { max-width: 1280px; }
 
 // 히어로: 단체사진 배경 + 다크 그라데이션 오버레이.
 // 배경 이미지 자체는 layouts/index.html이 --kwg-hero-bg-sm/md/lg 커스텀 프로퍼티로 3단계
 // 해상도를 넘기고, 실제로 어느 것을 쓸지는 아래 미디어쿼리가 고른다(뷰포트별 반응형).
+// 높이는 화면의 80%: 첫 화면 아래로 다음 미팅 영역이 보여 스크롤을 유도한다.
 $kwg-hero-overlay: linear-gradient(
   180deg,
   rgba(6, 20, 27, 0.92) 0%,
@@ -367,15 +365,14 @@ $kwg-hero-overlay: linear-gradient(
 );
 .kwg-hero {
   position: relative;
-  // Docsy 컨테이너 패딩을 벗어나 뷰포트 풀폭으로(배경이 좌우 끝까지)
   width: 100vw;
   left: 50%;
   margin-left: -50vw;
-  min-height: 100vh;
-  min-height: 100svh; // 모바일 주소창 변동 대응(small viewport height)
+  min-height: 80vh;
+  min-height: 80svh; // 모바일 주소창 변동 대응(small viewport height)
   display: flex;
-  align-items: flex-start;
-  padding: 9.5rem 0 5rem;
+  align-items: center;
+  padding: 7rem 0 4rem;
   text-align: center;
   background-color: #06141b;
   background-image: $kwg-hero-overlay, var(--kwg-hero-bg-sm);
@@ -390,36 +387,6 @@ $kwg-hero-overlay: linear-gradient(
   @include media-breakpoint-up(lg) {
     background-image: $kwg-hero-overlay, var(--kwg-hero-bg-lg);
   }
-}
-// 스크롤 유도 — 100svh 히어로 아래에 더 있다는 신호(디자인 #31). prefers-reduced-motion 존중.
-// 위치·바운스(translateX/Y)는 링크에, 화살표를 아래로 돌리는 회전은 아이콘에 따로 둬서
-// transform 합성 순서 문제(회전 좌표계에서 translateY가 옆으로 새는 문제) 없앰.
-.kwg-hero__scroll-cue {
-  position: absolute;
-  left: 50%;
-  bottom: $space-6;
-  z-index: 1;
-  display: inline-flex;
-  transform: translateX(-50%);
-  color: rgba(255, 255, 255, 0.65);
-  animation: kwg-scroll-cue-bounce 2s ease-in-out infinite;
-}
-.kwg-hero__scroll-cue .kwg-icon { transform: rotate(90deg); }
-.kwg-hero__scroll-cue:hover { color: #fff; }
-@keyframes kwg-scroll-cue-bounce {
-  0%, 100% { transform: translateX(-50%) translateY(0); }
-  50% { transform: translateX(-50%) translateY(6px); }
-}
-@media (prefers-reduced-motion: reduce) {
-  .kwg-hero__scroll-cue { animation: none; }
-}
-.kwg-hero::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(55% 45% at 50% 8%, rgba(2, 171, 184, 0.2), transparent 60%);
-  z-index: 0;
-  pointer-events: none;
 }
 .kwg-hero__inner { position: relative; z-index: 1; width: 100%; }
 .kwg-hero__badge {
@@ -437,7 +404,6 @@ $kwg-hero-overlay: linear-gradient(
   text-decoration: none;
   transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
 }
-// 배지가 링크일 때 — 클릭 가능 암시(hover 시 밝게)
 a.kwg-hero__badge:hover {
   background: rgba(255, 255, 255, 0.12);
   border-color: rgba(255, 255, 255, 0.4);
@@ -479,12 +445,9 @@ a.kwg-hero__badge:hover {
   font-weight: 500;
   background: linear-gradient(135deg, $primary, $secondary);
   border: none;
-  box-shadow: 0 8px 24px rgba(2, 171, 184, 0.3);
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 .kwg-hero__cta .btn-primary:hover {
-  box-shadow: 0 10px 30px rgba(2, 171, 184, 0.45);
-  transform: translateY(-1px);
+  background: linear-gradient(135deg, darken($primary, 6%), $primary);
 }
 .kwg-hero__cta .btn-outline-primary {
   border-radius: 2rem;
@@ -500,327 +463,179 @@ a.kwg-hero__badge:hover {
   color: #fff;
 }
 
-// 신뢰 요소 — 통계 띠(미팅·참여 기관·시작 연도). 커뮤니티 블록 안 피처와 채널 사이 배치
-.kwg-stats {
-  display: flex;
-  gap: $space-8;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-// 피처(소개) 텍스트 안에 통합 — 좌측 정렬, 작게
-.kwg-stats--inline {
-  justify-content: flex-start;
-  gap: $space-6;
-  margin: $space-5 0;
-}
-.kwg-stats--inline .kwg-stats__num { font-size: 1.8rem; } // 숫자 디스플레이(예외)
-.kwg-stats--inline .kwg-stats__label { font-size: $text-xs; }
-.kwg-stats__item { text-align: center; }
-.kwg-stats__num {
-  display: block;
-  font-size: 2.2rem; // 숫자 디스플레이(예외)
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  line-height: 1;
-  background: linear-gradient(135deg, #9fecf3, #c3b1f7);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: #fff; // 그라데이션 클립 미지원/무시 시 폴백(고대비·인쇄는 아래에서 한 번 더 보정)
-}
-@media (forced-colors: active), print {
-  .kwg-stats__num {
-    background: none;
-    -webkit-text-fill-color: currentColor;
-    color: CanvasText;
-  }
-}
-.kwg-stats__label {
-  display: block;
-  font-size: $text-sm;
-  color: rgba(255, 255, 255, 0.7);
-  margin-top: $space-2;
-}
-
 // 홈 네비바: 투명 위 흰 글씨(스크롤 시 Docsy navbar-bg-onscroll 가 솔리드 처리)
 .td-home .td-navbar.td-navbar-cover {
   background: transparent;
   box-shadow: none;
 }
 
-// 섹션 — 넉넉한 여백(ai.google.dev식 시원함). 다만 인접 섹션끼리 겹치면 13rem까지
-// 벌어져 화면 하나가 통째로 빈 공간이 돼 4.5rem으로 낮춤(디자인 #27).
-.kwg-section { padding: 4.5rem 0; }
-.kwg-section--alt { background: var(--bs-tertiary-bg); }
-.kwg-section__title {
-  font-size: 2.4rem; // 섹션 제목 디스플레이(예외)
-  font-weight: 600;
-  letter-spacing: -0.03em;
-  text-align: center;
-  margin-bottom: $space-3;
-}
-.kwg-section__lead {
-  text-align: center;
-  font-size: $text-lg;
-  color: var(--bs-secondary-color);
-  margin-bottom: $space-8;
-}
-
-// 큰 컨테이너 블록 (ai.google.dev식 섹션 카드: 피처 + 서브카드를 함께 감쌈)
-// 가이드 탭 패널(max-width 1140)과 폭을 맞춘다
-.kwg-block {
-  max-width: 1140px;
+// 히어로 아래 섹션 공통: 가운데 정렬된 본문 폭, 제목과 한 줄 설명만 두는 목록형
+.kwg-sec {
+  max-width: 1120px;
   margin: 0 auto;
-  padding: $space-8;
-  border-radius: 1.75rem;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  background:
-    radial-gradient(100% 100% at 100% 0%, rgba(2, 171, 184, 0.07), transparent 55%),
-    linear-gradient(160deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.008));
-  overflow: hidden;
+  padding: 7rem $space-5 0;
 }
-
-// 피처(상단): 좌측 텍스트 + 우측 추상 glow 비주얼. 블록은 풀폭이라 내부 콘텐츠만 가운데로 모음
-.kwg-feature {
-  display: grid;
-  grid-template-columns: 1.05fr 1fr;
-  gap: $space-7;
-  align-items: center;
-  max-width: 1140px;
-  margin: 0 auto $space-7;
-}
-.kwg-feature__title {
-  font-size: 2.1rem; // 피처 제목 디스플레이(예외)
+.kwg-sec:last-child { padding-bottom: 7rem; }
+.kwg-sec__title {
+  font-size: 1.75rem;
   font-weight: 600;
-  letter-spacing: -0.03em;
-  line-height: 1.15;
-  color: #fff;
-  margin-bottom: $space-4;
+  letter-spacing: -0.02em;
+  margin: 0 0 $space-2;
 }
-.kwg-feature__desc {
+.kwg-sec__title--spaced { margin-bottom: $space-6; }
+.kwg-sec__lead {
   font-size: $text-base;
-  color: rgba(255, 255, 255, 0.62);
-  line-height: 1.7;
-  margin-bottom: $space-6;
-  max-width: 460px;
+  color: var(--bs-secondary-color);
+  margin: 0 0 $space-7;
 }
-.kwg-btn-pill {
-  display: inline-block;
-  padding: $space-3 $space-5;
-  border-radius: 2rem;
-  font-weight: 500;
-  font-size: $text-base;
-  color: #fff;
+.kwg-eyebrow {
+  font-size: $text-sm;
+  font-weight: 600;
+  color: $primary;
+}
+.kwg-muted {
+  font-size: 0.95rem;
+  color: var(--bs-secondary-color);
+  margin: 0;
+}
+.kwg-link { font-size: $text-base; font-weight: 500; }
+
+// 목록 행(가이드·최근 글): 가는 구분선만 두고 행 전체를 링크로
+.kwg-row {
+  display: block;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--bs-border-color);
+  color: inherit;
   text-decoration: none;
-  background: linear-gradient(135deg, $primary, $secondary);
-  box-shadow: 0 8px 24px rgba(2, 171, 184, 0.3);
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
-.kwg-btn-pill:hover {
-  color: #fff;
-  transform: translateY(-1px);
-  box-shadow: 0 10px 30px rgba(2, 171, 184, 0.45);
+.kwg-row__title {
+  display: block;
+  font-size: 1.05rem;
+  font-weight: 600;
+  transition: color 0.15s ease;
+}
+.kwg-row:hover .kwg-row__title { color: $primary; }
+.kwg-row__desc {
+  display: block;
+  margin-top: $space-1;
+  font-size: 0.95rem;
+  color: var(--bs-secondary-color);
 }
 
-// 피처 우측 비주얼 컨테이너 (참여 기업 로고 표본을 담는다) — Member 페이지로 링크
-.kwg-feature__visual {
-  position: relative;
-  min-height: 280px;
+// 다음 정기 미팅: 왼쪽 회차 정보, 오른쪽 세션 목록
+.kwg-meeting {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-7 5rem;
+}
+.kwg-meeting__info {
+  flex: 1 1 320px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
   gap: $space-3;
-  text-decoration: none;
 }
-
-// 참여 기업 로고 표본 그리드 — 실제 로고로 커뮤니티 규모를 보여준다(장식용 아이콘 대체)
-.kwg-logo-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: $space-3;
-  width: 100%;
-  max-width: 420px;
+.kwg-meeting__title {
+  font-size: 2.25rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  margin: 0;
+}
+.kwg-meeting__when {
+  font-size: $text-lg;
+  color: var(--bs-secondary-color);
+  margin: 0;
+}
+.kwg-meeting__sessions {
+  flex: 1.4 1 420px;
+  list-style: none;
   margin: 0;
   padding: 0;
-  list-style: none;
-
   li {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 4rem;
-    padding: $space-3;
-    background: #f2f4f5;
-    border-radius: $border-radius-sm;
-    transition: box-shadow 0.15s ease;
+    gap: $space-5;
+    padding: 1.1rem 0;
+    border-top: 1px solid var(--bs-border-color);
+    font-size: 1.05rem;
+    line-height: 1.5;
   }
+  li:last-child { border-bottom: 1px solid var(--bs-border-color); }
+}
+.kwg-meeting__label {
+  flex: 0 0 4rem;
+  font-size: $text-sm;
+  line-height: 1.7;
+  color: var(--bs-secondary-color);
+}
 
+// 가이드: 두 묶음을 2열로
+.kwg-guides {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: $space-7 5rem;
+}
+.kwg-guides__group {
+  font-size: $text-sm;
+  font-weight: 600;
+  color: var(--bs-secondary-color);
+  margin: 0 0 $space-1;
+}
+
+// 최근 글: 날짜 + 제목 한 줄
+.kwg-posts { border-top: 1px solid var(--bs-border-color); }
+.kwg-row--post {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-1 $space-6;
+  .kwg-row__title { flex: 1 1 420px; font-weight: 400; line-height: 1.6; }
+}
+.kwg-row__date {
+  min-width: 6rem;
+  font-size: $text-sm;
+  line-height: 1.8;
+  color: var(--bs-secondary-color);
+}
+
+// 참여 기업 로고
+.kwg-members { text-align: center; }
+.kwg-members__logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: $space-7 $space-6;
+  align-items: center;
+  justify-items: center;
+  list-style: none;
+  margin: $space-7 0;
+  padding: 0;
   img {
-    width: 100%;
-    height: 100%;
+    // 높이를 고정하고 폭은 비율대로: viewBox만 있는 SVG(예: kia.svg)도 크기가 잡힌다
+    height: 30px;
+    width: auto;
+    max-width: 110px;
     object-fit: contain;
   }
 }
 
-.kwg-logo-grid__cta {
-  display: inline-flex;
-  align-items: center;
-  gap: $space-2;
-  font-size: $text-sm;
-  color: rgba(255, 255, 255, 0.6);
-  transition: color 0.15s ease;
-}
-a.kwg-feature__visual:hover .kwg-logo-grid__cta { color: #fff; }
-a.kwg-feature__visual:hover .kwg-logo-grid li { box-shadow: 0 0 0 1px rgba(2, 171, 184, 0.4); }
-
-// 가이드 탭 (순수 CSS radio, 세그먼트 컨트롤 스타일)
-.kwg-tabs { position: relative; text-align: center; }
-// 시각적으로 숨기되 키보드 포커스는 가능(visually-hidden) — 접근성
-.kwg-tabs__radio {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  opacity: 0;
-}
-// 탭바: 하나의 둥근 묶음 안에서 선택된 탭이 채워짐 → '탭' 인지가 명확
-.kwg-tabs__nav {
-  display: inline-flex;
-  gap: $space-1;
-  padding: $space-1;
-  margin-bottom: $space-6;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 2rem;
-}
-.kwg-tabs__nav label {
-  padding: $space-2 $space-5;
-  border-radius: 2rem;
-  cursor: pointer;
-  font-size: $text-sm;
-  font-weight: 500;
-  color: rgba(255, 255, 255, 0.72);
-  white-space: nowrap;
-  transition: color 0.15s ease, background 0.15s ease;
-}
-.kwg-tabs__nav label:hover { color: #fff; }
-// 키보드 포커스 시 해당 탭 라벨에 outline(접근성)
-#gt-1:focus-visible ~ .kwg-tabs__nav label[for="gt-1"],
-#gt-2:focus-visible ~ .kwg-tabs__nav label[for="gt-2"],
-#gt-3:focus-visible ~ .kwg-tabs__nav label[for="gt-3"],
-#gt-4:focus-visible ~ .kwg-tabs__nav label[for="gt-4"] {
-  outline: 2px solid #fff;
-  outline-offset: 2px;
-}
-.kwg-tabs__panel {
-  display: none;
-  max-width: 680px;
-  margin: 0 auto;
-  padding: $space-8;
-  border-radius: 1.75rem;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  background:
-    radial-gradient(100% 100% at 100% 0%, rgba(2, 171, 184, 0.07), transparent 55%),
-    linear-gradient(160deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.008));
-  text-decoration: none;
-  text-align: left;
-}
-.kwg-tabs__panel .kwg-feature__desc { max-width: none; }
-.kwg-tabs__panel .kwg-btn-pill { align-self: flex-start; }
-#gt-1:checked ~ .kwg-tabs__nav label[for="gt-1"],
-#gt-2:checked ~ .kwg-tabs__nav label[for="gt-2"],
-#gt-3:checked ~ .kwg-tabs__nav label[for="gt-3"],
-#gt-4:checked ~ .kwg-tabs__nav label[for="gt-4"] {
-  color: #fff;
-  background: linear-gradient(135deg, $primary, $secondary);
-}
-#gt-1:checked ~ #gp-1,
-#gt-2:checked ~ #gp-2,
-#gt-3:checked ~ #gp-3,
-#gt-4:checked ~ #gp-4 { display: block; }
-
-// 서브카드(하단): 아이콘 박스 + 텍스트 + pill 링크 (가로형, ai.google.dev식)
-.kwg-subcard-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: $space-5;
-  max-width: 1140px;
-  margin: 0 auto;
-}
-.kwg-subcard-grid--3 { grid-template-columns: repeat(3, 1fr); }
-.kwg-subcard {
+// 함께하기: 가입 버튼 하나로 마무리
+.kwg-join {
   display: flex;
-  gap: $space-5;
-  padding: $space-5;
-  border-radius: 1rem;
-  background: rgba(255, 255, 255, 0.025);
-  border: 1px solid rgba(255, 255, 255, 0.07);
-  text-decoration: none;
-  transition: background 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
-}
-.kwg-subcard:hover {
-  background: rgba(255, 255, 255, 0.05);
-  border-color: rgba(2, 171, 184, 0.4);
-  transform: translateY(-2px);
-}
-.kwg-subcard__body { display: flex; flex-direction: column; min-width: 0; }
-.kwg-subcard__title {
-  font-size: $text-base;
-  font-weight: 600;
-  color: #fff;
-  margin-bottom: $space-1;
-}
-.kwg-subcard__desc {
-  font-size: $text-sm;
-  color: rgba(255, 255, 255, 0.6);
-  line-height: 1.55;
-  margin-bottom: $space-3;
-  flex-grow: 1;
-}
-.kwg-subcard__link {
-  align-self: flex-start;
-  display: inline-flex;
+  flex-direction: column;
   align-items: center;
-  gap: $space-2;
-  padding: $space-1 $space-3;
-  border-radius: 2rem;
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  font-size: $text-xs;
-  color: rgba(255, 255, 255, 0.85);
-  transition: background 0.18s ease, border-color 0.18s ease;
+  gap: $space-4;
+  text-align: center;
 }
-.kwg-subcard:hover .kwg-subcard__link {
-  background: rgba(2, 171, 184, 0.18);
-  border-color: rgba(2, 171, 184, 0.4);
+.kwg-join__desc {
+  max-width: 560px;
+  margin: 0 0 $space-3;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--bs-secondary-color);
+  word-break: keep-all;
 }
+.kwg-join__btn { border-radius: 2rem; padding: $space-3 $space-6; }
 
-// ── 홈 다크 테마 통일 (ai.google.dev풍) — 라이트 규칙 위에 덮어쓴다 ──
-.kwg-home {
-  background: #060b11;
-  color: rgba(255, 255, 255, 0.85);
-  position: relative;
-
-  .kwg-section--alt { background: rgba(255, 255, 255, 0.03); }
-  .kwg-section__title { color: #fff; }
-  .kwg-section__lead { color: rgba(255, 255, 255, 0.72); }
-}
-// 추상 비주얼 — 은은한 컬러 메시(고정 레이어). 히어로(사진)는 위에서 가리고,
-// 그 아래 다크 섹션들에 미묘한 청록·보라 분위기를 깐다(ai.google.dev/Stripe식).
-.kwg-home::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  pointer-events: none;
-  background:
-    radial-gradient(38% 28% at 16% 12%, rgba(2, 171, 184, 0.13), transparent 70%),
-    radial-gradient(32% 24% at 88% 26%, rgba(195, 177, 247, 0.10), transparent 70%),
-    radial-gradient(34% 30% at 72% 84%, rgba(159, 236, 243, 0.07), transparent 72%);
-}
-.kwg-home > * { position: relative; z-index: 1; }
-
-// 인라인 SVG 아이콘 — Font Awesome 화살표를 대체(일관된 stroke 아이콘)
+// 인라인 SVG 아이콘: Font Awesome 화살표를 대체(일관된 stroke 아이콘)
 .kwg-icon {
   display: inline-block;
   vertical-align: -0.15em;
@@ -829,60 +644,21 @@ a.kwg-feature__visual:hover .kwg-logo-grid li { box-shadow: 0 0 0 1px rgba(2, 17
   height: 1em;
 }
 
-// 태블릿 — 좌우 분할(피처·탭 패널)을 세로로 전환해 좁아짐 방지
-@media (max-width: 1024px) {
-  .kwg-feature {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-  .kwg-feature__visual { min-height: 240px; }
-  #gt-1:checked ~ #gp-1,
-  #gt-2:checked ~ #gp-2,
-  #gt-3:checked ~ #gp-3,
-  #gt-4:checked ~ #gp-4 {
-    padding: 2.5rem;
-  }
-}
-
 // 모바일
 @media (max-width: 768px) {
-  .kwg-hero {
-    min-height: 80svh; // 풀스크린 강제 완화 — 콘텐츠 영역 확보
-    padding: 7rem 0 3.5rem;
-  }
+  .kwg-hero { padding: 6rem 0 3rem; }
   .kwg-hero__title { font-size: 2.4rem; }
-  .kwg-block { padding: 1.75rem; }
-  .kwg-feature__visual { min-height: 220px; }
-  .kwg-feature__title { font-size: 1.7rem; }
-  #gt-1:checked ~ #gp-1,
-  #gt-2:checked ~ #gp-2,
-  #gt-3:checked ~ #gp-3,
-  #gt-4:checked ~ #gp-4 { padding: 1.75rem; }
-  .kwg-subcard-grid { grid-template-columns: 1fr; }
-  // 탭바: 모바일에서 4개 세그먼트가 폭을 넘쳐 잘리므로 가로 스크롤(스와이프) + 라벨 축소
-  .kwg-tabs__nav {
-    max-width: 100%;
-    overflow-x: auto;
-    scrollbar-width: none;
-  }
-  .kwg-tabs__nav::-webkit-scrollbar { display: none; }
-  .kwg-tabs__nav label {
-    flex-shrink: 0;
-    padding: 0.5rem 0.9rem;
-    font-size: 0.82rem;
-  }
+  .kwg-sec { padding-top: 4.5rem; }
+  .kwg-sec:last-child { padding-bottom: 4.5rem; }
+  .kwg-guides { grid-template-columns: 1fr; }
+  .kwg-meeting__title { font-size: 1.85rem; }
 }
 
 // 작은 폰
 @media (max-width: 480px) {
-  .kwg-hero { padding: 6rem 0 3rem; }
   .kwg-hero__title { font-size: 2rem; }
   .kwg-hero__sub { font-size: 1.1rem; }
   .kwg-hero__badge { font-size: 0.75rem; }
-  .kwg-section { padding: 4rem 0; }
-  .kwg-section__title { font-size: 1.85rem; }
-  .kwg-block { padding: 1.35rem; }
-  .kwg-feature__title { font-size: 1.5rem; }
 }
 
 // ── 미팅 컨퍼런스 레이아웃(.kwg-conf-*) — ai.google.dev 미감 ──────

@@ -6,8 +6,7 @@ images: ["og-image.jpg"]
 
 <!--
   The home page is rendered by layouts/index.html (custom landing).
-  featured-background.jpg is kept here as a page resource for the group-photo section.
-  og-image.jpg is a 1200px derivative of featured-background.jpg for og:image only
-  (the original is 4.86MB, which some link-preview services silently drop). Declared via
-  the images front matter so Hugo's built-in opengraph template uses it instead of the original.
+  The hero background is content/shared/featured-background.jpg, and
+  og-image.jpg holds the same photo for link previews (og:image).
+  When the hero photo changes, replace og-image.jpg as well.
 -->
