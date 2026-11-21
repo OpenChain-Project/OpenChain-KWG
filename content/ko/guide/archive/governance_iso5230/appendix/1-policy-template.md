@@ -248,10 +248,12 @@ CLA는 프로젝트마다 다르지만 주로 다음 사항을 동의한다는 �
 
 하나 이상의 파일을 기여할 때, 다음과 같이 파일 상단에 저작권과 라이선스를 표기한다. 
 
+<!-- REUSE-IgnoreStart -->
 ~~~
 Copyright (c) {$year} {$Company}
 SPDX-License-Identifier: {$SPDX_license_name}
 ~~~
+<!-- REUSE-IgnoreEnd -->
 여기서 $SPDX_license_name은 해당 오픈소스 프로젝트의 라이선스 정책에 따라 작성한다.
 
 단, 버그 수정 등의 목적으로 기존 코드를 수정하는 정도라면 해당 코드 수정에 대해 저작권을 표기할 필요는 없다. 
