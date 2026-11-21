@@ -9,20 +9,11 @@ description: >
 menu:
   main:
     weight: 40
+# 하위 미팅 페이지 body 에 클래스를 붙여, 옛 회차의 큰 포스터·사진 높이를 CSS로 제한한다
+cascade:
+  params:
+    body_class: kwg-meeting-page
 ---
-
 {{< latest-meeting >}}
 
-<div ><span class="image fit">
-  <img src="openchain_meeting.png" width="50%">
-</div>
-
-
-Even if large companies have already established policies and processes for Open Source Compliance, considering the huge and complex software supply chain, it is difficult to escape from compliance risks, no matter how well-completed processes are in place. After all, it is important to increase the level of compliance for all companies in the software supply chain. To do this, companies that already have a good understanding of Open Source Compliance should share their assets and guide them so that other companies can easily participate.
-
-Even if a company's Open Source Compliance assets are shared with competitors, it does not adversely affect sales. Conversely, finding out a competitor's Open Source Compliance policy cannot link it to an increase in corporate profits. If companies share best practices for Open Source Compliance with each other, each company can achieve significant levels of compliance with little cost and resources.
-
-Some Korean companies also shared the same idea, and in January 2019, the first OpenChain KWG (Korea Work Group) meeting was held in which open source people from LG Electronics, SK Telecom, Kakao, Hyundai Motors, and Samsung Electronics participated.
-
-For details, refer to the next page.
-
+Schedules, presentation slides, and photos for each meeting are on the yearly pages below. The background of how the group started is on the [About](../about/) page.

@@ -2,6 +2,8 @@
 title: "Syft"
 weight: 6
 type: docs
+description: >
+  컨테이너 이미지와 파일시스템을 스캔해 SPDX 또는 CycloneDX 형식의 SBOM을 생성하는 CLI 도구입니다.
 categories: ["guide"]
 tags: ["Syft", "SBOM", "SPDX", "CycloneDX"]
 ---

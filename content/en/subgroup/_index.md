@@ -11,5 +11,6 @@ menu:
     weight: 50
 ---
 
-Subgroups operated by OpenChain KWG are as follows.
+The topics of the former [Tooling Group](tooling/) are now covered by the Tooling & Legal Group.
 
+Subgroups operated by OpenChain KWG are as follows.

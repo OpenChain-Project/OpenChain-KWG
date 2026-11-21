@@ -1,7 +1,7 @@
 ---
 title: "AI SBOM 컴플라이언스 가이드"
 linkTitle: "AI SBOM 컴플라이언스 가이드"
-weight: 35
+weight: 43
 type: docs
 categories: ["guide"]
 tags: ["AI SBOM", "OpenChain", "ISO/IEC 5230", "ISO/IEC 42001", "컴플라이언스"]
@@ -47,14 +47,14 @@ OpenChain 규격은 "무엇을 입증해야 하는가"를 정의한다. 이 가�
 - **[본 가이드 권고]** — 규격 본문에는 없으나 OpenChain Korea Work Group이 실무 경험과 모범
   사례, 다른 표준(ISO/IEC 5230, 42001 등)을 근거로 권장하는 사항. 채택 여부는 조직 재량이다.
 
-입증자료 번호(예: `3.1.1`)와 함께 제시되는 활동은 **[규격 요구]**다. 자동화와 도구 활용,
-인입 게이트 같은 본 가이드의 보강은 **[본 가이드 권고]**다.
+입증자료 번호(예: `3.1.1`)와 함께 제시되는 활동은 <strong>[규격 요구]</strong>다. 자동화와 도구 활용,
+인입 게이트 같은 본 가이드의 보강은 <strong>[본 가이드 권고]</strong>다.
 {{% /alert %}}
 
 {{% alert title="조항 번호에 관한 안내" color="info" %}}
 규격 원문은 목차와 본문의 절 번호가 어긋나 있다(목차의 "3.9 AI content review and approval"
 절이 본문에 없어 이후 번호가 한 칸씩 당겨짐). 이 불일치는 OpenChain AI Work Group에 보고했다.
-이 가이드는 규격 **본문 기준 번호(3.1~3.10)**를 따른다.
+이 가이드는 규격 <strong>본문 기준 번호(3.1~3.10)</strong>를 따른다.
 {{% /alert %}}
 
 ## 단계별 구축 로드맵

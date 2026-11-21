@@ -1,6 +1,6 @@
 ---
-title: "Contact"
-linkTitle: "Contact"
+title: "연락처"
+linkTitle: "연락처"
 weight: 10
 type: docs
 categories: ["about"]

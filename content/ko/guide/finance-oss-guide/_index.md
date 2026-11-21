@@ -1,7 +1,7 @@
 ---
 title: "금융분야 오픈소스 관리 실무 가이드"
 linkTitle: "금융 오픈소스 가이드"
-weight: 45
+weight: 46
 type: docs
 categories: ["guide"]
 tags: ["금융", "오픈소스", "컴플라이언스", "공급망 보안", "망분리"]

@@ -2,6 +2,8 @@
 title: "Dependency-Track"
 weight: 7
 type: docs
+description: >
+  업로드한 SBOM을 근거로 컴포넌트별 취약점을 지속적으로 모니터링하고 정책 위반을 평가하는 플랫폼입니다.
 categories: ["guide"]
 tags: ["Dependency-Track", "SBOM", "취약점", "CycloneDX"]
 ---

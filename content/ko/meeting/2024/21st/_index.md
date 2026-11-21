@@ -1,6 +1,6 @@
 ---
-title: "21st Meeting"
-linkTitle: "21st · 2024.03 카카오"
+title: "21차 정기 미팅"
+linkTitle: "21차 · 2024.03 카카오"
 weight: 21
 type: docs
 categories: ["meeting"]

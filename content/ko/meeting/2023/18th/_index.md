@@ -1,6 +1,6 @@
 ---
-title: "18th Meeting"
-linkTitle: "18th · 2023.06 카카오"
+title: "18차 정기 미팅"
+linkTitle: "18차 · 2023.06 카카오"
 weight: 18
 type: docs
 categories: ["meeting"]

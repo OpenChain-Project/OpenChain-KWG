@@ -2,6 +2,8 @@
 title: "Syft"
 weight: 6
 type: docs
+description: >
+  A CLI tool that scans container images and file systems to generate SBOMs in SPDX or CycloneDX format.
 categories: ["guide"]
 tags: ["Syft", "SBOM", "SPDX", "CycloneDX"]
 ---

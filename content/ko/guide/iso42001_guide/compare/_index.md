@@ -108,7 +108,7 @@ ISO 42001 인증을 준비 중인 조직은 다음 순서로 SC 42 패밀리 표
 
 ### ISO/IEC 5230 · 18974 방식: 입증자료 번호 체계
 
-각 조항마다 기업이 제출해야 할 **입증자료(Verification Material)**를 번호로 명시한다.
+각 조항마다 기업이 제출해야 할 <strong>입증자료(Verification Material)</strong>를 번호로 명시한다.
 
 ```
 §3.1.1 정책

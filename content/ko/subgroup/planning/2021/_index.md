@@ -1,5 +1,5 @@
 ---
-title: "2021년 Planning Group"
+title: "2021년 기획 그룹(Planning Group)"
 linkTitle: "2021"
 weight: 10
 type: docs

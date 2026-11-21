@@ -37,7 +37,7 @@ Elastic License 2.0은 소스 코드를 공개하지만 상업적인 클라우�
 이에 대해서는 이전 블로그, "**[Elastic License 2.0 그리고 진화하는 오픈소스 라이선스](https://korea-wg.openchainproject.org/blog/2021/03/28/elastic-license/)**"에서 자세히 다룬 바 있습니다. 
 
 ### 1.2 Elastic License 2.0는 오픈소스 라이선스가 아니다
-그러나 Elastic License 2.0은 **Open Source Initiative (OSI)**에서 인정하는 오픈소스 라이선스가 아니었습니다. 이는 오픈소스 커뮤니티에서 논란을 불러일으켜습니다. Elastic의 결정은 오픈소스의 자유로운 사용과 상업적 이익 사이에서 갈등을 불러일으켰고, 기업들이 오픈소스를 도입할 때 라이선스 문제에 대한 경각심을 높이는 계기가 되었습니다.
+그러나 Elastic License 2.0은 <strong>Open Source Initiative (OSI)</strong>에서 인정하는 오픈소스 라이선스가 아니었습니다. 이는 오픈소스 커뮤니티에서 논란을 불러일으켜습니다. Elastic의 결정은 오픈소스의 자유로운 사용과 상업적 이익 사이에서 갈등을 불러일으켰고, 기업들이 오픈소스를 도입할 때 라이선스 문제에 대한 경각심을 높이는 계기가 되었습니다.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: "Specification"
-linkTitle: "Specification"
+title: "규격"
+linkTitle: "규격"
 weight: 2
 type: docs
 categories: ["resource"]

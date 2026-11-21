@@ -2,6 +2,8 @@
 title: "오픈소스 관리 자동화 환경 구성: cdxgen + Dependency-Track"
 weight: 8
 type: docs
+description: >
+  cdxgen과 Dependency-Track으로 라이선스와 취약점을 점검하는 자동화 환경을 구성하는 방법을 단계별로 안내합니다.
 categories: ["guide"]
 tags: ["cdxgen", "Dependency-Track", "SBOM", "취약점", "라이선스", "자동화"]
 ---

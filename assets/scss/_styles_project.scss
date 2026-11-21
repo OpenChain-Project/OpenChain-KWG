@@ -221,31 +221,29 @@ h1.td-title { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
   gap: $space-1;
   margin: $space-4 0 $space-6;
   padding: $space-5 $space-6;
-  border-radius: 0.75rem;
-  background: linear-gradient(135deg, $primary, $secondary);
-  color: #fff;
+  border: 1px solid var(--bs-border-color);
+  border-radius: 1rem;
+  background: var(--bs-body-bg);
+  color: var(--bs-body-color);
   text-decoration: none;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  transition: border-color 0.15s ease;
 }
 .kwg-latest-meeting:hover {
-  color: #fff;
-  transform: translateY(-1px);
-  box-shadow: 0 10px 24px rgba(2, 171, 184, 0.3);
+  color: var(--bs-body-color);
+  border-color: $primary;
 }
 .kwg-latest-meeting__eyebrow {
-  font-size: $text-xs;
+  font-size: $text-sm;
   font-weight: 600;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.85);
+  color: $primary;
 }
 .kwg-latest-meeting__title {
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   font-weight: 600;
 }
 .kwg-latest-meeting__desc {
-  font-size: $text-sm;
-  color: rgba(255, 255, 255, 0.9);
+  font-size: $text-base;
+  color: var(--bs-secondary-color);
 }
 .kwg-latest-meeting__cta {
   display: inline-flex;
@@ -254,6 +252,7 @@ h1.td-title { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
   margin-top: $space-2;
   font-size: $text-sm;
   font-weight: 500;
+  color: $primary;
 }
 
 // ── 문서 본문 — 홈 톤 이식(라이트 유지 + radius·그림자·transition·teal 액센트) ──
@@ -296,7 +295,17 @@ h1.td-title { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
 .td-content .alert,
 .pageinfo {
   border-radius: $border-radius;
-  box-shadow: $box-shadow-sm;
+}
+// pageinfo 는 대부분 저자·라이선스·원문 출처 안내에 쓰인다. 색 배경 상자가 페이지에서 가장
+// 눈에 띄는 요소가 되지 않도록 배경 없이 얇은 테두리와 작은 회색 글씨로 둔다.
+// (Docsy _pageinfo.scss 가 이 파일보다 뒤에 컴파일되므로 선택자를 겹쳐 특이도를 높인다)
+.pageinfo.pageinfo {
+  background: transparent;
+  border: 1px solid var(--bs-border-color);
+  color: var(--bs-secondary-color);
+  font-size: 0.92rem;
+  padding: 0.9rem 1.25rem;
+  p:last-child { margin-bottom: 0; }
 }
 .td-content .alert {
   @each $color, $value in $theme-colors {
@@ -371,13 +380,15 @@ $kwg-hero-overlay: linear-gradient(
   min-height: 80vh;
   min-height: 80svh; // 모바일 주소창 변동 대응(small viewport height)
   display: flex;
-  align-items: center;
-  padding: 7rem 0 4rem;
+  // 글자는 사진 위쪽(천장·벽) 자리에 둔다. 사진은 위 기준으로 맞춰, 가로로 넓은 화면에서
+  // 잘려 나가는 부분이 아래(의자)가 되게 한다. 사람 얼굴이 글자에 덜 가린다.
+  align-items: flex-start;
+  padding: 5.5rem 0 7rem;
   text-align: center;
   background-color: #06141b;
   background-image: $kwg-hero-overlay, var(--kwg-hero-bg-sm);
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   background-repeat: no-repeat;
   overflow: hidden;
 
@@ -522,11 +533,48 @@ a.kwg-hero__badge:hover {
   color: var(--bs-secondary-color);
 }
 
-// 다음 정기 미팅: 왼쪽 회차 정보, 오른쪽 세션 목록
+// 넓은 화면에서는 제목을 한 줄로: 글자 영역이 낮아져 사진 속 얼굴을 덜 가린다
+@media (min-width: 1200px) {
+  .kwg-hero__br { display: none; }
+}
+
+// 다음 정기 미팅: 히어로 하단에 걸친 흰 카드 + 카드 뒤로 천천히 순환하는 색 번짐.
+// 색 번짐은 .kwg-glow::before 에 두고, 카드(.kwg-meeting)가 그 위를 덮는다(isolation 으로 쌓임 맥락 분리).
+.kwg-glow {
+  position: relative;
+  isolation: isolate;
+  z-index: 1;
+  max-width: 1120px;
+  margin: -4rem auto 0;
+  padding: 0 $space-5;
+}
+.kwg-glow::before {
+  content: "";
+  position: absolute;
+  inset: 2rem 0.25rem -1.25rem;
+  z-index: -1;
+  border-radius: 2rem;
+  background: linear-gradient(90deg, #7cc4fa, #9fecf3, #c3b1f7, #f7d9bd, #9fecf3, #7cc4fa);
+  background-size: 300% 100%;
+  filter: blur(32px);
+  opacity: 0.8;
+  animation: kwg-glow-cycle 14s linear infinite;
+}
+@keyframes kwg-glow-cycle {
+  from { background-position: 0% 50%; }
+  to { background-position: 300% 50%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .kwg-glow::before { animation: none; }
+}
 .kwg-meeting {
   display: flex;
   flex-wrap: wrap;
   gap: $space-7 5rem;
+  padding: 2.75rem 3rem;
+  border: 1px solid var(--bs-border-color);
+  border-radius: 1.25rem;
+  background: var(--bs-body-bg);
 }
 .kwg-meeting__info {
   flex: 1 1 320px;
@@ -652,6 +700,8 @@ a.kwg-hero__badge:hover {
   .kwg-sec:last-child { padding-bottom: 4.5rem; }
   .kwg-guides { grid-template-columns: 1fr; }
   .kwg-meeting__title { font-size: 1.85rem; }
+  .kwg-glow { margin-top: -3rem; padding: 0 $space-4; }
+  .kwg-meeting { padding: 1.75rem 1.5rem; }
 }
 
 // 작은 폰
@@ -1214,4 +1264,27 @@ a.kwg-hero__badge:hover {
 [data-bs-theme="dark"] .kwg-mem-logos .kwg-mem-logo {
   background: #f2f4f5;
   border-color: transparent;
+}
+
+// 블로그: 연도 묶음 제목은 작은 라벨로(페이지 제목 바로 아래 큰 제목이 겹쳐 보이지 않게),
+// 글 아래 태그는 본문과 간격을 둔다
+.kwg-blog-year {
+  margin: 2rem 0 0.5rem;
+  font-size: $text-sm;
+  font-weight: 600;
+  color: var(--bs-secondary-color);
+}
+.kwg-post-tags { margin-top: 2.5rem; }
+
+// 왼쪽 사이드바: 한국어 메뉴 이름이 단어 중간에서 줄바뀜되지 않게
+.td-sidebar-nav { word-break: keep-all; }
+
+// 미팅 페이지: 옛 회차는 본문 맨 위의 포스터·단체사진이 화면 하나를 통째로 차지해
+// 일정과 아젠다를 보려면 스크롤해야 했다. 본문 이미지 높이를 제한한다(가로 비율 유지).
+.kwg-meeting-page .td-content img {
+  max-height: 26rem;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
 }

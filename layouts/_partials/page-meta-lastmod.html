@@ -1,0 +1,10 @@
+{{- /*
+  Docsy page-meta-lastmod 오버라이드: 최종 수정 날짜만 보여 준다.
+  원본은 커밋 메시지와 해시까지 링크로 노출해("1st commit for 2nd version of website" 등)
+  방문자에게 의미 없는 내부 정보가 보였다.
+*/ -}}
+{{ if .GitInfo -}}
+<div class="td-page-meta__lastmod">
+  {{ T "post_last_mod" }} {{ .Lastmod.Format .Site.Params.time_format_default -}}
+</div>
+{{ end -}}

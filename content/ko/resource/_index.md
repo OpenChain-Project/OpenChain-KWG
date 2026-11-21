@@ -13,9 +13,7 @@ menu:
 
 ## OpenChain Project Resources
 
-[**OpenChain Project**](https://www.openchainproject.org/)에서는 Compliance Program을 구축하는 데 필요한 정책 문서 템플릿, 교육 자료 등 다양한 참고자료를 제공합니다. 이 자료들은 OpenChain Specification 및 일반적인 Open Source Compliance 활동을 지원하기 위해 고안되었습니다. 
-
-* [Resources](https://www.openchainproject.org/resources)
+[**OpenChain Project**](https://www.openchainproject.org/)에서는 Compliance Program을 구축하는 데 필요한 정책 문서 템플릿, 교육 자료 등 다양한 참고자료를 제공합니다. 이 자료들은 OpenChain Specification 및 일반적인 Open Source Compliance 활동을 지원하기 위해 고안되었습니다. 전체 목록은 [OpenChain Project 자료실](https://www.openchainproject.org/resources)에서 볼 수 있습니다.
 
 ## OpenChain KWG Resources
 **OpenChain KWG**의 주요 활동 중 하나는 OpenChain Project의 문서 자료를 한국어로 번역하여 공개하는 것입니다. 이와 같이 OpenChain KWG는 협업을 통해 문서를 번역하거나 교육자료를 만들어서 공개하고 있습니다. 

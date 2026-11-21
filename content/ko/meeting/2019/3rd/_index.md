@@ -1,6 +1,6 @@
 ---
-title: "3rd Meeting"
-linkTitle: "3rd Meeting"
+title: "3차 정기 미팅"
+linkTitle: "3차 정기 미팅"
 weight: 3
 type: docs
 categories: ["meeting"]

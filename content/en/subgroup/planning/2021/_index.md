@@ -1,5 +1,5 @@
 ---
-title: "2021 Planning Group Meeting"
+title: "2021 Planning Group"
 linkTitle: "2021"
 weight: 10
 type: docs

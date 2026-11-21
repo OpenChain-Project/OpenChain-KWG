@@ -4,6 +4,9 @@ weight: 2
 type: docs
 description: >
   The Tooling Group focuses on open source tools to collaborate.
+# 운영을 마친 그룹: 사이드바와 서브그룹 목록에서 빼고 subgroup/_index.md 하단에 링크만 둔다
+toc_hide: true
+hide_summary: true
 ---
 
 {{% alert title="Tip" %}}

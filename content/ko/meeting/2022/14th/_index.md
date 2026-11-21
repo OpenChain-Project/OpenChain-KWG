@@ -1,5 +1,5 @@
 ---
-title: "14th Meeting"
+title: "14차 정기 미팅"
 weight: 14
 type: docs
 categories: ["meeting"]

@@ -1,6 +1,6 @@
 ---
-title: "26th Meeting"
-linkTitle: "26th · 2025.06 삼성전자"
+title: "26차 정기 미팅"
+linkTitle: "26차 · 2025.06 삼성전자"
 weight: 26
 type: docs
 categories: ["meeting"]

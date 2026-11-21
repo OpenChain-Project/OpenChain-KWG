@@ -1,7 +1,7 @@
 ---
 title: "ISO/IEC 5230 Conformance Guide"
 linkTitle: "ISO/IEC 5230 Conformance Guide"
-weight: 20
+weight: 10
 type: docs
 categories: ["guide"]
 tags: ["ISO/IEC 5230", "License Compliance", "OpenChain"]
