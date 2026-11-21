@@ -72,7 +72,7 @@ AI 표준 패밀리의 핵심이다. 인증 심사·실무 적용 시 다음 표
 | **ISO/IEC 42001:2023** | AI Management System (AIMS) | 2023 | **인증 가능한 핵심 표준** |
 | **ISO/IEC 42003** | AIMS implementation guidance | 개발 중 | 42001 구현 가이드 (AI SBOM 포함 추진) |
 | **ISO/IEC 42005:2025** | AI System Impact Assessment | 2025 | 42001 §6.1.4 영향 평가 구체 방법 |
-| **ISO/IEC 42006** | Bodies providing audit and certification of AIMS | 개발 중 | 42001 인증기관 요건 |
+| **ISO/IEC 42006** | Bodies providing audit and certification of AIMS | 2025 | 42001 인증기관 요건 |
 
 ### 3.1 인증 심사에서 자주 함께 참조되는 조합
 
@@ -108,7 +108,7 @@ ISO 42001 인증을 준비 중인 조직은 다음 순서로 SC 42 패밀리 표
 
 ### ISO/IEC 5230 · 18974 방식: 입증자료 번호 체계
 
-각 조항마다 기업이 제출해야 할 **입증자료(Verification Material)**를 번호로 명시한다.
+각 조항마다 기업이 제출해야 할 <strong>입증자료(Verification Material)</strong>를 번호로 명시한다.
 
 ```
 §3.1.1 정책

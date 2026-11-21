@@ -1,6 +1,6 @@
 ---
-title: "25th Meeting"
-linkTitle: "25th · 2025.03 한국디지털인증협회"
+title: "25차 정기 미팅"
+linkTitle: "25차 · 2025.03 한국디지털인증협회"
 weight: 25
 type: docs
 categories: ["meeting"]

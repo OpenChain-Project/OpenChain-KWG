@@ -2,6 +2,8 @@
 title: "Appendix"
 weight: 10
 type: docs
+description: >
+  An appendix to the open source policy listing each role's responsibilities, required competencies, and responsible team.
 categories: ["guide"]
 tags: ["policy"]
 ---

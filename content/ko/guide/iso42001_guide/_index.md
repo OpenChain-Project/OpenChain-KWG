@@ -1,7 +1,7 @@
 ---
 title: "ISO/IEC 42001 가이드"
 linkTitle: "ISO/IEC 42001 가이드"
-weight: 40
+weight: 30
 type: docs
 categories: ["guide"]
 tags: ["ISO/IEC 42001", "AI 관리 시스템", "AI 컴플라이언스", "AIMS"]

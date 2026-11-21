@@ -2,7 +2,7 @@
 ---
 title: "[2026] ISO Standard-Based Enterprise Open Source Management Guide"
 linkTitle: "2026 Open Source Management Guide"
-weight: 10
+weight: 40
 type: docs
 description: >
   This guide introduces ways for enterprises to effectively manage open source based on ISO international standards.

@@ -1,6 +1,6 @@
 ---
-title: "19th Meeting"
-linkTitle: "19th · 2023.09 현대오토에버"
+title: "19차 정기 미팅"
+linkTitle: "19차 · 2023.09 현대오토에버"
 weight: 19
 type: docs
 categories: ["meeting"]

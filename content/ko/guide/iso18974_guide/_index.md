@@ -1,7 +1,7 @@
 ---
 title: "ISO/IEC 18974 준수 가이드"
 linkTitle: "ISO/IEC 18974 준수 가이드"
-weight: 30
+weight: 20
 type: docs
 categories: ["guide"]
 tags: ["ISO/IEC 18974", "보안 보증", "OpenChain"]
@@ -49,8 +49,8 @@ description: >
 - **[ISO 요구]** — ISO/IEC 18974:2023 표준 본문이 명시적으로 요구하는 사항(`shall` 또는 입증자료 번호로 명시). 누락 시 인증 실패 사유.
 - **[본 가이드 권고]** — ISO 표준 본문에는 없으나 OpenChain Korea Work Group이 실무 경험, 산업 모범 사례, 다른 표준(NIST SSDF, ENISA, CSAF, VEX, EPSS, KEV 등)을 근거로 권장하는 사항. 채택 여부는 조직 재량이며, 미채택이 인증 실패 사유는 아님.
 
-조항 본문의 입증자료 번호(예: `4.3.2.1`)와 함께 제시되는 활동·산출물은 **[ISO 요구]**다.
-"~를 권장한다", "~하는 것이 좋다" 표현이나 본 가이드가 추가한 자동화, EPSS, KEV, VEX 4가지 상태값 등은 **[본 가이드 권고]**다.
+조항 본문의 입증자료 번호(예: `4.3.2.1`)와 함께 제시되는 활동·산출물은 <strong>[ISO 요구]</strong>다.
+"~를 권장한다", "~하는 것이 좋다" 표현이나 본 가이드가 추가한 자동화, EPSS, KEV, VEX 4가지 상태값 등은 <strong>[본 가이드 권고]</strong>다.
 
 특히 ISO 18974는 9개 전용 항목(`★`)에 대해 다른 항목보다 강한 **"Documented Evidence"**(문서화된 증거)를 요구한다 — 단순 `document` 보다 한 단계 강한 증거 수준이다(자세한 내용은 [§4.1.5 표준 관행](./1-program-foundation/5-standard-practice/) 참조).
 

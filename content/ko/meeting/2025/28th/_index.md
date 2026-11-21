@@ -1,6 +1,6 @@
 ---
-title: "28th Meeting"
-linkTitle: "28th · 2025.12 한컴"
+title: "28차 정기 미팅"
+linkTitle: "28차 · 2025.12 한컴"
 weight: 28
 type: docs
 categories: ["meeting"]

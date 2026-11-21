@@ -2,6 +2,8 @@
 title: "Building an Automated Open Source Management Environment: cdxgen + Dependency-Track"
 weight: 8
 type: docs
+description: >
+  A step-by-step guide to building an automated license and vulnerability checking environment with cdxgen and Dependency-Track.
 categories: ["guide"]
 tags: ["cdxgen", "Dependency-Track", "SBOM", "vulnerability", "license", "automation"]
 ---

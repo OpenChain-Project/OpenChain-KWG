@@ -2,6 +2,8 @@
 title: "TRUSCA"
 weight: 11
 type: docs
+description: >
+  A self-hosted SCA portal that handles vulnerabilities, license compliance, and SBOM management in a single interface.
 categories: ["guide"]
 tags: ["trusca", "sca", "sbom", "cve", "vulnerability"]
 ---

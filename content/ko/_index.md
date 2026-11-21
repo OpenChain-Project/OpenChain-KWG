@@ -6,8 +6,7 @@ images: ["og-image.jpg"]
 
 <!--
   홈 화면은 layouts/index.html(커스텀 랜딩)에서 렌더된다.
-  featured-background.jpg 는 단체사진 섹션용 page resource 로 이 디렉토리에 유지한다.
-  og-image.jpg는 featured-background.jpg를 1200px로 축소한 og:image 전용 파생본(원본은 4.86MB라
-  카카오톡·슬랙 등에서 미리보기가 누락될 수 있어 별도로 둠). images 프런트매터로 명시해
-  Hugo 내장 opengraph 템플릿이 원본 대신 이 파일을 og:image로 쓰게 한다.
+  히어로 배경 사진은 content/shared/featured-background.jpg 이고,
+  og-image.jpg 는 링크 미리보기(og:image) 전용으로 같은 사진을 둔 파일이다.
+  히어로 사진을 바꿀 때는 og-image.jpg 도 함께 바꾼다.
 -->

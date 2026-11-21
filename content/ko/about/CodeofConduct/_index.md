@@ -1,6 +1,6 @@
 ---
-title: "Code of Conduct"
-linkTitle: "Code of Conduct"
+title: "행동 강령"
+linkTitle: "행동 강령"
 weight: 90
 type: docs
 categories: ["about"]

@@ -2,6 +2,8 @@
 title: "cdxgen"
 weight: 5
 type: docs
+description: >
+  소스 코드, 빌드 결과물, 컨테이너 이미지를 분석해 CycloneDX 형식의 SBOM을 생성하는 도구입니다.
 categories: ["guide"]
 tags: ["cdxgen", "SBOM", "CycloneDX"]
 ---

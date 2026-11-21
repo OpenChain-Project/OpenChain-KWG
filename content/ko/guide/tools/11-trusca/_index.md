@@ -2,6 +2,8 @@
 title: "TRUSCA"
 weight: 11
 type: docs
+description: >
+  취약점, 라이선스 컴플라이언스, SBOM 관리를 한 화면에서 다루는 자체 호스팅 SCA 포털입니다.
 categories: ["guide"]
 tags: ["trusca", "sca", "sbom", "cve", "취약점"]
 ---

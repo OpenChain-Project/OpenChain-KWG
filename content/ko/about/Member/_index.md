@@ -1,6 +1,6 @@
 ---
-title: "Member"
-linkTitle: "Member"
+title: "참여 기업"
+linkTitle: "참여 기업"
 weight: 4
 type: docs
 categories: ["about"]

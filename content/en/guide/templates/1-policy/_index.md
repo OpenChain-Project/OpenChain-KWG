@@ -2,6 +2,8 @@
 title: "Open Source Policy"
 weight: 10
 type: docs
+description: >
+  An open source policy template that sets out the principles and procedures for using open source safely and effectively.
 ---
 
 {{< alert title="Note:" >}}
@@ -379,10 +381,12 @@ The intellectual property of the works created by members during their employmen
 
 When contributing one or more files, indicate the copyright and license at the top of the file as follows:
 
+<!-- REUSE-IgnoreStart -->
 ~~~
 Copyright (c) {$year} {$Company}
 SPDX-License-Identifier: {$SPDX_license_name}
 ~~~
+<!-- REUSE-IgnoreEnd -->
 
 Here, $SPDX_license_name is written according to the license policy of the open source project in question.
 

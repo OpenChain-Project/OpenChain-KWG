@@ -1,6 +1,6 @@
 ---
-title: "32nd Meeting"
-linkTitle: "32nd · 2026.12 현대오토에버"
+title: "32차 정기 미팅"
+linkTitle: "32차 · 2026.12 현대오토에버"
 weight: 32
 type: meeting
 layout: landing

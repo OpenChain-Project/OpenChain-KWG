@@ -13,9 +13,7 @@ menu:
 
 ## OpenChain Project Resources
 
-The [**OpenChain Project**](https://www.openchainproject.org/) provides a variety of reference materials, such as policy document templates, training materials, etc. necessary to build a compliance program. These materials are designed to support OpenChain Specification and general open source compliance activities.
-
-* [Resources](https://www.openchainproject.org/resources)
+The [**OpenChain Project**](https://www.openchainproject.org/) provides a variety of reference materials, such as policy document templates, training materials, etc. necessary to build a compliance program. These materials are designed to support OpenChain Specification and general open source compliance activities. See the full list in the [OpenChain Project resource library](https://www.openchainproject.org/resources).
 
 ## OpenChain KWG Resources
 

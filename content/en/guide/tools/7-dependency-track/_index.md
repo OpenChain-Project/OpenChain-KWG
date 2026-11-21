@@ -2,6 +2,8 @@
 title: "Dependency-Track"
 weight: 7
 type: docs
+description: >
+  A platform that continuously monitors component vulnerabilities and evaluates policy violations based on uploaded SBOMs.
 categories: ["guide"]
 tags: ["Dependency-Track", "SBOM", "vulnerability", "CycloneDX"]
 ---

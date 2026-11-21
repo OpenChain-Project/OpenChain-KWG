@@ -2,6 +2,8 @@
 title: "FOSSLight"
 weight: 3
 type: docs
+description: >
+  소스 코드와 의존성, 바이너리를 분석하는 FOSSLight Scanner와 결과를 관리하는 FOSSLight Hub로 구성된 도구 모음입니다.
 categories: ["guide"]
 tags: ["FOSSLight", "SBOM", "의존성", "라이선스", "컴플라이언스"]
 ---

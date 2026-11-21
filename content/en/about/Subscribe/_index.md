@@ -4,7 +4,7 @@ linkTitle: "Subscribe"
 weight: 3
 type: docs
 description: >
-  OpenChain KWG is a non-commercial, collaborative community for sharing knowledge in open source governance
+  Join the mailing list to receive meeting announcements and registration details by email.
 ---
 
 Open source managers from companies that develop software products/services, or individuals who conduct related research or education at universities and research institutions, can participate by applying to join the mailing list.

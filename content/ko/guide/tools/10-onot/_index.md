@@ -2,6 +2,8 @@
 title: "onot"
 weight: 10
 type: docs
+description: >
+  SPDX 형식의 SBOM을 입력받아 오픈소스 고지문(NOTICE 파일)을 자동으로 생성하는 도구입니다.
 categories: ["guide"]
 tags: ["onot", "고지문", "notice", "compliance"]
 ---

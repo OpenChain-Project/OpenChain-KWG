@@ -1,6 +1,6 @@
 ---
-title: "External Resources"
-linkTitle: "External Resources"
+title: "외부 자료"
+linkTitle: "외부 자료"
 weight: 4
 type: docs
 categories: ["resource"]

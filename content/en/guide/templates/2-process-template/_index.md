@@ -2,6 +2,8 @@
 title: "Open Source Process"
 weight: 20
 type: docs
+description: >
+  An open source process template with 11 steps to follow at each development stage to meet license obligations and resolve security vulnerabilities.
 ---
 
 The OO Company (hereinafter referred to as the "Company") actively utilizes open source software in the development of products and services that include software. The Company must perform appropriate activities to detect open source security vulnerabilities and follow-up measures, and to comply with the obligations imposed by open source licenses when distributing software, in order to minimize open source risks. We follow the open source process to ensure these activities.

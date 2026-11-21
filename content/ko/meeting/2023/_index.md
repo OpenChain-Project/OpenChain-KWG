@@ -4,5 +4,5 @@ linkTitle: "2023"
 weight: 7977
 type: docs
 description: >
-  2023년에 개최된 OpenChain KWG 미팅 (17th ~ 20th)
+  2023년에 개최된 OpenChain KWG 미팅 (17차 ~ 20차)
 ---

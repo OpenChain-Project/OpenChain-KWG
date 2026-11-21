@@ -2,6 +2,8 @@
 title: "onot"
 weight: 10
 type: docs
+description: >
+  A tool that automatically generates open source notices (NOTICE files) from SBOMs in SPDX format.
 categories: ["guide"]
 tags: ["onot", "notice", "compliance"]
 ---

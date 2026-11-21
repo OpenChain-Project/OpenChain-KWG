@@ -35,7 +35,7 @@ Jeff Shapiro는 [리눅스 재단](https://www.linuxfoundation.org)의 라이선
 
 ## 2. 웨비나 소개와 목적
 
-이번 웨비나는 리눅스 재단(Linux Foundation)에서 **SBOM(Software Bill of Materials)**을 활성화하는 과정을 설명하고, 이를 통해 오픈소스 프로젝트의 라이선스 준수 및 보안 관리 방안을 제시하는 것을 목표로 합니다.
+이번 웨비나는 리눅스 재단(Linux Foundation)에서 <strong>SBOM(Software Bill of Materials)</strong>을 활성화하는 과정을 설명하고, 이를 통해 오픈소스 프로젝트의 라이선스 준수 및 보안 관리 방안을 제시하는 것을 목표로 합니다.
 
 리눅스 재단은 기존의 소스 코드 레벨 라이선스 스캐닝 경험을 바탕으로 SBOM을 생성하며, 정부 규제 기준([CISA NTIA Minimum Specification](https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom))을 충족하거나 초과하는 SBOM을 제공하고자 합니다.  
 SBOM은 소프트웨어 구성요소와 의존성을 추적하여 보안 취약점과 라이선스를 관리하는 데 필수적인 도구로, 이번 웨비나는 다음과 같은 내용을 다룹니다:

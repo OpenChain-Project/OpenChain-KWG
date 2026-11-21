@@ -2,6 +2,8 @@
 title: "Appendix"
 weight: 10
 type: docs
+description: >
+  오픈소스 정책의 부록으로, 역할별 책임과 필요 역량, 담당 조직을 정리한 담당자 현황표입니다.
 categories: ["guide"]
 tags: ["정책"]
 ---

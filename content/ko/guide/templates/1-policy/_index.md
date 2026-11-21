@@ -2,6 +2,8 @@
 title: "오픈소스 정책"
 weight: 10
 type: docs
+description: >
+  회사가 오픈소스를 안전하고 효과적으로 활용하기 위한 원칙과 절차를 정한 오픈소스 정책 템플릿입니다.
 categories: ["guide"]
 tags: ["정책"]
 ---
@@ -440,10 +442,12 @@ This sample open source policy was written with reference to the following two m
     - 프로그램 참여자가 외부 오픈소스 프로젝트에 코드를 기여할 때, 회사의 저작권을 명시해야 합니다.
     - 파일 상단에 다음과 같이 저작권과 라이선스를 표기합니다:
 
+        <!-- REUSE-IgnoreStart -->
         ```text
         Copyright (c) [Year] [Company Name]
         SPDX-License-Identifier: [SPDX_license_name]
         ```
+        <!-- REUSE-IgnoreEnd -->
 
 
 2. **회사 이메일 사용**:

@@ -1,5 +1,5 @@
 ---
-title: "2022년 Steering Committee"
+title: "2022 Steering Committee"
 linkTitle: "2022"
 weight: 20
 type: docs
