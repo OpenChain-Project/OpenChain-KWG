@@ -255,6 +255,102 @@ h1.td-title { font-size: 1.75rem; font-weight: 500; letter-spacing: -0.022em; }
   color: $primary;
 }
 
+// ── 문서 본문 — 홈 톤 이식(라이트 유지 + radius·그림자·transition·teal 액센트) ──
+// 홈과 문서의 '마감' 톤을 이어 단절감을 줄인다. 라이트/다크 양쪽에서 동작하도록 var(--bs-*) 사용.
+.td-content {
+  // 코드블록 — 둥근 모서리 + 얇은 보더 + 부드러운 그림자
+  .highlight {
+    border-radius: $border-radius;
+    border: 1px solid var(--bs-border-color);
+    box-shadow: $box-shadow-sm;
+  }
+
+  // 본문 링크 — hover 색 전환
+  a:not(.btn) { transition: color 0.15s ease; }
+
+  // 본문 이미지 — 둥근 모서리 + 미묘한 그림자
+  img {
+    border-radius: $border-radius-sm;
+  }
+
+  // 인용구 — 좌측 teal 액센트 + 연한 배경
+  blockquote {
+    border-left: 3px solid $primary;
+    background: var(--bs-tertiary-bg);
+    border-radius: 0 $border-radius-sm $border-radius-sm 0;
+    padding: 0.6rem 1.2rem;
+  }
+
+  // 표 — header 강조 + row hover (radius는 border-collapse 때문에 생략)
+  table {
+    th { background: var(--bs-tertiary-bg); font-weight: 600; }
+    tbody tr { transition: background 0.12s ease; }
+    tbody tr:hover { background: var(--bs-tertiary-bg); }
+  }
+}
+
+// alert/pageinfo 박스 — 홈 카드 톤(둥근 모서리)
+// Docsy 기본값(왼쪽만 4px 악센트 바)은 AI 생성 문서의 콜아웃처럼 보여
+// 전체 테두리 얇은 카드 톤으로 바꾼다.
+.td-content .alert,
+.pageinfo {
+  border-radius: $border-radius;
+}
+// pageinfo 는 대부분 저자·라이선스·원문 출처 안내에 쓰인다. 색 배경 상자가 페이지에서 가장
+// 눈에 띄는 요소가 되지 않도록 배경 없이 얇은 테두리와 작은 회색 글씨로 둔다.
+// (Docsy _pageinfo.scss 가 이 파일보다 뒤에 컴파일되므로 선택자를 겹쳐 특이도를 높인다)
+.pageinfo.pageinfo {
+  background: transparent;
+  border: 1px solid var(--bs-border-color);
+  color: var(--bs-secondary-color);
+  font-size: 0.92rem;
+  padding: 0.9rem 1.25rem;
+  p:last-child { margin-bottom: 0; }
+}
+.td-content .alert {
+  @each $color, $value in $theme-colors {
+    &-#{$color} {
+      border-width: 1px;
+      border-color: rgba($value, 0.25);
+    }
+  }
+}
+
+// 본문 줄 길이 80% 제한 해제 — pageinfo와 폭 통일
+// (Docsy _content.scss가 .td-content 직계 자식에 거는 .td-max-width-on-larger-screens 무효화.
+//  유틸리티 클래스 자체는 tabbed-pane 등 다른 쇼트코드가 쓰므로 건드리지 않고,
+//  같은 선택자 목록을 미러링해 동일 특이도로 뒤에서 덮는다)
+@include media-breakpoint-up(lg) {
+  .td-content {
+    .footnotes,
+    > .alert,
+    > .highlight,
+    > .katex-display,
+    > .lead,
+    > .td-table,
+    > blockquote,
+    > dl dd,
+    > h1,
+    > h2,
+    > ol,
+    > p,
+    > pre,
+    > ul {
+      max-width: none;
+    }
+  }
+}
+
+// 문서 내 primary 버튼 — 홈 pill·lift 톤과 통일
+.td-content .btn-primary {
+  border-radius: 2rem;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.td-content .btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: $box-shadow;
+}
+
 // ── 홈 랜딩 (layouts/index.html) ──────────────
 // 히어로(단체사진)만 어둡고, 그 아래는 본문 배경(라이트/다크 테마 변수)에 목록형으로 둔다.
 .kwg-home { overflow-x: hidden; }
