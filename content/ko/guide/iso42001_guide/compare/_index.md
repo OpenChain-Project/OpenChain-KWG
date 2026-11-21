@@ -72,7 +72,7 @@ AI 표준 패밀리의 핵심이다. 인증 심사·실무 적용 시 다음 표
 | **ISO/IEC 42001:2023** | AI Management System (AIMS) | 2023 | **인증 가능한 핵심 표준** |
 | **ISO/IEC 42003** | AIMS implementation guidance | 개발 중 | 42001 구현 가이드 (AI SBOM 포함 추진) |
 | **ISO/IEC 42005:2025** | AI System Impact Assessment | 2025 | 42001 §6.1.4 영향 평가 구체 방법 |
-| **ISO/IEC 42006** | Bodies providing audit and certification of AIMS | 개발 중 | 42001 인증기관 요건 |
+| **ISO/IEC 42006** | Bodies providing audit and certification of AIMS | 2025 | 42001 인증기관 요건 |
 
 ### 3.1 인증 심사에서 자주 함께 참조되는 조합
 
