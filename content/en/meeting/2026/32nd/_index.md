@@ -12,6 +12,18 @@ aliases:
   - /en/meeting/32th/
   - /en/meeting/2026/32th/
 draft: false
+# 홈 화면 '다음 정기 미팅' 영역에 보이는 세션 목록(layouts/index.html)
+sessions:
+  - label: "Session 1"
+    title: "Development Environment & Open Source"
+  - label: "Session 2"
+    title: "The PQC Transition Through Open Source"
+  - label: "Session 3"
+    title: "Practical Open Source Compliance Management in the Age of AI Coding Tools"
+  - label: "Session 4"
+    title: "2026, A Growth Diary of the 3-Year-Old OSORI"
+  - label: "Then"
+    title: "Panel Talk, 2026 Awards"
 ---
 
 <style>

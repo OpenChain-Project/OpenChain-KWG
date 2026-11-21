@@ -12,6 +12,18 @@ aliases:
   - /meeting/32th/
   - /meeting/2026/32th/
 draft: false
+# 홈 화면 '다음 정기 미팅' 영역에 보이는 세션 목록(layouts/index.html)
+sessions:
+  - label: "세션 1"
+    title: "개발환경과 오픈소스"
+  - label: "세션 2"
+    title: "오픈소스로 보는 PQC 전환"
+  - label: "세션 3"
+    title: "AI 코딩 도구 환경에서의 오픈소스 컴플라이언스 관리 실무"
+  - label: "세션 4"
+    title: "2026, 3살 오소리 성장일기"
+  - label: "이어서"
+    title: "패널 토크, 2026 시상식"
 ---
 
 <style>
