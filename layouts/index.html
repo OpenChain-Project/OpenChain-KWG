@@ -97,8 +97,10 @@
     </div>
   </section>
 
-  {{/* 2. 다음 정기 미팅. 세션 목록은 미팅 페이지 프런트매터의 sessions 를 쓴다(없으면 생략). */}}
+  {{/* 2. 다음 정기 미팅. 세션 목록은 미팅 본문의 프로그램 표(layouts/meeting 홍보형 레이아웃)에서
+       "Session N. 제목" 형식의 .kwg-conf-tl__title 만 뽑아 쓴다. 본문에 없으면 목록만 생략한다. */}}
   {{ with $latest }}
+  {{ $sessions := findRESubmatch `kwg-conf-tl__title">\s*Session\s+(\d+)\.\s*([^<]+?)\s*<` .Content }}
   <section class="kwg-sec kwg-meeting">
     <div class="kwg-meeting__info">
       <span class="kwg-eyebrow">{{ if $ko }}다음 정기 미팅{{ else }}Upcoming meeting{{ end }}</span>
@@ -107,10 +109,10 @@
       <p class="kwg-muted">{{ if $ko }}참가 신청은 메일링 리스트로 안내합니다.{{ else }}Registration is announced on the mailing list.{{ end }}</p>
       <a class="kwg-link" href="{{ .RelPermalink }}">{{ if $ko }}프로그램 전체 보기{{ else }}Full program{{ end }}</a>
     </div>
-    {{ with .Params.sessions }}
+    {{ with $sessions }}
     <ul class="kwg-meeting__sessions">
       {{ range . }}
-      <li><span class="kwg-meeting__label">{{ .label }}</span><span>{{ .title }}</span></li>
+      <li><span class="kwg-meeting__label">{{ if $ko }}세션 {{ index . 1 }}{{ else }}Session {{ index . 1 }}{{ end }}</span><span>{{ index . 2 | htmlUnescape }}</span></li>
       {{ end }}
     </ul>
     {{ end }}
