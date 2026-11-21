@@ -606,6 +606,7 @@ ISO/IEC 5230은 다음과 같이 문서화된 오픈소스 기여 정책을 요�
 
 이러한 오픈소스 기여에 대한 정책은 [부록1] 오픈소스 정책 샘플 [7. 오픈소스 기여](../../templates/1-policy/#7-오픈소스-기여)에서 확인할 수 있습니다. 
 
+<!-- REUSE-IgnoreStart -->
 ```
 ## 7. 외부 오픈소스 프로젝트 기여
 
@@ -637,8 +638,8 @@ ISO/IEC 5230은 다음과 같이 문서화된 오픈소스 기여 정책을 요�
     - 프로그램 참여자가 외부 오픈소스 프로젝트에 코드를 기여할 때, 회사의 저작권을 명시해야 합니다.
     - 파일 상단에 다음과 같이 저작권과 라이선스를 표기합니다:
         
-        `textCopyright (c) [Year] [Company Name]
-        SPDX-License-Identifier: [SPDX_license_name]`
+        Copyright (c) [Year] [Company Name]
+        SPDX-License-Identifier: [SPDX_license_name]
         
 2. **회사 이메일 사용**:
     - 오픈소스 프로젝트에 기여할 때는 개인 이메일을 사용하지 말고, 회사 이메일을 사용해야 합니다.
@@ -653,6 +654,7 @@ ISO/IEC 5230은 다음과 같이 문서화된 오픈소스 기여 정책을 요�
     - 외부 오픈소스 프로젝트로의 기여 활동은 프로그램 참여자의 성과 평가에 반영됩니다.
     - OSPO는 정기적으로 기여 활동의 효과성을 평가하고, 필요 시 개선 방안을 제안합니다.
 ```
+<!-- REUSE-IgnoreEnd -->
 
 오픈소스 기여 정책에는 기여 절차, 승인 프로세스, 지식재산권 보호 방안, [CLA (Contributor License Agreement)](https://en.wikipedia.org/wiki/Contributor_License_Agreement) 서명 지침 등이 포함되어야 합니다. 또한 프로그램 참여자들이 회사를 대표하여 오픈소스 커뮤니티에 참여할 때의 행동 지침도 제공해야 합니다.
 

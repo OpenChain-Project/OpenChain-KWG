@@ -252,10 +252,12 @@ The intellectual property of the work you create during your employment is basic
 
 When contributing more than one file, add the copyright and license notices at the top of the files, like this:
 
+<!-- REUSE-IgnoreStart -->
 ~~~
 Copyright (c) {$year} {$Company}
 SPDX-License-Identifier: {$SPDX_license_name}
 ~~~
+<!-- REUSE-IgnoreEnd -->
 Here, $SPDX_license_name is written according to the license of the corresponding open source project.
 
 However, if your contribution is only to modify existing code for the purpose of fixing a bug, you do not need to add a copyright notice for that code modification.

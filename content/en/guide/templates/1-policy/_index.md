@@ -381,10 +381,12 @@ The intellectual property of the works created by members during their employmen
 
 When contributing one or more files, indicate the copyright and license at the top of the file as follows:
 
+<!-- REUSE-IgnoreStart -->
 ~~~
 Copyright (c) {$year} {$Company}
 SPDX-License-Identifier: {$SPDX_license_name}
 ~~~
+<!-- REUSE-IgnoreEnd -->
 
 Here, $SPDX_license_name is written according to the license policy of the open source project in question.
 
