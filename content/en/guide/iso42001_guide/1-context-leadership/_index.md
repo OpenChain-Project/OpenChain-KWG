@@ -44,14 +44,14 @@ so they must be reflected in the analysis of the organization's context. This ma
 | **EU AI Act §11 + Annex IV** | 2027 (high-risk) | Obligation to prepare technical documentation | AI SBOM as a core element of technical documentation |
 | **Korea's AI Basic Act (AI 기본법)** | In force from 2026-01 | Classification of high-impact AI, impact assessment, AI system labeling obligations, disclosure of training data sources | Obligation to prepare AI SBOMs and model cards |
 | **US Copyright Office AI guidance** | Published 2023-03, updated 2024 | Fully AI-generated works = no human authorship (cannot be registered for company copyright). Copyright is recognized according to the proportion of human review and modification | Handling copyright ownership of AI coding tool output |
-| **US EO 14110** (2023) | In effect | SBOM requirements for federal AI systems, reporting of dual-use AI models | AI SBOM standardization, adoption of NIST AI RMF |
+| **US EO 14110** (2023) | Revoked 2025-01 (replaced by EO 14179) | SBOM requirements for federal AI systems, reporting of dual-use AI models | AI SBOM standardization, adoption of NIST AI RMF |
 | **NIST AI RMF 2.0** | Published 2024 | Standard framework for AI risk management (GOVERN, MAP, MEASURE, MANAGE) | Complementary to ISO/IEC 42001 |
 | **OSAID 1.0** (OSI, 2024-10) | In effect | Definition of an "open source AI model": disclosure of three elements (data, code, weights) | "Open Weight" models (Llama, Gemma) do not meet OSAID, so classification in tables must be accurate |
 | **ISO/IEC 42005** (2025) | Published | Standard for AI system impact assessment | Specific techniques for the §6.1.4 impact assessment |
 | **ISO/IEC 23894** (2023) | Published | Standard for AI risk management | Supplements the §6.1.2 risk assessment |
 | **ISO/IEC 5338** (2023) | Published | Standard for AI system life cycle | Defines life cycle stages for §8.5 |
-| **ISO/IEC 42003** | DIS (as of 2026-05) | Certification guidance for AI management systems | OpenChain AI WG is working to provide input |
-| **ISO/IEC 42006** | In effect 2026 | Requirements for AI certification bodies | Based on ISO 17021-1, reliability of third-party certification |
+| **ISO/IEC 42003** | In development (new project stage) | Implementation guidance for AI management systems | OpenChain AI WG is working to provide input |
+| **ISO/IEC 42006** | Published (2025-07) | Requirements for AI certification bodies | Based on ISO 17021-1, reliability of third-party certification |
 
 {{% alert title="Using the matrix in context analysis" color="info" %}}
 Map this matrix to external issues when analyzing the organization's context (§4.1). The other pages of this guide

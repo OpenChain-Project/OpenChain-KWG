@@ -72,7 +72,7 @@ and practical application helps meet the requirements more fully.
 | **ISO/IEC 42001:2023** | AI Management System (AIMS) | 2023 | **Certifiable core standard** |
 | **ISO/IEC 42003** | AIMS implementation guidance | In development | 42001 implementation guidance (efforts to include AI SBOM) |
 | **ISO/IEC 42005:2025** | AI System Impact Assessment | 2025 | Specific method for the 42001 §6.1.4 impact assessment |
-| **ISO/IEC 42006** | Bodies providing audit and certification of AIMS | In development | Requirements for 42001 certification bodies |
+| **ISO/IEC 42006** | Bodies providing audit and certification of AIMS | 2025 | Requirements for 42001 certification bodies |
 
 ### 3.1 Combinations Often Referred to Together in Certification Audits
 

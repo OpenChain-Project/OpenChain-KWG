@@ -71,7 +71,7 @@ When assessing the impact an AI system can have on individuals, groups, and soci
 also include the impact caused by open source components.
 
 {{% alert title="ISO/IEC 42005:2025, AI System Impact Assessment" color="info" %}}
-ISO/IEC 42005:2025 (published 2026-01) is an SC 42 family standard that provides the **specific method of performing**
+ISO/IEC 42005:2025 (published 2025-05) is an SC 42 family standard that provides the **specific method of performing**
 the §6.1.4 AI system impact assessment. ISO 42001 states only the principle that "an impact assessment shall be performed,"
 but 42005 provides guidance on the assessment scope, timing, interested parties, and even the documentation format.
 
