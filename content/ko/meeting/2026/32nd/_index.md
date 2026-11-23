@@ -156,13 +156,13 @@ draft: false
   <div class="kwg-conf-speaker">
     <div class="kwg-conf-speaker__name">이지현 책임</div>
     <div class="kwg-conf-speaker__role">현대오토에버 · Session 1</div>
-    <p class="kwg-conf-speaker__bio">2023년 19차 모임에서 현대차그룹 오픈소스 관리시스템 구축 사례(현대오토에버)를 발표했습니다.</p>
+    <p class="kwg-conf-speaker__bio">현대오토에버에서 오픈소스 라이선스 컴플라이언스를 담당하는 전문가입니다. 컴플라이언스 업무를 자동화하는 도구를 직접 개발하고 운영하며, 개발 단계에서 오픈소스 사용을 점검하는 환경을 개선하고 있습니다.</p>
   </div>
   <div class="kwg-conf-speaker">
     <img class="kwg-conf-speaker__photo" loading="lazy" src="jinyoung-chae.jpg" alt="채진영 프로">
     <div class="kwg-conf-speaker__name">채진영 프로</div>
     <div class="kwg-conf-speaker__role">삼성SDS · Session 2</div>
-    <p class="kwg-conf-speaker__bio">오픈소스 소프트웨어 보안과 컴플라이언스 분야에서 활동합니다. 사내 CI/CD 환경의 Jenkins 빌드 파이프라인에 Black Duck Hub 스크립트를 연동해 오픈소스 보안 검증 체계를 운영한 경험이 있습니다.</p>
+    <p class="kwg-conf-speaker__bio">삼성SDS에서 2017년부터 오픈소스 거버넌스 업무를 총괄하고 있습니다. ISO/IEC 5230과 ISO/IEC 18974 인증을 추진했으며, 자동화 도구를 활용한 SBOM 체계 구축과 오픈소스 관리 시스템의 운영·개선을 맡고 있습니다. 삼성SDS 표준 오픈소스 체계를 수립했고, 오픈소스 활용 전 사전 검토 프로세스로 오픈소스 리스크를 체계적으로 예방하고 있습니다.</p>
   </div>
   <div class="kwg-conf-speaker">
     <img class="kwg-conf-speaker__photo" loading="lazy" src="song-ha-baek.jpg" alt="백송하 그룹장">
