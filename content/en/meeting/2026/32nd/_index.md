@@ -156,13 +156,13 @@ draft: false
   <div class="kwg-conf-speaker">
     <div class="kwg-conf-speaker__name">Jihyun Lee, Senior Manager</div>
     <div class="kwg-conf-speaker__role">Hyundai AutoEver · Session 1</div>
-    <p class="kwg-conf-speaker__bio">Presented the Hyundai Motor Group open source management system case (Hyundai AutoEver) at the 19th meeting in 2023.</p>
+    <p class="kwg-conf-speaker__bio">An open source license compliance specialist at Hyundai AutoEver. Develops and operates tools that automate compliance work, and improves the environment for checking open source use at the development stage.</p>
   </div>
   <div class="kwg-conf-speaker">
     <img class="kwg-conf-speaker__photo" loading="lazy" src="jinyoung-chae.jpg" alt="Jinyoung Chae">
     <div class="kwg-conf-speaker__name">Jinyoung Chae</div>
     <div class="kwg-conf-speaker__role">Samsung SDS · Session 2</div>
-    <p class="kwg-conf-speaker__bio">Works in open source software security and compliance. Has experience running an open source security verification process by integrating Black Duck Hub scripts into the Jenkins build pipelines of the internal CI/CD environment.</p>
+    <p class="kwg-conf-speaker__bio">Has led open source governance at Samsung SDS since 2017. Drove the ISO/IEC 5230 and ISO/IEC 18974 certifications, and currently operates and improves the open source management system and an SBOM framework built on automation tools. Established the Samsung SDS standard open source framework and systematically prevents open source risk through a pre-use review process.</p>
   </div>
   <div class="kwg-conf-speaker">
     <img class="kwg-conf-speaker__photo" loading="lazy" src="song-ha-baek.jpg" alt="Song-ha Baek">
