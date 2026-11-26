@@ -21,11 +21,16 @@ The Steering Committee is the organization that manages the OpenChain KWG and pe
 
 * Haksung Jang, SK telecom (Lead, ~2026.12)
 * Violet Hwang, Kakao (~2026.12)
-* Yunhwan Jung, Samesung Electronics (~2026.12)
+* Yunhwan Jung, Samsung Electronics (~2026.12)
 * Seoyeon Lee, Line Plus (~2027.12)
 * Soim Kim, LG Electronics (~2027.12)
-* Darae Ahn, Samesung Electronics (~2027.12)
+* Darae Ahn, Samsung Electronics (~2027.12)
 * Yally Lee, Kakao (~2027.12)
+* Jimin Park, LG AI Research (~2028.12)
+* Hyunjoo Ryu, Hancom (~2028.12)
+* Wonjae Park, LG Electronics (~2028.12)
+* Song-ha Baek, Hyundai Motor Company (~2028.12)
+* Minae Lee, KakaoBank (~2028.12)
 
 ## Contact
 
