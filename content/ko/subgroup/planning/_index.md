@@ -17,8 +17,6 @@ description: >
 
 ## Member 현황
 
-<img src="../../images/content/about/openchain_planning25.png" alt="Planning_25">
-
 * 장학성, SK텔레콤 (Lead, ~2026.12)
 * 황은경, 카카오 (~2026.12)
 * 정윤환, 삼성전자 (~2026.12)
