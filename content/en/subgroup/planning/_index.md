@@ -30,6 +30,8 @@ The Steering Committee is the organization that manages the OpenChain KWG and pe
 * Song-ha Baek, Hyundai Motor Company (~2028.12)
 * Minae Lee, KakaoBank (~2028.12)
 
+Earlier lineups are on the [Steering Committee lineage]({{< relref "/subgroup/planning/lineage" >}}) page.
+
 ## Contact
 
 If you have any inquiries/requests, please contact us via the email below.
