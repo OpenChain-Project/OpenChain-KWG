@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" role="img">
+  <style>text { font-family: "Iowan Old Style", Palatino, Georgia, serif; }</style>
+  <title>Steering Committee lineage</title>
+  <desc>Steering Committee members named in the minutes from 2022 to the present. The vertical line connects Haksung Jang only, and a crown marks the Chair.</desc>
+  <rect width="1000" height="600" fill="#f4efe3"/>
+  <rect x="8" y="8" width="984" height="584" fill="none" stroke-width="1.25" stroke="#2b2418"/>
+  <rect x="14" y="14" width="972" height="572" fill="none" stroke-width="0.6" stroke="#8d6a2b"/>
+  <g transform="translate(566 36)" fill="#8d6a2b">
+    <path d="M-16 10 L-12 0 L-6 7 L0 -4 L6 7 L12 0 L16 10 Z"/>
+    <rect x="-14" y="10" width="28" height="3"/>
+  </g>
+  <text x="566" y="68" text-anchor="middle" font-size="20" fill="#2b2418">Steering Committee</text>
+  <g transform="translate(880 30) scale(0.55)" fill="#8d6a2b">
+    <path d="M-16 10 L-12 0 L-6 7 L0 -4 L6 7 L12 0 L16 10 Z"/>
+    <rect x="-14" y="10" width="28" height="3"/>
+  </g>
+  <text x="904" y="42" font-size="12" fill="#7c2432">Chair</text>
+  <text x="20" y="128" font-size="12" fill="#7c2432">2022–2023</text>
+  <g stroke-width="1.25" stroke="#7c2432" fill="none">
+    <path d="M336 88 H796"/>
+    <path d="M336 88 V96 M566 88 V96 M796 88 V96"/>
+  </g>
+  <g stroke-width="1">
+    <rect x="246" y="96" width="180" height="58" fill="#fffaf2" stroke="#2b2418"/>
+    <rect x="476" y="96" width="180" height="58" stroke-width="1.4" fill="#f6e6c0" stroke="#8d6a2b"/>
+    <rect x="706" y="96" width="180" height="58" fill="#fffaf2" stroke="#2b2418"/>
+  </g>
+  <g transform="translate(566 92) scale(0.45)" fill="#8d6a2b">
+    <path d="M-16 10 L-12 0 L-6 7 L0 -4 L6 7 L12 0 L16 10 Z"/>
+  </g>
+  <g font-size="14" text-anchor="middle" fill="#2b2418">
+    <text x="336" y="120">Violet Hwang</text>
+    <text x="566" y="120">Haksung Jang</text>
+    <text x="796" y="120">Yunhwan Jung</text>
+  </g>
+  <g font-size="11" text-anchor="middle" fill="#6a5b48">
+    <text x="336" y="140">Kakao</text>
+    <text x="566" y="140">SK telecom</text>
+    <text x="796" y="140">Samsung Electronics</text>
+  </g>
+  <path d="M566 154 V188" stroke-width="1.5" stroke="#7c2432" fill="none"/>
+  <text x="20" y="220" font-size="12" fill="#7c2432">2024–2025</text>
+  <g stroke-width="1.25" stroke="#7c2432" fill="none">
+    <path d="M234 180 H400"/>
+    <path d="M732 180 H898"/>
+    <path d="M234 180 V188 M400 180 V188 M732 180 V188 M898 180 V188"/>
+  </g>
+  <g stroke-width="1">
+    <rect x="158" y="188" width="152" height="58" fill="#fffaf2" stroke="#2b2418"/>
+    <rect x="324" y="188" width="152" height="58" fill="#fffaf2" stroke="#2b2418"/>
+    <rect x="490" y="188" width="152" height="58" stroke-width="1.4" fill="#f6e6c0" stroke="#8d6a2b"/>
+    <rect x="656" y="188" width="152" height="58" fill="#fffaf2" stroke="#2b2418"/>
+    <rect x="822" y="188" width="152" height="58" fill="#fffaf2" stroke="#2b2418"/>
+  </g>
+  <g transform="translate(566 184) scale(0.45)" fill="#8d6a2b">
+    <path d="M-16 10 L-12 0 L-6 7 L0 -4 L6 7 L12 0 L16 10 Z"/>
+  </g>
+  <g font-size="13" text-anchor="middle" fill="#2b2418">
+    <text x="234" y="212">Jiho Han</text>
+    <text x="400" y="212">Seoyeon Lee</text>
+    <text x="566" y="212">Haksung Jang</text>
+    <text x="732" y="212">Soim Kim</text>
+    <text x="898" y="212">Darae Ahn</text>
+  </g>
+  <g font-size="10" text-anchor="middle" fill="#6a5b48">
+    <text x="234" y="232">NCSOFT</text>
+    <text x="400" y="232">LINE Plus</text>
+    <text x="566" y="232">SK telecom</text>
+    <text x="732" y="232">LG Electronics</text>
+    <text x="898" y="232">Samsung</text>
+  </g>
+  <path d="M566 246 V280" stroke-width="1.5" stroke="#7c2432" fill="none"/>
+  <text x="20" y="312" font-size="12" fill="#7c2432">Current · 2026</text>
+  <g stroke-width="1.25" stroke="#7c2432" fill="none">
+    <path d="M336 272 H500"/>
+    <path d="M632 272 H796"/>
+    <path d="M336 272 V280 M796 272 V280"/>
+  </g>
+  <g stroke-width="1">
+    <rect x="246" y="280" width="180" height="58" fill="#fffaf2" stroke="#2b2418"/>
+    <rect x="476" y="280" width="180" height="58" stroke-width="1.4" fill="#f6e6c0" stroke="#8d6a2b"/>
+    <rect x="706" y="280" width="180" height="58" fill="#fffaf2" stroke="#2b2418"/>
+  </g>
+  <g transform="translate(566 276) scale(0.45)" fill="#8d6a2b">
+    <path d="M-16 10 L-12 0 L-6 7 L0 -4 L6 7 L12 0 L16 10 Z"/>
+  </g>
+  <g font-size="14" text-anchor="middle" fill="#2b2418">
+    <text x="336" y="304">Violet Hwang</text>
+    <text x="566" y="304">Haksung Jang</text>
+    <text x="796" y="304">Yunhwan Jung</text>
+  </g>
+  <g font-size="11" text-anchor="middle" fill="#6a5b48">
+    <text x="336" y="324">Kakao · ~2026.12</text>
+    <text x="566" y="324">SK telecom · ~2026.12</text>
+    <text x="796" y="324">Samsung · ~2026.12</text>
+  </g>
+  <text x="20" y="412" font-size="12" fill="#7c2432">Current · 2027</text>
+  <g stroke-width="1.25" stroke="#7c2432" fill="none">
+    <path d="M275 372 H857"/>
+    <path d="M275 372 V380 M469 372 V380 M663 372 V380 M857 372 V380"/>
+  </g>
+  <g stroke-width="1">
+    <rect x="190" y="380" width="170" height="58" fill="#fffaf2" stroke="#2b2418"/>
+    <rect x="384" y="380" width="170" height="58" fill="#fffaf2" stroke="#2b2418"/>
+    <rect x="578" y="380" width="170" height="58" fill="#fffaf2" stroke="#2b2418"/>
+    <rect x="772" y="380" width="170" height="58" fill="#fffaf2" stroke="#2b2418"/>
+  </g>
+  <g font-size="14" text-anchor="middle" fill="#2b2418">
+    <text x="275" y="404">Seoyeon Lee</text>
+    <text x="469" y="404">Soim Kim</text>
+    <text x="663" y="404">Darae Ahn</text>
+    <text x="857" y="404">Yally Lee</text>
+  </g>
+  <g font-size="10" text-anchor="middle" fill="#6a5b48">
+    <text x="275" y="424">LINE Plus · ~2027.12</text>
+    <text x="469" y="424">LG Electronics · ~2027.12</text>
+    <text x="663" y="424">Samsung · ~2027.12</text>
+    <text x="857" y="424">Kakao · ~2027.12</text>
+  </g>
+  <text x="20" y="512" font-size="12" fill="#7c2432">Current · 2028</text>
+  <g stroke-width="1.25" stroke="#7c2432" fill="none">
+    <path d="M234 472 H898"/>
+    <path d="M234 472 V480 M400 472 V480 M566 472 V480 M732 472 V480 M898 472 V480"/>
+  </g>
+  <g stroke-width="1">
+    <rect x="158" y="480" width="152" height="58" fill="#fffaf2" stroke="#2b2418"/>
+    <rect x="324" y="480" width="152" height="58" fill="#fffaf2" stroke="#2b2418"/>
+    <rect x="490" y="480" width="152" height="58" fill="#fffaf2" stroke="#2b2418"/>
+    <rect x="656" y="480" width="152" height="58" fill="#fffaf2" stroke="#2b2418"/>
+    <rect x="822" y="480" width="152" height="58" fill="#fffaf2" stroke="#2b2418"/>
+  </g>
+  <g font-size="12" text-anchor="middle" fill="#2b2418">
+    <text x="234" y="502">Jimin Park</text>
+    <text x="400" y="502">Hyunjoo Ryu</text>
+    <text x="566" y="502">Wonjae Park</text>
+    <text x="732" y="502">Song-ha Baek</text>
+    <text x="898" y="502">Minae Lee</text>
+  </g>
+  <g font-size="9" text-anchor="middle" fill="#6a5b48">
+    <text x="234" y="520">LG AI Research</text>
+    <text x="400" y="520">Hancom</text>
+    <text x="566" y="520">LG Electronics</text>
+    <text x="732" y="520">Hyundai Motor</text>
+    <text x="898" y="520">KakaoBank</text>
+  </g>
+</svg>

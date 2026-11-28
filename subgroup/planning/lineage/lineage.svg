@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" role="img">
+  <style>text { font-family: "Apple Myungjo", "Iowan Old Style", Georgia, serif; }</style>
+  <title>운영위원 변경 이력</title>
+  <desc>2022년부터 현재까지 회의록에 이름이 있는 운영위원. 세로선은 장학성만 연결하고, 왕관은 의장이다.</desc>
+  <rect width="1000" height="600" fill="#f4efe3"/>
+  <rect x="8" y="8" width="984" height="584" fill="none" stroke-width="1.25" stroke="#2b2418"/>
+  <rect x="14" y="14" width="972" height="572" fill="none" stroke-width="0.6" stroke="#8d6a2b"/>
+  <g transform="translate(566 36)" fill="#8d6a2b">
+    <path d="M-16 10 L-12 0 L-6 7 L0 -4 L6 7 L12 0 L16 10 Z"/>
+    <rect x="-14" y="10" width="28" height="3"/>
+  </g>
+  <text x="566" y="68" text-anchor="middle" font-size="20" fill="#2b2418">운영위원회</text>
+  <g transform="translate(900 30) scale(0.55)" fill="#8d6a2b">
+    <path d="M-16 10 L-12 0 L-6 7 L0 -4 L6 7 L12 0 L16 10 Z"/>
+    <rect x="-14" y="10" width="28" height="3"/>
+  </g>
+  <text x="924" y="42" font-size="12" fill="#7c2432">의장</text>
+  <text x="20" y="128" font-size="12" fill="#7c2432">2022–2023</text>
+  <g stroke-width="1.25" stroke="#7c2432" fill="none">
+    <path d="M336 88 H796"/>
+    <path d="M336 88 V96 M566 88 V96 M796 88 V96"/>
+  </g>
+  <g stroke-width="1">
+    <rect x="246" y="96" width="180" height="58" fill="#fffaf2" stroke="#2b2418"/>
+    <rect x="476" y="96" width="180" height="58" stroke-width="1.4" fill="#f6e6c0" stroke="#8d6a2b"/>
+    <rect x="706" y="96" width="180" height="58" fill="#fffaf2" stroke="#2b2418"/>
+  </g>
+  <g transform="translate(566 92) scale(0.45)" fill="#8d6a2b">
+    <path d="M-16 10 L-12 0 L-6 7 L0 -4 L6 7 L12 0 L16 10 Z"/>
+  </g>
+  <g font-size="15" text-anchor="middle" fill="#2b2418">
+    <text x="336" y="122">황은경</text>
+    <text x="566" y="122">장학성</text>
+    <text x="796" y="122">정윤환</text>
+  </g>
+  <g font-size="11" text-anchor="middle" fill="#6a5b48">
+    <text x="336" y="142">카카오</text>
+    <text x="566" y="142">SK텔레콤</text>
+    <text x="796" y="142">삼성전자</text>
+  </g>
+  <path d="M566 154 V188" stroke-width="1.5" stroke="#7c2432" fill="none"/>
+  <text x="20" y="220" font-size="12" fill="#7c2432">2024–2025</text>
+  <g stroke-width="1.25" stroke="#7c2432" fill="none">
+    <path d="M234 180 H400"/>
+    <path d="M732 180 H898"/>
+    <path d="M234 180 V188 M400 180 V188 M732 180 V188 M898 180 V188"/>
+  </g>
+  <g stroke-width="1">
+    <rect x="158" y="188" width="152" height="58" fill="#fffaf2" stroke="#2b2418"/>
+    <rect x="324" y="188" width="152" height="58" fill="#fffaf2" stroke="#2b2418"/>
+    <rect x="490" y="188" width="152" height="58" stroke-width="1.4" fill="#f6e6c0" stroke="#8d6a2b"/>
+    <rect x="656" y="188" width="152" height="58" fill="#fffaf2" stroke="#2b2418"/>
+    <rect x="822" y="188" width="152" height="58" fill="#fffaf2" stroke="#2b2418"/>
+  </g>
+  <g transform="translate(566 184) scale(0.45)" fill="#8d6a2b">
+    <path d="M-16 10 L-12 0 L-6 7 L0 -4 L6 7 L12 0 L16 10 Z"/>
+  </g>
+  <g font-size="14" text-anchor="middle" fill="#2b2418">
+    <text x="234" y="214">한지호</text>
+    <text x="400" y="214">이서연</text>
+    <text x="566" y="214">장학성</text>
+    <text x="732" y="214">김소임</text>
+    <text x="898" y="214">안다래</text>
+  </g>
+  <g font-size="11" text-anchor="middle" fill="#6a5b48">
+    <text x="234" y="234">NCSOFT</text>
+    <text x="400" y="234">라인플러스</text>
+    <text x="566" y="234">SK텔레콤</text>
+    <text x="732" y="234">LG전자</text>
+    <text x="898" y="234">삼성전자</text>
+  </g>
+  <path d="M566 246 V280" stroke-width="1.5" stroke="#7c2432" fill="none"/>
+  <text x="20" y="312" font-size="12" fill="#7c2432">현재 · 2026</text>
+  <g stroke-width="1.25" stroke="#7c2432" fill="none">
+    <path d="M336 272 H500"/>
+    <path d="M632 272 H796"/>
+    <path d="M336 272 V280 M796 272 V280"/>
+  </g>
+  <g stroke-width="1">
+    <rect x="246" y="280" width="180" height="58" fill="#fffaf2" stroke="#2b2418"/>
+    <rect x="476" y="280" width="180" height="58" stroke-width="1.4" fill="#f6e6c0" stroke="#8d6a2b"/>
+    <rect x="706" y="280" width="180" height="58" fill="#fffaf2" stroke="#2b2418"/>
+  </g>
+  <g transform="translate(566 276) scale(0.45)" fill="#8d6a2b">
+    <path d="M-16 10 L-12 0 L-6 7 L0 -4 L6 7 L12 0 L16 10 Z"/>
+  </g>
+  <g font-size="15" text-anchor="middle" fill="#2b2418">
+    <text x="336" y="306">황은경</text>
+    <text x="566" y="306">장학성</text>
+    <text x="796" y="306">정윤환</text>
+  </g>
+  <g font-size="11" text-anchor="middle" fill="#6a5b48">
+    <text x="336" y="326">카카오 · ~2026.12</text>
+    <text x="566" y="326">SK텔레콤 · ~2026.12</text>
+    <text x="796" y="326">삼성전자 · ~2026.12</text>
+  </g>
+  <text x="20" y="412" font-size="12" fill="#7c2432">현재 · 2027</text>
+  <g stroke-width="1.25" stroke="#7c2432" fill="none">
+    <path d="M275 372 H857"/>
+    <path d="M275 372 V380 M469 372 V380 M663 372 V380 M857 372 V380"/>
+  </g>
+  <g stroke-width="1">
+    <rect x="190" y="380" width="170" height="58" fill="#fffaf2" stroke="#2b2418"/>
+    <rect x="384" y="380" width="170" height="58" fill="#fffaf2" stroke="#2b2418"/>
+    <rect x="578" y="380" width="170" height="58" fill="#fffaf2" stroke="#2b2418"/>
+    <rect x="772" y="380" width="170" height="58" fill="#fffaf2" stroke="#2b2418"/>
+  </g>
+  <g font-size="15" text-anchor="middle" fill="#2b2418">
+    <text x="275" y="406">이서연</text>
+    <text x="469" y="406">김소임</text>
+    <text x="663" y="406">안다래</text>
+    <text x="857" y="406">이민정</text>
+  </g>
+  <g font-size="11" text-anchor="middle" fill="#6a5b48">
+    <text x="275" y="426">라인플러스 · ~2027.12</text>
+    <text x="469" y="426">LG전자 · ~2027.12</text>
+    <text x="663" y="426">삼성전자 · ~2027.12</text>
+    <text x="857" y="426">카카오 · ~2027.12</text>
+  </g>
+  <text x="20" y="512" font-size="12" fill="#7c2432">현재 · 2028</text>
+  <g stroke-width="1.25" stroke="#7c2432" fill="none">
+    <path d="M234 472 H898"/>
+    <path d="M234 472 V480 M400 472 V480 M566 472 V480 M732 472 V480 M898 472 V480"/>
+  </g>
+  <g stroke-width="1">
+    <rect x="158" y="480" width="152" height="58" fill="#fffaf2" stroke="#2b2418"/>
+    <rect x="324" y="480" width="152" height="58" fill="#fffaf2" stroke="#2b2418"/>
+    <rect x="490" y="480" width="152" height="58" fill="#fffaf2" stroke="#2b2418"/>
+    <rect x="656" y="480" width="152" height="58" fill="#fffaf2" stroke="#2b2418"/>
+    <rect x="822" y="480" width="152" height="58" fill="#fffaf2" stroke="#2b2418"/>
+  </g>
+  <g font-size="14" text-anchor="middle" fill="#2b2418">
+    <text x="234" y="504">박지민</text>
+    <text x="400" y="504">류현주</text>
+    <text x="566" y="504">박원재</text>
+    <text x="732" y="504">백송하</text>
+    <text x="898" y="504">이민애</text>
+  </g>
+  <g font-size="10" text-anchor="middle" fill="#6a5b48">
+    <text x="234" y="524">LG AI연구원</text>
+    <text x="400" y="524">한컴</text>
+    <text x="566" y="524">LG전자</text>
+    <text x="732" y="524">현대자동차</text>
+    <text x="898" y="524">카카오뱅크</text>
+  </g>
+</svg>
